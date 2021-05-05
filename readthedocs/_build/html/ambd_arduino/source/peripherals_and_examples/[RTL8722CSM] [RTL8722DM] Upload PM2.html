@@ -1,0 +1,263 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>[RTL8722CSM] [RTL8722DM] Upload PM2 &mdash; amebaDocs 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> amebaDocs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Open Source SDKs:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/arduino_index.html">Arduino SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_micropython/source/index.html">Micropython SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_sdk/source/index.html">Standard SDK</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">amebaDocs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>[RTL8722CSM] [RTL8722DM] Upload PM2</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/ambd_arduino/source/peripherals_and_examples/[RTL8722CSM] [RTL8722DM] Upload PM2.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rtl8722csm-rtl8722dm-upload-pm2">
+<h1>[RTL8722CSM] [RTL8722DM] Upload PM2<a class="headerlink" href="#rtl8722csm-rtl8722dm-upload-pm2" title="Permalink to this headline">¶</a></h1>
+<p>Intro to LASS</p>
+<p>The LASS stands for “Location Aware Sensor System”. It is an open
+project and was started only for the interest of public welfare. Find
+detailed
+introduction <a class="reference external" href="http://makerpro.cc/2015/09/projectplus-lass/">here</a>.</p>
+<p>Practically, LASS is based on MQTT protocol to collect all kinds of
+uploaded data, and for those who need these data can subscribe top as
+well. Find more LASS information at their <a class="reference external" href="https://lass.hackpad.com/">official
+hackpad</a>.</p>
+<p>Preparation</p>
+<ul class="simple">
+<li><p>Ameba x 1</p></li>
+<li><p>PlanTower PMS3003 (or PMS5003) x 1</p></li>
+</ul>
+<p>Example</p>
+<p>In this example, we use applications mentioned at our website,
+including:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt><a class="reference external" href="https://www.amebaiot.com/amebad-arduino-mqtt-upload-listen/">MQTT</a>:</dt><dd><p>a MQTT-Broker to connect to LASS. The Client is “FT1_0XXXX”, the
+XXXX are the four last digits of Ameba’s Wi-Fi MAC, and the
+outTopic is “LASS/Test/Pm25Ameba/<strong>clientID</strong>“, where clientID
+is the actual Ameba’s MQTT client ID.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><a class="reference external" href="https://www.amebaiot.com/amebad-arduino-utc-time/">NTP</a>: uploaded</dt><dd><p>data must have time notation</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><a class="reference external" href="https://www.amebaiot.com/amebad-arduino-pm25/">PM2.5</a>: uploaded</dt><dd><p>data includes PM2.5 information</p>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Open the example. “File” -&gt; “Examples” -&gt; “AmebaMQTTClient” -&gt;
+“lass_basic”<a class="reference internal" href="../../../_images/image149.png"><img alt="10-1" src="../../../_images/image149.png" style="width: 6.09028in; height: 8.08333in;" /></a>This example requires internet connection, so make
+sure you fill in SSID and PASS into AP information that you wish to
+connect. Also, LASS requires GPS information. There is no GPS sensor
+included in this example, so you must manually provide GPS information.
+Use Google Map to find the coordinates you plan to place your Ameba. You
+can see in this example that the latitude is 24.7814033, and the
+longitude is 120.9933676<a class="reference internal" href="../../../_images/image248.png"><img alt="10-2" src="../../../_images/image248.png" style="width: 6.5in; height: 4.52708in;" /></a>Fill in GPS info at gps_lat and
+gps_lon.<a class="reference internal" href="../../../_images/image328.png"><img alt="10-3" src="../../../_images/image328.png" style="width: 4.56944in; height: 5.49306in;" /></a>Then connect sensors according to UART-PlanTower
+PMS3003 wiring example. RTL8722 wiring diagram:<a class="reference internal" href="../../../_images/image426.png"><img alt="10-4" src="../../../_images/image426.png" style="width: 6.5in; height: 5.30069in;" /></a>Compile the code
+and upload it to Ameba. After pressing the Reset button, Ameba will
+attempt to read PM2.5 data every minute and upload it to LASS
+MQTT-Broker. Open Serial Monitor to see the uploaded data, including
+client id, topic, and current PM2.5 status.<a class="reference internal" href="../../../_images/image515.png"><img alt="10-5" src="../../../_images/image515.png" style="width: 6.5in; height: 4.10833in;" /></a>  We can also use
+MQTTlens to verify if the data is properly uploaded. Enter
+“gpssensor.ddns.net” as the MQTT-Broker server and “LASS/Test/PM25/live”
+as the subscribe topic to receive data. The time uses UTC format, and
+the PM2.5 data stores in s-d0. In the figure, s_d0 = 9 represents that
+the PM2.5 is 9, meaning that the entire publish/ subscribe process is
+working successfully.</p>
+<a class="reference internal image-reference" href="../../../_images/image66.png"><img alt="10-6" src="../../../_images/image66.png" style="width: 6.5in; height: 4.51528in;" /></a>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ameba IoT.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

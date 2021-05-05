@@ -1,0 +1,348 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>[RTL8722CSM] [RTL8722DM] Google Cloud IoT &mdash; amebaDocs 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Peripheral Examples" href="Peripheral%20Examples.html" />
+    <link rel="prev" title="[RTL8722CSM] [RTL8722DM] Approximate UDP Receive Timeout" href="%5BRTL8722CSM%5D%20%5BRTL8722DM%5D%20Approximate%20UDP%20Receive%20Timeout.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> amebaDocs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Open Source SDKs:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../source/arduino_index.html">Arduino SDK</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../index.html">AmebaD</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../ambd_mini/source/index.html">AmebaD-mini</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../ambd_mini/source/getting_started/RTL8722DM_mini_Arduino%20SDK_getting%20start.html">Getting Started with RTL8722DM_mini</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../ambd_mini/source/download/index.html">Download</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../ambd_mini/source/peripherals_and_examples/index.html">Peripherals &amp; Examples</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../../ambd_mini/source/peripherals_and_examples/RTL8722DM_MINI_Arduino_SDK_basic_example_table%2015Apr2021.html">Basic Examples</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="Network%20Examples.html">Network Examples</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Peripheral%20Examples.html">Peripheral Examples</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Components%20used.html">Components used</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../ambd_mini/source/board_hdk/index.html">Board HDK</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../ambd_mini/source/api_documents/index.html">API Documents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../ambd_mini/source/resources/index.html">Resources</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../ambd_mini/source/support/index.html">Support</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_micropython/source/index.html">Micropython SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_sdk/source/index.html">Standard SDK</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">amebaDocs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../source/arduino_index.html">Arduino SDK</a> &raquo;</li>
+        
+          <li><a href="../index.html">AmebaD</a> &raquo;</li>
+        
+          <li><a href="index.html">Peripherals &amp; Examples</a> &raquo;</li>
+        
+          <li><a href="Network%20Examples.html">Network Examples</a> &raquo;</li>
+        
+      <li>[RTL8722CSM] [RTL8722DM] Google Cloud IoT</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/ambd_arduino/source/peripherals_and_examples/[RTL8722CSM] [RTL8722DM] Google Cloud IoT.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rtl8722csm-rtl8722dm-google-cloud-iot">
+<h1>[RTL8722CSM] [RTL8722DM] Google Cloud IoT<a class="headerlink" href="#rtl8722csm-rtl8722dm-google-cloud-iot" title="Permalink to this headline">¶</a></h1>
+<p>Preparation</p>
+<ul class="simple">
+<li><p>Ameba x 1</p></li>
+</ul>
+<p>Google Cloud IoT Configuration</p>
+<p>1. Select or create a Cloud Platform project In the Google Cloud
+Console, select an existing project or create a new project. You will
+need a <strong>Project ID</strong> to use with Ameba.<a class="reference internal" href="../../../_images/image130.png"><img alt="1" src="../../../_images/image130.png" style="width: 6.5in; height: 5.43681in;" /></a>If creating a new
+project, enter a project name, and take note of the <strong>Project
+ID</strong> generated.<a class="reference internal" href="../../../_images/image228.png"><img alt="image1" src="../../../_images/image228.png" style="width: 6.5in; height: 5.43681in;" /></a>2. Enable billing for your project Billing
+needs to be enabled for your project to use Google Cloud Platform
+features. Follow the guide in Google cloud documentation to enable
+billing. <a class="reference external" href="https://cloud.google.com/billing/docs/how-to/modify-project">https://cloud.google.com/billing/docs/how-to/modify-project</a> 3.
+Enable the Cloud IoT Core API In Google Cloud console, click on the top
+left menu button and search for IoT Core.<a class="reference internal" href="../../../_images/image317.png"><img alt="image2" src="../../../_images/image317.png" style="width: 6.5in; height: 5.43681in;" /></a>Click enable to
+activate Google Cloud IoT API for your project.<a class="reference internal" href="../../../_images/image416.png"><img alt="image3" src="../../../_images/image416.png" style="width: 6.5in; height: 5.43681in;" /></a>4. Create a
+Cloud Pub/Sub topic In Google Cloud console, click on the top left menu
+button and search for Pub/Sub.<a class="reference internal" href="../../../_images/image58.png"><img alt="image4" src="../../../_images/image58.png" style="width: 6.5in; height: 5.43681in;" /></a>Create a new topic for your
+project and give it a suitable topic ID.<a class="reference internal" href="../../../_images/image63.png"><img alt="image5" src="../../../_images/image63.png" style="width: 6.5in; height: 5.43681in;" /></a><a class="reference internal" href="../../../_images/image72.png"><img alt="image6" src="../../../_images/image72.png" style="width: 6.5in; height: 5.43681in;" /></a>After the
+topic is created, go to the permissions tab of the info panel, and add
+“<a class="reference external" href="mailto:cloud-iot&#37;&#52;&#48;system&#46;gserviceaccount&#46;com">cloud-iot<span>&#64;</span>system<span>&#46;</span>gserviceaccount<span>&#46;</span>com</a>” with the role of “Pub/Sub
+Publisher”.<a class="reference internal" href="../../../_images/image81.png"><img alt="image7" src="../../../_images/image81.png" style="width: 6.5in; height: 5.43681in;" /></a><a class="reference internal" href="../../../_images/image91.png"><img alt="image8" src="../../../_images/image91.png" style="width: 6.5in; height: 5.43681in;" /></a><a class="reference internal" href="../../../_images/image10.png"><img alt="image9" src="../../../_images/image10.png" style="width: 6.5in; height: 5.43681in;" /></a>5.Create a device registry Go
+back to the IoT Core settings page and create a new
+registry.<a class="reference internal" href="../../../_images/image317.png"><img alt="image10" src="../../../_images/image317.png" style="width: 6.5in; height: 5.43681in;" /></a><a class="reference internal" href="../../../_images/image1110.png"><img alt="image11" src="../../../_images/image1110.png" style="width: 6.5in; height: 5.43681in;" /></a>Choose a suitable <strong>Registry ID</strong> and
+select a server <strong>Region **in which to store data. Remember
+the **Registry ID</strong> and <a href="#id1"><span class="problematic" id="id2">**</span></a>Region <a href="#id3"><span class="problematic" id="id4">**</span></a>for use with Ameba later. For the
+Pub/Sub topic, select the topic created in the previous
+step.<a class="reference internal" href="../../../_images/image1210.png"><img alt="image12" src="../../../_images/image1210.png" style="width: 6.5in; height: 5.43681in;" /></a>6. Create a public/private key pair Using Openssl in a
+terminal in Windows/Linux/MacOs, run the following commands to generate
+a private and public key pair. Two files will be created by these
+commands, “ec_private.pem” containing the private key, and
+“ec_public.pem” containing the public key.</p>
+<p>$ openssl ecparam -genkey -name prime256v1 -noout -out ec_private.pem</p>
+<p>$ openssl ec -in ec_private.pem -pubout -out ec_public.pem</p>
+<p><a class="reference internal" href="../../../_images/image131.png"><img alt="image13" src="../../../_images/image131.png" style="width: 6.5in; height: 5.43681in;" /></a>Run the next command to extract out the private key, and
+remember the highlighted string of hexadecimal numbers for use with
+Ameba later.</p>
+<p>$ openssl ec -in ec_private.pem -noout -text</p>
+<p><a class="reference internal" href="../../../_images/image141.png"><img alt="image14" src="../../../_images/image141.png" style="width: 6.5in; height: 5.43681in;" /></a>7. Create a device Go back to the IoT Core settings page and
+create a new device.<a class="reference internal" href="../../../_images/image151.png"><img alt="image15" src="../../../_images/image151.png" style="width: 6.5in; height: 5.43681in;" /></a>Give the device a suitable <strong>Device
+ID</strong> and remember it for use with Ameba later.<a class="reference internal" href="../../../_images/image161.png"><img alt="image16" src="../../../_images/image161.png" style="width: 6.5in; height: 5.43681in;" /></a>In the
+authentication section of the additional options, upload the previously
+generated “ec_public.pem” public key.<a class="reference internal" href="../../../_images/image171.png"><img alt="image17" src="../../../_images/image171.png" style="width: 6.5in; height: 5.43681in;" /></a>8. Create a Cloud
+Pub/Sub subscription To observe messages sent by Ameba, create a
+subscription in Pub/Sub.<a class="reference internal" href="../../../_images/image181.png"><img alt="image18" src="../../../_images/image181.png" style="width: 6.5in; height: 5.43681in;" /></a>Choose a suitable subscription ID
+and select the previously created topic.<a class="reference internal" href="../../../_images/image191.png"><img alt="image19" src="../../../_images/image191.png" style="width: 6.5in; height: 5.43681in;" /></a></p>
+<p>Example</p>
+<p>Open the example in “File” -&gt; “Examples” -&gt; “AmebaMQTTClient” -&gt;
+“Google_Cloud_IoT”.<a class="reference internal" href="../../../_images/image20.png"><img alt="image20" src="../../../_images/image20.png" style="width: 6.5in; height: 5.43681in;" /></a>Enter the required information in the
+highlighted sections below.<a class="reference internal" href="../../../_images/image2110.png"><img alt="image21" src="../../../_images/image2110.png" style="width: 6.5in; height: 5.43681in;" /></a>In the yellow section, enter the
+SSID and password required to connect to your WiFi network. In the green
+section, enter the Project ID, server Region, Registry ID and Device ID
+previously configured in Google Cloud console. In the blue section,
+enter the hexadecimal string previously extracted from the private key.
+Upload the code and press the reset button on Ameba once the upload is
+finished. Open the serial monitor and observe as Ameba connects and
+sends messages to Google Cloud IoT.<a class="reference internal" href="../../../_images/image229.png"><img alt="image22" src="../../../_images/image229.png" style="width: 6.5in; height: 5.43681in;" /></a>In Google Cloud console,
+go to Pub/Sub subscriptions, select the previously created subscription,
+and click view messages. Here you can view the messages sent by
+Ameba.<a class="reference internal" href="../../../_images/image231.png"><img alt="image23" src="../../../_images/image231.png" style="width: 6.5in; height: 5.43681in;" /></a><a class="reference internal" href="../../../_images/image241.png"><img alt="image24" src="../../../_images/image241.png" style="width: 6.5in; height: 5.43681in;" /></a></p>
+<p>Code Reference</p>
+<p>In setup(), we set up RootCA which is required to form a TLS connection
+with Google’s servers.</p>
+<p>wifiClient.setRootCA((unsigned char*)rootCABuff);</p>
+<p>In loop(), each loop checks the Internet status and re-connect to it
+when the environment has a problem.</p>
+<p>if (WiFi.status() != WL_CONNECTED) {</p>
+<p>while (WiFi.begin(ssid, pass) != WL_CONNECTED)</p>
+<p>{</p>
+<p>delay(1000);</p>
+<p>}</p>
+<p>Serial.println(“Connected to wifi”);</p>
+<p>}</p>
+<p>To publish messages, mqtt_id , clientPass and pub_topic are required.
+mqtt_id is generated by printing the project ID, server location,
+registry ID and device ID in the required format:</p>
+<p>mqtt_id = (char *)malloc(strlen(“projects/”) + strlen(project_id) +
+strlen(“/locations/us-central1/registries/”) + strlen(registry_id) +
+strlen(“/devices/”) + strlen(device_id) + 1);</p>
+<p>sprintf(mqtt_id,
+“projects/%s/locations/us-central1/registries/%s/devices/%s”,
+project_id, registry_id, device_id);</p>
+<p>clientPass is generated using a JSON web token (JWT) generator function,
+which requires the project ID and current time, and signs it with the
+private key:</p>
+<p>clientPass = CreateJwt(project_id, timeClient.getEpochTime(), priv_key);</p>
+<p>pub_topic is generated by printing the project ID and topic in the
+required format:</p>
+<p>pub_topic = (char *)malloc(strlen(“/devices/”) + strlen(device_id) +
+strlen(“/events”) + 1);</p>
+<p>sprintf(pub_topic, “/devices/%s/events”, device_id);</p>
+<p>MQTT Server setting:</p>
+<p>client.setServer(GOOGLE_MQTT_SERVER, GOOGLE_MQTT_PORT);</p>
+<p>client.setPublishQos(MQTTQOS1);</p>
+<p>client.waitForAck(true);</p>
+<p>Connect to google cloud and publish messages:</p>
+<p>if (client.connect(mqtt_id, clientUser, clientPass.c_str()) )</p>
+<p>{</p>
+<p>．．．．．．．．．．</p>
+<p>for(int i = 0; i &lt; count; i++){</p>
+<p>．．．．．．．．．．</p>
+<p>sprintf(payload, “This is Ameba’s %d message!!”, i);</p>
+<p>ret = client.publish(pub_topic, payload);</p>
+<p>．．．．．．．．．．</p>
+<p>　}</p>
+<p>．．．．．．．．．．</p>
+<p>client.disconnect();</p>
+<p>}</p>
+<p>free(mqtt_id);</p>
+<p>free(pub_topic);</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Peripheral%20Examples.html" class="btn btn-neutral float-right" title="Peripheral Examples" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="%5BRTL8722CSM%5D%20%5BRTL8722DM%5D%20Approximate%20UDP%20Receive%20Timeout.html" class="btn btn-neutral float-left" title="[RTL8722CSM] [RTL8722DM] Approximate UDP Receive Timeout" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ameba IoT.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
