@@ -122,7 +122,7 @@ Manager. So, we close the Boards Manager, and then open it again. Find
 click “Install”, then the Arduino IDE starts to download required files
 for AmebaD.
 
-.. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image6.png
+.. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image6.jpg
    :width: 6.26806in
    :height: 3.47847in
 
