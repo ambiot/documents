@@ -237,6 +237,10 @@ After downloading the MicroPython repository from Github, you will
 notice a “Release” folder in the root directory of this repository,
 enter this folder and locate a tool named “Double-Click-Me-to-Upload”.
 
+If you are facing GitHub downloading issue,  please refer to the following link at “Download/Software Development Kit”. 
+https://www.amebaiot.com.cn/en/ameba-micropython-summary/ 
+
+
 Step 2. Enter UART Download mode
 --------------------------------
 

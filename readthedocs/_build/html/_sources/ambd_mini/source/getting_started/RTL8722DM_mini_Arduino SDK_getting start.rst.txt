@@ -126,7 +126,15 @@ for AmebaD.
    :width: 6.26806in
    :height: 3.47847in
 
-Finally, we select AmebaD as current connected board in “tools” ->
+
+If you are facing GitHub downloading issue,  please refer to the following link at “Download/Software Development Kit”. 
+https://www.amebaiot.com.cn/en/ameba-arduino-summary/
+
+Then please patch the “ambd_arduino\Arduino_package\hardware” at
+“C:\Users\\\ **USERNAME**\\AppData\Local\Arduino15\packages\realtek\hardware\AmebaD\\\ **SDKVERSION**\ ”
+
+
+Finally, we select AmebaD as current connected board in “tools” ->("\")
 “Board” -> “Ameba ARM (32-bits) Boards” ->” RTL8722DM_MINI”：
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image7.png
