@@ -6,8 +6,8 @@ Getting Started
 Required Environment
 ====================
 
-AmebaD RTL8722CSM/RTL8722DM MicroPython SDK currently supports Windows
-10 and Linux operating systems.
+AmebaD RTL8722CSM/RTL8722DM SDK currently supports Windows 10 and Linux 
+operating systems.
 
 Introduction to AmebaD RTL8722CSM/RTL8722DM
 ===========================================
