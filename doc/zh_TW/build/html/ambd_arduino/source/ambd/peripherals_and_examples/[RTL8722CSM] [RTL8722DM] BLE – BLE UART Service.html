@@ -1,0 +1,278 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-TW" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>[RTL8722CSM] [RTL8722DM] BLE – BLE UART Service &mdash; amebaDoc 0.0.1 說明文件</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> amebaDoc
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">開源開發平台:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../arduino_index.html">Arduino 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ambd_micropython/source/index.html">Micropython SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ambd_sdk/source/index.html">Standard SDK</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">amebaDoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>[RTL8722CSM] [RTL8722DM] BLE – BLE UART Service</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/ambd_arduino/source/ambd/peripherals_and_examples/[RTL8722CSM] [RTL8722DM] BLE – BLE UART Service.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rtl8722csm-rtl8722dm-ble-ble-uart-service">
+<h1>[RTL8722CSM] [RTL8722DM] BLE – BLE UART Service<a class="headerlink" href="#rtl8722csm-rtl8722dm-ble-ble-uart-service" title="本標題的永久連結">¶</a></h1>
+<p>Materials</p>
+<ul class="simple">
+<li><p>Ameba D [RTL8722 CSM/DM] x 1</p></li>
+<li><p>Android / iOS smartphone</p></li>
+</ul>
+<p>Example</p>
+<p><strong>Introduction</strong></p>
+<div class="line-block">
+<div class="line">With BLE, application data is sent and received using the GATT system.
+GATT uses services, characteristics, and attributes to organise data
+and control how the data can be read from and written to. The
+Bluetooth SIG specification for BLE includes several predefined
+services for common applications, but users are free to implement
+custom services and characteristics to best fit their data structure
+and application needs</div>
+<div class="line">In this example, the BLEService and BLECharacteristic classes are used
+to implement a custom service for transmitting ASCII characters
+similar to regular UART. This custom service is the Nordic UART
+Service, which is supported in several smartphone apps.</div>
+</div>
+<p><strong>Procedure</strong></p>
+<div class="line-block">
+<div class="line">Ensure that a compatible BLE UART app is installed on your smartphone,
+it is available at:</div>
+<div class="line">– Google Play Store:</div>
+<div class="line"><a class="reference external" href="https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect">https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect</a></div>
+<div class="line"><a class="reference external" href="https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal">https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal</a></div>
+</div>
+<div class="line-block">
+<div class="line">– Apple App Store:</div>
+<div class="line"><a class="reference external" href="https://apps.apple.com/us/app/bluefruit-connect/id830125974">https://apps.apple.com/us/app/bluefruit-connect/id830125974</a></div>
+</div>
+<p>Open the example, “Files” -&gt; “Examples” -&gt; “AmebaBLE” -&gt;
+“BLEUartService”.</p>
+<a class="reference internal image-reference" href="../../../../_images/image116.png"><img alt="1" src="../../../../_images/image116.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+<div class="line-block">
+<div class="line">Upload the code and press the reset button on Ameba once the upload is
+finished.</div>
+<div class="line">Open the app on your smartphone, scan and connect to the Ameba board
+shown as “AMEBA_BLE_DEV” and choose the UART function in the app. Note
+that the BLE UART service on the Ameba board will only work with the
+UART and Plotter functions in the Bluefruit Connect app, other
+functions (Pin I/O, Image Transfer) require other BLE services that
+are not included in this example.</div>
+</div>
+<a class="reference internal image-reference" href="../../../../_images/image216.png"><img alt="1" src="../../../../_images/image216.png" style="width: 4.16667in; height: 5.99306in;" /></a>
+<a class="reference internal image-reference" href="../../../../_images/image38.png"><img alt="1" src="../../../../_images/image38.png" style="width: 4.16667in; height: 5.99306in;" /></a>
+<div class="line-block">
+<div class="line">In the UART terminal section of the app, enter a message and click
+send. You should see the message appear in the Arduino serial monitor.</div>
+<div class="line">In the Arduino serial monitor, enter a message and click send. The
+message will appear in the smartphone app.</div>
+</div>
+<a class="reference internal image-reference" href="../../../../_images/image46.png"><img alt="1" src="../../../../_images/image46.png" style="width: 4.16667in; height: 5.99306in;" /></a>
+<a class="reference internal image-reference" href="../../../../_images/image53.png"><img alt="1" src="../../../../_images/image53.png" style="width: 6.5in; height: 5.64931in;" /></a>
+<p>Code Reference</p>
+<div class="line-block">
+<div class="line">The BLECharacteristic class is used to create two characteristics, one
+for receive (Rx) and one for transmit (Tx), and added to a service
+created with the BLEService class.</div>
+<div class="line">The required read/write/notify properties are set for each
+characteristic using the set__Property() methods, and callback
+functions are registered using the set__Callback() methods. The
+required buffer size is also set for each characteristic so that it
+has enough memory to store a complete string.</div>
+<div class="line">When data is written to the receive characteristic, the registered
+callback function is called, which prints out the received data as a
+string to the serial monitor.</div>
+<div class="line">When data is received on the serial port, it is copied into the
+transmit characteristic buffer, and the notify() method is used to
+inform the connected device of the new data.</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版權所有 2021, Ameba IoT。
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

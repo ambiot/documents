@@ -1,0 +1,252 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-TW" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>[RTL8722CSM] [RTL8722DM] Approximate UDP Receive Delay &mdash; amebaDoc 0.0.1 說明文件</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../../search.html" />
+    <link rel="next" title="[RTL8722CSM] [RTL8722DM] Approximate UDP Receive Timeout" href="%5BRTL8722CSM%5D%20%5BRTL8722DM%5D%20Approximate%20UDP%20Receive%20Timeout.html" />
+    <link rel="prev" title="[RTL8722CSM] [RTL8722DM] BLE – PWM over BLE UART" href="%5BRTL8722CSM%5D%20%5BRTL8722DM%5D%20BLE%20%E2%80%93%20PWM%20over%20BLE%20UART.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> amebaDoc
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">開源開發平台:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../arduino_index.html">Arduino 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_micropython/source/index.html">Micropython SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_sdk/source/index.html">Standard SDK</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">amebaDoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../arduino_index.html">Arduino 開發平台</a> &raquo;</li>
+        
+          <li><a href="../index.html">RTL8722DM</a> &raquo;</li>
+        
+          <li><a href="index.html">周邊設備和示例</a> &raquo;</li>
+        
+          <li><a href="Network%20Examples.html">網絡示例</a> &raquo;</li>
+        
+      <li>[RTL8722CSM] [RTL8722DM] Approximate UDP Receive Delay</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/ambd_arduino/source/peripherals_and_examples/[RTL8722CSM] [RTL8722DM] Approximate UDP Receive Delay.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rtl8722csm-rtl8722dm-approximate-udp-receive-delay">
+<h1>[RTL8722CSM] [RTL8722DM] Approximate UDP Receive Delay<a class="headerlink" href="#rtl8722csm-rtl8722dm-approximate-udp-receive-delay" title="本標題的永久連結">¶</a></h1>
+<p>Materials</p>
+<ul class="simple">
+<li><p>Ameba x 1</p></li>
+<li><p>Windows computer connected to same network</p></li>
+</ul>
+<p>Example</p>
+<p>This example uses Ameba to receive UDP packets from a computer and
+calculates the UDP receive delay. <strong>Ameba Preparation</strong> Open the
+“CalculateUdpReceiveDelay” example in “File” -&gt; “Examples” -&gt;
+“AmebaWiFi” -&gt; “UDP_Calculation” -&gt; “CalculateUdpReceiveDelay”.<a class="reference internal" href="../../../_images/image188.png"><img alt="1" src="../../../_images/image188.png" style="width: 5.89583in; height: 7.40972in;" /></a>In
+the sample code, modify the highlighted section to enter the information
+required (ssid, password, key index) to connect to your WiFi
+network.<a class="reference internal" href="../../../_images/image278.png"><img alt="image1" src="../../../_images/image278.png" style="width: 5.89583in; height: 7.40972in;" /></a>Upload the code and press the reset button on Ameba
+once the upload is finished. Open the serial monitor in Arduino IDE and
+take note of the IP address assigned to Ameba.<a class="reference internal" href="../../../_images/image351.png"><img alt="image2" src="../../../_images/image351.png" style="width: 5.89583in; height: 7.40972in;" /></a><strong>Computer
+Preparation</strong> On the computer, Cygwin will be required to compile the
+code to send the UDP packets. Cygwin can be downloaded
+from <a class="reference external" href="https://www.cygwin.com/">https://www.cygwin.com/</a> Follow the instructions there to install
+it. Next, from the “CalculateUdpReceiveDelay” Arduino example, copy the
+code from the bottom between “#if 0” and “#endif”, into a new text file,
+change the hostname to the IP address assigned to Ameba, and rename the
+file to “UdpReceiveDelay.cpp”.<a class="reference internal" href="../../../_images/image442.png"><img alt="image3" src="../../../_images/image442.png" style="width: 5.89583in; height: 7.40972in;" /></a>Next, open a Cygwin terminal,
+change the working directory to the location of “UdpReceiveDelay.cpp”,
+and use the command “g++ UdpReceiveDelay.cpp -o UdpDelay” to compile the
+code. A file named “UdpDelay.exe” will be created in the same
+directory. <strong>Running the Example</strong> Reset the Ameba, wait for the WiFi to
+connect, and check that the IP address remains the same. On the
+computer, run the UdpDelay.exe file, and the computer will begin to send
+packets to Ameba. Once 10000 packets have been received, Ameba will
+calculate the average delay and print out the result to the serial
+monitor. It may take up to a few minutes for 10000 packets to be
+sent.<a class="reference internal" href="../../../_images/image525.png"><img alt="image4" src="../../../_images/image525.png" style="width: 5.89583in; height: 7.40972in;" /></a></p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="%5BRTL8722CSM%5D%20%5BRTL8722DM%5D%20Approximate%20UDP%20Receive%20Timeout.html" class="btn btn-neutral float-right" title="[RTL8722CSM] [RTL8722DM] Approximate UDP Receive Timeout" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="%5BRTL8722CSM%5D%20%5BRTL8722DM%5D%20BLE%20%E2%80%93%20PWM%20over%20BLE%20UART.html" class="btn btn-neutral float-left" title="[RTL8722CSM] [RTL8722DM] BLE – PWM over BLE UART" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版權所有 2021, Ameba IoT。
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

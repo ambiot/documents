@@ -1,0 +1,391 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-TW" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Class BLEService &mdash; amebaDoc 0.0.1 說明文件</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../../search.html" />
+    <link rel="next" title="Class BLEUUID" href="Class%20BLEUUID.html" />
+    <link rel="prev" title="Class BLEScan" href="Class%20BLEScan.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> amebaDoc
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">開源開發平台:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../arduino_index.html">Arduino 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_micropython/source/index.html">Micropython 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_sdk/source/index.html">Standard SDK</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">amebaDoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../arduino_index.html">Arduino 開發平台</a> &raquo;</li>
+        
+          <li><a href="../index.html">RTL8722DM</a> &raquo;</li>
+        
+          <li><a href="index.html">API 指南</a> &raquo;</li>
+        
+      <li>Class BLEService</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/ambd_arduino/ambd/api_documents/Class BLEService.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="class-bleservice">
+<h1>Class BLEService<a class="headerlink" href="#class-bleservice" title="本標題的永久連結">¶</a></h1>
+<p><strong>BLEService Class</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">A class used for creating and managing BLE GATT services.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">class BLEService</div>
+</div>
+<p><strong>Members</strong></p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 44%" />
+<col style="width: 56%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Public Constructors</strong></p></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>BLEService::BLEService</p></td>
+<td><p>Constructs a BLEService object</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Public Methods</strong></p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>BLEService::setUUID</p></td>
+<td><p>Set service UUID</p></td>
+</tr>
+<tr class="row-odd"><td><p>BLEService::getUUID</p></td>
+<td><p>Get service UUID</p></td>
+</tr>
+<tr class="row-even"><td><p>BLEService::addCharacteristic</p></td>
+<td><p>Add a characteristic to service</p></td>
+</tr>
+<tr class="row-odd"><td><p>BLEService::getCharacteristic</p></td>
+<td><p>Get a previously added characteristic</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>BLEService::BLEService</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Constructs a BLEService object.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">BLEService::BLEService(BLEUUID uuid);</div>
+<div class="line">BLEService::BLEService(const char* uuid);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">uuid: service UUID, expressed as a BLEUUID class object or a character
+array</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">The function returns nothing.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">Example: BLEUartService</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>BLEService::setUUID</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Set the service UUID.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">void setUUID(BLEUUID uuid);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">uuid: service UUID, expressed as a BLEUUID class object.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">The function returns nothing.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>BLEService::getUUID</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Get the service UUID.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">BLEUUID getUUID();</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">The function requires no input parameter.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">The function returns the service UUID in a BLEUUID class object.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>BLEService::addCharacteristic</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Add a characteristic to the service.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">void addCharacteristic(BLECharacteristic&amp; newChar);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">newChar: the BLECharacteristic to add to the service.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">The function returns nothing.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">Example: BLEUartService</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>BLEService::getCharacteristic</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Get a previously added characteristic.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">BLECharacteristic* getCharacteristic(uint8_t charIndex);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">charIndex: position index of characteristic.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">The function returns a pointer to the BLECharacteristic at the
+requested position index.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Class%20BLEUUID.html" class="btn btn-neutral float-right" title="Class BLEUUID" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Class%20BLEScan.html" class="btn btn-neutral float-left" title="Class BLEScan" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版權所有 2021, Ameba IoT。
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

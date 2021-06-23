@@ -1,0 +1,311 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-TW" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>[RTL8722CSM] [RTL8722DM] Transmit IR NEC Raw Data And Decode &mdash; amebaDoc 0.0.1 說明文件</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> amebaDoc
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">開源開發平台:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../arduino_index.html">Arduino 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_micropython/source/index.html">Micropython 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_sdk/source/index.html">Standard SDK</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">amebaDoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>[RTL8722CSM] [RTL8722DM] Transmit IR NEC Raw Data And Decode</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/ambd_arduino/ambd/peripherals_and_examples/[RTL8722CSM] [RTL8722DM] Transmit IR NEC Raw Data And Decode.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rtl8722csm-rtl8722dm-transmit-ir-nec-raw-data-and-decode">
+<h1>[RTL8722CSM] [RTL8722DM] Transmit IR NEC Raw Data And Decode<a class="headerlink" href="#rtl8722csm-rtl8722dm-transmit-ir-nec-raw-data-and-decode" title="本標題的永久連結">¶</a></h1>
+<p>Materials</p>
+<ul class="simple">
+<li><p>Ameba x2 (one for IR transmitting, the other one for IR receiving)</p></li>
+<li><p>Grove – Infrared Emitter x1 (Figure 1)</p></li>
+<li><p>Grove – Infrared Receiver x1 (Figure 2)</p></li>
+</ul>
+<p>Example</p>
+<p>In this example, we use two Ameba RTL8722 modules that connecting with
+an infrared (IR) Emitter and an IR Receiver separately to transmit and
+receive IR NEC Raw data.</p>
+<a class="reference internal image-reference" href="../../../_images/image13.jpeg"><img alt="1" src="../../../_images/image13.jpeg" style="width: 3.125in; height: 3.125in;" /></a>
+<p>Figure 1: Grove – Infrared Receiver</p>
+<a class="reference internal image-reference" href="../../../_images/image245.png"><img alt="1" src="../../../_images/image245.png" style="width: 3.125in; height: 3.125in;" /></a>
+<p>Figure 2: Grove – Infrared Emitter</p>
+<div class="line-block">
+<div class="line">On the transmission side, the transmitter will send IR NEC raw data.
+The raw data can be seen as consecutive durations of “marks” and
+“spaces” (Figure 3) in microseconds (us).</div>
+<div class="line">• Mark: a specific period of sending pulses</div>
+<div class="line">• Space: a specific period of sending nothing</div>
+</div>
+<a class="reference internal image-reference" href="../../../_images/image326.png"><img alt="1" src="../../../_images/image326.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+<p>Figure 3: A typical IR transmission and reception setup implementation</p>
+<p>For more details, please refer to SB-Projects’ topic of <a class="reference external" href="https://www.sbprojects.net/knowledge/ir/index.php">IR Remote
+Control Theory</a> to
+learn the theory of IR remote controls operation and a collection of IR
+protocol descriptions. In this example, we are going to use NEC (Now
+Renesas, also known as Japanese Format) as the transmission protocol.</p>
+<div class="line-block">
+<div class="line"><strong>NEC Features</strong></div>
+<div class="line">• 8-bit address and 8-bit command length.</div>
+<div class="line">• Extended mode available, doubling the address size.</div>
+<div class="line">• Address and command are transmitted twice for reliability.</div>
+<div class="line">• Pulse distance modulation.</div>
+<div class="line">• The carrier frequency of 38kHz.</div>
+<div class="line">• Bit time of 1.125ms or 2.25ms.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Modulation</strong></div>
+<div class="line">NEC protocol uses Pulse Distance Encoding of the bits for data
+communication (Figure 4). A logical “1” is represented by total
+duration of 2250us, with 560us of “marks” and (2250-560) us of
+“spaces”. While logical ”0” is represented by total duration of
+1120us, with 560us “marks” and (1120-560) us of “spaces”.</div>
+</div>
+<a class="reference internal image-reference" href="../../../_images/image423.png"><img alt="1" src="../../../_images/image423.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+<p>Figure 4: Modulation of NEC</p>
+<p>Since a total number of 32-bit data together with the header and the
+end-bit will be transferred (Figure 5). If we separate the data in the
+time-frame (in us), there will be ( 2 + 32 ) x 2 + 1 = 69 “marks” /
+“spaces” to be transmitted (Figure 6), which forms the raw NEC data we
+would like to transmit in our Arduino “<a href="#id1"><span class="problematic" id="id2">*</span></a>.ino” file. This part of the
+code can be modified by users. Details of how to obtain raw data code
+for your remote devices, you may refer to <a class="reference external" href="http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html">Ken Shirriff’s
+blog</a>,
+where it provides multiple libraries provided online.</p>
+<a class="reference internal image-reference" href="../../../_images/image513.png"><img alt="1" src="../../../_images/image513.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+<p>Figure 5: Sample of a Full NEC Data (in logic1 or 0)</p>
+<a class="reference internal image-reference" href="../../../_images/image64.png"><img alt="1" src="../../../_images/image64.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+<p>Figure 6: Sample of a Full NEC RAW Data (in us)</p>
+<p>Figure 7 and 8 shows the pin configuration of IR Emitter and Receiver
+with Ameba RTL8722 board.</p>
+<a class="reference internal image-reference" href="../../../_images/image73.png"><img alt="1" src="../../../_images/image73.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+<p>Figure 7: Pin configuration of IR Emitter and Ameba RTL8722</p>
+<a class="reference internal image-reference" href="../../../_images/image82.png"><img alt="1" src="../../../_images/image82.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+<p>Figure 8: Pin configuration of the IR Receiver and Ameba RTL8722</p>
+<p>After the connection is being set up correctly, we will move to the
+coding part for this example. First, make sure the correct Ameba
+development board is selected in Arduino IDE: “Tools” -&gt; “Board” -&gt;
+“RTL8722CSM/RTL8722DM”.</p>
+<p>Open the “IRSendRAW” example in “File” -&gt; “Examples” -&gt; “AmebaIRDevice”
+-&gt; “IRSendRAW” (Figure 9) and upload to 1st board connected with IR
+Emitter:</p>
+<a class="reference internal image-reference" href="../../../_images/image92.png"><img alt="1" src="../../../_images/image92.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+<p>Figure 9: Example Location of IRSendRaw and IRRecvNEC</p>
+<p>After successfully upload the sample code for IRSendRaw, you might need
+to upload the IRRecvNEC example for the 2nd board connected with IR
+Receiver from “File” -&gt; “Examples” -&gt; “AmebaIRDevice” -&gt; “IRRecvNEC”.</p>
+<p>After opening the serial monitor on the IR Receiver side and press the
+reset buttons on two boards, the data “48” will be received every 3
+seconds (due to the delays () function, not compulsory to wait). After
+decoding the signal from the receiving Pin D8 and transmitting Pin D9
+with Logic Analyser and Pulse View (Figure 10), the result is also shown
+as “48” after decoding the receiving data with IR NEC Protocol.</p>
+<a class="reference internal image-reference" href="../../../_images/image101.png"><img alt="1" src="../../../_images/image101.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+<p>Figure 10: Pulse View results from sending and receiving pin</p>
+<p>Code Reference</p>
+<div class="line-block">
+<div class="line">      [1] Seeed Official website for Grove – Infrared Receiver</div>
+<div class="line">`
+<a class="reference external" href="https://wiki.seeedstudio.com/Grove-Infrared_Receiver/">https://wiki.seeedstudio.com/Grove-Infrared_Receiver/</a> &lt;<a class="reference external" href="https://wiki.seeedstudio.com/Grove-Infrared_Receiver/">https://wiki.seeedstudio.com/Grove-Infrared_Receiver/</a>&gt;`__</div>
+</div>
+<div class="line-block">
+<div class="line">[2] Seed Official website for Grove – Infrared Emitter</div>
+<div class="line"><a class="reference external" href="https://wiki.seeedstudio.com/Grove-Infrared_Emitter/">https://wiki.seeedstudio.com/Grove-Infrared_Emitter/</a></div>
+</div>
+<div class="line-block">
+<div class="line">[3] Ken SHirriff’s blog on A Multi-Protocol Infrared Remote Library
+for the Arduino</div>
+<div class="line"><a class="reference external" href="http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html">http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html</a></div>
+</div>
+<div class="line-block">
+<div class="line">[4] SB-Projects: IR Remote Control Project</div>
+<div class="line"><a class="reference external" href="https://www.sbprojects.net/knowledge/ir/index.php">https://www.sbprojects.net/knowledge/ir/index.php</a></div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版權所有 2021, Ameba IoT。
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
