@@ -2,6 +2,25 @@
 Release History
 ===================================
 
+-     **Version 2.0.10 – 2021/03/04**
+
+-     Patch update:
+
+-     2021/06/17
+
+-     Update wlan lib and related lib
+
+-     Feature:
+
+-     – Update SDK structure
+
+-     – Update wlan lib and related lib
+
+-     – Minor bug fix 
+
+-     Misc:
+
+-     – Add offline SDK patch installation tools
 
 -	**Version 3.0.8 – 2021/05/06**
 

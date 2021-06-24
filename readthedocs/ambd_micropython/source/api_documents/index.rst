@@ -25,4 +25,5 @@ Online API Documents
    MicroPython_UART
    MicroPython_WiFi
    MicroPython_Socket
+   MicroPython_Class_SDFS
 

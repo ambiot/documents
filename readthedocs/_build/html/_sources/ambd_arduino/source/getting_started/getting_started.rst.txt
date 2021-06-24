@@ -1,26 +1,28 @@
-===============
 Getting Started
-===============
+==============================================
 
+**Ameba ARDUINO: Getting Started with RTL8722**
 
 Required Environment
-====================
 
-AmebaD RTL8722CSM/RTL8722DM MicroPython SDK currently supports Windows
-10 and Linux operating systems.
+AmebaD RTL8722CSM/RTL8722DM currently supports Windows XP/7/8/10 32-bits
+and 64-bits, Linux and Mac operating systems. In this documentation,
+please use Arduino IDE with version 1.8.12 or later.
 
 Introduction to AmebaD RTL8722CSM/RTL8722DM
-===========================================
 
 | Ameba is an easy-to-program platform for developing all kind of IoT
   applications. AmebaD is equipped with various peripheral interfaces,
-  including WiFi, BLE, GPIO, I2C, UART, SPI, PWM, ADC and so on. Through
-  these interfaces, AmebaD can connect with electronic components such
-  as LED, switches, manometer, hygrometer, PM2.5 dust sensors, …etc.
+  including WiFi, GPIO INT, I2C, UART, SPI, PWM, ADC. Through these
+  interfaces, AmebaD can connect with electronic components such as LED,
+  switches, manometer, hygrometer, PM2.5 dust sensors, …etc.
 | The collected data can be uploaded via WiFi and be utilized by
   applications on smart devices to realize IoT implementation.
 
-|get-start-1|
+.. image:: ../media/getting_started/image1.jpeg
+   :alt: get-start-1
+   :width: 4.01389in
+   :height: 4.01389in
 
 | AmebaD and Arduino Uno have similar size, as shown in the above
   figure, and the pins on AmebaD are compatible with Arduino Uno.
@@ -29,326 +31,221 @@ Introduction to AmebaD RTL8722CSM/RTL8722DM
 | Please refer to the following figure and table for the pin diagram and
   function of AmebaD.
 
-|get-start-2|
-
-|  
-|  
+.. image:: ../media/getting_started/image2.png
+   :alt: get-start-2
+   :width: 5in
+   :height: 5.10417in
 
 === ======== ======== ==== ===== ============= ========= ========
     PIN name GPIO INT ADC  PWM   UART          SPI       I2C
 === ======== ======== ==== ===== ============= ========= ========
-D00 PB_2     ✓        ADC5       UART3_RX(b)              
-D01 PB_1     ✓        ADC4       UART3_TX(b)              
-D02 PB_3     ✓        ADC6                                
-D03 PB_31    ✓                                            
-D04 PB_30    ✓                                            
-D05 PB_28    ✓                                            
-D06 PB_29    ✓                                            
+D00 GPIOB_2  ✓        ADC5       UART3_RX(b)              
+D01 GPIOB_1  ✓        ADC4       UART3_TX(b)              
+D02 GPIOB_3  ✓        ADC6                                
+D03 GPIOB_31 ✓                                            
+D04 GPIOB_30 ✓                                            
+D05 GPIOB_28 ✓                                            
+D06 GPIOB_29 ✓                                            
 D07 NC                                                    
-D08 PB_22    ✓             PWM14                          
-D09 PB_23    ✓             PWM15                          
-D10 PB_21    ✓             PWM13 UART0_RTS(b)  SPI0_CS    
-D11 PB_18    ✓             PWM10 UART0_RX(b)   SPI0_MOSI  
-D12 PB_19    ✓             PWM11 UART0_TX(b)   SPI0_MISO  
-D13 PB_20    ✓             PWM12 UART0_CTS(b)  SPI0_CLK   
-D14 PA_7     ✓                   UART2_TX(log)            
-D15 PA_8     ✓                   UART2_RX(log)            
-D16 PA_25    ✓             PWM4  UART3_RX(a)             I2C0_SCL
-D17 PA_26    ✓             PWM5  UART3_TX(a)             I2C0_SDA
-D18 PB_7     ✓        ADC3 PWM17               SPI1_CS    
-D19 PB_6     ✓        ADC2                     SPI1_CLK   
-D20 PB_5     ✓        ADC1 PWM9                SPI1_MISO  
-D21 PB_4     ✓        ADC0 PWM8                SPI1_MOSI  
-D22 PA_28    ✓                                            
-D23 PA_24    ✓             PWM3  UART0_CTS(a)            I2C1_SDA
-D24 PA_23    ✓             PWM2  UART0_RTS(a)            I2C1_SCL
-D25 PA_22    ✓                   UART0_RX(a)              
-D26 PA_21    ✓                   UART0_TX(a)              
-D27 PA_20    ✓                                            
-D28 PA_19    ✓                                            
+D08 GPIOB_22 ✓             PWM14                          
+D09 GPIOB_23 ✓             PWM15                          
+D10 GPIOB_21 ✓             PWM13 UART0_RTS(b)  SPI0_CS    
+D11 GPIOB_18 ✓             PWM10 UART0_RX(b)   SPI0_MOSI  
+D12 GPIOB_19 ✓             PWM11 UART0_TX(b)   SPI0_MISO  
+D13 GPIOB_20 ✓             PWM12 UART0_CTS(b)  SPI0_CLK   
+D14 GPIOA_7  ✓                   UART2_TX(log)            
+D15 GPIOA_8  ✓                   UART2_RX(log)            
+D16 GPIOA_25 ✓             PWM4  UART3_RX(a)             I2C0_SCL
+D17 GPIOA_26 ✓             PWM5  UART3_TX(a)             I2C0_SDA
+D18 GPIOB_7  ✓        ADC3 PWM17               SPI1_CS    
+D19 GPIOB_6  ✓        ADC2                     SPI1_CLK   
+D20 GPIOB_5  ✓        ADC1 PWM9                SPI1_MISO  
+D21 GPIOB_4  ✓        ADC0 PWM8                SPI1_MOSI  
+D22 GPIOA_28 ✓                                            
+D23 GPIOA_24 ✓             PWM3  UART0_CTS(a)            I2C1_SDA
+D24 GPIOA_23 ✓             PWM2  UART0_RTS(a)            I2C1_SCL
+D25 GPIOA_22 ✓                   UART0_RX(a)              
+D26 GPIOA_21 ✓                   UART0_TX(a)              
+D27 GPIOA_20 ✓                                            
+D28 GPIOA_19 ✓                                            
 === ======== ======== ==== ===== ============= ========= ========
 
-|  
-|  
-
-| |get-start-3|
-|  
-
-**Note:** Not all sets of peripherals shown on the picture/table above
-are available on MicroPython, please refer to “\ **Peripheral Example
-and API**\ ” section for more information.
-
-Introduction to RTL8722 MicroPython port
-========================================
-
-Background Information
-----------------------
-
-MicroPython, by definition, is a lean and efficient Python3 compiler and
-runtime specially designed for microcontrollers.
-
-MicroPython distinguishes itself from other compilation-based platforms
-(Arduino etc.) with its powerful method of real-time interaction to
-Microcontroller through a built-in feature -- REPL.
-
-REPL stands for Read-Evaluation-Print-Loop, it is an interactive prompt
-that you can use to access and control your microcontroller.
-
-REPL has been equipped with other powerful features such as tab
-completion, line editing, auto-indentation, input history and more. It
-basically functions like the classic Python IDLE but running on
-microcontroller.
-
-To use REPL, simply open any serial terminal software (most common ones
-are teraterm, putty etc.) on your PC and connect to your
-microcontroller's serial port, then set baudrate to 115200 before
-manually reset the board, then you will see >>> MicroPython prompt
-appear on the terminal. Now you may type in any Python script on REPL as
-long as it's support by MicroPython and your microcontroller's
-MicroPython port.
-
-Most importantly, try to abuse "help()" function as much as possible to
-gain more information. For example, upon microcontroller power up and
-REPL shown, just type
-
->>> help()
-
-You will see a help page giving you more details about this port; also
-if you type
-
->>> help(modules)
-
-it will list out all available builtin modules that are at your disposal
-
-Furthermore, if you want to learn more about a module, such as its API
-and CONSTANT available, simply type the following code and details of
-that module will be returned to you,
-
->>> help(the module of your interest)
-
-Let's take Pin module (GPIO) as an example:
-
->>> help(Pin)
-object <class 'Pin'> is of type type
-  id -- <function>
-  init -- <function>
-  value -- <function>
-  off -- <function>
-  on -- <function>
-  toggle -- <function>
-  board -- <class 'board'>
-  IN -- 0
-  OUT -- 1
-  PULL_NONE -- 0
-  PULL_UP -- 1
-  PULL_DOWN -- 2
-
-
-REPL Hotkeys
-------------
-
--  Ctrl + d :
-
-Soft reboot MicroPython will perform software reboot, this is useful
-when your microcontroller is behaving abnormally. This will also run
-scripts in 'boot.py' once again. Note that this will only reset the
-MicroPython interpreter not the hardware, all your previously configured
-hardware will stay the way it is until you manually hard-reset the
-board.
-
--  Ctrl + e :
-
-Paste mode Paste mode allow you to perform pasting a large trunk of code
-into REPL at once without executing code line by line. This is useful
-when you have found a MicroPython library and wish to test it out
-immediately by copy and paste
-
--  Ctrl + b :
-
-Normal mode This hotkey will set REPL back to normal mode. This is
-useful if you are stuck in certain mode and can not get out.
-
--  Ctrl + c :
-
-Quick cancel This hotkey help you to cancel any input and return a new
-line
+.. image:: ../media/getting_started/image3.png
+   :alt: get-start-3
+   :width: 6.5in
+   :height: 6.5in
 
 Setting up Development Environment
-==================================
 
 Step 1. Installing the Driver
------------------------------
 
 First, connect AmebaD to the computer via Micro USB:
 
-|get-start-4|
+.. image:: ../media/getting_started/image4.png
+   :alt: get-start-4
+   :width: 4.79167in
+   :height: 4.79167in
 
 | If this is the first time you connect AmebaD to your computer, the USB
   driver for AmebaD will be automatic installed.
 | You can check the COM port number in Device Manager of your computer:
 
-|get-start-5|
+.. image:: ../media/getting_started/image5.png
+   :alt: get-start-5
+   :width: 5.20833in
+   :height: 5.20833in
 
-Step 2. Installing the necessary tools
---------------------------------------
+Step 2. Set up Arduino IDE
 
-On Windows
-~~~~~~~~~~
+| From version 1.6.5, Arduino IDE supports third-party hardware.
+  Therefore, we can use Arduino IDE to develop applications on AmebaD,
+  and the examples of Arduino can run on AmebaD too. Arduino IDE can be
+  downloaded in the Arduino website:
+| https://www.arduino.cc/en/Main/Software
 
-For windows users, please install a serial terminal software to interact
-with MicroPython. The most common serial terminals are **Tera Term** and
-**Putty,** here we recommend using Tera Term, which can be downloaded
-from internet.
+When the installation is finished, open Arduino IDE. To set up AmebaD
+correctly in Arduino IDE, go to “File” -> “Preferences”
 
-For advanced developer who wish to compile MicroPython firmware from
-scratch, then please be sure to install **Cygwin**, which is a
-Linux-like environment running on Windows system. When selecting the
-Cygwin installer, we recommend using the Cygwin 32-bit version. During
-Cygwin installation, installer will prompt user if wish to install other
-software, please make sure to select the GNU version of **make** from
-the **Devel** category (see picture below) and pick the latest edition.
+.. image:: ../media/getting_started/image6.png
+   :alt: get-start-6
+   :width: 5.20833in
+   :height: 5.20833in
 
-|image1|
+| And paste the following URL into “Additional Boards Manager URLs”
+  field:
+| **https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json**
 
-Also, Python3 is required during firmware compilation, so be sure to
-download the latest Python3 from its official website and have it added
-as environment variable when asked during installation.
+Next, go to “Tools” -> “Board” -> “Boards Manager”:
 
-.. _section-1:
+.. image:: ../media/getting_started/image7.png
+   :alt: get-start-7
+   :width: 6.25in
+   :height: 6.25in
 
-On Linux
-~~~~~~~~
+The “Boards Manager” requires about 10~20 seconds to refresh all
+hardware files (if the network is in bad condition, it may take longer).
+Every time the new hardware is connected, we need to reopen the Board
+Manager. So, we close the Boards Manager, and then open it again. Find
+“Realtek AmebaD Boards” in the list, click “Install”, then the Arduino
+IDE starts to download required files for AmebaD.
 
-For Linux user, please install a serial terminal software of your choice
-using apt-get install command. Here we recommend using **picocom** for
-its lightweight.
+.. image:: ../media/getting_started/image8.png
+   :alt: get-start-8
+   :width: 6.25in
+   :height: 6.25in
 
-For advanced developer interested in developing MicroPython module in C,
-please make sure the GNU make of at least version 3.82 or newer and
-Python3 are installed and can be found using terminal.
+If you are facing GitHub downloading issue, please refer to the
+following link at “Download/Software Development Kit”.
 
-Upload Firmware into Ameba
-==========================
+`https://www.amebaiot.com.cn/en/ameba-arduino-summary/ <https://www.amebaiot.com.cn/ameba-arduino-summary/>`__
 
-Step 1. Navigate to “Release” folder
-------------------------------------
+| Then according to your system, please run the installation tool in the
+  “Offline_SDK_installation_tool” folder.
+| After the installation tool running successfully, you may open Arduino
+  IDE and proceed to “tools” -> “Board“ -> “Boards Manager…”. Try to
+  find “Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)” in the
+  list, click “Install”, then the Arduino IDE starts to download
+  required files for AmebaD.
 
-After downloading the MicroPython repository from Github, you will
-notice a “Release” folder in the root directory of this repository,
-enter this folder and locate a tool named “Double-Click-Me-to-Upload”.
+Finally, we select AmebaD as current connected board in “tools” ->
+“Board” -> “Arduino AmebaD”：
 
-Step 2. Enter UART Download mode
---------------------------------
-
-To do this, first press and hold the UART_DOWNLOAD button, then press
-the RESET button. If success, you should see a green LED flashing on
-your ameba.
-
-|get-start-15|
-
-Step 3. Run “Double-Click-Me-to-Upload”
----------------------------------------
-
-As the name suggested, double click on the file to run it, follow
-instructions printed on the screen to update the ameba’s serial COM port
-(this is known to us during the driver installation step mentioned
-above) so the uploading can be carried out successfully. Once the
-uploading is successful, you will see a line of log printed on the
-screen – “All images are sent successfully”
+.. image:: ../media/getting_started/image9.png
+   :alt: get-start-9
+   :width: 5.20833in
+   :height: 5.20833in
 
 Try the First Example
-=====================
 
-Step 1. Open REPL
------------------
+Step 1. Compile & Upload
 
-|image2|
+| Arduino IDE provides many built-in examples, which can be compiled,
+  uploaded and run directly on the boards. Here, we take the “Blink”
+  example as the first try.
+| Open “File” -> “Examples” -> “01.Basics” -> “Blink”:
 
-REPL stands for Read, Evaluate, Print and Loop, it is the
-MicroPython’s terminal for user to control the microcontroller. REPL is
-running on LOG UART, thus we need to open our serial terminal software,
-in this case, Tera Term to see REPL,
+.. image:: ../media/getting_started/image10.png
+   :alt: get-start-10
+   :width: 5.20833in
+   :height: 5.20833in
 
-Once Tera Term is opened, select “Serial” like in the picture above and
-choose your ameba’s serial port using the dropdown list, after that, hit
-“OK”. If your serial terminal is not configured to 115200 baud rate, now
-is the time to change it to **115200** and leave the rest of settings as
-default.
+Arduino IDE opens a new window with the complete sample code.
 
-|image3|
+.. image:: ../media/getting_started/image11.png
+   :alt: get-start-11
+   :width: 5.20833in
+   :height: 5.20833in
 
-Now that the serial port is connected, press the RESET button
-once on your ameba and you should see the MicroPython’s welcome page as
-shown below,
+Next, we compile the sample code directly; click “Sketch” ->
+“Verify/Compile”
 
-What happened here was that your Ameba first check its calibration data
-and then boot into MicroPython’s firmware, MicroPython then run the
-“boot.py” python script and imported builtin libraries.
+.. image:: ../media/getting_started/image12.png
+   :alt: get-start-12
+   :width: 5.20833in
+   :height: 5.20833in
 
-Now, you can simply type
+Arduino IDE prints the compiling messages in the bottom area of the IDE
+window. When the compilation is finished, you will get the message
+similar to the following figure:
 
->>> help()
+.. image:: ../media/getting_started/image13.png
+   :alt: get-start-13
+   :width: 5.20833in
+   :height: 5.20833in
 
-to see more information, and type
+| Afterwards, we will upload the compiled code to AmebaD.
+| Please make sure AmebaD is connected to your computer, then click
+  “Sketch” -> “Upload”.
 
->>> help(modules)
+The Arduino IDE will compile first then upload. During the uploading
+process, users are required to enter the upload mode of the board.
+Arduino IDE will wait 5s for DEV board to enter the upload mode.
 
-to check all readily available libraries
+.. image:: ../media/getting_started/image14.png
+   :alt: get-start-14
+   :width: 6.25in
+   :height: 6.25in
 
-Step 2. Run WiFi Scan example
------------------------------
+To enter the upload mode, first press and hold the UART_DOWNLOAD button,
+then press the RESET button. If success, you should see a green LED
+flashing on the DEV board.
 
-As most of peripherals’ examples requires additional hardware to show
-the example is working, we will just use WiFi Scan example as our first
-example and to see how easy it is to control WiFi using MicroPython.
+.. image:: ../media/getting_started/image15.png
+   :alt: get-start-15
+   :width: 4.16667in
+   :height: 4.16667in
 
-Now, please follow along by copy+paste the following code or manually
-typing them out into Tera Term and hit “Enter”
+Again, during the uploading procedure the IDE prints messages. Uploading
+procedure takes considerably longer time (about 30 seconds to 1 minute).
+When upload completed, the “Done uploading” message is printed.
 
->>> from wireless import WLAN
->>> wifi = WLAN(mode = WLAN.STA)
->>> wifi.scan()
+.. image:: ../media/getting_started/image16.png
+   :alt: get-start-16
+   :width: 6.25in
+   :height: 6.25in
 
+Step 2.Run the Blink example
 
+| In each example, Arduino not only provides sample code, but also
+  detailed documentation, including wiring diagram, sample code
+  explanation, technical details, …etc. These examples can be directly
+  used on AmebaD.
+| So, we find the detailed information of the Blink example:
+| https://www.arduino.cc/en/Tutorial/Blink
 
-You should be able to see the returned result with all
-discovered wireless network in your surrounding
+| In short, this example makes LED blinks, and it uses GPIO pin 08
+  (refer to the pin diagram D08). Then we connect the LED and resistance
+  as the following figure:
+| （NOTE: In an LED, the longer pin is the positive pole, and shorter
+  pin is the negative pole. So we connect the longer pin to D08, and
+  connect the shorter pin to GND. In addition, please use a resister
+  with suitable resistance in series between LED and GND to protect
+  LED）
 
-|image4|
+.. image:: ../media/getting_started/image17.png
+   :alt: get-start-17
+   :width: 6.25in
+   :height: 6.25in
 
-**(End)**
-
--------------------------------------------------------------------------------------------------------------------------------------
-
-If you face any issue, please refer to the FAQ and troubleshooting page.
-
-.. |get-start-1| image:: ../media/getting_started/imageGS1.png
-   :width: 4.00833in
-   :height: 4.00833in
-.. |get-start-2| image:: ../media/getting_started/imageGS2.png
-   :width: 5in
-   :height: 5.1in
-.. |get-start-3| image:: ../media/getting_started/imageGS3.png
-   :width: 6.26796in
-   :height: 3.12872in
-.. |get-start-4| image:: ../media/getting_started/imageGS5.png
-   :width: 4.79167in
-   :height: 3.41667in
-.. |get-start-5| image:: ../media/getting_started/imageGS6.png
-   :width: 5.20751in
-   :height: 3.61364in
-.. |image1| image:: ../media/getting_started/imageGS7.png
-   :width: 6.24242in
-   :height: 3.54171in
-.. |get-start-15| image:: ../media/getting_started/imageGS8.png
-   :width: 6.26806in
-   :height: 6.43611in
-.. |image2| image:: ../media/getting_started/imageGS9.png
-   :width: 6.26806in
-   :height: 3.26736in
-.. |image3| image:: ../media/getting_started/imageGS10.png
-   :width: 6.26806in
-   :height: 3.27986in
-.. |image4| image:: ../media/getting_started/imageGS11.png
-   :width: 6.26806in
-   :height: 3.60764in
+| Finally, press the RESET button, and you can see the LED blinking.
+| If you encounter any problem, please refer to Trouble-shooting.

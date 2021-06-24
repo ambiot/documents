@@ -1,6 +1,7 @@
 Getting Started
 ==============================================
 
+**Standard SDK: Getting Started With Ameba-D**
 
 **Setup of the GCC Development Environment**
 
@@ -13,13 +14,9 @@ package `setup-x86.exe  <http://www.cygwin.com/setup-x86.exe>`__\ for
 your Windows platform. 1. 32-bit Cygwin is supported both for 32-bit
 Windows and 64-bit Windows. 2. During the installation of Cygwin
 package, include ‘Devel -> make’ and ‘Math -> bc’ utilities on the
-Select Packages page, as below shows.
-
-\ |1|\ |image1|\ 
-
-For Linux, refer
+Select Packages page, as below shows.\ |1|\ |image1|\ For Linux, refer
 to AN0400 Ameba-D `Application
-Note  <https://www.amebaiot.com/sdk-download-manual-8722dm/>`__\ v12.pdf
+Note  <https://www.amebaiot.com.cn/sdk-download-manual-8722dm/>`__\ v12.pdf
 to build the GCC development environment.  
 
 **Knowledge about Ameba-D Demo Board**
@@ -33,9 +30,7 @@ RTK for further details. The hardware block diagram of Ameba-D demo
 board is shown below. USB TO UART: power supply and log print. The baud
 rate is 115200bps SWD: SWD interface, used to download images and debug
 with IAR. Reset button: reset Ameba-D to run firmware after IAR
-completes download.
-
-\ |image2| 
+completes download.\ |image2| 
 
 **Connection to Log Console**
 
@@ -44,9 +39,7 @@ and debugger. To view the log console, make use of the terminal tool ,
 such as SecureCRT/teraterm/putty and etc. We will take our internal tool
 as an example. 1) Select the corresponding serial uart configure
 communicate parameter and then open it. 2) Press the Reset button on
-Ameba-D board. Some messages can be found in the terminal.
-
-\ |image3| 
+Ameba-D board. Some messages can be found in the terminal.\ |image3| 
 
 **Building the First GCC Project on Ameba-D**
 
@@ -76,45 +69,25 @@ corresponding project directories on Cygwin (Windows) or terminal
 (Linux). KM0 project For KM0 project, if the terminal contains
 “km0_image2_all.bin” and “Image manipulating end” output message, it
 means that the image has been built successfully, as below
-shows.
-
-\ |image4|\ 
-
-If somehow it is built failed, type $ make clean to
+shows.\ |image4|\ If somehow it is built failed, type $ make clean to
 clean and then redo the make procedure. After successfully built, the
 image file is located in
 project/realtek_amebaD_va0_example/GCC-RELEASE/project_lp/asdk/image, as
-below shows.
-
-\ |image5|\ 
-
-KM4 project For KM4 project, if the terminal
+below shows.\ |image5|\ KM4 project For KM4 project, if the terminal
 contains “km4_image2_all.bin” and “Image manipulating end” output
 message, it means that the image has been built successfully, as below
-shows.
-
-\ |image6|\ 
-
-If somehow it built failed, type $ make clean to clean
+shows.\ |image6|\ If somehow it built failed, type $ make clean to clean
 and then redo the make procedure. After built successfully, the image
 file is located in
 project/realtek_amebaD_va0_example/GCC-RELEASE/project_hp/asdk/image, as
-below shows.
-
-\ |image7|\ 
-
-**Downloading Images to Ameba-D** Realtek
+below shows.\ |image7|\ **Downloading Images to Ameba-D** Realtek
 provides an image tool to download images on windows.
 
  Environment Requirements: EX. WinXP, Win 7 Above, Microsoft .NET
 Framework 3.5
 
  ImageTool.exe Location:
-SDK\tools\AmebaD\Image_Tool\ImageTool.exe
-
-\ |image8|\ 
-
-Assuming that the
+SDK\tools\AmebaD\Image_Tool\ImageTool.exe\ |image8|\ Assuming that the
 ImageTool on PC is a server, it sends images files to Ameba (client)
 through UART. To download image from server to client, the client must
 enter uart download first. 1) Enter into UART_DOWNLOAD mode.

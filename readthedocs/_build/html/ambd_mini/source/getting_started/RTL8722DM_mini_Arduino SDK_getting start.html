@@ -175,6 +175,7 @@
             
   <div class="section" id="getting-started-with-rtl8722dm-mini">
 <h1>Getting Started with RTL8722DM_mini<a class="headerlink" href="#getting-started-with-rtl8722dm-mini" title="Permalink to this headline">¶</a></h1>
+<p><strong>Ameba ARDUINO: Getting Started with RTL8722DM MINI</strong></p>
 <p>Required Environment</p>
 <p>AmebaD RTL8722DM_MINI currently supports Windows XP/7/8/10 32-bits and
 64-bits, Linux and Mac operating systems. In this documentation, please
@@ -187,15 +188,17 @@ interfaces, AmebaD can connect with electronic components such as LED,
 switches, manometer, hygrometer, PM2.5 dust sensors, …etc.</p>
 <p>The collected data can be uploaded via WiFi and be utilized by
 applications on smart devices to realize IoT implementation.</p>
-<a class="reference internal image-reference" href="../../../_images/image14.jpeg"><img alt="../../../_images/image14.jpeg" src="../../../_images/image14.jpeg" style="width: 1.76945in; height: 3.14583in;" /></a>
+<a class="reference internal image-reference" href="../../../_images/image14.jpeg"><img alt="get-start-1" src="../../../_images/image14.jpeg" style="width: 3.64583in; height: 3.64583in;" /></a>
 <p>RTL8722DM_MINI has smaller size than Arduino Uno, as shown in the above
 figure.</p>
-<a class="reference internal image-reference" href="../../../_images/image266.png"><img alt="../../../_images/image266.png" src="../../../_images/image266.png" style="width: 1.7615in; height: 2.91667in;" /></a>
-<p>RTL8722DM_MINI uses Micro USB to supply power, which is common in many
-smart devices.</p>
-<p>Please refer to the following figure and table for the pin diagram and
-function of RTL8722DM_MINI.</p>
-<a class="reference internal image-reference" href="../../../_images/image1512.png"><img alt="../../../_images/image1512.png" src="../../../_images/image1512.png" style="width: 9.0in; height: 4.0in;" /></a>
+<a class="reference internal image-reference" href="../../../_images/image23.jpeg"><img alt="get-start-2" src="../../../_images/image23.jpeg" style="width: 3.64583in; height: 3.64583in;" /></a>
+<div class="line-block">
+<div class="line">RTL8722DM_MINI uses Micro USB to supply power, which is common in many
+smart devices.</div>
+<div class="line">Please refer to the following figure and table for the pin diagram and
+function of RTL8722DM_MINI.</div>
+</div>
+<a class="reference internal image-reference" href="../../../_images/image345.png"><img alt="get-start-3" src="../../../_images/image345.png" style="width: 6.5in; height: 3.25in;" /></a>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 6%" />
@@ -208,14 +211,14 @@ function of RTL8722DM_MINI.</p>
 <col style="width: 15%" />
 </colgroup>
 <thead>
-<tr class="row-odd"><th class="head"><p></p></th>
-<th class="head"><p>PIN name</p></th>
-<th class="head"><p>GPIO INT</p></th>
-<th class="head"><p>ADC</p></th>
-<th class="head"><p>PWM</p></th>
-<th class="head"><p>UART</p></th>
-<th class="head"><p>SPI</p></th>
-<th class="head"><p>I2C</p></th>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
 </tr>
 </thead>
 <tbody>
@@ -430,29 +433,33 @@ function of RTL8722DM_MINI.</p>
 </table>
 <p>Setting up Development Environment</p>
 <p>Step 1. Installing the Driver</p>
-<p>First, connect RTL8722DM_MINI to the computer via Micro USB (same as
+<p>First, connect RTL8722DM_MINI to the computer via Micro USB(same as
 power):</p>
-<a class="reference internal image-reference" href="../../../_images/image266.png"><img alt="../../../_images/image266.png" src="../../../_images/image266.png" style="width: 1.93136in; height: 3.19792in;" /></a>
-<p>If this is the first time you connect RTL8722DM_MINI to your computer,
-the USB driver for RTL8722DM_MINI will be automatic installed.</p>
-<p>You can check the COM port number in Device Manager of your computer:</p>
-<a class="reference internal image-reference" href="../../../_images/image345.png"><img alt="../../../_images/image345.png" src="../../../_images/image345.png" style="width: 2.15625in; height: 4.54404in;" /></a>
+<a class="reference internal image-reference" href="../../../_images/image23.jpeg"><img alt="get-start-4" src="../../../_images/image23.jpeg" style="width: 3.64583in; height: 3.64583in;" /></a>
+<div class="line-block">
+<div class="line">If this is the first time you connect RTL8722DM_MINI to your computer,
+the USB driver for RTL8722DM_MINI will be automatic installed.</div>
+<div class="line">You can check the COM port number in Device Manager of your computer:</div>
+</div>
+<a class="reference internal image-reference" href="../../../_images/image43.jpeg"><img alt="get-start-5" src="../../../_images/image43.jpeg" style="width: 2.60417in; height: 2.60417in;" /></a>
 <p>Step 2. Set up Arduino IDE</p>
 <p>From version 1.6.5, Arduino IDE supports third-party hardware.
 Therefore, we can use Arduino IDE to develop applications on
-RTL8722DM_MINI, and the examples of Arduino can run on RTL8722DM_ MINI
-too. Refer to link <strong>basic example link</strong></p>
+RTL8722DM_MINI, and the examples of Arduino can run on RTL8722DM_MINI
+too. Refer to <a class="reference external" href="https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/">basic example
+link</a>.</p>
 <div class="line-block">
-<div class="line">Arduino IDE can be downloaded in the Arduino website:</div>
-<div class="line"><a class="reference external" href="https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a></div>
+<div class="line">Arduino IDE can be downloaded in the Arduino
+website: <a class="reference external" href="https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a></div>
+<div class="line">When the installation is finished, open Arduino IDE. To set up
+RTL8722DM_MINI correctly in Arduino IDE, go to “File” -&gt;
+“Preferences”.</div>
 </div>
-<p>When the installation is finished, open Arduino IDE. To set up
-RTL8722DM_MINI correctly in Arduino IDE, go to “File” -&gt; “Preferences”.</p>
-<a class="reference internal image-reference" href="../../../_images/image438.png"><img alt="../../../_images/image438.png" src="../../../_images/image438.png" style="width: 2.89026in; height: 3.30208in;" /></a>
-<p>And paste the following URL into “Additional Boards Manager URLs” field:</p>
-<p><a class="reference external" href="https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json">https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json</a></p>
+<a class="reference internal image-reference" href="../../../_images/image55.jpeg"><img alt="get-start-6" src="../../../_images/image55.jpeg" style="width: 3.64583in; height: 3.64583in;" /></a>
+<p>And paste the following URL into “Additional Boards Manager URLs”
+field: <a class="reference external" href="https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json">https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json</a></p>
 <p>Next, go to “Tools” -&gt; “Board” -&gt; “Boards Manager”:</p>
-<a class="reference internal image-reference" href="../../../_images/image522.png"><img alt="../../../_images/image522.png" src="../../../_images/image522.png" style="width: 3.53861in; height: 3.19753in;" /></a>
+<a class="reference internal image-reference" href="../../../_images/image61.jpeg"><img alt="get-start-7" src="../../../_images/image61.jpeg" style="width: 6.25in; height: 6.25in;" /></a>
 <p>The “Boards Manager” requires about 10~20 seconds to refresh all
 hardware files (if the network is in bad condition, it may take longer).
 Every time the new hardware is connected, we need to reopen the Board
@@ -460,14 +467,22 @@ Manager. So, we close the Boards Manager, and then open it again. Find
 “Realtek AmebaD Boards (32-bits ARM Cortex-M4 &#64;200MHz)” in the list,
 click “Install”, then the Arduino IDE starts to download required files
 for AmebaD.</p>
-<a class="reference internal image-reference" href="../../../_images/image6.jpg"><img alt="../../../_images/image6.jpg" src="../../../_images/image6.jpg" style="width: 6.26806in; height: 3.47847in;" /></a>
-<p>If you are facing GitHub downloading issue,  please refer to the following link at “Download/Software Development Kit”.
-<a class="reference external" href="https://www.amebaiot.com.cn/en/ameba-arduino-summary/">https://www.amebaiot.com.cn/en/ameba-arduino-summary/</a></p>
-<p>Then please patch the “ambd_arduinoArduino_packagehardware” at
-“C:Users\<strong>USERNAME</strong>\AppDataLocalArduino15packagesrealtekhardwareAmebaD\<strong>SDKVERSION</strong>”</p>
-<p>Finally, we select AmebaD as current connected board in “tools” -&gt;(“&quot;)
+<a class="reference internal image-reference" href="../../../_images/image71.jpeg"><img alt="get-start-8" src="../../../_images/image71.jpeg" style="width: 6.25in; height: 6.25in;" /></a>
+<p>If you are facing GitHub downloading issue, please refer to the
+following link at “Download/Software Development Kit”.</p>
+<p><a class="reference external" href="https://www.amebaiot.com.cn/ameba-arduino-summary/">https://www.amebaiot.com.cn/en/ameba-arduino-summary/</a></p>
+<div class="line-block">
+<div class="line">Then according to your system, please run the installation tool in the
+“Offline_SDK_installation_tool” folder.</div>
+<div class="line">After the installation tool running successfully, you may open Arduino
+IDE and proceed to “tools” -&gt; “Board“ -&gt; “Boards Manager…”. Try to
+find “Realtek AmebaD Boards (32-bits ARM Cortex-M4 &#64;200MHz)” in the
+list, click “Install”, then the Arduino IDE starts to download
+required files for AmebaD.</div>
+</div>
+<p>Finally, we select AmebaD as current connected board in “tools” -&gt;
 “Board” -&gt; “Ameba ARM (32-bits) Boards” -&gt;” RTL8722DM_MINI”：</p>
-<a class="reference internal image-reference" href="../../../_images/image79.png"><img alt="../../../_images/image79.png" src="../../../_images/image79.png" style="width: 4.93757in; height: 3.59514in;" /></a>
+<a class="reference internal image-reference" href="../../../_images/image8.jpeg"><img alt="get-start-9" src="../../../_images/image8.jpeg" style="width: 5.20833in; height: 5.20833in;" /></a>
 <p>Try the First Example</p>
 <p>Step 1. Compile &amp; Upload</p>
 <div class="line-block">
@@ -476,36 +491,40 @@ uploaded and run directly on the boards. Here, we take the “Blink”
 example as the first try.</div>
 <div class="line">Open “File” -&gt; “Examples” -&gt; “01.Basics” -&gt; “Blink”:</div>
 </div>
-<a class="reference internal image-reference" href="../../../_images/image86.png"><img alt="../../../_images/image86.png" src="../../../_images/image86.png" style="width: 3.99694in; height: 4.83304in;" /></a>
+<a class="reference internal image-reference" href="../../../_images/image9.jpeg"><img alt="get-start-10" src="../../../_images/image9.jpeg" style="width: 5.20833in; height: 5.20833in;" /></a>
 <p>Arduino IDE opens a new window with the complete sample code.</p>
-<a class="reference internal image-reference" href="../../../_images/image96.png"><img alt="../../../_images/image96.png" src="../../../_images/image96.png" style="width: 4.17891in; height: 4.59792in;" /></a>
-<p>There are onboard LED of TRL8722DM_MINI, the default “LED_BUILTIN” is
-blue onboard LE.D</p>
-<p>Change “LED_BUILTIN” to “LED_B” or “LED_G” for different colour. Onboard
-LEDs options LED_B and LED_G. (blue and green).</p>
-<a class="reference internal image-reference" href="../../../_images/image105.png"><img alt="../../../_images/image105.png" src="../../../_images/image105.png" style="width: 1.94336in; height: 3.03125in;" /></a>
+<a class="reference internal image-reference" href="../../../_images/image10.jpeg"><img alt="get-start-11" src="../../../_images/image10.jpeg" style="width: 5.20833in; height: 5.20833in;" /></a>
+<div class="line-block">
+<div class="line">There are onboard LED of TRL8722DM_MINI, the default “LED_BUILTIN” is
+blue onboard LE.D</div>
+<div class="line">Change “LED_BUILTIN” to “LED_B” or “LED_G” for different colour.
+Onboard LEDs options LED_B and LED_G. (blue and green).</div>
+</div>
+<a class="reference internal image-reference" href="../../../_images/image111.jpeg"><img alt="get-start-12" src="../../../_images/image111.jpeg" style="width: 3.64583in; height: 3.64583in;" /></a>
 <p>Next, we compile the sample code directly; click “Sketch” -&gt;
 “Verify/Compile”</p>
-<a class="reference internal image-reference" href="../../../_images/image1114.png"><img alt="../../../_images/image1114.png" src="../../../_images/image1114.png" style="width: 4.12779in; height: 4.54167in;" /></a>
+<a class="reference internal image-reference" href="../../../_images/image121.jpeg"><img alt="get-start-13" src="../../../_images/image121.jpeg" style="width: 5.20833in; height: 5.20833in;" /></a>
 <p>Arduino IDE prints the compiling messages in the bottom area of the IDE
 window. When the compilation is finished, you will get the message
 similar to the following figure:</p>
-<a class="reference internal image-reference" href="../../../_images/image1214.png"><img alt="../../../_images/image1214.png" src="../../../_images/image1214.png" style="width: 4.04167in; height: 4.44691in;" /></a>
-<p>Afterwards, we will upload the compiled code to RTL8722DM_MINI.</p>
-<p>Please make sure RTL8722DM_MINI is connected to your computer, then
-click “Sketch” -&gt; “Upload”.</p>
-<p>The Arduino IDE will compile first then upload. During the uploading
+<a class="reference internal image-reference" href="../../../_images/image131.jpeg"><img alt="get-start-14" src="../../../_images/image131.jpeg" style="width: 5.20833in; height: 5.20833in;" /></a>
+<div class="line-block">
+<div class="line">Afterwards, we will upload the compiled code to RTL8722DM_MINI.</div>
+<div class="line">Please make sure RTL8722DM_MINI is connected to your computer, then
+click “Sketch” -&gt; “Upload”.</div>
+<div class="line">The Arduino IDE will compile first then upload. During the uploading
 process, users are required to enter the upload mode of the board.
-Arduino IDE will wait 5s for DEV board to enter the upload mode.</p>
-<a class="reference internal image-reference" href="../../../_images/image1313.png"><img alt="../../../_images/image1313.png" src="../../../_images/image1313.png" style="width: 4.14583in; height: 4.38468in;" /></a>
+Arduino IDE will wait 5s for DEV board to enter the upload mode.</div>
+</div>
+<a class="reference internal image-reference" href="../../../_images/image141.jpeg"><img alt="get-start-15" src="../../../_images/image141.jpeg" style="width: 5.20833in; height: 5.20833in;" /></a>
 <p>To enter the upload mode, first press and hold the UART_DOWNLOAD button,
 then press the RESET button. If success, you should see the onboard
 green LED and blue LED all turned off.</p>
-<a class="reference internal image-reference" href="../../../_images/image1413.png"><img alt="../../../_images/image1413.png" src="../../../_images/image1413.png" style="width: 3.79848in; height: 3.30208in;" /></a>
+<a class="reference internal image-reference" href="../../../_images/image151.jpeg"><img alt="get-start-16" src="../../../_images/image151.jpeg" style="width: 5.20833in; height: 5.20833in;" /></a>
 <p>Again, during the uploading procedure the IDE prints messages. Uploading
 procedure takes considerably longer time (about 30 seconds to 1 minute).
 When upload completed, the “Done uploading” message is printed.</p>
-<p>Step 2.Run the Blink example</p>
+<p>Run the Blink example</p>
 <div class="line-block">
 <div class="line">In each example, Arduino not only provides sample code, but also
 detailed documentation, including wiring diagram, sample code
@@ -514,11 +533,13 @@ used on RTL8722DM_MINI.</div>
 <div class="line">So, we find the detailed information of the Blink example:</div>
 <div class="line"><a class="reference external" href="https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink">https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink</a></div>
 </div>
-<p>In short, for RTL8722DM_MINI, the example can be run on both onboard
+<div class="line-block">
+<div class="line">In short, for RTL8722DM_MINI, the example can be run on both onboard
 LEDs (green or blue) or external LED (use any GPIO pins for signal
-output).</p>
-<p>Finally, press the RESET button, and you can see the LED blinking.</p>
-<p>If you encounter any problem, please refer to Troubleshooting.</p>
+output).</div>
+<div class="line">Finally, press the RESET button, and you can see the LED blinking.</div>
+<div class="line">If you encounter any problem, please refer to Troubleshooting.</div>
+</div>
 </div>
 
 
