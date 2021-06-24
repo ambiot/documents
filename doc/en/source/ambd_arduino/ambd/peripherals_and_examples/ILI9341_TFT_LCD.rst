@@ -50,7 +50,7 @@ Common pins in ILI9341 TFT LCD with SPI interface:
 
 Wiring example of QVGA TFT LCD:
 
-.. image:: ILI9341_TFT_LCD\media\image1.png
+.. image:: ..\media\ILI9341_TFT_LCD\media\image1.png
    :alt: 1
    :width: 6.5in
    :height: 4.51736in
@@ -59,7 +59,7 @@ Wiring example of QVGA TFT LCD:
 | Please note that this shield model enables the backlight by default
   and pin 8 is not for backlight, and the VCC should be connected to 5V.
 
-.. image:: ILI9341_TFT_LCD\media\image2.png
+.. image:: ..\media\ILI9341_TFT_LCD\media\image2.png
    :alt: 2
    :width: 5.20833in
    :height: 5.20833in
@@ -67,7 +67,7 @@ Wiring example of QVGA TFT LCD:
 Open the example, “Files” -> “Examples” -> “AmebaSPI” ->
 “ILI9341_TFT_LCD_basic”
 
-.. image:: ILI9341_TFT_LCD\media\image3.png
+.. image:: ..\media\ILI9341_TFT_LCD\media\image3.png
    :alt: 2
    :width: 5.20833in
    :height: 5.20833in
@@ -77,7 +77,7 @@ Open the example, “Files” -> “Examples” -> “AmebaSPI” ->
   displaying different colors, drawing vertical and horizontal lines,
   drawing circles, etc.…
 
-.. image:: ILI9341_TFT_LCD\media\image4.png
+.. image:: ..\media\ILI9341_TFT_LCD\media\image4.png
    :alt: 4
    :width: 6.5in
    :height: 2.07986in
@@ -141,6 +141,6 @@ Code Reference
          screen rotates 90 degrees, the width becomes 320 and the height
          becomes 240.
 
-.. |5| image:: ILI9341_TFT_LCD\media\image5.png
+.. |5| image:: ..\media\ILI9341_TFT_LCD\media\image5.png
    :width: 2.07639in
    :height: 2.77083in

@@ -56,18 +56,18 @@ Finally, use the formula to calculate the distance.
 
 distance = duration / 58;
 
-.. |1| image:: HC_SR04_Ultrasonic_module\media\image1.png
+.. |1| image:: ..\media\HC_SR04_Ultrasonic_module\media\image1.png
    :width: 6.5in
    :height: 4.00417in
-.. |2| image:: HC_SR04_Ultrasonic_module\media\image2.png
+.. |2| image:: ..\media\HC_SR04_Ultrasonic_module\media\image2.png
    :width: 6.5in
    :height: 4.74306in
-.. |3| image:: HC_SR04_Ultrasonic_module\media\image3.png
+.. |3| image:: ..\media\HC_SR04_Ultrasonic_module\media\image3.png
    :width: 6.5in
    :height: 4.99375in
-.. |image1| image:: HC_SR04_Ultrasonic_module\media\image4.png
+.. |image1| image:: ..\media\HC_SR04_Ultrasonic_module\media\image4.png
    :width: 6.5in
    :height: 4.99375in
-.. |4| image:: HC_SR04_Ultrasonic_module\media\image5.png
+.. |4| image:: ..\media\HC_SR04_Ultrasonic_module\media\image5.png
    :width: 5.38958in
    :height: 9in

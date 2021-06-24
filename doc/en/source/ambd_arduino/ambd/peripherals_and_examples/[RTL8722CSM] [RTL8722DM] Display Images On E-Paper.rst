@@ -49,18 +49,18 @@ Code Reference
 | [2] Provide the link to how to generate a QR code on the E-paper
   module: https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-arduino.html
 
-.. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E-Paper/image1.png
+.. |1| image:: ..\media\[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E-Paper\image1.png
    :width: 5.20833in
    :height: 5.20833in
-.. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E-Paper/image2.png
+.. |image1| image:: ..\media\[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E-Paper\image2.png
    :width: 6.5in
    :height: 5.64931in
-.. |image2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E-Paper/image3.png
+.. |image2| image:: ..\media\[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E-Paper\image3.png
    :width: 6.5in
    :height: 5.64931in
-.. |image3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E-Paper/image4.png
+.. |image3| image:: ..\media\[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E-Paper\image4.png
    :width: 6.5in
    :height: 5.64931in
-.. |image4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E-Paper/image5.png
+.. |image4| image:: ..\media\[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E-Paper\image5.png
    :width: 6.5in
    :height: 5.64931in

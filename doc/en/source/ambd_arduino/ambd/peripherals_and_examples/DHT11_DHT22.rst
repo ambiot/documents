@@ -18,7 +18,7 @@ Example
   temperature is -40~125 ℃ with ±0.2℃ precision.
 | There are 4 pins on the sensor:
 
-.. image:: DHT11_DHT22\media\image1.png
+.. image:: ..\media\DHT11_DHT22\media\image1.png
    :alt: 1
    :width: 2.69444in
    :height: 3.45833in
@@ -26,7 +26,7 @@ Example
 Since one of the 4 pins has no function, there are temperature/humidity
 sensors with only 3 pins on the market:
 
-.. image:: DHT11_DHT22\media\image2.png
+.. image:: ..\media\DHT11_DHT22\media\image2.png
    :alt: 2
    :width: 1.1875in
    :height: 2.875in
@@ -46,7 +46,7 @@ data, please follow the steps:
       high. If the duration of high is smaller than low, it stands for
       bit 0. Otherwise it stands for bit 1.
 
-.. image:: DHT11_DHT22\media\image3.png
+.. image:: ..\media\DHT11_DHT22\media\image3.png
    :alt: 3
    :width: 6.5in
    :height: 1.88889in
@@ -58,7 +58,7 @@ Open the sample code in “Files” -> “Examples” -> “AmebaGPIO” ->
 “DHT_Tester”. Compile and upload to Ameba, then press the reset button.
 The result would be shown on the Serial Monitor.
 
-.. image:: DHT11_DHT22\media\image5.png
+.. image:: ..\media\DHT11_DHT22\media\image5.png
    :alt: 5
    :width: 6.06944in
    :height: 3.47917in
@@ -73,6 +73,6 @@ buffered temperature/humidity data unless it found the data has expired
 (i.e., has not been updated for over 2 seconds). If the data is expired,
 Ameba issues a request to DHT to read the latest data.
 
-.. |4| image:: DHT11_DHT22\media\image4.png
+.. |4| image:: ..\media\DHT11_DHT22\media\image4.png
    :width: 6.04861in
    :height: 6.29167in

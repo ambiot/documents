@@ -18,7 +18,7 @@ micrometers or less. Open the example in “File” -> “Examples” ->
 
 There are 8 pins in PMS3003:
 
-.. image:: PMS3003_5003\media\image2.png
+.. image:: ..\media\PMS3003_5003\media\image2.png
    :alt: 5-2-2
    :width: 4.59028in
    :height: 4.0625in
@@ -36,12 +36,12 @@ wiring diagram:|2-2-4|\ In this example, we do not use the “Set” and
 the Reset button, Ameba starts to output the PM 2.5 data to serial
 monitor.\ |5-2-4|
 
-.. |5-2-1| image:: PMS3003_5003\media\image1.png
+.. |5-2-1| image:: ..\media\PMS3003_5003\media\image1.png
    :width: 6.20139in
    :height: 8.67361in
-.. |2-2-4| image:: PMS3003_5003\media\image3.png
+.. |2-2-4| image:: ..\media\PMS3003_5003\media\image3.png
    :width: 6.5in
    :height: 5.29306in
-.. |5-2-4| image:: PMS3003_5003\media\image4.png
+.. |5-2-4| image:: ..\media\PMS3003_5003\media\image4.png
    :width: 5.95139in
    :height: 3.75694in
