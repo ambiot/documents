@@ -1,11 +1,11 @@
 English Version | [中文版](./README.zh.md)
 
 ---
-### GETTING START
+### GETTING STARTED
 
-|Integration Method|Document Entry|Current Status|
-|:----|:-----|:-----|
-|Code Demo |[Documents](https://rtd-test-en.readthedocs.io/en/latest/) |[![Documentation Status](https://readthedocs.org/projects/code-blocks-en/badge/?version=latest)](https://readthedocs.org/projects/rtd-test-en/)|
+|Document Entry|Current Status|
+|:-----|:-----|
+|[Documents](https://amebaiotdocuments.readthedocs.io/en/latest/) |[![Documentation Status](https://readthedocs.org/projects/code-blocks-en/badge/?version=latest)](https://readthedocs.org/projects/amebaiotdocuments/)|
 
 ---
 ### CONTACT US
