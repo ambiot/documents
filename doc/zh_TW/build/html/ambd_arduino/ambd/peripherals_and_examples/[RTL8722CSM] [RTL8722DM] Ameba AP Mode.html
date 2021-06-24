@@ -1,0 +1,233 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-TW" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>[RTL8722CSM] [RTL8722DM] Ameba AP Mode &mdash; amebaDoc 0.0.1 說明文件</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> amebaDoc
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">開源開發平台:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../arduino_index.html">Arduino 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_micropython/source/index.html">Micropython 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_sdk/source/index.html">Standard SDK</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">amebaDoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>[RTL8722CSM] [RTL8722DM] Ameba AP Mode</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/ambd_arduino/ambd/peripherals_and_examples/[RTL8722CSM] [RTL8722DM] Ameba AP Mode.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rtl8722csm-rtl8722dm-ameba-ap-mode">
+<h1>[RTL8722CSM] [RTL8722DM] Ameba AP Mode<a class="headerlink" href="#rtl8722csm-rtl8722dm-ameba-ap-mode" title="本標題的永久連結">¶</a></h1>
+<p>In AP mode, Ameba can accept at most 3 station connections, and can be
+set to open mode or WPA2 mode.</p>
+<p>Preparation</p>
+<ul class="simple">
+<li><p>Ameba x 1</p></li>
+</ul>
+<p>Example</p>
+<p>In this example, we turn on the AP mode of Ameba and connect station to
+Ameba.</p>
+<p>Open the WiFi AP example, “File” -&gt; “Examples” -&gt; “AmebaWiFi” -&gt;
+“WiFiAPMode”</p>
+<a class="reference internal image-reference" href="../../../_images/image18.png"><img alt="1" src="../../../_images/image18.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+<p>In the highlighted code snippet, fill in your SSID, PASSWORD and
+CHANNEL.</p>
+<p>The code highlighted in green is the API we used to turn on the AP mode
+in security mode.</p>
+<p>If you want to turn on the AP mode in open mode, please modify the code
+to status = WiFi.apbegin(ssid, channel);</p>
+<p>Then upload the sample code and press reset, and you can see related
+information shown in serial monitor.</p>
+<a class="reference internal image-reference" href="../../../_images/image28.png"><img alt="1" src="../../../_images/image28.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+<p>In the figure below, we show the messages shown in serial monitor when
+two stations connect to Ameba AP in open mode:</p>
+<a class="reference internal image-reference" href="../../../_images/image33.png"><img alt="1" src="../../../_images/image33.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+<p>In the figure below, we show the messages shown in serial monitor when a
+station connects to Ameba AP in security mode:</p>
+<a class="reference internal image-reference" href="../../../_images/image41.png"><img alt="1" src="../../../_images/image41.png" style="width: 5.89583in; height: 7.40972in;" /></a>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版權所有 2021, Ameba IoT。
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

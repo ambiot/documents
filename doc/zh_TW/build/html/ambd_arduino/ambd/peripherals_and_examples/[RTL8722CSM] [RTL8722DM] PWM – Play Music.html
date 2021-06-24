@@ -1,0 +1,244 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-TW" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>[RTL8722CSM] [RTL8722DM] PWM – Play Music &mdash; amebaDoc 0.0.1 說明文件</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> amebaDoc
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">開源開發平台:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../arduino_index.html">Arduino 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_micropython/source/index.html">Micropython 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_sdk/source/index.html">Standard SDK</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">amebaDoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>[RTL8722CSM] [RTL8722DM] PWM – Play Music</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/ambd_arduino/ambd/peripherals_and_examples/[RTL8722CSM] [RTL8722DM] PWM – Play Music.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rtl8722csm-rtl8722dm-pwm-play-music">
+<h1>[RTL8722CSM] [RTL8722DM] PWM – Play Music<a class="headerlink" href="#rtl8722csm-rtl8722dm-pwm-play-music" title="本標題的永久連結">¶</a></h1>
+<p>Preparation</p>
+<ul class="simple">
+<li><p>Ameba x 1</p></li>
+<li><p>Buzzer x 1</p></li>
+</ul>
+<p>Example</p>
+<p>A sound is composed of volume, tone and timbre. Volume is determined by
+the amplitude of the sound wave. Tone is determined by the frequency of
+the sound wave. Timbre is determined by the waveform of the sound wave.</p>
+<p>In this example, we use PWM to control the buzzer to emit sound with
+desired tone. As PWM outputs square wave, if we wish to emit tone C4
+(frequency=262Hz), we have to make PWM to output square wave with
+wavelength 1/262 = 3.8ms:</p>
+<a class="reference internal image-reference" href="../../../_images/image135.png"><img alt="1" src="../../../_images/image135.png" style="width: 6.5in; height: 1.6875in;" /></a>
+<div class="line-block">
+<div class="line">We use PWM to output sound wave with different frequency, so as to
+play music by the buzzer.</div>
+<div class="line">Connect the buzzer to the PWM output pin shown in the following
+diagrams.</div>
+<div class="line">RTL8722 wiring diagram:</div>
+</div>
+<a class="reference internal image-reference" href="../../../_images/image234.png"><img alt="2" src="../../../_images/image234.png" style="width: 6.24306in; height: 6.88194in;" /></a>
+<div class="line-block">
+<div class="line">Open the example code in “Examples” -&gt; “AmebaAnalog” -&gt;
+“TonePlayMelody”</div>
+<div class="line">Compile and upload to Ameba, press the reset button. Then you can hear
+the buzzer playing music.</div>
+</div>
+<p>Code Reference</p>
+<div class="line-block">
+<div class="line">Ameba implement the tone() and noTone() API of Arduino:</div>
+<div class="line"><a class="reference external" href="https://www.arduino.cc/en/Reference/Tone">https://www.arduino.cc/en/Reference/Tone</a></div>
+<div class="line"><a class="reference external" href="https://www.arduino.cc/en/Reference/NoTone">https://www.arduino.cc/en/Reference/NoTone</a></div>
+</div>
+<p>In the sample code, we initiate a melody array, which stores the tones
+to make. Another array, noteDurations, contains the length of each tone,
+4 represents quarter note (equals to 3000ms/4 = 750ms, and plus an extra
+30% time pause), 8 represents eighth note.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版權所有 2021, Ameba IoT。
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

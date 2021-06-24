@@ -1,0 +1,255 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-TW" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>[RTL8722CSM] [RTL8722DM] BLE – PWM over BLE UART &mdash; amebaDoc 0.0.1 說明文件</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> amebaDoc
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">開源開發平台:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../arduino_index.html">Arduino 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ambd_micropython/source/index.html">Micropython SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ambd_sdk/source/index.html">Standard SDK</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">amebaDoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>[RTL8722CSM] [RTL8722DM] BLE – PWM over BLE UART</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/ambd_arduino/ambd/source/peripherals_and_examples/[RTL8722CSM] [RTL8722DM] BLE – PWM over BLE UART.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rtl8722csm-rtl8722dm-ble-pwm-over-ble-uart">
+<h1>[RTL8722CSM] [RTL8722DM] BLE – PWM over BLE UART<a class="headerlink" href="#rtl8722csm-rtl8722dm-ble-pwm-over-ble-uart" title="本標題的永久連結">¶</a></h1>
+<p>Materials</p>
+<ul class="simple">
+<li><p>Ameba D [RTL8722 CSM/DM] x 1</p></li>
+<li><p>RGB LED</p></li>
+<li><p>Android / iOS smartphone</p></li>
+</ul>
+<p>Example</p>
+<p><strong>Introduction</strong></p>
+<p>In this example, a smartphone app is used to transmit commands over BLE
+UART to control the PWM outputs and change the color of a RGB LED. Refer
+to the other example guides for detailed explanations of the BLE UART
+service.</p>
+<p><strong>Procedure</strong></p>
+<p>Connect the RGB LED to the RTL8722 board following the diagram, the
+common LED pin may need to connect to 3.3V or GND depending on the type
+of LED (common anode / common cathode).</p>
+<a class="reference internal image-reference" href="../../../../_images/image120.png"><img alt="1" src="../../../../_images/image120.png" style="width: 6.25in; height: 7.40972in;" /></a>
+<div class="line-block">
+<div class="line">Ensure that the required app is installed on your smartphone, it is
+available at:</div>
+<div class="line">– Google Play Store:</div>
+<div class="line"><a class="reference external" href="https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect">https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect</a></div>
+</div>
+<div class="line-block">
+<div class="line">– Apple App Store:</div>
+<div class="line"><a class="reference external" href="https://apps.apple.com/us/app/bluefruit-connect/id830125974">https://apps.apple.com/us/app/bluefruit-connect/id830125974</a></div>
+</div>
+<p>Open the example, “Files” -&gt; “Examples” -&gt; “AmebaBLE” -&gt;
+“PWM_over_BLEUart”.</p>
+<p>Upload the code and press the reset button on Ameba once the upload is
+finished.</p>
+<a class="reference internal image-reference" href="../../../../_images/image219.png"><img alt="1" src="../../../../_images/image219.png" style="width: 6.25in; height: 5.99306in;" /></a>
+<p>Open the app on your smartphone, scan and connect to the board shown as
+“AMEBA_BLE_DEV” and choose the controller -&gt; color picker function in
+the app.</p>
+<a class="reference internal image-reference" href="../../../../_images/image310.png"><img alt="1" src="../../../../_images/image310.png" style="width: 4.16667in; height: 5.99306in;" /></a>
+<a class="reference internal image-reference" href="../../../../_images/image48.png"><img alt="1" src="../../../../_images/image48.png" style="width: 4.16667in; height: 5.99306in;" /></a>
+<a class="reference internal image-reference" href="../../../../_images/image55.png"><img alt="1" src="../../../../_images/image55.png" style="width: 4.16667in; height: 5.99306in;" /></a>
+<p>Using the color selection wheel, saturation, and brightness sliders,
+choose a desired color and click select to send the RGB values to the
+board. You should see the RGB LED change to the matching color.</p>
+<a class="reference internal image-reference" href="../../../../_images/image61.png"><img alt="1" src="../../../../_images/image61.png" style="width: 4.16667in; height: 5.99306in;" /></a>
+<p>Code Reference</p>
+<p>The RGB values are sent as three consecutive bytes prefixed by “!C”
+characters. The “!” exclamation mark is used to indicate that the
+following data is a command, and the “C” character is used to indicate
+that the data is RGB values. The received UART message is checked in the
+callback function for “!C” first, otherwise it is treated as a regular
+message and printed to the serial terminal.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版權所有 2021, Ameba IoT。
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

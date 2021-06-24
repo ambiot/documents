@@ -1,0 +1,807 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-TW" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Wiring_OS_API &mdash; amebaDoc 0.0.1 說明文件</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../../search.html" />
+    <link rel="next" title="Class WDT" href="Class%20WDT.html" />
+    <link rel="prev" title="SPI_Readme" href="SPI_Readme.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> amebaDoc
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">開源開發平台:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../arduino_index.html">Arduino 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_micropython/source/index.html">Micropython SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_sdk/source/index.html">Standard SDK</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">amebaDoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../arduino_index.html">Arduino 開發平台</a> &raquo;</li>
+        
+          <li><a href="../index.html">RTL8722DM</a> &raquo;</li>
+        
+          <li><a href="index.html">API 指南</a> &raquo;</li>
+        
+      <li>Wiring_OS_API</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/ambd_arduino/source/api_documents/Wiring_OS_API.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="wiring-os-api">
+<h1>Wiring_OS_API<a class="headerlink" href="#wiring-os-api" title="本標題的永久連結">¶</a></h1>
+<p><strong>Wiring OS API</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">A wrapper to CMSIS (Cortex Microcontroller Software Interface
+Standard) OS API which serve as a RTOS to create multi-threaded
+application with real-time behaviour.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">NA</div>
+</div>
+<p><strong>Members</strong></p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Public Methods</strong></p></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>os_thread_create_arduino</p></td>
+<td><p>Create a thread and add it to
+Active Threads and set it to state
+READY</p></td>
+</tr>
+<tr class="row-odd"><td><p>os_thread_get_id_arduino</p></td>
+<td><p>Return the thread ID of the
+current running thread</p></td>
+</tr>
+<tr class="row-even"><td><p>os_thread_terminate_arduino</p></td>
+<td><p>Terminate execution of a thread
+and remove it from Active Threads</p></td>
+</tr>
+<tr class="row-odd"><td><p>os_thread_yield_arduino</p></td>
+<td><p>Pass control to next thread that
+is in state READY</p></td>
+</tr>
+<tr class="row-even"><td><p>os_thread_set_priority_arduino</p></td>
+<td><p>Change priority of an active
+thread</p></td>
+</tr>
+<tr class="row-odd"><td><p>os_thread_get_priority_arduino</p></td>
+<td><p>Get current priority of an active
+thread</p></td>
+</tr>
+<tr class="row-even"><td><p>os_signal_set_arduino</p></td>
+<td><p>Set the specified Signal Flags of
+an active thread</p></td>
+</tr>
+<tr class="row-odd"><td><p>os_signal_clear_arduino</p></td>
+<td><p>Clear the specified Signal Flags
+of an active thread</p></td>
+</tr>
+<tr class="row-even"><td><p>os_signal_wait_arduino</p></td>
+<td><p>Wait for one or more Signal Flags
+to become signaled for the current
+RUNNING thread</p></td>
+</tr>
+<tr class="row-odd"><td><p>os_timer_create_arduino</p></td>
+<td><p>Create a timer</p></td>
+</tr>
+<tr class="row-even"><td><p>os_timer_start_arduino</p></td>
+<td><p>Start or restart a timer</p></td>
+</tr>
+<tr class="row-odd"><td><p>os_timer_stop_arduino</p></td>
+<td><p>Stop the timer</p></td>
+</tr>
+<tr class="row-even"><td><p>os_timer_delete_arduino</p></td>
+<td><p>Delete a timer that was created by
+os_timer_create</p></td>
+</tr>
+<tr class="row-odd"><td><p>os_semaphore_create_arduino</p></td>
+<td><p>Create and Initialize a Semaphore
+object used for managing resources</p></td>
+</tr>
+<tr class="row-even"><td><p>os_semaphore_wait_arduino</p></td>
+<td><p>Wait until a Semaphore token
+becomes available</p></td>
+</tr>
+<tr class="row-odd"><td><p>os_semaphore_release_arduino</p></td>
+<td><p>Release a Semaphore token</p></td>
+</tr>
+<tr class="row-even"><td><p>os_semaphore_delete_arduino</p></td>
+<td><p>Delete a Semaphore that was
+created by os_semaphore_create</p></td>
+</tr>
+<tr class="row-odd"><td><p>os_get_free_heap_size_arduino</p></td>
+<td><p>Return the available heap memory
+space when called</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>os_thread_create_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Create a thread and add it to Active Threads and set it to state
+READY.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_thread_create_arduino (void (<a href="#id1"><span class="problematic" id="id2">*</span></a>task)(const void
+*argument), void *argument, int priority, uint32_t stack_size);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">task: task Function pointer which is the thread body. It should not
+run into the end of function unless os_thread_terminate is invoked</div>
+<div class="line">argument: the data pointer which brings to task</div>
+<div class="line">priority: The underlying os is FreeRTOS. It executes tasks with
+highest priority which are not in idle state.</div>
+<div class="line">stack_size: The stack_size is used as memory heap only for this task.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">The thread id which is used in thread operation and signalling.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_thread_get_id_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Return the thread ID of the current running thread</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_thread_get_id_arduino (void);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">The function requires no input parameter.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">Current thread id which calls os_thread_get_id.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_thread_terminate_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Terminate execution of a thread and remove it from Active Threads</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_thread_terminate_arduino (uint32_t thread_id);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">thread_id: Terminate the thread with specific thread_id</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">os_status code</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">Thread should not ended without terminate first.</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_thread_yield_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Pass control to next thread that is in state READY</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_thread_yield_arduino (void);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">The function requires no input parameter.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">os_status code</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">By default, the minimal execution unit is 1 millisecond. In a scenario
+that if a thread with smaller want to handout execution right to a
+thread with higher priority immediately without waiting for the ending
+of current 1 millisecond, then invoke os_thread_yield can transfer
+exection right to OS’s idle task and check which is the next execution
+thread.</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_thread_set_priority_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Change priority of an active thread</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_thread_set_priority_arduino (uint32_t thread_id, int
+priority);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">thread_id: The target thread with the thread id to be changed</div>
+<div class="line">priority: The updated priority</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">The function returns nothing.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_thread_get_priority_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Get current priority of an active thread</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_thread_get_priority_arduino (uint32_t thread_id);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">thread_id: The target thread with the thread id to be searched</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">os_priority</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_signal_set_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Set the specified Signal Flags of an active thread</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">int32_t os_signal_set_arduino (uint32_t thread_id, int32_t signals);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">thread_id: Send signal to a thread with the thread id</div>
+<div class="line">signals: the signals to be send</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">os_status code</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_signal_clear_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Clear the specified Signal Flags of an active thread</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">int32_t os_signal_clear_arduino (uint32_t thread_id, int32_t signals);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">thread_id: Clear signal to a thread with the thread id</div>
+<div class="line">signals: The signals to be clear</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">os_status code</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_signal_wait_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Wait for one or more Signal Flags to become signaled for the current
+RUNNING thread</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">os_event_t os_signal_wait_arduino (int32_t signals, uint32_t
+millisec);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">signals: the signals to be wait</div>
+<div class="line">millisec: the timeout value if no signal comes in. Fill in 0xFFFFFFFF
+for infinite wait</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">os_status code</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_timer_create_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Create a timer</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_timer_create_arduino (void (<a href="#id3"><span class="problematic" id="id4">*</span></a>callback)(void const
+*argument), uint8_t isPeriodic, void *argument);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">callback: The function to be invoke when timer timeout</div>
+<div class="line">isPeriodic: OS_TIMER_ONCE or OS_TIMER_PERIODIC</div>
+<div class="line">argument: The argument that is bring into callback function</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">timer id</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_timer_start_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Start or restart a timer</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_timer_start_arduino (uint32_t timer_id, uint32_t
+millisec);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">timer_id: The timer id obtained from by os_timer_create</div>
+<div class="line">millisec: The delays after timer starts</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">os_status code</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_timer_stop_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Stop the timer</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_timer_stop_arduino (uint32_t timer_id);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">timer_id: The timer id obtained from by os_timer_create</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">os_status code</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_timer_delete_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Delete a timer that was created by os_timer_create</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_timer_delete_arduino (uint32_t timer_id);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">timer_id: The timer id obtained from by os_timer_create</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">os_status code</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_semaphore_create_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Create and Initialize a Semaphore object used for managing resources</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_semaphore_create_arduino (int32_t count);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">count: The number of available resources</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">semaphore ID</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_semaphore_wait_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Wait until a Semaphore token becomes available</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">int32_t os_semaphore_wait_arduino (uint32_t semaphore_id, uint32_t
+millisec);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">semaphore_id: semaphore id obtained from os_semaphore_create</div>
+<div class="line">millisec: timeout value</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">os_status code</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_semaphore_release_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Release a Semaphore token</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_semaphore_release_arduino (uint32_t semaphore_id);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">semaphore_id: semaphore id obtained from os_semaphore_create</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">os_status code</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_semaphore_delete_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Delete a Semaphore that was created by os_semaphore_create</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">uint32_t os_semaphore_delete_arduino (uint32_t semaphore_id);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">semaphore_id: semaphore id obtained from os_semaphore_create</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">os_status code</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">NA</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+<div class="line"><br /></div>
+</div>
+<p><strong>os_get_free_heap_size_arduino</strong></p>
+<div class="line-block">
+<div class="line"><strong>Description</strong></div>
+<div class="line">Return the available heap memory space when called</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Syntax</strong></div>
+<div class="line">size_t os_get_free_heap_size_arduino(void);</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parameters</strong></div>
+<div class="line">The function requires no input parameter.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Returns</strong></div>
+<div class="line">current free heap size</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example Code</strong></div>
+<div class="line">Example: MemInfo</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Notes and Warnings</strong></div>
+<div class="line">NA</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Class%20WDT.html" class="btn btn-neutral float-right" title="Class WDT" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="SPI_Readme.html" class="btn btn-neutral float-left" title="SPI_Readme" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版權所有 2021, Ameba IoT。
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

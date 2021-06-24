@@ -1,0 +1,248 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-TW" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>RTL8722DM_mini 快速入門 &mdash; amebaDoc 0.0.1 說明文件</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../../../search.html" />
+    <link rel="next" title="Download" href="../download/index.html" />
+    <link rel="prev" title="RTL8722DM-MINI" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> amebaDoc
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">開源開發平台:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../arduino_index.html">Arduino 開發平台</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../ambd/index.html">RTL8722DM</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">RTL8722DM-MINI</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">RTL8722DM_mini 快速入門</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">環境配置</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#amebad-rtl8722dm-mini">AmebaD RTL8722DM_MINI 簡介</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../download/index.html">Download</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../peripherals_and_examples/index.html">Peripherals &amp; Examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../board_hdk/index.html">Board HDK</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api_documents/index.html">API Documents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../resources/index.html">Resources</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../support/index.html">Support</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ambd_micropython/source/index.html">Micropython SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ambd_sdk/source/index.html">Standard SDK</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">amebaDoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../../arduino_index.html">Arduino 開發平台</a> &raquo;</li>
+        
+          <li><a href="../index.html">RTL8722DM-MINI</a> &raquo;</li>
+        
+      <li>RTL8722DM_mini 快速入門</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/ambd_arduino/source/ambd_mini/getting_started/RTL8722DM_mini_Arduino SDK_getting start.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rtl8722dm-mini">
+<h1>RTL8722DM_mini 快速入門<a class="headerlink" href="#rtl8722dm-mini" title="本標題的永久連結">¶</a></h1>
+<div class="section" id="id1">
+<h2>環境配置<a class="headerlink" href="#id1" title="本標題的永久連結">¶</a></h2>
+<p>AmebaD RTL8722DM_MINI 目前支持32位和64位 Windows XP/7/8/10，Linux 和 Mac 操作系統。
+在本文檔中，請使用使用 1.8.12 或更高版本的 Arduino IDE。</p>
+</div>
+<div class="section" id="amebad-rtl8722dm-mini">
+<h2>AmebaD RTL8722DM_MINI 簡介<a class="headerlink" href="#amebad-rtl8722dm-mini" title="本標題的永久連結">¶</a></h2>
+<p>Ameba 是一個用於開發所有類型的物聯網應用，易於編程的平台。 AmebaD 配備了包括 WiFi、GPIO INT、
+I2C、UART、SPI、PWM、ADC 各種外圍接口。通過這些接口，AmebaD可以與如 LED、開關、壓力計、濕度計
+PM2.5粉塵傳感器等電子元件連接。採集的數據可以通過 WiFi上傳，並被智能設備上的應用程序利用，
+以實現物聯網的實施。</p>
+<a class="reference internal image-reference" href="../../../../_images/image14.jpeg"><img alt="../../../../_images/image14.jpeg" src="../../../../_images/image14.jpeg" style="width: 1.76945in; height: 3.14583in;" /></a>
+<p>RTL8722DM_MINI的尺寸比Arduino Uno小，如上圖所示。</p>
+<a class="reference internal image-reference" href="../../../../_images/image266.png"><img alt="../../../../_images/image266.png" src="../../../../_images/image266.png" style="width: 1.7615in; height: 2.91667in;" /></a>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../download/index.html" class="btn btn-neutral float-right" title="Download" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../index.html" class="btn btn-neutral float-left" title="RTL8722DM-MINI" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版權所有 2021, Ameba IoT。
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

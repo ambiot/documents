@@ -1,0 +1,251 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-TW" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>[RTL8722CSM] [RTL8722DM] Use NTPClient Library To Obtain Local Time &mdash; amebaDoc 0.0.1 說明文件</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜尋" href="../../../search.html" />
+    <link rel="next" title="[RTL8722CSM] [RTL8722DM] Transmit IR NEC Raw Data And Decode" href="%5BRTL8722CSM%5D%20%5BRTL8722DM%5D%20Transmit%20IR%20NEC%20Raw%20Data%20And%20Decode.html" />
+    <link rel="prev" title="[RTL8722CSM] [RTL8722DM] Power Save Tickless Mode" href="%5BRTL8722CSM%5D%20%5BRTL8722DM%5D%20Power%20Save%20Tickless%20Mode.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> amebaDoc
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">開源開發平台:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../arduino_index.html">Arduino 開發平台</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_micropython/source/index.html">Micropython SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ambd_sdk/source/index.html">Standard SDK</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">amebaDoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../arduino_index.html">Arduino 開發平台</a> &raquo;</li>
+        
+          <li><a href="../index.html">RTL8722DM</a> &raquo;</li>
+        
+          <li><a href="index.html">周邊設備和示例</a> &raquo;</li>
+        
+          <li><a href="Peripheral%20Examples.html">周邊設備示例</a> &raquo;</li>
+        
+      <li>[RTL8722CSM] [RTL8722DM] Use NTPClient Library To Obtain Local Time</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/ambd_arduino/source/peripherals_and_examples/[RTL8722CSM] [RTL8722DM] Use NTPClient Library To Obtain Local Time.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rtl8722csm-rtl8722dm-use-ntpclient-library-to-obtain-local-time">
+<h1>[RTL8722CSM] [RTL8722DM] Use NTPClient Library To Obtain Local Time<a class="headerlink" href="#rtl8722csm-rtl8722dm-use-ntpclient-library-to-obtain-local-time" title="本標題的永久連結">¶</a></h1>
+<p>Preparation</p>
+<ul class="simple">
+<li><p>Ameba x 1</p></li>
+</ul>
+<p>Example</p>
+<p>In this example, we use an NTP client to sync with NTP servers using UDP
+and keep track of time locally. Open the example. “File” -&gt; “Examples”
+-&gt; “NTPClient” -&gt; “Advanced”<a class="reference internal" href="../../../_images/image1150.png"><img alt="1" src="../../../_images/image1150.png" style="width: 5.89583in; height: 7.40972in;" /></a>Modify the highlighted code section
+(ssid, password) to connect to your WiFi network.<a class="reference internal" href="../../../_images/image2133.png"><img alt="image1" src="../../../_images/image2133.png" style="width: 6.5in; height: 5.64931in;" /></a>Compile the
+code and upload it to Ameba. After pressing the Reset button, Ameba
+connects to WiFi, gets the UTC time from the NTP server, and prints out
+the current time with time zone offset to the serial monitor.<a class="reference internal" href="../../../_images/image389.png"><img alt="image2" src="../../../_images/image389.png" style="width: 6.5in; height: 5.64931in;" /></a></p>
+<p>Code Reference</p>
+<p>Configure NTP client: The NTPClient needs to use a UDP client for
+communications. A WiFiUDP client is declared and passed to the NTPClient
+constructor, along with an NTP server address, time zone offset in
+seconds, and update interval in milliseconds. If detailed configuration
+is not needed, just passing in the UDP client is also sufficient, refer
+to the “NTPClient” -&gt; “Basic” example.</p>
+<p>WiFiUDP ntpUDP;</p>
+<p>NTPClient timeClient(ntpUDP, “europe.pool.ntp.org”, 3600, 60000);</p>
+<p>Start NTP client: After connecting to WiFi, the NTPClient is started
+using the begin() function, which causes the client to sync with the NTP
+server and get the UTC time.</p>
+<p>WiFiUDP ntpUDP;</p>
+<p>timeClient.begin();</p>
+<p>Get local time: getFormattedTime() is used to format the received UTC
+time into the local time zone. update() is called every loop so that the
+NTPClient will sync with the NTP server once every update interval.</p>
+<p>timeClient.update();</p>
+<p>timeClient.getFormattedTime();</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="%5BRTL8722CSM%5D%20%5BRTL8722DM%5D%20Transmit%20IR%20NEC%20Raw%20Data%20And%20Decode.html" class="btn btn-neutral float-right" title="[RTL8722CSM] [RTL8722DM] Transmit IR NEC Raw Data And Decode" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="%5BRTL8722CSM%5D%20%5BRTL8722DM%5D%20Power%20Save%20Tickless%20Mode.html" class="btn btn-neutral float-left" title="[RTL8722CSM] [RTL8722DM] Power Save Tickless Mode" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版權所有 2021, Ameba IoT。
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
