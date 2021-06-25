@@ -57,24 +57,24 @@ RTL8722 wiring diagram:|5|\ Open the example in “Files” -> “Examples” ->
 Ameba, then press the reset button. The result will be output to Serial
 Monitor:|6|\ |7|
 
-.. |1| image:: Adafruit_Ultimate_GPS_Breakout\media\image1.png
+.. |1| image:: ../media/Adafruit_Ultimate_GPS_Breakout\media\image1.png
    :width: 6.5in
    :height: 1.52569in
-.. |2| image:: Adafruit_Ultimate_GPS_Breakout\media\image2.png
+.. |2| image:: ../media/Adafruit_Ultimate_GPS_Breakout\media\image2.png
    :width: 6.02778in
    :height: 3.45833in
-.. |3| image:: Adafruit_Ultimate_GPS_Breakout\media\image3.png
+.. |3| image:: ../media/Adafruit_Ultimate_GPS_Breakout\media\image3.png
    :width: 6.34722in
    :height: 3.46528in
-.. |4| image:: Adafruit_Ultimate_GPS_Breakout\media\image4.png
+.. |4| image:: ../media/Adafruit_Ultimate_GPS_Breakout\media\image4.png
    :width: 6.5in
    :height: 4.10903in
-.. |5| image:: Adafruit_Ultimate_GPS_Breakout\media\image5.png
+.. |5| image:: ../media/Adafruit_Ultimate_GPS_Breakout\media\image5.png
    :width: 6.5in
    :height: 6.14097in
-.. |6| image:: Adafruit_Ultimate_GPS_Breakout\media\image6.png
+.. |6| image:: ../media/Adafruit_Ultimate_GPS_Breakout\media\image6.png
    :width: 6.3125in
    :height: 3.99306in
-.. |7| image:: Adafruit_Ultimate_GPS_Breakout\media\image7.png
+.. |7| image:: ../media/Adafruit_Ultimate_GPS_Breakout\media\image7.png
    :width: 6.22222in
    :height: 3.92361in

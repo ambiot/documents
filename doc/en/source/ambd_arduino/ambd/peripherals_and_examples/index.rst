@@ -14,8 +14,8 @@ Peripherals & Examples
    :maxdepth: 2
    :caption: Ameba ARDUINO: Peripherals & Examples:
 
-   ../../../ambd_arduino/source/peripherals_and_examples/Basic Examples
-   ../../../ambd_arduino/source/peripherals_and_examples/Network Examples
-   ../../../ambd_arduino/source/peripherals_and_examples/Peripheral Examples
-   ../../../ambd_arduino/source/peripherals_and_examples/Components used
+   Basic Examples
+   Network Examples
+   Peripheral Examples
+   Components used
 

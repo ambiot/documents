@@ -38,7 +38,7 @@ Example
 | Afterwards, open device manager. You can find corresponding serial
   port number of the USB to TTL adapter:
 
-.. image:: ../media/[RTL8722DM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image1.png
+.. image:: ..\media\[RTL8722DM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART\image1.png
    :alt: 5-1
    :width: 4.75in
    :height: 3.85417in
@@ -48,7 +48,7 @@ Example
 Open the “SoftwareSerialExample” example in “File” -> “Examples” ->
 “AmebaSoftwareSerial” -> “SoftwareSerial_Basic”:
 
-.. image:: ../media/[RTL8722DM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image2.png
+.. image:: ..\media\[RTL8722DM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART\image2.png
    :alt: 5-2
    :width: 6.13194in
    :height: 7.97917in
@@ -58,7 +58,7 @@ Open the “SoftwareSerialExample” example in “File” -> “Examples” ->
   TTL adapter is connected to the TX of Ameba.
 | RTL8722 wiring diagram:
 
-.. image:: ../media/[RTL8722DM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image3.png
+.. image:: ..\media\[RTL8722DM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART\image3.png
    :alt: 5-2
    :width: 6.5in
    :height: 7.03264in
@@ -70,7 +70,7 @@ connection type, and specify the port number of the USB to TTL adapter
 connection. Note that both sides of the connection should use the same
 baud rate. In this example we set baud rate 4800.
 
-.. image:: ../media/[RTL8722DM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image4.png
+.. image:: ..\media\[RTL8722DM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART\image4.png
    :alt: 5-4
    :width: 4.85417in
    :height: 4.66667in
@@ -80,7 +80,7 @@ Next, select “Serial” on the left side. Set data bits to 8, stop bits to
 
  
 
-.. image:: ../media/[RTL8722DM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image5.png
+.. image:: ..\media\[RTL8722DM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART\image5.png
    :alt: 5-5
    :width: 4.85417in
    :height: 4.66667in
@@ -93,7 +93,7 @@ USB to TTL Adapter receives the returned characters and prints them in
 Putty. Therefore, if you insert “I am fine”, you will get something like
 this:
 
-.. image:: ../media/[RTL8722DM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image6.png
+.. image:: ..\media\[RTL8722DM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART\image6.png
    :alt: 5-6
    :width: 4.11806in
    :height: 2.58333in
