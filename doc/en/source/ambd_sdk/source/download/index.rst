@@ -12,6 +12,3 @@ Download
 `User Manual <https://www.amebaiot.com/zh/access-permission-denied/?_s2member_vars=file..level..0..file..AN0400_Ameba-D_Application_Note_v13.pdf..Lz9zMm1lbWJlcl9maWxlX2Rvd25sb2FkPUFOMDQwMF9BbWViYS1EX0FwcGxpY2F0aW9uX05vdGVfdjEzLnBkZg%3D%3D&_s2member_sig=1619082181-97775582ddffc09c9a3db5209dcc632e>`_
 
 `GitHub <https://github.com/ambiot/ambd_sdk>`_
-
-   
-

@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-=====================================
+===========================================================
 [RTL8722CSM] [RTL8722DM] Socket - Echo Server and Client
-=====================================
+===========================================================
 
 **Materials**
 

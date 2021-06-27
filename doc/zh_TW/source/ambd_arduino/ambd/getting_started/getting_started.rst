@@ -1,6 +1,6 @@
-========
-快速入門
-========
+========================
+RTL8722DM 快速入門
+========================
 
 環境配置
 --------
@@ -11,347 +11,345 @@ Linux操作系統。
 AmebaD RTL8722CSM/RTL8722DM 簡介
 --------------------------------
 
+Ameba是一個易於編程的微控制器平台，可用於開發各種物聯網應用程序。
+
+AmebaD有各種外圍接口，包括WiFi, GPIO INT, I2C, UART, SPI, PWM, ADC。通過這些接口，
+AmebaD可以連接LED、開關、壓力計、濕度計、PM2.5粉塵傳感器等電子元件。
+
+Ameba所收集的數據可以通過WiFi無線上傳，並被智能設備上的應用程序使用，實現物聯網的應用。
+
+|get-start-1|
+
+AmebaD和Arduino Uno的尺寸類似，如上圖所示，並且AmebaD上的引腳與Arduino Uno兼容。
+
+AmebaD使用Micro USB來供電，這在許多智能設備中很常見。
+AmebaD的引腳圖和功能請參考下圖和表格。
+
+|get-start-2|
+
+=== ======== ======== ==== ===== ============= ========= ========
+    PIN name GPIO INT ADC  PWM   UART          SPI       I2C
+=== ======== ======== ==== ===== ============= ========= ========
+
+
+下文為未翻譯部分： 
+========================
+
+=== ======== ======== ==== ===== ============= ========= ========
+    PIN name GPIO INT ADC  PWM   UART          SPI       I2C
+=== ======== ======== ==== ===== ============= ========= ========
+D00 PB_2     ✓        ADC5       UART3_RX(b)              
+D01 PB_1     ✓        ADC4       UART3_TX(b)              
+D02 PB_3     ✓        ADC6                                
+D03 PB_31    ✓                                            
+D04 PB_30    ✓                                            
+D05 PB_28    ✓                                            
+D06 PB_29    ✓                                            
+D07 NC                                                    
+D08 PB_22    ✓             PWM14                          
+D09 PB_23    ✓             PWM15                          
+D10 PB_21    ✓             PWM13 UART0_RTS(b)  SPI0_CS    
+D11 PB_18    ✓             PWM10 UART0_RX(b)   SPI0_MOSI  
+D12 PB_19    ✓             PWM11 UART0_TX(b)   SPI0_MISO  
+D13 PB_20    ✓             PWM12 UART0_CTS(b)  SPI0_CLK   
+D14 PA_7     ✓                   UART2_TX(log)            
+D15 PA_8     ✓                   UART2_RX(log)            
+D16 PA_25    ✓             PWM4  UART3_RX(a)             I2C0_SCL
+D17 PA_26    ✓             PWM5  UART3_TX(a)             I2C0_SDA
+D18 PB_7     ✓        ADC3 PWM17               SPI1_CS    
+D19 PB_6     ✓        ADC2                     SPI1_CLK   
+D20 PB_5     ✓        ADC1 PWM9                SPI1_MISO  
+D21 PB_4     ✓        ADC0 PWM8                SPI1_MOSI  
+D22 PA_28    ✓                                            
+D23 PA_24    ✓             PWM3  UART0_CTS(a)            I2C1_SDA
+D24 PA_23    ✓             PWM2  UART0_RTS(a)            I2C1_SCL
+D25 PA_22    ✓                   UART0_RX(a)              
+D26 PA_21    ✓                   UART0_TX(a)              
+D27 PA_20    ✓                                            
+D28 PA_19    ✓                                            
+=== ======== ======== ==== ===== ============= ========= ========
+
+|  
+|  
+
+| |get-start-3|
+|  
+
+**Note:** Not all sets of peripherals shown on the picture/table above
+are available on MicroPython, please refer to “\ **Peripheral Example
+and API**\ ” section for more information.
+
+Introduction to RTL8722 MicroPython port
+========================================
+
+Background Information
+----------------------
 
+MicroPython, by definition, is a lean and efficient Python3 compiler and
+runtime specially designed for microcontrollers.
 
+MicroPython distinguishes itself from other compilation-based platforms
+(Arduino etc.) with its powerful method of real-time interaction to
+Microcontroller through a built-in feature -- REPL.
 
+REPL stands for Read-Evaluation-Print-Loop, it is an interactive prompt
+that you can use to access and control your microcontroller.
 
-.. | Ameba is an easy-to-program platform for developing all kind of IoT
-..   applications. AmebaD is equipped with various peripheral interfaces,
-..   including WiFi, BLE, GPIO, I2C, UART, SPI, PWM, ADC and so on. Through
-..   these interfaces, AmebaD can connect with electronic components such
-..   as LED, switches, manometer, hygrometer, PM2.5 dust sensors, …etc.
-.. | The collected data can be uploaded via WiFi and be utilized by
-..   applications on smart devices to realize IoT implementation.
-
-.. |get-start-1|
-
-.. | AmebaD and Arduino Uno have similar size, as shown in the above
-..   figure, and the pins on AmebaD are compatible with Arduino Uno.
-.. | AmebaD uses Micro USB to supply power, which is common in many smart
-..   devices.
-.. | Please refer to the following figure and table for the pin diagram and
-..   function of AmebaD.
-
-.. |get-start-2|
-
-.. |  
-.. |  
-
-.. === ======== ======== ==== ===== ============= ========= ========
-..     PIN name GPIO INT ADC  PWM   UART          SPI       I2C
-.. === ======== ======== ==== ===== ============= ========= ========
-.. D00 PB_2     ✓        ADC5       UART3_RX(b)              
-.. D01 PB_1     ✓        ADC4       UART3_TX(b)              
-.. D02 PB_3     ✓        ADC6                                
-.. D03 PB_31    ✓                                            
-.. D04 PB_30    ✓                                            
-.. D05 PB_28    ✓                                            
-.. D06 PB_29    ✓                                            
-.. D07 NC                                                    
-.. D08 PB_22    ✓             PWM14                          
-.. D09 PB_23    ✓             PWM15                          
-.. D10 PB_21    ✓             PWM13 UART0_RTS(b)  SPI0_CS    
-.. D11 PB_18    ✓             PWM10 UART0_RX(b)   SPI0_MOSI  
-.. D12 PB_19    ✓             PWM11 UART0_TX(b)   SPI0_MISO  
-.. D13 PB_20    ✓             PWM12 UART0_CTS(b)  SPI0_CLK   
-.. D14 PA_7     ✓                   UART2_TX(log)            
-.. D15 PA_8     ✓                   UART2_RX(log)            
-.. D16 PA_25    ✓             PWM4  UART3_RX(a)             I2C0_SCL
-.. D17 PA_26    ✓             PWM5  UART3_TX(a)             I2C0_SDA
-.. D18 PB_7     ✓        ADC3 PWM17               SPI1_CS    
-.. D19 PB_6     ✓        ADC2                     SPI1_CLK   
-.. D20 PB_5     ✓        ADC1 PWM9                SPI1_MISO  
-.. D21 PB_4     ✓        ADC0 PWM8                SPI1_MOSI  
-.. D22 PA_28    ✓                                            
-.. D23 PA_24    ✓             PWM3  UART0_CTS(a)            I2C1_SDA
-.. D24 PA_23    ✓             PWM2  UART0_RTS(a)            I2C1_SCL
-.. D25 PA_22    ✓                   UART0_RX(a)              
-.. D26 PA_21    ✓                   UART0_TX(a)              
-.. D27 PA_20    ✓                                            
-.. D28 PA_19    ✓                                            
-.. === ======== ======== ==== ===== ============= ========= ========
-
-.. |  
-.. |  
-
-.. | |get-start-3|
-.. |  
-
-.. **Note:** Not all sets of peripherals shown on the picture/table above
-.. are available on MicroPython, please refer to “\ **Peripheral Example
-.. and API**\ ” section for more information.
-
-.. Introduction to RTL8722 MicroPython port
-.. ========================================
-
-.. Background Information
-.. ----------------------
-
-.. MicroPython, by definition, is a lean and efficient Python3 compiler and
-.. runtime specially designed for microcontrollers.
-
-.. MicroPython distinguishes itself from other compilation-based platforms
-.. (Arduino etc.) with its powerful method of real-time interaction to
-.. Microcontroller through a built-in feature -- REPL.
-
-.. REPL stands for Read-Evaluation-Print-Loop, it is an interactive prompt
-.. that you can use to access and control your microcontroller.
-
-.. REPL has been equipped with other powerful features such as tab
-.. completion, line editing, auto-indentation, input history and more. It
-.. basically functions like the classic Python IDLE but running on
-.. microcontroller.
-
-.. To use REPL, simply open any serial terminal software (most common ones
-.. are teraterm, putty etc.) on your PC and connect to your
-.. microcontroller's serial port, then set baudrate to 115200 before
-.. manually reset the board, then you will see >>> MicroPython prompt
-.. appear on the terminal. Now you may type in any Python script on REPL as
-.. long as it's support by MicroPython and your microcontroller's
-.. MicroPython port.
-
-.. Most importantly, try to abuse "help()" function as much as possible to
-.. gain more information. For example, upon microcontroller power up and
-.. REPL shown, just type
+REPL has been equipped with other powerful features such as tab
+completion, line editing, auto-indentation, input history and more. It
+basically functions like the classic Python IDLE but running on
+microcontroller.
 
-.. >>> help()
+To use REPL, simply open any serial terminal software (most common ones
+are teraterm, putty etc.) on your PC and connect to your
+microcontroller's serial port, then set baudrate to 115200 before
+manually reset the board, then you will see >>> MicroPython prompt
+appear on the terminal. Now you may type in any Python script on REPL as
+long as it's support by MicroPython and your microcontroller's
+MicroPython port.
 
-.. You will see a help page giving you more details about this port; also
-.. if you type
+Most importantly, try to abuse "help()" function as much as possible to
+gain more information. For example, upon microcontroller power up and
+REPL shown, just type
 
-.. >>> help(modules)
+>>> help()
 
-.. it will list out all available builtin modules that are at your disposal
+You will see a help page giving you more details about this port; also
+if you type
 
-.. Furthermore, if you want to learn more about a module, such as its API
-.. and CONSTANT available, simply type the following code and details of
-.. that module will be returned to you,
+>>> help(modules)
 
-.. >>> help(the module of your interest)
+it will list out all available builtin modules that are at your disposal
 
-.. Let's take Pin module (GPIO) as an example:
+Furthermore, if you want to learn more about a module, such as its API
+and CONSTANT available, simply type the following code and details of
+that module will be returned to you,
 
-.. >>> help(Pin)
-.. object <class 'Pin'> is of type type
-..   id -- <function>
-..   init -- <function>
-..   value -- <function>
-..   off -- <function>
-..   on -- <function>
-..   toggle -- <function>
-..   board -- <class 'board'>
-..   IN -- 0
-..   OUT -- 1
-..   PULL_NONE -- 0
-..   PULL_UP -- 1
-..   PULL_DOWN -- 2
+>>> help(the module of your interest)
 
+Let's take Pin module (GPIO) as an example:
 
-.. REPL Hotkeys
-.. ------------
+>>> help(Pin)
+object <class 'Pin'> is of type type
+  id -- <function>
+  init -- <function>
+  value -- <function>
+  off -- <function>
+  on -- <function>
+  toggle -- <function>
+  board -- <class 'board'>
+  IN -- 0
+  OUT -- 1
+  PULL_NONE -- 0
+  PULL_UP -- 1
+  PULL_DOWN -- 2
 
-.. -  Ctrl + d :
 
-.. Soft reboot MicroPython will perform software reboot, this is useful
-.. when your microcontroller is behaving abnormally. This will also run
-.. scripts in 'boot.py' once again. Note that this will only reset the
-.. MicroPython interpreter not the hardware, all your previously configured
-.. hardware will stay the way it is until you manually hard-reset the
-.. board.
+REPL Hotkeys
+------------
 
-.. -  Ctrl + e :
+-  Ctrl + d :
 
-.. Paste mode Paste mode allow you to perform pasting a large trunk of code
-.. into REPL at once without executing code line by line. This is useful
-.. when you have found a MicroPython library and wish to test it out
-.. immediately by copy and paste
+Soft reboot MicroPython will perform software reboot, this is useful
+when your microcontroller is behaving abnormally. This will also run
+scripts in 'boot.py' once again. Note that this will only reset the
+MicroPython interpreter not the hardware, all your previously configured
+hardware will stay the way it is until you manually hard-reset the
+board.
 
-.. -  Ctrl + b :
+-  Ctrl + e :
 
-.. Normal mode This hotkey will set REPL back to normal mode. This is
-.. useful if you are stuck in certain mode and can not get out.
+Paste mode Paste mode allow you to perform pasting a large trunk of code
+into REPL at once without executing code line by line. This is useful
+when you have found a MicroPython library and wish to test it out
+immediately by copy and paste
 
-.. -  Ctrl + c :
+-  Ctrl + b :
 
-.. Quick cancel This hotkey help you to cancel any input and return a new
-.. line
+Normal mode This hotkey will set REPL back to normal mode. This is
+useful if you are stuck in certain mode and can not get out.
 
-.. Setting up Development Environment
-.. ==================================
+-  Ctrl + c :
 
-.. Step 1. Installing the Driver
-.. -----------------------------
+Quick cancel This hotkey help you to cancel any input and return a new
+line
 
-.. First, connect AmebaD to the computer via Micro USB:
+Setting up Development Environment
+==================================
 
-.. |get-start-4|
+Step 1. Installing the Driver
+-----------------------------
 
-.. | If this is the first time you connect AmebaD to your computer, the USB
-..   driver for AmebaD will be automatic installed.
-.. | You can check the COM port number in Device Manager of your computer:
+First, connect AmebaD to the computer via Micro USB:
 
-.. |get-start-5|
+|get-start-4|
 
-.. Step 2. Installing the necessary tools
-.. --------------------------------------
+| If this is the first time you connect AmebaD to your computer, the USB
+  driver for AmebaD will be automatic installed.
+| You can check the COM port number in Device Manager of your computer:
 
-.. On Windows
-.. ~~~~~~~~~~
+|get-start-5|
 
-.. For windows users, please install a serial terminal software to interact
-.. with MicroPython. The most common serial terminals are **Tera Term** and
-.. **Putty,** here we recommend using Tera Term, which can be downloaded
-.. from internet.
+Step 2. Installing the necessary tools
+--------------------------------------
 
-.. For advanced developer who wish to compile MicroPython firmware from
-.. scratch, then please be sure to install **Cygwin**, which is a
-.. Linux-like environment running on Windows system. When selecting the
-.. Cygwin installer, we recommend using the Cygwin 32-bit version. During
-.. Cygwin installation, installer will prompt user if wish to install other
-.. software, please make sure to select the GNU version of **make** from
-.. the **Devel** category (see picture below) and pick the latest edition.
+On Windows
+^^^^^^^^^^^
 
-.. |image1|
+For windows users, please install a serial terminal software to interact
+with MicroPython. The most common serial terminals are **Tera Term** and
+**Putty,** here we recommend using Tera Term, which can be downloaded
+from internet.
 
-.. Also, Python3 is required during firmware compilation, so be sure to
-.. download the latest Python3 from its official website and have it added
-.. as environment variable when asked during installation.
+For advanced developer who wish to compile MicroPython firmware from
+scratch, then please be sure to install **Cygwin**, which is a
+Linux-like environment running on Windows system. When selecting the
+Cygwin installer, we recommend using the Cygwin 32-bit version. During
+Cygwin installation, installer will prompt user if wish to install other
+software, please make sure to select the GNU version of **make** from
+the **Devel** category (see picture below) and pick the latest edition.
 
-.. .. _section-1:
+|image1|
 
-.. On Linux
-.. ~~~~~~~~
+Also, Python3 is required during firmware compilation, so be sure to
+download the latest Python3 from its official website and have it added
+as environment variable when asked during installation.
 
-.. For Linux user, please install a serial terminal software of your choice
-.. using apt-get install command. Here we recommend using **picocom** for
-.. its lightweight.
+.. _section-1:
 
-.. For advanced developer interested in developing MicroPython module in C,
-.. please make sure the GNU make of at least version 3.82 or newer and
-.. Python3 are installed and can be found using terminal.
+On Linux
+^^^^^^^^^^^
 
-.. Upload Firmware into Ameba
-.. ==========================
+For Linux user, please install a serial terminal software of your choice
+using apt-get install command. Here we recommend using **picocom** for
+its lightweight.
 
-.. Step 1. Navigate to “Release” folder
-.. ------------------------------------
+For advanced developer interested in developing MicroPython module in C,
+please make sure the GNU make of at least version 3.82 or newer and
+Python3 are installed and can be found using terminal.
 
-.. After downloading the MicroPython repository from Github, you will
-.. notice a “Release” folder in the root directory of this repository,
-.. enter this folder and locate a tool named “Double-Click-Me-to-Upload”.
+Upload Firmware into Ameba
+==========================
 
-.. Step 2. Enter UART Download mode
-.. --------------------------------
+Step 1. Navigate to “Release” folder
+------------------------------------
 
-.. To do this, first press and hold the UART_DOWNLOAD button, then press
-.. the RESET button. If success, you should see a green LED flashing on
-.. your ameba.
+After downloading the MicroPython repository from Github, you will
+notice a “Release” folder in the root directory of this repository,
+enter this folder and locate a tool named “Double-Click-Me-to-Upload”.
 
-.. |get-start-15|
+Step 2. Enter UART Download mode
+--------------------------------
 
-.. Step 3. Run “Double-Click-Me-to-Upload”
-.. ---------------------------------------
+To do this, first press and hold the UART_DOWNLOAD button, then press
+the RESET button. If success, you should see a green LED flashing on
+your ameba.
 
-.. As the name suggested, double click on the file to run it, follow
-.. instructions printed on the screen to update the ameba’s serial COM port
-.. (this is known to us during the driver installation step mentioned
-.. above) so the uploading can be carried out successfully. Once the
-.. uploading is successful, you will see a line of log printed on the
-.. screen – “All images are sent successfully”
+|get-start-15|
 
-.. Try the First Example
-.. =====================
+Step 3. Run “Double-Click-Me-to-Upload”
+---------------------------------------
 
-.. Step 1. Open REPL
-.. -----------------
+As the name suggested, double click on the file to run it, follow
+instructions printed on the screen to update the ameba’s serial COM port
+(this is known to us during the driver installation step mentioned
+above) so the uploading can be carried out successfully. Once the
+uploading is successful, you will see a line of log printed on the
+screen – “All images are sent successfully”
 
-.. |image2|
+Try the First Example
+=====================
 
-.. REPL stands for Read, Evaluate, Print and Loop, it is the
-.. MicroPython’s terminal for user to control the microcontroller. REPL is
-.. running on LOG UART, thus we need to open our serial terminal software,
-.. in this case, Tera Term to see REPL,
+Step 1. Open REPL
+-----------------
 
-.. Once Tera Term is opened, select “Serial” like in the picture above and
-.. choose your ameba’s serial port using the dropdown list, after that, hit
-.. “OK”. If your serial terminal is not configured to 115200 baud rate, now
-.. is the time to change it to **115200** and leave the rest of settings as
-.. default.
+|image2|
 
-.. |image3|
+REPL stands for Read, Evaluate, Print and Loop, it is the
+MicroPython’s terminal for user to control the microcontroller. REPL is
+running on LOG UART, thus we need to open our serial terminal software,
+in this case, Tera Term to see REPL,
 
-.. Now that the serial port is connected, press the RESET button
-.. once on your ameba and you should see the MicroPython’s welcome page as
-.. shown below,
+Once Tera Term is opened, select “Serial” like in the picture above and
+choose your ameba’s serial port using the dropdown list, after that, hit
+“OK”. If your serial terminal is not configured to 115200 baud rate, now
+is the time to change it to **115200** and leave the rest of settings as
+default.
 
-.. What happened here was that your Ameba first check its calibration data
-.. and then boot into MicroPython’s firmware, MicroPython then run the
-.. “boot.py” python script and imported builtin libraries.
+|image3|
 
-.. Now, you can simply type
+Now that the serial port is connected, press the RESET button
+once on your ameba and you should see the MicroPython’s welcome page as
+shown below,
 
-.. >>> help()
+What happened here was that your Ameba first check its calibration data
+and then boot into MicroPython’s firmware, MicroPython then run the
+“boot.py” python script and imported builtin libraries.
 
-.. to see more information, and type
+Now, you can simply type
 
-.. >>> help(modules)
+>>> help()
 
-.. to check all readily available libraries
+to see more information, and type
 
-.. Step 2. Run WiFi Scan example
-.. -----------------------------
+>>> help(modules)
 
-.. As most of peripherals’ examples requires additional hardware to show
-.. the example is working, we will just use WiFi Scan example as our first
-.. example and to see how easy it is to control WiFi using MicroPython.
+to check all readily available libraries
 
-.. Now, please follow along by copy+paste the following code or manually
-.. typing them out into Tera Term and hit “Enter”
+Step 2. Run WiFi Scan example
+-----------------------------
 
-.. >>> from wireless import WLAN
-.. >>> wifi = WLAN(mode = WLAN.STA)
-.. >>> wifi.scan()
+As most of peripherals’ examples requires additional hardware to show
+the example is working, we will just use WiFi Scan example as our first
+example and to see how easy it is to control WiFi using MicroPython.
 
+Now, please follow along by copy+paste the following code or manually
+typing them out into Tera Term and hit “Enter”
 
+>>> from wireless import WLAN
+>>> wifi = WLAN(mode = WLAN.STA)
+>>> wifi.scan()
 
-.. You should be able to see the returned result with all
-.. discovered wireless network in your surrounding
 
-.. |image4|
 
-.. **(End)**
+You should be able to see the returned result with all
+discovered wireless network in your surrounding
 
-.. -------------------------------------------------------------------------------------------------------------------------------------
+|image4|
 
-.. If you face any issue, please refer to the FAQ and troubleshooting page.
+**(End)**
 
-.. .. |get-start-1| image:: ../media/getting_started/imageGS1.png
-..    :width: 4.00833in
-..    :height: 4.00833in
-.. .. |get-start-2| image:: ../media/getting_started/imageGS2.png
-..    :width: 5in
-..    :height: 5.1in
-.. .. |get-start-3| image:: ../media/getting_started/imageGS3.png
-..    :width: 6.26796in
-..    :height: 3.12872in
-.. .. |get-start-4| image:: ../media/getting_started/imageGS5.png
-..    :width: 4.79167in
-..    :height: 3.41667in
-.. .. |get-start-5| image:: ../media/getting_started/imageGS6.png
-..    :width: 5.20751in
-..    :height: 3.61364in
-.. .. |image1| image:: ../media/getting_started/imageGS7.png
-..    :width: 6.24242in
-..    :height: 3.54171in
-.. .. |get-start-15| image:: ../media/getting_started/imageGS8.png
-..    :width: 6.26806in
-..    :height: 6.43611in
-.. .. |image2| image:: ../media/getting_started/imageGS9.png
-..    :width: 6.26806in
-..    :height: 3.26736in
-.. .. |image3| image:: ../media/getting_started/imageGS10.png
-..    :width: 6.26806in
-..    :height: 3.27986in
-.. .. |image4| image:: ../media/getting_started/imageGS11.png
-..    :width: 6.26806in
-..    :height: 3.60764in
+-------------------------------------------------------------------------------------------------------------------------------------
+
+If you face any issue, please refer to the FAQ and troubleshooting page.
+
+.. |get-start-1| image:: ../media/getting_started/imageGS1.png
+   :width: 3.40833in
+   :height: 3.00833in
+.. |get-start-2| image:: ../media/getting_started/imageGS2.png
+   :width: 3.9in
+   :height: 4.1in
+.. |get-start-3| image:: ../media/getting_started/imageGS3.png
+   :width: 6.26796in
+   :height: 3.12872in
+.. |get-start-4| image:: ../media/getting_started/imageGS5.png
+   :width: 4.79167in
+   :height: 3.41667in
+.. |get-start-5| image:: ../media/getting_started/imageGS6.png
+   :width: 5.20751in
+   :height: 3.61364in
+.. |image1| image:: ../media/getting_started/imageGS7.png
+   :width: 6.24242in
+   :height: 3.54171in
+.. |get-start-15| image:: ../media/getting_started/imageGS8.png
+   :width: 6.26806in
+   :height: 6.43611in
+.. |image2| image:: ../media/getting_started/imageGS9.png
+   :width: 6.26806in
+   :height: 3.26736in
+.. |image3| image:: ../media/getting_started/imageGS10.png
+   :width: 6.26806in
+   :height: 3.27986in
+.. |image4| image:: ../media/getting_started/imageGS11.png
+   :width: 6.26806in
+   :height: 3.60764in

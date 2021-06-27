@@ -20,7 +20,8 @@ Let us connect pin PA_26 to the anode leg of an LED which in series with a curre
 |image1|\
 
 Then, copy and paste the following code line by line into REPL and hit Enter. If everything is in order, you should be able to see the LED slowly become brighter as you paste another line of code.
-.. code-block:: html
+
+.. code-block:: html   
    :linenos:
    
    from machine import Pin, PWM

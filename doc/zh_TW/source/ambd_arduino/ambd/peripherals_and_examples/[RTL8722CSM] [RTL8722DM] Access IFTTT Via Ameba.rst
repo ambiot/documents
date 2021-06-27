@@ -1,5 +1,6 @@
-[RTL8722CSM][RTL8722DM] Access IFTTT Via Ameba
+[RTL8722CSM] [RTL8722DM] Access IFTTT Via Ameba
 ==================================================
+
 Introduction to IFTTT
 
 IFTTT, known as If This Then That, is a website and mobile app and free
@@ -75,9 +76,8 @@ Once **Receive a web request** is selected, an **event name** is
 required to identify the trigger successfully. In this example, set
 Event name as “test_event”
 
-Next, select **+That** field to create the **action service** taken in
-response to the last trigger. In this example, choose **Email **\ as the
-action service
+Next, select **That** field to create the action service taken in response to the last trigger. 
+In this example, choose **Email** as the action service
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image7.png
    :alt: 1
@@ -104,7 +104,7 @@ example, only Send me an Email is found. Click on Send me an Email
 
 Under the template of **Send me an Email**, the contents os the email,
 such as subject and body, is editable. Click **Create Action** to
-complete action. Note that **Email **\ service is offered to the email
+complete action. Note that **Email** service is offered to the email
 ID registered under IFTTT account.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image11.png

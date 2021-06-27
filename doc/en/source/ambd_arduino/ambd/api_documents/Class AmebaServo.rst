@@ -1,7 +1,9 @@
+=================
 Class AmebaServo
-=====================================
+=================
 
-**AmebaServo Class**
+AmebaServo Class
+-----------------
 
 **Description**
 
@@ -40,7 +42,8 @@ class AmebaServo
 | AmebaServo::attached          | Check if the servo is attached.     |
 +-------------------------------+-------------------------------------+
 
-**AmebaServo::attach**
+AmebaServo::attach
+------------------
 
 **Description**
 
@@ -50,14 +53,16 @@ failure.
 
 **Syntax**
 
-uint8_t attach(int pin);
+.. code-block:: cpp
+ 
+    uint8_t attach(int pin);
 
-uint8_t attach(int pin, int min, int max);
+    uint8_t attach(int pin, int min, int max);
+
 
 **Parameters**
 
-pin: ThThe Arduino/Ameba1 PIN to be attachede Arduino pin number to be
-attached.
+pin: The Arduino pin number to be attached.
 
 min: Minimum values for writes.
 
@@ -74,95 +79,62 @@ Example: ServoSweep
 The code demos servo motor sweeping from 0 degrees to 180 degrees then
 sweep back to 0 degrees in the step of 1 degree.
 
-/\* Sweep
+.. code-block:: cpp
+   :caption: ServoSweep.ino
+   :emphasize-lines: 
+   :linenos:
+    
+    /* Sweep
+    by BARRAGAN < http://barraganstudio.com >
+    This example code is in the public domain.
+    modified 8 Nov 2013
+    by Scott Fitzgerald
+    http://www.arduino.cc/en/Tutorial/Sweep
+    refined 2016/03/18 by Realtek
+    */
 
-by BARRAGAN < http://barraganstudio.com >
+    #include "AmebaServo.h"
 
-This example code is in the public domain.
+    // create servo object to control a servo
+    // 4 servo objects can be created correspond to PWM pins
 
-modified 8 Nov 2013
+    AmebaServo myservo;
+    
+    // variable to store the servo position
+    int pos = 0;
 
-by Scott Fitzgerald
+    void setup() {
+    #if defined(BOARD_RTL8195A)
+        // attaches the servo on pin 9 to the servo object
+        myservo.attach(9);
+    #elif defined(BOARD_RTL8710)
+        // attaches the servo on pin 13 to the servo object
+        myservo.attach(13);
+    #elif defined(BOARD_RTL8721D)
+        // attaches the servo on pin 8 to the servo object
+        myservo.attach(8);
+    #else
+        // attaches the servo on pin 9 to the servo object
+        myservo.attach(9);
+    #endif
+    }
 
-http://www.arduino.cc/en/Tutorial/Sweep
-
-refined 2016/03/18 by Realtek
-
-\*/
-
-**#include "AmebaServo.h"**
-
-// create servo object to control a servo
-
-// 4 servo objects can be created correspond to PWM pins
-
-AmebaServo myservo;
-
-// variable to store the servo position
-
-**int** pos = 0;
-
-**void** setup() {
-
-**#if defined(BOARD_RTL8195A)**
-
-// attaches the servo on pin 9 to the servo object
-
-myservo.attach(9);
-
-**#elif defined(BOARD_RTL8710)**
-
-// attaches the servo on pin 13 to the servo object
-
-myservo.attach(13);
-
-**#elif defined(BOARD_RTL8721D)**
-
-// attaches the servo on pin 8 to the servo object
-
-myservo.attach(8);
-
-**#else**
-
-// attaches the servo on pin 9 to the servo object
-
-myservo.attach(9);
-
-**#endif**
-
-}
-
-**void** loop() {
-
-// goes from 0 degrees to 180 degrees in steps of 1 degree
-
-**for** (pos = 0; pos <= 180; pos += 1) {
-
-// tell servo to go to position in variable 'pos'
-
-myservo.write(pos);
-
-// waits 15ms for the servo to reach the position
-
-delay(15);
-
-}
-
-// goes from 180 degrees to 0 degrees
-
-**for** (pos = 180; pos >= 0; pos -= 1) {
-
-// tell servo to go to position in variable 'pos'
-
-myservo.write(pos);
-
-// waits 15ms for the servo to reach the position
-
-delay(15);
-
-}
-
-}
+    void loop() {  
+        // goes from 0 degrees to 180 degrees in steps of 1 degree  
+        for (pos = 0; pos <= 180; pos += 1) {  
+        // tell servo to go to position in variable 'pos'  
+        myservo.write(pos);  
+        // waits 15ms for the servo to reach the position  
+        delay(15);  
+        }  
+        // goes from 180 degrees to 0 degrees  
+        for (pos = 180; pos >= 0; pos -= 1) {  
+            // tell servo to go to position in variable 'pos'  
+            myservo.write(pos);  
+            // waits 15ms for the servo to reach the position  
+            delay(15);  
+        }  
+    }
 
 **Notes and Warnings**
 
@@ -171,7 +143,8 @@ project to use the class function.
 
  
 
-**AmebaServo::detach**
+AmebaServo::detach
+------------------
 
 **Description**
 
