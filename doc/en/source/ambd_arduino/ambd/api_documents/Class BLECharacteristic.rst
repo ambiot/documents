@@ -707,7 +707,7 @@ A class used for creating and managing BLE GATT characteristics.
   by a connected device.
 
 | **Syntax**
-| void setReadCallback(void (*fCallback) (BLECharacteristic\* chr,
+| void setReadCallback(void (\*fCallback) (BLECharacteristic\* chr,
   uint8_t conn_id));
 
 | **Parameters**
@@ -733,7 +733,7 @@ A class used for creating and managing BLE GATT characteristics.
   written by a connected device.
 
 | **Syntax**
-| void setWriteCallback(void (*fCallback) (BLECharacteristic\* chr,
+| void setWriteCallback(void (\*fCallback) (BLECharacteristic\* chr,
   uint8_t conn_id));
 
 | **Parameters**
@@ -759,7 +759,7 @@ A class used for creating and managing BLE GATT characteristics.
   characteristic CCCD to enable or disable notifications or indications.
 
 | **Syntax**
-| void setCCCDCallback(void (*fCallback) (BLECharacteristic\* chr,
+| void setCCCDCallback(void (\*fCallback) (BLECharacteristic\* chr,
   uint8_t conn_id, uint16_t ccc_bits));
 
 | **Parameters**

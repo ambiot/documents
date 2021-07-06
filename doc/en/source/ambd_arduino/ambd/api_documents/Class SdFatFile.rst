@@ -1,8 +1,9 @@
 Class SdFatFile
 =========================
 
-**Description
-**\ Defines a class of SD FAT File.
+**Description**
+
+Defines a class of SD FAT File.
 
 | **Syntax**
 | class SdFatFile

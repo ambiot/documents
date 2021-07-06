@@ -29,4 +29,4 @@ Network/Peripheral Examples
    [RTL8722CSM] [RTL8722DM] UART - Send and Receive
    [RTL8722CSM] [RTL8722DM] WiFi - WiFi Connect
    [RTL8722CSM] [RTL8722DM] WiFi - WiFi Scan
-
+   Peripheral_SDFS_file_manipulation

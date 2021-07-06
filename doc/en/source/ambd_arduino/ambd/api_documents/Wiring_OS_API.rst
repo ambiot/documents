@@ -75,7 +75,7 @@ Wiring_OS_API
   READY.
 
 | **Syntax**
-| uint32_t os_thread_create_arduino (void (*task)(const void
+| uint32_t os_thread_create_arduino (void (\*task)(const void
   \*argument), void \*argument, int priority, uint32_t stack_size);
 
 | **Parameters**
@@ -283,7 +283,7 @@ Wiring_OS_API
 | Create a timer
 
 | **Syntax**
-| uint32_t os_timer_create_arduino (void (*callback)(void const
+| uint32_t os_timer_create_arduino (void (\*callback)(void const
   \*argument), uint8_t isPeriodic, void \*argument);
 
 | **Parameters**

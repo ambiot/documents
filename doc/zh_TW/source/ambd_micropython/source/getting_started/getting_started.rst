@@ -211,8 +211,6 @@ Also, Python3 is required during firmware compilation, so be sure to
 download the latest Python3 from its official website and have it added
 as environment variable when asked during installation.
 
-.. _section-1:
-
 On Linux
 ~~~~~~~~
 

@@ -34,7 +34,7 @@ Class EpdIF
 +----------------------------------+----------------------------------+
 | FlashMemoryClass::buf_size       | The buf size                     |
 +----------------------------------+----------------------------------+
-| FlashMemoryClass::*buf           | The buf to be operated           |
+| FlashMemoryClass::\*buf          | The buf to be operated           |
 +----------------------------------+----------------------------------+
 
 **FlashMemoryClass::FlashMemoryClass**

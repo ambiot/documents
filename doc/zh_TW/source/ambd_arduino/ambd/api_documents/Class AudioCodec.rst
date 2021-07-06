@@ -661,7 +661,7 @@ available for write.
 
 **Syntax**
 
-void setWriteCallback(void (*writeCB)(void));
+**void** setWriteCallback(**void** (*writeCB)(**void**));
 
 **Parameters**
 
@@ -692,7 +692,7 @@ is available for read.
 
 **Syntax**
 
-void setReadCallback(void (*readCB)(void));
+**void** setReadCallback(**void** (*readCB)(**void**));
 
 **Parameters**
 

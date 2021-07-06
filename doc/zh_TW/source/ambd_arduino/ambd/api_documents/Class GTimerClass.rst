@@ -29,8 +29,7 @@ GTimerClass::read_us     Read current countdown value
 | Initialize a timer and start it immediately.
 
 | **Syntax**
-| void GTimerClass::begin(uint32_t timerid, uint32_t duration_us, void
-  (*handler)(uint32_t), bool periodical, uint32_t userdata);
+| void GTimerClass::begin(uint32_t timerid, uint32_t duration_us, void (\*handler)(uint32_t), bool periodical, uint32_t userdata);
 
 | **Parameters**
 | timerid: There are 5 valid GTimer with timer id 0~4.

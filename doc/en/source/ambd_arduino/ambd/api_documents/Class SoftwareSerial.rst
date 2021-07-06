@@ -405,7 +405,7 @@ mySerial.write(mySerial.read());
 | Set available callback
 
 | **Syntax**
-| void SoftwareSerial::setAvailableCallback(void (*callback)(char c))
+| void SoftwareSerial::setAvailableCallback(void (\*callback)(char c))
 
 | **Parameters**
 | \*callback: user-defined serial callback function

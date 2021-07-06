@@ -27,7 +27,7 @@ SdFatFs::~SdFatFs Destructs a SdFatFs object
 +=========================+===========================================+
 | SdFatFs::end            | Deinitialize SD FAT File System           |
 +-------------------------+-------------------------------------------+
-| SdFatFs::*getRootPath   | Get the root path of the SD FAT File      |
+| SdFatFs::\*getRootPath  | Get the root path of the SD FAT File      |
 |                         | System                                    |
 +-------------------------+-------------------------------------------+
 | SdFatFs::readDir        | List items under a specific folder        |

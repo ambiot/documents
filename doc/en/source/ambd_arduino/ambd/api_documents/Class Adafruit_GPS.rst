@@ -1,6 +1,7 @@
 =====================================
 Class Adafruit_GPS
 =====================================
+
 **Adafruit_GPS Class**
 
 | **Description**

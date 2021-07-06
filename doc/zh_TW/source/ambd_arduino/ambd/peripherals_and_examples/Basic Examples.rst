@@ -1,10 +1,5 @@
-.. amebaDocs documentation master file, created by
-   sphinx-quickstart on Fri Dec 18 01:57:15 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-   
 =====================================
-基本示例
+基本範例
 =====================================
 
 There are many built-in examples in Arduino. In the table below, we list

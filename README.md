@@ -10,5 +10,6 @@ English Version | [中文版](./README.zh.md)
 ---
 ### CONTACT US
 
-- Facebook：https://www.facebook.com/groups/AmebaIoT
+- Facebook[CN]：https://www.facebook.com/groups/AmebaIoT
+- Facebook[EN]：https://www.facebook.com/groups/amebaioten
 - Forum：   https://forum.amebaiot.com/ 
