@@ -9,26 +9,35 @@ Google Cloud IoT Configuration
 1. Select or create a Cloud Platform project In the Google Cloud
 Console, select an existing project or create a new project. You will
 need a **Project ID** to use with Ameba.\ |1|\ If creating a new
-project, enter a project name, and take note of the **Project
-ID** generated.\ |image1|\ 2. Enable billing for your project Billing
+project, enter a project name, and take note of the **Project ID** generated.
+\ |image1|\ 
+
+2. Enable billing for your project Billing
 needs to be enabled for your project to use Google Cloud Platform
 features. Follow the guide in Google cloud documentation to enable
-billing. https://cloud.google.com/billing/docs/how-to/modify-project 3.
-Enable the Cloud IoT Core API In Google Cloud console, click on the top
+billing. https://cloud.google.com/billing/docs/how-to/modify-project 
+
+3. Enable the Cloud IoT Core API In Google Cloud console, click on the top
 left menu button and search for IoT Core.\ |image2|\ Click enable to
-activate Google Cloud IoT API for your project.\ |image3|\ 4. Create a
-Cloud Pub/Sub topic In Google Cloud console, click on the top left menu
-button and search for Pub/Sub.\ |image4|\ Create a new topic for your
+activate Google Cloud IoT API for your project.\ |image3|\ 
+
+4. Create a Cloud Pub\/Sub topic In Google Cloud console, click on the top left menu
+button and search for Pub\/Sub.\ |image4|\ Create a new topic for your
 project and give it a suitable topic ID.\ |image5|\ |image6|\ After the
 topic is created, go to the permissions tab of the info panel, and add
-“cloud-iot@system.gserviceaccount.com” with the role of “Pub/Sub
-Publisher”.\ |image7|\ |image8|\ |image9|\ 5.Create a device registry Go
-back to the IoT Core settings page and create a new
+“cloud-iot@system.gserviceaccount.com” with the role of “Pub\/Sub
+Publisher”.
+
+\ |image7|\ |image8|\ |image9|\ 
+
+5.Create a device registry Go back to the IoT Core settings page and create a new
 registry.\ |image10|\ |image11|\ Choose a suitable **Registry ID** and
-select a server **Region **\ in which to store data. Remember
-the **Registry ID** and **Region **\ for use with Ameba later. For the
+**\ in which to store data. Remember
+the **Registry ID** and **Region**\ for use with Ameba later. For the
 Pub/Sub topic, select the topic created in the previous
-step.\ |image12|\ 6. Create a public/private key pair Using Openssl in a
+step.\ |image12|\ 
+
+6. Create a public/private key pair Using Openssl in a
 terminal in Windows/Linux/MacOs, run the following commands to generate
 a private and public key pair. Two files will be created by these
 commands, “ec_private.pem” containing the private key, and

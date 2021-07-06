@@ -7,6 +7,6 @@
 HDK 硬件參考
 =====================================
 
-* :download:`設計文件 <../media/RTL-AMEBAD-Layout.zip>`
+* :download:`設計文件  <../media/RTL-AMEBAD-Layout.zip>`
 
-* :download:`原理圖 <../media/RTL-AMEBD-Schematic.zip>`
+* :download:`原理圖 <../media/RTL-AMEBAD-Schematic.zip>`

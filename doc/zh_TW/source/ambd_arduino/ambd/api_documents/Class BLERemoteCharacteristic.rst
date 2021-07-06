@@ -574,7 +574,7 @@ Class BLERemoteCharacteristic
   notification from the remote device.
 
 | **Syntax**
-| void setNotifyCallback(void (*fCallback) (BLERemoteCharacteristic\*
+| void setNotifyCallback(void (\*fCallback) (BLERemoteCharacteristic\*
   chr, uint8_t\* data, uint16_t length));
 
 | **Parameters**

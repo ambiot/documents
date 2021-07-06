@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-=====================================
-周邊設備示例
-=====================================
+===================
+週邊硬體相關範例
+===================
 
 .. toctree::
    :maxdepth: 2
@@ -19,7 +19,7 @@
    [RTL8722CSM] [RTL8722DM] I2C - Communicate with Arduino UNO via I2C
    [RTL8722CSM] [RTL8722DM] I2C - Use I2C to receive data from Arduino UNO
    [RTL8722CSM] [RTL8722DM] I2C - Display Data On LCD Screen
-   [RTL8722DM] [RTL8722DM] UART - Communicate with the computer via UART
+   [RTL8722CSM] [RTL8722DM] UART - Communicate with the computer via UART
    [RTL8722CSM] [RTL8722DM] UART - Retrieve GPS Position
    [RTL8722CSM] [RTL8722DM] UART – Set Callback Function For UART Communications
    [RTL8722CSM] [RTL8722DM] Detect PM2.5 Concentration In The Air
@@ -50,4 +50,3 @@
    MagicWand
    MicroSpeech
    PersonDetection
-

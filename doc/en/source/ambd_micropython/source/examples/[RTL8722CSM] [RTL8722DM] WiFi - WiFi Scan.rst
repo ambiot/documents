@@ -14,7 +14,8 @@
 **Steps**
 
 WiFi Scan function can help us quickly discover what WiFi networks are available in our surrounding. This example does not require any additional hardware, thus simply copy, and paste the following code into REPL to see its effect.
-.. code-block:: html
+
+.. code-block:: html   
    :linenos:
    
    from wireless import WLAN

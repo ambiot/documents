@@ -4,10 +4,8 @@ Preparation
 
 -  Ameba x 1
 
--  `Adafruit Ultimate GPS
-      Breakout <https://www.adafruit.com/products/746>`__ x 1 (Refer
-      to `official
-      document <https://learn.adafruit.com/adafruit-ultimate-gps?view=all>`__)
+-  `Adafruit Ultimate GPS Breakout <https://www.adafruit.com/products/746>`__ x 1 
+    (Refer to `official document <https://learn.adafruit.com/adafruit-ultimate-gps?view=all>`__)
 
 Example
 
@@ -38,7 +36,7 @@ field is separated by a comma.
 
 In this example, 2446.8181,N represents 24 degrees 46.8181 minutes north
 latitude, and 12059.7251,E represents 120 degrees 59.7251 minutes east
-longitude. We can search **+24 46.8181’, +120 59.7251’ **\ in Google map
+longitude. We can search **+24 46.8181’, +120 59.7251’** in Google map
 to check whether the position is correct.\ |4|
 
 -  The seventh field is relative speed(knot). 1 knot = 1.852km/hr, in

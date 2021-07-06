@@ -55,7 +55,7 @@ Class WDT
 | **Example Code**
 | Example: WatchdogTimer
 
-/*\*
+\/*
 
 \* This example describes how to use watchdog api.
 
@@ -122,7 +122,7 @@ wdt.RefreshWatchdog();
 
 }
 
-/*\*
+\/*
 
 \* Doing this task will lead to failed refresh the
 

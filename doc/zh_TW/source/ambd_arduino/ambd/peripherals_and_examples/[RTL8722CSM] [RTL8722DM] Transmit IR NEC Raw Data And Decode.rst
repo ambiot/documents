@@ -69,11 +69,11 @@ Renesas, also known as Japanese Format) as the transmission protocol.
 
 Figure 4: Modulation of NEC
 
-Since a total number of 32-bit data together with the header and the
+Since a total number of 32\-bit data together with the header and the
 end-bit will be transferred (Figure 5). If we separate the data in the
-time-frame (in us), there will be ( 2 + 32 ) x 2 + 1 = 69 “marks” /
+time\-frame (in us), there will be ( 2 \+ 32 ) \x 2 \+ 1 \= 69 “marks” /
 “spaces” to be transmitted (Figure 6), which forms the raw NEC data we
-would like to transmit in our Arduino “*.ino” file. This part of the
+would like to transmit in our Arduino “\*.ino” file. This part of the
 code can be modified by users. Details of how to obtain raw data code
 for your remote devices, you may refer to `Ken Shirriff’s
 blog <http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html>`__,

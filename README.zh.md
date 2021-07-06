@@ -10,5 +10,6 @@
 ---
 ### 聯係我們
 
-- Facebook：https://www.facebook.com/groups/AmebaIoT
+- 臉書中文頁面：https://www.facebook.com/groups/AmebaIoT
+- 臉書英文頁面：https://www.facebook.com/groups/amebaioten
 - 官方論壇：https://forum.amebaiot.com/ 

@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
    
 歡迎來到 Ameba D (RTL8722) 編程指南!
-==================================
+==========================================
 
 我們支持3個獨特的開發平台：Realtek Standard SDK、Arduino SDK 和 MicroPython SDK。
    

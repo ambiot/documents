@@ -383,7 +383,7 @@ with the original definition, and expected behavior, of endTransmission.
 | Callback function when I2C on receive.
 
 | **Syntax**
-| void TwoWire::onReceive (void(*function)(int));
+| void TwoWire::onReceive (void(\*function)(int));
 
 | **Parameters**
 | function: The callback function.
@@ -406,7 +406,7 @@ with the original definition, and expected behavior, of endTransmission.
 | Callback function when I2C on request.
 
 | **Syntax**
-| void TwoWire::onRequest (void(*function)(void));
+| void TwoWire::onRequest (void(\*function)(void));
 
 | **Parameters**
 | function: The callback function

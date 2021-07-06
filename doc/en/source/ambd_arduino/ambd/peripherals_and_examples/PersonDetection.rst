@@ -73,7 +73,7 @@ which appear as follows:
    :width: 3.96875in
    :height: 2.97656in
 
-**Code Reference**S
+**Code Reference**
 
 
 More information on TensorFlow Lite for Microcontrollers can be found

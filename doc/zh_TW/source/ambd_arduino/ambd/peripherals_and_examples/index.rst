@@ -3,16 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-=============
-周邊設備和示例
-=============
+=====================================
+外圍設備 & 示例
+=====================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Ameba ARDUINO 周邊設備和示例:
+   :caption: Ameba ARDUINO: Peripherals & Examples:
 
-   ../../../ambd_arduino/source/peripherals_and_examples/Basic Examples
-   ../../../ambd_arduino/source/peripherals_and_examples/Network Examples
-   ../../../ambd_arduino/source/peripherals_and_examples/Peripheral Examples
-   ../../../ambd_arduino/source/peripherals_and_examples/Components used
+   Basic Examples
+   Network Examples
+   Peripheral Examples
+   Components used
 

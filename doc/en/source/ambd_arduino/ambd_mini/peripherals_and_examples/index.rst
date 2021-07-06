@@ -7,15 +7,11 @@
 Peripherals & Examples
 =====================================
 
-
-
-
 .. toctree::
    :maxdepth: 2
    :caption: Ameba ARDUINO: Peripherals & Examples:
 
    RTL8722DM_MINI_Arduino_SDK_basic_example_table 15Apr2021
-   ../../../ambd_arduino/source/peripherals_and_examples/Network Examples
-   ../../../ambd_arduino/source/peripherals_and_examples/Peripheral Examples
-   ../../../ambd_arduino/source/peripherals_and_examples/Components used
-
+   ../../ambd/peripherals_and_examples/Network Examples
+   ../../ambd/peripherals_and_examples/Peripheral Examples
+   ../../ambd/peripherals_and_examples/Components used

@@ -208,7 +208,7 @@ Class BLEClient
   disconnected.
 
 | **Syntax**
-| void setDisconnectCallback(void (*fCallback) (BLEClient\* client));
+| void setDisconnectCallback(void (\*fCallback) (BLEClient\* client));
 
 | **Parameters**
 | fCallback: A user callback function that returns void and takes one

@@ -14,8 +14,7 @@ master, transmits data to the Arduino UNO, the I2C slave. As to this
 example, Ameba is the I2C master, and receives data from the Arduino
 UNO, which is the I2C slave.
 
--  **Setting up Arduino Uno to be I2C Slave
-      **
+-  **Setting up Arduino Uno to be I2C Slave**
 
 | First, select Arduino in the Arduino IDE in “Tools” -> “Board” ->
   “Arduino Uno”:
@@ -29,8 +28,7 @@ UNO, which is the I2C slave.
 Then click “Sketch” -> “Upload” to compile and upload the example to
 Arduino Uno.
 
--  **Setting up Ameba to be I2C Master
-      **
+-  **Setting up Ameba to be I2C Master**
 
 | Next, open another window of Arduino IDE, make sure to choose your
   Ameba development board in the IDE: “Tools” -> “Board”

@@ -54,7 +54,7 @@ Class RTC
 | **Example Code**
 | Example: RTC
 
-/*\*
+\/*
 
 \* This function describes how to use the RTC API.
 
