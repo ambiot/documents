@@ -25,7 +25,7 @@ it practically impossible to do press on the button all time, therefore,
 the watchdog timer that embedded inside the micro-controller would help
 with this situation.
 
-.. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Watchdog_Timer_Simple_Example/image1.gif
+.. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Watchdog_Timer_Simple_Example/image1.png
    :alt: 1
    :width: 6.25in
    :height: 7.40972in

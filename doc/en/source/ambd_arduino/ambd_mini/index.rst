@@ -3,17 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-AmebaD-mini
-===========
+RTL8722DM_MINI
+==============
 
-This is the AmebaD-mini online documentation
+This is the RTL8722DM_MINI online documentation
 
 |image1|
 
 .. toctree::
    :maxdepth: 1
    :caption: Table of Contents:
-   
+
    getting_started/RTL8722DM_mini_Arduino SDK_getting start
    download/index
    peripherals_and_examples/index

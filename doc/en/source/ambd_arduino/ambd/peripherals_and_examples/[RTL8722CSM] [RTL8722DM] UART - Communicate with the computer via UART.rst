@@ -1,6 +1,6 @@
 [RTL8722DM] [RTL8722DM] UART - Communicate with the computer via UART
 =======================================================================
-Introduction of UART
+**Introduction of UART**
 
 -  UART uses two wire, one for transmitting and the other one for
       receiving, so the data transmission is bidirectional. The
@@ -15,13 +15,13 @@ Introduction of UART
       Serial. Ameba is equipped with several hardware UART ports, but it
       is also compatible with the Software Serial library.
 
-Materials
+**Materials**
 
 -  Ameba x 1
 
 -  USB to TTL Adapter x 1
 
-Example
+**Example**
 
 | In this example, we use UART to connect USB to TTL adapter to Ameba.
 | USB to TTL adapter sends data to Ameba, the data would be returned by

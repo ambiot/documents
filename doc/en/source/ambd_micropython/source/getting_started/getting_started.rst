@@ -19,12 +19,10 @@ LED, switches, manometer, hygrometer, PM2.5 dust sensors, …etc.
 
 The collected data can be uploaded via WiFi and be utilized by
 applications on smart devices to realize IoT implementation.
-
 |get-start-1|
 
-AmebaD and Arduino Uno have similar size, as shown in the above figure,
-and the pins on AmebaD are compatible with Arduino Uno.
-
+| AmebaD and Arduino Uno have similar size, as shown in the above
+  figure, and the pins on AmebaD are compatible with Arduino Uno.
 | AmebaD uses Micro USB to supply power, which is common in many smart
   devices.
 | Please refer to the following figure and table for the pin diagram and
@@ -32,52 +30,65 @@ and the pins on AmebaD are compatible with Arduino Uno.
 
 |get-start-2|
 
-===  ========  ====  ==== ===== ============== ========= ========
-A    PIN name  GPIO  ADC  PWM   UART           SPI       I2C
-===  ========  ====  ==== ===== ============== ========= ========
-D00  GPIOB_2   ✓     ADC5       UART3_RX(b)              
-D01  GPIOB_1   ✓     ADC4       UART3_TX(b)              
-D02  GPIOB_3   ✓     ADC6                                
-D03  GPIOB_31  ✓                                            
-D04  GPIOB_30  ✓                                            
-D05  GPIOB_28  ✓                                            
-D06  GPIOB_29  ✓                                            
-D07  NC                                                    
-D08  GPIOB_22  ✓          PWM14                          
-D09  GPIOB_23  ✓          PWM15                          
-D10  GPIOB_21  ✓          PWM13 UART0_RTS(b)   SPI0_CS    
-D11  GPIOB_18  ✓          PWM10 UART0_RX(b)    SPI0_MOSI  
-D12  GPIOB_19  ✓          PWM11 UART0_TX(b)    SPI0_MISO  
-D13  GPIOB_20  ✓          PWM12 UART0_CTS(b)   SPI0_CLK   
-D14  GPIOA_7   ✓                UART2_TX(log)            
-D15  GPIOA_8   ✓                UART2_RX(log)            
-D16  GPIOA_25  ✓          PWM4  UART3_RX(a)    I2C0_SCL
-D17  GPIOA_26  ✓          PWM5  UART3_TX(a)    I2C0_SDA
-D18  GPIOB_7   ✓     ADC3 PWM17                SPI1_CS    
-D19  GPIOB_6   ✓     ADC2                      SPI1_CLK   
-D20  GPIOB_5   ✓     ADC1 PWM9                 SPI1_MISO  
-D21  GPIOB_4   ✓     ADC0 PWM8                 SPI1_MOSI  
-D22  GPIOA_28  ✓                                            
-D23  GPIOA_24  ✓          PWM3  UART0_CTS(a)   I2C1_SDA
-D24  GPIOA_23  ✓          PWM2  UART0_RTS(a)   I2C1_SCL
-D25  GPIOA_22  ✓                UART0_RX(a)              
-D26  GPIOA_21  ✓                UART0_TX(a)              
-D27  GPIOA_20  ✓                                            
-D28  GPIOA_19  ✓                                            
-===  ========  ====  ==== ===== ============== ========= ========
+|  
+|  
 
-|get-start-3|
- 
+=====  ========  ========  ==== ===== ============== ========= ========
+INDEX  PIN name  GPIO INT  ADC  PWM   UART           SPI       I2C
+=====  ========  ========  ==== ===== ============== ========= ========
+D00    GPIOB_2   ✓         ADC5       UART3_RX(b)                      
+D01    GPIOB_1   ✓         ADC4       UART3_TX(b)                      
+D02    GPIOB_3   ✓         ADC6                                        
+D03    GPIOB_31  ✓                                                     
+D04    GPIOB_30  ✓                                                     
+D05    GPIOB_28  ✓                                                     
+D06    GPIOB_29  ✓                                                     
+D07    NC                                                              
+D08    GPIOB_22  ✓              PWM14                                  
+D09    GPIOB_23  ✓              PWM15                                  
+D10    GPIOB_21  ✓              PWM13 UART0_RTS(b)   SPI0_CS           
+D11    GPIOB_18  ✓              PWM10 UART0_RX(b)    SPI0_MOSI         
+D12    GPIOB_19  ✓              PWM11 UART0_TX(b)    SPI0_MISO         
+D13    GPIOB_20  ✓              PWM12 UART0_CTS(b)   SPI0_CLK          
+D14    GPIOA_7   ✓                    UART2_TX(log)                    
+D15    GPIOA_8   ✓                    UART2_RX(log)                    
+D16    GPIOA_25  ✓              PWM4  UART3_RX(a)              I2C0_SCL
+D17    GPIOA_26  ✓              PWM5  UART3_TX(a)              I2C0_SDA
+D18    GPIOB_7   ✓         ADC3 PWM17                SPI1_CS           
+D19    GPIOB_6   ✓         ADC2                      SPI1_CLK          
+D20    GPIOB_5   ✓         ADC1 PWM9                 SPI1_MISO         
+D21    GPIOB_4   ✓         ADC0 PWM8                 SPI1_MOSI         
+D22    GPIOA_28  ✓                                                     
+D23    GPIOA_24  ✓              PWM3  UART0_CTS(a)             I2C1_SDA
+D24    GPIOA_23  ✓              PWM2  UART0_RTS(a)             I2C1_SCL
+D25    GPIOA_22  ✓                    UART0_RX(a)                      
+D26    GPIOA_21  ✓                    UART0_TX(a)                      
+D27    GPIOA_20  ✓                                                     
+D28    GPIOA_19  ✓                                                     
+=====  ========  ========  ==== ===== ============== ========= ========
+
+|  
+|  
+
+| |get-start-3|
+|  
+
 **Note:** Not all sets of peripherals shown on the picture/table above
 are available on MicroPython, please refer to “\ **Peripheral Example
 and API**\ ” section for more information.
-
 
 Introduction to RTL8722 MicroPython port
 ========================================
 
 Background Information
 ----------------------
+
+MicroPython, by definition, is a lean and efficient Python3 compiler and
+runtime specially designed for microcontrollers.
+
+MicroPython distinguishes itself from other compilation-based platforms
+(Arduino etc.) with its powerful method of real-time interaction to
+Microcontroller through a built-in feature -- REPL.
 
 REPL stands for Read-Evaluation-Print-Loop, it is an interactive prompt
 that you can use to access and control your microcontroller.
@@ -89,10 +100,10 @@ microcontroller.
 
 To use REPL, simply open any serial terminal software (most common ones
 are teraterm, putty etc.) on your PC and connect to your
-microcontroller’s serial port, then set baudrate to 115200 before
+microcontroller's serial port, then set baudrate to 115200 before
 manually reset the board, then you will see >>> MicroPython prompt
 appear on the terminal. Now you may type in any Python script on REPL as
-long as it’s support by MicroPython and your microcontroller’s
+long as it's support by MicroPython and your microcontroller's
 MicroPython port.
 
 Most importantly, try to abuse "help()" function as much as possible to

@@ -7,9 +7,6 @@
 Peripherals & Examples
 =====================================
 
-
-
-
 .. toctree::
    :maxdepth: 2
    :caption: Ameba ARDUINO: Peripherals & Examples:

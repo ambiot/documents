@@ -35,28 +35,28 @@ Components used
         * Servo with high output power
      - 
 
-   
+     
 **(End)**
 --------------------------------------------------------------------------------------
 
 .. |image-1| image:: ../media/Components_used_in_Examples/image1.jpeg
- :width: 2.5in
- :height: 2.5in
+   :width: 2.5in
+   :height: 2.5in
 .. |image-2| image:: ../media/Components_used_in_Examples/image2.jpeg
- :width: 2.5in
- :height: 2.5in
+   :width: 2.5in
+   :height: 2.5in
 .. |image-3| image:: ../media/Components_used_in_Examples/image3.jpeg
- :width: 2.5in
- :height: 2.5in
+   :width: 2.5in
+   :height: 2.5in
 .. |image-4| image:: ../media/Components_used_in_Examples/image4.jpeg
- :width: 2.5in
- :height: 2.5in
+   :width: 2.5in
+   :height: 2.5in
 .. |image-5| image:: ../media/Components_used_in_Examples/image5.jpeg
- :width: 2.5in
- :height: 2.5in
+   :width: 2.5in
+   :height: 2.5in
 .. |image-6| image:: ../media/Components_used_in_Examples/image6.jpeg
- :width: 2.5in
- :height: 2.5in
+   :width: 2.5in
+   :height: 2.5in
 .. |image-7| image:: ../media/Components_used_in_Examples/image7.jpeg
- :width: 2.5in
- :height: 2.5in
+   :width: 2.5in
+   :height: 2.5in

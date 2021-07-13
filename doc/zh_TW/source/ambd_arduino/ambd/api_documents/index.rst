@@ -7,7 +7,6 @@
 API Documents
 =====================================
 
-
 .. toctree::
    :maxdepth: 2
    :caption: Online API Documents:
@@ -49,7 +48,7 @@ API Documents
    Class AmebaILI9341
    Class SPISettings_SPIClass
    SPI_Readme
-   Wiring_OS_API  
+   Wiring_OS_API
    Class WDT
    Class WiFi
    Class WiFiClient
@@ -63,8 +62,3 @@ API Documents
    Class FatFsSD
    Class FFT
    Class SdFatFile
-
- 
-
-
-

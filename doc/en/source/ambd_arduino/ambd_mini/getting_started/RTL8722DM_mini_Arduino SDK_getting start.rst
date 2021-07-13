@@ -1,7 +1,7 @@
-Getting Started with RTL8722DM_mini
+Getting Started with RTL8722DM_MINI
 ===========================================================
 
-**Ameba ARDUINO: Getting Started with RTL8722DM MINI**
+**Ameba ARDUINO: Getting Started with RTL8722DM_MINI**
 
 Required Environment
 

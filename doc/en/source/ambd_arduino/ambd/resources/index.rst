@@ -8,11 +8,11 @@ Resources
 =====================================
 
 Links
-********
+-------
 
-`AmebaD Arduino Github <https://github.com/ambiot/ambd_arduino>`_
+- `AmebaD Arduino Github <https://github.com/ambiot/ambd_arduino>`_
 
-`Arduino Website <https://www.arduino.cc/>`_
+- `Arduino Website <https://www.arduino.cc/>`_
 
    
    

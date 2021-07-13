@@ -9,6 +9,6 @@ Arduino SDK
 .. toctree::
    :maxdepth: 1
    :caption: Open Source SDKs:
-  
+
    ambd/index
    ambd_mini/index

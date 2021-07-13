@@ -18,7 +18,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'amebaDocs'
-copyright = '2020, Simon XI'
+copyright = '2020, Ameba IoT'
 author = 'Ameba IoT'
 
 # The full version, including alpha/beta/rc tags

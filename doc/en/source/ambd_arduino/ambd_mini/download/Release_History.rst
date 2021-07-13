@@ -2,60 +2,29 @@
 Release History
 ===================================
 
--     **Version 2.0.10 – 2021/03/04**
+Version 3.0.8 – 2021/05/06
+===================================
 
--     Patch update:
+**Feature:** 
+  * Add RTL8722DM_mini board
+  * Add fatfs for SD card
+  * Add AudioCodec
+  * Add TensorFlow lite support with examples
+  * Add zip libraries for TensorFlow lite support
+  * Update SDK for supporting Arduino IDE 2.0
+  * Update wlan lib
 
--     2021/06/17
+**API Updates:**  
+  * Update zip libraries of Eink
+  * ADC updates, Change calculation method to use EFUSE calibration parameters and SDK formula to improve accuracy
+  * writing_analog updates, minor bug fix and support for mini board
+  * SPI updates, minor bug fix and support for mini board
+  * I2S updates, minor bug fix and support for mini board
+  * IRDevice updates, minor bug fix
 
--     Update wlan lib and related lib
 
--     Feature:
-
--     – Update SDK structure
-
--     – Update wlan lib and related lib
-
--     – Minor bug fix 
-
--     Misc:
-
--     – Add offline SDK patch installation tools
-
--	**Version 3.0.8 – 2021/05/06**
-
--	Feature:
-
--	– Add RTL8722DM_mini board
-
--	– Add fatfs for SD card
-
--	– Add AudioCodec
-
--	– Add TensorFlow lite support with examples
-
--	– Add zip libraries for TensorFlow lite support
-
--	– Update SDK for supporting Arduino IDE 2.0
-
--	– Update wlan lib
-
--	API Updates:
-
--	– Update zip libraries of Eink
-
--	– ADC updates, Change calculation method to use EFUSE calibration parameters and SDK formula to improve accuracy
-
--	– writing_analog updates, minor bug fix and support for mini board
-
--	– SPI updates, minor bug fix and support for mini board
-
--	– I2S updates, minor bug fix and support for mini board
-
--	– IRDevice updates, minor bug fix
-
--  **Version 3.0.7 – 2020/11/19**
-
+Version 3.0.7 – 2020/11/19
+===================================
 -  Feature:
 
 -  – Add AmebaIRDevice example IRSendSONY

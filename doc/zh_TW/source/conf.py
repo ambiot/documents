@@ -13,11 +13,11 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'amebaDoc'
+project = 'amebaDocs'
 copyright = '2021, Ameba IoT'
 author = 'Ameba IoT'
 
@@ -49,12 +49,9 @@ language = 'zh_TW'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build',
-                    'Thumbs.db',
-                    '.DS_Store',
-                   ]
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-numpydoc_show_class_members = False
+# numpydoc_show_class_members = False
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for

@@ -1,6 +1,5 @@
 [RTL8722DM] [RTL8722DM] UART - Communicate with the computer via UART
 =======================================================================
-
 **UART 是什麽**
 
 -  UART uses two wire, one for transmitting and the other one for
