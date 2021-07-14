@@ -44,8 +44,8 @@ less features:
 
 -  iOS :*https://apps.apple.com/us/app/lightblue/id557428110*
 
-Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
-“BLEBatteryService”
+Open the example, "Files" -> "Examples" -> "AmebaBLE" ->
+"BLEBatteryService"
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Battery_Service/image1.png
    :alt: 2
@@ -56,7 +56,7 @@ Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
   finished.
 | On your mobile phone, open the Bluetooth app and scan for the
   Bluetooth signal broadcast by Ameba, it should appear as a device
-  named “AMEBA_BLE_DEV”.
+  named "AMEBA_BLE_DEV".
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Battery_Service/image2.png
    :alt: 3

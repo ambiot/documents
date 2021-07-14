@@ -10,7 +10,7 @@ Example
 
 | In this example, we connect Ameba to WiFi and use Ameba as server to
   send message to connected client.
-| First, open “File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebServer”
+| First, open "File" -> "Examples" -> "AmebaWiFi" -> "WiFiWebServer"
 
  
 

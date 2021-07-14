@@ -11,11 +11,11 @@ Example
 | In this example, the HttpClient library is used to retrieve a webpage
   using the HTTP protocol.
 | First, make sure that the correct Ameba development board is selected
-  in “Tools” -> “Board”
+  in "Tools" -> "Board"
 
  
 
-Then open “File” -> “Examples” -> “AmebaHttp” -> “SimpleHttpExample”
+Then open "File" -> "Examples" -> "AmebaHttp" -> "SimpleHttpExample"
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_to_retrieve_HTTP_websites_from_the_internet/image1.png
    :alt: 4-1

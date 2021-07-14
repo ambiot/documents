@@ -50,8 +50,8 @@ file:
 //#define LOAD_SDFAT_LIBRARY // Use SdFat library instead, so SD Card
 SPI can be bit bashed
 
-Open the example, "Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
-“person_detection”.
+Open the example, "Files" -> "Examples" -> "TensorFlowLite_Ameba" ->
+"person_detection".
 
 .. image:: ../media/PersonDetection/image2.png
    :width: 1.85417in

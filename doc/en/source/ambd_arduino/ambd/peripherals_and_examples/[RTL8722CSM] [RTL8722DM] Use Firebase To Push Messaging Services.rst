@@ -205,7 +205,7 @@ Select Set up
 | Go to the Settings page and select the Cloud Messaging page. We will
   see the Legacy server key. This Server key also needs to be used in
   the program. Let’s save it and start editing the code.
-| Open the example “File” -> “Examples” -> “AmebaWiFi” -> “Firebase.ino”
+| Open the example "File" -> "Examples" -> "AmebaWiFi" -> "Firebase.ino"
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image16.png
    :alt: 1

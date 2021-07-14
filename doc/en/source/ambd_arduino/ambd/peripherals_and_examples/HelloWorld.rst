@@ -21,8 +21,8 @@ install it. Ensure that the patch files found at
 https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ are also
 installed.
 
-Open the example, "Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
-“hello_world”.
+Open the example, "Files" -> "Examples" -> "TensorFlowLite_Ameba" ->
+"hello_world".
 
 .. image:: ../media/HelloWorld/image1.png
    :width: 3.5in

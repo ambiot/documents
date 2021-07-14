@@ -8,7 +8,7 @@ Materials
 
 -  LED x 1
 
--  1KΩ Resistor x 1
+-  1K ohm Resistor x 1
 
 Procedure
 
@@ -27,8 +27,8 @@ the positive pole.
 
  
 
-| Then open “File” -> “Examples” -> “AmebaWiFi” ->
-  “SimpleWebServerWiFi”\ |5-2|
+| Then open "File" -> "Examples" -> "AmebaWiFi" ->
+  "SimpleWebServerWiFi"\ |5-2|
 | In the sample code, modify the highlighted snippet to corresponding
   information.
 
@@ -38,8 +38,8 @@ the positive pole.
    :height: 5.825in
 
 Upload the code and press the reset button on Ameba. When the connection
-is established, you will see the message “To see this page in action,
-open a browser to http://xxx.xxx.xxx.xxx” in the Arduino IDE, as shown
+is established, you will see the message "To see this page in action,
+open a browser to http://xxx.xxx.xxx.xxx" in the Arduino IDE, as shown
 in the figure:
 
  |5-4|

@@ -14,11 +14,11 @@ is pure text, so we can connect it to USB to TTL Adapter and observe the
 output.\ |1|\ |2|\ It follows the NMEA sentence format (refer
 to http://aprs.gids.nl/nmea/)The GPS signal is weak in indoor
 environment. The status that the GPS signal is not received is called
-“not fix”. Bring the GPS module outdoors, when the GPS signal is “fix”,
+"not fix". Bring the GPS module outdoors, when the GPS signal is "fix",
 you would get message similar to the figure below.\ |3|\ In this example
-we are only interested in the “$GPRMC (Global Positioning Recommended
+we are only interested in the "$GPRMC (Global Positioning Recommended
 Minimum
-Coordinates)”: **$GPRMC,032122.000,A,2446.8181,N,12059.7251,E,0.39,78.89,270116,,,A*53** Each
+Coordinates)": **$GPRMC,032122.000,A,2446.8181,N,12059.7251,E,0.39,78.89,270116,,,A*53** Each
 field is separated by a comma.
 
 -  First field is the GMT time (Greenwich Mean Time), that is 032122.000
@@ -46,12 +46,12 @@ to check whether the position is correct.\ |4|
       moving orbit.
 
 -  The ninth field is the date with format ddMMyy. In this example,
-      “270116” stands for day 27, January, year 2016.
+      "270116" stands for day 27, January, year 2016.
 
 -  The last field is checksum. In the example we have \*53 as checksum.
 
-RTL8722 wiring diagram:|5|\ Open the example in “Files” -> “Examples” ->
-“AmebaSoftwareSerial” -> “Adafruit_GPS_parsing”. Compile and upload to
+RTL8722 wiring diagram:|5|\ Open the example in "Files" -> "Examples" ->
+"AmebaSoftwareSerial" -> "Adafruit_GPS_parsing". Compile and upload to
 Ameba, then press the reset button. The result will be output to Serial
 Monitor:|6|\ |7|
 

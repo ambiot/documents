@@ -1,27 +1,27 @@
 [RTL8722DM] [RTL8722DM] UART - Communicate with the computer via UART
 =======================================================================
-**Introduction of UART**
+Introduction of UART
 
 -  UART uses two wire, one for transmitting and the other one for
       receiving, so the data transmission is bidirectional. The
       communication uses a predefined frequency (baud rate) to transmit
-      data. In Arduino, UART is called “Serial”. There is only one
+      data. In Arduino, UART is called "Serial". There is only one
       hardware UART on Arduino Uno and it is primarily used to read the
-      log and messages printed by Arduino (so it is also called “Log
-      UART”). If we use the hardware UART for other purposes, the Log
+      log and messages printed by Arduino (so it is also called "Log
+      UART"). If we use the hardware UART for other purposes, the Log
       UART does not have resources to function. To provide more UART
       connections, it is possible to use a GPIO pin to simulate the
       behavior of UART with a software approach, this is called Software
       Serial. Ameba is equipped with several hardware UART ports, but it
       is also compatible with the Software Serial library.
 
-**Materials**
+Materials
 
 -  Ameba x 1
 
 -  USB to TTL Adapter x 1
 
-**Example**
+Example
 
 | In this example, we use UART to connect USB to TTL adapter to Ameba.
 | USB to TTL adapter sends data to Ameba, the data would be returned by
@@ -45,8 +45,8 @@
 
 -  Executing the Example
 
-Open the “SoftwareSerialExample” example in “File” -> “Examples” ->
-“AmebaSoftwareSerial” -> “SoftwareSerial_Basic”:
+Open the "SoftwareSerialExample" example in "File" -> "Examples" ->
+"AmebaSoftwareSerial" -> "SoftwareSerial_Basic":
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image2.png
    :alt: 5-2
@@ -64,7 +64,7 @@ Open the “SoftwareSerialExample” example in “File” -> “Examples” ->
    :height: 7.03264in
 
 Next, open a serial port terminal, such as Putty or Tera Term. (Putty is
-used in this example). Open the Putty window, choose “Serial” in
+used in this example). Open the Putty window, choose "Serial" in
 connection type, and specify the port number of the USB to TTL adapter
 (e.g. COM8). In the speed field, fill in the baud rate of this
 connection. Note that both sides of the connection should use the same
@@ -75,7 +75,7 @@ baud rate. In this example we set baud rate 4800.
    :width: 4.85417in
    :height: 4.66667in
 
-Next, select “Serial” on the left side. Set data bits to 8, stop bits to
+Next, select "Serial" on the left side. Set data bits to 8, stop bits to
 1, parity to none, and flow control to none.
 
  
@@ -86,11 +86,11 @@ Next, select “Serial” on the left side. Set data bits to 8, stop bits to
    :height: 4.66667in
 
 Then click Open and press the reset button on Ameba. You can see the
-“Hello, world?” message appears in Putty. If characters are typed into
+"Hello, world?" message appears in Putty. If characters are typed into
 Putty, the input characters would be sent to Serial RX of Ameba by TX of
 USB to TTL Adapter, and returned by Serial TX of Ameba. Finally, RX of
 USB to TTL Adapter receives the returned characters and prints them in
-Putty. Therefore, if you insert “I am fine”, you will get something like
+Putty. Therefore, if you insert "I am fine", you will get something like
 this:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image6.png

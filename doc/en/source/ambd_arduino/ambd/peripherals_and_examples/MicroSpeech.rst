@@ -30,8 +30,8 @@ install it. Ensure that the patch files found at
 https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ are also
 installed.
 
-Open the example, "Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
-“micro_speech”.
+Open the example, "Files" -> "Examples" -> "TensorFlowLite_Ameba" ->
+"micro_speech".
 
 .. image:: ../media/MicroSpeech/image2.jpeg
    :width: 2.0354in
@@ -42,7 +42,7 @@ finished.
 
 Once it is running, you should see one of the LEDs flashing, indicating
 that it is processing audio. Saying the word "yes" will cause the green
-LED to light up. Saying the word “no” will cause the red LED to light
+LED to light up. Saying the word "no" will cause the red LED to light
 up. If the word is not recognized, the blue LED will to light up.
 
 The inference results are also output to the Arduino serial monitor,

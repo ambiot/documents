@@ -9,11 +9,11 @@ Example
 | In this example, we use Ameba to be a web client to retrieve
   information from the Internet.
 | First, make sure the correct Ameba development board is selected in
-  “Tools” -> “Board”
+  "Tools" -> "Board"
 
  
 
-Then open “File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebClient”
+Then open "File" -> "Examples" -> "AmebaWiFi" -> "WiFiWebClient"
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_to_retrieve_information_from_the_Internet/image1.png
    :alt: 4-1

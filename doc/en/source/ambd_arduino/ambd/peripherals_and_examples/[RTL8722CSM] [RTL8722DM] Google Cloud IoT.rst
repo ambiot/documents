@@ -25,8 +25,8 @@ activate Google Cloud IoT API for your project.\ |image3|\
 button and search for Pub\/Sub.\ |image4|\ Create a new topic for your
 project and give it a suitable topic ID.\ |image5|\ |image6|\ After the
 topic is created, go to the permissions tab of the info panel, and add
-“cloud-iot@system.gserviceaccount.com” with the role of “Pub\/Sub
-Publisher”.
+"cloud-iot@system.gserviceaccount.com" with the role of "Pub\/Sub
+Publisher".
 
 \ |image7|\ |image8|\ |image9|\ 
 
@@ -40,8 +40,8 @@ step.\ |image12|\
 6. Create a public/private key pair Using Openssl in a
 terminal in Windows/Linux/MacOs, run the following commands to generate
 a private and public key pair. Two files will be created by these
-commands, “ec_private.pem” containing the private key, and
-“ec_public.pem” containing the public key.
+commands, "ec_private.pem" containing the private key, and
+"ec_public.pem" containing the public key.
 
 $ openssl ecparam -genkey -name prime256v1 -noout -out ec_private.pem
 
@@ -57,15 +57,15 @@ $ openssl ec -in ec_private.pem -noout -text
 create a new device.\ |image15|\ Give the device a suitable **Device
 ID** and remember it for use with Ameba later.\ |image16|\ In the
 authentication section of the additional options, upload the previously
-generated “ec_public.pem” public key.\ |image17|\ 8. Create a Cloud
+generated "ec_public.pem" public key.\ |image17|\ 8. Create a Cloud
 Pub/Sub subscription To observe messages sent by Ameba, create a
 subscription in Pub/Sub.\ |image18|\ Choose a suitable subscription ID
 and select the previously created topic.\ |image19|
 
 Example
 
-Open the example in “File” -> “Examples” -> “AmebaMQTTClient” ->
-“Google_Cloud_IoT”.\ |image20|\ Enter the required information in the
+Open the example in "File" -> "Examples" -> "AmebaMQTTClient" ->
+"Google_Cloud_IoT".\ |image20|\ Enter the required information in the
 highlighted sections below.\ |image21|\ In the yellow section, enter the
 SSID and password required to connect to your WiFi network. In the green
 section, enter the Project ID, server Region, Registry ID and Device ID
@@ -142,21 +142,21 @@ if (client.connect(mqtt_id, clientUser, clientPass.c_str()) )
 
 {
 
-．．．．．．．．．．
+..........
 
 for(int i = 0; i < count; i++){
 
-．．．．．．．．．．
+..........
 
 sprintf(payload, "This is Ameba's %d message!!", i);
 
 ret = client.publish(pub_topic, payload);
 
-．．．．．．．．．．
+..........
 
-　}
+ }
 
-．．．．．．．．．．
+..........
 
 client.disconnect();
 

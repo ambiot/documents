@@ -20,7 +20,7 @@ All getting-started guides, examples, tutorials, API reference and datasheet can
 
    ambd_arduino/arduino_index
    ambd_micropython/source/index
-   ambd_sdk/source/index 
+   ambd_sdk/source/index
 
 Search
 ==================

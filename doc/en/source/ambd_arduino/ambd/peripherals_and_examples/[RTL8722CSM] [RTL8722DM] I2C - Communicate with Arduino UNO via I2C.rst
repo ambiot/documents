@@ -2,14 +2,14 @@
 =====================================================================
 Introduction of I2C
 
--  There are two roles in the operation of I2C, one is “master”, the
-      other is “slave”. Only one master is allowed and can be connected
+-  There are two roles in the operation of I2C, one is "master", the
+      other is "slave". Only one master is allowed and can be connected
       to many slaves. Each slave has its unique address, which is used
       in the communication between master and the slave. I2C uses two
       pins, one is for data transmission (SDA), the other is for the
       clock (SCL). Master uses the SCL to inform slave of the upcoming
       data transmission, and the data is transmitted through SDA. The
-      I2C example was named “Wire” in the Arduino example.
+      I2C example was named "Wire" in the Arduino example.
 
 Materials
 
@@ -26,17 +26,17 @@ Example
 
 -  Setting up Arduino Uno to be I2C Slave
 
-| First, select Arduino in the Arduino IDE in “Tools” -> “Board” ->
-  “Arduino Uno”
-| Open the “Slave Receiver” example in “Examples” -> “Wire” ->
-  “slave_receiver”:
+| First, select Arduino in the Arduino IDE in "Tools" -> "Board" ->
+  "Arduino Uno"
+| Open the "Slave Receiver" example in "Examples" -> "Wire" ->
+  "slave_receiver":
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Communicate_with_Arduino_UNO_via_I2C/image1.png
    :alt: 4-1
    :width: 6.5in
    :height: 7.16806in
 
-Then click “Sketch” -> “Upload” to compile and upload the example to
+Then click "Sketch" -> "Upload" to compile and upload the example to
 Arduino Uno.
 
  
@@ -44,9 +44,9 @@ Arduino Uno.
 -  Setting up Ameba to be I2C Master
 
 | Next, open another window of Arduino IDE, make sure to choose your
-  Ameba development board in the IDE: “Tools” -> “Board”
-| Then open the “Master Writer” example in “File” -> “Examples” ->
-  “AmebaWire” -> “MasterWriter”
+  Ameba development board in the IDE: "Tools" -> "Board"
+| Then open the "Master Writer" example in "File" -> "Examples" ->
+  "AmebaWire" -> "MasterWriter"
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Communicate_with_Arduino_UNO_via_I2C/image2.png
    :alt: 4-3
@@ -67,7 +67,7 @@ RTL8722 wiring diagram:
    :height: 4.68194in
 
 | Open the Arduino IDE of the Arduino Uno and open the serial monitor
-  (“Tools” -> “Serial Monitor”).
+  ("Tools" -> "Serial Monitor").
 | In the Serial Monitor, you can see the messages printed from Arduino
   Uno.
 | Next, press the reset button on Arduino Uno. Now the Arduino Uno is

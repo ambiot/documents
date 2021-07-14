@@ -7,15 +7,9 @@
 Support
 =====================================
 
-
-
 .. toctree::
    :maxdepth: 2
    :caption: Support:
 
    FAQ
    Trouble shooting
-   
-   
-   
-

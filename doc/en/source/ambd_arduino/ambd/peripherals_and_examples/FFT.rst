@@ -19,7 +19,7 @@ signal.
 **Procedure**
 
 
-Open the example, "Files" -> "Examples" -> “AmebaAudioCodec” -> “FFT”.
+Open the example, "Files" -> "Examples" -> "AmebaAudioCodec" -> "FFT".
 
 .. image:: ../media/FFT/image1.png
    :width: 2.03125in

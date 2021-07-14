@@ -8,10 +8,10 @@ Example
 
 In this example, we connect Ameba to WiFi and use Ameba to be an UDP
 server. When Ameba receives a message from UDP client, it replies
-“acknowledged” message to client.
+"acknowledged" message to client.
 
-| Open the WiFi Web Server example. “File” -> “Examples” -> “AmebaWiFi”
-  -> “WiFiUdpSendReceiveString”
+| Open the WiFi Web Server example. "File" -> "Examples" -> "AmebaWiFi"
+  -> "WiFiUdpSendReceiveString"
 | |7-1|
 
 Modify the highlighted code section (ssid, password, keyindex) to
@@ -24,19 +24,19 @@ connect to your WiFi network.
 
 Compile the code and upload it to Ameba. After pressing the Reset
 button, Ameba connects to WiFi and starts the UDP server with port 2390.
-After the UDP server starts service, Ameba prints the “Starting
-connection to server” message and waits for client connection.
+After the UDP server starts service, Ameba prints the "Starting
+connection to server" message and waits for client connection.
 
 | |7-4|
-| As to the UDP client, we use “sokit” program in the computer to
+| As to the UDP client, we use "sokit" program in the computer to
   connect to UDP server.
 
 Choose client mode and fill in the IP of UDP server (which is the IP of
-Ameba) and port 2390, then click “UDP Connect”.
+Ameba) and port 2390, then click "UDP Connect".
 
-After the connection is established, fill in “Hello World” in the Buf 0
-field in sokit and click “Send”. Then you can see the Ameba UDP server
-replies “acknowledged”.
+After the connection is established, fill in "Hello World" in the Buf 0
+field in sokit and click "Send". Then you can see the Ameba UDP server
+replies "acknowledged".
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image4.png
    :alt: 7-5

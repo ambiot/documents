@@ -18,8 +18,8 @@ board.
 
 Example 01 create_folder
 
-Open the example, "Files" -> "Examples" -> “AmebaFatfsSDIO” ->
-“create_folder”.
+Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" ->
+"create_folder".
 
 .. image:: ../media/File_system_in_SD_card/image1.png
    :width: 4in
@@ -28,8 +28,8 @@ Open the example, "Files" -> "Examples" -> “AmebaFatfsSDIO” ->
 Upload the code and press the reset button on Ameba once the upload is
 finished.
 
-In the sample code, we first create a folder “testdir”, then text file
-“test.txt” with content “hello world!”. Read the file and print content
+In the sample code, we first create a folder "testdir", then text file
+"test.txt" with content "hello world!". Read the file and print content
 to serial monitor.\ |image1|
 
 Next, insert SD card into card reader, and check whether the operations
@@ -41,14 +41,14 @@ succeeded.
 
 Example 02 file_read_write
 
-Open the example, "Files" -> "Examples" -> “AmebaFatfsSDIO” ->
-“file_read_write”.
+Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" ->
+"file_read_write".
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
 
-In the sample code, we create text file “test.txt” with content “hello
-world!”. Read the file and print content to serial monitor.
+In the sample code, we create text file "test.txt" with content "hello
+world!". Read the file and print content to serial monitor.
 
 .. image:: ../media/File_system_in_SD_card/image4.png
    :width: 6.26806in
@@ -63,8 +63,8 @@ succeeded.
 
 Example 03 get_file_attribute
 
-Open the example, "Files" -> "Examples" -> “AmebaFatfsSDIO” ->
-“get_file_attribute”.
+Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" ->
+"get_file_attribute".
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -78,12 +78,12 @@ monitor.
 
 Next, insert SD card into card reader, and check whether the operations
 succeeded. In this case, we already know the attribute should be folder
-“testdir” and text file “test.txt”by refer the above pictures.
+"testdir" and text file "test.txt"by refer the above pictures.
 
 Example 04 last_modified_time
 
-Open the example, "Files" -> "Examples" -> “AmebaFatfsSDIO” ->
-“last_modified_time”.
+Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" ->
+"last_modified_time".
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -104,8 +104,8 @@ succeeded.
 
 Example 05 list_root_files
 
-Open the example, "Files" -> "Examples" -> “AmebaFatfsSDIO” ->
-“list_root_files”.
+Open the example, "Files" -> "Examples" -> "AmebaFatfsSDIO" ->
+"list_root_files".
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -118,8 +118,8 @@ monitor.
    :height: 2.72153in
 
 Next, insert SD card into card reader, and check whether the operations
-succeeded. In this case, we already know the root files folder “testdir”
-and text file “test.txt”by refer the above pictures.
+succeeded. In this case, we already know the root files folder "testdir"
+and text file "test.txt"by refer the above pictures.
 
 .. |image1| image:: ../media/File_system_in_SD_card/image2.png
    :width: 6.26806in

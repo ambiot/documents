@@ -54,8 +54,8 @@ data, please follow the steps:
 | RTL8722 wiring diagram:
 | |4|
 
-Open the sample code in “Files” -> “Examples” -> “AmebaGPIO” ->
-“DHT_Tester”. Compile and upload to Ameba, then press the reset button.
+Open the sample code in "Files" -> "Examples" -> "AmebaGPIO" ->
+"DHT_Tester". Compile and upload to Ameba, then press the reset button.
 The result would be shown on the Serial Monitor.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image5.png

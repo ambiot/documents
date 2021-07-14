@@ -12,8 +12,8 @@ Example
 In this example, we turn on the AP mode of Ameba and connect station to
 Ameba.
 
-Open the WiFi AP example, “File” -> “Examples” -> “AmebaWiFi” ->
-“WiFiAPMode”
+Open the WiFi AP example, "File" -> "Examples" -> "AmebaWiFi" ->
+"WiFiAPMode"
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image1.png
    :alt: 1

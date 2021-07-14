@@ -7,8 +7,8 @@ Preparation
 Example
 
 In this example, we use five single-use GTimer, and carry user data in
-eac timer. Open the example “File” -> “Examples” -> “AmebaGTimer” ->
-“TimerOneshot”. Compile and upload to Ameba, and press reset. Then you
+eac timer. Open the example "File" -> "Examples" -> "AmebaGTimer" ->
+"TimerOneshot". Compile and upload to Ameba, and press reset. Then you
 can see the 5 timers print out log to the serial monitor in series.
 
 Code Reference
@@ -17,7 +17,7 @@ The first argument of begin() is the Timer ID (0~4). The second argument
 is the value of the timer (in microseconds). In the example, we fill in
 1000000us = 1s. The third argument specifies the function to call when
 the time is up. The fourth argument is to set whether this timer is a
-periodic timer, we use “false” here to begin a single-use timer. The
+periodic timer, we use "false" here to begin a single-use timer. The
 fifth argument is the user data, we give 0 here to represent that this
 is timer 0.
 

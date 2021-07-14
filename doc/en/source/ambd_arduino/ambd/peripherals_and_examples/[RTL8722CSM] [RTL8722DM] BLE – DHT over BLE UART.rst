@@ -35,8 +35,8 @@ Connect the DHT sensor to the Ameba board following the diagram.
 | – Apple App Store:
 | https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
-“DHT_over_BLEUart”.
+Open the example, "Files" -> "Examples" -> "AmebaBLE" ->
+"DHT_over_BLEUart".
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_DHT_over_BLE_UART/image2.png
    :alt: 1
@@ -46,7 +46,7 @@ Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
 | Open the app on your smartphone, scan and connect to the Ameba board
-  shown as “AMEBA_BLE_DEV” and choose the UART function in the app.
+  shown as "AMEBA_BLE_DEV" and choose the UART function in the app.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_DHT_over_BLE_UART/image3.png
    :alt: 1

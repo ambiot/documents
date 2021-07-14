@@ -46,7 +46,7 @@ less features:
 
 -  iOS :https://apps.apple.com/us/app/lightblue/id557428110
 
-Open the example, “Files” -> “Examples” -> “AmebaBLE” -> “BLEBeacon”
+Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "BLEBeacon"
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Beacon/image1.png
    :alt: 2

@@ -25,8 +25,8 @@ corresponding BLE battery service to read the battery level data.
 On the first Ameba board, upload the BLEBatteryService example code and
 let it run.
 
-For the second Ameba board, open the example “Files” -> “Examples” ->
-“AmebaBLE” -> “BLEBatteryClient”.
+For the second Ameba board, open the example "Files" -> "Examples" ->
+"AmebaBLE" -> "BLEBatteryClient".
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_Battery_Client/image1.png
    :alt: 2
@@ -47,7 +47,7 @@ board with the battery service.
 
 Highlighted in yellow, the Ameba board with the battery client first
 scans for advertising BLE devices with the advertised device name
-“AMEBA_BLE_DEV” and the advertised service UUID of 0x180F representing
+"AMEBA_BLE_DEV" and the advertised service UUID of 0x180F representing
 the battery service.
 
 After finding the target device, the Ameba board with the battery client

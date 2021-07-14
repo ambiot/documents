@@ -19,8 +19,8 @@ the driver installed and connect it to the Ameba board as shown.
    :width: 6.02778in
    :height: 3.45833in
 
-Open the example in “File” -> “Examples” -> “AmebaSoftwareSerial” ->
-“SoftwareSerial_Irq_Callback”
+Open the example in "File" -> "Examples" -> "AmebaSoftwareSerial" ->
+"SoftwareSerial_Irq_Callback"
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Set_Callback_Function_For_UART_Communications/image2.png
    :alt: 3

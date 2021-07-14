@@ -8,13 +8,8 @@
 =====================================
 
 網頁鏈接
--------
+--------
 
 - `AmebaD Arduino Github <https://github.com/ambiot/ambd_arduino>`_
 
 - `Arduino 官方網站 <https://www.arduino.cc/>`_
-
-   
-   
-   
-

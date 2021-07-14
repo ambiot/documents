@@ -26,8 +26,8 @@ Connect the microphone to the RTL8722 board following the diagram.
    :width: 2.10417in
    :height: 2.1016in
 
-Open the example, "Files" -> "Examples" -> “AmebaAudioCodec” ->
-“InputFFT”.
+Open the example, "Files" -> "Examples" -> "AmebaAudioCodec" ->
+"InputFFT".
 
 .. image:: ../media/InputFFT/image2.png
    :width: 2.03125in

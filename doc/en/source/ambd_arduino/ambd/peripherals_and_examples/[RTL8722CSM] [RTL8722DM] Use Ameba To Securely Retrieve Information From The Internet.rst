@@ -12,8 +12,8 @@ cryptographic protocol designed to provide communications security over
 a computer network, by encrypting the messages passed between server and
 client.
 
-Open the “WiFiSSLClient” example in “File” -> “Examples” -> “AmebaWiFi”
--> ” WiFiSSLClient “.
+Open the "WiFiSSLClient" example in "File" -> "Examples" -> "AmebaWiFi"
+-> "WiFiSSLClient".
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_To_Securely_Retrieve_Information_From_The_Internet/image1.png
    :alt: 4-1
@@ -40,5 +40,5 @@ retrieves a text file from os.mbed.com.
    :height: 5.77431in
 
 | Code Reference
-| Use “WiFiSSLClient client;” to create a client that uses SSL. After
+| Use "WiFiSSLClient client;" to create a client that uses SSL. After
   creation, the client can be used in the same way as a regular client.

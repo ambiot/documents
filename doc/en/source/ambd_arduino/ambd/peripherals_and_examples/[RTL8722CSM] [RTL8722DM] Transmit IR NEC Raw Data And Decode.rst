@@ -29,8 +29,8 @@ Figure 1: Grove – Infrared Receiver
 Figure 2: Grove – Infrared Emitter
 
 | On the transmission side, the transmitter will send IR NEC raw data.
-  The raw data can be seen as consecutive durations of “marks” and
-  “spaces” (Figure 3) in microseconds (us).
+  The raw data can be seen as consecutive durations of "marks" and
+  "spaces" (Figure 3) in microseconds (us).
 | • Mark: a specific period of sending pulses
 | • Space: a specific period of sending nothing
 
@@ -57,10 +57,10 @@ Renesas, also known as Japanese Format) as the transmission protocol.
 
 | **Modulation**
 | NEC protocol uses Pulse Distance Encoding of the bits for data
-  communication (Figure 4). A logical “1” is represented by total
-  duration of 2250us, with 560us of “marks” and (2250-560) us of
-  “spaces”. While logical ”0” is represented by total duration of
-  1120us, with 560us “marks” and (1120-560) us of “spaces”.
+  communication (Figure 4). A logical "1" is represented by total
+  duration of 2250us, with 560us of "marks" and (2250-560) us of
+  "spaces". While logical "0" is represented by total duration of
+  1120us, with 560us "marks" and (1120-560) us of "spaces".
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image4.png
    :alt: 1
@@ -73,9 +73,9 @@ Since a total number of 32\-bit data together with the header and the end\-bit w
 
 If we separate the data in the
 
-time\-frame (in us), there will be ( 2 + 32 ) x 2 + 1 = 69 “marks” \/
-“spaces” to be transmitted (Figure 6), which forms the raw NEC data we
-would like to transmit in our Arduino “\*.ino” file. This part of the code can be modified by users. 
+time\-frame (in us), there will be ( 2 + 32 ) x 2 + 1 = 69 "marks" \/
+"spaces" to be transmitted (Figure 6), which forms the raw NEC data we
+would like to transmit in our Arduino "\*.ino" file. This part of the code can be modified by users. 
 
 Details of how to obtain raw data code
 for your remote devices, you may refer to `Ken Shirriff’s blog <http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html>`__,
@@ -114,11 +114,11 @@ Figure 8: Pin configuration of the IR Receiver and Ameba RTL8722
 
 After the connection is being set up correctly, we will move to the
 coding part for this example. First, make sure the correct Ameba
-development board is selected in Arduino IDE: “Tools” -> “Board” ->
-“RTL8722CSM/RTL8722DM”.
+development board is selected in Arduino IDE: "Tools" -> "Board" ->
+"RTL8722CSM/RTL8722DM".
 
-Open the “IRSendRAW” example in “File” -> “Examples” -> “AmebaIRDevice”
--> “IRSendRAW” (Figure 9) and upload to 1st board connected with IR
+Open the "IRSendRAW" example in "File" -> "Examples" -> "AmebaIRDevice"
+-> "IRSendRAW" (Figure 9) and upload to 1st board connected with IR
 Emitter:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image9.png
@@ -130,14 +130,14 @@ Figure 9: Example Location of IRSendRaw and IRRecvNEC
 
 After successfully upload the sample code for IRSendRaw, you might need
 to upload the IRRecvNEC example for the 2nd board connected with IR
-Receiver from “File” -> “Examples” -> “AmebaIRDevice” -> “IRRecvNEC”.
+Receiver from "File" -> "Examples" -> "AmebaIRDevice" -> "IRRecvNEC".
 
 After opening the serial monitor on the IR Receiver side and press the
-reset buttons on two boards, the data “48” will be received every 3
+reset buttons on two boards, the data "48" will be received every 3
 seconds (due to the delays () function, not compulsory to wait). After
 decoding the signal from the receiving Pin D8 and transmitting Pin D9
 with Logic Analyser and Pulse View (Figure 10), the result is also shown
-as “48” after decoding the receiving data with IR NEC Protocol.
+as "48" after decoding the receiving data with IR NEC Protocol.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image10.png
    :alt: 1

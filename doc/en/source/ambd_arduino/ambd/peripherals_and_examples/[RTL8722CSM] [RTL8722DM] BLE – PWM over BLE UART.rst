@@ -36,8 +36,8 @@ of LED (common anode / common cathode).
 | – Apple App Store:
 | https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
-“PWM_over_BLEUart”.
+Open the example, "Files" -> "Examples" -> "AmebaBLE" ->
+"PWM_over_BLEUart".
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -48,7 +48,7 @@ finished.
    :height: 5.99306in
 
 Open the app on your smartphone, scan and connect to the board shown as
-“AMEBA_BLE_DEV” and choose the controller -> color picker function in
+"AMEBA_BLE_DEV" and choose the controller -> color picker function in
 the app.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_PWM_over_BLE_UART/image3.png
@@ -77,9 +77,9 @@ board. You should see the RGB LED change to the matching color.
 
 Code Reference
 
-The RGB values are sent as three consecutive bytes prefixed by “!C”
-characters. The “!” exclamation mark is used to indicate that the
-following data is a command, and the “C” character is used to indicate
+The RGB values are sent as three consecutive bytes prefixed by "!C"
+characters. The "!" exclamation mark is used to indicate that the
+following data is a command, and the "C" character is used to indicate
 that the data is RGB values. The received UART message is checked in the
-callback function for “!C” first, otherwise it is treated as a regular
+callback function for "!C" first, otherwise it is treated as a regular
 message and printed to the serial terminal.

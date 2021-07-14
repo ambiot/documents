@@ -18,8 +18,8 @@ the UART service.
 On the first board, upload the BLE UART service example code. Refer to
 the example guide for detailed instructions.
 
-For the second board, open the example, “Files” -> “Examples” ->
-“AmebaBLE” -> “BLEUartClient”.
+For the second board, open the example, "Files" -> "Examples" ->
+"AmebaBLE" -> "BLEUartClient".
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Client/image1.png
    :alt: 2

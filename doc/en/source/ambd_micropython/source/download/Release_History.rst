@@ -53,18 +53,18 @@ Feature:
 
 – Added peripheral helper modules:
 
-	GPIO
+    GPIO
 
-	RTC
+    RTC
 
-	Time and Delay
+    Time and Delay
 
-	PWM
+    PWM
 
-	Timer
+    Timer
 
-	UART
+    UART
 
-	I2C
+    I2C
 
-	SPI
+    SPI

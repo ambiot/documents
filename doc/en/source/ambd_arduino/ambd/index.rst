@@ -8,21 +8,17 @@ RTL8722DM
 This is the Ameba Arduino online documentation
 |image1|
 
-
 .. toctree::
    :maxdepth: 1
    :caption: Table of Contents:
-   
+
    getting_started/getting_started
    download/index
    peripherals_and_examples/index
    board_hdk/index
    api_documents/index
    resources/index
-   support/index   
-
-
-
+   support/index
 
 .. |image1| image:: media/imageIndex.jpg
    :width: 5.44028in

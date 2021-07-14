@@ -25,8 +25,8 @@ mobile phone, it is available at:
 | – Apple App
   Store: https://apps.apple.com/sg/app/easy-wifi-config/id1194919510
 
-Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
-“BLEWifiConfigService”.
+Open the example, "Files" -> "Examples" -> "AmebaBLE" ->
+"BLEWifiConfigService".
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image1.png
    :alt: 2
@@ -65,7 +65,7 @@ and send the scan results back to the app using BLE.
 
 If your phone is currently connected to a WiFi network, the app will ask
 for the WiFi password to connect the Ameba board to the same WiFi
-network. Tap “Select AP” to choose another WiFi network, or enter the
+network. Tap "Select AP" to choose another WiFi network, or enter the
 password and tap continue to connect Ameba to the selected WiFi network.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image6.png
@@ -74,8 +74,8 @@ password and tap continue to connect Ameba to the selected WiFi network.
    :height: 2.60417in
 
 After the Ameba board connects to the WiFi network, the following
-message will be shown. Tap “Try another AP” to connect to another WiFi
-network or tap “Confirm” to keep the current WiFi network and disconnect
+message will be shown. Tap "Try another AP" to connect to another WiFi
+network or tap "Confirm" to keep the current WiFi network and disconnect
 BLE from the Ameba board.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image7.png

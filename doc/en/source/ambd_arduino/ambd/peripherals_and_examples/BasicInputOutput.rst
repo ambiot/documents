@@ -24,8 +24,8 @@ board following the diagram.
    :width: 2.55208in
    :height: 2.125in
 
-Open the example, "Files" -> "Examples" -> “AmebaAudioCodec” ->
-“BasicInputOutput”.
+Open the example, "Files" -> "Examples" -> "AmebaAudioCodec" ->
+"BasicInputOutput".
 
 .. image:: ../media/BasicInputOutput/image2.png
    :width: 2.03125in

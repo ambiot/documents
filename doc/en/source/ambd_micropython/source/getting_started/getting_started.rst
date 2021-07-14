@@ -19,6 +19,7 @@ LED, switches, manometer, hygrometer, PM2.5 dust sensors, …etc.
 
 The collected data can be uploaded via WiFi and be utilized by
 applications on smart devices to realize IoT implementation.
+
 |get-start-1|
 
 | AmebaD and Arduino Uno have similar size, as shown in the above
@@ -29,9 +30,6 @@ applications on smart devices to realize IoT implementation.
   function of AmebaD.
 
 |get-start-2|
-
-|  
-|  
 
 =====  ========  ========  ==== ===== ============== ========= ========
 INDEX  PIN name  GPIO INT  ADC  PWM   UART           SPI       I2C
@@ -66,12 +64,6 @@ D26    GPIOA_21  ✓                    UART0_TX(a)
 D27    GPIOA_20  ✓                                                     
 D28    GPIOA_19  ✓                                                     
 =====  ========  ========  ==== ===== ============== ========= ========
-
-|  
-|  
-
-| |get-start-3|
-|  
 
 **Note:** Not all sets of peripherals shown on the picture/table above
 are available on MicroPython, please refer to “\ **Peripheral Example

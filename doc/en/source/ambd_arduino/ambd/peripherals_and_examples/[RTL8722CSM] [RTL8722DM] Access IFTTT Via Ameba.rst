@@ -42,7 +42,7 @@ After logging in https://ifttt.com/, click **My Applets** from Top
    :width: 6.5in
    :height: 5.43681in
 
-Click “New Applet” on the Applet page.
+Click "New Applet" on the Applet page.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image3.png
    :alt: 1
@@ -56,7 +56,7 @@ Click +this as indicated below to add the trigger
    :width: 6.5in
    :height: 5.43681in
 
-Choose “Webhooks” service as shown below. Alternatively, search the
+Choose "Webhooks" service as shown below. Alternatively, search the
 service under **Choose a Service**
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image5.png
@@ -74,7 +74,7 @@ Trigger, Receive a web request, is under Webhooks.
 
 Once **Receive a web request** is selected, an **event name** is
 required to identify the trigger successfully. In this example, set
-Event name as “test_event”
+Event name as "test_event"
 
 Next, select **That** field to create the action service taken in response to the last trigger. 
 In this example, choose **Email** as the action service
@@ -125,11 +125,11 @@ The applet is then found under **My Applet** in own IFTTT oage
 Once the Applet is ready in the IFTTT dashboard, the example program can
 be flashed onto Ameba board to post HTTP request.
 
-1. The example program is under the folder “HTTP_IFTTT_POST”. Follow the
+1. The example program is under the folder "HTTP_IFTTT_POST". Follow the
 steps below:
 
-1) Open the example code in “File” -> “Examples” -> “AmebaWiFi” ->
-“HTTP_IFTTT_Post”
+1) Open the example code in "File" -> "Examples" -> "AmebaWiFi" ->
+"HTTP_IFTTT_Post"
 
 2) Once the example is opened, edit the following 3 items inside the
 code to make the program work.
@@ -141,16 +141,16 @@ Edit the wi-fi credentials to connect to the wi-fi access point of
 choice.
 
 Under the host name field, enter the hostname of the IFTTT service
-“maker.ifttt.com”
+"maker.ifttt.com"
 
 under the Path field, enter the EventName and key field
-“trigger//with/key/”
+"trigger//with/key/"
 
-− Event name: The event name should be same as the one specified in the
-IFTTT applet. In this example, the event name is “test_event”
+- Event name: The event name should be same as the one specified in the
+  IFTTT applet. In this example, the event name is "test_event"
 
-− Key: available under Webhook service in individual IFTTT account. See
-next step to obtain.
+- Key: available under Webhook service in individual IFTTT account. See
+  next step to obtain.
 
 3) How To obtain a key from documentation tab of the Webhooks?
 
@@ -184,16 +184,16 @@ be used as shown
 
 Once the example is ready, connect to Ameba board via USB Cable.
 
-| Compile the code. Click on “Sketch” -> “Verify/Compile” on Arduino.
-  Upon completion, “Done compiling” will be prompted at the bottom of
+| Compile the code. Click on "Sketch" -> "Verify/Compile" on Arduino.
+  Upon completion, "Done compiling" will be prompted at the bottom of
   Arduino.
-| Upload the code onto Ameba by clicking on “Sketch” -> “Upload”.
-| Once the upload is completed, “upload finish” will be reflected on the
+| Upload the code onto Ameba by clicking on "Sketch" -> "Upload".
+| Once the upload is completed, "upload finish" will be reflected on the
   bottom of the Arduino IDE window
 | Open the serial monitor.
-| Press the “Reset” button to see the output logs.
+| Press the "Reset" button to see the output logs.
 | After the event has been successfully fired, the line of
-  “Congratulations! You have fired the test_event event” can be seen on
+  "Congratulations! You have fired the test_event event" can be seen on
   the serial monitor and an email reminder for this event will be
   delivered.
 

@@ -103,30 +103,30 @@ link <https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/>`__.
 | Arduino IDE can be downloaded in the Arduino
   website: https://www.arduino.cc/en/Main/Software
 | When the installation is finished, open Arduino IDE. To set up
-  RTL8722DM_MINI correctly in Arduino IDE, go to “File” ->
-  “Preferences”.
+  RTL8722DM_MINI correctly in Arduino IDE, go to "File" ->
+  "Preferences".
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image5.jpeg
    :alt: get-start-6
    :width: 3.64583in
    :height: 3.64583in
 
-And paste the following URL into “Additional Boards Manager URLs”
+And paste the following URL into "Additional Boards Manager URLs"
 field: https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json
 
-Next, go to “Tools” -> “Board” -> “Boards Manager”:
+Next, go to "Tools" -> "Board" -> "Boards Manager":
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image6.jpeg
    :alt: get-start-7
    :width: 6.25in
    :height: 6.25in
 
-The “Boards Manager” requires about 10~20 seconds to refresh all
+The "Boards Manager" requires about 10~20 seconds to refresh all
 hardware files (if the network is in bad condition, it may take longer).
 Every time the new hardware is connected, we need to reopen the Board
 Manager. So, we close the Boards Manager, and then open it again. Find
-“Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)” in the list,
-click “Install”, then the Arduino IDE starts to download required files
+"Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)" in the list,
+click "Install", then the Arduino IDE starts to download required files
 for AmebaD.
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image7.jpeg
@@ -135,30 +135,30 @@ for AmebaD.
    :height: 6.25in
 
 | If you are facing GitHub downloading issue, please refer to the
-  following link at “Download/Software Development Kit”. There are 3
+  following link at "Download/Software Development Kit". There are 3
   sections.
-| 1. “AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs.
+| 1. "AmebaD_Arduino_patch1_SDK", please select at least 1 of the SDKs.
   There are 5 latest released SDK options.
-| 2. “AmebaD_Arduino_patch2_Tools”, please select according to your
+| 2. "AmebaD_Arduino_patch2_Tools", please select according to your
   operation system. There are Windows, Linux and MacOS.
-| 3. “AmebaD_Arduino_Source_Code”, this section is optional download
+| 3. "AmebaD_Arduino_Source_Code", this section is optional download
   only wants to refer the latest source code.
 
 `https://www.amebaiot.com.cn/en/ameba-arduino-summary/ <https://www.amebaiot.com.cn/ameba-arduino-summary/>`__
 
 Download the files selected, then unzip (patch1 and patch2 are
-compulsory). There are “Install.doc”/“Install.pdf” for you to refer
+compulsory). There are "Install.doc"/"Install.pdf" for you to refer
 installation steps. According to your system, please run the
-installation tool in the “Offline_SDK_installation_tool” folder.
+installation tool in the "Offline_SDK_installation_tool" folder.
 
 After the installation tool running successfully, you may open Arduino
-IDE and proceed to “tools” -> “Board“ -> “Boards Manager…”. Try to find
-“Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)” in the list,
-click “Install”, then the Arduino IDE starts to download required files
+IDE and proceed to "tools" -> "Board" -> "Boards Manager…". Try to find
+"Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)" in the list,
+click "Install", then the Arduino IDE starts to download required files
 for AmebaD.
 
-Finally, we select AmebaD as current connected board in “tools” ->
-“Board” -> “Ameba ARM (32-bits) Boards” ->” RTL8722DM_MINI”：
+Finally, we select AmebaD as current connected board in "tools" ->
+"Board" -> "Ameba ARM (32-bits) Boards" ->" RTL8722DM_MINI":
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image8.jpeg
    :alt: get-start-9
@@ -170,9 +170,9 @@ Try the First Example
 Step 1. Compile & Upload
 
 | Arduino IDE provides many built-in examples, which can be compiled,
-  uploaded and run directly on the boards. Here, we take the “Blink”
+  uploaded and run directly on the boards. Here, we take the "Blink"
   example as the first try.
-| Open “File” -> “Examples” -> “01.Basics” -> “Blink”:
+| Open "File" -> "Examples" -> "01.Basics" -> "Blink":
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image9.jpeg
    :alt: get-start-10
@@ -186,9 +186,9 @@ Arduino IDE opens a new window with the complete sample code.
    :width: 5.20833in
    :height: 5.20833in
 
-| There are onboard LED of TRL8722DM_MINI, the default “LED_BUILTIN” is
+| There are onboard LED of TRL8722DM_MINI, the default "LED_BUILTIN" is
   blue onboard LE.D
-| Change “LED_BUILTIN” to “LED_B” or “LED_G” for different colour.
+| Change "LED_BUILTIN" to "LED_B" or "LED_G" for different colour.
   Onboard LEDs options LED_B and LED_G. (blue and green).
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image11.jpeg
@@ -196,8 +196,8 @@ Arduino IDE opens a new window with the complete sample code.
    :width: 3.64583in
    :height: 3.64583in
 
-Next, we compile the sample code directly; click “Sketch” ->
-“Verify/Compile”
+Next, we compile the sample code directly; click "Sketch" ->
+"Verify/Compile"
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image12.jpeg
    :alt: get-start-13
@@ -215,7 +215,7 @@ similar to the following figure:
 
 | Afterwards, we will upload the compiled code to RTL8722DM_MINI.
 | Please make sure RTL8722DM_MINI is connected to your computer, then
-  click “Sketch” -> “Upload”.
+  click "Sketch" -> "Upload".
 | The Arduino IDE will compile first then upload. During the uploading
   process, users are required to enter the upload mode of the board.
   Arduino IDE will wait 5s for DEV board to enter the upload mode.
@@ -236,7 +236,7 @@ green LED and blue LED all turned off.
 
 Again, during the uploading procedure the IDE prints messages. Uploading
 procedure takes considerably longer time (about 30 seconds to 1 minute).
-When upload completed, the “Done uploading” message is printed.
+When upload completed, the "Done uploading" message is printed.
 
 Run the Blink example
 

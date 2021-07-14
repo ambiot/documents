@@ -33,8 +33,8 @@ installed.
 In the Arduino IDE library manager, install the Arduino_LSM9DS1 library.
 This example has been tested with version 1.1.0 of the LSM9DS1 library.
 
-Open the example, "Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
-“magic_wand”.
+Open the example, "Files" -> "Examples" -> "TensorFlowLite_Ameba" ->
+"magic_wand".
 
 .. image:: ../media/MagicWand/image2.jpeg
    :width: 4.07292in

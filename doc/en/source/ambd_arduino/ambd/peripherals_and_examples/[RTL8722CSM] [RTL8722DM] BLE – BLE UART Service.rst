@@ -33,8 +33,8 @@ Example
 | – Apple App Store:
 | https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
-“BLEUartService”.
+Open the example, "Files" -> "Examples" -> "AmebaBLE" ->
+"BLEUartService".
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image1.png
    :alt: 1
@@ -44,7 +44,7 @@ Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
 | Open the app on your smartphone, scan and connect to the Ameba board
-  shown as “AMEBA_BLE_DEV” and choose the UART function in the app. Note
+  shown as "AMEBA_BLE_DEV" and choose the UART function in the app. Note
   that the BLE UART service on the Ameba board will only work with the
   UART and Plotter functions in the Bluefruit Connect app, other
   functions (Pin I/O, Image Transfer) require other BLE services that

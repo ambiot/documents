@@ -16,7 +16,7 @@ out the results to the serial monitor.
 
 **Procedure**
 
-Open the example, “Files” \-\> “Examples” \-\> “AmebaBLE” \-\> “BLEScan”
+Open the example, "Files" \-\> "Examples" \-\> "AmebaBLE" \-\> "BLEScan"
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Scan/image1.png
    :alt: 2

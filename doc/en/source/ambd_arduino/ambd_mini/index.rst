@@ -20,7 +20,7 @@ This is the RTL8722DM_MINI online documentation
    board_hdk/index
    api_documents/index
    resources/index
-   support/index   
+   support/index
 
 .. |image1| image:: media/index.jpg
    :width: 5.44028in

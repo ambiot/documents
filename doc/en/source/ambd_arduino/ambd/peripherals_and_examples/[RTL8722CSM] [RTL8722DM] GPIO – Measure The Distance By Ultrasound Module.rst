@@ -13,22 +13,22 @@ Example
 HC-SR04 is a module that uses ultrasound to measure the distance. It
 looks like a pair of eyes in its appearance, therefore it’s often
 installed onto robot-vehicle or mechanical bugs to be their eyes. The
-way it works is that first we “toggle high” the TRIG pin (that is to
+way it works is that first we "toggle high" the TRIG pin (that is to
 pull high then pull low). The HC-SR04 would send eight 40kHz sound wave
 signal and pull high the ECHO pin. When the sound wave returns back, it
 pull low the ECHO pin.\ |1|\ Assume the velocity of sound is 340 m/s,
 the time it takes for the sound to advance 1 cm in the air is
-340*100*10^-6 = 29 us。 The sound wave actually travels twice the
+340*100*10^-6 = 29 us. The sound wave actually travels twice the
 distance between HC-SR04 and the object, therefore the distance can be
-calculated by (time/29) / 2 = time / 58。 The working voltage of HC-SR04
+calculated by (time/29) / 2 = time / 58. The working voltage of HC-SR04
 is 5V. When we pull high the ECHO pin to 5V, the voltage might cause
 damage to the GPIO pin of Ameba. To avoid this situation, we need to
 drop the voltage as follows:|2|\ We pick the resistors with resistance
-1:2, in the example we use 10kΩ and 20kΩ. If you do not have resistors
+1:2, in the example we use 10k ohm and 20k ohm. If you do not have resistors
 in hand, you can use level converter instead.The TXB0108 8 channel level
 converter is a suitable example:|3|\ Next, open the sample code in
-“File” -> “Examples” -> “AmebaGPIO” ->
-“HCSR04_Ultrasonic”\ |image1|\ Compile and upload to Ameba, then press
+"File" -> "Examples" -> "AmebaGPIO" ->
+"HCSR04_Ultrasonic"\ |image1|\ Compile and upload to Ameba, then press
 the reset button. Open the Serial Monitor, the calculated result is
 output to serial monitor every 2 seconds.\ |4|\ Note that the HCSR04
 module uses the reflection of sound wave to calculate the distance, thus
