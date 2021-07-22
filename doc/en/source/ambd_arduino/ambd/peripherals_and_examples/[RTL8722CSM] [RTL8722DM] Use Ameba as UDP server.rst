@@ -19,8 +19,9 @@ connect to your WiFi network.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image2.png
    :alt: 7-2
-   :width: 5.20833in
-   :height: 6.25in
+   :width: 716
+   :height: 1006
+   :scale: 100 %
 
 Compile the code and upload it to Ameba. After pressing the Reset
 button, Ameba connects to WiFi and starts the UDP server with port 2390.
@@ -40,8 +41,9 @@ replies “acknowledged”.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image4.png
    :alt: 7-5
-   :width: 6.5in
-   :height: 4.65139in
+   :width: 716
+   :height: 867
+   :scale: 100 %
 
 Code Reference
 
@@ -68,8 +70,10 @@ Code Reference
 | https://www.arduino.cc/en/Reference/WiFiUDPEndPacket
 
 .. |7-1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image1.png
-   :width: 5.6875in
-   :height: 7.67361in
+   :width: 649
+   :height: 410
+   :scale: 100 %
 .. |7-4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image3.png
-   :width: 6.5in
-   :height: 4.10833in
+   :width: 804
+   :height: 575
+   :scale: 100 %

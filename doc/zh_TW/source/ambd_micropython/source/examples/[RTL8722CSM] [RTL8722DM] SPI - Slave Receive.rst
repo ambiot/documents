@@ -59,5 +59,6 @@ Then copy and paste the following code into REPL under paste mode to see their e
 
 
 .. |image1| image:: ../media/examples/imageSPI.jpg
-   :width: 6.16667in
-   :height: 4.34167in
+   :width: 1282
+   :height: 901
+   :scale: 100 %

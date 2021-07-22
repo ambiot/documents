@@ -18,8 +18,9 @@ Open the “CalculateUdpReceiveTimeout” example in “File” -> “Examples�
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Timeout/image1.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 852
+   :height: 1006
+   :scale: 100 %
 
 In the sample code, modify the highlighted section to enter the
 information required (ssid, password, key index) to connect to your WiFi
@@ -27,8 +28,9 @@ network.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Timeout/image2.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 721
+   :height: 864
+   :scale: 100 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -38,8 +40,9 @@ assigned to Ameba.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Timeout/image3.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 704
+   :height: 355
+   :scale: 100 %
 
 **Computer Preparation**
 
@@ -54,8 +57,9 @@ hostname to the IP address assigned to Ameba, and rename the file to
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Timeout/image4.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 695
+   :height: 661
+   :scale: 100 %
 
 Next, open a Cygwin terminal, change the working directory to the
 location of “UdpReceiveTimeout.cpp”, and use the command “g++

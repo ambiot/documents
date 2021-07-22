@@ -19,8 +19,9 @@ mode and configure wakeup source.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Power_Save_Deep_Sleep_Mode/image1.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 689
+   :height: 704
+   :scale: 100 %
 
 | Set condition values as picture below.
 | “DS_WAKEUP_SOURCE” is used to set the wake-up source, user can chose 3
@@ -42,8 +43,9 @@ DS_RTC_ALARM_HOUR, DS_RTC_ALARM_MIN, and DS_RTC_ALARM_SEC
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Power_Save_Deep_Sleep_Mode/image2.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 616
+   :height: 466
+   :scale: 100 %
 
 When finished the condition values setting, system will run and switch
 between normal and deepsleep mode controlled by wakeup source. Serial
@@ -51,18 +53,21 @@ Monitor displays the switching log.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Power_Save_Deep_Sleep_Mode/image3.png
    :alt: 1
-   :width: 6.5in
-   :height: 6.5in
+   :width: 859
+   :height: 369
+   :scale: 100 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Power_Save_Deep_Sleep_Mode/image4.png
    :alt: 1
-   :width: 6.5in
-   :height: 6.5in
+   :width: 860
+   :height: 374
+   :scale: 100 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Power_Save_Deep_Sleep_Mode/image5.png
    :alt: 1
-   :width: 6.5in
-   :height: 6.5in
+   :width: 860
+   :height: 370
+   :scale: 100 %
 
 Code Reference
 

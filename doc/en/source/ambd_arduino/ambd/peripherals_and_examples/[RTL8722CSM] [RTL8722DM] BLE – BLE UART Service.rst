@@ -38,8 +38,9 @@ Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image1.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 696
+   :height: 1126
+   :scale: 100 %
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
@@ -52,13 +53,15 @@ Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image2.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 916
+   :height: 1317
+   :scale: 100 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image3.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 916
+   :height: 1317
+   :scale: 100 %
 
 | In the UART terminal section of the app, enter a message and click
   send. You should see the message appear in the Arduino serial monitor.
@@ -67,13 +70,15 @@ Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image4.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 916
+   :height: 1317
+   :scale: 100 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image5.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 779
+   :height: 619
+   :scale: 100 %
 
 Code Reference
 

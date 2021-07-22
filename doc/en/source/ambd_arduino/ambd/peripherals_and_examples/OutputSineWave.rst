@@ -17,15 +17,17 @@
 Connect the 3.5mm connector to the RTL8722 board following the diagram.
 
 .. image:: ../media/OutputSineWave/image1.png
-   :width: 2.15625in
-   :height: 2.08333in
+   :width: 474
+   :height: 458
+   :scale: 100 %
 
 Open the example, "Files" -> "Examples" -> “AmebaAudioCodec” ->
 “OutputSineWave”.
 
 .. image:: ../media/OutputSineWave/image2.png
-   :width: 2.03125in
-   :height: 2.77083in
+   :width: 608
+   :height: 830
+   :scale: 100 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.

@@ -28,7 +28,6 @@
    [RTL8722CSM] [RTL8722DM] Use MDNS To Let Arduino IDE Find Ameba
    [RTL8722CSM] [RTL8722DM] Use Firebase To Push Messaging Services
    [RTL8722CSM] [RTL8722DM] Access IFTTT Via Ameba
-   [RTL8722CSM] [RTL8722DM] Use Ameba To Securely Retrieve Information From The Internet
    [RTL8722CSM] [RTL8722DM] BLE – BLE Battery Service
    [RTL8722CSM] [RTL8722DM] BLE – BLE Beacon
    [RTL8722CSM] [RTL8722DM] BLE – BLE Scan
@@ -42,3 +41,4 @@
    [RTL8722CSM] [RTL8722DM] Approximate UDP Receive Timeout
    [RTL8722CSM] [RTL8722DM] Approximate UDP Sending Delay
    [RTL8722CSM] [RTL8722DM] Google Cloud IoT
+   [RTL8722CSM] [RTL8722DM] Use Ameba To Securely Retrieve Information From The Internet

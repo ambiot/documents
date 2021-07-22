@@ -144,32 +144,42 @@ show the transmit progress of each image. You can also get the message
 of operation successfully or errors from the log window.\ |image9|
 
 .. |1| image:: ../media/getting_started/image1.png
-   :width: 4.16667in
-   :height: 4.16667in
+   :width: 624
+   :height: 726
+   :scale: 100 %
 .. |image1| image:: ../media/getting_started/image2.png
-   :width: 4.16667in
-   :height: 4.16667in
+   :width: 673
+   :height: 690
+   :scale: 100 %
 .. |image2| image:: ../media/getting_started/image3.png
-   :width: 6.5in
-   :height: 6.5in
+   :width: 858
+   :height: 633
+   :scale: 100 %
 .. |image3| image:: ../media/getting_started/image4.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 1017
+   :height: 700
+   :scale: 100 %
 .. |image4| image:: ../media/getting_started/image5.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 731
+   :height: 421
+   :scale: 100 %
 .. |image5| image:: ../media/getting_started/image6.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 801
+   :height: 375
+   :scale: 100 %
 .. |image6| image:: ../media/getting_started/image7.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 1333
+   :height: 712
+   :scale: 100 %
 .. |image7| image:: ../media/getting_started/image8.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 805
+   :height: 401
+   :scale: 100 %
 .. |image8| image:: ../media/getting_started/image9.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 576
+   :height: 300
+   :scale: 100 %
 .. |image9| image:: ../media/getting_started/image10.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 585
+   :height: 739
+   :scale: 100 %

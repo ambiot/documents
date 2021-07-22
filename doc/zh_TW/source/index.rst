@@ -11,9 +11,10 @@
 所有的 入門指南、例子、教程、API參考 和 數據手冊 都可以在下面的相關鏈接中找到。
 
 .. image:: ../media/image1.png
-   :width: 8in
-   :height: 4in
-
+   :width: 1720
+   :height: 706
+   :scale: 50 %
+   
 .. toctree::
    :maxdepth: 1
    :caption: 開源開發平台:

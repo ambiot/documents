@@ -25,5 +25,6 @@ This is the Ameba Arduino online documentation
 
 
 .. |image1| image:: media/imageIndex.jpg
-   :width: 5.44028in
-   :height: 2.90486in
+   :width: 240
+   :height: 170
+   :scale: 100 %

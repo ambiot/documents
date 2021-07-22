@@ -23,8 +23,9 @@ For the second board, open the example, “Files” -> “Examples” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Client/image1.png
    :alt: 2
-   :width: 6.02778in
-   :height: 3.45833in
+   :width: 682
+   :height: 1202
+   :scale: 100 %
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
@@ -38,8 +39,9 @@ For the second board, open the example, “Files” -> “Examples” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Client/image2.png
    :alt: 4
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 779
+   :height: 619
+   :scale: 100 %
 
 Code Reference
 

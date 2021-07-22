@@ -87,5 +87,6 @@ an UART event occurs.
 -  **function:** a function defined in python or a lambda function
 
 .. |A picture containing treemap chart Description automatically generated| image:: ../media/api_documents/imageUART.jpg
-   :width: 5.44444in
-   :height: 4.9375in
+   :width: 1029
+   :height: 987
+   :scale: 100 %

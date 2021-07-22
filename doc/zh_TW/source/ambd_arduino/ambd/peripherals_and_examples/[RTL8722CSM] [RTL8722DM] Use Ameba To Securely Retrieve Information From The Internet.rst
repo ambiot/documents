@@ -17,16 +17,18 @@ Open the “WiFiSSLClient” example in “File” -> “Examples” -> “Ameba
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_To_Securely_Retrieve_Information_From_The_Internet/image1.png
    :alt: 4-1
-   :width: 6.35417in
-   :height: 7.39583in
+   :width: 716
+   :height: 1006
+   :scale: 100 %
 
 In the sample code, modify the highlighted snippet to reflect your WiFi
 network settings.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_To_Securely_Retrieve_Information_From_The_Internet/image2.png
    :alt: 4-2
-   :width: 6.5in
-   :height: 5.77431in
+   :width: 716
+   :height: 867
+   :scale: 100 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -36,8 +38,9 @@ retrieves a text file from os.mbed.com.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_To_Securely_Retrieve_Information_From_The_Internet/image3.png
    :alt: 4-2
-   :width: 6.5in
-   :height: 5.77431in
+   :width: 633
+   :height: 476
+   :scale: 100 %
 
 | Code Reference
 | Use “WiFiSSLClient client;” to create a client that uses SSL. After

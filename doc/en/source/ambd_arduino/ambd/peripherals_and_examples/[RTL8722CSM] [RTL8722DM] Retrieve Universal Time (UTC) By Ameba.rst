@@ -21,11 +21,14 @@ in serial monitor:|image1|
  
 
 .. |8-1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Retrieve_Universal_Time_(UTC)_By_Ameba/image1.png
-   :width: 5.97917in
-   :height: 8.09722in
+   :width: 716
+   :height: 1006
+   :scale: 100 %
 .. |8-2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Retrieve_Universal_Time_(UTC)_By_Ameba/image2.png
-   :width: 6.5in
-   :height: 4.10833in
+   :width: 716
+   :height: 867
+   :scale: 100 %
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Retrieve_Universal_Time_(UTC)_By_Ameba/image3.png
-   :width: 6.5in
-   :height: 4.10833in
+   :width: 704
+   :height: 423
+   :scale: 100 %

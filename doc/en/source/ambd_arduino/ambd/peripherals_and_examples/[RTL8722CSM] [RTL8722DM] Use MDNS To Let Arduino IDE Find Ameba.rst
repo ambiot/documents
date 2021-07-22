@@ -94,14 +94,18 @@ and register to the mDNS service.
 MDNS.registerService(service);
 
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image1.png
-   :width: 5.20833in
-   :height: 3.04861in
+   :width: 679
+   :height: 623
+   :scale: 100 %
 .. |2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image2.png
-   :width: 5.47917in
-   :height: 6.52083in
+   :width: 679
+   :height: 853
+   :scale: 100 %
 .. |3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image3.png
-   :width: 6.5in
-   :height: 2.37847in
+   :width: 704
+   :height: 355
+   :scale: 100 %
 .. |4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image4.png
-   :width: 6.5in
-   :height: 5.55417in
+   :width: 777
+   :height: 853
+   :scale: 100 %

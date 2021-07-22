@@ -20,8 +20,9 @@ Then, open the Simple WiFi Server example in “File” -> “Examples” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_communicate_with_Client/image1.png
    :alt: 3-1
-   :width: 6.5in
-   :height: 7.38333in
+   :width: 716
+   :height: 867
+   :scale: 100 %
 
 In the sample code, modify the highlighted parameters and enter the ssid
 and password for your WiFi connection.
@@ -38,8 +39,9 @@ console.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_communicate_with_Client/image3.png
    :alt: 3-4
-   :width: 6.5in
-   :height: 5.27569in
+   :width: 704
+   :height: 355
+   :scale: 100 %
 
 Click on the “Client” tab to choose the client mode, specify the IP and
 port of the server, then click “TCP Connect”.
@@ -54,8 +56,9 @@ string back to the client.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_communicate_with_Client/image4.png
    :alt: 3-5
-   :width: 6.5in
-   :height: 5.30764in
+   :width: 799
+   :height: 574
+   :scale: 100 %
 
 The string sent to server is returned and showed at the client side.
 
@@ -88,5 +91,6 @@ Code reference
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
 .. |3-3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_communicate_with_Client/image2.png
-   :width: 6.5in
-   :height: 5.30764in
+   :width: 704
+   :height: 355
+   :scale: 100 %

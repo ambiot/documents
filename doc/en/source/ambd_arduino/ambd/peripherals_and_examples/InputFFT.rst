@@ -23,15 +23,17 @@ Fourier transform of the audio signal recorded by the microphone.
 Connect the microphone to the RTL8722 board following the diagram.
 
 .. image:: ../media/InputFFT/image1.png
-   :width: 2.10417in
-   :height: 2.1016in
+   :width: 467
+   :height: 466
+   :scale: 100 %
 
 Open the example, "Files" -> "Examples" -> “AmebaAudioCodec” ->
 “InputFFT”.
 
 .. image:: ../media/InputFFT/image2.png
-   :width: 2.03125in
-   :height: 2.77083in
+   :width: 608
+   :height: 830
+   :scale: 100 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -42,5 +44,6 @@ a smartphone app to generate a sine wave into the microphone, and you
 should be able to see the FFT output change.
 
 .. image:: ../media/InputFFT/image3.png
-   :width: 4.02083in
-   :height: 1.92708in
+   :width: 1206
+   :height: 578
+   :scale: 100 %

@@ -16,8 +16,9 @@ Example
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image1.png
    :alt: 6-1
-   :width: 6.30556in
-   :height: 7.29861in
+   :width: 716
+   :height: 1226
+   :scale: 100 %
 
 In the sample code, modify the highlighted snippet and enter the
 required information (ssid, password, key index) required to connect to
@@ -25,8 +26,9 @@ your WiFi network.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image2.png
    :alt: 6-2
-   :width: 6.5in
-   :height: 6.22708in
+   :width: 716
+   :height: 867
+   :scale: 100 %
 
  
 
@@ -40,8 +42,9 @@ the serial monitor, and port is 80.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image4.png
    :alt: 6-4
-   :width: 6.5in
-   :height: 4.39167in
+   :width: 704
+   :height: 355
+   :scale: 100 %
 
 | Code Reference
 | Use WiFi.begin() to establish WiFi connection.
@@ -82,5 +85,6 @@ the serial monitor, and port is 80.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
 .. |6-3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image3.png
-   :width: 6.5in
-   :height: 4.85347in
+   :width: 1208
+   :height: 940
+   :scale: 100 %

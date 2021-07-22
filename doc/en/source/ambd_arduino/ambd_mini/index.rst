@@ -23,5 +23,6 @@ This is the AmebaD-mini online documentation
    support/index   
 
 .. |image1| image:: media/index.jpg
-   :width: 5.44028in
-   :height: 2.90486in
+   :width: 400
+   :height: 200
+   :scale: 100 %

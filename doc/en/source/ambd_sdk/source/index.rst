@@ -22,5 +22,6 @@ Ameba RTL8722DM  (AMB 21)
    support/index   
 
 .. |image1| image:: media/imageindex.jpg
-   :width: 5.44028in
-   :height: 2.90486in
+   :width: 240
+   :height: 170
+   :scale: 100 %

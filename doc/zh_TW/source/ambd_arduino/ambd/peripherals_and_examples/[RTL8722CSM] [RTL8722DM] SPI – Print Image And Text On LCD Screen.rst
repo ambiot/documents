@@ -1,6 +1,5 @@
 [RTL8722CSM] [RTL8722DM] SPI – Print Image And Text On LCD Screen
 ===================================================================
-
 If you are not familiar with SPI, please read `Introduction to
 SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 
@@ -53,25 +52,28 @@ Wiring example of QVGA TFT LCD:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image1.png
    :alt: 1
-   :width: 6.5in
-   :height: 4.51736in
-
+   :width: 1640
+   :height: 1018
+   :scale: 100 %
+   
 | Wiring example of Adafruit 2.8” TFT LCD touch shield:
 | Please note that this shield model enables the backlight by default
   and pin 8 is not for backlight, and the VCC should be connected to 5V.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image2.png
    :alt: 2
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 1426
+   :height: 1006
+   :scale: 100 %
 
 Open the example, “Files” -> “Examples” -> “AmebaSPI” ->
 “ILI9341_TFT_LCD_basic”
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image3.png
    :alt: 2
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 683
+   :height: 1006
+   :scale: 100 %
 
 | Compile and upload to Ameba, then press the reset button.
 | Then you can see some display tests appear on the LCD screen, such as
@@ -80,8 +82,9 @@ Open the example, “Files” -> “Examples” -> “AmebaSPI” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image4.png
    :alt: 4
-   :width: 6.5in
-   :height: 2.07986in
+   :width: 938
+   :height: 300
+   :scale: 100 %
 
 Code Reference
 
@@ -143,5 +146,6 @@ Code Reference
          becomes 240.
 
 .. |5| image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image5.png
-   :width: 2.07639in
-   :height: 2.77083in
+   :width: 193
+   :height: 258
+   :scale: 100 %

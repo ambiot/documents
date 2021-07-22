@@ -17,8 +17,9 @@ Open the WiFi AP example, “File” -> “Examples” -> “AmebaWiFi” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image1.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 716
+   :height: 867
+   :scale: 100 %
 
 In the highlighted code snippet, fill in your SSID, PASSWORD and
 CHANNEL.
@@ -34,21 +35,24 @@ information shown in serial monitor.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image2.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 704
+   :height: 524
+   :scale: 100 %
 
 In the figure below, we show the messages shown in serial monitor when
 two stations connect to Ameba AP in open mode:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image3.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 718
+   :height: 650
+   :scale: 100 %
 
 In the figure below, we show the messages shown in serial monitor when a
 station connects to Ameba AP in security mode:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image4.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 914
+   :height: 665
+   :scale: 100 %

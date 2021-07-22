@@ -19,8 +19,9 @@ wavelength 1/262 = 3.8ms:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_PWM_Play_Music/image1.png
    :alt: 1
-   :width: 6.5in
-   :height: 1.6875in
+   :width: 710
+   :height: 184
+   :scale: 100 %
 
 | We use PWM to output sound wave with different frequency, so as to
   play music by the buzzer.
@@ -30,8 +31,9 @@ wavelength 1/262 = 3.8ms:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_PWM_Play_Music/image2.png
    :alt: 2
-   :width: 6.24306in
-   :height: 6.88194in
+   :width: 1080
+   :height: 926
+   :scale: 100 %
 
 | Open the example code in “Examples” -> “AmebaAnalog” ->
   “TonePlayMelody”

@@ -13,8 +13,9 @@ figure below:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image1.png
    :alt: 9-1
-   :width: 6.5in
-   :height: 4.26319in
+   :width: 1144
+   :height: 751
+   :scale: 100 %
 
 In the operation of MQTT, there are several roles:
 
@@ -68,20 +69,26 @@ to send next message (or you can press the reset button). Then you can
 see the “hello world” message show up.\ |9-7|
 
 .. |9-2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image2.png
-   :width: 5.63194in
-   :height: 7.61111in
+   :width: 683
+   :height: 1006
+   :scale: 100 %
 .. |9-3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image3.png
-   :width: 5.20833in
-   :height: 6.25in
+   :width: 683
+   :height: 856
+   :scale: 100 %
 .. |9-4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image4.png
-   :width: 6.5in
-   :height: 4.10833in
+   :width: 704
+   :height: 355
+   :scale: 100 %
 .. |9-5| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image5.png
-   :width: 6.5in
-   :height: 4.78333in
+   :width: 1010
+   :height: 744
+   :scale: 100 %
 .. |9-6| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image6.png
-   :width: 6.5in
-   :height: 4.47917in
+   :width: 1208
+   :height: 834
+   :scale: 100 %
 .. |9-7| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image7.png
-   :width: 6.5in
-   :height: 4.51042in
+   :width: 1217
+   :height: 845
+   :scale: 100 %

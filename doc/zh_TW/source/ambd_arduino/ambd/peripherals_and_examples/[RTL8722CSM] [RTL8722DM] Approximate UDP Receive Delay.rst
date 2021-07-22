@@ -36,17 +36,22 @@ monitor. It may take up to a few minutes for 10000 packets to be
 sent.\ |image4|
 
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Delay/image1.png
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 852
+   :height: 1006
+   :scale: 100 %
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Delay/image2.png
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 721
+   :height: 864
+   :scale: 100 %
 .. |image2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Delay/image3.png
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 704
+   :height: 442
+   :scale: 100 %
 .. |image3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Delay/image4.png
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 695
+   :height: 661
+   :scale: 100 %
 .. |image4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Delay/image5.png
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 704
+   :height: 335
+   :scale: 100 %

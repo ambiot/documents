@@ -20,16 +20,18 @@ Example
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image1.png
    :alt: 1
-   :width: 2.69444in
-   :height: 3.45833in
+   :width: 259
+   :height: 332
+   :scale: 100 %
 
 Since one of the 4 pins has no function, there are temperature/humidity
 sensors with only 3 pins on the market:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image2.png
    :alt: 2
-   :width: 1.1875in
-   :height: 2.875in
+   :width: 114
+   :height: 276
+   :scale: 100 %
 
 DHT is normally in the sleeping mode. To get the temperature/humidity
 data, please follow the steps:
@@ -48,8 +50,9 @@ data, please follow the steps:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image3.png
    :alt: 3
-   :width: 6.5in
-   :height: 1.88889in
+   :width: 1429
+   :height: 415
+   :scale: 100 %
 
 | RTL8722 wiring diagram:
 | |4|
@@ -60,8 +63,9 @@ The result would be shown on the Serial Monitor.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image5.png
    :alt: 5
-   :width: 6.06944in
-   :height: 3.47917in
+   :width: 1077
+   :height: 930
+   :scale: 100 %
 
 Code Reference
 
@@ -74,5 +78,6 @@ buffered temperature/humidity data unless it found the data has expired
 Ameba issues a request to DHT to read the latest data.
 
 .. |4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image4.png
-   :width: 6.04861in
-   :height: 6.29167in
+   :width: 704
+   :height: 591
+   :scale: 100 %

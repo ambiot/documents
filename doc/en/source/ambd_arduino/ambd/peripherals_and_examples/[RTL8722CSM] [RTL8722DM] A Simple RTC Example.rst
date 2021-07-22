@@ -17,8 +17,9 @@ implemented by an independent BCD timer/counter.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_A_Simple_RTC_Example/image1.png
    :alt: 1
-   :width: 6.25in
-   :height: 7.40972in
+   :width: 549
+   :height: 462
+   :scale: 100 %
 
 Upon successfully upload the sample code and press the reset button,
 this example will print out time information since the user initialized
@@ -26,9 +27,10 @@ time every second in the Serial Monitor.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_A_Simple_RTC_Example/image2.png
    :alt: 1
-   :width: 6.25in
-   :height: 5.99306in
-
+   :width: 597
+   :height: 325
+   :scale: 100 %
+   
 Code Reference
 
 | [1] Simple RTC example from Arduino Tutorials:

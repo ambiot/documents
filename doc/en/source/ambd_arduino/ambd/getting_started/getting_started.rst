@@ -159,23 +159,26 @@ Step 1. Compile & Upload
 
 .. image:: ../media/getting_started/image10.png
    :alt: get-start-10
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 570
+   :height: 692
+   :scale: 100 %
 
 Arduino IDE opens a new window with the complete sample code.
 
 .. image:: ../media/getting_started/image11.png
    :alt: get-start-11
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 500
+   :height: 600
+   :scale: 100 %
 
 Next, we compile the sample code directly; click “Sketch” ->
 “Verify/Compile”
 
 .. image:: ../media/getting_started/image12.png
    :alt: get-start-12
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 500
+   :height: 600
+   :scale: 100 %
 
 Arduino IDE prints the compiling messages in the bottom area of the IDE
 window. When the compilation is finished, you will get the message
@@ -183,8 +186,9 @@ similar to the following figure:
 
 .. image:: ../media/getting_started/image13.png
    :alt: get-start-13
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 500
+   :height: 600
+   :scale: 100 %
 
 | Afterwards, we will upload the compiled code to AmebaD.
 | Please make sure AmebaD is connected to your computer, then click
@@ -196,8 +200,9 @@ Arduino IDE will wait 5s for DEV board to enter the upload mode.
 
 .. image:: ../media/getting_started/image14.png
    :alt: get-start-14
-   :width: 6.25in
-   :height: 6.25in
+   :width: 628
+   :height: 175
+   :scale: 100 %
 
 To enter the upload mode, first press and hold the UART_DOWNLOAD button,
 then press the RESET button. If success, you should see a green LED
@@ -205,8 +210,9 @@ flashing on the DEV board.
 
 .. image:: ../media/getting_started/image15.png
    :alt: get-start-15
-   :width: 4.16667in
-   :height: 4.16667in
+   :width: 732
+   :height: 752
+   :scale: 100 %
 
 Again, during the uploading procedure the IDE prints messages. Uploading
 procedure takes considerably longer time (about 30 seconds to 1 minute).
@@ -214,8 +220,9 @@ When upload completed, the “Done uploading” message is printed.
 
 .. image:: ../media/getting_started/image16.png
    :alt: get-start-16
-   :width: 6.25in
-   :height: 6.25in
+   :width: 588
+   :height: 289
+   :scale: 100 %
 
 Step 2.Run the Blink example
 -----------------------------
@@ -248,45 +255,55 @@ Finally, press the RESET button, and you can see the LED blinking.
 
 .. |ambd-get-start-1| image:: ../media/getting_started/image1.jpeg
    :alt: get-start-1
-   :width: 4.01389in
-   :height: 4.01389in
+   :width: 884
+   :height: 883
+   :scale: 100 %
 .. |ambd-get-start-2| image:: ../media/getting_started/image2.png
    :alt: get-start-2
-   :width: 3.5in
-   :height: 4in
+   :width: 1100
+   :height: 1124
+   :scale: 50 %
 .. |ambd-get-start-3| image:: ../media/getting_started/image3.png
    :alt: get-start-3
-   :width: 6.5in
-   :height: 5.5in
+   :width: 1429
+   :height: 1431
+   :scale: 50 %
 .. |ambd-get-start-4| image:: ../media/getting_started/image4.png
    :alt: get-start-4
-   :width: 4.29167in
-   :height: 4.09167in
+   :width: 820
+   :height: 584
+   :scale: 100 %
 .. |ambd-get-start-5| image:: ../media/getting_started/image5.png
    :alt: get-start-5
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 795
+   :height: 579
+   :scale: 100 %
 .. |ambd-get-start-6| image:: ../media/getting_started/image6.png
    :alt: get-start-6
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 500
+   :height: 600
+   :scale: 100 %
 .. |ambd-get-start-7| image:: ../media/getting_started/image7.png
    :alt: get-start-7
-   :width: 5.25in
-   :height: 6.25in
+   :width: 690
+   :height: 834
+   :scale: 100 %
 .. |ambd-get-start-8| image:: ../media/getting_started/image8.png
    :alt: get-start-8
-   :width: 6in
-   :height: 4in
+   :width: 800
+   :height: 450
+   :scale: 100 %
 
 .. |ambd-get-start-9| image:: ../media/getting_started/image9.png
    :alt: get-start-9
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 697
+   :height: 767
+   :scale: 100 %
 
 
 
 .. |ambd-get-start-17| image:: ../media/getting_started/image17.png
    :alt: get-start-17
-   :width: 6.25in
-   :height: 6.25in
+   :width: 1123
+   :height: 1048
+   :scale: 50 %

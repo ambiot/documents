@@ -18,15 +18,15 @@ AmebaD可以連接LED、開關、壓力計、濕度計、PM2.5粉塵傳感器等
 
 Ameba所收集的數據可以通過WiFi無線上傳，並被智能設備上的應用程序使用，實現物聯網的應用。
 
-|get-start-1|
 
+|ambd-get-start-1|
 AmebaD和Arduino Uno的尺寸類似，如上圖所示，並且AmebaD上的引腳與Arduino Uno兼容。
 
 AmebaD使用Micro USB來供電，這在許多智能設備中很常見。
 AmebaD的引腳圖和功能請參考下圖和表格。
 
-|get-start-2|
 
+|ambd-get-start-2|
 
 ===  ========  ====  ==== ===== ============== ========= ========
 \#   PIN name  GPIO  ADC  PWM   UART           SPI       I2C
@@ -62,7 +62,7 @@ D27  GPIOA_20  ✓                                            
 D28  GPIOA_19  ✓                                            
 ===  ========  ====  ==== ===== ============== ========= ========
 
-|get-start-3|
+|ambd-get-start-3|
 
 設置開發環境
 ============
@@ -79,12 +79,18 @@ D28  GPIOA_19  ✓                                            
 
 If you face any issue, please refer to the FAQ and troubleshooting page.
 
-.. |get-start-1| image:: ../media/getting_started/imageGS1.png
-   :width: 3.40833in
-   :height: 3.00833in
-.. |get-start-2| image:: ../media/getting_started/imageGS2.png
-   :width: 3.9in
-   :height: 4.1in
-.. |get-start-3| image:: ../media/getting_started/imageGS3.png
-   :width: 6.26796in
-   :height: 3.12872in
+.. |ambd-get-start-1| image:: ../media/getting_started/image1.jpeg
+   :alt: get-start-1
+   :width: 884
+   :height: 883
+   :scale: 100 %
+.. |ambd-get-start-2| image:: ../media/getting_started/image2.png
+   :alt: get-start-2
+   :width: 1100
+   :height: 1124
+   :scale: 50 %
+.. |ambd-get-start-3| image:: ../media/getting_started/image3.png
+   :alt: get-start-3
+   :width: 1429
+   :height: 1431
+   :scale: 50 %

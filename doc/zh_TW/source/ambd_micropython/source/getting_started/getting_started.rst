@@ -318,32 +318,42 @@ discovered wireless network in your surrounding
 If you face any issue, please refer to the FAQ and troubleshooting page.
 
 .. |get-start-1| image:: ../media/getting_started/imageGS1.png
-   :width: 4.00833in
-   :height: 4.00833in
+   :width: 882
+   :height: 881
+   :scale: 100 %
 .. |get-start-2| image:: ../media/getting_started/imageGS2.png
-   :width: 5in
-   :height: 5.1in
+   :width: 1100
+   :height: 1121
+   :scale: 100 %
 .. |get-start-3| image:: ../media/getting_started/imageGS3.png
-   :width: 6.26796in
-   :height: 3.12872in
+   :width: 1383
+   :height: 690
+   :scale: 100 %
 .. |get-start-4| image:: ../media/getting_started/imageGS5.png
-   :width: 4.79167in
-   :height: 3.41667in
+   :width: 820
+   :height: 584
+   :scale: 100 %
 .. |get-start-5| image:: ../media/getting_started/imageGS6.png
-   :width: 5.20751in
-   :height: 3.61364in
+   :width: 795
+   :height: 579
+   :scale: 100 %
 .. |image1| image:: ../media/getting_started/imageGS7.png
-   :width: 6.24242in
-   :height: 3.54171in
+   :width: 1431
+   :height: 812
+   :scale: 100 %
 .. |get-start-15| image:: ../media/getting_started/imageGS8.png
-   :width: 6.26806in
-   :height: 6.43611in
+   :width: 732
+   :height: 752
+   :scale: 100 %
 .. |image2| image:: ../media/getting_started/imageGS9.png
-   :width: 6.26806in
-   :height: 3.26736in
+   :width: 819
+   :height: 427
+   :scale: 100 %
 .. |image3| image:: ../media/getting_started/imageGS10.png
-   :width: 6.26806in
-   :height: 3.27986in
+   :width: 816
+   :height: 427
+   :scale: 100 %
 .. |image4| image:: ../media/getting_started/imageGS11.png
-   :width: 6.26806in
-   :height: 3.60764in
+   :width: 820
+   :height: 472
+   :scale: 100 %

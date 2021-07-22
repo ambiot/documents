@@ -22,8 +22,9 @@ UNO, which is the I2C slave.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Use_I2C_to_receive_data_from_Arduino_UNO/image1.png
    :alt: per-5-1
-   :width: 6.5in
-   :height: 7.16806in
+   :width: 683
+   :height: 1028
+   :scale: 100 %
 
 Then click “Sketch” -> “Upload” to compile and upload the example to
 Arduino Uno.
@@ -36,8 +37,9 @@ Arduino Uno.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Use_I2C_to_receive_data_from_Arduino_UNO/image2.png
    :alt: per-5-3
-   :width: 6.5in
-   :height: 7.38333in
+   :width: 588
+   :height: 1028
+   :scale: 100 %
 
 Click “Sketch” -> “Upload” to compile and upload the example to Ameba.
 
@@ -50,8 +52,9 @@ Click “Sketch” -> “Upload” to compile and upload the example to Ameba.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Use_I2C_to_receive_data_from_Arduino_UNO/image3.png
    :alt: per-5-5
-   :width: 6.5in
-   :height: 4.68542in
+   :width: 1540
+   :height: 1051
+   :scale: 100 %
 
 | Next, we will observe the data receive by Ameba in the Serial Monitor.
 | (Note: If you do not know which port the Ameba development board is
@@ -61,8 +64,9 @@ Click “Sketch” -> “Upload” to compile and upload the example to Ameba.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Use_I2C_to_receive_data_from_Arduino_UNO/image4.png
    :alt: per-5-6
-   :width: 4.52083in
-   :height: 4.21528in
+   :width: 434
+   :height: 405
+   :scale: 100 %
 
 | We select the port in “Tools” -> “Port” -> “COM15” (the port connected
   to Ameba)
@@ -78,8 +82,9 @@ Click “Sketch” -> “Upload” to compile and upload the example to Ameba.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Use_I2C_to_receive_data_from_Arduino_UNO/image5.png
    :alt: per-5-8
-   :width: 5.38194in
-   :height: 6.4375in
+   :width: 649
+   :height: 410
+   :scale: 100 %
 
 Code Reference
 

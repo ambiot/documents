@@ -11,9 +11,10 @@ We have supported 3 unique developing platforms, Realtek Standard SDK, Arduino S
 All getting-started guides, examples, tutorials, API reference and datasheet can be found under the respective link below
 
 .. image:: ../media/image1.png
-   :width: 8in
-   :height: 4in
-
+   :width: 1720
+   :height: 706
+   :scale: 50 %
+   
 .. toctree::
    :maxdepth: 1
    :caption: Open Source SDKs:

@@ -30,8 +30,9 @@ Copy and paste the following code into REPL.
    a.read()
 
 .. |image1| image:: ../media/examples/imageADC.jpg
-   :width: 6.16667in
-   :height: 4.34167in
+   :width: 1320
+   :height: 987
+   :scale: 100 %
 
 
 

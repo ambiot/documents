@@ -18,8 +18,9 @@ Preparation
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image1.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 611
+   :height: 332
+   :scale: 100 %
 
 \*Note: Upon log in, there are several cloud and online services that
 are integrated with IFTTT platforms.
@@ -39,38 +40,43 @@ After logging in https://ifttt.com/, click **My Applets** from Top
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image2.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 523
+   :height: 108
+   :scale: 100 %
 
 Click “New Applet” on the Applet page.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image3.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 1317
+   :height: 259
+   :scale: 100 %
 
 Click +this as indicated below to add the trigger
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image4.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 854
+   :height: 313
+   :scale: 100 %
 
 Choose “Webhooks” service as shown below. Alternatively, search the
 service under **Choose a Service**
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image5.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 1071
+   :height: 610
+   :scale: 100 %
 
 Then, the available triggers will appear under service. So far, only one
 Trigger, Receive a web request, is under Webhooks.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image6.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 893
+   :height: 571
+   :scale: 100 %
 
 Once **Receive a web request** is selected, an **event name** is
 required to identify the trigger successfully. In this example, set
@@ -81,26 +87,30 @@ In this example, choose **Email** as the action service
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image7.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 727
+   :height: 191
+   :scale: 100 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image8.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 448
+   :height: 464
+   :scale: 100 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image9.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 695
+   :height: 496
+   :scale: 100 %
 
 A list of Actions can be available under Action Service. In this
 example, only Send me an Email is found. Click on Send me an Email
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image10.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 877
+   :height: 405
+   :scale: 100 %
 
 Under the template of **Send me an Email**, the contents os the email,
 such as subject and body, is editable. Click **Create Action** to
@@ -109,16 +119,18 @@ ID registered under IFTTT account.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image11.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 387
+   :height: 509
+   :scale: 100 %
 
 After Review Click on **Finish **\ to complete and create the Applet.
 The applet is then found under **My Applet** in own IFTTT oage
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image12.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 289
+   :height: 504
+   :scale: 100 %
 
 -  Post the Trigger via Ameba
 
@@ -158,13 +170,15 @@ find the Webhooks service in the Services tab.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image13.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 693
+   :height: 569
+   :scale: 100 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image14.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 902
+   :height: 388
+   :scale: 100 %
 
 On Webhooks service page, click on the Documentation tab on the top
 right corner.
@@ -174,13 +188,15 @@ be used as shown
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image15.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 1337
+   :height: 615
+   :scale: 100 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image16.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 716
+   :height: 867
+   :scale: 100 %
 
 Once the example is ready, connect to Ameba board via USB Cable.
 
@@ -199,13 +215,15 @@ Once the example is ready, connect to Ameba board via USB Cable.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image17.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 770
+   :height: 378
+   :scale: 100 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image18.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 1075
+   :height: 423
+   :scale: 100 %
 
 Thereafter an email is sent to recipient email account registered at
 IFTTT Applet and email notification will be received.

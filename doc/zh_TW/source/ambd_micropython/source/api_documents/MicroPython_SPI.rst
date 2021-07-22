@@ -77,5 +77,6 @@ slave mode.
 -  **value**: an integer value to be sent on SPI bus
 
 .. |image1| image:: ../media/api_documents/imageSPI.jpg
-   :width: 5.82708in
-   :height: 3.8625in
+   :width: 1282
+   :height: 901
+   :scale: 100 %

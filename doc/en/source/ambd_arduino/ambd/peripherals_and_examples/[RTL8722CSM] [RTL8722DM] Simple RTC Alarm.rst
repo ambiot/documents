@@ -18,8 +18,9 @@ example from: “File” -> “Examples” -> “RTC” -> “RTCAlarm”:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Simple_RTC_Alarm/image1.png
    :alt: 1
-   :width: 6.25in
-   :height: 7.40972in
+   :width: 543
+   :height: 489
+   :scale: 100 %
 
 In the example, the RTC time is set at 16:00:00 and an alarm is set at
 16:00:10. Upon successfully upload the sample code and press the reset
@@ -29,5 +30,6 @@ Matched!” showing in this figure below.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Simple_RTC_Alarm/image2.png
    :alt: 1
-   :width: 6.25in
-   :height: 5.99306in
+   :width: 598
+   :height: 318
+   :scale: 100 %
