@@ -29,7 +29,7 @@ source.( Aon timer, Aon Pins or RTC timer).
    :alt: 1
    :width: 689
    :height: 704
-   :scale: 100 %
+   :scale: 50 %
 
 | Set condition values as picture below.
 | “DS_WAKEUP_SOURCE” is used to set the wake-up source, user can chose 3
@@ -57,7 +57,7 @@ DS_RTC_ALARM_HOUR, DS_RTC_ALARM_MIN, and DS_RTC_ALARM_SEC
    :alt: 1
    :width: 716
    :height: 442
-   :scale: 100 %
+   :scale: 50 %
 
 When finished the condition values setting, system will run and switch
 between normal working mode and deepsleep mode controlled by wakeup

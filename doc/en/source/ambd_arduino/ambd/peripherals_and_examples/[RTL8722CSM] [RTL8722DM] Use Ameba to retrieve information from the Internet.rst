@@ -19,7 +19,7 @@ Then open “File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebClient”
    :alt: 4-1
    :width: 716
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 In the sample code, modify the highlighted snippet and enter the
 required information (ssid, password, key index) required to connect to
@@ -29,7 +29,7 @@ your WiFi network.
    :alt: 4-2
    :width: 716
    :height: 867
-   :scale: 100 %
+   :scale: 50 %
 
 Upload the code and press the reset button on Ameba. Then you can see
 the information retrieved from Google is shown in the Arduino serial
@@ -39,7 +39,7 @@ monitor.
    :alt: 4-3
    :width: 941
    :height: 703
-   :scale: 100 %
+   :scale: 50 %
 
 Code Reference
 

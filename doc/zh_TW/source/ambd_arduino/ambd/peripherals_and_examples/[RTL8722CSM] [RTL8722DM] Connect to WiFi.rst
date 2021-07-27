@@ -26,7 +26,7 @@ Open the “ConnectNoEncryption” example in “File” -> “Examples” ->
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Connect_to_WiFi/image1.png
    :width: 703
    :height: 826
-   :scale: 100 %
+   :scale: 50 %
 
 In the sample code, modify “ssid” to be the same as the WiFi SSID to be
 connected to.
@@ -44,9 +44,9 @@ Open the “ConnectWithWPA” example in “File” -> “Examples” -> “Ameb
 -> “ConnectWithWiFi” -> “ConnectWithWPA”
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Connect_to_WiFi/image3.png
-   :width: 704
-   :height: 530
-   :scale: 100 %
+   :width: 703
+   :height: 826
+   :scale: 50 %
 
 In the sample code, modify “ssid” to the WiFi SSID to be connected to
 and “pass” to the network password.
@@ -65,7 +65,7 @@ Open the “ConnectWithWEP” example in “File” -> “Examples” -> “Ameb
    :alt: 2-8
    :width: 703
    :height: 826
-   :scale: 100 %
+   :scale: 50 %
 
 In the sample code, modify “ssid” to the SSID to be connected, “key” to
 the hexadecimal password, “keyIndex” to your key index number.
@@ -108,6 +108,6 @@ Comparison with Arduino
   #include is not needed.
 
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Connect_to_WiFi/image2.png
-   :width: 703
-   :height: 826
-   :scale: 100 %
+   :width: 704
+   :height: 530
+   :scale: 50 %

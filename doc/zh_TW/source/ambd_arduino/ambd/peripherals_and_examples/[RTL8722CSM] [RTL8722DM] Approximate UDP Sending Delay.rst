@@ -20,7 +20,7 @@ Open the “CalculateUdpSendDelay” example in “File” -> “Examples” ->
    :alt: 1
    :width: 852
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 In the sample code, modify the highlighted section to enter the
 information required (ssid, password, key index) to connect to your WiFi
@@ -34,7 +34,7 @@ in a terminal window.
    :alt: 1
    :width: 721
    :height: 864
-   :scale: 100 %
+   :scale: 50 %
 
 **Computer Preparation**
 
@@ -50,7 +50,7 @@ to “UdpSendDelay.cpp”.
    :alt: 1
    :width: 695
    :height: 661
-   :scale: 100 %
+   :scale: 50 %
 
 Next, open a Cygwin terminal, change the working directory to the
 location of “UdpSendDelay.cpp”, and use the command “g++
@@ -75,4 +75,4 @@ It will take some time for 10000 packets to be sent.
    :alt: 1
    :width: 1172
    :height: 704
-   :scale: 100 %
+   :scale: 50 %

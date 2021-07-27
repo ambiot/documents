@@ -22,7 +22,7 @@ There are 8 pins in PMS3003:
    :alt: 5-2-2
    :width: 777
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 PMS3003 requires 5V power, but the working voltage of its IC is 3.3C.
 Therefore, the working voltage of Reset, TX, RX, Set are 3.3 as well. If
@@ -40,11 +40,11 @@ monitor.\ |5-2-4|
 .. |5-2-1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image1.png
    :width: 981
    :height: 869
-   :scale: 100 %
+   :scale: 50 %
 .. |2-2-4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image3.png
    :width: 928
    :height: 481
-   :scale: 100 %
+   :scale: 50 %
 .. |5-2-4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image4.png
    :width: 649
    :height: 410

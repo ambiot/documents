@@ -19,7 +19,7 @@ Open the “WiFiSSLClient” example in “File” -> “Examples” -> “Ameba
    :alt: 4-1
    :width: 716
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 In the sample code, modify the highlighted snippet to reflect your WiFi
 network settings.
@@ -28,7 +28,7 @@ network settings.
    :alt: 4-2
    :width: 716
    :height: 867
-   :scale: 100 %
+   :scale: 50 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.

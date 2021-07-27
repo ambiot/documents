@@ -42,7 +42,7 @@ task together.
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Flash_Memory_Store_data_in_FlashEEProm/image1.png
    :width: 581
    :height: 1116
-   :scale: 100 %
+   :scale: 50 %
 .. |2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Flash_Memory_Store_data_in_FlashEEProm/image2.png
    :width: 677
    :height: 591

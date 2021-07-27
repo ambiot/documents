@@ -74,4 +74,4 @@ This method toggles the logic signal of the associated pin
 .. |get-start-17| image:: ../media/api_documents/imagePin.png
    :width: 1123
    :height: 1048
-   :scale: 100 %
+   :scale: 50 %

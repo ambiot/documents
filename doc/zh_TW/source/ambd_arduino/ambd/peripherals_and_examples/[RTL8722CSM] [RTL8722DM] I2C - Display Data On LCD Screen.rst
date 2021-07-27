@@ -20,7 +20,7 @@ Example
    :alt: 2
    :width: 938
    :height: 841
-   :scale: 100 %
+   :scale: 50 %
 
 | Open the example in “File” -> “Examples” -> “AmebaWire” ->
   “LCD_HelloWorld”.
@@ -32,7 +32,7 @@ Example
    :alt: 3
    :width: 1429
    :height: 978
-   :scale: 100 %
+   :scale: 50 %
 
 After 8 seconds, you can input to the Serial Monitor the string you
 would like to display on the LCD.
@@ -41,7 +41,7 @@ would like to display on the LCD.
    :alt: 4
    :width: 1431
    :height: 862
-   :scale: 100 %
+   :scale: 50 %
 
 For example, we enter “123456789” and press “Send”:
 
@@ -49,7 +49,7 @@ For example, we enter “123456789” and press “Send”:
    :alt: 5
    :width: 1431
    :height: 851
-   :scale: 100 %
+   :scale: 50 %
 
 Code Reference
 
@@ -79,4 +79,4 @@ parameters represents the meaning of each bit in a byte, i.e., En is bit
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Display_Data_On_LCD_Screen/image1.png
    :width: 1431
    :height: 870
-   :scale: 100 %
+   :scale: 50 %

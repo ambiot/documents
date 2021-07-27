@@ -21,7 +21,7 @@ connect to your WiFi network.
    :alt: 7-2
    :width: 716
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 Compile the code and upload it to Ameba. After pressing the Reset
 button, Ameba connects to WiFi and starts the UDP server with port 2390.
@@ -43,7 +43,7 @@ replies “acknowledged”.
    :alt: 7-5
    :width: 716
    :height: 867
-   :scale: 100 %
+   :scale: 50 %
 
 Code Reference
 
@@ -72,8 +72,8 @@ Code Reference
 .. |7-1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image1.png
    :width: 649
    :height: 410
-   :scale: 100 %
+   :scale: 50 %
 .. |7-4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image3.png
    :width: 804
    :height: 575
-   :scale: 100 %
+   :scale: 50 %

@@ -34,4 +34,4 @@ Read the value on the analog pin and return it.
 .. |image1| image:: ../media/api_documents/imageADC.jpg
    :width: 1320
    :height: 987
-   :scale: 100 %
+   :scale: 50 %

@@ -22,7 +22,7 @@ Open the example, “Files” \-\> “Examples” \-\> “AmebaBLE” \-\> “BL
    :alt: 2
    :width: 711
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
@@ -33,7 +33,7 @@ Open the example, “Files” \-\> “Examples” \-\> “AmebaBLE” \-\> “BL
    :alt: 3
    :width: 757
    :height: 907
-   :scale: 100 %
+   :scale: 50 %
 
 If you have the Bluetooth app nRF Connect installed, you can also use it
 to send out Bluetooth advertisements for the Ameba to pick up.

@@ -311,40 +311,40 @@ discovered wireless network in your surrounding
 .. |get-start-1| image:: ../media/getting_started/imageGS1.png
    :width: 882
    :height: 881
-   :scale: 100 %
+   :scale: 50 %
 .. |get-start-2| image:: ../media/getting_started/imageGS2.png
    :width: 1100
    :height: 1121
-   :scale: 100 %
+   :scale: 50 %
 .. |get-start-3| image:: ../media/getting_started/imageGS3.png
    :width: 1383
    :height: 690
-   :scale: 100 %
+   :scale: 50 %
 .. |get-start-4| image:: ../media/getting_started/imageGS5.png
    :width: 820
    :height: 584
-   :scale: 100 %
+   :scale: 50 %
 .. |get-start-5| image:: ../media/getting_started/imageGS6.png
    :width: 795
    :height: 579
-   :scale: 100 %
+   :scale: 50 %
 .. |image1| image:: ../media/getting_started/imageGS7.png
    :width: 1431
    :height: 812
-   :scale: 100 %
+   :scale: 50 %
 .. |get-start-15| image:: ../media/getting_started/imageGS8.png
    :width: 732
    :height: 752
-   :scale: 100 %
+   :scale: 50 %
 .. |image2| image:: ../media/getting_started/imageGS9.png
    :width: 819
    :height: 427
-   :scale: 100 %
+   :scale: 50 %
 .. |image3| image:: ../media/getting_started/imageGS10.png
    :width: 816
    :height: 427
-   :scale: 100 %
+   :scale: 50 %
 .. |image4| image:: ../media/getting_started/imageGS11.png
    :width: 820
    :height: 472
-   :scale: 100 %
+   :scale: 50 %

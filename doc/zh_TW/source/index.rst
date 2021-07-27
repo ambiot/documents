@@ -13,7 +13,7 @@
 .. image:: ../media/image1.png
    :width: 1720
    :height: 706
-   :scale: 50 %
+   :scale: 25 %
    
 .. toctree::
    :maxdepth: 1

@@ -79,4 +79,4 @@ slave mode.
 .. |image1| image:: ../media/api_documents/imageSPI.jpg
    :width: 1282
    :height: 901
-   :scale: 100 %
+   :scale: 50 %

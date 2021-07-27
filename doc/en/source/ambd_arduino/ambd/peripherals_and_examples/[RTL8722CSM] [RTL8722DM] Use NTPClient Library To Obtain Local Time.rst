@@ -46,12 +46,12 @@ timeClient.getFormattedTime();
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_NTPClient_Library_To_Obtain_Local_Time/image1.png
    :width: 730
    :height: 1170
-   :scale: 100 %
+   :scale: 50 %
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_NTPClient_Library_To_Obtain_Local_Time/image2.png
    :width: 731
    :height: 944
-   :scale: 100 %
+   :scale: 50 %
 .. |image2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_NTPClient_Library_To_Obtain_Local_Time/image3.png
    :width: 779
    :height: 619
-   :scale: 100 %
+   :scale: 50 %

@@ -26,7 +26,7 @@ RTL8722 wiring diagram:
    :alt: 1
    :width: 1249
    :height: 974
-   :scale: 100 %
+   :scale: 50 %
    
 | Open the example, “File” -> “Examples” -> “AmebaAnalog” ->
   “ServoSweep”

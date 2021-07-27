@@ -50,7 +50,7 @@ Click “New Applet” on the Applet page.
    :alt: 1
    :width: 1317
    :height: 259
-   :scale: 100 %
+   :scale: 50 %
 
 Click +this as indicated below to add the trigger
 
@@ -58,7 +58,7 @@ Click +this as indicated below to add the trigger
    :alt: 1
    :width: 854
    :height: 313
-   :scale: 100 %
+   :scale: 50 %
 
 Choose “Webhooks” service as shown below. Alternatively, search the
 service under **Choose a Service**
@@ -67,7 +67,7 @@ service under **Choose a Service**
    :alt: 1
    :width: 1071
    :height: 610
-   :scale: 100 %
+   :scale: 50 %
 
 Then, the available triggers will appear under service. So far, only one
 Trigger, Receive a web request, is under Webhooks.
@@ -76,7 +76,7 @@ Trigger, Receive a web request, is under Webhooks.
    :alt: 1
    :width: 893
    :height: 571
-   :scale: 100 %
+   :scale: 50 %
 
 Once **Receive a web request** is selected, an **event name** is
 required to identify the trigger successfully. In this example, set
@@ -89,7 +89,7 @@ In this example, choose **Email** as the action service
    :alt: 1
    :width: 727
    :height: 191
-   :scale: 100 %
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image8.png
    :alt: 1
@@ -101,7 +101,7 @@ In this example, choose **Email** as the action service
    :alt: 1
    :width: 695
    :height: 496
-   :scale: 100 %
+   :scale: 50 %
 
 A list of Actions can be available under Action Service. In this
 example, only Send me an Email is found. Click on Send me an Email
@@ -110,7 +110,7 @@ example, only Send me an Email is found. Click on Send me an Email
    :alt: 1
    :width: 877
    :height: 405
-   :scale: 100 %
+   :scale: 50 %
 
 Under the template of **Send me an Email**, the contents os the email,
 such as subject and body, is editable. Click **Create Action** to
@@ -172,13 +172,13 @@ find the Webhooks service in the Services tab.
    :alt: 1
    :width: 693
    :height: 569
-   :scale: 100 %
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image14.png
    :alt: 1
    :width: 902
    :height: 388
-   :scale: 100 %
+   :scale: 50 %
 
 On Webhooks service page, click on the Documentation tab on the top
 right corner.
@@ -190,13 +190,13 @@ be used as shown
    :alt: 1
    :width: 1337
    :height: 615
-   :scale: 100 %
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image16.png
    :alt: 1
    :width: 716
    :height: 867
-   :scale: 100 %
+   :scale: 50 %
 
 Once the example is ready, connect to Ameba board via USB Cable.
 
@@ -217,13 +217,13 @@ Once the example is ready, connect to Ameba board via USB Cable.
    :alt: 1
    :width: 770
    :height: 378
-   :scale: 100 %
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image18.png
    :alt: 1
    :width: 1075
    :height: 423
-   :scale: 100 %
+   :scale: 50 %
 
 Thereafter an email is sent to recipient email account registered at
 IFTTT Applet and email notification will be received.

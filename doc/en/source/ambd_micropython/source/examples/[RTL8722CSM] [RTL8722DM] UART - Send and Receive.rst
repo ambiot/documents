@@ -34,4 +34,4 @@ Then, copy and paste the following code line by line into REPL to see its effect
 .. |image1| image:: ../media/examples/imageUART.jpg
    :width: 1029
    :height: 987
-   :scale: 100 %
+   :scale: 50 %

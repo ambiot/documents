@@ -54,7 +54,7 @@ Wiring example of QVGA TFT LCD:
    :alt: 1
    :width: 1640
    :height: 1018
-   :scale: 100 %
+   :scale: 25 %
    
 | Wiring example of Adafruit 2.8” TFT LCD touch shield:
 | Please note that this shield model enables the backlight by default
@@ -64,7 +64,7 @@ Wiring example of QVGA TFT LCD:
    :alt: 2
    :width: 1426
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 Open the example, “Files” -> “Examples” -> “AmebaSPI” ->
 “ILI9341_TFT_LCD_basic”
@@ -73,7 +73,7 @@ Open the example, “Files” -> “Examples” -> “AmebaSPI” ->
    :alt: 2
    :width: 683
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 | Compile and upload to Ameba, then press the reset button.
 | Then you can see some display tests appear on the LCD screen, such as
@@ -84,7 +84,7 @@ Open the example, “Files” -> “Examples” -> “AmebaSPI” ->
    :alt: 4
    :width: 938
    :height: 300
-   :scale: 100 %
+   :scale: 50 %
 
 Code Reference
 

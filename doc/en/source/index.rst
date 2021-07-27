@@ -13,7 +13,7 @@ All getting-started guides, examples, tutorials, API reference and datasheet can
 .. image:: ../media/image1.png
    :width: 1720
    :height: 706
-   :scale: 50 %
+   :scale: 25 %
    
 .. toctree::
    :maxdepth: 1

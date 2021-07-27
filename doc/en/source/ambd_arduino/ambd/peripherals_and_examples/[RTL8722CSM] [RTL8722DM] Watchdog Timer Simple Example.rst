@@ -29,7 +29,7 @@ with this situation.
    :alt: 1
    :width: 1188
    :height: 800
-   :scale: 100 %
+   :scale: 50 %
 
 **Feed the Dog**
 
@@ -56,7 +56,7 @@ will only need the Ameba RTL8722 board itself.
    :alt: 1
    :width: 702
    :height: 847
-   :scale: 100 %
+   :scale: 50 %
 
 Firstly, make sure the correct Ameba development board is selected in
 Arduino IDE: “Tools” -> “Board” -> “RTL8722CSM/RTL8722DM”. Then open the

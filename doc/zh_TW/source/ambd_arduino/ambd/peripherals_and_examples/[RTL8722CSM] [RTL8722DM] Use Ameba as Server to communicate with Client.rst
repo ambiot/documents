@@ -22,7 +22,7 @@ Then, open the Simple WiFi Server example in “File” -> “Examples” ->
    :alt: 3-1
    :width: 716
    :height: 867
-   :scale: 100 %
+   :scale: 50 %
 
 In the sample code, modify the highlighted parameters and enter the ssid
 and password for your WiFi connection.
@@ -41,7 +41,7 @@ console.
    :alt: 3-4
    :width: 704
    :height: 355
-   :scale: 100 %
+   :scale: 50 %
 
 Click on the “Client” tab to choose the client mode, specify the IP and
 port of the server, then click “TCP Connect”.
@@ -58,7 +58,7 @@ string back to the client.
    :alt: 3-5
    :width: 799
    :height: 574
-   :scale: 100 %
+   :scale: 50 %
 
 The string sent to server is returned and showed at the client side.
 
@@ -93,4 +93,4 @@ Code reference
 .. |3-3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_communicate_with_Client/image2.png
    :width: 704
    :height: 355
-   :scale: 100 %
+   :scale: 50 %

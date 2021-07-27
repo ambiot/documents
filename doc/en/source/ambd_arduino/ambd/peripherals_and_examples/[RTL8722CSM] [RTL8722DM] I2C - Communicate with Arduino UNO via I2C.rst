@@ -35,7 +35,7 @@ Example
    :alt: 4-1
    :width: 578
    :height: 1028
-   :scale: 100 %
+   :scale: 50 %
 
 Then click “Sketch” -> “Upload” to compile and upload the example to
 Arduino Uno.
@@ -53,7 +53,7 @@ Arduino Uno.
    :alt: 4-3
    :width: 588
    :height: 1028
-   :scale: 100 %
+   :scale: 50 %
 
 -  Wiring
 

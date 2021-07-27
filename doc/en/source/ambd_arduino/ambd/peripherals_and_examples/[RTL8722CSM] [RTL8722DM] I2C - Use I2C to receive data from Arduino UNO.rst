@@ -24,7 +24,7 @@ UNO, which is the I2C slave.
    :alt: per-5-1
    :width: 683
    :height: 1028
-   :scale: 100 %
+   :scale: 50 %
 
 Then click “Sketch” -> “Upload” to compile and upload the example to
 Arduino Uno.
@@ -39,7 +39,7 @@ Arduino Uno.
    :alt: per-5-3
    :width: 588
    :height: 1028
-   :scale: 100 %
+   :scale: 50 %
 
 Click “Sketch” -> “Upload” to compile and upload the example to Ameba.
 
@@ -54,7 +54,7 @@ Click “Sketch” -> “Upload” to compile and upload the example to Ameba.
    :alt: per-5-5
    :width: 1540
    :height: 1051
-   :scale: 100 %
+   :scale: 50 %
 
 | Next, we will observe the data receive by Ameba in the Serial Monitor.
 | (Note: If you do not know which port the Ameba development board is

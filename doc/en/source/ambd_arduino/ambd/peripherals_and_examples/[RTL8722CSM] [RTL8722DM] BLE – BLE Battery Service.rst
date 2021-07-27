@@ -51,7 +51,7 @@ Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
    :alt: 2
    :width: 716
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
@@ -95,7 +95,7 @@ on the Ameba will be notified, and will print out the action taken.
    :alt: 4
    :width: 749
    :height: 509
-   :scale: 100 %
+   :scale: 50 %
 
 Code Reference
 

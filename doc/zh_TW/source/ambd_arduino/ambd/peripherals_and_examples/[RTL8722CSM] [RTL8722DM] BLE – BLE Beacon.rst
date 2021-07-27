@@ -52,7 +52,7 @@ Open the example, “Files” -> “Examples” -> “AmebaBLE” -> “BLEBeaco
    :alt: 2
    :width: 722
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.

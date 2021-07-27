@@ -23,12 +23,12 @@ in serial monitor:|image1|
 .. |8-1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Retrieve_Universal_Time_(UTC)_By_Ameba/image1.png
    :width: 716
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 .. |8-2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Retrieve_Universal_Time_(UTC)_By_Ameba/image2.png
    :width: 716
    :height: 867
-   :scale: 100 %
+   :scale: 50 %
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Retrieve_Universal_Time_(UTC)_By_Ameba/image3.png
    :width: 704
    :height: 423
-   :scale: 100 %
+   :scale: 50 %

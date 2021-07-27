@@ -89,4 +89,4 @@ an UART event occurs.
 .. |A picture containing treemap chart Description automatically generated| image:: ../media/api_documents/imageUART.jpg
    :width: 1029
    :height: 987
-   :scale: 100 %
+   :scale: 50 %

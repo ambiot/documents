@@ -46,7 +46,7 @@ Components used
 .. |image-2| image:: ../media/Components_used_in_Examples/image2.jpeg
  :width: 1070
  :height: 1070
- :scale: 100 %
+ :scale: 50 %
 .. |image-3| image:: ../media/Components_used_in_Examples/image3.jpeg
  :width: 600
  :height: 600
@@ -54,15 +54,15 @@ Components used
 .. |image-4| image:: ../media/Components_used_in_Examples/image4.jpeg
  :width: 1000
  :height: 1000
- :scale: 100 %
+ :scale: 50 %
 .. |image-5| image:: ../media/Components_used_in_Examples/image5.jpeg
  :width: 1070
  :height: 1070
- :scale: 100 %
+ :scale: 50 %
 .. |image-6| image:: ../media/Components_used_in_Examples/image6.jpeg
  :width: 1070
  :height: 1070
- :scale: 100 %
+ :scale: 50 %
 .. |image-7| image:: ../media/Components_used_in_Examples/image7.jpeg
  :width: 508
  :height: 400

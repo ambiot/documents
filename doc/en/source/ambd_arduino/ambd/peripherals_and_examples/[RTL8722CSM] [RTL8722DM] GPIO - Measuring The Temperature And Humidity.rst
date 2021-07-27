@@ -52,7 +52,7 @@ data, please follow the steps:
    :alt: 3
    :width: 1429
    :height: 415
-   :scale: 100 %
+   :scale: 50 %
 
 | RTL8722 wiring diagram:
 | |4|
@@ -65,7 +65,7 @@ The result would be shown on the Serial Monitor.
    :alt: 5
    :width: 1077
    :height: 930
-   :scale: 100 %
+   :scale: 50 %
 
 Code Reference
 
@@ -80,4 +80,4 @@ Ameba issues a request to DHT to read the latest data.
 .. |4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image4.png
    :width: 704
    :height: 591
-   :scale: 100 %
+   :scale: 50 %

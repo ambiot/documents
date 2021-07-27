@@ -18,7 +18,7 @@ Example
    :alt: 6-1
    :width: 716
    :height: 1226
-   :scale: 100 %
+   :scale: 50 %
 
 In the sample code, modify the highlighted snippet and enter the
 required information (ssid, password, key index) required to connect to
@@ -28,7 +28,7 @@ your WiFi network.
    :alt: 6-2
    :width: 716
    :height: 867
-   :scale: 100 %
+   :scale: 50 %
 
  
 
@@ -44,7 +44,7 @@ the serial monitor, and port is 80.
    :alt: 6-4
    :width: 704
    :height: 355
-   :scale: 100 %
+   :scale: 50 %
 
 | Code Reference
 | Use WiFi.begin() to establish WiFi connection.
@@ -87,4 +87,4 @@ the serial monitor, and port is 80.
 .. |6-3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image3.png
    :width: 1208
    :height: 940
-   :scale: 100 %
+   :scale: 50 %

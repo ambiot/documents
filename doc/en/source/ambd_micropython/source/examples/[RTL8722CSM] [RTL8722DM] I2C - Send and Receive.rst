@@ -37,4 +37,4 @@ Then copy and paste the following code line by line into REPL to see their effec
 .. |image1| image:: ../media/examples/imageI2C.jpg
    :width: 1540
    :height: 1051
-   :scale: 100 %
+   :scale: 50 %

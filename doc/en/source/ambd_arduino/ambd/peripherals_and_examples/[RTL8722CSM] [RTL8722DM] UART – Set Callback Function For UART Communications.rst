@@ -18,7 +18,7 @@ the driver installed and connect it to the Ameba board as shown.
    :alt: 2
    :width: 1324
    :height: 760
-   :scale: 100 %
+   :scale: 50 %
 
 Open the example in “File” -> “Examples” -> “AmebaSoftwareSerial” ->
 “SoftwareSerial_Irq_Callback”
@@ -27,7 +27,7 @@ Open the example in “File” -> “Examples” -> “AmebaSoftwareSerial” ->
    :alt: 3
    :width: 721
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.

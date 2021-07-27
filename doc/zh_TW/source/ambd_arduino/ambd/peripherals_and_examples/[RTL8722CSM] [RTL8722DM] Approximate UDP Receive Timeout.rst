@@ -20,7 +20,7 @@ Open the “CalculateUdpReceiveTimeout” example in “File” -> “Examples�
    :alt: 1
    :width: 852
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 In the sample code, modify the highlighted section to enter the
 information required (ssid, password, key index) to connect to your WiFi
@@ -30,7 +30,7 @@ network.
    :alt: 1
    :width: 721
    :height: 864
-   :scale: 100 %
+   :scale: 50 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -42,7 +42,7 @@ assigned to Ameba.
    :alt: 1
    :width: 704
    :height: 355
-   :scale: 100 %
+   :scale: 50 %
 
 **Computer Preparation**
 
@@ -59,7 +59,7 @@ hostname to the IP address assigned to Ameba, and rename the file to
    :alt: 1
    :width: 695
    :height: 661
-   :scale: 100 %
+   :scale: 50 %
 
 Next, open a Cygwin terminal, change the working directory to the
 location of “UdpReceiveTimeout.cpp”, and use the command “g++

@@ -20,7 +20,7 @@ Amazon AWS IoT is a cloud IoT service platform:
    :alt: 1
    :width: 900
    :height: 400
-   :scale: 100 %
+   :scale: 50 %
 
 | (Picture
   from http://docs.aws.amazon.com/iot/latest/developerguide/aws-iot-how-it-works.html )
@@ -58,8 +58,9 @@ Amazon AWS IoT is a cloud IoT service platform:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image7.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 1276
+   :height: 987
+   :scale: 50 %
 
 | There is a item “Things” under the field “Manage” on the left. Choose
   it and click “Register a thing”
@@ -117,8 +118,9 @@ Amazon AWS IoT is a cloud IoT service platform:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image20.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 1279
+   :height: 986
+   :scale: 50 %
 
 | Choose “AmebaPolicy” and click “Attach”
 | Then go back to the “Actions” drop-down menu at the top right of the
@@ -129,8 +131,9 @@ Amazon AWS IoT is a cloud IoT service platform:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image19.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 1279
+   :height: 985
+   :scale: 50 %
 
 | Then activate the certificate. Go back to certificates main page and
   click certificate, and click “Activate” in the “Actions” dropdown
@@ -278,87 +281,87 @@ updateLedState(desired_led_state);
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image2.png
    :width: 1277
    :height: 985
-   :scale: 100 %
+   :scale: 50 %
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image3.png
    :width: 1279
    :height: 984
-   :scale: 100 %
+   :scale: 50 %
 .. |image2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image4.png
    :width: 1279
    :height: 984
-   :scale: 100 %
+   :scale: 50 %
 .. |image3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image5.png
    :width: 1279
    :height: 984
-   :scale: 100 %
+   :scale: 50 %
 .. |image4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image6.png
    :width: 1279
    :height: 986
-   :scale: 100 %
+   :scale: 50 %
 .. |image5| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image8.png
    :width: 1276
    :height: 987
-   :scale: 100 %
+   :scale: 50 %
 .. |image6| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image9.png
    :width: 1279
    :height: 984
-   :scale: 100 %
+   :scale: 50 %
 .. |image7| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image10.png
    :width: 1279
    :height: 986
-   :scale: 100 %
+   :scale: 50 %
 .. |image8| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image11.png
    :width: 1279
    :height: 985
-   :scale: 100 %
+   :scale: 50 %
 .. |image9| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image12.png
    :width: 1279
    :height: 986
-   :scale: 100 %
+   :scale: 50 %
 .. |image10| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image13.png
    :width: 1279
    :height: 986
-   :scale: 100 %
+   :scale: 50 %
 .. |image11| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image14.png
    :width: 1279
    :height: 986
-   :scale: 100 %
+   :scale: 50 %
 .. |image12| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image15.png
    :width: 1279
    :height: 986
-   :scale: 100 %
+   :scale: 50 %
 .. |image13| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image16.png
    :width: 1279
    :height: 986
-   :scale: 100 %
+   :scale: 50 %
 .. |image14| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image17.png
    :width: 1279
    :height: 986
-   :scale: 100 %
+   :scale: 50 %
 .. |image15| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image18.png
    :width: 1279
    :height: 986
-   :scale: 100 %
+   :scale: 50 %
 .. |image16| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image19.png
    :width: 1279
    :height: 986
-   :scale: 100 %
+   :scale: 50 %
 .. |image17| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image21.png
    :width: 1279
    :height: 986
-   :scale: 100 %
+   :scale: 50 %
 .. |image18| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image22.png
    :width: 850
    :height: 653
-   :scale: 100 %
+   :scale: 50 %
 .. |image19| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image23.png
    :width: 1436
    :height: 720
-   :scale: 100 %
+   :scale: 50 %
 .. |image20| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image24.png
    :width: 1279
    :height: 986
-   :scale: 100 %
+   :scale: 50 %
 .. |image21| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image25.png
    :width: 639
    :height: 846
@@ -378,4 +381,4 @@ updateLedState(desired_led_state);
 .. |image25| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image29.png
    :width: 851
    :height: 546
-   :scale: 100 %
+   :scale: 50 %

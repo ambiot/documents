@@ -59,11 +59,11 @@ distance = duration / 58;
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measure_The_Distance_By_Ultrasound_Module/image1.png
    :width: 1103
    :height: 679
-   :scale: 100 %
+   :scale: 50 %
 .. |2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measure_The_Distance_By_Ultrasound_Module/image2.png
    :width: 1740
    :height: 1008
-   :scale: 50 %
+   :scale: 25 %
 .. |3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measure_The_Distance_By_Ultrasound_Module/image3.png
    :width: 1501
    :height: 1083
@@ -71,7 +71,7 @@ distance = duration / 58;
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measure_The_Distance_By_Ultrasound_Module/image4.png
    :width: 599
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 .. |4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measure_The_Distance_By_Ultrasound_Module/image5.png
    :width: 649
    :height: 372

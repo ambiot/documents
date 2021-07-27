@@ -21,7 +21,7 @@ mode and configure wakeup source.
    :alt: 1
    :width: 689
    :height: 704
-   :scale: 100 %
+   :scale: 50 %
 
 | Set condition values as picture below.
 | “DS_WAKEUP_SOURCE” is used to set the wake-up source, user can chose 3
@@ -55,19 +55,19 @@ Monitor displays the switching log.
    :alt: 1
    :width: 859
    :height: 369
-   :scale: 100 %
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Power_Save_Deep_Sleep_Mode/image4.png
    :alt: 1
    :width: 860
    :height: 374
-   :scale: 100 %
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Power_Save_Deep_Sleep_Mode/image5.png
    :alt: 1
    :width: 860
    :height: 370
-   :scale: 100 %
+   :scale: 50 %
 
 Code Reference
 

@@ -83,7 +83,7 @@ If you face any issue, please refer to the FAQ and troubleshooting page.
    :alt: get-start-1
    :width: 884
    :height: 883
-   :scale: 100 %
+   :scale: 50 %
 .. |ambd-get-start-2| image:: ../media/getting_started/image2.png
    :alt: get-start-2
    :width: 1100
@@ -91,6 +91,6 @@ If you face any issue, please refer to the FAQ and troubleshooting page.
    :scale: 50 %
 .. |ambd-get-start-3| image:: ../media/getting_started/image3.png
    :alt: get-start-3
-   :width: 1429
-   :height: 1431
-   :scale: 50 %
+   :width: 2917
+   :height: 1490
+   :scale: 25 %

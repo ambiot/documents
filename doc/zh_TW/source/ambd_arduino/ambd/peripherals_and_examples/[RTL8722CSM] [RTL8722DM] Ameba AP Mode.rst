@@ -19,7 +19,7 @@ Open the WiFi AP example, “File” -> “Examples” -> “AmebaWiFi” ->
    :alt: 1
    :width: 716
    :height: 867
-   :scale: 100 %
+   :scale: 50 %
 
 In the highlighted code snippet, fill in your SSID, PASSWORD and
 CHANNEL.
@@ -37,7 +37,7 @@ information shown in serial monitor.
    :alt: 1
    :width: 704
    :height: 524
-   :scale: 100 %
+   :scale: 50 %
 
 In the figure below, we show the messages shown in serial monitor when
 two stations connect to Ameba AP in open mode:
@@ -46,7 +46,7 @@ two stations connect to Ameba AP in open mode:
    :alt: 1
    :width: 718
    :height: 650
-   :scale: 100 %
+   :scale: 50 %
 
 In the figure below, we show the messages shown in serial monitor when a
 station connects to Ameba AP in security mode:
@@ -55,4 +55,4 @@ station connects to Ameba AP in security mode:
    :alt: 1
    :width: 914
    :height: 665
-   :scale: 100 %
+   :scale: 50 %

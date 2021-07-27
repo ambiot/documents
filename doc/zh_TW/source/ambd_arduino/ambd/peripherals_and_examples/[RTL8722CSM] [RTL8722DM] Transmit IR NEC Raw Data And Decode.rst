@@ -18,7 +18,7 @@ receive IR NEC Raw data.
    :alt: 1
    :width: 688
    :height: 686
-   :scale: 100 %
+   :scale: 50 %
 
 Figure 1: Grove – Infrared Receiver
 
@@ -95,7 +95,7 @@ Figure 5: Sample of a Full NEC Data (in logic1 or 0)
    :alt: 1
    :width: 830
    :height: 109
-   :scale: 100 %
+   :scale: 50 %
 
 Figure 6: Sample of a Full NEC RAW Data (in us)
 
@@ -106,7 +106,7 @@ with Ameba RTL8722 board.
    :alt: 1
    :width: 764
    :height: 473
-   :scale: 100 %
+   :scale: 50 %
 
 Figure 7: Pin configuration of IR Emitter and Ameba RTL8722
 
@@ -114,7 +114,7 @@ Figure 7: Pin configuration of IR Emitter and Ameba RTL8722
    :alt: 1
    :width: 721
    :height: 468
-   :scale: 100 %
+   :scale: 50 %
 
 Figure 8: Pin configuration of the IR Receiver and Ameba RTL8722
 
@@ -150,7 +150,7 @@ as “48” after decoding the receiving data with IR NEC Protocol.
    :alt: 1
    :width: 1210
    :height: 163
-   :scale: 100 %
+   :scale: 50 %
 
 Figure 10: Pulse View results from sending and receiving pin
 

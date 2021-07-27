@@ -44,7 +44,7 @@ figure.
    :alt: get-start-3
    :width: 1431
    :height: 716
-   :scale: 100 %
+   :scale: 50 %
 
 === ======== ======== === === ========== ========= ========
     PIN name GPIO INT ADC PWM UART       SPI       I2C
@@ -140,7 +140,7 @@ for AmebaD.
    :alt: get-start-8
    :width: 800
    :height: 450
-   :scale: 100 %
+   :scale: 50 %
 
 | If you are facing GitHub downloading issue, please refer to the
   following link at “Download/Software Development Kit”. There are 3
@@ -172,7 +172,7 @@ Finally, we select AmebaD as current connected board in “tools” ->
    :alt: get-start-9
    :width: 824
    :height: 600
-   :scale: 100 %
+   :scale: 50 %
 
 Try the First Example
 
@@ -195,7 +195,7 @@ Arduino IDE opens a new window with the complete sample code.
    :alt: get-start-11
    :width: 678
    :height: 746
-   :scale: 100 %
+   :scale: 50 %
 
 | There are onboard LED of TRL8722DM_MINI, the default “LED_BUILTIN” is
   blue onboard LE.D
@@ -215,7 +215,7 @@ Next, we compile the sample code directly; click “Sketch” ->
    :alt: get-start-13
    :width: 678
    :height: 746
-   :scale: 100 %
+   :scale: 50 %
 
 Arduino IDE prints the compiling messages in the bottom area of the IDE
 window. When the compilation is finished, you will get the message
@@ -225,7 +225,7 @@ similar to the following figure:
    :alt: get-start-14
    :width: 678
    :height: 746
-   :scale: 100 %
+   :scale: 50 %
 
 | Afterwards, we will upload the compiled code to RTL8722DM_MINI.
 | Please make sure RTL8722DM_MINI is connected to your computer, then
@@ -238,7 +238,7 @@ similar to the following figure:
    :alt: get-start-15
    :width: 711
    :height: 752
-   :scale: 100 %
+   :scale: 50 %
 
 To enter the upload mode, first press and hold the UART_DOWNLOAD button,
 then press the RESET button. If success, you should see the onboard

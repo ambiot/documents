@@ -15,7 +15,7 @@ figure below:
    :alt: 9-1
    :width: 1144
    :height: 751
-   :scale: 100 %
+   :scale: 50 %
 
 In the operation of MQTT, there are several roles:
 
@@ -79,16 +79,16 @@ see the “hello world” message show up.\ |9-7|
 .. |9-4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image4.png
    :width: 704
    :height: 355
-   :scale: 100 %
+   :scale: 50 %
 .. |9-5| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image5.png
    :width: 1010
    :height: 744
-   :scale: 100 %
+   :scale: 50 %
 .. |9-6| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image6.png
    :width: 1208
    :height: 834
-   :scale: 100 %
+   :scale: 50 %
 .. |9-7| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image7.png
    :width: 1217
    :height: 845
-   :scale: 100 %
+   :scale: 50 %

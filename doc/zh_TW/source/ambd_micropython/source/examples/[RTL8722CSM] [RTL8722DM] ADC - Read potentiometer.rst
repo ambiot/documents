@@ -32,7 +32,7 @@ Copy and paste the following code into REPL.
 .. |image1| image:: ../media/examples/imageADC.jpg
    :width: 1320
    :height: 987
-   :scale: 100 %
+   :scale: 50 %
 
 
 

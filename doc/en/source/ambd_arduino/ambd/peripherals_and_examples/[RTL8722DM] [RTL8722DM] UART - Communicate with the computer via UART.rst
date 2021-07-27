@@ -53,7 +53,7 @@ Open the “SoftwareSerialExample” example in “File” -> “Examples” ->
    :alt: 5-2
    :width: 683
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 | Connect the wire as the following diagrams show. The TX pin of USB to
   TTL adapter is connected to the RX of Ameba, and the RX pin of USB to
@@ -64,7 +64,7 @@ Open the “SoftwareSerialExample” example in “File” -> “Examples” ->
    :alt: 5-2
    :width: 1285
    :height: 1040
-   :scale: 100 %
+   :scale: 50 %
 
 Next, open a serial port terminal, such as Putty or Tera Term. (Putty is
 used in this example). Open the Putty window, choose “Serial” in

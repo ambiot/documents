@@ -41,7 +41,7 @@ Tensorflow model plotted as a graph, it should resemble a sine wave.
 .. image:: ../media/HelloWorld/image2.png
    :width: 817
    :height: 586
-   :scale: 100 %
+   :scale: 50 %
 
 **Code Reference**
 

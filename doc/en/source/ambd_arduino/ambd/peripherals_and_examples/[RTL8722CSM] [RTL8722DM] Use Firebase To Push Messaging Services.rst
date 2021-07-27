@@ -26,7 +26,7 @@ client application.
    :alt: 1
    :width: 1130
    :height: 1399
-   :scale: 100 %
+   :scale: 50 %
 
 The FCM implementation includes two main parts for sending and
 receiving:
@@ -74,7 +74,7 @@ Firebase registration function.
    :alt: 1
    :width: 1598
    :height: 586
-   :scale: 100 %
+   :scale: 25 %
 
 As shown above, open the toolbar and click Tools->Select Firebase.
 
@@ -82,7 +82,7 @@ As shown above, open the toolbar and click Tools->Select Firebase.
    :alt: 1
    :width: 1599
    :height: 584
-   :scale: 100 %
+   :scale: 25 %
 
 Open Firebase Assisant in the right pane, then see Cloud Messaging,
 select Set up Firebase Cloud Messaging to start the registration
@@ -92,7 +92,7 @@ process.
    :alt: 1
    :width: 1600
    :height: 596
-   :scale: 100 %
+   :scale: 25 %
 
 Click Connect to Firebase
 
@@ -100,7 +100,7 @@ Click Connect to Firebase
    :alt: 1
    :width: 1465
    :height: 533
-   :scale: 100 %
+   :scale: 50 %
 
 Then bring out the page, and click on Firebase on the left and log in to
 the Gmail account. Once you log in, you will be taken to the Firebase
@@ -110,7 +110,7 @@ homepage.
    :alt: 1
    :width: 1267
    :height: 597
-   :scale: 100 %
+   :scale: 50 %
 
 Let’s keep the homepage first, we need to go to the Firebase Console and
 go back to Android Studio.
@@ -119,7 +119,7 @@ go back to Android Studio.
    :alt: 1
    :width: 1677
    :height: 874
-   :scale: 100 %
+   :scale: 25 %
 
 We can see that when the webpage is successfully logged in, Android
 Studio also brings up the login information dialog box, click connect to
@@ -129,7 +129,7 @@ Firebase
    :alt: 1
    :width: 1596
    :height: 616
-   :scale: 100 %
+   :scale: 50 %
 
 | You can see Dependencies set up correctly in the right pane and see a
   google-service.json file in the left pane, indicating that the app has
@@ -144,7 +144,7 @@ Firebase
    :alt: 1
    :width: 714
    :height: 1268
-   :scale: 100 %
+   :scale: 50 %
 
 As shown above, the messaging app is installed and executed successfully
 on the phone. Click LOG TOKEN at this time.
@@ -153,7 +153,7 @@ on the phone. Click LOG TOKEN at this time.
    :alt: 1
    :width: 707
    :height: 1257
-   :scale: 100 %
+   :scale: 50 %
 
 There will be a Token ID, which is the Access Token required to send the
 message, representing the ID of the FCM service APP installed on a
@@ -174,7 +174,7 @@ message.
    :alt: 1
    :width: 1600
    :height: 870
-   :scale: 100 %
+   :scale: 25 %
 
 Then we have to go back to the page that was brought when we first
 logged into Firebase.
@@ -183,7 +183,7 @@ logged into Firebase.
    :alt: 1
    :width: 1268
    :height: 470
-   :scale: 100 %
+   :scale: 50 %
 
 Click in the upper right corner to go to the console
 
@@ -191,7 +191,7 @@ Click in the upper right corner to go to the console
    :alt: 1
    :width: 1269
    :height: 484
-   :scale: 100 %
+   :scale: 50 %
 
 At this point, You can see that Android Studio has just built the
 messaging project for us in the operation.
@@ -200,7 +200,7 @@ messaging project for us in the operation.
    :alt: 1
    :width: 1268
    :height: 500
-   :scale: 100 %
+   :scale: 50 %
 
 Click to enter the messaging project with settings page, as shown above.
 
@@ -208,7 +208,7 @@ Click to enter the messaging project with settings page, as shown above.
    :alt: 1
    :width: 1269
    :height: 617
-   :scale: 100 %
+   :scale: 50 %
 
 Select Set up
 
@@ -216,7 +216,7 @@ Select Set up
    :alt: 1
    :width: 1440
    :height: 706
-   :scale: 100 %
+   :scale: 50 %
 
 | Go to the Settings page and select the Cloud Messaging page. We will
   see the Legacy server key. This Server key also needs to be used in

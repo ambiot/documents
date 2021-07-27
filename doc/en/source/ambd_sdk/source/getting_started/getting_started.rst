@@ -153,27 +153,27 @@ of operation successfully or errors from the log window.\ |image9|
 .. |image2| image:: ../media/getting_started/image3.png
    :width: 858
    :height: 633
-   :scale: 100 %
+   :scale: 50 %
 .. |image3| image:: ../media/getting_started/image4.png
    :width: 1017
    :height: 700
-   :scale: 100 %
+   :scale: 50 %
 .. |image4| image:: ../media/getting_started/image5.png
    :width: 731
    :height: 421
-   :scale: 100 %
+   :scale: 50 %
 .. |image5| image:: ../media/getting_started/image6.png
    :width: 801
    :height: 375
-   :scale: 100 %
+   :scale: 50 %
 .. |image6| image:: ../media/getting_started/image7.png
    :width: 1333
    :height: 712
-   :scale: 100 %
+   :scale: 50 %
 .. |image7| image:: ../media/getting_started/image8.png
    :width: 805
    :height: 401
-   :scale: 100 %
+   :scale: 50 %
 .. |image8| image:: ../media/getting_started/image9.png
    :width: 576
    :height: 300

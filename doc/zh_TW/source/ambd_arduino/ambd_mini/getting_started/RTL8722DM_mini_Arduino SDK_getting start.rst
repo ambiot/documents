@@ -77,8 +77,9 @@ RTL8722DM_MINI的尺寸比Arduino Uno小，如上圖所示。
 .. power):
 
 .. .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image2.jpeg
-..    :width: 1.93136in
-..    :height: 3.19792in
+..    :width: 337
+..    :height: 558
+..    :scale: 100 %
 
 .. If this is the first time you connect RTL8722DM_MINI to your computer,
 .. the USB driver for RTL8722DM_MINI will be automatic installed.
@@ -86,8 +87,9 @@ RTL8722DM_MINI的尺寸比Arduino Uno小，如上圖所示。
 .. You can check the COM port number in Device Manager of your computer:
 
 .. .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image3.png
-..    :width: 2.15625in
-..    :height: 4.54404in
+..    :width: 1431
+..    :height: 716
+..    :scale: 50 %
 
 .. Step 2. Set up Arduino IDE
 
@@ -137,7 +139,7 @@ RTL8722DM_MINI的尺寸比Arduino Uno小，如上圖所示。
 .. .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image7.jpeg
 ..    :width: 800
 ..    :height: 450
-..    :scale: 100 %
+..    :scale: 50 %
 
 .. Try the First Example
 
@@ -151,7 +153,7 @@ RTL8722DM_MINI的尺寸比Arduino Uno小，如上圖所示。
 .. .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image8.jpeg
 ..    :width: 824
 ..    :height: 600
-..    :scale: 100 %
+..    :scale: 50 %
 
 .. Arduino IDE opens a new window with the complete sample code.
 
@@ -169,7 +171,7 @@ RTL8722DM_MINI的尺寸比Arduino Uno小，如上圖所示。
 .. .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image10.jpeg
 ..    :width: 678
 ..    :height: 746
-..    :scale: 100 %
+..    :scale: 50 %
 
 .. Next, we compile the sample code directly; click “Sketch” ->
 .. “Verify/Compile”
@@ -186,7 +188,7 @@ RTL8722DM_MINI的尺寸比Arduino Uno小，如上圖所示。
 .. .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image12.jpeg
 ..    :width: 678
 ..    :height: 746
-..    :scale: 100 %
+..    :scale: 50 %
 
 .. Afterwards, we will upload the compiled code to RTL8722DM_MINI.
 
@@ -200,7 +202,7 @@ RTL8722DM_MINI的尺寸比Arduino Uno小，如上圖所示。
 .. .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image13.jpeg
 ..    :width: 678
 ..    :height: 746
-..    :scale: 100 %
+..    :scale: 50 %
 
 .. To enter the upload mode, first press and hold the UART_DOWNLOAD button,
 .. then press the RESET button. If success, you should see the onboard
@@ -209,7 +211,7 @@ RTL8722DM_MINI的尺寸比Arduino Uno小，如上圖所示。
 .. .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image14.jpeg
 ..    :width: 711
 ..    :height: 752
-..    :scale: 100 %
+..    :scale: 50 %
 
 .. Again, during the uploading procedure the IDE prints messages. Uploading
 .. procedure takes considerably longer time (about 30 seconds to 1 minute).

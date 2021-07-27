@@ -22,7 +22,7 @@ Open the “ScanNetworks” example in “File” -> “Examples” -> “AmebaW
    :alt: wifi-1-2
    :width: 716
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
  
 
@@ -34,7 +34,7 @@ detected WiFi hotspots and the information of each hotspot.
    :alt: wifi-1-2
    :width: 704
    :height: 530
-   :scale: 100 %
+   :scale: 50 %
 
 Code Reference
 

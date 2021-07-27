@@ -37,11 +37,11 @@ Display: http://www.good-display.com/product/201.html
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Text_On_E_Paper/image2.png
    :width: 2310
    :height: 913
-   :scale: 100 %
+   :scale: 25 %
 .. |image2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Text_On_E_Paper/image3.png
    :width: 884
    :height: 524
-   :scale: 100 %
+   :scale: 50 %
 .. |image3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Text_On_E_Paper/image4.png
    :width: 580
    :height: 523

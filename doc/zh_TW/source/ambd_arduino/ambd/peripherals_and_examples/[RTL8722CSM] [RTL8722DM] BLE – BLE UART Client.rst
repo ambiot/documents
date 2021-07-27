@@ -25,7 +25,7 @@ For the second board, open the example, “Files” -> “Examples” ->
    :alt: 2
    :width: 682
    :height: 1202
-   :scale: 100 %
+   :scale: 50 %
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
@@ -41,7 +41,7 @@ For the second board, open the example, “Files” -> “Examples” ->
    :alt: 4
    :width: 779
    :height: 619
-   :scale: 100 %
+   :scale: 50 %
 
 Code Reference
 

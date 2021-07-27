@@ -53,4 +53,4 @@ port number.\ |image2|\ |image3|
 .. |image3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_over_TLS/image5.png
    :width: 791
    :height: 846
-   :scale: 100 %
+   :scale: 50 %

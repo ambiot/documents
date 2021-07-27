@@ -47,7 +47,7 @@ finished.
    :alt: 1
    :width: 682
    :height: 1202
-   :scale: 100 %
+   :scale: 50 %
 
 Open the app on your smartphone, scan and connect to the board shown as
 “AMEBA_BLE_DEV” and choose the controller -> color picker function in
@@ -57,19 +57,19 @@ the app.
    :alt: 1
    :width: 916
    :height: 1317
-   :scale: 100 %
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_PWM_over_BLE_UART/image4.png
    :alt: 1
    :width: 916
    :height: 1317
-   :scale: 100 %
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_PWM_over_BLE_UART/image5.png
    :alt: 1
    :width: 1440
    :height: 2880
-   :scale: 40 %
+   :scale: 25 %
 
 Using the color selection wheel, saturation, and brightness sliders,
 choose a desired color and click select to send the RGB values to the
@@ -79,7 +79,7 @@ board. You should see the RGB LED change to the matching color.
    :alt: 1
    :width: 916
    :height: 1317
-   :scale: 100 %
+   :scale: 50 %
 
 Code Reference
 

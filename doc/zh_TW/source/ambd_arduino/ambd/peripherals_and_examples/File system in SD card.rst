@@ -55,7 +55,7 @@ world!”. Read the file and print content to serial monitor.
 .. image:: ../media/File_system_in_SD_card/image4.png
    :width: 873
    :height: 379
-   :scale: 100 %
+   :scale: 50 %
 
 Next, insert SD card into card reader, and check whether the operations
 succeeded.
@@ -79,7 +79,7 @@ monitor.
 .. image:: ../media/File_system_in_SD_card/image6.png
    :width: 873
    :height: 379
-   :scale: 100 %
+   :scale: 50 %
 
 Next, insert SD card into card reader, and check whether the operations
 succeeded. In this case, we already know the attribute should be folder
@@ -99,7 +99,7 @@ time to serial monitor.
 .. image:: ../media/File_system_in_SD_card/image7.png
    :width: 879
    :height: 379
-   :scale: 100 %
+   :scale: 50 %
 
 Next, insert SD card into card reader, and check whether the operations
 succeeded.
@@ -123,7 +123,7 @@ monitor.
 .. image:: ../media/File_system_in_SD_card/image9.png
    :width: 873
    :height: 379
-   :scale: 100 %
+   :scale: 50 %
 
 Next, insert SD card into card reader, and check whether the operations
 succeeded. In this case, we already know the root files folder “testdir”
@@ -132,4 +132,4 @@ and text file “test.txt”by refer the above pictures.
 .. |image1| image:: ../media/File_system_in_SD_card/image2.png
    :width: 873
    :height: 379
-   :scale: 100 %
+   :scale: 50 %

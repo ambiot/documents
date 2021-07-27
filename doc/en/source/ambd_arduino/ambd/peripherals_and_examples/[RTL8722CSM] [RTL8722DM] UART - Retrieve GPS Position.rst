@@ -58,7 +58,7 @@ Monitor:|6|\ |7|
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image1.png
    :width: 1252
    :height: 294
-   :scale: 100 %
+   :scale: 50 %
 .. |2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image2.png
    :width: 649
    :height: 372
@@ -66,15 +66,15 @@ Monitor:|6|\ |7|
 .. |3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image3.png
    :width: 777
    :height: 425
-   :scale: 100 %
+   :scale: 50 %
 .. |4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image4.png
    :width: 1028
    :height: 651
-   :scale: 100 %
+   :scale: 50 %
 .. |5| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image5.png
    :width: 1295
    :height: 1049
-   :scale: 100 %
+   :scale: 50 %
 .. |6| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image6.png
    :width: 649
    :height: 410

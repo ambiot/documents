@@ -25,7 +25,7 @@ concentration on the LCD.
    :alt: 1
    :width: 1431
    :height: 820
-   :scale: 100 %
+   :scale: 50 %
 
 Adafruit 2.8” TFT LCD wiring diagram:
 
@@ -33,7 +33,7 @@ Adafruit 2.8” TFT LCD wiring diagram:
    :alt: 1
    :width: 1430
    :height: 820
-   :scale: 100 %
+   :scale: 50 %
 
 Open the example, “Files” -> “Examples” -> “AmebaSPI” ->
 “PM25_on_ILI9341_TFT_LCD”
@@ -42,7 +42,7 @@ Open the example, “Files” -> “Examples” -> “AmebaSPI” ->
    :alt: 2
    :width: 683
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 
 Compile and upload to Ameba, then press the reset button.
 
@@ -53,7 +53,7 @@ LCD.
    :alt: 2
    :width: 1428
    :height: 601
-   :scale: 100 %
+   :scale: 50 %
 
 Code Reference
 

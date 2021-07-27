@@ -34,4 +34,4 @@ associated GPIO pin.
 .. |A circuit board Description automatically generated| image:: ../media/api_documents/imagePWM.jpg
    :width: 1251
    :height: 804
-   :scale: 100 %
+   :scale: 50 %

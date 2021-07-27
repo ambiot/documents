@@ -36,7 +36,7 @@ the positive pole.
    :alt: 5-3
    :width: 1598
    :height: 1126
-   :scale: 100 %
+   :scale: 25 %
 
 Upload the code and press the reset button on Ameba. When the connection
 is established, you will see the message “To see this page in action,
@@ -94,17 +94,17 @@ Code Reference
 .. |5-1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_control_LED/image1.png
    :width: 716
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
 .. |5-2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_control_LED/image2.png
    :width: 716
    :height: 867
-   :scale: 100 %
+   :scale: 50 %
    
 .. |5-4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_control_LED/image4.png
    :width: 704
    :height: 355
-   :scale: 100 %
+   :scale: 50 %
 .. |5-5| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_control_LED/image5.png
    :width: 1208
    :height: 940
-   :scale: 100 %
+   :scale: 50 %

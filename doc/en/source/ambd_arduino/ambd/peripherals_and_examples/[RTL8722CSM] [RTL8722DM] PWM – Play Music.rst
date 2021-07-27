@@ -21,7 +21,7 @@ wavelength 1/262 = 3.8ms:
    :alt: 1
    :width: 710
    :height: 184
-   :scale: 100 %
+   :scale: 50 %
 
 | We use PWM to output sound wave with different frequency, so as to
   play music by the buzzer.
@@ -33,7 +33,7 @@ wavelength 1/262 = 3.8ms:
    :alt: 2
    :width: 1080
    :height: 926
-   :scale: 100 %
+   :scale: 50 %
 
 | Open the example code in “Examples” -> “AmebaAnalog” ->
   “TonePlayMelody”

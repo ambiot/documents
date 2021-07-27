@@ -25,7 +25,7 @@ RTL8722 wiring diagram:
    :alt: 1
    :width: 1335
    :height: 934
-   :scale: 100 %
+   :scale: 50 %
 
 | Compile and upload the program, press reset.
 | The LED lights at first. Press and release the button, then the LED

@@ -161,7 +161,7 @@ Step 1. Compile & Upload
    :alt: get-start-10
    :width: 570
    :height: 692
-   :scale: 100 %
+   :scale: 50 %
 
 Arduino IDE opens a new window with the complete sample code.
 
@@ -212,7 +212,7 @@ flashing on the DEV board.
    :alt: get-start-15
    :width: 732
    :height: 752
-   :scale: 100 %
+   :scale: 50 %
 
 Again, during the uploading procedure the IDE prints messages. Uploading
 procedure takes considerably longer time (about 30 seconds to 1 minute).
@@ -257,7 +257,7 @@ Finally, press the RESET button, and you can see the LED blinking.
    :alt: get-start-1
    :width: 884
    :height: 883
-   :scale: 100 %
+   :scale: 50 %
 .. |ambd-get-start-2| image:: ../media/getting_started/image2.png
    :alt: get-start-2
    :width: 1100
@@ -265,19 +265,19 @@ Finally, press the RESET button, and you can see the LED blinking.
    :scale: 50 %
 .. |ambd-get-start-3| image:: ../media/getting_started/image3.png
    :alt: get-start-3
-   :width: 1429
-   :height: 1431
-   :scale: 50 %
+   :width: 2917
+   :height: 1490
+   :scale: 25 %
 .. |ambd-get-start-4| image:: ../media/getting_started/image4.png
    :alt: get-start-4
    :width: 820
    :height: 584
-   :scale: 100 %
+   :scale: 50 %
 .. |ambd-get-start-5| image:: ../media/getting_started/image5.png
    :alt: get-start-5
    :width: 795
    :height: 579
-   :scale: 100 %
+   :scale: 50 %
 .. |ambd-get-start-6| image:: ../media/getting_started/image6.png
    :alt: get-start-6
    :width: 500
@@ -287,18 +287,18 @@ Finally, press the RESET button, and you can see the LED blinking.
    :alt: get-start-7
    :width: 690
    :height: 834
-   :scale: 100 %
+   :scale: 50 %
 .. |ambd-get-start-8| image:: ../media/getting_started/image8.png
    :alt: get-start-8
    :width: 800
    :height: 450
-   :scale: 100 %
+   :scale: 50 %
 
 .. |ambd-get-start-9| image:: ../media/getting_started/image9.png
    :alt: get-start-9
    :width: 697
    :height: 767
-   :scale: 100 %
+   :scale: 50 %
 
 
 

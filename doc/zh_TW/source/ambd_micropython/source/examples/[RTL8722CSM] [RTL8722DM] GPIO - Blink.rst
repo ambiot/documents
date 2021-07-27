@@ -42,4 +42,4 @@ Then, copy the following code and press Ctrl + e in REPL to enter the paste mode
 .. |image1| image:: ../media/examples/imageBlink.png
    :width: 724
    :height: 654
-   :scale: 100 %
+   :scale: 50 %

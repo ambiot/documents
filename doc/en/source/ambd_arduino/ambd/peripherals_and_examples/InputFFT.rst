@@ -46,4 +46,4 @@ should be able to see the FFT output change.
 .. image:: ../media/InputFFT/image3.png
    :width: 1206
    :height: 578
-   :scale: 100 %
+   :scale: 50 %

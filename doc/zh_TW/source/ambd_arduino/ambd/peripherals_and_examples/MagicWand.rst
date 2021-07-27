@@ -21,7 +21,7 @@ diagram.
 .. image:: ../media/MagicWand/image1.jpeg
    :width: 1027
    :height: 630
-   :scale: 100 %
+   :scale: 50 %
 
 Download the Ameba customized version of TensorFlow Lite for
 Microcontrollers library at
@@ -53,7 +53,7 @@ avoiding any sharp movements.
 .. image:: ../media/MagicWand/image3.jpeg
    :width: 777
    :height: 337
-   :scale: 100 %
+   :scale: 50 %
 
 If the movement is recognised by the Tensorflow Lite model, you should
 see the same shape output to the Arduino serial monitor. Different LEDs

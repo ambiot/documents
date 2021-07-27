@@ -20,7 +20,7 @@ use freertos tickless with uart interruptable interface.
    :alt: 1
    :width: 689
    :height: 704
-   :scale: 100 %
+   :scale: 50 %
 
 | Set condition values as picture below.
 | “TL_WAKEUP_SOURCE” is used to set the wake-up source, user can chose 3
@@ -53,19 +53,19 @@ alive. (unit ms)
    :alt: 1
    :width: 859
    :height: 370
-   :scale: 100 %
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Power_Save_Tickless_Mode/image4.png
    :alt: 1
    :width: 857
    :height: 373
-   :scale: 100 %
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Power_Save_Tickless_Mode/image5.png
    :alt: 1
    :width: 856
    :height: 374
-   :scale: 100 %
+   :scale: 50 %
 
 Code Reference
 

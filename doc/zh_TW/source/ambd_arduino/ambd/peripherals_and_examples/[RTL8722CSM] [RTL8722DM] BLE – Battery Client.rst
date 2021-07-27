@@ -32,7 +32,7 @@ For the second Ameba board, open the example “Files” -> “Examples” ->
    :alt: 2
    :width: 832
    :height: 1006
-   :scale: 100 %
+   :scale: 50 %
    
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -45,7 +45,7 @@ board with the battery service.
    :alt: 3
    :width: 741
    :height: 588
-   :scale: 100 %
+   :scale: 50 %
 
 Highlighted in yellow, the Ameba board with the battery client first
 scans for advertising BLE devices with the advertised device name

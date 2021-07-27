@@ -57,19 +57,19 @@ Code Reference
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image2.png
    :width: 2310
    :height: 913
-   :scale: 100 %
+   :scale: 25 %
 
 .. |image2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image3.png
    :width: 884
    :height: 524
-   :scale: 100 %
+   :scale: 50 %
 
 .. |image3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image4.png
    :width: 629
    :height: 710
-   :scale: 100 %
+   :scale: 50 %
 
 .. |image4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image5.png
    :width: 752
    :height: 969
-   :scale: 100 %
+   :scale: 50 %
