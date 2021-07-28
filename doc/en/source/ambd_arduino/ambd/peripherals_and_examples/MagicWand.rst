@@ -19,8 +19,9 @@ Connect the accelerometer and LEDs to the RTL8722 board following the
 diagram.
 
 .. image:: ../media/MagicWand/image1.jpeg
-   :width: 5.59375in
-   :height: 3.43446in
+   :width: 1027
+   :height: 630
+   :scale: 50 %
 
 Download the Ameba customized version of TensorFlow Lite for
 Microcontrollers library at
@@ -33,12 +34,13 @@ installed.
 In the Arduino IDE library manager, install the Arduino_LSM9DS1 library.
 This example has been tested with version 1.1.0 of the LSM9DS1 library.
 
-Open the example, "Files" -> "Examples" -> "TensorFlowLite_Ameba" ->
-"magic_wand".
+Open the example, "Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
+“magic_wand”.
 
 .. image:: ../media/MagicWand/image2.jpeg
-   :width: 4.07292in
-   :height: 6.08649in
+   :width: 556
+   :height: 830
+   :scale: 100 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -49,8 +51,9 @@ the shapes as shown, moving it in a smooth motion over 1 to 2 seconds,
 avoiding any sharp movements.
 
 .. image:: ../media/MagicWand/image3.jpeg
-   :width: 4.86458in
-   :height: 2.10838in
+   :width: 777
+   :height: 337
+   :scale: 50 %
 
 If the movement is recognised by the Tensorflow Lite model, you should
 see the same shape output to the Arduino serial monitor. Different LEDs
@@ -60,8 +63,9 @@ Note that the wing shape is easy to achieve, while the slope and ring
 shapes tend to be harder to get right.
 
 .. image:: ../media/MagicWand/image4.jpeg
-   :width: 4.30208in
-   :height: 3.10003in
+   :width: 639
+   :height: 458
+   :scale: 100 %
 
 **Code Reference**
 

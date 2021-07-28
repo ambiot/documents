@@ -98,5 +98,6 @@ True, then send a STOP bit at the end of the transmission.
    transmission, vice versa
 
 .. |per-5-5| image:: ../media/api_documents/imageI2C.jpg
-   :width: 5.67778in
-   :height: 3.8743in
+   :width: 1540
+   :height: 1051
+   :scale: 50 %

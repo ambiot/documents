@@ -23,8 +23,9 @@ RTL8722 wiring diagram:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Use_GPIO_Interrupt_To_Control_LED/image1.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.18819in
+   :width: 1335
+   :height: 934
+   :scale: 50 %
 
 | Compile and upload the program, press reset.
 | The LED lights at first. Press and release the button, then the LED

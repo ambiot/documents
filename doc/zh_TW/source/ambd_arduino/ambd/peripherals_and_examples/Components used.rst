@@ -40,23 +40,30 @@
 --------------------------------------------------------------------------------------
 
 .. |image-1| image:: ../media/Components_used_in_Examples/image1.jpeg
-   :width: 2.5in
-   :height: 2.5in
+ :width: 455
+ :height: 346
+ :scale: 100 %
 .. |image-2| image:: ../media/Components_used_in_Examples/image2.jpeg
-   :width: 2.5in
-   :height: 2.5in
+ :width: 1070
+ :height: 1070
+ :scale: 50 %
 .. |image-3| image:: ../media/Components_used_in_Examples/image3.jpeg
-   :width: 2.5in
-   :height: 2.5in
+ :width: 600
+ :height: 600
+ :scale: 100 %
 .. |image-4| image:: ../media/Components_used_in_Examples/image4.jpeg
-   :width: 2.5in
-   :height: 2.5in
+ :width: 1000
+ :height: 1000
+ :scale: 50 %
 .. |image-5| image:: ../media/Components_used_in_Examples/image5.jpeg
-   :width: 2.5in
-   :height: 2.5in
+ :width: 1070
+ :height: 1070
+ :scale: 50 %
 .. |image-6| image:: ../media/Components_used_in_Examples/image6.jpeg
-   :width: 2.5in
-   :height: 2.5in
+ :width: 1070
+ :height: 1070
+ :scale: 50 %
 .. |image-7| image:: ../media/Components_used_in_Examples/image7.jpeg
-   :width: 2.5in
-   :height: 2.5in
+ :width: 508
+ :height: 400
+ :scale: 100 %

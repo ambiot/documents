@@ -13,26 +13,28 @@ the UDP sending delay.
 
 **Ameba Preparation**
 
-Open the "CalculateUdpSendDelay" example in "File" -> "Examples" ->
-"AmebaWiFi" -> " UDP_Calculation " -> "CalculateUdpSendDelay".
+Open the “CalculateUdpSendDelay” example in “File” -> “Examples” ->
+“AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpSendDelay”.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image1.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 852
+   :height: 1006
+   :scale: 50 %
 
 In the sample code, modify the highlighted section to enter the
 information required (ssid, password, key index) to connect to your WiFi
 network.
 
 The server variable also needs to be changed to match the IP address of
-your computer. You can find the IP address using the "ipconfig" command
+your computer. You can find the IP address using the “ipconfig” command
 in a terminal window.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image2.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 721
+   :height: 864
+   :scale: 50 %
 
 **Computer Preparation**
 
@@ -40,19 +42,20 @@ On the computer, Cygwin will be required to compile the code to send the
 UDP packets. Cygwin can be downloaded from https://www.cygwin.com/
 
 Follow the instructions there to install it. Next, from the
-"CalculateUdpSendDelay" Arduino example, copy the code from the bottom
-between "#if 0" and "#endif", into a new text file and rename the file
-to "UdpSendDelay.cpp".
+“CalculateUdpSendDelay” Arduino example, copy the code from the bottom
+between “#if 0” and “#endif”, into a new text file and rename the file
+to “UdpSendDelay.cpp”.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image3.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 695
+   :height: 661
+   :scale: 50 %
 
 Next, open a Cygwin terminal, change the working directory to the
-location of "UdpSendDelay.cpp", and use the command "g++
-UdpSendDelay.cpp -o UdpDelay" to compile the code. A file named
-"UdpDelay.exe" will be created in the same directory.
+location of “UdpSendDelay.cpp”, and use the command “g++
+UdpSendDelay.cpp -o UdpDelay” to compile the code. A file named
+“UdpDelay.exe” will be created in the same directory.
 
 **Running the Example**
 
@@ -70,5 +73,6 @@ It will take some time for 10000 packets to be sent.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image4.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 1172
+   :height: 704
+   :scale: 50 %

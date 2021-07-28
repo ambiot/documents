@@ -19,8 +19,9 @@ Connect the microphone and LEDs to the RTL8722 board following the
 diagram.
 
 .. image:: ../media/MicroSpeech/image1.jpeg
-   :width: 2.8125in
-   :height: 2.07292in
+   :width: 619
+   :height: 455
+   :scale: 100 %
 
 Download the Ameba customized version of TensorFlow Lite for
 Microcontrollers library at
@@ -30,27 +31,29 @@ install it. Ensure that the patch files found at
 https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ are also
 installed.
 
-Open the example, "Files" -> "Examples" -> "TensorFlowLite_Ameba" ->
-"micro_speech".
+Open the example, "Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
+“micro_speech”.
 
 .. image:: ../media/MicroSpeech/image2.jpeg
-   :width: 2.0354in
-   :height: 3.04167in
+   :width: 451
+   :height: 674
+   :scale: 100 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
 
 Once it is running, you should see one of the LEDs flashing, indicating
 that it is processing audio. Saying the word "yes" will cause the green
-LED to light up. Saying the word "no" will cause the red LED to light
+LED to light up. Saying the word “no” will cause the red LED to light
 up. If the word is not recognized, the blue LED will to light up.
 
 The inference results are also output to the Arduino serial monitor,
 which appear as follows:
 
 .. image:: ../media/MicroSpeech/image3.jpeg
-   :width: 4.22642in
-   :height: 2.63337in
+   :width: 697
+   :height: 379
+   :scale: 100 %
 
 If you are having trouble in getting the words recognized, here are some
 tips:

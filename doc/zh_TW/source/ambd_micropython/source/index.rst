@@ -23,5 +23,6 @@ Micropython 開發平台
    support/index   
 
 .. |image1| image:: media/imageIndex.jpg
-   :width: 5.44028in
-   :height: 2.90486in
+   :width: 1280
+   :height: 720
+   :scale: 50 %

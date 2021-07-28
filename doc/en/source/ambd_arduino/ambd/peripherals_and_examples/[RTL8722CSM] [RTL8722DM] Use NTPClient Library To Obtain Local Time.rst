@@ -7,8 +7,8 @@ Preparation
 Example
 
 In this example, we use an NTP client to sync with NTP servers using UDP
-and keep track of time locally. Open the example. "File" -> "Examples"
--> "NTPClient" -> "Advanced"\ |1|\ Modify the highlighted code section
+and keep track of time locally. Open the example. “File” -> “Examples”
+-> “NTPClient” -> “Advanced”\ |1|\ Modify the highlighted code section
 (ssid, password) to connect to your WiFi network.\ |image1|\ Compile the
 code and upload it to Ameba. After pressing the Reset button, Ameba
 connects to WiFi, gets the UTC time from the NTP server, and prints out
@@ -21,11 +21,11 @@ communications. A WiFiUDP client is declared and passed to the NTPClient
 constructor, along with an NTP server address, time zone offset in
 seconds, and update interval in milliseconds. If detailed configuration
 is not needed, just passing in the UDP client is also sufficient, refer
-to the "NTPClient" -> "Basic" example.
+to the “NTPClient” -> “Basic” example.
 
 WiFiUDP ntpUDP;
 
-NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
+NTPClient timeClient(ntpUDP, “europe.pool.ntp.org”, 3600, 60000);
 
 Start NTP client: After connecting to WiFi, the NTPClient is started
 using the begin() function, which causes the client to sync with the NTP
@@ -44,11 +44,14 @@ timeClient.update();
 timeClient.getFormattedTime();
 
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_NTPClient_Library_To_Obtain_Local_Time/image1.png
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 730
+   :height: 1170
+   :scale: 50 %
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_NTPClient_Library_To_Obtain_Local_Time/image2.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 731
+   :height: 944
+   :scale: 50 %
 .. |image2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_NTPClient_Library_To_Obtain_Local_Time/image3.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 779
+   :height: 619
+   :scale: 50 %

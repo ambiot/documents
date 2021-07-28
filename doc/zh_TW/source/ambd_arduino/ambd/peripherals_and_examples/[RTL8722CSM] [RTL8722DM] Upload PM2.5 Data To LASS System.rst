@@ -58,21 +58,27 @@ working successfully.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image6.png
    :alt: 10-6
-   :width: 6.5in
-   :height: 4.51528in
+   :width: 712
+   :height: 1006
+   :scale: 50 %
 
 .. |10-1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image1.png
-   :width: 6.09028in
-   :height: 8.08333in
+   :width: 959
+   :height: 668
+   :scale: 50 %
 .. |10-2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image2.png
-   :width: 6.5in
-   :height: 4.52708in
+   :width: 679
+   :height: 843
+   :scale: 50 %
 .. |10-3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image3.png
-   :width: 4.56944in
-   :height: 5.49306in
+   :width: 928
+   :height: 481
+   :scale: 50 %
 .. |10-4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image4.png
-   :width: 6.5in
-   :height: 5.30069in
+   :width: 649
+   :height: 517
+   :scale: 100 %
 .. |10-5| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image5.png
-   :width: 6.5in
-   :height: 4.10833in
+   :width: 1217
+   :height: 839
+   :scale: 50 %

@@ -11,16 +11,18 @@ We have supported 3 unique developing platforms, Realtek Standard SDK, Arduino S
 All getting-started guides, examples, tutorials, API reference and datasheet can be found under the respective link below
 
 .. image:: ../media/image1.png
-   :width: 8in
-   :height: 4in
-
+   :width: 1720
+   :height: 706
+   :scale: 25 %
+   
 .. toctree::
    :maxdepth: 1
    :caption: Open Source SDKs:
-
+   
    ambd_arduino/arduino_index
    ambd_micropython/source/index
-   ambd_sdk/source/index
+   ambd_sdk/source/index 
+
 
 Search
 ==================

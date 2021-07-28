@@ -60,17 +60,17 @@ replace the {path} to your own SDK location, and add “cygdrive” prefix
 in front of the SDK location, so that Cygwin can access your file
 system.
 
-``` $ cd ```
+ $ cd
 /cygdrive/{path}/project/realtek_amebaD_va0_example/GCC-RELEASE/project_lp
 
-``` $ cd ```
+ $ cd
 /cygdrive/{path}/project/realtek_amebaD_va0_example/GCC-RELEASE/project_hpFor
 Linux, open its own terminal and use $ cd command to change directory to
 KM0 or KM4 project directory of Ameba-D SDK.
 
-``` $ cd /{path}/project/realtek_amebaD_va0_example/GCC-RELEASE/project_lp ```
+ $ cd /{path}/project/realtek_amebaD_va0_example/GCC-RELEASE/project_lp
 
-``` $ cd ```
+ $ cd
 /{path}/project/realtek_amebaD_va0_example/GCC-RELEASE/project_hpTo
 build SDK for normal image, simply use $ make all command under the
 corresponding project directories on Cygwin (Windows) or terminal
@@ -107,10 +107,10 @@ below shows.
 **Downloading Images to Ameba-D** Realtek
 provides an image tool to download images on windows.
 
-Environment Requirements: EX. WinXP, Win 7 Above, Microsoft .NET
+ Environment Requirements: EX. WinXP, Win 7 Above, Microsoft .NET
 Framework 3.5
 
-ImageTool.exe Location:
+ ImageTool.exe Location:
 SDK\tools\AmebaD\Image_Tool\ImageTool.exe
 
 \ |image8|\ 
@@ -120,56 +120,66 @@ ImageTool on PC is a server, it sends images files to Ameba (client)
 through UART. To download image from server to client, the client must
 enter uart download first. 1) Enter into UART_DOWNLOAD mode.
 
-- Push the UART DOWNLOAD button and keep it pressed.
+ Push the UART DOWNLOAD button and keep it pressed.
 
-- Re-power on the board or press the Reset button.
+ Re-power on the board or press the Reset button.
 
-- Release the UART DOWNLOAD button.Now, Ameba board gets into
-  UART_DOWNLOAD mode and is ready to receive data. 2) Click Chip Select
-  (in red) on UI and select chip (AmebaD or AmebaZ). 3) Select the
-  corresponding serial port and transmission baud rate. The default baud
-  rate is 1.5Mbps (recommended). 4) Click the Browse button to select the
-  images (km0_boot_all.bin/km4_boot_all.bin/km0_km4_image2.bin) to be
-  programmed and input addresses.
+ Release the UART DOWNLOAD button.Now, Ameba board gets into
+UART_DOWNLOAD mode and is ready to receive data. 2) Click Chip Select
+(in red) on UI and select chip (AmebaD or AmebaZ). 3) Select the
+corresponding serial port and transmission baud rate. The default baud
+rate is 1.5Mbps (recommended). 4) Click the Browse button to select the
+images (km0_boot_all.bin/km4_boot_all.bin/km0_km4_image2.bin) to be
+programmed and input addresses.
 
-- The image path is located in
-  {path}\project\realtek_amebaD_va0_example\GCC-RELEASE\project_hp\asdk\image
-  and
-  {path}\project\realtek_amebaD_va0_example\GCC-RELEASE\project_hp\asdk\image,
-  where {path} is the location of the project on your own computer.
+ The image path is located in
+{path}\project\realtek_amebaD_va0_example\GCC-RELEASE\project_hp\asdk\image
+and
+{path}\project\realtek_amebaD_va0_example\GCC-RELEASE\project_hp\asdk\image,
+where {path} is the location of the project on your own computer.
 
-- The default target address is the SDK default image address, you can
-  use it directly.5) Click Download button to start. The progress bar will
-  show the transmit progress of each image. You can also get the message
-  of operation successfully or errors from the log window.\ |image9|
+ The default target address is the SDK default image address, you can
+use it directly.5) Click Download button to start. The progress bar will
+show the transmit progress of each image. You can also get the message
+of operation successfully or errors from the log window.\ |image9|
 
 .. |1| image:: ../media/getting_started/image1.png
-   :width: 4.16667in
-   :height: 4.16667in
+   :width: 624
+   :height: 726
+   :scale: 100 %
 .. |image1| image:: ../media/getting_started/image2.png
-   :width: 4.16667in
-   :height: 4.16667in
+   :width: 673
+   :height: 690
+   :scale: 100 %
 .. |image2| image:: ../media/getting_started/image3.png
-   :width: 6.5in
-   :height: 6.5in
+   :width: 858
+   :height: 633
+   :scale: 50 %
 .. |image3| image:: ../media/getting_started/image4.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 1017
+   :height: 700
+   :scale: 50 %
 .. |image4| image:: ../media/getting_started/image5.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 731
+   :height: 421
+   :scale: 50 %
 .. |image5| image:: ../media/getting_started/image6.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 801
+   :height: 375
+   :scale: 50 %
 .. |image6| image:: ../media/getting_started/image7.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 1333
+   :height: 712
+   :scale: 50 %
 .. |image7| image:: ../media/getting_started/image8.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 805
+   :height: 401
+   :scale: 50 %
 .. |image8| image:: ../media/getting_started/image9.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 576
+   :height: 300
+   :scale: 100 %
 .. |image9| image:: ../media/getting_started/image10.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 585
+   :height: 739
+   :scale: 100 %

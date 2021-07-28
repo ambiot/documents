@@ -2,7 +2,7 @@
 =====================================
 Intro to LASS
 
-The LASS stands for "Location Aware Sensor System". It is an open
+The LASS stands for “Location Aware Sensor System”. It is an open
 project and was started only for the interest of public welfare. Find
 detailed
 introduction `here <http://makerpro.cc/2015/09/projectplus-lass/>`__.
@@ -24,9 +24,9 @@ In this example, we use applications mentioned at our website,
 including:
 
 -  `MQTT <https://www.amebaiot.com/amebad-arduino-mqtt-upload-listen/>`__:
-      a MQTT-Broker to connect to LASS. The Client is "FT1_0XXXX", the
+      a MQTT-Broker to connect to LASS. The Client is “FT1_0XXXX”, the
       XXXX are the four last digits of Ameba’s Wi-Fi MAC, and the
-      outTopic is "LASS/Test/Pm25Ameba/**clientID**\ ", where clientID
+      outTopic is “LASS/Test/Pm25Ameba/**clientID**\ “, where clientID
       is the actual Ameba’s MQTT client ID.
 
 -  `NTP <https://www.amebaiot.com/amebad-arduino-utc-time/>`__: uploaded
@@ -35,8 +35,8 @@ including:
 -  `PM2.5 <https://www.amebaiot.com/amebad-arduino-pm25/>`__: uploaded
       data includes PM2.5 information
 
-Open the example. "File" -> "Examples" -> "AmebaMQTTClient" ->
-"lass_basic"\ |10-1|\ This example requires internet connection, so make
+Open the example. “File” -> “Examples” -> “AmebaMQTTClient” ->
+“lass_basic”\ |10-1|\ This example requires internet connection, so make
 sure you fill in SSID and PASS into AP information that you wish to
 connect. Also, LASS requires GPS information. There is no GPS sensor
 included in this example, so you must manually provide GPS information.
@@ -50,7 +50,7 @@ attempt to read PM2.5 data every minute and upload it to LASS
 MQTT-Broker. Open Serial Monitor to see the uploaded data, including
 client id, topic, and current PM2.5 status.\ |10-5|  We can also use
 MQTTlens to verify if the data is properly uploaded. Enter
-"gpssensor.ddns.net" as the MQTT-Broker server and "LASS/Test/PM25/live"
+“gpssensor.ddns.net” as the MQTT-Broker server and “LASS/Test/PM25/live”
 as the subscribe topic to receive data. The time uses UTC format, and
 the PM2.5 data stores in s-d0. In the figure, s_d0 = 9 represents that
 the PM2.5 is 9, meaning that the entire publish/ subscribe process is
@@ -58,21 +58,27 @@ working successfully.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image6.png
    :alt: 10-6
-   :width: 6.5in
-   :height: 4.51528in
+   :width: 712
+   :height: 1006
+   :scale: 50 %
 
 .. |10-1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image1.png
-   :width: 6.09028in
-   :height: 8.08333in
+   :width: 959
+   :height: 668
+   :scale: 50 %
 .. |10-2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image2.png
-   :width: 6.5in
-   :height: 4.52708in
+   :width: 679
+   :height: 843
+   :scale: 50 %
 .. |10-3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image3.png
-   :width: 4.56944in
-   :height: 5.49306in
+   :width: 928
+   :height: 481
+   :scale: 50 %
 .. |10-4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image4.png
-   :width: 6.5in
-   :height: 5.30069in
+   :width: 649
+   :height: 517
+   :scale: 100 %
 .. |10-5| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image5.png
-   :width: 6.5in
-   :height: 4.10833in
+   :width: 1217
+   :height: 839
+   :scale: 50 %

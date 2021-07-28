@@ -72,5 +72,6 @@ This method sends a logic 0 signal to the associated pin
 This method toggles the logic signal of the associated pin
 
 .. |get-start-17| image:: ../media/api_documents/imagePin.png
-   :width: 5.46696in
-   :height: 5.10294in
+   :width: 1123
+   :height: 1048
+   :scale: 50 %

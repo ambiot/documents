@@ -44,24 +44,26 @@ less features:
 
 -  iOS :*https://apps.apple.com/us/app/lightblue/id557428110*
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" ->
-"BLEBatteryService"
+Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
+“BLEBatteryService”
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Battery_Service/image1.png
    :alt: 2
-   :width: 6.02778in
-   :height: 3.45833in
+   :width: 716
+   :height: 1006
+   :scale: 50 %
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
 | On your mobile phone, open the Bluetooth app and scan for the
   Bluetooth signal broadcast by Ameba, it should appear as a device
-  named "AMEBA_BLE_DEV".
+  named “AMEBA_BLE_DEV”.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Battery_Service/image2.png
    :alt: 3
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 1148
+   :height: 1146
+   :scale: 50 %
 
 Connect to the Ameba Bluetooth device, and a list of available services
 should appear. Click on the battery service to expand it, and you can
@@ -72,16 +74,18 @@ appear.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Battery_Service/image3.png
    :alt: 3
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 1148
+   :height: 1146
+   :scale: 50 %
 
 Click on the triple arrow to subscribe to updates on the battery level
 value, and the battery value will start updating by itself.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Battery_Service/image4.png
    :alt: 4
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 1148
+   :height: 1146
+   :scale: 50 %
 
 The serial monitor will show the sketch increasing the battery level
 every second. When you click on either of the arrows, the sketch running
@@ -89,8 +93,9 @@ on the Ameba will be notified, and will print out the action taken.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Battery_Service/image5.png
    :alt: 4
-   :width: 6.5in
-   :height: 4.10903in
+   :width: 749
+   :height: 509
+   :scale: 50 %
 
 Code Reference
 

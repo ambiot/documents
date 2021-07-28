@@ -1,8 +1,9 @@
 [RTL8722CSM] [RTL8722DM] SPI – Print Image And Text On LCD Screen
 ===================================================================
-
 If you are not familiar with SPI, please read `Introduction to
 SPI <https://www.amebaiot.com/spi-intro/>`__ first.
+
+ 
 
 Preparation
 
@@ -15,13 +16,13 @@ Example
 We have tested the following two models of ILI9341 TFT LCD with SPI
 interface:
 
--  Adafruit 2.8" TFT LCD (with touch screen)
+-  Adafruit 2.8″ TFT LCD (with touch screen)
 
    -  https://www.adafruit.com/products/1651
 
    -  https://learn.adafruit.com/adafruit-2-8-tft-touch-shield-v2?view=all
 
--  QVGA 2.2" TFT LCD
+-  QVGA 2.2″ TFT LCD
 
    -  http://www.lcdwiki.com/2.2inch_SPI_Module_ILI9341_SKU:MSP2202
 
@@ -51,25 +52,28 @@ Wiring example of QVGA TFT LCD:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image1.png
    :alt: 1
-   :width: 6.5in
-   :height: 4.51736in
-
-| Wiring example of Adafruit 2.8" TFT LCD touch shield:
+   :width: 1640
+   :height: 1018
+   :scale: 25 %
+   
+| Wiring example of Adafruit 2.8” TFT LCD touch shield:
 | Please note that this shield model enables the backlight by default
   and pin 8 is not for backlight, and the VCC should be connected to 5V.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image2.png
    :alt: 2
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 1426
+   :height: 1006
+   :scale: 50 %
 
-Open the example, "Files" -> "Examples" -> "AmebaSPI" ->
-"ILI9341_TFT_LCD_basic"
+Open the example, “Files” -> “Examples” -> “AmebaSPI” ->
+“ILI9341_TFT_LCD_basic”
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image3.png
    :alt: 2
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 683
+   :height: 1006
+   :scale: 50 %
 
 | Compile and upload to Ameba, then press the reset button.
 | Then you can see some display tests appear on the LCD screen, such as
@@ -78,8 +82,9 @@ Open the example, "Files" -> "Examples" -> "AmebaSPI" ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image4.png
    :alt: 4
-   :width: 6.5in
-   :height: 2.07986in
+   :width: 938
+   :height: 300
+   :scale: 50 %
 
 Code Reference
 
@@ -127,7 +132,7 @@ Code Reference
    -  In our API, each character is 5×7 but each character is printed to
          size 6×8 (its right side and below are left blank), so as to
          separate from next character. For example, the character
-         "A":|5|
+         “A”:|5|
 
    -  The font size represents the dot size. For example, if the font
          size is 2, each dot in the character is a 2×2 rectangle
@@ -141,5 +146,6 @@ Code Reference
          becomes 240.
 
 .. |5| image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image5.png
-   :width: 2.07639in
-   :height: 2.77083in
+   :width: 193
+   :height: 258
+   :scale: 100 %

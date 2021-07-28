@@ -18,8 +18,9 @@ Example
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Display_Data_On_LCD_Screen/image2.png
    :alt: 2
-   :width: 6.5in
-   :height: 4.43819in
+   :width: 938
+   :height: 841
+   :scale: 50 %
 
 | Open the example in “File” -> “Examples” -> “AmebaWire” ->
   “LCD_HelloWorld”.
@@ -29,23 +30,26 @@ Example
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Display_Data_On_LCD_Screen/image3.jpeg
    :alt: 3
-   :width: 6.5in
-   :height: 3.91875in
+   :width: 1429
+   :height: 978
+   :scale: 50 %
 
 After 8 seconds, you can input to the Serial Monitor the string you
 would like to display on the LCD.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Display_Data_On_LCD_Screen/image4.jpeg
    :alt: 4
-   :width: 6.5in
-   :height: 3.86528in
+   :width: 1431
+   :height: 862
+   :scale: 50 %
 
 For example, we enter “123456789” and press “Send”:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Display_Data_On_LCD_Screen/image5.jpeg
    :alt: 5
-   :width: 6.5in
-   :height: 3.95278in
+   :width: 1431
+   :height: 851
+   :scale: 50 %
 
 Code Reference
 
@@ -73,5 +77,6 @@ parameters represents the meaning of each bit in a byte, i.e., En is bit
   string on the screen.
 
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Display_Data_On_LCD_Screen/image1.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 1431
+   :height: 870
+   :scale: 50 %

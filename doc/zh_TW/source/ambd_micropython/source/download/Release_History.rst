@@ -2,27 +2,6 @@
 Release History
 ===================================
 
-**Version 1.0.1 release – 2021/06/07**
-
-Feature:
-
-– Added MacOS Support for firmware uploading (not compilation)
-
-– Fixed PWM API issue with loop
-
-– Implemented SDFS (SD FileSystem) module [Currently only support RTL8722DM_mini]
-
-– Update welcome message and help message
-
-– Update Ameba SDK and libraries
-
-– Fixed network and WLAN security issues
-
-– Fix bugs related to WiFi
-
-– Update Readme
-
-– Provide examples for new module
 
 
 **Version 1.0.0 release – 2020/11/11**

@@ -30,9 +30,10 @@ Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image1.png
    :alt: 2
-   :width: 6.02778in
-   :height: 3.45833in
-
+   :width: 832
+   :height: 1016
+   :scale: 50 %
+   
 Upload the code and press the reset button on Ameba once the upload is
 finished.
 
@@ -41,8 +42,9 @@ button to scan for Ameba boards.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image2.png
    :alt: 3
-   :width: 2.60417in
-   :height: 2.60417in
+   :width: 573
+   :height: 573
+   :scale: 100 %
 
 Select the correct Ameba board from the scan results. The app will
 connect to the Ameba board and ask the board to scan for WiFi networks
@@ -50,18 +52,21 @@ and send the scan results back to the app using BLE.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image3.png
    :alt: 3
-   :width: 2.60417in
-   :height: 2.60417in
+   :width: 573
+   :height: 573
+   :scale: 100 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image4.png
    :alt: 3
-   :width: 2.60417in
-   :height: 2.60417in
+   :width: 573
+   :height: 573
+   :scale: 100 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image5.jpeg
    :alt: 3
-   :width: 2.60417in
-   :height: 2.60417in
+   :width: 573
+   :height: 573
+   :scale: 100 %
 
 If your phone is currently connected to a WiFi network, the app will ask
 for the WiFi password to connect the Ameba board to the same WiFi
@@ -70,8 +75,9 @@ password and tap continue to connect Ameba to the selected WiFi network.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image6.png
    :alt: 3
-   :width: 2.60417in
-   :height: 2.60417in
+   :width: 573
+   :height: 573
+   :scale: 100 %
 
 After the Ameba board connects to the WiFi network, the following
 message will be shown. Tap “Try another AP” to connect to another WiFi
@@ -80,8 +86,9 @@ BLE from the Ameba board.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image7.png
    :alt: 3
-   :width: 2.60417in
-   :height: 2.60417in
+   :width: 573
+   :height: 573
+   :scale: 100 %
 
 Code Reference
 

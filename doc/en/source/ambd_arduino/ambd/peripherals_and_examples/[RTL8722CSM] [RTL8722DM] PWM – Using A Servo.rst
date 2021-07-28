@@ -24,9 +24,10 @@ RTL8722 wiring diagram:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_PWM_Using_A_Servo/image1.png
    :alt: 1
-   :width: 5.27778in
-   :height: 4.96528in
-
+   :width: 1249
+   :height: 974
+   :scale: 50 %
+   
 | Open the example, “File” -> “Examples” -> “AmebaAnalog” ->
   “ServoSweep”
 | This example makes the servo to rotate from degree 0 to 180, and then

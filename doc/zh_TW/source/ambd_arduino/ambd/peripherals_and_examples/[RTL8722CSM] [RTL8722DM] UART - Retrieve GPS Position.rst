@@ -56,23 +56,30 @@ Ameba, then press the reset button. The result will be output to Serial
 Monitor:|6|\ |7|
 
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image1.png
-   :width: 6.5in
-   :height: 1.52569in
+   :width: 1252
+   :height: 294
+   :scale: 50 %
 .. |2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image2.png
-   :width: 6.02778in
-   :height: 3.45833in
+   :width: 649
+   :height: 372
+   :scale: 100 %
 .. |3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image3.png
-   :width: 6.34722in
-   :height: 3.46528in
+   :width: 777
+   :height: 425
+   :scale: 50 %
 .. |4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image4.png
-   :width: 6.5in
-   :height: 4.10903in
+   :width: 1028
+   :height: 651
+   :scale: 50 %
 .. |5| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image5.png
-   :width: 6.5in
-   :height: 6.14097in
+   :width: 1295
+   :height: 1049
+   :scale: 50 %
 .. |6| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image6.png
-   :width: 6.3125in
-   :height: 3.99306in
+   :width: 649
+   :height: 410
+   :scale: 100 %
 .. |7| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image7.png
-   :width: 6.22222in
-   :height: 3.92361in
+   :width: 649
+   :height: 410
+   :scale: 100 %

@@ -27,8 +27,9 @@ source.( Aon timer, Aon Pins or RTC timer).
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Power_Save_Deep_Sleep_DHT_Eink/image1.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 689
+   :height: 704
+   :scale: 50 %
 
 | Set condition values as picture below.
 | “DS_WAKEUP_SOURCE” is used to set the wake-up source, user can chose 3
@@ -54,8 +55,9 @@ DS_RTC_ALARM_HOUR, DS_RTC_ALARM_MIN, and DS_RTC_ALARM_SEC
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Power_Save_Deep_Sleep_DHT_Eink/image2.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 717
+   :height: 432
+   :scale: 50 %
 
 When finished the condition values setting, system will run and switch
 between normal working mode and deepsleep mode controlled by wakeup

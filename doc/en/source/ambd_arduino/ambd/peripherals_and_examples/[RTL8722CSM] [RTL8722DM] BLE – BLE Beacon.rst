@@ -46,12 +46,13 @@ less features:
 
 -  iOS :https://apps.apple.com/us/app/lightblue/id557428110
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" -> "BLEBeacon"
+Open the example, “Files” -> “Examples” -> “AmebaBLE” -> “BLEBeacon”
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Beacon/image1.png
    :alt: 2
-   :width: 6.02778in
-   :height: 3.45833in
+   :width: 722
+   :height: 1006
+   :scale: 50 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -61,8 +62,9 @@ signal broadcast by Ameba.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Beacon/image2.png
    :alt: 3
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 1148
+   :height: 1146
+   :scale: 50 %
 
 If you happen to be in an environment with multiple BLE beacons, you can
 tap the entries to expand them, and verify that the beacon data is

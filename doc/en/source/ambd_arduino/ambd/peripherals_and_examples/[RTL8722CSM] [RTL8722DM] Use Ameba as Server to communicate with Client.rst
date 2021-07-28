@@ -4,8 +4,8 @@ Materials
 
 -  Ameba x 1
 
--  Laptop(Make sure it is connected to the same network domain as
-      Ameba, and tcp tools are installed.)
+-  Laptop（Make sure it is connected to the same network domain as
+      Ameba, and tcp tools are installed.）
 
 Example
 
@@ -13,15 +13,16 @@ In this example, we first connect Ameba to WiFi, then we use Ameba as
 server to communicate with client.
 
 First, we make sure the correct Ameba development board is set in
-"Tools" -> "Board"
+“Tools” -> “Board”
 
-Then, open the Simple WiFi Server example in "File" -> "Examples" ->
-"AmebaWiFi" -> "SimpleServerWiFi"
+Then, open the Simple WiFi Server example in “File” -> “Examples” ->
+“AmebaWiFi” -> “SimpleServerWiFi”
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_communicate_with_Client/image1.png
    :alt: 3-1
-   :width: 6.5in
-   :height: 7.38333in
+   :width: 716
+   :height: 867
+   :scale: 50 %
 
 In the sample code, modify the highlighted parameters and enter the ssid
 and password for your WiFi connection.
@@ -34,18 +35,19 @@ console.
 | Next, we use the socket tool in the laptop to be the client and
   connect to the IP address of the Ameba board shown in the connection
   information at port 5000. (Note: The socket tool we used in this
-  example is "sokit")
+  example is “sokit”)
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_communicate_with_Client/image3.png
    :alt: 3-4
-   :width: 6.5in
-   :height: 5.27569in
+   :width: 704
+   :height: 355
+   :scale: 50 %
 
-Click on the "Client" tab to choose the client mode, specify the IP and
-port of the server, then click "TCP Connect".
+Click on the “Client” tab to choose the client mode, specify the IP and
+port of the server, then click “TCP Connect”.
 
 If the connection is established successfully, the server shows a
-message: "A client connected to this Server", and the IP and port of the
+message: “A client connected to this Server”, and the IP and port of the
 connected client.
 
 In this example, when the client and server are connected and the client
@@ -54,8 +56,9 @@ string back to the client.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_communicate_with_Client/image4.png
    :alt: 3-5
-   :width: 6.5in
-   :height: 5.30764in
+   :width: 799
+   :height: 574
+   :scale: 50 %
 
 The string sent to server is returned and showed at the client side.
 
@@ -88,5 +91,6 @@ Code reference
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
 .. |3-3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_communicate_with_Client/image2.png
-   :width: 6.5in
-   :height: 5.30764in
+   :width: 704
+   :height: 355
+   :scale: 50 %
