@@ -16,15 +16,17 @@ receive IR NEC Raw data.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image1.jpeg
    :alt: 1
-   :width: 3.125in
-   :height: 3.125in
+   :width: 688
+   :height: 686
+   :scale: 50 %
 
 Figure 1: Grove – Infrared Receiver
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image2.png
    :alt: 1
-   :width: 3.125in
-   :height: 3.125in
+   :width: 394
+   :height: 323
+   :scale: 100 %
 
 Figure 2: Grove – Infrared Emitter
 
@@ -36,8 +38,9 @@ Figure 2: Grove – Infrared Emitter
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image3.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 531
+   :height: 188
+   :scale: 100 %
 
 Figure 3: A typical IR transmission and reception setup implementation
 
@@ -64,34 +67,35 @@ Renesas, also known as Japanese Format) as the transmission protocol.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image4.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 425
+   :height: 125
+   :scale: 100 %
 
 Figure 4: Modulation of NEC
 
-Since a total number of 32\-bit data together with the header and the end\-bit will be transferred (Figure 5). 
-
-If we separate the data in the
-
-time\-frame (in us), there will be ( 2 + 32 ) x 2 + 1 = 69 “marks” \/
+Since a total number of 32\-bit data together with the header and the
+end-bit will be transferred (Figure 5). If we separate the data in the
+time\-frame (in us), there will be ( 2 \+ 32 ) \x 2 \+ 1 \= 69 “marks” /
 “spaces” to be transmitted (Figure 6), which forms the raw NEC data we
-would like to transmit in our Arduino “\*.ino” file. This part of the code can be modified by users. 
-
-Details of how to obtain raw data code
-for your remote devices, you may refer to `Ken Shirriff’s blog <http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html>`__,
+would like to transmit in our Arduino “\*.ino” file. This part of the
+code can be modified by users. Details of how to obtain raw data code
+for your remote devices, you may refer to `Ken Shirriff’s
+blog <http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html>`__,
 where it provides multiple libraries provided online.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image5.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 550
+   :height: 110
+   :scale: 100 %
 
 Figure 5: Sample of a Full NEC Data (in logic1 or 0)
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image6.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 830
+   :height: 109
+   :scale: 50 %
 
 Figure 6: Sample of a Full NEC RAW Data (in us)
 
@@ -100,15 +104,17 @@ with Ameba RTL8722 board.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image7.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 764
+   :height: 473
+   :scale: 50 %
 
 Figure 7: Pin configuration of IR Emitter and Ameba RTL8722
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image8.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 721
+   :height: 468
+   :scale: 50 %
 
 Figure 8: Pin configuration of the IR Receiver and Ameba RTL8722
 
@@ -123,8 +129,9 @@ Emitter:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image9.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 554
+   :height: 537
+   :scale: 100 %
 
 Figure 9: Example Location of IRSendRaw and IRRecvNEC
 
@@ -141,8 +148,9 @@ as “48” after decoding the receiving data with IR NEC Protocol.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Transmit_IR_NEC_Raw_Data_And_Decode/image10.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 1210
+   :height: 163
+   :scale: 50 %
 
 Figure 10: Pulse View results from sending and receiving pin
 

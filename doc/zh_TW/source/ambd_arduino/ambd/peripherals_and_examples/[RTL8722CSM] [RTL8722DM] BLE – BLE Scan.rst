@@ -20,8 +20,9 @@ Open the example, “Files” \-\> “Examples” \-\> “AmebaBLE” \-\> “BL
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Scan/image1.png
    :alt: 2
-   :width: 6.02778in
-   :height: 3.45833in
+   :width: 711
+   :height: 1006
+   :scale: 50 %
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
@@ -30,8 +31,9 @@ Open the example, “Files” \-\> “Examples” \-\> “AmebaBLE” \-\> “BL
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Scan/image2.png
    :alt: 3
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 757
+   :height: 907
+   :scale: 50 %
 
 If you have the Bluetooth app nRF Connect installed, you can also use it
 to send out Bluetooth advertisements for the Ameba to pick up.

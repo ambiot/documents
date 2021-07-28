@@ -57,5 +57,6 @@ This is the client code,
 
 
 .. |image1| image:: ../media/examples/imageSocket.png
-   :width: 6.16667in
-   :height: 4.34167in
+   :width: 330
+   :height: 375
+   :scale: 100 %

@@ -33,18 +33,19 @@ Example
 | – Apple App Store:
 | https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" ->
-"BLEUartService".
+Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
+“BLEUartService”.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image1.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 696
+   :height: 1126
+   :scale: 50 %
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
 | Open the app on your smartphone, scan and connect to the Ameba board
-  shown as "AMEBA_BLE_DEV" and choose the UART function in the app. Note
+  shown as “AMEBA_BLE_DEV” and choose the UART function in the app. Note
   that the BLE UART service on the Ameba board will only work with the
   UART and Plotter functions in the Bluefruit Connect app, other
   functions (Pin I/O, Image Transfer) require other BLE services that
@@ -52,13 +53,15 @@ Open the example, "Files" -> "Examples" -> "AmebaBLE" ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image2.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 916
+   :height: 1317
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image3.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 916
+   :height: 1317
+   :scale: 50 %
 
 | In the UART terminal section of the app, enter a message and click
   send. You should see the message appear in the Arduino serial monitor.
@@ -67,13 +70,15 @@ Open the example, "Files" -> "Examples" -> "AmebaBLE" ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image4.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 916
+   :height: 1317
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image5.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 779
+   :height: 619
+   :scale: 50 %
 
 Code Reference
 

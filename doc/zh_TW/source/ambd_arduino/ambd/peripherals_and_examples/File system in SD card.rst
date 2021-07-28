@@ -22,8 +22,9 @@ Open the example, "Files" -> "Examples" -> “AmebaFatfsSDIO” ->
 “create_folder”.
 
 .. image:: ../media/File_system_in_SD_card/image1.png
-   :width: 4in
-   :height: 4.71141in
+   :width: 596
+   :height: 702
+   :scale: 100 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -36,8 +37,9 @@ Next, insert SD card into card reader, and check whether the operations
 succeeded.
 
 .. image:: ../media/File_system_in_SD_card/image3.png
-   :width: 3.96875in
-   :height: 2.49219in
+   :width: 508
+   :height: 319
+   :scale: 100 %
 
 Example 02 file_read_write
 
@@ -51,15 +53,17 @@ In the sample code, we create text file “test.txt” with content “hello
 world!”. Read the file and print content to serial monitor.
 
 .. image:: ../media/File_system_in_SD_card/image4.png
-   :width: 6.26806in
-   :height: 2.72153in
+   :width: 873
+   :height: 379
+   :scale: 50 %
 
 Next, insert SD card into card reader, and check whether the operations
 succeeded.
 
 .. image:: ../media/File_system_in_SD_card/image5.png
-   :width: 3.625in
-   :height: 2.63636in
+   :width: 462
+   :height: 336
+   :scale: 100 %
 
 Example 03 get_file_attribute
 
@@ -73,8 +77,9 @@ In the sample code, system will print put all file attribute to serial
 monitor.
 
 .. image:: ../media/File_system_in_SD_card/image6.png
-   :width: 6.26806in
-   :height: 2.72153in
+   :width: 873
+   :height: 379
+   :scale: 50 %
 
 Next, insert SD card into card reader, and check whether the operations
 succeeded. In this case, we already know the attribute should be folder
@@ -92,15 +97,17 @@ In the sample code, system will print put the target file last modified
 time to serial monitor.
 
 .. image:: ../media/File_system_in_SD_card/image7.png
-   :width: 6.26806in
-   :height: 2.72153in
+   :width: 879
+   :height: 379
+   :scale: 50 %
 
 Next, insert SD card into card reader, and check whether the operations
 succeeded.
 
 .. image:: ../media/File_system_in_SD_card/image8.png
-   :width: 4.02556in
-   :height: 3.83333in
+   :width: 625
+   :height: 598
+   :scale: 100 %
 
 Example 05 list_root_files
 
@@ -114,13 +121,15 @@ In the sample code, system will print put all root file to serial
 monitor.
 
 .. image:: ../media/File_system_in_SD_card/image9.png
-   :width: 6.26806in
-   :height: 2.72153in
+   :width: 873
+   :height: 379
+   :scale: 50 %
 
 Next, insert SD card into card reader, and check whether the operations
 succeeded. In this case, we already know the root files folder “testdir”
 and text file “test.txt”by refer the above pictures.
 
 .. |image1| image:: ../media/File_system_in_SD_card/image2.png
-   :width: 6.26806in
-   :height: 2.72153in
+   :width: 873
+   :height: 379
+   :scale: 50 %

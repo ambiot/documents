@@ -18,8 +18,9 @@ Preparation
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image1.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 611
+   :height: 332
+   :scale: 100 %
 
 \*Note: Upon log in, there are several cloud and online services that
 are integrated with IFTTT platforms.
@@ -39,68 +40,77 @@ After logging in https://ifttt.com/, click **My Applets** from Top
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image2.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 523
+   :height: 108
+   :scale: 100 %
 
-Click "New Applet" on the Applet page.
+Click “New Applet” on the Applet page.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image3.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 1317
+   :height: 259
+   :scale: 50 %
 
 Click +this as indicated below to add the trigger
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image4.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 854
+   :height: 313
+   :scale: 50 %
 
-Choose "Webhooks" service as shown below. Alternatively, search the
+Choose “Webhooks” service as shown below. Alternatively, search the
 service under **Choose a Service**
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image5.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 1071
+   :height: 610
+   :scale: 50 %
 
 Then, the available triggers will appear under service. So far, only one
 Trigger, Receive a web request, is under Webhooks.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image6.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 893
+   :height: 571
+   :scale: 50 %
 
 Once **Receive a web request** is selected, an **event name** is
 required to identify the trigger successfully. In this example, set
-Event name as "test_event"
+Event name as “test_event”
 
 Next, select **That** field to create the action service taken in response to the last trigger. 
 In this example, choose **Email** as the action service
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image7.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 727
+   :height: 191
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image8.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 448
+   :height: 464
+   :scale: 100 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image9.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 695
+   :height: 496
+   :scale: 50 %
 
 A list of Actions can be available under Action Service. In this
 example, only Send me an Email is found. Click on Send me an Email
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image10.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 877
+   :height: 405
+   :scale: 50 %
 
 Under the template of **Send me an Email**, the contents os the email,
 such as subject and body, is editable. Click **Create Action** to
@@ -109,27 +119,29 @@ ID registered under IFTTT account.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image11.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 387
+   :height: 509
+   :scale: 100 %
 
 After Review Click on **Finish **\ to complete and create the Applet.
 The applet is then found under **My Applet** in own IFTTT oage
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image12.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 289
+   :height: 504
+   :scale: 100 %
 
 -  Post the Trigger via Ameba
 
 Once the Applet is ready in the IFTTT dashboard, the example program can
 be flashed onto Ameba board to post HTTP request.
 
-1. The example program is under the folder "HTTP_IFTTT_POST". Follow the
+1. The example program is under the folder “HTTP_IFTTT_POST”. Follow the
 steps below:
 
-1) Open the example code in "File" -> "Examples" -> "AmebaWiFi" ->
-"HTTP_IFTTT_Post"
+1) Open the example code in “File” -> “Examples” -> “AmebaWiFi” ->
+“HTTP_IFTTT_Post”
 
 2) Once the example is opened, edit the following 3 items inside the
 code to make the program work.
@@ -141,16 +153,16 @@ Edit the wi-fi credentials to connect to the wi-fi access point of
 choice.
 
 Under the host name field, enter the hostname of the IFTTT service
-"maker.ifttt.com"
+“maker.ifttt.com”
 
 under the Path field, enter the EventName and key field
-"trigger//with/key/"
+“trigger//with/key/”
 
-- Event name: The event name should be same as the one specified in the
-  IFTTT applet. In this example, the event name is "test_event"
+− Event name: The event name should be same as the one specified in the
+IFTTT applet. In this example, the event name is “test_event”
 
-- Key: available under Webhook service in individual IFTTT account. See
-  next step to obtain.
+− Key: available under Webhook service in individual IFTTT account. See
+next step to obtain.
 
 3) How To obtain a key from documentation tab of the Webhooks?
 
@@ -158,13 +170,15 @@ find the Webhooks service in the Services tab.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image13.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 693
+   :height: 569
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image14.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 902
+   :height: 388
+   :scale: 50 %
 
 On Webhooks service page, click on the Documentation tab on the top
 right corner.
@@ -174,38 +188,42 @@ be used as shown
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image15.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 1337
+   :height: 615
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image16.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 716
+   :height: 867
+   :scale: 50 %
 
 Once the example is ready, connect to Ameba board via USB Cable.
 
-| Compile the code. Click on "Sketch" -> "Verify/Compile" on Arduino.
-  Upon completion, "Done compiling" will be prompted at the bottom of
+| Compile the code. Click on “Sketch” -> “Verify/Compile” on Arduino.
+  Upon completion, “Done compiling” will be prompted at the bottom of
   Arduino.
-| Upload the code onto Ameba by clicking on "Sketch" -> "Upload".
-| Once the upload is completed, "upload finish" will be reflected on the
+| Upload the code onto Ameba by clicking on “Sketch” -> “Upload”.
+| Once the upload is completed, “upload finish” will be reflected on the
   bottom of the Arduino IDE window
 | Open the serial monitor.
-| Press the "Reset" button to see the output logs.
+| Press the “Reset” button to see the output logs.
 | After the event has been successfully fired, the line of
-  "Congratulations! You have fired the test_event event" can be seen on
+  “Congratulations! You have fired the test_event event” can be seen on
   the serial monitor and an email reminder for this event will be
   delivered.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image17.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 770
+   :height: 378
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Access_IFTTT_Via_Ameba/image18.png
    :alt: 1
-   :width: 6.5in
-   :height: 5.43681in
+   :width: 1075
+   :height: 423
+   :scale: 50 %
 
 Thereafter an email is sent to recipient email account registered at
 IFTTT Applet and email notification will be received.

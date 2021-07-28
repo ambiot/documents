@@ -11,7 +11,7 @@ Example
 In this example, we use the Ameba RTL8722 module connects to a Waveshare
 2.9inch e-Paper module to display a few QR codes. The display uses the
 flexible substrate as a base plate, with an interface and a reference
-system design. The 2.9" active area contains 296×128 pixels and has
+system design. The 2.9” active area contains 296×128 pixels and has
 1-bit white/black full display capabilities. An integrated circuit
 contains gate buffer, source buffer, interface, timing control logic,
 oscillator, etc… are supplied with each panel. You may refer to the
@@ -30,9 +30,9 @@ visit
 this `YouTube <https://www.youtube.com/watch?v=kAmnU5Y96MA&t=363s>`__ link
 to get detailed instructions. Then we move to the coding part for this
 example. First, make sure the correct Ameba development board is
-selected in Arduino IDE: "Tools" -> "Board" -> "RTL8722CSM/RTL8722DM".
-Then open the "DisplayQR" example in "File" -> "Examples" -> "AmebaEink"
--> "EinkDisplayImage ":|image3|\ Upon successfully upload the sample
+selected in Arduino IDE: “Tools” -> “Board” -> “RTL8722CSM/RTL8722DM”.
+Then open the “DisplayQR” example in “File” -> “Examples” -> “AmebaEink”
+-> “EinkDisplayImage “:|image3|\ Upon successfully upload the sample
 code and press the reset button, you need to wait for around 1~2 seconds
 for the e-Paper module to fresh its screen. Then the screen will start
 to display an image for 5 seconds first, then 3 different QR codes will
@@ -50,21 +50,26 @@ Code Reference
   module: https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-arduino.html
 
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image1.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 653
+   :height: 291
+   :scale: 100 %
 
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image2.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 2310
+   :height: 913
+   :scale: 25 %
 
 .. |image2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image3.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 884
+   :height: 524
+   :scale: 50 %
 
 .. |image3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image4.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 629
+   :height: 710
+   :scale: 50 %
 
 .. |image4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image5.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 752
+   :height: 969
+   :scale: 50 %

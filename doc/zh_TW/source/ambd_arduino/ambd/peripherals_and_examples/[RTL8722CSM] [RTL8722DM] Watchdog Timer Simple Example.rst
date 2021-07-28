@@ -25,10 +25,11 @@ it practically impossible to do press on the button all time, therefore,
 the watchdog timer that embedded inside the micro-controller would help
 with this situation.
 
-.. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Watchdog_Timer_Simple_Example/image1.png
+.. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Watchdog_Timer_Simple_Example/image1.gif
    :alt: 1
-   :width: 6.25in
-   :height: 7.40972in
+   :width: 1188
+   :height: 800
+   :scale: 50 %
 
 **Feed the Dog**
 
@@ -53,8 +54,9 @@ will only need the Ameba RTL8722 board itself.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Watchdog_Timer_Simple_Example/image2.png
    :alt: 1
-   :width: 6.25in
-   :height: 5.99306in
+   :width: 702
+   :height: 847
+   :scale: 50 %
 
 Firstly, make sure the correct Ameba development board is selected in
 Arduino IDE: “Tools” -> “Board” -> “RTL8722CSM/RTL8722DM”. Then open the
@@ -63,8 +65,9 @@ Arduino IDE: “Tools” -> “Board” -> “RTL8722CSM/RTL8722DM”. Then open
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Watchdog_Timer_Simple_Example/image3.png
    :alt: 1
-   :width: 6.25in
-   :height: 5.99306in
+   :width: 548
+   :height: 527
+   :scale: 100 %
 
 Upon successfully upload the sample code, open the serial monitor, and
 press the reset button. You will find that the successful task (small
@@ -75,5 +78,6 @@ microcontroller reset.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Watchdog_Timer_Simple_Example/image4.png
    :alt: 1
-   :width: 3.125in
-   :height: 5.99306in
+   :width: 253
+   :height: 387
+   :scale: 100 %

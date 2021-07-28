@@ -25,8 +25,9 @@ Open the example, "Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
 “hello_world”.
 
 .. image:: ../media/HelloWorld/image1.png
-   :width: 3.5in
-   :height: 5.23034in
+   :width: 556
+   :height: 830
+   :scale: 100 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -38,8 +39,9 @@ In the Arduino serial plotter, you can see the output value of the
 Tensorflow model plotted as a graph, it should resemble a sine wave.
 
 .. image:: ../media/HelloWorld/image2.png
-   :width: 5.09375in
-   :height: 3.66906in
+   :width: 817
+   :height: 586
+   :scale: 50 %
 
 **Code Reference**
 

@@ -19,11 +19,12 @@ signal.
 **Procedure**
 
 
-Open the example, "Files" -> "Examples" -> "AmebaAudioCodec" -> "FFT".
+Open the example, "Files" -> "Examples" -> “AmebaAudioCodec” -> “FFT”.
 
 .. image:: ../media/FFT/image1.png
-   :width: 2.03125in
-   :height: 2.77083in
+   :width: 608
+   :height: 830
+   :scale: 100 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -32,5 +33,6 @@ Open the serial monitor, and the output results of the FFT calculation
 will be displayed.
 
 .. image:: ../media/FFT/image2.png
-   :width: 2.125in
-   :height: 1.59375in
+   :width: 639
+   :height: 477
+   :scale: 100 %

@@ -74,5 +74,6 @@ This method set socket’s timeout to the given value
 This method close the socket.
 
 .. |image1| image:: ../media/api_documents/imageSocket.png
-   :width: 3.44028in
-   :height: 3.90486in
+   :width: 330
+   :height: 375
+   :scale: 100 %

@@ -5,6 +5,7 @@
 
 Standard SDK
 =======================================
+
 This is the Ameba Standard SDK online documentation
 
 Ameba RTL8722DM  (AMB 21)
@@ -18,8 +19,9 @@ Ameba RTL8722DM  (AMB 21)
    getting_started/getting_started
    download/index
    board_hdk/index
-   support/index
+   support/index   
 
 .. |image1| image:: media/imageindex.jpg
-   :width: 5.44028in
-   :height: 2.90486in
+   :width: 240
+   :height: 170
+   :scale: 100 %

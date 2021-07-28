@@ -32,5 +32,6 @@ associated GPIO pin.
    0.0 (0%) to 1.0 (100%)
 
 .. |A circuit board Description automatically generated| image:: ../media/api_documents/imagePWM.jpg
-   :width: 5.67857in
-   :height: 3.44028in
+   :width: 1251
+   :height: 804
+   :scale: 50 %

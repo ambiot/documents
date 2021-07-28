@@ -33,8 +33,9 @@ Example
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Communicate_with_Arduino_UNO_via_I2C/image1.png
    :alt: 4-1
-   :width: 6.5in
-   :height: 7.16806in
+   :width: 578
+   :height: 1028
+   :scale: 50 %
 
 Then click “Sketch” -> “Upload” to compile and upload the example to
 Arduino Uno.
@@ -50,8 +51,9 @@ Arduino Uno.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Communicate_with_Arduino_UNO_via_I2C/image2.png
    :alt: 4-3
-   :width: 6.5in
-   :height: 7.38333in
+   :width: 588
+   :height: 1028
+   :scale: 50 %
 
 -  Wiring
 
@@ -63,8 +65,9 @@ RTL8722 wiring diagram:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Communicate_with_Arduino_UNO_via_I2C/image3.png
    :alt: 4-5
-   :width: 6.5in
-   :height: 4.68194in
+   :width: 1540
+   :height: 1051
+   :scale: 50 %
 
 | Open the Arduino IDE of the Arduino Uno and open the serial monitor
   (“Tools” -> “Serial Monitor”).
@@ -78,8 +81,9 @@ RTL8722 wiring diagram:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_I2C_Communicate_with_Arduino_UNO_via_I2C/image4.png
    :alt: 4-6
-   :width: 5.25in
-   :height: 6.33333in
+   :width: 649
+   :height: 410
+   :scale: 100 %
 
 Code Reference
 

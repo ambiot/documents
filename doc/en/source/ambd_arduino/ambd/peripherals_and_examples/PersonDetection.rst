@@ -17,8 +17,9 @@
 Connect the camera and LEDs to the RTL8722 board following the diagram.
 
 .. image:: ../media/PersonDetection/image1.png
-   :width: 3.53125in
-   :height: 2.10417in
+   :width: 777
+   :height: 467
+   :scale: 100 %
 
 Download the Ameba customized version of TensorFlow Lite for
 Microcontrollers library at
@@ -50,12 +51,13 @@ file:
 //#define LOAD_SDFAT_LIBRARY // Use SdFat library instead, so SD Card
 SPI can be bit bashed
 
-Open the example, "Files" -> "Examples" -> "TensorFlowLite_Ameba" ->
-"person_detection".
+Open the example, "Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
+“person_detection”.
 
 .. image:: ../media/PersonDetection/image2.png
-   :width: 1.85417in
-   :height: 2.77083in
+   :width: 556
+   :height: 830
+   :scale: 100 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -70,8 +72,9 @@ The inference results are also output to the Arduino serial monitor,
 which appear as follows:
 
 .. image:: ../media/PersonDetection/image3.png
-   :width: 3.96875in
-   :height: 2.97656in
+   :width: 639
+   :height: 477
+   :scale: 100 %
 
 **Code Reference**
 

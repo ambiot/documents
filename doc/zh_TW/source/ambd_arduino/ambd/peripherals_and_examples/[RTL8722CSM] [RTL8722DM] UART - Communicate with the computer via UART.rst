@@ -1,5 +1,6 @@
 [RTL8722DM] [RTL8722DM] UART - Communicate with the computer via UART
 =======================================================================
+
 **UART 是什麽**
 
 -  UART uses two wire, one for transmitting and the other one for
@@ -40,8 +41,9 @@
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image1.png
    :alt: 5-1
-   :width: 4.75in
-   :height: 3.85417in
+   :width: 456
+   :height: 370
+   :scale: 100 %
 
 -  Executing the Example
 
@@ -50,8 +52,9 @@ Open the “SoftwareSerialExample” example in “File” -> “Examples” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image2.png
    :alt: 5-2
-   :width: 6.13194in
-   :height: 7.97917in
+   :width: 683
+   :height: 1006
+   :scale: 50 %
 
 | Connect the wire as the following diagrams show. The TX pin of USB to
   TTL adapter is connected to the RX of Ameba, and the RX pin of USB to
@@ -60,8 +63,9 @@ Open the “SoftwareSerialExample” example in “File” -> “Examples” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image3.png
    :alt: 5-2
-   :width: 6.5in
-   :height: 7.03264in
+   :width: 1285
+   :height: 1040
+   :scale: 50 %
 
 Next, open a serial port terminal, such as Putty or Tera Term. (Putty is
 used in this example). Open the Putty window, choose “Serial” in
@@ -72,8 +76,9 @@ baud rate. In this example we set baud rate 4800.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image4.png
    :alt: 5-4
-   :width: 4.85417in
-   :height: 4.66667in
+   :width: 466
+   :height: 448
+   :scale: 100 %
 
 Next, select “Serial” on the left side. Set data bits to 8, stop bits to
 1, parity to none, and flow control to none.
@@ -82,8 +87,9 @@ Next, select “Serial” on the left side. Set data bits to 8, stop bits to
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image5.png
    :alt: 5-5
-   :width: 4.85417in
-   :height: 4.66667in
+   :width: 466
+   :height: 448
+   :scale: 100 %
 
 Then click Open and press the reset button on Ameba. You can see the
 “Hello, world?” message appears in Putty. If characters are typed into
@@ -95,8 +101,9 @@ this:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image6.png
    :alt: 5-6
-   :width: 4.11806in
-   :height: 2.58333in
+   :width: 395
+   :height: 248
+   :scale: 100 %
 
 Code Reference
 

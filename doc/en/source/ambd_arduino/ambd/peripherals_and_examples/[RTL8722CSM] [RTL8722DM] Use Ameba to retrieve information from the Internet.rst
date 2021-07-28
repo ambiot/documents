@@ -9,16 +9,17 @@ Example
 | In this example, we use Ameba to be a web client to retrieve
   information from the Internet.
 | First, make sure the correct Ameba development board is selected in
-  "Tools" -> "Board"
+  “Tools” -> “Board”
 
  
 
-Then open "File" -> "Examples" -> "AmebaWiFi" -> "WiFiWebClient"
+Then open “File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebClient”
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_to_retrieve_information_from_the_Internet/image1.png
    :alt: 4-1
-   :width: 6.35417in
-   :height: 7.39583in
+   :width: 716
+   :height: 1006
+   :scale: 50 %
 
 In the sample code, modify the highlighted snippet and enter the
 required information (ssid, password, key index) required to connect to
@@ -26,8 +27,9 @@ your WiFi network.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_to_retrieve_information_from_the_Internet/image2.png
    :alt: 4-2
-   :width: 6.5in
-   :height: 5.77431in
+   :width: 716
+   :height: 867
+   :scale: 50 %
 
 Upload the code and press the reset button on Ameba. Then you can see
 the information retrieved from Google is shown in the Arduino serial
@@ -35,8 +37,9 @@ monitor.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_to_retrieve_information_from_the_Internet/image3.png
    :alt: 4-3
-   :width: 6.5in
-   :height: 4.85972in
+   :width: 941
+   :height: 703
+   :scale: 50 %
 
 Code Reference
 

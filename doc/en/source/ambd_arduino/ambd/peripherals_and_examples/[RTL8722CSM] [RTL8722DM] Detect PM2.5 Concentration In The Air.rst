@@ -1,5 +1,5 @@
-[RTL8722CSM] [RTL8722DM] Detect PM2.5 Concentration In The Air
-================================================================
+[RTL8722CSM] [RTL8722DM] Detect PM2
+====================================
 Preparation
 
 -  Ameba x 1
@@ -20,8 +20,9 @@ There are 8 pins in PMS3003:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image2.png
    :alt: 5-2-2
-   :width: 4.59028in
-   :height: 4.0625in
+   :width: 777
+   :height: 1006
+   :scale: 50 %
 
 PMS3003 requires 5V power, but the working voltage of its IC is 3.3C.
 Therefore, the working voltage of Reset, TX, RX, Set are 3.3 as well. If
@@ -37,11 +38,14 @@ the Reset button, Ameba starts to output the PM 2.5 data to serial
 monitor.\ |5-2-4|
 
 .. |5-2-1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image1.png
-   :width: 6.20139in
-   :height: 8.67361in
+   :width: 981
+   :height: 869
+   :scale: 50 %
 .. |2-2-4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image3.png
-   :width: 6.5in
-   :height: 5.29306in
+   :width: 928
+   :height: 481
+   :scale: 50 %
 .. |5-2-4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image4.png
-   :width: 5.95139in
-   :height: 3.75694in
+   :width: 649
+   :height: 410
+   :scale: 100 %

@@ -31,17 +31,22 @@ Partial Refresh Arduino Sample Code to get the e-Paper successfully
 Display: http://www.good-display.com/product/201.html
 
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Text_On_E_Paper/image1.png
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 653
+   :height: 291
+   :scale: 100 %
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Text_On_E_Paper/image2.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 2310
+   :height: 913
+   :scale: 25 %
 .. |image2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Text_On_E_Paper/image3.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 884
+   :height: 524
+   :scale: 50 %
 .. |image3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Text_On_E_Paper/image4.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 580
+   :height: 523
+   :scale: 100 %
 .. |image4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Text_On_E_Paper/image5.jpeg
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 1430
+   :height: 1243
+   :scale: 50 %

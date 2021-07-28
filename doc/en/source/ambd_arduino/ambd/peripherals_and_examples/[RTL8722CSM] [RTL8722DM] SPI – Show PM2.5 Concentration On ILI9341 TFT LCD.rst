@@ -1,7 +1,9 @@
-[RTL8722CSM] [RTL8722DM] Detect PM2.5 Concentration In The Air
-===============================================================
+[RTL8722CSM] [RTL8722DM] SPI – Show PM2
+===========================================
 If you are not familiar with SPI, please read `Introduction to
 SPI <https://www.amebaiot.com/spi-intro/>`__ first.
+
+ 
 
 Preparation
 
@@ -21,23 +23,26 @@ concentration on the LCD.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image1.png
    :alt: 1
-   :width: 6.5in
-   :height: 3.73333in
+   :width: 1431
+   :height: 820
+   :scale: 50 %
 
-Adafruit 2.8" TFT LCD wiring diagram:
+Adafruit 2.8” TFT LCD wiring diagram:
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image2.png
    :alt: 1
-   :width: 6.5in
-   :height: 3.73333in
+   :width: 1430
+   :height: 820
+   :scale: 50 %
 
-Open the example, "Files" -> "Examples" -> "AmebaSPI" ->
-"PM25_on_ILI9341_TFT_LCD"
+Open the example, “Files” -> “Examples” -> “AmebaSPI” ->
+“PM25_on_ILI9341_TFT_LCD”
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image3.png
    :alt: 2
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 683
+   :height: 1006
+   :scale: 50 %
 
 Compile and upload to Ameba, then press the reset button.
 
@@ -46,8 +51,9 @@ LCD.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image4.png
    :alt: 2
-   :width: 6.5in
-   :height: 3.81597in
+   :width: 1428
+   :height: 601
+   :scale: 50 %
 
 Code Reference
 

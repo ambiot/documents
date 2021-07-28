@@ -14,11 +14,11 @@ is pure text, so we can connect it to USB to TTL Adapter and observe the
 output.\ |1|\ |2|\ It follows the NMEA sentence format (refer
 to http://aprs.gids.nl/nmea/)The GPS signal is weak in indoor
 environment. The status that the GPS signal is not received is called
-"not fix". Bring the GPS module outdoors, when the GPS signal is "fix",
+“not fix”. Bring the GPS module outdoors, when the GPS signal is “fix”,
 you would get message similar to the figure below.\ |3|\ In this example
-we are only interested in the "$GPRMC (Global Positioning Recommended
+we are only interested in the “$GPRMC (Global Positioning Recommended
 Minimum
-Coordinates)": **$GPRMC,032122.000,A,2446.8181,N,12059.7251,E,0.39,78.89,270116,,,A*53** Each
+Coordinates)”: **$GPRMC,032122.000,A,2446.8181,N,12059.7251,E,0.39,78.89,270116,,,A*53** Each
 field is separated by a comma.
 
 -  First field is the GMT time (Greenwich Mean Time), that is 032122.000
@@ -46,33 +46,40 @@ to check whether the position is correct.\ |4|
       moving orbit.
 
 -  The ninth field is the date with format ddMMyy. In this example,
-      "270116" stands for day 27, January, year 2016.
+      “270116” stands for day 27, January, year 2016.
 
 -  The last field is checksum. In the example we have \*53 as checksum.
 
-RTL8722 wiring diagram:|5|\ Open the example in "Files" -> "Examples" ->
-"AmebaSoftwareSerial" -> "Adafruit_GPS_parsing". Compile and upload to
+RTL8722 wiring diagram:|5|\ Open the example in “Files” -> “Examples” ->
+“AmebaSoftwareSerial” -> “Adafruit_GPS_parsing”. Compile and upload to
 Ameba, then press the reset button. The result will be output to Serial
 Monitor:|6|\ |7|
 
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image1.png
-   :width: 6.5in
-   :height: 1.52569in
+   :width: 1252
+   :height: 294
+   :scale: 50 %
 .. |2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image2.png
-   :width: 6.02778in
-   :height: 3.45833in
+   :width: 649
+   :height: 372
+   :scale: 100 %
 .. |3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image3.png
-   :width: 6.34722in
-   :height: 3.46528in
+   :width: 777
+   :height: 425
+   :scale: 50 %
 .. |4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image4.png
-   :width: 6.5in
-   :height: 4.10903in
+   :width: 1028
+   :height: 651
+   :scale: 50 %
 .. |5| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image5.png
-   :width: 6.5in
-   :height: 6.14097in
+   :width: 1295
+   :height: 1049
+   :scale: 50 %
 .. |6| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image6.png
-   :width: 6.3125in
-   :height: 3.99306in
+   :width: 649
+   :height: 410
+   :scale: 100 %
 .. |7| image:: ../media/[RTL8722CSM]_[RTL8722DM]_UART_Retrieve_GPS_Position/image7.png
-   :width: 6.22222in
-   :height: 3.92361in
+   :width: 649
+   :height: 410
+   :scale: 100 %
