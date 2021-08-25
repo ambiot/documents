@@ -20,11 +20,10 @@ Before connection, make sure to upload the following code to your Arduino UNO.
 .. code-block:: html
    :linenos:
 
-   rtc = RTC()
    ///////////////////////
    // SPI Master Write //
    ///////////////////////
-   #include
+   #include <SPI.h>
    void setup (void) {
    		Serial.begin(115200); //set baud rate to 115200 for usart
    		digitalWrite(SS, HIGH); // disable Slave Select
