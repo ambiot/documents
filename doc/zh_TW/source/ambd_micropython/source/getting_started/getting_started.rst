@@ -31,39 +31,39 @@ PM2.5粉塵傳感器等電子元件連接。採集的數據可以通過 WiFi上�
 |  
 |  
 
-=====  ========  ========  ==== ===== ============== ========= ========
-INDEX  PIN name  GPIO INT  ADC  PWM   UART           SPI       I2C
-=====  ========  ========  ==== ===== ============== ========= ========
-D00    GPIOB_2   ✓         ADC5       UART3_RX(b)                      
-D01    GPIOB_1   ✓         ADC4       UART3_TX(b)                      
-D02    GPIOB_3   ✓         ADC6                                        
-D03    GPIOB_31  ✓                                                     
-D04    GPIOB_30  ✓                                                     
-D05    GPIOB_28  ✓                                                     
-D06    GPIOB_29  ✓                                                     
-D07    NC                                                              
-D08    GPIOB_22  ✓              PWM14                                  
-D09    GPIOB_23  ✓              PWM15                                  
-D10    GPIOB_21  ✓              PWM13 UART0_RTS(b)   SPI0_CS           
-D11    GPIOB_18  ✓              PWM10 UART0_RX(b)    SPI0_MOSI         
-D12    GPIOB_19  ✓              PWM11 UART0_TX(b)    SPI0_MISO         
-D13    GPIOB_20  ✓              PWM12 UART0_CTS(b)   SPI0_CLK          
-D14    GPIOA_7   ✓                    UART2_TX(log)                    
-D15    GPIOA_8   ✓                    UART2_RX(log)                    
-D16    GPIOA_25  ✓              PWM4  UART3_RX(a)              I2C0_SCL
-D17    GPIOA_26  ✓              PWM5  UART3_TX(a)              I2C0_SDA
-D18    GPIOB_7   ✓         ADC3 PWM17                SPI1_CS           
-D19    GPIOB_6   ✓         ADC2                      SPI1_CLK          
-D20    GPIOB_5   ✓         ADC1 PWM9                 SPI1_MISO         
-D21    GPIOB_4   ✓         ADC0 PWM8                 SPI1_MOSI         
-D22    GPIOA_28  ✓                                                     
-D23    GPIOA_24  ✓              PWM3  UART0_CTS(a)             I2C1_SDA
-D24    GPIOA_23  ✓              PWM2  UART0_RTS(a)             I2C1_SCL
-D25    GPIOA_22  ✓                    UART0_RX(a)                      
-D26    GPIOA_21  ✓                    UART0_TX(a)                      
-D27    GPIOA_20  ✓                                                     
-D28    GPIOA_19  ✓                                                     
-=====  ========  ========  ==== ===== ============== ========= ========
+=== ======== ======== ==== ===== ============= ========= ========
+    PIN name GPIO INT ADC  PWM   UART          SPI       I2C
+=== ======== ======== ==== ===== ============= ========= ========
+D00 PB_2     ✓        ADC5       UART3_RX(b)              
+D01 PB_1     ✓        ADC4       UART3_TX(b)              
+D02 PB_3     ✓        ADC6                                
+D03 PB_31    ✓                                            
+D04 PB_30    ✓                                            
+D05 PB_28    ✓                                            
+D06 PB_29    ✓                                            
+D07 NC                                                    
+D08 PB_22    ✓             PWM14                          
+D09 PB_23    ✓             PWM15                          
+D10 PB_21    ✓             PWM13 UART0_RTS(b)  SPI0_CS    
+D11 PB_18    ✓             PWM10 UART0_RX(b)   SPI0_MOSI  
+D12 PB_19    ✓             PWM11 UART0_TX(b)   SPI0_MISO  
+D13 PB_20    ✓             PWM12 UART0_CTS(b)  SPI0_CLK   
+D14 PA_7     ✓                   UART2_TX(log)            
+D15 PA_8     ✓                   UART2_RX(log)            
+D16 PA_25    ✓             PWM4  UART3_RX(a)             I2C0_SCL
+D17 PA_26    ✓             PWM5  UART3_TX(a)             I2C0_SDA
+D18 PB_7     ✓        ADC3 PWM17               SPI1_CS    
+D19 PB_6     ✓        ADC2                     SPI1_CLK   
+D20 PB_5     ✓        ADC1 PWM9                SPI1_MISO  
+D21 PB_4     ✓        ADC0 PWM8                SPI1_MOSI  
+D22 PA_28    ✓                                            
+D23 PA_24    ✓             PWM3  UART0_CTS(a)            I2C1_SDA
+D24 PA_23    ✓             PWM2  UART0_RTS(a)            I2C1_SCL
+D25 PA_22    ✓                   UART0_RX(a)              
+D26 PA_21    ✓                   UART0_TX(a)              
+D27 PA_20    ✓                                            
+D28 PA_19    ✓                                            
+=== ======== ======== ==== ===== ============= ========= ========
 
 |  
 |  
@@ -315,35 +315,45 @@ discovered wireless network in your surrounding
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-.. note:: If you face any issue, please refer to the FAQ and troubleshooting page.
+If you face any issue, please refer to the FAQ and troubleshooting page.
 
 .. |get-start-1| image:: ../media/getting_started/imageGS1.png
-   :width: 4.00833in
-   :height: 4.00833in
+   :width: 882
+   :height: 881
+   :scale: 50 %
 .. |get-start-2| image:: ../media/getting_started/imageGS2.png
-   :width: 5in
-   :height: 5.1in
+   :width: 1100
+   :height: 1121
+   :scale: 50 %
 .. |get-start-3| image:: ../media/getting_started/imageGS3.png
-   :width: 6.26796in
-   :height: 3.12872in
+   :width: 1383
+   :height: 690
+   :scale: 50 %
 .. |get-start-4| image:: ../media/getting_started/imageGS5.png
-   :width: 4.79167in
-   :height: 3.41667in
+   :width: 820
+   :height: 584
+   :scale: 50 %
 .. |get-start-5| image:: ../media/getting_started/imageGS6.png
-   :width: 5.20751in
-   :height: 3.61364in
+   :width: 795
+   :height: 579
+   :scale: 50 %
 .. |image1| image:: ../media/getting_started/imageGS7.png
-   :width: 6.24242in
-   :height: 3.54171in
+   :width: 1431
+   :height: 812
+   :scale: 50 %
 .. |get-start-15| image:: ../media/getting_started/imageGS8.png
-   :width: 6.26806in
-   :height: 6.43611in
+   :width: 732
+   :height: 752
+   :scale: 50 %
 .. |image2| image:: ../media/getting_started/imageGS9.png
-   :width: 6.26806in
-   :height: 3.26736in
+   :width: 819
+   :height: 427
+   :scale: 50 %
 .. |image3| image:: ../media/getting_started/imageGS10.png
-   :width: 6.26806in
-   :height: 3.27986in
+   :width: 816
+   :height: 427
+   :scale: 50 %
 .. |image4| image:: ../media/getting_started/imageGS11.png
-   :width: 6.26806in
-   :height: 3.60764in
+   :width: 820
+   :height: 472
+   :scale: 50 %

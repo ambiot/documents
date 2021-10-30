@@ -23,8 +23,9 @@ Connect the DHT sensor to the Ameba board following the diagram.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_DHT_over_BLE_UART/image1.png
    :alt: 1
-   :width: 6.25in
-   :height: 7.40972in
+   :width: 1077
+   :height: 930
+   :scale: 50 %
 
 | Ensure that a compatible BLE UART app is installed on your smartphone,
   it is available at:
@@ -35,33 +36,37 @@ Connect the DHT sensor to the Ameba board following the diagram.
 | – Apple App Store:
 | https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the example, "Files" -> "Examples" -> "AmebaBLE" ->
-"DHT_over_BLEUart".
+Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
+“DHT_over_BLEUart”.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_DHT_over_BLE_UART/image2.png
    :alt: 1
-   :width: 6.25in
-   :height: 5.99306in
+   :width: 750
+   :height: 1044
+   :scale: 50 %
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
 | Open the app on your smartphone, scan and connect to the Ameba board
-  shown as "AMEBA_BLE_DEV" and choose the UART function in the app.
+  shown as “AMEBA_BLE_DEV” and choose the UART function in the app.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_DHT_over_BLE_UART/image3.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 916
+   :height: 1317
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_DHT_over_BLE_UART/image4.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 916
+   :height: 1317
+   :scale: 50 %
 
 After starting the UART function, notifications should be received every
 5 seconds containing the measured temperature and humidity.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_DHT_over_BLE_UART/image5.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 916
+   :height: 1317
+   :scale: 50 %

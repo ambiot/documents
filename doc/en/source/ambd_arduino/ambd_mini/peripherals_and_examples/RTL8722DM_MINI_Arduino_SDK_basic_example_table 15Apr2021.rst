@@ -1,7 +1,6 @@
 =====================================
 Basic Examples
 =====================================
-
 There are many built-in examples in Arduino. In the table below, we list all examples that are compatible with Ameba.
 
 

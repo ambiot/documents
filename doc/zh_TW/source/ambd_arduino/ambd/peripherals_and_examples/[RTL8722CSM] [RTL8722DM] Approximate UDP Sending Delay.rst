@@ -18,8 +18,9 @@ Open the “CalculateUdpSendDelay” example in “File” -> “Examples” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image1.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 852
+   :height: 1006
+   :scale: 50 %
 
 In the sample code, modify the highlighted section to enter the
 information required (ssid, password, key index) to connect to your WiFi
@@ -31,8 +32,9 @@ in a terminal window.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image2.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 721
+   :height: 864
+   :scale: 50 %
 
 **Computer Preparation**
 
@@ -46,8 +48,9 @@ to “UdpSendDelay.cpp”.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image3.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 695
+   :height: 661
+   :scale: 50 %
 
 Next, open a Cygwin terminal, change the working directory to the
 location of “UdpSendDelay.cpp”, and use the command “g++
@@ -70,5 +73,6 @@ It will take some time for 10000 packets to be sent.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image4.png
    :alt: 1
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 1172
+   :height: 704
+   :scale: 50 %

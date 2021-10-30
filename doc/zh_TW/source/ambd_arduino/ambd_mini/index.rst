@@ -3,17 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-RTL8722DM_MINI
+RTL8722DM-MINI
 ==============
 
-歡迎來到 Ameba Arduino RTL8722DM_MINI 在綫文檔
+歡迎來到 Ameba Arduino RTL8722DM-MINI 在綫文檔
 
 |image1|
 
 .. toctree::
    :maxdepth: 1
    :caption: 目錄:
-
+   
    getting_started/RTL8722DM_mini_Arduino SDK_getting start
    download/index
    peripherals_and_examples/index
@@ -23,5 +23,6 @@ RTL8722DM_MINI
    support/index   
 
 .. |image1| image:: media/index.jpg
-   :width: 5.44028in
-   :height: 2.90486in
+   :width: 400
+   :height: 200
+   :scale: 100 %

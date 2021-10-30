@@ -40,8 +40,10 @@ task together.
 | Use FlashMemory.update(); to update the data in buf to Flash Memory.
 
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Flash_Memory_Store_data_in_FlashEEProm/image1.png
-   :width: 5.125in
-   :height: 8.00694in
+   :width: 581
+   :height: 1116
+   :scale: 50 %
 .. |2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Flash_Memory_Store_data_in_FlashEEProm/image2.png
-   :width: 6.125in
-   :height: 3.86111in
+   :width: 677
+   :height: 591
+   :scale: 100 %

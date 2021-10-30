@@ -8,7 +8,7 @@ Materials
 
 -  LED x 1
 
--  1K ohm Resistor x 1
+-  1KΩ Resistor x 1
 
 Procedure
 
@@ -27,19 +27,20 @@ the positive pole.
 
  
 
-| Then open "File" -> "Examples" -> "AmebaWiFi" ->
-  "SimpleWebServerWiFi"\ |5-2|
+| Then open “File” -> “Examples” -> “AmebaWiFi” ->
+  “SimpleWebServerWiFi”\ |5-2|
 | In the sample code, modify the highlighted snippet to corresponding
   information.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_control_LED/image3.png
    :alt: 5-3
-   :width: 6.5in
-   :height: 5.825in
+   :width: 1598
+   :height: 1126
+   :scale: 25 %
 
 Upload the code and press the reset button on Ameba. When the connection
-is established, you will see the message "To see this page in action,
-open a browser to http://xxx.xxx.xxx.xxx" in the Arduino IDE, as shown
+is established, you will see the message “To see this page in action,
+open a browser to http://xxx.xxx.xxx.xxx” in the Arduino IDE, as shown
 in the figure:
 
  |5-4|
@@ -91,14 +92,19 @@ Code Reference
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
 .. |5-1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_control_LED/image1.png
-   :width: 6.5in
-   :height: 5.19861in
+   :width: 716
+   :height: 1006
+   :scale: 50 %
 .. |5-2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_control_LED/image2.png
-   :width: 6.30556in
-   :height: 7.43056in
+   :width: 716
+   :height: 867
+   :scale: 50 %
+   
 .. |5-4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_control_LED/image4.png
-   :width: 6.5in
-   :height: 4.85972in
+   :width: 704
+   :height: 355
+   :scale: 50 %
 .. |5-5| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_Server_to_control_LED/image5.png
-   :width: 6.5in
-   :height: 4.38889in
+   :width: 1208
+   :height: 940
+   :scale: 50 %

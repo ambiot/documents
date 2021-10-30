@@ -50,21 +50,26 @@ Code Reference
   module: https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-arduino.html
 
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image1.png
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 653
+   :height: 291
+   :scale: 100 %
 
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image2.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 2310
+   :height: 913
+   :scale: 25 %
 
 .. |image2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image3.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 884
+   :height: 524
+   :scale: 50 %
 
 .. |image3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image4.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 629
+   :height: 710
+   :scale: 50 %
 
 .. |image4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_Images_On_E_Paper/image5.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 752
+   :height: 969
+   :scale: 50 %

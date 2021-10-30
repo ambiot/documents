@@ -21,15 +21,17 @@ Connect the potentiometer, microphone and 3.5mm connector to the RTL8722
 board following the diagram.
 
 .. image:: ../media/BasicInputOutput/image1.png
-   :width: 2.55208in
-   :height: 2.125in
+   :width: 562
+   :height: 468
+   :scale: 100 %
 
-Open the example, "Files" -> "Examples" -> "AmebaAudioCodec" ->
-"BasicInputOutput".
+Open the example, "Files" -> "Examples" -> “AmebaAudioCodec” ->
+“BasicInputOutput”.
 
 .. image:: ../media/BasicInputOutput/image2.png
-   :width: 2.03125in
-   :height: 2.77083in
+   :width: 608
+   :height: 830
+   :scale: 100 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.

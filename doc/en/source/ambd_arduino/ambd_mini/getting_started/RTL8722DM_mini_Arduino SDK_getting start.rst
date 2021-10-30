@@ -1,7 +1,7 @@
-Getting Started with RTL8722DM_MINI
+Getting Started with RTL8722DM_mini
 ===========================================================
 
-**Ameba ARDUINO: Getting Started with RTL8722DM_MINI**
+**Ameba ARDUINO: Getting Started with RTL8722DM MINI**
 
 Required Environment
 
@@ -22,16 +22,18 @@ applications on smart devices to realize IoT implementation.
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image1.jpeg
    :alt: get-start-1
-   :width: 3.64583in
-   :height: 3.64583in
+   :width: 393
+   :height: 699
+   :scale: 100 %
 
 RTL8722DM_MINI has smaller size than Arduino Uno, as shown in the above
 figure.
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image2.jpeg
    :alt: get-start-2
-   :width: 3.64583in
-   :height: 3.64583in
+   :width: 337
+   :height: 558
+   :scale: 100 %
 
 | RTL8722DM_MINI uses Micro USB to supply power, which is common in many
   smart devices.
@@ -40,8 +42,9 @@ figure.
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image3.png
    :alt: get-start-3
-   :width: 6.5in
-   :height: 3.25in
+   :width: 1431
+   :height: 716
+   :scale: 50 %
 
 === ======== ======== === === ========== ========= ========
     PIN name GPIO INT ADC PWM UART       SPI       I2C
@@ -80,8 +83,9 @@ power):
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image2.jpeg
    :alt: get-start-4
-   :width: 3.64583in
-   :height: 3.64583in
+   :width: 337
+   :height: 558
+   :scale: 100 %
 
 | If this is the first time you connect RTL8722DM_MINI to your computer,
   the USB driver for RTL8722DM_MINI will be automatic installed.
@@ -89,8 +93,9 @@ power):
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image4.jpeg
    :alt: get-start-5
-   :width: 2.60417in
-   :height: 2.60417in
+   :width: 298
+   :height: 628
+   :scale: 100 %
 
 Step 2. Set up Arduino IDE
 
@@ -103,106 +108,114 @@ link <https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/>`__.
 | Arduino IDE can be downloaded in the Arduino
   website: https://www.arduino.cc/en/Main/Software
 | When the installation is finished, open Arduino IDE. To set up
-  RTL8722DM_MINI correctly in Arduino IDE, go to "File" ->
-  "Preferences".
+  RTL8722DM_MINI correctly in Arduino IDE, go to “File” ->
+  “Preferences”.
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image5.jpeg
    :alt: get-start-6
-   :width: 3.64583in
-   :height: 3.64583in
+   :width: 386
+   :height: 441
+   :scale: 100 %
 
-And paste the following URL into "Additional Boards Manager URLs"
+And paste the following URL into “Additional Boards Manager URLs”
 field: https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json
 
-Next, go to "Tools" -> "Board" -> "Boards Manager":
+Next, go to “Tools” -> “Board” -> “Boards Manager”:
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image6.jpeg
    :alt: get-start-7
-   :width: 6.25in
-   :height: 6.25in
+   :width: 664
+   :height: 600
+   :scale: 100 %
 
-The "Boards Manager" requires about 10~20 seconds to refresh all
+The “Boards Manager” requires about 10~20 seconds to refresh all
 hardware files (if the network is in bad condition, it may take longer).
 Every time the new hardware is connected, we need to reopen the Board
 Manager. So, we close the Boards Manager, and then open it again. Find
-"Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)" in the list,
-click "Install", then the Arduino IDE starts to download required files
+“Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)” in the list,
+click “Install”, then the Arduino IDE starts to download required files
 for AmebaD.
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image7.jpeg
    :alt: get-start-8
-   :width: 6.25in
-   :height: 6.25in
+   :width: 800
+   :height: 450
+   :scale: 50 %
 
 | If you are facing GitHub downloading issue, please refer to the
-  following link at "Download/Software Development Kit". There are 3
+  following link at “Download/Software Development Kit”. There are 3
   sections.
-| 1. "AmebaD_Arduino_patch1_SDK", please select at least 1 of the SDKs.
+| 1. “AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs.
   There are 5 latest released SDK options.
-| 2. "AmebaD_Arduino_patch2_Tools", please select according to your
+| 2. “AmebaD_Arduino_patch2_Tools”, please select according to your
   operation system. There are Windows, Linux and MacOS.
-| 3. "AmebaD_Arduino_Source_Code", this section is optional download
+| 3. “AmebaD_Arduino_Source_Code”, this section is optional download
   only wants to refer the latest source code.
 
 `https://www.amebaiot.com.cn/en/ameba-arduino-summary/ <https://www.amebaiot.com.cn/ameba-arduino-summary/>`__
 
 Download the files selected, then unzip (patch1 and patch2 are
-compulsory). There are "Install.doc"/"Install.pdf" for you to refer
+compulsory). There are “Install.doc”/“Install.pdf” for you to refer
 installation steps. According to your system, please run the
-installation tool in the "Offline_SDK_installation_tool" folder.
+installation tool in the “Offline_SDK_installation_tool” folder.
 
 After the installation tool running successfully, you may open Arduino
-IDE and proceed to "tools" -> "Board" -> "Boards Manager…". Try to find
-"Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)" in the list,
-click "Install", then the Arduino IDE starts to download required files
+IDE and proceed to “tools” -> “Board“ -> “Boards Manager…”. Try to find
+“Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)” in the list,
+click “Install”, then the Arduino IDE starts to download required files
 for AmebaD.
 
-Finally, we select AmebaD as current connected board in "tools" ->
-"Board" -> "Ameba ARM (32-bits) Boards" ->" RTL8722DM_MINI":
+Finally, we select AmebaD as current connected board in “tools” ->
+“Board” -> “Ameba ARM (32-bits) Boards” ->” RTL8722DM_MINI”：
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image8.jpeg
    :alt: get-start-9
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 824
+   :height: 600
+   :scale: 50 %
 
 Try the First Example
 
 Step 1. Compile & Upload
 
 | Arduino IDE provides many built-in examples, which can be compiled,
-  uploaded and run directly on the boards. Here, we take the "Blink"
+  uploaded and run directly on the boards. Here, we take the “Blink”
   example as the first try.
-| Open "File" -> "Examples" -> "01.Basics" -> "Blink":
+| Open “File” -> “Examples” -> “01.Basics” -> “Blink”:
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image9.jpeg
    :alt: get-start-10
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 588
+   :height: 711
+   :scale: 100 %
 
 Arduino IDE opens a new window with the complete sample code.
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image10.jpeg
    :alt: get-start-11
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 678
+   :height: 746
+   :scale: 50 %
 
-| There are onboard LED of TRL8722DM_MINI, the default "LED_BUILTIN" is
+| There are onboard LED of TRL8722DM_MINI, the default “LED_BUILTIN” is
   blue onboard LE.D
-| Change "LED_BUILTIN" to "LED_B" or "LED_G" for different colour.
+| Change “LED_BUILTIN” to “LED_B” or “LED_G” for different colour.
   Onboard LEDs options LED_B and LED_G. (blue and green).
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image11.jpeg
    :alt: get-start-12
-   :width: 3.64583in
-   :height: 3.64583in
+   :width: 393
+   :height: 613
+   :scale: 100 %
 
-Next, we compile the sample code directly; click "Sketch" ->
-"Verify/Compile"
+Next, we compile the sample code directly; click “Sketch” ->
+“Verify/Compile”
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image12.jpeg
    :alt: get-start-13
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 678
+   :height: 746
+   :scale: 50 %
 
 Arduino IDE prints the compiling messages in the bottom area of the IDE
 window. When the compilation is finished, you will get the message
@@ -210,20 +223,22 @@ similar to the following figure:
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image13.jpeg
    :alt: get-start-14
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 678
+   :height: 746
+   :scale: 50 %
 
 | Afterwards, we will upload the compiled code to RTL8722DM_MINI.
 | Please make sure RTL8722DM_MINI is connected to your computer, then
-  click "Sketch" -> "Upload".
+  click “Sketch” -> “Upload”.
 | The Arduino IDE will compile first then upload. During the uploading
   process, users are required to enter the upload mode of the board.
   Arduino IDE will wait 5s for DEV board to enter the upload mode.
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image14.jpeg
    :alt: get-start-15
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 711
+   :height: 752
+   :scale: 50 %
 
 To enter the upload mode, first press and hold the UART_DOWNLOAD button,
 then press the RESET button. If success, you should see the onboard
@@ -231,12 +246,13 @@ green LED and blue LED all turned off.
 
 .. image:: ../media/RTL8722DM_mini_Arduino_SDK_getting_start/image15.jpeg
    :alt: get-start-16
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 528
+   :height: 459
+   :scale: 100 %
 
 Again, during the uploading procedure the IDE prints messages. Uploading
 procedure takes considerably longer time (about 30 seconds to 1 minute).
-When upload completed, the "Done uploading" message is printed.
+When upload completed, the “Done uploading” message is printed.
 
 Run the Blink example
 

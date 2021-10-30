@@ -11,7 +11,7 @@ Example
 In this example, we use the Ameba RTL8722 module connects to a Waveshare
 2.9inch e-Paper module to display a few QR codes. The display uses the
 flexible substrate as the base plate, with interface and a reference
-system design.The 2.9" active area contains 296×128 pixels and has 1-bit
+system design.The 2.9” active area contains 296×128 pixels and has 1-bit
 white/black full display capabilities. An integrated circuit contains
 gate buffer, source buffer, interface, timing control logic, oscillator,
 etc… are supplied with each panel. You may refer to the
@@ -19,8 +19,8 @@ official `2.9inch e-Paper HAT (D)
 datasheet <https://www.waveshare.net/w/upload/b/b5/2.9inch_e-Paper_(D)_Specification.pdf>`__ to
 know more about this module. Front view of the e-Paper
 Module:|1|\ RTL8722 wiring diagram:|image1|\ |image2|\ Firstly, you need
-to open the "DisplayQR" example in "File" -> "Examples" -> "AmebaEink"
--> "EinkDisplayQR":|image3|\ Modify the URL in the loop() section as
+to open the “DisplayQR” example in “File” -> “Examples” -> “AmebaEink”
+-> “EinkDisplayQR”:|image3|\ Modify the URL in the loop() section as
 your wish, after that, verify and upload the code to the Ameba board.
 Upon successfully upload the sample code and press the reset button, a
 QR code generated based on the URL of your input will be shown on the
@@ -40,17 +40,22 @@ Code Reference
   systems: https://github.com/ricmoo/QRCode#data-capacities
 
 .. |1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_User_Generated_QR_Code_on_E_Paper/image1.png
-   :width: 5.89583in
-   :height: 7.40972in
+   :width: 654
+   :height: 281
+   :scale: 100 %
 .. |image1| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_User_Generated_QR_Code_on_E_Paper/image2.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 2310
+   :height: 913
+   :scale: 25 %
 .. |image2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_User_Generated_QR_Code_on_E_Paper/image3.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 884
+   :height: 524
+   :scale: 50 %
 .. |image3| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_User_Generated_QR_Code_on_E_Paper/image4.png
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 727
+   :height: 640
+   :scale: 50 %
 .. |image4| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Display_User_Generated_QR_Code_on_E_Paper/image5.jpeg
-   :width: 6.5in
-   :height: 5.64931in
+   :width: 1328
+   :height: 1027
+   :scale: 50 %

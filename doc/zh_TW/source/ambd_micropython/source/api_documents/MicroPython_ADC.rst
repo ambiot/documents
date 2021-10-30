@@ -32,5 +32,6 @@ Unit Pin
 Read the value on the analog pin and return it.
 
 .. |image1| image:: ../media/api_documents/imageADC.jpg
-   :width: 6.16667in
-   :height: 4.34167in
+   :width: 1320
+   :height: 987
+   :scale: 50 %

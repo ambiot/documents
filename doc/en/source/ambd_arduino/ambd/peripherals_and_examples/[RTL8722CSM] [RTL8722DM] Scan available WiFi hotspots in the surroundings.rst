@@ -20,8 +20,9 @@ Open the “ScanNetworks” example in “File” -> “Examples” -> “AmebaW
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Scan_available_WiFi_hotspots_in_the_surroundings/image1.png
    :alt: wifi-1-2
-   :width: 6in
-   :height: 8.5in
+   :width: 716
+   :height: 1006
+   :scale: 50 %
 
  
 
@@ -31,8 +32,9 @@ detected WiFi hotspots and the information of each hotspot.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Scan_available_WiFi_hotspots_in_the_surroundings/image2.png
    :alt: wifi-1-2
-   :width: 6in
-   :height: 8.5in
+   :width: 704
+   :height: 530
+   :scale: 50 %
 
 Code Reference
 

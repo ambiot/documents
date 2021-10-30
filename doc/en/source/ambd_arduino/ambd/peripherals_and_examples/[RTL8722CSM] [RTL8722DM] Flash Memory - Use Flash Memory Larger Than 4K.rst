@@ -23,8 +23,9 @@ First, open the sample code in “File” -> “Examples” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Flash_Memory_Use_Flash_Memory_Larger_Than_4K/image1.png
    :alt: 1
-   :width: 6.5in
-   :height: 3.975in
+   :width: 677
+   :height: 591
+   :scale: 100 %
 
 Code Reference
 

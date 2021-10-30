@@ -25,8 +25,9 @@ of LED (common anode / common cathode).
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_PWM_over_BLE_UART/image1.png
    :alt: 1
-   :width: 6.25in
-   :height: 7.40972in
+   :width: 1383
+   :height: 1048
+   :scale: 50 %
 
 | Ensure that the required app is installed on your smartphone, it is
   available at:
@@ -44,8 +45,9 @@ finished.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_PWM_over_BLE_UART/image2.png
    :alt: 1
-   :width: 6.25in
-   :height: 5.99306in
+   :width: 682
+   :height: 1202
+   :scale: 50 %
 
 Open the app on your smartphone, scan and connect to the board shown as
 “AMEBA_BLE_DEV” and choose the controller -> color picker function in
@@ -53,18 +55,21 @@ the app.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_PWM_over_BLE_UART/image3.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 916
+   :height: 1317
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_PWM_over_BLE_UART/image4.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 916
+   :height: 1317
+   :scale: 50 %
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_PWM_over_BLE_UART/image5.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 1440
+   :height: 2880
+   :scale: 25 %
 
 Using the color selection wheel, saturation, and brightness sliders,
 choose a desired color and click select to send the RGB values to the
@@ -72,8 +77,9 @@ board. You should see the RGB LED change to the matching color.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_PWM_over_BLE_UART/image6.png
    :alt: 1
-   :width: 4.16667in
-   :height: 5.99306in
+   :width: 916
+   :height: 1317
+   :scale: 50 %
 
 Code Reference
 

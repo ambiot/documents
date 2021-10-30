@@ -30,9 +30,10 @@ For the second Ameba board, open the example “Files” -> “Examples” ->
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_Battery_Client/image1.png
    :alt: 2
-   :width: 6.02778in
-   :height: 3.45833in
-
+   :width: 832
+   :height: 1006
+   :scale: 50 %
+   
 Upload the code and press the reset button on Ameba once the upload is
 finished.
 
@@ -42,8 +43,9 @@ board with the battery service.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_BLE_Battery_Client/image2.png
    :alt: 3
-   :width: 5.20833in
-   :height: 5.20833in
+   :width: 741
+   :height: 588
+   :scale: 50 %
 
 Highlighted in yellow, the Ameba board with the battery client first
 scans for advertising BLE devices with the advertised device name

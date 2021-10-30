@@ -11,16 +11,17 @@ Example
 | In this example, the HttpClient library is used to retrieve a webpage
   using the HTTP protocol.
 | First, make sure that the correct Ameba development board is selected
-  in "Tools" -> "Board"
+  in “Tools” -> “Board”
 
  
 
-Then open "File" -> "Examples" -> "AmebaHttp" -> "SimpleHttpExample"
+Then open “File” -> “Examples” -> “AmebaHttp” -> “SimpleHttpExample”
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_to_retrieve_HTTP_websites_from_the_internet/image1.png
    :alt: 4-1
-   :width: 6.35417in
-   :height: 7.39583in
+   :width: 721
+   :height: 1006
+   :scale: 50 %
 
 In the sample code, modify the highlighted section to enter the
 information required (ssid, password, key index) to connect to your WiFi
@@ -33,8 +34,9 @@ network.
 
 .. image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_to_retrieve_HTTP_websites_from_the_internet/image3.png
    :alt: 4-3
-   :width: 6.5in
-   :height: 4.85972in
+   :width: 721
+   :height: 864
+   :scale: 50 %
 
  
 
@@ -58,5 +60,6 @@ Code Reference
 Use http.get() to send a GET request to the website.
 
 .. |4-2| image:: ../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_to_retrieve_HTTP_websites_from_the_internet/image2.png
-   :width: 6.5in
-   :height: 5.77431in
+   :width: 757
+   :height: 499
+   :scale: 50 %
