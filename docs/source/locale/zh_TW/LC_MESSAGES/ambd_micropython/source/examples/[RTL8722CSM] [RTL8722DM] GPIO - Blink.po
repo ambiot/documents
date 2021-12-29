@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:8
+#: GPIO [RTL8722DM]
+msgid "[RTL8722CSM] [RTL8722DM] GPIO - Blink"
+msgstr "[RTL8722CSM] [RTL8722DM] GPIO - 閃爍LED"
+
+#: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:13
+#: GPIO [RTL8722DM]
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
+
+#: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:17
+#: GPIO [RTL8722DM]
+msgid "Ameba x 1"
+msgstr ""
+
+#: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:18
+#: GPIO [RTL8722DM]
+msgid "LED x 1"
+msgstr ""
+
+#: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:19
+#: GPIO [RTL8722DM]
+msgid "Resistor(220ohm) x 1"
+msgstr "電阻（阻值200歐姆）x 1"
+
+#: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:21
+#: GPIO [RTL8722DM]
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
+"html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例說明** :raw-"
+"html:`</p>`"
+
+#: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:25
+#: GPIO [RTL8722DM]
+msgid "Blink is one of the best examples to get started with MicroPython."
+msgstr "閃爍LED是開始瞭解並使用MicroPython最好示例。"
+
+#: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:27
+#: GPIO [RTL8722DM]
+msgid ""
+"Let us connect pin PB_22 to the anode leg of an LED which in series with "
+"a current limiting resistor and GND to cathode of the LED as shown below,"
+msgstr ""
+"首先，如下圖所示將PB_22引脚連接到與限流電阻串聯的LED的陽極引脚，再將GND連接到LED的陰極引脚："
+
+#: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:29
+#: GPIO [RTL8722DM]
+msgid "|image1|"
+msgstr ""
+
+#: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:51
+#: GPIO [RTL8722DM]
+msgid "image1"
+msgstr ""
+
+#: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:31
+#: GPIO [RTL8722DM]
+msgid ""
+"Then, copy the following code and press ``Ctrl + e`` in ``REPL`` to enter"
+" the paste mode (for more information about ``REPL`` and paste mode, "
+"check “:doc:`../getting_started/mp_getting_started`” page). If you are "
+"using ``Tera Term``, simply right click on any blank space of the "
+"terminal and paste the code into ``REPL``, then press ``Ctrl + d`` to "
+"execute the code. If everything is order, you should be able to see the "
+"LED blink for 3 times in 3 seconds."
+msgstr ""
+"然後，複製以下代碼並在 ``REPL`` 界面中按 ``Ctrl + E`` 進入 ``REPL`` 的粘貼模式"
+"（有關 ``REPL`` 和粘貼模式的更多信息，請前往“:doc:`../getting_started/getting_started`”頁面）。"
+"如果使用 ``Tera Term``，只需右鍵單擊終端的任何空白處即可將代碼粘貼到 ``REPL``，然後按 ``Ctrl + D`` 執行代碼。"
+

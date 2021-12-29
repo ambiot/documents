@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/I2C - Display Data On LCD Screen.rst

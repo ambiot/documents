@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:3 Listen MQTT To
+#: Upload
+msgid "Use MQTT To Upload And Listen To Data"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:8 Listen MQTT To
+#: Upload
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Intro to MQTT**"
+" :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:12 Listen MQTT
+#: To Upload
+msgid ""
+"MQTT (Message Queuing Telemetry Transport) is a protocol proposed by IBM "
+"and Eurotech. The introduction in `MQTT Official Website "
+"<http://mqtt.org/>`__: MQTT is a machine-to-machine (M2M)/”Internet of "
+"Things” connectivity protocol. It was designed as an extremely "
+"lightweight publish/subscribe messaging transport. We can say MQTT is a "
+"protocol designed for IoT. MQTT is based on TCP/IP and transmits/receives"
+" data via publish/subscribe. Please refer to the figure below:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:21 Listen MQTT
+#: To Upload
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:87 Listen MQTT
+#: To Upload
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:23 Listen MQTT
+#: To Upload
+msgid "In the operation of MQTT, there are several roles:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:25 Listen MQTT
+#: To Upload
+msgid ""
+"**Publisher**: Usually publishers are the devices equipped with sensors "
+"(ex. Ameba). Publishers uploads the data of the sensors to MQTT-Broker, "
+"which serves as a database with MQTT service."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:29 Listen MQTT
+#: To Upload
+msgid ""
+"**Subscriber**: Subscribers are referred to the devices which receive and"
+" observe messages, such as a laptop or a mobile phone."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:32 Listen MQTT
+#: To Upload
+msgid ""
+"**Topic**: Topic is used to categorized the messages, for example the "
+"topic of a message can be “PM2.5” or “Temperature”. Subscribers can "
+"choose messages of which topics they want to receive."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:36 Listen MQTT
+#: To Upload
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:40 Listen MQTT
+#: To Upload
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:42 Listen MQTT
+#: To Upload
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:47 Listen MQTT
+#: To Upload
+msgid ""
+"In this example, we connect Ameba to MQTT-Broker. Then send messages as "
+"publisher and receive messages from MQTT-Broker as subscriber."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:49 Listen MQTT
+#: To Upload
+msgid ""
+"Open the MQTT example ``“File” -> “Examples” -> “AmebaMQTTClient” -> "
+"“MQTT_Basic”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:50 Listen MQTT
+#: To Upload
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:91 Listen MQTT
+#: To Upload
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:51 Listen MQTT
+#: To Upload
+msgid "Please modify some WiFi-related parameters."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:52 Listen MQTT
+#: To Upload
+msgid "And some information related to MQTT:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:53 Listen MQTT
+#: To Upload
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:95 Listen MQTT
+#: To Upload
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:55 Listen MQTT
+#: To Upload
+msgid ""
+"The “mqttServer” refers to the MQTT-Broker, we use the free MQTT sandbox "
+"“test.mosquitto.org” for testing."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:58 Listen MQTT
+#: To Upload
+msgid ""
+"“clientId” is an identifier for MQTT-Broker to identify the connected "
+"device."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:59 Listen MQTT
+#: To Upload
+msgid ""
+"“publishTopic” is the topic of the published message, we use “outTopic” "
+"in the example. The devices subscribe to “outTopic” will receive the "
+"message."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:61 Listen MQTT
+#: To Upload
+msgid "“publishPayload” is the content to be published."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:62 Listen MQTT
+#: To Upload
+msgid ""
+"“subscribeTopic” is to tell MQTT-broker which topic we want to subscribe "
+"to."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:64 Listen MQTT
+#: To Upload
+msgid ""
+"Next, compile the code and upload it to Ameba. Press the reset button, "
+"then open the serial monitor"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:65 Listen MQTT
+#: To Upload
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:99 Listen MQTT
+#: To Upload
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:66 Listen MQTT
+#: To Upload
+msgid ""
+"After Ameba is connected to MQTT server, it sends the message “hello "
+"world” to “outTopic”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:67 Listen MQTT
+#: To Upload
+msgid "To see the message, we need another MQTT client."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:68 Listen MQTT
+#: To Upload
+msgid ""
+"Here we use a chrome plugin “MQTTLens” to be the MQTT client. You can "
+"find it in google webstore."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:69 Listen MQTT
+#: To Upload
+msgid "|5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:103 Listen MQTT
+#: To Upload
+msgid "5"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:71 Listen MQTT
+#: To Upload
+msgid ""
+"Install and open the MQTTLens, click “+” next to “Connection” on the "
+"left, and fill in the required information"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:74 Listen MQTT
+#: To Upload
+msgid ""
+"**Connection Name**: Used to identify the connection, you can choose a "
+"name you like."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:76 Listen MQTT
+#: To Upload
+msgid "**Hostname**: The MQTT-Broker server, here we use “iot.eclipse.org”"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:77 Listen MQTT
+#: To Upload
+msgid "**Client ID**: We use the default randomly generated ID."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:79 Listen MQTT
+#: To Upload
+msgid "Then click “CREATE CONNECTION”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:80 Listen MQTT
+#: To Upload
+msgid "|6|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:107 Listen MQTT
+#: To Upload
+msgid "6"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:81 Listen MQTT
+#: To Upload
+msgid ""
+"Since we have not registered the topic we want to listen to, we would not"
+" receive any messages now."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:82 Listen MQTT
+#: To Upload
+msgid "Fill in “outTopic” in the “Topic” field and click “Subscribe”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:84 Listen MQTT
+#: To Upload
+msgid ""
+"Wait for Ameba to send next message (or you can press the reset button). "
+"Then you can see the “hello world” message show up."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:85 Listen MQTT
+#: To Upload
+msgid "|7|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use And Data.rst:111 Listen MQTT
+#: To Upload
+msgid "7"
+msgstr ""
+

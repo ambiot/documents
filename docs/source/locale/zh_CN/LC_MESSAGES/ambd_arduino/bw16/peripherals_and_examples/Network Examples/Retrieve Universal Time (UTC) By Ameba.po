@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:3 By
+#: Time Universal
+msgid "Retrieve Universal Time (UTC) By Ameba"
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:8 By
+#: Time Universal
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:12 By
+#: Time Universal
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:14 By
+#: Time Universal
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:22 By
+#: Time Universal
+msgid ""
+"In this example, we connect Ameba to WiFi. Then send NTP (Network Time "
+"Protocol, RFC 1305) request to NTP server using UDP. After receiving the "
+"NTP request, the NTP server replies current UTC (Coordinated Universal "
+"Time) packet. We will parse the UTC packet to show current UTC time in "
+"the serial monitor."
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:23 By
+#: Time Universal
+msgid ""
+"Open the example: ``“File” -> “Examples” -> “AmebaWiFi” -> "
+"“WiFiUdpNtpClient”``"
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:24 By
+#: Time Universal
+msgid "|1|"
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:34 By
+#: Time Universal
+msgid "1"
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:26 By
+#: Time Universal
+msgid ""
+"Modify the highlighted code section (ssid, password, keyindex) to connect"
+" to your WiFi network."
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:27 By
+#: Time Universal
+msgid "|2|"
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:38 By
+#: Time Universal
+msgid "2"
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:30 By
+#: Time Universal
+msgid ""
+"Compile the code and upload it to Ameba. After pressing the Reset button,"
+" Ameba connects to WiFi and sends NTP request packet to NTP server "
+"“129.6.15.28”."
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:31 By
+#: Time Universal
+msgid "We parse the replied packet and show UTC time in serial monitor:"
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:32 By
+#: Time Universal
+msgid "|3|"
+msgstr ""
+
+#: (UTC) ../../source/ambd_arduino/examples/network/Retrieve Ameba.rst:42 By
+#: Time Universal
+msgid "3"
+msgstr ""
+

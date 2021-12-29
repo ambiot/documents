@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/Access IFTTT Via Ameba.rst

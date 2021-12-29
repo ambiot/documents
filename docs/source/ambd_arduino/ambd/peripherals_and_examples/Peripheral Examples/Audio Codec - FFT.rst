@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/Audio Codec - FFT.rst

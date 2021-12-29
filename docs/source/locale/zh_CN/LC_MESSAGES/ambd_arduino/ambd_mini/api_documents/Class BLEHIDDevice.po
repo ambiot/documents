@@ -1,0 +1,636 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:2
+msgid "Class BLEHIDDevice"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:4
+msgid "**BLEHIDDevice Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:6
+#: BLEHIDDevice.rst:71 BLEHIDDevice.rst:92 BLEHIDDevice.rst:113
+#: BLEHIDDevice.rst:134 BLEHIDDevice.rst:157 BLEHIDDevice.rst:182
+#: BLEHIDDevice.rst:208 BLEHIDDevice.rst:233 BLEHIDDevice.rst:259
+#: BLEHIDDevice.rst:280 BLEHIDDevice.rst:310 BLEHIDDevice.rst:332
+#: BLEHIDDevice.rst:353 BLEHIDDevice.rst:374 BLEHIDDevice.rst:395
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:8
+msgid ""
+"A class used for creating and managing HID over GATT Profile (HOGP) "
+"services."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:11
+#: BLEHIDDevice.rst:74 BLEHIDDevice.rst:95 BLEHIDDevice.rst:116
+#: BLEHIDDevice.rst:138 BLEHIDDevice.rst:160 BLEHIDDevice.rst:185
+#: BLEHIDDevice.rst:211 BLEHIDDevice.rst:236 BLEHIDDevice.rst:262
+#: BLEHIDDevice.rst:283 BLEHIDDevice.rst:313 BLEHIDDevice.rst:335
+#: BLEHIDDevice.rst:356 BLEHIDDevice.rst:377 BLEHIDDevice.rst:398
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:12
+msgid "class BLEHIDDevice"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:14
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:17
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:19
+msgid ""
+"The public constructor should not be used as this class is intended to be"
+" a singleton class. Access member functions using the object instance "
+"named BLEHIDDev."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:25
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:27
+msgid "BLEHIDDevice::init"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:27
+msgid "Initialize the HID Device Profile by creating the required services"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:30
+msgid "BLEHIDD evice::setNumOutputReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:30
+msgid "Configure the number of HID output reports"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:33
+msgid "BLEHID Device::setNumInputReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:33
+msgid "Configure the number of HID input reports"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:36
+msgid "B LEHIDDevice::setReportMap"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:36
+msgid "Configure the HID report map"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:39
+msgid "BLEHIDDevice::inputReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:39
+msgid "Send a HID input report"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:41
+msgid "BLEHIDDevice ::setOutputReportCallback"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:41
+msgid "Set a user callback function for receiving HID output reports"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:44
+msgid "BLEHIDD evice::bootKeyboardReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:44
+msgid "Send a HID boot keyboard input report"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:47
+msgid "BLEHIDDevice::setHidInfo"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:47
+msgid "Set HID info of the HID service"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:49
+msgid "B LEHIDDevice::setBattLevel"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:49
+msgid "Set battery level info of the Battery service"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:52
+msgid "BLEHIDDevice::setPNPInfo"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:52
+msgid "Set PNP information of the Device Information service"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:55
+msgid "BLEHIDDevi ce::setManufacturerString"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:55
+msgid "Set manufacturer information of the Device Information service"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:58
+msgid "BLE HIDDevice::setModelString"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:58
+msgid "Set model information of the Device Information service"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:61
+msgid "BLEHIDDevice::hidService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:61
+#: BLEHIDDevice.rst:354
+msgid "Get reference to HID service"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:63
+msgid "BLE HIDDevice::devInfoService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:63
+#: BLEHIDDevice.rst:375
+msgid "Get reference to Device Information service"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:66
+msgid "BLEHIDDevice::battService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:66
+#: BLEHIDDevice.rst:396
+msgid "Get reference to Battery service"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:69
+msgid "**BLEHIDDevice::init**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:72
+msgid "Initialize the HID Device profile by creating the required services."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:75
+msgid "void init(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:77
+#: BLEHIDDevice.rst:98 BLEHIDDevice.rst:119 BLEHIDDevice.rst:141
+#: BLEHIDDevice.rst:164 BLEHIDDevice.rst:189 BLEHIDDevice.rst:215
+#: BLEHIDDevice.rst:239 BLEHIDDevice.rst:265 BLEHIDDevice.rst:287
+#: BLEHIDDevice.rst:316 BLEHIDDevice.rst:338 BLEHIDDevice.rst:359
+#: BLEHIDDevice.rst:380 BLEHIDDevice.rst:401
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:78
+#: BLEHIDDevice.rst:360 BLEHIDDevice.rst:381 BLEHIDDevice.rst:402
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:80
+#: BLEHIDDevice.rst:101 BLEHIDDevice.rst:122 BLEHIDDevice.rst:145
+#: BLEHIDDevice.rst:170 BLEHIDDevice.rst:196 BLEHIDDevice.rst:220
+#: BLEHIDDevice.rst:247 BLEHIDDevice.rst:268 BLEHIDDevice.rst:297
+#: BLEHIDDevice.rst:320 BLEHIDDevice.rst:341 BLEHIDDevice.rst:362
+#: BLEHIDDevice.rst:383 BLEHIDDevice.rst:404
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:81
+#: BLEHIDDevice.rst:102 BLEHIDDevice.rst:123 BLEHIDDevice.rst:146
+#: BLEHIDDevice.rst:171 BLEHIDDevice.rst:197 BLEHIDDevice.rst:221
+#: BLEHIDDevice.rst:248 BLEHIDDevice.rst:269 BLEHIDDevice.rst:298
+#: BLEHIDDevice.rst:321 BLEHIDDevice.rst:342
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:83
+#: BLEHIDDevice.rst:104 BLEHIDDevice.rst:125 BLEHIDDevice.rst:148
+#: BLEHIDDevice.rst:173 BLEHIDDevice.rst:199 BLEHIDDevice.rst:223
+#: BLEHIDDevice.rst:250 BLEHIDDevice.rst:271 BLEHIDDevice.rst:300
+#: BLEHIDDevice.rst:323 BLEHIDDevice.rst:344 BLEHIDDevice.rst:366
+#: BLEHIDDevice.rst:387 BLEHIDDevice.rst:408
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:84
+#: BLEHIDDevice.rst:149
+msgid "Example: BLEHIDGamepad"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:86
+#: BLEHIDDevice.rst:107 BLEHIDDevice.rst:128 BLEHIDDevice.rst:151
+#: BLEHIDDevice.rst:176 BLEHIDDevice.rst:202 BLEHIDDevice.rst:226
+#: BLEHIDDevice.rst:253 BLEHIDDevice.rst:274 BLEHIDDevice.rst:303
+#: BLEHIDDevice.rst:326 BLEHIDDevice.rst:347 BLEHIDDevice.rst:369
+#: BLEHIDDevice.rst:390 BLEHIDDevice.rst:411
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:88
+msgid ""
+"The HID Device object should be initialized before any HID reports can be"
+" sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:90
+msgid "**BLEHIDDevice::setNumOutputReport**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:93
+msgid "Configure the number of HID output reports."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:96
+msgid "void setNumOutputReport (uint8_t numOutputReports);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:99
+msgid "numOutputReports: number of output reports"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:105
+#: BLEHIDDevice.rst:126 BLEHIDDevice.rst:174 BLEHIDDevice.rst:200
+#: BLEHIDDevice.rst:224 BLEHIDDevice.rst:251 BLEHIDDevice.rst:272
+#: BLEHIDDevice.rst:301 BLEHIDDevice.rst:324 BLEHIDDevice.rst:345
+#: BLEHIDDevice.rst:370 BLEHIDDevice.rst:391 BLEHIDDevice.rst:412
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:109
+msgid ""
+"The number of output reports should be configured before BLEHIDDevice "
+"init() function is called."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:111
+msgid "**BLEHIDDevice::setNumInputReport**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:114
+msgid "Configure the number of HID input reports."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:117
+msgid "void setNumInputReport (uint8_t numInputReports);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:120
+msgid "numInputReports: number of input reports"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:130
+msgid ""
+"The number of input reports should be configured before BLEHIDDevice "
+"init() function is called."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:132
+msgid "**BLEHIDDevice::setReportMap**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:136
+msgid "Configure the HID report map characteristic with a HID report descriptor."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:139
+msgid "void setReportMap (uint8_t\\* report_map, uint16_t len);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:142
+msgid "report_map: pointer to HID report descriptor"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:143
+msgid "len: HID report descriptor length in bytes"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:153
+msgid ""
+"The HID report map characteristic can only be configured after "
+"BLEHIDDevice init() function is called."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:155
+msgid "**BLEHIDDevice::inputReport**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:158
+msgid "Send a HID input report."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:162
+msgid ""
+"void inputReport (uint8_t reportID, uint8_t\\* data, uint16_t len, "
+"uint8_t conn_id);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:165
+msgid "reportID: HID report ID of input report"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:166
+#: BLEHIDDevice.rst:216
+msgid "data: pointer to HID input report data to send"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:167
+#: BLEHIDDevice.rst:217
+msgid "len: length of HID input report data in bytes"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:168
+#: BLEHIDDevice.rst:218
+msgid "conn_id: connection ID of device to send HID report to"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:178
+msgid ""
+"HID input reports can only be sent after BLEHIDDevice init() function has"
+" been called."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:180
+msgid "**BLEHIDDevice::setOutputReportCallback**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:183
+msgid "Set a user callback function for receiving HID output report data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:187
+msgid ""
+"void setOutputReportCallback (uint8_t reportID, void (\\*fCallback) "
+"(BLECharacteristic\\* chr, uint8_t conn_id));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:191
+msgid "reportID: HID report ID of output report to link callback function with"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:193
+msgid ""
+"chr: BLECharacteristic class object containing received HID output report"
+" data"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:194
+msgid "conn_id: connection ID of device which sent HID report data"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:204
+msgid ""
+"Setting a user callback function for output reports can only occur after "
+"BLEHIDDevice init() function has been called."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:206
+msgid "**BLEHIDDevice::bootKeyboardReport**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:209
+msgid "Send a HID boot keyboard input report."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:213
+msgid "void bootKeyboardReport (uint8_t\\* data, uint16_t len, uint8_t conn_id);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:229
+msgid ""
+"By default, the HID service Protocol Mode characteristic has boot mode "
+"disabled. To send boot keyboard input reports, the Protocol Mode "
+"characteristic needs to have boot mode enabled."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:231
+msgid "**BLEHIDDevice::setHidInfo**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:234
+msgid "Set data of the HID Info characteristic of the HID service."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:237
+msgid "void setHidInfo (uint16_t bcd, uint8_t country, uint8_t flags);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:241
+msgid ""
+"bcd: 16-bit unsigned integer representing version number of base USB HID "
+"Specification implemented by HID Device"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:243
+msgid ""
+"country: 8-bit integer identifying country HID Device hardware is "
+"localized for. Most hardware is not localized (value 0x00)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:245
+msgid ""
+"flags: Bit flags indicating remote-wake capability and advertising when "
+"bonded but not connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:255
+msgid ""
+"For detailed information on the characteristic, refer to Bluetooth SIG "
+"HID Service specifications."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:257
+msgid "**BLEHIDDevice::setBattLevel**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:260
+msgid "Set battery level data of the Battery service."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:263
+msgid "void setBattLevel (uint8_t level);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:266
+#, python-format
+msgid "level: battery level expressed as % of full charge"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:276
+msgid ""
+"Battery level is set to 100% by default. For detailed information refer "
+"to Bluetooth SIG Battery service specifications."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:278
+msgid "**BLEHIDDevice::setPNPInfo**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:281
+msgid "Set PNP data of the Device Information service."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:285
+msgid ""
+"void setPNPInfo (uint8_t sig, uint16_t vid, uint16_t pid, uint16_t "
+"version);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:289
+msgid ""
+"sig: The Vendor ID Source field designates which organization assigned "
+"the value used in the Vendor ID field value."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:291
+msgid ""
+"vid: The Vendor ID field is intended to uniquely identify the vendor of "
+"the device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:293
+msgid ""
+"pid: The Product ID field is intended to distinguish between different "
+"products made by the vendor."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:295
+msgid ""
+"version: The Product Version field is a numeric expression identifying "
+"the device release number in Binary-Coded Decimal."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:306
+msgid ""
+"By default, sig and vid are configured to indicate Realtek as the vendor."
+" For detailed information refer to Bluetooth SIG Device Information "
+"service specifications."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:308
+msgid "**BLEHIDDevice::setManufacturerString**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:311
+msgid "Set manufacturer information of the Device Information service."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:314
+msgid "void setManufacturerString (const char\\* manufacturer);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:318
+msgid ""
+"manufacturer: pointer to character string containing manufacturer name "
+"info."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:328
+msgid ""
+"Manufacturer is set to “Realtek” by default. For detailed information "
+"refer to Bluetooth SIG Device Information service specifications."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:330
+msgid "**BLEHIDDevice::setModelString**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:333
+msgid "Set model information of the Device Information service."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:336
+msgid "void setModelString (const char\\* model);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:339
+msgid "model: pointer to character string containing device model info."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:349
+msgid ""
+"Model is set to “Ameba_BLE_HID” by default. For detailed information "
+"refer to Bluetooth SIG Device Information service specifications."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:351
+msgid "**BLEHIDDevice::hidService**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:357
+msgid "BLEService& hidService ();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:364
+msgid ""
+"The function returns a reference to the BLEService class object for the "
+"HID service."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:367
+#: BLEHIDDevice.rst:388 BLEHIDDevice.rst:409
+msgid "Example: BLEHIDMouse"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:372
+msgid "**BLEHIDDevice::devInfoService**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:378
+msgid "BLEService& devInfoService ();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:385
+msgid ""
+"The function returns a reference to the BLEService class object for the "
+"Device Information service."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:393
+msgid "**BLEHIDDevice::battService**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:399
+msgid "BLEService& battService ();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDDevice.rst:406
+msgid ""
+"The function returns a reference to the BLEService class object for the "
+"Battery service."
+msgstr ""
+

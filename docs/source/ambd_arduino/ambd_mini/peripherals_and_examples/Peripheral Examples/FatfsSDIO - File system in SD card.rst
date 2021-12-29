@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/FatfsSDIO - File system in SD card.rst

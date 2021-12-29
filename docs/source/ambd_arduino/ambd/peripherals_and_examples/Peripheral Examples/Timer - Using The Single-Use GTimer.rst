@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/Timer - Using The Single-Use GTimer.rst

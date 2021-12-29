@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/PWM - Using A Servo.rst

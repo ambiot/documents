@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/Ameba AP Mode.rst

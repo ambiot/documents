@@ -1,0 +1,940 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:3
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:7
+msgid "Ameba ARDUINO: Getting Started with RTL8722"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:10
+msgid "Required Environment"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:12
+msgid ""
+"AmebaD RTL8722DM board currently supports Windows OS 32-bits and 64-bits "
+"(WIN7/8/10), Linux OS (Ubuntu 18 LTS/20 LTS/latest) and macOS operating "
+"systems. Please use the latest OS version to have the best experiences. "
+"In this documentation, please use the latest version Arduino IDE (at "
+"least version 1.8.12)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:18
+msgid "Introduction to AmebaD RTL8722CSM/RTL8722DM"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:20
+msgid ""
+"Ameba is an easy-to-program platform for developing all kind of IoT "
+"applications. AmebaD is equipped with various peripheral interfaces, "
+"including WiFi, GPIO INT, I2C, UART, SPI, PWM, ADC. Through these "
+"interfaces, AmebaD can connect with electronic components such as LED, "
+"switches, manometer, hygrometer, PM2.5 dust sensors, …etc."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:25
+msgid ""
+"The collected data can be uploaded via WiFi and be utilized by "
+"applications on smart devices to realize IoT implementation."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:28
+msgid "|ambd-get-start-1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:242
+msgid "get-start-1"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:31
+msgid ""
+"RTL8722DM and Arduino Uno have similar size, as shown in the above "
+"figure, and the pins on RTL8722DM are compatible with Arduino Uno."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:32
+msgid ""
+"RTL8722DM uses Micro USB to supply power, which is common in many smart "
+"devices."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:33
+msgid ""
+"Please refer to the following figure and table for the pin diagram and "
+"function of RTL8722DM."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:35
+msgid "|ambd-get-start-2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:248
+msgid "get-start-2"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:38
+msgid "\\#"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:38
+msgid "PIN name"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:38
+msgid "GPIO"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:38
+msgid "ADC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:38
+msgid "PWM"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:38
+msgid "UART"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:38
+msgid "SPI"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:38
+msgid "I2C"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:40
+msgid "D00"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:40
+msgid "GPIOB_2"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:40
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:41
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:42
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:43
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:44
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:45
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:46
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:48
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:49
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:50
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:51
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:52
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:53
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:54
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:55
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:56
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:57
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:58
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:59
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:60
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:61
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:62
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:63
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:64
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:65
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:66
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:67
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:68
+msgid "✓"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:40
+msgid "ADC5"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:40
+msgid "UART3_RX(b)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:41
+msgid "D01"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:41
+msgid "GPIOB_1"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:41
+msgid "ADC4"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:41
+msgid "UART3_TX(b)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:42
+msgid "D02"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:42
+msgid "GPIOB_3"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:42
+msgid "ADC6"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:43
+msgid "D03"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:43
+msgid "GPIOB_31"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:44
+msgid "D04"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:44
+msgid "GPIOB_30"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:45
+msgid "D05"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:45
+msgid "GPIOB_28"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:46
+msgid "D06"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:46
+msgid "GPIOB_29"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:47
+msgid "D07"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:47
+msgid "NC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:48
+msgid "D08"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:48
+msgid "GPIOB_22"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:48
+msgid "PWM14"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:49
+msgid "D09"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:49
+msgid "GPIOB_23"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:49
+msgid "PWM15"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:50
+msgid "D10"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:50
+msgid "GPIOB_21"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:50
+msgid "PWM13"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:50
+msgid "UART0_RTS(b)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:50
+msgid "SPI0_CS"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:51
+msgid "D11"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:51
+msgid "GPIOB_18"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:51
+msgid "PWM10"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:51
+msgid "UART0_RX(b)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:51
+msgid "SPI0_MOSI"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:52
+msgid "D12"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:52
+msgid "GPIOB_19"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:52
+msgid "PWM11"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:52
+msgid "UART0_TX(b)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:52
+msgid "SPI0_MISO"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:53
+msgid "D13"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:53
+msgid "GPIOB_20"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:53
+msgid "PWM12"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:53
+msgid "UART0_CTS(b)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:53
+msgid "SPI0_CLK"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:54
+msgid "D14"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:54
+msgid "GPIOA_7"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:54
+msgid "UART2_TX(log)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:55
+msgid "D15"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:55
+msgid "GPIOA_8"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:55
+msgid "UART2_RX(log)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:56
+msgid "D16"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:56
+msgid "GPIOA_25"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:56
+msgid "PWM4"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:56
+msgid "UART3_RX(a)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:56
+msgid "I2C0_SCL"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:57
+msgid "D17"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:57
+msgid "GPIOA_26"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:57
+msgid "PWM5"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:57
+msgid "UART3_TX(a)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:57
+msgid "I2C0_SDA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:58
+msgid "D18"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:58
+msgid "GPIOB_7"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:58
+msgid "ADC3"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:58
+msgid "PWM17"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:58
+msgid "SPI1_CS"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:59
+msgid "D19"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:59
+msgid "GPIOB_6"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:59
+msgid "ADC2"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:59
+msgid "SPI1_CLK"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:60
+msgid "D20"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:60
+msgid "GPIOB_5"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:60
+msgid "ADC1"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:60
+msgid "PWM9"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:60
+msgid "SPI1_MISO"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:61
+msgid "D21"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:61
+msgid "GPIOB_4"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:61
+msgid "ADC0"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:61
+msgid "PWM8"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:61
+msgid "SPI1_MOSI"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:62
+msgid "D22"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:62
+msgid "GPIOA_28"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:63
+msgid "D23"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:63
+msgid "GPIOA_24"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:63
+msgid "PWM3"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:63
+msgid "UART0_CTS(a)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:63
+msgid "I2C1_SDA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:64
+msgid "D24"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:64
+msgid "GPIOA_23"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:64
+msgid "PWM2"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:64
+msgid "UART0_RTS(a)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:64
+msgid "I2C1_SCL"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:65
+msgid "D25"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:65
+msgid "GPIOA_22"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:65
+msgid "UART0_RX(a)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:66
+msgid "D26"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:66
+msgid "GPIOA_21"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:66
+msgid "UART0_TX(a)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:67
+msgid "D27"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:67
+msgid "GPIOA_20"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:68
+msgid "D28"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:68
+msgid "GPIOA_19"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:71
+msgid "|ambd-get-start-3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:254
+msgid "get-start-3"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:76
+msgid "Setting up Development Environment"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:79
+msgid "Step 1. Installing the Driver"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:81
+msgid "First, connect RTL8722DM to the computer via Micro USB:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:83
+msgid "|ambd-get-start-4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:260
+msgid "get-start-4"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:86
+msgid ""
+"If this is the first time you connect RTL8722DM to your computer, the USB"
+" driver for RTL8722DM will be automatic installed."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:88
+msgid ""
+"If you have driver issue of connect board to your computer please go to "
+"`here <https://ftdichip.com/drivers/>`_ for USB driver."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:89
+msgid "You can check the COM port number in Device Manager of your computer:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:91
+msgid "|ambd-get-start-5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:266
+msgid "get-start-5"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:94
+msgid "Step 2. Set up Arduino IDE"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:96
+msgid ""
+"From version 1.6.5, Arduino IDE supports third-party hardware. Therefore,"
+" we can use Arduino IDE to develop applications on RTL8722DM, and the "
+"examples of Arduino can run on RTL8722DM too. Arduino IDE can be "
+"downloaded in the `Arduino website "
+"<https://www.arduino.cc/en/Main/Software>`_."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:101
+msgid ""
+"When the installation is finished, open Arduino IDE. To set up RTL8722DM "
+"correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:104
+msgid "|ambd-get-start-6|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:272
+msgid "get-start-6"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:106
+msgid ""
+"And paste the following URL into :guilabel:`“Additional Boards Manager "
+"URLs”` field::"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:112
+msgid "Next, go to :guilabel:`“Tools” -> “Board” -> “Boards Manager”`:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:114
+msgid "|ambd-get-start-7|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:278
+msgid "get-start-7"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:116
+msgid ""
+"The :guilabel:`“Boards Manager”` requires about 10~20 seconds to refresh "
+"all hardware files (if the network is in bad condition, it may take "
+"longer). Every time the new hardware is connected, we need to reopen the "
+"Board Manager. So, we close the :guilabel:`“Boards Manager”`, and then "
+"open it again. Find :guilabel:`“Realtek AmebaD Boards (32-bits ARM "
+"Cortex-M4 @200MHz)”` in the list, click :guilabel:`“Install”`, then the "
+"Arduino IDE starts to download required files for RTL8722DM."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:124
+msgid "|ambd-get-start-8|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:284
+msgid "get-start-8"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:128
+msgid ""
+"If you are facing GitHub downloading issue, please refer to the following"
+" link at `Download/Software Development Kit`_. There are 3 sections:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:130
+msgid ""
+"“AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There "
+"are 5 latest released SDK options."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:131
+msgid ""
+"“AmebaD_Arduino_patch2_Tools”, please select according to your operation "
+"system. There are Windows, Linux and MacOS."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:132
+msgid ""
+"“AmebaD_Arduino_Source_Code”, this section is optional download only "
+"wants to refer the latest source code."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:136
+msgid ""
+"Download the files selected, then unzip (patch1 and patch2 are "
+"compulsory). There are “Install.doc”/“Install.pdf” for you to refer "
+"installation steps. According to your system, please run the installation"
+" tool in the “Offline_SDK_installation_tool” folder."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:141
+msgid ""
+"After the installation tool running successfully, you may open Arduino "
+"IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. "
+"Try to find :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M4 "
+"@200MHz)”`` in the list, click :guilabel:`“Install”`, then the Arduino "
+"IDE starts to download required files for RTL8722DM."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:149
+msgid ""
+"Finally, we select RTL8722DM as current connected board in "
+":guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” "
+"RTL8722DM”`："
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:152
+msgid "|ambd-get-start-9|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:290
+msgid "get-start-9"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:157
+msgid "Try the First Example"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:160
+msgid "Step 1. Compile & Upload"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:164
+msgid ""
+"Arduino IDE provides many built-in examples, which can be compiled, "
+"uploaded and run directly on the boards. Here, we take the “Blink” "
+"example as the first try."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:165
+msgid "Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:167
+msgid "|ambd-get-start-10|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:296
+msgid "get-start-10"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:169
+msgid "Arduino IDE opens a new window with the complete sample code."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:171
+msgid "|ambd-get-start-11|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:302
+msgid "get-start-11"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:173
+msgid ""
+"Next, we compile the sample code directly; click :guilabel:`“Sketch” -> "
+"“Verify/Compile”`"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:176
+msgid "|ambd-get-start-12|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:308
+msgid "get-start-12"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:178
+msgid ""
+"Arduino IDE prints the compiling messages in the bottom area of the IDE "
+"window. When the compilation is finished, you will get the message "
+"similar to the following figure:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:182
+msgid "|ambd-get-start-13|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:314
+msgid "get-start-13"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:184
+msgid "Afterwards, we will upload the compiled code to RTL8722DM."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:186
+msgid ""
+"Please make sure RTL8722DM is connected to your computer, then click "
+":guilabel:`“Sketch” -> “Upload”`."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:190
+msgid ""
+"The Arduino IDE will compile first then upload. During the uploading "
+"process, users are required to enter the upload mode of the board. "
+"Arduino IDE will wait 5s for DEV board to enter the upload mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:192
+msgid "|ambd-get-start-14|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:320
+msgid "get-start-14"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:194
+msgid ""
+"To enter the upload mode, first press and hold the "
+":guilabel:`UART_DOWNLOAD` button, then press the :guilabel:`RESET` "
+"button. If success, you should see the LED flashing on the DEV board."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:198
+msgid "|ambd-get-start-15|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:326
+msgid "get-start-15"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:200
+msgid ""
+"It is optional for users to check if the board entered the upload mode. "
+"Open serial monitor/terminal and look for “#Flash Download Start”. Note, "
+"it is normal that some serial terminals may show unknown characters as "
+"following picture."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:204
+msgid "|ambd-get-start-16|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:332
+msgid "get-start-16"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:206
+msgid ""
+"Again, during the uploading procedure the IDE prints messages. Uploading "
+"procedure takes considerably longer time (about 30 seconds to 1 minute). "
+"When upload completed, the “Done uploading” message is printed."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:210
+msgid "|ambd-get-start-18|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:344
+msgid "get-start-18"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:213
+msgid "Step 2.Run the Blink example"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:218
+msgid ""
+"In each example, Arduino not only provides sample code, but also detailed"
+" documentation, including wiring diagram, sample code explanation, "
+"technical details, …etc. These examples can be directly used on "
+"RTL8722DM."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:220
+msgid ""
+"So, we find the detailed information of the `Blink example "
+"<https://www.arduino.cc/en/Tutorial/Blink>`__."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:225
+msgid ""
+"In short, this example makes LED blinks, and it uses GPIO pin 08 (refer "
+"to the pin diagram ``D08``). Then we connect the LED and resistance as "
+"the following figure:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:229
+msgid ""
+"（NOTE: In an LED, the longer pin is the positive pole, and shorter pin is"
+" the negative pole. So we connect the longer pin to ``D08``, and connect "
+"the shorter pin to ``GND``. In addition, please use a resister with "
+"suitable resistance in series between LED and GND to protect LED）"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:231
+msgid "|ambd-get-start-17|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:338
+msgid "get-start-17"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:233
+msgid ""
+"Finally, press the :guilabel:`RESET` button, and you can see the "
+":guilabel:`LED` blinking."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:235
+msgid "**(End)**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:240
+msgid ""
+"If you face any issue, please refer to the FAQ and Trouble shooting "
+"sections on :doc:`../../support/index` page."
+msgstr ""
+

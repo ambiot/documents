@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class InterruptLock.rst:2
+msgid "Class HttpClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class InterruptLock.rst:3
+msgid "**InterruptLock Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class InterruptLock.rst:5
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class InterruptLock.rst:6
+msgid "Defines a class of turning off/on interrupts temporarily"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class InterruptLock.rst:8
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class InterruptLock.rst:9
+msgid "class InterruptLock"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class InterruptLock.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class InterruptLock.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class InterruptLock.rst:16
+msgid "InterruptLock::InterruptLock"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class InterruptLock.rst:16
+msgid "Constructs a InterruptLock object"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class InterruptLock.rst:17
+msgid "InterruptLock::~ InterruptLock"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class InterruptLock.rst:17
+msgid "Deconstructs a InterruptLock object"
+msgstr ""
+

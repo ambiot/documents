@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/UART - Set Callback Function For UART Communications.rst

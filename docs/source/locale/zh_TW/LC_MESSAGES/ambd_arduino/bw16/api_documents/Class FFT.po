@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:3
+msgid "Class FFT"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:6 FFT.rst:43
+#: FFT.rst:68 FFT.rst:106 FFT.rst:145 FFT.rst:174
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:8
+msgid ""
+"A class used for performing FFT calculations with real-number inputs and "
+"outputs."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:11 FFT.rst:47
+#: FFT.rst:72 FFT.rst:110 FFT.rst:149 FFT.rst:178
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:13
+msgid "class FFT"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:15
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:17
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:20
+msgid "FFT::FFT"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:20
+msgid "Create an instance of the FFT class"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:23
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:26
+msgid "FFT::setWindow"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:26
+msgid "Configure the window function used in FFT calculations"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:29
+msgid "FFT::calculate"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:29
+msgid "Calculate FFT for an input array of values"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:31
+msgid "FFT::getFrequencyBins"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:31
+msgid "Get the FFT output frequency bins"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:33
+msgid "FFT::getFFTSize"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:33
+msgid "Get the size of FFT output for a given input size"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:40
+msgid "**FFT::FFT**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:45
+msgid "Create a FFT class object."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:49
+msgid "void FFT();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:51 FFT.rst:76
+#: FFT.rst:118 FFT.rst:154 FFT.rst:182
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:53
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:55 FFT.rst:83
+#: FFT.rst:129 FFT.rst:159 FFT.rst:186
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:57 FFT.rst:85
+#: FFT.rst:131 FFT.rst:161
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:59 FFT.rst:87
+#: FFT.rst:133 FFT.rst:163 FFT.rst:191
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:61 FFT.rst:89
+#: FFT.rst:165
+msgid "Example: FFT"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:63 FFT.rst:91
+#: FFT.rst:137
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:65
+msgid "**FFT::setWindow**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:70
+msgid "Configure the window function used in FFT calculations."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:74
+msgid "void setWindow(FFTWindow_t window, uint16_t sampleCount);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:78
+msgid ""
+"window: The window function to be used in FFT calculations. Valid values:"
+" None, Hann, Hamming."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:81
+msgid "sampleCount: Number of sample datapoints in the input."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:93
+msgid ""
+"The window function is used to reduce the effects of discontinuities that"
+" occur when the input signal has frequencies that do not fit an integer "
+"number of periods in the sample datapoints."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:97
+msgid "More information on FFTs and window functions can be seen at:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:99
+#, python-format
+msgid "https://download.ni.com/evaluation/pxi/Understanding%20FFTs%20and%20Windowing.pdf"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:101
+msgid "https://en.wikipedia.org/wiki/Window_function"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:103
+msgid "**FFT::Calculate**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:108
+msgid "Calculate FFT for an input array of values."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:112
+msgid ""
+"void calculate(float\\* inputBuf, float\\* outputBuf, uint16_t "
+"sampleCount);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:115
+msgid ""
+"void calculate(int16_t\\* inputBuf, float\\* outputBuf, uint16_t "
+"sampleCount);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:120
+msgid ""
+"inputBuf: pointer to an array of sampleCount size, containing input "
+"sample datapoints, in float or uint16_t format."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:123
+msgid ""
+"outputBuf: pointer to a float array of sampleCount/2 size, for containing"
+" FFT output."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:126
+msgid ""
+"sampleCount: number of sample datapoints in the input array, valid "
+"values: 16, 32, 64, 128, 256, 512, 1024, 2048."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:135
+msgid "Example:FFT"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:139
+msgid ""
+"Large sample counts will require a longer time for FFT calculations, but "
+"will also return a result with higher frequency resolution."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:142
+msgid "**FFT::getFrequencyBins**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:147
+msgid "Get the FFT output frequency bins."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:151
+msgid ""
+"void getFrequencyBins(uint16_t\\* outputBuf, uint16_t sampleCount, "
+"uint32_t sampleRate);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:156
+msgid ""
+"outputBuf: pointer to a uint16_t array of sampleCount/2 size, for "
+"containing the calculated center frequency of each FFT output element."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:167 FFT.rst:195
+msgid "**Notes and Warnings** NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:170
+msgid "---"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:172
+msgid "**FFT::getFFTSize**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:176
+msgid "Get the size of FFT output for a given input size."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:180
+msgid "uint16_t getFFTSize(uint16_t sampleCount);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:184
+msgid "sampleCount: number of input sample datapoints."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:188
+msgid ""
+"The function returns the FFT output size for the given sampleCount, which"
+" is sampleCount/2."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class FFT.rst:193
+msgid "NA"
+msgstr ""
+

@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd/api_documents/Readme SoftwareSerial.rst:3
+msgid "Readme"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Readme SoftwareSerial.rst:7
+msgid ""
+"The Ameba Software Serial related APIs and examples are works based on "
+"libraries formerly known as ``NewSoftSerial.h`` by Mikal Hart "
+"(http://arduiniana.org/libraries/newsoftserial)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Readme SoftwareSerial.rst:8
+#: SoftwareSerial.rst:20
+msgid "These include,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Readme SoftwareSerial.rst:10
+msgid "``SoftwareSerial.cpp``"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Readme SoftwareSerial.rst:11
+msgid "``SoftwareSerial.h``"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Readme SoftwareSerial.rst:13
+msgid "These libraries are under GNU Lesser General Public License."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Readme SoftwareSerial.rst:19
+msgid ""
+"The Ameba GPS related APIs and examples are works based on Adafruit GPS "
+"library written by Limor Fried/Ladyada for Adafruit Industries "
+"(http://www.adafruit.com/products/746)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Readme SoftwareSerial.rst:22
+msgid "``Adafruit_GPS.cpp``"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Readme SoftwareSerial.rst:23
+msgid "``Adafruit_GPS.h``"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Readme SoftwareSerial.rst:25
+msgid "These libraries are under BSD License."
+msgstr ""
+

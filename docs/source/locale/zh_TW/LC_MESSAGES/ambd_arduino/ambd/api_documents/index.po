@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:8
+msgid "API Documents"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:10
+msgid "**RTL8722DM ARDUINO Online API Documents**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:14
+msgid "Analog"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:24
+msgid "AudioCodec"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:37
+msgid "BLE"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:61
+msgid "EPDIF"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:71
+msgid "FatfsSDCard"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:82
+msgid "FlashMemory"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:92
+msgid "GPIO"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:103
+msgid "GTimer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:113
+msgid "Http"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:123
+msgid "IRDevice"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:133
+msgid "MDNS"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:144
+msgid "MQTTClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:155
+msgid "NTPClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:165
+msgid "PowerSave"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:175
+msgid "RTC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:185
+msgid "SoftwareSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:198
+msgid "SPI"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:210
+msgid "Sys"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:220
+msgid "WDT"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:231
+msgid "WiFi"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:246
+msgid "Wire"
+msgstr ""
+

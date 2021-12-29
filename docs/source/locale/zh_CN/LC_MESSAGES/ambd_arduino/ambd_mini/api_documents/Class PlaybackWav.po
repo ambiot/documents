@@ -1,0 +1,435 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:3
+msgid "Class PlaybackWav"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:5
+#: PlaybackWav.rst:42 PlaybackWav.rst:70 PlaybackWav.rst:98 PlaybackWav.rst:126
+#: PlaybackWav.rst:154 PlaybackWav.rst:182 PlaybackWav.rst:210
+#: PlaybackWav.rst:238 PlaybackWav.rst:266 PlaybackWav.rst:294
+#: PlaybackWav.rst:322
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:7
+msgid "A class used for control and playback of .wav file format audio data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:9
+#: PlaybackWav.rst:46 PlaybackWav.rst:74 PlaybackWav.rst:102
+#: PlaybackWav.rst:130 PlaybackWav.rst:158 PlaybackWav.rst:186
+#: PlaybackWav.rst:214 PlaybackWav.rst:242 PlaybackWav.rst:270
+#: PlaybackWav.rst:298 PlaybackWav.rst:326
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:11
+msgid "class PlaybackWav"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:13
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:15
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:18
+msgid "PlaybackWav::PlaybackWav"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:18
+msgid "Create an instance of the PlaybackWav class"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:21
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:24
+msgid "PlaybackWav::openFile"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:24
+msgid "Open a .wav file for playback"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:25
+msgid "PlaybackWav::closeFile"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:25
+msgid "Close a previously opened file"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:26
+msgid "PlaybackWav::fileOpened"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:26
+msgid "Check if a .wav file is already opened"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:27
+msgid "PlaybackWav::getSampleRate"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:27
+msgid "Get the sample rate of the .wav file"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:28
+msgid "PlaybackWav::getChannelCount"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:28
+msgid "Get the number of audio channels in the .wav file"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:29
+msgid "PlaybackWav::getBitDepth"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:29
+msgid "Get the bit depth of each sample in the .wav file"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:30
+msgid "PlaybackWav::getLengthMillis"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:30
+msgid "Get the playback length of the .wav file in milliseconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:31
+msgid "PlaybackWav::getPositionMillis"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:31
+msgid "Get the current playback position in milliseconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:32
+msgid "PlaybackWav::setPositionMillis"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:32
+msgid "Set the current playback position in milliseconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:33
+msgid "PlaybackWav::millisToBytes"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:33
+msgid "Convert a playback duration to equivalent number of bytes"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:34
+msgid "PlaybackWav::bytesToMillis"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:34
+msgid "Convert number of bytes to an equivalent playback duration"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:35
+msgid "PlaybackWav::readAudioData"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:35
+msgid "Read audio data from the .wav file"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:40
+msgid "**PlaybackWav::PlaybackWav**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:44
+msgid "Create a PlaybackWav class object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:48
+msgid "void PlaybackWav(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:50
+#: PlaybackWav.rst:78 PlaybackWav.rst:106 PlaybackWav.rst:134
+#: PlaybackWav.rst:162 PlaybackWav.rst:190 PlaybackWav.rst:218
+#: PlaybackWav.rst:246 PlaybackWav.rst:274 PlaybackWav.rst:302
+#: PlaybackWav.rst:331
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:52
+#: PlaybackWav.rst:80 PlaybackWav.rst:108 PlaybackWav.rst:136
+#: PlaybackWav.rst:164 PlaybackWav.rst:192 PlaybackWav.rst:220
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:54
+#: PlaybackWav.rst:82 PlaybackWav.rst:110 PlaybackWav.rst:138
+#: PlaybackWav.rst:166 PlaybackWav.rst:194 PlaybackWav.rst:222
+#: PlaybackWav.rst:250 PlaybackWav.rst:278 PlaybackWav.rst:306
+#: PlaybackWav.rst:336
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:56
+#: PlaybackWav.rst:252
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:58
+#: PlaybackWav.rst:86 PlaybackWav.rst:114 PlaybackWav.rst:142
+#: PlaybackWav.rst:170 PlaybackWav.rst:198 PlaybackWav.rst:226
+#: PlaybackWav.rst:254 PlaybackWav.rst:282 PlaybackWav.rst:310
+#: PlaybackWav.rst:340
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:60
+#: PlaybackWav.rst:64 PlaybackWav.rst:92 PlaybackWav.rst:120
+#: PlaybackWav.rst:148 PlaybackWav.rst:176 PlaybackWav.rst:204
+#: PlaybackWav.rst:232 PlaybackWav.rst:284 PlaybackWav.rst:288
+#: PlaybackWav.rst:312 PlaybackWav.rst:316 PlaybackWav.rst:346
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:62
+#: PlaybackWav.rst:90 PlaybackWav.rst:118 PlaybackWav.rst:146
+#: PlaybackWav.rst:174 PlaybackWav.rst:202 PlaybackWav.rst:230
+#: PlaybackWav.rst:258 PlaybackWav.rst:286 PlaybackWav.rst:314
+#: PlaybackWav.rst:344
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:68
+msgid "**PlaybackWav::fileOpened**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:72
+msgid "Check if a .wav file is already opened."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:76
+msgid "bool fileOpened(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:84
+msgid "The function returns true if a .wav file is already open, false otherwise."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:88
+msgid "Example: RecordPlaybackWav"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:96
+msgid "**PlaybackWav::getSampleRate**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:100
+msgid "Get the sample rate of the .wav file."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:104
+msgid "uint32_t getSampleRate(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:112
+msgid "The function returns sampling rate encoded in the .wav file header."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:116
+#: PlaybackWav.rst:144 PlaybackWav.rst:172 PlaybackWav.rst:200
+#: PlaybackWav.rst:228 PlaybackWav.rst:256 PlaybackWav.rst:342
+msgid "Example: PlaybackWavFile"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:124
+msgid "**PlaybackWav::getChannelCount**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:128
+msgid "Get the number of audio channels in the .wav file."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:132
+msgid "uint16_t getChannelCount(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:140
+msgid "The function returns channel count encoded in the .wav file header."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:152
+msgid "**PlaybackWav::getBitDepth**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:156
+msgid "Get the bit depth of each sample in the .wav file."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:160
+msgid "uint16_t getBitDepth(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:168
+msgid "The function returns bit depth encoded in the .wav file header."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:180
+msgid "**PlaybackWav::getLengthMillis**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:184
+msgid "Get the playback length of the .wav file in milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:188
+msgid "uint32_t getLengthMillis(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:196
+msgid ""
+"The function returns the total playback length of the currently open .wav"
+" file in milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:208
+msgid "**PlaybackWav::getPositionMillis**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:212
+msgid "Get the current playback position in milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:216
+msgid "uint32_t getPositionMillis(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:224
+msgid ""
+"The function returns the current playback position of the currently open "
+".wav file in milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:236
+msgid "**PlaybackWav::setPositionMillis**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:240
+msgid "Set the current playback position in milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:244
+msgid "void setPositionMillis(uint32_t pos);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:248
+msgid "pos: The desired playback position expressed in milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:260
+msgid ""
+"Any changes to playback position will only take effect on the next call "
+"to PlaybackWav::readAudioData. If the desired playback position is beyond"
+" the total playback length of the file, the playback position will be set"
+" to the end of file, and no audio data will be output on subsequent data "
+"reads."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:264
+msgid "**PlaybackWav::millisToBytes**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:268
+msgid "Convert a playback duration to equivalent number of bytes."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:272
+msgid "uint32_t millisToBytes(uint32_t ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:276
+msgid "ms: playback duration in milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:280
+msgid ""
+"The function returns the number of bytes that is equivalent to the input "
+"playback duration, converted using the current sample rate, number of "
+"channels and bit depth."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:292
+msgid "**PlaybackWav::bytesToMillis**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:296
+msgid "Convert number of bytes to an equivalent playback duration."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:300
+msgid "uint32_t bytesToMillis(uint32_t bytes);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:304
+msgid "bytes: playback duration in number of bytes."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:308
+msgid ""
+"The function returns the time duration in milliseconds that is equivalent"
+" to the input number of bytes, converted using the current sample rate, "
+"number of channels and bit depth."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:320
+msgid "**PlaybackWav::readAudioData**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:324
+msgid "Read audio data from the .wav file."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:328
+msgid "``uint32_t readAudioData(int8_t* dst, uint32_t len);``"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:329
+msgid "``uint32_t readAudioData(int16_t* dst, uint32_t len);``"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:333
+msgid "``dst``: pointer to array to store data read from .wav file."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:334
+msgid "``len``: number of audio samples to read from .wav file."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class PlaybackWav.rst:338
+msgid "The function returns number of audio samples read."
+msgstr ""
+

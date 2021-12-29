@@ -1,0 +1,514 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:2
+msgid "Class BLEHIDGamepad"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:4
+msgid "**BLEHIDGamepad Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:6
+#: BLEHIDGamepad.rst:58 BLEHIDGamepad.rst:82 BLEHIDGamepad.rst:105
+#: BLEHIDGamepad.rst:147 BLEHIDGamepad.rst:168 BLEHIDGamepad.rst:189
+#: BLEHIDGamepad.rst:210 BLEHIDGamepad.rst:240 BLEHIDGamepad.rst:267
+#: BLEHIDGamepad.rst:290 BLEHIDGamepad.rst:313
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:8
+msgid "A class used for creating and managing a BLE HID Gamepad."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:10
+#: BLEHIDGamepad.rst:61 BLEHIDGamepad.rst:85 BLEHIDGamepad.rst:108
+#: BLEHIDGamepad.rst:150 BLEHIDGamepad.rst:171 BLEHIDGamepad.rst:192
+#: BLEHIDGamepad.rst:213 BLEHIDGamepad.rst:243 BLEHIDGamepad.rst:271
+#: BLEHIDGamepad.rst:294 BLEHIDGamepad.rst:317
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:11
+msgid "class BLEHIDGamepad"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:13
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:16
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:19
+msgid "BLEHIDGame pad::BLEHIDGamepad"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:19
+msgid "Constructs a BLEHIDGamepad object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:24
+msgid "BLEHIDGa mepad::setReportID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:24
+msgid "Set HID report ID for the HID Gamepad"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:27
+msgid "BLEHIDGame pad::gamepadReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:27
+msgid "Send a HID Gamepad report"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:30
+msgid "BLEHIDGa mepad::buttonPress"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:30
+msgid "Send a HID Gamepad report indicating buttons pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:33
+msgid "BLEHIDGame pad::buttonRelease"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:33
+msgid "Send a HID Gamepad report indicating buttons released"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:36
+msgid "BLEHIDGamepad ::buttonReleaseAll"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:36
+msgid "Send a HID Gamepad report indicating no buttons pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:39
+msgid "BLE HIDGamepad::setHat"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:39
+msgid "Send a HID Gamepad report indicating hat switch position"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:42
+msgid "BLEH IDGamepad::setAxes"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:42
+msgid "Send a HID Gamepad report indicating position of all axes"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:45
+msgid "BLEHIDGam epad::setLeftStick"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:45
+msgid ""
+"Send a HID Gamepad report indicating position of axes corresponding to "
+"left analog stick"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:48
+msgid "BLEHIDGame pad::setRightStick"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:48
+msgid ""
+"Send a HID Gamepad report indicating position of axes corresponding to "
+"right analog stick"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:51
+msgid "BLEHIDGa mepad::setTriggers"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:51
+msgid ""
+"Send a HID Gamepad report indicating position of axes corresponding to "
+"triggers"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:56
+msgid "**BLEHIDGamepad::BLEHIDGamepad**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:59
+msgid "Constructs a BLE object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:62
+msgid "BLEHIDGamepad::BLEHIDGamepad();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:64
+#: BLEHIDGamepad.rst:88 BLEHIDGamepad.rst:113 BLEHIDGamepad.rst:153
+#: BLEHIDGamepad.rst:174 BLEHIDGamepad.rst:195 BLEHIDGamepad.rst:216
+#: BLEHIDGamepad.rst:247 BLEHIDGamepad.rst:274 BLEHIDGamepad.rst:297
+#: BLEHIDGamepad.rst:320
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:65
+#: BLEHIDGamepad.rst:196
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:67
+#: BLEHIDGamepad.rst:92 BLEHIDGamepad.rst:135 BLEHIDGamepad.rst:156
+#: BLEHIDGamepad.rst:177 BLEHIDGamepad.rst:198 BLEHIDGamepad.rst:228
+#: BLEHIDGamepad.rst:255 BLEHIDGamepad.rst:278 BLEHIDGamepad.rst:301
+#: BLEHIDGamepad.rst:324
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:68
+#: BLEHIDGamepad.rst:93 BLEHIDGamepad.rst:136 BLEHIDGamepad.rst:157
+#: BLEHIDGamepad.rst:178 BLEHIDGamepad.rst:199 BLEHIDGamepad.rst:229
+#: BLEHIDGamepad.rst:256 BLEHIDGamepad.rst:279 BLEHIDGamepad.rst:302
+#: BLEHIDGamepad.rst:325
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:70
+#: BLEHIDGamepad.rst:95 BLEHIDGamepad.rst:138 BLEHIDGamepad.rst:159
+#: BLEHIDGamepad.rst:180 BLEHIDGamepad.rst:201 BLEHIDGamepad.rst:231
+#: BLEHIDGamepad.rst:258 BLEHIDGamepad.rst:281 BLEHIDGamepad.rst:304
+#: BLEHIDGamepad.rst:327
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:71
+#: BLEHIDGamepad.rst:96 BLEHIDGamepad.rst:139 BLEHIDGamepad.rst:202
+#: BLEHIDGamepad.rst:259
+msgid "Example: BLEHIDGamepad"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:73
+#: BLEHIDGamepad.rst:98 BLEHIDGamepad.rst:141 BLEHIDGamepad.rst:162
+#: BLEHIDGamepad.rst:183 BLEHIDGamepad.rst:204 BLEHIDGamepad.rst:234
+#: BLEHIDGamepad.rst:261 BLEHIDGamepad.rst:284 BLEHIDGamepad.rst:307
+#: BLEHIDGamepad.rst:330
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:77
+msgid ""
+"By default, the BLEHIDGamepad class assumes the HID report descriptor "
+"implements a gamepad device with 16 buttons, 6 16-bit axes and an "
+"8-direction hat switch. This class will not work if a different gamepad "
+"report descriptor is implemented."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:80
+msgid "**BLEHIDGamepad::setReportID**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:83
+msgid "Set HID report ID for the HID Gamepad."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:86
+msgid "void setReportID (uint8_t reportID);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDGamepad.rst:90
+msgid ""
+"reportID: The report ID for the gamepad device, corresponding to the HID "
+"report descriptor."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:100
+msgid ""
+"HID report ID should start at 1. Some systems may consider a report ID of"
+" 0 as invalid."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:103
+msgid "**BLEHIDGamepad::gamepadReport**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:106
+msgid "Send a HID Gamepad report."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:109
+msgid "void gamepadReport (hid_gamepad_report_t\\* report);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:111
+msgid ""
+"void gamepadReport (uint16_t buttons, uint8_t hat, int16_t x, int16_t y, "
+"int16_t z, int16_t Rz, int16_t Rx, int16_t Ry);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:115
+msgid "report: pointer to gamepad report structure containing data on all inputs"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:117
+msgid ""
+"buttons: bitmap indicating state of each button. 1 = pressed, 0 = "
+"released."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:118 BLEHIDGamepad.rst:217
+msgid "hat: position of hat switch. Valid values:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:119 BLEHIDGamepad.rst:218
+msgid "– GAMEPAD_HAT_CENTERED = 0"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:120 BLEHIDGamepad.rst:219
+msgid "– GAMEPAD_HAT_UP = 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:121 BLEHIDGamepad.rst:220
+msgid "– GAMEPAD_HAT_UP_RIGHT = 2"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:122 BLEHIDGamepad.rst:221
+msgid "– GAMEPAD_HAT_RIGHT = 3"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:123 BLEHIDGamepad.rst:222
+msgid "– GAMEPAD_HAT_DOWN_RIGHT = 4"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:124 BLEHIDGamepad.rst:223
+msgid "– GAMEPAD_HAT_DOWN = 5"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:125 BLEHIDGamepad.rst:224
+msgid "– GAMEPAD_HAT_DOWN_LEFT = 6"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:126 BLEHIDGamepad.rst:225
+msgid "– GAMEPAD_HAT_LEFT = 7"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:127 BLEHIDGamepad.rst:226
+msgid "– GAMEPAD_HAT_UP_LEFT = 8"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:128 BLEHIDGamepad.rst:248 BLEHIDGamepad.rst:275
+msgid "x: position of x axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:129 BLEHIDGamepad.rst:249 BLEHIDGamepad.rst:276
+msgid "y: position of y axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:130 BLEHIDGamepad.rst:250 BLEHIDGamepad.rst:298
+msgid "z: position of z axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:131 BLEHIDGamepad.rst:251 BLEHIDGamepad.rst:299
+msgid "Rz: position of Rz axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:132 BLEHIDGamepad.rst:252 BLEHIDGamepad.rst:321
+msgid "Rx: position of Rx axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:133 BLEHIDGamepad.rst:253 BLEHIDGamepad.rst:322
+msgid "Ry: position of Ry axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:142 BLEHIDGamepad.rst:160 BLEHIDGamepad.rst:163
+#: BLEHIDGamepad.rst:181 BLEHIDGamepad.rst:184 BLEHIDGamepad.rst:205
+#: BLEHIDGamepad.rst:232 BLEHIDGamepad.rst:235 BLEHIDGamepad.rst:262
+#: BLEHIDGamepad.rst:282 BLEHIDGamepad.rst:285 BLEHIDGamepad.rst:305
+#: BLEHIDGamepad.rst:308 BLEHIDGamepad.rst:328 BLEHIDGamepad.rst:331
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:145
+msgid "**BLEHIDGamepad::buttonPress**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:148
+msgid "Send a HID Gamepad report indicating buttons pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:151
+msgid "void buttonPress (uint16_t buttons);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:154
+msgid "buttons: bitmap indicating buttons pressed. 1 = pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:166
+msgid "**BLEHIDGamepad::buttonRelease**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:169
+msgid "Send a HID Gamepad report indicating buttons released."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:172
+msgid "void buttonRelease (uint16_t buttons);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:175
+msgid "buttons: bitmap indicating buttons released. 1 = released."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:187
+msgid "**BLEHIDGamepad::buttonReleaseAll**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:190
+msgid "Send a HID Gamepad report indicating no buttons pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:193
+msgid "void buttonReleaseAll (void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:208
+msgid "**BLEHIDGamepad::setHat**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:211
+msgid "Send a HID Gamepad report indicating hat switch position."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:214
+msgid "void setHat (uint8_t hat);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:238
+msgid "**BLEHIDGamepad::setAxes**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:241
+msgid "Send a HID Gamepad report indicating position of all axes."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:245
+msgid ""
+"void setAxes (int16_t x, int16_t y, int16_t z, int16_t Rz, int16_t Rx, "
+"int16_t Ry);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:265
+msgid "**BLEHIDGamepad::setLeftStick**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:269
+msgid ""
+"Send a HID Gamepad report indicating position of axes corresponding to "
+"left analog stick."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:272
+msgid "void setLeftStick (int16_t x, int16_t y);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:288
+msgid "**BLEHIDGamepad::setRightStick**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:292
+msgid ""
+"Send a HID Gamepad report indicating position of axes corresponding to "
+"right analog stick."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:295
+msgid "void setLeftStick (int16_t z, int16_t Rz);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:311
+msgid "**BLEHIDGamepad::setTriggers**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:315
+msgid ""
+"Send a HID Gamepad report indicating position of axes corresponding to "
+"triggers."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLEHIDGamepad.rst:318
+msgid "void setTriggers (int16_t Rx, int16_t Ry);"
+msgstr ""
+

@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/Watchdog Timer Simple Example.rst

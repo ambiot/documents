@@ -1,0 +1,344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:3 Server as
+#: control to
+msgid "Use Ameba as Server to control LED"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:8 Server as
+#: control to
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:12 Server as
+#: control to
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:13 Server as
+#: control to
+msgid "Breadboard x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:14 Server as
+#: control to
+msgid "LED x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:15 Server as
+#: control to
+msgid "1KΩ Resistor x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:17 Server as
+#: control to
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Procedure** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:22 Server as
+#: control to
+msgid ""
+"In this example, we connect Ameba to WiFi and use Ameba as server, the "
+"user can control the LED on/off through a webpage."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:23 Server as
+#: control to
+msgid "First, connect Ameba with the LED."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:28 Server as
+#: control to
+msgid ""
+"In a LED, the longer pin is the positive pole, and the shorter pin is the"
+" negative pole. So, we connect the shorter pin to GND and connect the "
+"longer pin to D13. Additionally, to avoid the electric current exceeds "
+"the tolerance of the LED and causes damage, we connect a resistance on "
+"the positive pole."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:30 Server as
+#: control to
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:32 Server as
+#: control to
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:105 Server as
+#: control to
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:34 Server as
+#: control to
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:36 Server as
+#: control to
+msgid "|1-1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:109 Server as
+#: control to
+msgid "1-1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:38 Server as
+#: control to
+msgid "Then open ``“File” -> “Examples” -> “AmebaWiFi” -> “SimpleWebServerWiFi”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:40 Server as
+#: control to
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:113 Server as
+#: control to
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:43 Server as
+#: control to
+msgid ""
+"In the sample code, modify the highlighted snippet to corresponding "
+"information."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:45 Server as
+#: control to
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:117 Server as
+#: control to
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:49 Server as
+#: control to
+msgid ""
+"Upload the code and press the reset button on Ameba. When the connection "
+"is established, you will see the message::"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:54 Server as
+#: control to
+msgid "in the Arduino IDE as shown in the figure:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:56 Server as
+#: control to
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:121 Server as
+#: control to
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:58 Server as
+#: control to
+msgid ""
+"Next, open the browser of a computer or a cell phone under the same WiFi "
+"domain, enter the address in the message."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:61 Server as
+#: control to
+msgid "|5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:125 Server as
+#: control to
+msgid "5"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:63 Server as
+#: control to
+msgid "In the webpage, you can turn on/off the LED."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:65 Server as
+#: control to
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:69 Server as
+#: control to
+msgid "Use ``WiFi.begin()`` to establish WiFi connection."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:70 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFiBegin"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:71 Server as
+#: control to
+msgid "To get the information of a WiFi connection:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:72 Server as
+#: control to
+msgid "Use ``WiFi.SSID()`` to get SSID of the current connected network."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:73 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFiSSID"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:74 Server as
+#: control to
+msgid "Use WiFi.RSSI() to get the signal strength of the connection."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:75 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFiRSSI"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:76 Server as
+#: control to
+msgid "Use ``WiFi.localIP()`` to get the IP address of Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:77 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFiLocalIP"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:79 Server as
+#: control to
+msgid ""
+"Use ``WiFiServer server()`` to create a server that listens on the "
+"specified port."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:80 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFiServer"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:82 Server as
+#: control to
+msgid ""
+"Use ``server.begin()`` to tell the server to begin listening for incoming"
+" connections."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:83 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFiServerBegin"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:85 Server as
+#: control to
+msgid ""
+"Use ``server.available()`` to get a client that is connected to the "
+"server and has data available for reading."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:86 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFiServerAvailable"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:87 Server as
+#: control to
+msgid "Use ``client.connected()`` to get whether or not the client is connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:88 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFiClientConnected"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:90 Server as
+#: control to
+msgid ""
+"Use ``client.println()`` to print data followed by a carriage return and "
+"newline."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:91 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFiClientPrintln"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:93 Server as
+#: control to
+msgid ""
+"Use ``client.print()`` to print data to the server that a client is "
+"connected to."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:94 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFiClientPrint"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:96 Server as
+#: control to
+msgid ""
+"Use ``client.available()`` to return the number of bytes available for "
+"reading."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:97 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFiClientAvailable"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:99 Server as
+#: control to
+msgid ""
+"Use ``client.read()`` to read the next byte received from the server the "
+"client is connected to."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:100 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFiClientRead"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:102 Server as
+#: control to
+msgid ""
+"Use ``client.stop()`` to disconnect from the server the client is "
+"connected to."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba LED.rst:103 Server as
+#: control to
+msgid "https://www.arduino.cc/en/Reference/WiFIClientStop"
+msgstr ""
+

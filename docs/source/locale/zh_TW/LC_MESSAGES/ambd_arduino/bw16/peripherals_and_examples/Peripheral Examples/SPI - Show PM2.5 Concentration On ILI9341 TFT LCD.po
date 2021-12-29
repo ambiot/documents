@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:3 On PM2.5 Show TFT
+msgid "SPI – Show PM2.5 Concentration On ILI9341 TFT LCD"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:5 On PM2.5 Show TFT
+msgid ""
+"If you are not familiar with SPI, please read `Introduction to SPI "
+"<https://www.amebaiot.com/spi-intro/>`__ first."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:11 On PM2.5 Show TFT
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:15 On PM2.5 Show TFT
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:16 On PM2.5 Show TFT
+msgid "ILI9341 TFT LCD with SPI interface x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:17 On PM2.5 Show TFT
+msgid "Plantower PMS3003 or PMS5003 x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:19 On PM2.5 Show TFT
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:24 On PM2.5 Show TFT
+msgid ""
+"This example extends previous PM2.5 example to show the PM2.5 "
+"concentration on the LCD."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:26 On PM2.5 Show TFT
+msgid "**RTL8722DM / RTL8722CSM and QVGA TFT LCD** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:27 On PM2.5 Show TFT
+msgid "(Note: PMS3003/PMS5003 sensor requires 5V voltage)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:29 On PM2.5 Show TFT
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:63 On PM2.5 Show TFT
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:31 On PM2.5 Show TFT
+msgid "**RTL8722DM MINI and QVGA TFT LCD** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:33 On PM2.5 Show TFT
+msgid "|1-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:67 On PM2.5 Show TFT
+msgid "1-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:35 On PM2.5 Show TFT
+msgid "**RTL8722DM / RTL8722CSM and Adafruit 2.8” TFT LCD** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:37 On PM2.5 Show TFT
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:71 On PM2.5 Show TFT
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:39 On PM2.5 Show TFT
+msgid "**RTL8722DM MINI and and Adafruit 2.8” TFT LCD** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:41 On PM2.5 Show TFT
+msgid "|2-2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:75 On PM2.5 Show TFT
+msgid "2-2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:43 On PM2.5 Show TFT
+msgid ""
+"Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> "
+"“PM25_on_ILI9341_TFT_LCD”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:45 On PM2.5 Show TFT
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:79 On PM2.5 Show TFT
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:47 On PM2.5 Show TFT
+msgid "Compile and upload to Ameba, then press the reset button."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:49 On PM2.5 Show TFT
+msgid ""
+"Then you can see the concentration value of PM1.0, PM2.5 and PM10 on the "
+"LCD."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:52 On PM2.5 Show TFT
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:83 On PM2.5 Show TFT
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:54 On PM2.5 Show TFT
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
+#: LCD.rst:58 On PM2.5 Show TFT
+msgid ""
+"In this example, first rotate the screen by 90 degrees, and draw the "
+"static components such as the circles, the measuring scale, and the title"
+" text. After the concentration value is detected, it is printed inside "
+"the circle."
+msgstr ""
+

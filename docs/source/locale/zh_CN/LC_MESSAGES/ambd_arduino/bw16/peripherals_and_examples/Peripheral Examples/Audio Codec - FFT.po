@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:3
+msgid "Audio Codec - FFT"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:12
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:14
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:18
+msgid "**Introduction**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:21
+msgid ""
+"This example shows how to use the AudioCodec_FFT class to calculate the "
+"fast Fourier transform of a signal to extract the frequencies present in "
+"the signal."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:23
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:24
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaAudioCodec” -> "
+"“FFT”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:26
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:35
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:29
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:31
+msgid ""
+"Open the serial monitor, and the output results of the AudioCodec_FFT "
+"calculation will be displayed."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:33
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:39
+msgid "2"
+msgstr ""
+

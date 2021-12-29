@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:3
+#: Retrieve
+msgid "UART - Retrieve GPS Position"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:8
+#: Retrieve
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:12
+#: Retrieve
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:13
+#: Retrieve
+msgid ""
+"`Adafruit Ultimate GPS Breakout "
+"<https://www.adafruit.com/products/746>`__ x 1 (Refer to `official "
+"document <https://learn.adafruit.com/adafruit-ultimate-gps?view=all>`__)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:16
+#: Retrieve
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:20
+#: Retrieve
+msgid ""
+"In this example, we use Adafruit Ultimate GPS Breakout. Its data format "
+"is pure text, so we can connect it to USB to TTL Adapter and observe the "
+"output.\\ |1|\\ |2|\\"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:75
+#: Retrieve
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:79
+#: Retrieve
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:24
+#: Retrieve
+msgid ""
+"It follows the NMEA sentence format (refer to http://aprs.gids.nl/nmea/) "
+"The GPS signal is weak in indoor environment. The status that the GPS "
+"signal is not received is called “not fix”. Bring the GPS module "
+"outdoors, when the GPS signal is “fix”, you would get message similar to "
+"the figure below.\\ |3|\\"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:83
+#: Retrieve
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:31
+#: Retrieve
+msgid ""
+"In this example we are only interested in the “$GPRMC (Global Positioning"
+" Recommended Minimum Coordinates)”:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:32
+#: Retrieve
+msgid "**$GPRMC,032122.000,A,2446.8181,N,12059.7251,E,0.39,78.89,270116,,,A*53**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:33
+#: Retrieve
+msgid "Each field is separated by a comma."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:35
+#: Retrieve
+msgid ""
+"First field is the GMT time (Greenwich Mean Time), that is 032122.000 in "
+"this example. The time format is HH:MM:SS.SSS, i.e., 03:21:22.000. Note "
+"that the time zone and the daylight-saving time adjustment should be "
+"handled on your own."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:40
+#: Retrieve
+msgid "Second field represents the status code"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:42
+#: Retrieve
+msgid "V: Void (Invalid)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:43
+#: Retrieve
+msgid "A: Active, meaning the GPS signal is fix."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:45
+#: Retrieve
+msgid "The third to sixth fields represent the geolocation"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:47
+#: Retrieve
+msgid ""
+"In this example, 2446.8181,N represents 24 degrees 46.8181 minutes north "
+"latitude, and 12059.7251,E represents 120 degrees 59.7251 minutes east "
+"longitude."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:51
+#: Retrieve
+msgid ""
+"We can search **+24 46.8181’, +120 59.7251’** in Google map to check "
+"whether the position is correct.\\ |4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:87
+#: Retrieve
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:54
+#: Retrieve
+msgid ""
+"The seventh field is relative speed(knot). 1 knot = 1.852km/hr, in this "
+"example the relative speed is 0.39 knot."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:56
+#: Retrieve
+msgid ""
+"The eighth field is the moving angle, which is calculated by its moving "
+"orbit."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:58
+#: Retrieve
+msgid ""
+"The ninth field is the date with format ddMMyy. In this example, “270116”"
+" stands for day 27, January, year 2016."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:60
+#: Retrieve
+msgid "The last field is checksum. In the example we have \\*53 as checksum."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:62
+#: Retrieve
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram: |5|\\"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:91
+#: Retrieve
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:64
+#: Retrieve
+msgid "**RTL8722DM MINI** Wiring Diagram: |5-1|\\"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:95
+#: Retrieve
+msgid "5-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:66
+#: Retrieve
+msgid ""
+"Open the example in ``“Files” -> “Examples” -> “AmebaSoftwareSerial” -> "
+"“Adafruit_GPS_parsing”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:69
+#: Retrieve
+msgid "Compile and upload to Ameba, then press the reset button."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:70
+#: Retrieve
+msgid "The result will be output to Serial Monitor:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:72
+#: Retrieve
+msgid "|6| |7|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:99
+#: Retrieve
+msgid "6"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:103
+#: Retrieve
+msgid "7"
+msgstr ""
+

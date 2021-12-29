@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/Flash Memory - Use Flash Memory Larger Than 4K.rst

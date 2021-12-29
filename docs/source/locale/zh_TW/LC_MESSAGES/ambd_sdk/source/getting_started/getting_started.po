@@ -1,0 +1,446 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:3
+msgid "Getting Started"
+msgstr "入門指南"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:7
+msgid "Setup of the GCC Development Environment"
+msgstr "GCC 開發環境的設置"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:9
+msgid ""
+"On Windows, you can use ``Cygwin`` as the GCC development environment. "
+"``Cygwin`` is a large collection of GNU and open source tools which "
+"provide functionality similar to a Linux distribution on Windows."
+msgstr ""
+"在 Windows 上，可以將 ``Cygwin`` 用作 GCC 開發環境。"
+"Cygwin 是 GNU 和開源工具的集合，類似於提供 Linux 相關的功能在 Windows 平台上使用。" 
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:10
+msgid ""
+"Click `http://cygwin.com/  <http://cygwin.com/>`__\\ and download the "
+"``Cygwin`` package `setup-x86.exe  "
+"<http://www.cygwin.com/setup-x86.exe>`__\\ for your Windows platform."
+msgstr ""
+"點選 `http://cygwin.com/  <http://cygwin.com/>`__\ 且依照自己的 Windows 平台來"
+"下載 `http://cygwin.com/  <http://cygwin.com/>`__\ 。" 
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:12
+msgid ""
+"1. 32-bit ``Cygwin`` is supported both for 32-bit Windows and 64-bit "
+"Windows."
+msgstr ""
+"1.32位元 Windows 和 64位元 Windows 均支持32位元 ``Cygwin``。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:13
+msgid ""
+"2. During the installation of ``Cygwin`` package, include ‘Devel -> make’"
+" and ‘Math -> bc’ utilities on the Select Packages page, as below shows."
+msgstr ""
+"2.安裝 ``Cygwin`` package 過程中， 如下圖所示在 Select Packages 頁面中選擇"
+" **Devel -> make** 與 **Math -> bc** 功能。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:15
+msgid "|image0|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:126
+msgid "image0"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:17
+msgid "|image1|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:130
+msgid "image1"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:20
+msgid ""
+"For Linux, refer to `AN0400 Ameba-D Application Note v12.pdf "
+"<https://www.amebaiot.com/zh/sdk-download-manual-8722dm/>`_ to build the "
+"GCC development environment."
+msgstr ""
+"對於 Linux，請參考 `AN0400 Ameba-D Application Note v12.pdf <https://www.amebaiot.com/zh/sdk-download-manual-8722dm/>`_ 來建立GCC開發環境。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:24
+msgid "Knowledge about Ameba-D Demo Board"
+msgstr "Ameba-D 開發板的相關介紹"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:26
+msgid ""
+"For Ameba-D, there are many types of chipsets available, such as "
+"RTL8720CS, RTL8721CSM, RTL8722CSM, RTL8720DN, RTL8720DM, RTL8721DM, and "
+"RTL8722DM."
+msgstr ""
+"對於 Ameba-D，有許多類型的芯片組可用，例如 RTL8720CS，RTL8721CSM，RTL8722CSM，RTL8720DN，RTL8720DM，RTL8721DM 和 RTL8722DM。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:27
+msgid ""
+"In addition, the chipsets can be embedded on Ameba-D DEV demo board, "
+"which is extended to various I/O interfaces. The corresponding HDK "
+"(Hardware Development Kit) documents are available, please contact RTK "
+"for further details."
+msgstr ""
+"此外，芯片組可以嵌入在 Ameba-D DEV 開發板上且擴展各種 I/O 接口。我們提供了相應的 HDK（硬件開發套件）文檔，請聯繫 RTK 了解更多詳細信息。" 
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:29
+msgid "The hardware block diagram of Ameba-D demo board is shown below."
+msgstr "Ameba-D 開發板的硬件圖如下所示："
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:31
+msgid "USB TO UART: power supply and log print."
+msgstr "USB TO UART: 供電和日誌打印"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:32
+msgid "The baudrate is 115200bps"
+msgstr "波特率: 為 115200bps"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:33
+msgid "SWD: SWD interface, used to download images and debug with IAR."
+msgstr "SWD: SWD 介面，用於下載圖像和使用 IAR 進行調試"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:34
+msgid "Reset button: reset Ameba-D to run firmware after IAR completes download."
+msgstr "Reset Button: IAR 完成下載後，重置 Ameba-D 以運行固件"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:36
+msgid "|image2|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:134
+msgid "image2"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:40
+msgid "Connection to Log Console"
+msgstr "連接串口"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:42
+msgid ""
+"On Ameba-D board, FTDI Chip and FT232 can be used for the log console and"
+" debugger. To view the log console, make use of the terminal tool, such "
+"as ``SecureCRT``\\/``teraterm``\\/``putty`` and etc. We will take our "
+"internal tool as an example."
+msgstr ""
+"在 Ameba-D 板上，FTDI 芯片和 FT232 可用於串口和除錯器。"
+"可以使用 ``SecureCRT`` 、``Teraterm`` 與 ``Putty`` 等終端工具查看串口訊息。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:44
+msgid ""
+"Select the corresponding serial uart configure communicate parameter and "
+"then open it."
+msgstr ""
+"選擇相對應的uart參數且打開連接端口。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:45
+msgid ""
+"Press the Reset button on Ameba-D board. Some messages can be found in "
+"the terminal."
+msgstr ""
+"然後按 Ameba 上的重置按鈕，在終端中可以找到一些訊息。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:47
+msgid "|image3|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:138
+msgid "image3"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:51
+msgid "Building the First GCC Project on Ameba-D"
+msgstr "在 Ameba-D 上建立第一個 GCC 項目"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:53
+msgid ""
+"The following steps are for first-time developer to build GCC project, "
+"under existing RTK SDK."
+msgstr ""
+"以下步驟供首次開發人員在現有 RTK SDK 下構建GCC項目。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:55
+msgid "**Building Code** This section illustrates how to build SDK."
+msgstr ""
+"**代碼編譯** 本節說明如何構建SDK。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:56
+msgid ""
+"First, you need to switch to GCC project directory. For Windows, open "
+"``Cygwin`` terminal and use ``$ cd`` command to change directory to KM0 "
+"or KM4 project directory of Ameba-D SDK."
+msgstr ""
+"首先，您需要切換到 GCC目錄。 對於 Windows，打開 ``Cygwin`` 終端，"
+"並使用 ``$ cd`` 命令將目錄更改為 Ameba-D SDK 的 KM0 或 KM4 項目目錄。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:59
+msgid ""
+"You need to replace the ``{path}`` to your own SDK location, and add "
+"``“cygdrive”`` prefix in front of the SDK location, so that Cygwin can "
+"access your file system."
+msgstr ""
+"需要將 ``{path}`` 替換成自己的 SDK 位置，並在 SDK 位置前面添加前綴" 
+" ``“cygdrive”``，以便 ``Cygwin`` 可以訪問您的文件系統。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:61
+msgid ""
+"``$ cd /cygdrive/{path}/project/realtek_amebaD_va0_example/GCC-"
+"RELEASE/project_lp``"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:62
+msgid ""
+"``$ cd /cygdrive/{path}/project/realtek_amebaD_va0_example/GCC-"
+"RELEASE/project_hp``"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:64
+msgid ""
+"Linux, open its own terminal and use $ cd command to change directory to "
+"KM0 or KM4 project directory of Ameba-D SDK."
+msgstr ""
+"對於 Linux，請打開自己的終端，然後使用 ``$ cd`` "
+"命令將目錄更改為 Ameba-D SDK 的 KM0 或 KM4 項目目錄。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:66
+msgid "``$ cd /{path}/project/realtek_amebaD_va0_example/GCC-RELEASE/project_lp``"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:67
+msgid "``$ cd /{path}/project/realtek_amebaD_va0_example/GCC-RELEASE/project_hp``"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:69
+msgid ""
+"To build SDK for normal image, simply use ``$ make all`` command under "
+"the corresponding project directories on Cygwin (Windows) or terminal "
+"(Linux). KM0 project For KM0 project, if the terminal contains "
+"``“km0_image2_all.bin”`` and ``“Image manipulating end”`` output message,"
+" it means that the image has been built successfully, as below shows."
+msgstr ""
+"要構建一般固件的SDK，只需在Cygwin（Windows）或終端（Linux）上相應目錄下使用命令。"
+"KM0 project 對於 KM0，如果終端輸出訊息包含 ``“km0_image2_all.bin”`` 和"
+" ``“Image manipulating end”``，則表示固件已成功構建，如下所示。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:72
+msgid "|image4|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:142
+msgid "image4"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:74
+msgid ""
+"If somehow it is built failed, type ``$ make clean`` to clean and then "
+"redo the make procedure."
+msgstr ""
+"如果構建失敗，請輸入 ``$ make clean`` 然後重新執行 ``make``。" 
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:75
+msgid ""
+"After successfully built, the image file is located in "
+"``project/realtek_amebaD_va0_example/GCC-RELEASE/project_lp/asdk/image`` "
+", as below shows."
+msgstr ""
+"成功構建後，固件檔案位於``project/realtek_amebaD_va0_example/GCC-RELEASE/project_lp/asdk/image`` 下，如下圖所示。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:77
+msgid "|image5|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:146
+msgid "image5"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:79
+msgid ""
+"KM4 project For KM4 project, if the terminal contains "
+"``“km0_image2_all.bin”`` and ``“Image manipulating end”`` output message,"
+" it means that the image has been built successfully, as below shows."
+msgstr ""
+"KM4 專案 對於 KM4，如果終端輸出訊息包含"
+" ``“km0_image2_all.bin”`` 和 ``“Image manipulating end”``，"
+"則表示固件已成功構建，如下所示。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:81
+msgid "|image6|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:150
+msgid "image6"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:83
+msgid ""
+"If somehow it built failed, type ``$ make clean`` to clean and then redo "
+"the make procedure."
+msgstr ""
+"如果構建失敗，請輸入 ``$ make clean`` 然後重新執行 make。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:84
+msgid ""
+"After built successfully, the image file is located in "
+"``project/realtek_amebaD_va0_example/GCC-RELEASE/project_hp/asdk/image``,"
+" as below shows."
+msgstr ""
+"成功構建後，固件檔案位於"
+" ``project/realtek_amebaD_va0_example/GCC-RELEASE/project_hp/asdk/image`` 下，"
+"如下圖所示。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:86
+msgid "|image7|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:154
+msgid "image7"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:90
+msgid "Downloading Images to Ameba-D"
+msgstr "下載固件至 Ameba-D"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:92
+msgid "Realtek provides an image tool to download images on windows."
+msgstr "瑞昱提供了 Image Tool 在 Windows 中可以方便下載固件"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:94
+msgid ""
+"Environment Requirements: EX. WinXP, Win 7 Above, Microsoft .NET "
+"Framework 3.5"
+msgstr ""
+"環境需求: WinXP, Win 7 以上, Microsoft .NET Framework 3.5"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:95
+msgid ""
+"``ImageTool.exe``  Location: "
+"``SDK\\tools\\AmebaD\\Image_Tool\\ImageTool.exe``"
+msgstr ""
+"``ImageTool.exe`` 位置:"
+"``SDK\\tools\\AmebaD\\Image_Tool\\ImageTool.exe``"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:97
+msgid "|image8|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:158
+msgid "image8"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:99
+msgid ""
+"Assuming that the ImageTool on PC is a server, it sends images files to "
+"Ameba (client) through UART. To download image from server to client, the"
+" client must enter uart download first."
+msgstr ""
+"假設 PC 上的 Image Tool 是服務器，它將通過 UART 將固件檔案發送到 Ameba（客戶端）。"
+"要將檔案從服務器下載到客戶端，客戶端必須首先進入 UART download 模式。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:101
+msgid "**Enter into UART_DOWNLOAD mode.**"
+msgstr "**進入 UART_DOWNLOAD 模式**"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:103
+msgid "Push the UART DOWNLOAD button and keep it pressed."
+msgstr "按下 UART DOWNLOAD 按鈕並保持按下狀態"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:104
+msgid "Re-power on the board or press the Reset button."
+msgstr "重新打開電源，或按重置按鈕"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:105
+msgid "Release the UART DOWNLOAD button."
+msgstr "放開 UART DOWNLOAD 按鈕"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:107
+msgid ""
+"Now, Ameba board gets into UART_DOWNLOAD mode and is ready to receive "
+"data."
+msgstr ""
+"現在Ameba 板 進入 UART_DOWNLOAD 模式並準備接收數據。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:109
+msgid "**Click Chip Select(in red) on UI and select chip (AmebaD or AmebaZ).**"
+msgstr "**點選 UI上 的 Chip Select（紅色），然後選擇芯片（AmebaD 或 AmebaZ）**"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:111
+msgid ""
+"**Select the corresponding serial port and transmission baud rate. The "
+"default baudrate is 1.5Mbps (recommended).**"
+msgstr ""
+"**選擇相應的串行端口和傳輸波特率， 默認波特率是 1.5Mbps（推薦）**"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:113
+msgid ""
+"**Click the Browse button to select the images "
+"(km0_boot_all.bin/km4_boot_all.bin/km0_km4_image2.bin) to be programmed "
+"and input addresses.**"
+msgstr ""
+"**點選瀏覽按鈕以選擇要編程的固件（km0_boot_all.bin / km4_boot_all.bin / km0_km4_image2.bin）與其位址**"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst
+msgid "The image path is located in:"
+msgstr "固件位址為"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst
+msgid ""
+"``{path}\\project\\realtek_amebaD_va0_example\\GCC-"
+"RELEASE\\project_lp\\asdk\\image``"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst
+msgid "and"
+msgstr "與"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst
+msgid ""
+"``{path}\\project\\realtek_amebaD_va0_example\\GCC-"
+"RELEASE\\project_hp\\asdk\\image``,"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst
+msgid "where {path} is the location of the project on your own computer."
+msgstr "為自己電腦上項目的位址。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:120
+msgid ""
+"The default target address is the SDK default image address, you can use "
+"it directly."
+msgstr ""
+"默認目標地址是SDK默認固件地址，您可以直接使用它。"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:122
+msgid ""
+"**Click Download button to start. The progress bar will show the transmit"
+" progress of each image. You can also get the message of operation "
+"successfully or errors from the log window.**"
+msgstr ""
+"**點選下載按鈕 進度條將顯示每個固件的傳輸進度並且可以從日誌窗口獲取操作成功消息或錯誤消息。**"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:124
+msgid "|image9|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:162
+msgid "image9"
+msgstr ""
+

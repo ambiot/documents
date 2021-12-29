@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:2
+msgid "Class BLEWifiConfigService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:3
+msgid "**BLEWifiConfigService Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:5 BLEWifiConfigService.rst:41
+#: BLEWifiConfigService.rst:62 BLEWifiConfigService.rst:83
+#: BLEWifiConfigService.rst:104 BLEWifiConfigService.rst:125
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:7
+msgid ""
+"A class used for managing a BLE WiFi configuration service running on the"
+" device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:9 BLEWifiConfigService.rst:44
+#: BLEWifiConfigService.rst:65 BLEWifiConfigService.rst:86
+#: BLEWifiConfigService.rst:107 BLEWifiConfigService.rst:129
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:10
+msgid "class BLEWifiConfigService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:12
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:15
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:17
+msgid "BLEWifiCon figService::BLEWifiConfigService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:17
+msgid "Only one instance of this class should be created"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:24
+msgid "BLEWifiConfigService::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:24
+msgid "Start background thread to process WiFi configuration commands"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:28
+msgid "BLEWifiConfigService::end"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:28
+msgid "Stop background thread processing WiFi configuration commands"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:32
+msgid "BLEWifiConfigService::addService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:32
+msgid "Add the service to the BLE stack"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:34
+msgid "BLEWifiConfigService::advData"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:34
+msgid "Get advertising data correctly formatted for WiFi configuration service"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:39
+msgid "**BLEWifiConfigService::BLEWifiConfigService**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:42
+msgid "Create an instance of the BLEWifiConfigService object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:45
+msgid "void BLEWifiConfigService ();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:47 BLEWifiConfigService.rst:68
+#: BLEWifiConfigService.rst:89 BLEWifiConfigService.rst:110
+#: BLEWifiConfigService.rst:132
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:48 BLEWifiConfigService.rst:69
+#: BLEWifiConfigService.rst:90 BLEWifiConfigService.rst:111
+#: BLEWifiConfigService.rst:133
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:50 BLEWifiConfigService.rst:71
+#: BLEWifiConfigService.rst:92 BLEWifiConfigService.rst:113
+#: BLEWifiConfigService.rst:135
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:51 BLEWifiConfigService.rst:72
+#: BLEWifiConfigService.rst:93 BLEWifiConfigService.rst:114
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:53 BLEWifiConfigService.rst:74
+#: BLEWifiConfigService.rst:95 BLEWifiConfigService.rst:116
+#: BLEWifiConfigService.rst:139
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:54 BLEWifiConfigService.rst:75
+#: BLEWifiConfigService.rst:117 BLEWifiConfigService.rst:140
+msgid "Example: BLEWifiConfig"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:56 BLEWifiConfigService.rst:77
+#: BLEWifiConfigService.rst:98 BLEWifiConfigService.rst:119
+#: BLEWifiConfigService.rst:142
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:57
+msgid "Only one instance of this class / service should be created."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:60
+msgid "**BLEWifiConfigService::begin**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:63
+msgid "Start background thread to process WiFi configuration commands."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:66
+msgid "void begin();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:78 BLEWifiConfigService.rst:96
+#: BLEWifiConfigService.rst:99 BLEWifiConfigService.rst:120
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:81
+msgid "**BLEWifiConfigService::end**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:84
+msgid "Stop background thread processing WiFi configuration commands."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:87
+msgid "void end();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:102
+msgid "**BLEWifiConfigService::addService**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:105
+msgid "Add the WiFi configuration service to the BLE stack."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:108
+msgid "void addService();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:123
+msgid "**BLEWifiConfigService::advData**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:127
+msgid "Get advertising data correctly formatted for WiFi configuration service."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:130
+msgid "BLEAdvertData advData();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:137
+msgid ""
+"The function returns a BLEAdvertData object that contains the required "
+"advertising data fields for the WiFi configuration service to work."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class
+#: BLEWifiConfigService.rst:147
+msgid ""
+"The advertisement data needs to be correctly formatted for the "
+"corresponding smartphone app to recognise the device. WiFi configuration "
+"service advertisement data requires the local BT address, and should be "
+"called only after peripheral mode is started and may also require "
+"stopping and restarting the advertising process."
+msgstr ""
+

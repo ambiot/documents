@@ -1,0 +1,995 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:2
+msgid "Class WiFiSSLClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:3
+msgid "**WiFiSSLClient Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:5
+#: WiFiSSLClient.rst:62 WiFiSSLClient.rst:273 WiFiSSLClient.rst:306
+#: WiFiSSLClient.rst:330 WiFiSSLClient.rst:353 WiFiSSLClient.rst:378
+#: WiFiSSLClient.rst:400 WiFiSSLClient.rst:420 WiFiSSLClient.rst:442
+#: WiFiSSLClient.rst:464 WiFiSSLClient.rst:484 WiFiSSLClient.rst:506
+#: WiFiSSLClient.rst:526
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:7
+msgid ""
+"Defines a class of WiFi Secure Socket Layer Client implementation for "
+"Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:9
+#: WiFiSSLClient.rst:66 WiFiSSLClient.rst:276 WiFiSSLClient.rst:309
+#: WiFiSSLClient.rst:333 WiFiSSLClient.rst:356 WiFiSSLClient.rst:382
+#: WiFiSSLClient.rst:403 WiFiSSLClient.rst:423 WiFiSSLClient.rst:445
+#: WiFiSSLClient.rst:467 WiFiSSLClient.rst:487 WiFiSSLClient.rst:509
+#: WiFiSSLClient.rst:529
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:10
+msgid "class WiFiSSLClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:12
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:15
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:17
+msgid "WiFiSSLClient::WiFiSSLClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:17
+msgid ""
+"Constructs a WiFiSSLClient instance that always connects in SSL to the "
+"specified IP address and port"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:24
+msgid "WiFiSSLClient::connect"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:24
+msgid "Connect to the IP address and port"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:27
+msgid "WiFiSSLClient::write"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:27
+#: WiFiSSLClient.rst:307
+msgid "Write a single byte into the packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:30
+msgid "WiFiSSLClient::available"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:30
+#: WiFiSSLClient.rst:331
+msgid "Number of bytes remaining in the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:33
+msgid "WiFiSSLClient::read"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:33
+#: WiFiSSLClient.rst:354
+msgid "Read a single byte from the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:36
+msgid "WiFiSSLClient:: peek"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:36
+msgid ""
+"Return the next byte from the current packet without moving on to the "
+"next byte"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:40
+msgid "WiFiSSLClient:: flush"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:40
+#: WiFiSSLClient.rst:401
+msgid "Finish reading the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:43
+msgid "WiFiSSLClient::stop"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:43
+msgid "Stop SSL client connection"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:45
+msgid "WiFiSSLClient::connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:45
+msgid "Check if SSL client is connected, return 1 if connected, 0 if not"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:49
+msgid "WiFiSSLClient:: setRootCA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:49
+#: WiFiSSLClient.rst:465
+msgid "Set Root CA for authentication"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:51
+msgid "WiFiSSLClient:: setClientCertificate"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:51
+msgid "Set certificate of the client"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:54
+msgid "WiFiSSLClient::setRecvTimeout"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:54
+#: WiFiSSLClient.rst:507
+msgid "Set receiving timeout"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:56
+msgid "WiFiSSLClient::setPreSharedKey"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:56
+#: WiFiSSLClient.rst:527
+msgid "Set the pre shared key (PSK) to use for authentication"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:60
+msgid "**WiFiSSLClient::WiFiSSLClient**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:64
+msgid ""
+"Constructs a WiFiSSLClient instance that always connects in SSL to the "
+"specified IP address and port."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:67
+msgid "WiFiSSLClient::WiFiSSLClient(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:68
+msgid "WiFiSSLClient::WiFiSSLClient(uint8_t sock)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:70
+#: WiFiSSLClient.rst:284 WiFiSSLClient.rst:313 WiFiSSLClient.rst:336
+#: WiFiSSLClient.rst:360 WiFiSSLClient.rst:385 WiFiSSLClient.rst:406
+#: WiFiSSLClient.rst:426 WiFiSSLClient.rst:448 WiFiSSLClient.rst:470
+#: WiFiSSLClient.rst:491 WiFiSSLClient.rst:512 WiFiSSLClient.rst:533
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:71
+msgid "sock: socket state, default -1"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:73
+#: WiFiSSLClient.rst:292 WiFiSSLClient.rst:318 WiFiSSLClient.rst:339
+#: WiFiSSLClient.rst:364 WiFiSSLClient.rst:388 WiFiSSLClient.rst:409
+#: WiFiSSLClient.rst:429 WiFiSSLClient.rst:451 WiFiSSLClient.rst:473
+#: WiFiSSLClient.rst:495 WiFiSSLClient.rst:515 WiFiSSLClient.rst:537
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:74
+#: WiFiSSLClient.rst:410 WiFiSSLClient.rst:430 WiFiSSLClient.rst:474
+#: WiFiSSLClient.rst:496 WiFiSSLClient.rst:538
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:76
+#: WiFiSSLClient.rst:296 WiFiSSLClient.rst:322 WiFiSSLClient.rst:343
+#: WiFiSSLClient.rst:368 WiFiSSLClient.rst:392 WiFiSSLClient.rst:412
+#: WiFiSSLClient.rst:432 WiFiSSLClient.rst:454 WiFiSSLClient.rst:476
+#: WiFiSSLClient.rst:498 WiFiSSLClient.rst:518 WiFiSSLClient.rst:540
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:77
+#: WiFiSSLClient.rst:297 WiFiSSLClient.rst:344 WiFiSSLClient.rst:369
+#: WiFiSSLClient.rst:433 WiFiSSLClient.rst:455
+msgid "Example: WiFiSSLClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:79
+msgid "**#include**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:81
+msgid "**char** ssid[] = \"yourNetwork\"; // your network SSID (name)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:83
+msgid ""
+"**char** pass[] = \"secretPassword\";// your network password (use for "
+"WPA, or WEP)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:86
+msgid ""
+"**int** keyIndex = 0; // your network key Index number (needed only for "
+"WEP)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:89
+msgid "**int** status = WL_IDLE_STATUS;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:91
+msgid ""
+"**char** server[] = \"www.google.com\"; // name address for Google (using"
+" DNS)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:94
+msgid ""
+"//unsigned char test_client_key[] = \"\"; //For the usage of verifying "
+"client"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiSSLClient.rst:97
+msgid ""
+"//unsigned char test_client_cert[] = \"\"; //For the usage of verifying "
+"client"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:100
+msgid "//unsigned char test_ca_cert[] = \"\"; //For the usage of verifying server"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:102
+msgid "WiFiSSLClient client;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:104
+msgid "**void** setup() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:106
+msgid "//Initialize serial and wait for port to open:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:108
+msgid "Serial.begin(9600);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:110
+msgid "**while** (!Serial) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:112
+msgid "; // wait for serial port to connect. Needed for native USB port only"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:114 WiFiSSLClient.rst:126 WiFiSSLClient.rst:145
+#: WiFiSSLClient.rst:170 WiFiSSLClient.rst:176 WiFiSSLClient.rst:190
+#: WiFiSSLClient.rst:206 WiFiSSLClient.rst:208 WiFiSSLClient.rst:266
+msgid "}"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:116
+msgid "// check for the presence of the shield:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:118
+msgid "**if** (WiFi.status() == WL_NO_SHIELD) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:120
+msgid "Serial.println(\"WiFi shield not present\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:122
+msgid "// don't continue:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:124 WiFiSSLClient.rst:204
+msgid "**while** (**true**);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:128
+msgid "// attempt to connect to Wifi network:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:130
+msgid "**while** (status != WL_CONNECTED) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:132
+msgid "Serial.print(\"Attempting to connect to SSID: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:134
+msgid "Serial.println(ssid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:136
+msgid ""
+"// Connect to WPA/WPA2 network. Change this line if using open or WEP "
+"network:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:139
+msgid "status = WiFi.begin(ssid,pass);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:141
+msgid "// wait 10 seconds for connection:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:143
+msgid "delay(10000);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:147
+msgid "Serial.println(\"Connected to wifi\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:149
+msgid "printWifiStatus();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:151
+msgid "Serial.println(\"\\nStarting connection to server...\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:153
+msgid "// if you get a connection, report back via serial:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:155
+msgid ""
+"**if** (client.connect(server, 443)) { //client.connect(server, 443, "
+"test_ca_cert, test_client_cert, test_client_key)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:158
+msgid "Serial.println(\"connected to server\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:160
+msgid "// Make a HTTP request:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:162
+msgid "client.println(\"GET /search?q=realtek HTTP/1.0\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:164
+msgid "client.println(\"Host: www.google.com\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:166
+msgid "client.println(\"Connection: close\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:168
+msgid "client.println();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:172
+msgid "**else**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:174
+msgid "Serial.println(\"connected to server failed\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:178
+msgid "**void** loop() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:180
+msgid "// if there are incoming bytes available"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:182
+msgid "// from the server, read them and print them:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:184
+msgid "**while** (client.available()) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:186
+msgid "**char** c = client.read();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:188
+msgid "Serial.write(c);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:192
+msgid "// if the server's disconnected, stop the client:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:194
+msgid "**if** (!client.connected()) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:196
+msgid "Serial.println();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:198
+msgid "Serial.println(\"disconnecting from server.\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:200
+msgid "client.stop();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:202
+msgid "// do nothing forevermore:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:210
+msgid "**void** printWifiStatus() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:212
+msgid "// print the SSID of the network you're attached to:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:214
+msgid "Serial.print(\"SSID: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:216
+msgid "Serial.println(WiFi.SSID());"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:218
+msgid "// print your WiFi shield's IP address:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:220
+msgid "IPAddress ip = WiFi.localIP();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:222
+msgid "Serial.print(\"IP Address: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:224
+msgid "Serial.println(ip);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:226
+msgid "// print your MAC address:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:228
+msgid "byte mac[6];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:230
+msgid "WiFi.macAddress(mac);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:232
+msgid "Serial.print(\"MAC address: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:234
+msgid "Serial.print(mac[0], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:236 WiFiSSLClient.rst:240 WiFiSSLClient.rst:244
+#: WiFiSSLClient.rst:248 WiFiSSLClient.rst:252
+msgid "Serial.print(\":\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:238
+msgid "Serial.print(mac[1], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:242
+msgid "Serial.print(mac[2], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:246
+msgid "Serial.print(mac[3], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:250
+msgid "Serial.print(mac[4], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:254
+msgid "Serial.println(mac[5], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:256
+msgid "// print the received signal strength:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:258
+msgid "**long** rssi = WiFi.RSSI();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:260
+msgid "Serial.print(\"signal strength (RSSI):\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:262
+msgid "Serial.print(rssi);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:264
+msgid "Serial.println(\" dBm\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:268 WiFiSSLClient.rst:301 WiFiSSLClient.rst:325
+#: WiFiSSLClient.rst:348 WiFiSSLClient.rst:373 WiFiSSLClient.rst:395
+#: WiFiSSLClient.rst:415 WiFiSSLClient.rst:437 WiFiSSLClient.rst:459
+#: WiFiSSLClient.rst:479 WiFiSSLClient.rst:501 WiFiSSLClient.rst:521
+#: WiFiSSLClient.rst:543
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:269 WiFiSSLClient.rst:302 WiFiSSLClient.rst:323
+#: WiFiSSLClient.rst:326 WiFiSSLClient.rst:349 WiFiSSLClient.rst:374
+#: WiFiSSLClient.rst:393 WiFiSSLClient.rst:396 WiFiSSLClient.rst:413
+#: WiFiSSLClient.rst:416 WiFiSSLClient.rst:438 WiFiSSLClient.rst:460
+#: WiFiSSLClient.rst:477 WiFiSSLClient.rst:480 WiFiSSLClient.rst:499
+#: WiFiSSLClient.rst:502 WiFiSSLClient.rst:519 WiFiSSLClient.rst:522
+#: WiFiSSLClient.rst:541
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:271
+msgid "**WiFiSSLClient::connect**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:274
+msgid "Connect to the IP address and port."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:277
+msgid "int WiFiSSLClient::connect(IPAddress ip, uint16_t port)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:278
+msgid "int WiFiSSLClient::connect(const char \\*host, uint16_t port)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:280
+msgid ""
+"int WiFiSSLClient::connect(const char\\* host, uint16_t port, unsigned "
+"char\\* rootCABuff, unsigned char\\* cli_cert, unsigned char\\* cli_key)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:282
+msgid ""
+"int WiFiSSLClient::connect(IPAddress ip, uint16_t port, unsigned char\\* "
+"rootCABuff, unsigned char\\* cli_cert, unsigned char\\* cli_key)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:285
+msgid "ip: IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:286
+msgid "host: Host name"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:287
+msgid "port: the port to listen on"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:288
+msgid "rootCABuff: buffer that store root CA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:289
+msgid "cli_cert: buffer that store client certificate"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:290
+msgid "cli_key buffer that store client key pair"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:293
+msgid "1: if successful"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:294
+msgid "0: if failed"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:299 WiFiSSLClient.rst:346 WiFiSSLClient.rst:371
+#: WiFiSSLClient.rst:435 WiFiSSLClient.rst:457
+msgid ""
+"Details of the code can be found in the previous section of "
+"WiFiSSLClient:: WiFiSSLClient."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:304
+msgid "**WiFiSSLClient::write**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:310
+msgid "size_t WiFiSSLClient::write(uint8_t byte)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:311
+msgid "size_t WiFiSSLClient::write(const uint8_t \\*buf, size_t size)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:314
+msgid "byte: the outgoing byte"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:315
+msgid "buf: the outgoing message"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:316 WiFiSSLClient.rst:365
+msgid "size: the size of the buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:320
+msgid ""
+"The function returns single -byte into the packet or turns bytes size "
+"from the buffer into the packet."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:328
+msgid "**WiFiSSLClient::available**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:334
+msgid "int WiFiSSLClient::available(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:337 WiFiSSLClient.rst:386 WiFiSSLClient.rst:407
+#: WiFiSSLClient.rst:427 WiFiSSLClient.rst:449
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:341
+msgid ""
+"The function returns the number of bytes available in the current packet;"
+" else return “0:” if no data available."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:351
+msgid "**WiFiSSLClient::read**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:357
+msgid "int WiFiSSLClient::read()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:358
+msgid "int WiFiSSLClient::read(unsigned char\\* buf, size_t size)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:361
+msgid "buf: buffer to hold incoming packets (char*)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:362
+msgid "size: maximum size of the buffer (int)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:366
+msgid "-1: if no buffer is available"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:376
+msgid "**WiFiSSLClient::peek**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:380
+msgid ""
+"Return the next byte from the current packet without moving on to the "
+"next byte."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:383
+msgid "int WiFiSSLClient::peek(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:389
+msgid "b: the next byte or character"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:390
+msgid "-1: if none is available"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:398
+msgid "**WiFiSSLClient::flush**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:404
+msgid "void WiFiSSLClient::flush(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:418
+msgid "**WiFiSSLClient::stop**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:421
+msgid "Disconnect from the server. Stop SSL client connection"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:424
+msgid "void WiFiSSLClient::stop(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:440
+msgid "**WiFiSSLClient::connected**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:443
+msgid "Check if SSL client is connected, return 1 if connected, 0 if not."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:446
+msgid "uint8_t WiFiSSLClient::connected(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:452
+msgid "The function returns “1” if connected, returns “0” if not connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:462
+msgid "**WiFiSSLClient::setRootCA**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:468
+msgid "void WiFiSSLClient::setRootCA(unsigned char \\*rootCA)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:471
+msgid "rootCA: a string of rootCA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:482
+msgid "**WiFiSSLClient::setClientCertificate**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:485
+msgid "Set certificate of client"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:489
+msgid ""
+"void WiFiSSLClient::setClientCertificate(unsigned char \\*client_ca, "
+"unsigned char \\*private_key)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:492
+msgid "client_ca: Client certificate"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:493
+msgid "private_key: client’s private key pair"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:504
+msgid "**WiFiSSLClient::setRecvTimeout**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:510
+msgid "int WiFiSSLClient::setRecvTimeout(int timeout)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:513
+msgid "timeout: timeout in seconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:516
+msgid "The function returns “0”."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:524
+msgid "**WiFiSSLClient::setPreSharedKey**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:531
+msgid ""
+"void WiFiSSLClient::setPreSharedKey(unsigned char \\*pskIdent, unsigned "
+"char \\*psKey)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:534
+msgid "pskIdent: identity for PSK"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:535
+msgid "psKey: Pre shared key"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: WiFiSSLClient.rst:546
+msgid ""
+"Do not set a root CA and client certificate if PSK should be used for "
+"authentication. If root CA, client certificate and PSK are all set, "
+"certificate based authentication will be used."
+msgstr ""
+

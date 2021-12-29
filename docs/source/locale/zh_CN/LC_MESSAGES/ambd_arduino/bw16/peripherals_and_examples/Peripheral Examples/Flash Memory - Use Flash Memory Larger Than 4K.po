@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:3 Flash Larger
+#: Memory Than Use
+msgid "Flash Memory - Use Flash Memory Larger Than 4K"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:8 Flash Larger
+#: Memory Than Use
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:12 Flash Larger
+#: Memory Than Use
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:14 Flash Larger
+#: Memory Than Use
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:20 Flash Larger
+#: Memory Than Use
+msgid ""
+"Flash Memory API uses memory of 4K bytes, which is normally sufficient "
+"for most application. However, larger memory can be provided by "
+"specifying a specific memory address and required size."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:23 Flash Larger
+#: Memory Than Use
+msgid ""
+"First, open the sample code in ``“File” -> “Examples” -> "
+"“AmebaFlashMemory” -> “ReadWriteOneWord”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:27 Flash Larger
+#: Memory Than Use
+msgid ""
+"In this example, we specify the starting address of flash memory is "
+"0xFC000 and size is 0x4000 (The default starting address is 0xFF000 and "
+"size is 0x1000)."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:31 Flash Larger
+#: Memory Than Use
+msgid ""
+"Then calculate correct address according to the specified offset and "
+"perform read/write operation. In the sample code we use offset 0x3F00, "
+"that is, 0xFC000 + 0x3F00 = 0xFFF00 in flash. We set the value to 0 at "
+"first, then increase by 1 every time Ameba reboots."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:33 Flash Larger
+#: Memory Than Use
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:63 Flash Larger
+#: Memory Than Use
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:35 Flash Larger
+#: Memory Than Use
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:39 Flash Larger
+#: Memory Than Use
+msgid ""
+"We can use the flash api we used in previous flash memory example, but we"
+" need to use ``begin()`` function to specify the desired starting address"
+" and memory size."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:47 Flash Larger
+#: Memory Than Use
+msgid ""
+"Use ``readWord()`` to read the value stored in a memory address. In the "
+"example, we read the value stored in memory offset 0x3F00, that is "
+"0xFC000 + 0x3F00 = 0xFFF00. ``readWord()`` function reads a 32-bit value "
+"and returns it."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:56 Flash Larger
+#: Memory Than Use
+msgid ""
+"Use ``writeWord()`` to write to a memory address. The first argument is "
+"the memory offset, the second argument is the value to write to memory."
+msgstr ""
+

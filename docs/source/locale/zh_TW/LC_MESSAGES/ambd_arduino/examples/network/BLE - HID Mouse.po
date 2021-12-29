@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:3
+msgid "BLE - HID Mouse"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:12
+msgid "AmebaD [RTL8722DM/RTL8722CSM/RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:13
+msgid "BLE capable host device [Windows / Linux / MacOS / Android"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:15
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:19
+msgid "**Introduction**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:21
+msgid ""
+"In this example, the RTL8722 board emulates a HID mouse connected using "
+"BLE."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:23
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:25
+msgid ""
+"Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
+"“BLEHIDMouse”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:27
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:53
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:29
+msgid "Upload the code and press the reset button once the upload is finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:31
+msgid ""
+"Immediately after reset, the board will begin BLE advertising as "
+"“AMEBA_BLE_HID”. On your host device, go to the Bluetooth settings menu, "
+"scan, and connect to the board."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:32
+msgid ""
+"You should ensure that the connection process is completed before "
+"proceeding."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:34
+msgid ""
+"On Windows, ensure that any driver installation is finished, and the "
+"board shows up in the Bluetooth menu under the “Mouse, keyboard & pen” "
+"category."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:35
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:57
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:37
+msgid "On Android, ensure that “Input device” is enabled for the board."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:38
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:61
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:41
+msgid ""
+"After the Bluetooth connection process is completed, the board is ready "
+"to send mouse input to the host device. Connect digital pin 8 to 3.3V to "
+"start sending input, and connect to GND to stop."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:43
+msgid ""
+"You should see the mouse cursor move around four points in a square, "
+"performing right and left clicks, and scrolling up and down."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:45
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:49
+msgid ""
+"How the mouse input is interpreted is dependent on the host system. Some "
+"systems, such as mobile operating systems, may not support all mouse "
+"button input functions."
+msgstr ""
+

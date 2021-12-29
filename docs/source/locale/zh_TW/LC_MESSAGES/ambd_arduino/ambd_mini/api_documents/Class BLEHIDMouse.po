@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:2
+msgid "Class BLEHIDMouse"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:4
+msgid "**BLEHIDMouse Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:6
+#: BLEHIDMouse.rst:49 BLEHIDMouse.rst:70 BLEHIDMouse.rst:92 BLEHIDMouse.rst:120
+#: BLEHIDMouse.rst:141 BLEHIDMouse.rst:162 BLEHIDMouse.rst:183
+#: BLEHIDMouse.rst:205
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:8
+msgid "A class used for creating and managing a BLE HID Mouse."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:10
+#: BLEHIDMouse.rst:52 BLEHIDMouse.rst:73 BLEHIDMouse.rst:95 BLEHIDMouse.rst:123
+#: BLEHIDMouse.rst:144 BLEHIDMouse.rst:165 BLEHIDMouse.rst:186
+#: BLEHIDMouse.rst:208
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:11
+msgid "class BLEHIDMouse"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:13
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:16
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:19
+msgid "BLE HIDMouse::BLEHIDMouse"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:19
+msgid "Constructs a BLEHIDMouse object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:24
+msgid "BLE HIDMouse::setReportID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:24
+msgid "Set HID report ID for the HID Mouse"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:27
+msgid "BLE HIDMouse::mouseReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:27
+msgid "Send a HID Mouse report"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:30
+msgid "BL EHIDMouse::mousePress"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:30
+msgid "Send a HID Mouse report indicating buttons pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:33
+msgid "BLEH IDMouse::mouseRelease"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:33
+msgid "Send a HID Mouse report indicating buttons released"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:36
+msgid "BLEHIDM ouse::mouseReleaseAll"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:36
+msgid "Send a HID Mouse report indicating no buttons pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:39
+msgid "B LEHIDMouse::mouseMove"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:39
+msgid "Send a HID Mouse report indicating mouse movement"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:42
+msgid "BLE HIDMouse::mouseScroll"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:42
+msgid "Send a HID Mouse report indicating mouse scroll wheel movement"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:47
+msgid "**BLEHIDMouse::BLEHIDMouse**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:50
+msgid "Constructs a BLEHIDMouse object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:53
+msgid "BLEHIDMouse::BLEHIDMouse();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:55
+#: BLEHIDMouse.rst:76 BLEHIDMouse.rst:99 BLEHIDMouse.rst:126
+#: BLEHIDMouse.rst:147 BLEHIDMouse.rst:168 BLEHIDMouse.rst:189
+#: BLEHIDMouse.rst:211
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:56
+#: BLEHIDMouse.rst:169
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:58
+#: BLEHIDMouse.rst:80 BLEHIDMouse.rst:108 BLEHIDMouse.rst:129
+#: BLEHIDMouse.rst:150 BLEHIDMouse.rst:171 BLEHIDMouse.rst:193
+#: BLEHIDMouse.rst:214
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:59
+#: BLEHIDMouse.rst:81 BLEHIDMouse.rst:109 BLEHIDMouse.rst:130
+#: BLEHIDMouse.rst:151 BLEHIDMouse.rst:172 BLEHIDMouse.rst:194
+#: BLEHIDMouse.rst:215
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:61
+#: BLEHIDMouse.rst:83 BLEHIDMouse.rst:111 BLEHIDMouse.rst:132
+#: BLEHIDMouse.rst:153 BLEHIDMouse.rst:174 BLEHIDMouse.rst:196
+#: BLEHIDMouse.rst:217
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:62
+#: BLEHIDMouse.rst:133 BLEHIDMouse.rst:154 BLEHIDMouse.rst:197
+#: BLEHIDMouse.rst:218
+msgid "Example: BLEHIDMouse"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:64
+#: BLEHIDMouse.rst:86 BLEHIDMouse.rst:114 BLEHIDMouse.rst:135
+#: BLEHIDMouse.rst:156 BLEHIDMouse.rst:177 BLEHIDMouse.rst:199
+#: BLEHIDMouse.rst:220
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:65
+#: BLEHIDMouse.rst:84 BLEHIDMouse.rst:87 BLEHIDMouse.rst:112
+#: BLEHIDMouse.rst:115 BLEHIDMouse.rst:136 BLEHIDMouse.rst:157
+#: BLEHIDMouse.rst:175 BLEHIDMouse.rst:178 BLEHIDMouse.rst:200
+#: BLEHIDMouse.rst:221
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:68
+msgid "**BLEHIDMouse::setReportID**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:71
+msgid "Set HID report ID for the HID Mouse."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:74
+msgid "void setReportID (uint8_t reportID);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:78
+msgid ""
+"reportID: The report ID for the HID mouse device, corresponding to the "
+"HID report descriptor."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:90
+msgid "**BLEHIDMouse::mouseReport**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:93
+msgid "Send a HID Mouse report."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:96
+msgid "void mouseReport (hid_mouse_report_t\\* report);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:97
+msgid "void mouseReport (uint8_t buttons, int8_t x, int8_t y, int8_t scroll);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:101
+msgid "report: pointer to mouse report structure containing data on mouse inputs"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:103
+msgid ""
+"buttons: bitmap indicating state of each button. 1 = pressed, 0 = "
+"released."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:104
+#: BLEHIDMouse.rst:190
+msgid "x: mouse x-axis movement. Integer value from -127 to 127."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:105
+#: BLEHIDMouse.rst:191
+msgid "y: mouse y-axis movement. Integer value from -127 to 127."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:106
+#: BLEHIDMouse.rst:212
+msgid "scroll: mouse scroll wheel movement. Integer value from -127 to 127."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:118
+msgid "**BLEHIDMouse::mousePress**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:121
+msgid "Send a HID Mouse report indicating buttons pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:124
+msgid "void mousePress (uint8_t buttons);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:127
+msgid "buttons: bitmap indicating buttons pressed. 1 = pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:139
+msgid "**BLEHIDMouse::mouseRelease**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:142
+msgid "Send a HID Mouse report indicating buttons released."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:145
+msgid "void mouseRelease (uint8_t buttons);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:148
+msgid "buttons: bitmap indicating buttons released. 1 = released."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:160
+msgid "**BLEHIDMouse::mouseReleaseAll**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:163
+msgid "Send a HID Mouse report indicating no buttons pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:166
+msgid "void mouseReleaseAll(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:181
+msgid "**BLEHIDMouse::mouseMove**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:184
+msgid "Send a HID Mouse report indicating mouse movement."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:187
+msgid "void mouseMove (int8_t x, int8_t y);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:203
+msgid "**BLEHIDMouse::mouseScroll**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:206
+msgid "Send a HID Mouse report indicating mouse scroll wheel movement."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEHIDMouse.rst:209
+msgid "void mouseScroll (int8_t scroll);"
+msgstr ""
+

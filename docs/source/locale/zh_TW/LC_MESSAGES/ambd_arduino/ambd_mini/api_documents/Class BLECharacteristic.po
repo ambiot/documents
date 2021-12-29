@@ -1,0 +1,1288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:2
+msgid "Class BLECharacteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:3
+msgid "**BLECharacteristic Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:5 BLECharacteristic.rst:120 BLECharacteristic.rst:142
+#: BLECharacteristic.rst:163 BLECharacteristic.rst:184
+#: BLECharacteristic.rst:205 BLECharacteristic.rst:225
+#: BLECharacteristic.rst:245 BLECharacteristic.rst:265
+#: BLECharacteristic.rst:287 BLECharacteristic.rst:309
+#: BLECharacteristic.rst:329 BLECharacteristic.rst:350
+#: BLECharacteristic.rst:372 BLECharacteristic.rst:394
+#: BLECharacteristic.rst:416 BLECharacteristic.rst:438
+#: BLECharacteristic.rst:461 BLECharacteristic.rst:483
+#: BLECharacteristic.rst:505 BLECharacteristic.rst:527
+#: BLECharacteristic.rst:548 BLECharacteristic.rst:570
+#: BLECharacteristic.rst:591 BLECharacteristic.rst:612
+#: BLECharacteristic.rst:632 BLECharacteristic.rst:652
+#: BLECharacteristic.rst:674 BLECharacteristic.rst:705
+#: BLECharacteristic.rst:731 BLECharacteristic.rst:757
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:7
+msgid "A class used for creating and managing BLE GATT characteristics."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:9 BLECharacteristic.rst:123 BLECharacteristic.rst:145
+#: BLECharacteristic.rst:166 BLECharacteristic.rst:187
+#: BLECharacteristic.rst:208 BLECharacteristic.rst:228
+#: BLECharacteristic.rst:248 BLECharacteristic.rst:268
+#: BLECharacteristic.rst:290 BLECharacteristic.rst:312
+#: BLECharacteristic.rst:332 BLECharacteristic.rst:354
+#: BLECharacteristic.rst:376 BLECharacteristic.rst:398
+#: BLECharacteristic.rst:420 BLECharacteristic.rst:442
+#: BLECharacteristic.rst:465 BLECharacteristic.rst:487
+#: BLECharacteristic.rst:508 BLECharacteristic.rst:530
+#: BLECharacteristic.rst:551 BLECharacteristic.rst:573
+#: BLECharacteristic.rst:594 BLECharacteristic.rst:615
+#: BLECharacteristic.rst:635 BLECharacteristic.rst:656
+#: BLECharacteristic.rst:678 BLECharacteristic.rst:709
+#: BLECharacteristic.rst:735 BLECharacteristic.rst:761
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:10
+msgid "class BLECharacteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:12
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:15
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:17
+msgid "BLEC haracteristic::BLECharacteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:17
+msgid "Constructs a BLECharacteristic object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:20
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:22
+msgid "BLECharacteristic::setUUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:22
+msgid "Set the characteristic UUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:24
+msgid "BLECharacteristic::getUUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:24
+msgid "Get the characteristic UUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:26
+msgid "BLECharacteristic::setBufferLen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:26
+msgid "Set the size of the internal data buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:29
+msgid "BLECharacteristic::getBufferLen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:29
+msgid "Get the current size of the internal data buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:32
+msgid "BL ECharacteristic::setReadProperty"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:32
+msgid ""
+"Get the current size of the internal data bufferSet the characteristic "
+"read property"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:36
+msgid "BLE Characteristic::setWriteProperty"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:36
+msgid "Set the characteristic write property"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:39
+msgid "BLEC haracteristic::setNotifyProperty"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:39
+msgid "Set the characteristic notify property"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:42
+msgid "BLECha racteristic::setIndicateProperty"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:42
+msgid "Set the characteristic indicate property"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:45
+msgid "BLECharacteristic::setProperties"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:45
+msgid "Set the characteristic properties"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:48
+msgid "BLECharacteristic::getProperties"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:48
+msgid "Get the characteristic properties"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:51
+msgid "BLECharacteristic::readString"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:51
+msgid "Read the characteristic data buffer as a String object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:54
+msgid "BLECharacteristic::readData8"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:54
+msgid "Read the characteristic data buffer as an unsigned 8-bit integer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:58
+msgid "BLECharacteristic::readData16"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:58
+msgid "Read the characteristic data buffer as an unsigned 16-bit integer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:62
+msgid "BLECharacteristic::readData32"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:62
+msgid "Read the characteristic data buffer as an unsigned 32-bit integer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:66
+msgid "BLECharacteristic::writeString"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:66
+msgid ""
+"Write data to the characteristic data buffer as a String object or "
+"character array"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:70
+msgid "BLECharacteristic::writeData8"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:70
+msgid "Write data to the characteristic data buffer as an unsigned 8-bit integer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:74
+msgid "BLECharacteristic::writeData16"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:74 BLECharacteristic.rst:78
+msgid "Write data to the characteristic data buffer as an unsigned 16-bit integer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:78
+msgid "BLECharacteristic::writeData32"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:82
+msgid "BLECharacteristic::setData"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:82
+msgid "Write data to the characteristic data buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:85
+msgid "BLECharacteristic::getData"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:85
+msgid "Read data from the characteristic data buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:88
+msgid "BLECharacteristic::getDataBuff"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:88
+msgid "Get a pointer to the characteristic data buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:91
+msgid "BLECharacteristic::getDataLen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:91
+msgid "Get the number of bytes of data in the characteristic data buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:95
+msgid "BLECharacteristic::notify"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:95
+msgid "Send a notification to a connected device"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:98
+msgid "BLECharacteristic::indicate"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:98
+msgid "Send an indication to a connected device"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:101
+msgid "BLEC haracteristic::setUserDescriptor"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:101
+msgid "Add a user description descriptor to characteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:104
+msgid "BLECha racteristic::setFormatDescriptor"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:104
+msgid "Add a data format descriptor to characteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:107
+msgid "BLECharacteristic::Add a data format descriptor to characteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:107
+msgid "Set a user function as a read callback"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:111
+msgid "BLE Characteristic::setWriteCallback"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:111
+msgid "Set a user function as a write callback"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:114
+msgid "BL ECharacteristic::setCCCDCallback"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:114
+msgid "Set a user function as a CCCD write callback"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:118
+msgid "**BLECharacteristic::BLECharacteristic**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:121
+msgid "Constructs a BLECharacteristic object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:124
+msgid "BLECharacteristic::BLECharacteristic(BLEUUID uuid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:125
+msgid "BLECharacteristic::BLECharacteristic(const char\\* uuid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:127 BLECharacteristic.rst:148
+#: BLECharacteristic.rst:169 BLECharacteristic.rst:190
+#: BLECharacteristic.rst:211 BLECharacteristic.rst:231
+#: BLECharacteristic.rst:251 BLECharacteristic.rst:271
+#: BLECharacteristic.rst:293 BLECharacteristic.rst:315
+#: BLECharacteristic.rst:335 BLECharacteristic.rst:357
+#: BLECharacteristic.rst:379 BLECharacteristic.rst:401
+#: BLECharacteristic.rst:423 BLECharacteristic.rst:446
+#: BLECharacteristic.rst:468 BLECharacteristic.rst:490
+#: BLECharacteristic.rst:512 BLECharacteristic.rst:533
+#: BLECharacteristic.rst:554 BLECharacteristic.rst:576
+#: BLECharacteristic.rst:597 BLECharacteristic.rst:618
+#: BLECharacteristic.rst:638 BLECharacteristic.rst:659
+#: BLECharacteristic.rst:682 BLECharacteristic.rst:713
+#: BLECharacteristic.rst:739 BLECharacteristic.rst:765
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:129
+msgid ""
+"uuid: characteristic UUID, expressed as a BLEUUID class object or a "
+"character array"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:131 BLECharacteristic.rst:152
+#: BLECharacteristic.rst:172 BLECharacteristic.rst:193
+#: BLECharacteristic.rst:214 BLECharacteristic.rst:234
+#: BLECharacteristic.rst:254 BLECharacteristic.rst:275
+#: BLECharacteristic.rst:297 BLECharacteristic.rst:318
+#: BLECharacteristic.rst:338 BLECharacteristic.rst:360
+#: BLECharacteristic.rst:382 BLECharacteristic.rst:404
+#: BLECharacteristic.rst:426 BLECharacteristic.rst:450
+#: BLECharacteristic.rst:472 BLECharacteristic.rst:494
+#: BLECharacteristic.rst:516 BLECharacteristic.rst:537
+#: BLECharacteristic.rst:558 BLECharacteristic.rst:579
+#: BLECharacteristic.rst:600 BLECharacteristic.rst:621
+#: BLECharacteristic.rst:641 BLECharacteristic.rst:663
+#: BLECharacteristic.rst:694 BLECharacteristic.rst:720
+#: BLECharacteristic.rst:746 BLECharacteristic.rst:774
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:132 BLECharacteristic.rst:153
+#: BLECharacteristic.rst:194 BLECharacteristic.rst:235
+#: BLECharacteristic.rst:255 BLECharacteristic.rst:276
+#: BLECharacteristic.rst:298 BLECharacteristic.rst:319
+#: BLECharacteristic.rst:622 BLECharacteristic.rst:642
+#: BLECharacteristic.rst:664 BLECharacteristic.rst:695
+#: BLECharacteristic.rst:721 BLECharacteristic.rst:747
+#: BLECharacteristic.rst:775
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:134 BLECharacteristic.rst:155
+#: BLECharacteristic.rst:176 BLECharacteristic.rst:196
+#: BLECharacteristic.rst:217 BLECharacteristic.rst:237
+#: BLECharacteristic.rst:257 BLECharacteristic.rst:278
+#: BLECharacteristic.rst:300 BLECharacteristic.rst:321
+#: BLECharacteristic.rst:342 BLECharacteristic.rst:364
+#: BLECharacteristic.rst:386 BLECharacteristic.rst:408
+#: BLECharacteristic.rst:430 BLECharacteristic.rst:453
+#: BLECharacteristic.rst:475 BLECharacteristic.rst:497
+#: BLECharacteristic.rst:519 BLECharacteristic.rst:540
+#: BLECharacteristic.rst:561 BLECharacteristic.rst:583
+#: BLECharacteristic.rst:604 BLECharacteristic.rst:624
+#: BLECharacteristic.rst:644 BLECharacteristic.rst:666
+#: BLECharacteristic.rst:697 BLECharacteristic.rst:723
+#: BLECharacteristic.rst:749 BLECharacteristic.rst:777
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:135 BLECharacteristic.rst:197
+#: BLECharacteristic.rst:258 BLECharacteristic.rst:279
+#: BLECharacteristic.rst:365 BLECharacteristic.rst:454
+#: BLECharacteristic.rst:625 BLECharacteristic.rst:750
+#: BLECharacteristic.rst:778
+msgid "Example: BLEUartService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:137 BLECharacteristic.rst:158
+#: BLECharacteristic.rst:179 BLECharacteristic.rst:199
+#: BLECharacteristic.rst:220 BLECharacteristic.rst:240
+#: BLECharacteristic.rst:260 BLECharacteristic.rst:281
+#: BLECharacteristic.rst:303 BLECharacteristic.rst:324
+#: BLECharacteristic.rst:345 BLECharacteristic.rst:367
+#: BLECharacteristic.rst:389 BLECharacteristic.rst:411
+#: BLECharacteristic.rst:433 BLECharacteristic.rst:456
+#: BLECharacteristic.rst:478 BLECharacteristic.rst:500
+#: BLECharacteristic.rst:522 BLECharacteristic.rst:543
+#: BLECharacteristic.rst:564 BLECharacteristic.rst:586
+#: BLECharacteristic.rst:607 BLECharacteristic.rst:627
+#: BLECharacteristic.rst:647 BLECharacteristic.rst:669
+#: BLECharacteristic.rst:700 BLECharacteristic.rst:726
+#: BLECharacteristic.rst:752 BLECharacteristic.rst:780
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:138 BLECharacteristic.rst:156
+#: BLECharacteristic.rst:159 BLECharacteristic.rst:177
+#: BLECharacteristic.rst:180 BLECharacteristic.rst:218
+#: BLECharacteristic.rst:221 BLECharacteristic.rst:241
+#: BLECharacteristic.rst:261 BLECharacteristic.rst:301
+#: BLECharacteristic.rst:322 BLECharacteristic.rst:325
+#: BLECharacteristic.rst:343 BLECharacteristic.rst:346
+#: BLECharacteristic.rst:387 BLECharacteristic.rst:390
+#: BLECharacteristic.rst:409 BLECharacteristic.rst:412
+#: BLECharacteristic.rst:431 BLECharacteristic.rst:434
+#: BLECharacteristic.rst:457 BLECharacteristic.rst:479
+#: BLECharacteristic.rst:498 BLECharacteristic.rst:501
+#: BLECharacteristic.rst:520 BLECharacteristic.rst:523
+#: BLECharacteristic.rst:541 BLECharacteristic.rst:544
+#: BLECharacteristic.rst:562 BLECharacteristic.rst:584
+#: BLECharacteristic.rst:587 BLECharacteristic.rst:605
+#: BLECharacteristic.rst:608 BLECharacteristic.rst:628
+#: BLECharacteristic.rst:645 BLECharacteristic.rst:648
+#: BLECharacteristic.rst:667 BLECharacteristic.rst:670
+#: BLECharacteristic.rst:698 BLECharacteristic.rst:701
+#: BLECharacteristic.rst:727 BLECharacteristic.rst:753
+#: BLECharacteristic.rst:781
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:140
+msgid "**BLECharacteristic::setUUID**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:143
+msgid "Set the characteristic UUID."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:146
+msgid "void setUUID(BLEUUID uuid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:150
+msgid "uuid: the new characteristic UUID, expressed with a BLEUUID class object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:161
+msgid "**BLECharacteristic::getUUID**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:164
+msgid "Get the characteristic UUID."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:167
+msgid "BLEUUID getUUID();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:170 BLECharacteristic.rst:212
+#: BLECharacteristic.rst:336 BLECharacteristic.rst:358
+#: BLECharacteristic.rst:380 BLECharacteristic.rst:402
+#: BLECharacteristic.rst:424 BLECharacteristic.rst:577
+#: BLECharacteristic.rst:598
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:174
+msgid "The function returns the characteristic UUID in a BLEUUID class object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:182
+msgid "**BLECharacteristic::setBufferLen**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:185
+msgid "Set the size of the internal data buffer of the characteristic."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:188
+msgid "void setBufferLen(uint16_t max_len);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:191
+msgid "max_len: number of bytes to resize the internal buffer to"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:201
+msgid ""
+"Characteristic data buffer has a default size of 20 bytes and can be "
+"increased up to 230 bytes."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:203
+msgid "**BLECharacteristic::getBufferLen**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:206
+msgid "Get the size of the characteristic internal buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:209
+msgid "uint16_t getBufferLen();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:215
+msgid "The function returns the currently set internal buffer size."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:223
+msgid "**BLECharacteristic::setReadProperty**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:226
+msgid "Set the characteristic read property."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:229
+msgid "void setReadProperty(bool value);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:232
+msgid "value: TRUE to allow connected devices to read characteristic data"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:238 BLECharacteristic.rst:476
+#: BLECharacteristic.rst:724
+msgid "Example: BLEBatteryService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:243
+msgid "**BLECharacteristic::setWriteProperty**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:246
+msgid "Set the characteristic write property."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:249
+msgid "void setWriteProperty(bool value);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:252
+msgid "value: TRUE to allow connected devices to write characteristic data"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:263
+msgid "**BLECharacteristic::setNotifyProperty**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:266
+msgid "Set the characteristic notify property."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:269
+msgid "void setNotifyProperty(bool value);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:273
+msgid ""
+"value: TRUE to allow connected devices to enable receiving characteristic"
+" data notifications."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:283 BLECharacteristic.rst:305
+msgid "Enabling this property will add a CCCD descriptor to the characteristic."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:285
+msgid "**BLECharacteristic::setIndicateProperty**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:288
+msgid "Set the characteristic indicate property."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:291
+msgid "void setIndicateProperty(bool value);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:295
+msgid ""
+"value: TRUE to allow connected devices to enable receiving characteristic"
+" data indications."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:307
+msgid "**BLECharacteristic::setProperties**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:310
+msgid "Set the characteristic properties."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:313
+msgid "void setProperties(uint8_t value);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:316
+msgid "value: desired characteristic properties"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:327
+msgid "**BLECharacteristic::getProperties**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:330
+msgid "Get the currently set characteristic properties."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:333
+msgid "uint8_t getProperties();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:340
+msgid ""
+"The function returns the currently set characteristic properties "
+"expressed as an unsigned 8-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:348
+msgid "**BLECharacteristic::readString**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:352
+msgid ""
+"Read the data in the characteristic internal buffer, expressed as a "
+"String class object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:355
+msgid "String readString();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:362
+msgid ""
+"The function returns the data in the characteristic internal buffer "
+"expressed as a String class object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:368
+msgid "Non-ASCII data may result in unexpected characters in the string."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:370
+msgid "**BLECharacteristic::readData8**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:374
+msgid ""
+"Read the data in the characteristic internal buffer, expressed as an "
+"unsigned 8-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:377
+msgid "uint8_t readData8();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:384
+msgid ""
+"The function returns the data in the characteristic internal buffer "
+"expressed as a uint8_t value."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:392
+msgid "**BLECharacteristic::readData16**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:396
+msgid ""
+"Read the data in the characteristic internal buffer, expressed as an "
+"unsigned 16-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:399
+msgid "uint16_t readData16();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:406
+msgid ""
+"The function returns the data in the characteristic internal buffer "
+"expressed as a uint16_t value."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:414 BLECharacteristic.rst:436
+msgid "**BLECharacteristic::readData32**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:418
+msgid ""
+"Read the data in the characteristic internal buffer, expressed as an "
+"unsigned 32-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:421
+msgid "uint32_t readData32();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:428
+msgid ""
+"The function returns the data in the characteristic internal buffer "
+"expressed as a uint32_t value."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:440
+msgid ""
+"Write data to the characteristic data buffer as a String object or "
+"character array."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:443
+msgid "bool writeString(String str);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:444
+msgid "bool writeString(const char\\* str);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:448
+msgid ""
+"str: the data to write to the characteristic buffer, expressed as a "
+"String class object or a char array."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:451 BLECharacteristic.rst:473
+#: BLECharacteristic.rst:495 BLECharacteristic.rst:517
+#: BLECharacteristic.rst:538
+msgid "The function returns TRUE if write data is successful."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:459
+msgid "**BLECharacteristic::writeData8**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:463
+msgid "Write data to the characteristic data buffer as an unsigned 8-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:466
+msgid "bool writeData8(uint8_t num);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:470
+msgid ""
+"num: the data to write to the characteristic buffer expressed as an "
+"unsigned 8-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:481
+msgid "**BLECharacteristic::writeData16**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:485
+msgid ""
+"Write data to the characteristic data buffer as an unsigned 16-bit "
+"integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:488
+msgid "bool writeData16(uint16_t num);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:492
+msgid ""
+"num: the data to write to the characteristic buffer expressed as an "
+"unsigned 16-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:503
+msgid "**BLECharacteristic::writeData32**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:506
+msgid "Write data to the characteristic data buffer as a 32-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:509
+msgid "bool writeData32(uint32_t num);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:510
+msgid "bool writeData32(int num);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:514
+msgid ""
+"num: the data to write to the characteristic buffer expressed as a 32-bit"
+" integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:525
+msgid "**BLECharacteristic::setData**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:528
+msgid "Write data to the characteristic data buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:531
+msgid "bool setData(uint8_t\\* data, uint16_t datalen);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:534
+msgid "data: pointer to byte array containing desired data"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:535
+msgid "datalen: number of bytes of data to write"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:546
+msgid "**BLECharacteristic::getData**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:549
+msgid "Read data from the characteristic data buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:552
+msgid "uint16_t getData(uint8_t\\* data, uint16_t datalen);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:555
+msgid "data: pointer to byte array to save data read from buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:556
+msgid "datalen: number of bytes of data to read"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:559
+msgid "The function returns the number of bytes read."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:566
+msgid ""
+"If the data buffer contains less data than requested, it will only read "
+"the available number of bytes of data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:568
+msgid "**BLECharacteristic::getDataBuff**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:571
+msgid "Get a pointer to the characteristic data buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:574
+msgid "uint8_t\\* getDataBuff();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:581
+msgid ""
+"The function returns a pointer to the uint8_t array used as the "
+"characteristic internal buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:589
+msgid "**BLECharacteristic::getDataLen**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:592
+msgid "Get the number of bytes of data in the characteristic data buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:595
+msgid "uint16_t getDataLen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:602
+msgid "The function returns the number of bytes of data in the internal buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:610
+msgid "**BLECharacteristic::notify**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:613
+msgid "Send a notification to a connected device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:616
+msgid "void notify(uint8_t conn_id);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:619
+msgid "conn_id: the connection ID for the device to send a notification to."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:630
+msgid "**BLECharacteristic::indicate**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:633
+msgid "Send an indication to a connected device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:636
+msgid "void indicate(uint8_t conn_id);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:639
+msgid "conn_id: the connection ID for the device to send an indication to."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:650
+msgid "**BLECharacteristic::setUserDescriptor**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:654
+msgid ""
+"Add a user description descriptor attribute (UUID 0x2901) to the "
+"characteristic."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:657
+msgid "void setUserDescriptor(const char\\* description);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:661
+msgid ""
+"description: the desired user description string expressed in a char "
+"array."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:672
+msgid "**BLECharacteristic::setFormatDescriptor**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:676
+msgid ""
+"Add a data format descriptor attribute (UUID 0x2904) to the "
+"characteristic."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:680
+msgid ""
+"void setFormatDescriptor(uint8_t format, uint8_t exponent, uint16_t unit,"
+" uint16_t description);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:685
+msgid ""
+"format: refer to https://www.bluetooth.com/specifications/assigned-"
+"numbers/format-types/ for the valid values and associated format types."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:686
+msgid "exponent: base-10 exponent to be applied to characteristic data value."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:689
+msgid ""
+"unit: refer to `https://btprodspecificationrefs.blob.core.windows.net"
+"/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf  "
+"<https://btprodspecificationrefs.blob.core.windows.net/assigned-"
+"values/16-bit%20UUID%20Numbers%20Document.pdf>`__\\ for the valid values "
+"and associated units."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:692
+msgid ""
+"descriptor: refer to https://www.bluetooth.com/specifications/assigned-"
+"numbers/gatt-namespace-descriptors/ for the valid values and associated "
+"descriptors."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:703
+msgid "**BLECharacteristic::setReadCallback**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:707
+msgid ""
+"Set a user function to be called when the characteristic data is read by "
+"a connected device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:711
+msgid ""
+"void setReadCallback(void (\\*fCallback) (BLECharacteristic\\* chr, "
+"uint8_t conn_id));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:715 BLECharacteristic.rst:741
+#: BLECharacteristic.rst:767
+msgid ""
+"fCallback: A user callback function that returns void and takes two "
+"arguments."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:716
+msgid "chr: pointer to BLECharacteristic object containing data read"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:718
+msgid "conn_id: connection ID of connected device that read characteristic data"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:729
+msgid "**BLECharacteristic::setWriteCallback**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:733
+msgid ""
+"Set a user function to be called when the characteristic data is written "
+"by a connected device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:737
+msgid ""
+"void setWriteCallback(void (\\*fCallback) (BLECharacteristic\\* chr, "
+"uint8_t conn_id));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:742 BLECharacteristic.rst:768
+msgid "chr: pointer to BLECharacteristic object containing written data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:744 BLECharacteristic.rst:770
+msgid "conn_id: connection ID of connected device that wrote characteristic data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:755
+msgid "**BLECharacteristic::setCCCDCallback**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:759
+msgid ""
+"Set a user function to be called when a connected device modifies the "
+"characteristic CCCD to enable or disable notifications or indications."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:763
+msgid ""
+"void setCCCDCallback(void (\\*fCallback) (BLECharacteristic\\* chr, "
+"uint8_t conn_id, uint16_t ccc_bits));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLECharacteristic.rst:772
+msgid ""
+"ccc_bits: the new CCCD data bits after modification by the connected "
+"device"
+msgstr ""
+

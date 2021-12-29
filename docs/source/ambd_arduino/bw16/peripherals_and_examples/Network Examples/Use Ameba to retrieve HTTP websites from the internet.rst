@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/Use Ameba to retrieve HTTP websites from the internet.rst

@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/PWM - Play Music.rst

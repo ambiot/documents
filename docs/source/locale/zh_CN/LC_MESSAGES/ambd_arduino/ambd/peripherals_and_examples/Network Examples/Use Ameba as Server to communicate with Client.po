@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:3 Server as
+#: communicate to with
+msgid "Use Ameba as Server to communicate with Client"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:8 Server as
+#: communicate to with
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:12 Server as
+#: communicate to with
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:13 Server as
+#: communicate to with
+msgid ""
+"Laptop（Make sure it is connected to the same network domain as Ameba, and"
+" tcp tools are installed.）"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:16 Server as
+#: communicate to with
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:20 Server as
+#: communicate to with
+msgid ""
+"In this example, we first connect Ameba to WiFi, then we use Ameba as "
+"server to communicate with client."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:23 Server as
+#: communicate to with
+msgid ""
+"First, we make sure the correct Ameba development board is set in “Tools”"
+" -> “Board”"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:26 Server as
+#: communicate to with
+msgid ""
+"Then, open the Simple WiFi Server example in ``“File” -> “Examples” -> "
+"“AmebaWiFi” -> “SimpleServerWiFi”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:29 Server as
+#: communicate to with
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:94 Server as
+#: communicate to with
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:31 Server as
+#: communicate to with
+msgid ""
+"In the sample code, modify the highlighted parameters and enter the ssid "
+"and password for your WiFi connection."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:34 Server as
+#: communicate to with
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:98 Server as
+#: communicate to with
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:36 Server as
+#: communicate to with
+msgid ""
+"Next, upload the code, then press the reset button on Ameba. At this "
+"moment, you will see the connection information is displayed in the "
+"console."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:42 Server as
+#: communicate to with
+msgid ""
+"Next, we use the socket tool in the laptop to be the client and connect "
+"to the IP address of the Ameba board shown in the connection information "
+"at port 5000. (Note: The socket tool we used in this example is “sokit”)"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:47 Server as
+#: communicate to with
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:102 Server
+#: as communicate to with
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:49 Server as
+#: communicate to with
+msgid ""
+"Click on the “Client” tab to choose the client mode, specify the IP and "
+"port of the server, then click “TCP Connect”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:52 Server as
+#: communicate to with
+msgid ""
+"If the connection is established successfully, the server shows a "
+"message: “A client connected to this Server”, and the IP and port of the "
+"connected client."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:56 Server as
+#: communicate to with
+msgid ""
+"In this example, when the client and server are connected and the client "
+"sends a string to Ameba server, the Ameba server returns the identical "
+"string back to the client."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:60 Server as
+#: communicate to with
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:106 Server
+#: as communicate to with
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:62 Server as
+#: communicate to with
+msgid "The string sent to server is returned and showed at the client side."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:64 Server as
+#: communicate to with
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:68 Server as
+#: communicate to with
+msgid "Use ``WiFi.begin()`` to establish WiFi connection;"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:69 Server as
+#: communicate to with
+msgid "https://www.arduino.cc/en/Reference/WiFiBegin"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:70 Server as
+#: communicate to with
+msgid "To get the information of a WiFi connection:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:71 Server as
+#: communicate to with
+msgid "Use ``WiFi.SSID()`` to get SSID of the current connected network."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:72 Server as
+#: communicate to with
+msgid "https://www.arduino.cc/en/Reference/WiFiSSID"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:73 Server as
+#: communicate to with
+msgid "Use ``WiFi.RSSI()`` to get the signal strength of the connection."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:74 Server as
+#: communicate to with
+msgid "https://www.arduino.cc/en/Reference/WiFiRSSI"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:75 Server as
+#: communicate to with
+msgid "Use ``WiFi.localIP()`` to get the Ameba WiFi shield’s IP address."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:76 Server as
+#: communicate to with
+msgid "https://www.arduino.cc/en/Reference/WiFiLocalIP"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:77 Server as
+#: communicate to with
+msgid "Create server and transmitting data:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:79 Server as
+#: communicate to with
+msgid ""
+"Use ``Server(port)`` to create a server that listens on the specified "
+"port."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:80 Server as
+#: communicate to with
+msgid "https://www.arduino.cc/en/Reference/WiFiServer"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:82 Server as
+#: communicate to with
+msgid ""
+"Use ``server.begin()`` to tell the server to begin listening for incoming"
+" connections."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:83 Server as
+#: communicate to with
+msgid "https://www.arduino.cc/en/Reference/WiFiServerBegin"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:85 Server as
+#: communicate to with
+msgid ""
+"Use ``server.available()`` to get a client that is connected to the "
+"server and has data available for reading."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:86 Server as
+#: communicate to with
+msgid "https://www.arduino.cc/en/Reference/WiFiServerAvailable"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:87 Server as
+#: communicate to with
+msgid "Use ``client.read()`` to read the next byte received from the server."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:88 Server as
+#: communicate to with
+msgid "https://www.arduino.cc/en/Reference/WiFiClientRead"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:89 Server as
+#: communicate to with
+msgid "Use ``client.write()`` to write data to the server."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:90 Server as
+#: communicate to with
+msgid "https://www.arduino.cc/en/Reference/WiFiClientWrite"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:91 Server as
+#: communicate to with
+msgid "Use ``client.stop()`` to disconnect from the server."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Client.rst:92 Server as
+#: communicate to with
+msgid "https://www.arduino.cc/en/Reference/WiFIClientStop"
+msgstr ""
+

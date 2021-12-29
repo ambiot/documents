@@ -1,0 +1,1061 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:2
+msgid "Class HttpClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:3
+msgid "**HttpClient Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:5
+#: HttpClient.rst:63 HttpClient.rst:310 HttpClient.rst:335 HttpClient.rst:360
+#: HttpClient.rst:399 HttpClient.rst:438 HttpClient.rst:477 HttpClient.rst:512
+#: HttpClient.rst:553 HttpClient.rst:580 HttpClient.rst:604 HttpClient.rst:628
+#: HttpClient.rst:656 HttpClient.rst:683 HttpClient.rst:706 HttpClient.rst:730
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:6
+msgid "Defines a class of using HttpClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:8
+#: HttpClient.rst:67 HttpClient.rst:315 HttpClient.rst:340 HttpClient.rst:365
+#: HttpClient.rst:404 HttpClient.rst:443 HttpClient.rst:480 HttpClient.rst:526
+#: HttpClient.rst:558 HttpClient.rst:584 HttpClient.rst:608 HttpClient.rst:636
+#: HttpClient.rst:663 HttpClient.rst:686 HttpClient.rst:710 HttpClient.rst:733
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:9
+msgid "class HttpClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:16
+msgid "HttpClient::HttpClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:16
+msgid "Constructs a HttpClient object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:18
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:20
+msgid "HttpClient::beginRequest"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:20
+msgid "Start a more complex request"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:22
+msgid "HttpClient::endRequest"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:22
+msgid "End a more complex request"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:24
+msgid "HttpClient::get"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:24
+msgid "Connect to the server and start to send a GET request"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:27
+msgid "HttpClient::post"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:27
+msgid "Connect to the server and start to send a POST request"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:30
+msgid "HttpClient::put"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:30
+msgid "Connect to the server and start to send a PUT request"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:33
+msgid "HttpClient::startRequest"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:33
+msgid "Connect to the server and start to send the request"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:36
+msgid "HttpClient::sendHeader"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:36
+msgid "Send an additional header line"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:38
+msgid "HttpClient::sendBasicAuth"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:38
+msgid "Send a basic authentication header"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:41
+msgid "HttpClient::finishRequest"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:41
+msgid "Finish sending the HTTP request"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:43
+msgid "HttpClient::responseStatusCode"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:43
+msgid "Get the HTTP status code contained in the response"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:46
+msgid "HttpClient::readHeader"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:46
+msgid "Read the next character of the response headers"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:49
+msgid "HttpClient::skipResponseHeaders"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:49
+msgid "Skip any response headers to get to the body"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:52
+msgid "HttpClient::endOfHeadersReached"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:52
+msgid "Test whether all of the response headers have been consumed"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:55
+msgid "HttpClient::endOfBodyReached"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:55
+msgid "Test whether the end of the body has been reached"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:58
+msgid "HttpClient::contentLength"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:58
+msgid "Return the length of the body"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:61
+msgid "**HttpClient::HttpClient**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:65
+msgid ""
+"Constructs a HttpClient object. If Marco “PROXY_ENABLED” is defined, "
+"currently disabled as introduces a dependency on DNS.h in Ethernet."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:69
+msgid ""
+"HttpClient::HttpClient(Client& aClient, const char\\* aProxy = NULL, "
+"uint16_t aProxyPort = 0);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:70
+msgid "HttpClient::HttpClient(Client& aClient);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:72
+#: HttpClient.rst:318 HttpClient.rst:343 HttpClient.rst:376 HttpClient.rst:415
+#: HttpClient.rst:454 HttpClient.rst:488 HttpClient.rst:533 HttpClient.rst:562
+#: HttpClient.rst:587 HttpClient.rst:611 HttpClient.rst:639 HttpClient.rst:666
+#: HttpClient.rst:689 HttpClient.rst:713 HttpClient.rst:736
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:73
+msgid "aClient: The object of class WiFiClient."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:74
+msgid "aProxy: The proxy name. The default proxy name is “NULL”."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:75
+msgid "aProxyPort: The proxy port. The default value for the proxy port is 0."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:77
+#: HttpClient.rst:321 HttpClient.rst:346 HttpClient.rst:385 HttpClient.rst:424
+#: HttpClient.rst:463 HttpClient.rst:498 HttpClient.rst:539 HttpClient.rst:566
+#: HttpClient.rst:590 HttpClient.rst:614 HttpClient.rst:642 HttpClient.rst:669
+#: HttpClient.rst:692 HttpClient.rst:716 HttpClient.rst:739
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:78
+#: HttpClient.rst:322 HttpClient.rst:347 HttpClient.rst:540 HttpClient.rst:567
+#: HttpClient.rst:591
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:80
+#: HttpClient.rst:324 HttpClient.rst:349 HttpClient.rst:388 HttpClient.rst:427
+#: HttpClient.rst:466 HttpClient.rst:501 HttpClient.rst:542 HttpClient.rst:569
+#: HttpClient.rst:593 HttpClient.rst:617 HttpClient.rst:645 HttpClient.rst:672
+#: HttpClient.rst:695 HttpClient.rst:719 HttpClient.rst:743
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:81
+#: HttpClient.rst:325 HttpClient.rst:350 HttpClient.rst:389 HttpClient.rst:428
+#: HttpClient.rst:467 HttpClient.rst:502 HttpClient.rst:543 HttpClient.rst:570
+#: HttpClient.rst:594 HttpClient.rst:618 HttpClient.rst:646 HttpClient.rst:673
+#: HttpClient.rst:696 HttpClient.rst:720 HttpClient.rst:744
+msgid "Example: SimpleHttpExample"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:83
+msgid ""
+"The example demonstrate how to download the content from URL indicated in"
+" kHostname[]."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:85
+msgid "**#include <HttpClient.h>**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:87
+msgid "**#include <WiFi.h>**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:89
+msgid "**#include <WiFiClient.h>**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:91
+msgid "**char** ssid[] = \"YourNetwork\"; // your network SSID (name)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:93
+msgid ""
+"**char** pass[] = \"password\"; // your network password (use for WPA, or"
+" use as key for WEP)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:96
+msgid ""
+"**int** keyIndex = 0; // your network key Index number (needed only for "
+"WEP)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:99
+msgid "// Name of the server we want to connect to"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:101
+msgid "const **char** kHostname[] = \"www.google.com\";"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:103
+msgid "const **char** kPath[] = \"/\";"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:105
+msgid ""
+"// Number of milliseconds to wait without receiving any data before we "
+"give up"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:108
+msgid "const **int** kNetworkTimeout = 30*1000;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:110
+msgid ""
+"// Number of milliseconds to wait if no data is available before trying "
+"again"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:113
+msgid "const **int** kNetworkDelay = 1000;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:115
+msgid "**int** status = WL_IDLE_STATUS;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:117
+msgid "**void** setup() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:119
+msgid "Serial.begin(9600);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:121
+msgid "**while** ( status != WL_CONNECTED) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:123
+msgid "Serial.print(\"Attempting to connect to SSID: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:125
+msgid "Serial.println(ssid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:127
+msgid "status = WiFi.begin(ssid, pass);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:129
+msgid "// wait 10 seconds for connection:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:131
+msgid "delay(10000);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:133
+#: HttpClient.rst:139 HttpClient.rst:219 HttpClient.rst:229 HttpClient.rst:231
+#: HttpClient.rst:233 HttpClient.rst:243 HttpClient.rst:245 HttpClient.rst:255
+#: HttpClient.rst:257 HttpClient.rst:267 HttpClient.rst:275 HttpClient.rst:303
+msgid "}"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:135
+msgid "Serial.println(\"Connected to wifi\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:137
+msgid "printWifiStatus();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:141
+msgid "**void** loop() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:143
+msgid "**int** err =0;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:145
+msgid "WiFiClient c;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:147
+msgid "HttpClient http(c);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:149
+msgid "err = http.get(kHostname, kPath);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:151
+msgid "**if** (err == 0)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:153
+#: HttpClient.rst:161 HttpClient.rst:177 HttpClient.rst:201 HttpClient.rst:205
+#: HttpClient.rst:223 HttpClient.rst:237 HttpClient.rst:249 HttpClient.rst:261
+msgid "{"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:155
+msgid "Serial.println(\"startedRequest ok\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:157
+msgid "err = http.responseStatusCode();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:159
+#: HttpClient.rst:175
+msgid "**if** (err >= 0)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:163
+msgid "Serial.print(\"Got status code: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:165
+#: HttpClient.rst:241 HttpClient.rst:253 HttpClient.rst:265
+msgid "Serial.println(err);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:167
+msgid "// Usually you'd check that the response code is 200 or a"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:169
+msgid "// similar \"success\" code (200-299) before carrying on,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:171
+msgid "// but we'll print out whatever response we get"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:173
+msgid "err = http.skipResponseHeaders();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:179
+msgid "**int** bodyLen = http.contentLength();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:181
+msgid "Serial.print(\"Content length is: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:183
+msgid "Serial.println(bodyLen);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:185
+msgid "Serial.println();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:187
+msgid "Serial.println(\"Body returned follows:\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:189
+msgid "// Now we've got to the body, so we can print it out"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:191
+msgid "unsigned **long** timeoutStart = millis();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:193
+msgid "**char** c;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:195
+msgid "// Whilst we haven't timed out & haven't reached the end of the body"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:197
+msgid "**while** ( (http.connected() \\|\\| http.available()) &&"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:199
+msgid "((millis() - timeoutStart) < kNetworkTimeout) )"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:203
+msgid "**if** (http.available())"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:207
+msgid "c = http.read();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:209
+msgid "// Print out this character"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:211
+msgid "Serial.print(c);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:213
+msgid "bodyLen--;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:215
+msgid "// We read something, reset the timeout counter"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:217
+msgid "timeoutStart = millis();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:221
+#: HttpClient.rst:235 HttpClient.rst:247 HttpClient.rst:259
+msgid "**else**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:225
+msgid "// We haven't got any data, so let's pause to allow some to arrive"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:227
+msgid "delay(kNetworkDelay);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:239
+msgid "Serial.print(\"Failed to skip response headers: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:251
+msgid "Serial.print(\"Getting response failed: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:263
+msgid "Serial.print(\"Connect failed: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:269
+msgid "http.stop();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:271
+msgid "// And just stop, now that we've tried a download"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:273
+msgid "**while**\\ (1);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:277
+msgid "**void** printWifiStatus() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:279
+msgid "// print the SSID of the network you're attached to:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:281
+msgid "Serial.print(\"SSID: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:283
+msgid "Serial.println(WiFi.SSID());"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:285
+msgid "// print your WiFi shield's IP address:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:287
+msgid "IPAddress ip = WiFi.localIP();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:289
+msgid "Serial.print(\"IP Address: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:291
+msgid "Serial.println(ip);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:293
+msgid "// print the received signal strength:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:295
+msgid "**long** rssi = WiFi.RSSI();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:297
+msgid "Serial.print(\"signal strength (RSSI):\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:299
+msgid "Serial.print(rssi);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:301
+msgid "Serial.println(\" dBm\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:305
+#: HttpClient.rst:330 HttpClient.rst:355 HttpClient.rst:394 HttpClient.rst:433
+#: HttpClient.rst:472 HttpClient.rst:507 HttpClient.rst:548 HttpClient.rst:575
+#: HttpClient.rst:599 HttpClient.rst:623 HttpClient.rst:651 HttpClient.rst:678
+#: HttpClient.rst:701 HttpClient.rst:725 HttpClient.rst:749
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:306
+#: HttpClient.rst:331 HttpClient.rst:356 HttpClient.rst:395 HttpClient.rst:434
+#: HttpClient.rst:473 HttpClient.rst:508 HttpClient.rst:549 HttpClient.rst:576
+#: HttpClient.rst:600 HttpClient.rst:624 HttpClient.rst:652 HttpClient.rst:679
+#: HttpClient.rst:702 HttpClient.rst:726 HttpClient.rst:750
+msgid "Include “HttpClient.h” to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:308
+msgid "**HttpClient::beginRequest**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:313
+msgid ""
+"Start a more complex request. Use this when you need to send additional "
+"headers in the request, but you will also need to call endRequest() when "
+"you are finished."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:316
+msgid "void HttpClient::beginRequest(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:319
+#: HttpClient.rst:344 HttpClient.rst:588 HttpClient.rst:612 HttpClient.rst:640
+#: HttpClient.rst:667 HttpClient.rst:690 HttpClient.rst:714 HttpClient.rst:737
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:328
+#: HttpClient.rst:353 HttpClient.rst:392 HttpClient.rst:431 HttpClient.rst:470
+#: HttpClient.rst:505 HttpClient.rst:546 HttpClient.rst:573 HttpClient.rst:597
+#: HttpClient.rst:621 HttpClient.rst:649 HttpClient.rst:676 HttpClient.rst:699
+#: HttpClient.rst:723 HttpClient.rst:747
+msgid ""
+"The example demonstrates how to download the content from the URL "
+"indicated in kHostname[]. Details of the code can be found in the "
+"previous section of HttpClient:: HttpClient."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:333
+msgid "**HttpClient::endRequest**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:338
+msgid ""
+"End a more complex request. Use this when you need to have sent "
+"additional headers in the request, but you will also need to call "
+"beginRequest() at the start."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:341
+msgid "void HttpClient::endRequest(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:358
+msgid "**HttpClient::get**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:363
+msgid ""
+"Connect to the server and start to send a “GET” request. If the input "
+"parameter contains “aServerAddress”, the connection will not perform a "
+"DNS lookup and just purely connect to the given IP address."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:367
+msgid ""
+"int HttpClient::get(const char\\* aServerName, uint16_t aServerPort, "
+"const char\\* aURLPath, const char\\* aUserAgent = NULL);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:369
+msgid ""
+"int HttpClient::get(const char\\* aServerName, const char\\* aURLPath, "
+"const char\\* aUserAgent = NULL);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:372
+msgid ""
+"int HttpClient::get(const IPAddress& aServerAddress, const char\\* "
+"aServerName, uint16_t aServerPort, const char\\* aURLPath, const char\\* "
+"aUserAgent = NULL);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:374
+msgid ""
+"int HttpClient::get(const IPAddress& aServerAddress, const char\\* "
+"aServerName, const char\\* aURLPath, const char\\* aUserAgent = NULL);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:378
+msgid ""
+"aServerName: The name of the server being connected to. If aServerName is"
+" “NULL”, the “Host” header line will not be sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:379
+msgid "aServerPort: The port on which server connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:380
+msgid "aURLPath: The URL to request."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:382
+#: HttpClient.rst:421 HttpClient.rst:460
+msgid ""
+"aUserAgent: User-Agent string to be sent. If aUserAgent indicated as "
+"“NULL”, the default user-agent kUserAgent will be sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:383
+#: HttpClient.rst:422 HttpClient.rst:461 HttpClient.rst:489
+msgid "aServerAddress: IP address of the server to connect to."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:386
+#: HttpClient.rst:425 HttpClient.rst:464
+msgid "Return 0 if successful, otherwise indicates an error occurs."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:397
+msgid "**HttpClient::post**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:402
+msgid ""
+"Connect to the server and start to send a “POST” request. If the input "
+"parameter has “aServerAddress”, connects doesn’t perform a DNS lookup and"
+" just connects to the given IP address."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:406
+msgid ""
+"int HttpClient::post(const char\\* aServerName, uint16_t aServerPort, "
+"const char\\* aURLPath, const char\\* aUserAgent = NULL);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:408
+msgid ""
+"int HttpClient::post(const char\\* aServerName, const char\\* aURLPath, "
+"const char\\* aUserAgent = NULL);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:411
+msgid ""
+"int HttpClient::post(const IPAddress& aServerAddress, const char\\* "
+"aServerName, uint16_t aServerPort, const char\\* aURLPath, const char\\* "
+"aUserAgent = NULL);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:413
+msgid ""
+"int HttpClient::post(const IPAddress& aServerAddress, const char\\* "
+"aServerName, const char\\* aURLPath, const char\\* aUserAgent = NULL);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:417
+#: HttpClient.rst:456 HttpClient.rst:491
+msgid ""
+"aServerName: Name of the server being connected to. If NULL, the “Host” "
+"header line won’t be sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:418
+#: HttpClient.rst:457 HttpClient.rst:492
+msgid "aServerPort: Port to connect to on the server."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:419
+#: HttpClient.rst:458 HttpClient.rst:493
+msgid "aURLPath: Url to request."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:436
+msgid "**HttpClient::put**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:441
+msgid ""
+"Connect to the server and start to send a PUT request. If the input "
+"parameter has “aServerAddress”, connects doesn’t perform a DNS lookup and"
+" just connects to the given IP address."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:445
+msgid ""
+"int HttpClient::put(const char\\* aServerName, uint16_t aServerPort, "
+"const char\\* aURLPath, const char\\* aUserAgent = NULL);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:447
+msgid ""
+"int HttpClient::put(const char\\* aServerName, const char\\* aURLPath, "
+"const char\\* aUserAgent = NULL);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:450
+msgid ""
+"int HttpClient::put(const IPAddress& aServerAddress, const char\\* "
+"aServerName, uint16_t aServerPort, const char\\* aURLPath, const char\\* "
+"aUserAgent = NULL);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:452
+msgid ""
+"int HttpClient::put(const IPAddress& aServerAddress, const char\\* "
+"aServerName, const char\\* aURLPath, const char\\* aUserAgent = NULL);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:475
+msgid "**HttpClient::startRequest**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:478
+msgid "Connect to the server and start to send the request."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:483
+msgid ""
+"int HttpClient::startRequest(const char\\* aServerName, uint16_t "
+"aServerPort, const char\\* aURLPath, const char\\* aHttpMethod, const "
+"char\\* aUserAgent);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:486
+msgid ""
+"int HttpClient::startRequest(const IPAddress& aServerAddress, const "
+"char\\* aServerName, uint16_t aServerPort, const char\\* aURLPath, const "
+"char\\* aHttpMethod, const char\\* aUserAgent);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:494
+msgid "aHttpMethod: Type of HTTP request to make, e.g. “GET”, “POST”, etc."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:496
+msgid ""
+"aUserAgent: User-Agent string to send. If NULL the default user-agent "
+"kUserAgent will be sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:499
+#: HttpClient.rst:615 HttpClient.rst:670
+msgid "Return 0 if successful, else error."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:510
+msgid "**HttpClient::sendHeader**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:513
+msgid "The function sends an additional header line."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:515
+msgid ""
+"The function void HttpClient:: sendHeader(const char\\* aHeader);can only"
+" be called in between the calls to startRequest and finishRequest."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:524
+msgid ""
+"The other 2 functions void HttpClient::sendHeader(const char\\* "
+"aHeaderName, const char\\* aHeaderValue); and void "
+"HttpClient::sendHeader(const char\\* aHeaderName, const int "
+"aHeaderValue); are alternate form the previous one, which takes the "
+"header name and content as separately (as strings or integer). For "
+"example, to send an XXXXXX header, user might call sendHeader(“XXXXX”, "
+"“Something”) or sendHeader(“XXXXX”, 123).And the call will add the “: ” "
+"in the log to separate different header in the case of multiple headers."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:527
+msgid "void HttpClient::sendHeader(const char\\* aHeader);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:529
+msgid ""
+"void HttpClient::sendHeader(const char\\* aHeaderName, const char\\* "
+"aHeaderValue);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:531
+msgid ""
+"void HttpClient::sendHeader(const char\\* aHeaderName, const int "
+"aHeaderValue);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:535
+msgid ""
+"aHeader: Header line to send, in its entirety (but without the trailing "
+"CRLF. E.g. “Authorization: Basic YQDDCAIGES”."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:536
+msgid "aHeaderName: Type of header being sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:537
+msgid "aHeaderValue: Value for that header."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:551
+msgid "**HttpClient::sendBasicAuth**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:556
+msgid ""
+"The function sends a basic authentication header which will encode the "
+"given username and password, and send them in a suitable header line for "
+"doing Basic Authentication."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:560
+msgid ""
+"void HttpClient::sendBasicAuth(const char\\* aUser, const char\\* "
+"aPassword);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:563
+msgid "aUser: Username for the authorization."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:564
+msgid "aPassword: Password for the user aUser."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:578
+msgid "**HttpClient::finishRequest**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:582
+msgid ""
+"Finish sending the HTTP request. The function sends a blank line to "
+"signify the end of the request."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:585
+msgid "void HttpClient::finishRequest(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:602
+msgid "**HttpClient::responseStatusCode**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:606
+msgid ""
+"Get the HTTP status code contained in the response. For example, “200” "
+"for successful requests, “404” for file not found, etc."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:609
+msgid "int HttpClient::responseStatusCode(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:626
+msgid "**HttpClient::readHeader**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:634
+msgid ""
+"The function reads the next character of the response headers. This "
+"functions the same as read() but to be used when reading through the "
+"headers which are slightly less efficient. The user might check whether "
+"the end of the headers has been reached by calling endOfHeadersReached(),"
+" although after that point this will still return data as read() would."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:637
+msgid "int HttpClient::readHeader(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:643
+msgid "Return the next character of the response headers."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:654
+msgid "**HttpClient::skipResponseHeaders**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:661
+msgid ""
+"Skip any response headers to get to the body. Use this if you don’t want "
+"to do any special processing of the headers returned in the response. You"
+" can also use it after you’ve found all of the headers you’re interested "
+"in, and just want to get on with processing the body."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:664
+msgid "int HttpClient::skipResponseHeaders(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:681
+msgid "**HttpClient::endOfHeadersReached**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:684
+msgid "Test whether all of the response headers have been consumed."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:687
+msgid "bool HttpClient::endOfHeadersReached(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:693
+msgid "Return true if we are now processing the response body, else false."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:704
+msgid "**HttpClient::endOfBodyReached**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:708
+msgid ""
+"Test whether the end of the body has been reached. It only works if the "
+"Content-Length header was returned by the server."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:711
+msgid "bool HttpClient::endOfBodyReached(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:717
+msgid "Return true if we are now at the end of the body, else false."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:728
+msgid "**HttpClient::contentLength**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:731
+msgid "The function returns the length of the body."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:734
+msgid "int HttpClient::contentLength(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class HttpClient.rst:741
+msgid ""
+"Return Length of the body, in bytes, or kNoContentLengthHeader if no "
+"Content-Length header was returned by the server."
+msgstr ""
+

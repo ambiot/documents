@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/Audio Codec - Play and Record Wav Files.rst

@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:3 Save
+#: Sleep
+msgid "Power Save Deep Sleep Mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:8 Save
+#: Sleep
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:12 Save
+#: Sleep
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:14 Save
+#: Sleep
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:18 Save
+#: Sleep
+msgid "**Introduction**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:20 Save
+#: Sleep
+msgid ""
+"Ameba-D supports two low power modes which are deepsleep mode and sleep "
+"mode. Deepsleep mode turns off more power domain than sleep mode. The "
+"power consumptions of DeepSleep Mode is around 7uA to 8uA compare to "
+"normal state around 22mA. This example describes how to enter deepsleep "
+"mode and configure wakeup source."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:26 Save
+#: Sleep
+msgid "**Procedure**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:27 Save
+#: Sleep
+msgid "Open ``“File” -> “Examples” -> “AmebaPowerSave” -> “DeepSleepMode”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:29 Save
+#: Sleep
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:72 Save
+#: Sleep
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:31 Save
+#: Sleep
+msgid "Set condition values as picture below."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:33 Save
+#: Sleep
+msgid ""
+"``DS_WAKEUP_SOURCE`` is used to set the wake-up source, user can chose 3 "
+"wake up sources now,"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:41 Save
+#: Sleep
+msgid ""
+"AON timer can be set from 0 to 32760000 range (unit ms) by "
+"``AON_TIMER_SLEEP_DURATION``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:44 Save
+#: Sleep
+msgid ""
+"There are 4 pins can be set as AON pins and active high for wake-up, D16,"
+" D17, D26 and D27. The AON pin can be set by "
+"``SET_DS_AON_WAKEPIN_WAKEUPPIN``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:48 Save
+#: Sleep
+msgid ""
+"RTC timer wake-up system by set alarm. The alarm has 4 values, day, hour,"
+" min and sec. All 4 values can be set by ``DS_RTC_ALARM_DAY``, "
+"``DS_RTC_ALARM_HOUR``, ``DS_RTC_ALARM_MIN``, and ``DS_RTC_ALARM_SEC``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:52 Save
+#: Sleep
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:76 Save
+#: Sleep
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:54 Save
+#: Sleep
+msgid ""
+"When finished the condition values setting, system will run and switch "
+"between normal and deepsleep mode controlled by wakeup source. Serial "
+"Monitor displays the switching log."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:58 Save
+#: Sleep
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:80 Save
+#: Sleep
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:60 Save
+#: Sleep
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:84 Save
+#: Sleep
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:62 Save
+#: Sleep
+msgid "|5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:88 Save
+#: Sleep
+msgid "5"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:64 Save
+#: Sleep
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:68 Save
+#: Sleep
+msgid ""
+"Please refer to the `API Documents <https://www.amebaiot.com/rtl8722dm-"
+"arduino-online-api-documents/>`__ PowerSave section for detail "
+"description of all API."
+msgstr ""
+

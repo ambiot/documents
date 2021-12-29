@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: -Periodical ../../source/ambd_micropython/source/examples/[RTL8722CSM] Timer
+#: [RTL8722DM] timer.rst:8
+msgid "[RTL8722CSM] [RTL8722DM] Timer - Periodical timer"
+msgstr "[RTL8722CSM] [RTL8722DM] Timer -周期性定时器"
+
+#: -Periodical ../../source/ambd_micropython/source/examples/[RTL8722CSM] Timer
+#: [RTL8722DM] timer.rst:13
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
+
+#: -Periodical ../../source/ambd_micropython/source/examples/[RTL8722CSM] Timer
+#: [RTL8722DM] timer.rst:17
+msgid "Ameba x 1"
+msgstr ""
+
+#: -Periodical ../../source/ambd_micropython/source/examples/[RTL8722CSM] Timer
+#: [RTL8722DM] timer.rst:19
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
+"html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
+
+#: -Periodical ../../source/ambd_micropython/source/examples/[RTL8722CSM] Timer
+#: [RTL8722DM] timer.rst:23
+msgid ""
+"There are 3 sets of general timers available to user, each at 32KHz, they"
+" are timer 1/2/3. Here we use timer 1 as example to demonstrate how a "
+"periodical timer works."
+msgstr "这里有3个定时器可以使用, 全部是32kHz, 分别是定时器1/2/3。"
+"我们使用定时器1来示范一个周期性定时器是怎样工作的。"
+
+#: -Periodical ../../source/ambd_micropython/source/examples/[RTL8722CSM] Timer
+#: [RTL8722DM] timer.rst:26
+msgid "Copy and paste the first 3 lines of code into REPL to see its effect."
+msgstr "复制下面最初的3行代码至REPL来查看结果。"
+
+#: -Periodical ../../source/ambd_micropython/source/examples/[RTL8722CSM] Timer
+#: [RTL8722DM] timer.rst:37
+msgid ""
+"A text of  ``–timer triggered. to stop: type t.stop()–`` will be printed "
+"on the terminal every 2 seconds."
+msgstr ""
+"一段显示信息为 ``–timer triggered. to stop: type t.stop()–`` 的log将在终端中每隔 2 秒显示一次"
+
+#: -Periodical ../../source/ambd_micropython/source/examples/[RTL8722CSM] Timer
+#: [RTL8722DM] timer.rst:38
+msgid "To stop the timer, simply type ``t.stop()``."
+msgstr "请使用``t.stop()``指令停止定时器计时."
+
+

@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:3
+msgid "I2C"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
+" :raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API 文档**"
+" :raw-html:`</p>`"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **构造函数** "
+":raw-html:`</p>`"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:16
+msgid ""
+"**I2C(** \\ *unit_id*\\  [optional], \\ *\"sda_pin\"*\\  [required], \\ "
+"*\"scl_pin\"*\\  [required], *frequency*\\  [optional]\\ **)**"
+msgstr ""
+"**I2C(** \\ *unit_id*\\  [选填], \\ *\"sda_pin\"*\\  [必填], \\ "
+"*\"scl_pin\"*\\  [必填], *frequency*\\  [选填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:17
+msgid ""
+"Create a I2C object associated with the given pin name and configure it "
+"using other parameters."
+msgstr ""
+"创建一个I2C对象并关联其到所给的引脚上，使用别的参数来配置该对象。"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:18
+msgid "This allows you to then read/write data on the I2C bus"
+msgstr "如此便可在I2C上发送以及接收数据。"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:20
+msgid ""
+"``unit_id``  : The unit ID of the hardware I2C, assume default value if "
+"left blank"
+msgstr "``unit_id``  : 硬件I2C的组号, 如不填则使用默认值"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:21
+msgid "``\"sda_pin\"``: The pin name of SDA"
+msgstr "``\"sda_pin\"``: SDA引脚名"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:22
+msgid "``\"scl_pin\"``: The pin name of SCL"
+msgstr "``\"scl_pin\"``: SCL引脚名"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:23
+msgid ""
+"``frequency``: The frequency at which I2C operates at, assume default "
+"value if left blank."
+msgstr "``frequency``: I2C 的运行频率, 如不填则使用默认值"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:26
+msgid "All optional parameters have default values as follows:"
+msgstr "所有选填参数的默认值如下"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:32
+msgid "Parameter"
+msgstr "参数"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:32
+msgid "Default"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:34
+msgid "Unit_id"
+msgstr "默认值"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:34
+msgid "0"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:35
+msgid "Frequency"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:35
+msgid "100000 (Hz)"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:39
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
+"html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **方法** :raw-"
+"html:`</p>`"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:43
+msgid "**I2C.reset()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:44
+msgid "This method de-initializes the I2C device."
+msgstr "该方法取消I2C 设备的初始化."
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:46
+msgid "**I2C.scan()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:47
+msgid "This method scans and return the available I2C addresses."
+msgstr "该方法扫描并返回可用I2C地址."
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:49
+msgid "**I2C.readinto(** *buf*\\ [required], *flag*\\ [optional]\\ **)**"
+msgstr "**I2C.readinto(** *buf*\\ [必填], *flag*\\ [选填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:50
+msgid ""
+"This method reads the data received at I2C buffer into a user-declared "
+"buffer"
+msgstr "该方法读取I2C缓存器中的数据并存入用户定义的缓存器中"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:52
+msgid "**buf**: a buffer of string / array /byte array type"
+msgstr "**buf**: 一个string / array /byte array 类型的缓存器"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:53
+msgid "**flag**: a Boolean flag, if True then send a NACK at the end, vice versa"
+msgstr "**flag**: 一个布尔标记, 如果是True则在数据末尾发送 NACK, 反则反之"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:55
+msgid "**I2C.write(**\\ *buf*\\ [required]\\ **)**"
+msgstr "**I2C.write(**\\ *buf*\\ [必填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:56
+msgid "This method sends data stored in the buffer."
+msgstr "该方法发送已存在buf中的数据"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:58
+msgid "**buf:** a buffer of string / array /byte array type"
+msgstr "**buf:** 一个string / array /byte array 类型的缓存器"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:60
+msgid ""
+"**I2C.readfrom(**\\ *addr*\\ [required], *len*\\ [required], *stop*\\ "
+"[optional]\\ **)**"
+msgstr ""
+"**I2C.readfrom(**\\ *addr*\\ [必填], *len*\\ [必填], *stop*\\ "
+"[选填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:61
+msgid ""
+"This method reads len bytes of data from given address, if stop is True, "
+"then send a STOP bit at the end of the transmission."
+msgstr ""
+"该方法从所给的地址上读取len长度的数据。如果stop值为真，则在传输结尾发送STOP字节。"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:63
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:70
+msgid "**addr**: the address to read from"
+msgstr "**addr**: 读取的地址"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:64
+msgid "**len**: the number of bytes to expect"
+msgstr "**len**: 要读取的数据长度"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:65
+msgid ""
+"**stop**: a Boolean flag whether or not to send a STOP bit at the end of "
+"transmission"
+msgstr ""
+"**stop**: 布尔标记，若True则在传输结束发送STOP字节"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:67
+msgid ""
+"**I2C.readfrom_into(**\\ *addr*\\ [required], *buf*\\ [required], "
+"*stop*\\ [optional]\\ **)**"
+msgstr ""
+"**I2C.readfrom_into(**\\ *addr*\\ [必填], *buf*\\ [必填], "
+"*stop*\\ [选填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:68
+msgid ""
+"This method reads data from given address into the user-declared buffer "
+"provided, if stop is True, then send a STOP bit at the end of the "
+"transmission."
+msgstr ""
+"该方法从所给的地址上读取len长度的数据。如果stop值为真，则在传输结尾发送STOP字节。"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:71
+msgid "**buf**: a data buffer of string / array/ byte array type"
+msgstr "**buf:** 一个string / array /byte array 类型的缓存器"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:72
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:79
+msgid ""
+"**stop**: a Boolean flag, if True then send a STOP bit at the end of "
+"transmission, vice versa"
+msgstr "**stop**: 布尔标记，若True则在传输结束发送STOP字节"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:74
+msgid ""
+"**I2C.writeto(**\\ *addr*\\ [required], *value*\\ [required], *stop*\\ "
+"[optional]\\ **)**"
+msgstr ""
+"**I2C.writeto(**\\ *addr*\\ [必填], *value*\\ [必填], *stop*\\ "
+"[选填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:75
+msgid ""
+"This method sends an integer value to the given address, if stop is True,"
+" then send a STOP bit at the end of the transmission."
+msgstr "该方法发送一个整数数据到所给的地址上。如果stop值为真，则在传输结尾发送STOP字节。"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:77
+msgid "**addr**: the address to write to"
+msgstr "**addr**: 写入的地址"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:78
+msgid "**value**: an integer value to be sent over"
+msgstr "**value**: 要发送的整数数值"
+
+

@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:3 QR
+#: User-Generated on
+msgid "E-Paper - Display User-generated QR Code"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:8 QR
+#: User-Generated on
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:12 QR
+#: User-Generated on
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:13 QR
+#: User-Generated on
+msgid "Waveshare 2.9inch e-Paper HAT (D) x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:15 QR
+#: User-Generated on
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:22 QR
+#: User-Generated on
+msgid ""
+"In this example, we use the Ameba RTL8722 module connects to a Waveshare "
+"2.9inch e-Paper module to display a few QR codes. The display uses the "
+"flexible substrate as a base plate, with an interface and a reference "
+"system design."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:26 QR
+#: User-Generated on
+msgid ""
+"The 2.9” active area contains 296×128 pixels and has 1-bit white/black "
+"full display capabilities. An integrated circuit contains gate buffer, "
+"source buffer, interface, timing control logic, oscillator, etc… are "
+"supplied with each panel."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:30 QR
+#: User-Generated on
+msgid ""
+"You may refer to the official `2.9inch e-Paper HAT (D) datasheet "
+"<https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
+"Paper_(D)_Specification.pdf>`__ to know more information about this "
+"module."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:32 QR
+#: User-Generated on
+msgid "Front view of the e-Paper Module:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:34 QR
+#: User-Generated on
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:83 QR
+#: User-Generated on
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:36 QR
+#: User-Generated on
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:38 QR
+#: User-Generated on
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:87 QR
+#: User-Generated on
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:40 QR
+#: User-Generated on
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:91 QR
+#: User-Generated on
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:42 QR
+#: User-Generated on
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:44 QR
+#: User-Generated on
+msgid "|2-1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:95 QR
+#: User-Generated on
+msgid "2-1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:46 QR
+#: User-Generated on
+msgid "|3-1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:99 QR
+#: User-Generated on
+msgid "3-1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:48 QR
+#: User-Generated on
+msgid "**RTL8720DN(BW16)** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:50 QR
+#: User-Generated on
+msgid "|2-2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:103
+#: QR User-Generated on
+msgid "2-2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:52 QR
+#: User-Generated on
+msgid "|3-2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:107
+#: QR User-Generated on
+msgid "3-2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:55 QR
+#: User-Generated on
+msgid ""
+"Download the Eink zip library, AmebaEink.zip, at "
+"https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:58 QR
+#: User-Generated on
+msgid ""
+"Then install the AmebaEink.zip. Open the “DisplayQR” example in ``“File” "
+"→ “Examples” → “AmebaEink” → “DisplayQR”``: |4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:111
+#: QR User-Generated on
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:60 QR
+#: User-Generated on
+msgid ""
+"Modify the URL in the loop() section as your wish, after that, verify and"
+" upload the code to the Ameba board. Upon successfully upload the sample "
+"code and press the reset button, a QR code generated based on the URL of "
+"your input will be shown on the E-Paper module. The QR code showing below"
+" leads to our Ameba IoT official website: `Ameba ARDUINO "
+"<https://www.amebaiot.com/ameba-arduino-summary>`__"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:68 QR
+#: User-Generated on
+msgid "|5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:115
+#: QR User-Generated on
+msgid "5"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:70 QR
+#: User-Generated on
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:76 QR
+#: User-Generated on
+msgid ""
+"[1] We use Good Display GDEH029A1 2.9 Inch / 296×128 Resolution / Partial"
+" Refresh Arduino Sample Code to get the e-Paper successfully Display: "
+"http://www.good-display.com/product/201.html"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:78 QR
+#: User-Generated on
+msgid ""
+"[2] Provide the link to how to generate a QR code on the E-paper module: "
+"https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-"
+"arduino.html"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display Code E-Paper.rst:81 QR
+#: User-Generated on
+msgid ""
+"[3] A simple library for generating QR codes in C, optimized for "
+"processing and memory-constrained systems: "
+"https://github.com/ricmoo/QRCode#data-capacities"
+msgstr ""
+

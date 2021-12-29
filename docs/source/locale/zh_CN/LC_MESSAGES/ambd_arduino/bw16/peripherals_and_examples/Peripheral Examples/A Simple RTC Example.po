@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:3 RTC Simple
+msgid "A Simple RTC Example"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:8 RTC Simple
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:12 RTC Simple
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:14 RTC Simple
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:18 RTC Simple
+msgid ""
+"This example demonstrates how to use the RTC library methods. This "
+"function describes how to use the RTC API. The RTC function is "
+"implemented by an independent BCD timer/counter."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:23 RTC Simple
+msgid ""
+"Select the correct Ameba development board from the Arduino IDE: "
+"\"Tools\" -> \"Board\"."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:24 RTC Simple
+msgid "Then open the “RTC” example from:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:25 RTC Simple
+msgid "``\"File\" -> \"Examples\" -> \"AmebaRTC\" -> \"RTC\"``:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:27 RTC Simple
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:42 RTC Simple
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:29 RTC Simple
+msgid ""
+"Upon successfully upload the sample code and press the reset button, this"
+" example will print out time information since the user initialized time "
+"every second in the Serial Monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:33 RTC Simple
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:46 RTC Simple
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:35 RTC Simple
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:39 RTC Simple
+msgid "[1] Simple RTC example from Arduino Tutorials:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Example.rst:40 RTC Simple
+msgid "https://www.arduino.cc/en/Tutorial/SimpleRTC"
+msgstr ""
+

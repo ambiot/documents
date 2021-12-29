@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/support/index.rst:10
+msgid "Support"
+msgstr "支援"
+
+#: ../../source/ambd_arduino/support/index.rst:14
+msgid "FAQ"
+msgstr "常見問題"
+
+#: ../../source/ambd_arduino/support/index.rst:16
+msgid "Where to buy Ameba RTL8722DM Board?"
+msgstr "如何購買 Ameba RTL8722DM Board?"
+
+#: ../../source/ambd_arduino/support/index.rst:19
+msgid ""
+"Refer to `Purchase link <https://www.amebaiot.com/where-to-buy-"
+"link/#buy_amb21>`__."
+msgstr "請參考 `購買連結 <https://www.amebaiot.com/where-to-buy-link/#buy_amb21>`_。"
+
+#: ../../source/ambd_arduino/support/index.rst:22
+msgid "Which Bluetooth standards are supported by RTL8722CSM/RTL8722DM?"
+msgstr "RTL8722CSM/RTL8722DM 支持哪些藍牙標準?"
+
+#: ../../source/ambd_arduino/support/index.rst:25
+msgid "Both boards support BLE 5.0. Classic Bluetooth (BR/EDR) is not supported."
+msgstr "兩者皆支援 BLE 5.0。 Classic Bluetooth (BR/EDR) 則不支援。"
+
+#: ../../source/ambd_arduino/support/index.rst:27
+msgid "Which BLE roles are supported?"
+msgstr "支持哪些BLE設備?"
+
+#: ../../source/ambd_arduino/support/index.rst:30
+msgid ""
+"RTL8722CSM/RTL8722DM can operate as either a BLE Central or BLE "
+"Peripheral device."
+msgstr "RTL8722CSM/RTL8722DM 可當作 BLE Central 或 BLE Peripheral 設備。"
+
+#: ../../source/ambd_arduino/support/index.rst:33
+msgid "Are all pins on RTL8722CSM/RTL8722DM usable?"
+msgstr "RTL8722CSM /RTL8722DM上的所有接腳都可用嗎？"
+
+#: ../../source/ambd_arduino/support/index.rst:36
+msgid "No, those marked ``NC`` are not connected to any pin and thus unusable."
+msgstr "不，標有“NC”的未連接到任何接腳，因此無法使用。"
+
+#: ../../source/ambd_arduino/support/index.rst:38
+msgid "Is XIP (execute in place) supported on RTL8722CSM/RTL8722DM?"
+msgstr "RTL8722CSM/RTL8722DM 有支援 XIP (execute in place)嗎?"
+
+#: ../../source/ambd_arduino/support/index.rst:41
+msgid "Yes, it is supported."
+msgstr "有支援。"
+
+#: ../../source/ambd_arduino/support/index.rst:43
+msgid "Does RTL8722CSM support 5G WiFi?"
+msgstr "RTL8722CSM 有支援 5G WiFi 嗎?"
+
+#: ../../source/ambd_arduino/support/index.rst:46
+msgid ""
+"No. Only RTL8722DM supports dual band 2.4G + 5G WiFi. RTL8722CSM only "
+"supports single band 2.4G WiFi."
+msgstr "不，只有 RTL8722DM 支援雙頻 2.4G + 5G WiFi。 RTL8722CSM 只有支援單頻 2.4G WiFi。"
+
+#: ../../source/ambd_arduino/support/index.rst:48
+msgid "How to enter the download mode?"
+msgstr "如何進入下載模式?"
+
+#: ../../source/ambd_arduino/support/index.rst:51
+msgid ""
+"Press and hold the UART DOWNLOAD button. Then Press the RESET button and "
+"release both UART DOWNLOAD and RESET buttons."
+msgstr "按住UART DOWNLOAD按鈕，然後按下RESET按鈕並放開UART DOWNLOAD和RESET按鈕。"
+
+#: ../../source/ambd_arduino/support/index.rst:57
+msgid "Trouble shooting"
+msgstr "故障排除"
+
+#: ../../source/ambd_arduino/support/index.rst:59
+msgid "RTL8722CSM/RTL8722DM cannot be found as a Bluetooth device."
+msgstr "無法找到藍牙裝置RTL8722CSM/RTL8722DM"
+
+#: ../../source/ambd_arduino/support/index.rst:62
+msgid ""
+"Please make sure the antenna is connected properly. Check your code for "
+"the correct Bluetooth configurations."
+msgstr "請確保天線連接正確。 檢查您的程式碼有確認正確的藍牙配置。"
+
+#: ../../source/ambd_arduino/support/index.rst:64
+msgid "My code is not behaving as I expected."
+msgstr "程式碼操作不如預期"
+
+#: ../../source/ambd_arduino/support/index.rst:67
+msgid ""
+"Try to debug your program using ``printf()`` and ``Serial.print()`` "
+"statements. If the issue persists, you can ask for help at `Forums "
+"<https://forum.amebaiot.com/>`__"
+msgstr "嘗試使用``printf()`` 和 ``Serial.print()`` 語法除錯。 如果問題仍然存在，您可以在論壇尋求幫助"
+
+#: ../../source/ambd_arduino/support/index.rst:70
+msgid ""
+"Why is there no output on my serial terminal after connecting to "
+"RTL8722CSM/RTL8722DM UART?"
+msgstr "連接到RTL8722CSM / RTL8722DM UART後，為什麼串行終端上沒有輸出？"
+
+#: ../../source/ambd_arduino/support/index.rst:73
+msgid ""
+"RTL8722CSM/RTL8722DM is by default configured at 115200 baudrate, please "
+"check if your serial terminal is configured to 115200."
+msgstr "RTL8722CSM / RTL8722DM 默認配置為115200波特率，請檢查串行終端是否配置為115200。"
+
+#: ../../source/ambd_arduino/support/index.rst:76
+msgid "My program is not being downloaded into RTL8722CSM/RTL8722DM?"
+msgstr "程序無法下載到RTL8722CSM / RTL8722DM中"
+
+#: ../../source/ambd_arduino/support/index.rst:81
+msgid "Please follow the procedure for the correct downloading："
+msgstr "請按照以下步驟正確下載。"
+
+#: ../../source/ambd_arduino/support/index.rst:80
+msgid ""
+"Enter the download mode. The on-board Green LED will blink when entered "
+"download mode."
+msgstr "請進入下載模式。 進入下載模式時，開發版綠色LED指示燈將閃爍。"
+
+#: ../../source/ambd_arduino/support/index.rst:81
+msgid "When downloading the image into board the on-board Red LED will blink"
+msgstr "下載過程中，開發版紅色LED指示燈將閃爍。"
+
+#: ../../source/ambd_arduino/support/index.rst:82
+msgid ""
+"After a successful download, you will see log like this “All images sent "
+"successfully”."
+msgstr "下載成功後，Arduino IDE會出現通知。"
+
+#: ../../source/ambd_arduino/support/index.rst:85
+msgid "Sometimes WiFi signal is weak?"
+msgstr "WiFi有時信號較弱"
+
+#: ../../source/ambd_arduino/support/index.rst:88
+msgid ""
+"The default antenna for RTL8722CSM/RTL8722DM uses the I-Pex Connector. "
+"Please change/connect the I-Pex Connector antenna."
+msgstr "RTL8722CSM / RTL8722DM 的預設天線使用I-Pex連接器。 請更換/連接I-Pex連接器天線。"
+
+#: ../../source/ambd_arduino/support/index.rst:91
+msgid "Why is my board not powering up?"
+msgstr "為什麼開發版無法上電?"
+
+#: ../../source/ambd_arduino/support/index.rst:94
+msgid ""
+"Please make sure the connector J38 beside resistor R43 is connected. The "
+"connector is used to link the power to IC."
+msgstr "請確認已連接電阻R43旁的連接器J38。 該連接器用於將電源鏈接到IC。"
+
+#: ../../source/ambd_arduino/support/index.rst:97
+msgid "If you have driver issue to connect board to your computer?"
+msgstr "遇到開發板連接到電腦的驅動程式問題?"
+
+#: ../../source/ambd_arduino/support/index.rst:100
+msgid "Please go to https://ftdichip.com/drivers/ for USB driver."
+msgstr "請參考下列USB 驅動程式 https://ftdichip.com/drivers /。"
+

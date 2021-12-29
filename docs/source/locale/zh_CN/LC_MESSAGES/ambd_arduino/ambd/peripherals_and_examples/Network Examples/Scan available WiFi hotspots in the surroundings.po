@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:3 The WiFi in
+msgid "Scan Available WiFi Hotspots in The Surroundings"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:8 The WiFi in
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:12 The WiFi in
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:13 The WiFi in
+msgid "Antenna x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:15 The WiFi in
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:21 The WiFi in
+msgid ""
+"In this example, we use Ameba to scan available WiFi hotspots in the "
+"surroundings, and prints the SSID, encryption type, signal strength "
+"information of each detected hotspot."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:23 The WiFi in
+msgid ""
+"First, make sure the correct Ameba development board is selected in "
+"Arduino IDE: ``“Tools” -> “Board”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:25 The WiFi in
+msgid ""
+"Open the “ScanNetworks” example in ``“File” -> “Examples” -> “AmebaWiFi” "
+"-> “ScanNetworks”``:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:27 The WiFi in
+msgid "|image1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:61 The WiFi in
+msgid "image1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:29 The WiFi in
+msgid ""
+"Then upload the sample code and press the reset button on Ameba. "
+"Afterwards, you can see “\\*\\*Scan Networks\\*\\*” message appears, with"
+" the detected WiFi hotspots and the information of each hotspot."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:33 The WiFi in
+msgid "|image2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:65 The WiFi in
+msgid "image2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:35 The WiFi in
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:39 The WiFi in
+msgid ""
+"First we use ``WiFi.macAddress(mac)`` to get the MAC address of Ameba: "
+"https://www.arduino.cc/en/Reference/WiFiMACAddress"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:41 The WiFi in
+msgid ""
+"Then we use ``WiFi.scanNetworks()`` to detect WiFi hotspots: "
+"https://www.arduino.cc/en/Reference/WiFiScanNetworks"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:43 The WiFi in
+msgid ""
+"To get information of detected WiFi hotspot: We use "
+"``WiFi.SSID(thisNet)`` to retrieve SSID of a network: "
+"https://www.arduino.cc/en/Reference/WiFiSSID We use "
+"``WiFi.RSSI(thisNet)`` to get the signal strength of the connection to "
+"the router: https://www.arduino.cc/en/Reference/WiFiRSSI"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:48 The WiFi in
+msgid ""
+"We use ``WiFi.encryptionType(thisNet)`` to get the encryption type of the"
+" network: https://www.arduino.cc/en/Reference/WiFiEncryptionType"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:51 The WiFi in
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Comparison with"
+" Arduino** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:57 The WiFi in
+msgid ""
+"In the Arduino platform, we need to add an extra WiFi shield to be the "
+"WiFi module to realize the WiFi connection. And we must ``#include`` to "
+"use SPI to communicate with WiFi module."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Scan Available Hotspots
+#: Surroundings.rst:59 The WiFi in
+msgid ""
+"However, Ameba is already equipped with WiFi module. Therefore, "
+"``#include`` is not needed."
+msgstr ""
+

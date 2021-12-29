@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:3
+msgid "Audio Codec – Basic Input Output"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:12
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:13
+msgid "Potentiometer x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:14
+msgid "Analog microphone x 1 (e.g., Adafruit 1063 / 1064)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:15
+msgid "3.5mm TRS/TRRS breakout x 1 (e.g., Adafruit 2791 / Sparkfun 11570)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:17
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:21
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:23
+msgid ""
+"Connect the potentiometer, microphone and 3.5mm connector to the RTL8722 "
+"board following the diagram."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:25
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:27
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:48
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:29
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:31
+msgid "|1-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:52
+msgid "1-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:33
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaAudioCodec” -> "
+"“BasicInputOutput”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:36
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:56
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:38
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
+#: Output.rst:41
+msgid ""
+"Connect a pair of wired headphones to the 3.5mm audio jack, blow at the "
+"microphone, and you should hear the sounds picked-up by the microphone "
+"replayed in the headphones. Adjust the potentiometer and the output "
+"volume will change as well. Note: if you are using a microphone with an "
+"amplifier included, such as Adafruit 1063, the amplifier can lead to the "
+"microphone picking up more noise."
+msgstr ""
+
