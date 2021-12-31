@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Readme SPI.rst:3
+msgid "Readme"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Readme SPI.rst:5
+msgid ""
+"The Ameba SPI related APIs and examples are works based on SPI Master "
+"library for arduino written by Cristian Maglie <c.maglie@arduino.cc> and "
+"Paul Stoffregen <paul@pjrc.com> (Transaction API)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Readme SPI.rst:9
+msgid "These include,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Readme SPI.rst:10
+msgid "SPI.cpp"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Readme SPI.rst:11
+msgid "SPI.h"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Readme SPI.rst:13
+msgid "These libraries are under GNU Lesser General Public License, version 2.1."
+msgstr ""
+

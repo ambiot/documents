@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:3 from
+#: information retrieve the to
+msgid "Use Ameba to retrieve information from the Internet"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:8 from
+#: information retrieve the to
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:12 from
+#: information retrieve the to
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:14 from
+#: information retrieve the to
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:19 from
+#: information retrieve the to
+msgid ""
+"In this example, we use Ameba to be a web client to retrieve information "
+"from the Internet."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:21 from
+#: information retrieve the to
+msgid ""
+"First, make sure the correct Ameba development board is selected in "
+"“Tools” -> “Board”"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:23 from
+#: information retrieve the to
+msgid "Then open ``“File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebClient”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:25 from
+#: information retrieve the to
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:68 from
+#: information retrieve the to
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:27 from
+#: information retrieve the to
+msgid ""
+"In the sample code, modify the highlighted snippet and enter the required"
+" information (ssid, password, key index) required to connect to your WiFi"
+" network."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:31 from
+#: information retrieve the to
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:72 from
+#: information retrieve the to
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:33 from
+#: information retrieve the to
+msgid ""
+"Upload the code and press the reset button on Ameba. Then you can see the"
+" information retrieved from Google is shown in the Arduino serial "
+"monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:37 from
+#: information retrieve the to
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:76 from
+#: information retrieve the to
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:39 from
+#: information retrieve the to
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:43 from
+#: information retrieve the to
+msgid "https://www.arduino.cc/en/Reference/WiFiBegin"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:45 from
+#: information retrieve the to
+msgid ""
+"To get the information of a WiFi connection: Use ``WiFi.SSID()`` to get "
+"SSID of the current connected network."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:46 from
+#: information retrieve the to
+msgid "https://www.arduino.cc/en/Reference/WiFiSSID"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:47 from
+#: information retrieve the to
+msgid "Use ``WiFi.RSSI()`` to get the signal strength of the connection."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:48 from
+#: information retrieve the to
+msgid "https://www.arduino.cc/en/Reference/WiFiRSSI"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:49 from
+#: information retrieve the to
+msgid "Use ``WiFi.localIP()`` to get the IP address of Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:50 from
+#: information retrieve the to
+msgid "https://www.arduino.cc/en/Reference/WiFiLocalIP"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:51 from
+#: information retrieve the to
+msgid "Use ``WiFiClient()`` to create a client."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:52 from
+#: information retrieve the to
+msgid "https://www.arduino.cc/en/Reference/WiFiClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:53 from
+#: information retrieve the to
+msgid "Use ``client.connect()`` to connect to the IP address and port specified."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:54 from
+#: information retrieve the to
+msgid "https://www.arduino.cc/en/Reference/WiFiClientConnect"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:56 from
+#: information retrieve the to
+msgid ""
+"Use ``client.println()`` to print data followed by a carriage return and "
+"newline."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:57 from
+#: information retrieve the to
+msgid "https://www.arduino.cc/en/Reference/WiFiClientPrintln"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:59 from
+#: information retrieve the to
+msgid ""
+"Use ``client.available()`` to return the number of bytes available for "
+"reading."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:60 from
+#: information retrieve the to
+msgid "https://www.arduino.cc/en/Reference/WiFiClientAvailable"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:62 from
+#: information retrieve the to
+msgid ""
+"Use ``client.read()`` to read the next byte received from the server the "
+"client is connected to."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:63 from
+#: information retrieve the to
+msgid "https://www.arduino.cc/en/Reference/WiFiClientRead"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:65 from
+#: information retrieve the to
+msgid ""
+"Use ``client.stop()`` to disconnect from the server the client is "
+"connected to."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba Internet.rst:66 from
+#: information retrieve the to
+msgid "https://www.arduino.cc/en/Reference/WiFIClientStop"
+msgstr ""
+

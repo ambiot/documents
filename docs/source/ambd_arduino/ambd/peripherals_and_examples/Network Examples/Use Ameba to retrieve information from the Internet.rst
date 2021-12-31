@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/Use Ameba to retrieve information from the Internet.rst

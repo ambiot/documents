@@ -1,0 +1,368 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:3 To
+msgid "Use Firebase To Push Messaging Services"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:8 To
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:12 To
+msgid "Ameba x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:13 To
+msgid "Android Studio"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:14 To
+msgid "Smart phone with Google Play Service x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:16 To
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:20 To
+msgid ""
+"In the era of the popularity of smart phones, people often receive "
+"reminders from specific apps. In this example, we will teach how to use "
+"Google Firebase to send messages from the Ameba Client to mobile phones."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:24 To
+msgid ""
+"First, we use Firebase Cloud Messaging (FCM) as a cross-platform "
+"messaging solution that lets you deliver messages for free and reliably."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:27 To
+msgid ""
+"With FCM, you can notify your client application (App) to sync emails or "
+"other data. You can send a message to drive user engagement. For instant "
+"messaging content, a message can transfer up to 4KB of payload to the "
+"client application."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:37 To
+msgid "The FCM implementation includes two main parts for sending and receiving:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:41 To
+msgid ""
+"1. A trusted environment, such as Cloud Functions for Firebase or an "
+"application server for building, locating, and sending messages."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:43 To
+msgid ""
+"2. Receive iOS, Android or Web (JavaScript) client applications for "
+"messages."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:45 To
+msgid ""
+"You can use `Admin SDK <https://firebase.google.com/docs/cloud-"
+"messaging/admin/>`__ or `HTTP&XMPP API <https://firebase.google.com/docs"
+"/cloud-messaging/server>`__ to send messages.To test or send marketing or"
+" engagement messages with powerful built-in targeting and analytics, you "
+"can also use\\ `Notifications composer "
+"<https://console.firebase.google.com/u/0/project/_/notification?pli=1>`__"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:52 To
+msgid ""
+"We know that Ameba can send messages to specific apps as long as it "
+"implements the http client function."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:55 To
+msgid ""
+"First of all, we must first set up an environment for developing Android "
+"apps. Please download Android Studio first on Android official website."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:58 To
+msgid "https://developer.android.com/studio/install"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:60 To
+msgid ""
+"Then we can use the Android example provided by Firebase to download "
+"Firebase Quickstart Samples."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:63 To
+msgid "https://github.com/firebase/quickstart-android"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:65 To
+msgid ""
+"Open Android Studio and click on Import Project, select the messaging "
+"project in Firebase Quickstart Samples. Since we won’t use other "
+"functions, we can only choose the messaging project."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:69 To
+msgid ""
+"Android Studio will need to install the SDK and Google repository for the"
+" first time to start the messaging project. You can refer to the "
+"following page for update."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:73 To
+msgid "https://developer.android.com/studio/intro/update"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:75 To
+msgid ""
+"Wait until the required components for compiling the app are installed, "
+"you can open the messaging project, and Android Studio comes with the "
+"Firebase registration function."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:84 To
+msgid "As shown above, open the toolbar and click Tools->Select Firebase."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:91 To
+msgid ""
+"Open Firebase Assisant in the right pane, then see Cloud Messaging, "
+"select Set up Firebase Cloud Messaging to start the registration process."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:100 To
+msgid "Click Connect to Firebase"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:107 To
+msgid ""
+"Then bring out the page, and click on Firebase on the left and log in to "
+"the Gmail account. Once you log in, you will be taken to the Firebase "
+"homepage."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:116 To
+msgid ""
+"Let’s keep the homepage first, we need to go to the Firebase Console and "
+"go back to Android Studio."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:124 To
+msgid ""
+"We can see that when the webpage is successfully logged in, Android "
+"Studio also brings up the login information dialog box, click connect to "
+"Firebase"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:135 To
+msgid ""
+"You can see Dependencies set up correctly in the right pane and see a "
+"google-service.json file in the left pane, indicating that the app has "
+"been registered successfully."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:140 To
+msgid ""
+"At this point, you can connect your phone to your computer (press "
+"Shift+F10) or press the Runs App in the toolbar. Please note here that "
+"Firebase requires a mobile phone to provide Google play service (GPS) "
+"service. An example of not being able to use Firebase without installing "
+"Google Play."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:147 To
+msgid ""
+"As shown above, the messaging app is installed and executed successfully "
+"on the phone. Click LOG TOKEN at this time."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:155 To
+msgid ""
+"There will be a Token ID, which is the Access Token required to send the "
+"message, representing the ID of the FCM service APP installed on a "
+"particular phone. This ID is unique and will be reassigned when the app "
+"is removed and re-installed. It means that the message can be sent to a "
+"specific phone. The FCM service can also push messages to a NEWS (Topic)."
+" This section can be found in Firebase topic-messaging:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:162 To
+msgid "https://firebase.google.com/docs/cloud-messaging/android/topic-messaging"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:164 To
+msgid ""
+"Therefore, we need to save this Access Token, return to Android Studio as"
+" shown below, select Debug at the log level of the Logcat. When you press"
+" the LOG TOKEN button on the App, Logcat will print out the Access Token "
+"ID. We will save the code after the InstanceID Token: in the Log message."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:175 To
+msgid ""
+"Then we have to go back to the page that was brought when we first logged"
+" into Firebase."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:183 To
+msgid "Click in the upper right corner to go to the console"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:190 To
+msgid ""
+"At this point, You can see that Android Studio has just built the "
+"messaging project for us in the operation."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:198 To
+msgid "Click to enter the messaging project with settings page, as shown above."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:205 To
+msgid "Select Set up"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:214 To
+msgid ""
+"Go to the Settings page and select the Cloud Messaging page. We will see "
+"the Legacy server key. This Server key also needs to be used in the "
+"program. Let’s save it and start editing the code."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:215 To
+msgid "Open the example ``“File” -> “Examples” -> “AmebaWiFi” -> “Firebase.ino”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:222 To
+msgid ""
+"As shown above, ACCESS_TOKEN and SERVER_KEY are defined in the reverse "
+"white part, that is, the ACCESS token ID that we just saved from the APP "
+"and the Server Key saved in the Firebase console page. We fill in the two"
+" sets of IDs, compile and upload them to Ameba. Press the Reset button "
+"and open the terminal."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:233 To
+msgid "Connect to FCM Server after connecting to AP"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:240 To
+msgid ""
+"After showing Connect to Server successful, it means that the FCM "
+"connection is successful and the message will be sent. During the "
+"process, HTTP/1.1 200 OK will be received to indicate that the message is"
+" successfully pushed. At this time, the mobile phone screen is opened and"
+" the App receives the message from Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:251 To
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:255 To
+msgid "**Firebase.ino**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:257 To
+msgid ""
+"This example uses the HTTP protocol to push messages. Users can learn the"
+" payload format from the Firebase development website."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:259 To
+msgid "https://firebase.google.com/docs/cloud-messaging/send-message"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:261 To
+msgid ""
+"The main payload format in the program is as follows. The user can freely"
+" change the Title and Body of the message. Body represents the content of"
+" the message."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:288 To
+msgid ""
+"The sprintf part puts the payload into the HTTP POST content and sends "
+"the message out after connecting to the FCM Server."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Firebase Messaging Push
+#: Services.rst:300 To
+msgid "Waiting for the response from Server and printing out the response."
+msgstr ""
+

@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/Power Save Deep Sleep DHT Eink.rst

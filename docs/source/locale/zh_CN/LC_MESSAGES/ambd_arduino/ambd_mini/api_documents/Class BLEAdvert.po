@@ -1,0 +1,380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:4
+msgid "Class BLEAdvert"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:6
+msgid "**BLEAdvert Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:8
+#: BLEAdvert.rst:50 BLEAdvert.rst:73 BLEAdvert.rst:99 BLEAdvert.rst:123
+#: BLEAdvert.rst:154 BLEAdvert.rst:180 BLEAdvert.rst:206 BLEAdvert.rst:232
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:9
+msgid "A class used for managing BLE advertising settings."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:11
+#: BLEAdvert.rst:54 BLEAdvert.rst:76 BLEAdvert.rst:102 BLEAdvert.rst:126
+#: BLEAdvert.rst:157 BLEAdvert.rst:183 BLEAdvert.rst:209 BLEAdvert.rst:235
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:12
+msgid "class BLEAdvert"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:14
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:17
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:19
+msgid ""
+"No public constructor is available as this class is intended to be a "
+"singleton class. You can get a pointer to this class using "
+"BLEDevice::configAdvert()."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:25
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:27
+msgid "BLEAdvert::updateAdvertParams"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:27
+msgid "Update the current BLE advertisement settings to the lower Bluetooth stack"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:31
+msgid "BLEAdvert::startAdv"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:31
+msgid "Start BLE advertising"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:33
+msgid "BLEAdvert::stopAdv"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:33
+msgid "Stop BLE advertising"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:35
+msgid "BLEAdvert::setAdvType"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:35
+msgid "Set the BLE advertising type"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:37
+msgid "BLEAdvert::setMinInterval"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:37
+msgid "Set the BLE advertising minimum interval"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:40
+msgid "BLEAdvert::setMaxInterval"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:40
+msgid "Set the BLE advertising maximum interval"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:43
+msgid "BLEAdvert::setAdvData"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:43
+msgid "Set BLE advertising data"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:45
+msgid "BLEAdvert::setScanRspData"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:45
+msgid "Set BLE scan response data"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:48
+msgid "**BLEAdvert::updateAdvertParams**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:52
+msgid "Update the lower Bluetooth stack with the current advertising settings."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:55
+msgid "void updateAdvertParams(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:57
+#: BLEAdvert.rst:79 BLEAdvert.rst:105 BLEAdvert.rst:129 BLEAdvert.rst:160
+#: BLEAdvert.rst:186 BLEAdvert.rst:213 BLEAdvert.rst:239
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:58
+#: BLEAdvert.rst:80 BLEAdvert.rst:106
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:60
+#: BLEAdvert.rst:82 BLEAdvert.rst:108 BLEAdvert.rst:140 BLEAdvert.rst:165
+#: BLEAdvert.rst:191 BLEAdvert.rst:220 BLEAdvert.rst:246
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:61
+#: BLEAdvert.rst:83 BLEAdvert.rst:109 BLEAdvert.rst:141 BLEAdvert.rst:166
+#: BLEAdvert.rst:192 BLEAdvert.rst:221 BLEAdvert.rst:247
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:63
+#: BLEAdvert.rst:85 BLEAdvert.rst:111 BLEAdvert.rst:143 BLEAdvert.rst:168
+#: BLEAdvert.rst:194 BLEAdvert.rst:223 BLEAdvert.rst:249
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:64
+#: BLEAdvert.rst:86 BLEAdvert.rst:112 BLEAdvert.rst:169 BLEAdvert.rst:195
+#: BLEAdvert.rst:224 BLEAdvert.rst:250
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:66
+#: BLEAdvert.rst:88 BLEAdvert.rst:114 BLEAdvert.rst:146 BLEAdvert.rst:171
+#: BLEAdvert.rst:197 BLEAdvert.rst:226 BLEAdvert.rst:252
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:68
+msgid ""
+"Please use the other class member functions to set the BLE advertising "
+"parameters first before using this function."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:71
+msgid "**BLEAdvert::startAdv**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:74
+msgid "Start BLE advertising."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:77
+msgid "void startAdv(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:94
+msgid ""
+"This function is provided for flexibility in controlling and updating BLE"
+" advertising parameters. You should avoid using this function to directly"
+" start the BLE advertising process without first registering the "
+"necessary callback and handler functions. Call "
+"BLEDevice::beginPeripheral() to register the necessary functions and "
+"start advertising for the first time."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:97
+msgid "**BLEAdvert::stopAdv**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:100
+msgid "Stop BLE advertising."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:103
+msgid "void stopAdv(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:118
+msgid ""
+"This function is provided for flexibility in controlling and updating BLE"
+" advertising parameters. You should avoid using this function to directly"
+" stop the BLE advertising process. Call BLEDevice::end() to stop "
+"advertising and free up used resources."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:121
+msgid "**BLEAdvert::setAdvType**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:124
+msgid "Set the BLE advertising type."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:127
+msgid "void setAdvType(uint8_t advType);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:130
+msgid "advType: the desired advertisement type. Valid values:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:131
+msgid "– 0 = GAP_ADTYPE_ADV_IND : connectable undirected advertisement"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:133
+msgid "– 1 = GAP_ADTYPE_ADV_HDC_DIRECT_IND : connectable high duty cycle directed"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:134
+msgid "– 2 = GAP_ADTYPE_ADV_SCAN_IND : scannable undirected advertisement"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:136
+msgid ""
+"– 3 = GAP_ADTYPE_ADV_NONCONN_IND : Non-connectable undirected "
+"advertisement"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:138
+msgid ""
+"– 4 = GAP_ADTYPE_ADV_LDC_DIRECT_IND : connectable low duty cycle directed"
+" advertisement"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:144
+msgid "Example: BLEBatteryService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:149
+msgid ""
+"Call this function with the GAP_ADTYPE_ADV_IND argument if connection "
+"requests should be allowed, and GAP_ADTYPE_ADV_NONCONN_IND if all "
+"connection requests should be rejected."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:152
+msgid "**BLEAdvert::setMinInterval**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:155
+msgid "Set the minimum BLE advertising interval."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:158
+msgid "void setMinInterval(uint16_t minInt_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:163
+msgid ""
+"minInt_ms: the desired advertisement minimum interval, expressed in "
+"milliseconds. The valid values for the interval are from 20ms to 10240ms."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:175
+#: BLEAdvert.rst:201
+msgid ""
+"BLE advertisements will repeat with an interval between the set minimum "
+"and maximum intervals. Set a shorter interval for the BLE device to be "
+"discovered rapidly and set a longer interval to conserve power."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:178
+msgid "**BLEAdvert::setMaxInterval**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:181
+msgid "Set the maximum BLE advertising interval."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:184
+msgid "void setMaxInterval(uint16_t minInt_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:189
+msgid ""
+"minInt_ms: the desired advertisement maximum interval, expressed in "
+"milliseconds. The valid values for the interval are from 20ms to 10240ms."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:204
+msgid "**BLEAdvert::setAdvData**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:207
+msgid "Set BLE advertising data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:210
+msgid "void setAdvData(BLEAdvertData adData);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:211
+msgid "void setAdvData(uint8_t\\* pData, uint8_t size);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:214
+#: BLEAdvert.rst:240
+msgid "adData: scan response data formatted in a BLEAdvertData class object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:216
+#: BLEAdvert.rst:242
+msgid "pData: pointer to a byte array containing the required scan response data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:218
+#: BLEAdvert.rst:244
+msgid ""
+"size: number of bytes the scan response data contains, maximum of 31 "
+"bytes."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:227
+#: BLEAdvert.rst:253
+msgid "N/A"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:230
+msgid "**BLEAdvert::setScanRspData**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:233
+msgid "Set BLE scan response data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:236
+msgid "void setScanRspData(BLEAdvertData adData);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEAdvert.rst:237
+msgid "void setScanRspData(uint8_t\\* pData, uint8_t size);"
+msgstr ""
+

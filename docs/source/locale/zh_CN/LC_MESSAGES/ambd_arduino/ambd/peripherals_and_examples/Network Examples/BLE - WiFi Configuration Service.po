@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration Service.rst:3
+#: WiFi
+msgid "BLE – WiFi Configuration Service"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration Service.rst:8
+#: WiFi
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:12 WiFi
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:13 WiFi
+msgid "Android / iOS mobile phone"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:15 WiFi
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:19 WiFi
+msgid "**Introduction**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:21 WiFi
+msgid ""
+"In this example, a WiFi configuration service is set up on the Ameba "
+"Bluetooth stack. A mobile phone with the configuration app connects to "
+"the Ameba device using BLE and configures the Ameba to connect to the "
+"correct WiFi access point."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:26 WiFi
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:28 WiFi
+msgid ""
+"Ensure that the Realtek WiFi configuration app is installed on your "
+"mobile phone, it is available at:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:32 WiFi
+msgid ""
+"– Google Play Store: "
+"https://play.google.com/store/apps/details?id=com.rtk.btconfig"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:34 WiFi
+msgid ""
+"– Apple App Store: https://apps.apple.com/sg/app/easy-wifi-"
+"config/id1194919510"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:36 WiFi
+msgid ""
+"Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
+"“BLEWifiConfigService”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:39 WiFi
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:85 WiFi
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:42 WiFi
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:45 WiFi
+msgid ""
+"On your mobile phone, open the Realtek WiFiConfig app and tap the round "
+"button to scan for Ameba boards."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:48 WiFi
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:89 WiFi
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:50 WiFi
+msgid ""
+"Select the correct Ameba board from the scan results. The app will "
+"connect to the Ameba board and ask the board to scan for WiFi networks "
+"and send the scan results back to the app using BLE."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:54 WiFi
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:93 WiFi
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:56 WiFi
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:97 WiFi
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:58 WiFi
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:101 WiFi
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:60 WiFi
+msgid ""
+"If your phone is currently connected to a WiFi network, the app will ask "
+"for the WiFi password to connect the Ameba board to the same WiFi "
+"network. Tap “Select AP” to choose another WiFi network, or enter the "
+"password and tap continue to connect Ameba to the selected WiFi network."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:65 WiFi
+msgid "|6|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:105 WiFi
+msgid "6"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:67 WiFi
+msgid ""
+"After the Ameba board connects to the WiFi network, the following message"
+" will be shown. Tap “Try another AP” to connect to another WiFi network "
+"or tap “Confirm” to keep the current WiFi network and disconnect BLE from"
+" the Ameba board."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:72 WiFi
+msgid "|7|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:109 WiFi
+msgid "7"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:74 WiFi
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:78 WiFi
+msgid ""
+"BLEWifiConfigService is used to create an instance of the WiFi "
+"configuration service to run on the Bluetooth device."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Configuration
+#: Service.rst:81 WiFi
+msgid ""
+"``BLE.configAdvert()->setAdvType(configService.advData())`` is used to "
+"set the correct advertisement data necessary for the phone app to find "
+"the Ameba Bluetooth device."
+msgstr ""
+

@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:3 over
+msgid "BLE – DHT over BLE UART"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:8 over
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:12 over
+msgid "AmebaD [RTL8722DM/ RTL8722CSM/ RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:13 over
+msgid "DHT11 or DHT22 or DHT21"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:14 over
+msgid "Android / iOS smartphone"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:16 over
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:20 over
+msgid "**Introduction**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:22 over
+msgid ""
+"In this example, the data obtained from a DHT temperature and humidity "
+"sensor are transmitted over a BLE UART service to a smartphone. Refer to "
+"the other examples for detailed explanations of using the DHT sensor and "
+"the BLE UART service."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:27 over
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:29 over
+msgid "Connect the DHT sensor to the Ameba board following the diagram."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:31 over
+msgid "**RTL8722DM / RTL8722CSM:**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:33 over
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:63 over
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:35 over
+msgid "**RTL8722DM MINI:**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:37 over
+msgid "|1-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:67 over
+msgid "1-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:40 over
+msgid ""
+"Ensure that a compatible BLE UART app is installed on your smartphone, it"
+" is available at:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:41 over
+msgid "- Google Play Store:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:43 over
+msgid ""
+"`https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connecta>"
+" "
+"<https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect>`__\\"
+" "
+"https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:45 over
+msgid "- Apple App Store:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:46 over
+msgid "https://apps.apple.com/us/app/bluefruit-connect/id830125974"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:48 over
+msgid ""
+"Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
+"“DHT_over_BLEUart”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:51 over
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:71 over
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:54 over
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:56 over
+msgid ""
+"Open the app on your smartphone, scan and connect to the Ameba board "
+"shown as “AMEBA_BLE_DEV” and choose the UART function in the app."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:57 over
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:75 over
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:58 over
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:79 over
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:60 over
+msgid ""
+"After starting the UART function, notifications should be received every "
+"5 seconds containing the measured temperature and humidity."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:61 over
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:83 over
+msgid "5"
+msgstr ""
+

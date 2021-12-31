@@ -1,0 +1,437 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:2
+msgid "Class WiFiServer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:3
+msgid "**WiFiServer Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:5
+#: WiFiServer.rst:39 WiFiServer.rst:181 WiFiServer.rst:207 WiFiServer.rst:230
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:6
+msgid "Defines a class of WiFi server implementation for Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:8
+#: WiFiServer.rst:43 WiFiServer.rst:186 WiFiServer.rst:210 WiFiServer.rst:233
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:9
+msgid "class WiFiServer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:16
+msgid "WiFiServer::WiFiServer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:16
+msgid ""
+"Constructs a WiFiServer object and creates a server that listens for "
+"incoming connections on the specified port"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:21
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:23
+msgid "WiFiServer::available"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:23
+msgid ""
+"Gets a client that is connected to the server and has data available for "
+"reading. The connection persists when the returned client object goes out"
+" of scope; you can close it by calling the client.stop()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:30
+msgid "WiFiServer::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:30
+#: WiFiServer.rst:208
+msgid "Tells the server to begin listening for incoming connections"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:33
+msgid "WiFiServer::write"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:33
+#: WiFiServer.rst:231
+msgid "Write data to all the clients connected to a server"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:37
+msgid "**WiFiServer::WiFiServer**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:41
+msgid ""
+"Constructs a WiFiServer object and creates a server that listens for "
+"incoming connections on the specified port."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:44
+msgid "WiFiServer::WiFiServer(uint16_t port)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:46
+#: WiFiServer.rst:189 WiFiServer.rst:213 WiFiServer.rst:237
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:47
+msgid "port: The port number being connected to."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:49
+#: WiFiServer.rst:192 WiFiServer.rst:216 WiFiServer.rst:242
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:50
+#: WiFiServer.rst:217
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:52
+#: WiFiServer.rst:196 WiFiServer.rst:219 WiFiServer.rst:246
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:53
+#: WiFiServer.rst:197 WiFiServer.rst:220 WiFiServer.rst:247
+msgid "Example: SimpleServerWiFi"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:55
+msgid "**#include <WiFi.h>**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:57
+msgid "**char** ssid[] = \"yourNetwork\"; // your network SSID (name)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:59
+msgid "**char** pass[] = \"secretPassword\"; // your network password"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:61
+msgid ""
+"**int** keyIndex = 0; // your network key Index number (needed only for "
+"WEP)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:64
+msgid "**int** status = WL_IDLE_STATUS;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:66
+msgid "WiFiServer server(5000);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:68
+msgid "**void** setup() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:70
+msgid "Serial.begin(9600); // initialize serial communication"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:72
+msgid "pinMode(9, OUTPUT); // set the LED pin mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:74
+msgid "// check for the presence of the shield:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:76
+msgid "**if** (WiFi.status() == WL_NO_SHIELD) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:78
+msgid "Serial.println(\"WiFi shield not present\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:80
+msgid "**while** (**true**); // don't continue"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:82
+#: WiFiServer.rst:107 WiFiServer.rst:113 WiFiServer.rst:133 WiFiServer.rst:139
+#: WiFiServer.rst:141 WiFiServer.rst:145 WiFiServer.rst:173
+msgid "}"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:84
+msgid "String fv = WiFi.firmwareVersion();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:86
+msgid "**if** ( fv != \"1.1.0\" )"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:88
+msgid "Serial.println(\"Please upgrade the firmware\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:90
+msgid "// attempt to connect to Wifi network:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:92
+msgid "**while** ( status != WL_CONNECTED) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:94
+msgid "Serial.print(\"Attempting to connect to Network named: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:96
+msgid "Serial.println(ssid); // print the network name (SSID);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:98
+msgid ""
+"// Connect to WPA/WPA2 network. Change this line if using open or WEP "
+"network:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:101
+msgid "status = WiFi.begin(ssid, pass);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:103
+msgid "// wait 10 seconds for connection:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:105
+msgid "delay(10000);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:109
+msgid "server.begin(); // start the tcp server on port 5000"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:111
+msgid "printWifiStatus(); // you're connected now, so print out the status"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:115
+msgid "**char** buffer[256];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:117
+msgid "**void** loop() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:119
+msgid "WiFiClient client = server.available();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:121
+msgid "**while** (client.connected()) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:123
+msgid "memset(buffer, 0, 256);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:125
+msgid "**int** n = client.read((**uint8_t**\\ \\*)(&buffer[0]), sizeof(buffer));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:127
+msgid "**if** (n > 0) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:129
+msgid "**for** (**int** i=0; i<n; i++) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:131
+msgid "Serial.print(buffer[i]);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:135
+msgid "n = client.write(buffer, n);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:137
+msgid "**if** (n <= 0) **break**;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:143
+msgid "client.stop();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:147
+msgid "**void** printWifiStatus() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:149
+msgid "// print the SSID of the network you're attached to:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:151
+msgid "Serial.print(\"SSID: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:153
+msgid "Serial.println(WiFi.SSID());"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:155
+msgid "// print your WiFi shield's IP address:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:157
+msgid "IPAddress ip = WiFi.localIP();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:159
+msgid "Serial.print(\"IP Address: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:161
+msgid "Serial.println(ip);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:163
+msgid "// print the received signal strength:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:165
+msgid "**long** rssi = WiFi.RSSI();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:167
+msgid "Serial.print(\"signal strength (RSSI):\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:169
+msgid "Serial.print(rssi);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:171
+msgid "Serial.println(\" dBm\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:175
+#: WiFiServer.rst:201 WiFiServer.rst:224 WiFiServer.rst:251
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:176
+#: WiFiServer.rst:202 WiFiServer.rst:225 WiFiServer.rst:252
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:179
+msgid "**WiFiServer::available**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:184
+msgid ""
+"Gets a client that is connected to the server and has data available for "
+"reading. The connection persists when the returned client object goes out"
+" of scope; you can close it by calling the client.stop()."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:187
+msgid "WiFiClient WiFiServer::available(uint8_t\\* status)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:190
+msgid "status: WiFi availability status"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:194
+msgid ""
+"A Client object; if no Client has data available for reading, this object"
+" will evaluate to false in an if-statement"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:199
+#: WiFiServer.rst:222 WiFiServer.rst:249
+msgid ""
+"Details of the code can be found in the previous section of WiFiServer:: "
+"WiFiServer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:205
+msgid "**WiFiServer::begin**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:211
+msgid "void WiFiServer::begin(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:214
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:228
+msgid "**WiFiServer::write**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:234
+msgid "size_t WiFiServer::write(uint8_t b)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:235
+msgid "size_t WiFiServer::write(const uint8_t \\*buf, size_t size)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:238
+msgid "b: byte to be written"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:239
+msgid "buf: data buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:240
+msgid "size: Size of the data in the buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFiServer.rst:244
+msgid ""
+"The function returns the number of bytes written. It is not necessary to "
+"read this."
+msgstr ""
+

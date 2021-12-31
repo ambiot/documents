@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/Use Ameba as UDP server.rst

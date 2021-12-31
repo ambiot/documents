@@ -1,0 +1,1531 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:2
+msgid "Class WiFi"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:3
+msgid "**WiFiClass Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:5
+#: WiFi.rst:83 WiFi.rst:105 WiFi.rst:312 WiFi.rst:342 WiFi.rst:375 WiFi.rst:397
+#: WiFi.rst:417 WiFi.rst:442 WiFi.rst:466 WiFi.rst:679 WiFi.rst:703
+#: WiFi.rst:727 WiFi.rst:751 WiFi.rst:776 WiFi.rst:796 WiFi.rst:1061
+#: WiFi.rst:1088 WiFi.rst:1116 WiFi.rst:1144 WiFi.rst:1171 WiFi.rst:1196
+#: WiFi.rst:1218 WiFi.rst:1397
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:6
+msgid "Defines a class of WiFi and network implementation for Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:8
+#: WiFi.rst:87 WiFi.rst:108 WiFi.rst:315 WiFi.rst:345 WiFi.rst:378 WiFi.rst:400
+#: WiFi.rst:420 WiFi.rst:445 WiFi.rst:469 WiFi.rst:682 WiFi.rst:706
+#: WiFi.rst:730 WiFi.rst:755 WiFi.rst:779 WiFi.rst:799 WiFi.rst:1064
+#: WiFi.rst:1092 WiFi.rst:1120 WiFi.rst:1147 WiFi.rst:1174 WiFi.rst:1199
+#: WiFi.rst:1221 WiFi.rst:1400
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:9
+msgid "class WiFiClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:16
+msgid "WiFiClass::WiFiClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:16
+msgid ""
+"Constructs a WiFiClass object and initializes the WiFi libraries and "
+"network settings"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:20
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:22
+msgid "WiFiClass::firmwareVersion"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:22
+#: WiFi.rst:106
+msgid "Get firmware version"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:24
+msgid "WiFiClass:: begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:24
+#: WiFi.rst:313
+msgid "Start Wifi connection for OPEN networks"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:27
+msgid "WiFiClass:: config"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:27
+msgid "Configure network IP settings"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:29
+msgid "WiFiClass:: setDNS"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:29
+msgid "Set the DNS server IP address to use"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:31
+msgid "WiFiClass:: disconnect"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:31
+#: WiFi.rst:398
+msgid "Disconnect from the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:33
+msgid "WiFiClass:: macAddress"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:33
+#: WiFi.rst:418
+msgid "Get the interface MAC address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:35
+msgid "WiFiClass:: localIP"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:35
+#: WiFi.rst:443
+msgid "Get the interface IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:37
+msgid "WiFiClass:: subnetMask"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:37
+#: WiFi.rst:467
+msgid "Get the interface subnet mask address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:40
+msgid "WiFiClass:: gatewayIP"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:40
+#: WiFi.rst:680
+msgid "Get the gateway IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:42
+#: WiFi.rst:57
+msgid "WiFiClass:: SSID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:42
+#: WiFi.rst:704
+msgid "Return the current SSID associated with the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:45
+msgid "WiFiClass:: BSSID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:45
+#: WiFi.rst:728
+msgid "Return the current BSSID associated with the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:48
+#: WiFi.rst:68
+msgid "WiFiClass:: RSSI"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:48
+#: WiFi.rst:753
+msgid ""
+"Return the current RSSI (Received Signal Strength in dBm) associated with"
+" the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:52
+#: WiFi.rst:60
+msgid "WiFiClass:: encryptionType"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:52
+#: WiFi.rst:777
+msgid "Return the Encryption Type associated with the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:55
+msgid "WiFiClass:: scanNetworks"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:55
+#: WiFi.rst:797
+msgid "Start scan WiFi networks available"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:57
+#: WiFi.rst:1062
+msgid "Return the SSID discovered during the network scan"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:60
+#: WiFi.rst:1090
+msgid ""
+"Return the encryption type of the networks discovered during the "
+"scanNetworks"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:64
+msgid "WiFiClass:: encryptionTypeEx"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:64
+#: WiFi.rst:1118
+msgid ""
+"Return the security type and encryption type of the networks discovered "
+"during the scanNetworks"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:68
+#: WiFi.rst:1145
+msgid "Return the RSSI of the networks discovered during the scanNetworks"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:71
+msgid "WiFiClass:: status"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:71
+#: WiFi.rst:1172
+msgid "Return Connection status"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:73
+msgid "WiFiClass:: hostByName"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:73
+#: WiFi.rst:1197
+msgid "Resolve the given hostname to an IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:76
+msgid "WiFiClass:: apbegin"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:76
+#: WiFi.rst:1219
+msgid "Start AP mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:78
+msgid "WiFiClass:: disablePowerSave"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:78
+#: WiFi.rst:1398
+msgid "Disable power-saving mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:81
+msgid "**WiFiClass::WiFiClass**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:85
+msgid ""
+"Constructs a WiFiClass object and initializes the WiFi libraries and "
+"network settings."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:88
+msgid "WiFiClass::WiFiClass()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:90
+#: WiFi.rst:111 WiFi.rst:320 WiFi.rst:355 WiFi.rst:382 WiFi.rst:403
+#: WiFi.rst:423 WiFi.rst:448 WiFi.rst:472 WiFi.rst:685 WiFi.rst:709
+#: WiFi.rst:733 WiFi.rst:758 WiFi.rst:782 WiFi.rst:802 WiFi.rst:1067
+#: WiFi.rst:1095 WiFi.rst:1123 WiFi.rst:1150 WiFi.rst:1177 WiFi.rst:1202
+#: WiFi.rst:1225 WiFi.rst:1403
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:91
+#: WiFi.rst:112 WiFi.rst:404 WiFi.rst:449 WiFi.rst:473 WiFi.rst:686
+#: WiFi.rst:710 WiFi.rst:759 WiFi.rst:783 WiFi.rst:803 WiFi.rst:1178
+#: WiFi.rst:1404
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:93
+#: WiFi.rst:114 WiFi.rst:327 WiFi.rst:361 WiFi.rst:386 WiFi.rst:406
+#: WiFi.rst:426 WiFi.rst:451 WiFi.rst:475 WiFi.rst:688 WiFi.rst:712
+#: WiFi.rst:736 WiFi.rst:761 WiFi.rst:785 WiFi.rst:805 WiFi.rst:1071
+#: WiFi.rst:1099 WiFi.rst:1127 WiFi.rst:1154 WiFi.rst:1180 WiFi.rst:1206
+#: WiFi.rst:1230 WiFi.rst:1406
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:94
+#: WiFi.rst:362 WiFi.rst:387
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:96
+#: WiFi.rst:117 WiFi.rst:330 WiFi.rst:364 WiFi.rst:389 WiFi.rst:409
+#: WiFi.rst:430 WiFi.rst:454 WiFi.rst:478 WiFi.rst:691 WiFi.rst:715
+#: WiFi.rst:739 WiFi.rst:764 WiFi.rst:788 WiFi.rst:808 WiFi.rst:1075
+#: WiFi.rst:1103 WiFi.rst:1131 WiFi.rst:1158 WiFi.rst:1184 WiFi.rst:1210
+#: WiFi.rst:1233 WiFi.rst:1409
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:97
+#: WiFi.rst:308 WiFi.rst:338 WiFi.rst:365 WiFi.rst:390 WiFi.rst:393
+#: WiFi.rst:410 WiFi.rst:413 WiFi.rst:438 WiFi.rst:462 WiFi.rst:675
+#: WiFi.rst:699 WiFi.rst:723 WiFi.rst:747 WiFi.rst:772 WiFi.rst:792
+#: WiFi.rst:1057 WiFi.rst:1084 WiFi.rst:1112 WiFi.rst:1140 WiFi.rst:1167
+#: WiFi.rst:1192 WiFi.rst:1211 WiFi.rst:1214 WiFi.rst:1393 WiFi.rst:1410
+#: WiFi.rst:1413
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:99
+#: WiFi.rst:307 WiFi.rst:337 WiFi.rst:367 WiFi.rst:392 WiFi.rst:412
+#: WiFi.rst:437 WiFi.rst:461 WiFi.rst:674 WiFi.rst:698 WiFi.rst:722
+#: WiFi.rst:746 WiFi.rst:771 WiFi.rst:791 WiFi.rst:1056 WiFi.rst:1083
+#: WiFi.rst:1111 WiFi.rst:1139 WiFi.rst:1166 WiFi.rst:1191 WiFi.rst:1213
+#: WiFi.rst:1392 WiFi.rst:1412
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:101
+msgid ""
+"An instance of WiFiClass is created as WiFi inside WiFi.h and is extern "
+"for direct use."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:103
+msgid "**WiFiClass::firmwareVersion**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:109
+msgid "char\\* WiFiClass::firmwareVersion()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:115
+msgid "WiFi firmware version"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:118
+#: WiFi.rst:331 WiFi.rst:431 WiFi.rst:455 WiFi.rst:716 WiFi.rst:740
+#: WiFi.rst:765 WiFi.rst:789 WiFi.rst:1185
+msgid "Example: ConnectWithWPA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:121
+msgid ""
+"This example demos how to connect to an unencrypted WiFI network, and "
+"prints the MAC address of the Wifi shield, the IP address obtained, and "
+"other network details."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:123
+#: WiFi.rst:484 WiFi.rst:815
+msgid "**#include <WiFi.h>**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:125
+msgid "// char ssid[] = \"yourNetwork\"; // your network SSID (name)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:127
+msgid "// char pass[] = \"secretPassword\"; // your network password"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:129
+msgid "**char** ssid[] = \"SINGTEL-D45F\"; // your network SSID (name)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:131
+msgid "**char** pass[] = \"mooxuteeth\"; // your network key"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:133
+#: WiFi.rst:488 WiFi.rst:1244
+msgid "**int** status = WL_IDLE_STATUS; // the Wifi radio's status"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:135
+#: WiFi.rst:490 WiFi.rst:817 WiFi.rst:1246
+msgid "**void** setup() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:137
+#: WiFi.rst:492 WiFi.rst:819 WiFi.rst:1248
+msgid "//Initialize serial and wait for port to open:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:139
+#: WiFi.rst:494 WiFi.rst:821 WiFi.rst:1250
+msgid "Serial.begin(9600);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:141
+#: WiFi.rst:496 WiFi.rst:823 WiFi.rst:1252
+msgid "**while** (!Serial) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:143
+#: WiFi.rst:498 WiFi.rst:825 WiFi.rst:1254
+msgid "; // wait for serial port to connect. Needed for native USB port only"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:145
+#: WiFi.rst:157 WiFi.rst:165 WiFi.rst:183 WiFi.rst:193 WiFi.rst:203
+#: WiFi.rst:247 WiFi.rst:305 WiFi.rst:500 WiFi.rst:512 WiFi.rst:520
+#: WiFi.rst:536 WiFi.rst:546 WiFi.rst:556 WiFi.rst:616 WiFi.rst:672
+#: WiFi.rst:827 WiFi.rst:839 WiFi.rst:847 WiFi.rst:853 WiFi.rst:865
+#: WiFi.rst:901 WiFi.rst:917 WiFi.rst:949 WiFi.rst:951 WiFi.rst:1012
+#: WiFi.rst:1014 WiFi.rst:1052 WiFi.rst:1054 WiFi.rst:1256 WiFi.rst:1266
+#: WiFi.rst:1274 WiFi.rst:1288 WiFi.rst:1300 WiFi.rst:1310 WiFi.rst:1340
+#: WiFi.rst:1390
+msgid "}"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:147
+#: WiFi.rst:502 WiFi.rst:829 WiFi.rst:1258
+msgid "// check for the presence of the shield:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:149
+#: WiFi.rst:504 WiFi.rst:831 WiFi.rst:1260
+msgid "**if** (WiFi.status() == WL_NO_SHIELD) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:151
+#: WiFi.rst:506 WiFi.rst:833 WiFi.rst:1262
+msgid "Serial.println(\"WiFi shield not present\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:153
+#: WiFi.rst:508 WiFi.rst:835
+msgid "// don't continue:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:155
+#: WiFi.rst:510 WiFi.rst:837 WiFi.rst:915 WiFi.rst:1264
+msgid "**while** (**true**);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:159
+#: WiFi.rst:514 WiFi.rst:841 WiFi.rst:1268
+msgid "String fv = WiFi.firmwareVersion();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:161
+#: WiFi.rst:516 WiFi.rst:843 WiFi.rst:1270
+msgid "**if** (fv != \"1.1.0\") {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:163
+#: WiFi.rst:518 WiFi.rst:845 WiFi.rst:1272
+msgid "Serial.println(\"Please upgrade the firmware\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:167
+#: WiFi.rst:522
+msgid "// attempt to connect to Wifi network:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:169
+#: WiFi.rst:524 WiFi.rst:1278
+msgid "**while** (status != WL_CONNECTED) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:171
+msgid "Serial.print(\"Attempting to connect to WPA SSID: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:173
+#: WiFi.rst:528 WiFi.rst:1282
+msgid "Serial.println(ssid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:175
+msgid "// Connect to WPA/WPA2 network:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:177
+msgid "status = WiFi.begin(ssid, pass);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:179
+#: WiFi.rst:532
+msgid "// wait 10 seconds for connection:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:181
+#: WiFi.rst:199 WiFi.rst:534 WiFi.rst:552 WiFi.rst:863 WiFi.rst:1286
+#: WiFi.rst:1306
+msgid "delay(10000);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:185
+#: WiFi.rst:538
+msgid "// you're connected now, so print out the data:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:187
+#: WiFi.rst:540
+msgid "Serial.print(\"You're connected to the network\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:189
+#: WiFi.rst:201 WiFi.rst:542 WiFi.rst:554 WiFi.rst:1298 WiFi.rst:1308
+msgid "printCurrentNet();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:191
+#: WiFi.rst:544 WiFi.rst:1296
+msgid "printWifiData();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:195
+#: WiFi.rst:548 WiFi.rst:855 WiFi.rst:1302
+msgid "**void** loop() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:197
+#: WiFi.rst:550 WiFi.rst:1304
+msgid "// check the network connection once every 10 seconds:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:205
+#: WiFi.rst:558 WiFi.rst:1312
+msgid "**void** printWifiData() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:207
+#: WiFi.rst:560 WiFi.rst:1314
+msgid "// print your WiFi shield's IP address:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:209
+#: WiFi.rst:562 WiFi.rst:1316
+msgid "IPAddress ip = WiFi.localIP();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:211
+#: WiFi.rst:564 WiFi.rst:1318
+msgid "Serial.print(\"IP Address: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:213
+#: WiFi.rst:215 WiFi.rst:566 WiFi.rst:568 WiFi.rst:1320
+msgid "Serial.println(ip);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:217
+#: WiFi.rst:570 WiFi.rst:873
+msgid "// print your MAC address:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:219
+#: WiFi.rst:572 WiFi.rst:871
+msgid "byte mac[6];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:221
+#: WiFi.rst:574 WiFi.rst:875
+msgid "WiFi.macAddress(mac);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:223
+#: WiFi.rst:576
+msgid "Serial.print(\"MAC address: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:225
+#: WiFi.rst:578 WiFi.rst:879
+msgid "Serial.print(mac[0], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:227
+#: WiFi.rst:231 WiFi.rst:235 WiFi.rst:239 WiFi.rst:243 WiFi.rst:267
+#: WiFi.rst:271 WiFi.rst:275 WiFi.rst:279 WiFi.rst:283 WiFi.rst:580
+#: WiFi.rst:584 WiFi.rst:588 WiFi.rst:592 WiFi.rst:596 WiFi.rst:636
+#: WiFi.rst:640 WiFi.rst:644 WiFi.rst:648 WiFi.rst:652 WiFi.rst:881
+#: WiFi.rst:885 WiFi.rst:889 WiFi.rst:893 WiFi.rst:897 WiFi.rst:1360
+#: WiFi.rst:1364 WiFi.rst:1368 WiFi.rst:1372 WiFi.rst:1376
+msgid "Serial.print(\":\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:229
+#: WiFi.rst:582 WiFi.rst:883
+msgid "Serial.print(mac[1], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:233
+#: WiFi.rst:586 WiFi.rst:887
+msgid "Serial.print(mac[2], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:237
+#: WiFi.rst:590 WiFi.rst:891
+msgid "Serial.print(mac[3], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:241
+#: WiFi.rst:594 WiFi.rst:895
+msgid "Serial.print(mac[4], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:245
+#: WiFi.rst:598 WiFi.rst:899
+msgid "Serial.println(mac[5], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:249
+#: WiFi.rst:618 WiFi.rst:1342
+msgid "**void** printCurrentNet() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:251
+#: WiFi.rst:620
+msgid "// print the SSID of the network you're attached to:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:253
+#: WiFi.rst:622 WiFi.rst:1346
+msgid "Serial.print(\"SSID: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:255
+#: WiFi.rst:624 WiFi.rst:1348
+msgid "Serial.println(WiFi.SSID());"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:257
+#: WiFi.rst:626
+msgid "// print the MAC address of the router you're attached to:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:259
+#: WiFi.rst:628 WiFi.rst:1352
+msgid "byte bssid[6];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:261
+#: WiFi.rst:630 WiFi.rst:1354
+msgid "WiFi.BSSID(bssid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:263
+#: WiFi.rst:632 WiFi.rst:1356
+msgid "Serial.print(\"BSSID: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:265
+#: WiFi.rst:634
+msgid "Serial.print(bssid[5], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:269
+#: WiFi.rst:638 WiFi.rst:1374
+msgid "Serial.print(bssid[4], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:273
+#: WiFi.rst:642 WiFi.rst:1370
+msgid "Serial.print(bssid[3], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:277
+#: WiFi.rst:646 WiFi.rst:1366
+msgid "Serial.print(bssid[2], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:281
+#: WiFi.rst:650 WiFi.rst:1362
+msgid "Serial.print(bssid[1], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:285
+#: WiFi.rst:654
+msgid "Serial.println(bssid[0], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:287
+#: WiFi.rst:656
+msgid "// print the received signal strength:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:289
+#: WiFi.rst:658
+msgid "**long** rssi = WiFi.RSSI();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:291
+#: WiFi.rst:660
+msgid "Serial.print(\"signal strength (RSSI):\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:293
+#: WiFi.rst:662
+msgid "Serial.println(rssi);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:295
+#: WiFi.rst:664 WiFi.rst:1380
+msgid "// print the encryption type:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:297
+#: WiFi.rst:666 WiFi.rst:1382
+msgid "byte encryption = WiFi.encryptionType();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:299
+#: WiFi.rst:668 WiFi.rst:1384
+msgid "Serial.print(\"Encryption Type:\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:301
+#: WiFi.rst:670 WiFi.rst:1386
+msgid "Serial.println(encryption, HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:303
+#: WiFi.rst:1294 WiFi.rst:1338 WiFi.rst:1388
+msgid "Serial.println();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:310
+msgid "**WiFiClass::begin**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:316
+msgid "int WiFiClass::begin(char\\* ssid)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:317
+msgid "int WiFiClass::begin(char\\* ssid, uint8_t key_idx, const char \\*key)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:318
+msgid "int WiFiClass::begin(char\\* ssid, const char \\*passphrase)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:321
+msgid "ssid: Pointer to the SSID string"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:322
+msgid "key_idx: The key index to set. Valid values are 0-3."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:323
+msgid "key: Key input buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:325
+msgid ""
+"passphrase: Passphrase. Valid characters in a passphrase must be between "
+"ASCII 32-126 (decimal)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:328
+msgid "WiFi status"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:335
+#: WiFi.rst:435 WiFi.rst:459 WiFi.rst:720 WiFi.rst:744 WiFi.rst:769
+#: WiFi.rst:1189
+msgid ""
+"This example demos how to connect to an unencrypted WiFi network, and "
+"prints the MAC address of the Wifi shield, the IP address obtained, and "
+"other network details. The details of the code can be found in the "
+"previous section of WiFiClass:: firmwareVersion."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:340
+msgid "**WiFiClass::config**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:343
+msgid "Configure network settings for the WiFi network"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:346
+msgid "void WiFiClass::config(IPAddress local_ip)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:347
+msgid "void WiFiClass::config(IPAddress local_ip, IPAddress dns_server)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:349
+msgid ""
+"void WiFiClass::config(IPAddress local_ip, IPAddress dns_server, "
+"IPAddress gateway)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:351
+msgid ""
+"void WiFiClass::config(IPAddress local_ip, IPAddress dns_server, "
+"IPAddress gateway, IPAddress subnet)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:356
+msgid "local_ip: Local device IP address to use on the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:357
+msgid "dns_server: IP address of the DNS server to use"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:358
+msgid "gateway: IP address of the gateway device on the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:359
+msgid "subnet: Subnet mask for the network, expressed as a IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:371
+msgid ""
+"This will disable the DHCP client when connecting to a network, and will "
+"require the network accepts a static IP. The configured IP addresses will"
+" also apply to AP mode, but the DHCP server will not be disabled in AP "
+"mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:373
+msgid "**WiFiClass::setDNS**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:376
+msgid "Configure the IP address of the DNS server to use"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:379
+msgid "void WiFiClass::setDNS(IPAddress dns_server1)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:380
+msgid "void WiFiClass::setDNS(IPAddress dns_server1, IPAddress dns_server2)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:383
+msgid "dns_server1: IP address of DNS server to use"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:384
+msgid "dns_server2: IP address of DNS server to use"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:395
+msgid "**WiFiClass::disconnect**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:401
+msgid "int WiFiClass::disconnect()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:407
+msgid "The function returns one value of wl_status_t enum as an integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:415
+msgid "**WiFiClass::macAddress**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:421
+msgid "uint8_t\\* WiFiClass::macAddress(uint8_t\\* mac)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:424
+msgid "mac: an array to store MAC address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:428
+msgid ""
+"The function returns a pointer to uint8_t array with length "
+"WL_MAC_ADDR_LENGTH."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:440
+msgid "**WiFiClass::localIP**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:446
+msgid "IPAddress WiFiClass::localIP()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:452
+msgid "Ip address value"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:464
+msgid "**WiFiClass::subnetMask**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:470
+msgid "IPAddress WiFiClass::subnetMask()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:476
+msgid "subnet mask address value"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:479
+#: WiFi.rst:692
+msgid "Example: ConnectNoEncryption"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:482
+msgid ""
+"This example demonstrates how to connect to an unencrypted WiFi network "
+"and prints the MAC address of the WiFi shield, the IP address obtained, "
+"and other network details."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:486
+msgid "**char** ssid[] = \"SINGTEL-D45F_5G\"; // the name of your network"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:526
+msgid "Serial.print(\"Attempting to connect to open SSID: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:530
+msgid "status = WiFi.begin(ssid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:600
+#: WiFi.rst:1322
+msgid "// print your subnet mask:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:602
+#: WiFi.rst:1324
+msgid "IPAddress subnet = WiFi.subnetMask();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:604
+#: WiFi.rst:1326
+msgid "Serial.print(\"NetMask: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:606
+#: WiFi.rst:1328
+msgid "Serial.println(subnet);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:608
+#: WiFi.rst:1330
+msgid "// print your gateway address:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:610
+#: WiFi.rst:1332
+msgid "IPAddress gateway = WiFi.gatewayIP();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:612
+#: WiFi.rst:1334
+msgid "Serial.print(\"Gateway: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:614
+#: WiFi.rst:1336
+msgid "Serial.println(gateway);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:677
+msgid "**WiFiClass::gatewayIP**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:683
+msgid "IPAddress WiFiClass::gatewayIP()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:689
+msgid "The function returns the value of the gateway IP address."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:696
+msgid ""
+"This example demonstrates how to connect to an unencrypted WiFi network "
+"and prints the MAC address of the WiFi shield, the IP address obtained, "
+"and other network details. Details of the code can be found in the "
+"section of WiFiClass:: subnetMask."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:701
+#: WiFi.rst:1059
+msgid "**WiFiClass::SSID**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:707
+msgid "char\\* WiFiClass::SSID()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:713
+msgid "The function returns current SSID associate with the network."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:725
+msgid "**WiFiClass::BSSID**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:731
+msgid "uint8_t\\* WiFiClass::BSSID(uint8_t\\* bssid)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:734
+msgid "bssid: an array to store bssid"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:737
+msgid "pointer to uint8_t array with length WL_MAC_ADDR_LENGTH"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:749
+#: WiFi.rst:1142
+msgid "**WiFiClass::RSSI**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:756
+msgid "int32_t WiFiClass::RSSI()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:762
+msgid "The function returns a signed-value signal strength"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:774
+#: WiFi.rst:1086
+msgid "**WiFiClass::encryptionType**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:780
+msgid "uint8_t WiFiClass::encryptionType()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:786
+msgid "The function returns one unsigned integer value of wl_enc_type enum."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:794
+msgid "**WiFiClass::scanNetworks**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:800
+msgid "int8_t WiFiClass::scanNetworks()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:806
+msgid "The function returns the number of discovered networks as an integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:809
+#: WiFi.rst:1076 WiFi.rst:1104 WiFi.rst:1132 WiFi.rst:1159
+msgid "Example: ScanNetworks"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:813
+msgid ""
+"This example prints the Wifi shield’s MAC address, and scans for "
+"available Wifi networks using the Wifi shield. Every ten seconds, it "
+"scans again. It doesn’t connect to any network, so no encryption scheme "
+"is specified."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:849
+msgid "// Print WiFi MAC address:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:851
+msgid "printMacAddress();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:857
+msgid "// scan for existing networks:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:859
+msgid "Serial.println(\"Scanning available networks...\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:861
+msgid "listNetworks();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:867
+msgid "**void** printMacAddress() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:869
+msgid "// the MAC address of your Wifi shield"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:877
+msgid "Serial.print(\"MAC: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:903
+msgid "**void** listNetworks() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:905
+msgid "// scan for nearby networks:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:907
+msgid "Serial.println(\"*\\* Scan Networks \\**\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:909
+msgid "**int** numSsid = WiFi.scanNetworks();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:911
+msgid "**if** (numSsid == -1) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:913
+msgid "Serial.println(\"Couldn't get a wifi connection\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:919
+msgid "// print the list of networks seen:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:921
+msgid "Serial.print(\"number of available networks:\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:923
+msgid "Serial.println(numSsid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:925
+msgid "// print the network number and name for each network found:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:927
+msgid "**for** (**int** thisNet = 0; thisNet < numSsid; thisNet++) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:929
+msgid "Serial.print(thisNet);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:931
+msgid "Serial.print(\") \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:933
+msgid "Serial.print(WiFi.SSID(thisNet));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:935
+msgid "Serial.print(\"\\tSignal: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:937
+msgid "Serial.print(WiFi.RSSI(thisNet));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:939
+msgid "Serial.print(\" dBm\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:941
+msgid "Serial.print(\"\\tEncryptionRaw: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:943
+msgid "printEncryptionTypeEx(WiFi.encryptionTypeEx(thisNet));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:945
+msgid "Serial.print(\"\\tEncryption: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:947
+msgid "printEncryptionType(WiFi.encryptionType(thisNet));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:953
+msgid "**void** printEncryptionTypeEx(**uint32_t** thisType) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:955
+msgid "/\\* Arduino wifi api use encryption type to mapping to security type."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:957
+msgid ""
+"\\* This function demonstrate how to get more richful information of "
+"security type."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:960
+msgid "\\*/"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:962
+#: WiFi.rst:1020
+msgid "**switch** (thisType) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:964
+msgid "**case** SECURITY_OPEN:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:966
+msgid "Serial.print(\"Open\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:968
+#: WiFi.rst:974 WiFi.rst:980 WiFi.rst:986 WiFi.rst:992 WiFi.rst:998
+#: WiFi.rst:1004 WiFi.rst:1010 WiFi.rst:1026 WiFi.rst:1032 WiFi.rst:1038
+#: WiFi.rst:1044 WiFi.rst:1050
+msgid "**break**;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:970
+msgid "**case** SECURITY_WEP_PSK:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:972
+msgid "Serial.print(\"WEP\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:976
+msgid "**case** SECURITY_WPA_TKIP_PSK:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:978
+msgid "Serial.print(\"WPA TKIP\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:982
+msgid "**case** SECURITY_WPA_AES_PSK:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:984
+msgid "Serial.print(\"WPA AES\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:988
+msgid "**case** SECURITY_WPA2_AES_PSK:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:990
+msgid "Serial.print(\"WPA2 AES\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:994
+msgid "**case** SECURITY_WPA2_TKIP_PSK:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:996
+msgid "Serial.print(\"WPA2 TKIP\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1000
+msgid "**case** SECURITY_WPA2_MIXED_PSK:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1002
+msgid "Serial.print(\"WPA2 Mixed\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1006
+msgid "**case** SECURITY_WPA_WPA2_MIXED:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1008
+msgid "Serial.print(\"WPA/WPA2 AES\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1016
+msgid "**void** printEncryptionType(**int** thisType) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1018
+msgid "// read the encryption type and print out the name:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1022
+msgid "**case** ENC_TYPE_WEP:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1024
+msgid "Serial.println(\"WEP\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1028
+msgid "**case** ENC_TYPE_TKIP:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1030
+msgid "Serial.println(\"WPA\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1034
+msgid "**case** ENC_TYPE_CCMP:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1036
+msgid "Serial.println(\"WPA2\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1040
+msgid "**case** ENC_TYPE_NONE:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1042
+msgid "Serial.println(\"None\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1046
+msgid "**case** ENC_TYPE_AUTO:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1048
+msgid "Serial.println(\"Auto\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1065
+msgid "char\\* WiFiClass::SSID(uint8_t networkItem)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1069
+#: WiFi.rst:1097 WiFi.rst:1125 WiFi.rst:1152
+msgid "networkItem: specify from which network item want to get the information"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1073
+msgid ""
+"The function returns ssid string of the specified item on the networks "
+"scanned a list."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1081
+#: WiFi.rst:1109 WiFi.rst:1137 WiFi.rst:1164
+msgid ""
+"This example prints the Wifi shield’s MAC address, and scans for "
+"available Wifi networks using the Wifi shield. Every ten seconds, it "
+"scans again. It doesn’t connect to any network, so no encryption scheme "
+"is specified. The details of the code can be found in the previous "
+"section of WiFiClass:: scanNetworks."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1093
+msgid "uint8_t WiFiClass::encryptionType(uint8_t networkItem)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1101
+msgid ""
+"encryption type (enum wl_enc_type) of the specified item on the networks "
+"scanned a list"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1114
+msgid "**WiFiClass::encryptionTypeEx**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1121
+msgid "uint32_t WiFiClass::encryptionTypeEx(uint8_t networkItem)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1129
+msgid ""
+"security and encryption type of the specified item on the networks "
+"scanned a list"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1148
+msgid "int32_t WiFiClass::RSSI(uint8_t networkItem)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1156
+msgid "signed value of RSSI of the specified item on the networks scanned a list"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1169
+msgid "**WiFiClass::status**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1175
+msgid "uint8_t WiFiClass::status()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1182
+msgid ""
+"The function returns one of the values defined in wl_status_t as an "
+"unsigned integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1194
+msgid "**WiFiClass::hostByName**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1200
+msgid "int WiFiClass::hostByName(const char\\* aHostname, IPAddress& aResult)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1203
+msgid "aHostname: Name to be resolved"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1204
+msgid "aResult: IPAddress structure to store the returned IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1208
+msgid ""
+"The function returns “1” if aIPAddrString was successfully converted to "
+"an IP address,else otherwise, it will return as an error code."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1216
+msgid "**WiFiClass::apbegin**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1222
+msgid "int WiFiClass::apbegin(char\\* ssid, char\\* channel)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1223
+msgid "int WiFiClass::apbegin(char\\* ssid, char\\* password, char\\* channel)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1226
+msgid "ssid: SSID of the AP network"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1227
+msgid "channel: AP’s channel, default 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1228
+msgid "password: AP’s password"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1231
+msgid "The function will return the WiFi status."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1234
+msgid "Example: WiFiAPMode"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1236
+msgid "**#include**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1238
+msgid "**char** ssid[] = \"yourNetwork\"; //Set the AP's SSID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1240
+msgid "**char** pass[] = \"Password\"; //Set the AP's password"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1242
+msgid "**char** channel[] = \"1\"; //Set the AP's channel"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1276
+msgid "// attempt to start AP:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1280
+msgid "Serial.print(\"Attempting to start AP with SSID: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1284
+msgid "status = WiFi.apbegin(ssid, pass, channel);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1290
+msgid "//AP MODE already started:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1292
+msgid "Serial.println(\"AP mode already started\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1344
+msgid "// print the SSID of the AP:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1350
+msgid "// print the MAC address of AP:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1358
+msgid "Serial.print(bssid[0], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1378
+msgid "Serial.println(bssid[5], HEX);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1395
+msgid "**WiFiClass::disablePowerSave**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1401
+msgid "int WiFiClass::disablePowerSave()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class WiFi.rst:1407
+msgid "1 if disable success, 0 if failed"
+msgstr ""
+

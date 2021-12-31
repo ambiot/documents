@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:3 On Text
+msgid "E-Paper - Display Text"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:8 On Text
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:12 On Text
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:13 On Text
+msgid "Waveshare 2.9inch e-Paper HAT (D) x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:15 On Text
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:22 On Text
+msgid ""
+"In this example, we use the Ameba RTL8722 module connects to a Waveshare "
+"2.9inch e-Paper module to display a few QR codes. The display uses the "
+"flexible substrate as a base plate, with an interface and a reference "
+"system design."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:26 On Text
+msgid ""
+"The 2.9” active area contains 296×128 pixels and has 1-bit white/black "
+"full display capabilities. An integrated circuit contains gate buffer, "
+"source buffer, interface, timing control logic, oscillator, etc… are "
+"supplied with each panel."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:30 On Text
+msgid ""
+"You may refer to the official `2.9inch e-Paper HAT (D) datasheet "
+"<https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
+"Paper_(D)_Specification.pdf>`__ to know more information about this "
+"module."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:32 On Text
+msgid "Front view of the e-Paper Module:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:34 On Text
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:75 On Text
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:36 On Text
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:38 On Text
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:79 On Text
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:40 On Text
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:83 On Text
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:42 On Text
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:44 On Text
+msgid "|2-1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:87 On Text
+msgid "2-1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:46 On Text
+msgid "|3-1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:91 On Text
+msgid "3-1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:48 On Text
+msgid "**RTL8720DN(BW16)** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:50 On Text
+msgid "|2-2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:95 On Text
+msgid "2-2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:52 On Text
+msgid "|3-2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:99 On Text
+msgid "3-2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:55 On Text
+msgid ""
+"Download the Eink zip library, AmebaEink.zip, at "
+"https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:57 On Text
+msgid ""
+"Then install the AmebaEink.zip. Open the “DisplayQR” example in ``“File” "
+"-> “Examples” -> “AmebaEink” -> “EinkDisplayText”``:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:59 On Text
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:103 On
+#: Text
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:61 On Text
+msgid ""
+"Upload the code to the board and press the Reset button after the "
+"uploading is done. You will find these texts displayed on the board:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:65 On Text
+msgid "|5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:107 On
+#: Text
+msgid "5"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:67 On Text
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:71 On Text
+msgid ""
+"[1] We use Good Display GDEH029A1 2.9 Inch / 296×128 Resolution / Partial"
+" Refresh Arduino Sample Code to get the e-Paper successfully Display: "
+"http://www.good-display.com/product/201.html"
+msgstr ""
+

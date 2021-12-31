@@ -1,0 +1,396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:3
+msgid "Class RecordWav"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:5
+#: RecordWav.rst:40 RecordWav.rst:68 RecordWav.rst:96 RecordWav.rst:124
+#: RecordWav.rst:152 RecordWav.rst:180 RecordWav.rst:208 RecordWav.rst:236
+#: RecordWav.rst:264 RecordWav.rst:292 RecordWav.rst:320
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:7
+msgid "A class used for control and recording of .wav file format audio data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:9
+#: RecordWav.rst:44 RecordWav.rst:72 RecordWav.rst:100 RecordWav.rst:128
+#: RecordWav.rst:156 RecordWav.rst:184 RecordWav.rst:212 RecordWav.rst:240
+#: RecordWav.rst:268 RecordWav.rst:296 RecordWav.rst:324
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:11
+msgid "class RecordWav"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:13
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:15
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:18
+msgid "RecordWav:: RecordWav"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:18
+msgid "Create an instance of the RecordWav class"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:21
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:24
+msgid "RecordWav::openFile"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:24
+msgid "Open a .wav file for playback"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:25
+msgid "RecordWav::closeFile"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:25
+msgid "Close a previously opened file"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:26
+msgid "RecordWav::fileOpened"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:26
+msgid "Check if a .wav file is already opened"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:27
+msgid "RecordWav::setSampleRate"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:27
+msgid "Get the sample rate of the .wav file"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:28
+msgid "RecordWav::setChannelCount"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:28
+msgid "Set the number of audio channels in the .wav file"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:29
+msgid "RecordWav::setBitDepth"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:29
+msgid "Set the bit depth of each sample in the .wav file"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:30
+msgid "RecordWav::getLengthMillis"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:30
+msgid "Get the current record length of the .wav file in milliseconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:31
+msgid "RecordWav::millisToBytes"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:31
+msgid "Convert a playback duration to equivalent number of bytes"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:32
+msgid "RecordWav::bytesToMillis"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:32
+msgid "Convert number of bytes to an equivalent playback duration"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:33
+msgid "RecordWav::writeAudioData"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:33
+msgid "Write audio data to the .wav file"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:38
+msgid "**RecordWav::RecordWav**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:42
+msgid "Create a RecordWav class object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:46
+msgid "void RecordWav(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:48
+#: RecordWav.rst:76 RecordWav.rst:104 RecordWav.rst:132 RecordWav.rst:160
+#: RecordWav.rst:188 RecordWav.rst:216 RecordWav.rst:244 RecordWav.rst:272
+#: RecordWav.rst:300 RecordWav.rst:329
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:50
+#: RecordWav.rst:106 RecordWav.rst:134 RecordWav.rst:246
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:52
+#: RecordWav.rst:80 RecordWav.rst:108 RecordWav.rst:136 RecordWav.rst:164
+#: RecordWav.rst:192 RecordWav.rst:220 RecordWav.rst:248 RecordWav.rst:276
+#: RecordWav.rst:304 RecordWav.rst:334
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:54
+#: RecordWav.rst:82 RecordWav.rst:110 RecordWav.rst:166 RecordWav.rst:194
+#: RecordWav.rst:222
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:56
+#: RecordWav.rst:84 RecordWav.rst:112 RecordWav.rst:140 RecordWav.rst:168
+#: RecordWav.rst:196 RecordWav.rst:224 RecordWav.rst:252 RecordWav.rst:280
+#: RecordWav.rst:308 RecordWav.rst:338
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:58
+#: RecordWav.rst:86 RecordWav.rst:114 RecordWav.rst:142 RecordWav.rst:170
+#: RecordWav.rst:340
+msgid "Example: RecordWavFile"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:60
+#: RecordWav.rst:88 RecordWav.rst:116 RecordWav.rst:144 RecordWav.rst:172
+#: RecordWav.rst:200 RecordWav.rst:228 RecordWav.rst:256 RecordWav.rst:284
+#: RecordWav.rst:312 RecordWav.rst:342
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:62
+#: RecordWav.rst:90 RecordWav.rst:146 RecordWav.rst:174 RecordWav.rst:198
+#: RecordWav.rst:202 RecordWav.rst:226 RecordWav.rst:230 RecordWav.rst:254
+#: RecordWav.rst:258 RecordWav.rst:282 RecordWav.rst:286 RecordWav.rst:310
+#: RecordWav.rst:314 RecordWav.rst:344
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:66
+msgid "**RecordWav::openFile**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:70
+msgid "Open a .wav file for recording."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:74
+msgid "void openFile(const char* absFilepath);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:78
+msgid "absFilepath: the filepath of the .wav file to open."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:94
+msgid "**RecordWav::closeFile**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:98
+msgid "Close a previously opened file."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:102
+msgid "void closeFile(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:118
+msgid ""
+"Any open .wav files should be closed after recording is complete, "
+"otherwise, loss of recorded audio data may occur."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:122
+msgid "**RecordWav::fileOpened**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:126
+msgid "Check if a .wav file is already opened."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:130
+msgid "bool fileOpened(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:138
+msgid "The function returns true if a .wav file is already open, false otherwise."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:150
+msgid "**RecordWav::setSampleRate**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:154
+msgid "Set the recording sample rate of the .wav file."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:158
+msgid "void setSampleRate(uint32_t sampleRate);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:162
+msgid "sampleRate: The desired recording sample rate."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:178
+msgid "**RecordWav::setChannelCount**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:182
+msgid "Set the number of recording audio channels in the .wav file."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:186
+msgid "void setChannelCount(uint16_t channelCount);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:190
+msgid "channelCount: number of recording audio channels."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:206
+msgid "**RecordWav::setBitDepth**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:210
+msgid "Set the recording bit depth of each sample in the .wav file."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:214
+msgid "void setBitDepth(uint16_t bitDepth);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:218
+msgid "bitDepth: number of bits per sample."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:234
+msgid "**RecordWav::getLengthMillis**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:238
+msgid "Get the current recorded length of the .wav file in milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:242
+msgid "uint32_t getLengthMillis(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:250
+msgid ""
+"The function returns the current recorded length of the currently open "
+".wav file in milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:262
+msgid "**RecordWav::millisToBytes**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:266
+msgid "Convert a playback duration to equivalent number of bytes."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:270
+msgid "uint32_t millisToBytes(uint32_t ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:274
+msgid "ms: playback duration in milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:278
+msgid ""
+"The function returns the number of bytes that is equivalent to the input "
+"playback duration, converted using the current sample rate, number of "
+"channels and bit depth."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:290
+msgid "**RecordWav::bytesToMillis**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:294
+msgid "Convert number of bytes to an equivalent playback duration."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:298
+msgid "uint32_t bytesToMillis(uint32_t bytes);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:302
+msgid "bytes: playback duration in number of bytes."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:306
+msgid ""
+"The function returns the time duration in milliseconds that is equivalent"
+" to the input number of bytes, converted using the current sample rate, "
+"number of channels and bit depth."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:318
+msgid "**RecordWav::writeAudioData**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:322
+msgid "Write audio data to the .wav file."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:326
+msgid ""
+"uint32_t writeAudioData(int8_t* src, uint32_t len); uint32_t "
+"writeAudioData(int16_t* src, uint32_t len);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:331
+msgid ""
+"src: pointer to array containing data to write to .wav file. len: number "
+"of audio samples to write to .wav file."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RecordWav.rst:336
+msgid "The function returns number of audio samples written."
+msgstr ""
+

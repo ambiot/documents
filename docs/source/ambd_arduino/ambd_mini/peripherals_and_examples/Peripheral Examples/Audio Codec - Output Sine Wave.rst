@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/Audio Codec - Output Sine Wave.rst

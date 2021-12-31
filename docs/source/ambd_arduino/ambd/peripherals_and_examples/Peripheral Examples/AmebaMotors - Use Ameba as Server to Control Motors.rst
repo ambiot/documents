@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/AmebaMotors - Use Ameba as Server to Control Motors.rst

@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst:3
+msgid "PWM"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
+" :raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API 文档**"
+" :raw-html:`</p>`"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **構造函數** "
+":raw-html:`</p>`"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst:16
+msgid "**PWM(**\\ *unit*\\ [optional]\\ *, \"pin_name\"*\\ [required]\\ **)**"
+msgstr "**PWM(**\\ *unit*\\ [選填]\\ *, \"pin_name\"*\\ [必填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst:17
+msgid ""
+"Create a PWM object associated with the given pin name. This allows you "
+"to then write PWM signal on the pin."
+msgstr "使用預設的pin名字來創建一個PWM對象。 可以向預設的pin來編寫PWM信號"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst:19
+msgid ""
+"``unit``: unit ID of the hardware PWM, will use default unit 0 if leave "
+"blank"
+msgstr "``unit``:  PWM的號碼, 如果沒有填寫預設是0"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst:20
+msgid ""
+"``\"pin_name\"``: The name of the pin, must be in string format. See "
+"below for PWM supported pins."
+msgstr "``\"pin_name\"``: pin的名字, 此名字必須是string格式. 參考下列PWM支援的pins"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst
+msgid "PWM is currently only supported on the following pins,"
+msgstr "目前只有下列的引脚支援PWM："
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst
+msgid "PA_23 , PA_24 , PA_25 , PA_26"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst:27
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
+"html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **方法** :raw-"
+"html:`</p>`"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst:31
+msgid "**PWM.write(**\\ *dutycycle_float*\\ [required]\\ **)**"
+msgstr "**PWM.write(**\\ *dutycycle_float*\\ [必填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst:32
+msgid ""
+"This method will output a PWM signal with given duty cycle on the "
+"associated GPIO pin."
+msgstr "聲明Pin對象後，此方法將返回關聯的GPIO引腳名稱。"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst:34
+msgid ""
+"**dutycycle_float**: a floating point duty cycle value, can be from 0.0 "
+"(0%) to 1.0 (100%)"
+msgstr "**dutycycle_float**: 浮點duty cycle，可以從0.0（0％）到1.0（100％)"
+

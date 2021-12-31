@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/UART - Communicate with the computer via UART.rst

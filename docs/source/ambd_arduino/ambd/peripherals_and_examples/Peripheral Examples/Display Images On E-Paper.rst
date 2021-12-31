@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/Display Images On E-Paper.rst

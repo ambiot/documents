@@ -1,0 +1,1490 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:3
+msgid "Class AmebaILI9341"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:4
+msgid "**AmebaILI9341 Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:6
+#: AmebaILI9341.rst:69 AmebaILI9341.rst:531 AmebaILI9341.rst:563
+#: AmebaILI9341.rst:593 AmebaILI9341.rst:621 AmebaILI9341.rst:649
+#: AmebaILI9341.rst:681 AmebaILI9341.rst:709 AmebaILI9341.rst:740
+#: AmebaILI9341.rst:773 AmebaILI9341.rst:802 AmebaILI9341.rst:835
+#: AmebaILI9341.rst:867 AmebaILI9341.rst:898 AmebaILI9341.rst:929
+#: AmebaILI9341.rst:957 AmebaILI9341.rst:985 AmebaILI9341.rst:1013
+#: AmebaILI9341.rst:1044 AmebaILI9341.rst:1075 AmebaILI9341.rst:1106
+#: AmebaILI9341.rst:1137
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:8
+msgid "Defines a class to use ILI9341 TFT SPI display for Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:10
+#: AmebaILI9341.rst:73 AmebaILI9341.rst:535 AmebaILI9341.rst:567
+#: AmebaILI9341.rst:597 AmebaILI9341.rst:625 AmebaILI9341.rst:654
+#: AmebaILI9341.rst:685 AmebaILI9341.rst:713 AmebaILI9341.rst:744
+#: AmebaILI9341.rst:777 AmebaILI9341.rst:806 AmebaILI9341.rst:839
+#: AmebaILI9341.rst:871 AmebaILI9341.rst:902 AmebaILI9341.rst:933
+#: AmebaILI9341.rst:961 AmebaILI9341.rst:989 AmebaILI9341.rst:1017
+#: AmebaILI9341.rst:1048 AmebaILI9341.rst:1079 AmebaILI9341.rst:1110
+#: AmebaILI9341.rst:1141
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:12
+msgid "class AmebaILI9341"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:14
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:17
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:19
+msgid "AmebaILI9341::AmebaILI9341"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:19
+msgid "Constructs an AmebaILI9341 object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:21
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:23
+msgid "AmebaILI9341::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:23
+msgid "Initialize SPI, pin mapping and screen configuration"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:26
+msgid "AmebaILI9341::setAddress"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:26
+msgid "Initialize image size and position"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:28
+msgid "AmebaILI9341::writecommand"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:28
+msgid "SPI transfer a command"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:30
+msgid "AmebaILI9341::writedata"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:30
+msgid "SPI transfer a piece of data"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:32
+msgid "AmebaILI9341::setRotation"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:32
+msgid "Set screen orientation"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:34
+msgid "AmebaILI9341::fillScreen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:34
+msgid "Fill the screen with a color"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:36
+msgid "AmebaILI9341::clr"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:36
+msgid "Clear screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:38
+msgid "AmebaILI9341::fillRectangle"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:38
+msgid "Fill a rectangular space with a color"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:40
+msgid "AmebaILI9341::drawPixel"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:40
+#: AmebaILI9341.rst:775
+msgid "Turn on a pixel on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:42
+msgid "AmebaILI9341::drawChar"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:42
+msgid "To print a character on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:44
+msgid "AmebaILI9341::drawLine"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:44
+msgid "Draw line on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:46
+msgid "AmebaILI9341::drawRectangle"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:46
+msgid "Draw a rectangle on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:48
+msgid "AmebaILI9341::drawCircle"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:48
+msgid "Draw a circle on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:50
+msgid "AmebaILI9341::write"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:50
+msgid "Same as drawChar"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:52
+msgid "AmebaILI9341::getWidth"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:52
+msgid "Return the width 240"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:54
+msgid "AmebaILI9341::getHeight"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:54
+msgid "Return the height 320"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:56
+msgid "AmebaILI9341::setCursor"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:56
+msgid "Set cursor to the desired position"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:58
+msgid "AmebaILI9341::setForeground"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:58
+#: AmebaILI9341.rst:1046
+msgid "Set foreground color"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:60
+msgid "AmebaILI9341::setBackground"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:60
+#: AmebaILI9341.rst:1077
+msgid "Set background color"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:62
+msgid "AmebaILI9341::setFontSize"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:62
+msgid "Set character font size"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:64
+msgid "AmebaILI9341::reset"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:64
+msgid "Reset pin to High or Low"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:67
+msgid "**AmebaILI9341::AmebaILI9341**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:71
+msgid "Constructs an AmebaILI9341 object and set CS, DC and RESET pins ."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:75
+msgid "AmebaILI9341::AmebaILI9341(int csPin, int dcPin, int resetPin)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:77
+#: AmebaILI9341.rst:539 AmebaILI9341.rst:572 AmebaILI9341.rst:601
+#: AmebaILI9341.rst:629 AmebaILI9341.rst:689 AmebaILI9341.rst:717
+#: AmebaILI9341.rst:749 AmebaILI9341.rst:781 AmebaILI9341.rst:812
+#: AmebaILI9341.rst:845 AmebaILI9341.rst:877 AmebaILI9341.rst:908
+#: AmebaILI9341.rst:937 AmebaILI9341.rst:965 AmebaILI9341.rst:993
+#: AmebaILI9341.rst:1021 AmebaILI9341.rst:1052 AmebaILI9341.rst:1083
+#: AmebaILI9341.rst:1114 AmebaILI9341.rst:1145
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:79
+msgid ""
+"csPin: pin for Chip Select dcPin: pin for Data/Command resetPin: pin for "
+"Reset"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:82
+#: AmebaILI9341.rst:543 AmebaILI9341.rst:577 AmebaILI9341.rst:605
+#: AmebaILI9341.rst:633 AmebaILI9341.rst:661 AmebaILI9341.rst:693
+#: AmebaILI9341.rst:721 AmebaILI9341.rst:754 AmebaILI9341.rst:786
+#: AmebaILI9341.rst:818 AmebaILI9341.rst:851 AmebaILI9341.rst:882
+#: AmebaILI9341.rst:913 AmebaILI9341.rst:941 AmebaILI9341.rst:969
+#: AmebaILI9341.rst:997 AmebaILI9341.rst:1025 AmebaILI9341.rst:1056
+#: AmebaILI9341.rst:1087 AmebaILI9341.rst:1118 AmebaILI9341.rst:1149
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:84
+#: AmebaILI9341.rst:545 AmebaILI9341.rst:579 AmebaILI9341.rst:607
+#: AmebaILI9341.rst:635 AmebaILI9341.rst:663 AmebaILI9341.rst:695
+#: AmebaILI9341.rst:723 AmebaILI9341.rst:756 AmebaILI9341.rst:788
+#: AmebaILI9341.rst:820 AmebaILI9341.rst:853 AmebaILI9341.rst:884
+#: AmebaILI9341.rst:915 AmebaILI9341.rst:1027 AmebaILI9341.rst:1058
+#: AmebaILI9341.rst:1089 AmebaILI9341.rst:1120 AmebaILI9341.rst:1151
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:86
+#: AmebaILI9341.rst:547 AmebaILI9341.rst:581 AmebaILI9341.rst:609
+#: AmebaILI9341.rst:637 AmebaILI9341.rst:665 AmebaILI9341.rst:697
+#: AmebaILI9341.rst:725 AmebaILI9341.rst:758 AmebaILI9341.rst:790
+#: AmebaILI9341.rst:822 AmebaILI9341.rst:855 AmebaILI9341.rst:886
+#: AmebaILI9341.rst:917 AmebaILI9341.rst:945 AmebaILI9341.rst:973
+#: AmebaILI9341.rst:1001 AmebaILI9341.rst:1029 AmebaILI9341.rst:1060
+#: AmebaILI9341.rst:1091 AmebaILI9341.rst:1122 AmebaILI9341.rst:1153
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:88
+msgid "Example: : PM25_ON_ILI9341_TFT_LCD"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:90
+msgid ""
+"This example demonstrates how to read pm2.5 value on PMS 3003 air-"
+"condition sensor and display it on ILI9341 TFT LCD."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:93
+msgid "/\\*"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:95
+msgid "PMS 3003 pin map is as follow:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:97
+msgid "PIN1 :VCC, connect to 5V"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:99
+msgid "PIN2 :GND"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:101
+msgid "PIN3 :SET, 0:Standby mode, 1:operating mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:103
+msgid "PIN4 :RXD :Serial RX"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:105
+msgid "PIN5 :TXD :Serial TX"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:107
+msgid "PIN6 :RESET"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:109
+msgid "PIN7 :NC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:111
+msgid "PIN8 :NC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:113
+msgid "In this example, we only use Serial to get PM 2.5 value."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:115
+msgid "The circuit:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:117
+msgid "\\* RX is digital pin 0 (connect to TX of PMS 3003)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:119
+msgid "\\* TX is digital pin 1 (connect to RX of PMS 3003)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:121
+msgid "For RTL8195A ILI9341 TFT LCD with SPI interface has these pins:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:123
+msgid "D/C : connect to pin 9"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:125
+msgid "CS : connect to pin 10"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:127
+msgid "MOSI : connect to pin 11"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:129
+msgid "MISO : connect to pin 12"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:131
+msgid "CLK : connect to pin 13"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:133
+msgid "VCC : connect to 3V3"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:135
+msgid "GND : connect to GND"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:137
+msgid "\\*/"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:139
+msgid "**#include \"SoftwareSerial.h\"**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:141
+msgid "**#include \"SPI.h\"**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:143
+msgid "**#include \"AmebaILI9341.h\"**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:145
+msgid "**#if defined(BOARD_RTL8195A)**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:147
+msgid "SoftwareSerial mySerial(0, 1); // RX, TX"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:149
+msgid "**#define TFT_RESET 8**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:151
+msgid "**#define TFT_DC 9**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:153
+#: AmebaILI9341.rst:165
+msgid "**#define TFT_CS 10**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:155
+msgid "**#elif defined(BOARD_RTL8710)**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:157
+msgid "SoftwareSerial mySerial(17, 5); // RX, TX"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:159
+msgid "// IMPORTANT: Due to limit pin, we do not connect TFT_RESET pin."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:161
+msgid "**#define TFT_RESET 0xFFFFFFFF**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:163
+msgid "**#define TFT_DC 2**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:167
+msgid "**#endif**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:169
+msgid "AmebaILI9341 tft = AmebaILI9341(TFT_CS, TFT_DC, TFT_RESET);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:171
+msgid "**#define ILI9341_SPI_FREQUENCY 20000000**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:173
+msgid "**#define pmsDataLen 32**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:175
+msgid "**uint8_t** buf[pmsDataLen];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:177
+msgid "**int** idx = 0;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:179
+msgid "**int** pm10 = 0;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:181
+msgid "**int** last_pm25 = 0;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:183
+msgid "**int** pm25 = 0;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:185
+msgid "**int** pm100 = 0;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:187
+msgid "**uint16_t** pm25color[] = {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:189
+msgid "*0x9FF3*,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:191
+msgid "*0x37E0*,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:193
+msgid "*0x3660*,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:195
+msgid "*0xFFE0*,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:197
+msgid "*0xFE60*,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:199
+msgid "*0xFCC0*,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:201
+msgid "*0xFB2C*,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:203
+msgid "*0xF800*,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:205
+msgid "*0x9800*,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:207
+msgid "*0xC99F*"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:209
+msgid "};"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:211
+msgid "**void** setup() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:213
+msgid "Serial.begin(57600);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:215
+msgid "mySerial.begin(9600); // PMS 3003 UART has baud rate 9600"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:217
+msgid "SPI.setDefaultFrequency(ILI9341_SPI_FREQUENCY);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:219
+msgid "tft.begin();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:221
+msgid "drawPictureFrames();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:223
+#: AmebaILI9341.rst:241 AmebaILI9341.rst:257 AmebaILI9341.rst:259
+#: AmebaILI9341.rst:267 AmebaILI9341.rst:279 AmebaILI9341.rst:397
+#: AmebaILI9341.rst:415 AmebaILI9341.rst:431 AmebaILI9341.rst:445
+#: AmebaILI9341.rst:461 AmebaILI9341.rst:471 AmebaILI9341.rst:475
+#: AmebaILI9341.rst:519 AmebaILI9341.rst:521
+msgid "}"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:225
+msgid "**void** loop() { // run over and over"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:227
+msgid "**uint8_t** c;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:229
+msgid "idx = 0;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:231
+msgid "memset(buf, 0, pmsDataLen);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:233
+msgid "**while** (**true**) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:235
+msgid "**while** (c != *0x42*) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:237
+#: AmebaILI9341.rst:243
+msgid "**while** (!mySerial.available());"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:239
+#: AmebaILI9341.rst:245
+msgid "c = mySerial.read();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:247
+msgid "**if** (c == *0x4d*) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:249
+msgid "// now we got a correct header)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:251
+msgid "buf[idx++] = *0x42*;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:253
+msgid "buf[idx++] = *0x4d*;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:255
+msgid "**break**;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:261
+msgid "**while** (idx != pmsDataLen) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:263
+msgid "**while**\\ (!mySerial.available());"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:265
+msgid "buf[idx++] = mySerial.read();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:269
+msgid "pm10 = ( buf[10] << 8 ) \\| buf[11];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:271
+msgid "last_pm25 = pm25;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:273
+msgid "pm25 = ( buf[12] << 8 ) \\| buf[13];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:275
+msgid "pm100 = ( buf[14] << 8 ) \\| buf[15];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:277
+#: AmebaILI9341.rst:395
+msgid "updateValueToTftScreen();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:281
+msgid "**void** drawPictureFrames() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:283
+msgid "tft.setRotation(1);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:285
+msgid "tft.clr();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:287
+#: AmebaILI9341.rst:291 AmebaILI9341.rst:303 AmebaILI9341.rst:309
+#: AmebaILI9341.rst:319 AmebaILI9341.rst:325 AmebaILI9341.rst:335
+#: AmebaILI9341.rst:341 AmebaILI9341.rst:371 AmebaILI9341.rst:391
+#: AmebaILI9341.rst:449
+msgid "tft.setFontSize(1);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:289
+msgid "// Upper title"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:293
+msgid "tft.setCursor(20,20);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:295
+msgid "tft.print(\"PM2.5 DETECTOR\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:297
+msgid "// PM 2.5 Circle Frame"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:299
+msgid "tft.drawCircle(100,130,60, ILI9341_BLUE);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:301
+msgid "tft.drawCircle(100,130,61, ILI9341_BLUE);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:305
+msgid "tft.setCursor(90,85);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:307
+msgid "tft.print(\"PM2.5\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:311
+msgid "tft.setCursor(90,170);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:313
+#: AmebaILI9341.rst:329 AmebaILI9341.rst:345
+msgid "tft.print(\"um/m3\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:315
+msgid "// PM 10 Circle Frame"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:317
+msgid "tft.drawCircle(220,70,40, ILI9341_BLUE);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:321
+msgid "tft.setCursor(210,40);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:323
+msgid "tft.print(\"PM10\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:327
+msgid "tft.setCursor(205,95);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:331
+msgid "// PM 1.0 Circle Frame"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:333
+msgid "tft.drawCircle(220,170,40, ILI9341_BLUE);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:337
+msgid "tft.setCursor(205,140);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:339
+msgid "tft.print(\"PM1.0\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:343
+msgid "tft.setCursor(205,195);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:347
+msgid "// right side bar, referenced from: http://taqm.epa.gov.tw/taqm/tw/"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:349
+msgid "tft.fillRectangle(290, 30+ 0*2, 10, 12*2, pm25color[0]); // 0~11"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:351
+msgid "tft.fillRectangle(290, 30+12*2, 10, 12*2, pm25color[1]); // 12-23"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:353
+msgid "tft.fillRectangle(290, 30+24*2, 10, 12*2, pm25color[2]); // 24-35"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:355
+msgid "tft.fillRectangle(290, 30+36*2, 10, 6*2, pm25color[3]); // 36-41"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:357
+msgid "tft.fillRectangle(290, 30+42*2, 10, 6*2, pm25color[4]); // 42-47"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:359
+msgid "tft.fillRectangle(290, 30+48*2, 10, 6*2, pm25color[5]); // 48-53"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:361
+msgid "tft.fillRectangle(290, 30+54*2, 10, 6*2, pm25color[6]); // 54-58"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:363
+msgid "tft.fillRectangle(290, 30+59*2, 10, 6*2, pm25color[7]); // 59-64"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:365
+msgid "tft.fillRectangle(290, 30+65*2, 10, 6*2, pm25color[8]); // 65-70"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:367
+msgid "tft.fillRectangle(290, 30+71*2, 10, 10*2, pm25color[9]); // >=71"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:369
+msgid "tft.setCursor(302, 30);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:373
+msgid "tft.print(\"0\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:375
+msgid "tft.setCursor(302, 30+36*2);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:377
+msgid "tft.print(\"36\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:379
+msgid "tft.setCursor(302, 30+54*2);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:381
+msgid "tft.print(\"54\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:383
+msgid "tft.setCursor(302, 30+71*2);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:385
+msgid "tft.print(\"71\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:387
+msgid "// bottom right text"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:389
+msgid "tft.setCursor(210,230);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:393
+msgid "tft.print(\"Powered by Realtek\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:399
+msgid "**void** updateValueToTftScreen() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:401
+msgid "tft.setCursor(60, 111);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:403
+msgid "tft.setFontSize(5);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:405
+msgid "tft.setForeground( getPm25Color(pm25) );"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:407
+msgid "**if** (pm25 < 10) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:409
+#: AmebaILI9341.rst:413 AmebaILI9341.rst:425 AmebaILI9341.rst:429
+#: AmebaILI9341.rst:439 AmebaILI9341.rst:443
+msgid "tft.print(\" \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:411
+msgid "} **else** **if** (pm25 < 100) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:417
+msgid "tft.print(pm25);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:419
+msgid "tft.setCursor(195,60);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:421
+msgid "tft.setFontSize(3);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:423
+msgid "**if** (pm100 < 10) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:427
+msgid "} **else** **if** (pm100 < 100) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:433
+msgid "tft.print(pm100);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:435
+msgid "tft.setCursor(198,160);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:437
+msgid "**if** (pm10 < 10) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:441
+msgid "} **else** **if** (pm10 < 100) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:447
+msgid "tft.print(pm10);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:451
+msgid "tft.setForeground(ILI9341_WHITE);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:453
+msgid "**if** (last_pm25 > 80) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:455
+msgid "tft.fillRectangle(275, 80*2+30-3, 12, 8, ILI9341_BLACK);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:457
+#: AmebaILI9341.rst:467 AmebaILI9341.rst:515
+msgid "} **else** {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:459
+msgid "tft.fillRectangle(275, last_pm25*2+30-3, 12, 8, ILI9341_BLACK);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:463
+msgid "**if** (pm25 > 80) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:465
+msgid "tft.setCursor(275, 80*2+30-3);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:469
+msgid "tft.setCursor(275, pm25*2+30-3);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:473
+msgid "tft.print(\"=>\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:477
+msgid "**uint16_t** getPm25Color(**int** v) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:479
+msgid "**if** (v < 12) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:481
+msgid "**return** pm25color[0];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:483
+msgid "} **else** **if** (v < 24) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:485
+msgid "**return** pm25color[1];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:487
+msgid "} **else** **if** (v < 36) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:489
+msgid "**return** pm25color[2];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:491
+msgid "} **else** **if** (v < 42) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:493
+msgid "**return** pm25color[3];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:495
+msgid "} **else** **if** (v < 48) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:497
+msgid "**return** pm25color[4];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:499
+msgid "} **else** **if** (v < 54) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:501
+msgid "**return** pm25color[5];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:503
+msgid "} **else** **if** (v < 59) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:505
+msgid "**return** pm25color[6];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:507
+msgid "} **else** **if** (v < 65) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:509
+msgid "**return** pm25color[7];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:511
+msgid "} **else** **if** (v < 71) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:513
+msgid "**return** pm25color[8];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:517
+msgid "**return** pm25color[9];"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:523
+#: AmebaILI9341.rst:554 AmebaILI9341.rst:585 AmebaILI9341.rst:613
+#: AmebaILI9341.rst:641 AmebaILI9341.rst:672 AmebaILI9341.rst:701
+#: AmebaILI9341.rst:732 AmebaILI9341.rst:765 AmebaILI9341.rst:794
+#: AmebaILI9341.rst:826 AmebaILI9341.rst:859 AmebaILI9341.rst:890
+#: AmebaILI9341.rst:921 AmebaILI9341.rst:949 AmebaILI9341.rst:977
+#: AmebaILI9341.rst:1005 AmebaILI9341.rst:1036 AmebaILI9341.rst:1067
+#: AmebaILI9341.rst:1098 AmebaILI9341.rst:1129 AmebaILI9341.rst:1157
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:525
+#: AmebaILI9341.rst:583 AmebaILI9341.rst:611 AmebaILI9341.rst:615
+#: AmebaILI9341.rst:639 AmebaILI9341.rst:699 AmebaILI9341.rst:767
+#: AmebaILI9341.rst:792 AmebaILI9341.rst:796 AmebaILI9341.rst:824
+#: AmebaILI9341.rst:857 AmebaILI9341.rst:861 AmebaILI9341.rst:888
+#: AmebaILI9341.rst:892 AmebaILI9341.rst:919 AmebaILI9341.rst:947
+#: AmebaILI9341.rst:975 AmebaILI9341.rst:979 AmebaILI9341.rst:1003
+#: AmebaILI9341.rst:1007 AmebaILI9341.rst:1038 AmebaILI9341.rst:1069
+#: AmebaILI9341.rst:1100 AmebaILI9341.rst:1131 AmebaILI9341.rst:1155
+#: AmebaILI9341.rst:1159
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:529
+msgid "**AmebaILI9341::begin**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:533
+msgid "Initialize hardware SPI, pin mapping and screen configuration"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:537
+msgid "void AmebaILI9341::begin(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:541
+#: AmebaILI9341.rst:719 AmebaILI9341.rst:967 AmebaILI9341.rst:995
+#: AmebaILI9341.rst:1147
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:549
+#: AmebaILI9341.rst:667 AmebaILI9341.rst:727 AmebaILI9341.rst:760
+#: AmebaILI9341.rst:1031 AmebaILI9341.rst:1062 AmebaILI9341.rst:1093
+#: AmebaILI9341.rst:1124
+msgid "Example: PM25_ON_ILI9341_TFT_LCD"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:551
+#: AmebaILI9341.rst:669 AmebaILI9341.rst:762 AmebaILI9341.rst:1033
+#: AmebaILI9341.rst:1064 AmebaILI9341.rst:1095 AmebaILI9341.rst:1126
+msgid ""
+"Details of the code are given in the previous section of AmebaILI9341:: "
+"AmebaILI9341."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:556
+msgid ""
+"This method is required to run first before other operations on the "
+"display."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:561
+msgid "**AmebaILI9341::setAddress**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:565
+msgid "Initialize image size and positioning on the display"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:569
+msgid ""
+"void AmebaILI9341::setAddress(uint16_t x0, uint16_t y0, uint16_t x1, "
+"uint16_t y1)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:574
+msgid ""
+"x0: leftmost coordinate of the image y0: top coordinate of the image x1: "
+"rightmost coordinate of the image y1: bottom coordinate of the image"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:587
+msgid "Do not use this to set the cursor, use the “setCursor” method instead."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:591
+msgid "**AmebaILI9341::writecommand**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:595
+msgid "Write a single-byte command to display"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:599
+msgid "void AmebaILI9341::writecommand(uint8_t command)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:603
+msgid "command: a single byte command"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:619
+msgid "**AmebaILI9341::writedata**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:623
+msgid "Write 1 byte of data to display"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:627
+msgid "void AmebaILI9341::writedata(uint8_t data)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:631
+msgid "data: 1 byte data"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:643
+msgid "Only use this method to write 1 byte at a time."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:647
+msgid "**AmebaILI9341::setRotation**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:651
+msgid ""
+"Setting screen orientation, “0” for no rotation, “1” for 90 degrees "
+"rotation and so on so forth."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:656
+msgid "void AmebaILI9341::setRotation(uint8_t m)/span> **Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:658
+msgid ""
+"m: one of the 4 rotation modes -> “0” for no rotation, “1” for 90⁰, “2” "
+"for 180⁰, “3” for 270⁰"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:674
+msgid ""
+"if m=4, it’s equivalent to mode 0, and m=5 for mode 1, m=6 for mode 2 so "
+"on so forth."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:679
+msgid "**AmebaILI9341::fillScreen**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:683
+msgid "Fill the entire screen with one color"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:687
+msgid "void AmebaILI9341::fillScreen(uint16_t color)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:691
+msgid "color: a 16-bit color reference defined in AmebaILI9341.h"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:703
+msgid "Refer to AmebaILI9341.h for available colors."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:707
+msgid "**AmebaILI9341::clr**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:711
+msgid "Fill the entire screen with a certain background-color"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:715
+msgid "void AmebaILI9341::clr(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:729
+msgid ""
+"Details of the code are given in the previous section of AmebaILI9341:: "
+"AmebaILI9341"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:734
+msgid "background-color can be set by calling setBackground method."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:738
+msgid "**AmebaILI9341::fillRectangle**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:742
+msgid "Fill a rectangular space with a color on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:746
+msgid ""
+"void AmebaILI9341::fillRectangle(int16_t x, int16_t y, int16_t w, int16_t"
+" h, uint16_t color)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:751
+#: AmebaILI9341.rst:879
+msgid ""
+"x: leftmost coordinate of the image y: top coordinate of the image w: "
+"width of the image h: height of the image color: the color of the image"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:771
+msgid "**AmebaILI9341::drawPixel**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:779
+msgid "void AmebaILI9341::drawPixel(int16_t x, int16_t y, uint16_t color)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:783
+msgid ""
+"x: leftmost coordinate of the image y: top coordinate of the image color:"
+" the color of the image"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:800
+msgid "**AmebaILI9341::drawChar**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:804
+msgid "Draw character on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:808
+msgid ""
+"void AmebaILI9341::drawChar(unsigned char c) void "
+"AmebaILI9341::drawChar(int16_t x, int16_t y, unsigned char c, uint16_t "
+"\\_fontcolor, uint16_t \\_background, uint8_t \\_fontsize)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:814
+msgid ""
+"x: leftmost coordinate of the image y: top coordinate of the image c: a "
+"character \\_fontcolor: font color \\_background: background color "
+"\\_fontsize: font size"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:828
+msgid ""
+"In the actual example, the Print method is used to print a string of "
+"character on the screen instead of using this method."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:833
+msgid "**AmebaILI9341::drawLine**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:837
+msgid "Draw a straight line on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:841
+msgid ""
+"void AmebaILI9341::drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t "
+"y1) void AmebaILI9341::drawLine(int16_t x0, int16_t y0, int16_t x1, "
+"int16_t y1, uint16_t color)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:847
+msgid ""
+"x0: leftmost coordinate of the image y0: top coordinate of the image x1: "
+"leftmost coordinate of the image y1: top coordinate of the image color: "
+"the color of the image"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:865
+msgid "**AmebaILI9341::drawRectangle**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:869
+msgid "Draw a rectangular shape on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:873
+msgid ""
+"void AmebaILI9341::drawRectangle(int16_t x, int16_t y, int16_t w, int16_t"
+" h) void AmebaILI9341::drawRectangle(int16_t x, int16_t y, int16_t w, "
+"int16_t h, uint16_t color)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:896
+msgid "**AmebaILI9341::drawCircle**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:900
+msgid "Draw a circular shape on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:904
+msgid ""
+"void AmebaILI9341::drawCircle(int16_t x0, int16_t y0, int16_t r) void "
+"AmebaILI9341::drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t "
+"color)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:910
+msgid ""
+"x0: leftmost coordinate of the image y0: top coordinate of the image r: "
+"radius of the image color: the color of the image"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:923
+msgid "Include “AmebaServo.h” to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:927
+msgid "**AmebaILI9341::write**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:931
+msgid "Same as drawChar, write a character on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:935
+msgid "size_t AmebaILI9341::write(uint8_t c)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:939
+msgid "c: a character to be written on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:943
+msgid "Number of bytes written"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:951
+msgid "This an inherited method from Print class and is seldom used."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:955
+msgid "**AmebaILI9341::getWidth**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:959
+msgid "Get the width of the image"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:963
+msgid "int16_t AmebaILI9341::getWidth(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:971
+msgid "Width of the image"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:983
+msgid "**AmebaILI9341::getHeight**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:987
+msgid "Get the height of the image"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:991
+msgid "int16_t AmebaILI9341::getHeight(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:999
+msgid "Height of the image"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1011
+msgid "**AmebaILI9341::setCursor**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1015
+msgid "Set the cursor to a specific position on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1019
+msgid "void AmebaILI9341::setCursor(int16_t x, int16_t y)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1023
+msgid "x: coordinate on the x-axis y: coordinate on the y-axis"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1042
+msgid "**AmebaILI9341::setForeground**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1050
+msgid "void AmebaILI9341::setForeground(uint16_t color)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1054
+msgid "color: one of the colors available in AmebaILI9341.h"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1073
+msgid "**AmebaILI9341::setBackground**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1081
+msgid "void AmebaILI9341::setBackground(uint16_t \\_background)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1085
+msgid "\\_background: one of the colors available in AmebaILI9341.h"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1104
+msgid "**AmebaILI9341::setFontSize**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1108
+msgid "Set the font size of the characters printed on the screen."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1112
+msgid "void AmebaILI9341::setFontSize(uint8_t size)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1116
+msgid "size: font size, default 1 for smallest, 5 for largest font size"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1135
+msgid "**AmebaILI9341::reset**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1139
+msgid "Reset the pin to High or Low"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaILI9341.rst:1143
+msgid "void AmebaILI9341::reset(void)"
+msgstr ""
+

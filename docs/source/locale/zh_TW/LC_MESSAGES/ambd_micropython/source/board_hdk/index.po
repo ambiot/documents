@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/board-hdk.rst:10
+msgid "Board HDK"
+msgstr "開發板 HDK"
+
+#: ../../source/board-hdk.rst:14
+msgid "EVB"
+msgstr "開發板"
+
+#: ../../source/board-hdk.rst:16
+msgid "**HDK-AMEBAD_MB_4V2**"
+msgstr ""
+
+#: ../../source/board-hdk.rst:18
+msgid ""
+":download:`Layout <https://www.amebaiot.com/?s2member_file_download=HDK-"
+"AMEBAD_MB_4V2-Layout.zip>`"
+msgstr ""
+
+#: ../../source/board-hdk.rst:19
+msgid ""
+":download:`Schematic <https://www.amebaiot.com/?s2member_file_download"
+"=HDK-AMEBAD_MB_4V2-Schematic.zip>`"
+msgstr ""
+
+#: ../../source/board-hdk.rst:23
+msgid "**HDK-AMEBAD_MB_4V0**"
+msgstr ""
+
+#: ../../source/board-hdk.rst:25
+msgid ""
+":download:`Layout <https://www.amebaiot.com/?s2member_file_download=HDK-"
+"AMEBAD_MB_4V0-Layout.zip>`"
+msgstr ""
+
+#: ../../source/board-hdk.rst:26
+msgid ""
+":download:`Schematic <https://www.amebaiot.com/?s2member_file_download"
+"=HDK-AMEBAD_MB_4V0-Schematic.zip>`"
+msgstr ""
+
+#: ../../source/board-hdk.rst:32
+msgid "RTL8722DM Module"
+msgstr "RTL8722DM 模組"
+
+#: ../../source/board-hdk.rst:34
+msgid "**HDK-AM8722DM01_6V2_WI LPF**"
+msgstr ""
+
+#: ../../source/board-hdk.rst:36
+msgid ""
+":download:`Layout <https://www.amebaiot.com/?s2member_file_download=HDK-"
+"AM8722DM01-6V2-wi-lpf-Layout.zip>`"
+msgstr ""
+
+#: ../../source/board-hdk.rst:37
+msgid ""
+":download:`Schematic <https://www.amebaiot.com/?s2member_file_download"
+"=HDK-AM8722DM01-6V2-wi-lpf-Schematic.zip>`"
+msgstr ""
+
+#: ../../source/board-hdk.rst:41
+msgid "**HDK-AM8722DM01_6V1_WI LPF**"
+msgstr ""
+
+#: ../../source/board-hdk.rst:43
+msgid ""
+":download:`Layout <https://www.amebaiot.com/?s2member_file_download=HDK-"
+"AM8722DM01-6V1-wi-matching-Layout.zip>`"
+msgstr ""
+
+#: ../../source/board-hdk.rst:44
+msgid ""
+":download:`Schematic <https://www.amebaiot.com/?s2member_file_download"
+"=HDK-AM8722DM01-6V1-wi-matching-Schematic.zip>`"
+msgstr ""
+
+#: ../../source/board-hdk.rst:48
+msgid "**HDK-AM8722DM01_4V1**"
+msgstr ""
+
+#: ../../source/board-hdk.rst:50
+msgid ""
+":download:`Layout <https://www.amebaiot.com/?s2member_file_download=HDK-"
+"AM8722DM01-4V1-Layout.zip>`"
+msgstr ""
+
+#: ../../source/board-hdk.rst:51
+msgid ""
+":download:`Schematic <https://www.amebaiot.com/?s2member_file_download"
+"=HDK-AM8722DM01-4V1-Schematic.zip>`"
+msgstr ""
+

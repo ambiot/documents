@@ -1,0 +1,841 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:3
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:7
+msgid "Ameba ARDUINO: Getting Started with BW16"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:10
+msgid "Required Environment"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:12
+msgid ""
+"RTL8720DN Dual-Band Wi-Fi board currently supports Windows XP/7/8/10 "
+"32-bits and 64-bits operating systems. In this documentation, please use "
+"Arduino IDE with version 1.8.15 or later."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:16
+msgid "Introduction to BW16"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:18
+msgid ""
+"Realtek RTL8720DN is a Wi-Fi and Bluetooth IC that supports 2.4GHz and "
+"5GHz dual bands for Wi-Fi communication, and Bluetooth Low Energy (BLE) "
+"5.0. BW16 is a module manufactured by B&T, this module is a highly "
+"integrated Wi-Fi and Bluetooth module with the RTL8720DN as the main SoC "
+"(System on Chip), it can be regarded as an SoC for the Wi-Fi and "
+"Bluetooth application with typical SBCs."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:23
+msgid "|bw16-get-start-1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:303
+msgid "bw16-get-start-1"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:25
+msgid ""
+"RTL8720DN (BW16) has a smaller size than AmebaD and AmebaD MINI as shown "
+"in the above figure. It uses Micro USB to supply power, which is common "
+"in many smart devices. Please refer to the following figure and table for"
+" the pin diagram and function of RTL8720DN (BW16)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:29
+msgid "|bw16-get-start-2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:307
+msgid "bw16-get-start-2"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:32
+msgid "\\#"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:32
+msgid "PIN name"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:32
+msgid "GPIO"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:32
+msgid "ADC"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:32
+msgid "PWM"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:32
+msgid "UART"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:32
+msgid "SPI"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:32
+msgid "I2C"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:34
+msgid "D0(PA7)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:34
+msgid "GPIOA_7"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:34
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:35
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:36
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:37
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:38
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:39
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:40
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:41
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:42
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:43
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:44
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:45
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:46
+msgid "✓"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:34
+msgid "UART_LOG_TX"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:35
+msgid "D1(PA8)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:35
+msgid "GPIOA_8"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:35
+msgid "UART_LOG_RX"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:36
+msgid "D2(PA27)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:36
+msgid "GPIOA_27"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:37
+msgid "D3(PA30)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:37
+msgid "GPIOA_30"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:38
+msgid "D4(PB1)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:38
+msgid "GPIOB_1"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:38
+msgid "Serial_TX"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:39
+msgid "D5(PB2)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:39
+msgid "GPIOB_2"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:39
+msgid "Serial_RX"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:40
+msgid "D6(PB3)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:40
+msgid "GPIOB_3"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:40
+msgid "A2"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:41
+msgid "D7(PA25)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:41
+msgid "GPIOA_25"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:41
+msgid "I2C0_CLK"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:42
+msgid "D8(PA26)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:42
+msgid "GPIOA_26"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:42
+msgid "I2C0_SDA"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:43
+msgid "D9(PA15)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:43
+msgid "GPIOA_15"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:43
+msgid "SPI_CS"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:44
+msgid "D10(PA14)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:44
+msgid "GPIOA_14"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:44
+msgid "SPI_CLK"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:45
+msgid "D11(PA13)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:45
+msgid "GPIOA_13"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:45
+msgid "SPI_MISO"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:46
+msgid "D12(PA12)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:46
+msgid "GPIOA_12"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:46
+msgid "SPI_MOSI"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:51
+msgid "Setting up Development Environment"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:54
+msgid "Step 1. Installing the Driver"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:57
+msgid "First, connect RTL8720DN (BW16) to the computer via Micro USB:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:57
+msgid "|bw16-get-start-3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:311
+msgid "bw16-get-start-3"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:60
+msgid ""
+"If this is the first time you connect RTL8720DN (BW16) to your computer, "
+"here is something that you might take note of:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:64
+msgid ""
+"From the pinmap above, we know D0 and D1 pins are used for program "
+"uploading. However, according to the schematic design of AI Thinker, the "
+"onboard USB-to-UART module is connected to D4 and D5 which cannot be "
+"directly used for program upload."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:67
+msgid ""
+"In order to upload firmware to this board, we suggested that you could "
+"choose to add in an external USB-to-UART module connecting to D0 and D1 "
+"as shown in the pin connection below:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:69
+msgid "|bw16-get-start-4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:315
+msgid "bw16-get-start-4"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:71
+msgid ""
+"Optionally, you could short the pins indicated below to use the on-board "
+"USB:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:72
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:215
+msgid "D1 ––– D5"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:73
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:216
+msgid "D0 ––– D4"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:75
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:214
+msgid "|bw16-get-start-5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:319
+msgid "bw16-get-start-5"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:80
+msgid ""
+"After connecting accordingly, the USB driver for RTL8720DN (BW16) will be"
+" automatically installed. If you have driver issue of connecting board, "
+"please go to http://www.wch-ic.com/downloads/CH341SER_ZIP.html for USB "
+"driver. You can check the COM Port number in your Device Manager:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:82
+msgid "|bw16-get-start-6|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:323
+msgid "bw16-get-start-6"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:85
+msgid "Step 2. Set up Arduino IDE"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:87
+msgid ""
+"From version 1.6.5, Arduino IDE supports third-party hardware. "
+"TTherefore, we can use Arduino IDE to develop applications on RTL8720DN "
+"(BW16), and the basic examples of Arduino can run on RTL8720DN (BW16) "
+"too. Refer to the :doc:`Basic Examples "
+"</ambd_arduino/examples/basic/Basic Examples>`."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:92
+msgid ""
+"Arduino IDE can be downloaded in the `Arduino website "
+"<https://www.arduino.cc/en/Main/Software>`_."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:95
+msgid ""
+"When the installation is finished, open Arduino IDE. To set up RTL8722DM "
+"correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:98
+msgid ""
+"And paste the following URL into :guilabel:`“Additional Boards Manager "
+"URLs”` field::"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:102
+msgid "RTL8720DN (BW16) will be supported from v3.0.8 officially."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:106
+msgid "Next, go to :guilabel:`“Tools” -> “Board” -> “Boards Manager”`:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:108
+msgid "|bw16-get-start-7|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:327
+msgid "bw16-get-start-7"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:110
+msgid ""
+"The :guilabel:`“Boards Manager”` requires about 10~20 seconds to refresh "
+"all hardware files (if the network is in bad condition, it may take "
+"longer). Every time the new hardware is connected, we need to reopen the "
+"Board Manager. So, we close the :guilabel:`“Boards Manager”`, and then "
+"open it again. Find :guilabel:`“Realtek AmebaD Boards (32-bits ARM "
+"Cortex-M4 @200MHz)”` in the list, click :guilabel:`“Install”`, then the "
+"Arduino IDE starts to download required files for RTL8722DM."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:118
+msgid "|bw16-get-start-8|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:331
+msgid "bw16-get-start-8"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:122
+msgid ""
+"If you are facing GitHub downloading issue, please refer to the following"
+" link at `Download/Software Development Kit`_. There are 3 sections:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:124
+msgid ""
+"“AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There "
+"are 5 latest released SDK options."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:125
+msgid ""
+"“AmebaD_Arduino_patch2_Tools”, please select according to your operation "
+"system. There are Windows, Linux and MacOS."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:126
+msgid ""
+"“AmebaD_Arduino_Source_Code”, this section is optional download only "
+"wants to refer the latest source code."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:130
+msgid ""
+"Download the files selected, then unzip (patch1 and patch2 are "
+"compulsory). There are “Install.doc”/“Install.pdf” for you to refer "
+"installation steps. According to your system, please run the installation"
+" tool in the “Offline_SDK_installation_tool” folder."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:135
+msgid ""
+"After the installation tool running successfully, you may open Arduino "
+"IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. "
+"Try to find :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M4 "
+"@200MHz)”`` in the list, click :guilabel:`“Install”`, then the Arduino "
+"IDE starts to download required files for AmebaD."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:143
+msgid ""
+"Finally, we select RTL8722DM as current connected board in "
+":guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” "
+"RTL8722DM”`："
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:146
+msgid "|bw16-get-start-9|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:335
+msgid "bw16-get-start-9"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:150
+msgid "How to upload firmware into BW16"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:154
+msgid ""
+"Depending on the batch of manufacturing, some BW16 modules on the "
+"development board might have built-in the default B&T firmware, the "
+"firmware information is shown in the image below:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:156
+msgid "|bw16-get-start-10|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:339
+msgid "bw16-get-start-10"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:162
+msgid ""
+"This will cause Arduino Image unable to flash into the module. Although "
+"information of “All images are sent successfully! Image tool closed! "
+"Upload Image did.” is showing in the Image Tool, however, the factory "
+"image is unable to be erased. Unfortunately after press the onboard RST "
+"button, you will find the factory image still remains in the flash."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:166
+msgid ""
+"Arduino IDE provides many built-in examples, which can be compiled, "
+"uploaded and run directly on the boards. Here, we take the “Blink” "
+"example as the first try."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:167
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:238
+msgid "Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:172
+msgid "Uploading Solution"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:175
+msgid "Method 1: Use AmebaD Image Tool to erase flash"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:181
+msgid ""
+"The B&T default factory image can be washed using “Erase” function "
+"provided by Realtek’s Image Tool. Using Image Tool to erase the flash "
+"image memory starting from memory address: 0x8000_0000 till the end of "
+"2MB memory location, later on, we need to upload Realtek’s image back to "
+"the module again using Arduino IDE."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:182
+msgid "|bw16-get-start-11|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:343
+msgid "bw16-get-start-11"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:185
+msgid "Step 1 – Download and prepare the Image Tool"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:187
+msgid ""
+"Download ambd_sdk from the link ambiot GitHub: "
+"https://github.com/ambiot/ambd_sdk."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:188
+msgid "The Realtek’s Image Tool can be found under the following file path:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:189
+msgid ":guilabel:`“ambd_sdk\\\\tools\\\\AmbaD\\\\Image_tool\\\\image_tool.exe”`"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:190
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:240
+msgid "Arduino IDE opens a new window with the complete sample code."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:193
+msgid "Step 2 – Setup the Image Tool"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:195
+msgid ""
+"In the “Chip Select” option, choose “AmebaD(8721D)” which is also "
+"suitable for RTL8720DN chip."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:196
+msgid "Select correct COM Port that you are using."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:197
+msgid "Set the Baudrate to “115200”."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:198
+msgid ""
+"Then key in the Flash Erase starting position from Memory Address of "
+"0x0800 0000."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:199
+msgid "The size to be 2048 KB."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:200
+msgid "Set the module to “Download mode” first, then click the “Erase” button."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:202
+msgid "|bw16-get-start-12|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:347
+msgid "bw16-get-start-12"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:205
+msgid ""
+"Upon finishing the above image erase and press the reset button, we could"
+" find that the ``\"#calibration\"`` will no longer pop out, only "
+"``\"#\"`` will appear in the Serial Monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:206
+msgid "|bw16-get-start-13|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:351
+msgid "bw16-get-start-13"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:209
+msgid "Step 3 – Download Image using Arduino IDE"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:213
+msgid ""
+"Now you are able to download the program via UART in Ardunio IDE. In "
+"order to upload the program, you could choose to either use an external "
+"USB-to-UART module connecting to D0 and D1, or short the pins indicated "
+"below to use the on-board USB:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:220
+msgid "Optional Uploading Solution"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:223
+msgid "OTA (Over The Air)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:225
+#, python-format
+msgid ""
+"Ai-Thinker is providing a guide for OTA firmware upload in Section 6.1 of"
+" B&T “RTL8720D AT Command User Manual” of which can be retrieved from "
+"this `link <https://docs.ai-thinker.com/_media/rtl8710/docs/rtl8720d-"
+"at%E6%8C%87%E4%BB%A4%E6%89%8B%E5%86%8Cv2.4.1-20190814.pdf>`_ here."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:231
+msgid "Try the First Example"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:234
+msgid "Step 1. Compile & Upload"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:236
+msgid ""
+"Arduino IDE provides many built-in examples, which can be compiled, "
+"uploaded, and run directly on the boards."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:237
+msgid "Here, we take the “Blink” example as the first try."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:239
+msgid "|bw16-get-start-14|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:355
+msgid "bw16-get-start-14"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:241
+msgid "|bw16-get-start-15|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:359
+msgid "bw16-get-start-15"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:244
+msgid ""
+"There is an onboard LED of RTL8720DN(BW16), the default ``LED_BUILTIN`` "
+"is a green onboard LED. Change ``LED_BUILTIN`` to ``LED_B`` or ``LED_R`` "
+"for different colors such as blue and red. Here we use ``LED_B`` for "
+"demonstration purpose."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:246
+msgid ""
+"Next, we compile the sample code directly; click :guilabel:`“Sketch” -> "
+"“Verify/Compile”`"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:247
+msgid "|bw16-get-start-16|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:363
+msgid "bw16-get-start-16"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:250
+msgid ""
+"Arduino IDE prints the compiling messages in the bottom area of the IDE "
+"window. When the compilation is finished, you will get the message "
+"similar to the following figure:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:251
+msgid "|bw16-get-start-17|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:367
+msgid "bw16-get-start-17"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:252
+msgid "Afterwards, we will upload the compiled code to RTL8720DN(BW16)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:255
+msgid ""
+"Please make sure RTL8720DN(BW16) is connected to your computer, then "
+"click :guilabel:`“Sketch” -> “Upload”`."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:260
+msgid ""
+"The Arduino IDE will compile first then upload. During the uploading "
+"process, users are required to enter the upload mode of the board. To "
+"enter the upload mode, first press and hold the RTL8720DN(BW16) “Burn” "
+"button, press the “RST” button, and then release the “Burn” button."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:261
+msgid "|bw16-get-start-18|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:371
+msgid "bw16-get-start-18"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:263
+msgid ""
+"Press “Upload” button in Arduino IDE to compile and upload the program. "
+"Arduino IDE will wait for 5s for the development board to enter the "
+"upload mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:264
+msgid "|bw16-get-start-19|"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:375
+msgid "bw16-get-start-19"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:267
+msgid ""
+"Again, during the uploading procedure the IDE prints messages. Uploading "
+"procedure takes considerably longer time (about 30 seconds to 1 minute). "
+"When upload completed, the “Done uploading” message is printed."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:270
+msgid "Step 2.Run the Blink example"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:275
+msgid ""
+"In each example, Arduino not only provides sample code, but also detailed"
+" documentation, including wiring diagram, sample code explanation, "
+"technical details, …etc. These examples can be directly used on RTL8720DN"
+" (BW16)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:277
+msgid ""
+"So, we find the detailed information of the `Blink example "
+"<https://www.arduino.cc/en/Tutorial/Blink>`__."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:281
+msgid ""
+"In short, for RTL8720DN, the example can be run on both the onboard RGB "
+"LED or external LED (use any GPIO pins for signal output). Finally, press"
+" the “RST” button, and you can see the RGB LED turns into blue and keep "
+"blinking."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:285
+msgid "References"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:287
+msgid ""
+"Introduction of RTL8720DN on Instructable: "
+"https://www.instructables.com/RTL8720DN/"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:289
+msgid ""
+"Load Arduino image into BW16: `How to load BW16 program with Arduino – "
+"#13 <https://forum.amebaiot.com/t/how-to-load-bw16-program-with-"
+"arduino/517/13>`_"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:291
+msgid ""
+"RTL8720DN (BW16) IMG2 SIGN Invalid Solution: `RTL8720DN(BW16) IMG2 SIGN "
+"Invalid Solution <https://forum.amebaiot.com/t/rtl8720dn-bw16-img2-sign-"
+"invalid-solution/669>`_"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:293
+msgid ""
+"FTDI Driver Download from here: https://ftdichip.com/wp-"
+"content/uploads/2021/02/CDM21228_Setup.zip"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:296
+msgid "**(End)**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/getting_started/ambd_getting_started.rst:301
+msgid ""
+"If you face any issue, please refer to the FAQ and Trouble shooting "
+"sections on :doc:`../../support/index` page."
+msgstr ""
+

@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:3
+msgid "Class AmebaServo"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:6
+msgid "AmebaServo Class"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:8
+#: AmebaServo.rst:48 AmebaServo.rst:148 AmebaServo.rst:177 AmebaServo.rst:212
+#: AmebaServo.rst:241 AmebaServo.rst:271 AmebaServo.rst:301
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:10
+msgid "Defines a class of manipulating servo motors connected to Arduino pins."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:12
+#: AmebaServo.rst:54 AmebaServo.rst:152 AmebaServo.rst:182 AmebaServo.rst:216
+#: AmebaServo.rst:246 AmebaServo.rst:276 AmebaServo.rst:305
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:14
+msgid "class AmebaServo"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:16
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:19
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:21
+msgid "AmebaServo::AmebaServo"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:21
+msgid "Constructs an AmebaServo object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:23
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:25
+#: AmebaServo.rst:46
+msgid "AmebaServo::attach"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:25
+msgid "Attach the given pin to the next free channel."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:28
+#: AmebaServo.rst:146
+msgid "AmebaServo::detach"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:28
+#: AmebaServo.rst:150
+msgid "Detach the servo."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:30
+msgid "AmebaServo::write"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:30
+msgid ""
+"Write value, if the value is < 200 it's treated as an angle, otherwise as"
+" pulse-width in microseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:34
+msgid "AmebaServo::writeMicroseconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:34
+msgid "Write pulse width in microseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:36
+msgid "AmebaServo::read"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:36
+msgid "Output current pulse width as an angle between 0 and 180 degrees."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:39
+msgid "AmebaServo::readMicroseconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:39
+msgid "Output current pulse width in microseconds for this servo."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:42
+msgid "AmebaServo::attached"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:42
+msgid "Check if the servo is attached."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:50
+msgid ""
+"Attach the given pin to the next free channel, sets pinMode (including "
+"minimum and maximum values for writes), returns channel number, or 0 if "
+"failure."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:63
+#: AmebaServo.rst:156 AmebaServo.rst:186 AmebaServo.rst:220 AmebaServo.rst:250
+#: AmebaServo.rst:280 AmebaServo.rst:309
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:65
+msgid "pin: The Arduino pin number to be attached."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:67
+msgid "min: Minimum values for writes."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:69
+msgid "max: Maximum values for writes."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:71
+#: AmebaServo.rst:160 AmebaServo.rst:191 AmebaServo.rst:224 AmebaServo.rst:254
+#: AmebaServo.rst:284 AmebaServo.rst:313
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:73
+msgid "The function returns channel number or 0"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:75
+#: AmebaServo.rst:164 AmebaServo.rst:195 AmebaServo.rst:228 AmebaServo.rst:258
+#: AmebaServo.rst:288 AmebaServo.rst:317
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:77
+#: AmebaServo.rst:197 AmebaServo.rst:319
+msgid "Example: ServoSweep"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:79
+msgid ""
+"The code demos servo motor sweeping from 0 degrees to 180 degrees then "
+"sweep back to 0 degrees in the step of 1 degree."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:82
+msgid "ServoSweep.ino"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:138
+#: AmebaServo.rst:168 AmebaServo.rst:203 AmebaServo.rst:232 AmebaServo.rst:262
+#: AmebaServo.rst:292 AmebaServo.rst:325
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:140
+#: AmebaServo.rst:170 AmebaServo.rst:205 AmebaServo.rst:234 AmebaServo.rst:264
+#: AmebaServo.rst:294 AmebaServo.rst:327
+msgid ""
+"Every time must include the header file “AmebaServo.h” in front of the "
+"project to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:154
+msgid "void AmebaServo::detach(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:158
+#: AmebaServo.rst:252 AmebaServo.rst:282 AmebaServo.rst:311
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:162
+#: AmebaServo.rst:193 AmebaServo.rst:226
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:166
+#: AmebaServo.rst:230 AmebaServo.rst:260 AmebaServo.rst:290
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:175
+msgid "**AmebaServo::write**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:179
+msgid ""
+"Write an integer value to the function, if the value is < 200, it’s being"
+" treated as an angle, otherwise as pulse-width in microseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:184
+msgid "void AmebaServo::write(int value);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:188
+msgid ""
+"value: The value < 200 its treated as an angle; otherwise as pulse width "
+"in microseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:199
+#: AmebaServo.rst:321
+msgid ""
+"The code demos servo motor sweeping from 0 degrees to 180 degrees then "
+"sweep back to 0 degrees in the step of 1 degree. Please refer to code in "
+"“AmebaServo:: attach” section."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:210
+msgid "**AmebaServo::writeMicroseconds**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:214
+msgid "Write pulse width to the servo in microseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:218
+msgid "void AmebaServo::writeMicroseconds(int value);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:222
+msgid "value: Write value the pulse width in microseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:239
+msgid "**AmebaServo::read**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:243
+msgid ""
+"The function reads current pulse width and returns as an angle between 0 "
+"and 180 degrees."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:248
+msgid "int AmebaServo::read(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:256
+msgid "The pulse width as an angle between 0 ~ 180 degrees."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:269
+msgid "**AmebaServo::readMicroseconds**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:273
+msgid ""
+"The function returns a Boolean value “true” if this servo is attached, "
+"otherwise returns “false”."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:278
+msgid "int AmebaServo::readMicroseconds(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:286
+msgid "The function returns current servo pulse width in microseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:299
+msgid "**AmebaServo::attached**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:303
+msgid "It returns true if this servo is attached, otherwise false."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:307
+msgid "bool AmebaServo::attached(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class AmebaServo.rst:315
+msgid "The function returns a Boolean value as true or false."
+msgstr ""
+

@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:3
+msgid "TensorFlow Lite - Micro Speech"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:12
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:13
+msgid "Adafruit PDM MEMS microphone"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:14
+msgid "LED x 4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:16
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:20
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:22
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:24
+msgid ""
+"Connect the microphone and LEDs to the RTL8722 board following the "
+"diagram."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:26
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:77
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:28
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:31
+msgid ""
+"As RTL8722DM MINI have a built in microphone on the board, there is no "
+"need for any external microphone. For the LEDs, we will only connect two "
+"LEDs and then use the two onboard LEDs (Blue and Green)."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:33
+msgid "|1-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:81
+msgid "1-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:36
+msgid ""
+"Download the Ameba customized version of TensorFlow Lite for "
+"Microcontrollers library at"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:37
+msgid "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:39
+msgid ""
+"Follow the instructions at https://www.arduino.cc/en/guide/libraries to "
+"install it."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:42
+msgid ""
+"Ensure that the patch files found at "
+"https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ are also "
+"installed."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:44
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
+"-> “micro_speech”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:46
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:85
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:49
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:53
+msgid ""
+"Once it is running, you should see one of the LEDs flashing, indicating "
+"that it is processing audio. Saying the word \"yes\" will cause the green"
+" LED to light up. Saying the word “no” will cause the red LED to light "
+"up. If the word is not recognized, the blue LED will to light up."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:55
+msgid ""
+"The inference results are also output to the Arduino serial monitor, "
+"which appear as follows:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:57
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:89
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:59
+msgid ""
+"If you are having trouble in getting the words recognized, here are some "
+"tips:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:62
+msgid "Ensure that your surroundings are quiet with minimal noise."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:63
+msgid ""
+"Experiment with varying the distance of the microphone, starting with it "
+"at an arm’s length."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:65
+msgid "Experiment with different tones and volume when saying the words."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:66
+msgid ""
+"Depending on how you pronounce the words, the characteristics of the "
+"microphone used, getting one keyword recognized may be easier than the "
+"other."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:70
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
+#: Speech.rst:74
+msgid ""
+"More information on TensorFlow Lite for Microcontrollers can be found at:"
+" https://www.tensorflow.org/lite/microcontrollers"
+msgstr ""
+

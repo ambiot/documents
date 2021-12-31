@@ -1,0 +1,555 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:2
+msgid "Class HttpClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:3
+msgid "**IRDevice Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:5
+#: IRDevice.rst:44 IRDevice.rst:65 IRDevice.rst:92 IRDevice.rst:113
+#: IRDevice.rst:191 IRDevice.rst:264 IRDevice.rst:333
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:6
+msgid "A class used for managing, sending, and receiving data using IR."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:8
+#: IRDevice.rst:47 IRDevice.rst:68 IRDevice.rst:95 IRDevice.rst:116
+#: IRDevice.rst:195 IRDevice.rst:267 IRDevice.rst:336
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:9
+msgid "class IRDevice"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:16
+msgid ""
+"A public constructor should not be used as this class is intended to be a"
+" singleton class. Access member functions using the object instance named"
+" IR."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:24
+msgid "IRDevice::getFreq"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:24
+msgid "Get the current IR modulation frequency"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:26
+msgid "IRDevice::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:26
+msgid "Allocate resources and start the IR device with a custom frequency"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:29
+msgid "IRDevice::end"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:29
+msgid "Stop the IR device operations and free up resources"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:32
+msgid "IRDevice::send"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:32
+msgid "Send IR raw data"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:34
+msgid "IRDevice::beginNEC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:34
+msgid ""
+"Allocate resources and start the IR device with a frequency suitable for "
+"the NEC protocol"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:37
+msgid "IRDevice::sendNEC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:37
+msgid "Send data using the NEC protocol"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:39
+msgid "IRDevice::recvNEC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:39
+msgid "Receive data using the NEC protocol"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:42
+msgid "**IRDevice::getFreq**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:45
+msgid "Get the current IR modulation frequency."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:48
+msgid "uint32_t getFreq(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:50
+#: IRDevice.rst:72 IRDevice.rst:98 IRDevice.rst:119 IRDevice.rst:199
+#: IRDevice.rst:270 IRDevice.rst:339
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:51
+#: IRDevice.rst:99
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:53
+#: IRDevice.rst:80 IRDevice.rst:101 IRDevice.rst:123 IRDevice.rst:206
+#: IRDevice.rst:274 IRDevice.rst:344
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:54
+msgid "Currently set IR modulation frequency in Hertz."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:56
+#: IRDevice.rst:83 IRDevice.rst:104 IRDevice.rst:126 IRDevice.rst:209
+#: IRDevice.rst:277 IRDevice.rst:348
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:57
+#: IRDevice.rst:60 IRDevice.rst:84 IRDevice.rst:105 IRDevice.rst:108
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:59
+#: IRDevice.rst:86 IRDevice.rst:107 IRDevice.rst:183 IRDevice.rst:256
+#: IRDevice.rst:325 IRDevice.rst:353
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:63
+msgid "**IRDevice::begin**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:66
+msgid "Allocate resources and start the IR device with a custom frequency."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:70
+msgid ""
+"void begin(uint8_t receivePin, uint8_t transmitPin, uint32_t irMode, "
+"uint32_t freq);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:74
+#: IRDevice.rst:201
+msgid ""
+"receivePin: pin on which IR sensor is connected. Hardware IR receiver is "
+"available at pins 3, 8, 17."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:76
+#: IRDevice.rst:203
+msgid ""
+"transmitPin: pin on which IR LED is connected. Hardware IR transmitter is"
+" available at pins 6, 9, 16."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:77
+#: IRDevice.rst:204
+msgid "irMode: transmit or receive mode. Valid values: IR_MODE_TX, IR_MODE_RX"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:78
+msgid "freq: IR modulation frequency in Hertz"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:81
+#: IRDevice.rst:102 IRDevice.rst:124 IRDevice.rst:207 IRDevice.rst:275
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:87
+msgid "IR device can only operate in either transmit or receive mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:90
+msgid "**IRDevice::end**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:93
+msgid "Stop the IR device operations and free up resources."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:96
+msgid "void end(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:111
+msgid "**IRDevice::send**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:114
+msgid "Send IR raw data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:117
+msgid "void send(const unsigned int buf[ ] , uint16_t len);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:120
+msgid "buf[ ] : IR raw signals (in us) in an array form."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:121
+msgid "len: total length of the IR raw signal array."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:128
+#: IRDevice.rst:212 IRDevice.rst:280
+msgid "**#include \"IRDevice.h\"**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:130
+msgid "// User defined txPin, rxPin and carrier frequency"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:132
+msgid "**#define IR_RX_PIN 8**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:134
+msgid "**#define IR_TX_PIN 9**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:136
+msgid "**#define CARRIER_FREQ 38000**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:138
+msgid "unsigned **int** irRawSignal[] = {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:140
+msgid "9000, 4500, // starting bit"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:142
+msgid ""
+"560, 560, 560, 560, 560, 1690, 560, 560, 560, 560, 560, 560, 560, 560, "
+"560, 560, // address 00100000 ： 4"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:145
+msgid ""
+"560, 1690, 560, 1690, 560, 560, 560, 1690, 560, 1690, 560, 1690, 560, "
+"1690, 560, 1690, // ~ address 11011111"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:148
+msgid ""
+"560, 560, 560, 560, 560, 560, 560, 1690, 560, 560, 560, 560, 560, 560, "
+"560, 560, // data 00010000 ： 8"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:151
+msgid ""
+"560, 1690, 560, 1690, 560, 1690, 560, 560, 560, 1690, 560, 1690, 560, "
+"1690, 560, 1690, //~ data 11101111"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:154
+msgid "560 // stoping bit"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:156
+msgid "};"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:158
+msgid ""
+"**int** DataLen = sizeof(irRawSignal) / sizeof(irRawSignal[0]); // 284/ 4"
+" = 71"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:161
+msgid "**void** setup()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:163
+#: IRDevice.rst:173
+msgid "{"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:165
+#: IRDevice.rst:222 IRDevice.rst:290
+msgid "Serial.begin(115200);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:167
+msgid "IR.begin(IR_RX_PIN, IR_TX_PIN, IR_MODE_TX, CARRIER_FREQ);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:169
+#: IRDevice.rst:181 IRDevice.rst:228 IRDevice.rst:232 IRDevice.rst:250
+#: IRDevice.rst:254 IRDevice.rst:296 IRDevice.rst:300 IRDevice.rst:308
+#: IRDevice.rst:323
+msgid "}"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:171
+msgid "**void** loop()"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:175
+msgid "IR.send(irRawSignal, DataLen);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:177
+msgid "Serial.println(\"Finished Sending NEC Raw Data....\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:179
+msgid "delay(3000);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:186
+msgid ""
+"IR Raw Data array contains information in the form of consecutive "
+"microseconds (us). For more details, please refer to: "
+"http://www.righto.com/2009/08/multi-protocol-infrared-remote-"
+"library.html."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:189
+msgid "**IRDevice::beginNEC**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:193
+msgid ""
+"Allocate resources and start the IR device with a frequency suitable for "
+"the NEC protocol."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:197
+msgid "void beginNEC(uint8_t receivePin, uint8_t transmitPin, uint32_t irMode);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:210
+#: IRDevice.rst:349
+msgid "Example: IRRecvNEC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:214
+#: IRDevice.rst:282
+msgid "**uint8_t** adr = 0;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:216
+#: IRDevice.rst:284
+msgid "**uint8_t** cmd = 0;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:218
+#: IRDevice.rst:286
+msgid "**void** setup() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:220
+#: IRDevice.rst:288
+msgid "//Initialize serial and wait for port to open:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:224
+#: IRDevice.rst:292
+msgid "**while** (!Serial) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:226
+#: IRDevice.rst:294
+msgid "; // wait for serial port to connect. Needed for native USB port only"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:230
+msgid "IR.beginNEC(8, 9, IR_MODE_RX); // configure for NEC IR protocol"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:234
+#: IRDevice.rst:302
+msgid "**void** loop() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:236
+msgid "**if** (IR.recvNEC(adr, cmd, 1000)) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:238
+msgid "Serial.print(\"Received \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:240
+#: IRDevice.rst:314
+msgid "Serial.print(adr);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:242
+#: IRDevice.rst:316
+msgid "Serial.print(cmd);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:244
+#: IRDevice.rst:318
+msgid "Serial.println();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:246
+msgid "} **else** {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:248
+msgid "Serial.println(\"Received nothing, timed out\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:252
+msgid "//IR.end();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:259
+#: IRDevice.rst:328 IRDevice.rst:356
+msgid ""
+"IR device can only operate in either transmit or receive mode. Refer to "
+"https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol"
+" for the NEC protocol."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:262
+msgid "**IRDevice::sendNEC**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:265
+msgid "Send data using the NEC protocol."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:268
+msgid "void sendNEC(uint8_t adr, uint8_t cmd);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:271
+msgid "adr: 8-bit address to transmit"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:272
+msgid "cmd: 8-bit command to transmit"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:278
+msgid "Example: IRSendNEC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:298
+msgid "IR.beginNEC(8, 9, IR_MODE_TX); // configure for NEC IR protocol"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:304
+msgid "**if** (cmd++ >=255) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:306
+msgid "adr++;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:310
+msgid "IR.sendNEC(adr, cmd);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:312
+msgid "Serial.print(\"Sent \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:320
+msgid ""
+"//IR.end(); // Call this method to stop IR device and free up the pins "
+"for other uses"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:331
+msgid "**IRDevice::recvNEC**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:334
+msgid "Receive data using the NEC protocol."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:337
+msgid "void recvNEC(uint8_t& adr, uint8_t& cmd uint32_t timeout);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:340
+msgid "adr: variable to store received NEC address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:341
+msgid "cmd: variable to store received NEC command"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:342
+msgid "timeout: time duration to wait for an incoming transmission"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:346
+msgid ""
+"The function returns “1” if data has been received, returns “0” if no "
+"data has been received."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class IRDevice.rst:351
+msgid ""
+"Details of the code can be found in the previous section of "
+"IRDevice::beginNEC."
+msgstr ""
+

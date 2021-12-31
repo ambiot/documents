@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/BLE - DHT over BLE UART.rst

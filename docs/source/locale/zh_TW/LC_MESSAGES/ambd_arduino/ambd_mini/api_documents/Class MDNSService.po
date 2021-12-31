@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:2
+msgid "Class HttpClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:3
+msgid "**MDNSService Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:5
+#: MDNSService.rst:23 MDNSService.rst:49
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:6
+msgid "A class used for creating MDNS service records."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:8
+#: MDNSService.rst:26 MDNSService.rst:52
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:9
+msgid "class MDNSService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:16
+msgid "MDNSService::MDNSService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:16
+msgid "Create a MDNS service record"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:17
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:18
+msgid "MDNSService::addTxtRecord"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:18
+msgid "Add text to MDNS service record"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:21
+msgid "**MDNSService::MDNSService**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:24
+msgid "Create a MDNS service record."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:28
+msgid ""
+"MDNSService(char\\* name, char\\* service_type, char\\* domain, unsigned "
+"short port, int bufsize);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:30
+#: MDNSService.rst:55
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:31
+msgid "name: device name"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:32
+msgid "service_type: MDNS service type"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:33
+msgid "domain: host domain"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:34
+msgid "port: network port"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:35
+msgid "bufsize: size of buffer for MDNS text record"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:37
+#: MDNSService.rst:60
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:38
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:40
+#: MDNSService.rst:63
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:41
+#: MDNSService.rst:64
+msgid "Example: mDNS_On_Arduino_IDE"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:43
+#: MDNSService.rst:66
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:44
+#: MDNSService.rst:67
+msgid "Include “AmebaMDNS.h” to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:47
+msgid "**MDNSService::addTxtRecord**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:50
+msgid "Add text to MDNS service record."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:53
+msgid "int addTextRecord(char\\* key, int value_len, char\\* value);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:56
+msgid "key: record type expressed as character string"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:57
+msgid "value_len: length of value string"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:58
+msgid "value: record value expressed as character string"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class MDNSService.rst:61
+msgid "0 if add record successful"
+msgstr ""
+

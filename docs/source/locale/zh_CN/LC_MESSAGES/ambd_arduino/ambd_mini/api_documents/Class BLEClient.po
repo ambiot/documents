@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:2
+msgid "Class BLEClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:3
+msgid "**BLEClient Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:5
+#: BLEClient.rst:51 BLEClient.rst:73 BLEClient.rst:94 BLEClient.rst:117
+#: BLEClient.rst:138 BLEClient.rst:163 BLEClient.rst:185 BLEClient.rst:206
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:7
+msgid ""
+"A class used for discovering and accessing BLE GATT services on a "
+"connected remote device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:9
+#: BLEClient.rst:55 BLEClient.rst:76 BLEClient.rst:97 BLEClient.rst:120
+#: BLEClient.rst:141 BLEClient.rst:166 BLEClient.rst:188 BLEClient.rst:210
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:10
+msgid "class BLEClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:12
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:15
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:17
+msgid ""
+"No public constructor is available for this class. You can get a pointer "
+"to an instance of this class using BLEDevice::addClient()."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:24
+msgid "BLEClient::connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:24
+msgid "Check if the corresponding remote device for the client is connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:28
+msgid "BLEClient::discoverServices"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:28
+msgid "Start service discovery process for connected device"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:31
+msgid "BLEClient::discoveryDone"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:31
+msgid "Determine if service discovery process has been completed"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:34
+msgid "BLEClient::printServices"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:34
+msgid "Format and print discovered services to serial port"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:37
+msgid "BLEClient::getService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:37
+msgid "Get a specific service on the remote device"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:40
+msgid "BLEClient::getConnId"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:42
+msgid "BLEClient::getClientId"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:42
+msgid "Get corresponding client ID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:44
+msgid "BLEClient::setDisconnectCallback"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:44
+msgid "Set a user function to be called when the remote device is disconnected"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:49
+msgid "**BLEClient::connected**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:53
+msgid "Check if the remote device associated with the client is still connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:56
+msgid "bool connected();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:58
+#: BLEClient.rst:79 BLEClient.rst:100 BLEClient.rst:123 BLEClient.rst:145
+#: BLEClient.rst:169 BLEClient.rst:191 BLEClient.rst:213
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:59
+#: BLEClient.rst:80 BLEClient.rst:101 BLEClient.rst:124 BLEClient.rst:170
+#: BLEClient.rst:192
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:61
+#: BLEClient.rst:82 BLEClient.rst:103 BLEClient.rst:126 BLEClient.rst:149
+#: BLEClient.rst:172 BLEClient.rst:194 BLEClient.rst:219
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:62
+msgid "The function returns TRUE if the remote device is connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:64
+#: BLEClient.rst:85 BLEClient.rst:108 BLEClient.rst:129 BLEClient.rst:154
+#: BLEClient.rst:176 BLEClient.rst:197 BLEClient.rst:222
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:65
+#: BLEClient.rst:68 BLEClient.rst:89 BLEClient.rst:112 BLEClient.rst:130
+#: BLEClient.rst:133 BLEClient.rst:158 BLEClient.rst:177 BLEClient.rst:180
+#: BLEClient.rst:198 BLEClient.rst:223
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:67
+#: BLEClient.rst:88 BLEClient.rst:111 BLEClient.rst:132 BLEClient.rst:157
+#: BLEClient.rst:179 BLEClient.rst:200 BLEClient.rst:225
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:71
+msgid "**BLEClient::discoverServices**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:74
+msgid "Start the service discovery process for the connected remote device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:77
+msgid "void discoverServices();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:83
+#: BLEClient.rst:127 BLEClient.rst:220
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:86
+#: BLEClient.rst:109 BLEClient.rst:155
+msgid "Example: BLEUartClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:92
+msgid "**BLEClient::discoveryDone**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:95
+msgid "Check if the service discovery process has been completed."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:98
+msgid "bool discoveryDone();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:106
+msgid ""
+"TThe function returns TRUE if the service discovery process has been "
+"completed successfully, FALSE if the service discovery process failed, is"
+" still in progress, or has yet to start."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:115
+msgid "**BLEClient::printServices**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:118
+msgid "Print out a formatted list of discovered services to the serial port."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:121
+msgid "void printServices();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:136
+msgid "**BLEClient::getService**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:139
+msgid "Get a service with the specified UUID on the remote device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:142
+msgid "BLERemoteService\\* getService(const char\\* uuid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:143
+msgid "BLERemoteService\\* getService(BLEUUID uuid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:147
+msgid ""
+"uuid: the desired service UUID, expressed as a character array or a "
+"BLEUUID object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:152
+msgid ""
+"The function returns the found service as a BLERemoteService object "
+"pointer, otherwise nullptr is returned if a service with the UUID is not "
+"found."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:161
+msgid "**BLEClient::getConnId**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:164
+msgid "Get the connection ID associated with the remote device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:167
+msgid "uint8_t getConnId;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:174
+msgid "The function returns the connection ID for the connected remote device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:183
+msgid "**BLEClient::getClientId**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:186
+msgid "Get the client ID for the BLEClient object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:189
+msgid "T_CLIENT_ID getClientId();;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:195
+msgid "The function returns the BLEClient object’s client ID."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:201
+msgid "The client ID is used when calling internal GATT client API."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:204
+msgid "**BLEClient::setDisconnectCallback**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:208
+msgid ""
+"Set a user function as a callback function when the remote device is "
+"disconnected."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:211
+msgid "void setDisconnectCallback(void (\\*fCallback) (BLEClient\\* client));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:215
+msgid ""
+"fCallback: A user callback function that returns void and takes one "
+"argument."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:217
+msgid ""
+"client: A pointer to the BLEClient object corresponding to the "
+"disconnected remote device"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEClient.rst:228
+msgid ""
+"The user callback function will be called after the remote device has "
+"disconnected, before the characteristics, services and client associated "
+"with the remote device are deleted."
+msgstr ""
+

@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/BLE - PWM over BLE UART.rst

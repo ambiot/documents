@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/Use Amazon AWS IoT Shadow Service.rst

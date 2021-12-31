@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:3
+msgid "Google Cloud IoT"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:12
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:14
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Google Cloud "
+"IoT Configuration** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:18
+msgid ""
+"1. Select or create a Cloud Platform project In the Google Cloud Console,"
+" select an existing project or create a new project. You will need a "
+"**Project ID** to use with Ameba.\\ |1|\\ If creating a new project, "
+"enter a project name, and take note of the **Project ID** generated. \\ "
+"|image1|\\ 2. Enable billing for your project Billing needs to be enabled"
+" for your project to use Google Cloud Platform features. Follow the guide"
+" in Google cloud documentation to enable billing. "
+"https://cloud.google.com/billing/docs/how-to/modify-project 3. Enable the"
+" Cloud IoT Core API In Google Cloud console, click on the top left menu "
+"button and search for IoT Core.\\ |image2|\\ Click enable to activate "
+"Google Cloud IoT API for your project.\\ |image3|\\ 4. Create a Cloud "
+"Pub\\/Sub topic In Google Cloud console, click on the top left menu "
+"button and search for Pub\\/Sub.\\ |image4|\\ Create a new topic for your"
+" project and give it a suitable topic ID.\\ |image5|\\ |image6|\\ After "
+"the topic is created, go to the permissions tab of the info panel, and "
+"add “cloud-iot@system.gserviceaccount.com” with the role of “Pub\\/Sub "
+"Publisher”. \\ |image7|\\ |image8|\\ |image9|\\ 5.Create a device "
+"registry Go back to the IoT Core settings page and create a new "
+"registry.\\ |image10|\\ |image11|\\ Choose a suitable **Registry ID** and"
+" **\\ in which to store data. Remember the **Registry ID** and "
+"**Region**\\ for use with Ameba later. For the Pub/Sub topic, select the "
+"topic created in the previous step.\\ |image12|\\ 6. Create a "
+"public/private key pair Using Openssl in a terminal in "
+"Windows/Linux/MacOs, run the following commands to generate a private and"
+" public key pair. Two files will be created by these commands, "
+"“ec_private.pem” containing the private key, and “ec_public.pem” "
+"containing the public key."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:177
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:181
+msgid "image1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:185
+msgid "image2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:189
+msgid "image3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:193
+msgid "image4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:197
+msgid "image5"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:201
+msgid "image6"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:205
+msgid "image7"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:209
+msgid "image8"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:213
+msgid "image9"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:217
+msgid "image10"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:221
+msgid "image11"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:225
+msgid "image12"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:55
+msgid "|image13|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:229
+msgid "image13"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:57
+msgid ""
+"Run the next command to extract out the private key, and remember the "
+"highlighted string of hexadecimal numbers for use with Ameba later."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:65
+msgid "|image14|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:233
+msgid "image14"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:67
+msgid ""
+"7. Create a device Go back to the IoT Core settings page and create a new"
+" device."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:70
+msgid "|image15|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:237
+msgid "image15"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:72
+msgid ""
+"Give the device a suitable **Device ID** and remember it for use with "
+"Ameba later.\\ |image16|\\ In the authentication section of the "
+"additional options, upload the previously generated “ec_public.pem” "
+"public key.\\ |image17|\\ 8. Create a Cloud Pub/Sub subscription To "
+"observe messages sent by Ameba, create a subscription in Pub/Sub.\\ "
+"|image18|\\ Choose a suitable subscription ID and select the previously "
+"created topic.\\ |image19|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:241
+msgid "image16"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:245
+msgid "image17"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:249
+msgid "image18"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:253
+msgid "image19"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:80
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:85
+msgid ""
+"Open the example in ``“File” -> “Examples” -> “AmebaMQTTClient” -> "
+"“Google_Cloud_IoT”``."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:86
+msgid "|image20|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:257
+msgid "image20"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:87
+msgid "Enter the required information in the highlighted sections below."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:88
+msgid "|image21|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:261
+msgid "image21"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:96
+msgid ""
+"In the yellow section, enter the SSID and password required to connect to"
+" your WiFi network. In the green section, enter the Project ID, server "
+"Region, Registry ID and Device ID previously configured in Google Cloud "
+"console. In the blue section, enter the hexadecimal string previously "
+"extracted from the private key. Upload the code and press the reset "
+"button on Ameba once the upload is finished. Open the serial monitor and "
+"observe as Ameba connects and sends messages to Google Cloud IoT."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:97
+msgid "|image22|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:265
+msgid "image22"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:100
+msgid ""
+"In Google Cloud console, go to Pub/Sub subscriptions, select the "
+"previously created subscription, and click view messages. Here you can "
+"view the messages sent by Ameba.\\ |image23|\\ |image24|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:269
+msgid "image23"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:273
+msgid "image24"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:102
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:106
+msgid ""
+"In ``setup()``, we set up RootCA which is required to form a TLS "
+"connection with Google’s servers."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:113
+msgid ""
+"In ``loop()``, each loop checks the Internet status and re-connect to it "
+"when the environment has a problem."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:126
+msgid ""
+"To publish messages, mqtt_id , clientPass and pub_topic are required. "
+"mqtt_id is generated by printing the project ID, server location, "
+"registry ID and device ID in the required format:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:135
+msgid ""
+"``clientPass`` is generated using a JSON web token (JWT) generator "
+"function, which requires the project ID and current time, and signs it "
+"with the private key:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:143
+msgid ""
+"``pub_topic`` is generated by printing the project ID and topic in the "
+"required format:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:151
+msgid "MQTT Server setting:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Google Cloud IoT.rst:159
+msgid "Connect to google cloud and publish messages:"
+msgstr ""
+

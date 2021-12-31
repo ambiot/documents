@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:3
+msgid "I2C - Display Data On LCD Screen"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:12
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:13
+msgid "I2C 2×16 LCD"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:15
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:20
+msgid "Normally there are many pins on an LCD display, as shown in below figure."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:21
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:77
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:24
+msgid ""
+"An LCD display can be equipped with an additional processing chip to "
+"process the data. The processing chip can connect to a microcontroller "
+"using the I2C interface."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:26
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:28
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:81 Screen.rst:86
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:30
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:32
+msgid "|2-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:34
+msgid ""
+"Open the example in ``“File” -> “Examples” -> “AmebaWire” -> "
+"“LCD_HelloWorld”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:35
+msgid "Compile and upload to Ameba, then press the reset button."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:37
+msgid ""
+"Then you can see “Hello World” in the first line, and “Ameba” in the "
+"second line displayed on the LCD screen."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:39
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:91
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:41
+msgid ""
+"After 8 seconds, you can input to the Serial Monitor the string you would"
+" like to display on the LCD."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:44
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:96
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:46
+msgid "For example, we enter “123456789” and press “Send”:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:48
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:101
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:50
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:54
+msgid ""
+"The required settings of each model of LCD might be different, the "
+"constructor we use in this example is:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:63
+msgid "And the setting parameters are as follows:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:69
+msgid ""
+"The first parameter 0x27 is the address of I2C. Each of the following 8 "
+"parameters represents the meaning of each bit in a byte, i.e., En is bit "
+"2, Rw is bit 1, Rs is bit 0, d4 is bit 4, and so forth."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:73
+msgid "Call ``backlight()`` to light the screen,"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:74
+msgid "Call ``setCursor(0, 0)`` to set the position of the cursor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:75
+msgid ""
+"LCD inherits the Print class, so we can use ``lcd.print()`` to output "
+"string on the screen."
+msgstr ""
+

@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/Power Save Tickless Mode.rst

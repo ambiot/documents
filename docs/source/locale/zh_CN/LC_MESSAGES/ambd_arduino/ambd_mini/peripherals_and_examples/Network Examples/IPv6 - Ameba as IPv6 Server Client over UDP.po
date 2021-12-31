@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:3 as over
+msgid "IPv6 – Ameba as IPv6 Server/Client over UDP"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:8 as over
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:12 as over
+msgid "AmebaD [RTL8722DM/RTL8722CSM/RTL8722DM MINI] / [RTL8720DN(BW16)] x 2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:14 as over
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:18 as over
+msgid "**Introduction**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:20 as over
+msgid ""
+"This example shows how Ameba can communicate on the local network using "
+"Internet Protocol version 6 over UDP. Note that this example only works "
+"after you have set up the server and then configure the client "
+"accordingly."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:23 as over
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:57 as over
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:25 UDP.rst:40 as over
+msgid ""
+"In the sample code, modify the highlighted section to enter the "
+"information required (ssid, password) to connect to your WiFi network."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:28 as over
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:61 as over
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:30 as over
+msgid ""
+"Next, upload the code and press the reset button on Ameba once the upload"
+" is finished. Open Serial Monitor and copy the IPv6 address of the Server"
+" (the highlighted area) for later use,"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:33 as over
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:65 as over
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:35 as over
+msgid ""
+"Step 2. IPv6UDPClient Now take the second Ameba D and open another "
+"example, ``“Files” -> “Examples” -> “AmebaWiFi” -> “IPv6UDPClient”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:38 as over
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:69 as over
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:42 as over
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:73 as over
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:44 as over
+msgid ""
+"From the previous step, we have obtained the Server’s IPv6 address, now "
+"we copy the server’s IPv6 address to “IPv6UDPClient” example in the "
+"highlighted area below,"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:47 as over
+msgid "|6|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:77 as over
+msgid "6"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:49 as over
+msgid ""
+"Next, upload the code and press the reset button on Ameba once the upload"
+" is finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:51 as over
+msgid ""
+"Open Serial Monitor on the port to the second Ameba D, you should see "
+"server and client are sending text message to each other at the same "
+"time."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:53 as over
+msgid "|7|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:81 as over
+msgid "7"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:55 as over
+msgid "|8|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
+#: UDP.rst:85 as over
+msgid "8"
+msgstr ""
+

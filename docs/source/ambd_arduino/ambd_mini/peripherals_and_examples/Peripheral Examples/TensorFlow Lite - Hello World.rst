@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/TensorFlow Lite - Hello World.rst

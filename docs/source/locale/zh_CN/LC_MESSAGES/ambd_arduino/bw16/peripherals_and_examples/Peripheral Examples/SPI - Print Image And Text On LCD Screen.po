@@ -1,0 +1,381 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:3 Text
+msgid "SPI – Print Image And Text On LCD Screen"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:5 Text
+msgid ""
+"If you are not familiar with SPI, please read `Introduction to SPI "
+"<https://www.amebaiot.com/spi-intro/>`__ first."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:11 Text
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:15 Text
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:16 Text
+msgid "ILI9341 TFT LCD with SPI interface x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:18 Text
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:22 Text
+msgid ""
+"We have tested the following two models of ILI9341 TFT LCD with SPI "
+"interface:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:24 Text
+msgid "Adafruit 2.8″ TFT LCD (with touch screen)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:26 Text
+msgid "https://www.adafruit.com/products/1651"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:27 Text
+msgid "https://learn.adafruit.com/adafruit-2-8-tft-touch-shield-v2?view=all"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:29 Text
+msgid "QVGA 2.2″ TFT LCD"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:31 Text
+msgid "http://www.lcdwiki.com/2.2inch_SPI_Module_ILI9341_SKU:MSP2202"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:33 Text
+msgid "Common pins in ILI9341 TFT LCD with SPI interface:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:35 Text
+msgid "MOSI: Standard SPI Pin"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:36 Text
+msgid "MISO: Standard SPI Pin"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:37 Text
+msgid "SLK: Standard SPI Pin"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:38 Text
+msgid "CS: Standard SPI Pin"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:39 Text
+msgid "RESET: Used to reboot LCD."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:40 Text
+msgid ""
+"D/C: Data/Command. When it is at Low, the signal transmitted are "
+"commands, otherwise the data transmitted are data."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:42 Text
+msgid ""
+"LED (or BL): Adapt the screen backlight. Can be controlled by PWM or "
+"connected to VCC for 100% backlight."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:44 Text
+msgid "VCC: Connected to 3V or 5V, depends on its spec."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:45 Text
+msgid "GND: Connected to GND."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:47 Text
+msgid "**RTL8722DM / RTL8722CSM and QVGA TFT LCD** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:49 Text
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:132 Text
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:51 Text
+msgid "**RTL8722DM MINI and QVGA TFT LCD** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:53 Text
+msgid "|1-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:136 Text
+msgid "1-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:55 Text
+msgid "Wiring example of Adafruit 2.8” TFT LCD touch shield:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:57 Screen.rst:62 Text
+msgid ""
+"Please note that this shield model enables the backlight by default and "
+"pin 8 is not for backlight, and the VCC should be connected to 5V."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:59 Text
+msgid ""
+"**RTL8722DM / RTL8722CSM and Adafruit 2.8'' TFT LCD touch shield** Wiring"
+" Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:64 Text
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:140 Screen.rst:148 Text
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:66 Text
+msgid ""
+"**RTL8722DM MINI and Adafruit 2.8'' TFT LCD touch shield**  Wiring "
+"Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:68 Text
+msgid "|2-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:144 Text
+msgid "2-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:71 Text
+msgid ""
+"Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> "
+"“ILI9341_TFT_LCD_basic”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:73 Text
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:75 Text
+msgid "Compile and upload to Ameba, then press the reset button."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:78 Text
+msgid ""
+"Then you can see some display tests appear on the LCD screen, such as "
+"displaying different colors, drawing vertical and horizontal lines, "
+"drawing circles, etc.…"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:80 Text
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:153 Text
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:82 Text
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:86 Text
+msgid "**RGB 16-bit**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:88 Text
+msgid ""
+"ILI9341 uses RGB 16-bit to display colors. Different from RGB 24-bit, it "
+"uses 5 bits for red, 6 bits for green, 5 bits for blue. For example, the "
+"RGB 24-bit representation of sky blue is 0x87CEFF, that is in binary:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:93 Text
+msgid "Red: 0x87 = B10000111"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:94 Text
+msgid "Green: 0xCE = B11001110"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:95 Text
+msgid "Blue: 0xFF = B11111111"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:97 Text
+msgid "and converted to RGB 16-bit:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:99 Text
+msgid "Red: B10000"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:100 Text
+msgid "Green: B110011"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:101 Text
+msgid "Blue: B11111"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:103 Text
+msgid "Then concatenate them, which forms B1000011001111111 = 0x867F"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:105 Text
+msgid "**Drawing of ILI9341**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:107 Text
+msgid ""
+"First you must specify the range of the rectangle to draw, then pass the "
+"2-byte RGB 16-bit color to ILI9341 corresponding to each pixel one by "
+"one, in this way ILI9341 fills each color to each pixel."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:111 Text
+msgid ""
+"You still must specify the drawing range even though the range covers "
+"only one pixel."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:113 Text
+msgid ""
+"From the rules we mentioned above, we can conclude that drawing vertical "
+"or horizontal lines are faster than diagonal lines."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:116 Text
+msgid "**Printing text on ILI9341**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:118 Text
+msgid ""
+"In our API, each character is 5×7 but each character is printed to size "
+"6×8 (its right side and below are left blank), so as to separate from "
+"next character. For example, the character “A”:|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:158 Text
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:122 Text
+msgid ""
+"The font size represents the dot size. For example, if the font size is "
+"2, each dot in the character is a 2×2 rectangle"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:125 Text
+msgid "**Screen rotation**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:127 Text
+msgid "ILI9341 provides 0, 90, 180, 270 degrees screen rotation."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
+#: Screen.rst:128 Text
+msgid ""
+"If the original width is 240 and original height is 320, when the screen "
+"rotates 90 degrees, the width becomes 320 and the height becomes 240."
+msgstr ""
+

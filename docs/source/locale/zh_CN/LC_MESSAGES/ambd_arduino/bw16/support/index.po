@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/support/index.rst:10
+msgid "Support"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:14
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:16
+msgid "Where to buy Ameba RTL8722DM Board?"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:19
+msgid ""
+"Refer to `Purchase link <https://www.amebaiot.com/where-to-buy-"
+"link/#buy_amb21>`__."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:22
+msgid "Which Bluetooth standards are supported by RTL8722CSM/RTL8722DM?"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:25
+msgid "Both boards support BLE 5.0. Classic Bluetooth (BR/EDR) is not supported."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:27
+msgid "Which BLE roles are supported?"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:30
+msgid ""
+"RTL8722CSM/RTL8722DM can operate as either a BLE Central or BLE "
+"Peripheral device."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:33
+msgid "Are all pins on RTL8722CSM/RTL8722DM usable?"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:36
+msgid "No, those marked ``NC`` are not connected to any pin and thus unusable."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:38
+msgid "Is XIP (execute in place) supported on RTL8722CSM/RTL8722DM?"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:41
+msgid "Yes, it is supported."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:43
+msgid "Does RTL8722CSM support 5G WiFi?"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:46
+msgid ""
+"No. Only RTL8722DM supports dual band 2.4G + 5G WiFi. RTL8722CSM only "
+"supports single band 2.4G WiFi."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:48
+msgid "How to enter the download mode?"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:51
+msgid ""
+"Press and hold the UART DOWNLOAD button. Then Press the RESET button and "
+"release both UART DOWNLOAD and RESET buttons."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:57
+msgid "Trouble shooting"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:59
+msgid "RTL8722CSM/RTL8722DM cannot be found as a Bluetooth device."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:62
+msgid ""
+"Please make sure the antenna is connected properly. Check your code for "
+"the correct Bluetooth configurations."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:64
+msgid "My code is not behaving as I expected."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:67
+msgid ""
+"Try to debug your program using ``printf()`` and ``Serial.print()`` "
+"statements. If the issue persists, you can ask for help at `Forums "
+"<https://forum.amebaiot.com/>`__"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:70
+msgid ""
+"Why is there no output on my serial terminal after connecting to "
+"RTL8722CSM/RTL8722DM UART?"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:73
+msgid ""
+"RTL8722CSM/RTL8722DM is by default configured at 115200 baudrate, please "
+"check if your serial terminal is configured to 115200."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:76
+msgid "My program is not being downloaded into RTL8722CSM/RTL8722DM?"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:81
+msgid "Please follow the procedure for the correct downloading："
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:80
+msgid ""
+"Enter the download mode. The on-board Green LED will blink when entered "
+"download mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:81
+msgid "When downloading the image into board the on-board Red LED will blink"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:82
+msgid ""
+"After a successful download, you will see log like this “All images sent "
+"successfully”."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:85
+msgid "Sometimes WiFi signal is weak?"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:88
+msgid ""
+"The default antenna for RTL8722CSM/RTL8722DM uses the I-Pex Connector. "
+"Please change/connect the I-Pex Connector antenna."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:91
+msgid "Why is my board not powering up?"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:94
+msgid ""
+"Please make sure the connector J38 beside resistor R43 is connected. The "
+"connector is used to link the power to IC."
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:97
+msgid "If you have driver issue to connect board to your computer?"
+msgstr ""
+
+#: ../../source/ambd_arduino/support/index.rst:100
+msgid "Please go to https://ftdichip.com/drivers/ for USB driver."
+msgstr ""
+

@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:3 HID
+msgid "BLE - HID Gamepad"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:8 HID
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:12 HID
+msgid "AmebaD [RTL8722DM/RTL8722CSM/RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:13 HID
+msgid "BLE capable host device [Windows / Linux / MacOS / Android"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:15 HID
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:19 HID
+msgid "**Introduction**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:21 HID
+msgid ""
+"In this example, the RTL8722 board emulates a HID gamepad connected using"
+" BLE."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:23 HID
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:25 HID
+msgid ""
+"Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
+"BLEHIDGamepad``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:27 HID
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:65 HID
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:29 HID
+msgid "Upload the code and press the reset button once the upload is finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:31 HID
+msgid ""
+"Immediately after reset, the board will begin BLE advertising as "
+"“AMEBA_BLE_HID”. On your host device, go to the Bluetooth settings menu, "
+"scan, and connect to the board."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:32 HID
+msgid ""
+"You should ensure that the connection process is completed before "
+"proceeding."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:34 HID
+msgid ""
+"On Windows, ensure that any driver installation is finished, and the "
+"board shows up in the Bluetooth menu under the “Mouse, keyboard & pen” "
+"category."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:35 HID
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:69 HID
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:37 HID
+msgid "On Android, ensure that “Input device” is enabled for the board."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:38 HID
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:73 HID
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:41 HID
+msgid ""
+"After the Bluetooth connection process is completed, the board is ready "
+"to send gamepad input to the host device. Connect digital pin 8 to 3.3V "
+"to start sending input, and connect to GND to stop."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:43 HID
+msgid ""
+"To view the input, open a browser window and go to `Gamepad Tester <https"
+"://gamepad-tester.com/>`_. The connected gamepad device should show up "
+"here, and some of the buttons and axes should show changing values."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:44 HID
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:77 HID
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:48 HID
+msgid ""
+"On Windows, gamepad input can also be viewed by going to “Control Panel” "
+"-> “Devices and Printers” -> “AMEBA_BLE_HID” -> “Game Controller "
+"Settings” -> “Properties”. The buttons and axes should also show changing"
+" values here."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:49 HID
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:81 HID
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:51 HID
+msgid "|6|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:85 HID
+msgid "6"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:54 HID
+msgid ""
+"On Android, gamepad testing apps such as `Andriod Gamepad Tester "
+"<https://play.google.com/store/apps/details?id=com.chimera.saturday.evogamepadtester>`_"
+" can also be used to view the gamepad input."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:55 HID
+msgid "|7|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:89 HID
+msgid "7"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:57 HID
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:61 HID
+msgid ""
+"By default, the board emulates a gamepad with an 8-direction hat switch "
+"(d-pad), 6 analog axes and 16 buttons. How the inputs are interpreted is "
+"dependent on the host device, and the button ordering may differ between "
+"devices. Also, some axes or buttons may be disabled or missing on certain"
+" host devices."
+msgstr ""
+

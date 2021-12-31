@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/SPI - Print Image And Text On LCD Screen.rst

@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:2
+msgid "Class BLEScan"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:3
+msgid "**BLEScan Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:5
+#: BLEScan.rst:48 BLEScan.rst:69 BLEScan.rst:95 BLEScan.rst:116 BLEScan.rst:140
+#: BLEScan.rst:162 BLEScan.rst:185 BLEScan.rst:207 BLEScan.rst:228
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:6
+msgid "A class used for managing BLE scanning settings."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:8
+#: BLEScan.rst:51 BLEScan.rst:72 BLEScan.rst:98 BLEScan.rst:119 BLEScan.rst:143
+#: BLEScan.rst:165 BLEScan.rst:188 BLEScan.rst:210 BLEScan.rst:231
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:9
+msgid "class BLEScan"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:16
+msgid ""
+"No public constructor is available as this class is intended to be a "
+"singleton class. You can get a pointer to this class using "
+"BLEDevice::configScan"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:24
+msgid "BLEScan::updateScanParams"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:24
+msgid "Update the current BLE advertisement settings to the lower Bluetooth stack"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:28
+msgid "BLEScan::startScan"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:28
+msgid "Start a BLE scan"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:30
+msgid "BLEScan::stopScan"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:30
+msgid "Stop a BLE scan"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:32
+msgid "BLEScan::setScanMode"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:32
+msgid "Set the BLE scanning mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:34
+msgid "BLEScan::setScanInterval"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:34
+msgid "Set the BLE scanning interval"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:36
+msgid "BLEScan::setScanWindow"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:36
+msgid "Set the BLE scanning window"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:38
+msgid "BLEScan::setScanDuplicateFilter"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:38
+msgid "Set the BLE scan duplicate filter"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:40
+msgid "BLEScan::scanInProgress"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:40
+msgid "Check if a scan is currently in progress"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:43
+msgid "BLEScan::printScanInfo"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:43
+msgid "Print out scanned information"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:46
+msgid "**BLEScan::updateScanParams**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:49
+msgid "Update the lower Bluetooth stack with the current scan settings."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:52
+msgid "void updateScanParams(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:54
+#: BLEScan.rst:76 BLEScan.rst:101 BLEScan.rst:122 BLEScan.rst:146
+#: BLEScan.rst:168 BLEScan.rst:191 BLEScan.rst:213 BLEScan.rst:234
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:55
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:57
+#: BLEScan.rst:79 BLEScan.rst:104 BLEScan.rst:126 BLEScan.rst:149
+#: BLEScan.rst:171 BLEScan.rst:194 BLEScan.rst:216 BLEScan.rst:237
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:58
+#: BLEScan.rst:80 BLEScan.rst:105 BLEScan.rst:127 BLEScan.rst:150
+#: BLEScan.rst:172 BLEScan.rst:195 BLEScan.rst:238
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:60
+#: BLEScan.rst:82 BLEScan.rst:107 BLEScan.rst:129 BLEScan.rst:152
+#: BLEScan.rst:174 BLEScan.rst:197 BLEScan.rst:219 BLEScan.rst:240
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:61
+#: BLEScan.rst:83 BLEScan.rst:130 BLEScan.rst:153 BLEScan.rst:175
+#: BLEScan.rst:241
+msgid "Example: BLEScan"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:63
+#: BLEScan.rst:85 BLEScan.rst:110 BLEScan.rst:132 BLEScan.rst:155
+#: BLEScan.rst:177 BLEScan.rst:200 BLEScan.rst:222 BLEScan.rst:243
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:64
+msgid "Stop any scans in progress first before using this function."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:67
+msgid "**BLEScan::startScan**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:70
+msgid "Start BLE scanning."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:73
+msgid "void startScan();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:74
+msgid "void startScan(uint32_t scanDuration_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:77
+msgid "scanDuration: BLE scan will stop after scanDuration milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:90
+msgid ""
+"Set the scan parameters first before starting a scan. BLE scans will "
+"occur continuously for the duration set with BLEDevice::setScanWindow() "
+"and will repeat with a time interval set with "
+"BLEDevice::setScanInterval(). Call this member function without an "
+"argument to start scanning until BLEDevice::stopScan() is called."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:93
+msgid "**BLEScan::stopScan**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:96
+msgid "Stop BLE scanning."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:99
+msgid "void stopScan(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:102
+#: BLEScan.rst:214
+msgid "The function requires no input paramter."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:108
+#: BLEScan.rst:111 BLEScan.rst:198 BLEScan.rst:220 BLEScan.rst:223
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:114
+msgid "**BLEScan::setScanMode**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:117
+msgid "Set the BLE scan mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:120
+msgid "void setScanMode(uint8_t scanMode);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:124
+msgid ""
+"scanMode: GAP_SCAN_MODE_PASSIVE for passive scanning, "
+"GAP_SCAN_MODE_ACTIVE for active scanning"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:135
+msgid ""
+"Active scanning will request for scan response packets after discovering "
+"an advertising device. Passive scanning will only capture advertising "
+"data packets."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:138
+msgid "**BLEScan::setScanInterval**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:141
+msgid "Set the BLE scan interval."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:144
+msgid "void setScanInterval(uint16_t scanInt_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:147
+msgid "scanInt_ms: scan interval in milliseconds. Value range of 3 to 10240."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:157
+msgid "A BLE scan will repeat with a time interval set with this member function."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:160
+msgid "**BLEScan::setScanWindow**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:163
+msgid "Set the BLE scan window."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:166
+msgid "void setScanWindow(uint16_t scanWindow_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:169
+msgid "scanWindow_ms: scan window in milliseconds. Value range of 3 to 10240."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:180
+msgid ""
+"A BLE scan will scan continuously for a window duration set with this "
+"member function. The scan window should be less than or equal to the scan"
+" interval."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:183
+msgid "**BLEScan::setScanDuplicateFilter**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:186
+#: BLEScan.rst:208
+msgid "Set the scan duplicate filter."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:189
+msgid "void setScanDuplicateFilter(bool dupeFilter);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:192
+msgid "dupeFilter: TRUE to enable duplicate filtering."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:202
+msgid ""
+"Enabling duplicate filters will ignore scan results for devices already "
+"discovered previously."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:205
+msgid "**BLEScan::scanInProgress**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:211
+msgid "bool scanInProgress(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:217
+msgid "TRUE if BLE scanning is in progress."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:226
+msgid "**BLEScan::printScanInfo**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:229
+msgid "Parse and print out scanned information."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:232
+msgid "void printScanInfo(T_LE_CB_DATA\\* p_data);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:235
+msgid "p_data: pointer to scan data of type T_LE_CB_DATA\\*"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEScan.rst:246
+msgid ""
+"Use this member function to parse the various fields of received "
+"advertisement data packets and print the results out to the serial "
+"monitor."
+msgstr ""
+

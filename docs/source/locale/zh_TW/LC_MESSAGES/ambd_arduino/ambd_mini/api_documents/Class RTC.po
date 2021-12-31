@@ -1,0 +1,503 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:2
+msgid "Class RTC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:3
+msgid "**RTC Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:5 RTC.rst:41
+#: RTC.rst:173 RTC.rst:195 RTC.rst:221 RTC.rst:247 RTC.rst:269
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:7
+msgid ""
+"A class used for displaying date and time and alarm configuration using "
+"RTC, the independent BCD (Binary-Coded-Decimal) timer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:9 RTC.rst:45
+#: RTC.rst:176 RTC.rst:200 RTC.rst:226 RTC.rst:250 RTC.rst:272
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:10
+msgid "class RTC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:12
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:15
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:17
+msgid ""
+"A public constructor should not be used as this class is intended to be a"
+" singleton class. Access member functions using the object instance named"
+" RTC."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:23
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:25
+msgid "RTC:: Init"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:25
+msgid ""
+"Initializes the RTC device, including the Clock, the RTC registers, and "
+"other functions"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:28
+msgid "RTC:: DeInit"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:28
+msgid "Deinitialize the RTC device"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:30
+msgid "RTC:: Write"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:30
+msgid "Set the specified timestamp in seconds to RTC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:32
+msgid "RTC:: Read"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:32
+msgid "Get the current timestamp in seconds from RTC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:34
+msgid "RTC:: Wait"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:34
+msgid "Wait for 1 second"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:36
+msgid "RTC:: SetEpoch"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:36
+#: RTC.rst:270
+msgid "Convert human-readable time to epoch time"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:39
+msgid "**RTC::Init**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:43
+msgid ""
+"Initializes the RTC device, including the Clock, the RTC registers, and "
+"other functions."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:46
+msgid "void RTC::Init(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:48
+#: RTC.rst:179 RTC.rst:203 RTC.rst:229 RTC.rst:253 RTC.rst:276
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:49
+#: RTC.rst:180 RTC.rst:230
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:51
+#: RTC.rst:182 RTC.rst:208 RTC.rst:232 RTC.rst:256 RTC.rst:284
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:52
+#: RTC.rst:183 RTC.rst:209 RTC.rst:257
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:54
+#: RTC.rst:185 RTC.rst:211 RTC.rst:237 RTC.rst:259 RTC.rst:287
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:55
+#: RTC.rst:186 RTC.rst:212 RTC.rst:238 RTC.rst:260 RTC.rst:288
+msgid "Example: RTC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:57
+msgid "\\/*"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:59
+msgid "\\* This function describes how to use the RTC API."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:61
+msgid "\\* The RTC function is implemented by an independent BCD timer/counter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:63
+msgid "\\* This example will print out the time information every second."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:65
+msgid "\\*/"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:67
+msgid "**#include <stdio.h>**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:69
+msgid "**#include <time.h>**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:71
+msgid "**#include \"rtc.h\"**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:73
+msgid "**#define YEAR 2020**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:75
+msgid "**#define MONTH 9**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:77
+msgid "**#define DAY 10**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:79
+msgid "**#define HOUR 20**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:81
+msgid "**#define MIN 30**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:83
+msgid "**#define SEC 40**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:85
+msgid "/\\* Create an rtc object \\*/"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:87
+msgid "RTC rtc;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:89
+msgid "**int32_t** seconds;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:91
+msgid "**struct** tm \\*timeinfo;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:93
+msgid "**void** setup() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:95
+msgid "Serial.begin(115200);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:97
+msgid "rtc.Init(); // initialize RTC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:99
+#: RTC.rst:133 RTC.rst:135 RTC.rst:166
+msgid "}"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:101
+msgid "**void** loop() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:103
+msgid "// step 1: convert user time to epoch"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:105
+msgid ""
+"**int** epochTime = humanReadableToEpoch(YEAR, MONTH, DAY, HOUR, MIN, "
+"SEC);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:108
+msgid "// step 2: write epoch time to rtc"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:110
+msgid "rtc.Write(epochTime);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:112
+msgid "**while** (1) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:114
+msgid "seconds = rtc.Read();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:116
+#, python-format
+msgid "printf(\"Epoch Time (in s) since January 1, 1970 = %ds\\n\", seconds);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:118
+#, python-format
+msgid "printf(\"Time as a basic string = %s\", ctime(&seconds));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:120
+msgid "timeinfo = localtime(&seconds);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:122
+#, python-format
+msgid "printf(\"Time as a custom formatted string = %d-%d-%d %d:%d:%d\\n\","
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:124
+msgid ""
+"(timeinfo->tm_year + 1900), (timeinfo->tm_mon + 1), timeinfo->tm_mday, "
+"timeinfo->tm_hour,"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:127
+msgid "timeinfo->tm_min, timeinfo->tm_sec);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:129
+msgid "Serial.println();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:131
+msgid "rtc.wait(1);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:137
+msgid "// convert human readable time to epoch time"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:139
+msgid ""
+"**int** humanReadableToEpoch(**int** year, **int** month, **int** day, "
+"**int** hour, **int** min, **int** sec) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:142
+msgid "**struct** tm t;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:144
+msgid "time_t t_of_day;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:146
+msgid "t.tm_year = year - 1900; // Year - 1970"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:148
+msgid "t.tm_mon = month - 1; // Month, where 0 = jan"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:150
+msgid "t.tm_mday = day; // Day of the month"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:152
+msgid "t.tm_hour = hour;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:154
+msgid "t.tm_min = min;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:156
+msgid "t.tm_sec = sec;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:158
+msgid "t.tm_isdst = -1; // Is DST on? 1 = yes, 0 = no, -1 = unknown"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:160
+msgid "t_of_day = mktime(&t);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:162
+#, python-format
+msgid "// printf(\"seconds since the Epoch: %d\\n\", (long)t_of_day);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:164
+msgid "**return** t_of_day;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:168
+#: RTC.rst:190 RTC.rst:216 RTC.rst:242 RTC.rst:264 RTC.rst:292
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:169
+#: RTC.rst:191 RTC.rst:217 RTC.rst:243 RTC.rst:265 RTC.rst:293
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:171
+msgid "**RTC::DeInit**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:174
+msgid "Deinitializes the RTC device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:177
+msgid "void RTC::DeInit(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:188
+#: RTC.rst:214 RTC.rst:240 RTC.rst:262 RTC.rst:290
+msgid "Details of the code can be found in the previous section of RTC:: Init."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:193
+msgid "**RTC:: Write**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:198
+msgid ""
+"Set the specified timestamp in seconds to RTC. Seconds from 1970.1.1 "
+"00:00:00 (YEAR.MONTH.DAY, HOUR: MIN: SECONDS) to specified date and time "
+"which is to be set."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:201
+msgid "void RTC::Write(int t);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:204
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:206
+msgid ""
+"t: Seconds from 1970.1.1 00:00:00 (YEAR.MONTH.DAY, HOUR: MIN: SECONDS) to"
+" specified date and time which is to be set."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:219
+msgid "**RTC::Read**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:224
+msgid ""
+"Get the current timestamp in seconds from RTC. The current timestamp in "
+"seconds which is calculated from 1970.1.1 00:00:00 (YEAR.MONTH.DAY, HOUR:"
+" MIN: SECONDS)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:227
+msgid "int32_t RTC::Read(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:235
+msgid ""
+"The function returns the current timestamp in seconds which is calculated"
+" from 1970.1.1 00:00:00 (YEAR.MONTH.DAY, HOUR: MIN: SECONDS)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:245
+msgid "**RTC:: Wait**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:248
+msgid "Send IR raw data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:251
+msgid "void RTC::wait(float s);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:254
+msgid "s: unit microseconds (1 us)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:267
+msgid "**RTC:: SetEpoch**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:274
+msgid ""
+"int RTC:: SetEpoch(int year, int month, int day, int hour, int min, int "
+"sec);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:277
+msgid "year: user input year"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:278
+msgid "month: user input month"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:279
+msgid "day: user input day"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:280
+msgid "hour: user input hour"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:281
+msgid "min: user input minutes"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:282
+msgid "sec: user input seconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class RTC.rst:285
+msgid "The function returns epoch time in seconds for RTC use."
+msgstr ""
+

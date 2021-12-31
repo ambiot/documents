@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/GPIO - Measuring The Temperature And Humidity.rst

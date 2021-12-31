@@ -1,0 +1,485 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:2
+msgid "Class EpdIF"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:3
+msgid "**FlashMemoryClass Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:5
+#: FlashMemoryClass.rst:42 FlashMemoryClass.rst:151 FlashMemoryClass.rst:185
+#: FlashMemoryClass.rst:214 FlashMemoryClass.rst:244 FlashMemoryClass.rst:270
+#: FlashMemoryClass.rst:298 FlashMemoryClass.rst:320
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:6
+msgid "Defines a class of Flash memory API"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:8
+#: FlashMemoryClass.rst:45 FlashMemoryClass.rst:156 FlashMemoryClass.rst:189
+#: FlashMemoryClass.rst:218 FlashMemoryClass.rst:248 FlashMemoryClass.rst:275
+#: FlashMemoryClass.rst:301 FlashMemoryClass.rst:324
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:9
+msgid "class FlashMemoryClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:16
+msgid "Fl ashMemoryClass::FlashMemoryClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:16
+msgid "Constructs a FlashMemoryClass object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:19
+msgid "Fla shMemoryClass::~FlashMemoryClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:19
+msgid "Deconstructs a FlashMemoryClass object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:24
+msgid "FlashMemoryClass::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:24
+msgid "Initialize/Re-initialize the base address and size"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:27
+msgid "FlashMemoryClass::read"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:27
+msgid "Read the content to buf"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:29
+msgid "FlashMemoryClass::update"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:29
+msgid "Write buf back to flash memory"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:31
+msgid "FlashMemoryClass::readWord"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:31
+msgid "Read 4 bytes from flash memory"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:33
+msgid "FlashMemoryClass::writeWord"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:33
+msgid "Write 4 bytes into flash memory"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:35
+msgid "FlashMemoryClass::buf_size"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:35
+msgid "The buf size"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:37
+msgid "FlashMemoryClass::\\*buf"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:37
+msgid "The buf to be operated"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:40
+msgid "**FlashMemoryClass::FlashMemoryClass**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:43
+msgid "Constructs a FlashMemoryClass object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:47
+msgid "FlashMemoryClass(unsigned int \\_base_address, unsigned int \\_buf_size);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:49
+#: FlashMemoryClass.rst:159 FlashMemoryClass.rst:192 FlashMemoryClass.rst:221
+#: FlashMemoryClass.rst:251 FlashMemoryClass.rst:278
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:50
+msgid "\\_base_address: The base address to operate."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:52
+msgid ""
+"\\_buf_size: The buf size for mirror a copy to reduce flash memory "
+"operation"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:54
+#: FlashMemoryClass.rst:163 FlashMemoryClass.rst:195 FlashMemoryClass.rst:225
+#: FlashMemoryClass.rst:254 FlashMemoryClass.rst:282
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:55
+#: FlashMemoryClass.rst:164 FlashMemoryClass.rst:196 FlashMemoryClass.rst:226
+#: FlashMemoryClass.rst:283
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:57
+#: FlashMemoryClass.rst:166 FlashMemoryClass.rst:198 FlashMemoryClass.rst:228
+#: FlashMemoryClass.rst:257 FlashMemoryClass.rst:285 FlashMemoryClass.rst:304
+#: FlashMemoryClass.rst:327
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:58
+#: FlashMemoryClass.rst:167 FlashMemoryClass.rst:199 FlashMemoryClass.rst:229
+msgid "Example: FleshMemory_Basic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:63
+#: FlashMemoryClass.rst:172 FlashMemoryClass.rst:204 FlashMemoryClass.rst:234
+#: FlashMemoryClass.rst:310
+msgid ""
+"This example demonstrates the basic use of flash memory. Since boot count"
+" is stored in flash, each time upon device boot up, the boot count will "
+"be read from the flash, add one, then write back to the flash. Ameba’s "
+"flash memory can be edit in a unit of a sector which has the size of 4K "
+"bytes."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:67
+msgid ""
+"Direct read from flash memory is allowed. To write data into flash "
+"memory, each bit on flash memory can only change from ‘1’ to ‘0’ and it "
+"cannot change from ‘0’ to ‘1’. To make sure the data are correctly "
+"written we do erase the flash memory sector before write data on it."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:69
+#: FlashMemoryClass.rst:107
+msgid "**#include <FlashMemory.h>**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:71
+#: FlashMemoryClass.rst:109
+msgid "**void** setup() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:73
+msgid "FlashMemory.read();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:75
+msgid "**if** (FlashMemory.buf[0] == *0xFF*) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:77
+msgid "FlashMemory.buf[0] = *0x00*;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:79
+#: FlashMemoryClass.rst:87
+msgid "FlashMemory.update();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:81
+msgid "Serial.println(\"write count to 0\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:83
+#: FlashMemoryClass.rst:127
+msgid "} **else** {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:85
+msgid "FlashMemory.buf[0]++;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:89
+msgid "Serial.print(\"Boot count: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:91
+msgid "Serial.println(FlashMemory.buf[0]);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:93
+#: FlashMemoryClass.rst:95 FlashMemoryClass.rst:101 FlashMemoryClass.rst:131
+#: FlashMemoryClass.rst:137 FlashMemoryClass.rst:143
+msgid "}"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:97
+#: FlashMemoryClass.rst:139
+msgid "**void** loop() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:99
+msgid "delay(1000);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:103
+#: FlashMemoryClass.rst:173 FlashMemoryClass.rst:258 FlashMemoryClass.rst:286
+msgid "Example: ReadWriteOneWord"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:105
+#: FlashMemoryClass.rst:175 FlashMemoryClass.rst:260 FlashMemoryClass.rst:288
+msgid ""
+"This example shows how to request flash memory larger than default "
+"0x4000, and read/write one specific word (32-bit)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:111
+msgid "unsigned **int** value;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:113
+msgid "/\\* request flash size 0x4000 from 0xFC000 \\*/"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:115
+msgid "FlashMemory.begin(*0xFC000*, *0x4000*);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:117
+msgid "/\\* read one word (32-bit) from 0xFC000 plus offset 0x3F00 \\*/"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:119
+msgid "value = FlashMemory.readWord(*0x3F00*);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:121
+#, python-format
+msgid "printf(\"value is 0x%08X\\r\\n\", value);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:123
+msgid "**if** (value == *0xFFFFFFFF*) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:125
+msgid "value = 0;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:129
+msgid "value++;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:133
+msgid "/\\* write one word (32-bit) to 0xFC000 plus offset 0x3F00 \\*/"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:135
+msgid "FlashMemory.writeWord(*0x3F00*, value);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:141
+msgid "// put your main code here, to run repeatedly:"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:145
+#: FlashMemoryClass.rst:179 FlashMemoryClass.rst:208 FlashMemoryClass.rst:238
+#: FlashMemoryClass.rst:264 FlashMemoryClass.rst:292 FlashMemoryClass.rst:314
+#: FlashMemoryClass.rst:330
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:146
+#: FlashMemoryClass.rst:180 FlashMemoryClass.rst:209 FlashMemoryClass.rst:239
+#: FlashMemoryClass.rst:265 FlashMemoryClass.rst:293 FlashMemoryClass.rst:315
+#: FlashMemoryClass.rst:331
+msgid "Include “FlashMemory.h” to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:149
+msgid "**FlashMemoryClass::begin**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:154
+msgid ""
+"Initialize/Re-initialize the base address and size. The base address "
+"shell aligns with the size of 0x1000. And the size shell is multiple of "
+"0x1000."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:157
+msgid "void begin(unsigned int \\_base_address, unsigned int \\_buf_size);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:160
+msgid "\\_base_address: The base address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:161
+msgid "\\_buf_size: The desired work size"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:177
+#: FlashMemoryClass.rst:206 FlashMemoryClass.rst:236 FlashMemoryClass.rst:262
+#: FlashMemoryClass.rst:290 FlashMemoryClass.rst:312
+msgid ""
+"Details of the example codes can be found in the previous section of "
+"“FlashMemoryClass:: FlashMemoryClass”."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:183
+msgid "**FlashMemoryClass::read**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:187
+msgid ""
+"Read the content to buf. Read flash memory into the buf. The size would "
+"be 0x1000."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:190
+msgid "void read(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:193
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:212
+msgid "**FlashMemoryClass::update**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:216
+msgid ""
+"Write buf back to flash memory. Write flash memory with the content of "
+"the buffer. The size is 0x1000."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:219
+msgid "void update(bool erase = true);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:223
+msgid "erase: By default, it is true and erases flash memory before writing to it"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:242
+msgid "**FlashMemoryClass::readWord**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:246
+msgid ""
+"Read 4 bytes from flash memory. Read 4 byte from specific offset based on"
+" base address."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:249
+msgid "unsigned int readWord(unsigned int offset);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:252
+#: FlashMemoryClass.rst:279
+msgid "offset: The offset according to the base address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:255
+msgid "The read data with a size of 4 bytes"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:268
+msgid "**FlashMemoryClass::writeWord**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:273
+msgid ""
+"Write 4 bytes into flash memory. It will try to write 4 bytes first. If "
+"the read data differ from the write data, then we buffer the sector of "
+"flash memory, erase it, and write correct data back to it."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:276
+msgid "void writeWord(unsigned int offset, unsigned int data);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:280
+msgid "data: The data to be written"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:296
+msgid "**FlashMemoryClass::buf_size**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:299
+msgid "The buf size (It can be regarded as work size)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:302
+msgid "unsigned int buf_size;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:305
+msgid "Example: FlashMemory_Basic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:318
+msgid "**FlashMemoryClass::*buf**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:322
+msgid ""
+"The buf to be operated. Modify buf won’t change the content of the buf. "
+"It needs an update to write back to flash memory."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:325
+msgid "unsigned char \\*buf;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class FlashMemoryClass.rst:328
+msgid "NA"
+msgstr ""
+

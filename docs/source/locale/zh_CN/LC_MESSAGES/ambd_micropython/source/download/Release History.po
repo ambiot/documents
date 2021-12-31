@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:3
+msgid "Release History"
+msgstr "版本记录"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:5
+msgid "**Version 1.0.2 release - 2021/10/14**"
+msgstr "**版本 1.0.2 release - 2021/10/14**"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:7
+#: History.rst:26 History.rst:42 History.rst:55
+msgid "Feature:"
+msgstr "特征"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:9
+msgid "Add MacOS toolchain to support building on MacOS"
+msgstr "添加 MacOS 工具链以支持在 MacOS 上构建"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:10
+msgid "Pre-test passed for RTL8722DM MINI"
+msgstr "RTL8722DM MINI 的预测试通过"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:12
+msgid "API Updates:"
+msgstr "API 更新"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:14
+msgid "Update PWM module with new API"
+msgstr "使用新的 API 更新 PWM 模块"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:15
+msgid "Re-structure SDFS module and remove warning when no SD card"
+msgstr "重新构建 SDFS 模块，并在没有 SD 卡时删除警告"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:17
+msgid "Misc"
+msgstr "其他"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:19
+msgid "Update WLAN and other libraries"
+msgstr "更新无线局域网和其他库"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:20
+msgid "Update readme documentation"
+msgstr "更新 readme 文檔"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:24
+msgid "**Version 1.0.1 release - 2021/06/07**"
+msgstr "**版本 1.0.1 release - 2021/06/07**"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:28
+msgid "Added MacOS Support for firmware uploading (not compilation)"
+msgstr "添加了对固件上传（非编译）的 MacOS 支持"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:29
+msgid "Fixed PWM API issue with loop"
+msgstr "修复了循环的 PWM API 问题"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:30
+msgid ""
+"Implemented SDFS (SD FileSystem) module [Currently only support "
+"RTL8722DM_MINI]"
+msgstr ""
+"已实现 SDFS（SD 文件系统）模块 [目前仅支持 RTL8722DM_MINI] "
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:31
+msgid "Update welcome message and help message"
+msgstr "更新欢迎消息和说明消息"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:32
+msgid "Update Ameba SDK and libraries"
+msgstr "更新 Ameba SDK 和 库"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:33
+msgid "Fixed network and WLAN security issues"
+msgstr "固定网络和 WLAN 安全问题"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:34
+msgid "Fix bugs related to WiFi"
+msgstr "修复与WiFi相关的错误"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:35
+msgid "Update Readme"
+msgstr "更新 readme 文檔"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:36
+msgid "Provide examples for new module"
+msgstr "修复与WiFi相关的错误"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:40
+msgid "**Version 1.0.0 release - 2020/11/11**"
+msgstr "**版本 1.0.0 release - 2020/11/11**"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:44
+msgid "OS Support Windows and Linux"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:45
+msgid "WiFi"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:46
+msgid "Socket"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:47
+msgid "ADC"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:48
+msgid "builtin help"
+msgstr "内置说明"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:49
+msgid "Example and online API"
+msgstr "修复与WiFi相关的错误"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:53
+msgid "**Version 0.0.1 alpha release - 2020/09/29**"
+msgstr "**版本 0.0.1 alpha release - 2020/09/29**"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:57
+msgid "Ported basic MicroPython functions"
+msgstr "基本功能移植"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:58
+msgid "Implemented REPL and basic terminal functions"
+msgstr "实现 REPL 和基本终端功能"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:59
+msgid "Added Pin Mapping for RTL8722"
+msgstr "为 RTL8722 添加了引脚映射"
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:60
+msgid "Added peripheral helper modules:"
+msgstr "添加了外设帮助程序模块："
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:62
+msgid "GPIO"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:63
+msgid "RTC"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:64
+msgid "Time and Delay"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:65
+msgid "PWM"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:66
+msgid "Timer"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:67
+msgid "UART"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:68
+msgid "I2C"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/download/Release History.rst:69
+msgid "SPI"
+msgstr ""
+
+

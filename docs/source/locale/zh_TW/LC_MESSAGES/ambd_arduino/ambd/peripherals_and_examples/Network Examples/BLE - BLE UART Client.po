@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:3 UART
+msgid "BLE – BLE UART Client"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:8 UART
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:12 UART
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:14 UART
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:18 UART
+msgid "**Introduction**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:20 UART
+msgid ""
+"In this example, two RTL8722 boards are connected using BLE. One board "
+"runs a BLE UART service, while the other connects to the service using a "
+"client and both boards are able to communicate with text messages over "
+"the UART service."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:25 UART
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:27 UART
+msgid ""
+"On the first board, upload the BLE UART service example code. Refer to "
+"the example guide for detailed instructions."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:30 UART
+msgid ""
+"For the second board, open the example, ``“Files” -> “Examples” -> "
+"“AmebaBLE” -> “BLEUartClient”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:33 UART
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:58 UART
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:36 UART
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:43 UART
+msgid ""
+"Reset the UART service board first, wait for the BLE advertisement "
+"process to begin, and reset the UART client board. The client board "
+"should scan, discover, and connect to the service board. After "
+"connecting, the client board will verify that the correct UART service "
+"exists on the service board, before enabling notifications on the TX "
+"characteristic. Any message typed in the serial terminal will be sent to "
+"the other board using the UART service."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:45 UART
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:62 UART
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:47 UART
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:51 UART
+msgid ""
+"The BLEClient class is used to discover the services that exist on a "
+"connected BLE device. The discovery process will create BLERemoteService,"
+" BLERemoteCharacteristic and BLERemoteDescriptor objects corresponding to"
+" the services, characteristics and descriptors that exist on the "
+"connected device. These objects can then be used to read and write data "
+"to the connected device."
+msgstr ""
+

@@ -1,0 +1,382 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: 2021-12-29 17:44+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.1\n"
+
+#: ../../source/contribution-guide.rst:5
+msgid "How to Contribute"
+msgstr "如何开始贡献"
+
+#: ../../source/contribution-guide.rst:7
+msgid ""
+"Contributions to `Ameba MicroPython SDK <https://github.com/ambiot/"
+"ambd_micropython>`_ including: \"adding features\", \"adding/modifying "
+"documentation\", \"fixing bugs\". Before you do so, please read the :ref:`coding-"
+"style` and :ref:`contribution-guide`."
+msgstr ""
+"对`Ameba MicroPython SDK <https://github.com/ambiot/ambd_micropython>`_的贡献包"
+"括。\"添加功能\"、\"添加/修改文档\"、\"修复错误\"。在你这样做之前，请阅读 :ref:"
+"`coding-style` 和 :ref:`contribution-guide`。"
+
+#: ../../source/contribution-guide.rst:11
+msgid ""
+"The **Ameba Arduino/SDK/MicroPython** codebase is hosted on GitHub, you can "
+"submit new features or bug fixes using `Github Pull Requests <https://help.github."
+"com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests>`_."
+msgstr ""
+"因为 **Ameba Arduino/SDK/MicroPython** 代码库托管在GitHub上，你可以使用`Github "
+"Pull Requests <https://help.github.com/en/github/collaborating-with-issues-and-"
+"pull-requests/about-pull-requests>`_提交新功能或错误修复。"
+
+#: ../../source/contribution-guide.rst:16
+msgid "Code Acceptance"
+msgstr "代码接受准则"
+
+#: ../../source/contribution-guide.rst:18
+msgid ""
+"Before sending us a Pull Request according to the `Guide <https://help.github.com/"
+"en/github/collaborating-with-issues-and-pull-requests/about-pull-requests>`_."
+msgstr ""
+"在根据 `Pull Request 指南 <https://help.github.com/en/github/collaborating-with-"
+"issues-and-pull-requests/about-pull-requests>`_ 向我们发送 GitHub Pull Request "
+"前。"
+
+#: ../../source/contribution-guide.rst:20
+msgid ""
+"Default Pull Request should be made on ``dev`` branch. Once your Pull Request is "
+"submitted, our developers will take a look and comment on the Pull Request."
+msgstr ""
+"默认的 Pull Request 应该在 ``dev`` 分支上提出。一旦你的 Pull Request 被提交，我们"
+"的开发人员会查看该  Pull Request 并进行评论。"
+
+#: ../../source/contribution-guide.rst:22
+msgid ""
+"If all is well and acceptable, your code will be ready for merging into the "
+"``master`` branch."
+msgstr "如果代码可以被接受，你的贡献将可以合并到 ``master`` 分支。"
+
+#: ../../source/contribution-guide.rst:28
+msgid "Coding Style"
+msgstr "代码风格"
+
+#: ../../source/contribution-guide.rst:30
+msgid ""
+"Ameba Coding Style mostly adopts from Mbed OS. Whether you're writing new code or "
+"fixing bugs in existing code, please follow the Ameba coding style."
+msgstr ""
+"Ameba Coding Style主要采用Mbed OS。 无论您是在编写新代码还是修复现有代码中的错误，"
+"请遵循Ameba编码风格。 "
+
+#: ../../source/contribution-guide.rst:32
+msgid ""
+"Ameba follows the `K&R style -- Variant: 1TBS <https://en.wikipedia.org/wiki/"
+"Indent_style#K.26R_style>`_, with a few exceptions，"
+msgstr ""
+"除了少数例外下，Ameba遵循\"K&R风格：1TBS <https://en.wikipedia.org/wiki/"
+"Indent_style#K.26R_style>\"_， "
+
+#: ../../source/contribution-guide.rst:34
+msgid "Indentation - four spaces. Please do not use tabs."
+msgstr "缩进 - 四个空格。请不要使用Tab按钮。"
+
+#: ../../source/contribution-guide.rst:35
+msgid "Braces - K&R style. One true brace style (1TBS)"
+msgstr "大括号 - K&R风格。一种真正的支撑样式 （1TBS）"
+
+#: ../../source/contribution-guide.rst:36
+msgid "One line per statement."
+msgstr "每个语句占用一行空间。"
+
+#: ../../source/contribution-guide.rst:37
+msgid "Each line preferably has at most 120 characters."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:38
+msgid ""
+"Space after statements of type ``if`` , ``while`` , ``for`` , ``switch`` . The "
+"same applies to operators (like, ``+``, ``=`` and ``*`` ) and the ternary "
+"operator ( ``?`` and ``:`` )."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:39
+msgid ""
+"For pointers or references, the symbols ``*`` or ``&`` are adjacent to a type "
+"( ``analogin_t* obj`` . ``analogin_t& obj`` )."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:40
+msgid "Empty lines should have no trailing spaces."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:41
+msgid "Use capital letters for macros."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:42
+msgid ""
+"Preprocessor macro starts at the beginning of a new line; the code inside is "
+"indented according to the code above it."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:45
+msgid "Naming conventions"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:48
+msgid "Classes"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:50
+msgid ""
+"Begin with a capital letter, and each word within a class also begins with a "
+"capital letter (``AnalogIn``, ``BusInOut``)."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:51
+msgid ""
+"Private members start with an underscore: ``__User defined types (typedef)))`` ."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:54
+msgid "Functions"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:56
+msgid "Use lower case letters"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:57
+msgid ""
+"Words separated by a capital letter of the subsequent work (``readDir``, "
+"``getRootPath``)."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:64
+msgid "Contribution Guideline"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:66
+msgid ""
+"Before contributing an enhancement (for example, a new feature or new port), "
+"please discuss it on `Ameba Forum <https://forum.amebaiot.com/>`_ or on the "
+"`Facebook group [EN] <https://www.facebook.com/groups/amebaioten>`_/ `[ZH] "
+"<https://www.facebook.com/groups/AmebaIoT>`_ to avoid duplication of work, as we "
+"or others might be working on a related feature."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:71
+msgid ""
+"We can only accept contributions through GitHub if you create a Pull Request from "
+"forked versions of our repositories. This allows us to review the contributions "
+"in an easy-to-use and reliable way, under public scrutiny."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:75
+msgid ""
+"Please create separate Pull Requests for each topic; each Pull Request needs a "
+"clear unity of purpose. In particular, separate code formatting and style changes "
+"from functional changes. This makes each Pull Request’s true contribution "
+"clearer, so the review is quicker and easier."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:82
+msgid "Reporting Bugs"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:84
+msgid ""
+"You can submit Ameba Bugs directly on `GitHub <https://github.com/ambiot>`_. "
+"Please submit questions or enhancement requests on the `Ameba Forums <https://"
+"forum.amebaiot.com/>`_ or on the `Facebook group [EN] <https://www.facebook.com/"
+"groups/amebaioten>`_/ `[ZH] <https://www.facebook.com/groups/AmebaIoT>`_ The bug "
+"report should be reproducible (fails for others) and specific (where and how it "
+"fails). We will close insufficient bug reports."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:90
+msgid "GitHub Pull Request (PR)"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:93
+msgid ""
+"❗ All Pull Requests are to be submitted to ``dev`` branch, PR to master branch "
+"will not be accepted"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:97
+msgid "Categories of PR"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:105
+msgid "Software PRs"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:108
+msgid ""
+"For the software-only PRs, contents of which should be placed under path below:"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:108
+msgid "``https://github.com/ambiot/ambd_arduino/tree/dev/Arduino_package/hardware``"
+msgstr ""
+
+#: ../../source/contribution-guide.rst
+msgid ""
+"Note that code submitted under this path will be actively tested and maintained "
+"by the official development team. Please test the new software feature with the "
+"latest release version before submitting a PR."
+msgstr ""
+
+#: ../../source/contribution-guide.rst
+msgid ""
+"Other than that, software PR can be the easiest/fastest to be reviewed and merged."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:113
+msgid ""
+"For people who wants to contribute to the Ameba `ReadtheDocs online documentation "
+"<https://github.com/ambiot/documents>`_ repository. Please following the `guide "
+"<https://www.sphinx-doc.org/en/master/contents.html>`__ for Sphinx-based "
+"documentations and make Pull Request."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:119
+msgid "Hardware PRs"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:120
+msgid ""
+"For the contributed items that require extra hardware implementation/products, it "
+"is recommended that the contributed content can be saved as a :guilabel:`.ZIP` "
+"library which can be easily installed using Arduino IDE's built-in function."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:124
+msgid "Such libraries should be stored in the path below:"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:124
+msgid "``https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries``"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:127
+msgid ""
+"Detailes of preparing a :guilabel:`.ZIP` library can be found `here <https://www."
+"arduino.cc/en/Hacking/LibraryTutorial>`_"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:132
+msgid "Contributors-maintained PRs"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:133
+msgid ""
+"If you have created some features which you would love to actively maintain, yet "
+"still make it known and easily accessible by other community members, you may "
+"consider updating your work to the following path in the form of a :guilabel:"
+"`readme`: ``https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc``"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:137
+msgid "Details of your work should include:"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:139
+msgid "The purpose/use of this feature"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:140
+msgid "How to use this feature"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:141
+msgid "In which version of SDK was the feature tested"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:145
+msgid "Requirements of PR"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:147
+msgid ""
+"Pull Requests on GitHub have to meet the following requirements to keep the code "
+"and commit history clean:"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:149
+msgid ""
+"Commits must always contain a proper description of their content. Start with a "
+"concise and sensible one-line description. Then, elaborate on reasoning of the "
+"choices made, descriptions for reviewers, and other information that might "
+"otherwise be lost."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:150
+msgid ""
+"Because we use GitHub, special commit tags that other projects may use, such as "
+"“Reviewed-by”, or “Signed-off-by”, are redundant and should be omitted."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:151
+msgid ""
+"All new features and enhancements require documentation(at least an easy-to-"
+"follow :guilabel:`readme`), tests for us to accept them."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:152
+msgid ""
+"Avoid merging commits. (Always rebase whenever possible to keep commit history "
+"clean)"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:153
+msgid "Smaller Pull Requests are easier to review and faster to integrate."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:155
+msgid "See the example here::"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:170
+msgid ""
+"If commits do not follow the above guidelines, we may request that you modify the "
+"commit history (often to add more details to address *what* and *why* rather than "
+"*how* )."
+msgstr ""
+
+#: ../../source/contribution-guide.rst:175
+msgid "Related Links"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:177
+msgid ""
+"`Github Pull Requests <https://help.github.com/en/github/collaborating-with-"
+"issues-and-pull-requests/about-pull-requests>`__"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:178
+msgid ""
+"`Contributing to Ameba <https://github.com/ambiot/ambd_arduino/wiki/Contributing-"
+"to-Ameba#code-acceptance>`__"
+msgstr ""
+
+#: ../../source/contribution-guide.rst:179
+msgid ""
+"`K&R style -- Variant: 1TBS <https://en.wikipedia.org/wiki/"
+"Indent_style#K.26R_style>`__"
+msgstr ""

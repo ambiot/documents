@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:3 over
+msgid "BLE – PWM over BLE UART"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:8 over
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:12 over
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:13 over
+msgid "RGB LED"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:14 over
+msgid "Android / iOS smartphone"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:16 over
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:20 over
+msgid "**Introduction**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:22 over
+msgid ""
+"In this example, a smartphone app is used to transmit commands over BLE "
+"UART to control the PWM outputs and change the color of a RGB LED. Refer "
+"to the other example guides for detailed explanations of the BLE UART "
+"service."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:27 over
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:29 over
+msgid ""
+"Connect the RGB LED to the RTL8722 board following the diagram, the "
+"common LED pin may need to connect to 3.3V or GND depending on the type "
+"of LED (common anode / common cathode)."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:33 over
+msgid "**RTL8722DM / RTL8722CSM:**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:35 over
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:83 over
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:37 over
+msgid "**RTL8722DM MINI:**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:39 over
+msgid "|1-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:87 over
+msgid "1-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:42 over
+msgid ""
+"Ensure that the required app is installed on your smartphone, it is "
+"available at:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:43 over
+msgid "– Google Play Store:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:44 over
+msgid "https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:46 over
+msgid "– Apple App Store:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:47 over
+msgid "https://apps.apple.com/us/app/bluefruit-connect/id830125974"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:49 over
+msgid ""
+"Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
+"“PWM_over_BLEUart”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:52 over
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:55 over
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:91 over
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:59 over
+msgid ""
+"Open the app on your smartphone, scan and connect to the board shown as "
+"“AMEBA_BLE_DEV” and choose the controller -> color picker function in the"
+" app."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:60 over
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:95 over
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:62 over
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:99 over
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:64 over
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:103 over
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:66 over
+msgid ""
+"Using the color selection wheel, saturation, and brightness sliders, "
+"choose a desired color and click select to send the RGB values to the "
+"board. You should see the RGB LED change to the matching color."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:70 over
+msgid "|6|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:107 over
+msgid "6"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:72 over
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:76 over
+msgid ""
+"The RGB values are sent as three consecutive bytes prefixed by “!C” "
+"characters. The “!” exclamation mark is used to indicate that the "
+"following data is a command, and the “C” character is used to indicate "
+"that the data is RGB values. The received UART message is checked in the "
+"callback function for “!C” first, otherwise it is treated as a regular "
+"message and printed to the serial terminal."
+msgstr ""
+

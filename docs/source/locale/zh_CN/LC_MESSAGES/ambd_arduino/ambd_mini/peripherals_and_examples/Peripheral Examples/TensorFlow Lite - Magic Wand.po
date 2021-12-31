@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:3
+msgid "TensorFlow Lite - Magic Wand"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:12
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:13
+msgid "Adafruit LSM9DS1 accelerometer"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:14
+msgid "LED x 2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:16
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:20
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:22
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:23
+msgid ""
+"Connect the accelerometer and LEDs to the RTL8722 board following the "
+"diagram."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:25
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:71
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:27
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:28
+msgid "For RTL8722DM MINI, we will use the onboard LEDs on the board itself."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:30
+msgid "|1-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:75
+msgid "1-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:34
+msgid ""
+"Download the Ameba customized version of TensorFlow Lite for "
+"Microcontrollers library at "
+"https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:36
+msgid ""
+"Follow the instructions at https://www.arduino.cc/en/guide/libraries to "
+"install it."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:39
+msgid ""
+"Ensure that the patch files found at "
+"https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ are also "
+"installed."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:41
+msgid ""
+"In the Arduino IDE library manager, install the Arduino_LSM9DS1 library. "
+"This example has been tested with version 1.1.0 of the LSM9DS1 library."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:43
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
+"-> “magic_wand”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:45
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:79
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:48
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:52
+msgid ""
+"Holding the accelerometer steady, with the positive x-axis pointing to "
+"the right and the positive z-axis pointing upwards, move it following the"
+" shapes as shown, moving it in a smooth motion over 1 to 2 seconds, "
+"avoiding any sharp movements."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:54
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:83
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:58
+msgid ""
+"If the movement is recognised by the Tensorflow Lite model, you should "
+"see the same shape output to the Arduino serial monitor. Different LEDs "
+"will light up corresponding to different recognized gestures."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:60
+msgid ""
+"Note that the wing shape is easy to achieve, while the slope and ring "
+"shapes tend to be harder to get right."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:62
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:87
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:64
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:68
+msgid ""
+"More information on TensorFlow Lite for Microcontrollers can be found at:"
+" https://www.tensorflow.org/lite/microcontrollers"
+msgstr ""
+

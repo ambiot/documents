@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:3 Play
+#: Record Wav and
+msgid "Audio Codec – Play and Record Wav Files"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:8 Play
+#: Record Wav and
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:12
+#: Play Record Wav and
+msgid "AmebaD [RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:13
+#: Play Record Wav and
+msgid "MicroSD card"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:15
+#: Play Record Wav and
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:19
+#: Play Record Wav and
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:21
+#: Play Record Wav and
+msgid ""
+"As RTL8722DM MINI have a built in microphone on the board, there is no "
+"need for any external microphone. Copy a sample wav file into the MicroSD"
+" card for demo. (In this example, the sample name is "
+"“Test_Audio_48khz_16bit_stereo.wav”. ) Then insert the MicroSD card into "
+"the adapter at the back of the board."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:23
+#: Play Record Wav and
+msgid "|image1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:56
+#: Play Record Wav and
+msgid "image1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:25
+#: Play Record Wav and
+msgid ""
+"Example 01 PlaybackWavFile Open the example, ``“Files” -> “Examples” -> "
+"“AmebaAudioCodec” -> “PlaybackWavFile”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:28
+#: Play Record Wav and
+msgid "|image2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:60
+#: Play Record Wav and
+msgid "image2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:30
+#: Play Record Wav and
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished. Insert earphone/speaker into the onboard jack for playing the "
+"sample sound."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:33
+#: Play Record Wav and
+msgid ""
+"Example 02 RecordWavFile Open the example, ``“Files” -> “Examples” -> "
+"“AmebaAudioCodec” -> “RecordWavFile”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:36
+#: Play Record Wav and
+msgid "|image3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:64
+#: Play Record Wav and
+msgid "image3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:39
+#: Play Record Wav and
+msgid ""
+"Define a GPIO/button(Input high to active) for “RECORDBTN”. Define the "
+"“filename[]” for name of the storge wav file. In this example the name is"
+" “Test_Recording_48khz_16bit_mono.wav”."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:40
+#: Files.rst:51 Play Record Wav and
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:41
+#: Play Record Wav and
+msgid ""
+"Input high to “RECORDBTN”, then record voice by on board mic. When input "
+"is low the record stops. The recorded voice will be stored in "
+"“Test_Recording_48khz_16bit_mono.wav” that located at MicroSD card."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:43
+#: Play Record Wav and
+msgid ""
+"Example 03 RecordPlaybackWav Open the example, ``“Files” -> “Examples” ->"
+" “AmebaAudioCodec” -> “RecordPlaybackWav”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:46
+#: Play Record Wav and
+msgid "|image4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:68
+#: Play Record Wav and
+msgid "image4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:48
+#: Play Record Wav and
+msgid ""
+"This example is a combination of Example01 and Example02. You can record "
+"by Example02 then play it by jack as the method of Example01."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:49
+#: Play Record Wav and
+msgid ""
+"Define a GPIO/button(Input high to active) for “RECORDBTN”. Define the "
+"“filename[]” for name of the storge wav file. In this example the name is"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:50
+#: Play Record Wav and
+msgid "“Test_Recording_48khz_16bit_mono.wav”."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:52
+#: Play Record Wav and
+msgid ""
+"Input high to “RECORDBTN”, then record voice by on board mic. When input "
+"is low the record stops. The recorded voice will be stored in"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:53
+#: Play Record Wav and
+msgid "“Test_Recording_48khz_16bit_mono.wav” that located at MicroSD card."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:54
+#: Play Record Wav and
+msgid ""
+"Insert earphone/speaker into the onboard jack for playing the sample "
+"sound."
+msgstr ""
+

@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_RTC.rst:3
+msgid "RTC"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_RTC.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
+" :raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API 文档**"
+" :raw-html:`</p>`"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_RTC.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **構造函數** "
+":raw-html:`</p>`"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_RTC.rst:16
+msgid "**RTC()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_RTC.rst:17
+msgid "Create a RTC object."
+msgstr "創建一個RTC對象"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_RTC.rst:20
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
+"html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **方法** :raw-"
+"html:`</p>`"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_RTC.rst:24
+msgid "**RTC.datetime(**\\ *array_8*\\ [optional]\\ **)**"
+msgstr "**RTC.datetime(**\\ *array_8*\\ [選填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_RTC.rst:25
+msgid "This method works in 2 ways"
+msgstr "以下是該方法的兩種使用方法"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_RTC.rst
+msgid "Return the local date and time if NOT passing any argument into it."
+msgstr "如果沒有輸入任何參數，會返還本地時間。 "
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_RTC.rst
+msgid "The returned format is as follows:"
+msgstr "格式如下:"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_RTC.rst
+msgid ""
+"(year, month, date, hour, minute, second, weekday[0-6 for Mon to Sun], "
+"yearday[1-366])"
+msgstr "(年, 月, 日, 時, 分, 秒, 周[0-6表示週一到週日]，年[1-366])。"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_RTC.rst
+msgid ""
+"Update the local date and time if passing an eight-elements array into "
+"it, the array format is same as above"
+msgstr "如果是輸入一個8位數組的參數，會更新本地時間。格式和上面一致。"
+

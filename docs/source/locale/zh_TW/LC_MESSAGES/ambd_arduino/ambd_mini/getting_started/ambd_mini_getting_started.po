@@ -1,0 +1,835 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:3
+msgid "Getting Started"
+msgstr "入門手冊"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:7
+msgid "Ameba ARDUINO: Getting Started with RTL8722DM MINI"
+msgstr "Ameba ARDUINO：RTL8722DM MINI 入門手冊"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:10
+msgid "Required Environment"
+msgstr "工作環境"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:12
+msgid ""
+"AmebaD RTL8722DM MINI board currently supports Windows OS 32-bits and "
+"64-bits (WIN7/8/10), Linux OS (Ubuntu 18 LTS/20 LTS/latest) and macOS "
+"operating systems. Please use the latest OS version to have the best "
+"experiences. In this documentation, please use the latest version Arduino"
+" IDE (at least version 1.8.12)."
+msgstr ""
+"AmebaD RTL8722DM MINI 開發板目前支持 Windows OS 32 位元和 64 位元"
+"（WIN7/8/10）、Linux OS（Ubuntu 18 LTS/20 LTS/最新）和 macOS 作業系統。"
+"請使用最新的作業系統版本以獲得最佳體驗。"
+"在本文檔中，請使用最新版本的 Arduino IDE（至少 1.8.12 版）。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:18
+msgid "Introduction to AmebaD RTL8722DM MINI"
+msgstr "AmebaD RTL8722DM MINI 介紹"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:20
+msgid ""
+"Ameba is an easy-to-program platform for developing all kind of IoT "
+"applications. AmebaD is equipped with various peripheral interfaces, "
+"including WiFi, GPIO INT, I2C, UART, SPI, PWM, ADC. Through these "
+"interfaces, AmebaD can connect with electronic components such as LED, "
+"switches, manometer, hygrometer, PM2.5 dust sensors, …etc."
+msgstr ""
+"Ameba是一個易於編程的微控制器平台，可用於開發各種物聯網應用程序。"
+"AmebaD有各種外圍接口，包括WiFi, GPIO INT, I2C, UART, SPI, PWM, ADC。"
+"通過這些接口，AmebaD可以連接LED、開關、壓力計、濕度計、PM2.5粉塵傳感器等電子元件。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:25
+msgid ""
+"The collected data can be uploaded via WiFi and be utilized by "
+"applications on smart devices to realize IoT implementation."
+msgstr ""
+"Ameba所收集的數據可以通過WiFi無線上傳，並被智能設備上的應用程序使用，實現物聯網的應用。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:28
+msgid "|ambd-mini-get-start-1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:238
+msgid "board-front"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:30
+msgid ""
+"RTL8722DM MINI has smaller size than Arduino Uno, as shown in the above "
+"figure."
+msgstr ""
+"AmebaD 和 Arduino UNO 的尺寸類似，如上圖所示。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:32
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:79
+msgid "|ambd-mini-get-start-2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:244
+msgid "board-bottom"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:34
+msgid ""
+"RTL8722DM MINI uses Micro USB to supply power, which is common in many "
+"smart devices."
+msgstr "RTL8722DM MINI 使用 Micro USB來供電，這在許多智能設備中很常見。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:35
+msgid ""
+"Please refer to the following figure and table for the pin diagram and "
+"function of RTL8722DM MINI."
+msgstr "RTL8722DM MINI 的引腳圖和功能請參考下圖和表格。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:37
+msgid "|ambd-mini-get-start-3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:250
+msgid "pin-diagram-front"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:39
+msgid "|ambd-mini-get-start-4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:256
+msgid "pin-diagram-bottom"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:42
+msgid "\\#"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:42
+msgid "引脚名稱"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:42
+msgid "GPIO INT"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:42
+msgid "ADC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:42
+msgid "PWM"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:42
+msgid "UART"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:42
+msgid "SPI"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:42
+msgid "I2C"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:44
+msgid "D0"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:44
+msgid "GPIOB_0"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:44
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:45
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:46
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:47
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:48
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:49
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:50
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:51
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:52
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:53
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:54
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:55
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:56
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:57
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:58
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:59
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:60
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:61
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:62
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:63
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:64
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:65
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:66
+msgid "✓"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:44
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:50
+msgid "I2C0 SDA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:45
+msgid "D1"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:45
+msgid "GPIOB_1"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:45
+msgid "A4"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:45
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:53
+msgid "Serial2_TX"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:46
+msgid "D2"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:46
+msgid "GPIOB_2"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:46
+msgid "A5"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:46
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:54
+msgid "Serial2_RX"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:47
+msgid "D3"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:47
+msgid "GPIOB_3"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:47
+msgid "A6"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:48
+msgid "D4"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:48
+msgid "GPIOB_4"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:48
+msgid "A0"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:49
+msgid "D5"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:49
+msgid "GPIOB_5"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:49
+msgid "A1"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:49
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:66
+msgid "I2C0 SCL"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:50
+msgid "D6"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:50
+msgid "GPIOB_6"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:50
+msgid "A2"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:51
+msgid "D7"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:51
+msgid "GPIOB_7"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:51
+msgid "A3"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:52
+msgid "D8"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:52
+msgid "GPIOA_2"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:53
+msgid "D9"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:53
+msgid "GPIOA_12"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:53
+msgid "SPI1_MOSI"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:54
+msgid "D10"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:54
+msgid "GPIOA_13"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:54
+msgid "SPI1_MISO"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:55
+msgid "D11"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:55
+msgid "GPIOA_14"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:55
+msgid "SPI1_CLK"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:56
+msgid "D12"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:56
+msgid "GPIOA_15"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:56
+msgid "SPI1_CS"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:57
+msgid "D13"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:57
+msgid "GPIOA_16"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:58
+msgid "D14"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:58
+msgid "GPIOA_28"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:59
+msgid "D15"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:59
+msgid "GPIOA_18"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:59
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:62
+msgid "Serial1_TX"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:60
+msgid "D16"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:60
+msgid "GPIOA_19"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:60
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:63
+msgid "Serial1_RX"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:61
+msgid "D17"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:61
+msgid "GPIOA_30"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:62
+msgid "D18"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:62
+msgid "GPIOA_21"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:63
+msgid "D19"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:63
+msgid "GPIOA_22"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:64
+msgid "D20"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:64
+msgid "GPIOA_23"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:65
+msgid "D21"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:65
+msgid "GPIOA_24"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:66
+msgid "D22"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:66
+msgid "GPIOA_31"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:72
+msgid "Setting up Development Environment"
+msgstr "設置開發環境"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:75
+msgid "Step 1. Installing the Driver"
+msgstr "步驟一、安裝驅動程序"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:77
+msgid ""
+"First, connect RTL8722DM MINI to the computer via Micro USB (same as "
+"power):"
+msgstr "首先，通過 Micro USB 將 RTL8722DM MINI 連接到電腦:"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:82
+msgid ""
+"If this is the first time you connect RTL8722DM MINI to your computer, "
+"the USB driver for RTL8722DM MINI will be automatic installed."
+msgstr "如果這是您第一次將RTL8722DM MINI連接到您的電腦，那麼RTL8722DM MINI的USB驅動程序將自動安裝。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:84
+msgid ""
+"If you have driver issue of connect board to your computer please go to "
+"`here <https://ftdichip.com/drivers/>`_ for USB driver."
+msgstr "如果遇到開發板連接到電腦的驅動程序問題，請參考下列 `USB 驅動程序 <https://ftdichip.com/drivers/>`_ 。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:85
+msgid "You can check the COM port number in Device Manager of your computer:"
+msgstr "你可以在你電腦的裝置管理員中檢查 COM 端口號:"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:87
+msgid "|ambd-mini-get-start-5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:262
+msgid "install-driver"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:90
+msgid "Step 2. Set up Arduino IDE"
+msgstr "步驟二、設置 Arduino IDE"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:96
+msgid ""
+"From version 1.6.5, Arduino IDE supports third-party hardware. Therefore,"
+" we can use Arduino IDE to develop applications on RTL8722DM MINI, and "
+"the examples of Arduino can run on RTL8722DM MINI too. Refer to `basic "
+"example link <https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-"
+"ex/>`__."
+msgstr ""
+"從1.6.5版本開始，Arduino IDE支持第三方硬件。因此，我們可以使用Arduino IDE" 
+"在 RTL8722DM MINI上開發應用程序，Arduino 的示例也可以在 RTL8722DM MINI上運行。" 
+"請參考 `基本範例 <https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/>`__。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:98
+msgid "Arduino IDE can be downloaded in the Arduino website:"
+msgstr "Arduino IDE 可以在 Arduino 網站下載:"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:99
+msgid "https://www.arduino.cc/en/Main/Software"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:101
+msgid ""
+"When the installation is finished, open Arduino IDE. To set up RTL8722DM "
+"MINI correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`."
+msgstr ""
+"安裝完成後，打開 Arduino IDE。為了在 Arduino IDE 中正常使用 RTL8722DM MINI，"
+"請打開 :guilabel:`“File” -> “Preferences”`。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:103
+msgid "|ambd-mini-get-start-6|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:268
+msgid "get-start-6"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:105
+msgid ""
+"And paste the following URL into :guilabel:`“Additional Boards Manager "
+"URLs”` field::"
+msgstr "並將以下網址粘貼到 :guilabel:`“Additional Boards Manager URLs”` 欄位::"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:111
+msgid "Next, go to :guilabel:`“Tools” -> “Board” -> “Boards Manager”`:"
+msgstr "接下來，選擇 :guilabel:`“Tools” -> “Board” -> “Boards Manager”`:"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:113
+msgid "|ambd-mini-get-start-7|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:274
+msgid "get-start-7"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:115
+msgid ""
+"The :guilabel:`“Boards Manager”` requires about 10~20 seconds to refresh "
+"all hardware files (if the network is in bad condition, it may take "
+"longer). Every time the new hardware is connected, we need to reopen the "
+"Board Manager. So, we close the :guilabel:`“Boards Manager”`, and then "
+"open it again. Find :guilabel:`“Realtek AmebaD Boards (32-bits ARM "
+"Cortex-M4 @200MHz)”` in the list, click :guilabel:`“Install”`, then the "
+"Arduino IDE starts to download required files for AmebaD."
+msgstr ""
+"“Boards Manager”大約需要10~20秒來刷新所有硬件文件(如果網絡狀況不好，可能需要更長的時間)。"
+"每次連接新硬件時，我們都需要重新打開Boards Manager。因此，我們先關閉然後再次打開它。"
+"在列表中找到“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”，"
+"點擊“Install”，Arduino IDE會自動開始下載AmebaD所需的文件。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:123
+msgid "|ambd-mini-get-start-8|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:280
+msgid "get-start-8"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:127
+msgid ""
+"If you are facing GitHub downloading issue, please refer to the following"
+" link at `Download/Software Development Kit`_. There are 3 sections:"
+msgstr ""
+"如果您遇到 GitHub 下載問題，請參考以下“下載/軟體開發套件”中的鏈接。有3個部分。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:129
+msgid ""
+"“AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There "
+"are 5 latest released SDK options."
+msgstr ""
+"AmebaD_Arduino_patch1_SDK”，請至少選擇 1 個 SDK。目前有 5 個最新發布的 SDK 選項。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:130
+msgid ""
+"“AmebaD_Arduino_patch2_Tools”, please select according to your operation "
+"system. There are Windows, Linux and MacOS."
+msgstr ""
+"“AmebaD_Arduino_patch2_Tools”，請根據您的作業系統進行選擇。有 Windows、Linux 和 MacOS。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:131
+msgid ""
+"“AmebaD_Arduino_Source_Code”, this section is optional download only "
+"wants to refer the latest source code."
+msgstr ""
+"“AmebaD_Arduino_Source_Code”，此部分為可選下載，用來參考最新原始碼。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:135
+msgid ""
+"Download the files selected, then unzip (patch1 and patch2 are "
+"compulsory). There are “Install.doc”/“Install.pdf” for you to refer "
+"installation steps. According to your system, please run the installation"
+" tool in the “Offline_SDK_installation_tool” folder."
+msgstr ""
+"下載選擇的文件，然後解壓（patch1 和patch2 是必須的）。"
+"有“Install_中文.doc”/“Install_中文.pdf”供您參考安裝步驟。"
+"根據您的系統，請運行“Offline_SDK_installation_tool”文件夾中的安裝工具。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:140
+msgid ""
+"After the installation tool running successfully, you may open Arduino "
+"IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. "
+"Try to find :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M4 "
+"@200MHz)”`` in the list, click :guilabel:`“Install”`, then the Arduino "
+"IDE starts to download required files for AmebaD."
+msgstr ""
+"安裝工具運行成功後，您可以打開Arduino IDE並選擇 “tools” -> “Board“ -> “Boards Manager…”。"
+"嘗試在列表中找到“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”，點擊“Install”，"
+"Arduino IDE開始下載AmebaD所需的文件。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:148
+msgid ""
+"Finally, we select AmebaD as current connected board in "
+":guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” "
+"RTL8722DM MINI”`："
+msgstr ""
+"最後，我們在“tools”->“Board”->“Ameba ARM (32-bits) Boards”->"
+"“RTL8722DM MINI”中選擇了AmebaD作為當前連接的開發板:"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:151
+msgid "|ambd-mini-get-start-9|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:286
+msgid "get-start-9"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:156
+msgid "Try the First Example"
+msgstr "嘗試第一個範例"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:159
+msgid "Step 1. Compile & Upload"
+msgstr "步驟一、編譯和上傳"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:163
+msgid ""
+"Arduino IDE provides many built-in examples, which can be compiled, "
+"uploaded and run directly on the boards. Here, we take the “Blink” "
+"example as the first try."
+msgstr ""
+"Arduino IDE提供了很多內置的範例，可以在開發板上直接編譯、上傳和運行。"
+"這裡，我們以“Blink”為例進行第一次嘗試。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:164
+msgid "Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:"
+msgstr "打開 “File”->“Examples”->“ 01.Basics”-> “Blink”:"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:166
+msgid "|ambd-mini-get-start-10|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:292
+msgid "get-start-10"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:168
+msgid "Arduino IDE opens a new window with the complete sample code."
+msgstr "Arduino IDE 打開一個帶有完整示例代碼的新視窗。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:170
+msgid "|ambd-mini-get-start-11|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:298
+msgid "get-start-11"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:173
+msgid ""
+"There are onboard LED of TRL8722DM_MINI, the default “LED_BUILTIN” is "
+"blue onboard LED."
+msgstr "開發板上有 RTL8722DM MINI 的 LED，默認 “LED_BUILTIN” 是藍色的 LED"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:175
+msgid ""
+"Change “LED_BUILTIN” to “LED_B” or “LED_G” for different colour. Onboard "
+"LEDs options LED_B and LED_G (blue and green)."
+msgstr ""
+"將 “LED_BUILTIN” 更改為 “LED_B” 或 “LED_G” 以使用不同的顏色。 "
+"板載 LED 選項 LED_B 和 LED_G （藍色和綠色）。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:177
+msgid "|ambd-mini-get-start-12|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:304
+msgid "get-start-12"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:179
+msgid ""
+"Next, we compile the sample code directly; click :guilabel:`“Sketch” -> "
+"“Verify/Compile”`"
+msgstr "接下來，我們直接編譯示例代碼，點擊 “Sketch” -> “Verify/Compile”"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:182
+msgid "|ambd-mini-get-start-13|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:310
+msgid "get-start-13"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:184
+msgid ""
+"Arduino IDE prints the compiling messages in the bottom area of the IDE "
+"window. When the compilation is finished, you will get the message "
+"similar to the following figure:"
+msgstr ""
+"Arduino IDE在IDE窗口的底部區域打印編譯消息。編譯完成後，會得到如下圖所示的消息:"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:188
+msgid "|ambd-mini-get-start-14|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:316
+msgid "get-start-14"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:190
+msgid "Afterwards, we will upload the compiled code to RTL8722DM MINI."
+msgstr "之後，我們將把編譯後的代碼上傳到 RTL8722DM MINI。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:192
+msgid ""
+"Please make sure RTL8722DM MINI is connected to your computer, then click"
+" :guilabel:`“Sketch” -> “Upload”`."
+msgstr ""
+"請確保 RTL8722DM MINI 已連接到您的電腦，然後單擊 “Sketch” -> “Upload”。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:196
+msgid ""
+"The Arduino IDE will compile first then upload. During the uploading "
+"process, users are required to enter the upload mode of the board. "
+"Arduino IDE will wait 5s for DEV board to enter the upload mode."
+msgstr ""
+"Arduino IDE將先編譯，然後上傳。在上傳過程中，用戶需要將開發板調至上傳模式。 "
+"Arduino IDE會等待5秒鐘，等待開發板進入上傳模式。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:198
+msgid "|ambd-mini-get-start-15|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:322
+msgid "get-start-15"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:200
+msgid ""
+"To enter the upload mode, first press and hold the "
+":guilabel:`UART_DOWNLOAD` button, then press the :guilabel:`RESET` "
+"button. If success, you should see the onboard green LED and blue LED all"
+" turned off."
+msgstr ""
+"想要進入上傳模式，首先按住UART_DOWNLOAD按鈕不放，然後輕按RESET按鈕。上傳成功后，"
+"你可以看到板載的綠色和藍色 LED熄滅。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:204
+msgid "|ambd-mini-get-start-16|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:328
+msgid "get-start-16"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:206
+msgid ""
+"It is optional for users to check if the board entered the upload mode. "
+"Open serial monitor/terminal and look for “#Flash Download Start”. Note, "
+"it is normal that some serial terminals may show unknown characters as "
+"following picture."
+msgstr ""
+"用戶可選擇檢查開發板是否進入上傳模式。 打開串行監視器並查找“#Flash Download Start”。"
+"請注意，某些串口終端可能會顯示如下圖所示的未知字符是正常的。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:210
+msgid "|ambd-mini-get-start-17|"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:334
+msgid "get-start-17"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:212
+msgid ""
+"Again, during the uploading procedure the IDE prints messages. Uploading "
+"procedure takes considerably longer time (about 30 seconds to 1 minute). "
+"When upload completed, the “Done uploading” message is printed."
+msgstr ""
+"同樣，在上傳過程中IDE會自動顯示消息。上傳過程需要相當長的時間 (大約30秒到1分鐘)。"
+"上傳完成後，您會看到 “Done uploading” 消息。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:217
+msgid "Step 2.Run the Blink example"
+msgstr "步驟二、運行 Blink 示例"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:222
+msgid ""
+"In each example, Arduino not only provides sample code, but also detailed"
+" documentation, including wiring diagram, sample code explanation, "
+"technical details, …etc. These examples can be directly used on RTL8722DM"
+" MINI."
+msgstr ""
+"在每個示例中，Arduino不僅提供了示例代碼，還提供了詳細的文檔，包括接線圖、"
+"示例代碼說明、技術細節等。這些示例可以直接用於RTL8722DM MINI。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:223
+msgid "So, we find the detailed information of the \"Blink\" example:"
+msgstr "在這裡我們可以找到Blink這個示例的詳細信息:"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:224
+msgid "https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:228
+msgid ""
+"In short, for RTL8722DM MINI, the example can be run on both onboard LEDs"
+" (green or blue) or external LED (use any GPIO pins for signal output)."
+msgstr ""
+"簡而言之，對於RTL8722DM MINI，該示例可以在板上LED（綠色或藍色）"
+"或外部 LED（使用任何GPIO引腳進行信號輸出）上運行。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:229
+msgid ""
+"Finally, press the :guilabel:`RESET` button, and you can see the "
+":guilabel:`LED` blinking."
+msgstr ""
+"最後，按RESET按鈕，你就會看到LED開始閃爍。"
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:231
+msgid "**(End)**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:236
+msgid ""
+"If you face any issue, please refer to the FAQ and Trouble shooting "
+"sections on :doc:`../../support/index` page."
+msgstr "如果您遇到任何問題，請參考 :doc:`../../support/index` 。"
+

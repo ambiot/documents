@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:3
+msgid "Basic Examples"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:8
+msgid ""
+":raw-html:`<h1 style=\"color:#000000; font-size:20px\">` Ameba ARDUINO: "
+"[RTL8722CSM][RTL8722DM] Supported ARDUINO built-in example list :raw-"
+"html:`</h1>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:18px\">` There are many "
+"built-in examples in Arduino. In the table below, we list all examples "
+"that are compatible with Ameba. :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:18
+msgid "Category"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:18
+msgid "Name"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:18
+msgid "Comment"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:20
+msgid "01.Basics"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:20
+msgid "AnalogReadSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:20
+msgid "Connect potentiometer to 3.3V"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:23
+msgid "BareMinimum"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:25
+msgid "Blink"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:25
+#: Examples.rst:34
+msgid "Connect LED to pin 8"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:27
+msgid "DigitalReadSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:29
+msgid "Fade"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:31
+msgid "ReadAnalogVoltage"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:31
+msgid "ADC can read a maximum of 3.3V."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:34
+msgid "02.Digital"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:34
+msgid "BlinkWithoutDelay"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:36
+msgid "Button"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:36
+#: Examples.rst:38 Examples.rst:40 Examples.rst:42 Examples.rst:54
+msgid "Connect LED to pin 13"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:38
+msgid "Debounce"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:40
+msgid "DigitalInputPullup"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:42
+msgid "StateChangeDetection"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:44
+msgid "toneKeyboard"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:46
+msgid "toneMelody"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:48
+msgid "toneMultiple"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:50
+msgid "tonePitchFollower"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:52
+msgid "03.Analog"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:52
+msgid "AnalogInOutSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:54
+msgid "AnalogInput"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:56
+msgid "Analog Write Mega"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:58
+msgid "Calibration"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:58
+#: Examples.rst:110
+msgid "Connect another LED to pin 13"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:61
+msgid "Fading"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:63
+msgid "Smoothing"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:65
+msgid "04.Communication"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:65
+msgid "ASCIITable"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:67
+msgid "Dimmer"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:67
+#: Examples.rst:80 Examples.rst:85 Examples.rst:88 Examples.rst:95
+msgid "Use serial baud rate 115200"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:70
+msgid "Graph"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:70
+msgid "Use serial baud rate 115200, Connect potentiometer to 3.3V"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:74
+msgid "Midi"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:74
+msgid "Please use Serial1 and pin 26, or use Serial2 and pin 17"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:78
+msgid "MultiSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:80
+msgid "PhysicalPixel"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:83
+msgid "ReadASCIIString"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:85
+msgid "SerialCallResponse"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:88
+msgid "Serial CallResponseASCII"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:91
+msgid "SerialEvent"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:93
+msgid "SerialPassthrough"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:95
+msgid "VirtualColorMixer"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:98
+msgid "05.Control"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:98
+msgid "Arrays"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:98
+#: Examples.rst:101
+msgid "Use pins 1, 2, 3, 4, 5, 6"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:101
+msgid "ForLoopIteration"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:104
+msgid "IfStatementConditional"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:106
+msgid "switchCase"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:108
+msgid "switchCase2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:110
+msgid "While StatementConditional"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:113
+msgid "06.Display"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:113
+msgid "barGraph"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:113
+msgid "Use another pin to replace pin 7"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:116
+msgid "RowColumnScanning"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:118
+msgid "07.Strings"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:118
+msgid "CharacterAnalysis"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:120
+msgid "String AdditionOperator"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:123
+msgid "StringAppendOperator"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:125
+msgid "StringCaseChanges"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:127
+msgid "StringCharacters"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:129
+msgid "String ComparisonOperators"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:132
+msgid "StringIndexOf"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:134
+msgid "StringLength"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:136
+msgid "StringLengthTrim"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:138
+msgid "StringReplace"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:140
+msgid "String StartsWithEndsWith"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:143
+msgid "StringSubstring"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/basic/Basic Examples.rst:145
+msgid "StringToInt"
+msgstr ""
+

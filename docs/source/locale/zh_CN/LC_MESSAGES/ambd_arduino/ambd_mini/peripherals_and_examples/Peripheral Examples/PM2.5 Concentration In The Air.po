@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:3 Concentration
+#: In The
+msgid "PM2.5 Concentration in The Air"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:8 Concentration
+#: In The
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:12 Concentration
+#: In The
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:13 Concentration
+#: In The
+msgid "PlanTower PMS3003 or PMS5003 x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:15 Concentration
+#: In The
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:19 Concentration
+#: In The
+msgid ""
+"PMS3003 (or PMS5003) is a sensor of air quality, it can detect the "
+"concentration of those 0.3 to 10 micrometer particulate matters in the "
+"air. The sensor output its data via UART."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:23 Concentration
+#: In The
+msgid ""
+"The PMS3003 (or PMS5003) sensor detects the concentration value of PM "
+"1.0, PM 2.5, PM 10. Take PM 2.5 for example, it stands for the fine "
+"particles with a diameter of 2.5 micrometers or less."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:27 Concentration
+#: In The
+msgid ""
+"Open the example in ``“File” -> “Examples” -> “AmebaSoftwareSerial” -> "
+"“PMS3003_AirQuality”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:29 Concentration
+#: In The
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:63 Concentration
+#: In The
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:31 Concentration
+#: In The
+msgid "There are 8 pins in PMS3003:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:33 Concentration
+#: In The
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:67 Concentration
+#: In The
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:35 Concentration
+#: In The
+msgid ""
+"PMS3003 requires 5V power, but the working voltage of its IC is 3.3C. "
+"Therefore, the working voltage of Reset, TX, RX, Set are 3.3 as well. If "
+"the “Set” pin is pulled to high, the PMS3003 is put to operating mode. If"
+" the “Set” pin is pulled low, the PMS3003 is put to standby mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:40 Concentration
+#: In The
+msgid ""
+"TX/RX pins are for UART connection. Under operating mode, PMS3003 output "
+"the data it reads continuously. Each data is of 32 byte, please refer to "
+"the following article for detailed data format information:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:45 Concentration
+#: In The
+msgid ""
+"https://www.dfrobot.com/wiki/index.php?title=PM2.5_laser_dust_sensor_SKU:SEN0177"
+" RTL8722"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:47 Concentration
+#: In The
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:49 Concentration
+#: In The
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:71 Concentration
+#: In The
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:51 Concentration
+#: In The
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:53 Concentration
+#: In The
+msgid "|3-1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:75 Concentration
+#: In The
+msgid "3-1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:55 Concentration
+#: In The
+msgid "In this example, we do not use the “Set” and “Reset” pins."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:57 Concentration
+#: In The
+msgid ""
+"Compile the code and upload it to Ameba. After pressing the Reset button,"
+" Ameba starts to output the PM 2.5 data to serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:61 Concentration
+#: In The
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PM2.5 Air.rst:79 Concentration
+#: In The
+msgid "4"
+msgstr ""
+

@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:3
+#: computer the via with
+msgid "UART - Communicate with the computer via UART"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:8
+#: computer the via with
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Introduction of"
+" UART** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:12
+#: computer the via with
+msgid ""
+"UART uses two wire, one for transmitting and the other one for receiving,"
+" so the data transmission is bidirectional. The communication uses a "
+"predefined frequency (baud rate) to transmit data. In Arduino, UART is "
+"called “Serial”. There is only one hardware UART on Arduino Uno and it is"
+" primarily used to read the log and messages printed by Arduino (so it is"
+" also called “Log UART”). If we use the hardware UART for other purposes,"
+" the Log UART does not have resources to function. To provide more UART "
+"connections, it is possible to use a GPIO pin to simulate the behavior of"
+" UART with a software approach, this is called Software Serial. Ameba is "
+"equipped with several hardware UART ports, but it is also compatible with"
+" the Software Serial library."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:25
+#: computer the via with
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:29
+#: computer the via with
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:30
+#: computer the via with
+msgid "USB to TTL Adapter x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:32
+#: computer the via with
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:36
+#: computer the via with
+msgid "In this example, we use UART to connect USB to TTL adapter to Ameba."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:38
+#: computer the via with
+msgid ""
+"USB to TTL adapter sends data to Ameba, the data would be returned by "
+"Ameba, and showed on the screen."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:40
+#: computer the via with
+msgid "**Install USB to TTL Adapter**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:47
+#: computer the via with
+msgid ""
+"USB to TTL adapter converts USB to serial interface. Normally, there are "
+"at least 4 pins on the adapter, that is 3V3 (or 5V), GND, TX and RX. "
+"Generally, installing the driver for the USB to TTL adapter would be "
+"required before using it. If the adapter uses the chip of FTDI, Windows "
+"will search and install the driver automatically, otherwise, you may need"
+" to install corresponding driver yourself."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:49
+#: computer the via with
+msgid ""
+"Afterwards, open device manager. You can find corresponding serial port "
+"number of the USB to TTL adapter:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:51
+#: computer the via with
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: UART.rst:111 computer the via with
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:53
+#: computer the via with
+msgid "Executing the Example"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:56
+#: computer the via with
+msgid ""
+"Open the “SoftwareSerialExample” example in ``“File” -> “Examples” -> "
+"“AmebaSoftwareSerial” -> “SoftwareSerial_Basic”``:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:58
+#: computer the via with
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: UART.rst:115 computer the via with
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:62
+#: computer the via with
+msgid ""
+"Connect the wire as the following diagrams show. The TX pin of USB to TTL"
+" adapter is connected to the RX of Ameba, and the RX pin of USB to TTL "
+"adapter is connected to the TX of Ameba."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:64
+#: computer the via with
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:66
+#: computer the via with
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: UART.rst:119 computer the via with
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:68
+#: computer the via with
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:70
+#: computer the via with
+msgid "|3-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: UART.rst:123 computer the via with
+msgid "3-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:72
+#: computer the via with
+msgid ""
+"Next, open a serial port terminal, such as Putty or Tera Term. (Putty is "
+"used in this example). Open the Putty window, choose “Serial” in "
+"connection type, and specify the port number of the USB to TTL adapter "
+"(e.g. COM8). In the speed field, fill in the baud rate of this "
+"connection. Note that both sides of the connection should use the same "
+"baud rate. In this example we set baud rate 4800."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:79
+#: computer the via with
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: UART.rst:127 computer the via with
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:81
+#: computer the via with
+msgid ""
+"Next, select “Serial” on the left side. Set data bits to 8, stop bits to "
+"1, parity to none, and flow control to none."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:84
+#: computer the via with
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: UART.rst:131 computer the via with
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:86
+#: computer the via with
+msgid ""
+"Then click Open and press the reset button on Ameba. You can see the "
+"“Hello, world?” message appears in Putty. If characters are typed into "
+"Putty, the input characters would be sent to Serial RX of Ameba by TX of "
+"USB to TTL Adapter, and returned by Serial TX of Ameba. Finally, RX of "
+"USB to TTL Adapter receives the returned characters and prints them in "
+"Putty. Therefore, if you insert “I am fine”, you will get something like "
+"this:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:94
+#: computer the via with
+msgid "|6|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: UART.rst:135 computer the via with
+msgid "6"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate UART.rst:96
+#: computer the via with
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: UART.rst:101 computer the via with
+msgid ""
+"First, use ``SoftwareSerial:begin(speed)`` to set the baud rate for the "
+"serial communication:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: UART.rst:102 computer the via with
+msgid "https://www.arduino.cc/en/Reference/SoftwareSerialBegin"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: UART.rst:105 computer the via with
+msgid ""
+"Use ``write()`` to send data, and use ``SoftwareSerial:available()`` to "
+"get the number of bytes available for reading from a software serial "
+"port:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: UART.rst:107 computer the via with
+msgid "https://www.arduino.cc/en/Reference/SoftwareSerialAvailable"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: UART.rst:109 computer the via with
+msgid "If there are data available to read, use read() to read from serial port."
+msgstr ""
+
