@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2022-01-19 07:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,11 +75,11 @@ msgid "Fixed PWM API issue with loop"
 msgstr "修复了循环的 PWM API 问题"
 
 #: ../../source/ambd_micropython/source/download/Release History.rst:30
+#, fuzzy
 msgid ""
 "Implemented SDFS (SD FileSystem) module [Currently only support "
-"RTL8722DM_MINI]"
-msgstr ""
-"已实现 SDFS（SD 文件系统）模块 [目前仅支持 RTL8722DM_MINI] "
+"RTL8722DM_mini]"
+msgstr "已实现 SDFS（SD 文件系统）模块 [目前仅支持 RTL8722DM_MINI] "
 
 #: ../../source/ambd_micropython/source/download/Release History.rst:31
 msgid "Update welcome message and help message"
@@ -184,5 +184,4 @@ msgstr ""
 #: ../../source/ambd_micropython/source/download/Release History.rst:69
 msgid "SPI"
 msgstr ""
-
 

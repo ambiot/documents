@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2022-01-19 07:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,5 +19,12 @@ msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/index.rst:8
 msgid "Peripherals & Examples"
+msgstr "周边硬体 & 范例"
+
+#: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/index.rst:22
+msgid ""
+"Welcome to share your examples under the **User Contribution Examples** "
+"section if you have completed a project using the Ameba boards :)"
 msgstr ""
+"欢迎使用 Ameba 开发板的朋友们来【社群贡献范例板块】贡献你们的专案哟 :)"
 
