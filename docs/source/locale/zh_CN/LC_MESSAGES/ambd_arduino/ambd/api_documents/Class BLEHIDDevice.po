@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"POT-Creation-Date: 2022-01-19 07:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -394,7 +394,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/ambd/api_documents/Class BLEHIDDevice.rst:187
 msgid ""
-"void setOutputReportCallback (uint8_t reportID, void (*fCallback) "
+"void setOutputReportCallback (uint8_t reportID, void (\\*fCallback) "
 "(BLECharacteristic\\* chr, uint8_t conn_id));"
 msgstr ""
 
@@ -633,4 +633,10 @@ msgid ""
 "The function returns a reference to the BLEService class object for the "
 "Battery service."
 msgstr ""
+
+#~ msgid ""
+#~ "void setOutputReportCallback (uint8_t reportID, "
+#~ "void (*fCallback) (BLECharacteristic\\* chr, "
+#~ "uint8_t conn_id));"
+#~ msgstr ""
 

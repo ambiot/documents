@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2021, Ameba IoT
 # This file is distributed under the same license as the AmebaDocs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
@@ -17,14 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/ambd_arduino/ambd/peripherals_and_examples/index.rst:8
-msgid "Peripherals & Examples"
-msgstr "週邊硬體 & 範例"
-
-#: ../../source/ambd_arduino/ambd/peripherals_and_examples/index.rst:22
-msgid ""
-"Welcome to share your examples under the **User Contribution Examples** "
-"section if you have completed a project using the Ameba boards :)"
-msgstr ""
-"歡迎使用 Ameba 開發板的朋友們來【社群貢獻範例板塊】貢獻你們的專案喲:)"
+#: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/User
+#: Contribution Examples/index.rst:8 Examples/index.rst:10
+msgid "User Contribution Examples"
+msgstr "社群贡献范例板块"
 
