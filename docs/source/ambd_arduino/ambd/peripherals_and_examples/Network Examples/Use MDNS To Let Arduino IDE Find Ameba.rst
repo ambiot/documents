@@ -1,1 +1,0 @@
-.. include:: ../../../examples/network/Use MDNS To Let Arduino IDE Find Ameba.rst

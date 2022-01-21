@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/WiFi - Set up Client to Retrieve Google Search Information.rst

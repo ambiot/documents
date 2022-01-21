@@ -1,1 +1,0 @@
-.. include:: ../../../examples/network/Use Ameba as server to send Ameba status.rst
