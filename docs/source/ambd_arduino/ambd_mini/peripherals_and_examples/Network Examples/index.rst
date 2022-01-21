@@ -11,24 +11,23 @@ Network Examples
    :maxdepth: 1
    :caption: Wi-Fi/Network/BLE Library & Examples
 
-   Scan available WiFi hotspots in the surroundings
-   Connect to WiFi
-   Use Ameba as Server to communicate with Client
-   Use Ameba to retrieve HTTP websites from the internet
-   Use Ameba to retrieve information from the Internet
-   Use Ameba as Server to control LED
-   Use Ameba as server to send Ameba status
-   Use Ameba as UDP server
-   Retrieve Universal Time (UTC) By Ameba
-   Use MQTT To Upload And Listen To Data
-   Use Amazon AWS IoT Shadow Service
-   Use MQTT over TLS
-   Upload PM2.5 Data To LASS System
-   Ameba AP Mode
-   Use MDNS To Let Arduino IDE Find Ameba
-   Use Firebase To Push Messaging Services
-   Access IFTTT Via Ameba
-   Use Ameba To Securely Retrieve Information From The Internet
+   WiFi - Scan the surrounding WiFi networks
+   WiFi - Connect to WiFi networks
+   WiFi - Set up Server to communicate
+   HTTP - Retrieve HTTP websites from the Internet
+   WiFi - Set up Client to Retrieve Google Search Information
+   HTTP - Set up Server to Control LED
+   HTTP - Set up Server to Get the Ameba Status
+   WiFi - Set up UDP Server to Communicate
+   WiFi - Retrieve Universal Time (UTC) by UDP
+   MQTT - Set up MQTT Client to Communicate with Broker
+   MQTT - Use Amazon AWS IoT Shadow Service
+   MQTT - Set up MQTT Client over TLS
+   MQTT - Upload PM2.5 Data to LASS System
+   WiFi - Set up WiFi AP Mode
+   MDNS - Set up mDNS Client on Arduino IDE
+   HTTP - Use IFTTT for Web Service
+   WiFi - Set up SSL Client for HTTPS Communication
    BLE - BLE Battery Service
    BLE - BLE Beacon
    BLE - BLE Scan
@@ -41,9 +40,9 @@ Network Examples
    BLE - HID Gamepad
    BLE - HID Keyboard
    BLE - HID Mouse
-   Approximate UDP Receive Delay
-   Approximate UDP Receive Timeout
-   Approximate UDP Sending Delay
-   Google Cloud IoT
+   WiFi - Approximate UDP Receive Delay
+   WiFi - Approximate UDP Receive Timeout
+   WiFi - Approximate UDP Sending Delay
+   MQTT - Use Google Cloud IoT
    IPv6 - Ameba as IPv6 Server Client over TCP
    IPv6 - Ameba as IPv6 Server Client over UDP

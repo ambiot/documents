@@ -1,1 +1,0 @@
-.. include:: ../../../examples/network/Use Ameba as Server to control LED.rst

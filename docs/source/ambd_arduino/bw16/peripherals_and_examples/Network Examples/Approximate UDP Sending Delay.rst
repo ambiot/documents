@@ -1,1 +1,0 @@
-.. include:: ../../../examples/network/Approximate UDP Sending Delay.rst

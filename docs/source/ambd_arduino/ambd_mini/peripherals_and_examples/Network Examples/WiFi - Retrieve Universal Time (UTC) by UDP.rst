@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/WiFi - Retrieve Universal Time (UTC) by UDP.rst

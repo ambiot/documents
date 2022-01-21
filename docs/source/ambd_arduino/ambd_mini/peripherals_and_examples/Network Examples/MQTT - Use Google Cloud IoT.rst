@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/MQTT - Use Google Cloud IoT.rst

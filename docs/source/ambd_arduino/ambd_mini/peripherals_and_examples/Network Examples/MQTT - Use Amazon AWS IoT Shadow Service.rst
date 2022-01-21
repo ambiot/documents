@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/MQTT - Use Amazon AWS IoT Shadow Service.rst
