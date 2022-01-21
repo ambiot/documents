@@ -28,7 +28,6 @@ Peripheral Examples
    Power Save Deep Sleep DHT Eink
    Power Save Deep Sleep DHT LCD
    Power Save Tickless Mode
-   Use NTPClient Library To Obtain Local Time
    Transmit IR NEC Raw Data And Decode
    Display Images On E-Paper
    Display Text On E-Paper

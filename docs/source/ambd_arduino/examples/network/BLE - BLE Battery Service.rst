@@ -1,5 +1,5 @@
 #################################################
-BLE – BLE Battery Service
+BLE - BLE Battery Service
 #################################################
 
 .. role:: raw-html(raw)

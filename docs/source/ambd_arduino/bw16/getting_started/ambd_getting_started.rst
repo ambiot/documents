@@ -87,7 +87,7 @@ Step 2. Set up Arduino IDE
 From version 1.6.5, Arduino IDE supports third-party hardware.
 TTherefore, we can use Arduino IDE to develop applications on RTL8720DN (BW16), 
 and the basic examples of Arduino can run on RTL8720DN (BW16) too.  
-Refer to the :doc:`Basic Examples </ambd_arduino/examples/basic/Basic Examples>`.
+Refer to the :doc:`Basic Examples </ambd_arduino/bw16/peripherals_and_examples/Basic Examples>`.
 
 Arduino IDE can be
 downloaded in the `Arduino website <https://www.arduino.cc/en/Main/Software>`_.
