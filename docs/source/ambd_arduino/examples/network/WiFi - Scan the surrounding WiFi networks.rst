@@ -9,7 +9,7 @@ WiFi - Scan the surrounding WiFi networks
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [AMB21(RTL8722DM/CSM) / AMB23(RTL8722DM_MINI) / BW16(RTL8720DN)] x 1
+  - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
   - Antenna x 1
   - **AmebaD [:raw-html:`<p style="color:#1A76B4;">AMB21(RTL8722DM/CSM)\</p>` / AMB23(RTL8722DM_MINI) / BW16(RTL8729DN)] x 1**
 

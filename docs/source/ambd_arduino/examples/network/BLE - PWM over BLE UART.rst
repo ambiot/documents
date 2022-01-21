@@ -9,7 +9,7 @@ BLE – PWM over BLE UART
 **Materials**
 :raw-html:`</p>`
 
-   - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+   - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
    - RGB LED
    - Android / iOS smartphone
 

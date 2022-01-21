@@ -9,7 +9,7 @@ WiFi - Set up Server to communicate
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
   - Laptop（Make sure it is connected to the same network domain as
     Ameba, and tcp tools are installed.）
 

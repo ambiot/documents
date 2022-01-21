@@ -22,7 +22,7 @@ MQTT - Upload PM2.5 Data to LASS System
 **Preparation**
 :raw-html:`</p>`
 
-   - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+   - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
    - PlanTower PMS3003 or PMS5003 x1
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`

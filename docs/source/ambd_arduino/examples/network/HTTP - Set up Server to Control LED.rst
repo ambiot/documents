@@ -9,7 +9,7 @@ HTTP - Set up Server to Control LED
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
   - Breadboard x 1
   - LED x 1
   - 1KΩ Resistor x 1
