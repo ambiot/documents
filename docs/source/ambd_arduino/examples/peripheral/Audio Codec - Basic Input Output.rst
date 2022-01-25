@@ -9,10 +9,10 @@ Audio Codec – Basic Input Output
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
-  - Potentiometer x 1
-  - Analog microphone x 1 (e.g., Adafruit 1063 / 1064)
-  - 3.5mm TRS/TRRS breakout x 1 (e.g., Adafruit 2791 / Sparkfun 11570)
+   - AmebaD [AMB21 / AMB22 / AMB23] x 1
+   - Potentiometer x 1
+   - Analog microphone x 1 (e.g., Adafruit 1063 / 1064)
+   - 3.5mm TRS/TRRS breakout x 1 (e.g., Adafruit 2791 / Sparkfun 11570)
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Example**

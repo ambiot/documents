@@ -9,7 +9,7 @@ TensorFlow Lite - Person Detection
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  - AmebaD [AMB21 / AMB22 / AMB23] x 1
   - Arducam Mini 2MP Plus OV2640 SPI Camera Module x 1
   - LED x 3
 

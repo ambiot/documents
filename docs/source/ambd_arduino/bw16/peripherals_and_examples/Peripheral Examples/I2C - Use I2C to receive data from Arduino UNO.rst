@@ -1,1 +1,0 @@
-.. include:: ../../../examples/peripheral/I2C - Use I2C to receive data from Arduino UNO.rst

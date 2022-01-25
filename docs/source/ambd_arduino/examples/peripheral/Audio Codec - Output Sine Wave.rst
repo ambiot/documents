@@ -9,7 +9,7 @@ Audio Codec – Output Sine Wave
 **Materials**
 :raw-html:`</p>`
 
-   - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+   - AmebaD [AMB21 / AMB22 / AMB23] x 1
    - 3.5mm TRS/TRRS breakout x 1 (e.g., Adafruit 2791 / Sparkfun 11570)
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`

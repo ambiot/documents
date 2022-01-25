@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/E-Paper - Display User-generated QR Code.rst

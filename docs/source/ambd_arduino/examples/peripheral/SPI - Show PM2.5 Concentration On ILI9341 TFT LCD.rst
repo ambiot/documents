@@ -12,7 +12,7 @@ SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 **Preparation**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
   - ILI9341 TFT LCD with SPI interface x 1 
   - Plantower PMS3003 or PMS5003 x 1
 

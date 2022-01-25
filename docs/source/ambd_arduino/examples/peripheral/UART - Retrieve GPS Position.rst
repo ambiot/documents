@@ -9,7 +9,7 @@ UART - Retrieve GPS Position
 **Preparation**
 :raw-html:`</p>`
 
-  -  AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  -  AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
   -  `Adafruit Ultimate GPS Breakout <https://www.adafruit.com/products/746>`__ x 1 
      (Refer to `official document <https://learn.adafruit.com/adafruit-ultimate-gps?view=all>`__)
 

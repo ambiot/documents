@@ -6,35 +6,35 @@ Peripheral Examples
    :maxdepth: 1
    :caption: Peripheral Library & Examples
    
-   GPIO - Measure The Distance By Ultrasound Module
-   GPIO - Measuring The Temperature And Humidity
+   GPIO - Measure Distance By Ultrasound Module
+   GPIO - Measure Temperature and Humidity
    GPIO - Use GPIO Interrupt To Control LED
-   PWM - Play Music
-   PWM - Using A Servo
-   I2C - Communicate with Arduino UNO via I2C
+   PWM - Play Music by Buzzer
+   PWM - Servo Control
+   I2C - Send Data to Arduino UNO
    I2C - Display Data On LCD Screen
-   I2C - Use I2C to receive data from Arduino UNO
-   UART - Communicate with the computer via UART
+   I2C - Receive Data from Arduino UNO	
+   UART - Communicate with PC over USB to Serial Module
    UART - Retrieve GPS Position
    UART - Set Callback Function For UART Communications
-   PM2.5 Concentration In The Air
+   UART - PM2.5 Concentration in The Air
    Flash Memory - Store data in FlashEEProm
    Flash Memory - Use Flash Memory Larger Than 4K
    SPI - Print Image And Text On LCD Screen
    SPI - Show PM2.5 Concentration On ILI9341 TFT LCD
-   Timer - Using The Periodic GTimer
-   Timer - Using The Single-Use GTimer
-   Power Save Deep Sleep Mode
-   Power Save Deep Sleep DHT Eink
-   Power Save Deep Sleep DHT LCD
-   Power Save Tickless Mode
-   Transmit IR NEC Raw Data And Decode
-   Display Images On E-Paper
-   Display Text On E-Paper
-   Display User-Generated QR Code on E-Paper
-   A Simple RTC Example
-   A Simple RTC Alarm
-   Watchdog Timer Simple Example
+   GTimer - Using The Periodic GTimer
+   GTimer - Using the One-Time Gtimer
+   Power Save - Deep Sleep Mode
+   Power Save - Deep Sleep for DHT and E-paper
+   Power Save - Deep Sleep for DHT and LCD
+   Power Save - Tickless Mode
+   IR - Transmit IR NEC Raw Data And Decode
+   E-Paper - Display Images
+   E-Paper - Display Text 
+   E-Paper - Display User-generated QR Code
+   RTC - Simple RTC
+   RTC - Simple RTC Alarm
+   Watchdog - Simple WDG Timer
    Audio Codec - Basic Input Output
    Audio Codec - FFT
    Audio Codec - Input FFT

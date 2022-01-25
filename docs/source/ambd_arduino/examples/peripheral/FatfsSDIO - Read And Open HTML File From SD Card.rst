@@ -9,7 +9,7 @@ FatfsSDIO – Read And Open HTML File From SD Card
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM MINI] x 1
+  - AmebaD [AMB23] x 1
   - MicroSD card
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`

@@ -1,1 +1,0 @@
-.. include:: ../../../examples/peripheral/Timer - Using The Periodic GTimer.rst

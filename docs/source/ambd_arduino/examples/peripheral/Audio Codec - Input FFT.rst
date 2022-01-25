@@ -9,8 +9,8 @@ Audio Codec - Input FFT
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
-  - Analog microphone x 1 (e.g., Adafruit 1063 / 1064)
+   - AmebaD [AMB21 / AMB22 / AMB23] x 1
+   - Analog microphone x 1 (e.g., Adafruit 1063 / 1064)
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Example**

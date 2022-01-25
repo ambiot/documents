@@ -3,10 +3,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-###########################
-User Contribution Examples
-###########################
+###################################
+|:fire:| User Contribution Examples
+###################################
+
+|:smile:| Welcome to share your examples under the **User Contribution Examples** section if you have completed a project using the Ameba boards.
+For more information on contribution guidelines, please refer to our official `GitHub Wiki <https://github.com/ambiot/ambd_arduino/wiki/Contributing-to-Ameba>`_
+
+|image1|
+
 
 .. toctree::
     :maxdepth: 1
     :caption: User Contribution Examples
+
+.. |image1| image:: ../../../media/user-contribution-example.png
+   :width: 6318   
+   :height: 3553
+   :scale: 10 %

@@ -1,1 +1,0 @@
-.. include:: ../../../examples/peripheral/I2C - Communicate with Arduino UNO via I2C.rst
