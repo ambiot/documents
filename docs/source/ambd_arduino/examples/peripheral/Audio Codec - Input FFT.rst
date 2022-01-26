@@ -28,7 +28,7 @@ Audio Codec - Input FFT
    |1|
 
 | **AMB23** Wiring Diagram:
-| As RTL8722DM_MINI have a built in microphone on the board, there 
+| As AMB23 have a built in microphone on the board, there 
   is no need for any external microphone.
 
 Next, open the example, ``"Files" -> "Examples" -> “AmebaAudioCodec” ->
