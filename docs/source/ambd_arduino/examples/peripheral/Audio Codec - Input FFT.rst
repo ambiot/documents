@@ -23,11 +23,11 @@ Audio Codec - Input FFT
 | **Procedure**
 | Connect the microphone to the RTL8722 board following the diagram.
 
-| **RTL8722DM / RTL8722CSM** Wiring Diagram:
+| **AMB21 / AMB22** Wiring Diagram:
    
    |1|
 
-| **RTL8722DM MINI** Wiring Diagram:
+| **AMB23** Wiring Diagram:
 | As RTL8722DM_MINI have a built in microphone on the board, there 
   is no need for any external microphone.
 

@@ -49,13 +49,17 @@ Arduino Uno.
 | Another important thing is that the GND pins of Arduino and Ameba
   should be connected to each other.
 
-| **RTL8722DM / RTL8722CSM** Wiring Diagram:
+| **AMB21 / AMB22** Wiring Diagram:
 
   |3|
 
-| **RTL8722DM MINI** Wiring Diagram:
+| **AMB23** Wiring Diagram:
 
   |3-1|
+
+| **BW16** Wiring Diagram:
+
+  |3-2|
 
 | Next, we will observe the data receive by Ameba in the Serial Monitor.
 | (Note: If you do not know which port the Ameba development board is
@@ -111,6 +115,10 @@ Arduino Uno.
    :width: 882
    :height: 670
    :scale: 50 %   
+.. |3-2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_I2C_Use_I2C_to_receive_data_from_Arduino_UNO/image3-2.png
+   :width: 923
+   :height: 717
+   :scale: 50 %
 .. |4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_I2C_Use_I2C_to_receive_data_from_Arduino_UNO/image4.png
    :width: 434
    :height: 405

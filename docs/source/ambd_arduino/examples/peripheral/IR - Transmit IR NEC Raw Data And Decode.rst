@@ -88,7 +88,7 @@ with Ameba RTL8722 board.
 
   |7|
 
-  Figure 7: Pin configuration of IR Emitter and Ameba RTL8722
+  Figure 7: Pin configuration of IR Emitter and AMB21/AMB22
 
   |8|
 
@@ -99,13 +99,23 @@ Receiver with Ameba RTL8722DM MINI.
 
   |7-1|
 
-  Figure 9: Pin configuration of IR Emitter and Ameba RTL8722DM MINI
+  Figure 9: Pin configuration of IR Emitter and AMB23
 
   |8-1|
   
-  Figure 10: Pin configuration of the IR receiver and Ameba RTL8722DM MINI
-  
+  Figure 10: Pin configuration of the IR Receiver and AMB23
 
+Figure 11 and Figure 12 shows the pin configuration of IR Emitter and 
+Receiver with Ameba RTL8720DN (BW16).
+   
+   |7-2|
+
+   Figure 11: Pin configuration of IR Emitter and BW16
+
+   |8-2|
+
+   Figure 12: Pin configuration of IR Receiver and BW16
+   
 After the connection is being set up correctly, we will move to the
 coding part for this example. First, make sure the correct Ameba
 development board is selected in Arduino IDE: “Tools” -> “Board”.
@@ -116,7 +126,7 @@ Emitter:
   
   |9|
   
-  Figure 11: Example Location of IRSendRaw and IRRecvNEC
+  Figure 13: Example Location of IRSendRaw and IRRecvNEC
 
 After successfully upload the sample code for IRSendRaw, you might need
 to upload the IRRecvNEC example for the 2nd board connected with IR
@@ -131,7 +141,7 @@ as “48” after decoding the receiving data with IR NEC Protocol.
 
   |10|
   
-  Figure 10: Pulse View results from sending and receiving pin
+  Figure 14: Pulse View results from sending and receiving pin
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Code Reference**
@@ -190,6 +200,14 @@ as “48” after decoding the receiving data with IR NEC Protocol.
    :width: 794
    :height: 733
    :scale: 50 %
+.. |7-2| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image7-2.png
+   :width: 1302
+   :height: 1127
+   :scale: 30 %
+.. |8-2| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image8-2.png
+   :width: 1171
+   :height: 1117
+   :scale: 30%
 .. |9| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image9.png
    :width: 554
    :height: 537

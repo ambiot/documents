@@ -61,13 +61,17 @@ UART - Communicate with PC over USB to Serial Module
   TTL adapter is connected to the RX of Ameba, and the RX pin of USB to
   TTL adapter is connected to the TX of Ameba.
 
-| **RTL8722DM / RTL8722CSM** Wiring Diagram:
+| **AMB21 / AMB22** Wiring Diagram:
 
   |3|
 
-| **RTL8722DM MINI** Wiring Diagram:
+| **AMB23** Wiring Diagram:
   
   |3-1|
+
+| **BW16** Wiring Diagram:
+  
+  |3-2|
 
 Next, open a serial port terminal, such as Putty or Tera Term. (Putty is
 used in this example). Open the Putty window, choose “Serial” in
@@ -124,6 +128,10 @@ this:
    :width: 1285
    :height: 1040
    :scale: 50 %
+.. |3-2| image:: /ambd_arduino/media/UART_Communicate_with_the_computer_via_UART/image3-2.png
+   :width: 1020
+   :height: 705
+   :scale: 60 %
 .. |4| image:: /ambd_arduino/media/UART_Communicate_with_the_computer_via_UART/image4.png
    :width: 466
    :height: 448

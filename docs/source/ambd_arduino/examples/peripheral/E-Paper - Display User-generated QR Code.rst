@@ -33,19 +33,19 @@ Front view of the e-Paper Module:
   
   |1| 
 
-**RTL8722DM / RTL8722CSM** Wiring Diagram:
+**AMB21 / AMB22** Wiring Diagram:
 
   |2| 
 
   |3| 
 
-**RTL8722DM MINI** Wiring Diagram:
+**AMB23** Wiring Diagram:
 
   |2-1| 
 
   |3-1| 
 
-**RTL8720DN(BW16)** Wiring Diagram:
+**BW16** Wiring Diagram:
 
   |2-2| 
 

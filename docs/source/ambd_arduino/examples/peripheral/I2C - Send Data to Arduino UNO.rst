@@ -58,13 +58,17 @@ Then click ``“Sketch” -> “Upload”`` to compile and upload the example to
 | Another important thing is that the GND pins of Arduino and Ameba
   should be connected to each other.
 
-**RTL8722DM / RTL8722CSM** Wiring Diagram:
+**AMB21/ AMB22** Wiring Diagram:
   
   |3|
 
-**RTL8722DM MINI** Wiring Diagram:
+**AMB23** Wiring Diagram:
 
   |3-1|
+
+**BW16** Wiring Diagram:
+
+  |3-2|
 
 | Open the Arduino IDE of the Arduino Uno and open the serial monitor
   (“Tools” -> “Serial Monitor”).
@@ -115,6 +119,10 @@ Then click ``“Sketch” -> “Upload”`` to compile and upload the example to
    :width: 1005
    :height: 743
    :scale: 50 %
+.. |3-2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_I2C_Communicate_with_Arduino_UNO_via_I2C/image3-2.png
+   :width: 923
+   :height: 717
+   :scale: 60 %
 .. |4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_I2C_Communicate_with_Arduino_UNO_via_I2C/image4.png
    :width: 649
    :height: 410

@@ -15,7 +15,7 @@ Peripherals & Examples
    Network Examples/index
    Components Used
    Peripheral Examples/index
-   User Contribution Examples/index
+   Community Examples/index
 
 .. tip::
 

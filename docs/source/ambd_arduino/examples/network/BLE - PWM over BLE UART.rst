@@ -30,13 +30,17 @@ Connect the RGB LED to the RTL8722 board following the diagram, the
 common LED pin may need to connect to 3.3V or GND depending on the type
 of LED (common anode / common cathode).
    
-**RTL8722DM / RTL8722CSM:**
+**AMB21 /AMB22:**
 
    |1|
 
-**RTL8722DM MINI:**
+**AMB23:**
 
    |1-1|
+
+**BW16:**
+
+   |1-2|
 
 | Ensure that the required app is installed on your smartphone, it is
   available at:
@@ -88,23 +92,27 @@ message and printed to the serial terminal.
    :width: 1012
    :height: 699
    :scale: 50 %
+.. |1-2| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image1-2.png
+   :width: 1564
+   :height: 1079
+   :scale: 30 %
 .. |2| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image2.png
    :width: 682
    :height: 1202
-   :scale: 50 %
+   :scale: 50%
 .. |3| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image3.png
-   :width: 916
-   :height: 1317
-   :scale: 50 %
+   :width: 1440
+   :height: 2880
+   :scale: 25%
 .. |4| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image4.png
-   :width: 916
-   :height: 1317
-   :scale: 50 %
+   :width: 1440
+   :height: 2880
+   :scale: 25%
 .. |5| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image5.png
    :width: 1440
    :height: 2880
-   :scale: 25 %
+   :scale: 25%
 .. |6| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image6.png
-   :width: 916
-   :height: 1317
-   :scale: 50 %
+   :width: 1440
+   :height: 2880
+   :scale: 25%

@@ -43,25 +43,38 @@ Power Save - Deep Sleep for DHT and E-paper
 .. code-block:: c
 
    AON timer (SET_DS_AON_TIMER_WAKEUP);
-   AON pins (SET_DS_AON_WAKEPIN_WAKEUP);
+   AON pins (SET_AON_WAKEPIN_WAKEUP);
    RTC timer (SET_DS_RTC_WAKEUP);
 
-AON timer can be set from 0 to 32760000 range (unit ms) by
-``AON_TIMER_SLEEP_DURATION``
+| **Using AON Timer as wakeup source**
+| AON timer can be set from 0 to 32760000 range (unit ms) by ``AON_TIMER_SLEEP_DURATION``
 
-There are 4 pins can be set as AON pins and active high for wake-up,
-D16, D17, D26 and D27. The AON pin can be set by
-``SET_DS_AON_WAKEPIN_WAKEUPPIN``
+| **Using AON GPIO pins as wakeup source**
+| For AMB21, there are 5 pins that can be set as AON pins and active
+  high for wakeup, GPIOA25(D16), GPIOA26(D17), GPIOA21(D26),
+  GPIOA20(D27), GPIOA(D28). 
 
-RTC timer wake-up system by set alarm. The alarm has 4 values, day,
-hour, min and sec. All 4 values can be set by ``DS_RTC_ALARM_DAY``,
-``DS_RTC_ALARM_HOUR``, ``DS_RTC_ALARM_MIN``, and ``DS_RTC_ALARM_SEC``
+| For AMB23, there are 8 pins that can be set as AON pins and active high
+  for wakeup, GPIOA12(D9), GPIOA13(D10), GPIOA14(D11), GPIOA15(D12),
+  GPIOA16(D13), GPIOA18(D15), GPIOA19(D16), GPIOA21(D18).
+
+| For BW16, there is only 6 pins that can be set as AON pin and active
+  high for wakeup, GPIOA_25 (D7), GPIOA_26 (D8), GPIOA_15 (D9), GPIOA_14
+  (D10), GPIOA_13 (D11), GPIOA_12 (D12).
+
+| These AON pins can be set by using ``SET_AON_GPIO_WAKEUP_GPIOA25`` or the pin that you want to use as shown in the picture below.
+| |2|
+
+| **Using RTC Timer as wakeup source**
+| RTC timer wakeup system is by setting alarm. The alarm has 4 values, day,
+  hour, min and sec. All 4 values can be set by ``DS_RTC_ALARM_DAY``,
+  ``DS_RTC_ALARM_HOUR``, ``DS_RTC_ALARM_MIN``, and ``DS_RTC_ALARM_SEC``
 
 | ``DHTPIN`` is used to set DHT sensor data pin. User can choose any GPIO
   pins.
 | ``DHTTYPE`` is used to set DHT sensor type. (DHT11, DHT22 and DHT33)
 
-  |2|
+  |3|
 
 When finished the condition values setting, system will run and switch
 between normal working mode and deepsleep mode controlled by wakeup
@@ -81,6 +94,10 @@ section for detail description of all API.
    :height: 704
    :scale: 50 %
 .. |2| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_DHT_Eink/image2.png
-   :width: 717
-   :height: 432
+   :width: 957
+   :height: 647
+   :scale: 50 %
+.. |3| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_DHT_Eink/image3.png
+   :width: 959
+   :height: 780
    :scale: 50 %

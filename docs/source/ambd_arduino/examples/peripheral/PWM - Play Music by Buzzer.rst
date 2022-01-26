@@ -32,13 +32,17 @@ wavelength 1/262 = 3.8ms:
 | Connect the buzzer to the PWM output pin shown in the following
   diagrams.
 
-**RTL8722DM / RTL8722CSM** Wiring Diagram:
+**AMB21 / AMB22** Wiring Diagram:
 
   |2|
 
-**RTL8722DM MINI** Wiring Diagram:
+**AMB23** Wiring Diagram:
 
   |3|
+
+**BW16** Wiring Diagram:
+
+  |4|
 
 | Open the example code in ``“Examples” -> “AmebaAnalog” -> “TonePlayMelody”``
 | Compile and upload to Ameba, press the reset button. Then you can hear
@@ -68,4 +72,8 @@ to make. Another array, noteDurations, contains the length of each tone,
 .. |3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_PWM_Play_Music/image3.png
    :width: 806
    :height: 686
+   :scale: 50 %
+.. |4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_PWM_Play_Music/image4.png
+   :width: 905
+   :height: 678
    :scale: 50 %

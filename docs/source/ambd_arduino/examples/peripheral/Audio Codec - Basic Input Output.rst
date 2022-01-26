@@ -22,11 +22,11 @@ Audio Codec – Basic Input Output
 | Connect the potentiometer, microphone and 3.5mm connector to the RTL8722
   board following the diagram.
 
-| **RTL8722DM / RTL8722CSM** Wiring Diagram:
+| **AMB21 / AMB22** Wiring Diagram:
 
    |1|
 
-| **RTL8722DM MINI** Wiring Diagram:
+| **AMB23** Wiring Diagram:
 
    |1-1|
 

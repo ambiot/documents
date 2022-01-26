@@ -18,12 +18,12 @@ Audio Codec – Output Sine Wave
 
 **Procedure**
 
-| **RTL8722DM / RTL8722CSM** Wiring Diagram:
+| **AMB21 / AMB22** Wiring Diagram:
 | Connect the 3.5mm connector to the RTL8722 board following the diagram.
 
    |1|
 
-| **RTL8722DM MINI** Wiring Diagram:
+| **AMB23** Wiring Diagram:
 | As RTL8722DM_MINI have a built in microphone on the board, there 
   is no need for any external microphone.
 

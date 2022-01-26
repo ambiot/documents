@@ -27,13 +27,21 @@ HTTP - Set up Server to Control LED
   the tolerance of the LED and causes damage, we connect a resistance on
   the positive pole.
 
-**RTL8722DM / RTL8722CSM** Wiring Diagram:
+**AMB21 / AMB22** Wiring Diagram:
 
   |1|
 
-**RTL8722DM MINI** Wiring Diagram:
+**AMB23** Wiring Diagram:
 
   |1-1|
+
+**BW16** Wiring Diagram:
+
+  |1-2|
+
+| **Note**:
+| For BW16 board, you may consider to re-define "LED_PIN" macro to **10** for built-in green LED, or **11** for blue built-in LED, or **12** for red built-in LED to avoid using extra components.
+
 
 | Then open ``“File” -> “Examples” -> “AmebaWiFi” -> “SimpleWebServerWiFi”``
   
@@ -110,6 +118,10 @@ In the webpage, you can turn on/off the LED.
    :width: 814
    :height: 758
    :scale: 50 %
+.. |1-2| image:: /ambd_arduino/media/Use_Ameba_as_Server_to_control_LED/image1-2.png
+   :width: 491
+   :height: 457
+   :scale: 90%
 .. |2| image:: /ambd_arduino/media/Use_Ameba_as_Server_to_control_LED/image2.png
    :width: 716
    :height: 867

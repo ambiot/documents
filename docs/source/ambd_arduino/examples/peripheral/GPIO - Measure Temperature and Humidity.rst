@@ -50,13 +50,18 @@ data, please follow the steps:
 
    |3|
 
-**RTL8722DM / RTL8722CSM** Wiring Diagram:
+**AMB21 / AMB22** Wiring Diagram:
  
   |4|
 
-**RTL8722DM MINI** Wiring Diagram:
+**AMB23** Wiring Diagram:
 
   |4-1|
+
+**BW16** Wiring Diagram:
+
+  |4-2|
+
 
 Open the sample code in ``“Files” -> “Examples” -> “AmebaGPIO” ->
 “DHT_Tester”``. Compile and upload to Ameba, then press the reset button.
@@ -99,6 +104,10 @@ Ameba issues a request to DHT to read the latest data.
    :width: 863
    :height: 789
    :scale: 50 %
+.. |4-2| image:: /ambd_arduino/media/GPIO_Measuring_The_Temperature_And_Humidity/image4-2.png
+   :width: 654
+   :height: 670
+   :scale: 60 %
 .. |5| image:: /ambd_arduino/media/GPIO_Measuring_The_Temperature_And_Humidity/image5.png
    :alt: 5
    :width: 1077

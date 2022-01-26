@@ -28,13 +28,17 @@ the BLE UART service.
 
 Connect the DHT sensor to the Ameba board following the diagram.
 
-**RTL8722DM / RTL8722CSM:**
+**AMB21 / AMB22:**
 
    |1|
 
-**RTL8722DM MINI:**
+**AMB23:**
 
    |1-1|
+
+**BW16:**
+
+   |1-2|
 
 | Ensure that a compatible BLE UART app is installed on your smartphone,
   it is available at:
@@ -45,7 +49,7 @@ Connect the DHT sensor to the Ameba board following the diagram.
 | - Apple App Store:
 | https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->
+| Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->
 “DHT_over_BLEUart”``.
 
    |2|
@@ -68,19 +72,23 @@ Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->
    :width: 863
    :height: 789
    :scale: 50 %
+.. |1-2| image:: /ambd_arduino/media/BLE_DHT_over_BLE_UART/image1-2.png
+   :width: 869
+   :height: 1179
+   :scale: 40 %
 .. |2| image:: /ambd_arduino/media/BLE_DHT_over_BLE_UART/image2.png
    :width: 750
    :height: 1044
-   :scale: 50 %
+   :scale: 60 %
 .. |3| image:: /ambd_arduino/media/BLE_DHT_over_BLE_UART/image3.png
-   :width: 916
-   :height: 1317
-   :scale: 50 %
+   :width: 1440
+   :height: 2880
+   :scale: 30 %
 .. |4| image:: /ambd_arduino/media/BLE_DHT_over_BLE_UART/image4.png
-   :width: 916
-   :height: 1317
-   :scale: 50 %
+   :width: 1440
+   :height: 2880
+   :scale: 30 %
 .. |5| image:: /ambd_arduino/media/BLE_DHT_over_BLE_UART/image5.png
-   :width: 916
-   :height: 1317
-   :scale: 50 %
+   :width: 1440
+   :height: 2880
+   :scale: 30 %

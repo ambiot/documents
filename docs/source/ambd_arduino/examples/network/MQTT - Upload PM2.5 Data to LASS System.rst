@@ -60,10 +60,13 @@ including:
 | |3| 
 
 | Then connect sensors according to UART-PlanTower PMS3003 wiring example. 
-| **RTL8722DM / RTL8722CSM**:
+| **AMB21 / AMB22**:
 | |4| 
-| **RTL8722DM MINI**:
+| **AMB23**:
 | |4-1|
+| **BW16**:
+| |4-2|
+
 | Compile the code and upload it to Ameba. After pressing the Reset button, 
   Ameba will attempt to read PM2.5 data every minute and upload it to LASS
   MQTT-Broker. Open Serial Monitor to see the uploaded data, including client 
@@ -100,6 +103,10 @@ including:
    :width: 697
    :height: 653
    :scale: 80 %
+.. |4-2| image:: /ambd_arduino/media/Upload_PM2/image4-2.png
+   :width: 601
+   :height: 462
+   :scale: 100%
 .. |5| image:: /ambd_arduino/media/Upload_PM2/image5.png
    :width: 1217
    :height: 839

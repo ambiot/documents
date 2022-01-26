@@ -4,10 +4,10 @@
    contain the root `toctree` directive.
 
 ###################################
-|:fire:| User Contribution Examples
+|:fire:| Community Examples
 ###################################
 
-|:smile:| Welcome to share your examples under the **User Contribution Examples** section if you have completed a project using the Ameba boards.
+|:smile:| Welcome to share your examples under the **Community Examples** section if you have completed a project using the Ameba boards.
 For more information on contribution guidelines, please refer to our official `GitHub Wiki <https://github.com/ambiot/ambd_arduino/wiki/Contributing-to-Ameba>`_
 
 |image1|
@@ -15,7 +15,7 @@ For more information on contribution guidelines, please refer to our official `G
 
 .. toctree::
     :maxdepth: 1
-    :caption: User Contribution Examples
+    :caption: Community Examples
 
 .. |image1| image:: ../../../media/user-contribution-example.png
    :width: 6318   
