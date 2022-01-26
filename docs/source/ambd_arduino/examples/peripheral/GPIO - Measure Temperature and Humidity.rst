@@ -60,7 +60,7 @@ data, please follow the steps:
 
 **BW16** Wiring Diagram:
 
-  |4-2|
+  |4-3|
 
 
 Open the sample code in ``“Files” -> “Examples” -> “AmebaGPIO” ->
@@ -104,7 +104,7 @@ Ameba issues a request to DHT to read the latest data.
    :width: 863
    :height: 789
    :scale: 50 %
-.. |4-2| image:: /ambd_arduino/media/GPIO_Measuring_The_Temperature_And_Humidity/image4-2.png
+.. |4-3| image:: /ambd_arduino/media/GPIO_Measuring_The_Temperature_And_Humidity/image4-3.png
    :width: 654
    :height: 670
    :scale: 60 %
