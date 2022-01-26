@@ -19,4 +19,4 @@ Peripherals & Examples
 
 .. tip::
 
-   Welcome to share your examples under the **User Contribution Examples** section if you have completed a project using the Ameba boards :)
+   Welcome to share your examples under the **Community Examples** section if you have completed a project using the Ameba boards :)
