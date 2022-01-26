@@ -3,11 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-###############
-Ameba RTL8722DM
-###############
+#######################
+AMB21 (Ameba RTL8722DM)
+#######################
 
-Welcome to Ameba RTL8722DM Arduino online documentation.
+Welcome to AMB21 Arduino online documentation.
 
 |image1|
 
