@@ -69,7 +69,7 @@ to check whether the position is correct.\ |4|
 
 **AMB23** Wiring Diagram: 
   
-  |5-2|
+  |5-3|
 
 Open the example in ``“Files” -> “Examples” ->
 “AmebaSoftwareSerial” -> “Adafruit_GPS_parsing”``. 
@@ -104,7 +104,7 @@ Open the example in ``“Files” -> “Examples” ->
    :width: 1100
    :height: 809
    :scale: 50 %
-.. |5-2| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image5-2.png
+.. |5-3| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image5-3.png
    :width: 842
    :height: 590
    :scale: 60 %

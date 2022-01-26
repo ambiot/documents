@@ -71,7 +71,7 @@ UART - Communicate with PC over USB to Serial Module
 
 | **BW16** Wiring Diagram:
   
-  |3-2|
+  |3-3|
 
 Next, open a serial port terminal, such as Putty or Tera Term. (Putty is
 used in this example). Open the Putty window, choose “Serial” in
@@ -128,7 +128,7 @@ this:
    :width: 1285
    :height: 1040
    :scale: 50 %
-.. |3-2| image:: /ambd_arduino/media/UART_Communicate_with_the_computer_via_UART/image3-2.png
+.. |3-3| image:: /ambd_arduino/media/UART_Communicate_with_the_computer_via_UART/image3-3.png
    :width: 1020
    :height: 705
    :scale: 60 %

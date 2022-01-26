@@ -42,7 +42,7 @@ wavelength 1/262 = 3.8ms:
 
 **BW16** Wiring Diagram:
 
-  |4|
+  |3-1|
 
 | Open the example code in ``“Examples” -> “AmebaAnalog” -> “TonePlayMelody”``
 | Compile and upload to Ameba, press the reset button. Then you can hear
@@ -73,7 +73,7 @@ to make. Another array, noteDurations, contains the length of each tone,
    :width: 806
    :height: 686
    :scale: 50 %
-.. |4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_PWM_Play_Music/image4.png
+.. |3-1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_PWM_Play_Music/image3-1.png
    :width: 905
    :height: 678
    :scale: 50 %

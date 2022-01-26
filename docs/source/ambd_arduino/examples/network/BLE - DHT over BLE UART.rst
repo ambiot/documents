@@ -49,8 +49,8 @@ Connect the DHT sensor to the Ameba board following the diagram.
 | - Apple App Store:
 | https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-| Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->
-“DHT_over_BLEUart”``.
+| Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->  
+  “DHT_over_BLEUart”``.
 
    |2|
 

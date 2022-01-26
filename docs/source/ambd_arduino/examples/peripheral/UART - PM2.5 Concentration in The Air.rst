@@ -54,7 +54,7 @@ https://www.dfrobot.com/wiki/index.php?title=PM2.5_laser_dust_sensor_SKU:SEN0177
 
 **BW16** Wiring Diagram:
 
-  |3-2|
+  |3-3|
 
 In this example, we do not use the “Set” and “Reset” pins. 
 
@@ -80,7 +80,7 @@ monitor.
    :width: 714
    :height: 642
    :scale: 50 %
-.. |3-2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image3-2.png
+.. |3-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image3-3.png
    :width: 938
    :height: 638
    :scale: 60 %

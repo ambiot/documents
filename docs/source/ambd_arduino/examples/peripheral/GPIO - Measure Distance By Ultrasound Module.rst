@@ -43,7 +43,7 @@ GPIO - Measure Distance By Ultrasound Module
 
 **BW16** Wiring Diagram:
 
-  |2-2|
+  |2-3|
 
 | We pick the resistors with resistance 1:2, in the example we use 10kΩ and 20kΩ. 
 | If you do not have resistors in hand, you can use level converter instead.The TXB0108 8 channel level 
@@ -59,7 +59,7 @@ GPIO - Measure Distance By Ultrasound Module
 
 **BW16** Wiring Diagram:
 
-  |3-2|
+  |3-3|
 
 Next, open the sample code in ``“File” -> “Examples” -> “AmebaGPIO” -> “HCSR04_Ultrasonic”``
 
@@ -113,7 +113,7 @@ Finally, use the formula to calculate the distance.
    :width: 1019
    :height: 768
    :scale: 40 %
-.. |2-2| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image2-2.png
+.. |2-3| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image2-3.png
    :width: 939
    :height: 747
    :scale: 50 %
@@ -125,7 +125,7 @@ Finally, use the formula to calculate the distance.
    :width: 989
    :height: 700
    :scale: 40 %   
-.. |3-2| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image3-2.png
+.. |3-3| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image3-3.png
    :width: 1140
    :height: 757
    :scale: 40 %     

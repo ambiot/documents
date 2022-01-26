@@ -32,7 +32,7 @@ UART – Set Callback Function For UART Communications
 
 **BW16** Wiring Diagram:
   
-  |1-2|
+  |1-3|
 
 Open the example in ``“File” -> “Examples” -> “AmebaSoftwareSerial” ->
 “SoftwareSerial_Irq_Callback”``
@@ -77,7 +77,7 @@ previously received characters.
    :width: 1006
    :height: 798
    :scale: 50 %
-.. |1-2| image:: /ambd_arduino/media/UART_Set_Callback_Function_For_UART_Communications/image1-2.png
+.. |1-3| image:: /ambd_arduino/media/UART_Set_Callback_Function_For_UART_Communications/image1-3.png
    :width: 1020
    :height: 705
    :scale: 60 %

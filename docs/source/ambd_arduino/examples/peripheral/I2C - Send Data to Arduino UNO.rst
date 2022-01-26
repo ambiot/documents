@@ -68,7 +68,7 @@ Then click ``“Sketch” -> “Upload”`` to compile and upload the example to
 
 **BW16** Wiring Diagram:
 
-  |3-2|
+  |3-3|
 
 | Open the Arduino IDE of the Arduino Uno and open the serial monitor
   (“Tools” -> “Serial Monitor”).
@@ -119,7 +119,7 @@ Then click ``“Sketch” -> “Upload”`` to compile and upload the example to
    :width: 1005
    :height: 743
    :scale: 50 %
-.. |3-2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_I2C_Communicate_with_Arduino_UNO_via_I2C/image3-2.png
+.. |3-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_I2C_Communicate_with_Arduino_UNO_via_I2C/image3-3.png
    :width: 923
    :height: 717
    :scale: 60 %

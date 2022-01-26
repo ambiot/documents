@@ -54,7 +54,7 @@ Common pins in ILI9341 TFT LCD with SPI interface:
 
 **BW16 and QVGA TFT LCD** Wiring Diagram:
 
-  |1-2|
+  |1-3|
 
 | Wiring example of Adafruit 2.8” TFT LCD touch shield:
 | Please note that this shield model enables the backlight by default
@@ -73,7 +73,7 @@ Common pins in ILI9341 TFT LCD with SPI interface:
 
 **BW16 and Adafruit 2.8'' TFT LCD touch shield**  Wiring Diagram:
 
-  |2-2|
+  |2-3|
 
 
 Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI9341_TFT_LCD_basic”``
@@ -145,7 +145,7 @@ Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI934
    :width: 1043
    :height: 695
    :scale: 70 %
-.. |1-2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image1-2.png
+.. |1-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image1-3.png
    :width: 1051
    :height: 659
    :scale: 70 %
@@ -157,7 +157,7 @@ Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI934
    :width: 1045
    :height: 664
    :scale: 70 %
-.. |2-2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image2-2.png
+.. |2-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image2-3.png
    :width: 971
    :height: 638
    :scale: 70 %

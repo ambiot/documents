@@ -38,7 +38,7 @@ difference of the length of two consecutive pulse for the servo to work.
 
 **BW16** Wiring Diagram:
 
-  |3|
+  |2-1|
 
 | Open the example, ``“File” -> “Examples” -> “AmebaAnalog” ->
   “ServoSweep”``
@@ -76,7 +76,7 @@ Next, rotate the axis to desired position:
    :width: 800
    :height: 633
    :scale: 50 %
-.. |3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_PWM_Using_A_Servo/image3.png
+.. |2-1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_PWM_Using_A_Servo/image2-1.png
    :alt: 1
    :width: 809
    :height: 598

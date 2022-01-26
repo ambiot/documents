@@ -33,7 +33,7 @@ I2C - Display Data On LCD Screen
 
 | **BW16** Wiring Diagram:
 
-  |2-2|
+  |2-3|
 
 | Open the example in ``“File” -> “Examples” -> “AmebaWire” -> “LCD_HelloWorld”``.
 | Compile and upload to Ameba, then press the reset button.
@@ -92,7 +92,7 @@ parameters represents the meaning of each bit in a byte, i.e., En is bit
    :width: 1434
    :height: 748
    :scale: 50 %
-.. |2-2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_I2C_Display_Data_On_LCD_Screen/image2-2.png
+.. |2-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_I2C_Display_Data_On_LCD_Screen/image2-3.png
    :alt: 2
    :width: 1158
    :height: 621

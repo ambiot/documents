@@ -34,7 +34,7 @@ SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 
 | **BW16 and QVGA TFT LCD** Wiring Diagram:
 
-  |1-2|
+  |1-3|
 
 | **AMB21 / AMB22 and Adafruit 2.8” TFT LCD** Wiring Diagram:
 
@@ -46,7 +46,7 @@ SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 
 | **BW16 and and Adafruit 2.8” TFT LCD** Wiring Diagram:
 
-  |2-3|
+  |2-4|
 
 Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “PM25_on_ILI9341_TFT_LCD”``
   
@@ -76,7 +76,7 @@ inside the circle.
    :width: 1345
    :height: 728
    :scale: 50 %
-.. |1-2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image1-2.png
+.. |1-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image1-3.png
    :width: 1145
    :height: 656
    :scale: 60 %
@@ -88,7 +88,7 @@ inside the circle.
    :width: 1315
    :height: 759
    :scale: 50 %
-.. |2-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image2-3.png
+.. |2-4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image2-4.png
    :width: 624
    :height: 328
    :scale: 100 %

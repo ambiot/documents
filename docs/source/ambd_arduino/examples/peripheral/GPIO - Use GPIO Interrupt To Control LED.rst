@@ -36,7 +36,7 @@ Open the example, ``“Files” -> “Examples” -> “AmebaGPIO” ->
 
 **BW16** Wiring Diagram:
   
-  |3|
+  |2-2|
 
 | Compile and upload the program, press reset.
 | The LED lights at first. Press and release the button, then the LED
@@ -99,7 +99,7 @@ an interrupt, and change the status of the LED.
    :width: 1335
    :height: 934
    :scale: 50 %
-.. |3| image:: /ambd_arduino/media/GPIO_Use_GPIO_Interrupt_To_Control_LED/image3.png
+.. |2-2| image:: /ambd_arduino/media/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2-2.png
    :width: 763
    :height: 777
    :scale: 70 %
