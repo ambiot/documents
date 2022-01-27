@@ -9,7 +9,7 @@ TensorFlow Lite - Micro Speech
 **Preparation**
 :raw-html:`</p>`
 
- - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+ - AmebaD [AMB21 / AMB22 / AMB23] x 1 
  - Adafruit PDM MEMS microphone
  - LED x 4
 
@@ -19,13 +19,13 @@ TensorFlow Lite - Micro Speech
 
 **Procedure**
 
-| **RTL8722DM / RTL8722CSM** Wiring Diagram:
+| **AMB21 / AMB22** Wiring Diagram:
 | Connect the microphone and LEDs to the RTL8722 board following the
   diagram.
   
   |1|
 
-| **RTL8722DM MINI** Wiring Diagram:
+| **AMB23** Wiring Diagram:
 | As RTL8722DM MINI have a built in microphone on the board, 
   there is no need for any external microphone.
   For the LEDs, we will only connect two LEDs and then use the two onboard LEDs (Blue and Green).

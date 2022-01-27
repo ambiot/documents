@@ -9,7 +9,7 @@ Audio Codec – Play and Record Wav Files
 **Materials**
 :raw-html:`</p>`
 
-   - AmebaD [RTL8722DM MINI] x 1
+   - AmebaD [AMB23] x 1
    - MicroSD card
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
@@ -18,7 +18,7 @@ Audio Codec – Play and Record Wav Files
 
 **Procedure**
 
-As RTL8722DM MINI have a built in microphone on the board, there is no need for any external microphone. Copy a sample wav file into the MicroSD card for demo. (In this example, the sample name is “Test_Audio_48khz_16bit_stereo.wav”. ) Then insert the MicroSD card into the adapter at the back of the board.
+As AMB23 have a built in microphone on the board, there is no need for any external microphone. Copy a sample wav file into the MicroSD card for demo. (In this example, the sample name is “Test_Audio_48khz_16bit_stereo.wav”. ) Then insert the MicroSD card into the adapter at the back of the board.
 
   |image1|
 

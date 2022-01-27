@@ -1,1 +1,0 @@
-.. include:: ../../../examples/peripheral/Transmit IR NEC Raw Data And Decode.rst

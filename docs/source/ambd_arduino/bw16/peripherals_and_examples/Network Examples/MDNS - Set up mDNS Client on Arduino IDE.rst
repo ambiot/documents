@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/MDNS - Set up mDNS Client on Arduino IDE.rst

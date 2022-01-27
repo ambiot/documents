@@ -9,7 +9,7 @@ GPIO - Use GPIO Interrupt To Control LED
 **Preparation**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
   - LED x 1
   - Button x 1
 
@@ -26,13 +26,17 @@ hold, when we release the button, the LED dims.
 Open the example, ``“Files” -> “Examples” -> “AmebaGPIO” ->
 “LED_InterruptCtrl”``
 
-**RTL8722DM / RTL8722CSM** Wiring Diagram: 
+**AMB21 / AMB22** Wiring Diagram: 
   
   |1|
 
-**RTL8722DM MINI** Wiring Diagram:
+**AMB23** Wiring Diagram:
   
   |2|
+
+**BW16** Wiring Diagram:
+  
+  |2-2|
 
 | Compile and upload the program, press reset.
 | The LED lights at first. Press and release the button, then the LED
@@ -95,3 +99,7 @@ an interrupt, and change the status of the LED.
    :width: 1335
    :height: 934
    :scale: 50 %
+.. |2-2| image:: /ambd_arduino/media/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2-2.png
+   :width: 763
+   :height: 777
+   :scale: 70 %

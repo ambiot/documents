@@ -1,1 +1,0 @@
-.. include:: ../../../examples/network/Connect to WiFi.rst

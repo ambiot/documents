@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-21 03:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:3 Retrieve Search Set to up
+msgid "WiFi - Set up Client to Retrieve Google Search Information"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:8 Retrieve Search Set to up
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:12 Retrieve Search Set to up
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:14 Retrieve Search Set to up
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:19 Retrieve Search Set to up
+msgid ""
+"In this example, we use Ameba to be a web client to retrieve information "
+"from the Internet."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:21 Retrieve Search Set to up
+msgid ""
+"First, make sure the correct Ameba development board is selected in "
+"“Tools” -> “Board”"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:23 Retrieve Search Set to up
+msgid "Then open ``“File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebClient”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:25 Retrieve Search Set to up
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:68 Retrieve Search Set to up
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:27 Retrieve Search Set to up
+msgid ""
+"In the sample code, modify the highlighted snippet and enter the required"
+" information (ssid, password, key index) required to connect to your WiFi"
+" network."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:31 Retrieve Search Set to up
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:72 Retrieve Search Set to up
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:33 Retrieve Search Set to up
+msgid ""
+"Upload the code and press the reset button on Ameba. Then you can see the"
+" information retrieved from Google is shown in the Arduino serial "
+"monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:37 Retrieve Search Set to up
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:76 Retrieve Search Set to up
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:39 Retrieve Search Set to up
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:43 Retrieve Search Set to up
+msgid "https://www.arduino.cc/en/Reference/WiFiBegin"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:45 Retrieve Search Set to up
+msgid ""
+"To get the information of a WiFi connection: Use ``WiFi.SSID()`` to get "
+"SSID of the current connected network."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:46 Retrieve Search Set to up
+msgid "https://www.arduino.cc/en/Reference/WiFiSSID"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:47 Retrieve Search Set to up
+msgid "Use ``WiFi.RSSI()`` to get the signal strength of the connection."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:48 Retrieve Search Set to up
+msgid "https://www.arduino.cc/en/Reference/WiFiRSSI"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:49 Retrieve Search Set to up
+msgid "Use ``WiFi.localIP()`` to get the IP address of Ameba."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:50 Retrieve Search Set to up
+msgid "https://www.arduino.cc/en/Reference/WiFiLocalIP"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:51 Retrieve Search Set to up
+msgid "Use ``WiFiClient()`` to create a client."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:52 Retrieve Search Set to up
+msgid "https://www.arduino.cc/en/Reference/WiFiClient"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:53 Retrieve Search Set to up
+msgid "Use ``client.connect()`` to connect to the IP address and port specified."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:54 Retrieve Search Set to up
+msgid "https://www.arduino.cc/en/Reference/WiFiClientConnect"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:56 Retrieve Search Set to up
+msgid ""
+"Use ``client.println()`` to print data followed by a carriage return and "
+"newline."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:57 Retrieve Search Set to up
+msgid "https://www.arduino.cc/en/Reference/WiFiClientPrintln"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:59 Retrieve Search Set to up
+msgid ""
+"Use ``client.available()`` to return the number of bytes available for "
+"reading."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:60 Retrieve Search Set to up
+msgid "https://www.arduino.cc/en/Reference/WiFiClientAvailable"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:62 Retrieve Search Set to up
+msgid ""
+"Use ``client.read()`` to read the next byte received from the server the "
+"client is connected to."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:63 Retrieve Search Set to up
+msgid "https://www.arduino.cc/en/Reference/WiFiClientRead"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:65 Retrieve Search Set to up
+msgid ""
+"Use ``client.stop()`` to disconnect from the server the client is "
+"connected to."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Client Google
+#: Information.rst:66 Retrieve Search Set to up
+msgid "https://www.arduino.cc/en/Reference/WiFIClientStop"
+msgstr ""
+

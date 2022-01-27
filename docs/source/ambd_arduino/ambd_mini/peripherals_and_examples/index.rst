@@ -15,8 +15,9 @@ Peripherals & Examples
    Network Examples/index
    Components Used
    Peripheral Examples/index
-   User Contribution Examples/index
+   Community Examples/index
 
 .. tip::
 
-   Welcome to share your examples under the **User Contribution Examples** section if you have completed a project using the Ameba boards :)
+   Welcome to share your examples under the **Community Examples** section if you have completed a project using the Ameba boards :)
+

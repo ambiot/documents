@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/WiFi - Set up SSL Client for HTTPS Communication.rst

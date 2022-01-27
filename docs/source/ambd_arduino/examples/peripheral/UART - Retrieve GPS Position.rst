@@ -9,7 +9,7 @@ UART - Retrieve GPS Position
 **Preparation**
 :raw-html:`</p>`
 
-  -  AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  -  AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
   -  `Adafruit Ultimate GPS Breakout <https://www.adafruit.com/products/746>`__ x 1 
      (Refer to `official document <https://learn.adafruit.com/adafruit-ultimate-gps?view=all>`__)
 
@@ -59,9 +59,17 @@ to check whether the position is correct.\ |4|
       “270116” stands for day 27, January, year 2016.
    -  The last field is checksum. In the example we have \*53 as checksum.
 
-**RTL8722DM / RTL8722CSM** Wiring Diagram: |5|\ 
+**AMB21 / AMB22** Wiring Diagram: 
+  
+  |5|
 
-**RTL8722DM MINI** Wiring Diagram: |5-1|\
+**AMB23** Wiring Diagram: 
+  
+  |5-1|
+
+**AMB23** Wiring Diagram: 
+  
+  |5-3|
 
 Open the example in ``“Files” -> “Examples” ->
 “AmebaSoftwareSerial” -> “Adafruit_GPS_parsing”``. 
@@ -96,6 +104,10 @@ Open the example in ``“Files” -> “Examples” ->
    :width: 1100
    :height: 809
    :scale: 50 %
+.. |5-3| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image5-3.png
+   :width: 842
+   :height: 590
+   :scale: 60 %
 .. |6| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image6.png
    :width: 649
    :height: 410

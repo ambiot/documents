@@ -9,7 +9,7 @@ Audio Codec – Output Sine Wave
 **Materials**
 :raw-html:`</p>`
 
-   - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+   - AmebaD [AMB21 / AMB22 / AMB23] x 1
    - 3.5mm TRS/TRRS breakout x 1 (e.g., Adafruit 2791 / Sparkfun 11570)
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
@@ -18,13 +18,13 @@ Audio Codec – Output Sine Wave
 
 **Procedure**
 
-| **RTL8722DM / RTL8722CSM** Wiring Diagram:
+| **AMB21 / AMB22** Wiring Diagram:
 | Connect the 3.5mm connector to the RTL8722 board following the diagram.
 
    |1|
 
-| **RTL8722DM MINI** Wiring Diagram:
-| As RTL8722DM_MINI have a built in microphone on the board, there 
+| **AMB23** Wiring Diagram:
+| As AMB23 have a built in microphone on the board, there 
   is no need for any external microphone.
 
 Open the example, ``"Files" -> "Examples" -> “AmebaAudioCodec” ->

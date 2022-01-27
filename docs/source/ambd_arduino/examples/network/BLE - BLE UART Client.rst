@@ -9,7 +9,7 @@ BLE – BLE UART Client
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 2
+  - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 2
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Example**

@@ -1,1 +1,0 @@
-.. include:: ../../../examples/peripheral/Display Text On E-Paper.rst

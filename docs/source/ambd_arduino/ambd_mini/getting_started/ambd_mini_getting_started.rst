@@ -169,7 +169,7 @@ Arduino IDE opens a new window with the complete sample code.
 
 |ambd-mini-get-start-11|
 
-| There are onboard LED of TRL8722DM_MINI, the default “LED_BUILTIN” is
+| There are onboard LED of RTL8722DM MINI, the default “LED_BUILTIN” is
   blue onboard LED.
 | Change “LED_BUILTIN” to “LED_B” or “LED_G” for different colour.
   Onboard LEDs options LED_B and LED_G (blue and green).

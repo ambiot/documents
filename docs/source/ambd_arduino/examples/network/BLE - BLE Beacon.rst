@@ -9,7 +9,7 @@ BLE – BLE Beacon
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
   - Android / iOS mobile phone
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`

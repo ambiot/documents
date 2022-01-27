@@ -9,7 +9,7 @@ TensorFlow Lite - Person Detection
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  - AmebaD [AMB21 / AMB22 / AMB23] x 1
   - Arducam Mini 2MP Plus OV2640 SPI Camera Module x 1
   - LED x 3
 
@@ -19,12 +19,12 @@ TensorFlow Lite - Person Detection
 
 **Procedure**
 
-| **RTL8722DM / RTL8722CSM** Wiring Diagram: 
+| **AMB21 / AMB22** Wiring Diagram: 
 | Connect the camera and LEDs to the RTL8722 board following the diagram.
   
   |1|
 
-| **RTL8722DM MINI** Wiring Diagram:
+| **AMB23** Wiring Diagram:
   
   |1-1|
 

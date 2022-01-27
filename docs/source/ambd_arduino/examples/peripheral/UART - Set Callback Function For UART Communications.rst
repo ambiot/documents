@@ -9,7 +9,7 @@ UART – Set Callback Function For UART Communications
 **Materials**
 :raw-html:`</p>`
 
-   - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+   - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
    - USB to TTL Adapter x 1
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
@@ -22,13 +22,17 @@ UART – Set Callback Function For UART Communications
 | A USB to TTL adapter is required for this example. Ensure that you have
   the driver installed and connect it to the Ameba board as shown.
 
-**RTL8722DM / RTL8722CSM** Wiring Diagram:
+**AMB21 / AMB22** Wiring Diagram:
   
   |1|
 
-**RTL8722DM MINI** Wiring Diagram:
+**AMB23** Wiring Diagram:
   
   |1-1|
+
+**BW16** Wiring Diagram:
+  
+  |1-3|
 
 Open the example in ``“File” -> “Examples” -> “AmebaSoftwareSerial” ->
 “SoftwareSerial_Irq_Callback”``
@@ -66,13 +70,17 @@ is true, which in turn allows the main loop to print out all the
 previously received characters.
 
 .. |1| image:: /ambd_arduino/media/UART_Set_Callback_Function_For_UART_Communications/image1.png
-   :width: 1324
-   :height: 760
-   :scale: 50 %
+   :width: 1342
+   :height: 1130
+   :scale: 40 %
 .. |1-1| image:: /ambd_arduino/media/UART_Set_Callback_Function_For_UART_Communications/image1-1.png
    :width: 1006
    :height: 798
    :scale: 50 %
+.. |1-3| image:: /ambd_arduino/media/UART_Set_Callback_Function_For_UART_Communications/image1-3.png
+   :width: 1020
+   :height: 705
+   :scale: 60 %
 .. |2| image:: /ambd_arduino/media/UART_Set_Callback_Function_For_UART_Communications/image2.png
    :width: 721
    :height: 1006

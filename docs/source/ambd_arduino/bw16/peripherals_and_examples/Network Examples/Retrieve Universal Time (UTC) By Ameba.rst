@@ -1,1 +1,0 @@
-.. include:: ../../../examples/network/Retrieve Universal Time (UTC) By Ameba.rst

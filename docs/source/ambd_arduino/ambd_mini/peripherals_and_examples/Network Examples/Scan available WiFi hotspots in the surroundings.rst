@@ -1,1 +1,0 @@
-.. include:: ../../../examples/network/Scan available WiFi hotspots in the surroundings.rst

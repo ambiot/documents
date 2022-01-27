@@ -9,7 +9,7 @@ I2C - Display Data On LCD Screen
 **Preparation**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
   - I2C 2×16 LCD
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
@@ -23,13 +23,17 @@ I2C - Display Data On LCD Screen
   process the data. The processing chip can connect to a microcontroller
   using the I2C interface.
 
-| **RTL8722DM / RTL8722CSM** Wiring Diagram:
+| **AMB21 / AMB22** Wiring Diagram:
 
   |2|
 
-| **RTL8722DM MINI** Wiring Diagram:
+| **AMB23** Wiring Diagram:
 
   |2-1|
+
+| **BW16** Wiring Diagram:
+
+  |2-3|
 
 | Open the example in ``“File” -> “Examples” -> “AmebaWire” -> “LCD_HelloWorld”``.
 | Compile and upload to Ameba, then press the reset button.
@@ -88,6 +92,11 @@ parameters represents the meaning of each bit in a byte, i.e., En is bit
    :width: 1434
    :height: 748
    :scale: 50 %
+.. |2-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_I2C_Display_Data_On_LCD_Screen/image2-3.png
+   :alt: 2
+   :width: 1158
+   :height: 621
+   :scale: 70 %
 .. |3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_I2C_Display_Data_On_LCD_Screen/image3.jpeg
    :alt: 3
    :width: 1429

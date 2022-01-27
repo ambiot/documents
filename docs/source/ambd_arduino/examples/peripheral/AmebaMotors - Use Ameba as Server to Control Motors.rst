@@ -17,7 +17,7 @@ And add the library to Ameba: https://www.arduino.cc/en/Guide/Libraries#toc4
 **Materials**
 :raw-html:`</p>`
 
-   - Ameba D [RTL8722DM / RTL8722CSM ] x 1
+   - AmebaD [AMB21 / AMB22] x 1
    - L298N H-Bridge x 1
    - 4-wheel motorcar or 2-wheel motorcar+Universal wheel
 

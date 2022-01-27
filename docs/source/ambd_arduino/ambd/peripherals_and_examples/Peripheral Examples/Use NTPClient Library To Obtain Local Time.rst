@@ -1,1 +1,0 @@
-.. include:: ../../../examples/peripheral/Use NTPClient Library To Obtain Local Time.rst

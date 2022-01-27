@@ -6,42 +6,51 @@ Peripheral Examples
    :maxdepth: 1
    :caption: Peripheral Library & Examples
    
-   GPIO - Measure The Distance By Ultrasound Module
-   GPIO - Measuring The Temperature And Humidity
-   GPIO - Use GPIO Interrupt To Control LED
-   PWM - Play Music
-   PWM - Using A Servo
-   I2C - Communicate with Arduino UNO via I2C
-   I2C - Display Data On LCD Screen
-   I2C - Use I2C to receive data from Arduino UNO
-   UART - Communicate with the computer via UART
-   UART - Retrieve GPS Position
-   UART - Set Callback Function For UART Communications
-   PM2.5 Concentration In The Air
-   Flash Memory - Store data in FlashEEProm
-   Flash Memory - Use Flash Memory Larger Than 4K
-   SPI - Print Image And Text On LCD Screen
-   SPI - Show PM2.5 Concentration On ILI9341 TFT LCD
-   Timer - Using The Periodic GTimer
-   Timer - Using The Single-Use GTimer
-   Power Save Deep Sleep Mode
-   Power Save Deep Sleep DHT Eink
-   Power Save Deep Sleep DHT LCD
-   Power Save Tickless Mode
-   Use NTPClient Library To Obtain Local Time
-   Transmit IR NEC Raw Data And Decode
-   Display Images On E-Paper
-   Display Text On E-Paper
-   Display User-Generated QR Code on E-Paper
-   A Simple RTC Example
-   A Simple RTC Alarm
-   Watchdog Timer Simple Example
+   AmebaMotors - Use Ameba as Server to Control Motors
    Audio Codec - Basic Input Output
    Audio Codec - FFT
    Audio Codec - Input FFT
    Audio Codec - Output Sine Wave
+   E-Paper - Display Images
+   E-Paper - Display Text 
+   E-Paper - Display User-generated QR Code
+   Flash Memory - Store data in FlashEEProm
+   Flash Memory - Use Flash Memory Larger Than 4K
+   GPIO - Measure Distance By Ultrasound Module
+   GPIO - Measure Temperature and Humidity
+   GPIO - Use GPIO Interrupt To Control LED
+   GTimer - Using The Periodic GTimer
+   GTimer - Using the One-Time Gtimer
+   I2C - Send Data to Arduino UNO
+   I2C - Display Data On LCD Screen
+   I2C - Receive Data from Arduino UNO
+   IR - Transmit IR NEC Raw Data And Decode
+   Power Save - Deep Sleep Mode
+   Power Save - Deep Sleep for DHT and E-paper
+   Power Save - Deep Sleep for DHT and LCD
+   Power Save - Tickless Mode	
+   PWM - Play Music by Buzzer
+   PWM - Servo Control
+   RTC - Simple RTC
+   RTC - Simple RTC Alarm
+   SPI - Print Image And Text On LCD Screen
+   SPI - Show PM2.5 Concentration On ILI9341 TFT LCD
    TensorFlow Lite - Hello World
    TensorFlow Lite - Magic Wand
    TensorFlow Lite - Micro Speech
    TensorFlow Lite - Person Detection
-   AmebaMotors - Use Ameba as Server to Control Motors
+   UART - Communicate with PC over USB to Serial Module
+   UART - Retrieve GPS Position
+   UART - Set Callback Function For UART Communications
+   UART - PM2.5 Concentration in The Air
+   Watchdog - Simple WDG Timer
+
+
+
+   
+
+
+   
+
+
+   

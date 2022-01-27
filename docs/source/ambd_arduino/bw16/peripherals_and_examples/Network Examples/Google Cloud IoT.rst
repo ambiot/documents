@@ -1,1 +1,0 @@
-.. include:: ../../../examples/network/Google Cloud IoT.rst

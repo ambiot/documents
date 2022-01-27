@@ -12,7 +12,7 @@ SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 **Preparation**
 :raw-html:`</p>`
 
-   - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+   - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
    - ILI9341 TFT LCD with SPI interface x 1
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
@@ -44,28 +44,36 @@ Common pins in ILI9341 TFT LCD with SPI interface:
    -  VCC: Connected to 3V or 5V, depends on its spec.
    -  GND: Connected to GND.
 
-**RTL8722DM / RTL8722CSM and QVGA TFT LCD** Wiring Diagram:
+**AMB21/ AMB22 and QVGA TFT LCD** Wiring Diagram:
  
   |1|
 
-**RTL8722DM MINI and QVGA TFT LCD** Wiring Diagram:
+**AMB23 and QVGA TFT LCD** Wiring Diagram:
 
   |1-1|
+
+**BW16 and QVGA TFT LCD** Wiring Diagram:
+
+  |1-3|
 
 | Wiring example of Adafruit 2.8” TFT LCD touch shield:
 | Please note that this shield model enables the backlight by default
   and pin 8 is not for backlight, and the VCC should be connected to 5V.
 
-**RTL8722DM / RTL8722CSM and Adafruit 2.8'' TFT LCD touch shield** Wiring Diagram:
+**AMB21 / AMB22 and Adafruit 2.8'' TFT LCD touch shield** Wiring Diagram:
 
 | Please note that this shield model enables the backlight by default
   and pin 8 is not for backlight, and the VCC should be connected to 5V.
   
   |2|
 
-**RTL8722DM MINI and Adafruit 2.8'' TFT LCD touch shield**  Wiring Diagram:
+**AMB23 and Adafruit 2.8'' TFT LCD touch shield**  Wiring Diagram:
 
   |2-1|
+
+**BW16 and Adafruit 2.8'' TFT LCD touch shield**  Wiring Diagram:
+
+  |2-3|
 
 
 Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI9341_TFT_LCD_basic”``
@@ -137,6 +145,10 @@ Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI934
    :width: 1043
    :height: 695
    :scale: 70 %
+.. |1-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image1-3.png
+   :width: 1051
+   :height: 659
+   :scale: 70 %
 .. |2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image2.png
    :width: 1426
    :height: 1006
@@ -144,6 +156,10 @@ Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI934
 .. |2-1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image2-1.png
    :width: 1045
    :height: 664
+   :scale: 70 %
+.. |2-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image2-3.png
+   :width: 971
+   :height: 638
    :scale: 70 %
 .. |3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Print_Image_And_Text_On_LCD_Screen/image3.png
    :alt: 2

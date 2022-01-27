@@ -1,5 +1,5 @@
 #################################################
-BLE – BLE Battery Service
+BLE - BLE Battery Service
 #################################################
 
 .. role:: raw-html(raw)
@@ -9,8 +9,8 @@ BLE – BLE Battery Service
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1 
-  - Android / iOS mobile phone
+   - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
+   - Android / iOS mobile phone
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Example**

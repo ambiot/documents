@@ -9,8 +9,8 @@ Audio Codec - Input FFT
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
-  - Analog microphone x 1 (e.g., Adafruit 1063 / 1064)
+   - AmebaD [AMB21 / AMB22 / AMB23] x 1
+   - Analog microphone x 1 (e.g., Adafruit 1063 / 1064)
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Example**
@@ -23,12 +23,12 @@ Audio Codec - Input FFT
 | **Procedure**
 | Connect the microphone to the RTL8722 board following the diagram.
 
-| **RTL8722DM / RTL8722CSM** Wiring Diagram:
+| **AMB21 / AMB22** Wiring Diagram:
    
    |1|
 
-| **RTL8722DM MINI** Wiring Diagram:
-| As RTL8722DM_MINI have a built in microphone on the board, there 
+| **AMB23** Wiring Diagram:
+| As AMB23 have a built in microphone on the board, there 
   is no need for any external microphone.
 
 Next, open the example, ``"Files" -> "Examples" -> “AmebaAudioCodec” ->

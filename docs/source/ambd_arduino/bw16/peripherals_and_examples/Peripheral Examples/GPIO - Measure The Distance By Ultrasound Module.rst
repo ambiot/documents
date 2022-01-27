@@ -1,1 +1,0 @@
-.. include:: ../../../examples/peripheral/GPIO - Measure The Distance By Ultrasound Module.rst

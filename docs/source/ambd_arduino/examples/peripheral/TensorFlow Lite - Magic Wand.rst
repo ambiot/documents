@@ -9,7 +9,7 @@ TensorFlow Lite - Magic Wand
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  - AmebaD [AMB21 / AMB22 / AMB23] x 1
   - Adafruit LSM9DS1 accelerometer
   - LED x 2
 
@@ -19,12 +19,12 @@ TensorFlow Lite - Magic Wand
 
 **Procedure**
 
-| **RTL8722DM / RTL8722CSM** Wiring Diagram:
+| **AMB21* / AMB22** Wiring Diagram:
 | Connect the accelerometer and LEDs to the RTL8722 board following the diagram.
 
   |1|
 
-| **RTL8722DM MINI** Wiring Diagram:
+| **AMB23** Wiring Diagram:
 | For RTL8722DM MINI, we will use the onboard LEDs on the board itself.
   
   |1-1|

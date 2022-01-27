@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"POT-Creation-Date: 2022-01-21 03:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:3
-msgid "BLE – BLE Battery Service"
+msgid "BLE - BLE Battery Service"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:8
@@ -223,4 +223,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:102
 msgid "``addService()`` registers the battery service to the Bluetooth stack."
 msgstr ""
+
+#~ msgid "BLE – BLE Battery Service"
+#~ msgstr ""
 

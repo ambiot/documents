@@ -12,7 +12,7 @@ SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 **Preparation**
 :raw-html:`</p>`
 
-  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
   - ILI9341 TFT LCD with SPI interface x 1 
   - Plantower PMS3003 or PMS5003 x 1
 
@@ -23,22 +23,30 @@ SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 | This example extends previous PM2.5 example to show the PM2.5
   concentration on the LCD.
 
-| **RTL8722DM / RTL8722CSM and QVGA TFT LCD** Wiring Diagram:
+| **AMB21 / AMB22 and QVGA TFT LCD** Wiring Diagram:
 | (Note: PMS3003/PMS5003 sensor requires 5V voltage)
 
   |1|
 
-| **RTL8722DM MINI and QVGA TFT LCD** Wiring Diagram:
+| **AMB23 and QVGA TFT LCD** Wiring Diagram:
 
   |1-1|
 
-| **RTL8722DM / RTL8722CSM and Adafruit 2.8” TFT LCD** Wiring Diagram:
+| **BW16 and QVGA TFT LCD** Wiring Diagram:
+
+  |1-3|
+
+| **AMB21 / AMB22 and Adafruit 2.8” TFT LCD** Wiring Diagram:
 
   |2|
 
-| **RTL8722DM MINI and and Adafruit 2.8” TFT LCD** Wiring Diagram:
+| **AMB23 and and Adafruit 2.8” TFT LCD** Wiring Diagram:
 
   |2-2|
+
+| **BW16 and and Adafruit 2.8” TFT LCD** Wiring Diagram:
+
+  |2-4|
 
 Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “PM25_on_ILI9341_TFT_LCD”``
   
@@ -68,6 +76,10 @@ inside the circle.
    :width: 1345
    :height: 728
    :scale: 50 %
+.. |1-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image1-3.png
+   :width: 1145
+   :height: 656
+   :scale: 60 %
 .. |2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image2.png
    :width: 1430
    :height: 820
@@ -76,6 +88,10 @@ inside the circle.
    :width: 1315
    :height: 759
    :scale: 50 %
+.. |2-4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image2-4.png
+   :width: 624
+   :height: 328
+   :scale: 100 %
 .. |3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image3.png
    :width: 683
    :height: 1006

@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/I2C - Send Data to Arduino UNO.rst

@@ -8,16 +8,16 @@ Components Used
 
    * - |image-1|
      - |image-2|
-   * - | :doc:`DHT11_DHT22<../../examples/peripheral/GPIO - Measuring The Temperature And Humidity>`
+   * - | :doc:`DHT11_DHT22<../../examples/peripheral/GPIO - Measure Temperature and Humidity>`
        | Humidity & temperature sensor
-     - | :doc:`HC_SR04<../../examples/peripheral/GPIO - Measure The Distance By Ultrasound Module>`
+     - | :doc:`HC_SR04<../../examples/peripheral/GPIO - Measure Distance By Ultrasound Module>`
        | Distance measurement function
 
    * - |image-3|
      - |image-4|
    * - | :doc:`ILI9341 TFT LCD<../../examples/peripheral/SPI - Print Image And Text On LCD Screen>`
        | TFT LCD display with SPI interface
-     - | :doc:`PMS3003/5003<../../examples/peripheral/PM2.5 Concentration In The Air>`
+     - | :doc:`PMS3003/5003<../../examples/peripheral/UART - PM2.5 Concentration in The Air>`
        | Air quality sensor that detects 
        | concentration of micro particulate matters
    
@@ -29,7 +29,7 @@ Components Used
        | High-quality GPS positioning module
    * - |image-7|
      -
-   * - | :doc:`Tower Pro SG90<../../examples/peripheral/PWM - Using A Servo>`
+   * - | :doc:`Tower Pro SG90<../../examples/peripheral/PWM - Servo Control>`
        | Servo with high output power
      - 
    

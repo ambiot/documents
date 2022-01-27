@@ -1,1 +1,0 @@
-.. include:: ../../../examples/network/Use Firebase To Push Messaging Services.rst
