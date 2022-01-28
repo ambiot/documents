@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/NTP - Retrieve Universal Time (UTC) by NTPClient library.rst

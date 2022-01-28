@@ -1,0 +1,679 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:2
+msgid "Class WiFiClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:3
+msgid "**WiFiClient Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:5
+#: WiFiClient.rst:48 WiFiClient.rst:227 WiFiClient.rst:254 WiFiClient.rst:279
+#: WiFiClient.rst:303 WiFiClient.rst:330 WiFiClient.rst:353 WiFiClient.rst:374
+#: WiFiClient.rst:397 WiFiClient.rst:420
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:6
+msgid "Defines a class of WiFi Client implementation for Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:8
+#: WiFiClient.rst:52 WiFiClient.rst:230 WiFiClient.rst:257 WiFiClient.rst:282
+#: WiFiClient.rst:306 WiFiClient.rst:334 WiFiClient.rst:356 WiFiClient.rst:377
+#: WiFiClient.rst:400 WiFiClient.rst:423
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:9
+msgid "class WiFiClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:16
+msgid "WiFiClient::WiFiClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:16
+#: WiFiClient.rst:50
+msgid ""
+"Constructs a WiFiClient instance that connects to the specified IP "
+"address and port."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:20
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:22
+msgid "WiFiClient::connect"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:22
+#: WiFiClient.rst:228
+msgid "Connect to the IP address and port"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:24
+msgid "WiFiClient::write"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:24
+#: WiFiClient.rst:255
+msgid "Write a single byte into the packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:26
+msgid "WiFiClient::available"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:26
+#: WiFiClient.rst:280
+msgid "Number of bytes remaining in the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:29
+msgid "WiFiClient::read"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:29
+#: WiFiClient.rst:304
+msgid "Read a single byte from the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:32
+msgid "WiFiClient:: peek"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:32
+#: WiFiClient.rst:332
+msgid ""
+"Return the next byte from the current packet without moving on to the "
+"next byte"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:36
+msgid "WiFiClient:: flush"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:36
+#: WiFiClient.rst:354
+msgid "Finish reading the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:38
+msgid "WiFiClient::stop"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:38
+msgid "Stop client connection"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:40
+msgid "WiFiClient::connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:40
+msgid "Check if client is connected, return 1 if connected, 0 if not"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:43
+msgid "WiFiClient::setRecvTimeout"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:43
+#: WiFiClient.rst:421
+msgid "Set receiving timeout"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:46
+msgid "**WiFiClient::WiFiClient**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:53
+msgid "WiFiClient::WiFiClient()"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:54
+msgid "WiFiClient::WiFiClient(uint8_t sock)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:56
+#: WiFiClient.rst:234 WiFiClient.rst:261 WiFiClient.rst:285 WiFiClient.rst:311
+#: WiFiClient.rst:337 WiFiClient.rst:359 WiFiClient.rst:380 WiFiClient.rst:403
+#: WiFiClient.rst:426
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:57
+msgid "sock: socket state, default -1."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:59
+#: WiFiClient.rst:239 WiFiClient.rst:266 WiFiClient.rst:288 WiFiClient.rst:315
+#: WiFiClient.rst:340 WiFiClient.rst:362 WiFiClient.rst:383 WiFiClient.rst:406
+#: WiFiClient.rst:429
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:60
+#: WiFiClient.rst:363 WiFiClient.rst:384
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:62
+#: WiFiClient.rst:243 WiFiClient.rst:270 WiFiClient.rst:292 WiFiClient.rst:319
+#: WiFiClient.rst:344 WiFiClient.rst:365 WiFiClient.rst:386 WiFiClient.rst:409
+#: WiFiClient.rst:432
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:63
+#: WiFiClient.rst:244 WiFiClient.rst:293 WiFiClient.rst:320 WiFiClient.rst:387
+#: WiFiClient.rst:410
+msgid "Example: WiFiWebClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:65
+msgid "**#include <WiFi.h>**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:67
+msgid "**char** ssid[] = \"yourNetwork\"; // your network SSID (name)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:69
+msgid ""
+"**char** pass[] = \"password\"; // your network password (use for WPA, or"
+" use as key for WEP)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:72
+msgid ""
+"**int** keyIndex = 0; // your network key Index number (needed only for "
+"WEP)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:75
+msgid "**int** status = WL_IDLE_STATUS;"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:77
+msgid "//IPAddress server(64,233,189,94); // numeric IP for Google (no DNS)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:79
+msgid ""
+"**char** server[] = \"www.google.com\"; // name address for Google (using"
+" DNS)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:82
+msgid "WiFiClient client;"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:84
+msgid "**void** setup() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:86
+msgid "//Initialize serial and wait for port to open:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:88
+msgid "Serial.begin(9600);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:90
+msgid "**while** (!Serial) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:92
+msgid ";"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:94
+#: WiFiClient.rst:106 WiFiClient.rst:114 WiFiClient.rst:133 WiFiClient.rst:157
+#: WiFiClient.rst:159 WiFiClient.rst:173 WiFiClient.rst:189 WiFiClient.rst:191
+#: WiFiClient.rst:219
+msgid "}"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:96
+msgid "// check for the presence of the shield:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:98
+msgid "**if** (WiFi.status() == WL_NO_SHIELD) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:100
+msgid "Serial.println(\"WiFi shield not present\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:102
+msgid "// don't continue:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:104
+#: WiFiClient.rst:187
+msgid "**while** (**true**);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:108
+msgid "String fv = WiFi.firmwareVersion();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:110
+msgid "**if** (fv != \"1.1.0\") {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:112
+msgid "Serial.println(\"Please upgrade the firmware\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:116
+msgid "// attempt to connect to Wifi network:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:118
+msgid "**while** (status != WL_CONNECTED) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:120
+msgid "Serial.print(\"Attempting to connect to SSID: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:122
+msgid "Serial.println(ssid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:124
+msgid ""
+"// Connect to WPA/WPA2 network. Change this line if using open or WEP "
+"network:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:127
+msgid "status = WiFi.begin(ssid, pass);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:129
+msgid "// wait 10 seconds for connection:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:131
+msgid "delay(10000);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:135
+msgid "Serial.println(\"Connected to wifi\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:137
+msgid "printWifiStatus();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:139
+msgid "Serial.println(\"\\nStarting connection to server...\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:141
+msgid "// if you get a connection, report back via serial:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:143
+msgid "**if** (client.connect(server, 80)) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:145
+msgid "Serial.println(\"connected to server\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:147
+msgid "// Make a HTTP request:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:149
+msgid "client.println(\"GET /search?q=ameba HTTP/1.1\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:151
+msgid "client.println(\"Host: www.google.com\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:153
+msgid "client.println(\"Connection: close\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:155
+msgid "client.println();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:161
+msgid "**void** loop() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:163
+msgid "// if there are incoming bytes available"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:165
+msgid "// from the server, read them and print them:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:167
+msgid "**while** (client.available()) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:169
+msgid "**char** c = client.read();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:171
+msgid "Serial.write(c);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:175
+msgid "// if the server's disconnected, stop the client:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:177
+msgid "**if** (!client.connected()) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:179
+msgid "Serial.println();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:181
+msgid "Serial.println(\"disconnecting from server.\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:183
+msgid "client.stop();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:185
+msgid "// do nothing forevermore:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:193
+msgid "**void** printWifiStatus() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:195
+msgid "// print the SSID of the network you're attached to:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:197
+msgid "Serial.print(\"SSID: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:199
+msgid "Serial.println(WiFi.SSID());"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:201
+msgid "// print your WiFi shield's IP address:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:203
+msgid "IPAddress ip = WiFi.localIP();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:205
+msgid "Serial.print(\"IP Address: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:207
+msgid "Serial.println(ip);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:209
+msgid "// print the received signal strength:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:211
+msgid "**long** rssi = WiFi.RSSI();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:213
+msgid "Serial.print(\"signal strength (RSSI):\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:215
+msgid "Serial.print(rssi);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:217
+msgid "Serial.println(\" dBm\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:221
+#: WiFiClient.rst:248 WiFiClient.rst:273 WiFiClient.rst:297 WiFiClient.rst:324
+#: WiFiClient.rst:347 WiFiClient.rst:368 WiFiClient.rst:391 WiFiClient.rst:414
+#: WiFiClient.rst:435
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:222
+#: WiFiClient.rst:249 WiFiClient.rst:271 WiFiClient.rst:274 WiFiClient.rst:298
+#: WiFiClient.rst:325 WiFiClient.rst:345 WiFiClient.rst:348 WiFiClient.rst:366
+#: WiFiClient.rst:369 WiFiClient.rst:392 WiFiClient.rst:415 WiFiClient.rst:433
+#: WiFiClient.rst:436
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:225
+msgid "**WiFiClient::connect**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:231
+msgid "int WiFiClient::connect(IPAddress ip, uint16_t port)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:232
+msgid "int WiFiClient::connect(const char \\*host, uint16_t port)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:235
+msgid "ip: IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:236
+msgid "host: Host name"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:237
+msgid "port: the port to listen on"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:240
+msgid "Returns “1”: if successful"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:241
+msgid "Returns “0”: if failed"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:246
+#: WiFiClient.rst:295 WiFiClient.rst:322 WiFiClient.rst:389 WiFiClient.rst:412
+msgid ""
+"The details of the example are explained in the previous section of "
+"WiFiClient:: WiFiClient."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:252
+msgid "**WiFiClient::write**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:258
+msgid "size_t WiFiClient::write(uint8_t byte)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:259
+msgid "size_t WiFiClient::write(const uint8_t \\*buf, size_t size)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:262
+msgid "byte: the outgoing byte"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:263
+msgid "buf: the outgoing message"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:264
+#: WiFiClient.rst:316
+msgid "size: the size of the buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:268
+msgid ""
+"The function returns single byte into the packet or returns bytes size "
+"from buffer into the packet."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:277
+msgid "**WiFiClient::available**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:283
+msgid "int WiFiClient::available(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:286
+#: WiFiClient.rst:338 WiFiClient.rst:360 WiFiClient.rst:381 WiFiClient.rst:404
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:289
+msgid "• Function returns the number of bytes available in the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:290
+msgid "Function returns 0: if no data available"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:301
+msgid "**WiFiClient::read**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:307
+msgid "int WiFiClient::read()"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:308
+msgid "int WiFiClient::read(unsigned char\\* buf, size_t size)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:309
+msgid "int WiFiClient::read(char \\*buf, size_t size)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:312
+msgid "buf: buffer to hold incoming packets (char*)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:313
+msgid "size: maximum size of the buffer (int)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:317
+msgid "-1: if no buffer is available"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:328
+msgid "**WiFiClient::peek**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:335
+msgid "int WiFiClient::peek(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:341
+msgid "b: the next byte or character"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:342
+msgid "-1: if none is available"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:351
+msgid "**WiFiClient::flush**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:357
+msgid "void WiFiClient::flush(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:372
+msgid "**WiFiClient::stop**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:375
+msgid "Disconnect from the server. Stop client connection"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:378
+msgid "void WiFiClient::stop(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:395
+msgid "**WiFiClient::connected**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:398
+msgid "Check if client is connected, return 1 if connected, 0 if not."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:401
+msgid "uint8_t WiFiClient::connected(void)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:407
+msgid "The function returns “1” if connected, returns “0” if not connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:418
+msgid "**WiFiClient::setRecvTimeout**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:424
+msgid "int WiFiClient::setRecvTimeout(int timeout)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:427
+msgid "timeout: timeout in seconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WiFiClient.rst:430
+msgid "0"
+msgstr ""
+

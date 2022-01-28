@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:3 To
+msgid "Use NTPClient Library To Obtain Local Time"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:8 To
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:12 To
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:14 To
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:19 To
+msgid ""
+"In this example, we use an NTP client to sync with NTP servers using UDP "
+"and keep track of time locally. Open the example. ``“File” -> "
+"“Examples”-> “NTPClient” -> “Advanced”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:24 To
+msgid "|image1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:73 To
+msgid "image1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:26 To
+msgid ""
+"Modify the highlighted code section (ssid, password) to connect to your "
+"WiFi network."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:28 To
+msgid "|image2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:77 To
+msgid "image2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:32 To
+msgid ""
+"Compile the code and upload it to Ameba. After pressing the Reset button,"
+" Ameba connects to WiFi, gets the UTC time from the NTP server, and "
+"prints out the current time with time zone offset to the serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:34 To
+msgid "|image3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:81 To
+msgid "image3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:36 To
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:40 To
+msgid "Configure NTP client:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:46 To
+msgid ""
+"The NTPClient needs to use a UDP client for communications. A WiFiUDP "
+"client is declared and passed to the NTPClient constructor, along with an"
+" NTP server address, time zone offset in seconds, and update interval in "
+"milliseconds. If detailed configuration is not needed, just passing in "
+"the UDP client is also sufficient, refer to the “NTPClient” -> “Basic” "
+"example."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:53 To
+msgid "Start NTP client:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:56 To
+msgid ""
+"After connecting to WiFi, the NTPClient is started using the ``begin()`` "
+"function, which causes the client to sync with the NTP server and get the"
+" UTC time."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:63 To
+msgid "Get local time:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Use Library Local NTPClient
+#: Obtain Time.rst:66 To
+msgid ""
+"``getFormattedTime()`` is used to format the received UTC time into the "
+"local time zone. ``update()`` is called every loop so that the NTPClient "
+"will sync with the NTP server once every update interval."
+msgstr ""
+

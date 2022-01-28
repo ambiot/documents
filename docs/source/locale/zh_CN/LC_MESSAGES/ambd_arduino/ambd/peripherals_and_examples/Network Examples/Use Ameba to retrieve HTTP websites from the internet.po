@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:3 retrieve the to websites
+msgid "Use Ameba to retrieve HTTP websites from the internet"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:8 retrieve the to websites
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:12 retrieve the to websites
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:14 retrieve the to websites
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:19 retrieve the to websites
+msgid ""
+"In this example, the HttpClient library is used to retrieve a webpage "
+"using the HTTP protocol."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:21 retrieve the to websites
+msgid ""
+"First, make sure that the correct Ameba development board is selected in "
+"“Tools” -> “Board”"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:22 retrieve the to websites
+msgid "Then open ``“File” -> “Examples” -> “AmebaHttp” -> “SimpleHttpExample”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:24 retrieve the to websites
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:56 retrieve the to websites
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:27 retrieve the to websites
+msgid ""
+"In the sample code, modify the highlighted section to enter the "
+"information required (ssid, password, key index) to connect to your WiFi "
+"network."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:29 retrieve the to websites
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:60 retrieve the to websites
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:33 retrieve the to websites
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished. Open the serial monitor in the Arduino IDE and you can see the "
+"information retrieved from the website."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:35 retrieve the to websites
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:64 retrieve the to websites
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:37 retrieve the to websites
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:41 retrieve the to websites
+msgid "Use ``WiFi.begin()`` to establish WiFi connection:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:42 retrieve the to websites
+msgid "https://www.arduino.cc/en/Reference/WiFiBegin"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:43 retrieve the to websites
+msgid "To get the information of a WiFi connection:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:44 retrieve the to websites
+msgid "Use ``WiFi.SSID()`` to get SSID of the current connected network."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:45 retrieve the to websites
+msgid "https://www.arduino.cc/en/Reference/WiFiSSID"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:46 retrieve the to websites
+msgid "Use ``WiFi.RSSI()`` to get the signal strength of the connection."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:47 retrieve the to websites
+msgid "https://www.arduino.cc/en/Reference/WiFiRSSI"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:48 retrieve the to websites
+msgid "Use ``WiFi.localIP()`` to get the IP address of Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:49 retrieve the to websites
+msgid "https://www.arduino.cc/en/Reference/WiFiLocalIP"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:50 retrieve the to websites
+msgid "Use WiFiClient to create a client to handle the WiFi connection."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:51 retrieve the to websites
+msgid "https://www.arduino.cc/en/Reference/WiFiClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:52 retrieve the to websites
+msgid "Use HTTPClient to create a client to handle the HTTP connection."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba HTTP from
+#: internet.rst:54 retrieve the to websites
+msgid "Use ``http.get()`` to send a GET request to the website."
+msgstr ""
+

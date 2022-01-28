@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/WiFi - Scan the surrounding WiFi networks.rst

@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:3
+msgid "BLE – BLE Scan"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:12
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:13
+msgid "Android / iOS mobile phone"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:15
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:19
+msgid "**Introduction**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:21
+msgid ""
+"This example configures the Ameba as a Bluetooth central device, uses the"
+" scan functionality to scan for other Bluetooth devices, and prints out "
+"the results to the serial monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:25
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:27
+msgid "Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> “BLEScan”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:29
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:72
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:32
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:34
+msgid ""
+"Open the Arduino serial monitor, and you should see the scan results of "
+"nearby Bluetooth devices formatted and printed out."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:36
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:76
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:38
+msgid ""
+"If you have the Bluetooth app nRF Connect installed, you can also use it "
+"to send out Bluetooth advertisements for the Ameba to pick up."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:41
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:45
+msgid ""
+"``setScanMode(GAP_SCAN_MODE_ACTIVE)`` is used to set the scan mode. "
+"Active scanning will request for an additional scan response data packet "
+"from a device when it is found. Passive scanning will only look at the "
+"advertisement data, and not request for additional data."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:50
+msgid ""
+"``setScanInterval()`` and ``setScanWindow()`` are used to set the "
+"frequency and duration of scans in milliseconds. A scan will start every "
+"interval duration, and each scan will last for the scan window duration. "
+"The scan window duration should be lesser or equal to the scan interval. "
+"Set a short interval to discover devices rapidly, set a long interval to "
+"conserve power."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:57
+msgid ""
+"``setScanCallback(scanFunction)`` is used to register a function to be "
+"called when scan results are received. This can be used to set a user "
+"function for additional processing of scan data, such as looking for a "
+"specific device. If no function is registered, the scan results are "
+"formatted and printed to the serial monitor by default."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:63
+msgid ""
+"``beginCentral(0)`` is used to start the Bluetooth stack in Central mode."
+" The argument 0 is used to indicate that no clients will be operating in "
+"central mode."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:67
+msgid ""
+"``startScan(5000)`` is used to start the scanning process for a specified"
+" duration of 5000 milliseconds. The scan will repeat according to the set"
+" scan interval and scan window values. After 5000 milliseconds, the scan "
+"process will stop, and will be ready to be started again."
+msgstr ""
+

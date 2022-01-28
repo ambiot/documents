@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:3
+#: File From HTML Open Read SD
+msgid "FatfsSDIO – Read And Open HTML File From SD Card"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:8
+#: File From HTML Open Read SD
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:12
+#: File From HTML Open Read SD
+msgid "AmebaD [RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:13
+#: File From HTML Open Read SD
+msgid "MicroSD card"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:15
+#: File From HTML Open Read SD
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:19
+#: File From HTML Open Read SD
+msgid ""
+"Insert the MicroSD card into your computer and copy the HTML file to your"
+" SD card (Note: put the file at outside and do not put it inside of any "
+"folder in the SD card). Here is a HTML sample for testing, "
+"“Web_test.html”."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:21
+#: File From HTML Open Read SD
+msgid "|image1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:36
+#: File From HTML Open Read SD
+msgid "image1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:23
+#: File From HTML Open Read SD
+msgid ""
+"Then insert the MicroSD card into the onboard SD card reader of RTL8722DM"
+" MINI board."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:24
+#: File From HTML Open Read SD
+msgid ""
+"Open the example, ``“Files” -> “Examples” -> “AmebaFatfsSDIO” -> "
+"“read_html_from_SD_card”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:25
+#: File From HTML Open Read SD
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished. When the connection is established, you should be able to see "
+"the message “To see this page in action, open a browser to "
+"http://xxx.xxx.xxx.xxx” in the serial monitor as shown in the figure:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:27
+#: File From HTML Open Read SD
+msgid "|image2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:40
+#: File From HTML Open Read SD
+msgid "image2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:29
+#: File From HTML Open Read SD
+msgid ""
+"Next, open the address stated in serial monitor in the browser of your "
+"laptop or cell phone under the same WiFi domain. You will see the "
+"following display in your browser:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:32
+#: File From HTML Open Read SD
+msgid "|image3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:44
+#: File From HTML Open Read SD
+msgid "image3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:34
+#: File From HTML Open Read SD
+msgid ""
+"Now you have successfully read and opened the html file saved in your SD "
+"card."
+msgstr ""
+

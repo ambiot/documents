@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:3 Retrieve Securely The To
+msgid "Use Ameba To Securely Retrieve Information From The Internet"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:8 Retrieve Securely The To
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:12 Retrieve Securely The To
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:14 Retrieve Securely The To
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:18 Retrieve Securely The To
+msgid ""
+"This example uses Ameba to securely retrieve information from the "
+"internet using SSL. SSL is an acronym for Secure Sockets Layer. It is a "
+"cryptographic protocol designed to provide communications security over a"
+" computer network, by encrypting the messages passed between server and "
+"client."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:24 Retrieve Securely The To
+msgid ""
+"Open the “WiFiSSLClient” example in ``“File” -> “Examples” -> “AmebaWiFi”"
+" -> “WiFiSSLClient”``."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:27 Retrieve Securely The To
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:49 Retrieve Securely The To
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:29 Retrieve Securely The To
+msgid ""
+"In the sample code, modify the highlighted snippet to reflect your WiFi "
+"network settings."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:32 Retrieve Securely The To
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:53 Retrieve Securely The To
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:34 Retrieve Securely The To
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:37 Retrieve Securely The To
+msgid ""
+"Open the serial monitor in the Arduino IDE and observe as Ameba retrieves"
+" a text file from os.mbed.com."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:40 Retrieve Securely The To
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:57 Retrieve Securely The To
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:42 Retrieve Securely The To
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba From Information
+#: Internet.rst:46 Retrieve Securely The To
+msgid ""
+"Use “WiFiSSLClient client;” to create a client that uses SSL. After "
+"creation, the client can be used in the same way as a regular client."
+msgstr ""
+

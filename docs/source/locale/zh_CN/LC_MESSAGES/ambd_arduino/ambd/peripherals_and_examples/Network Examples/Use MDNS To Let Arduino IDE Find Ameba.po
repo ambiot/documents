@@ -1,0 +1,232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:3 Arduino Find IDE
+#: Let MDNS To
+msgid "Use mDNS To Let Arduino IDE Find Ameba"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:8 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:12 Arduino Find IDE
+#: Let MDNS To
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:14 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:18 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"mDNS (Multicast DNS) is a protocol used in the local area network. It "
+"delivers the network information like IP address and provided services to"
+" others. mDNS is based on the UDP protocol, and it sends packets to "
+"224.0.0.251 with port 5353 under IPv4 address. The naming style for the "
+"service follows the format: **{Instance Name}.{Protocol Name}.{Domain}**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:24 Arduino Find IDE
+#: Let MDNS To
+msgid "Instance Name: used to identify the name of the service"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:25 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"Protocol Name: Divided into two parts, the front end is in regard to the "
+"name of the service, and it adds baseline as a prefix. The rear end is in"
+" regard to the transport protocol name it used, and it also adds baseline"
+" as a prefix"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:29 Arduino Find IDE
+#: Let MDNS To
+msgid "Domain: Local area network in normal cases"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:32 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"For example, Arduino IDE adopts the naming for the mDNS service which is "
+"used in OTA as following: **MyAmeba._arduino._tcp.local**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:36 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"Among the naming example, “MyAmeba” can identify the Ameba device name "
+"and the name “MyAmeba” is changeable. “_arduino._tcp” is the protocol "
+"that Arduino IDE adopts, and the Domain is set as local in common."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:37 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"Open the example, ``“File” -> “Examples” -> “AmebaMDNS” -> "
+"“mdns_on_arduino_ide”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:39 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"You need to input ssid and password of the AP because the example will "
+"use WiFi connection."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:42 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"And you can find out the naming of the service at the place where it "
+"declares MDNS Service. The example uses the default name “MyAmeba” and "
+"the name is changeable."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:43 Arduino Find IDE
+#: Let MDNS To
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:120 Arduino Find
+#: IDE Let MDNS To
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:45 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"Next, go to (“Tools” -> “Port”), and you can find out at least one Serial"
+" Port. This port is simulated by Ameba board via USB. Choose this port "
+"and upload the compiled code to Ameba.\\ |2|\\ After uploading the code, "
+"press the reset button on Ameba and waiting for Ameba to connect with AP "
+"and activate the mDNS service after a while. You can see the Log at the "
+"bottom of the Serial Monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:124 Arduino Find
+#: IDE Let MDNS To
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:53 Arduino Find IDE
+#: Let MDNS To
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:128 Arduino Find
+#: IDE Let MDNS To
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:55 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"Then you can find out the added item “Network Ports” **“MyAmeba at "
+"192.168.1.167 (Ameba RTL8722DM/RTL8722CSM)”**, “MyAmeba” is the device "
+"name we set up, and “IP” is the IP address that AP assigned to Ameba, the"
+" IP address should be the same with the IP shown in the Serial Monitor. "
+"Last, “Ameba RTL8722DM/RTL8722CSM” is the type name of the board, and it "
+"means that Ameba can let Arduino IDE identify the mDNS service "
+"successfully.(We still can not use the Internet to upload the code, and "
+"we will explain this part in the OTA example.)\\ |4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:132 Arduino Find
+#: IDE Let MDNS To
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:65 Arduino Find IDE
+#: Let MDNS To
+msgid "If you cannot find the Network ports on your Arduino IDE, please check："
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:67 Arduino Find IDE
+#: Let MDNS To
+msgid "Does your computer in the same local area network with the Ameba?"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:68 Arduino Find IDE
+#: Let MDNS To
+msgid "Restart the Arduino IDE, and it will find the mDNS service again"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:69 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"Check the Log in Serial Monitor if the Ameba connects to the AP and "
+"activate mDNS service successfully"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:72 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:76 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"The program set up the mDNS service in the beginning, the first parameter"
+" is Instance Name, and it is changeable in this example. The second "
+"parameter is the protocol that the service used, and it would be "
+"“_arduino._tcp” for Arduino IDE. The third parameter is Domain, and it "
+"would be “local” in common. The fourth parameter is the port number for "
+"the service, it is 5000 here and we doesn’t use it in the example."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:87 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"After connected to the network, we set up some text fields for the "
+"service. For the following example, “board” is the name of the field, "
+"“ameba_rtl8721d” is the value of the field. “board” is used to let "
+"Arduino IDE check installed SDK to see if it exists known device or not. "
+"We will use the name of the device if there is known device, users can "
+"change “ameba_rtl8721d” to “yun” or other names to find out what’s the "
+"difference if interested."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:99 Arduino Find IDE
+#: Let MDNS To
+msgid ""
+"Then we add three text fields “auth_upload”, “tcp_check”, and "
+"“ssh_upload”, this example does not activate these services."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:108 Arduino Find
+#: IDE Let MDNS To
+msgid "Next we activate MDNS"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba.rst:114 Arduino Find
+#: IDE Let MDNS To
+msgid "and register to the mDNS service."
+msgstr ""
+

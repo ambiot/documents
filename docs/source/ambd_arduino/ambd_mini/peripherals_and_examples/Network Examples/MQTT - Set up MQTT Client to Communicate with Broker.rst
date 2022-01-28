@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/MQTT - Set up MQTT Client to Communicate with Broker.rst

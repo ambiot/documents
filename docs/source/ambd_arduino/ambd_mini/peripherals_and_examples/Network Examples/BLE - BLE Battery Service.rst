@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/BLE - BLE Battery Service.rst

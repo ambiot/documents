@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:3 over
+msgid "Use MQTT over TLS"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:8 over
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:12 over
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:14 over
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:21 over
+msgid ""
+"In this example, we connect Ameba to a MQTT broker using TLS "
+"authentication. Then send messages as a publisher and receive messages "
+"from as a subscriber. Open the MQTT example ``“File” -> “Examples” -> "
+"“AmebaMQTTClient” -> “MQTT_TLS”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:22 over
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:57 over
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:24 over
+msgid "Please modify the WiFi-related parameters to connect to your WiFi network."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:25 over
+msgid "Modify the MQTT parameters to fit your application:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:26 over
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:61 over
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:29 over
+msgid ""
+"The “mqttServer” refers to the MQTT-Broker, we use the free MQTT sandbox "
+"“test.mosquitto.org” for testing."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:30 over
+msgid ""
+"“clientId” is an identifier for MQTT-Broker to identify the connected "
+"device."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:32 over
+msgid ""
+"“publishTopic” is the topic of the published message, we use “outTopic” "
+"in the example. The devices subscribe to “outTopic” will receive the "
+"message."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:33 over
+msgid "“publishPayload” is the content to be published."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:34 over
+msgid ""
+"“subscribeTopic” is to tell MQTT-broker which topic we want to subscribe "
+"to."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:37 over
+msgid ""
+"Next, compile the code and upload it to Ameba. Press the reset button, "
+"then open the serial monitor"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:38 over
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:65 over
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:42 over
+msgid ""
+"After Ameba is connected to MQTT server, it sends the message “hello "
+"world” to “outTopic”. To see the message, use another MQTT client. Refer "
+"to the MQTT_Basic example guide on how to setup a PC-based MQTT client."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:48 over
+msgid ""
+"If you wish to use TLS client authentication in addition to server "
+"authentication, you will need to generate an OpenSSL private key and "
+"obtain a signed certificate from the server. For testing purposes, signed"
+" certificates can be obtained from test.mosquitto.org by following the "
+"guide at https://test.mosquitto.org/ssl/."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:53 over
+msgid ""
+"Replace the character strings “certificateBuff” and “privateKeyBuff” with"
+" your signed certificate and OpenSSL private key, ensuring that they are "
+"formatted the same way as the shown in the example code. Also uncomment "
+"the highlighted code to enable client authentication, and to change the "
+"MQTT port number."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:54 over
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:69 over
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:55 over
+msgid "|5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use MQTT TLS.rst:73 over
+msgid "5"
+msgstr ""
+

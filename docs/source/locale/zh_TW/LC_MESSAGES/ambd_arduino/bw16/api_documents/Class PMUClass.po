@@ -1,0 +1,753 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:2
+msgid "Class PMUClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:4
+msgid "**PMUClass Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:6
+#: PMUClass.rst:95 PMUClass.rst:117 PMUClass.rst:140 PMUClass.rst:162
+#: PMUClass.rst:184 PMUClass.rst:210 PMUClass.rst:232 PMUClass.rst:255
+#: PMUClass.rst:277 PMUClass.rst:299 PMUClass.rst:321 PMUClass.rst:344
+#: PMUClass.rst:367 PMUClass.rst:390 PMUClass.rst:413 PMUClass.rst:436
+#: PMUClass.rst:459 PMUClass.rst:482 PMUClass.rst:505 PMUClass.rst:528
+#: PMUClass.rst:551 PMUClass.rst:574 PMUClass.rst:597 PMUClass.rst:620
+#: PMUClass.rst:643 PMUClass.rst:666 PMUClass.rst:689 PMUClass.rst:712
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:7
+msgid "Defines a class of using Power Save API"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:9
+#: PMUClass.rst:98 PMUClass.rst:120 PMUClass.rst:143 PMUClass.rst:165
+#: PMUClass.rst:187 PMUClass.rst:213 PMUClass.rst:235 PMUClass.rst:258
+#: PMUClass.rst:280 PMUClass.rst:302 PMUClass.rst:324 PMUClass.rst:347
+#: PMUClass.rst:370 PMUClass.rst:393 PMUClass.rst:416 PMUClass.rst:439
+#: PMUClass.rst:462 PMUClass.rst:485 PMUClass.rst:508 PMUClass.rst:531
+#: PMUClass.rst:554 PMUClass.rst:577 PMUClass.rst:600 PMUClass.rst:623
+#: PMUClass.rst:646 PMUClass.rst:669 PMUClass.rst:692 PMUClass.rst:715
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:10
+msgid "class PMUClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:12
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:15
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:17
+msgid "PMUClass::PMUClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:17
+msgid "Constructs a PMUClass object"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:19
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:21
+msgid "PMUCLASS::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:21
+msgid "Initialize the PMUCLASS and select sleep mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:24
+msgid "PMUCLASS::AONTimerDuration"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:24
+#: PMUClass.rst:141
+msgid "Set the duration of AON Timer"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:26
+msgid "PMUCLASS::AONTimerCmd"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:26
+msgid "Disable the AON Timer for power save usage"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:29
+msgid "PMUCLASS::RTCWakeSetup"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:29
+msgid "Set up RTC Timer for power save usage"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:32
+msgid "PMUCLASS::enable"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:32
+#: PMUClass.rst:211
+msgid "Enable power save deep sleep mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:34
+msgid "PMUCLASS::AONWakeReason"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:34
+msgid "Check AON wakeup source"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:36
+msgid "PMUCLASS::WakePinCheck"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:36
+msgid "Check AON GPIO pin wakeup source"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:38
+msgid "PMUCLASS::AONWakeClear"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:38
+msgid "Clear all the AON wakeup source"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:40
+msgid "PMUCLASS::DsleepWakeStatusGet"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:40
+msgid "Check if deepsleep mode is set"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:42
+msgid "PMUCLASS::TL_sysactive_time"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:42
+msgid "Tickless mode system active time"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:44
+msgid "PMUCLASS::TL_wakelock"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:44
+msgid "Tickless mode wake lock, select acquire of release"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:47
+msgid "PMUCLASS::DS_AON_TIMER_WAKEUP"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:47
+#: PMUClass.rst:49 PMUClass.rst:51 PMUClass.rst:53 PMUClass.rst:55
+#: PMUClass.rst:58 PMUClass.rst:61 PMUClass.rst:64 PMUClass.rst:67
+#: PMUClass.rst:70 PMUClass.rst:73 PMUClass.rst:76 PMUClass.rst:79
+#: PMUClass.rst:82 PMUClass.rst:85 PMUClass.rst:88
+msgid "Return the Wakeup source"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:49
+msgid "PMUCLASS::DS_RTC_WAKEUP"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:51
+msgid "PMUCLASS::TL_UART_WAKEUP"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:53
+msgid "PMUCLASS::TL_RTC_WAKEUP"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:55
+msgid "PMUC LASS::AON_WAKEPIN_WAKEUP_GPIOA12"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:58
+msgid "PMUC LASS::AON_WAKEPIN_WAKEUP_GPIOA13"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:61
+msgid "PMUC LASS::AON_WAKEPIN_WAKEUP_GPIOA14"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:64
+msgid "PMUC LASS::AON_WAKEPIN_WAKEUP_GPIOA15"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:67
+msgid "PMUC LASS::AON_WAKEPIN_WAKEUP_GPIOA16"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:70
+msgid "PMUC LASS::AON_WAKEPIN_WAKEUP_GPIOA17"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:73
+msgid "PMUC LASS::AON_WAKEPIN_WAKEUP_GPIOA18"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:76
+msgid "PMUC LASS::AON_WAKEPIN_WAKEUP_GPIOA19"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:79
+msgid "PMUC LASS::AON_WAKEPIN_WAKEUP_GPIOA20"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:82
+msgid "PMUC LASS::AON_WAKEPIN_WAKEUP_GPIOA21"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:85
+msgid "PMUC LASS::AON_WAKEPIN_WAKEUP_GPIOA25"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:88
+msgid "PMUC LASS::AON_WAKEPIN_WAKEUP_GPIOA26"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:93
+msgid "**PMUCLASS::PMUCLASS**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:96
+msgid "Constructs a PMUCLASS object."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:99
+msgid "PMUCLASS::PMUCLASS(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:101
+#: PMUClass.rst:123 PMUClass.rst:146 PMUClass.rst:168 PMUClass.rst:191
+#: PMUClass.rst:216 PMUClass.rst:238 PMUClass.rst:261 PMUClass.rst:283
+#: PMUClass.rst:305 PMUClass.rst:327 PMUClass.rst:350 PMUClass.rst:373
+#: PMUClass.rst:396 PMUClass.rst:419 PMUClass.rst:442 PMUClass.rst:465
+#: PMUClass.rst:488 PMUClass.rst:511 PMUClass.rst:534 PMUClass.rst:557
+#: PMUClass.rst:580 PMUClass.rst:603 PMUClass.rst:626 PMUClass.rst:649
+#: PMUClass.rst:672 PMUClass.rst:695 PMUClass.rst:718
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:102
+#: PMUClass.rst:217 PMUClass.rst:239 PMUClass.rst:262 PMUClass.rst:284
+#: PMUClass.rst:306 PMUClass.rst:374 PMUClass.rst:397 PMUClass.rst:420
+#: PMUClass.rst:443 PMUClass.rst:466 PMUClass.rst:489 PMUClass.rst:512
+#: PMUClass.rst:535 PMUClass.rst:558 PMUClass.rst:581 PMUClass.rst:604
+#: PMUClass.rst:627 PMUClass.rst:650 PMUClass.rst:673 PMUClass.rst:696
+#: PMUClass.rst:719
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:104
+#: PMUClass.rst:127 PMUClass.rst:149 PMUClass.rst:171 PMUClass.rst:197
+#: PMUClass.rst:219 PMUClass.rst:241 PMUClass.rst:264 PMUClass.rst:286
+#: PMUClass.rst:308 PMUClass.rst:331 PMUClass.rst:354 PMUClass.rst:376
+#: PMUClass.rst:399 PMUClass.rst:422 PMUClass.rst:445 PMUClass.rst:468
+#: PMUClass.rst:491 PMUClass.rst:514 PMUClass.rst:537 PMUClass.rst:560
+#: PMUClass.rst:583 PMUClass.rst:606 PMUClass.rst:629 PMUClass.rst:652
+#: PMUClass.rst:675 PMUClass.rst:698 PMUClass.rst:721
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:105
+#: PMUClass.rst:128 PMUClass.rst:150 PMUClass.rst:172 PMUClass.rst:198
+#: PMUClass.rst:220 PMUClass.rst:287 PMUClass.rst:332 PMUClass.rst:355
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:107
+#: PMUClass.rst:130 PMUClass.rst:152 PMUClass.rst:174 PMUClass.rst:200
+#: PMUClass.rst:222 PMUClass.rst:245 PMUClass.rst:267 PMUClass.rst:289
+#: PMUClass.rst:311 PMUClass.rst:334 PMUClass.rst:357 PMUClass.rst:380
+#: PMUClass.rst:403 PMUClass.rst:426 PMUClass.rst:449 PMUClass.rst:472
+#: PMUClass.rst:495 PMUClass.rst:518 PMUClass.rst:541 PMUClass.rst:564
+#: PMUClass.rst:587 PMUClass.rst:610 PMUClass.rst:633 PMUClass.rst:656
+#: PMUClass.rst:679 PMUClass.rst:702 PMUClass.rst:725
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:109
+#: PMUClass.rst:132 PMUClass.rst:154 PMUClass.rst:176 PMUClass.rst:202
+#: PMUClass.rst:224 PMUClass.rst:247 PMUClass.rst:269 PMUClass.rst:291
+#: PMUClass.rst:313 PMUClass.rst:336 PMUClass.rst:359 PMUClass.rst:382
+#: PMUClass.rst:405 PMUClass.rst:428 PMUClass.rst:451 PMUClass.rst:474
+#: PMUClass.rst:497 PMUClass.rst:520 PMUClass.rst:543 PMUClass.rst:566
+#: PMUClass.rst:589 PMUClass.rst:612 PMUClass.rst:635 PMUClass.rst:658
+#: PMUClass.rst:681 PMUClass.rst:704 PMUClass.rst:727
+msgid ""
+"Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example; "
+"DeepSleepMode; TicklessMode;"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:111
+#: PMUClass.rst:134 PMUClass.rst:156 PMUClass.rst:178 PMUClass.rst:204
+#: PMUClass.rst:226 PMUClass.rst:249 PMUClass.rst:271 PMUClass.rst:293
+#: PMUClass.rst:315 PMUClass.rst:338 PMUClass.rst:361 PMUClass.rst:384
+#: PMUClass.rst:407 PMUClass.rst:430 PMUClass.rst:453 PMUClass.rst:476
+#: PMUClass.rst:499 PMUClass.rst:522 PMUClass.rst:545 PMUClass.rst:568
+#: PMUClass.rst:591 PMUClass.rst:614 PMUClass.rst:637 PMUClass.rst:660
+#: PMUClass.rst:683 PMUClass.rst:706 PMUClass.rst:729
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:112
+#: PMUClass.rst:135 PMUClass.rst:157 PMUClass.rst:179 PMUClass.rst:205
+#: PMUClass.rst:227 PMUClass.rst:250 PMUClass.rst:272 PMUClass.rst:294
+#: PMUClass.rst:316 PMUClass.rst:339 PMUClass.rst:362 PMUClass.rst:385
+#: PMUClass.rst:408 PMUClass.rst:431 PMUClass.rst:454 PMUClass.rst:477
+#: PMUClass.rst:500 PMUClass.rst:523 PMUClass.rst:546 PMUClass.rst:569
+#: PMUClass.rst:592 PMUClass.rst:615 PMUClass.rst:638 PMUClass.rst:661
+#: PMUClass.rst:684 PMUClass.rst:707 PMUClass.rst:730
+msgid "Include “PMUCLASS.h” in order to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:115
+msgid "**PMUCLASS::begin**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:118
+msgid "Initialize the PMUCLASS and select sleep mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:121
+msgid "void PMUClass::begin(uint32_t sleep_mode);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:125
+msgid ""
+"sleep_mode: Selection value, “11” enters the DeepSleep Mode, “22” enters "
+"the Tickless Mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:138
+msgid "**PMUCLASS::AONTimerDuration**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:144
+msgid "void PMUClass::AONTimerDuration(uint32_t duration_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:147
+msgid "duration_ms: Timer duration between 0 to 32760000ms."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:160
+msgid "**PMUCLASS::AONTimerCmd**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:163
+msgid "Disable the AON timer for power save usage."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:166
+msgid "void PMUClass::AONTimerCmd(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:169
+msgid "c: The value in Celcius."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:182
+msgid "**PMUCLASS::RTCWakeSetup**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:185
+msgid "Set up the RTC timer for power save usage."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:189
+msgid ""
+"void PMUClass::RTCWakeSetu(uint32_t duration_d, unit32_t duration_h, "
+"uint32_t duration_m, uint32_t duration_s);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:192
+msgid "duration_d: Set alarm for number of days from 0."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:193
+msgid "duration_h: Set alarm for number of hours from 0."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:194
+msgid "duration_m: Set alarm for number of minutes from 0."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:195
+msgid "duration_s: Set alarm for number of seconds from0."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:208
+msgid "**PMUCLASS::enable**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:214
+msgid "void PMUClass::enable(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:230
+msgid "**PMUCLASS::AONWakeReason**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:233
+msgid "Check the AON wakeup source"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:236
+msgid "uint32_t PMUClass::AONWakeReason(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:243
+msgid ""
+"Returns the value of wakeup deepsleep source. “11” for AON pin, “22” for "
+"AON timer, “33” for RTC timer and “0” for none."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:253
+msgid "**PMUCLASS::WakePinCheck**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:256
+msgid "Check which AON GPIO pins are the wakeup source"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:259
+msgid "int PMUClass::WakePinCheck(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:265
+msgid "Return the pin number for indicating Arduino pin names."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:275
+msgid "**PMUCLASS::AONWakeClear**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:278
+msgid "Clear all AON Wakeup source."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:281
+msgid "void PMUClass::AONWakeClear(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:297
+msgid "**PMUCLASS::DsleepWakeStatusGet**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:300
+msgid "Check if deepsleep mode is set."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:303
+msgid "bool PMUClass::DsleepWakeStatusGet(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:309
+msgid "Return TRUE when enter DeepSleep Mode or FALSE for negative."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:319
+msgid "**PMUCLASS::TL_sysactive_time**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:322
+msgid "Tickless mode system active time."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:325
+msgid "void PMUClass::TL_sysactive_time(uint32_t duration_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:329
+msgid ""
+"duration_ms: Set the duration of system active time. The unit is in "
+"milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:342
+msgid "**PMUCLASS::TL_wakelock**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:345
+msgid "Tickless mode wake lock, select acquire or release."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:348
+msgid "void PMUClass::TL_wakelock(uint32_t select_lock);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:352
+msgid ""
+"select_lock: Wake lock selection value, “1” for acquire or “0” for "
+"release."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:365
+msgid "**PMUCLASS::DS_AON_TIMER_WAKEUP**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:368
+#: PMUClass.rst:391
+msgid "Return the Wakeup source for DeepSleep Mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:371
+msgid "void PMUClass::DS_AON_TIMER_WAKEUP(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:378
+msgid ""
+"This function returns AON Timer as the wakeup source and output it on the"
+" Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:388
+msgid "**PMUCLASS::DS_RTC_WAKEUP**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:394
+msgid "void PMUClass::DS_RTC_WAKEUP(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:401
+#: PMUClass.rst:447
+msgid ""
+"This function returns RTC as the wakeup source and output it on the "
+"Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:411
+msgid "**PMUCLASS::TL_UART_WAKEUP**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:414
+#: PMUClass.rst:437
+msgid "Return the Wakeup source for Tickless Mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:417
+msgid "void PMUClass::TL_UART_WAKEUP(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:424
+msgid ""
+"This function returns LOGUART as the wakeup source and output it on the "
+"Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:434
+msgid "**PMUCLASS::TL_RTC_WAKEUP**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:440
+msgid "void PMUClass::TL_RTC_WAKEUP(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:457
+msgid "**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA12**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:460
+#: PMUClass.rst:483 PMUClass.rst:506 PMUClass.rst:529 PMUClass.rst:552
+#: PMUClass.rst:575 PMUClass.rst:598 PMUClass.rst:621 PMUClass.rst:644
+#: PMUClass.rst:667 PMUClass.rst:690 PMUClass.rst:713
+msgid "Return the Wakeup source."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:463
+msgid "void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA12(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:470
+msgid ""
+"This function returns AON GPIOA12 pin as the wakeup source and output it "
+"on the Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:480
+msgid "**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA13**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:486
+msgid "void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA13(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:493
+msgid ""
+"This function returns AON GPIOA13 pin as the wakeup source and output it "
+"on the Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:503
+msgid "**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA14**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:509
+msgid "void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA14(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:516
+msgid ""
+"This function returns AON GPIOA14 pin as the wakeup source and output it "
+"on the Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:526
+msgid "**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA15**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:532
+msgid "void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA15(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:539
+msgid ""
+"This function returns AON GPIOA15 pin as the wakeup source and output it "
+"on the Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:549
+msgid "**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA16**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:555
+msgid "void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA16(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:562
+msgid ""
+"This function returns AON GPIOA16 pin as the wakeup source and output it "
+"on the Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:572
+msgid "**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA17**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:578
+msgid "void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA17(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:585
+msgid ""
+"This function returns AON GPIOA17 pin as the wakeup source and output it "
+"on the Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:595
+msgid "**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA18**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:601
+msgid "void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA18(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:608
+msgid ""
+"This function returns AON GPIOA18 pin as the wakeup source and output it "
+"on the Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:618
+msgid "**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA19**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:624
+msgid "void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA19(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:631
+msgid ""
+"This function returns AON GPIOA19 pin as the wakeup source and output it "
+"on the Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:641
+msgid "**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA20**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:647
+msgid "void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA20(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:654
+msgid ""
+"This function returns AON GPIOA20 pin as the wakeup source and output it "
+"on the Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:664
+msgid "**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA21**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:670
+msgid "void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA21(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:677
+msgid ""
+"This function returns AON GPIOA21 pin as the wakeup source and output it "
+"on the Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:687
+msgid "**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA25**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:693
+msgid "void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA25(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:700
+msgid ""
+"This function returns AON GPIOA25 pin as the wakeup source and output it "
+"on the Serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:710
+msgid "**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA26**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:716
+msgid "void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA26(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class PMUClass.rst:723
+msgid ""
+"This function returns AON GPIOA26 pin as the wakeup source and output it "
+"on the Serial monitor."
+msgstr ""
+

@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:3
+msgid "UART"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
+" :raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API 文档**"
+" :raw-html:`</p>`"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **構造函數** "
+":raw-html:`</p>`"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:16
+msgid ""
+"**UART(**\\ *unit*\\ [optional]\\ *, baudrate*\\ [optional]\\ *, "
+"databits*\\ [optional]\\ *, stopbit*\\ [optional]\\ *, paritybit*\\ "
+"[optional]\\ *, timeout*\\ [optional]\\ *, tx_pin*\\ [required]\\ *, "
+"rx_pin*\\ [required]\\ **)**"
+msgstr ""
+"**UART(**\\ *unit*\\ [選填]\\ *, baudrate*\\ [選填]\\ *, "
+"databits*\\ [選填]\\ *, stopbit*\\ [選填]\\ *, paritybit*\\ "
+"[選填]\\ *, timeout*\\ [選填]\\ *, tx_pin*\\ [必填]\\ *, "
+"rx_pin*\\ [必填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:17
+msgid ""
+"Create a UART object associated with the given tx and rx pins and "
+"configure it using other parameters. This allows you to then read/write "
+"uart signal on the pins."
+msgstr "創建一個與給定的TX和RX引腳相關聯的UART對象，並通過使用其他相關參數進行配置后，便可以在引腳上做讀寫。"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:19
+msgid "``unit``: The unit ID, either 0 or 3"
+msgstr "``unit``: 代表可使用UART引脚組的ID，可輸入0或3"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:20
+msgid "``baudrate``: 115200 is the recommended baudrate on ameba"
+msgstr "``baudrate``:  在Ameba上使用115200"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:21
+msgid "``databits``: the number of bits for data bits, usually 7 or 8 bits"
+msgstr "``databits``: 數據字節的數量，通常爲7到8個字節"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:22
+msgid "``stopbits``: the number of stop bits, usually 1 or 1.5 or 2 bits"
+msgstr "``stopbits``: 停止位的字節數量，通常爲1字節，1.5字節或2 字節"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:23
+msgid "``paritybit``: for parity check, usually none, odd or even"
+msgstr "``paritybit``: 用於奇偶校驗，數值通常為none（無），odd（奇）或even(偶）"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:24
+msgid "``timeout``: how long uart wait before its timeout (in milliseconds)"
+msgstr "``timeout``: 計算UART在超時（timeout）之前等待的時間 （以毫秒為單位）"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:25
+msgid "``tx_pin``: the transmitter pin, connect the rx pin of the receiver"
+msgstr "``tx_pin``: 發送端引脚，通常與接受器的RX引脚連接"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:26
+msgid "``rx_pin``: the receiver pin, connect to tx pin of the transmitter"
+msgstr "``rx_pin``: 接收端引脚，通常與發送器的TX引脚連接"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:29
+msgid ""
+"Not all parameters are required, thus MicroPython will assume its default"
+" value once left blank, here are the default values for each optional "
+"parameter:"
+msgstr ""
+"並非所有參數都是必需的，因此如果不填，MicroPython將採用其默認值，下表為所有選填參數的默認值"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:35
+msgid "Parameter"
+msgstr "參數"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:35
+msgid "Default Value"
+msgstr "默認值"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:37
+msgid "Unit"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:37
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:41
+msgid "0"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:38
+msgid "Baudrate"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:38
+msgid "115200"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:39
+msgid "Databits"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:39
+msgid "8"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:40
+msgid "Stopbits"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:40
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:41
+msgid "Paritybit"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:42
+msgid "Timeout"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:42
+msgid "10 (ms)"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:46
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
+"html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **方法** :raw-"
+"html:`</p>`"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:50
+msgid "**UART.init()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:51
+msgid "This method initializes and configures the UART."
+msgstr "使用此方法初始化UART配置"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:53
+msgid "**UART.read(**\\ *length*\\ [optional]\\ **)**"
+msgstr "**UART.read(**\\ *length*\\ [選填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:54
+msgid "This method reads the data received in UART buffer."
+msgstr "此方法用於從UART緩存中讀取數據"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:56
+msgid "**length:** the length of the data to receive"
+msgstr "**length**: 接收數據的長度"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:58
+msgid "**UART.readline()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:59
+msgid ""
+"This method is similar to read(), but read a line ending with a newline "
+"character."
+msgstr "此方法功能類似於read()但每次會讀出一行內容"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:61
+msgid "**UART.write(**\\ *buffer*\\ [require]\\ **)**"
+msgstr "**UART.write(**\\ *buffer*\\ [require]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:62
+msgid ""
+"This method sends the buffer of bytes to the bus and returns the number "
+"of bytes written."
+msgstr "該方法將字節緩衝區發送到總線，並返回寫入的字節數。"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:64
+msgid ""
+"**buffer**: data buffer that can be a string, an integer or other data "
+"types"
+msgstr "**buffer**: 字節緩存區，可以存放的數據類型有字符串類型，整型等其他類型。"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:66
+msgid "**UART.irq_enable(**\\ *bool*\\ [optional]\\ **)**"
+msgstr "**UART.irq_enable(**\\ *bool*\\ [選填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:67
+msgid "This method works in 2 way:"
+msgstr "此方法有兩種使用方式:"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:69
+msgid ""
+"Check the status of uart irq when NOT passing any argument, and it will "
+"return True if irq is enabled, False if disabled"
+msgstr "當沒有傳入任何參數，該方法檢查UART中斷請求(IRQ)的狀態，如果啟用了IRQ，它將返回True；如果禁用IRQ，則返回False"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:70
+msgid "Enable/disable uart irq handler by passing True or False as bool"
+msgstr "通過傳入True/False來啓用/禁用UART IRQ處理程序"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:72
+msgid "**UART.irq_handler(**\\ *function*\\ [required]\\ **)**"
+msgstr "**UART.irq_handler(**\\ *function*\\ [必填]\\ **)**"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:73
+msgid ""
+"Passing the python handler to uart irq so that it will be triggered when "
+"an UART event occurs."
+msgstr "將Python處理函數傳遞給UART 中斷請求，以便在發生UART事件時將其觸發。"
+
+#: ../../source/ambd_micropython/source/api_documents/MicroPython_UART.rst:75
+msgid "**function:** a function defined in python or a lambda function"
+msgstr "**function**: 在Python中定義的函數或lambda函數"
+

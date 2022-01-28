@@ -1,0 +1,692 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:2
+msgid "Class BLEDevice"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:3
+msgid "**BLEDevice Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:5
+#: BLEDevice.rst:63 BLEDevice.rst:85 BLEDevice.rst:107 BLEDevice.rst:129
+#: BLEDevice.rst:153 BLEDevice.rst:176 BLEDevice.rst:199 BLEDevice.rst:263
+#: BLEDevice.rst:286 BLEDevice.rst:311 BLEDevice.rst:333 BLEDevice.rst:355
+#: BLEDevice.rst:377 BLEDevice.rst:399 BLEDevice.rst:420 BLEDevice.rst:448
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:6
+msgid "A class used for general control and management of BLE functions."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:8
+#: BLEDevice.rst:66 BLEDevice.rst:88 BLEDevice.rst:110 BLEDevice.rst:132
+#: BLEDevice.rst:156 BLEDevice.rst:179 BLEDevice.rst:202 BLEDevice.rst:266
+#: BLEDevice.rst:289 BLEDevice.rst:314 BLEDevice.rst:336 BLEDevice.rst:358
+#: BLEDevice.rst:380 BLEDevice.rst:402 BLEDevice.rst:423 BLEDevice.rst:451
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:9
+msgid "class BLEDevice"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:16
+msgid ""
+"The public constructor should not be used as this class is intended to be"
+" a singleton class. Access member functions using the object instance "
+"named BLE."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:24
+msgid "BLEDevice::init"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:24
+msgid "Allocate resources required for BLE functionality"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:27
+msgid "BLEDevice::deinit"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:27
+msgid "Free resources used by BLE functionality"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:30
+msgid "BLEDevice::connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:30
+msgid "Check if a BLE device is connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:32
+msgid "BLEDevice::setDeviceName"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:32
+msgid "Set BLE GAP device name"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:34
+msgid "BLEDevice::setDeviceAppearance"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:34
+msgid "Set BLE GAP device appearance"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:36
+msgid "BLEDevice::configAdvert"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:36
+msgid "Configure BLE advertising parameters"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:39
+msgid "BLEDevice::configScan"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:39
+msgid "Configure BLE scan parameters"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:41
+msgid "BLEDevice::setScanCallback"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:41
+msgid "Set callback function for BLE scans"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:44
+msgid "BLEDevice::beginCentral"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:44
+msgid "Start BLE stack in central mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:46
+msgid "BLEDevice::beginPeripheral"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:46
+msgid "Start BLE stack in peripheral mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:48
+msgid "BLEDevice::end"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:48
+msgid "Stop BLE stack"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:50
+msgid "BLEDevice::configServer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:50
+msgid "Configure BLE stack for services"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:52
+msgid "BLEDevice::addService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:52
+msgid "Add a service to the BLE stack"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:54
+msgid "BLEDevice::configClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:54
+msgid "Configure BLE stack for clients"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:56
+msgid "BLEDevice::addClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:56
+msgid "Add a client to the BLE stack"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:58
+msgid "BLEDevice::getLocalAddr"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:58
+msgid "Get local device Bluetooth address"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:61
+msgid "**BLEDevice::init**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:64
+msgid "Allocate resources required for BLE functionality."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:67
+msgid "void init(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:69
+#: BLEDevice.rst:91 BLEDevice.rst:113 BLEDevice.rst:135 BLEDevice.rst:159
+#: BLEDevice.rst:182 BLEDevice.rst:205 BLEDevice.rst:269 BLEDevice.rst:292
+#: BLEDevice.rst:317 BLEDevice.rst:339 BLEDevice.rst:361 BLEDevice.rst:383
+#: BLEDevice.rst:405 BLEDevice.rst:426 BLEDevice.rst:454
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:70
+#: BLEDevice.rst:92 BLEDevice.rst:114 BLEDevice.rst:183 BLEDevice.rst:206
+#: BLEDevice.rst:318 BLEDevice.rst:340
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:72
+#: BLEDevice.rst:94 BLEDevice.rst:116 BLEDevice.rst:138 BLEDevice.rst:163
+#: BLEDevice.rst:185 BLEDevice.rst:208 BLEDevice.rst:273 BLEDevice.rst:297
+#: BLEDevice.rst:320 BLEDevice.rst:342 BLEDevice.rst:365 BLEDevice.rst:387
+#: BLEDevice.rst:408 BLEDevice.rst:430 BLEDevice.rst:457
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:73
+#: BLEDevice.rst:95 BLEDevice.rst:139 BLEDevice.rst:164 BLEDevice.rst:274
+#: BLEDevice.rst:298 BLEDevice.rst:302 BLEDevice.rst:321 BLEDevice.rst:343
+#: BLEDevice.rst:366 BLEDevice.rst:388 BLEDevice.rst:409 BLEDevice.rst:458
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:75
+#: BLEDevice.rst:97 BLEDevice.rst:120 BLEDevice.rst:141 BLEDevice.rst:166
+#: BLEDevice.rst:189 BLEDevice.rst:212 BLEDevice.rst:276 BLEDevice.rst:300
+#: BLEDevice.rst:323 BLEDevice.rst:345 BLEDevice.rst:368 BLEDevice.rst:390
+#: BLEDevice.rst:411 BLEDevice.rst:436 BLEDevice.rst:460
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:76
+#: BLEDevice.rst:190 BLEDevice.rst:324 BLEDevice.rst:369 BLEDevice.rst:391
+msgid "Example: BLEBatteryService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:78
+#: BLEDevice.rst:100 BLEDevice.rst:123 BLEDevice.rst:144 BLEDevice.rst:169
+#: BLEDevice.rst:192 BLEDevice.rst:256 BLEDevice.rst:279 BLEDevice.rst:304
+#: BLEDevice.rst:326 BLEDevice.rst:348 BLEDevice.rst:371 BLEDevice.rst:393
+#: BLEDevice.rst:414 BLEDevice.rst:439 BLEDevice.rst:463
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:80
+msgid ""
+"Call this member function first before using any other member functions "
+"in the BLEDevice class."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:83
+msgid "**BLEDevice::deinit**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:86
+msgid "Free up resources used for BLE functionality."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:89
+msgid "void deinit(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:98
+#: BLEDevice.rst:121 BLEDevice.rst:124 BLEDevice.rst:142 BLEDevice.rst:167
+#: BLEDevice.rst:346 BLEDevice.rst:461
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:102
+msgid "Call this member function last after all other BLE operations are stopped."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:105
+msgid "**BLEDevice::connected**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:108
+msgid "Check if a BLE device is connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:111
+msgid "bool connected(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:118
+msgid ""
+"TRUE if another BLE device is connected, FALSE if no BLE device is "
+"connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:127
+msgid "**BLEDevice::setDeviceName**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:130
+msgid "Set the BLE GAP device name."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:133
+msgid "void setDeviceName(String devName);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:136
+msgid "devName: desired device name contained in an Arduino String object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:148
+msgid ""
+"The GAP device name has a maximum length of 39 characters. Other devices "
+"can see this name after a BLE connection is established. This name is "
+"separate and different from the device name sent in a BLE advertisement, "
+"the names should be the same but are not required."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:151
+msgid "**BLEDevice::setDeviceAppearance**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:154
+msgid "Set the BLE GAP device appearance."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:157
+msgid "void setDeviceAppearance(uint16_t devAppearance);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:161
+msgid ""
+"devAppearance: desired device appearance expressed as a 16-bit unsigned "
+"integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:171
+msgid ""
+"Refer to Bluetooth SIG assigned device appearances at "
+"https://www.bluetooth.com/specifications/gatt/characteristics/."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:174
+msgid "**BLEDevice::configAdvert**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:177
+msgid "Configure BLE advertising parameters."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:180
+msgid "BLEAdvert\\* configAdvert(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:187
+msgid ""
+"A pointer to a BLEAdvert class instance for configuring BLE advertising "
+"parameters."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:194
+msgid ""
+"Use this member function instead of creating a BLEAdvert class instance "
+"manually."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:197
+msgid "**BLEDevice::configScan**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:200
+msgid "Configure BLE scanning parameters."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:203
+msgid "BLEScan\\* configScan(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:210
+msgid ""
+"A pointer to a BLEScan class instance for configuring BLE scanning "
+"parameters."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:213
+#: BLEDevice.rst:277 BLEDevice.rst:301
+msgid "Example: BLEScan"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:215
+msgid "#include \"BLEDevice.h\""
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:217
+msgid "#include \"BLEScan.h\""
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:219
+msgid "int dataCount = 0;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:221
+msgid "void scanFunction(T_LE_CB_DATA\\* p_data) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:223
+#, python-format
+msgid "printf(\"\\r\\nScan Data %d\\r\\n\", ++dataCount);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:225
+msgid "BLE.configScan()->printScanInfo(p_data);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:227
+#: BLEDevice.rst:250 BLEDevice.rst:254
+msgid "}"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:229
+msgid "void setup() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:231
+msgid "BLE.init();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:233
+msgid "BLE.configScan()->setScanMode(GAP_SCAN_MODE_ACTIVE);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:235
+msgid "BLE.configScan()->setScanInterval(500); // Start a scan every 500ms"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:237
+msgid "BLE.configScan()->setScanWindow(250); // Each scan lasts for 250ms"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:239
+msgid "// Provide a callback function to process scan data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:241
+msgid "// If no function is provided, default BLEScan::printScanInfo is used"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:243
+msgid "BLE.setScanCallback(scanFunction);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:245
+msgid "BLE.beginCentral(0);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:247
+msgid ""
+"BLE.configScan()->startScan(5000); // Repeat scans for 5 seconds, then "
+"stop"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:252
+msgid "void loop() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:258
+msgid ""
+"Use this member function instead of creating a BLEScan class instance "
+"manually."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:261
+msgid "**BLEDevice::setScanCallback**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:264
+msgid "Set a callback function for processing BLE scan results."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:267
+msgid "void setScanCallback(void (*scanCB)(T_LE_CB_DATA*));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:271
+msgid ""
+"scanCB: a function that returns nothing and takes in a scan data pointer "
+"of type T_LE_CB_DATA\\*"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:281
+msgid ""
+"Use this member function to set a callback function that will be called "
+"for each BLE device scan result found."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:284
+msgid "**BLEDevice::beginCentral**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:287
+msgid "Start the BLE stack in central mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:290
+msgid "void beginCentral(uint8_t connCount);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:295
+msgid ""
+"connCount: maximum number of allowed connected devices. If no argument is"
+" provided, default to maximum allowed connected devices for specific "
+"board."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:306
+msgid ""
+"Use this member function to start the device in BLE central mode, after "
+"other BLE parameters are set correctly."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:309
+msgid "**BLEDevice::beginPeripheral**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:312
+msgid "Start the BLE stack in peripheral mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:315
+msgid "void beginPeripheral(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:328
+msgid ""
+"Use this member function to start the device in BLE peripheral mode, "
+"after other BLE parameters are set correctly."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:331
+msgid "**BLEDevice::end**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:334
+msgid "Stop the BLE stack."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:337
+msgid "void end(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:350
+msgid ""
+"Use this member function to stop the device operating in either BLE "
+"peripheral mode or BLE central mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:353
+msgid "**BLEDevice::configServer**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:356
+msgid "Configure the BLE stack for services."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:359
+msgid "void configServer(uint8_t maxServiceCount);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:363
+msgid "maxServiceCount: Maximum number of services that will run on the device"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:372
+msgid "Use this member function before adding any service to the BLE stack."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:375
+msgid "**BLEDevice::addService**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:378
+msgid "Add a new service to the BLE stack."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:381
+msgid "void addService(BLEService& newService);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:385
+msgid ""
+"newService: the service to be added, defined using a BLEService class "
+"object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:394
+msgid "N/A"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:397
+msgid "**BLEDevice::configClient**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:400
+msgid "Configure the BLE stack for clients."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:403
+msgid "void configClient();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:406
+msgid "The function requries no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:412
+#: BLEDevice.rst:437
+msgid "Example: BLEBatteryClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:415
+msgid "Use this member function before adding any client to the BLE stack."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:418
+msgid "**BLEDevice::addClient**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:421
+msgid "Add a new client to the BLE stack."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:424
+msgid "BLEClient\\* addClient(uint8_t connId);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:428
+msgid "connId: the connection ID of the connected device to create a client for."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:434
+msgid ""
+"The function returns a pointer to a BLEClient class object, corresponding"
+" to the device with the specified connection ID, which can be used to "
+"access the services and characteristics on the connected device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:440
+msgid "Only one client should be added per connected device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:443
+msgid ""
+"The BLEClient object and any service, characteristic, descriptor "
+"associated with the connected device will be deleted when the device is "
+"disconnected."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:446
+msgid "**BLEDevice::getLocalAddr**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:449
+msgid "Get local device Bluetooth address."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:452
+msgid "void getLocalAddr(uint8_t (&addr)[GAP_BD_ADDR_LEN]);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:455
+msgid "addr: 6 byte array to store local device Bluetooth address."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEDevice.rst:466
+msgid ""
+"Local device address is only available after starting in central or "
+"peripheral mode. This function will return all zeros for the address if "
+"central or peripheral mode is not in operation."
+msgstr ""
+

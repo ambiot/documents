@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:3
+msgid "Use Ameba as UDP server"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:12
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:14
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:20
+msgid ""
+"In this example, we connect Ameba to WiFi and use Ameba to be an UDP "
+"server. When Ameba receives a message from UDP client, it replies "
+"“acknowledged” message to client."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:23
+msgid ""
+"Open the WiFi Web Server example. ``“File” -> “Examples” -> “AmebaWiFi” "
+"-> “WiFiUdpSendReceiveString”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:24
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:73
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:26
+msgid ""
+"Modify the highlighted code section (ssid, password, keyindex) to connect"
+" to your WiFi network."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:27
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:77
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:30
+msgid ""
+"Compile the code and upload it to Ameba. After pressing the Reset button,"
+" Ameba connects to WiFi and starts the UDP server with port 2390. After "
+"the UDP server starts service, Ameba prints the “Starting connection to "
+"server” message and waits for client connection."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:35
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:81
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:37
+msgid ""
+"As to the UDP client, we use “sokit” program in the computer to connect "
+"to UDP server."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:40
+msgid ""
+"Choose client mode and fill in the IP of UDP server (which is the IP of "
+"Ameba) and port 2390, then click “UDP Connect”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:44
+msgid ""
+"After the connection is established, fill in “Hello World” in the Buf 0 "
+"field in sokit and click “Send”. Then you can see the Ameba UDP server "
+"replies “acknowledged”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:45
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:85
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:47
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:52
+msgid "Refer to the Arduino tutorial for detailed information about this example."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:53
+msgid "https://www.arduino.cc/en/Tutorial/WiFiSendReceiveUDPString"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:55
+msgid "First, use ``begin()`` to open an UDP port on Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:56
+msgid "https://www.arduino.cc/en/Reference/WiFiUDPBegin"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:58
+msgid "Use ``parsePacket()`` to wait for data from client."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:59
+msgid "https://www.arduino.cc/en/Reference/WiFiUDPParsePacket"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:62
+msgid ""
+"When a connection is established, use ``remoteIP()`` and ``remotePort()``"
+" to get the IP and port of the client."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:63
+msgid "https://www.arduino.cc/en/Reference/WiFiUDPRemoteIP"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:65
+msgid "Then use ``read()`` to read the data sent by client."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:66
+msgid "https://www.arduino.cc/en/Reference/WiFiUDPRead"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:68
+msgid "To send reply, use ``beginPacket()``, ``write()``, ``end()``."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:69
+msgid "https://www.arduino.cc/en/Reference/WiFiUDPBeginPacket"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:70
+msgid "https://www.arduino.cc/en/Reference/WiFiUDPWrite"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use Ameba UDP as server.rst:71
+msgid "https://www.arduino.cc/en/Reference/WiFiUDPEndPacket"
+msgstr ""
+

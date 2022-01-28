@@ -1,0 +1,746 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:3
+#: Shadow
+msgid "Use Amazon AWS IoT Shadow Service"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:8
+#: Shadow
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:12
+#: Shadow
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:14
+#: Shadow
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:18
+#: Shadow
+msgid "**Introduction**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:19
+#: Shadow
+msgid "Amazon AWS IoT is a cloud IoT service platform:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:23
+#: Shadow
+msgid ""
+"Amazon AWS IoT is a platform that enables you to connect devices to AWS "
+"Services and other devices, secure data and interactions, process and act"
+" upon device data, and enable applications to interact with devices even "
+"when they are offline. (https://aws.amazon.com/iot/how-it-works/)"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:24
+#: Shadow
+msgid "The service architecture of AWS IoT:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:25
+#: Shadow
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:256 Shadow
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:26
+#: Shadow
+msgid ""
+"(Picture from http://docs.aws.amazon.com/iot/latest/developerguide/aws-"
+"iot-how-it-works.html )"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:34
+#: Shadow
+msgid ""
+"In the architecture, Ameba belongs to the upper-left “Things” block. A "
+"TLS secure channel will be established between “Things” and the MQTT "
+"Message Broker. Afterwards, “Things” and “Message Broker” communicate "
+"using MQTT Protocol via this secure channel. Behind the “Message Broker”,"
+" the “Thing Shadows” keeps messages temporarily when Ameba is offline, "
+"and sends the control message to Ameba next time it is connected. The "
+"“Rules Engine” allows you to place restrictions to the behavior of Things"
+" or to connect Things to other services of Amazon."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:36
+#: Shadow
+msgid "**AWS Management Console**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:38
+#: Shadow
+msgid ""
+"First, create an account and sign up for AWS IoT "
+"service:https://aws.amazon.com/"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:40
+#: Shadow
+msgid ""
+"Afterwards, log in to the Amazon Management Console and click “IoT Core” "
+"found under services -> Internet of Things."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:41
+#: Shadow
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:260 Shadow
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:44
+#: Shadow
+msgid ""
+"Then you will enter the home page of AWS IoT. To offer the best service "
+"quality, Amazon offers servers in different regions for users to choose "
+"from."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:45
+#: Shadow
+msgid "Click the region dropdown menu at the upper-right:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:46
+#: Shadow
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:264 Shadow
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:48
+#: Shadow
+msgid "Choose a nearby region."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:49
+#: Shadow
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:268 Shadow
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:51
+#: Shadow
+msgid "Then from Services, go to Onboard then Get Started."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:52
+#: Shadow
+msgid "|6|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:276 Shadow
+msgid "6"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:54
+#: Shadow
+msgid ""
+"Enter the main page of AWS IoT. Under the Onboard a device, click Get "
+"started."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:55
+#: Shadow
+msgid "|5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:272 Shadow
+msgid "5"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:57
+#: Shadow
+msgid "Click Create single thing"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:58
+#: Shadow
+msgid "|7|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:280 Shadow
+msgid "7"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:60
+#: Shadow
+msgid ""
+"Fill in “ameba” on the name field. Attributes represent the status of "
+"Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:61
+#: Shadow
+msgid "|8|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:284 Shadow
+msgid "8"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:65
+#: Shadow
+msgid ""
+"Under the searchable thing attributes. The value of the attributes can be"
+" updated directly by Ameba or by the control side and control side can "
+"request Ameba to set the attribute to desired value."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:66
+#: Shadow
+msgid "Here we add an attribute named “led” with value “0” and click “Next”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:67
+#: Shadow
+msgid "|9|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:288 Shadow
+msgid "9"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:69
+#: Shadow
+msgid "Click Skip creating a certificate at this time and then Create thing"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:70
+#: Shadow
+msgid "|10|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:292 Shadow
+msgid "10"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:74
+#: Shadow
+msgid ""
+"Next, click Policy¸ and create a policy. Policy is used to restrict the "
+"functions that a “thing” can do, it can limit the MQTT actions or "
+"specific topic that can be performed. Learn more about policy:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:75
+#: Shadow
+msgid "http://docs.aws.amazon.com/iot/latest/developerguide/authorization.html"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:78
+#: Shadow
+msgid ""
+"Here we do not place policy on Ameba. Fill in “amebaPolicy” in the Name "
+"field, “iot:*” in Action field and “*” in resources field. Then “Allow”. "
+"Finally, click “Create”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:79
+#: Shadow
+msgid "|11|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:296 Shadow
+msgid "11"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:83
+#: Shadow
+msgid ""
+"Next, we have to setup the TLS certificate. You can choose to user-"
+"defined or generate a certificate by AWS IoT. In this example we click "
+"Create Certificate to generate a TLS certificate."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:84
+#: Shadow
+msgid "|12|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:300 Shadow
+msgid "12"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:87
+#: Shadow
+msgid ""
+"You can see 4 Links. Please download each of the link, “public key”, "
+"“private key”, “Certificate” and “rootCA”. After downloading the 4 files,"
+" click Done and go back to the certificate main page."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:88
+#: Shadow
+msgid "|13|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:304 Shadow
+msgid "13"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:90
+#: Shadow
+msgid "Click Attach a policy in the Actions dropdown menu."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:91
+#: Shadow
+msgid "|14|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:308 Shadow
+msgid "14"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:93
+#: Shadow
+msgid "Choose amebaPolicy and click attach."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:94
+#: Shadow
+msgid "|15|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:312 Shadow
+msgid "15"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT Service.rst:99
+#: Shadow
+msgid ""
+"Then go back to the “Actions” drop-down menu at the top right of the "
+"certificates homepage, click on “Attach thing”, select the thing “ameba” "
+"you just created when the window below appears, then click on “Attach”"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:100 Shadow
+msgid "|16|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:316 Shadow
+msgid "16"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:103 Shadow
+msgid ""
+"Go back to certificate main page and click Certificate and click Activate"
+" in the Actions drop down menu."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:104 Shadow
+msgid "|17|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:320 Shadow
+msgid "17"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:106 Shadow
+msgid ""
+"Next, click Manage, and click Things, then click “ameba” the thing we "
+"created just now."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:107 Shadow
+msgid "Click on Interact and View settings."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:108 Shadow
+msgid "|18|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:324 Shadow
+msgid "18"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:110 Shadow
+msgid "Find out the information of Rest API Endpoint to set Amazon Alexa:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:112 Shadow
+msgid ""
+"REST API endpoint: In the value “https://a1a7oo4baosgyy.iot.us-"
+"east-1.amazonaws.com/things/ameba/shadow”, the part “a1a7oo4baosgyy.iot"
+".us-east-1.amazonaws.com” is the MQTT Broker server address."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:114 Shadow
+msgid ""
+"MQTT topic：The value “$aws/things/ameba/shadow/update” represents the "
+"MQTT topic we will use in the AWS IoT Shadow service (if we use MQTT "
+"only, without AWS IoT Shadow service, then we can specify other topic "
+"name). It is recommended to use “$aws/things/ameba/shadow/update” here."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:118 Shadow
+msgid "**Ameba setting**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:120 Shadow
+msgid ""
+"Open ``“File” -> “Examples” -> “AmebaMQTTClient” -> "
+"“Amazon_AWS_IoT_Basic”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:122 Shadow
+msgid ""
+"In the sample code, modify the highlighted snippet to reflect your WiFi "
+"network settings."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:123 Shadow
+msgid "|19|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:328 Shadow
+msgid "19"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:125 Shadow
+msgid "Then fill in the “thing” name “ameba”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:126 Shadow
+msgid "|20|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:332 Shadow
+msgid "20"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:128 Shadow
+msgid "And the MQTT Broker server address we found earlier in AWS IoT."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:129 Shadow
+msgid "|21|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:336 Shadow
+msgid "21"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:133 Shadow
+msgid ""
+"Next, fill in the root CA used in TLS. Download and make sure the "
+"downloaded root CA contents conforms to the root CA used in the sketch."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:134 Shadow
+msgid "|22|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:340 Shadow
+msgid "22"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:140 Shadow
+msgid ""
+"Next, fill in the certificate we created in the AWS IoT Console (i.e., "
+"client certificate), usually its file name ends with "
+"“-certificate.pem.crt” (e.g., “efae24a533-certificate.pem.crt”). Open the"
+" certificate with a text editor, and adjust its format as follows to use "
+"in the sketch:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:141 Shadow
+msgid "– Add the new line character “\\n” at the end of each line."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:142 Shadow
+msgid "– Add double-quote at the beginning and the end of each line."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:144 Shadow
+msgid "– To concatenate each line as a string, add “\\” at the end of each line."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:145 Shadow
+msgid "– The last line ends with semicolon."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:147 Shadow
+msgid ""
+"Adjust the format of the private key in the same way and add it to "
+"privateKeyBuff."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:148 Shadow
+msgid "|23|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:344 Shadow
+msgid "23"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:150 Shadow
+msgid "**Compile and run**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:153 Shadow
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:156 Shadow
+msgid ""
+"Open the serial monitor in the Arduino IDE and observe as Ameba connects "
+"to the AWS IoT server and sends updates on the LED state variable."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:157 Shadow
+msgid "|24|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:348 Shadow
+msgid "24"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:159 Shadow
+msgid "**Alternatives**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:161 Shadow
+msgid ""
+"Ameba can also retrieve the current LED status variable from the AWS "
+"shadow. This is done by sending a message to the “shadow/get” topic. "
+"Refer to the Amazon_AWS_IoT_with_ACK example code for more information."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:165 Shadow
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:169 Shadow
+msgid "Change led state:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:171 Shadow
+msgid ""
+"In this example, we use GPIO interface to control the led. We set led_pin"
+" to 10 and led_state to 1 by default in the sample code."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:178 Shadow
+msgid "Set up certificate:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:179 Shadow
+msgid "Note that we use the WiFiSSLClient type of wifiClient."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:186 Shadow
+msgid ""
+"WiFiSSLClient inherits Client, so it can be passed as the parameter of "
+"PubSubClient constructor."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:187 Shadow
+msgid "Next, set up TLS certificate required in connection."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:194 Shadow
+msgid "Configure MQTT Broker server"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:195 Shadow
+msgid "Then MQTT PubClient set MQTT Broker server to connect"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:202 Shadow
+msgid "Connect to MQTT Broker server:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:204 Shadow
+msgid ""
+"In ``loop()``, call ``reconnect()`` function and try to connect to MQTT "
+"Broker server and do the certificate verification."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:210 Shadow
+msgid "Subscribe & Publish"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:211 Shadow
+msgid "Next, subscribe to topics."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:219 Shadow
+msgid "There are some common topics:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:220 Shadow
+msgid "“$aws/things/ameba/shadow/update/accepted”,"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:221 Shadow
+msgid "“$aws/things/ameba/shadow/update/rejected”,"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:222 Shadow
+msgid "“$aws/things/ameba/shadow/update/delta”,"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:223 Shadow
+msgid "“$aws/things/ameba/shadow/get/accepted”,"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:224 Shadow
+msgid "“$aws/things/ameba/shadow/get/rejected”"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:225 Shadow
+msgid "Related documentation:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:226 Shadow
+msgid ""
+"http://docs.aws.amazon.com/iot/latest/developerguide/thing-shadow-data-"
+"flow.html"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:228 Shadow
+msgid "Then publish current status::"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:240 Shadow
+msgid "Listen to topic and make response:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:242 Shadow
+msgid ""
+"In the callback function, we listen to the 5 subscribed topics and check "
+"if there are messages of “/shadow/get/accepted”:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Use AWS Amazon IoT
+#: Service.rst:248 Shadow
+msgid ""
+"If there is, the message is from the control side. If the attribute state"
+" in the message is different from current state, publish the new state."
+msgstr ""
+

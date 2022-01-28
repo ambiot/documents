@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:3 Images
+#: On
+msgid "E-Paper - Display Images"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:8 Images
+#: On
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:12 Images
+#: On
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:13 Images
+#: On
+msgid "Waveshare 2.9inch e-Paper HAT (D) x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:15 Images
+#: On
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:22 Images
+#: On
+msgid ""
+"In this example, we use the Ameba RTL8722 module connects to a Waveshare "
+"2.9inch e-Paper module to display a few QR codes. The display uses the "
+"flexible substrate as a base plate, with an interface and a reference "
+"system design."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:26 Images
+#: On
+msgid ""
+"The 2.9” active area contains 296×128 pixels and has 1-bit white/black "
+"full display capabilities. An integrated circuit contains gate buffer, "
+"source buffer, interface, timing control logic, oscillator, etc… are "
+"supplied with each panel."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:30 Images
+#: On
+msgid ""
+"You may refer to the official `2.9inch e-Paper HAT (D) datasheet "
+"<https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
+"Paper_(D)_Specification.pdf>`__ to know more information about this "
+"module."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:32 Images
+#: On
+msgid "Front view of the e-Paper Module:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:34 Images
+#: On
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:95 Images
+#: On
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:36 Images
+#: On
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:38 Images
+#: On
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:99 Images
+#: On
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:40 Images
+#: On
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:103 Images
+#: On
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:42 Images
+#: On
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:44 Images
+#: On
+msgid "|2-1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:107 Images
+#: On
+msgid "2-1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:46 Images
+#: On
+msgid "|3-1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:111 Images
+#: On
+msgid "3-1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:48 Images
+#: On
+msgid "**RTL8720DN(BW16)** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:50 Images
+#: On
+msgid "|2-2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:115 Images
+#: On
+msgid "2-2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:52 Images
+#: On
+msgid "|3-2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:119 Images
+#: On
+msgid "3-2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:54 Images
+#: On
+msgid ""
+"Firstly, you need to prepare a picture/photo in the format of 296×128 "
+"pixels. We can easily find a photo resizing tool online, for example, the"
+" `Online Image Resizer <https://resizeimage.net/>`__."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:59 Images
+#: On
+msgid ""
+"Following the instructions on the website, then download the generated "
+"image in JPG format."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:62 Images
+#: On
+msgid ""
+"Secondly, we use the `Image2LCD "
+"<http://www.waveshare.net/w/upload/3/36/Image2Lcd.7z>`__ tool to transfer"
+" the downloaded 296×128 image into hexadecimal codes. You can visit this "
+"`YouTube <https://www.youtube.com/watch?v=kAmnU5Y96MA&t=363s>`__ link to "
+"get detailed instructions."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:70 Images
+#: On
+msgid ""
+"Download the Eink zip library, AmebaEink.zip, at "
+"https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:72 Images
+#: On
+msgid ""
+"Then install the AmebaEink.zip. Open the “DisplayQR” example in ``“File” "
+"→ “Examples” → “AmebaEink” → “EinkDisplayImage”``:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:74 Images
+#: On
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:123 Images
+#: On
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:81 Images
+#: On
+msgid ""
+"Press the reset button after uploading the sample code, you will need to "
+"wait for around 1-2 seconds for the e-Paper module to fresh its screen. "
+"Then the screen will start to display an image for 5 seconds first, then "
+"3 different QR codes will be displayed every 5 seconds (showing in the "
+"screenshot below, you may scan the QR codes and find out more information"
+" if you wish to). Lastly, a gif which comes in form of 3 frames will be "
+"displayed for a few seconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:83 Images
+#: On
+msgid "|5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:127 Images
+#: On
+msgid "5"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:85 Images
+#: On
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:91 Images
+#: On
+msgid ""
+"[1] We use Good Display GDEH029A1 2.9 Inch / 296×128 Resolution / Partial"
+" Refresh Arduino Sample Code to get the e-Paper successfully Display: "
+"http://www.good-display.com/product/201.html"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:93 Images
+#: On
+msgid ""
+"[2] Provide the link to how to generate a QR code on the E-paper module: "
+"https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-"
+"arduino.html"
+msgstr ""
+

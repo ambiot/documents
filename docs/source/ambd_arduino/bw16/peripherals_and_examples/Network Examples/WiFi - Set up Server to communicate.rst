@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/WiFi - Set up Server to communicate.rst

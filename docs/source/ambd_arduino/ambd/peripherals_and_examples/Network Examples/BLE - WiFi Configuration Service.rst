@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/BLE - WiFi Configuration Service.rst

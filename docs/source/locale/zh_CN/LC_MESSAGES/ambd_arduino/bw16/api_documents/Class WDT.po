@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:2
+msgid "Class WDT"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:3
+msgid "**WDT Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:5 WDT.rst:41
+#: WDT.rst:168 WDT.rst:189 WDT.rst:210 WDT.rst:231
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:6
+msgid "A class used for initializing, starting, stopping watchdog timer."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:8 WDT.rst:44
+#: WDT.rst:171 WDT.rst:192 WDT.rst:213 WDT.rst:236
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:9
+msgid "class WDT"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:16
+msgid ""
+"A public constructor should not be used as this class is intended to be a"
+" singleton class. Access member functions using the object instance named"
+" WDT."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:24
+msgid "WDT:: InitWatchdog"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:24
+msgid "Initializes the watchdog, include time setting, and mode register"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:27
+msgid "WDT:: StartWatchdog"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:27
+msgid "Start the watchdog counting"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:29
+msgid "WDT:: StopWatchdog"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:29
+msgid "Stop the watchdog counting"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:31
+msgid "WDT:: RefreshWatchdog"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:31
+msgid "Refresh the watchdog counting to prevent WDT timeout"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:34
+msgid "WDT:: InitWatchdogIRQ"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:34
+msgid ""
+"Switch the watchdog timer to interrupt mode and register a watchdog timer"
+" timeout interrupt handler"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:39
+msgid "**WDT:: InitWatchdog**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:42
+msgid "Initializes the watchdog, include time setting, and mode register."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:45
+msgid "void InitWatchdog(uint32_t timeout_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:47 WDT.rst:174
+#: WDT.rst:195 WDT.rst:216 WDT.rst:239
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:50
+msgid ""
+"timeout_ms: the watch-dog timer timeout value in millisecond (ms). The "
+"default action after watchdog timer timeout is to reset the whole system."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:52 WDT.rst:177
+#: WDT.rst:198 WDT.rst:219 WDT.rst:243
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:53 WDT.rst:178
+#: WDT.rst:199 WDT.rst:220 WDT.rst:244
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:55 WDT.rst:180
+#: WDT.rst:201 WDT.rst:222 WDT.rst:246
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:56 WDT.rst:181
+#: WDT.rst:202 WDT.rst:223 WDT.rst:247
+msgid "Example: WatchdogTimer"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:58 WDT.rst:125
+msgid "\\/*"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:60
+msgid "\\* This example describes how to use watchdog api."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:62
+msgid "\\* In this example, watchdog is setup to 5s timeout."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:64
+msgid "\\* Watchdog won't bark if we refresh it before timeout in smallTask."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:66
+msgid "\\* The timer is also reloaded after refresh."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:68
+msgid ""
+"\\* Otherwise, while running bigTask, watchdog will restart system in "
+"default or call callback function if registered."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:71 WDT.rst:131
+msgid "\\*/"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:73
+msgid "**#include \"wdt.h\"**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:75
+msgid "**#define RUN_CALLBACK_IF_WATCHDOG_BARKS (0)**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:77
+msgid "WDT wdt;"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:79
+msgid "**void** setup() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:81
+msgid "Serial.begin(115200);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:83
+msgid "wdt.InitWatchdog(5000); // setup 5s watchdog"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:85
+msgid "**#if RUN_CALLBACK_IF_WATCHDOG_BARKS**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:87
+msgid "wdt.InitWatchdogIRQ(my_watchdog_irq_handler, 0);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:89
+msgid "**#else**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:91
+msgid "// system would restart in default when watchdog barks"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:93
+msgid "**#endif**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:95
+msgid "wdt.StartWatchdog(); // enable watchdog timer"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:97
+msgid "successfulTask();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:99
+msgid "failedTask();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:101
+msgid "**while** (1)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:103
+msgid ";"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:105 WDT.rst:109
+#: WDT.rst:123 WDT.rst:147 WDT.rst:153 WDT.rst:161
+msgid "}"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:107
+msgid "**void** loop() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:111
+msgid "**void** successfulTask(**void**) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:113
+msgid "Serial.println(\"......doing small task......\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:115
+msgid "**for** (**int** i = 0; i < 50000000; i++) // dummy task"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:117 WDT.rst:145
+msgid "**asm**\\ (\" nop\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:119 WDT.rst:149
+msgid "Serial.println(\"refresh watchdog\\r\\n\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:121 WDT.rst:151
+msgid "wdt.RefreshWatchdog();"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:127
+msgid "\\* Doing this task will lead to failed refresh the"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:129
+msgid "\\* watchdog timer within the time limits of 5 seconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:133
+msgid "**void** failedTask(**void**) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:135
+msgid "Serial.println(\"......doing big task......\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:137
+msgid "**for** (**int** i = 0; i < 10; i++) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:139
+msgid "Serial.print(\"doing dummy task #\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:141
+msgid "Serial.println(i, DEC);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:143
+msgid "**for** (**int** j = 0; j < 50000000; j++) // dummy task"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:155
+msgid "**void** my_watchdog_irq_handler(**uint32_t** id) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:157
+msgid "printf(\"watchdog barks!!!\\r\\n\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:159
+msgid "WDG_Cmd(DISABLE);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:163 WDT.rst:184
+#: WDT.rst:205 WDT.rst:226 WDT.rst:250
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:164 WDT.rst:185
+#: WDT.rst:206 WDT.rst:227 WDT.rst:251
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:166
+msgid "**WDT:: StartWatchdog**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:169
+msgid "Start the watchdog counting."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:172
+msgid "void StartWatchdog(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:175 WDT.rst:196
+#: WDT.rst:217
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:182 WDT.rst:203
+#: WDT.rst:224 WDT.rst:248
+msgid "You may refer to the code in previous section of WDT::InitWatchdog."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:187
+msgid "**WDT:: StopWatchdog**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:190
+msgid "Stop the watchdog counting."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:193
+msgid "void StopWatchdog(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:208
+msgid "**WDT:: RefreshWatchdog**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:211
+msgid "Refresh the watchdog counting to prevent WDT timeout."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:214
+msgid "void RefreshWatchdog(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:229
+msgid "**WDT:: InitWatchdogIRQ**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:234
+msgid ""
+"Switch the watchdog timer to interrupt mode and register a watchdog timer"
+" timeout interrupt handler. The interrupt handler will be called when the"
+" watchdog timer is timeout."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:237
+msgid "void WDT::InitWatchdogIRQ(wdt_irq_handler handler, uint32_t id)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:240
+msgid "handler: the callback function for WDT timeout interrupt."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class WDT.rst:241
+msgid "id: the parameter for the callback function"
+msgstr ""
+

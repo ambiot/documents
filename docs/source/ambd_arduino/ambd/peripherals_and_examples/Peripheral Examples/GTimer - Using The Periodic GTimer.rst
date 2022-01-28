@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/GTimer - Using The Periodic GTimer.rst

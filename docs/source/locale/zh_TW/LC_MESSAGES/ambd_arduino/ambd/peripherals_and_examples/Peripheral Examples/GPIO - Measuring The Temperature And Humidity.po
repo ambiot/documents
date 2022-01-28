@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:3
+#: Measuring Temperature The
+msgid "GPIO - Measuring The Temperature And Humidity"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:8
+#: Measuring Temperature The
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:12
+#: Measuring Temperature The
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:13
+#: Measuring Temperature The
+msgid "DHT11 or DHT22 or DHT21"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:15
+#: Measuring Temperature The
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:22
+#: Measuring Temperature The
+msgid ""
+"DHT11 is a temperature and humidity sensor which operates at voltage "
+"3.3V~5V. At room temperature, the measurable range of the humidity is 20%"
+" ~ 90%RH with ±5%RH precision, the measurable range of the temperature is"
+" 0 ~ 50℃ with ±2℃ precision."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:26
+#: Measuring Temperature The
+msgid ""
+"Another choice of temperature and humidity sensor is DHT22 sensor, which "
+"has better precision. Its measurable range of the humidity is 0%~100%RH "
+"with ±5%RH precision, the measurable range of the temperature is -40~125 "
+"℃ with ±0.2℃ precision."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:27
+#: Measuring Temperature The
+msgid "There are 4 pins on the sensor:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:29
+#: Measuring Temperature The
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:79
+#: Measuring Temperature The
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:31
+#: Measuring Temperature The
+msgid ""
+"Since one of the 4 pins has no function, there are temperature/humidity "
+"sensors with only 3 pins on the market:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:34
+#: Measuring Temperature The
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:84
+#: Measuring Temperature The
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:36
+#: Measuring Temperature The
+msgid ""
+"DHT is normally in the sleeping mode. To get the temperature/humidity "
+"data, please follow the steps:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:39
+#: Measuring Temperature The
+msgid ""
+"Awake DHT: Ameba toggles low its DATA pin of GPIO. Now the DATA pin of "
+"GPIO serves as digital out to Ameba."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:42
+#: Measuring Temperature The
+msgid ""
+"DHT response: DHT also toggle low its DATA pin of GPIO. Now the DATA pin "
+"of GPIO serves as digital in for Ameba."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:45
+#: Measuring Temperature The
+msgid ""
+"DHT sends data: DHT sends out the temperature/humidity data (which has "
+"size 5 bytes) in a bit by bit manner. To represent each bit, DHT first "
+"pull low the DATA GPIO pin for a while and then pull high. If the "
+"duration of high is smaller than low, it stands for bit 0. Otherwise it "
+"stands for bit 1."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:51
+#: Measuring Temperature The
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:89
+#: Measuring Temperature The
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:53
+#: Measuring Temperature The
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:55
+#: Measuring Temperature The
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:94
+#: Measuring Temperature The
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:57
+#: Measuring Temperature The
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:59
+#: Measuring Temperature The
+msgid "|4-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:98
+#: Measuring Temperature The
+msgid "4-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:61
+#: Measuring Temperature The
+msgid ""
+"Open the sample code in ``“Files” -> “Examples” -> “AmebaGPIO” -> "
+"“DHT_Tester”``. Compile and upload to Ameba, then press the reset button."
+" The result would be shown on the Serial Monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:65
+#: Measuring Temperature The
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:102
+#: Measuring Temperature The
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:67
+#: Measuring Temperature The
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:71
+#: Measuring Temperature The
+msgid ""
+"Use ``dht.readHumidity()`` read the humidity value, and use "
+"``dht.readTemperature()`` to read the temperature value."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO And Humidity.rst:74
+#: Measuring Temperature The
+msgid ""
+"Every time we read the temperature/humidity data, Ameba uses the buffered"
+" temperature/humidity data unless it found the data has expired (i.e., "
+"has not been updated for over 2 seconds). If the data is expired, Ameba "
+"issues a request to DHT to read the latest data."
+msgstr ""
+

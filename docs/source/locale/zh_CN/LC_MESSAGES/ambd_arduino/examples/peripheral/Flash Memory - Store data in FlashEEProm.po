@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:3
+#: Memory Store data in
+msgid "Flash Memory - Store data in FlashEEProm"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:8
+#: Memory Store data in
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:12
+#: Memory Store data in
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:14
+#: Memory Store data in
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:22
+#: Memory Store data in
+msgid ""
+"Ameba provides Flash Memory component for data storage and the data can "
+"be preserved when the power is off if necessary, e.g., compiled program. "
+"To avoid the memory space overlapped with the program on Ameba, the Flash"
+" API uses the tail part of the address space, with sector size 4K."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:25
+#: Memory Store data in
+msgid ""
+"In this example, we store the value of boot times in flash memory. Every "
+"time Ameba reboots, it reads the boot times from flash, increases the "
+"value by 1, and writes it back to flash memory."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:28
+#: Memory Store data in
+msgid ""
+"First open the example, ``“File” -> “Example” -> “AmebaFlashMemory” -> "
+"“FlashMemoryBasic”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:29
+#: Memory Store data in
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:53
+#: Memory Store data in
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:31
+#: Memory Store data in
+msgid "Compile and upload to Ameba, then press the reset button."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:33
+#: Memory Store data in
+msgid ""
+"Open the Serial Monitor, press the reset button for a few times. Then you"
+" can see the boot times value increases."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:34
+#: Memory Store data in
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:57
+#: Memory Store data in
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:36
+#: Memory Store data in
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:40
+#: Memory Store data in
+msgid ""
+"By default, the Flash Memory API uses address 0xFF000~0xFFFFF to store "
+"data."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:43
+#: Memory Store data in
+msgid ""
+"There is limitation when writing to flash memory. That is, you can not "
+"directly write data to the same address you used in last write. To do "
+"that correctly, you need erase the sector first. The Flash API of Ameba "
+"uses a 4K SRAM to record the user modification and do the erase/write "
+"task together."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:49
+#: Memory Store data in
+msgid "Use ``FlashMemory.read()`` to read from Flash memory."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:50
+#: Memory Store data in
+msgid "Use ``FlashMemory.buf[0] = 0x00;`` to manipulate the 4K buf."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:51
+#: Memory Store data in
+msgid "Use ``FlashMemory.update();`` to update the data in buf to Flash Memory."
+msgstr ""
+

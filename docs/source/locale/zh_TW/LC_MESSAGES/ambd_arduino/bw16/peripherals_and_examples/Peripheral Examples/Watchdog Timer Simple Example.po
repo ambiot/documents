@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:3 Simple
+#: Timer
+msgid "Watchdog Timer Simple Example"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:8 Simple
+#: Timer
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:12 Simple
+#: Timer
+msgid "AmebaD RTL8722CSM/RTL8722DM/RTL8722DM MINI Board x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:14 Simple
+#: Timer
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:18 Simple
+#: Timer
+msgid ""
+"In this example, we will use this simple watchdog timer example runs on "
+"the Ameba RTL8722 module to illustrate how to use the watchdog API. "
+"Before we get into the details of the example, let’s briefly go through "
+"the definition of Watchdog as well as it’s working principles."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:23 Simple
+#: Timer
+msgid "**Watchdog**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:25 Simple
+#: Timer
+msgid ""
+"Watchdog Timer (WDT) is a hardware timer that is used to detect the "
+"occurrence of a software fault, then automatically generates a system "
+"reset or a watchdog interrupt on the expiry of a programmed period."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:29 Simple
+#: Timer
+msgid ""
+"In layman terms, imagine in the situation while your micro-controller is "
+"confused in an infinity loop, or any case like the micro-controller hang "
+"while performing some tasks. The normal troubleshooting method would be "
+"to press the reset button and jump out of the infinity loop. However, is "
+"it practically impossible to do press on the button all time, therefore, "
+"the watchdog timer that embedded inside the micro-controller would help "
+"with this situation."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:37 Simple
+#: Timer
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:75 Simple
+#: Timer
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:39 Simple
+#: Timer
+msgid "**Feed the Dog**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:43 Simple
+#: Timer
+msgid ""
+"If you have a dog in your home. You need to feed that dog at a regular "
+"interval. if you can’t feed one day, it will bite you! And likewise, this"
+" is the working logic behind the watchdog timer."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:48 Simple
+#: Timer
+msgid ""
+"In our example, we created 2 tasks that contain some loop that runs "
+"repeatedly, one is called “Small_Task” and the other is called "
+"“Big_Task”. We are enabling the watchdog timer is loaded with an initial "
+"value (5 seconds) greater than the total delay in the “Small_Task”, but "
+"shorter than the “Big_Task”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:53 Simple
+#: Timer
+msgid ""
+"For the successful case, the watchdog is being refreshed/feed within 5 "
+"seconds, however, for the failed case, the loop is under processing and "
+"the watchdog is not being fresh after 5 seconds, which triggers the "
+"watchdog (dog barks), an interrupt is generated to reset the processor. "
+"Likewise, the watchdog timer protects the micro-controller from the "
+"hanging case."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:56 Simple
+#: Timer
+msgid ""
+"Then we move to the coding part for this example, for this example, you "
+"will only need the RTL8722CSM/RTL8722DM/RTL8722DM MINI Board itself."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:61 Simple
+#: Timer
+msgid ""
+"Firstly, make sure the correct Ameba development board is selected in "
+"Arduino IDE: ``“Tools” -> “Board” -> “RTL8722CSM/RTL8722DM” (or "
+"“RTL8722DM MINI”)``. Then open the “Watchdog Timer” example in ``“File” "
+"-> “Examples” -> “AmebaWatchdog” -> “Watchdog Timer”``:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:63 Simple
+#: Timer
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:79 Simple
+#: Timer
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:69 Simple
+#: Timer
+msgid ""
+"Upon successfully upload the sample code, open the serial monitor, and "
+"press the reset button. You will find that the “Small_Task” can refresh "
+"the watchdog within the 5 seconds (initialized in the watchdog timer). "
+"However, the “Big_Task” will not be able to refresh the watchdog within 5"
+" seconds, which the watchdog “barks” then the microcontroller reset."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:71 Simple
+#: Timer
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:83 Simple
+#: Timer
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:73 Simple
+#: Timer
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Watchdog Example.rst:87 Simple
+#: Timer
+msgid "4"
+msgstr ""
+

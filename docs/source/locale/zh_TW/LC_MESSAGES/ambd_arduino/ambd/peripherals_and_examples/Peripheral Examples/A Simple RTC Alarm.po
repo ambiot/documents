@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/peripheral/A Alarm.rst:3 RTC Simple
+msgid "A Simple RTC Alarm"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Alarm.rst:8 RTC Simple
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Alarm.rst:12 RTC Simple
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Alarm.rst:14 RTC Simple
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Alarm.rst:18 RTC Simple
+msgid ""
+"This example demonstrates how to use the RTC library methods to create a "
+"RTC Alarm, so that to do some tasks when an alarm is matched. In "
+"particular, the RTC time is set at 16:00:00 and an alarm at 16:00:10. "
+"When the time matches, “Alarm Match” information will be printed on the "
+"serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Alarm.rst:23 RTC Simple
+msgid ""
+"First, select the correct Ameba development board from the Arduino IDE: "
+"“Tools” -> “Board”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Alarm.rst:26 RTC Simple
+msgid ""
+"Then open the \"RTCAlarm\" example from: ``“File” -> “Examples” -> “RTC” "
+"-> “RTCAlarm”``:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Alarm.rst:29 RTC Simple
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Alarm.rst:38 RTC Simple
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Alarm.rst:31 RTC Simple
+msgid ""
+"In the example, the RTC time is set at 16:00:00 and an alarm is set at "
+"16:00:10. Upon successfully upload the sample code and press the reset "
+"button. When the alarm time (10 seconds) is reached the attached "
+"interrupt function will print the following information: “Alarm Matched!”"
+" showing in this figure below."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Alarm.rst:36 RTC Simple
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/A Alarm.rst:42 RTC Simple
+msgid "2"
+msgstr ""
+

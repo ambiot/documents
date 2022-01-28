@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/bw16/api_documents/Readme NTPClient.rst:3
+msgid "Readme"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Readme NTPClient.rst:7
+msgid ""
+"The NTPClient library is based on the NTPClient library written by "
+"Fabrice Weinberg, which can be found at https://github.com/arduino-"
+"libraries/NTPClient."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Readme NTPClient.rst:8
+msgid "These include,"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Readme NTPClient.rst:10
+msgid "``NTPClient.cpp``"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Readme NTPClient.rst:11
+msgid "``NTPClient.h``"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Readme NTPClient.rst:13
+msgid "These libraries are licensed under MIT License."
+msgstr ""
+

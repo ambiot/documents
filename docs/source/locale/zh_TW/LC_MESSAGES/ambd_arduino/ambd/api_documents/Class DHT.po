@@ -1,0 +1,606 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:2
+msgid "Class DHT"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:3
+msgid "**DHT Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:5 DHT.rst:42
+#: DHT.rst:192 DHT.rst:216 DHT.rst:241 DHT.rst:265 DHT.rst:289 DHT.rst:320
+#: DHT.rst:347
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:6
+msgid "Defines a class of using DHT temperature & humidity sensors"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:8 DHT.rst:45
+#: DHT.rst:195 DHT.rst:219 DHT.rst:244 DHT.rst:268 DHT.rst:294 DHT.rst:324
+#: DHT.rst:350
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:9
+msgid "class DHT"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:16
+msgid "DHT::DHT"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:16
+msgid "Constructs a DHT object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:18
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:20
+msgid "DHT::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:20
+msgid "Initialize the DHT sensor"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:22
+msgid "DHT::readTemperature"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:22
+msgid "Read temperature(Fahrenheit or Celcius) from the DHT sensor"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:25
+msgid "DHT::convertCtoF"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:25
+msgid "Convert a value from Celcius to Fahrenheit"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:28
+msgid "DHT::convertFtoC"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:28
+msgid "Convert a value from Fahrenheit to Celcius"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:31
+msgid "DHT::readHumidity"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:31
+msgid "Read humidity(%) from the DHT sensor"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:33
+msgid "DHT::computeHeatIndex"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:33
+msgid ""
+"Compute the HeatIndex from the readings (Using both Rothfusz and "
+"Steadman’s equations)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:37
+msgid "DHT::read"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:37
+msgid "Check if the sensor is readable"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:40
+msgid "**DHT::DHT**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:43
+msgid "Constructs a DHT object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:46
+msgid "DHT::DHT(uint8_t pin, uint8_t type, uint8_t count)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:48 DHT.rst:198
+#: DHT.rst:222 DHT.rst:247 DHT.rst:271 DHT.rst:298 DHT.rst:327 DHT.rst:353
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:49
+msgid "pin: The Arduino digital PIN connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:50
+msgid "type: The DHT sensor type(DHT11, DHT22, or DHT21)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:52
+msgid ""
+"count: The count is now ignored as the DHT reading algorithm adjusts "
+"itself based on the speed of the processor"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:54 DHT.rst:201
+#: DHT.rst:226 DHT.rst:250 DHT.rst:274 DHT.rst:304 DHT.rst:330 DHT.rst:357
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:55 DHT.rst:202
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:57 DHT.rst:204
+#: DHT.rst:229 DHT.rst:253 DHT.rst:277 DHT.rst:308 DHT.rst:333 DHT.rst:361
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:58
+msgid "Example:DHTTester"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:60
+msgid ""
+"The code demos basic testing for various DHT humidity & temperature "
+"sensors."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:62 DHT.rst:209
+#: DHT.rst:234 DHT.rst:258 DHT.rst:282 DHT.rst:313 DHT.rst:338 DHT.rst:366
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:64 DHT.rst:211
+#: DHT.rst:236 DHT.rst:260 DHT.rst:284 DHT.rst:315 DHT.rst:368
+msgid ""
+"Every time must include the header file “DHT.h” in front of the project "
+"to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:66
+msgid "// Example testing sketch for various DHT humidity/temperature sensors"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:68
+msgid "// Written by ladyada, public domain"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:70
+msgid "**#include \"DHT.h\"**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:72
+msgid "// The digital pin we're connected to."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:74
+msgid "**#define DHTPIN 8**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:76
+msgid "// Uncomment whatever type you're using!"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:78
+msgid "**#define DHTTYPE DHT11 // DHT 11**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:80
+msgid "//#define DHTTYPE DHT22 // DHT 22 (AM2302), AM2321"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:82
+msgid "//#define DHTTYPE DHT21 // DHT 21 (AM2301)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:84
+msgid "// Connect pin 1 (on the left) of the sensor to +5V"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:86
+msgid ""
+"// NOTE: If using a board with 3.3V logic like an Arduino Due connect pin"
+" 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:89
+msgid "// to 3.3V instead of 5V!"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:91
+msgid "// Connect pin 2 of the sensor to whatever your DHTPIN is"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:93
+msgid "// Connect pin 4 (on the right) of the sensor to GROUND"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:95
+msgid "// Connect a 10K resistor from pin 2 (data) to pin 1 (power) of the sensor"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:98
+msgid "// Initialize DHT sensor."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:100
+msgid ""
+"// Note that older versions of this library took an optional third "
+"parameter to"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:103
+msgid ""
+"// tweak the timings for faster processors. This parameter is no longer "
+"needed"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:106
+msgid ""
+"// as the current DHT reading algorithm adjusts itself to work on faster "
+"procs."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:109
+msgid "DHT dht(DHTPIN, DHTTYPE);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:111
+msgid "**void** setup() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:113
+msgid "Serial.begin(115200);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:115
+msgid "Serial.println(\"DHTxx test!\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:117
+msgid "dht.begin();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:119 DHT.rst:150
+#: DHT.rst:186
+msgid "}"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:121
+msgid "**void** loop() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:123
+msgid "// Wait a few seconds between measurements."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:125
+msgid "delay(2000);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:127
+msgid "// Reading temperature or humidity takes about 250 milliseconds!"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:129
+msgid ""
+"// Sensor readings may also be up to 2 seconds 'old' (its a very slow "
+"sensor)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:132
+msgid "**float** h = dht.readHumidity();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:134
+msgid "// Read temperature as Celsius (the default)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:136
+msgid "**float** t = dht.readTemperature();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:138
+msgid "// Read temperature as Fahrenheit (isFahrenheit = true)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:140
+msgid "**float** f = dht.readTemperature(**true**);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:142
+msgid "// Check if any reads failed and exit early (to try again)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:144
+msgid "**if** (isnan(h) \\|\\| isnan(t) \\|\\| isnan(f)) {"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:146
+msgid "Serial.println(\"Failed to read from DHT sensor!\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:148
+msgid "**return**;"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:152
+msgid "// Compute heat index in Fahrenheit (the default)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:154
+msgid "**float** hif = dht.computeHeatIndex(f, h);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:156
+msgid "// Compute heat index in Celsius (isFahreheit = false)"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:158
+msgid "**float** hic = dht.computeHeatIndex(t, h, **false**);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:160
+msgid "Serial.print(\"Humidity: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:162
+msgid "Serial.print(h);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:164
+msgid "Serial.print(\" %\\t\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:166
+msgid "Serial.print(\"Temperature: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:168
+msgid "Serial.print(t);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:170 DHT.rst:180
+msgid "Serial.print(\" \\*C \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:172
+msgid "Serial.print(f);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:174
+msgid "Serial.print(\" \\*F\\t\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:176
+msgid "Serial.print(\"Heat index: \");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:178
+msgid "Serial.print(hic);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:182
+msgid "Serial.print(hif);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:184
+msgid "Serial.println(\" \\*F\");"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:190
+msgid "**DHT::begin**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:193
+msgid "Initialize the DHT sensor."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:196
+msgid "void DHT::begin(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:199
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:205 DHT.rst:230
+#: DHT.rst:254 DHT.rst:278 DHT.rst:309 DHT.rst:334 DHT.rst:362
+msgid "Example: DHTTester"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:207 DHT.rst:232
+#: DHT.rst:256 DHT.rst:280 DHT.rst:311 DHT.rst:336 DHT.rst:364
+msgid ""
+"The code demos basic testing for various DHT humidity & temperature "
+"sensors. Please refer to code in the “DHT: DHT” section."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:214
+msgid "**DHT::readTemperature**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:217
+msgid "Read temperature(Fahrenheit or Celcius) from the DHT sensor."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:220
+msgid "float DHT::readTemperature(bool S, bool force);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:223
+msgid "S: Temperature scale, True is Fahrenheit and False is Celcius"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:224
+msgid "force: Index of checking sensor readability, default is False"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:227
+msgid "The function returns the current temperature as a float value."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:239
+msgid "**DHT::convertCtoF**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:242
+msgid "Convert a value from Celcius to Fahrenheit."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:245
+msgid "float DHT::convertCtoF(float c);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:248
+msgid "c: The value in Celcius"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:251
+msgid "The function returns the temperature in Fahrenheit as a float number."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:263
+msgid "**DHT::convertFtoC**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:266
+msgid "Convert a value from Fahrenheit to Celcius."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:269
+msgid "float DHT::convertFtoC(float f);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:272
+msgid "f: The value in Fahrenheit"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:275
+msgid "The function returns the temperature in Celcius as a float number."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:287
+msgid "**DHT::computeHeatIndex**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:292
+msgid ""
+"Compute the HeatIndex from the readings (Using both Rothfusz and "
+"Steadman’s equations). More details refer to "
+"`http://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml  "
+"<http://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml>`__."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:296
+msgid ""
+"float DHT::computeHeatIndex(float temperature, float percentHumidity, "
+"bool isFahrenheit);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:299
+msgid "temperature: The temperature value"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:300
+msgid "percentHumidity: The humidity percent value"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:302
+msgid ""
+"isFahrenheit: True, temperature value in Fahrenheit (Default); False, "
+"temperature value in Celcius"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:306
+msgid ""
+"The function returns the heat index in Fahrenheit or Celsius as a float "
+"value."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:318
+msgid "**DHT::readHumidity**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:322
+msgid ""
+"Reading temperature or humidity from the DHT sensor and return as a float"
+" value(%)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:325
+msgid "float DHT::readHumidity(bool force);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:328
+msgid "force: Ignored."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:331
+msgid "The function returns current humidity in a float number (in %)."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:342
+msgid ""
+"Every time must include the header file “DHT.h” in front of the project "
+"to use the class function. Reading temperature or humidity takes about "
+"250 milliseconds! Sensor readings may also be up to 2 seconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:345
+msgid "**DHT::read**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:348
+msgid "Check if the sensor is readable."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:351
+msgid "boolean DHT::read(bool force);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:355
+msgid ""
+"force: Index of whether checking the sensor was read less than two "
+"seconds ago or not. False, checking; True, not checking."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class DHT.rst:359
+msgid ""
+"Return the last correct measurement of the sensor. False, low means not "
+"readable; True, high means readable."
+msgstr ""
+

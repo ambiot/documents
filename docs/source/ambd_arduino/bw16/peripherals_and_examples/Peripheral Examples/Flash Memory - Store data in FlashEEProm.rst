@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/Flash Memory - Store data in FlashEEProm.rst

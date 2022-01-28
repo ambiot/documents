@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:3
+msgid "Trouble-shooting"
+msgstr "故障排除"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:5
+msgid "Compilation of MicroPython firmware failed"
+msgstr "MicroPython 韧体编译失败"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:8
+msgid ""
+"During the building process, some user may encounter error that suspend "
+"the process, this is due to missing system environment setup and can be "
+"fixed as follows,"
+msgstr ""
+"在构建过程中，某些用户可能会遇到导致过程暂停的错误，这是由于缺少系统环境设置而导致的，可以通过以下方法进行修复。"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:11
+msgid "**Error related to Python**"
+msgstr "**与python相关的错误**"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:13
+msgid ""
+"By default, MicroPython uses `Python3` to run building scripts for the "
+"MicroPython kernals, if you encounter error related to python, it may be "
+"because the path of the `Python3` executable is not added to system "
+"environment variable."
+msgstr ""
+"预设下，MicroPython使用 `Python3` 运行 MicroPython kernal 的构建脚本，"
+"如果遇到与python相关的错误，可能是因为 `Python3` 档案相关路径未添加到系统环境变量中。"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:17
+msgid ""
+"However, if environment variable is already added but the build could not"
+" be completed, you may try,"
+msgstr ""
+"但是，如果已经添加了环境变量，但是构建依旧无法完成，则可以尝试"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:19
+msgid "Re-start your PC"
+msgstr "重新启动计算机"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst
+msgid ""
+"Type “python” on your terminal, if the python shown is Python3, then "
+"please add"
+msgstr ""
+"在终端上输入“python”，如果显示的python是 `Python3`，则请添加"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst
+msgid "**`PYTHON = python`**"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst
+msgid "to the second line of the `Makefile` under `port/rtl8722` folder"
+msgstr "到“port/rtl8722”活页夹路径下“Makefile”的第二行"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:24
+msgid "**Error related to MPY-CROSS**"
+msgstr "**与MPY-CROSS相关的错误**"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:26
+msgid ""
+"If building process stop when mpy-cross shown as error, there is a step "
+"to be done as follows,"
+msgstr ""
+"如果构建过程停止并显示错误为mpy-cross，则需要执行以下步骤"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:28
+msgid "navigate to “MicroPython_RTL8722/mpy-cross” folder"
+msgstr "到“MicroPython_RTL8722/mpy-cross”活页夹下"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst
+msgid "Open your Cygwin/Linux terminal and just type"
+msgstr "打开您的Cygwin/Linux终端，然后输入"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst
+msgid "**`make`**"
+msgstr "**`make`**"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst
+msgid ""
+"Wait for make finish building the MicroPython Cross Compiler, then this "
+"should fix the error"
+msgstr ""
+"等待MicroPython Cross Compiler的构建完成，然后应该可以修复错误"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:34
+msgid "My code is not behaving as I expected"
+msgstr "程序代码未按预期运行"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:37
+msgid ""
+"Try to debug your program using **print( )** function and learn more "
+"about each API used through the API page."
+msgstr ""
+"尝试使用 **print( )** 函数调试程序，并在API页面详细了解每个API。"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:39
+msgid "Why am I constantly getting “syntax error” from REPL?"
+msgstr "为什么不断从REPL收到“syntax error”？"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:42
+msgid "Please note that MicroPython only support **Python3** syntax."
+msgstr "请注意MicroPython仅支持 **Python3** 语法"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:45
+msgid "How to upload my python script into Ameba?"
+msgstr "如何将Python脚本上传到Ameba开发板？"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:48
+msgid "There are 3 ways of uploading your python code into Ameba,"
+msgstr "有3种方式将Python代码上传到Ameba开发板"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:50
+msgid "**via REPL normal mode**"
+msgstr "**通过REPL normal模式**"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:52
+msgid ""
+"In the normal REPL mode, you can paste your into REPL code line by line "
+"and have them executed sequentially, but note that syntax will be "
+"automatically indented when using condition checking or loop, like “if” "
+"or “while”, incorrect indenting will crash your input script"
+msgstr ""
+"在一般的REPL模式下，您可以逐行粘贴代码到REPL上并按顺序执行它们，但是请注意，在使用条件检查或循环时（例如“if”或“while”），代码将被自动缩排，不正确的缩排将导致脚本错误。"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:54
+msgid "**via REPL paste mode**"
+msgstr "**通过REPL paste模式**"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:56
+msgid ""
+"When in normal REPL mode, press “Ctrl”+ “e” will enter paste mode, paste "
+"mode only allow pasting a large chunk of a complete code, incomplete code"
+" or editing after pasting will mess up your syntax and cause error"
+msgstr ""
+"在一般的REPL模式下，按“Ctrl” +“e”可以进入paste模式，paste模式仅允许粘贴完整的程序代码，粘贴不完整的程序代码或编辑会导致语法错误。"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:58
+msgid "**via mp_frozenmodules**"
+msgstr "**通过mp_frozenmodules**"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:60
+msgid ""
+"By placing your python script into the “mp_frozenmodules” folder under "
+"“rtl8722” folder, your code will be embedded into the MicroPython "
+"firmware and uploaded to Ameba, after that you can use it by simply "
+"importing the name of your python script. If you get syntax error using "
+"this method, you better check your python code syntax again."
+msgstr ""
+"将python脚本放入“rtl8722”路径下的“mp_frozenmodules”活页夹中，您的程序代码将被嵌入到MicroPython固件中并上传到Ameba，接着您只需导入python脚本的名称即可使用它。"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:63
+msgid ""
+"Why is there no output on my serial terminal after connecting to "
+"RTL8722CSM/RTL8722DM UART?"
+msgstr ""
+"连接到RTL8722CSM / RTL8722DM UART后，为什么串行终端上没有输出结果？"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:66
+msgid ""
+"RTL8722CSM/RTL8722DM is by default configured at 115200 baudrate, please "
+"check if your serial terminal is configured to 115200."
+msgstr ""
+"RTL8722CSM / RTL8722DM 默认配置为 ``115200``` baudrate，请检查串行终端是否配置为 ``115200``。"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:69
+msgid "My program is not being downloaded into RTL8722CSM/RTL8722DM?"
+msgstr "程序没有被下载到RTL8722CSM / RTL8722DM中？"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:74
+msgid "Please follow the procedure for the correct downloading："
+msgstr "请按照以下步骤正确下载:"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:73
+msgid ""
+"Enter the download mode. The on-board Green LED will blink when entered "
+"download mode."
+msgstr "进入下载模式。 进入下载模式时，开发板上的绿色LED会闪烁"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:74
+msgid "When downloading the image into board the on-board Red LED will blink"
+msgstr "下载固件时，开发板上的红色LED将闪烁"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:75
+msgid ""
+"After a successful download, you will see log like this “All images sent "
+"successfully”."
+msgstr "成功下载后，您将看到类似“All images sent successfully”的讯息"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:78
+msgid "Sometimes WiFi signal is weak?"
+msgstr "为什么有时WiFi信号较弱？"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:81
+msgid ""
+"The default antenna for RTL8722CSM/RTL8722DM uses the I-Pex Connector. "
+"Please change/connect the I-Pex Connector antenna."
+msgstr ""
+"RTL8722CSM / RTL8722DM的天线默认是使用 I-Pex 接口。 请更换/连接I-Pex 接口的天线。"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:84
+msgid "Why is my board not powering up?"
+msgstr "为什么我的开发板无法上电?"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:87
+msgid ""
+"Please make sure the connector J38 beside resistor R43 is connected. The "
+"connector is used to link the power to IC."
+msgstr ""
+"请确保已连接电阻R43旁的connector J38。 该连接器用于将电源链接到IC。"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:90
+msgid "If you have driver issue to connect board to your computer?"
+msgstr "遇到开发板连接到计算机的驱动程序问题?"
+
+#: ../../source/ambd_micropython/source/support/Trouble shooting.rst:93
+msgid "Please go to https://ftdichip.com/drivers/ for USB driver."
+msgstr "请参考下列USB 驱动程序 https://ftdichip.com/drivers /。"
+
+

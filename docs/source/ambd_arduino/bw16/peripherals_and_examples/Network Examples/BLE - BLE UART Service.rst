@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/BLE - BLE UART Service.rst

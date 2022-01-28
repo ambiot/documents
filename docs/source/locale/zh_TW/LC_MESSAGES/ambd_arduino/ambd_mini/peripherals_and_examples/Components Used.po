@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:3
+msgid "Components Used"
+msgstr "使用元件"
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:5
+msgid "Components used in Examples"
+msgstr "範例中使用到的元件"
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:9
+msgid "|image-1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:36
+msgid "image-1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:10
+msgid "|image-2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:40
+msgid "image-2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid ""
+":doc:`DHT11_DHT22<../../examples/peripheral/GPIO - Measuring The "
+"Temperature And Humidity>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid "Humidity & temperature sensor"
+msgstr "溫濕度傳感器"
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid ""
+":doc:`HC_SR04<../../examples/peripheral/GPIO - Measure The Distance By "
+"Ultrasound Module>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid "Distance measurement function"
+msgstr "距離測量的功能"
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:16
+msgid "|image-3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:44
+msgid "image-3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:17
+msgid "|image-4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:48
+msgid "image-4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid ""
+":doc:`ILI9341 TFT LCD<../../examples/peripheral/SPI - Print Image And "
+"Text On LCD Screen>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid "TFT LCD display with SPI interface"
+msgstr "使用 SPI 接口的 TFT LCD 顯示屏"
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid ""
+":doc:`PMS3003/5003<../../examples/peripheral/PM2.5 Concentration In The "
+"Air>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid "Air quality sensor that detects"
+msgstr "檢測空氣質量的傳感器"
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid "concentration of micro particulate matters"
+msgstr "測量單位範圍内微粒子的濃度"
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:24
+msgid "|image-5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:52
+msgid "image-5"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:25
+msgid "|image-6|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:56
+msgid "image-6"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid ""
+":doc:`QVGA TFT LCD<../../examples/peripheral/SPI - Print Image And Text "
+"On LCD Screen>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid "QVGA TFT LCD display module"
+msgstr "QVGA TFT LCD 顯示器模組"
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid ""
+":doc:`Adafruit Ultimate GPS Breakout<../../examples/peripheral/UART - "
+"Retrieve GPS Position>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid "High-quality GPS positioning module"
+msgstr "高質量 GPS 定位模組"
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:30
+msgid "|image-7|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst:60
+msgid "image-7"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid ":doc:`Tower Pro SG90<../../examples/peripheral/PWM - Using A Servo>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/component/Components Used.rst
+msgid "Servo with high output power"
+msgstr "高輸出功率的伺服電機"
+

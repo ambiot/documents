@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:3
+msgid "Ameba AP Mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:5
+msgid ""
+"In AP mode, Ameba can accept at most 3 station connections, and can be "
+"set to open mode or WPA2 mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:11
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:15
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:17
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:22
+msgid ""
+"In this example, we turn on the AP mode of Ameba and connect station to "
+"Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:24
+msgid ""
+"Open the WiFi AP example, ``“File” -> “Examples” -> “AmebaWiFi” -> "
+"“WiFiAPMode”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:25
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:55
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:27
+msgid "In the highlighted code snippet, fill in your SSID, PASSWORD and CHANNEL."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:30
+msgid ""
+"The code highlighted in green is the API we used to turn on the AP mode "
+"in security mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:33
+msgid "If you want to turn on the AP mode in open mode, please modify the code to"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:40
+msgid ""
+"Then upload the sample code and press reset, and you can see related "
+"information shown in serial monitor."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:43
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:63
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:45
+msgid ""
+"In the figure below, we show the messages shown in serial monitor when "
+"two stations connect to Ameba AP in open mode:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:48
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:59
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:50
+msgid ""
+"In the figure below, we show the messages shown in serial monitor when a "
+"station connects to Ameba AP in security mode:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:53
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Ameba AP Mode.rst:67
+msgid "4"
+msgstr ""
+

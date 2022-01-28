@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:3 Receive
+#: UDP
+msgid "Approximate UDP Receive Delay"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:8 Receive
+#: UDP
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:12 Receive
+#: UDP
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:13 Receive
+#: UDP
+msgid "Windows computer connected to same network"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:15 Receive
+#: UDP
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:19 Receive
+#: UDP
+msgid ""
+"This example uses Ameba to receive UDP packets from a computer and "
+"calculates the UDP receive delay."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:22 Receive
+#: UDP
+msgid "**Ameba Preparation**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:24 Receive
+#: UDP
+msgid ""
+"Open the “CalculateUdpReceiveDelay” example in ``“File” -> “Examples” -> "
+"“AmebaWiFi” -> “UDP_Calculation” -> “CalculateUdpReceiveDelay”``."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:27 Receive
+#: UDP
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:70 Receive
+#: UDP
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:29 Receive
+#: UDP
+msgid ""
+"In the sample code, modify the highlighted section to enter the "
+"information required (ssid, password, key index) to connect to your WiFi "
+"network."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:33 Receive
+#: UDP
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:74 Receive
+#: UDP
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:35 Receive
+#: UDP
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished. Open the serial monitor in Arduino IDE and take note of the IP "
+"address assigned to Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:39 Receive
+#: UDP
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:78 Receive
+#: UDP
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:41 Receive
+#: UDP
+msgid "**Computer Preparation**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:43 Receive
+#: UDP
+msgid ""
+"On the computer, Cygwin will be required to compile the code to send the "
+"UDP packets. Cygwin can be downloaded from https://www.cygwin.com/"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:46 Receive
+#: UDP
+msgid ""
+"Follow the instructions there to install it. Next, from the "
+"“CalculateUdpReceiveDelay” Arduino example, copy the code from the bottom"
+" between “#if 0” and “#endif”, into a new text file, change the hostname "
+"to the IP address assigned to Ameba, and rename the file to "
+"“UdpReceiveDelay.cpp”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:52 Receive
+#: UDP
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:82 Receive
+#: UDP
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:54 Receive
+#: UDP
+msgid ""
+"Next, open a Cygwin terminal, change the working directory to the "
+"location of “UdpReceiveDelay.cpp”, and use the command “g++ "
+"UdpReceiveDelay.cpp -o UdpDelay” to compile the code. A file named "
+"“UdpDelay.exe” will be created in the same directory."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:60 Receive
+#: UDP
+msgid "**Running the Example**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:62 Receive
+#: UDP
+msgid ""
+"Reset the Ameba, wait for the WiFi to connect, and check that the IP "
+"address remains the same. On the computer, run the UdpDelay.exe file, and"
+" the computer will begin to send packets to Ameba. Once 10000 packets "
+"have been received, Ameba will calculate the average delay and print out "
+"the result to the serial monitor. It may take up to a few minutes for "
+"10000 packets to be sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:68 Receive
+#: UDP
+msgid "|5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Delay.rst:86 Receive
+#: UDP
+msgid "5"
+msgstr ""
+

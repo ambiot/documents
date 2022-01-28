@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive Timeout.rst:3
+#: UDP
+msgid "Approximate UDP Receive Timeout"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive Timeout.rst:8
+#: UDP
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:12 UDP
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:13 UDP
+msgid "Windows computer connected to same network"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:15 UDP
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:19 UDP
+msgid ""
+"This example uses Ameba to receive UDP packets from a computer and "
+"calculates the allowed UDP receive timeout setting."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:22 UDP
+msgid "**Ameba Preparation**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:24 UDP
+msgid ""
+"Open the “CalculateUdpReceiveTimeout” example in ``“File” -> “Examples” "
+"-> “AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”``."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:27 UDP
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:74 UDP
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:29 UDP
+msgid ""
+"In the sample code, modify the highlighted section to enter the "
+"information required (ssid, password, key index) to connect to your WiFi "
+"network."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:33 UDP
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:78 UDP
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:36 UDP
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:39 UDP
+msgid ""
+"Open the serial monitor in Arduino IDE and take note of the IP address "
+"assigned to Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:42 UDP
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:82 UDP
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:44 UDP
+msgid "**Computer Preparation**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:46 UDP
+msgid ""
+"On the computer, Cygwin will be required to compile the code to send the "
+"UDP packets. Cygwin can be downloaded from https://www.cygwin.com/"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:49 UDP
+msgid ""
+"Follow the instructions there to install it. Next, from the "
+"“CalculateUdpReceiveTimeout” Arduino example, copy the code from the "
+"bottom between “#if 0” and “#endif”, into a new text file, change the "
+"hostname to the IP address assigned to Ameba, and rename the file to "
+"“UdpReceiveTimeout.cpp”."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:55 UDP
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:86 UDP
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:57 UDP
+msgid ""
+"Next, open a Cygwin terminal, change the working directory to the "
+"location of “UdpReceiveTimeout.cpp”, and use the command “g++ "
+"UdpReceiveTimeout.cpp -o UdpTimeout” to compile the code. A file named "
+"“UdpTimeout.exe” will be created in the same directory."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:62 UDP
+msgid "**Running the Example**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:64 UDP
+msgid ""
+"Reset the Ameba, wait for the WiFi to connect, and check that the IP "
+"address remains the same. On the computer, run the UdpTimeout.exe file, "
+"and the computer will begin to send packets continuously to Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/network/Approximate Receive
+#: Timeout.rst:68 UDP
+msgid ""
+"The timeout value is set to 1000ms initially. For each packet received "
+"successfully, Ameba decreases the timeout value. The next packet must be "
+"received within the timeout period, otherwise Ameba registers a failed "
+"packet and increases the timeout value. Open the serial monitor and "
+"observe the timeout value converge to a minimum value."
+msgstr ""
+

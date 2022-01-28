@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/UART - Retrieve GPS Position.rst

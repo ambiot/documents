@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:3 Save Tickless
+msgid "Power Save Tickless Mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:8 Save Tickless
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:12 Save
+#: Tickless
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:14 Save
+#: Tickless
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:18 Save
+#: Tickless
+msgid "**Introduction**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:20 Save
+#: Tickless
+msgid ""
+"Ameba-D supports two low power modes which are deepsleep mode and sleep "
+"mode. The power consumptions of Tickless Sleep Mode is around 28uA to "
+"30uA compare to normal state around 15mA. This example describes how to "
+"use freertos tickless with uart interruptable interface."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:25 Save
+#: Tickless
+msgid "**Procedure**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:26 Save
+#: Tickless
+msgid "Open ``“File” -> “Examples” -> “AmebaPowerSave” -> “TicklessMode”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:28 Save
+#: Tickless
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:74 Save
+#: Tickless
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:30 Save
+#: Tickless
+msgid "Set condition values as picture below."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:32 Save
+#: Tickless
+msgid ""
+"``DS_WAKEUP_SOURCE`` is used to set the wake-up source, user can chose 3 "
+"wake up sources now,"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:40 Save
+#: Tickless
+msgid ""
+"AON timer can be set from 0 to 32760000 range (unit ms) by "
+"``AON_TIMER_SLEEP_DURATION``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:43 Save
+#: Tickless
+msgid ""
+"There are 4 pins can be set as AON pins and active high for wake-up, D16,"
+" D17, D26 and D27. The AON pin can be set by "
+"``SET_DS_AON_WAKEPIN_WAKEUPPIN``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:47 Save
+#: Tickless
+msgid ""
+"RTC timer wake-up system by set alarm. The alarm has 4 values, day, hour,"
+" min and sec. All 4 values can be set by ``DS_RTC_ALARM_DAY``, "
+"``DS_RTC_ALARM_HOUR``, ``DS_RTC_ALARM_MIN``, and ``DS_RTC_ALARM_SEC``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:51 Save
+#: Tickless
+msgid ""
+"There are 4 pins can be set as AON pins and active high for wake-up, D16,"
+" D17, D26 and D27. The AON pin can be set by "
+"``SET_TL_AON_WAKEPIN_WAKEUP``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:55 Save
+#: Tickless
+msgid ""
+"``TL_SYSACTIVE_TIME`` is for setting time duration of the system to keep "
+"alive. (unit ms)"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:58 Save
+#: Tickless
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:78 Save
+#: Tickless
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:60 Save
+#: Tickless
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:82 Save
+#: Tickless
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:62 Save
+#: Tickless
+msgid "|4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:86 Save
+#: Tickless
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:64 Save
+#: Tickless
+msgid "|5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:90 Save
+#: Tickless
+msgid "5"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:66 Save
+#: Tickless
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:70 Save
+#: Tickless
+msgid ""
+"Please refer to the `API Documents <https://www.amebaiot.com/rtl8722dm-"
+"arduino-online-api-documents/>`__ PowerSave section for detail "
+"description of all API."
+msgstr ""
+

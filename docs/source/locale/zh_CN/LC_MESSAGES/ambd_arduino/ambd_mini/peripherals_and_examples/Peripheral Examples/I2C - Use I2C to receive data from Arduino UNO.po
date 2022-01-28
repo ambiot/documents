@@ -1,0 +1,289 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:3
+#: Use data from receive to
+msgid "I2C - Use I2C to receive data from Arduino UNO"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:8
+#: Use data from receive to
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:12
+#: Use data from receive to
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:13
+#: Use data from receive to
+msgid "Arduino UNO x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:15
+#: Use data from receive to
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:21
+#: Use data from receive to
+msgid ""
+"In the previous example `“I2C – Communicate with Arduino UNO via I2C”  "
+"<https://www.amebaiot.com/amebad-arduino-i2c-1>`__, Ameba, the I2C "
+"master, transmits data to the Arduino UNO, the I2C slave."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:23
+#: Use data from receive to
+msgid ""
+"As to this example, Ameba is the I2C master, and receives data from the "
+"Arduino UNO, which is the I2C slave."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:25
+#: Use data from receive to
+msgid "**Setting up Arduino Uno to be I2C Slave**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:28
+#: Use data from receive to
+msgid ""
+"First, select Arduino in the Arduino IDE in ``“Tools” -> “Board” -> "
+"“Arduino Uno”``:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:29
+#: Use data from receive to
+msgid "Open ``“Examples” -> “Wire” -> “slave_sender”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:31
+#: Use data from receive to
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:98
+#: Use data from receive to
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:33
+#: Use data from receive to
+msgid ""
+"Then click “Sketch” -> “Upload” to compile and upload the example to "
+"Arduino Uno."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:36
+#: Use data from receive to
+msgid "**Setting up Ameba to be I2C Master**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:39
+#: Use data from receive to
+msgid ""
+"Next, open another window of Arduino IDE, make sure to choose your Ameba "
+"development board in the IDE: “Tools” -> “Board”"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:40
+#: Use data from receive to
+msgid "Open ``“File” -> “Examples” -> “AmebaWire” -> “MasterReader”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:42
+#: Use data from receive to
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:102
+#: Use data from receive to
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:44
+#: Use data from receive to
+msgid "Click “Sketch” -> “Upload” to compile and upload the example to Ameba."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:46
+#: Use data from receive to
+msgid "**Wiring**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:48
+#: Use data from receive to
+msgid "The Arduino example uses A4 as the I2C SDA and A5 as the I2C SCL."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:50
+#: Use data from receive to
+msgid ""
+"Another important thing is that the GND pins of Arduino and Ameba should "
+"be connected to each other."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:52
+#: Use data from receive to
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:54
+#: Use data from receive to
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:106
+#: Use data from receive to
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:56
+#: Use data from receive to
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:58
+#: Use data from receive to
+msgid "|3-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:110
+#: Use data from receive to
+msgid "3-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:60
+#: Use data from receive to
+msgid "Next, we will observe the data receive by Ameba in the Serial Monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:64
+#: Use data from receive to
+msgid ""
+"(Note: If you do not know which port the Ameba development board is "
+"connected to, please find it in the Device Manager of Windows first. "
+"Ameba is connected as “mbed Serial Port”. For example, if you find mbed "
+"Serial Port (COM15) means Ameba is connected to port COM15.)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:66
+#: Use data from receive to
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:114
+#: Use data from receive to
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:69
+#: Use data from receive to
+msgid ""
+"We select the port in “Tools” -> “Port” -> “COM15” (the port connected to"
+" Ameba)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:71
+#: Use data from receive to
+msgid ""
+"Open the Arduino IDE window of the Ameba, go to “Tools” -> “Serial "
+"Monitor” to display the messages printed by Ameba."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:73
+#: Use data from receive to
+msgid ""
+"Press the reset button on Arduino Uno, Arduino Uno now waits for "
+"connection from I2C master."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:76
+#: Use data from receive to
+msgid ""
+"Then press the reset button on Ameba, Ameba will start to receive "
+"messages from Arduino Uno. And you can see the “hello ” message printed "
+"every half second in serial monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:78
+#: Use data from receive to
+msgid ""
+"(NOTE: If the message does not show in the Serial Monitor of Ameba, "
+"please close and open the serial monitor again.)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:80
+#: Use data from receive to
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:118
+#: Use data from receive to
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:82
+#: Use data from receive to
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:87
+#: Use data from receive to
+msgid ""
+"You can find detailed information of this example in the documentation of"
+" Arduino:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:88
+#: Use data from receive to
+msgid "https://www.arduino.cc/en/Tutorial/MasterReader"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:91
+#: Use data from receive to
+msgid ""
+"First use ``Wire.begin()`` / ``Wire.begin(address)`` to join the I2C bus "
+"as a master or slave, in the Master case the address is not required."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:92
+#: Use data from receive to
+msgid "https://www.arduino.cc/en/Reference/WireBegin"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:95
+#: Use data from receive to
+msgid ""
+"Next, the Master uses ``Wire.requestFrom()`` to specify from which Slave "
+"to request data."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino I2C UNO.rst:96
+#: Use data from receive to
+msgid "https://www.arduino.cc/en/Reference/WireRequestFrom"
+msgstr ""
+

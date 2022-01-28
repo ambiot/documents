@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:3 For Function Set UART
+msgid "UART – Set Callback Function For UART Communications"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:8 For Function Set UART
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:12 For Function Set UART
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:13 For Function Set UART
+msgid "USB to TTL Adapter x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:15 For Function Set UART
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:20 For Function Set UART
+msgid ""
+"This example shows how to set a callback function for UART communication "
+"to process the UART data."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:23 For Function Set UART
+msgid ""
+"A USB to TTL adapter is required for this example. Ensure that you have "
+"the driver installed and connect it to the Ameba board as shown."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:25 For Function Set UART
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:27 For Function Set UART
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:68 For Function Set UART
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:29 For Function Set UART
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:31 For Function Set UART
+msgid "|1-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:72 For Function Set UART
+msgid "1-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:33 For Function Set UART
+msgid ""
+"Open the example in ``“File” -> “Examples” -> “AmebaSoftwareSerial” -> "
+"“SoftwareSerial_Irq_Callback”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:36 For Function Set UART
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:76 For Function Set UART
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:39 For Function Set UART
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:42 For Function Set UART
+msgid ""
+"Next, using a terminal program, such as TeraTerm or PuTTY, open a serial "
+"port and configure it according to the settings. Make sure the serial "
+"port number corresponds to the USB to TTL adapter."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:44 For Function Set UART
+msgid "Speed: 38400"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:45 For Function Set UART
+msgid "Data: 8 bit"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:46 For Function Set UART
+msgid "Parity: none"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:47 For Function Set UART
+msgid "Stop bits: 1 bit"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:48 For Function Set UART
+msgid "Flow control: none"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:50 For Function Set UART
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:80 For Function Set UART
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:52 For Function Set UART
+msgid ""
+"Once the serial port is open, type in the terminal and press the enter "
+"key, and you will see the corresponding output."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:55 For Function Set UART
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:84 For Function Set UART
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:57 For Function Set UART
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Callback
+#: Communications.rst:61 For Function Set UART
+msgid ""
+"``mySerial.setAvailableCallback(mySerialCallback);`` is used to set the "
+"function mySerialCallback as a callback function for software serial. "
+"When a new character is received, the callback function checks if the "
+"character corresponds to the enter key, and releases the semaphore if it "
+"is true, which in turn allows the main loop to print out all the "
+"previously received characters."
+msgstr ""
+

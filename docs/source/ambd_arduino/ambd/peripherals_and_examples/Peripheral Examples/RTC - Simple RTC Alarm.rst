@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/RTC - Simple RTC Alarm.rst

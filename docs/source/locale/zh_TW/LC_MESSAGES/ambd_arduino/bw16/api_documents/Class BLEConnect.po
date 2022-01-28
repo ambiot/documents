@@ -1,0 +1,527 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:2
+msgid "Class BLEConnect"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:3
+msgid "**BLEConnect Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:5
+#: BLEConnect.rst:55 BLEConnect.rst:93 BLEConnect.rst:114 BLEConnect.rst:136
+#: BLEConnect.rst:158 BLEConnect.rst:186 BLEConnect.rst:209 BLEConnect.rst:233
+#: BLEConnect.rst:257 BLEConnect.rst:280 BLEConnect.rst:304
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:6
+msgid "A class used for managing BLE connection settings."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:8
+#: BLEConnect.rst:58 BLEConnect.rst:96 BLEConnect.rst:118 BLEConnect.rst:140
+#: BLEConnect.rst:161 BLEConnect.rst:189 BLEConnect.rst:212 BLEConnect.rst:236
+#: BLEConnect.rst:260 BLEConnect.rst:283 BLEConnect.rst:307
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:9
+msgid "class BLEConnect"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:16
+msgid ""
+"No public constructor is available as this class is intended to be a "
+"singleton class. You can get a pointer to this class using "
+"BLEDevice::configConnection."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:24
+msgid "BLEConnect::connect"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:24
+msgid "Connect to a target BLE device"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:26
+msgid "BLEConnect::disconnect"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:26
+msgid "Disconnect from a target BLE device"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:28
+msgid "BLEConnect::setScanInterval"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:28
+msgid "Set the BLE scanning interval when connecting"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:31
+msgid "BLEConnect::setScanWindow"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:31
+msgid "Set the BLE scanning window when connecting"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:34
+msgid "BLEConnect::setConnInterval"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:34
+msgid "Set the BLE connection interval duration"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:37
+msgid "BLEConnect::setConnLatency"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:37
+msgid "Set the BLE connection slave latency"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:39
+msgid "BLEConnect::setConnTimeout"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:39
+msgid "Set the BLE connection timeout value"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:41
+msgid "BLEConnect::updateConnParams"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:41
+msgid "Send new BLE connection parameters to a connected device"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:44
+msgid "BLEConnect::getConnInfo"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:44
+msgid "Get connection information"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:46
+msgid "BLEConnect::getConnAddr"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:46
+msgid "Get the Bluetooth address for a certain connection"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:49
+msgid "BLEConnect::getConnId"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:49
+msgid "Get the connection ID for a certain device"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:53
+msgid "**BLEConnect::connect**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:56
+msgid "Connect to a target BLE device."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:60
+msgid ""
+"bool connect(char\\* btAddr, T_GAP_REMOTE_ADDR_TYPE destAddrType, "
+"uint16_t scanTimeout);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:62
+msgid ""
+"bool connect(uint8_t (&btAddr)[6], T_GAP_REMOTE_ADDR_TYPE destAddrType, "
+"uint16_t scanTimeout);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:63
+msgid "bool connect(BLEAdvertData targetDevice, uint16_t scanTimeout);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:65
+msgid ""
+"bool connect(BLEAddr destAddr, T_GAP_REMOTE_ADDR_TYPE destAddrType, "
+"uint16_t scanTimeout);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:67
+#: BLEConnect.rst:99 BLEConnect.rst:121 BLEConnect.rst:143 BLEConnect.rst:164
+#: BLEConnect.rst:192 BLEConnect.rst:215 BLEConnect.rst:239 BLEConnect.rst:263
+#: BLEConnect.rst:286 BLEConnect.rst:312
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:69
+#: BLEConnect.rst:314
+msgid ""
+"char\\* btAddr: target device Bluetooth address expressed as a character "
+"string."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:71
+msgid ""
+"uint8_t (&btAddr): target device Bluetooth address contained in a 6 byte "
+"array."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:73
+msgid ""
+"destAddr: target device Bluetooth address contained in BLEAddr class "
+"object."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:74
+#: BLEConnect.rst:317
+msgid "targetDevice: advertising data packet scanned from target device."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:75
+msgid "destAddrType: Bluetooth address type of target device. Valid values:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:76
+#: BLEConnect.rst:319
+msgid "– GAP_REMOTE_ADDR_LE_PUBLIC"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:77
+#: BLEConnect.rst:320
+msgid "– GAP_REMOTE_ADDR_LE_RANDOM"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:79
+msgid ""
+"scan timeout: duration in milliseconds for which to look for target "
+"device before giving up."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:81
+#: BLEConnect.rst:102 BLEConnect.rst:124 BLEConnect.rst:146 BLEConnect.rst:170
+#: BLEConnect.rst:195 BLEConnect.rst:219 BLEConnect.rst:243 BLEConnect.rst:268
+#: BLEConnect.rst:292 BLEConnect.rst:322
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:82
+msgid "True if connection successful, false if connection failed."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:84
+#: BLEConnect.rst:105 BLEConnect.rst:127 BLEConnect.rst:149 BLEConnect.rst:173
+#: BLEConnect.rst:198 BLEConnect.rst:222 BLEConnect.rst:246 BLEConnect.rst:271
+#: BLEConnect.rst:295 BLEConnect.rst:326
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:85
+#: BLEConnect.rst:327
+msgid "Example: BLEBatteryClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:87
+#: BLEConnect.rst:108 BLEConnect.rst:130 BLEConnect.rst:152 BLEConnect.rst:176
+#: BLEConnect.rst:201 BLEConnect.rst:225 BLEConnect.rst:249 BLEConnect.rst:274
+#: BLEConnect.rst:298 BLEConnect.rst:329
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:88
+#: BLEConnect.rst:106 BLEConnect.rst:109 BLEConnect.rst:128 BLEConnect.rst:131
+#: BLEConnect.rst:150 BLEConnect.rst:153 BLEConnect.rst:174 BLEConnect.rst:199
+#: BLEConnect.rst:223 BLEConnect.rst:247 BLEConnect.rst:272 BLEConnect.rst:275
+#: BLEConnect.rst:296 BLEConnect.rst:299 BLEConnect.rst:330
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:91
+msgid "**BLEConnect::disconnect**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:94
+msgid "Disconnect from a target BLE device."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:97
+msgid "bool disconnect(uint8_t connId);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:100
+msgid "connId: connection ID for target device."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:103
+msgid "True if operation successful, false if otherwise."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:112
+msgid "**BLEConnect::setScanInterval**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:116
+msgid ""
+"Set the BLE scan interval when searching for a target device to connect "
+"to."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:119
+msgid "void setScanInterval(uint16_t scanInt_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:122
+msgid "scanInt_ms: scan interval in milliseconds. Value range of 3 to 10240."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:125
+#: BLEConnect.rst:147 BLEConnect.rst:171 BLEConnect.rst:196 BLEConnect.rst:220
+#: BLEConnect.rst:244
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:134
+msgid "**BLEConnect::setScanWindow**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:138
+msgid "Set the BLE scan window when searching for a target device to connect to."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:141
+msgid "void setScanWindow(uint16_t scanWindow_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:144
+msgid "scanWindow_ms: scan window in milliseconds. Value range of 3 to 10240."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:156
+msgid "**BLEConnect::setConnInterval**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:159
+msgid "Set the BLE connection interval value."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:162
+msgid "void setConnInterval(uint16_t min_ms, uint16_t max_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:166
+msgid ""
+"min_ms: minimum acceptable connection interval in milliseconds. Value "
+"range of 8 to 4000."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:168
+msgid ""
+"max_ms: maximum acceptable connection interval in milliseconds. Value "
+"range of 8 to 4000."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:181
+msgid ""
+"The BLE connection interval defines the period between successive "
+"connection events between a connected central and peripheral device. Even"
+" if there is no data to exchange, a connection event is required to "
+"maintain the connection. max_ms should be larger than or equal to min_ms."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:184
+msgid "**BLEConnect::setConnLatency**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:187
+msgid "Set the BLE connection slave latency value."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:190
+msgid "void setConnLatency(uint16_t latency);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:193
+msgid "latency: Connection slave latency value. Value range of 0 to 499."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:204
+msgid ""
+"The BLE connection slave latency defines the number of successive "
+"connection events a connected peripheral device can ignore without being "
+"considered as disconnected by the central device."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:207
+msgid "**BLEConnect::setConnTimeout**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:210
+msgid "Set the BLE connection timeout value."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:213
+msgid "void setConnTimeout(uint16_t timeout_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:217
+msgid ""
+"timeout_ms: connection timeout in milliseconds. Value range of 100 to "
+"32000."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:228
+msgid ""
+"The BLE connection timeout defines the duration after a failed connection"
+" events before a peripheral or central device considers the connection "
+"broken."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:231
+msgid "**BLEConnect::updateConnParams**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:234
+msgid "Update a connected device with new connection parameters."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:237
+msgid "void updateConnParams(uint8_t conn_id);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:241
+msgid "conn_id: connection ID of target device to update connection parameters."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:252
+msgid ""
+"Update a connected device with previously set connection interval, slave "
+"latency and timeout values. The connected device may reject the new "
+"values if it is unable to conform to them."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:255
+msgid "**BLEConnect::getConnInfo**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:258
+msgid "Get connection information."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:261
+msgid "bool getConnInfo(uint8_t connId, T_GAP_CONN_INFO \\*pConnInfo);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:264
+msgid "connId: connection ID to get connection information from."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:266
+msgid ""
+"pConnInfo: pointer to T_GAP_CONN_INFO structure to store obtained "
+"connection information."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:269
+#: BLEConnect.rst:293
+msgid "True if operation success, false if operation failed."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:278
+msgid "**BLEConnect::getConnAddr**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:281
+msgid "Get the Bluetooth address for a certain connection."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:284
+msgid "bool getConnAddr(uint8_t connId, uint8_t\\* addr, uint8_t\\* addrType);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:287
+msgid "connId: connection ID to get address information for"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:288
+msgid "addr: pointer to 6 byte array to store retrieved Bluetooth address"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:290
+msgid ""
+"addrType: pointer to uint8_t variable to store retrieved Bluetooth "
+"address type"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:302
+msgid "**BLEConnect::getConnId**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:305
+msgid "Get the connection ID for a certain device."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:308
+msgid "int8_t getConnId(char\\* btAddr, uint8_t addrType);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:309
+msgid "int8_t getConnId(uint8_t\\* btAddr, uint8_t addrType);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:310
+msgid "int8_t getConnId(BLEAdvertData targetDevice);"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:316
+msgid ""
+"uint8_t\\* btAddr: pointer to a 6 byte array containing target device "
+"Bluetooth address."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:318
+msgid "addrType: Bluetooth address type of target device. Valid values:"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/api_documents/Class BLEConnect.rst:324
+msgid ""
+"The function returns the requested connection ID. Returns -1 if failed to"
+" obtain connection ID."
+msgstr ""
+

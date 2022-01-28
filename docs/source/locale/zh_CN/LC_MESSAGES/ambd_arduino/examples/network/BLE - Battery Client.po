@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:3
+msgid "BLE – Battery Client"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:12
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:14
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:18
+msgid "**Introduction**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:20
+msgid ""
+"BLE connections use a server client model. The server contains the data "
+"of interest, while the client connects to the server to read the data. "
+"Commonly, a Bluetooth peripheral device acts as a server, while a "
+"Bluetooth central device acts as a client. Servers can contain many "
+"services, with each service containing a some set of data. Clients can "
+"send requests to read or write some data and can also subscribe to "
+"notifications so that the server can send data updates to a client."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:28
+msgid ""
+"In this example, a basic battery client is set up on the Ameba Bluetooth "
+"stack. The client connects to another Ameba board running the "
+"corresponding BLE battery service to read the battery level data."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:32
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:34
+msgid ""
+"On the first Ameba board, upload the BLEBatteryService example code and "
+"let it run."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:37
+msgid ""
+"For the second Ameba board, open the example ``“Files” -> “Examples” -> "
+"“AmebaBLE” -> “BLEBatteryClient”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:40
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:78
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:42
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:45
+msgid ""
+"Open the serial monitor and observe the log messages as the Ameba board "
+"with the battery client scans, connects, and reads data from the Ameba "
+"board with the battery service."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:49
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:82
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:51
+msgid ""
+"Highlighted in yellow, the Ameba board with the battery client first "
+"scans for advertising BLE devices with the advertised device name "
+"“AMEBA_BLE_DEV” and the advertised service UUID of 0x180F representing "
+"the battery service."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:56
+msgid ""
+"After finding the target device, the Ameba board with the battery client "
+"forms a BLE connection and searches for a battery service on the "
+"connected device, highlighted in blue."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:60
+msgid ""
+"With the client connected to the service, the battery client begins to "
+"read data using both regular data reads and notifications, highlighted in"
+" green."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:64
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:68
+msgid ""
+"BLEClient is used to create a client object to discover services and "
+"characteristics on the connected device."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:71
+msgid ""
+"``setNotifyCallback()`` is used to register a function that will be "
+"called when a battery level notification is received."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:73
+msgid ""
+"``BLE.configClient()`` is used to configure the Bluetooth stack for "
+"client operation."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:75
+msgid ""
+"``addClient(connID)`` creates a new BLEClient object that corresponds to "
+"the connected device."
+msgstr ""
+

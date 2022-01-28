@@ -1,0 +1,649 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-21 03:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic Examples.rst:3
+msgid "Basic Examples"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic Examples.rst:8
+msgid ""
+":raw-html:`<h1 style=\"color:#000000; font-size:20px\">` BW16 (RTL8720DN)"
+" Supported ARDUINO built-in example table :raw-html:`</h1>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:18px\">` There are many "
+"built-in examples in Arduino. In the table below, we list all examples "
+"that are compatible with Ameba. :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:17
+msgid "Please refer to the following link to set up Ameba for Arduino IDE."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:18
+msgid "`<https://www.amebaiot.com/en/amebad-bw16-arduino-getting-started/>`_"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:19
+msgid "Please refer to the following link for Arduino built-in example details."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:20
+msgid "`<https://www.arduino.cc/en/Tutorial/BuiltInExamples/ />`_"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:23
+msgid "**Category**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:23
+msgid "**Name**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:23
+msgid "**Comment**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:23
+msgid "**Remarks**"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:25
+msgid "01. Basics"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:25
+msgid "Analog ReadSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:25 Examples.rst:132
+msgid "Connect potentiometer to 3.3V. Use ADC pin A2(PB3)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:25 Examples.rst:44 Examples.rst:92 Examples.rst:111
+#: Examples.rst:119 Examples.rst:132 Examples.rst:170 Examples.rst:190
+#: Examples.rst:210
+msgid "ADC pin reading voltage range 0 to 3.3V."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:29
+msgid "BareMinimum"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:31
+msgid "Blink"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:31 Examples.rst:48
+msgid "Pin LED_BUILTIN sets to LED_G"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:31
+msgid "Onboard LEDs options LED_R, LED_B, and LED_G. (red, blue, and green)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:37
+msgid "Digital ReadSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:40
+msgid "Fade"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:40 Examples.rst:107
+msgid "Use PWM pins D7(PA25), D8(PA26), D11(PA13), D12(PA12)"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:44
+msgid "Read Analog Voltage"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:44 Examples.rst:119 Examples.rst:170 Examples.rst:190
+#: Examples.rst:210
+msgid "Use ADC pin A2(PB3)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:48
+msgid "02. Digital"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:48
+msgid "BlinkWithout Delay"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:48 Examples.rst:52 Examples.rst:57 Examples.rst:62
+#: Examples.rst:67 Examples.rst:128 Examples.rst:142
+msgid "Onboard LEDs options LED_R, LED_B, and LED_G."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:52
+msgid "Button"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:52 Examples.rst:57 Examples.rst:62 Examples.rst:67
+msgid ""
+"Replace \"ledPin = 13;\" by available digital pins. e.g. \"ledPin = "
+"LED_BUILTIN;\""
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:57
+msgid "Debounce"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:62
+msgid "Digital InputPullup"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:67
+msgid "StateChange Detection"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:72
+msgid "toneKeyboard"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:72
+msgid ""
+"Replace \"tone(8, notes[thisSensor], 20);\" by a PWM pin D7(PA25), "
+"D8(PA26), D11(PA13) or D12(PA12)). e.g. \"tone(PA25, notes[thisSensor - "
+"4], 20);\", \"tone(7, notes[thisSensor - 4], 20);\""
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:84
+msgid "toneMelody"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:86
+msgid "tone Multiple"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:89
+msgid "tonePitch Follower"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:92
+msgid "03. Analog"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:92
+msgid "Analog InOutSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:92
+msgid ""
+"Replace \"analogOutPin = 9;\" by a PWM pin (D7(PA25), D8(PA26), D11(PA13)"
+" or D12(PA12))). e.g. \"analogOutPin = 7;\". Use ADC pin A2(PB3)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:100
+msgid "AnalogInput"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:100 Examples.rst:163
+msgid ""
+"Replace \"ledPin = 13;\" by available digital pins. e.g. \"ledPin = "
+"LED_BUILTIN;\". Use ADC pin A2(PB3)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:100 Examples.rst:163
+msgid ""
+"Onboard LEDs options LED_R, LED_B, and LED_G. ADC pin reading voltage "
+"range 0 to 3.3V."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:107
+msgid "Analog Write Mega"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:107 Examples.rst:115 Examples.rst:147
+msgid "Onboard LEDs with PWM. LED_B(D11), and LED_G(D12)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:111
+msgid "Calibration"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:111
+msgid "Connect another LED to pin D13. Use ADC pin A2(PB3)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:115
+msgid "Fading"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:115
+msgid "Use PWM pins D7(PA25), D8(PA26), D11(PA13), D12(PA12)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:119
+msgid "Smoothing"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:123
+msgid "04. Communication"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:123
+msgid "ASCIITable"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:128
+msgid "Dimmer"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:132
+msgid "Graph"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:136
+msgid "Midi"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:136
+msgid "Use Serial1 and pin D4(PB1)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:139
+msgid "MultiSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:139 Examples.rst:153
+msgid "Required external USB-to-UART module."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:142
+msgid "Physical Pixel"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:142
+msgid ""
+"Replace \"ledPin = 13;\" by available digital pins. e.g. \"ledPin = "
+"LED_BUILTIN;\"."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:147
+msgid "Read ASCIIString"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:147
+msgid "Use PWM pins for LED, D7(PA25), D8(PA26), D11(PA13), D12(PA12)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:151
+msgid "SerialEvent"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:153
+msgid "Serial Passthrough"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:156
+msgid "05. Control"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:156
+msgid "Arrays"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:156 Examples.rst:160 Examples.rst:174
+msgid "Use pins D9, D2, D8, D1, D11, D10."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:160
+msgid "ForLoop Iteration"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:163
+msgid "IfStatement Conditional"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:170
+msgid "switchCase"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:174
+msgid "switchCase2"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:177
+msgid "While Statement Conditional"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:177
+msgid ""
+"Use ADC pin A2(PB3). Replace \"indicatorLedPin = 13;\" by available "
+"digital pins. e.g. \"indicatorLedPin = LED_BUILTIN;\". Replace \"ledPin ="
+" 9;\" by a PWM pin D7(PA25), D8(PA26), D11(PA13) or D12(PA12)). e.g. "
+"\"ledPin = 7;\""
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:177
+msgid ""
+"ADC pin reading voltage range 0 to 3.3V. Onboard LEDs options LED_R, "
+"LED_B, and LED_G. Onboard LEDs with PWM. LED_B(D11), and LED_G(D12)."
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:190
+msgid "06. Display"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:190
+msgid "barGraph"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:194
+msgid "07. Strings"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:194
+msgid "Character Analysis"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:198
+msgid "StringAddition Operator"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:201
+msgid "StringAppend Operator"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:204
+msgid "String CaseChanges"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:207
+msgid "String Characters"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:210
+msgid "String Comparision Operators"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:214
+msgid "StringIndexOf"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:217
+msgid "StringLength"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:220
+msgid "String LengthTrim"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:223
+msgid "String Replace"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:226
+msgid "String Starts WithEndsWith"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:230
+msgid "String Substring"
+msgstr ""
+
+#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Basic
+#: Examples.rst:233
+msgid "StringToInt"
+msgstr ""
+
+#~ msgid ""
+#~ ":raw-html:`<h1 style=\"color:#000000; font-"
+#~ "size:20px\">` Ameba ARDUINO: [RTL8722CSM][RTL8722DM]"
+#~ " Supported ARDUINO built-in example "
+#~ "list :raw-html:`</h1>`"
+#~ msgstr ""
+
+#~ msgid "Category"
+#~ msgstr ""
+
+#~ msgid "Name"
+#~ msgstr ""
+
+#~ msgid "Comment"
+#~ msgstr ""
+
+#~ msgid "01.Basics"
+#~ msgstr ""
+
+#~ msgid "AnalogReadSerial"
+#~ msgstr ""
+
+#~ msgid "Connect potentiometer to 3.3V"
+#~ msgstr ""
+
+#~ msgid "Connect LED to pin 8"
+#~ msgstr ""
+
+#~ msgid "DigitalReadSerial"
+#~ msgstr ""
+
+#~ msgid "ReadAnalogVoltage"
+#~ msgstr ""
+
+#~ msgid "ADC can read a maximum of 3.3V."
+#~ msgstr ""
+
+#~ msgid "02.Digital"
+#~ msgstr ""
+
+#~ msgid "BlinkWithoutDelay"
+#~ msgstr ""
+
+#~ msgid "Connect LED to pin 13"
+#~ msgstr ""
+
+#~ msgid "DigitalInputPullup"
+#~ msgstr ""
+
+#~ msgid "StateChangeDetection"
+#~ msgstr ""
+
+#~ msgid "toneMultiple"
+#~ msgstr ""
+
+#~ msgid "tonePitchFollower"
+#~ msgstr ""
+
+#~ msgid "03.Analog"
+#~ msgstr ""
+
+#~ msgid "AnalogInOutSerial"
+#~ msgstr ""
+
+#~ msgid "Connect another LED to pin 13"
+#~ msgstr ""
+
+#~ msgid "04.Communication"
+#~ msgstr ""
+
+#~ msgid "Use serial baud rate 115200"
+#~ msgstr ""
+
+#~ msgid "Use serial baud rate 115200, Connect potentiometer to 3.3V"
+#~ msgstr ""
+
+#~ msgid "Please use Serial1 and pin 26, or use Serial2 and pin 17"
+#~ msgstr ""
+
+#~ msgid "PhysicalPixel"
+#~ msgstr ""
+
+#~ msgid "ReadASCIIString"
+#~ msgstr ""
+
+#~ msgid "SerialCallResponse"
+#~ msgstr ""
+
+#~ msgid "Serial CallResponseASCII"
+#~ msgstr ""
+
+#~ msgid "SerialPassthrough"
+#~ msgstr ""
+
+#~ msgid "VirtualColorMixer"
+#~ msgstr ""
+
+#~ msgid "05.Control"
+#~ msgstr ""
+
+#~ msgid "Use pins 1, 2, 3, 4, 5, 6"
+#~ msgstr ""
+
+#~ msgid "ForLoopIteration"
+#~ msgstr ""
+
+#~ msgid "IfStatementConditional"
+#~ msgstr ""
+
+#~ msgid "While StatementConditional"
+#~ msgstr ""
+
+#~ msgid "06.Display"
+#~ msgstr ""
+
+#~ msgid "Use another pin to replace pin 7"
+#~ msgstr ""
+
+#~ msgid "RowColumnScanning"
+#~ msgstr ""
+
+#~ msgid "07.Strings"
+#~ msgstr ""
+
+#~ msgid "CharacterAnalysis"
+#~ msgstr ""
+
+#~ msgid "String AdditionOperator"
+#~ msgstr ""
+
+#~ msgid "StringAppendOperator"
+#~ msgstr ""
+
+#~ msgid "StringCaseChanges"
+#~ msgstr ""
+
+#~ msgid "StringCharacters"
+#~ msgstr ""
+
+#~ msgid "String ComparisonOperators"
+#~ msgstr ""
+
+#~ msgid "StringLengthTrim"
+#~ msgstr ""
+
+#~ msgid "StringReplace"
+#~ msgstr ""
+
+#~ msgid "String StartsWithEndsWith"
+#~ msgstr ""
+
+#~ msgid "StringSubstring"
+#~ msgstr ""
+

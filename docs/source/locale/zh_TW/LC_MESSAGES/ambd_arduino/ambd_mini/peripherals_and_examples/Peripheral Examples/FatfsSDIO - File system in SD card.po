@@ -1,0 +1,274 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD card.rst:3
+#: in system
+msgid "FatfsSDIO – File system in SD card"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD card.rst:8
+#: in system
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:12 in system
+msgid "Ameba D [RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:13 in system
+msgid "MicroSD card"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:15 in system
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:19 in system
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:21 in system
+msgid ""
+"Insert a MicroSD card into the onboard SD card reader of RTL8722DM MINI "
+"board."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:23 in system
+msgid "**Example 01 create_folder**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:25 in system
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaFatfsSDIO” -> "
+"“create_folder”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:27 in system
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:103 in system
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:29 card.rst:46 card.rst:62 card.rst:77 card.rst:93 in system
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:32 in system
+msgid ""
+"In the sample code, we first create a folder “testdir”, then text file "
+"“test.txt” with content “hello world!”. Read the file and print content "
+"to serial monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:34 in system
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:107 in system
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:36 card.rst:52 card.rst:83 in system
+msgid ""
+"Next, insert SD card into card reader, and check whether the operations "
+"succeeded."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:39 in system
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:111 in system
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:41 in system
+msgid "**Example 02 file_read_write**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:44 in system
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaFatfsSDIO” -> "
+"“file_read_write”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:48 in system
+msgid ""
+"In the sample code, we create text file “test.txt” with content “hello "
+"world!”. Read the file and print content to serial monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:50 in system
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:115 in system
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:55 in system
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:119 in system
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:57 in system
+msgid "**Example 03 get_file_attribute**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:60 in system
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaFatfsSDIO” -> "
+"“get_file_attribute”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:64 in system
+msgid ""
+"In the sample code, system will print put all file attribute to serial "
+"monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:66 in system
+msgid "|6|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:123 in system
+msgid "6"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:70 in system
+msgid ""
+"Next, insert SD card into card reader, and check whether the operations "
+"succeeded. In this case, we already know the attribute should be folder "
+"“testdir” and text file “test.txt”by refer the above pictures."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:72 in system
+msgid "**Example 04 last_modified_time**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:75 in system
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaFatfsSDIO” -> "
+"“last_modified_time”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:79 in system
+msgid ""
+"In the sample code, system will print put the target file last modified "
+"time to serial monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:81 in system
+msgid "|7|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:127 in system
+msgid "7"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:86 in system
+msgid "|8|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:131 in system
+msgid "8"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:88 in system
+msgid "**Example 05 list_root_files**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:91 in system
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaFatfsSDIO” -> "
+"“list_root_files”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:95 in system
+msgid "In the sample code, system will print put all root file to serial monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:97 in system
+msgid "|9|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:135 in system
+msgid "9"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
+#: card.rst:99 in system
+msgid ""
+"Next, insert SD card into card reader, and check whether the operations "
+"succeeded. In this case, we already know the root files folder “testdir” "
+"and text file “test.txt”by refer the above pictures."
+msgstr ""
+

@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:3
+msgid "BLE – BLE Beacon"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:12
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:13
+msgid "Android / iOS mobile phone"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:15
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:19
+msgid "**Introduction**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:21
+msgid ""
+"A BLE beacon broadcasts its identity to nearby Bluetooth devices, to "
+"enable the other devices to determine their location relative to the "
+"beacon, and to perform actions based on information broadcasted by the "
+"beacon."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:26
+msgid ""
+"Example applications of beacons include indoor positioning system, "
+"location-based advertising and more."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:29
+msgid ""
+"From the definition of its purpose as a broadcast device, a BLE beacon "
+"thus cannot be connected to, and can only send information in its "
+"Bluetooth advertisement packets."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:33
+msgid ""
+"There are several BLE beacon protocols. The Ameba BLEBeacon library "
+"supports the iBeacon and AltBeacon protocols."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:36
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:40
+msgid ""
+"First, you need to install some Bluetooth apps on your mobile phone. "
+"These apps will show you the raw data sent by Ameba and allow you to "
+"interact with the data."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:42
+msgid ""
+"The recommended application is nRF connect, and is available at the links"
+" below:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:45
+#: Beacon.rst:53
+msgid "Android"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:45
+msgid ": https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:47
+msgid "iOS :https://apps.apple.com/us/app/nrf-connect/id1054362403"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:49
+msgid ""
+"LightBlue is an alternative application that can also be used, but has "
+"less features:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:53
+msgid ""
+": "
+"https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:55
+msgid "iOS :https://apps.apple.com/us/app/lightblue/id557428110"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:57
+msgid "Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> “BLEBeacon”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:59
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:107
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:62
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:65
+msgid ""
+"On your mobile phone, open the Bluetooth app and scan for the beacon "
+"signal broadcast by Ameba."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:68
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:111
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:70
+msgid ""
+"If you happen to be in an environment with multiple BLE beacons, you can "
+"tap the entries to expand them, and verify that the beacon data is "
+"identical to the data in the sketch."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:74
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:78
+msgid ""
+"``setRssi()`` is used to set the received signal strength indicator "
+"(rssi) data field for a beacon. The specification states that this should"
+" be the received signal strength from the beacon at a 1 meter distance. "
+"With no method to measure this, it is set to -65dBm as an estimate."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:83
+msgid ""
+"``setMajor()`` and ``setMinor()`` are used to set the two data fields. "
+"The purpose of these data are left for the manufacturer of the beacon to "
+"define, and can be used in any way."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:87
+msgid ""
+"``setUUID()`` is used to give the beacon a universally unique identifier "
+"(UUID). This is a 128-bit number usually expressed as a hexadecimal "
+"string. It is used to identify each unique beacon, and can be randomly "
+"generated for free online."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:92
+msgid ""
+"The BLEBeacon library includes both iBeacon and AltBeacon classes, "
+"replace line 6 iBeacon with altBeacon to create an AltBeacon instead. The"
+" data fields are mostly the same, with only minor changes, please look at"
+" the header files for more details."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:97
+msgid ""
+"``BLE.init()`` is used to allocate memory and prepare Ameba for starting "
+"the Bluetooth stack."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:100
+msgid ""
+"``BLE.configAdvert()`` is used to configure the Bluetooth advertisement "
+"settings, to which we pass the beacon data and set the device as non-"
+"connectable."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:104
+msgid ""
+"``BLE.beginPeripheral()`` starts Ameba in Bluetooth peripheral mode, "
+"after which it will begin to advertise with the beacon data provided."
+msgstr ""
+

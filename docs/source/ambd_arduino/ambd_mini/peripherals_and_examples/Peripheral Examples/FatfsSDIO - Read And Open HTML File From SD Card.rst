@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/FatfsSDIO - Read And Open HTML File From SD Card.rst

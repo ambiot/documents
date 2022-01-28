@@ -1,0 +1,983 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:2
+msgid "Class BLERemoteCharacteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:3
+msgid "**BLERemoteCharacteristic Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:5 BLERemoteCharacteristic.rst:98
+#: BLERemoteCharacteristic.rst:123 BLERemoteCharacteristic.rst:145
+#: BLERemoteCharacteristic.rst:167 BLERemoteCharacteristic.rst:188
+#: BLERemoteCharacteristic.rst:210 BLERemoteCharacteristic.rst:232
+#: BLERemoteCharacteristic.rst:254 BLERemoteCharacteristic.rst:276
+#: BLERemoteCharacteristic.rst:297 BLERemoteCharacteristic.rst:320
+#: BLERemoteCharacteristic.rst:343 BLERemoteCharacteristic.rst:366
+#: BLERemoteCharacteristic.rst:389 BLERemoteCharacteristic.rst:413
+#: BLERemoteCharacteristic.rst:436 BLERemoteCharacteristic.rst:459
+#: BLERemoteCharacteristic.rst:482 BLERemoteCharacteristic.rst:504
+#: BLERemoteCharacteristic.rst:528 BLERemoteCharacteristic.rst:550
+#: BLERemoteCharacteristic.rst:572
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:7
+msgid ""
+"A class used for managing BLE GATT characteristics on connected remote "
+"devices."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:9 BLERemoteCharacteristic.rst:101
+#: BLERemoteCharacteristic.rst:126 BLERemoteCharacteristic.rst:148
+#: BLERemoteCharacteristic.rst:170 BLERemoteCharacteristic.rst:191
+#: BLERemoteCharacteristic.rst:213 BLERemoteCharacteristic.rst:235
+#: BLERemoteCharacteristic.rst:257 BLERemoteCharacteristic.rst:279
+#: BLERemoteCharacteristic.rst:301 BLERemoteCharacteristic.rst:324
+#: BLERemoteCharacteristic.rst:347 BLERemoteCharacteristic.rst:370
+#: BLERemoteCharacteristic.rst:393 BLERemoteCharacteristic.rst:417
+#: BLERemoteCharacteristic.rst:440 BLERemoteCharacteristic.rst:462
+#: BLERemoteCharacteristic.rst:485 BLERemoteCharacteristic.rst:508
+#: BLERemoteCharacteristic.rst:532 BLERemoteCharacteristic.rst:554
+#: BLERemoteCharacteristic.rst:576
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:10
+msgid "class BLERemoteCharacteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:12
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:15
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:17
+msgid ""
+"No public constructor is available for this class. You can get a pointer "
+"to an instance of this class using BLERemoteService::getCharacteristic()."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:23
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:25
+msgid "BLERem oteCharacteristic::getDescriptor"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:25
+msgid "Get a specific descriptor on the remote device"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:28
+msgid "BLERemoteCharacteristic::getUUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:28
+msgid "Get the characteristic UUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:30
+msgid "BLERe moteCharacteristic::setBufferLen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:30
+msgid "Set the size of the internal data buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:33
+msgid "BLERe moteCharacteristic::getBufferLen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:33
+msgid "Get the current size of the internal data buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:36
+msgid "BLERemoteCharacteristic::canRead"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:36
+msgid "Determine if characteristic has read property enabled"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:39
+msgid "B LERemoteCharacteristic::canWrite"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:39
+msgid "Determine if characteristic has write property enabled"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:42
+msgid "BL ERemoteCharacteristic::canNotify"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:42
+msgid "Determine if characteristic has notify property enabled"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:45
+msgid "BLER emoteCharacteristic::canIndicate"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:45
+msgid "Determine if characteristic has indicate property enabled"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:48
+msgid "BLERem oteCharacteristic::getProperties"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:48
+msgid "Get the characteristic properties"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:51
+msgid "BLE RemoteCharacteristic::readString"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:51
+msgid "Read the characteristic data buffer as a String object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:54
+msgid "BL ERemoteCharacteristic::readData8"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:54
+msgid "Read the characteristic data buffer as an unsigned 8-bit integer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:58
+msgid "BLE RemoteCharacteristic::readData16"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:58
+msgid "Read the characteristic data buffer as an unsigned 16-bit integer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:62
+msgid "BLE RemoteCharacteristic::readData32"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:62
+msgid "Read the characteristic data buffer as an unsigned 32-bit integer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:66
+msgid "BLER emoteCharacteristic::writeString"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:66
+msgid "Write data to the characteristic as a String object or character array"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:70
+msgid "BLE RemoteCharacteristic::writeData8"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:70
+msgid "Write data to the characteristic as an unsigned 8-bit integer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:73
+msgid "BLER emoteCharacteristic::writeData16"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:73 BLERemoteCharacteristic.rst:76
+msgid "Write data to the characteristic as an unsigned 16-bit integer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:76
+msgid "BLER emoteCharacteristic::writeData32"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:79
+msgid "BLERemoteCharacteristic::setData"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:79
+msgid "Write data to the characteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:81
+msgid "BLERemoteCharacteristic::getData"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:81
+msgid "Read data from the characteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:84
+msgid "BLERemoteChar acteristic::enableNotifyIndicate"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:84
+msgid "Enable notification or indication for the characteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:88
+msgid "BLERemoteChara cteristic::disableNotifyIndicate"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:88
+msgid "Disable notification and indication for the characteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:92
+msgid "BLERemoteC haracteristic::setNotifyCallback"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:92
+msgid "Set a user function as a notification callback"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:96
+msgid "**BLERemoteCharacteristic::getDescriptor**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:99
+msgid "Get a descriptor with the specified UUID on the remote device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:102
+msgid "BLERemoteDescriptor\\* getDescriptor(const char\\* uuid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:103
+msgid "BLERemoteDescriptor\\* getDescriptor(BLEUUID uuid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:105 BLERemoteCharacteristic.rst:129
+#: BLERemoteCharacteristic.rst:151 BLERemoteCharacteristic.rst:173
+#: BLERemoteCharacteristic.rst:194 BLERemoteCharacteristic.rst:216
+#: BLERemoteCharacteristic.rst:238 BLERemoteCharacteristic.rst:260
+#: BLERemoteCharacteristic.rst:282 BLERemoteCharacteristic.rst:304
+#: BLERemoteCharacteristic.rst:327 BLERemoteCharacteristic.rst:350
+#: BLERemoteCharacteristic.rst:373 BLERemoteCharacteristic.rst:397
+#: BLERemoteCharacteristic.rst:420 BLERemoteCharacteristic.rst:443
+#: BLERemoteCharacteristic.rst:466 BLERemoteCharacteristic.rst:488
+#: BLERemoteCharacteristic.rst:511 BLERemoteCharacteristic.rst:535
+#: BLERemoteCharacteristic.rst:557 BLERemoteCharacteristic.rst:580
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:107
+msgid ""
+"uuid: the desired descriptor UUID, expressed as a character array or a "
+"BLEUUID object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:109 BLERemoteCharacteristic.rst:132
+#: BLERemoteCharacteristic.rst:154 BLERemoteCharacteristic.rst:176
+#: BLERemoteCharacteristic.rst:197 BLERemoteCharacteristic.rst:219
+#: BLERemoteCharacteristic.rst:241 BLERemoteCharacteristic.rst:263
+#: BLERemoteCharacteristic.rst:285 BLERemoteCharacteristic.rst:307
+#: BLERemoteCharacteristic.rst:330 BLERemoteCharacteristic.rst:353
+#: BLERemoteCharacteristic.rst:376 BLERemoteCharacteristic.rst:401
+#: BLERemoteCharacteristic.rst:424 BLERemoteCharacteristic.rst:447
+#: BLERemoteCharacteristic.rst:470 BLERemoteCharacteristic.rst:492
+#: BLERemoteCharacteristic.rst:515 BLERemoteCharacteristic.rst:538
+#: BLERemoteCharacteristic.rst:560 BLERemoteCharacteristic.rst:588
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:112
+msgid ""
+"The function returns the found descriptor as a BLERemoteDescriptor object"
+" pointer, otherwise nullptr is returned if a descriptor with the UUID is "
+"not found."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:114 BLERemoteCharacteristic.rst:136
+#: BLERemoteCharacteristic.rst:157 BLERemoteCharacteristic.rst:179
+#: BLERemoteCharacteristic.rst:201 BLERemoteCharacteristic.rst:223
+#: BLERemoteCharacteristic.rst:245 BLERemoteCharacteristic.rst:267
+#: BLERemoteCharacteristic.rst:288 BLERemoteCharacteristic.rst:311
+#: BLERemoteCharacteristic.rst:334 BLERemoteCharacteristic.rst:357
+#: BLERemoteCharacteristic.rst:380 BLERemoteCharacteristic.rst:404
+#: BLERemoteCharacteristic.rst:427 BLERemoteCharacteristic.rst:450
+#: BLERemoteCharacteristic.rst:473 BLERemoteCharacteristic.rst:495
+#: BLERemoteCharacteristic.rst:518 BLERemoteCharacteristic.rst:541
+#: BLERemoteCharacteristic.rst:563 BLERemoteCharacteristic.rst:591
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:115 BLERemoteCharacteristic.rst:118
+#: BLERemoteCharacteristic.rst:137 BLERemoteCharacteristic.rst:140
+#: BLERemoteCharacteristic.rst:180 BLERemoteCharacteristic.rst:183
+#: BLERemoteCharacteristic.rst:202 BLERemoteCharacteristic.rst:205
+#: BLERemoteCharacteristic.rst:224 BLERemoteCharacteristic.rst:227
+#: BLERemoteCharacteristic.rst:246 BLERemoteCharacteristic.rst:249
+#: BLERemoteCharacteristic.rst:268 BLERemoteCharacteristic.rst:271
+#: BLERemoteCharacteristic.rst:289 BLERemoteCharacteristic.rst:292
+#: BLERemoteCharacteristic.rst:315 BLERemoteCharacteristic.rst:338
+#: BLERemoteCharacteristic.rst:358 BLERemoteCharacteristic.rst:361
+#: BLERemoteCharacteristic.rst:381 BLERemoteCharacteristic.rst:384
+#: BLERemoteCharacteristic.rst:405 BLERemoteCharacteristic.rst:408
+#: BLERemoteCharacteristic.rst:428 BLERemoteCharacteristic.rst:431
+#: BLERemoteCharacteristic.rst:451 BLERemoteCharacteristic.rst:454
+#: BLERemoteCharacteristic.rst:474 BLERemoteCharacteristic.rst:477
+#: BLERemoteCharacteristic.rst:496 BLERemoteCharacteristic.rst:499
+#: BLERemoteCharacteristic.rst:519 BLERemoteCharacteristic.rst:545
+#: BLERemoteCharacteristic.rst:564 BLERemoteCharacteristic.rst:567
+#: BLERemoteCharacteristic.rst:595
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:117 BLERemoteCharacteristic.rst:139
+#: BLERemoteCharacteristic.rst:160 BLERemoteCharacteristic.rst:182
+#: BLERemoteCharacteristic.rst:204 BLERemoteCharacteristic.rst:226
+#: BLERemoteCharacteristic.rst:248 BLERemoteCharacteristic.rst:270
+#: BLERemoteCharacteristic.rst:291 BLERemoteCharacteristic.rst:314
+#: BLERemoteCharacteristic.rst:337 BLERemoteCharacteristic.rst:360
+#: BLERemoteCharacteristic.rst:383 BLERemoteCharacteristic.rst:407
+#: BLERemoteCharacteristic.rst:430 BLERemoteCharacteristic.rst:453
+#: BLERemoteCharacteristic.rst:476 BLERemoteCharacteristic.rst:498
+#: BLERemoteCharacteristic.rst:521 BLERemoteCharacteristic.rst:544
+#: BLERemoteCharacteristic.rst:566 BLERemoteCharacteristic.rst:594
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:121
+msgid "**BLERemoteCharacteristic::getUUID**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:124
+msgid "Get the characteristic UUID."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:127
+msgid "BLEUUID getUUID();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:130 BLERemoteCharacteristic.rst:174
+#: BLERemoteCharacteristic.rst:195 BLERemoteCharacteristic.rst:217
+#: BLERemoteCharacteristic.rst:239 BLERemoteCharacteristic.rst:261
+#: BLERemoteCharacteristic.rst:283 BLERemoteCharacteristic.rst:305
+#: BLERemoteCharacteristic.rst:328 BLERemoteCharacteristic.rst:351
+#: BLERemoteCharacteristic.rst:374 BLERemoteCharacteristic.rst:558
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:134
+msgid "The function returns the characteristic UUID as a BLEUUID class object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:143
+msgid "**BLERemoteCharacteristic::setBufferLen**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:146
+msgid "Set the size of the internal data buffer of the characteristic."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:149
+msgid "void setBufferLen(uint16_t max_len);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:152
+msgid "max_len: number of bytes to resize the internal buffer to."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:155 BLERemoteCharacteristic.rst:539
+#: BLERemoteCharacteristic.rst:561 BLERemoteCharacteristic.rst:589
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:158 BLERemoteCharacteristic.rst:312
+#: BLERemoteCharacteristic.rst:542 BLERemoteCharacteristic.rst:592
+msgid "Example: BLEUartClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:162
+msgid ""
+"Characteristic data buffer has a default size of 20 bytes and can be "
+"increased up to 230 bytes."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:165
+msgid "**BLERemoteCharacteristic::getBufferLen**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:168
+msgid "Get the size of the characteristic internal buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:171
+msgid "uint16_t getBufferLen();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:177
+msgid "The function returns the currently set internal buffer size."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:186
+msgid "**BLERemoteCharacteristic::canRead**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:189
+msgid "Determine if characteristic has read property enabled."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:192
+msgid "bool canRead();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:199
+msgid ""
+"The function returns TRUE if the read property for the characteristic is "
+"enabled."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:208
+msgid "**BLERemoteCharacteristic::canWrite**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:211
+msgid "Determine if characteristic has write property enabled."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:214
+msgid "bool canWrite();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:221
+msgid ""
+"The function returns TRUE if the write property for the characteristic is"
+" enabled."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:230
+msgid "**BLERemoteCharacteristic::canNotify**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:233
+msgid "Determine if characteristic has notify property enabled."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:236
+msgid "bool canNotify();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:243
+msgid ""
+"The function returns TRUE if the notify property for the characteristic "
+"is enabled."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:252
+msgid "**BLERemoteCharacteristic::canIndicate**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:255
+msgid "Determine if characteristic has indicate property enabled."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:258
+msgid "bool canIndicate();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:265
+msgid ""
+"The function returns TRUE if the indicate property for the characteristic"
+" is enabled."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:274
+msgid "**BLERemoteCharacteristic::getProperties**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:277
+msgid "Get the characteristic properties."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:280
+msgid "uint16_t getProperties();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:286
+msgid "The function returns the characteristic properties."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:295
+msgid "**BLERemoteCharacteristic::readString**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:299
+msgid ""
+"Request for characteristic data from the remote device and read the data "
+"in the buffer, expressed as a String class object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:302
+msgid "String readString();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:309
+msgid ""
+"The function returns the data in the characteristic buffer expressed as a"
+" String class object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:318
+msgid "**BLERemoteCharacteristic::readData8**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:322
+msgid ""
+"Request for characteristic data from the remote device and read the data "
+"in the buffer, expressed as an unsigned 8-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:325
+msgid "uint8_t readData8();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:332
+msgid ""
+"The function returns the data in the characteristic buffer expressed as a"
+" uint8_t value."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:335
+msgid "Example: BLEBatteryClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:341
+msgid "**BLERemoteCharacteristic::readData16**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:345
+msgid ""
+"Request for characteristic data from the remote device and read the data "
+"in the buffer, expressed as an unsigned 16-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:348
+msgid "uint16_t readData16();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:355
+msgid ""
+"The function returns the data in the characteristic buffer expressed as a"
+" uint16_t value."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:364
+msgid "**BLERemoteCharacteristic::readData32**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:368
+msgid ""
+"Request for characteristic data from the remote device and read the data "
+"in the buffer, expressed as an unsigned 32-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:371
+msgid "uint32_t readData32();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:378
+msgid ""
+"The function returns the data in the characteristic buffer expressed as a"
+" uint32_t value."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:387
+msgid "**BLERemoteCharacteristic::writeString**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:391
+msgid ""
+"Write data to the remote device characteristic as a String object or "
+"character array."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:394
+msgid "bool writeString(String str);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:395
+msgid "bool writeString(const char\\* str);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:399
+msgid ""
+"str: the data to write to the remote characteristic, expressed as a "
+"String class object or a char array."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:402 BLERemoteCharacteristic.rst:425
+#: BLERemoteCharacteristic.rst:448 BLERemoteCharacteristic.rst:471
+#: BLERemoteCharacteristic.rst:493
+msgid "The function returns TRUE if write data is successful."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:411
+msgid "**BLERemoteCharacteristic::writeData8**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:415
+msgid ""
+"Write data to the remote device characteristic as an unsigned 8-bit "
+"integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:418
+msgid "bool writeData8(uint8_t num);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:422
+msgid ""
+"num: the data to write to the characteristic buffer expressed as an "
+"unsigned 8-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:434
+msgid "**BLERemoteCharacteristic::writeData16**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:438
+msgid ""
+"Write data to the remote device characteristic as an unsigned 16-bit "
+"integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:441
+msgid "bool writeData16(uint16_t num);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:445
+msgid ""
+"num: the data to write to the characteristic buffer expressed as an "
+"unsigned 16-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:457
+msgid "**BLERemoteCharacteristic::writeData32**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:460
+msgid "Write data to the remote device characteristic as a 32-bit integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:463
+msgid "bool writeData32(uint32_t num);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:464
+msgid "bool writeData32(int num);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:468
+msgid ""
+"num: the data to write to the characteristic buffer expressed as a 32-bit"
+" integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:480
+msgid "**BLERemoteCharacteristic::setData**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:483
+msgid "Write data to the remote device characteristic."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:486
+msgid "bool setData(uint8_t\\* data, uint16_t datalen);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:489
+msgid "data: pointer to byte array containing desired data"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:490
+msgid "datalen: number of bytes of data to write"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:502
+msgid "**BLERemoteCharacteristic::getData**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:506
+msgid ""
+"Request for characteristic data from the remote device and read the data "
+"in the buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:509
+msgid "uint16_t getData(uint8_t\\* data, uint16_t datalen);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:512
+msgid "data: pointer to byte array to save data read from buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:513
+msgid "datalen: number of bytes of data to read"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:516
+msgid "The function returns the number of bytes read."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:523
+msgid ""
+"If the data buffer contains less data than requested, it will only read "
+"the available number of bytes of data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:526
+msgid "**BLERemoteCharacteristic::enableNotifyIndicate**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:530
+msgid ""
+"Enable the remote device to send notifications or indications for the "
+"characteristic."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:533
+msgid "void enableNotifyIndicate(bool notify = 1);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:536
+msgid "notify: TRUE to enable notifications, FALSE to enable indications."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:548
+msgid "**BLERemoteCharacteristic::disableNotifyIndicate**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:552
+msgid ""
+"Disable receiving notifications and indications for the characteristic "
+"from the remote device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:555
+msgid "void disableNotifyIndicate();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:570
+msgid "**BLERemoteCharacteristic::setNotifyCallback**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:574
+msgid ""
+"Set a user function to be called when the characteristic receives a "
+"notification from the remote device."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:578
+msgid ""
+"void setNotifyCallback(void (\\*fCallback) (BLERemoteCharacteristic\\* "
+"chr, uint8_t\\* data, uint16_t length));"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:582
+msgid ""
+"fCallback: A user callback function that returns void and takes three "
+"arguments."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:584
+msgid ""
+"chr: pointer to BLERemoteCharacteristic object associated with "
+"notification."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:585
+msgid "data: pointer to byte array containing notification data."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class
+#: BLERemoteCharacteristic.rst:586
+msgid "length: number of bytes of notification data in array."
+msgstr ""
+

@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:3 Save
+#: Sleep
+msgid "Power Save Deep Sleep DHT Eink"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:8 Save
+#: Sleep
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:12
+#: Save Sleep
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:13
+#: Save Sleep
+msgid "DHT11 or DHT22 or DHT21 x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:14
+#: Save Sleep
+msgid "LCD I2C screen x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:16
+#: Save Sleep
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:20
+#: Save Sleep
+msgid "**Introduction**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:28
+#: Save Sleep
+msgid ""
+"Ameba-D supports low power modes which are deepsleep mode. Deepsleep mode"
+" turns off most of the system power domain. The power consumptions of "
+"core module in DeepSleep Mode is around 7uA to 8uA compare to normal "
+"state around 22mA. This example gives demo of system switch between "
+"“working” and “sleep”(power save).Using DHT sensor to read data and "
+"display on Eink screen when system is awake. After 5 seconds system auto "
+"enter DeepSleep Mode for power save. System will wake up by wakeup "
+"source.( Aon timer, Aon Pins or RTC timer)."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:30
+#: Save Sleep
+msgid "**Procedure**"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:33
+#: Save Sleep
+msgid ""
+"Download the Eink zip library, AmebaEink.zip, at "
+"https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
+" Then install the AmebaEink.zip."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:35
+#: Save Sleep
+msgid ""
+"Open ``“File” -> “Examples” -> “AmebaPowerSave” -> "
+"“DeepSleep_DHT_Eink_Example”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:37
+#: Save Sleep
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:79
+#: Save Sleep
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:39
+#: Save Sleep
+msgid "Set condition values as picture below."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:41
+#: Save Sleep
+msgid ""
+"``DS_WAKEUP_SOURCE`` is used to set the wake-up source, user can chose 3 "
+"wake up sources now,"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:49
+#: Save Sleep
+msgid ""
+"AON timer can be set from 0 to 32760000 range (unit ms) by "
+"``AON_TIMER_SLEEP_DURATION``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:52
+#: Save Sleep
+msgid ""
+"There are 4 pins can be set as AON pins and active high for wake-up, D16,"
+" D17, D26 and D27. The AON pin can be set by "
+"``SET_DS_AON_WAKEPIN_WAKEUPPIN``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:56
+#: Save Sleep
+msgid ""
+"RTC timer wake-up system by set alarm. The alarm has 4 values, day, hour,"
+" min and sec. All 4 values can be set by ``DS_RTC_ALARM_DAY``, "
+"``DS_RTC_ALARM_HOUR``, ``DS_RTC_ALARM_MIN``, and ``DS_RTC_ALARM_SEC``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:61
+#: Save Sleep
+msgid ""
+"``DHTPIN`` is used to set DHT sensor data pin. User can choose any GPIO "
+"pins."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:62
+#: Save Sleep
+msgid "``DHTTYPE`` is used to set DHT sensor type. (DHT11, DHT22 and DHT33)"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:64
+#: Save Sleep
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:83
+#: Save Sleep
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:66
+#: Save Sleep
+msgid ""
+"When finished the condition values setting, system will run and switch "
+"between normal working mode and deepsleep mode controlled by wakeup "
+"source. Eink screen will display the temperature and humidity data "
+"measured from DHT sensor when system is awake."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:71
+#: Save Sleep
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/Power DHT Deep Eink.rst:75
+#: Save Sleep
+msgid ""
+"Please refer to the `API Documents <https://www.amebaiot.com/rtl8722dm-"
+"arduino-online-api-documents/>`__ PowerSave section for detail "
+"description of all API."
+msgstr ""
+

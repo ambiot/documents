@@ -1,7 +1,15 @@
-# Documentation of Ameba D RTL8722 SDKs built using the ReadtheDocs framework 
+English Version | [中文版](./README.zh.md)
 
+---
+### GETTING STARTED
 
-Click **link** below to visit the website
+|Document Entry|Current Status|
+|:-----|:-----|
+|[Documents](https://amebaiotdocuments.readthedocs.io/en/latest/) |[![Documentation Status](https://readthedocs.org/projects/code-blocks-en/badge/?version=latest)](https://readthedocs.org/projects/amebaiotdocuments/)|
 
-https://amebaiotdocuments.readthedocs.io/en/latest/
+---
+### CONTACT US
 
+- Facebook[CN]：https://www.facebook.com/groups/AmebaIoT
+- Facebook[EN]：https://www.facebook.com/groups/amebaioten
+- Forum：   https://forum.amebaiot.com/ 
