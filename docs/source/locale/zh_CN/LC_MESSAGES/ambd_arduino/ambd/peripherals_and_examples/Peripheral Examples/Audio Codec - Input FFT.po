@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:12 Input
-msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:13 Input
@@ -60,7 +60,7 @@ msgid "Connect the microphone to the RTL8722 board following the diagram."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:26 Input
-msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:28 Input
@@ -72,13 +72,13 @@ msgid "1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:30 Input
-msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgid "**AMB23** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:32 Input
 msgid ""
-"As RTL8722DM_MINI have a built in microphone on the board, there is no "
-"need for any external microphone."
+"As AMB23 have a built in microphone on the board, there is no need for "
+"any external microphone."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:34 Input
@@ -116,4 +116,19 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:57 Input
 msgid "3"
 msgstr ""
+
+#~ msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+#~ msgstr ""
+
+#~ msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+#~ msgstr ""
+
+#~ msgid "**RTL8722DM MINI** Wiring Diagram:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As RTL8722DM_MINI have a built in "
+#~ "microphone on the board, there is "
+#~ "no need for any external microphone."
+#~ msgstr ""
 

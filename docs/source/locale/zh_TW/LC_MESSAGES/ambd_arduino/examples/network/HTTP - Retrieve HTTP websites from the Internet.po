@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-21 03:17+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:12
 #: Retrieve from the websites
-msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:14
@@ -177,4 +177,7 @@ msgstr ""
 #: Retrieve from the websites
 msgid "Use ``http.get()`` to send a GET request to the website."
 msgstr ""
+
+#~ msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+#~ msgstr ""
 

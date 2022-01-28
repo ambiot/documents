@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:12 HID
-msgid "AmebaD [RTL8722DM/RTL8722CSM/RTL8722DM MINI] x 1"
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:13 HID
@@ -188,4 +188,7 @@ msgid ""
 "devices. Also, some axes or buttons may be disabled or missing on certain"
 " host devices."
 msgstr ""
+
+#~ msgid "AmebaD [RTL8722DM/RTL8722CSM/RTL8722DM MINI] x 1"
+#~ msgstr ""
 

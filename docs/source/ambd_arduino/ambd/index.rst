@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 #######################
-AMB21 (Ameba RTL8722DM)
+AMB21 (RTL8722DM)
 #######################
 
 Welcome to AMB21 Arduino online documentation.

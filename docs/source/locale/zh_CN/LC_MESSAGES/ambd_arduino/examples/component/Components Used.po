@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,8 +43,8 @@ msgstr ""
 
 #: ../../source/ambd_arduino/examples/component/Components Used.rst
 msgid ""
-":doc:`DHT11_DHT22<../../examples/peripheral/GPIO - Measuring The "
-"Temperature And Humidity>`"
+":doc:`DHT11_DHT22<../../examples/peripheral/GPIO - Measure Temperature "
+"and Humidity>`"
 msgstr ""
 
 #: ../../source/ambd_arduino/examples/component/Components Used.rst
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/examples/component/Components Used.rst
 msgid ""
-":doc:`HC_SR04<../../examples/peripheral/GPIO - Measure The Distance By "
+":doc:`HC_SR04<../../examples/peripheral/GPIO - Measure Distance By "
 "Ultrasound Module>`"
 msgstr ""
 
@@ -89,8 +89,8 @@ msgstr ""
 
 #: ../../source/ambd_arduino/examples/component/Components Used.rst
 msgid ""
-":doc:`PMS3003/5003<../../examples/peripheral/PM2.5 Concentration In The "
-"Air>`"
+":doc:`PMS3003/5003<../../examples/peripheral/UART - PM2.5 Concentration "
+"in The Air>`"
 msgstr ""
 
 #: ../../source/ambd_arduino/examples/component/Components Used.rst
@@ -146,10 +146,28 @@ msgid "image-7"
 msgstr ""
 
 #: ../../source/ambd_arduino/examples/component/Components Used.rst
-msgid ":doc:`Tower Pro SG90<../../examples/peripheral/PWM - Using A Servo>`"
+msgid ":doc:`Tower Pro SG90<../../examples/peripheral/PWM - Servo Control>`"
 msgstr ""
 
 #: ../../source/ambd_arduino/examples/component/Components Used.rst
 msgid "Servo with high output power"
 msgstr ""
+
+#~ msgid ""
+#~ ":doc:`DHT11_DHT22<../../examples/peripheral/GPIO - "
+#~ "Measuring The Temperature And Humidity>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":doc:`HC_SR04<../../examples/peripheral/GPIO - Measure "
+#~ "The Distance By Ultrasound Module>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":doc:`PMS3003/5003<../../examples/peripheral/PM2.5 Concentration"
+#~ " In The Air>`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Tower Pro SG90<../../examples/peripheral/PWM - Using A Servo>`"
+#~ msgstr ""
 

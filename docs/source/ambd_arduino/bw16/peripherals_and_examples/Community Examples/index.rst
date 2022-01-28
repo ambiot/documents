@@ -7,11 +7,10 @@
 Community Examples
 ###################################
 
-Welcome to share your examples under the **Community Examples** section if you have completed a project using the Ameba boards.
-For more information on contribution guidelines, please refer to our official `GitHub Wiki <https://github.com/ambiot/ambd_arduino/wiki/Contributing-to-Ameba>`_
+| Welcome to share your examples under the **Community Examples** section if you have completed a project using the Ameba boards.
+| For more information on contribution guidelines, please refer to our official `GitHub Wiki <https://github.com/ambiot/ambd_arduino/wiki/Contributing-to-Ameba>`_
 
 |image1|
-
 
 .. toctree::
     :maxdepth: 1

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,41 +18,41 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:2
+#: World.rst:3
 msgid "TensorFlow Lite - Hello World"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:7
+#: World.rst:8
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:11
-msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+#: World.rst:12
+msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:12
+#: World.rst:13
 msgid "LED x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:14
+#: World.rst:15
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:18
+#: World.rst:19
 msgid "**Procedure**"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:20
+#: World.rst:21
 msgid ""
 "Download the Ameba customized version of TensorFlow Lite for "
 "Microcontrollers library at "
@@ -64,64 +64,67 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:28
+#: World.rst:29
 msgid ""
 "Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
 "-> “hello_world”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:31
+#: World.rst:32
 msgid "|1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:50
+#: World.rst:51
 msgid "1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:35
+#: World.rst:36
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:37
+#: World.rst:38
 msgid ""
 "Connect the LED to digital pin 10 and ground, ensuring that the polarity "
 "is correct. You should see the LED fade in and out rapidly."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:39
+#: World.rst:40
 msgid ""
 "In the Arduino serial plotter, you can see the output value of the "
 "Tensorflow model plotted as a graph, it should resemble a sine wave."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:41
+#: World.rst:42
 msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:54
+#: World.rst:55
 msgid "2"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:43
+#: World.rst:44
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
-#: World.rst:47
+#: World.rst:48
 msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
 " https://www.tensorflow.org/lite/microcontrollers"
 msgstr ""
+
+#~ msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+#~ msgstr ""
 

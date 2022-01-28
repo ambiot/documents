@@ -123,14 +123,12 @@ for AmebaD.
 |ambd-mini-get-start-8|
 
 | If you are facing GitHub downloading issue, please refer to the
-  following link at `Download/Software Development Kit`_. There are 3
+  following link at `Download/Software Development Kit <https://www.amebaiot.com.cn/en/ameba-arduino-summary/>`_. There are 3
   sections:
       
       1. “AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There are 5 latest released SDK options.
       2. “AmebaD_Arduino_patch2_Tools”, please select according to your operation system. There are Windows, Linux and MacOS. 
       3. “AmebaD_Arduino_Source_Code”, this section is optional download only wants to refer the latest source code.
-
-.. _Download/Software Development Kit: https://www.amebaiot.com.cn/en/ameba-arduino-summary/
 
    Download the files selected, then unzip (patch1 and patch2 are compulsory). 
    There are “Install.doc”/“Install.pdf” for you to refer installation steps. 

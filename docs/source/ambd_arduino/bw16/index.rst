@@ -3,11 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-#####################
-BW16 (by Ai-Thinker)
-#####################
+###############################
+BW16 (RTL8720DN) by Ai-Thinker
+###############################
 
-Welcome to BW16 (by Ai-Thinker) online documentation.
+Welcome to BW16 (RTL8720DN) online documentation.
 
 |image1|
 

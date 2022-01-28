@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,8 +22,9 @@ msgid "Open Source SDKs"
 msgstr "开源 SDK 平台"
 
 #: ../../source/index.rst:8
-msgid "Welcome to Ameba D (RTL8722DM) Online SDK Documentation!"
-msgstr "欢迎来到 Ameba D （RTL8722DM) SDK 线上文档"
+#, fuzzy
+msgid "Welcome to Ameba IoT Family Online SDK Documentation!"
+msgstr "欢迎来到 Ameba IoT 家族 SDK 线上文档！"
 
 #: ../../source/index.rst:10
 msgid "|image1|"
@@ -49,7 +50,7 @@ msgstr "所有的快速入门手册、范例演示、教程、API参考文档、
 
 #: ../../source/index.rst
 msgid "We welcome contributions to the our SDKs documentations."
-msgstr ""
+msgstr "我們欢迎贡献者为 SDK 文档做出贡献。"
 
 #: ../../source/index.rst
 #, fuzzy
@@ -57,6 +58,6 @@ msgid ""
 "Please read the Ameba :doc:`contribution-guide` below for more details "
 "before you make the contribution."
 msgstr ""
-"欢迎贡献者为 SDK 文档做出贡献。进行文档贡献或修改前请先阅读下面的 Ameba :doc:`contribution-guide` "
+"进行文档贡献或修改前请先阅读下面的 Ameba :doc:`contribution-guide` "
 "以了解更多细节。"
 

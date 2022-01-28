@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Output Sine
 #: Wave.rst:12
-msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Output Sine
@@ -53,7 +53,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Output Sine
 #: Wave.rst:21
-msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Output Sine
@@ -73,14 +73,14 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Output Sine
 #: Wave.rst:26
-msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgid "**AMB23** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Output Sine
 #: Wave.rst:28
 msgid ""
-"As RTL8722DM_MINI have a built in microphone on the board, there is no "
-"need for any external microphone."
+"As AMB23 have a built in microphone on the board, there is no need for "
+"any external microphone."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Output Sine
@@ -113,4 +113,19 @@ msgid ""
 "Connect a pair of wired headphones to the 3.5mm audio jack and you should"
 " hear the generate single sinusoidal tone."
 msgstr ""
+
+#~ msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+#~ msgstr ""
+
+#~ msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+#~ msgstr ""
+
+#~ msgid "**RTL8722DM MINI** Wiring Diagram:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As RTL8722DM_MINI have a built in "
+#~ "microphone on the board, there is "
+#~ "no need for any external microphone."
+#~ msgstr ""
 

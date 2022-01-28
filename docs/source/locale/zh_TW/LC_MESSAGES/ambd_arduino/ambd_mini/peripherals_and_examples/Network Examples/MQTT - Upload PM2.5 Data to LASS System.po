@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-21 03:17+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
 #: System.rst:25 Upload to
-msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
@@ -118,7 +118,7 @@ msgid "|1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:83 Upload to
+#: System.rst:86 Upload to
 msgid "1"
 msgstr ""
 
@@ -145,7 +145,7 @@ msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:87 Upload to
+#: System.rst:90 Upload to
 msgid "2"
 msgstr ""
 
@@ -160,7 +160,7 @@ msgid "|3|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:91 Upload to
+#: System.rst:94 Upload to
 msgid "3"
 msgstr ""
 
@@ -171,7 +171,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
 #: System.rst:63 Upload to
-msgid "**RTL8722DM / RTL8722CSM**:"
+msgid "**AMB21 / AMB22**:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
@@ -180,13 +180,13 @@ msgid "|4|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:95 Upload to
+#: System.rst:98 Upload to
 msgid "4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
 #: System.rst:65 Upload to
-msgid "**RTL8722DM MINI**:"
+msgid "**AMB23**:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
@@ -195,12 +195,27 @@ msgid "|4-1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:99 Upload to
+#: System.rst:102 Upload to
 msgid "4-1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:70 Upload to
+#: System.rst:67 Upload to
+msgid "**BW16**:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
+#: System.rst:68 Upload to
+msgid "|4-2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
+#: System.rst:106 Upload to
+msgid "4-2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
+#: System.rst:73 Upload to
 msgid ""
 "Compile the code and upload it to Ameba. After pressing the Reset button,"
 " Ameba will attempt to read PM2.5 data every minute and upload it to LASS"
@@ -209,29 +224,29 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:71 Upload to
+#: System.rst:74 Upload to
 msgid "|5|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:103 Upload to
+#: System.rst:110 Upload to
 msgid "5"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:73 Upload to
+#: System.rst:76 Upload to
 msgid "We can also use MQTTlens to verify if the data is properly uploaded."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:76 Upload to
+#: System.rst:79 Upload to
 msgid ""
 "Enter “gpssensor.ddns.net” as the MQTT-Broker server and "
 "“LASS/Test/PM25/live” as the subscribe topic to receive data."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:80 Upload to
+#: System.rst:83 Upload to
 msgid ""
 "The time uses UTC format, and the PM2.5 data stores in s-d0. In the "
 "figure, s_d0 = 9 represents that the PM2.5 is 9, meaning that the entire "
@@ -239,12 +254,21 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:81 Upload to
+#: System.rst:84 Upload to
 msgid "|6|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:107 Upload to
+#: System.rst:114 Upload to
 msgid "6"
 msgstr ""
+
+#~ msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+#~ msgstr ""
+
+#~ msgid "**RTL8722DM / RTL8722CSM**:"
+#~ msgstr ""
+
+#~ msgid "**RTL8722DM MINI**:"
+#~ msgstr ""
 

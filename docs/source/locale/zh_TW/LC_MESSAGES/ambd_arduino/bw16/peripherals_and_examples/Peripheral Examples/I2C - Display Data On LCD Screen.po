@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
 #: Screen.rst:12
-msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
@@ -57,7 +57,7 @@ msgid "|1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:77
+#: Screen.rst:81
 msgid "1"
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
 #: Screen.rst:26
-msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
@@ -80,13 +80,13 @@ msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:81 Screen.rst:86
+#: Screen.rst:85 Screen.rst:90 Screen.rst:95
 msgid "2"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
 #: Screen.rst:30
-msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgid "**AMB23** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
@@ -96,86 +96,96 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
 #: Screen.rst:34
+msgid "**BW16** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:36
+msgid "|2-3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
+#: Screen.rst:38
 msgid ""
 "Open the example in ``“File” -> “Examples” -> “AmebaWire” -> "
 "“LCD_HelloWorld”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:35
+#: Screen.rst:39
 msgid "Compile and upload to Ameba, then press the reset button."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:37
+#: Screen.rst:41
 msgid ""
 "Then you can see “Hello World” in the first line, and “Ameba” in the "
 "second line displayed on the LCD screen."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:39
+#: Screen.rst:43
 msgid "|3|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:91
+#: Screen.rst:100
 msgid "3"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:41
+#: Screen.rst:45
 msgid ""
 "After 8 seconds, you can input to the Serial Monitor the string you would"
 " like to display on the LCD."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:44
+#: Screen.rst:48
 msgid "|4|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:96
+#: Screen.rst:105
 msgid "4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:46
+#: Screen.rst:50
 msgid "For example, we enter “123456789” and press “Send”:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:48
+#: Screen.rst:52
 msgid "|5|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:101
+#: Screen.rst:110
 msgid "5"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:50
+#: Screen.rst:54
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:54
+#: Screen.rst:58
 msgid ""
 "The required settings of each model of LCD might be different, the "
 "constructor we use in this example is:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:63
+#: Screen.rst:67
 msgid "And the setting parameters are as follows:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:69
+#: Screen.rst:73
 msgid ""
 "The first parameter 0x27 is the address of I2C. Each of the following 8 "
 "parameters represents the meaning of each bit in a byte, i.e., En is bit "
@@ -183,19 +193,28 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:73
+#: Screen.rst:77
 msgid "Call ``backlight()`` to light the screen,"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:74
+#: Screen.rst:78
 msgid "Call ``setCursor(0, 0)`` to set the position of the cursor."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:75
+#: Screen.rst:79
 msgid ""
 "LCD inherits the Print class, so we can use ``lcd.print()`` to output "
 "string on the screen."
 msgstr ""
+
+#~ msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+#~ msgstr ""
+
+#~ msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+#~ msgstr ""
+
+#~ msgid "**RTL8722DM MINI** Wiring Diagram:"
+#~ msgstr ""
 

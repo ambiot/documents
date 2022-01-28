@@ -26,4 +26,5 @@ msgid ""
 "Arduino SDK is supported on the following 3 develpoment boards listed "
 "below:"
 msgstr ""
+"Arduino SDK 現在已經支援下列三款開發板："
 

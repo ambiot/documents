@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:12 To Use
-msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
@@ -70,7 +70,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:29 To Use
-msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
@@ -79,13 +79,13 @@ msgid "|1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
-#: LED.rst:90 To Use
+#: LED.rst:94 To Use
 msgid "1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:33 To Use
-msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgid "**AMB23** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
@@ -94,41 +94,56 @@ msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
-#: LED.rst:94 To Use
+#: LED.rst:98 To Use
 msgid "2"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:37 To Use
-msgid "Compile and upload the program, press reset."
+msgid "**BW16** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:39 To Use
+msgid "|2-2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
+#: LED.rst:102 To Use
+msgid "2-2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
+#: LED.rst:41 To Use
+msgid "Compile and upload the program, press reset."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
+#: LED.rst:43 To Use
 msgid ""
 "The LED lights at first. Press and release the button, then the LED "
 "should dim. Press again, then the LED should light."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
-#: LED.rst:41 To Use
+#: LED.rst:45 To Use
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
-#: LED.rst:45 To Use
+#: LED.rst:49 To Use
 msgid "In"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
-#: LED.rst:51 To Use
+#: LED.rst:55 To Use
 msgid "we set Pin 12 to"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
-#: LED.rst:57 To Use
+#: LED.rst:61 To Use
 msgid ""
 ", this means that an interrupt occurs when the voltage of this pin "
 "changes from GND to 3V3. Therefore, we connect the other side of the "
@@ -137,12 +152,12 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
-#: LED.rst:66 To Use
+#: LED.rst:70 To Use
 msgid "On the other hand, we can set pin 12 to"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
-#: LED.rst:72 To Use
+#: LED.rst:76 To Use
 msgid ""
 ", this means that an interrupt occurs when the voltage of this pin "
 "changes from 3V3 to GND. In this case, the other side of the button is "
@@ -151,14 +166,23 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
-#: LED.rst:81 To Use
+#: LED.rst:85 To Use
 msgid "The second parameter is a function pointer, with prototype:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
-#: LED.rst:87 To Use
+#: LED.rst:91 To Use
 msgid ""
 "In this handler, every time we press and release the button, we trigger "
 "an interrupt, and change the status of the LED."
 msgstr ""
+
+#~ msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+#~ msgstr ""
+
+#~ msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+#~ msgstr ""
+
+#~ msgid "**RTL8722DM MINI** Wiring Diagram:"
+#~ msgstr ""
 

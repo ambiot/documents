@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 ########################################################
-Welcome to Ameba D (RTL8722DM) Online SDK Documentation!
+Welcome to Ameba IoT Family Online SDK Documentation!
 ########################################################
 
 | |image1|
