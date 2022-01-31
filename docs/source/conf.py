@@ -14,7 +14,7 @@
 #import sys
 #sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
-import sphinxemoji
+# import sphinxemoji
 
 # -- Project information -----------------------------------------------------
 
@@ -34,7 +34,7 @@ release = '0.0.1'
 extensions = [
     "sphinx_rtd_theme",
     'sphinx_togglebutton',
-    'sphinxemoji.sphinxemoji',
+    # 'sphinxemoji.sphinxemoji',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

@@ -4,10 +4,10 @@
    contain the root `toctree` directive.
 
 ###################################
-|:fire:| Community Examples
+Community Examples
 ###################################
 
-Welcome to share your examples under the |:fire:| **Community Examples** section if you have completed a project using the Ameba boards.
+Welcome to share your examples under the **Community Examples** section if you have completed a project using the Ameba boards.
 
 For more information on contribution guidelines, please refer to our official GitHub `Wiki <https://github.com/ambiot/documents/wiki>`_ page.
 

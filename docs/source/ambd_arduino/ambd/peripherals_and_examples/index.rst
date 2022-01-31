@@ -19,5 +19,5 @@ Peripherals & Examples
 
 .. tip::
 
-   Welcome to share your examples under the |:fire:| **Community Examples** section if you have completed a project using the Ameba boards |:smile:|
-
+   Welcome to share your examples under the **Community Examples** section if you have completed a project using the Ameba boards
+   
