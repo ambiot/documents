@@ -24,7 +24,8 @@ msgstr "开源 SDK 平台"
 #: ../../source/index.rst:8
 #, fuzzy
 msgid "Welcome to Ameba IoT Family Online SDK Documentation!"
-msgstr "欢迎来到 Ameba IoT 家族 SDK 线上文档！"
+msgstr ""
+"欢迎来到 Ameba IoT 家族 SDK 线上文档！"
 
 #: ../../source/index.rst:10
 msgid "|image1|"

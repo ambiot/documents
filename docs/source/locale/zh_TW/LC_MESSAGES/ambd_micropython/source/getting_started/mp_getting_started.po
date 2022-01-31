@@ -884,7 +884,7 @@ msgid ""
 "``Tera Term`` to see REPL."
 msgstr ""
 "REPL 代表 讀取(Read) ，評估(Evaluation) ，打印(Print) 和 循環(Loop)，它是 MicroPython 的終端，供用戶控制微控制器。 
-REPL在LOG UART上運行，因此我們需要打開串行終端軟件，在本例中為Tera Term，用以查看REPL。"
+"REPL在LOG UART上運行，因此我們需要打開串行終端軟件，在本例中為Tera Term，用以查看REPL。"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:269
 msgid "|get-start-8|"
