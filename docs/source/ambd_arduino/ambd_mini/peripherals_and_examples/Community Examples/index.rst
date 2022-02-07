@@ -13,6 +13,8 @@ For more information on contribution guidelines, please refer to our official Gi
 
 |image1|
 
+|OpenMV_Tripwire_Example|
+
 .. toctree::
     :maxdepth: 1
     :caption: Community Examples
@@ -21,3 +23,5 @@ For more information on contribution guidelines, please refer to our official Gi
    :width: 6318   
    :height: 3553
    :scale: 10 %
+
+.. |OpenMV_Tripwire_Example|::OpenMV Bluetooth TripWire.docx
