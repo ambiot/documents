@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
 #: card.rst:12 in system
-msgid "Ameba D [RTL8722DM MINI] x 1"
+msgid "AmebaD [AMB23] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
@@ -271,4 +271,7 @@ msgid ""
 "succeeded. In this case, we already know the root files folder “testdir” "
 "and text file “test.txt”by refer the above pictures."
 msgstr ""
+
+#~ msgid "Ameba D [RTL8722DM MINI] x 1"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,8 +22,8 @@ msgid "Open Source SDKs"
 msgstr "開源 SDK 平臺"
 
 #: ../../source/index.rst:8
-msgid "Welcome to Ameba D (RTL8722DM) Online SDK Documentation!"
-msgstr "歡迎來到 AmebaD (RTL8722DM) SDK 綫上文檔"
+msgid "Welcome to Ameba IoT Family Online SDK Documentation!"
+msgstr "歡迎來到 Ameba IoT 家族 SDK 綫上文檔!"
 
 #: ../../source/index.rst:10
 msgid "|image1|"
@@ -46,7 +46,8 @@ msgstr ""
 msgid ""
 "All Getting-started guides, Examples, Tutorials, API reference and "
 "Datasheet can be found under the respective link below:"
-msgstr "所有的 快速入門手冊、範例演示、教程、API參考文檔、相關資源下載 和 數據手冊 都可以在下方鏈接中找到。"
+msgstr ""
+"所有的 快速入門手冊、範例演示、教程、API參考文檔、相關資源下載 和 數據手冊 都可以在下方鏈接中找到。"
 
 #: ../../source/index.rst
 msgid "We welcome contributions to the our SDKs documentations."

@@ -28,7 +28,7 @@ Let us connect pin PB_22 to the anode leg of an LED which in series with a curre
 
 |image1|
 
-Then, copy the following code and press ``Ctrl + e`` in ``REPL`` to enter the paste mode (for more information about ``REPL`` and paste mode, check “:doc:`../getting_started/mp_getting_started`” page). If you are using ``Tera Term``, simply right click on any blank space of the terminal and paste the code into ``REPL``, then press ``Ctrl + d`` to execute the code. If everything is order, you should be able to see the LED blink for 3 times in 3 seconds.
+Then, copy the following code and press ``Ctrl + e`` in ``REPL`` to enter the paste mode (for more information about ``REPL`` and paste mode, check “Getting Started” page). If you are using ``Tera Term``, simply right click on any blank space of the terminal and paste the code into ``REPL``, then press ``Ctrl + d`` to execute the code. If everything is order, you should be able to see the LED blink for 3 times in 3 seconds.
 
 .. code-block:: python
    

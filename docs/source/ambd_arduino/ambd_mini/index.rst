@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 ############################
-AMB23 (Ameba RTL8722DM MINI)
+AMB23 (RTL8722DM MINI)
 ############################
 
 Welcome to AMB23 Arduino online documentation.

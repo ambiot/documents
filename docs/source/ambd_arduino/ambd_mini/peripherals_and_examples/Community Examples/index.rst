@@ -8,12 +8,12 @@ Community Examples
 ###################################
 
 Welcome to share your examples under the **Community Examples** section if you have completed a project using the Ameba boards.
-For more information on contribution guidelines, please refer to our official `GitHub Wiki <https://github.com/ambiot/ambd_arduino/wiki/Contributing-to-Ameba>`_
+
+For more information on contribution guidelines, please refer to our official GitHub `Wiki <https://github.com/ambiot/documents/wiki>`_ page.
 
 |image1|
 
 |OpenMV_Tripwire_Example|
-
 
 .. toctree::
     :maxdepth: 1

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:12
 #: File From HTML Open Read SD
-msgid "AmebaD [RTL8722DM MINI] x 1"
+msgid "AmebaD [AMB23] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:13
@@ -122,4 +122,7 @@ msgid ""
 "Now you have successfully read and opened the html file saved in your SD "
 "card."
 msgstr ""
+
+#~ msgid "AmebaD [RTL8722DM MINI] x 1"
+#~ msgstr ""
 

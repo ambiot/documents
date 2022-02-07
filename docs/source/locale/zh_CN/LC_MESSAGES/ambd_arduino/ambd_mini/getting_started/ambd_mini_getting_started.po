@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2022-01-28 03:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgstr ""
 msgid "|ambd-mini-get-start-1|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:238
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:236
 msgid "board-front"
 msgstr ""
 
@@ -76,7 +76,7 @@ msgstr ""
 msgid "|ambd-mini-get-start-2|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:244
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:242
 msgid "board-bottom"
 msgstr ""
 
@@ -96,7 +96,7 @@ msgstr ""
 msgid "|ambd-mini-get-start-3|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:250
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:248
 msgid "pin-diagram-front"
 msgstr ""
 
@@ -104,7 +104,7 @@ msgstr ""
 msgid "|ambd-mini-get-start-4|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:256
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:254
 msgid "pin-diagram-bottom"
 msgstr ""
 
@@ -458,7 +458,7 @@ msgstr ""
 msgid "|ambd-mini-get-start-5|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:262
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:260
 msgid "install-driver"
 msgstr ""
 
@@ -493,7 +493,7 @@ msgstr ""
 msgid "|ambd-mini-get-start-6|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:268
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:266
 msgid "get-start-6"
 msgstr ""
 
@@ -511,7 +511,7 @@ msgstr ""
 msgid "|ambd-mini-get-start-7|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:274
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:272
 msgid "get-start-7"
 msgstr ""
 
@@ -530,14 +530,16 @@ msgstr ""
 msgid "|ambd-mini-get-start-8|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:280
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:278
 msgid "get-start-8"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:127
 msgid ""
 "If you are facing GitHub downloading issue, please refer to the following"
-" link at `Download/Software Development Kit`_. There are 3 sections:"
+" link at `Download/Software Development Kit "
+"<https://www.amebaiot.com.cn/en/ameba-arduino-summary/>`_. There are 3 "
+"sections:"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:129
@@ -558,7 +560,7 @@ msgid ""
 "wants to refer the latest source code."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:135
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:133
 msgid ""
 "Download the files selected, then unzip (patch1 and patch2 are "
 "compulsory). There are “Install.doc”/“Install.pdf” for you to refer "
@@ -566,7 +568,7 @@ msgid ""
 " tool in the “Offline_SDK_installation_tool” folder."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:140
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:138
 msgid ""
 "After the installation tool running successfully, you may open Arduino "
 "IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. "
@@ -575,135 +577,135 @@ msgid ""
 "IDE starts to download required files for AmebaD."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:148
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:146
 msgid ""
 "Finally, we select AmebaD as current connected board in "
 ":guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” "
 "RTL8722DM MINI”`："
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:151
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:149
 msgid "|ambd-mini-get-start-9|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:286
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:284
 msgid "get-start-9"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:156
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:154
 msgid "Try the First Example"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:159
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:157
 msgid "Step 1. Compile & Upload"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:163
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:161
 msgid ""
 "Arduino IDE provides many built-in examples, which can be compiled, "
 "uploaded and run directly on the boards. Here, we take the “Blink” "
 "example as the first try."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:164
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:162
 msgid "Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:166
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:164
 msgid "|ambd-mini-get-start-10|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:292
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:290
 msgid "get-start-10"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:168
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:166
 msgid "Arduino IDE opens a new window with the complete sample code."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:170
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:168
 msgid "|ambd-mini-get-start-11|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:298
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:296
 msgid "get-start-11"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:173
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:171
 msgid ""
-"There are onboard LED of TRL8722DM_MINI, the default “LED_BUILTIN” is "
+"There are onboard LED of RTL8722DM MINI, the default “LED_BUILTIN” is "
 "blue onboard LED."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:175
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:173
 msgid ""
 "Change “LED_BUILTIN” to “LED_B” or “LED_G” for different colour. Onboard "
 "LEDs options LED_B and LED_G (blue and green)."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:177
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:175
 msgid "|ambd-mini-get-start-12|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:304
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:302
 msgid "get-start-12"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:179
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:177
 msgid ""
 "Next, we compile the sample code directly; click :guilabel:`“Sketch” -> "
 "“Verify/Compile”`"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:182
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:180
 msgid "|ambd-mini-get-start-13|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:310
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:308
 msgid "get-start-13"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:184
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:182
 msgid ""
 "Arduino IDE prints the compiling messages in the bottom area of the IDE "
 "window. When the compilation is finished, you will get the message "
 "similar to the following figure:"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:188
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:186
 msgid "|ambd-mini-get-start-14|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:316
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:314
 msgid "get-start-14"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:190
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:188
 msgid "Afterwards, we will upload the compiled code to RTL8722DM MINI."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:192
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:190
 msgid ""
 "Please make sure RTL8722DM MINI is connected to your computer, then click"
 " :guilabel:`“Sketch” -> “Upload”`."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:196
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:194
 msgid ""
 "The Arduino IDE will compile first then upload. During the uploading "
 "process, users are required to enter the upload mode of the board. "
 "Arduino IDE will wait 5s for DEV board to enter the upload mode."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:198
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:196
 msgid "|ambd-mini-get-start-15|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:322
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:320
 msgid "get-start-15"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:200
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:198
 msgid ""
 "To enter the upload mode, first press and hold the "
 ":guilabel:`UART_DOWNLOAD` button, then press the :guilabel:`RESET` "
@@ -711,15 +713,15 @@ msgid ""
 " turned off."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:204
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:202
 msgid "|ambd-mini-get-start-16|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:328
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:326
 msgid "get-start-16"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:206
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:204
 msgid ""
 "It is optional for users to check if the board entered the upload mode. "
 "Open serial monitor/terminal and look for “#Flash Download Start”. Note, "
@@ -727,26 +729,26 @@ msgid ""
 "following picture."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:210
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:208
 msgid "|ambd-mini-get-start-17|"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:334
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:332
 msgid "get-start-17"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:212
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:210
 msgid ""
 "Again, during the uploading procedure the IDE prints messages. Uploading "
 "procedure takes considerably longer time (about 30 seconds to 1 minute). "
 "When upload completed, the “Done uploading” message is printed."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:217
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:215
 msgid "Step 2.Run the Blink example"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:222
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:220
 msgid ""
 "In each example, Arduino not only provides sample code, but also detailed"
 " documentation, including wiring diagram, sample code explanation, "
@@ -754,33 +756,46 @@ msgid ""
 " MINI."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:223
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:221
 msgid "So, we find the detailed information of the \"Blink\" example:"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:224
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:222
 msgid "https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:228
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:226
 msgid ""
 "In short, for RTL8722DM MINI, the example can be run on both onboard LEDs"
 " (green or blue) or external LED (use any GPIO pins for signal output)."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:229
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:227
 msgid ""
 "Finally, press the :guilabel:`RESET` button, and you can see the "
 ":guilabel:`LED` blinking."
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:231
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:229
 msgid "**(End)**"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:236
+#: ../../source/ambd_arduino/ambd_mini/getting_started/ambd_mini_getting_started.rst:234
 msgid ""
 "If you face any issue, please refer to the FAQ and Trouble shooting "
 "sections on :doc:`../../support/index` page."
 msgstr ""
+
+#~ msgid ""
+#~ "There are onboard LED of TRL8722DM_MINI,"
+#~ " the default “LED_BUILTIN” is blue "
+#~ "onboard LED."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are facing GitHub downloading "
+#~ "issue, please refer to the following "
+#~ "link at `Download/Software Development Kit`_."
+#~ " There are 3 sections:"
+#~ msgstr ""
 

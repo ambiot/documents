@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../source/ambd_arduino/bw16/index.rst:14
 msgid "Table of Contents"
-msgstr ""
+msgstr "目錄"
 
 #: ../../source/ambd_arduino/bw16/index.rst:8
-msgid "BW16 (by Ai-Thinker)"
-msgstr ""
+msgid "BW16 (RTL8720DN) by Ai-Thinker"
+msgstr "BW16 (RTL8720DN) 由安信可提供"
 
 #: ../../source/ambd_arduino/bw16/index.rst:10
-msgid "Welcome to BW16 (by Ai-Thinker) online documentation."
-msgstr ""
+msgid "Welcome to BW16 (RTL8720DN) online documentation."
+msgstr "歡迎來到 BW16 (RTL8720DN) 綫上文檔"
 
 #: ../../source/ambd_arduino/bw16/index.rst:12
 msgid "|image1|"
@@ -36,4 +36,10 @@ msgstr ""
 #: ../../source/ambd_arduino/bw16/index.rst:25
 msgid "image1"
 msgstr ""
+
+#~ msgid "BW16 (by Ai-Thinker)"
+#~ msgstr ""
+
+#~ msgid "Welcome to BW16 (by Ai-Thinker) online documentation."
+#~ msgstr ""
 

@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 ########################################################
-Welcome to Ameba D (RTL8722DM) Online SDK Documentation!
+Welcome to Ameba IoT Family Online SDK Documentation!
 ########################################################
 
 | |image1|
@@ -13,7 +13,7 @@ Welcome to Ameba D (RTL8722DM) Online SDK Documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Open Source SDKs
+   :caption: Open Source SDKs 
    
    ambd_arduino/arduino_index
    ambd_micropython/source/index

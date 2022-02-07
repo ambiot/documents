@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 14:30+0000\n"
+"POT-Creation-Date: 2022-01-28 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:12 as over
-msgid "AmebaD [RTL8722DM/RTL8722CSM/RTL8722DM MINI] / [RTL8720DN(BW16)] x 2"
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 2"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
@@ -179,4 +179,7 @@ msgstr ""
 #: UDP.rst:85 as over
 msgid "8"
 msgstr ""
+
+#~ msgid "AmebaD [RTL8722DM/RTL8722CSM/RTL8722DM MINI] / [RTL8720DN(BW16)] x 2"
+#~ msgstr ""
 
