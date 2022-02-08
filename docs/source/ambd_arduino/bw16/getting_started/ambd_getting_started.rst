@@ -9,7 +9,7 @@ Ameba ARDUINO: Getting Started with BW16
 Required Environment
 ====================
 
-RTL8720DN Dual-Band Wi-Fi board currently supports Windows XP/7/8/10 32-bits and 64-bits 
+BW16 Dual-Band Wi-Fi board currently supports Windows XP/7/8/10 32-bits and 64-bits 
 operating systems. In this documentation, please use Arduino IDE with version 1.8.15 or later.
 
 Introduction to BW16
@@ -22,9 +22,9 @@ this module is a highly integrated Wi-Fi and Bluetooth module with the RTL8720DN
 
    |bw16-get-start-1|
 
-RTL8720DN (BW16) has a smaller size than AmebaD and AmebaD MINI as shown in the above figure. 
+BW16 has a smaller size than AMB21 and AMB23 as shown in the above figure. 
 It uses Micro USB to supply power, which is common in many smart devices.
-Please refer to the following figure and table for the pin diagram and function of RTL8720DN (BW16).
+Please refer to the following figure and table for the pin diagram and function of BW16.
 
    |bw16-get-start-2|
 
@@ -53,10 +53,10 @@ Setting up Development Environment
 Step 1. Installing the Driver
 =============================
 
-First, connect RTL8720DN (BW16) to the computer via Micro USB:
+First, connect BW16 to the computer via Micro USB:
    |bw16-get-start-3|
 
-| If this is the first time you connect RTL8720DN (BW16) to your computer, 
+| If this is the first time you connect BW16 to your computer, 
   here is something that you might take note of: 
 
 | From the pinmap above, we know D0 and D1 pins are used for program uploading. 
@@ -74,7 +74,7 @@ First, connect RTL8720DN (BW16) to the computer via Micro USB:
 
    |bw16-get-start-5|
 
-| After connecting accordingly, the USB driver for RTL8720DN (BW16) will be 
+| After connecting accordingly, the USB driver for BW16 will be 
   automatically installed. If you have driver issue of connecting board, please 
   go to http://www.wch-ic.com/downloads/CH341SER_ZIP.html for USB driver. 
   You can check the COM Port number in your Device Manager:
@@ -85,21 +85,21 @@ Step 2. Set up Arduino IDE
 ==========================
 
 From version 1.6.5, Arduino IDE supports third-party hardware.
-TTherefore, we can use Arduino IDE to develop applications on RTL8720DN (BW16), 
-and the basic examples of Arduino can run on RTL8720DN (BW16) too.  
+TTherefore, we can use Arduino IDE to develop applications on BW16, 
+and the basic examples of Arduino can run on BW16 too.  
 Refer to the :doc:`Basic Examples </ambd_arduino/bw16/peripherals_and_examples/Basic Examples>`.
 
 Arduino IDE can be
 downloaded in the `Arduino website <https://www.arduino.cc/en/Main/Software>`_.
 
-When the installation is finished, open Arduino IDE. To set up RTL8722DM
+When the installation is finished, open Arduino IDE. To set up BW16
 correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`.
 
 And paste the following URL into :guilabel:`“Additional Boards Manager URLs”` field::
       
    https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json
 
-RTL8720DN (BW16) will be supported from v3.0.8 officially.
+BW16 will be supported from v3.0.8 officially.
 
 ----
 
@@ -111,7 +111,7 @@ The :guilabel:`“Boards Manager”` requires about 10~20 seconds to refresh all
 hardware files (if the network is in bad condition, it may take longer).
 Every time the new hardware is connected, we need to reopen the Board
 Manager. So, we close the :guilabel:`“Boards Manager”`, and then open it again. Find
-:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)”` in the list,
+:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”` in the list,
 click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
 for RTL8722DM.
 
@@ -134,7 +134,7 @@ for RTL8722DM.
 
    After the installation tool running successfully, you may open Arduino
    IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. Try to find
-   :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)”`` in the list,
+   :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
    click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
    for AmebaD.
 
@@ -239,7 +239,7 @@ Step 1. Compile & Upload
 |   |bw16-get-start-14|
 | Arduino IDE opens a new window with the complete sample code.
 |   |bw16-get-start-15|
-| There is an onboard LED of RTL8720DN(BW16), the default ``LED_BUILTIN`` is a green onboard LED. 
+| There is an onboard LED of BW16, the default ``LED_BUILTIN`` is a green onboard LED. 
   Change ``LED_BUILTIN`` to ``LED_B`` or ``LED_R`` for different colors such as blue and red. 
   Here we use ``LED_B`` for demonstration purpose.
 | Next, we compile the sample code directly; click 
@@ -249,14 +249,14 @@ Step 1. Compile & Upload
   window. When the compilation is finished, you will get the message
   similar to the following figure:
 |   |bw16-get-start-17|
-| Afterwards, we will upload the compiled code to RTL8720DN(BW16).
+| Afterwards, we will upload the compiled code to BW16.
 |
-| Please make sure RTL8720DN(BW16) is connected to your computer, then
+| Please make sure BW16 is connected to your computer, then
   click :guilabel:`“Sketch” -> “Upload”`.
 |
 | The Arduino IDE will compile first then upload. During the uploading process, 
   users are required to enter the upload mode of the board. 
-  To enter the upload mode, first press and hold the RTL8720DN(BW16) “Burn” 
+  To enter the upload mode, first press and hold the BW16 “Burn” 
   button, press the “RST” button, and then release the “Burn” button.
 |   |bw16-get-start-18|
 | Press “Upload” button in Arduino IDE to compile and upload the program. 
@@ -272,11 +272,11 @@ Step 2.Run the Blink example
 | In each example, Arduino not only provides sample code, but also
   detailed documentation, including wiring diagram, sample code
   explanation, technical details, …etc. These examples can be directly
-  used on RTL8720DN (BW16).
+  used on BW16.
 | So, we find the detailed information of the 
   `Blink example <https://www.arduino.cc/en/Tutorial/Blink>`__.
 |
-| In short, for RTL8720DN, the example can be run on both the 
+| In short, for BW16, the example can be run on both the 
   onboard RGB LED or external LED (use any GPIO pins for signal output). 
   Finally, press the “RST” button, and you can see the RGB LED turns into blue and keep blinking.
 
@@ -284,11 +284,11 @@ Step 2.Run the Blink example
 References
 *********************************
 
-1. Introduction of RTL8720DN on Instructable:
+1. Introduction of BW16 on Instructable:
    https://www.instructables.com/RTL8720DN/
 2. Load Arduino image into BW16:
    `How to load BW16 program with Arduino – #13 <https://forum.amebaiot.com/t/how-to-load-bw16-program-with-arduino/517/13>`_
-3. RTL8720DN (BW16) IMG2 SIGN Invalid Solution:
+3. BW16 IMG2 SIGN Invalid Solution:
    `RTL8720DN(BW16) IMG2 SIGN Invalid Solution <https://forum.amebaiot.com/t/rtl8720dn-bw16-img2-sign-invalid-solution/669>`_
 4. FTDI Driver Download from here:
    https://ftdichip.com/wp-content/uploads/2021/02/CDM21228_Setup.zip
@@ -328,9 +328,9 @@ References
    :width: 378
    :height: 346
    :scale: 100 %
-.. |bw16-get-start-8| image:: ../media/getting_started/image8.png
-   :width: 800
-   :height: 450
+.. |bw16-get-start-8| image:: ../media/getting_started/image8-1.png
+   :width: 781
+   :height: 440
    :scale: 100 %
 .. |bw16-get-start-9| image:: ../media/getting_started/image9.png
    :width: 891
@@ -371,7 +371,7 @@ References
 .. |bw16-get-start-18| image:: ../media/getting_started/image18.png
    :width: 288
    :height: 544
-   :scale: 20 %
+   :scale: 30 %
 .. |bw16-get-start-19| image:: ../media/getting_started/image19.png
    :width: 351
    :height: 488
