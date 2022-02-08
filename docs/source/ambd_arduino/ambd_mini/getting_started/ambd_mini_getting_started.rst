@@ -275,10 +275,10 @@ Step 2.Run the Blink example
    :height: 600
    :scale: 100 %
 
-.. |ambd-mini-get-start-8| image:: ../media/GettingStarted/image7.jpeg
+.. |ambd-mini-get-start-8| image:: ../media/GettingStarted/image7-1.jpeg
    :alt: get-start-8
-   :width: 800
-   :height: 450
+   :width: 781
+   :height: 440
    :scale: 100 %
 
 .. |ambd-mini-get-start-9| image:: ../media/GettingStarted/image8.jpeg
