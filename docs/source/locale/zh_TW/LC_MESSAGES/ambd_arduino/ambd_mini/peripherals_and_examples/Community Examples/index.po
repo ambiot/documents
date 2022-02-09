@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-02-08 08:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Examples/index.rst:8 Examples/index.rst:15
+#: Examples/index.rst:8
 msgid "Community Examples"
 msgstr ""
 
@@ -33,8 +33,7 @@ msgstr ""
 #: Examples/index.rst:11
 msgid ""
 "For more information on contribution guidelines, please refer to our "
-"official `GitHub Wiki <https://github.com/ambiot/ambd_arduino/wiki"
-"/Contributing-to-Ameba>`_"
+"official GitHub `Wiki <https://github.com/ambiot/documents/wiki>`_ page."
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
@@ -43,7 +42,15 @@ msgid "|image1|"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Examples/index.rst:19
+#: Examples/index.rst:21
 msgid "image1"
 msgstr ""
+
+#~ msgid ""
+#~ "For more information on contribution "
+#~ "guidelines, please refer to our official"
+#~ " `GitHub Wiki "
+#~ "<https://github.com/ambiot/ambd_arduino/wiki/Contributing-to-"
+#~ "Ameba>`_"
+#~ msgstr ""
 

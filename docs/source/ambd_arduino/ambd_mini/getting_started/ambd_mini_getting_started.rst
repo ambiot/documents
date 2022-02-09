@@ -3,18 +3,18 @@ Getting Started
 ###############
 
 **************************************************
-Ameba ARDUINO: Getting Started with RTL8722DM MINI
+Ameba ARDUINO: Getting Started with AMB23
 **************************************************
 
 Required Environment
 ====================
 
-AmebaD RTL8722DM MINI board currently supports Windows OS 32-bits and 64-bits (WIN7/8/10), 
+AMB23 board currently supports Windows OS 32-bits and 64-bits (WIN7/8/10), 
 Linux OS (Ubuntu 18 LTS/20 LTS/latest) and macOS operating systems. Please use the latest 
 OS version to have the best experiences. In this documentation, please use the latest 
 version Arduino IDE (at least version 1.8.12).
 
-Introduction to AmebaD RTL8722DM MINI
+Introduction to AmebaD[AMB23]
 =====================================
 
 Ameba is an easy-to-program platform for developing all kind of IoT applications. AmebaD 
@@ -27,12 +27,12 @@ devices to realize IoT implementation.
 
 |ambd-mini-get-start-1|
 
-RTL8722DM MINI has smaller size than Arduino Uno, as shown in the above figure.
+AMB23 has smaller size than Arduino Uno, as shown in the above figure.
 
 |ambd-mini-get-start-2|
 
-| RTL8722DM MINI uses Micro USB to supply power, which is common in many smart devices.
-| Please refer to the following figure and table for the pin diagram and function of RTL8722DM MINI.
+| AMB23 uses Micro USB to supply power, which is common in many smart devices.
+| Please refer to the following figure and table for the pin diagram and function of AMB23.
 
 |ambd-mini-get-start-3|
 
@@ -74,12 +74,12 @@ Setting up Development Environment
 Step 1. Installing the Driver
 =============================
 
-First, connect RTL8722DM MINI to the computer via Micro USB (same as power):
+First, connect AMB23 to the computer via Micro USB (same as power):
 
 |ambd-mini-get-start-2|
 
-| If this is the first time you connect RTL8722DM MINI to your computer, 
-  the USB driver for RTL8722DM MINI will be automatic installed.
+| If this is the first time you connect AMB23 to your computer, 
+  the USB driver for AMB23 will be automatic installed.
 | If you have driver issue of connect board to your computer please go to 
   `here <https://ftdichip.com/drivers/>`_ for USB driver.
 | You can check the COM port number in Device Manager of your computer:
@@ -91,14 +91,14 @@ Step 2. Set up Arduino IDE
 
 | From version 1.6.5, Arduino IDE supports third-party hardware.
   Therefore, we can use Arduino IDE to develop applications on
-  RTL8722DM MINI, and the examples of Arduino can run on RTL8722DM MINI
+  AMB23, and the examples of Arduino can run on AMB23
   too. Refer to `basic example link 
   <https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/>`__.
 
 | Arduino IDE can be downloaded in the Arduino website: 
 | https://www.arduino.cc/en/Main/Software
 | When the installation is finished, open Arduino IDE. To set up
-  RTL8722DM MINI correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`.
+  AMB23 correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`.
 
 |ambd-mini-get-start-6|
 
@@ -116,7 +116,7 @@ The :guilabel:`“Boards Manager”` requires about 10~20 seconds to refresh all
 hardware files (if the network is in bad condition, it may take longer).
 Every time the new hardware is connected, we need to reopen the Board
 Manager. So, we close the :guilabel:`“Boards Manager”`, and then open it again. Find
-:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)”` in the list,
+:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”` in the list,
 click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
 for AmebaD.
 
@@ -137,7 +137,7 @@ for AmebaD.
 
    After the installation tool running successfully, you may open Arduino
    IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. Try to find
-   :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)”`` in the list,
+   :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
    click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
    for AmebaD.
 
@@ -167,7 +167,7 @@ Arduino IDE opens a new window with the complete sample code.
 
 |ambd-mini-get-start-11|
 
-| There are onboard LED of RTL8722DM MINI, the default “LED_BUILTIN” is
+| There are onboard LED of AMB23, the default “LED_BUILTIN” is
   blue onboard LED.
 | Change “LED_BUILTIN” to “LED_B” or “LED_G” for different colour.
   Onboard LEDs options LED_B and LED_G (blue and green).
@@ -185,8 +185,8 @@ similar to the following figure:
 
 |ambd-mini-get-start-14|
 
-| Afterwards, we will upload the compiled code to RTL8722DM MINI.
-| Please make sure RTL8722DM MINI is connected to your computer, then
+| Afterwards, we will upload the compiled code to AMB23.
+| Please make sure AMB23 is connected to your computer, then
   click :guilabel:`“Sketch” -> “Upload”`.
 
 | The Arduino IDE will compile first then upload. During the uploading
@@ -217,11 +217,11 @@ Step 2.Run the Blink example
 | In each example, Arduino not only provides sample code, but also
   detailed documentation, including wiring diagram, sample code
   explanation, technical details, …etc. These examples can be directly
-  used on RTL8722DM MINI.
+  used on AMB23.
 | So, we find the detailed information of the "Blink" example:
 | https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 
-| In short, for RTL8722DM MINI, the example can be run on both onboard
+| In short, for AMB23, the example can be run on both onboard
   LEDs (green or blue) or external LED (use any GPIO pins for signal
   output).
 | Finally, press the :guilabel:`RESET` button, and you can see the :guilabel:`LED` blinking.
@@ -245,11 +245,11 @@ Step 2.Run the Blink example
    :height: 1031
    :scale: 50 %
 
-.. |ambd-mini-get-start-3| image:: ../media/GettingStarted/image3.png
+.. |ambd-mini-get-start-3| image:: ../media/GettingStarted/image3-1.png
    :alt: pin-diagram-front
    :width: 2103
-   :height: 1089
-   :scale: 35 %
+   :height: 1094
+   :scale: 40 %
 
 .. |ambd-mini-get-start-4| image:: ../media/GettingStarted/image3-2.png
    :alt: pin-diagram-bottom
@@ -275,10 +275,10 @@ Step 2.Run the Blink example
    :height: 600
    :scale: 100 %
 
-.. |ambd-mini-get-start-8| image:: ../media/GettingStarted/image7.jpeg
+.. |ambd-mini-get-start-8| image:: ../media/GettingStarted/image7-1.jpeg
    :alt: get-start-8
-   :width: 800
-   :height: 450
+   :width: 781
+   :height: 440
    :scale: 100 %
 
 .. |ambd-mini-get-start-9| image:: ../media/GettingStarted/image8.jpeg

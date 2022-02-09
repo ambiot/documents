@@ -2,7 +2,7 @@
 OpenMV Bluetooth TripWire
 ###################################
 
-**CONTRIBUTED BY: SIMON XI**
+**CONTRIBUTED BY: SIMON XI** (`<https://github.com/xidameng>`__ )
 
 Hi if you haven’t watched the demo video, feel free the play
 this `OpenMV Bluetooth TripWire

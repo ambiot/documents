@@ -3,18 +3,18 @@ Getting Started
 ###############
 
 *******************************************
-Ameba ARDUINO: Getting Started with RTL8722
+Ameba ARDUINO: Getting Started with AMB21
 *******************************************
 
 Required Environment
 ====================
 
-AmebaD RTL8722DM board currently supports Windows OS 32-bits and 64-bits (WIN7/8/10), 
+AMB21 board currently supports Windows OS 32-bits and 64-bits (WIN7/8/10), 
 Linux OS (Ubuntu 18 LTS/20 LTS/latest) and macOS operating systems. Please use the latest 
 OS version to have the best experiences. In this documentation, please use the latest 
 version Arduino IDE (at least version 1.8.12).
 
-Introduction to AmebaD RTL8722CSM/RTL8722DM
+Introduction to AmebaD[AMB21 / AMB22]
 ===========================================
 
 Ameba is an easy-to-program platform for developing all kind of IoT applications. AmebaD 
@@ -27,10 +27,10 @@ to realize IoT implementation.
 
 |ambd-get-start-1|
 
-| RTL8722DM and Arduino Uno have similar size, as shown in the above
-  figure, and the pins on RTL8722DM are compatible with Arduino Uno. 
-| RTL8722DM uses Micro USB to supply power, which is common in many smart devices.
-| Please refer to the following figure and table for the pin diagram and function of RTL8722DM.
+| AMB21 and Arduino Uno have similar size, as shown in the above
+  figure, and the pins on AMB21 are compatible with Arduino Uno. 
+| AMB21 uses Micro USB to supply power, which is common in many smart devices.
+| Please refer to the following figure and table for the pin diagram and function of AMB21.
 
 |ambd-get-start-2|
 
@@ -78,12 +78,12 @@ Setting up Development Environment
 Step 1. Installing the Driver
 =============================
 
-First, connect RTL8722DM to the computer via Micro USB:
+First, connect AMB21 to the computer via Micro USB:
 
 |ambd-get-start-4|
 
-| If this is the first time you connect RTL8722DM to your computer, the USB driver 
-  for RTL8722DM will be automatic installed. 
+| If this is the first time you connect AMB21 to your computer, the USB driver 
+  for AMB21 will be automatic installed. 
 | If you have driver issue of connect board to your computer please go to 
   `here <https://ftdichip.com/drivers/>`_ for USB driver.
 | You can check the COM port number in Device Manager of your computer:
@@ -94,11 +94,11 @@ Step 2. Set up Arduino IDE
 ==========================
 
 From version 1.6.5, Arduino IDE supports third-party hardware.
-Therefore, we can use Arduino IDE to develop applications on RTL8722DM,
-and the examples of Arduino can run on RTL8722DM too. Arduino IDE can be
+Therefore, we can use Arduino IDE to develop applications on AMB21,
+and the examples of Arduino can run on AMB21 too. Arduino IDE can be
 downloaded in the `Arduino website <https://www.arduino.cc/en/Main/Software>`_.
 
-When the installation is finished, open Arduino IDE. To set up RTL8722DM
+When the installation is finished, open Arduino IDE. To set up AMB21
 correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`.
 
 |ambd-get-start-6|
@@ -117,9 +117,9 @@ The :guilabel:`“Boards Manager”` requires about 10~20 seconds to refresh all
 hardware files (if the network is in bad condition, it may take longer).
 Every time the new hardware is connected, we need to reopen the Board
 Manager. So, we close the :guilabel:`“Boards Manager”`, and then open it again. Find
-:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)”` in the list,
+:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”` in the list,
 click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
-for RTL8722DM.
+for AMB21.
 
 |ambd-get-start-8|
 
@@ -140,14 +140,14 @@ for RTL8722DM.
 
    After the installation tool running successfully, you may open Arduino
    IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. Try to find
-   :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M4 @200MHz)”`` in the list,
+   :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
    click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
-   for RTL8722DM.
+   for AMB21.
 
 ----
 
-Finally, we select RTL8722DM as current connected board in 
-:guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” RTL8722DM”`：
+Finally, we select AMB21 as current connected board in 
+:guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” AMB21”`：
 
 |ambd-get-start-9|
 
@@ -181,8 +181,8 @@ similar to the following figure:
 
 |ambd-get-start-13|
 
-| Afterwards, we will upload the compiled code to RTL8722DM.
-| Please make sure RTL8722DM is connected to your computer, then
+| Afterwards, we will upload the compiled code to AMB21.
+| Please make sure AMB21 is connected to your computer, then
   click :guilabel:`“Sketch” -> “Upload”`.
 
 | The Arduino IDE will compile first then upload. During the uploading
@@ -215,7 +215,7 @@ Step 2.Run the Blink example
 | In each example, Arduino not only provides sample code, but also
   detailed documentation, including wiring diagram, sample code
   explanation, technical details, …etc. These examples can be directly
-  used on RTL8722DM.
+  used on AMB21.
 | So, we find the detailed information of the 
   `Blink example <https://www.arduino.cc/en/Tutorial/Blink>`__.
 
@@ -251,11 +251,11 @@ Step 2.Run the Blink example
    :height: 1124
    :scale: 50 %
 
-.. |ambd-get-start-3| image:: ../media/getting_started/image3.png
+.. |ambd-get-start-3| image:: ../media/getting_started/image3-1.png
    :alt: get-start-3
    :width: 2917
    :height: 1490
-   :scale: 25 %
+   :scale: 30 %
 
 .. |ambd-get-start-4| image:: ../media/getting_started/image4.png
    :alt: get-start-4
@@ -281,10 +281,10 @@ Step 2.Run the Blink example
    :height: 834
    :scale: 100 %
 
-.. |ambd-get-start-8| image:: ../media/getting_started/image8.png
+.. |ambd-get-start-8| image:: ../media/getting_started/image8-1.png
    :alt: get-start-8
-   :width: 800
-   :height: 450
+   :width: 781
+   :height: 440
    :scale: 100 %
 
 .. |ambd-get-start-9| image:: ../media/getting_started/image9.png
