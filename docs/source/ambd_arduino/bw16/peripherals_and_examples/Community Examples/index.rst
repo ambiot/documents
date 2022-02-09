@@ -20,4 +20,4 @@ For more information on contribution guidelines, please refer to our official Gi
 .. |image1| image:: ../../../media/user-contribution-example.png
    :width: 6318   
    :height: 3553
-   :scale: 10 %
+   :scale: 5 %
