@@ -17,6 +17,7 @@ Community Examples
     :titlesonly:
 
     OpenMV Bluetooth TripWire
+    Audio Codec - DIY MP3
 
 .. |image1| image:: ../../../media/user-contribution-example.png
    :width: 6318   
