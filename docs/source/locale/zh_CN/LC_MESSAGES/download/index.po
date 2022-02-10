@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-10 05:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/download/index.rst:3
+msgid "Download"
+msgstr "资料下载"
+
+#: ../../source/download/index.rst:14
+msgid "Development / Evaluation Boards"
+msgstr "开发板列表"
+
+#: ../../source/download/index.rst:18
+msgid "|AMB21_index|"
+msgstr ""
+
+#: ../../source/download/index.rst
+msgid "AMB21_index"
+msgstr ""
+
+#: ../../source/download/index.rst:19
+msgid "|AMB23_index|"
+msgstr ""
+
+#: ../../source/download/index.rst
+msgid "AMB23_index"
+msgstr ""
+
+#: ../../source/download/index.rst:20
+msgid "|BW16_index|"
+msgstr ""
+
+#: ../../source/download/index.rst
+msgid "BW16_index"
+msgstr ""
+
+#: ../../source/download/index.rst
+msgid ":doc:`AMB21(RTL8722DM)<AMB21>`"
+msgstr ""
+
+#: ../../source/download/index.rst
+msgid ":doc:`AMB23(RTL8722DM MINI)<AMB23>`"
+msgstr ""
+
+#: ../../source/download/index.rst
+msgid ":doc:`BW16(RTL8720DN) by Ai-Thinker<BW16>`"
+msgstr ""
+

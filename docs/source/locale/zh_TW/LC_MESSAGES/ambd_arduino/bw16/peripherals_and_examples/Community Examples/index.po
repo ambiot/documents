@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-08 08:47+0000\n"
+"POT-Creation-Date: 2022-02-10 06:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +17,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Community
-#: Examples/index.rst:8 Examples/index.rst:16
+#: ../../source/ambd_arduino/BW16/peripherals_and_examples/Community
+#: Examples/index.rst:8 Examples/index.rst:15
 msgid "Community Examples"
 msgstr ""
 
-#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Community
+#: ../../source/ambd_arduino/BW16/peripherals_and_examples/Community
 #: Examples/index.rst:10
 msgid ""
 "Welcome to share your examples under the **Community Examples** section "
 "if you have completed a project using the Ameba boards."
 msgstr ""
 
-#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Community
-#: Examples/index.rst:12
+#: ../../source/ambd_arduino/BW16/peripherals_and_examples/Community
+#: Examples/index.rst:11
 msgid ""
-"For more information on contribution guidelines, please refer to our "
-"official GitHub `Wiki <https://github.com/ambiot/documents/wiki>`_ page."
+"To make contributions, please visit our official `GitHub Wiki "
+"<https://github.com/ambiot/documents/wiki>`_ page."
 msgstr ""
 
-#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Community
-#: Examples/index.rst:14
+#: ../../source/ambd_arduino/BW16/peripherals_and_examples/Community
+#: Examples/index.rst:13
 msgid "|image1|"
 msgstr ""
 
-#: ../../source/ambd_arduino/bw16/peripherals_and_examples/Community
-#: Examples/index.rst:20
+#: ../../source/ambd_arduino/BW16/peripherals_and_examples/Community
+#: Examples/index.rst:19
 msgid "image1"
 msgstr ""
 
@@ -52,5 +52,12 @@ msgstr ""
 #~ " `GitHub Wiki "
 #~ "<https://github.com/ambiot/ambd_arduino/wiki/Contributing-to-"
 #~ "Ameba>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For more information on contribution "
+#~ "guidelines, please refer to our official"
+#~ " GitHub `Wiki "
+#~ "<https://github.com/ambiot/documents/wiki>`_ page."
 #~ msgstr ""
 

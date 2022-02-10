@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-02-10 05:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,17 +21,19 @@ msgstr ""
 msgid "Open Source SDKs"
 msgstr "开源 SDK 平台"
 
+#: ../../source/index.rst:22
+msgid "Download"
+msgstr "资料下载"
+
 #: ../../source/index.rst:8
-#, fuzzy
 msgid "Welcome to Ameba IoT Family Online SDK Documentation!"
-msgstr ""
-"欢迎来到 Ameba IoT 家族 SDK 线上文档！"
+msgstr "欢迎来到 Ameba IoT 家族 SDK 线上文档！"
 
 #: ../../source/index.rst:10
 msgid "|image1|"
 msgstr ""
 
-#: ../../source/index.rst:27
+#: ../../source/index.rst:33
 msgid "image1"
 msgstr ""
 
@@ -51,14 +53,21 @@ msgstr "所有的快速入门手册、范例演示、教程、API参考文档、
 
 #: ../../source/index.rst
 msgid "We welcome contributions to the our SDKs documentations."
-msgstr "我們欢迎贡献者为 SDK 文档做出贡献。"
+msgstr ""
+"我們欢迎贡献者为 SDK 文档做出贡献。"
 
 #: ../../source/index.rst
-#, fuzzy
 msgid ""
-"Please read the Ameba :doc:`contribution-guide` below for more details "
-"before you make the contribution."
+"To make contributions, please visit our official `GitHub Wiki "
+"<https://github.com/ambiot/documents/wiki>`_ page."
 msgstr ""
-"进行文档贡献或修改前请先阅读下面的 Ameba :doc:`contribution-guide` "
-"以了解更多细节。"
+"进行文档贡献或修改前请先阅读下面的 `GitHub Wiki "
+"<https://github.com/ambiot/documents/wiki>`_ 以了解更多细节。"
+
+
+#~ msgid ""
+#~ "Please read the Ameba :doc:`contribution-"
+#~ "guide` below for more details before "
+#~ "you make the contribution."
+#~ msgstr "进行文档贡献或修改前请先阅读下面的 Ameba :doc:`contribution-guide` 以了解更多细节。"
 
