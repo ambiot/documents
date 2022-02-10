@@ -7,9 +7,8 @@
 Community Examples
 ###################################
 
-Welcome to share your examples under the **Community Examples** section if you have completed a project using the Ameba boards.
-
-For more information on contribution guidelines, please refer to our official GitHub `Wiki <https://github.com/ambiot/documents/wiki>`_ page.
+| Welcome to share your examples under the **Community Examples** section if you have completed a project using the Ameba boards.
+| For more information on contribution guidelines, please refer to our official GitHub `Wiki <https://github.com/ambiot/documents/wiki>`_ page.
 
 |image1|
 
@@ -20,4 +19,4 @@ For more information on contribution guidelines, please refer to our official Gi
 .. |image1| image:: ../../../media/user-contribution-example.png
    :width: 6318   
    :height: 3553
-   :scale: 10 %
+   :scale: 5 %

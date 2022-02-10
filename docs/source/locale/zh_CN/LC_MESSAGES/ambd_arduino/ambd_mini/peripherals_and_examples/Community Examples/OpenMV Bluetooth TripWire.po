@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-08 09:22+0000\n"
+"POT-Creation-Date: 2022-02-09 09:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,20 +28,19 @@ msgid "**CONTRIBUTED BY: SIMON XI** (`<https://github.com/xidameng>`__ )"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:7
+#: Bluetooth Examples/OpenMV TripWire.rst:8
 msgid ""
-"Hi if you haven’t watched the demo video, feel free the play this `OpenMV"
-" Bluetooth TripWire (EN) <https://www.youtube.com/watch?v=gCpC2uOva90>`__"
-" short clip to see what it’s capable of."
+"Hi if you haven’t watched the demo video, feel free to play this short "
+"clip below to see what it’s capable of."
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:13
-msgid "Introduciton"
+#: Bluetooth Examples/OpenMV TripWire.rst:19
+msgid "Introduction"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:15
+#: Bluetooth Examples/OpenMV TripWire.rst:21
 msgid ""
 "This project took the inspiration from the another open-source project "
 "**daytripper** (`link \\ 1 <https://github.com/dekuNukem/daytripper>`__) "
@@ -53,7 +52,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:23
+#: Bluetooth Examples/OpenMV TripWire.rst:29
 msgid ""
 "That’s how I came up with this idea – using **OpenMV**, which is littler "
 "and easier to deploy, and a **IoT Microcontroller**, in this case Ameba "
@@ -62,69 +61,69 @@ msgid ""
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:30
+#: Bluetooth Examples/OpenMV TripWire.rst:36
 msgid "Components"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:32
+#: Bluetooth Examples/OpenMV TripWire.rst:38
 msgid "AMB23 (RTL8722DM MINI) dev board x1"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:33
+#: Bluetooth Examples/OpenMV TripWire.rst:39
 msgid "OpenMV( any model) dev board x1"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:35
+#: Bluetooth Examples/OpenMV TripWire.rst:41
 msgid ""
 "Connection is simple, just connect P0 pin on OpenMV to pin 9 on Ameba "
 "Board."
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:39
+#: Bluetooth Examples/OpenMV TripWire.rst:45
 msgid "Function Flow"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:41
+#: Bluetooth Examples/OpenMV TripWire.rst:47
 msgid "This is how it works,"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:43
+#: Bluetooth Examples/OpenMV TripWire.rst:49
 msgid "|1|"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:201
+#: Bluetooth Examples/OpenMV TripWire.rst:207
 msgid "image"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:47
+#: Bluetooth Examples/OpenMV TripWire.rst:53
 msgid "Code"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:50
+#: Bluetooth Examples/OpenMV TripWire.rst:56
 msgid "OpenMV"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:132
+#: Bluetooth Examples/OpenMV TripWire.rst:138
 msgid "AMB23"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:192
+#: Bluetooth Examples/OpenMV TripWire.rst:198
 msgid "Conclusion"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:194
+#: Bluetooth Examples/OpenMV TripWire.rst:200
 msgid ""
 "This project is not perfect as it’s done in a rush, so if anyone wants to"
 " perfect it you may go ahead and change my code however you like, or "
@@ -133,10 +132,21 @@ msgid ""
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd_mini/peripherals_and_examples/Community
-#: Bluetooth Examples/OpenMV TripWire.rst:199
+#: Bluetooth Examples/OpenMV TripWire.rst:205
 msgid "Until next time, happy coding."
 msgstr ""
 
 #~ msgid "**CONTRIBUTED BY: SIMON XI**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Hi if you haven’t watched the demo"
+#~ " video, feel free the play this "
+#~ "`OpenMV Bluetooth TripWire (EN) "
+#~ "<https://www.youtube.com/watch?v=gCpC2uOva90>`__ short "
+#~ "clip to see what it’s capable of."
+#~ msgstr ""
+
+#~ msgid "Introduciton"
 #~ msgstr ""
 
