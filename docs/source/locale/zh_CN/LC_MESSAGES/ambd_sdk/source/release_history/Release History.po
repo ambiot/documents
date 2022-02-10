@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-10 05:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:3
+msgid "Release History"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:5
+msgid "**Version 1.0.0 – 2021/10/12**"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:7
+msgid "Hardware information:"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:9
+msgid ""
+"CPU. 32-bit KM4 (Arm Cortex-M33 compatible) and 32-bit KM0 (Arm "
+"Cortex-M23 compatible)"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:10
+msgid "MEMORY. 512KB SRAM + 4MB PSRAM"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:12
+msgid "Feature:"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:14
+msgid "Integrated 802.11a/n Wi-Fi SoC"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:15
+msgid "USB Host/Device"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:16
+msgid "SD Host"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:17
+msgid "BLE5.0"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:18
+msgid "Codec"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:19
+msgid "LCDC"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:20
+msgid "Key Matrix"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:21
+msgid "1 PCM interface"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:22
+msgid "4 UART interface"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:23
+msgid "1 I2S Interface"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:24
+msgid "2 I2C interface"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:25
+msgid "7 ADC"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:26
+msgid "17 PWM"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/release_history/Release History.rst:27
+msgid "Max 54 GPIO"
+msgstr ""
+

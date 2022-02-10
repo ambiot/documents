@@ -1,0 +1,436 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-10 05:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:3
+msgid "Basic Examples"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:8
+msgid ""
+":raw-html:`<h1 style=\"color:#000000; font-size:20px\">` AMB21 "
+"(RTL8722DM/CSM) Supported ARDUINO built-in example table :raw-"
+"html:`</h1>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:18px\">` There are many "
+"built-in examples in Arduino. In the table below, we list all examples "
+"that are compatible with Ameba. :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:17
+msgid "Please refer to the following link to set up Ameba for Arduino IDE."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:18
+msgid "`<https://www.amebaiot.com/en/amebad-arduino-getting-started/>`_"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:19
+msgid "Please refer to the following link for Arduino built-in example details."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:20
+msgid "`<https://www.arduino.cc/en/Tutorial/BuiltInExamples/>`_"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:24
+msgid "**Category**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:24
+msgid "**Name**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:24
+msgid "**Comment**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:24
+msgid "**Remarks**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:26
+msgid "01. Basics"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:26
+msgid "AnalogReadSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:26 Examples.rst:116
+msgid "Connect potentiometer to 3.3V."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:26 Examples.rst:42 Examples.rst:76 Examples.rst:83
+#: Examples.rst:93 Examples.rst:102 Examples.rst:116 Examples.rst:135
+#: Examples.rst:142 Examples.rst:155 Examples.rst:169 Examples.rst:176
+#: Examples.rst:186 Examples.rst:193 Examples.rst:200 Examples.rst:223
+msgid ""
+"ADC pin options A0, A1, A2, A3, A4, A5 and A6. ADC pin reading voltage "
+"range 0 to 3.3V."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:33
+msgid "BareMinimum"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:35
+msgid "Blink"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:35 Examples.rst:49
+msgid "Pin LED_BUILTIN sets to pin D8."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:38
+msgid "DigitalReadSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:40
+msgid "Fade"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:42
+msgid "ReadAnalogVoltage"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:49
+msgid "02. Digital"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:49
+msgid "BlinkWithoutDelay"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:53
+msgid "Button"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:53 Examples.rst:56 Examples.rst:59 Examples.rst:62
+#: Examples.rst:83
+msgid "Connect LED to pin D13."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:56
+msgid "Debounce"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:59
+msgid "Digital InputPullup"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:62
+msgid "StateChange Detection"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:65
+msgid "toneKeyboard"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:68
+msgid "toneMelody"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:70
+msgid "toneMultiple"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:73
+msgid "tonePitch Follower"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:76
+msgid "03. Analog"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:76
+msgid "Analog InOutSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:83
+msgid "AnalogInput"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:90
+msgid "Analog Write Mega"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:93
+msgid "Calibration"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:93 Examples.rst:186
+msgid "Connect another LED to pin D13."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:100
+msgid "Fading"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:102
+msgid "Smoothing"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:109
+msgid "04. Communication"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:109
+msgid "ASCIITable"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:114
+msgid "Dimmer"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:116
+msgid "Graph"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:123
+msgid "Midi"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:123
+msgid "Use Serial1 and pin D26, or use Serial2 and pin D17."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:127
+msgid "MultiSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:129
+msgid "PhysicalPixel"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:132
+msgid "Read ASCIIString"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:135
+msgid "SerialCallResponse"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:142
+msgid "SerialCallResponse ASCII"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:149
+msgid "SerialEvent"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:151
+msgid "Serial Passthrough"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:151
+msgid "Serial options, Serial1 or Serial2."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:155
+msgid "Virtual ColorMixer"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:162
+msgid "05. Control"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:162
+msgid "Arrays"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:162 Examples.rst:166 Examples.rst:183
+msgid "Use pins D1, D2, D3, D4, D5, D6."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:166
+msgid "ForLoop Iteration"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:169
+msgid "IfStatement Conditional"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:176
+msgid "switchCase"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:183
+msgid "switchCase2"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:186
+msgid "While Statement Conditional"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:193
+msgid "06. Display"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:193
+msgid "barGraph"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:193
+msgid "Use another pin to replace pin D7."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:200
+msgid "RowColumn Scanning"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:207
+msgid "07. Strings"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:207
+msgid "Character Analysis"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:211
+msgid "StringAddition Operator"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:214
+msgid "StringAppend Operator"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:217
+msgid "String CaseChanges"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:220
+msgid "String Characters"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:223
+msgid "StringComparision Operators"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:230
+msgid "StringIndexOf"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:233
+msgid "StringLength"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:236
+msgid "StringLengthTrim"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:239
+msgid "StringReplace"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:242
+msgid "StringStartsWith EndsWith"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:246
+msgid "StringSubstring"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/peripherals_and_examples/Basic
+#: Examples.rst:249
+msgid "StringToInt"
+msgstr ""
+

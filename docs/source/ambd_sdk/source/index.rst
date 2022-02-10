@@ -18,7 +18,7 @@ Standard SDK
    :caption: Contents
 
    getting_started/getting_started
-   download/index
+   release_history/Release History
    board_hdk/index
    support/index   
 
