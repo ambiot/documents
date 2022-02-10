@@ -19,17 +19,17 @@ Introduction
 ********************
 
 This project took the inspiration from the another open-source
-project **daytripper** (`link \ 1 <https://github.com/dekuNukem/daytripper>`__)
+project **daytripper** (`link \ 1 <https://github.com/dekuNukem/daytripper>`__)
 which uses 2 seperate devices to detect movement and control your PC to
 switch Apps. However, I think if we go with the Computer Vision solution
 instead, we might reduce the number of hardware to just 1, and we can
 even push it a little further by adding some more cool features like
 face recognition, speed detection and even more.
 
-That’s how I came up with this idea – using **OpenMV**, which is littler
-and easier to deploy, and a **IoT Microcontroller**, in this case Ameba
+That’s how I came up with this idea – using **OpenMV**, which is littler
+and easier to deploy, and a **IoT Microcontroller**, in this case Ameba
 RTL8722DM_MINI, together we can achieve the same function
-as **daytripper** and more.
+as **daytripper** and more.
 
 ********************
 Components
@@ -38,7 +38,7 @@ Components
     1. AMB23 (RTL8722DM MINI) dev board x1
     2. OpenMV( any model) dev board x1
     
-    Connection is simple, just connect P0 pin on OpenMV to pin 9 on Ameba Board.
+    Connection is simple, just connect P0 pin on OpenMV to pin 9 on Ameba Board.
 
 ********************
 Function Flow
