@@ -18,6 +18,12 @@ Welcome to Ameba IoT Family Online SDK Documentation!
    ambd_arduino/arduino_index
    ambd_micropython/source/index
    ambd_sdk/source/index
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Download
+      
+   download/index
 
 .. tip::
    

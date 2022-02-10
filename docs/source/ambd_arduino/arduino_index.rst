@@ -13,6 +13,6 @@ Arduino SDK
    :maxdepth: 1
    :titlesonly:
 
-   ambd/index
-   ambd_mini/index
-   bw16/index
+   AMB21/index
+   AMB23/index
+   BW16/index

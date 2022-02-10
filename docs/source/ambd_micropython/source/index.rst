@@ -16,7 +16,7 @@ Welcome to Ameba MicroPython online documentation.
    :caption: Table of Contents
    
    getting_started/mp_getting_started
-   download/index
+   release_history/Release History
    examples/index
    board_hdk/index
    api_documents/index

@@ -16,14 +16,14 @@ Welcome to AMB21 Arduino online documentation.
    :caption: Table of Contents
    
    getting_started/ambd_getting_started
-   download/index
+   release_history/Release_History
    peripherals_and_examples/index
    board_hdk/index
    api_documents/index
    resources/index
    support/index  
 
-.. |image1| image:: media/ambd_index.jpg
+.. |image1| image:: ../media/AMB21_index.jpg
    :width: 240
    :height: 170
    :scale: 100 %

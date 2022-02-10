@@ -16,13 +16,12 @@ Welcome to BW16 (RTL8720DN) online documentation.
    :caption: Table of Contents
    
    getting_started/ambd_getting_started
-   download/index
    peripherals_and_examples/index
    api_documents/index
    resources/index
    support/index  
 
-.. |image1| image:: media/bw16_index.png
+.. |image1| image:: ../media/BW16_index.png
    :width: 380
    :height: 400
    :scale: 50 %
