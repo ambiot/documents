@@ -2,28 +2,34 @@
 OpenMV Bluetooth TripWire
 ###################################
 
-**CONTRIBUTED BY: SIMON XI**
+**CONTRIBUTED BY: SIMON XI** (`<https://github.com/xidameng>`__ )
 
-Hi if you haven’t watched the demo video, feel free the play
-this `OpenMV Bluetooth TripWire
-(EN) <https://www.youtube.com/watch?v=gCpC2uOva90>`__ short clip to see what it’s capable of.
+
+Hi if you haven’t watched the demo video, feel free to play
+this short clip below to see what it’s capable of.
+
+.. image:: /ambd_arduino/media/OpenMV_BT_TripWire/screenshot.png
+   :target: https://www.youtube.com/watch?v=gCpC2uOva90
+   :width: 1280
+   :height: 720
+   :scale: 40%
 
 ********************
-Introduciton
+Introduction
 ********************
 
 This project took the inspiration from the another open-source
-project **daytripper** (`link \ 1 <https://github.com/dekuNukem/daytripper>`__)
+project **daytripper** (`link \ 1 <https://github.com/dekuNukem/daytripper>`__)
 which uses 2 seperate devices to detect movement and control your PC to
 switch Apps. However, I think if we go with the Computer Vision solution
 instead, we might reduce the number of hardware to just 1, and we can
 even push it a little further by adding some more cool features like
 face recognition, speed detection and even more.
 
-That’s how I came up with this idea – using **OpenMV**, which is littler
-and easier to deploy, and a **IoT Microcontroller**, in this case Ameba
+That’s how I came up with this idea – using **OpenMV**, which is littler
+and easier to deploy, and a **IoT Microcontroller**, in this case Ameba
 RTL8722DM_MINI, together we can achieve the same function
-as **daytripper** and more.
+as **daytripper** and more.
 
 ********************
 Components
@@ -32,7 +38,7 @@ Components
     1. AMB23 (RTL8722DM MINI) dev board x1
     2. OpenMV( any model) dev board x1
     
-    Connection is simple, just connect P0 pin on OpenMV to pin 9 on Ameba Board.
+    Connection is simple, just connect P0 pin on OpenMV to pin 9 on Ameba Board.
 
 ********************
 Function Flow

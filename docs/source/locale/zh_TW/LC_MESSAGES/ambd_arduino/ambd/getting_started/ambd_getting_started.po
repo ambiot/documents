@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2022-02-08 09:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "Getting Started"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:7
-msgid "Ameba ARDUINO: Getting Started with RTL8722"
+msgid "Ameba ARDUINO: Getting Started with AMB21"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:10
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:12
 msgid ""
-"AmebaD RTL8722DM board currently supports Windows OS 32-bits and 64-bits "
+"AMB21 board currently supports Windows OS 32-bits and 64-bits "
 "(WIN7/8/10), Linux OS (Ubuntu 18 LTS/20 LTS/latest) and macOS operating "
 "systems. Please use the latest OS version to have the best experiences. "
 "In this documentation, please use the latest version Arduino IDE (at "
@@ -39,7 +39,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:18
-msgid "Introduction to AmebaD RTL8722CSM/RTL8722DM"
+msgid "Introduction to AmebaD[AMB21 / AMB22]"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:20
@@ -67,20 +67,20 @@ msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:31
 msgid ""
-"RTL8722DM and Arduino Uno have similar size, as shown in the above "
-"figure, and the pins on RTL8722DM are compatible with Arduino Uno."
+"AMB21 and Arduino Uno have similar size, as shown in the above figure, "
+"and the pins on AMB21 are compatible with Arduino Uno."
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:32
 msgid ""
-"RTL8722DM uses Micro USB to supply power, which is common in many smart "
+"AMB21 uses Micro USB to supply power, which is common in many smart "
 "devices."
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:33
 msgid ""
 "Please refer to the following figure and table for the pin diagram and "
-"function of RTL8722DM."
+"function of AMB21."
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:35
@@ -587,7 +587,7 @@ msgid "Step 1. Installing the Driver"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:81
-msgid "First, connect RTL8722DM to the computer via Micro USB:"
+msgid "First, connect AMB21 to the computer via Micro USB:"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:83
@@ -600,8 +600,8 @@ msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:86
 msgid ""
-"If this is the first time you connect RTL8722DM to your computer, the USB"
-" driver for RTL8722DM will be automatic installed."
+"If this is the first time you connect AMB21 to your computer, the USB "
+"driver for AMB21 will be automatic installed."
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:88
@@ -629,15 +629,14 @@ msgstr ""
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:96
 msgid ""
 "From version 1.6.5, Arduino IDE supports third-party hardware. Therefore,"
-" we can use Arduino IDE to develop applications on RTL8722DM, and the "
-"examples of Arduino can run on RTL8722DM too. Arduino IDE can be "
-"downloaded in the `Arduino website "
-"<https://www.arduino.cc/en/Main/Software>`_."
+" we can use Arduino IDE to develop applications on AMB21, and the "
+"examples of Arduino can run on AMB21 too. Arduino IDE can be downloaded "
+"in the `Arduino website <https://www.arduino.cc/en/Main/Software>`_."
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:101
 msgid ""
-"When the installation is finished, open Arduino IDE. To set up RTL8722DM "
+"When the installation is finished, open Arduino IDE. To set up AMB21 "
 "correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`."
 msgstr ""
 
@@ -674,8 +673,8 @@ msgid ""
 "longer). Every time the new hardware is connected, we need to reopen the "
 "Board Manager. So, we close the :guilabel:`“Boards Manager”`, and then "
 "open it again. Find :guilabel:`“Realtek AmebaD Boards (32-bits ARM "
-"Cortex-M4 @200MHz)”` in the list, click :guilabel:`“Install”`, then the "
-"Arduino IDE starts to download required files for RTL8722DM."
+"Cortex-M33 @200MHz)”` in the list, click :guilabel:`“Install”`, then the "
+"Arduino IDE starts to download required files for AMB21."
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:124
@@ -722,16 +721,15 @@ msgstr ""
 msgid ""
 "After the installation tool running successfully, you may open Arduino "
 "IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. "
-"Try to find :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M4 "
+"Try to find :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 "
 "@200MHz)”`` in the list, click :guilabel:`“Install”`, then the Arduino "
-"IDE starts to download required files for RTL8722DM."
+"IDE starts to download required files for AMB21."
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:149
 msgid ""
-"Finally, we select RTL8722DM as current connected board in "
-":guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” "
-"RTL8722DM”`："
+"Finally, we select AMB21 as current connected board in :guilabel:`“Tools”"
+" -> “Board” -> “Ameba ARM (32-bits) Boards” ->” AMB21”`："
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:152
@@ -811,12 +809,12 @@ msgid "get-start-13"
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:184
-msgid "Afterwards, we will upload the compiled code to RTL8722DM."
+msgid "Afterwards, we will upload the compiled code to AMB21."
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:186
 msgid ""
-"Please make sure RTL8722DM is connected to your computer, then click "
+"Please make sure AMB21 is connected to your computer, then click "
 ":guilabel:`“Sketch” -> “Upload”`."
 msgstr ""
 
@@ -889,8 +887,7 @@ msgstr ""
 msgid ""
 "In each example, Arduino not only provides sample code, but also detailed"
 " documentation, including wiring diagram, sample code explanation, "
-"technical details, …etc. These examples can be directly used on "
-"RTL8722DM."
+"technical details, …etc. These examples can be directly used on AMB21."
 msgstr ""
 
 #: ../../source/ambd_arduino/ambd/getting_started/ambd_getting_started.rst:220
@@ -937,4 +934,152 @@ msgid ""
 "If you face any issue, please refer to the FAQ and Trouble shooting "
 "sections on :doc:`../../support/index` page."
 msgstr ""
+
+#~ msgid "Ameba ARDUINO: Getting Started with RTL8722"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "AmebaD RTL8722DM board currently supports "
+#~ "Windows OS 32-bits and 64-bits "
+#~ "(WIN7/8/10), Linux OS (Ubuntu 18 LTS/20"
+#~ " LTS/latest) and macOS operating systems."
+#~ " Please use the latest OS version "
+#~ "to have the best experiences. In "
+#~ "this documentation, please use the "
+#~ "latest version Arduino IDE (at least "
+#~ "version 1.8.12)."
+#~ msgstr ""
+
+#~ msgid "Introduction to AmebaD RTL8722CSM/RTL8722DM"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "RTL8722DM and Arduino Uno have similar"
+#~ " size, as shown in the above "
+#~ "figure, and the pins on RTL8722DM "
+#~ "are compatible with Arduino Uno."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "RTL8722DM uses Micro USB to supply "
+#~ "power, which is common in many "
+#~ "smart devices."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please refer to the following figure "
+#~ "and table for the pin diagram and"
+#~ " function of RTL8722DM."
+#~ msgstr ""
+
+#~ msgid "First, connect RTL8722DM to the computer via Micro USB:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If this is the first time you "
+#~ "connect RTL8722DM to your computer, the"
+#~ " USB driver for RTL8722DM will be "
+#~ "automatic installed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "From version 1.6.5, Arduino IDE supports"
+#~ " third-party hardware. Therefore, we "
+#~ "can use Arduino IDE to develop "
+#~ "applications on RTL8722DM, and the "
+#~ "examples of Arduino can run on "
+#~ "RTL8722DM too. Arduino IDE can be "
+#~ "downloaded in the `Arduino website "
+#~ "<https://www.arduino.cc/en/Main/Software>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When the installation is finished, open"
+#~ " Arduino IDE. To set up RTL8722DM "
+#~ "correctly in Arduino IDE, go to "
+#~ ":guilabel:`“File” -> “Preferences”`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The :guilabel:`“Boards Manager”` requires "
+#~ "about 10~20 seconds to refresh all "
+#~ "hardware files (if the network is "
+#~ "in bad condition, it may take "
+#~ "longer). Every time the new hardware "
+#~ "is connected, we need to reopen "
+#~ "the Board Manager. So, we close "
+#~ "the :guilabel:`“Boards Manager”`, and then "
+#~ "open it again. Find :guilabel:`“Realtek "
+#~ "AmebaD Boards (32-bits ARM Cortex-M4 "
+#~ "@200MHz)”` in the list, click "
+#~ ":guilabel:`“Install”`, then the Arduino IDE"
+#~ " starts to download required files "
+#~ "for RTL8722DM."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After the installation tool running "
+#~ "successfully, you may open Arduino IDE"
+#~ " and proceed to :guilabel:`“Tools” -> "
+#~ "“Board“ -> “Boards Manager…”`. Try to"
+#~ " find :guilabel:`“Realtek AmebaD Boards "
+#~ "(32-bits ARM Cortex-M4 @200MHz)”`` in "
+#~ "the list, click :guilabel:`“Install”`, then"
+#~ " the Arduino IDE starts to download"
+#~ " required files for RTL8722DM."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Finally, we select RTL8722DM as current"
+#~ " connected board in :guilabel:`“Tools” ->"
+#~ " “Board” -> “Ameba ARM (32-bits) "
+#~ "Boards” ->” RTL8722DM”`："
+#~ msgstr ""
+
+#~ msgid "Afterwards, we will upload the compiled code to RTL8722DM."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please make sure RTL8722DM is connected"
+#~ " to your computer, then click "
+#~ ":guilabel:`“Sketch” -> “Upload”`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In each example, Arduino not only "
+#~ "provides sample code, but also detailed"
+#~ " documentation, including wiring diagram, "
+#~ "sample code explanation, technical details,"
+#~ " …etc. These examples can be directly"
+#~ " used on RTL8722DM."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The :guilabel:`“Boards Manager”` requires "
+#~ "about 10~20 seconds to refresh all "
+#~ "hardware files (if the network is "
+#~ "in bad condition, it may take "
+#~ "longer). Every time the new hardware "
+#~ "is connected, we need to reopen "
+#~ "the Board Manager. So, we close "
+#~ "the :guilabel:`“Boards Manager”`, and then "
+#~ "open it again. Find :guilabel:`“Realtek "
+#~ "AmebaD Boards (32-bits ARM Cortex-M4 "
+#~ "@200MHz)”` in the list, click "
+#~ ":guilabel:`“Install”`, then the Arduino IDE"
+#~ " starts to download required files "
+#~ "for AMB21."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After the installation tool running "
+#~ "successfully, you may open Arduino IDE"
+#~ " and proceed to :guilabel:`“Tools” -> "
+#~ "“Board“ -> “Boards Manager…”`. Try to"
+#~ " find :guilabel:`“Realtek AmebaD Boards "
+#~ "(32-bits ARM Cortex-M4 @200MHz)”`` in "
+#~ "the list, click :guilabel:`“Install”`, then"
+#~ " the Arduino IDE starts to download"
+#~ " required files for AMB21."
+#~ msgstr ""
 

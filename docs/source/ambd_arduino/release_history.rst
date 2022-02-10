@@ -2,6 +2,25 @@
 Release History
 ##################
 
+**Version 3.1.2 - 2021/12/28**
+
+* Feature:
+  
+  - Update SimpleWebServerWiFi example
+  - Support BW16
+
+* API Updates:
+  
+  - Update Wlan related naming from "AmebaWiFi" become "WiFi"
+  - Update RTC library for minor bug fix
+
+* Misc:
+
+  - Update all Fritzing files for new name updates
+  - AMB21, AMB22, AMB23, and BW16
+
+----
+
 **Version 3.1.1 - 2021/12/25**
 
 * Feature:
