@@ -17,29 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/ambd_arduino/AMB21/index.rst:14
-msgid "Table of Contents"
+#: ../../source/download/AMB21_download.rst:5
+msgid "Datasheet"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/index.rst:8
-msgid "AMB21/AMB22 (RTL8722DM/RTL8722CSM)"
+#: ../../source/download/AMB21_download.rst:5
+msgid "User Manual"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/index.rst:10
-msgid "Welcome to AMB21/AMB22 Arduino online documentation."
+#: ../../source/download/AMB21_download.rst:3
+msgid "AMB21/AMB22 (RTL8722DM)"
 msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/index.rst:12
-msgid "|image1|"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/index.rst:25
-msgid "image1"
-msgstr ""
-
-#~ msgid "AMB21 (RTL8722DM)"
-#~ msgstr ""
-
-#~ msgid "Welcome to AMB21 Arduino online documentation."
-#~ msgstr ""
 

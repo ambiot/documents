@@ -3,11 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-#######################
-AMB21 (RTL8722DM)
-#######################
+#######################################
+AMB21/AMB22 (RTL8722DM/RTL8722CSM)
+#######################################
 
-Welcome to AMB21 Arduino online documentation.
+Welcome to AMB21/AMB22 Arduino online documentation.
 
 |image1|
 
@@ -18,7 +18,6 @@ Welcome to AMB21 Arduino online documentation.
    getting_started/ambd_getting_started
    release_history/Release_History
    peripherals_and_examples/index
-   board_hdk/index
    api_documents/index
    resources/index
    support/index  

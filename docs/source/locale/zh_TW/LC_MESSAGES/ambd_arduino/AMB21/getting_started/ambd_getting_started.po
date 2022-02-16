@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 05:15+0000\n"
+"POT-Creation-Date: 2022-02-16 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "Getting Started"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:7
-msgid "Ameba ARDUINO: Getting Started with AMB21"
+msgid "Ameba ARDUINO: Getting Started with AMB21/AMB22"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:10
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:12
 msgid ""
-"AMB21 board currently supports Windows OS 32-bits and 64-bits "
+"AMB21/AMB22 board currently supports Windows OS 32-bits and 64-bits "
 "(WIN7/8/10), Linux OS (Ubuntu 18 LTS/20 LTS/latest) and macOS operating "
 "systems. Please use the latest OS version to have the best experiences. "
 "In this documentation, please use the latest version Arduino IDE (at "
@@ -39,7 +39,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:18
-msgid "Introduction to AmebaD[AMB21 / AMB22]"
+msgid "Introduction to AmebaD[AMB21/AMB22]"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:20
@@ -67,20 +67,20 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:31
 msgid ""
-"AMB21 and Arduino Uno have similar size, as shown in the above figure, "
-"and the pins on AMB21 are compatible with Arduino Uno."
+"AMB21/AMB22 and Arduino Uno have similar size, as shown in the above "
+"figure, and the pins on AMB21/AMB22 are compatible with Arduino Uno."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:32
 msgid ""
-"AMB21 uses Micro USB to supply power, which is common in many smart "
-"devices."
+"AMB21/AMB22 uses Micro USB to supply power, which is common in many smart"
+" devices."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:33
 msgid ""
 "Please refer to the following figure and table for the pin diagram and "
-"function of AMB21."
+"function of AMB21/AMB22."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:35
@@ -535,7 +535,7 @@ msgid "Step 1. Installing the Driver"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:81
-msgid "First, connect AMB21 to the computer via Micro USB:"
+msgid "First, connect AMB21/AMB22 to the computer via Micro USB:"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:83
@@ -548,8 +548,8 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:86
 msgid ""
-"If this is the first time you connect AMB21 to your computer, the USB "
-"driver for AMB21 will be automatic installed."
+"If this is the first time you connect AMB21/AMB22 to your computer, the "
+"USB driver for AMB21/AMB22 will be automatic installed."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:88
@@ -577,15 +577,17 @@ msgstr ""
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:96
 msgid ""
 "From version 1.6.5, Arduino IDE supports third-party hardware. Therefore,"
-" we can use Arduino IDE to develop applications on AMB21, and the "
-"examples of Arduino can run on AMB21 too. Arduino IDE can be downloaded "
-"in the `Arduino website <https://www.arduino.cc/en/Main/Software>`_."
+" we can use Arduino IDE to develop applications on AMB21/AMB22, and the "
+"examples of Arduino can run on AMB21/AMB22 too. Arduino IDE can be "
+"downloaded in the `Arduino website "
+"<https://www.arduino.cc/en/Main/Software>`_."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:101
 msgid ""
-"When the installation is finished, open Arduino IDE. To set up AMB21 "
-"correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`."
+"When the installation is finished, open Arduino IDE. To set up "
+"AMB21/AMB22 correctly in Arduino IDE, go to :guilabel:`“File” -> "
+"“Preferences”`."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:104
@@ -622,7 +624,7 @@ msgid ""
 "Board Manager. So, we close the :guilabel:`“Boards Manager”`, and then "
 "open it again. Find :guilabel:`“Realtek AmebaD Boards (32-bits ARM "
 "Cortex-M33 @200MHz)”` in the list, click :guilabel:`“Install”`, then the "
-"Arduino IDE starts to download required files for AMB21."
+"Arduino IDE starts to download required files for AMB21/AMB22."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:124
@@ -671,13 +673,14 @@ msgid ""
 "IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. "
 "Try to find :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 "
 "@200MHz)”`` in the list, click :guilabel:`“Install”`, then the Arduino "
-"IDE starts to download required files for AMB21."
+"IDE starts to download required files for AMB21/AMB22."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:149
 msgid ""
-"Finally, we select AMB21 as current connected board in :guilabel:`“Tools”"
-" -> “Board” -> “Ameba ARM (32-bits) Boards” ->” AMB21”`："
+"Finally, we select AMB21/AMB22 as current connected board in "
+":guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” "
+"AMB21”`："
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:152
@@ -757,12 +760,12 @@ msgid "get-start-13"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:184
-msgid "Afterwards, we will upload the compiled code to AMB21."
+msgid "Afterwards, we will upload the compiled code to AMB21/AMB22."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:186
 msgid ""
-"Please make sure AMB21 is connected to your computer, then click "
+"Please make sure AMB21/AMB22 is connected to your computer, then click "
 ":guilabel:`“Sketch” -> “Upload”`."
 msgstr ""
 
@@ -835,7 +838,8 @@ msgstr ""
 msgid ""
 "In each example, Arduino not only provides sample code, but also detailed"
 " documentation, including wiring diagram, sample code explanation, "
-"technical details, …etc. These examples can be directly used on AMB21."
+"technical details, …etc. These examples can be directly used on "
+"AMB21/AMB22."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:220
@@ -882,4 +886,123 @@ msgid ""
 "If you face any issue, please refer to the FAQ and Trouble shooting "
 "sections on :doc:`../../support/index` page."
 msgstr ""
+
+#~ msgid "Ameba ARDUINO: Getting Started with AMB21"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "AMB21 board currently supports Windows "
+#~ "OS 32-bits and 64-bits (WIN7/8/10), "
+#~ "Linux OS (Ubuntu 18 LTS/20 LTS/latest)"
+#~ " and macOS operating systems. Please "
+#~ "use the latest OS version to have"
+#~ " the best experiences. In this "
+#~ "documentation, please use the latest "
+#~ "version Arduino IDE (at least version"
+#~ " 1.8.12)."
+#~ msgstr ""
+
+#~ msgid "Introduction to AmebaD[AMB21 / AMB22]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "AMB21 and Arduino Uno have similar "
+#~ "size, as shown in the above "
+#~ "figure, and the pins on AMB21 are"
+#~ " compatible with Arduino Uno."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "AMB21 uses Micro USB to supply "
+#~ "power, which is common in many "
+#~ "smart devices."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please refer to the following figure "
+#~ "and table for the pin diagram and"
+#~ " function of AMB21."
+#~ msgstr ""
+
+#~ msgid "First, connect AMB21 to the computer via Micro USB:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If this is the first time you "
+#~ "connect AMB21 to your computer, the "
+#~ "USB driver for AMB21 will be "
+#~ "automatic installed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "From version 1.6.5, Arduino IDE supports"
+#~ " third-party hardware. Therefore, we "
+#~ "can use Arduino IDE to develop "
+#~ "applications on AMB21, and the examples"
+#~ " of Arduino can run on AMB21 "
+#~ "too. Arduino IDE can be downloaded "
+#~ "in the `Arduino website "
+#~ "<https://www.arduino.cc/en/Main/Software>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When the installation is finished, open"
+#~ " Arduino IDE. To set up AMB21 "
+#~ "correctly in Arduino IDE, go to "
+#~ ":guilabel:`“File” -> “Preferences”`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The :guilabel:`“Boards Manager”` requires "
+#~ "about 10~20 seconds to refresh all "
+#~ "hardware files (if the network is "
+#~ "in bad condition, it may take "
+#~ "longer). Every time the new hardware "
+#~ "is connected, we need to reopen "
+#~ "the Board Manager. So, we close "
+#~ "the :guilabel:`“Boards Manager”`, and then "
+#~ "open it again. Find :guilabel:`“Realtek "
+#~ "AmebaD Boards (32-bits ARM Cortex-M33 "
+#~ "@200MHz)”` in the list, click "
+#~ ":guilabel:`“Install”`, then the Arduino IDE"
+#~ " starts to download required files "
+#~ "for AMB21."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After the installation tool running "
+#~ "successfully, you may open Arduino IDE"
+#~ " and proceed to :guilabel:`“Tools” -> "
+#~ "“Board“ -> “Boards Manager…”`. Try to"
+#~ " find :guilabel:`“Realtek AmebaD Boards "
+#~ "(32-bits ARM Cortex-M33 @200MHz)”`` in "
+#~ "the list, click :guilabel:`“Install”`, then"
+#~ " the Arduino IDE starts to download"
+#~ " required files for AMB21."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Finally, we select AMB21 as current "
+#~ "connected board in :guilabel:`“Tools” -> "
+#~ "“Board” -> “Ameba ARM (32-bits) Boards”"
+#~ " ->” AMB21”`："
+#~ msgstr ""
+
+#~ msgid "Afterwards, we will upload the compiled code to AMB21."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please make sure AMB21 is connected "
+#~ "to your computer, then click "
+#~ ":guilabel:`“Sketch” -> “Upload”`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In each example, Arduino not only "
+#~ "provides sample code, but also detailed"
+#~ " documentation, including wiring diagram, "
+#~ "sample code explanation, technical details,"
+#~ " …etc. These examples can be directly"
+#~ " used on AMB21."
+#~ msgstr ""
 

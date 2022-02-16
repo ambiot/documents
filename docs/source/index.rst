@@ -23,7 +23,9 @@ Welcome to Ameba IoT Family Online SDK Documentation!
    :maxdepth: 1
    :caption: Download
       
-   download/index
+   download/AMB21_download
+   download/AMB23_download
+   download/BW16_download
 
 .. tip::
    
