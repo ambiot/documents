@@ -18,7 +18,6 @@ Welcome to Ameba MicroPython online documentation.
    getting_started/mp_getting_started
    release_history/Release History
    examples/index
-   board_hdk/index
    api_documents/index
    resources/index
    support/index
