@@ -16,7 +16,7 @@ Welcome to BW16 (RTL8720DN) online documentation.
    :caption: Table of Contents
    
    getting_started/ambd_getting_started
-   peripherals_and_examples/index
+   examples_and_components/index
    api_documents/index
    resources/index
    support/index  

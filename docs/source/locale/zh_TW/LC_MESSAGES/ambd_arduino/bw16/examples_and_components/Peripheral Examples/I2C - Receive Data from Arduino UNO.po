@@ -1,0 +1,304 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:3 from
+msgid "I2C - Receive Data from Arduino UNO"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:8 from
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:12 from
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:13 from
+msgid "Arduino UNO x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:15 from
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:21 from
+msgid ""
+"In the previous example `“I2C – Communicate with Arduino UNO via I2C”  "
+"<https://www.amebaiot.com/amebad-arduino-i2c-1>`__, Ameba, the I2C "
+"master, transmits data to the Arduino UNO, the I2C slave."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:23 from
+msgid ""
+"As to this example, Ameba is the I2C master, and receives data from the "
+"Arduino UNO, which is the I2C slave."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:25 from
+msgid "**Setting up Arduino Uno to be I2C Slave**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:28 from
+msgid ""
+"First, select Arduino in the Arduino IDE in ``“Tools” -> “Board” -> "
+"“Arduino Uno”``:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:29 from
+msgid "Open ``“Examples” -> “Wire” -> “slave_sender”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:31 from
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:102 from
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:33 from
+msgid ""
+"Then click “Sketch” -> “Upload” to compile and upload the example to "
+"Arduino Uno."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:36 from
+msgid "**Setting up Ameba to be I2C Master**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:39 from
+msgid ""
+"Next, open another window of Arduino IDE, make sure to choose your Ameba "
+"development board in the IDE: “Tools” -> “Board”"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:40 from
+msgid "Open ``“File” -> “Examples” -> “AmebaWire” -> “MasterReader”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:42 from
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:106 from
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:44 from
+msgid "Click “Sketch” -> “Upload” to compile and upload the example to Ameba."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:46 from
+msgid "**Wiring**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:48 from
+msgid "The Arduino example uses A4 as the I2C SDA and A5 as the I2C SCL."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:50 from
+msgid ""
+"Another important thing is that the GND pins of Arduino and Ameba should "
+"be connected to each other."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:52 from
+msgid "**AMB21 / AMB22** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:54 from
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:110 from
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:56 from
+msgid "**AMB23** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:58 from
+msgid "|3-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:114 from
+msgid "3-1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:60 from
+msgid "**BW16** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:62 from
+msgid "|3-3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:118 from
+msgid "3-3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:64 from
+msgid "Next, we will observe the data receive by Ameba in the Serial Monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:68 from
+msgid ""
+"(Note: If you do not know which port the Ameba development board is "
+"connected to, please find it in the Device Manager of Windows first. "
+"Ameba is connected as “mbed Serial Port”. For example, if you find mbed "
+"Serial Port (COM15) means Ameba is connected to port COM15.)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:70 from
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:122 from
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:73 from
+msgid ""
+"We select the port in “Tools” -> “Port” -> “COM15” (the port connected to"
+" Ameba)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:75 from
+msgid ""
+"Open the Arduino IDE window of the Ameba, go to “Tools” -> “Serial "
+"Monitor” to display the messages printed by Ameba."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:77 from
+msgid ""
+"Press the reset button on Arduino Uno, Arduino Uno now waits for "
+"connection from I2C master."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:80 from
+msgid ""
+"Then press the reset button on Ameba, Ameba will start to receive "
+"messages from Arduino Uno. And you can see the “hello ” message printed "
+"every half second in serial monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:82 from
+msgid ""
+"(NOTE: If the message does not show in the Serial Monitor of Ameba, "
+"please close and open the serial monitor again.)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:84 from
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:126 from
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:86 from
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:91 from
+msgid ""
+"You can find detailed information of this example in the documentation of"
+" Arduino:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:92 from
+msgid "https://www.arduino.cc/en/Tutorial/MasterReader"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:95 from
+msgid ""
+"First use ``Wire.begin()`` / ``Wire.begin(address)`` to join the I2C bus "
+"as a master or slave, in the Master case the address is not required."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:96 from
+msgid "https://www.arduino.cc/en/Reference/WireBegin"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:99 from
+msgid ""
+"Next, the Master uses ``Wire.requestFrom()`` to specify from which Slave "
+"to request data."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
+#: UNO.rst:100 from
+msgid "https://www.arduino.cc/en/Reference/WireRequestFrom"
+msgstr ""
+

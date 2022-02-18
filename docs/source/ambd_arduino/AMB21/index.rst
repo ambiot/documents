@@ -17,7 +17,7 @@ Welcome to AMB21/AMB22 Arduino online documentation.
    
    getting_started/ambd_getting_started
    release_history/Release_History
-   peripherals_and_examples/index
+   examples_and_components/index
    api_documents/index
    resources/index
    support/index  
