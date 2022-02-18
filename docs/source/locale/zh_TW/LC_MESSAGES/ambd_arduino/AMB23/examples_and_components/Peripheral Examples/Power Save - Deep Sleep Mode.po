@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:3 Save
+#: Sleep
+msgid "Power Save - Deep Sleep Mode"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:8 Save
+#: Sleep
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:12 Save
+#: Sleep
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:14 Save
+#: Sleep
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:18 Save
+#: Sleep
+msgid "**Introduction**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:20 Save
+#: Sleep
+msgid ""
+"Ameba-D supports 2 low power modes which are deepsleep mode and sleep "
+"mode. Deep Sleep mode turns off more power domain than sleep mode. The "
+"power consumption of Deep Sleep mode is around 7μA to 8μA as compared to "
+"normal state which is around 22mA. This example describes how to enter "
+"Deep Sleep mode and configure the wakeup source"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:24 Save
+#: Sleep
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:25 Save
+#: Sleep
+msgid "Open ``“File” -> “Examples” -> “AmebaPowerSave” -> “DeepSleepMode”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:26 Save
+#: Sleep
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:95
+#: Mode.rst:100 Mode.rst:105 Mode.rst:110 Mode.rst:115 Mode.rst:120
+#: Mode.rst:125 Mode.rst:130 Mode.rst:135 Save Sleep
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:29 Save
+#: Sleep
+msgid "Set condition values as picture below."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:31 Save
+#: Sleep
+msgid ""
+"“DS_WAKEUP_SOURCE” is used to set the wake-up source, user can chose 3 "
+"wake up sources now,"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:39 Save
+#: Sleep
+msgid "**Using AON Timer as wakeup source**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:40 Save
+#: Sleep
+msgid ""
+"AON Timer can be set from 0 to 32760000ms range by "
+"``AON_TIMER_SLEEP_DURATION``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:42 Save
+#: Sleep
+msgid "**Using AON GPIO pins as wakeup source**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:45 Save
+#: Sleep
+msgid ""
+"For AMB21, there are 5 pins that can be set as AON pins and active high "
+"for wakeup, GPIOA25(D16), GPIOA26(D17), GPIOA21(D26), GPIOA20(D27), "
+"GPIOA(D28)."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:46 Save
+#: Sleep
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:50 Save
+#: Sleep
+msgid ""
+"For AMB23, there are 8 pins that can be set as AON pins and active high "
+"for wakeup, GPIOA12(D9), GPIOA13(D10), GPIOA14(D11), GPIOA15(D12), "
+"GPIOA16(D13), GPIOA18(D15), GPIOA19(D16), GPIOA21(D18)."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:51 Save
+#: Sleep
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:55 Save
+#: Sleep
+msgid ""
+"For BW16, there is only 6 pins that can be set as AON pin and active high"
+" for wakeup, GPIOA_25 (D7), GPIOA_26 (D8), GPIOA_15 (D9), GPIOA_14 (D10),"
+" GPIOA_13 (D11), GPIOA_12 (D12)."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:56 Save
+#: Sleep
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:58 Save
+#: Sleep
+msgid ""
+"These AON pins can be set by using ``SET_AON_GPIO_WAKEUP_GPIOA25`` or the"
+" pin that you want to use as shown in the picture below"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:60 Save
+#: Sleep
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:62 Save
+#: Sleep
+msgid "**Using RTC Timer as wakeup source**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:65 Save
+#: Sleep
+msgid ""
+"RTC Timer wakeup system is by setting alarm. The alarm has 4 values, day,"
+" hour, min and sec. All 4 values can be set by ``DS_RTC_ALARM_DAY``, "
+"``DS_RTC_ALARM_HOUR``, ``DS_RTC_ALARM_MIN``, and ``DS_RTC_ALARM_SEC``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:67 Save
+#: Sleep
+msgid "|6|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:68 Save
+#: Sleep
+msgid ""
+"When all the condition values are set, the system will run and switch "
+"between normal and deep sleep mode which is controlled by the wakeup "
+"source. The serial monitor will display the switching log as shown below."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:73 Save
+#: Sleep
+msgid "**AON Timer**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:75 Save
+#: Sleep
+msgid "|7|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:78 Save
+#: Sleep
+msgid "**AON GPIO Pin**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:80 Save
+#: Sleep
+msgid "|8|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:83 Save
+#: Sleep
+msgid "**RTC Timer**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:85 Save
+#: Sleep
+msgid "|9|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:87 Save
+#: Sleep
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:91 Save
+#: Sleep
+msgid ""
+"Please refer to the `API Documents <https://www.amebaiot.com/rtl8722dm-"
+"arduino-online-api-documents/>`__ PowerSave section for detail "
+"description of all API."
+msgstr ""
+

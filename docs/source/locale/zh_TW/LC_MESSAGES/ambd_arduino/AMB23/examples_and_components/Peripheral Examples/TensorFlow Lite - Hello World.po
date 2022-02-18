@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:3
+msgid "TensorFlow Lite - Hello World"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:12
+msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:13
+msgid "LED x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:15
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:19
+msgid "**Procedure**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:21
+msgid ""
+"Download the Ameba customized version of TensorFlow Lite for "
+"Microcontrollers library at "
+"https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
+" Follow the instructions at https://www.arduino.cc/en/guide/libraries to "
+"install it. Ensure that the patch files found at "
+"https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ are also "
+"installed."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:29
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
+"-> “hello_world”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:32
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:51
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:36
+msgid ""
+"Upload the code and press the reset button on Ameba once the upload is "
+"finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:38
+msgid ""
+"Connect the LED to digital pin 10 and ground, ensuring that the polarity "
+"is correct. You should see the LED fade in and out rapidly."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:40
+msgid ""
+"In the Arduino serial plotter, you can see the output value of the "
+"Tensorflow model plotted as a graph, it should resemble a sine wave."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:42
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:55
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:44
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
+#: World.rst:48
+msgid ""
+"More information on TensorFlow Lite for Microcontrollers can be found at:"
+" https://www.tensorflow.org/lite/microcontrollers"
+msgstr ""
+

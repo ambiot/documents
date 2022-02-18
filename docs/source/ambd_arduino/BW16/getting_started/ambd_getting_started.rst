@@ -87,7 +87,7 @@ Step 2. Set up Arduino IDE
 From version 1.6.5, Arduino IDE supports third-party hardware.
 TTherefore, we can use Arduino IDE to develop applications on BW16, 
 and the basic examples of Arduino can run on BW16 too.  
-Refer to the :doc:`Basic Examples </ambd_arduino/BW16/peripherals_and_examples/Basic Examples>`.
+Refer to the :doc:`Basic Examples </ambd_arduino/BW16/examples_and_components/Basic Examples>`.
 
 Arduino IDE can be
 downloaded in the `Arduino website <https://www.arduino.cc/en/Main/Software>`_.

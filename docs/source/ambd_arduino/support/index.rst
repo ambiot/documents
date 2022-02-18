@@ -9,6 +9,11 @@
 Support
 #######
 
+.. admonition:: Ameba IoT Forum & Facebook Group
+
+   | If you have any technical questions while developing Ameba boards, please visit the `Ameba IoT Forum <https://forum.amebaiot.com/>`__ and post them there.
+   | If you are also interested to share information about Ameba boards and IoT, please feel free to join the `Ameba IoT Facebook Group <https://www.facebook.com/groups/amebaioten/>`__.
+
 ****
 FAQ
 ****
@@ -17,7 +22,6 @@ FAQ
    :class: dropdown, toggle
 
     Refer to `Purchase link <https://www.amebaiot.com/where-to-buy-link/#buy_amb21>`__.
-
 
 .. admonition:: Which Bluetooth standards are supported by RTL8722CSM/RTL8722DM?
    :class: dropdown, toggle

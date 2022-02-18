@@ -16,7 +16,7 @@ Welcome to AMB23 Arduino online documentation.
    :caption: Table of Contents
    
    getting_started/ambd_mini_getting_started
-   peripherals_and_examples/index
+   examples_and_components/index
    release_history/Release_History
    api_documents/index
    resources/index
