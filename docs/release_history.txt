@@ -1,0 +1,15 @@
+Release History 
+
+2021/02/18
+
+- Feature:
+	- Move the Download section to the main page for easier access.
+	- Move Board-HDK section into the Download section.
+	- Update AMB23 Board-HDK section.
+	- Update AMB21/22 (RTL8722DM/RTL8722CSM) board naming.
+	- Remove by AI-Thinker from BW16 board naming.
+	- Update the Support page to have a section to promote Ameba Forum and Ameba Facebook Group.
+	- Modify AudioCodec - DIY MP3 image size.
+	- Rename Peripheral & Examples as Examples & Components.
+	- Move components used to end of the content page.
+	- Update Copyright year. 
