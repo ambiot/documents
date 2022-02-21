@@ -70,15 +70,15 @@ Open the example.
    timeClient.update();
    timeClient.getFormattedTime();
 
-.. |image1| image:: /ambd_arduino/media/Use_NTPClient_Library_To_Obtain_Local_Time/image1.png
+.. |image1| image:: /ambd_arduino/media/NTP_retrieve_universal_time_by_ntp_client_library/image1.png
    :width: 730
    :height: 1170
    :scale: 50 %
-.. |image2| image:: /ambd_arduino/media/Use_NTPClient_Library_To_Obtain_Local_Time/image2.png
+.. |image2| image:: /ambd_arduino/media/NTP_retrieve_universal_time_by_ntp_client_library/image2.png
    :width: 731
    :height: 944
    :scale: 50 %
-.. |image3| image:: /ambd_arduino/media/Use_NTPClient_Library_To_Obtain_Local_Time/image3.png
+.. |image3| image:: /ambd_arduino/media/NTP_retrieve_universal_time_by_ntp_client_library/image3.png
    :width: 779
    :height: 619
    :scale: 50 %

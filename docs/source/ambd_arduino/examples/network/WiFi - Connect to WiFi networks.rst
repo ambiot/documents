@@ -38,7 +38,9 @@ First, make sure the correct Ameba development board is selected in
       Next, upload the sample code, and press the reset button on Ameba. Then
       you will see a message “You’re connected to the networkSSID: XXXXX”, and
       the information of this WiFi connection is printed in the serial monitor
-      every 10 seconds. |2| \
+      every 10 seconds. 
+      
+      |2|
 
    -  WiFi connection with WPA encryption
 
@@ -102,19 +104,19 @@ First, make sure the correct Ameba development board is selected in
 | However, Ameba is already equipped with WiFi module. Therefore,
   ``#include`` is not needed.
 
-.. |1| image:: /ambd_arduino/media/Connect_to_WiFi/image1.png
+.. |1| image:: /ambd_arduino/media/WiFi_Connect_to_WiFi_networks/image1.png
    :width: 703
    :height: 826
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/Connect_to_WiFi/image2.png
+.. |2| image:: /ambd_arduino/media/WiFi_Connect_to_WiFi_networks/image2.png
    :width: 704
    :height: 530
    :scale: 50 %
-.. |3| image:: /ambd_arduino/media/Connect_to_WiFi/image3.png
+.. |3| image:: /ambd_arduino/media/WiFi_Connect_to_WiFi_networks/image3.png
    :width: 703
    :height: 826
    :scale: 50 %
-.. |4| image:: /ambd_arduino/media/Connect_to_WiFi/image4.png
+.. |4| image:: /ambd_arduino/media/WiFi_Connect_to_WiFi_networks/image4.png
    :width: 703
    :height: 826
    :scale: 50 %

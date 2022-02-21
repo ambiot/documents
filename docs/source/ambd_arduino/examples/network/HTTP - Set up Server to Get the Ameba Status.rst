@@ -71,19 +71,19 @@ HTTP - Set up Server to Get the Ameba Status
   connected to.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
-.. |1| image:: /ambd_arduino/media/Use_Ameba_as_server_to_send_Ameba_status/image1.png
+.. |1| image:: /ambd_arduino/media/HTTP_Set_up_server_to_get_the_Ameba_status/image1.png
    :width: 716
    :height: 1226
    :scale: 100 %
-.. |2| image:: /ambd_arduino/media/Use_Ameba_as_server_to_send_Ameba_status/image2.png
+.. |2| image:: /ambd_arduino/media/HTTP_Set_up_server_to_get_the_Ameba_status/image2.png
    :width: 716
    :height: 867
    :scale: 100 %
-.. |3| image:: /ambd_arduino/media/Use_Ameba_as_server_to_send_Ameba_status/image3.png
+.. |3| image:: /ambd_arduino/media/HTTP_Set_up_server_to_get_the_Ameba_status/image3.png
    :width: 704
    :height: 355
    :scale: 100 %
-.. |4| image:: /ambd_arduino/media/Use_Ameba_as_server_to_send_Ameba_status/image4.png
+.. |4| image:: /ambd_arduino/media/HTTP_Set_up_server_to_get_the_Ameba_status/image4.png
    :width: 1208
    :height: 940
    :scale: 50 %

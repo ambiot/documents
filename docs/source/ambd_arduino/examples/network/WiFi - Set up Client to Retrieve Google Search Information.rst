@@ -65,15 +65,15 @@ monitor.
   connected to.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
-.. |1| image:: /ambd_arduino/media/Use_Ameba_to_retrieve_information_from_the_Internet/image1.png
+.. |1| image:: /ambd_arduino/media/WiFi_Set_up_client_to_retrieve_google_search_informations/image1.png
    :width: 716
    :height: 1006
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/Use_Ameba_to_retrieve_information_from_the_Internet/image2.png
+.. |2| image:: /ambd_arduino/media/WiFi_Set_up_client_to_retrieve_google_search_informations/image2.png
    :width: 716
    :height: 867
    :scale: 50 %
-.. |3| image:: /ambd_arduino/media/Use_Ameba_to_retrieve_information_from_the_Internet/image3.png
+.. |3| image:: /ambd_arduino/media/WiFi_Set_up_client_to_retrieve_google_search_informations/image3.png
    :width: 941
    :height: 703
    :scale: 50 %

@@ -45,7 +45,11 @@ service follows the format: **{Instance Name}.{Protocol Name}.{Domain}**
 Next, go to (“Tools” ->
 “Port”), and you can find out at least one Serial Port. This port is
 simulated by Ameba board via USB. Choose this port and upload the
-compiled code to Ameba.\ |2|\ After uploading the code, press the reset
+compiled code to Ameba.
+
+|2|
+
+After uploading the code, press the reset
 button on Ameba and waiting for Ameba to connect with AP and activate
 the mDNS service after a while. You can see the Log at the bottom of the
 Serial Monitor.
@@ -117,19 +121,19 @@ and register to the mDNS service.
    
    MDNS.registerService(service);
 
-.. |1| image:: /ambd_arduino/media/Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image1.png
+.. |1| image:: /ambd_arduino/media/MDNS_set_up_mdns_client_on_arduino_ide/image1.png
    :width: 679
    :height: 623
    :scale: 100 %
-.. |2| image:: /ambd_arduino/media/Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image2.png
+.. |2| image:: /ambd_arduino/media/MDNS_set_up_mdns_client_on_arduino_ide/image2.png
    :width: 679
    :height: 853
    :scale: 100 %
-.. |3| image:: /ambd_arduino/media/Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image3.png
+.. |3| image:: /ambd_arduino/media/MDNS_set_up_mdns_client_on_arduino_ide/image3.png
    :width: 704
    :height: 355
    :scale: 100 %
-.. |4| image:: /ambd_arduino/media/Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image4.png
+.. |4| image:: /ambd_arduino/media/MDNS_set_up_mdns_client_on_arduino_ide/image4.png
    :width: 777
    :height: 853
    :scale: 100 %

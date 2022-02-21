@@ -71,19 +71,19 @@ received within the timeout period, otherwise Ameba registers a failed
 packet and increases the timeout value. Open the serial monitor and
 observe the timeout value converge to a minimum value.
 
-.. |1| image:: /ambd_arduino/media/Approximate_UDP_Receive_Timeout/image1.png
+.. |1| image:: /ambd_arduino/media/WiFi_Approximate_UDP_Receive_Timeout/image1.png
    :width: 852
    :height: 1006
    :scale: 100 %
-.. |2| image:: /ambd_arduino/media/Approximate_UDP_Receive_Timeout/image2.png
+.. |2| image:: /ambd_arduino/media/WiFi_Approximate_UDP_Receive_Timeout/image2.png
    :width: 721
    :height: 864
    :scale: 100 %
-.. |3| image:: /ambd_arduino/media/Approximate_UDP_Receive_Timeout/image3.png
+.. |3| image:: /ambd_arduino/media/WiFi_Approximate_UDP_Receive_Timeout/image3.png
    :width: 704
    :height: 355
    :scale: 100 %
-.. |4| image:: /ambd_arduino/media/Approximate_UDP_Receive_Timeout/image4.png
+.. |4| image:: /ambd_arduino/media/WiFi_Approximate_UDP_Receive_Timeout/image4.png
    :width: 695
    :height: 661
    :scale: 100 %
