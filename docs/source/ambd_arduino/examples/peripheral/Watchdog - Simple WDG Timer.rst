@@ -72,19 +72,19 @@ with this situation.
 
   |4|
 
-.. |1| image:: /ambd_arduino/media/Watchdog_Timer_Simple_Example/image1.png
+.. |1| image:: /ambd_arduino/media/Watchdog_Simple_WDG_Timer/image1.png
    :width: 709
    :height: 552
    :scale: 80 %
-.. |2| image:: /ambd_arduino/media/Watchdog_Timer_Simple_Example/image2.png
+.. |2| image:: /ambd_arduino/media/Watchdog_Simple_WDG_Timer/image2.png
    :width: 548
    :height: 527
    :scale: 100 %
-.. |3| image:: /ambd_arduino/media/Watchdog_Timer_Simple_Example/image3.png
+.. |3| image:: /ambd_arduino/media/Watchdog_Simple_WDG_Timer/image3.png
    :width: 383
    :height: 628
    :scale: 100 %
-.. |4| image:: /ambd_arduino/media/Watchdog_Timer_Simple_Example/image4.png
+.. |4| image:: /ambd_arduino/media/Watchdog_Simple_WDG_Timer/image4.png
    :width: 379
    :height: 419
    :scale: 100 %

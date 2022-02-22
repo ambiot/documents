@@ -64,27 +64,27 @@ monitor.
   
   |4|
 
-.. |1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image1.png
+.. |1| image:: /ambd_arduino/media/UART_PM2.5_Concentration_in_the_Air/image1.png
    :width: 981
    :height: 869
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image2.png
+.. |2| image:: /ambd_arduino/media/UART_PM2.5_Concentration_in_the_Air/image2.png
    :width: 981
    :height: 869
    :scale: 40 %
-.. |3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image3.png
+.. |3| image:: /ambd_arduino/media/UART_PM2.5_Concentration_in_the_Air/image3.png
    :width: 928
    :height: 481
    :scale: 50 %
-.. |3-1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image3-1.png
+.. |3-1| image:: /ambd_arduino/media/UART_PM2.5_Concentration_in_the_Air/image3-1.png
    :width: 714
    :height: 642
    :scale: 50 %
-.. |3-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image3-3.png
+.. |3-3| image:: /ambd_arduino/media/UART_PM2.5_Concentration_in_the_Air/image3-3.png
    :width: 938
    :height: 638
    :scale: 60 %
-.. |4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Detect_PM2/image4.png
+.. |4| image:: /ambd_arduino/media/UART_PM2.5_Concentration_in_the_Air/image4.png
    :width: 649
    :height: 410
    :scale: 100 %

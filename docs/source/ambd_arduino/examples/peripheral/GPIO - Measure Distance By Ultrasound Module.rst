@@ -101,39 +101,39 @@ Finally, use the formula to calculate the distance.
 
    distance = duration / 58;
 
-.. |1| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image1.png
+.. |1| image:: /ambd_arduino/media/GPIO_Measure_Distance_By_Ultrasound_Module/image1.png
    :width: 1103
    :height: 679
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image2.png
+.. |2| image:: /ambd_arduino/media/GPIO_Measure_Distance_By_Ultrasound_Module/image2.png
    :width: 1740
    :height: 1008
    :scale: 25 %
-.. |2-1| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image2-1.png
+.. |2-1| image:: /ambd_arduino/media/GPIO_Measure_Distance_By_Ultrasound_Module/image2-1.png
    :width: 1019
    :height: 768
    :scale: 40 %
-.. |2-3| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image2-3.png
+.. |2-3| image:: /ambd_arduino/media/GPIO_Measure_Distance_By_Ultrasound_Module/image2-3.png
    :width: 939
    :height: 747
    :scale: 50 %
-.. |3| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image3.png
+.. |3| image:: /ambd_arduino/media/GPIO_Measure_Distance_By_Ultrasound_Module/image3.png
    :width: 1501
    :height: 1083
    :scale: 25 %
-.. |3-1| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image3-1.png
+.. |3-1| image:: /ambd_arduino/media/GPIO_Measure_Distance_By_Ultrasound_Module/image3-1.png
    :width: 989
    :height: 700
    :scale: 40 %   
-.. |3-3| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image3-3.png
+.. |3-3| image:: /ambd_arduino/media/GPIO_Measure_Distance_By_Ultrasound_Module/image3-3.png
    :width: 1140
    :height: 757
    :scale: 40 %     
-.. |4| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image4.png
+.. |4| image:: /ambd_arduino/media/GPIO_Measure_Distance_By_Ultrasound_Module/image4.png
    :width: 599
    :height: 1006
    :scale: 50 %
-.. |5| image:: /ambd_arduino/media/GPIO_Measure_The_Distance_By_Ultrasound_Module/image5.png
+.. |5| image:: /ambd_arduino/media/GPIO_Measure_Distance_By_Ultrasound_Module/image5.png
    :width: 649
    :height: 372
    :scale: 100 %
