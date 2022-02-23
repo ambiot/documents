@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-02-23 07:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,7 +78,7 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:105 to
+#: networks.rst:107 to
 msgid "1"
 msgstr ""
 
@@ -90,45 +90,7 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:38 to
-msgid ""
-"Next, upload the sample code, and press the reset button on Ameba. Then "
-"you will see a message “You’re connected to the networkSSID: XXXXX”, and "
-"the information of this WiFi connection is printed in the serial monitor "
-"every 10 seconds. |2| \\"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:109 to
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:43 to
-msgid "WiFi connection with WPA encryption"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:45 to
-msgid ""
-"Open the “ConnectWithWPA” example in ``“File” -> “Examples” -> "
-"“AmebaWiFi” -> “ConnectWithWiFi” -> “ConnectWithWPA”`` |3|\\"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:113 to
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:48 to
-msgid ""
-"In the sample code, modify “ssid” to the WiFi SSID to be connected to and"
-" “pass” to the network password."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:51 to
+#: networks.rst:38 networks.rst:53 to
 msgid ""
 "Next, upload the sample code, and press the reset button on Ameba. Then "
 "you will see a message “You’re connected to the networkSSID: XXXXX”, and "
@@ -137,31 +99,65 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:56 to
-msgid "WiFi connection with WEP encryption"
+#: networks.rst:43 to
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
+#: networks.rst:111 to
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
+#: networks.rst:45 to
+msgid "WiFi connection with WPA encryption"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
+#: networks.rst:47 to
+msgid ""
+"Open the “ConnectWithWPA” example in ``“File” -> “Examples” -> "
+"“AmebaWiFi” -> “ConnectWithWiFi” -> “ConnectWithWPA”`` |3|\\"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
+#: networks.rst:115 to
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
+#: networks.rst:50 to
+msgid ""
+"In the sample code, modify “ssid” to the WiFi SSID to be connected to and"
+" “pass” to the network password."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:58 to
+msgid "WiFi connection with WEP encryption"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
+#: networks.rst:60 to
 msgid ""
 "Open the “ConnectWithWEP” example in ``“File” -> “Examples” -> "
 "“AmebaWiFi” -> “ConnectWithWiFi” -> “ConnectWithWEP”`` |4|\\"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:117 to
+#: networks.rst:119 to
 msgid "4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:61 to
+#: networks.rst:63 to
 msgid ""
 "In the sample code, modify “ssid” to the SSID to be connected, “key” to "
 "the hexadecimal password, “keyIndex” to your key index number."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:64 to
+#: networks.rst:66 to
 msgid ""
 "Next, upload the sample code, and press the reset button on Ameba. Then "
 "you will see a message “You’re connected to the networkSSID: XXXXX”, and "
@@ -170,120 +166,120 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:69 to
+#: networks.rst:71 to
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:73 to
+#: networks.rst:75 to
 msgid "https://www.arduino.cc/en/Reference/WiFiBegin"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:74 to
+#: networks.rst:76 to
 msgid "To get the information of a WiFi connection:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:75 to
+#: networks.rst:77 to
 msgid "Use ``WiFi.SSID()`` to get SSID of the current connected network."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:76 to
+#: networks.rst:78 to
 msgid "https://www.arduino.cc/en/Reference/WiFiSSID"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:77 to
+#: networks.rst:79 to
 msgid "Use ``WiFi.RSSI()`` to get the signal strength of the connection."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:78 to
+#: networks.rst:80 to
 msgid "https://www.arduino.cc/en/Reference/WiFiRSSI"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:80 to
+#: networks.rst:82 to
 msgid ""
 "Use ``WiFi.encryptionType()`` to get the encryption type of the WiFi "
 "connection."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:81 to
+#: networks.rst:83 to
 msgid "https://www.arduino.cc/en/Reference/WiFiEncryptionType"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:83 to
+#: networks.rst:85 to
 msgid ""
 "Use ``WiFi.BSSID()`` to get the MAC address of the router you are "
 "connected to."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:84 to
+#: networks.rst:86 to
 msgid "https://www.arduino.cc/en/Reference/WiFiBSSID"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:85 to
+#: networks.rst:87 to
 msgid "To get the information of Ameba:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:86 to
+#: networks.rst:88 to
 msgid "Use ``WiFi.macAddress()`` to get the MAC address of Ameba."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:87 to
+#: networks.rst:89 to
 msgid "https://www.arduino.cc/en/Reference/WiFiMACAddress"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:88 to
+#: networks.rst:90 to
 msgid "Use ``WiFi.localIP()`` to get the IP address of Ameba."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:89 to
+#: networks.rst:91 to
 msgid "https://www.arduino.cc/en/Reference/WiFiLocalIP"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:90 to
+#: networks.rst:92 to
 msgid "Use ``WiFi.subnetMask()`` to get the subnet mask."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:91 to
+#: networks.rst:93 to
 msgid "https://www.arduino.cc/en/Reference/WiFiSubnetMask"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:92 to
+#: networks.rst:94 to
 msgid "Use ``WiFi.gatewayIP()`` to get the WiFi shield’s gateway IP address."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:93 to
+#: networks.rst:95 to
 msgid "https://www.arduino.cc/en/Reference/WiFiGatewayIP"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:95 to
+#: networks.rst:97 to
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Comparison with"
 " Arduino** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:101 to
+#: networks.rst:103 to
 msgid ""
 "In the Arduino platform, we need to add an extra WiFi shield to be the "
 "WiFi module to realize the WiFi connection. And we must ``#include`` to "
@@ -291,12 +287,23 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
-#: networks.rst:103 to
+#: networks.rst:105 to
 msgid ""
 "However, Ameba is already equipped with WiFi module. Therefore, "
 "``#include`` is not needed."
 msgstr ""
 
 #~ msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next, upload the sample code, and "
+#~ "press the reset button on Ameba. "
+#~ "Then you will see a message "
+#~ "“You’re connected to the networkSSID: "
+#~ "XXXXX”, and the information of this "
+#~ "WiFi connection is printed in the "
+#~ "serial monitor every 10 seconds. |2| "
+#~ "\\"
 #~ msgstr ""
 
