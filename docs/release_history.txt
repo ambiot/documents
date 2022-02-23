@@ -1,6 +1,13 @@
 Release History 
 
-2021/02/18
+2022/02/23
+
+- Misc:
+	- Update Network Example Media Folder to sync with the Titles
+	- Update Peripheral Example Media folder to sync with the Titles
+	
+
+2022/02/18
 
 - Feature:
 	- Move the Download section to the main page for easier access.
