@@ -61,19 +61,19 @@ to make. Another array, noteDurations, contains the length of each tone,
 4 represents quarter note (equals to 3000ms/4 = 750ms, and plus an extra
 30% time pause), 8 represents eighth note.
 
-.. |1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_PWM_Play_Music/image1.png
+.. |1| image:: /ambd_arduino/media/PWM_Play_Music_By_Buzzer/image1.png
    :width: 710
    :height: 184
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_PWM_Play_Music/image2.png
+.. |2| image:: /ambd_arduino/media/PWM_Play_Music_By_Buzzer/image2.png
    :width: 1080
    :height: 926
    :scale: 50 %
-.. |3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_PWM_Play_Music/image3.png
+.. |3| image:: /ambd_arduino/media/PWM_Play_Music_By_Buzzer/image3.png
    :width: 806
    :height: 686
    :scale: 50 %
-.. |3-1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_PWM_Play_Music/image3-1.png
+.. |3-1| image:: /ambd_arduino/media/PWM_Play_Music_By_Buzzer/image3-1.png
    :width: 905
    :height: 678
    :scale: 50 %

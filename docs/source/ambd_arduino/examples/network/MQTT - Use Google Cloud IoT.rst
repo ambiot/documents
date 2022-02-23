@@ -17,29 +17,68 @@ MQTT - Use Google Cloud IoT
 
    1. Select or create a Cloud Platform project In the Google Cloud
    Console, select an existing project or create a new project. You will
-   need a **Project ID** to use with Ameba.\ |1|\ If creating a new
+   need a **Project ID** to use with Ameba.
+  
+   |1|
+
+   If creating a new
    project, enter a project name, and take note of the **Project ID** generated.
-   \ |image1|\ 
+   
+   |image1|
+
    2. Enable billing for your project Billing
    needs to be enabled for your project to use Google Cloud Platform
    features. Follow the guide in Google cloud documentation to enable
    billing. https://cloud.google.com/billing/docs/how-to/modify-project 
    3. Enable the Cloud IoT Core API In Google Cloud console, click on the top
-   left menu button and search for IoT Core.\ |image2|\ Click enable to
-   activate Google Cloud IoT API for your project.\ |image3|\ 
+   left menu button and search for IoT Core.
+  
+   |image2| 
+
+   Click enable to
+   activate Google Cloud IoT API for your project.
+  
+   |image3|
+
    4. Create a Cloud Pub\/Sub topic In Google Cloud console, click on the top left menu
-   button and search for Pub\/Sub.\ |image4|\ Create a new topic for your
-   project and give it a suitable topic ID.\ |image5|\ |image6|\ After the
+   button and search for Pub\/Sub.
+  
+   |image4|
+
+   Create a new topic for your
+   project and give it a suitable topic ID.
+   
+   |image5|
+   
+
+   |image6|
+   
+   After the
    topic is created, go to the permissions tab of the info panel, and add
    “cloud-iot@system.gserviceaccount.com” with the role of “Pub\/Sub
    Publisher”.
-   \ |image7|\ |image8|\ |image9|\ 
+
+   |image7|
+
+   |image8|
+
+   |image9|
+
    5.Create a device registry Go back to the IoT Core settings page and create a new
-   registry.\ |image10|\ |image11|\ Choose a suitable **Registry ID** and
+   registry.
+   
+   |image10|
+   
+   |image11|
+   
+   Choose a suitable **Registry ID** and
    **\ in which to store data. Remember
    the **Registry ID** and **Region**\ for use with Ameba later. For the
    Pub/Sub topic, select the topic created in the previous
-   step.\ |image12|\ 
+   step.
+   
+   |image12|
+
    6. Create a public/private key pair Using Openssl in a
    terminal in Windows/Linux/MacOs, run the following commands to generate
    a private and public key pair. Two files will be created by these
@@ -70,12 +109,26 @@ MQTT - Use Google Cloud IoT
    |image15|
    
    Give the device a suitable **Device ID** and remember it for use with 
-   Ameba later.\ |image16|\ In the
+   Ameba later.
+   
+   |image16|
+   
+   In the
    authentication section of the additional options, upload the previously
-   generated “ec_public.pem” public key.\ |image17|\ 8. Create a Cloud
+   generated “ec_public.pem” public key.
+   
+   |image17|
+   
+   8. Create a Cloud
    Pub/Sub subscription To observe messages sent by Ameba, create a
-   subscription in Pub/Sub.\ |image18|\ Choose a suitable subscription ID
-   and select the previously created topic.\ |image19|
+   subscription in Pub/Sub.
+
+   |image18|
+
+   Choose a suitable subscription ID
+   and select the previously created topic.
+   
+   |image19|
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Example**
@@ -97,7 +150,13 @@ MQTT - Use Google Cloud IoT
 | |image22|
 | In Google Cloud console, go to Pub/Sub subscriptions, select the previously 
   created subscription, and click view messages. Here you can view the messages 
-  sent by Ameba.\ |image23|\ |image24|
+  sent by Ameba.
+
+
+  |image23|
+
+  
+  |image24|
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Code Reference**
@@ -174,103 +233,103 @@ Connect to google cloud and publish messages:
    free(mqtt_id);
    free(pub_topic);
 
-.. |1| image:: /ambd_arduino/media/Google_Cloud_IoT/image1.png
+.. |1| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image1.png
    :width: 1352
    :height: 1125
    :scale: 50 %
-.. |image1| image:: /ambd_arduino/media/Google_Cloud_IoT/image2.png
+.. |image1| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image2.png
    :width: 1181
    :height: 540
    :scale: 50 %
-.. |image2| image:: /ambd_arduino/media/Google_Cloud_IoT/image3.png
+.. |image2| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image3.png
    :width: 1352
    :height: 1125
    :scale: 50 %
-.. |image3| image:: /ambd_arduino/media/Google_Cloud_IoT/image4.png
+.. |image3| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image4.png
    :width: 1352
    :height: 1125
    :scale: 50 %
-.. |image4| image:: /ambd_arduino/media/Google_Cloud_IoT/image5.png
+.. |image4| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image5.png
    :width: 1352
    :height: 1125
    :scale: 50 %
-.. |image5| image:: /ambd_arduino/media/Google_Cloud_IoT/image6.png
+.. |image5| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image6.png
    :width: 1352
    :height: 1125
    :scale: 50 %
-.. |image6| image:: /ambd_arduino/media/Google_Cloud_IoT/image7.png
+.. |image6| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image7.png
    :width: 1352
    :height: 1125
    :scale: 50 %
-.. |image7| image:: /ambd_arduino/media/Google_Cloud_IoT/image8.png
+.. |image7| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image8.png
    :width: 1101
    :height: 916
    :scale: 50 %
-.. |image8| image:: /ambd_arduino/media/Google_Cloud_IoT/image9.png
+.. |image8| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image9.png
    :width: 1622
    :height: 1125
    :scale: 50 %
-.. |image9| image:: /ambd_arduino/media/Google_Cloud_IoT/image10.png
+.. |image9| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image10.png
    :width: 1622
    :height: 1125
    :scale: 50 %
-.. |image10| image:: /ambd_arduino/media/Google_Cloud_IoT/image3.png
+.. |image10| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image3.png
    :width: 1321
    :height: 916
    :scale: 50 %
-.. |image11| image:: /ambd_arduino/media/Google_Cloud_IoT/image11.png
+.. |image11| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image11.png
    :width: 1622
    :height: 1125
    :scale: 25 %
-.. |image12| image:: /ambd_arduino/media/Google_Cloud_IoT/image12.png
+.. |image12| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image12.png
    :width: 1321
    :height: 916
    :scale: 50 %
-.. |image13| image:: /ambd_arduino/media/Google_Cloud_IoT/image13.png
+.. |image13| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image13.png
    :width: 963
    :height: 694
    :scale: 50 %
-.. |image14| image:: /ambd_arduino/media/Google_Cloud_IoT/image14.png
+.. |image14| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image14.png
    :width: 963
    :height: 694
    :scale: 50 %
-.. |image15| image:: /ambd_arduino/media/Google_Cloud_IoT/image15.png
+.. |image15| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image15.png
    :width: 1622
    :height: 1125
    :scale: 50 %
-.. |image16| image:: /ambd_arduino/media/Google_Cloud_IoT/image16.png
+.. |image16| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image16.png
    :width: 1380
    :height: 1125
    :scale: 50 %
-.. |image17| image:: /ambd_arduino/media/Google_Cloud_IoT/image17.png
+.. |image17| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image17.png
    :width: 1380
    :height: 1125
    :scale: 50 %
-.. |image18| image:: /ambd_arduino/media/Google_Cloud_IoT/image18.png
+.. |image18| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image18.png
    :width: 1380
    :height: 1125
    :scale: 50 %
-.. |image19| image:: /ambd_arduino/media/Google_Cloud_IoT/image19.png
+.. |image19| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image19.png
    :width: 1153
    :height: 940
    :scale: 50 %
-.. |image20| image:: /ambd_arduino/media/Google_Cloud_IoT/image20.png
+.. |image20| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image20.png
    :width: 737
    :height: 1202
    :scale: 50 %
-.. |image21| image:: /ambd_arduino/media/Google_Cloud_IoT/image21.png
+.. |image21| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image21.png
    :width: 737
    :height: 1062
    :scale: 50 %
-.. |image22| image:: /ambd_arduino/media/Google_Cloud_IoT/image22.png
+.. |image22| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image22.png
    :width: 732
    :height: 627
    :scale: 50 %
-.. |image23| image:: /ambd_arduino/media/Google_Cloud_IoT/image23.png
+.. |image23| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image23.png
    :width: 1586
    :height: 1125
    :scale: 50 %
-.. |image24| image:: /ambd_arduino/media/Google_Cloud_IoT/image24.png
+.. |image24| image:: /ambd_arduino/media/MQTT_use_google_cloud_iot/image24.png
    :width: 1586
    :height: 1125
    :scale: 50 %

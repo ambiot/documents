@@ -11,7 +11,6 @@ WiFi - Scan the surrounding WiFi networks
 
   - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
   - Antenna x 1
-  - **AmebaD [:raw-html:`<p style="color:#1A76B4;">AMB21(RTL8722DM/CSM)\</p>` / AMB23(RTL8722DM_MINI) / BW16(RTL8729DN)] x 1**
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Example**
@@ -59,11 +58,11 @@ detected WiFi hotspots and the information of each hotspot.
 | However, Ameba is already equipped with WiFi module. Therefore,
   ``#include`` is not needed.
 
-.. |image1| image:: /ambd_arduino/media/Scan_available_WiFi_hotspots_in_the_surroundings/image1.png
+.. |image1| image:: /ambd_arduino/media/WiFi _Scan_the_surrounding_WiFi_networks/image1.png
    :width: 716
    :height: 1006
    :scale: 50 %
-.. |image2| image:: /ambd_arduino/media/Scan_available_WiFi_hotspots_in_the_surroundings/image2.png
+.. |image2| image:: /ambd_arduino/media/WiFi_Scan_the_surrounding_WiFi_networks/image2.png
    :width: 704
    :height: 530
    :scale: 50 %

@@ -92,39 +92,39 @@ to get detailed instructions.
 | [2] Provide the link to how to generate a QR code on the E-paper
   module: https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-arduino.html
 
-.. |1| image:: /ambd_arduino/media/Display_Images_On_E_Paper/image1.png
+.. |1| image:: /ambd_arduino/media/Epaper_Display_Images_On_E_Paper/image1.png
    :width: 653
    :height: 291
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/Display_Images_On_E_Paper/image2.png
+.. |2| image:: /ambd_arduino/media/Epaper_Display_Images_On_E_Paper/image2.png
    :width: 2310
    :height: 913
    :scale: 25 %
-.. |3| image:: /ambd_arduino/media/Display_Images_On_E_Paper/image3.png
+.. |3| image:: /ambd_arduino/media/Epaper_Display_Images_On_E_Paper/image3.png
    :width: 884
    :height: 524
    :scale: 60 %
-.. |2-1| image:: /ambd_arduino/media/Display_Images_On_E_Paper/image2-1.png
+.. |2-1| image:: /ambd_arduino/media/Epaper_Display_Images_On_E_Paper/image2-1.png
    :width: 1159
    :height: 457
    :scale: 50 %
-.. |3-1| image:: /ambd_arduino/media/Display_Images_On_E_Paper/image3-1.png
+.. |3-1| image:: /ambd_arduino/media/Epaper_Display_Images_On_E_Paper/image3-1.png
    :width: 1361
    :height: 583
    :scale: 50 %
-.. |2-2| image:: /ambd_arduino/media/Display_Images_On_E_Paper/image2-2.png
+.. |2-2| image:: /ambd_arduino/media/Epaper_Display_Images_On_E_Paper/image2-2.png
    :width: 1159
    :height: 457
    :scale: 50 %
-.. |3-2| image:: /ambd_arduino/media/Display_Images_On_E_Paper/image3-2.png
+.. |3-2| image:: /ambd_arduino/media/Epaper_Display_Images_On_E_Paper/image3-2.png
    :width: 1361
    :height: 583
    :scale: 50 %
-.. |4| image:: /ambd_arduino/media/Display_Images_On_E_Paper/image4.png
+.. |4| image:: /ambd_arduino/media/Epaper_Display_Images_On_E_Paper/image4.png
    :width: 629
    :height: 710
    :scale: 50 %
-.. |5| image:: /ambd_arduino/media/Display_Images_On_E_Paper/image5.png
+.. |5| image:: /ambd_arduino/media/Epaper_Display_Images_On_E_Paper/image5.png
    :width: 752
    :height: 969
    :scale: 50 %

@@ -84,31 +84,31 @@ to “Connection” on the left, and fill in the required information
   “hello world” message show up.
 | |7|
 
-.. |1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image1.png
+.. |1| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image1.png
    :width: 1144
    :height: 751
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image2.png
+.. |2| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image2.png
    :width: 683
    :height: 1006
    :scale: 100 %
-.. |3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image3.png
+.. |3| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image3.png
    :width: 683
    :height: 856
    :scale: 100 %
-.. |4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image4.png
+.. |4| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image4.png
    :width: 704
    :height: 355
    :scale: 100 %
-.. |5| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image5.png
+.. |5| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image5.png
    :width: 1010
    :height: 744
    :scale: 50 %
-.. |6| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image6.png
+.. |6| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image6.png
    :width: 1208
    :height: 834
    :scale: 50 %
-.. |7| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image7.png
+.. |7| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image7.png
    :width: 1217
    :height: 845
    :scale: 50 %

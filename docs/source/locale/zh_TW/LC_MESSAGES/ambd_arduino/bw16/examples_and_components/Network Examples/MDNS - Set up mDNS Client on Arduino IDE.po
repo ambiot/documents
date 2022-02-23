@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-02-23 07:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,7 +112,7 @@ msgstr ""
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:120
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:124
 #: Set mDNS on up
 msgid "1"
 msgstr ""
@@ -122,28 +122,38 @@ msgstr ""
 msgid ""
 "Next, go to (“Tools” -> “Port”), and you can find out at least one Serial"
 " Port. This port is simulated by Ameba board via USB. Choose this port "
-"and upload the compiled code to Ameba.\\ |2|\\ After uploading the code, "
-"press the reset button on Ameba and waiting for Ameba to connect with AP "
-"and activate the mDNS service after a while. You can see the Log at the "
-"bottom of the Serial Monitor."
+"and upload the compiled code to Ameba."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:124
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:50
 #: Set mDNS on up
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:53
-#: Set mDNS on up
-msgid "|3|"
+msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:128
 #: Set mDNS on up
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:52
+#: Set mDNS on up
+msgid ""
+"After uploading the code, press the reset button on Ameba and waiting for"
+" Ameba to connect with AP and activate the mDNS service after a while. "
+"You can see the Log at the bottom of the Serial Monitor."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:57
+#: Set mDNS on up
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:132
+#: Set mDNS on up
 msgid "3"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:55
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:59
 #: Set mDNS on up
 msgid ""
 "Then you can find out the added item “Network Ports” **“MyAmeba at "
@@ -156,41 +166,41 @@ msgid ""
 "we will explain this part in the OTA example.)\\ |4|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:132
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:136
 #: Set mDNS on up
 msgid "4"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:65
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:69
 #: Set mDNS on up
 msgid "If you cannot find the Network ports on your Arduino IDE, please check："
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:67
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:71
 #: Set mDNS on up
 msgid "Does your computer in the same local area network with the Ameba?"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:68
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:72
 #: Set mDNS on up
 msgid "Restart the Arduino IDE, and it will find the mDNS service again"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:69
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:73
 #: Set mDNS on up
 msgid ""
 "Check the Log in Serial Monitor if the Ameba connects to the AP and "
 "activate mDNS service successfully"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:72
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:76
 #: Set mDNS on up
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:76
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:80
 #: Set mDNS on up
 msgid ""
 "The program set up the mDNS service in the beginning, the first parameter"
@@ -201,7 +211,7 @@ msgid ""
 "the service, it is 5000 here and we doesn’t use it in the example."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:87
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:91
 #: Set mDNS on up
 msgid ""
 "After connected to the network, we set up some text fields for the "
@@ -213,20 +223,35 @@ msgid ""
 "difference if interested."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:99
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:103
 #: Set mDNS on up
 msgid ""
 "Then we add three text fields “auth_upload”, “tcp_check”, and "
 "“ssh_upload”, this example does not activate these services."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:108
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:112
 #: Set mDNS on up
 msgid "Next we activate MDNS"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:114
+#: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:118
 #: Set mDNS on up
 msgid "and register to the mDNS service."
 msgstr ""
+
+#~ msgid ""
+#~ "Next, go to (“Tools” -> “Port”), "
+#~ "and you can find out at least "
+#~ "one Serial Port. This port is "
+#~ "simulated by Ameba board via USB. "
+#~ "Choose this port and upload the "
+#~ "compiled code to Ameba.\\ |2|\\ After"
+#~ " uploading the code, press the reset"
+#~ " button on Ameba and waiting for "
+#~ "Ameba to connect with AP and "
+#~ "activate the mDNS service after a "
+#~ "while. You can see the Log at "
+#~ "the bottom of the Serial Monitor."
+#~ msgstr ""
 
