@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-03-02 09:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,7 +103,7 @@ msgstr ""
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:102 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:90 UART
 msgid "1"
 msgstr ""
 
@@ -123,32 +123,64 @@ msgid ""
 " this example."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:69 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:58 UART
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:95 UART
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:60 UART
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:100 UART
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:63 UART
 msgid ""
 "In the UART terminal section of the app, enter a message and click send. "
 "You should see the message appear in the Arduino serial monitor."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:71 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:65 UART
 msgid ""
 "In the Arduino serial monitor, enter a message and click send. The "
 "message will appear in the smartphone app."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:83 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:67 UART
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:105 UART
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:69 UART
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:110 UART
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:71 UART
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:89 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:77 UART
 msgid ""
 "The BLECharacteristic class is used to create two characteristics, one "
 "for receive (Rx) and one for transmit (Tx), and added to a service "
 "created with the BLEService class."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:94 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:82 UART
 msgid ""
 "The required read/write/notify properties are set for each characteristic"
 " using the ``set__Property()`` methods, and callback functions are "
@@ -157,14 +189,14 @@ msgid ""
 "store a complete string."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:97 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:85 UART
 msgid ""
 "When data is written to the receive characteristic, the registered "
 "callback function is called, which prints out the received data as a "
 "string to the serial monitor."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:100 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:88 UART
 msgid ""
 "When data is received on the serial port, it is copied into the transmit "
 "characteristic buffer, and the ``notify()`` method is used to inform the "

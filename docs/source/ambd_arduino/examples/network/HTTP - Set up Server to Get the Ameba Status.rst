@@ -18,18 +18,25 @@ HTTP - Set up Server to Get the Ameba Status
 | In this example, we connect Ameba to WiFi and use Ameba as server to
   send message to connected client.
 | First, open ``“File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebServer”``
-| |1|
+
+  |1|
+
 | In the sample code, modify the highlighted snippet and enter the
   required information (ssid, password, key index) required to connect to
   your WiFi network.
-| |2|
+
+  |2|
+
 | Upload the code and press the reset button on Ameba. After connecting to
   WiFi, Ameba starts to run as server. The IP of the server is shown in
   the serial monitor, and port is 80.
-| |3|
+
+  |3|
+
 | We connect to the server in a browser, and we can see the data sent
   from the server.
-| |4|
+
+  |4|
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Code Reference**
@@ -71,19 +78,21 @@ HTTP - Set up Server to Get the Ameba Status
   connected to.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
-.. |1| image:: /ambd_arduino/media/HTTP_Set_up_server_to_get_the_Ameba_status/image1.png
+
+
+.. |1| image:: /media/HTTP_Set_Up_Server_To_Get_The_Ameba_Status/image1.png
    :width: 716
    :height: 1226
-   :scale: 100 %
-.. |2| image:: /ambd_arduino/media/HTTP_Set_up_server_to_get_the_Ameba_status/image2.png
+   :scale: 70 %
+.. |2| image:: /media/HTTP_Set_Up_Server_To_Get_The_Ameba_Status/image2.png
    :width: 716
    :height: 867
-   :scale: 100 %
-.. |3| image:: /ambd_arduino/media/HTTP_Set_up_server_to_get_the_Ameba_status/image3.png
+   :scale: 80 %
+.. |3| image:: /media/HTTP_Set_Up_Server_To_Get_The_Ameba_Status/image3.png
    :width: 704
    :height: 355
-   :scale: 100 %
-.. |4| image:: /ambd_arduino/media/HTTP_Set_up_server_to_get_the_Ameba_status/image4.png
+   :scale: 90 %
+.. |4| image:: /media/HTTP_Set_Up_Server_To_Get_The_Ameba_Status/image4.png
    :width: 1208
    :height: 940
    :scale: 50 %

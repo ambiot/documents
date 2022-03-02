@@ -46,15 +46,15 @@ retrieves a text file from os.mbed.com.
 Use “WiFiSSLClient client;” to create a client that uses SSL. After
 creation, the client can be used in the same way as a regular client.
 
-.. |1| image:: /ambd_arduino/media/WiFi_set_up_ssl_client_for_https_communication/image1.png
+.. |1| image:: /media/WiFi_Set_Up_SSL_Client_For_HTTPS_Communications/image1.png
    :width: 716
    :height: 1006
-   :scale: 50 %
-.. |2| image:: /ambd_arduino/media/WiFi_set_up_ssl_client_for_https_communication/image2.png
+   :scale: 70 %
+.. |2| image:: /media/WiFi_Set_Up_SSL_Client_For_HTTPS_Communications/image2.png
    :width: 716
    :height: 867
-   :scale: 100 %
-.. |3| image:: /ambd_arduino/media/WiFi_set_up_ssl_client_for_https_communication/image3.png
+   :scale: 80 %
+.. |3| image:: /media/WiFi_Set_Up_SSL_Client_For_HTTPS_Communications/image3.png
    :width: 633
    :height: 476
    :scale: 100 %

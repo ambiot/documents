@@ -110,31 +110,31 @@ In the webpage, you can turn on/off the LED.
   connected to.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
-.. |1| image:: /ambd_arduino/media/HTTP_Set_up_server_to_control_LED/image1.png
+.. |1| image:: /media/HTTP_Set_Up_Server_To_Control_LED/image1.png
    :width: 1598
    :height: 1126
    :scale: 30 %
-.. |1-1| image:: /ambd_arduino/media/HTTP_Set_up_server_to_control_LED/image1-1.png
+.. |1-1| image:: /media/HTTP_Set_Up_Server_To_Control_LED/image1-1.png
    :width: 814
    :height: 758
    :scale: 50 %
-.. |1-2| image:: /ambd_arduino/media/HTTP_Set_up_server_to_control_LED/image1-2.png
+.. |1-2| image:: /media/HTTP_Set_Up_Server_To_Control_LED/image1-2.png
    :width: 491
    :height: 457
    :scale: 90%
-.. |2| image:: /ambd_arduino/media/HTTP_Set_up_server_to_control_LED/image2.png
+.. |2| image:: /media/HTTP_Set_Up_Server_To_Control_LED/image2.png
    :width: 716
    :height: 1006
-   :scale: 80 %
-.. |3| image:: /ambd_arduino/media/HTTP_Set_up_server_to_control_LED/image3.png
+   :scale: 70 %
+.. |3| image:: /media/HTTP_Set_Up_Server_To_Control_LED/image3.png
    :width: 716
    :height: 867
-   :scale: 100 %
-.. |4| image:: /ambd_arduino/media/HTTP_Set_up_server_to_control_LED/image4.png
+   :scale: 70 %
+.. |4| image:: /media/HTTP_Set_Up_Server_To_Control_LED/image4.png
    :width: 704
    :height: 355
    :scale: 100 %
-.. |5| image:: /ambd_arduino/media/HTTP_Set_up_server_to_control_LED/image5.png
+.. |5| image:: /media/HTTP_Set_Up_Server_To_Control_LED/image5.png
    :width: 1208
    :height: 940
    :scale: 50 %

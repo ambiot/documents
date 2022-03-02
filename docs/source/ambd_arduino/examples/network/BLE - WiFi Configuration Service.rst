@@ -82,31 +82,31 @@ configuration service to run on the Bluetooth device.
 the correct advertisement data necessary for the phone app to find the
 Ameba Bluetooth device.
 
-.. |1| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image1.png
+.. |1| image:: /media/BLE_WiFi_Configuration_Service/image1.png
    :width: 832
    :height: 1016
-   :scale: 50 %
-.. |2| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image2.png
+   :scale: 60 %
+.. |2| image:: /media/BLE_WiFi_Configuration_Service/image2.png
    :width: 1440
    :height: 2880
    :scale: 25 %
-.. |3| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image3.png
+.. |3| image:: /media/BLE_WiFi_Configuration_Service/image3.png
    :width: 1440
    :height: 2880
    :scale: 25 %
-.. |4| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image4.png
+.. |4| image:: /media/BLE_WiFi_Configuration_Service/image4.png
    :width: 1440
    :height: 2880
    :scale: 25 %
-.. |5| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image5.png
+.. |5| image:: /media/BLE_WiFi_Configuration_Service/image5.png
    :width: 1440
    :height: 2880
    :scale: 25 %
-.. |6| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image6.png
+.. |6| image:: /media/BLE_WiFi_Configuration_Service/image6.png
    :width: 1440
    :height: 2880
    :scale: 25 %
-.. |7| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image7.png
+.. |7| image:: /media/BLE_WiFi_Configuration_Service/image7.png
    :width: 1440
    :height: 2880
    :scale: 25 %

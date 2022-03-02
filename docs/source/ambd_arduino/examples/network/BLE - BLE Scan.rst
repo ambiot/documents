@@ -69,11 +69,11 @@ duration of 5000 milliseconds. The scan will repeat according to the set
 scan interval and scan window values. After 5000 milliseconds, the scan
 process will stop, and will be ready to be started again.
 
-.. |1| image:: /ambd_arduino/media/BLE_Scan/image1.png
+.. |1| image:: /media/BLE_Scan/image1.png
    :width: 711
    :height: 1006
-   :scale: 50 %
-.. |2| image:: /ambd_arduino/media/BLE_Scan/image2.png
+   :scale: 70 %
+.. |2| image:: /media/BLE_Scan/image2.png
    :width: 757
    :height: 907
-   :scale: 100 %
+   :scale: 80 %

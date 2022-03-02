@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-03-02 09:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,7 +65,7 @@ msgstr ""
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:65 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:70 HID
 msgid "1"
 msgstr ""
 
@@ -93,49 +93,49 @@ msgid ""
 "category."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:35 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:36 HID
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:69 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:74 HID
 msgid "2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:37 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:38 HID
 msgid "On Android, ensure that “Input device” is enabled for the board."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:38 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:40 HID
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:73 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:78 HID
 msgid "3"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:41 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:44 HID
 msgid ""
 "After the Bluetooth connection process is completed, the board is ready "
 "to send gamepad input to the host device. Connect digital pin 8 to 3.3V "
 "to start sending input, and connect to GND to stop."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:43 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:46 HID
 msgid ""
 "To view the input, open a browser window and go to `Gamepad Tester <https"
 "://gamepad-tester.com/>`_. The connected gamepad device should show up "
 "here, and some of the buttons and axes should show changing values."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:44 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:48 HID
 msgid "|4|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:77 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:82 HID
 msgid "4"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:48 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:52 HID
 msgid ""
 "On Windows, gamepad input can also be viewed by going to “Control Panel” "
 "-> “Devices and Printers” -> “AMEBA_BLE_HID” -> “Game Controller "
@@ -143,44 +143,40 @@ msgid ""
 " values here."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:49 HID
-msgid "|5|"
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:54 HID
+msgid "|5| |6|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:81 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:86 HID
 msgid "5"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:51 HID
-msgid "|6|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:85 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:90 HID
 msgid "6"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:54 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:58 HID
 msgid ""
 "On Android, gamepad testing apps such as `Andriod Gamepad Tester "
 "<https://play.google.com/store/apps/details?id=com.chimera.saturday.evogamepadtester>`_"
 " can also be used to view the gamepad input."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:55 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:60 HID
 msgid "|7|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:89 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:94 HID
 msgid "7"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:57 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:62 HID
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:61 HID
+#: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:66 HID
 msgid ""
 "By default, the board emulates a gamepad with an 8-direction hat switch "
 "(d-pad), 6 analog axes and 16 buttons. How the inputs are interpreted is "
@@ -190,5 +186,11 @@ msgid ""
 msgstr ""
 
 #~ msgid "AmebaD [RTL8722DM/RTL8722CSM/RTL8722DM MINI] x 1"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "|6|"
 #~ msgstr ""
 

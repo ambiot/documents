@@ -54,35 +54,35 @@ IPv6 address to “IPv6UDPClient” example in the highlighted area below,
 
     |8|
 
-.. |1| image:: /ambd_arduino/media/IPv6_UDP/image1.png
+.. |1| image:: /media/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image1.png
    :width: 453
    :height: 525
    :scale: 100 %
-.. |2| image:: /ambd_arduino/media/IPv6_UDP/image2.png
+.. |2| image:: /media/IPv6_Ameba_As_IPv6_Server_Client_Over_UDP/image2.png
    :width: 458
    :height: 527
    :scale: 100 %
-.. |3| image:: /ambd_arduino/media/IPv6_UDP/image3.png
+.. |3| image:: /media/IPv6_Ameba_As_IPv6_Server_Client_Over_UDP/image3.png
    :width: 602
    :height: 294
    :scale: 100 %
-.. |4| image:: /ambd_arduino/media/IPv6_UDP/image4.png
+.. |4| image:: /media/IPv6_Ameba_As_IPv6_Server_Client_Over_UDP/image4.png
    :width: 426
    :height: 491
    :scale: 100 %
-.. |5| image:: /ambd_arduino/media/IPv6_UDP/image5.png
+.. |5| image:: /media/IPv6_Ameba_As_IPv6_Server_Client_Over_UDP/image5.png
    :width: 436
    :height: 491
    :scale: 100 %
-.. |6| image:: /ambd_arduino/media/IPv6_UDP/image6.png
+.. |6| image:: /media/IPv6_Ameba_As_IPv6_Server_Client_Over_UDP/image6.png
    :width: 471
    :height: 449
    :scale: 100 %
-.. |7| image:: /ambd_arduino/media/IPv6_UDP/image7.png
+.. |7| image:: /media/IPv6_Ameba_As_IPv6_Server_Client_Over_UDP/image7.png
    :width: 517
    :height: 271
    :scale: 100 %
-.. |8| image:: /ambd_arduino/media/IPv6_UDP/image8.png
+.. |8| image:: /media/IPv6_Ameba_As_IPv6_Server_Client_Over_UDP/image8.png
    :width: 517
    :height: 271
    :scale: 100 %

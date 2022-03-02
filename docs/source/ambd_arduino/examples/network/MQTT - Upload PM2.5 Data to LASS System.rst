@@ -83,35 +83,35 @@ including:
   process is working successfully.
 | |6|
 
-.. |1| image:: /ambd_arduino/media/MQTT_upload_pm2.5_data_to_lass_system/image1.png
+.. |1| image:: /media/MQTT_Upload_PM2.5_Data_To_LASS_System/image1.png
    :width: 712
    :height: 1066
    :scale: 60 %
-.. |2| image:: /ambd_arduino/media/MQTT_upload_pm2.5_data_to_lass_system/image2.png
+.. |2| image:: /media/MQTT_Upload_PM2.5_Data_To_LASS_System/image2.png
    :width: 959
    :height: 668
    :scale: 100 %
-.. |3| image:: /ambd_arduino/media/MQTT_upload_pm2.5_data_to_lass_system/image3.png
+.. |3| image:: /media/MQTT_Upload_PM2.5_Data_To_LASS_System/image3.png
    :width: 679
    :height: 843
    :scale: 100 %
-.. |4| image:: /ambd_arduino/media/MQTT_upload_pm2.5_data_to_lass_system/image4.png
+.. |4| image:: /media/MQTT_Upload_PM2.5_Data_To_LASS_System/image4.png
    :width: 928
    :height: 481
    :scale: 80 %
-.. |4-1| image:: /ambd_arduino/media/MQTT_upload_pm2.5_data_to_lass_system/image4-1.png
+.. |4-1| image:: /media/MQTT_Upload_PM2.5_Data_To_LASS_System/image4-1.png
    :width: 697
    :height: 653
    :scale: 80 %
-.. |4-2| image:: /ambd_arduino/media/MQTT_upload_pm2.5_data_to_lass_system/image4-2.png
+.. |4-2| image:: /media/MQTT_Upload_PM2.5_Data_To_LASS_System/image4-2.png
    :width: 601
    :height: 462
    :scale: 100%
-.. |5| image:: /ambd_arduino/media/MQTT_upload_pm2.5_data_to_lass_system/image5.png
+.. |5| image:: /media/MQTT_Upload_PM2.5_Data_To_LASS_System/image5.png
    :width: 1217
    :height: 839
    :scale: 50 %
-.. |6| image:: /ambd_arduino/media/MQTT_upload_pm2.5_data_to_lass_system/image6.png
+.. |6| image:: /media/MQTT_Upload_PM2.5_Data_To_LASS_System/image6.png
    :width: 1217
    :height: 839
    :scale: 50 %

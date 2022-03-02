@@ -47,10 +47,13 @@ In the operation of MQTT, there are several roles:
   publisher and receive messages from MQTT-Broker as subscriber.
 | Open the MQTT example ``“File” -> “Examples” -> “AmebaMQTTClient” ->
   “MQTT_Basic”``
-| |2|
+
+  |2|
+
 | Please modify some WiFi-related parameters. 
 | And some information related to MQTT:
-| |3|  
+
+  |3|
 
 The “mqttServer” refers to the MQTT-Broker, we use the free MQTT sandbox 
 “test.mosquitto.org” for testing. 
@@ -62,11 +65,15 @@ The “mqttServer” refers to the MQTT-Broker, we use the free MQTT sandbox
   - “subscribeTopic” is to tell MQTT-broker which topic we want to subscribe to. 
 
 | Next, compile the code and upload it to Ameba. Press the reset button, then open the serial monitor
-| |4|  
+
+  |4|  
+
 | After Ameba is connected to MQTT server, it sends the message “hello world” to “outTopic”. 
 | To see the message, we need another MQTT client. 
 | Here we use a chrome plugin “MQTTLens” to be the MQTT client. You can find it in google webstore.
-| |5|
+
+  |5|
+
 
 Install and open the MQTTLens, click “+” next
 to “Connection” on the left, and fill in the required information
@@ -77,38 +84,41 @@ to “Connection” on the left, and fill in the required information
   - **Client ID**: We use the default randomly generated ID.
 
 | Then click “CREATE CONNECTION”.
-| |6|
+
+  |6|
+
 | Since we have not registered the topic we want to listen to, we would not receive any messages now. 
 | Fill in “outTopic” in the “Topic” field and click “Subscribe”. 
 | Wait for Ameba to send next message (or you can press the reset button). Then you can see the 
   “hello world” message show up.
-| |7|
 
-.. |1| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image1.png
+  |7|
+
+.. |1| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image1.png
    :width: 1144
    :height: 751
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image2.png
+.. |2| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image2.png
    :width: 683
    :height: 1006
-   :scale: 100 %
-.. |3| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image3.png
+   :scale: 70 %
+.. |3| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image3.png
    :width: 683
    :height: 856
-   :scale: 100 %
-.. |4| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image4.png
+   :scale: 70 %
+.. |4| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image4.png
    :width: 704
    :height: 355
    :scale: 100 %
-.. |5| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image5.png
+.. |5| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image5.png
    :width: 1010
    :height: 744
-   :scale: 50 %
-.. |6| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image6.png
+   :scale: 70 %
+.. |6| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image6.png
    :width: 1208
    :height: 834
-   :scale: 50 %
-.. |7| image:: /ambd_arduino/media/MQTT_Set_up_mqtt_client_to_communicate_with_broker/image7.png
+   :scale: 60 %
+.. |7| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image7.png
    :width: 1217
    :height: 845
-   :scale: 50 %
+   :scale: 60 %

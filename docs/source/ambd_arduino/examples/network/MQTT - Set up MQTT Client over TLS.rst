@@ -18,12 +18,14 @@ MQTT - Set up MQTT Client over TLS
 | In this example, we connect Ameba to a MQTT broker using TLS
   authentication. Then send messages as a publisher and receive messages
   from as a subscriber. Open the MQTT example ``“File” -> “Examples” ->
-  “AmebaMQTTClient” -> “MQTT_TLS”``
-| |1|
+  “AmebaMQTTClient” -> “MQTT_TLS”`` 
+
+  |1|
 
 | Please modify the WiFi-related parameters to connect to your WiFi network. 
 | Modify the MQTT parameters to fit your application:
-| |2|
+
+  |2|
 
 | The “mqttServer” refers to the MQTT-Broker, we use the free MQTT sandbox 
   “test.mosquitto.org” for testing.
@@ -35,7 +37,8 @@ MQTT - Set up MQTT Client over TLS
 
 | Next, compile the code and upload it to Ameba. Press the reset button, then 
   open the serial monitor 
-| |3| 
+
+  |3| 
 
 | After Ameba is connected to MQTT server, it sends the message “hello world” to
   “outTopic”. To see the message, use another MQTT client. Refer to the
@@ -51,26 +54,28 @@ MQTT - Set up MQTT Client over TLS
   signed certificate and OpenSSL private key, ensuring that they are formatted
   the same way as the shown in the example code. Also uncomment the highlighted 
   code to enable client authentication, and to change the MQTT port number.
-| |4|
-| |5|
 
-.. |1| image:: /ambd_arduino/media/MQTT_set_up_mqtt_client_over_tls/image1.png
+  |4|
+  
+  |5|
+
+.. |1| image:: /media/MQTT_Set_Up_MQTT_Client_Over_TLS/image1.png
    :width: 668
    :height: 1028
-   :scale: 100 %
-.. |2| image:: /ambd_arduino/media/MQTT_set_up_mqtt_client_over_tls/image2.png
+   :scale: 70 %
+.. |2| image:: /media/MQTT_Set_Up_MQTT_Client_Over_TLS/image2.png
    :width: 645
    :height: 846
-   :scale: 100 %
-.. |3| image:: /ambd_arduino/media/MQTT_set_up_mqtt_client_over_tls/image3.png
+   :scale: 90 %
+.. |3| image:: /media/MQTT_Set_Up_MQTT_Client_Over_TLS/image3.png
    :width: 633
    :height: 476
    :scale: 100 %
-.. |4| image:: /ambd_arduino/media/MQTT_set_up_mqtt_client_over_tls/image4.png
+.. |4| image:: /media/MQTT_Set_Up_MQTT_Client_Over_TLS/image4.png
    :width: 645
    :height: 846
    :scale: 100 %
-.. |5| image:: /ambd_arduino/media/MQTT_set_up_mqtt_client_over_tls/image5.png
+.. |5| image:: /media/MQTT_Set_Up_MQTT_Client_Over_TLS/image5.png
    :width: 791
    :height: 846
-   :scale: 70 %
+   :scale: 80 %

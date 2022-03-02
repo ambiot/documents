@@ -58,11 +58,11 @@ detected WiFi hotspots and the information of each hotspot.
 | However, Ameba is already equipped with WiFi module. Therefore,
   ``#include`` is not needed.
 
-.. |image1| image:: /ambd_arduino/media/WiFi _Scan_the_surrounding_WiFi_networks/image1.png
+.. |image1| image::   /media/WiFi _Scan_the_surrounding_WiFi_networks/image1.png
    :width: 716
    :height: 1006
-   :scale: 50 %
-.. |image2| image:: /ambd_arduino/media/WiFi_Scan_the_surrounding_WiFi_networks/image2.png
+   :scale: 80 %
+.. |image2| image::   /media/WiFi_Scan_the_surrounding_WiFi_networks/image2.png
    :width: 704
    :height: 530
-   :scale: 50 %
+   :scale: 80 %
