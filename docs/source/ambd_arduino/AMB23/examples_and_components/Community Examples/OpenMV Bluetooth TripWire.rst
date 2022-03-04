@@ -2,17 +2,21 @@
 OpenMV Bluetooth TripWire
 ###################################
 
+.. role:: raw-html(raw)
+   :format: html
+
 **CONTRIBUTED BY: SIMON XI** (`<https://github.com/xidameng>`__ )
 
+| Hi if you haven’t watched the demo video, feel free to play
+  this short clip below to see what it’s capable of.
 
-Hi if you haven’t watched the demo video, feel free to play
-this short clip below to see what it’s capable of.
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+:raw-html:`</p>`
 
-.. image:: /ambd_arduino/media/OpenMV_BT_TripWire/screenshot.png
-   :target: https://www.youtube.com/watch?v=gCpC2uOva90
-   :width: 1280
-   :height: 720
-   :scale: 40%
+    .. raw:: html 
+
+        <style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: auto; height: auto;">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/gCpC2uOva90" title="OpenMV Bluetooth TripWire" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 ********************
 Introduction
