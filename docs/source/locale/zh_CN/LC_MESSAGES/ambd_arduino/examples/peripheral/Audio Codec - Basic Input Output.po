@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-03-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,7 +102,7 @@ msgstr ""
 #: Output.rst:33
 msgid ""
 "Open the example, ``\"Files\" -> \"Examples\" -> “AmebaAudioCodec” -> "
-"“BasicInputOutput”``."
+"“Basic_Input_Output”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
@@ -140,5 +140,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "**RTL8722DM MINI** Wiring Diagram:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``\"Files\" -> "
+#~ "\"Examples\" -> “AmebaAudioCodec” -> "
+#~ "“BasicInputOutput”``."
 #~ msgstr ""
 

@@ -30,10 +30,10 @@ TensorFlow Lite - Person Detection
 
 | Download the Ameba customized version of TensorFlow Lite for
   Microcontrollers library at
-| https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries.
+| https://github.com/ambiot/tree/master/Arduino_zip_libraries.
 | Follow the instructions at https://www.arduino.cc/en/guide/libraries to
   install it. Ensure that the patch files found at
-  https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ are also
+  https://github.com/ambiot/tree/master/Ameba_misc/ are also
   installed.
 | You will also need to install the Ameba_ArduCAM library, found together
   with the TensorFlow Lite library.
@@ -79,19 +79,19 @@ Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
 More information on TensorFlow Lite for Microcontrollers can be found
 at: https://www.tensorflow.org/lite/microcontrollers
 
-.. |1| image:: /ambd_arduino/media/TFL_PersonDetection/image1.png
+.. |1| image:: /media/TFL_PersonDetection/image1.png
    :width: 777
    :height: 467
    :scale: 80 %
-.. |1-1| image:: /ambd_arduino/media/TFL_PersonDetection/image1-1.png
+.. |1-1| image:: /media/TFL_PersonDetection/image1-1.png
    :width: 1487
    :height: 714
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/TFL_PersonDetection/image2.png
+.. |2| image:: /media/TFL_PersonDetection/image2.png
    :width: 556
    :height: 830
-   :scale: 100 %
-.. |3| image:: /ambd_arduino/media/TFL_PersonDetection/image3.png
+   :scale: 70 %
+.. |3| image:: /media/TFL_PersonDetection/image3.png
    :width: 639
    :height: 477
-   :scale: 100 %
+   :scale: 80 %

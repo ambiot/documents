@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-03-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgid "|1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:95
+#: Images.rst:96
 msgid "1"
 msgstr ""
 
@@ -97,7 +97,7 @@ msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:99
+#: Images.rst:100
 msgid "2"
 msgstr ""
 
@@ -107,7 +107,7 @@ msgid "|3|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:103
+#: Images.rst:104
 msgid "3"
 msgstr ""
 
@@ -122,7 +122,7 @@ msgid "|2-1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:107
+#: Images.rst:108
 msgid "2-1"
 msgstr ""
 
@@ -132,7 +132,7 @@ msgid "|3-1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:111
+#: Images.rst:112
 msgid "3-1"
 msgstr ""
 
@@ -147,7 +147,7 @@ msgid "|2-2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:115
+#: Images.rst:116
 msgid "2-2"
 msgstr ""
 
@@ -157,7 +157,7 @@ msgid "|3-2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:119
+#: Images.rst:120
 msgid "3-2"
 msgstr ""
 
@@ -190,7 +190,7 @@ msgstr ""
 #: Images.rst:70
 msgid ""
 "Download the Eink zip library, AmebaEink.zip, at "
-"https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries"
+"https://github.com/ambiot /tree/master/Arduino_zip_libraries"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
@@ -206,7 +206,7 @@ msgid "|4|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:123
+#: Images.rst:124
 msgid "4"
 msgstr ""
 
@@ -228,7 +228,7 @@ msgid "|5|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:127
+#: Images.rst:128
 msgid "5"
 msgstr ""
 
@@ -242,16 +242,38 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:91
 msgid ""
-"[1] We use Good Display GDEH029A1 2.9 Inch / 296×128 Resolution / Partial"
-" Refresh Arduino Sample Code to get the e-Paper successfully Display: "
+"We use Good Display GDEH029A1 2.9 Inch / 296×128 Resolution / Partial "
+"Refresh Arduino Sample Code to get the e-Paper successfully Display: "
 "http://www.good-display.com/product/201.html"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:93
+#: Images.rst:94
 msgid ""
-"[2] Provide the link to how to generate a QR code on the E-paper module: "
+"The link on how to generate a QR code on the E-paper module: "
 "https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-"
 "arduino.html"
 msgstr ""
+
+#~ msgid ""
+#~ "Download the Eink zip library, "
+#~ "AmebaEink.zip, at "
+#~ "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[1] We use Good Display GDEH029A1 "
+#~ "2.9 Inch / 296×128 Resolution / "
+#~ "Partial Refresh Arduino Sample Code to"
+#~ " get the e-Paper successfully Display: "
+#~ "http://www.good-display.com/product/201.html"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[2] Provide the link to how to "
+#~ "generate a QR code on the E-paper"
+#~ " module: "
+#~ "https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-"
+#~ "on-arduino.html"
+#~ msgstr ""
 

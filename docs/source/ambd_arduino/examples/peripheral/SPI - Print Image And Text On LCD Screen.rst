@@ -54,7 +54,7 @@ Common pins in ILI9341 TFT LCD with SPI interface:
 
 **BW16 and QVGA TFT LCD** Wiring Diagram:
 
-  |1-3|
+  |1-2|
 
 | Wiring example of Adafruit 2.8” TFT LCD touch shield:
 | Please note that this shield model enables the backlight by default
@@ -126,7 +126,10 @@ Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI934
    -  In our API, each character is 5×7 but each character is printed to
       size 6×8 (its right side and below are left blank), so as to
       separate from next character. For example, the character
-      “A”:|5|
+      “A”:
+      
+      |5|
+      
    -  The font size represents the dot size. For example, if the font
       size is 2, each dot in the character is a 2×2 rectangle
 
@@ -137,41 +140,41 @@ Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI934
       screen rotates 90 degrees, the width becomes 320 and the height
       becomes 240.
 
-.. |1| image:: /ambd_arduino/media/SPI_Print_image_and_text_on_LCD_screen/image1.png
+.. |1| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image1.png
    :width: 1640
    :height: 1018
-   :scale: 50 %
-.. |1-1| image:: /ambd_arduino/media/SPI_Print_image_and_text_on_LCD_screen/image1-1.png
+   :scale: 40 %
+.. |1-1| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image1-1.png
    :width: 1043
    :height: 695
-   :scale: 70 %
-.. |1-3| image:: /ambd_arduino/media/SPI_Print_image_and_text_on_LCD_screen/image1-3.png
+   :scale: 60 %
+.. |1-2| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image1-2.png
    :width: 1051
    :height: 659
    :scale: 70 %
-.. |2| image:: /ambd_arduino/media/SPI_Print_image_and_text_on_LCD_screen/image2.png
+.. |2| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image2.png
    :width: 1426
    :height: 1006
-   :scale: 50 %
-.. |2-1| image:: /ambd_arduino/media/SPI_Print_image_and_text_on_LCD_screen/image2-1.png
+   :scale: 40 %
+.. |2-1| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image2-1.png
    :width: 1045
    :height: 664
-   :scale: 70 %
-.. |2-3| image:: /ambd_arduino/media/SPI_Print_image_and_text_on_LCD_screen/image2-3.png
+   :scale: 60 %
+.. |2-3| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image2-3.png
    :width: 971
    :height: 638
-   :scale: 70 %
-.. |3| image:: /ambd_arduino/media/SPI_Print_image_and_text_on_LCD_screen/image3.png
+   :scale: 60 %
+.. |3| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image3.png
    :alt: 2
    :width: 683
    :height: 1006
-   :scale: 50 %
-.. |4| image:: /ambd_arduino/media/SPI_Print_image_and_text_on_LCD_screen/image4.png
+   :scale: 70 %
+.. |4| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image4.png
    :alt: 4
    :width: 938
    :height: 300
-   :scale: 50 %
-.. |5| image:: /ambd_arduino/media/SPI_Print_image_and_text_on_LCD_screen/image5.png
+   :scale: 60 %
+.. |5| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image5.png
    :width: 193
    :height: 258
    :scale: 100 %

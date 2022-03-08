@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-03-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,29 +23,29 @@ msgid "Audio Codec - DIY MP3"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:5
+#: DIY Examples/Audio MP3.rst:8
 msgid "**CONTRIBUTED BY: M-ichae-l** (`<https://github.com/M-ichae-l>`__)"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:8
+#: DIY Examples/Audio MP3.rst:11
 msgid ""
 "Hi if you haven’t watched the demo video, feel free to play this short "
 "clip below to see what it’s capable of."
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio
-msgid "youtube"
+#: DIY Examples/Audio MP3.rst:14
+msgid ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:21
+#: DIY Examples/Audio MP3.rst:24
 msgid "Introduction"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:23
+#: DIY Examples/Audio MP3.rst:26
 msgid ""
 "Using AMB23 (RTL8722DM_MINI) board to DIY an MP3 Player. The platform is "
 "Arduino IDE. Storage is Micro SD card and supports mp3 files. Using a "
@@ -54,63 +54,63 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:28
+#: DIY Examples/Audio MP3.rst:31
 msgid "Components"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:30
+#: DIY Examples/Audio MP3.rst:33
 msgid "AMB23 (RTL8722DM MINI) dev board x1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:31
+#: DIY Examples/Audio MP3.rst:34
 msgid "Micro SD card x1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:32
+#: DIY Examples/Audio MP3.rst:35
 msgid "A speaker / earphone x1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:34
+#: DIY Examples/Audio MP3.rst:37
 msgid ""
 "Connection is simple, just insert Micro SD card into adaptor and speaker "
 "into jack."
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:39
+#: DIY Examples/Audio MP3.rst:42
 msgid "Function Flow"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:41
+#: DIY Examples/Audio MP3.rst:44
 msgid ""
 "Please refer to the hackaday link. (`<https://hackaday.io/project/180706"
 "-diy-mp3-player>`__)"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:46
+#: DIY Examples/Audio MP3.rst:49
 msgid "Code"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:48
+#: DIY Examples/Audio MP3.rst:51
 msgid ""
 "Please refer to the GitHub link. "
 "(`<https://github.com/M-ichae-l/AmebaIoT_M_example/tree/main/M_MP3/PlaybackWavFile>`__)"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:53
+#: DIY Examples/Audio MP3.rst:56
 msgid "Conclusion"
 msgstr ""
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
-#: DIY Examples/Audio MP3.rst:55
+#: DIY Examples/Audio MP3.rst:58
 msgid ""
 "This project is not as perfect as it is and can be updated with many "
 "great ideas. Such as, wireless charging, smart voice dontrol and so on. "
@@ -120,4 +120,7 @@ msgid ""
 "give a like at any of the 3 channels (Hackaday, YouTube or GitHub). Happy"
 " coding."
 msgstr ""
+
+#~ msgid "youtube"
+#~ msgstr ""
 

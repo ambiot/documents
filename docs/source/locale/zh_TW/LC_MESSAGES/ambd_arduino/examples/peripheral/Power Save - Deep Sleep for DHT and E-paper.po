@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-03-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,15 +78,15 @@ msgstr ""
 #: E-paper.rst:33 Save Sleep and for
 msgid ""
 "Download the Eink zip library, AmebaEink.zip, at "
-"https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
-" Then install the AmebaEink.zip."
+"https://github.com/ambiot/tree/master/Arduino_zip_libraries. Then install"
+" the AmebaEink.zip."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:35 Save Sleep and for
 msgid ""
 "Open ``“File” -> “Examples” -> “AmebaPowerSave” -> "
-"“DeepSleep_DHT_Eink_Example”``"
+"“DeepSleep_For_DHT_Epaper_Example”``"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
@@ -95,7 +95,7 @@ msgid "|1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
-#: E-paper.rst:92 Save Sleep and for
+#: E-paper.rst:93 Save Sleep and for
 msgid "1"
 msgstr ""
 
@@ -160,22 +160,22 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
-#: E-paper.rst:66 Save Sleep and for
+#: E-paper.rst:67 Save Sleep and for
 msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
-#: E-paper.rst:96 Save Sleep and for
+#: E-paper.rst:97 Save Sleep and for
 msgid "2"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
-#: E-paper.rst:68 Save Sleep and for
+#: E-paper.rst:69 Save Sleep and for
 msgid "**Using RTC Timer as wakeup source**"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
-#: E-paper.rst:71 Save Sleep and for
+#: E-paper.rst:72 Save Sleep and for
 msgid ""
 "RTC timer wakeup system is by setting alarm. The alarm has 4 values, day,"
 " hour, min and sec. All 4 values can be set by ``DS_RTC_ALARM_DAY``, "
@@ -183,29 +183,29 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
-#: E-paper.rst:74 Save Sleep and for
+#: E-paper.rst:75 Save Sleep and for
 msgid ""
 "``DHTPIN`` is used to set DHT sensor data pin. User can choose any GPIO "
 "pins."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
-#: E-paper.rst:75 Save Sleep and for
+#: E-paper.rst:76 Save Sleep and for
 msgid "``DHTTYPE`` is used to set DHT sensor type. (DHT11, DHT22 and DHT33)"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
-#: E-paper.rst:77 Save Sleep and for
+#: E-paper.rst:78 Save Sleep and for
 msgid "|3|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
-#: E-paper.rst:100 Save Sleep and for
+#: E-paper.rst:101 Save Sleep and for
 msgid "3"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
-#: E-paper.rst:79 Save Sleep and for
+#: E-paper.rst:80 Save Sleep and for
 msgid ""
 "When finished the condition values setting, system will run and switch "
 "between normal working mode and deepsleep mode controlled by wakeup "
@@ -214,17 +214,29 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
-#: E-paper.rst:84 Save Sleep and for
+#: E-paper.rst:85 Save Sleep and for
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
-#: E-paper.rst:88 Save Sleep and for
+#: E-paper.rst:89 Save Sleep and for
 msgid ""
 "Please refer to the `API Documents <https://www.amebaiot.com/rtl8722dm-"
 "arduino-online-api-documents/>`__ PowerSave section for detail "
 "description of all API."
 msgstr ""
+
+#~ msgid ""
+#~ "Download the Eink zip library, "
+#~ "AmebaEink.zip, at "
+#~ "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
+#~ " Then install the AmebaEink.zip."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open ``“File” -> “Examples” -> "
+#~ "“AmebaPowerSave” -> “DeepSleep_DHT_Eink_Example”``"
+#~ msgstr ""
 

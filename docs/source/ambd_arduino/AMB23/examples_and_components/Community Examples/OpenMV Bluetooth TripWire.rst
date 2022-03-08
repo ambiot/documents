@@ -208,7 +208,7 @@ something with me~
 
 Until next time, happy coding.
 
-.. |1| image:: /ambd_arduino/media/OpenMV_BT_TripWire/image1.png
+.. |1| image:: /media/OpenMV_Bluetooth_TripWire/image1.png
    :alt: image
    :width: 3.96875in
    :height: 3.9375in

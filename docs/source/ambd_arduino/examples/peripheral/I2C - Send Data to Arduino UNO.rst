@@ -103,27 +103,27 @@ Then click ``“Sketch” -> “Upload”`` to compile and upload the example to
   queued:
 | https://www.arduino.cc/en/Reference/WireEndTransmission
 
-.. |1| image:: /ambd_arduino/media/I2C_Send_data_to_Arduino_UNO/image1.png
+.. |1| image:: /media/I2C_Send_data_to_Arduino_UNO/image1.png
    :width: 578
    :height: 1028
-   :scale: 50 %
-.. |2| image:: /ambd_arduino/media/I2C_Send_data_to_Arduino_UNO/image2.png
+   :scale: 70 %
+.. |2| image:: /media/I2C_Send_data_to_Arduino_UNO/image2.png
    :width: 588
    :height: 1028
-   :scale: 50 %  
-.. |3| image:: /ambd_arduino/media/I2C_Send_data_to_Arduino_UNO/image3.png
+   :scale: 70 %  
+.. |3| image:: /media/I2C_Send_data_to_Arduino_UNO/image3.png
    :width: 1540
    :height: 1051
-   :scale: 30 %
-.. |3-1| image:: /ambd_arduino/media/I2C_Send_data_to_Arduino_UNO/image3-1.png
+   :scale: 45 %
+.. |3-1| image:: /media/I2C_Send_data_to_Arduino_UNO/image3-1.png
    :width: 1005
    :height: 743
-   :scale: 50 %
-.. |3-3| image:: /ambd_arduino/media/I2C_Send_data_to_Arduino_UNO/image3-3.png
+   :scale: 60 %
+.. |3-3| image:: /media/I2C_Send_data_to_Arduino_UNO/image3-3.png
    :width: 923
    :height: 717
-   :scale: 60 %
-.. |4| image:: /ambd_arduino/media/I2C_Send_data_to_Arduino_UNO/image4.png
+   :scale: 70 %
+.. |4| image:: /media/I2C_Send_data_to_Arduino_UNO/image4.png
    :width: 649
    :height: 410
    :scale: 100 %

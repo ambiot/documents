@@ -81,34 +81,34 @@ buffered temperature/humidity data unless it found the data has expired
 (i.e., has not been updated for over 2 seconds). If the data is expired,
 Ameba issues a request to DHT to read the latest data.
 
-.. |1| image:: /ambd_arduino/media/GPIO_Measure_Temperature_And_Humidity/image1.png
+.. |1| image:: /media/GPIO_Measure_Temperature_And_Humidity/image1.png
    :alt: 1
    :width: 259
    :height: 332
    :scale: 100 %
-.. |2| image:: /ambd_arduino/media/GPIO_Measure_Temperature_And_Humidity/image2.png
+.. |2| image:: /media/GPIO_Measure_Temperature_And_Humidity/image2.png
    :alt: 2
    :width: 114
    :height: 276
    :scale: 100 %
-.. |3| image:: /ambd_arduino/media/GPIO_Measure_Temperature_And_Humidity/image3.png
+.. |3| image:: /media/GPIO_Measure_Temperature_And_Humidity/image3.png
    :alt: 3
    :width: 1429
    :height: 415
    :scale: 50 %
-.. |4| image:: /ambd_arduino/media/GPIO_Measure_Temperature_And_Humidity/image4.png
+.. |4| image:: /media/GPIO_Measure_Temperature_And_Humidity/image4.png
    :width: 1077
    :height: 930
-   :scale: 50 %
-.. |4-1| image:: /ambd_arduino/media/GPIO_Measure_Temperature_And_Humidity/image4-1.png
+   :scale: 45 %
+.. |4-1| image:: /media/GPIO_Measure_Temperature_And_Humidity/image4-1.png
    :width: 863
    :height: 789
    :scale: 50 %
-.. |4-3| image:: /ambd_arduino/media/GPIO_Measure_Temperature_And_Humidity/image4-3.png
+.. |4-3| image:: /media/GPIO_Measure_Temperature_And_Humidity/image4-3.png
    :width: 654
    :height: 670
    :scale: 60 %
-.. |5| image:: /ambd_arduino/media/GPIO_Measure_Temperature_And_Humidity/image5.png
+.. |5| image:: /media/GPIO_Measure_Temperature_And_Humidity/image5.png
    :alt: 5
    :width: 1077
    :height: 930

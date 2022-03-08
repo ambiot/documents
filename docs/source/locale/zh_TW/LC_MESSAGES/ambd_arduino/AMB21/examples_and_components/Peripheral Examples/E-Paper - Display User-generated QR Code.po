@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-03-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -167,7 +167,7 @@ msgstr ""
 #: QR User-generated
 msgid ""
 "Download the Eink zip library, AmebaEink.zip, at "
-"https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries"
+"https://github.com/ambiot/tree/master/Arduino_zip_libraries"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:58 Display
@@ -233,4 +233,10 @@ msgid ""
 "processing and memory-constrained systems: "
 "https://github.com/ricmoo/QRCode#data-capacities"
 msgstr ""
+
+#~ msgid ""
+#~ "Download the Eink zip library, "
+#~ "AmebaEink.zip, at "
+#~ "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries"
+#~ msgstr ""
 

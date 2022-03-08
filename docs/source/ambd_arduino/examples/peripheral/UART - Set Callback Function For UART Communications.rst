@@ -69,27 +69,27 @@ character corresponds to the enter key, and releases the semaphore if it
 is true, which in turn allows the main loop to print out all the
 previously received characters.
 
-.. |1| image:: /ambd_arduino/media/UART_Set_Callback_Function_For_UART_Communications/image1.png
+.. |1| image:: /media/UART_Set_Callback_Function_For_UART_Communications/image1.png
    :width: 1342
    :height: 1130
    :scale: 40 %
-.. |1-1| image:: /ambd_arduino/media/UART_Set_Callback_Function_For_UART_Communications/image1-1.png
+.. |1-1| image:: /media/UART_Set_Callback_Function_For_UART_Communications/image1-1.png
    :width: 1006
    :height: 798
    :scale: 50 %
-.. |1-3| image:: /ambd_arduino/media/UART_Set_Callback_Function_For_UART_Communications/image1-3.png
+.. |1-3| image:: /media/UART_Set_Callback_Function_For_UART_Communications/image1-3.png
    :width: 1020
    :height: 705
-   :scale: 60 %
-.. |2| image:: /ambd_arduino/media/UART_Set_Callback_Function_For_UART_Communications/image2.png
+   :scale: 50 %
+.. |2| image:: /media/UART_Set_Callback_Function_For_UART_Communications/image2.png
    :width: 721
    :height: 1006
-   :scale: 50 %
-.. |3| image:: /ambd_arduino/media/UART_Set_Callback_Function_For_UART_Communications/image3.png
+   :scale: 70 %
+.. |3| image:: /media/UART_Set_Callback_Function_For_UART_Communications/image3.png
    :width: 665
    :height: 540
-   :scale: 100 %
-.. |4| image:: /ambd_arduino/media/UART_Set_Callback_Function_For_UART_Communications/image4.png
+   :scale: 70 %
+.. |4| image:: /media/UART_Set_Callback_Function_For_UART_Communications/image4.png
    :width: 665
    :height: 540
    :scale: 100 %

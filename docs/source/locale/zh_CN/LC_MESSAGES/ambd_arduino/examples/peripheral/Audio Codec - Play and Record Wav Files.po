@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-03-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,29 +66,34 @@ msgstr ""
 msgid "|image1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:56
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:62
 #: Play Record Wav and
 msgid "image1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:25
 #: Play Record Wav and
-msgid ""
-"Example 01 PlaybackWavFile Open the example, ``“Files” -> “Examples” -> "
-"“AmebaAudioCodec” -> “PlaybackWavFile”``."
+msgid "**Example 01 - PlaybackWavFile**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:28
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:27
+#: Play Record Wav and
+msgid ""
+"Open the example, ``“Files” -> “Examples” -> “AmebaAudioCodec” -> "
+"“PlaybackWavFile”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:29
 #: Play Record Wav and
 msgid "|image2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:60
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:66
 #: Play Record Wav and
 msgid "image2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:30
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:31
 #: Play Record Wav and
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
@@ -96,95 +101,95 @@ msgid ""
 "sample sound."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:33
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:34
 #: Play Record Wav and
-msgid ""
-"Example 02 RecordWavFile Open the example, ``“Files” -> “Examples” -> "
-"“AmebaAudioCodec” -> “RecordWavFile”``."
+msgid "**Example 02 - RecordWavFile**"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:36
 #: Play Record Wav and
+msgid ""
+"Open the example, ``“Files” -> “Examples” -> “AmebaAudioCodec” -> "
+"“RecordWavFile”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:38
+#: Play Record Wav and
 msgid "|image3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:64
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:70
 #: Play Record Wav and
 msgid "image3"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:39
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:40
 #: Play Record Wav and
 msgid ""
-"Define a GPIO/button(Input high to active) for “RECORDBTN”. Define the "
-"“filename[]” for name of the storge wav file. In this example the name is"
-" “Test_Recording_48khz_16bit_mono.wav”."
+"Define a GPIO/button(Input high to active) for ``RECORDBTN``. Define the "
+"``filename[]`` for name of the storge wav file. In this example the name "
+"is “Test_Recording_48khz_16bit_mono.wav”."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:40
-#: Files.rst:51 Play Record Wav and
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:41
+#: Files.rst:55 Play Record Wav and
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:41
-#: Play Record Wav and
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:42
+#: Files.rst:58 Play Record Wav and
 msgid ""
-"Input high to “RECORDBTN”, then record voice by on board mic. When input "
-"is low the record stops. The recorded voice will be stored in "
+"Input high to ``RECORDBTN``, then record voice by on board mic. When "
+"input is low the record stops. The recorded voice will be stored in "
 "“Test_Recording_48khz_16bit_mono.wav” that located at MicroSD card."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:43
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:44
 #: Play Record Wav and
-msgid ""
-"Example 03 RecordPlaybackWav Open the example, ``“Files” -> “Examples” ->"
-" “AmebaAudioCodec” -> “RecordPlaybackWav”``."
+msgid "**Example 03 - RecordPlaybackWav**"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:46
 #: Play Record Wav and
-msgid "|image4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:68
-#: Play Record Wav and
-msgid "image4"
+msgid ""
+"Open the example, ``“Files” -> “Examples” -> “AmebaAudioCodec” -> "
+"“RecordPlaybackWav”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:48
 #: Play Record Wav and
-msgid ""
-"This example is a combination of Example01 and Example02. You can record "
-"by Example02 then play it by jack as the method of Example01."
+msgid "|image4|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:49
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:74
 #: Play Record Wav and
-msgid ""
-"Define a GPIO/button(Input high to active) for “RECORDBTN”. Define the "
-"“filename[]” for name of the storge wav file. In this example the name is"
+msgid "image4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:50
 #: Play Record Wav and
-msgid "“Test_Recording_48khz_16bit_mono.wav”."
+msgid ""
+"This example is a combination of **Example01** and **Example02**. You can"
+" record by **Example02** then play it by jack as the method of "
+"**Example01**."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:52
 #: Play Record Wav and
 msgid ""
-"Input high to “RECORDBTN”, then record voice by on board mic. When input "
-"is low the record stops. The recorded voice will be stored in"
+"Define a GPIO/button(Input high to active) for ``RECORDBTN``. Define the "
+"``filename[]`` for name of the storge wav file. In this example the name "
+"is"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:53
 #: Play Record Wav and
-msgid "“Test_Recording_48khz_16bit_mono.wav” that located at MicroSD card."
+msgid "“Test_Recording_48khz_16bit_mono.wav”."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:54
+#: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:60
 #: Play Record Wav and
 msgid ""
 "Insert earphone/speaker into the onboard jack for playing the sample "
@@ -204,5 +209,65 @@ msgstr ""
 #~ "“Test_Audio_48khz_16bit_stereo.wav”. ) Then insert"
 #~ " the MicroSD card into the adapter"
 #~ " at the back of the board."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Example 01 PlaybackWavFile Open the "
+#~ "example, ``“Files” -> “Examples” -> "
+#~ "“AmebaAudioCodec” -> “PlaybackWavFile”``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Example 02 RecordWavFile Open the "
+#~ "example, ``“Files” -> “Examples” -> "
+#~ "“AmebaAudioCodec” -> “RecordWavFile”``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Define a GPIO/button(Input high to "
+#~ "active) for “RECORDBTN”. Define the "
+#~ "“filename[]” for name of the storge "
+#~ "wav file. In this example the name"
+#~ " is “Test_Recording_48khz_16bit_mono.wav”."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Input high to “RECORDBTN”, then record"
+#~ " voice by on board mic. When "
+#~ "input is low the record stops. The"
+#~ " recorded voice will be stored in "
+#~ "“Test_Recording_48khz_16bit_mono.wav” that located "
+#~ "at MicroSD card."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Example 03 RecordPlaybackWav Open the "
+#~ "example, ``“Files” -> “Examples” -> "
+#~ "“AmebaAudioCodec” -> “RecordPlaybackWav”``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This example is a combination of "
+#~ "Example01 and Example02. You can record"
+#~ " by Example02 then play it by "
+#~ "jack as the method of Example01."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Define a GPIO/button(Input high to "
+#~ "active) for “RECORDBTN”. Define the "
+#~ "“filename[]” for name of the storge "
+#~ "wav file. In this example the name"
+#~ " is"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Input high to “RECORDBTN”, then record"
+#~ " voice by on board mic. When "
+#~ "input is low the record stops. The"
+#~ " recorded voice will be stored in"
+#~ msgstr ""
+
+#~ msgid "“Test_Recording_48khz_16bit_mono.wav” that located at MicroSD card."
 #~ msgstr ""
 

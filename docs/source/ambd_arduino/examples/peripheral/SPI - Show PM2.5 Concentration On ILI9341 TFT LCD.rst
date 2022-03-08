@@ -68,35 +68,35 @@ static components such as the circles, the measuring scale, and the
 title text. After the concentration value is detected, it is printed
 inside the circle.
 
-.. |1| image:: /ambd_arduino/media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image1.png
+.. |1| image:: /media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image1.png
    :width: 1431
    :height: 820
    :scale: 50 %
-.. |1-1| image:: /ambd_arduino/media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image1-1.png
+.. |1-1| image:: /media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image1-1.png
    :width: 1345
    :height: 728
    :scale: 50 %
-.. |1-3| image:: /ambd_arduino/media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image1-3.png
+.. |1-3| image:: /media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image1-3.png
    :width: 1145
    :height: 656
    :scale: 60 %
-.. |2| image:: /ambd_arduino/media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image2.png
+.. |2| image:: /media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image2.png
    :width: 1430
    :height: 820
    :scale: 50 %
-.. |2-2| image:: /ambd_arduino/media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image2-2.png
+.. |2-2| image:: /media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image2-2.png
    :width: 1315
    :height: 759
    :scale: 50 %
-.. |2-4| image:: /ambd_arduino/media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image2-4.png
+.. |2-4| image:: /media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image2-4.png
    :width: 624
    :height: 328
    :scale: 100 %
-.. |3| image:: /ambd_arduino/media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image3.png
+.. |3| image:: /media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image3.png
    :width: 683
    :height: 1006
-   :scale: 50 %
-.. |4| image:: /ambd_arduino/media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image4.png
+   :scale: 70 %
+.. |4| image:: /media/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image4.png
    :width: 1428
    :height: 601
    :scale: 50 %

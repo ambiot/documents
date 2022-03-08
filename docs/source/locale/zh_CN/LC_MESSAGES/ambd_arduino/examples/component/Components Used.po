@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-03-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/examples/component/Components Used.rst
 msgid ""
-":doc:`DHT11_DHT22<../../examples/peripheral/GPIO - Measure Temperature "
+":doc:`DHT11/DHT22<../../examples/peripheral/GPIO - Measure Temperature "
 "and Humidity>`"
 msgstr ""
 
@@ -169,5 +169,10 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ":doc:`Tower Pro SG90<../../examples/peripheral/PWM - Using A Servo>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":doc:`DHT11_DHT22<../../examples/peripheral/GPIO - Measure"
+#~ " Temperature and Humidity>`"
 #~ msgstr ""
 
