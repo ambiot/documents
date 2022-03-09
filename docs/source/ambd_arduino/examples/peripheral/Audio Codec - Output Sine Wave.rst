@@ -37,11 +37,11 @@ Open the example, ``"Files" -> "Examples" -> “AmebaAudioCodec” ->
 | Connect a pair of wired headphones to the 3.5mm audio jack and you
   should hear the generate single sinusoidal tone.
 
-.. |1| image:: /media/Audio_Codec_OutputSineWave/image1.png
+.. |1| image:: /media/ambd_arduino/Audio_Codec_OutputSineWave/image1.png
    :width: 474
    :height: 458
    :scale: 110 %
-.. |2| image:: /media/Audio_Codec_OutputSineWave/image2.png
+.. |2| image:: /media/ambd_arduino/Audio_Codec_OutputSineWave/image2.png
    :width: 608
    :height: 830
    :scale: 80 %

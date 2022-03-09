@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 02:53+0000\n"
+"POT-Creation-Date: 2022-03-09 03:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,24 +19,24 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:3 Server Use as to
-msgid "AmebaMotors - Use Ameba as Server to Control Motors"
+msgid "ambd_arduino/AmebaMotors - Use Ameba as Server to Control Motors"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:8 Server Use as to
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Introduction to"
-" AmebaMotors** :raw-html:`</p>`"
+" ambd_arduino/AmebaMotors** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:12 Server Use as to
 msgid ""
-"AmebaMotors is a library which provides API related to controlling "
-"motors. Please download the library: `AmebaMotors "
-"<https://github.com/ambiot "
-"/raw/master/Arduino_zip_libraries/AmebaMotors.zip>`_ And add the library "
-"to Ameba: https://www.arduino.cc/en/Guide/Libraries#toc4"
+"ambd_arduino/AmebaMotors is a library which provides API related to "
+"controlling motors. Please download the library: "
+"`ambd_arduino/AmebaMotors <https://github.com/ambiot "
+"/raw/master/Arduino_zip_libraries/ambd_arduino/AmebaMotors.zip>`_ And add"
+" the library to Ameba: https://www.arduino.cc/en/Guide/Libraries#toc4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
@@ -396,6 +396,25 @@ msgstr ""
 #~ "Please download the library: `AmebaMotors "
 #~ "<https://github.com/ambiot/ambd_arduino/raw/master/Arduino_zip_libraries/AmebaMotors.zip>`_"
 #~ " And add the library to Ameba: "
+#~ "https://www.arduino.cc/en/Guide/Libraries#toc4"
+#~ msgstr ""
+
+#~ msgid "AmebaMotors - Use Ameba as Server to Control Motors"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":raw-html:`<p style=\"color:#E67E22; font-"
+#~ "size:24px\">` **Introduction to AmebaMotors** "
+#~ ":raw-html:`</p>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "AmebaMotors is a library which provides"
+#~ " API related to controlling motors. "
+#~ "Please download the library: `AmebaMotors "
+#~ "<https://github.com/ambiot "
+#~ "/raw/master/Arduino_zip_libraries/AmebaMotors.zip>`_ And "
+#~ "add the library to Ameba: "
 #~ "https://www.arduino.cc/en/Guide/Libraries#toc4"
 #~ msgstr ""
 

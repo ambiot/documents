@@ -233,103 +233,103 @@ Step 2.Run the Blink example
 .. note:: 
    If you face any issue, please refer to the FAQ and Trouble shooting sections on :doc:`../support/index` page.  
 
-.. |ambd-mini-get-start-1| image:: /media/AMB23_getting_started/image1.jpeg
+.. |ambd-mini-get-start-1| image:: /media/ambd_arduino/AMB23_getting_started/image1.jpeg
    :alt: board-front
    :width: 657
    :height: 1096
    :scale: 40 %
 
-.. |ambd-mini-get-start-2| image:: /media/AMB23_getting_started/image2.jpeg
+.. |ambd-mini-get-start-2| image:: /media/ambd_arduino/AMB23_getting_started/image2.jpeg
    :alt: board-bottom
    :width: 631
    :height: 1031
    :scale: 40 %
 
-.. |ambd-mini-get-start-3| image:: /media/AMB23_getting_started/image3-1.png
+.. |ambd-mini-get-start-3| image:: /media/ambd_arduino/AMB23_getting_started/image3-1.png
    :alt: pin-diagram-front
    :width: 2103
    :height: 1094
    :scale: 50 %
 
-.. |ambd-mini-get-start-4| image:: /media/AMB23_getting_started/image3-2.png
+.. |ambd-mini-get-start-4| image:: /media/ambd_arduino/AMB23_getting_started/image3-2.png
    :alt: pin-diagram-bottom
    :width: 2103
    :height: 2630
    :scale: 20 %
 
-.. |ambd-mini-get-start-5| image:: /media/AMB23_getting_started/image4.jpeg
+.. |ambd-mini-get-start-5| image:: /media/ambd_arduino/AMB23_getting_started/image4.jpeg
    :alt: install-driver
    :width: 298
    :height: 628
    :scale: 100 %
 
-.. |ambd-mini-get-start-6| image:: /media/AMB23_getting_started/image5.jpeg
+.. |ambd-mini-get-start-6| image:: /media/ambd_arduino/AMB23_getting_started/image5.jpeg
    :alt: get-start-6
    :width: 386
    :height: 441
    :scale: 100 %
 
-.. |ambd-mini-get-start-7| image:: /media/AMB23_getting_started/image6.jpeg
+.. |ambd-mini-get-start-7| image:: /media/ambd_arduino/AMB23_getting_started/image6.jpeg
    :alt: get-start-7
    :width: 664
    :height: 600
    :scale: 100 %
 
-.. |ambd-mini-get-start-8| image:: /media/AMB23_getting_started/image7-1.jpeg
+.. |ambd-mini-get-start-8| image:: /media/ambd_arduino/AMB23_getting_started/image7-1.jpeg
    :alt: get-start-8
    :width: 781
    :height: 440
    :scale: 100 %
 
-.. |ambd-mini-get-start-9| image:: /media/AMB23_getting_started/image8.jpeg
+.. |ambd-mini-get-start-9| image:: /media/ambd_arduino/AMB23_getting_started/image8.jpeg
    :alt: get-start-9
    :width: 824
    :height: 600
    :scale: 100 %
 
-.. |ambd-mini-get-start-10| image:: /media/AMB23_getting_started/image9.jpeg
+.. |ambd-mini-get-start-10| image:: /media/ambd_arduino/AMB23_getting_started/image9.jpeg
    :alt: get-start-10
    :width: 588
    :height: 711
    :scale: 100 %
 
-.. |ambd-mini-get-start-11| image:: /media/AMB23_getting_started/image10.jpeg
+.. |ambd-mini-get-start-11| image:: /media/ambd_arduino/AMB23_getting_started/image10.jpeg
    :alt: get-start-11
    :width: 678
    :height: 746
    :scale: 100 %
 
-.. |ambd-mini-get-start-12| image:: /media/AMB23_getting_started/image11.jpeg
+.. |ambd-mini-get-start-12| image:: /media/ambd_arduino/AMB23_getting_started/image11.jpeg
    :alt: get-start-12
    :width: 393
    :height: 613
    :scale: 55 %
 
-.. |ambd-mini-get-start-13| image:: /media/AMB23_getting_started/image12.jpeg
+.. |ambd-mini-get-start-13| image:: /media/ambd_arduino/AMB23_getting_started/image12.jpeg
    :alt: get-start-13
    :width: 678
    :height: 746
    :scale: 100 %
 
-.. |ambd-mini-get-start-14| image:: /media/AMB23_getting_started/image13.jpeg
+.. |ambd-mini-get-start-14| image:: /media/ambd_arduino/AMB23_getting_started/image13.jpeg
    :alt: get-start-14
    :width: 678
    :height: 746
    :scale: 100 %
 
-.. |ambd-mini-get-start-15| image:: /media/AMB23_getting_started/image14.jpeg
+.. |ambd-mini-get-start-15| image:: /media/ambd_arduino/AMB23_getting_started/image14.jpeg
    :alt: get-start-15
    :width: 711
    :height: 752
    :scale: 100 %
 
-.. |ambd-mini-get-start-16| image:: /media/AMB23_getting_started/image15.jpeg
+.. |ambd-mini-get-start-16| image:: /media/ambd_arduino/AMB23_getting_started/image15.jpeg
    :alt: get-start-16
    :width: 528
    :height: 459
    :scale: 100 %
 
-.. |ambd-mini-get-start-17| image:: /media/AMB23_getting_started/image16.jpeg
+.. |ambd-mini-get-start-17| image:: /media/ambd_arduino/AMB23_getting_started/image16.jpeg
    :alt: get-start-17
    :width: 930
    :height: 603

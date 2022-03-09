@@ -63,7 +63,7 @@ This is the **client** code,
    print(data)
 
 
-.. |image1| image:: ../media/examples/imageSocket.png
+.. |image1| image:: /media/ambd_micropython/examples/imageSocket.png
    :width: 330
    :height: 375
    :scale: 100 %

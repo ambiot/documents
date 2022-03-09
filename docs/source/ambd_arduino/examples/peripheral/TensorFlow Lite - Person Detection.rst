@@ -79,19 +79,19 @@ Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
 More information on TensorFlow Lite for Microcontrollers can be found
 at: https://www.tensorflow.org/lite/microcontrollers
 
-.. |1| image:: /media/TFL_PersonDetection/image1.png
+.. |1| image:: /media/ambd_arduino/TFL_PersonDetection/image1.png
    :width: 777
    :height: 467
    :scale: 80 %
-.. |1-1| image:: /media/TFL_PersonDetection/image1-1.png
+.. |1-1| image:: /media/ambd_arduino/TFL_PersonDetection/image1-1.png
    :width: 1487
    :height: 714
    :scale: 50 %
-.. |2| image:: /media/TFL_PersonDetection/image2.png
+.. |2| image:: /media/ambd_arduino/TFL_PersonDetection/image2.png
    :width: 556
    :height: 830
    :scale: 70 %
-.. |3| image:: /media/TFL_PersonDetection/image3.png
+.. |3| image:: /media/ambd_arduino/TFL_PersonDetection/image3.png
    :width: 639
    :height: 477
    :scale: 80 %

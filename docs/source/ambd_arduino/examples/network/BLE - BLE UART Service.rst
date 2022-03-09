@@ -87,27 +87,27 @@ Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->
   transmit characteristic buffer, and the ``notify()`` method is used to
   inform the connected device of the new data.
 
-.. |1| image:: /media/BLE_UART_Service/image1.png
+.. |1| image:: /media/ambd_arduino/BLE_UART_Service/image1.png
    :width: 696
    :height: 1126
    :scale: 60 %
 
-.. |2| image:: /media/BLE_UART_Service/image1-2.png
+.. |2| image:: /media/ambd_arduino/BLE_UART_Service/image1-2.png
    :width: 1440
    :height: 2880
    :scale: 20 %
 
-.. |3| image:: /media/BLE_UART_Service/image1-3.png
+.. |3| image:: /media/ambd_arduino/BLE_UART_Service/image1-3.png
    :width: 1440
    :height: 2880
    :scale: 20 %
 
-.. |4| image:: /media/BLE_UART_Service/image1-4.png
+.. |4| image:: /media/ambd_arduino/BLE_UART_Service/image1-4.png
    :width: 1440
    :height: 2880
    :scale: 20 %
 
-.. |5| image:: /media/BLE_UART_Service/image5.png
+.. |5| image:: /media/ambd_arduino/BLE_UART_Service/image5.png
    :width: 779
    :height: 619
    :scale: 70 %

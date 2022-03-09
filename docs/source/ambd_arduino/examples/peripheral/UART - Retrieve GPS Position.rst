@@ -89,39 +89,39 @@ Open the example in ``“Files” -> “Examples” ->
 
   |7|
 
-.. |1| image:: /media/UART_Retrieve_GPS_Position/image1.png
+.. |1| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image1.png
    :width: 1252
    :height: 294
    :scale: 50 %
-.. |2| image:: /media/UART_Retrieve_GPS_Position/image2.png
+.. |2| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image2.png
    :width: 649
    :height: 372
    :scale: 100 %
-.. |3| image:: /media/UART_Retrieve_GPS_Position/image3.png
+.. |3| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image3.png
    :width: 777
    :height: 425
    :scale: 100 %
-.. |4| image:: /media/UART_Retrieve_GPS_Position/image4.png
+.. |4| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image4.png
    :width: 1028
    :height: 651
    :scale: 60 %
-.. |5| image:: /media/UART_Retrieve_GPS_Position/image5.png
+.. |5| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5.png
    :width: 1295
    :height: 1049
    :scale: 40 %
-.. |5-1| image:: /media/UART_Retrieve_GPS_Position/image5-1.png
+.. |5-1| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5-1.png
    :width: 1100
    :height: 809
    :scale: 40 %
-.. |5-3| image:: /media/UART_Retrieve_GPS_Position/image5-3.png
+.. |5-3| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5-3.png
    :width: 842
    :height: 590
    :scale: 60 %
-.. |6| image:: /media/UART_Retrieve_GPS_Position/image6.png
+.. |6| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image6.png
    :width: 649
    :height: 410
    :scale: 100 %
-.. |7| image:: /media/UART_Retrieve_GPS_Position/image7.png
+.. |7| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image7.png
    :width: 649
    :height: 410
    :scale: 100 %

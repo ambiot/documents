@@ -39,11 +39,11 @@ time every second in the Serial Monitor.
 | [1] Simple RTC example from Arduino Tutorials:
 | https://www.arduino.cc/en/Tutorial/SimpleRTC
 
-.. |1| image:: /media/RTC_Simple_RTC/image1.png
+.. |1| image:: /media/ambd_arduino/RTC_Simple_RTC/image1.png
    :width: 549
    :height: 462
    :scale: 70 %
-.. |2| image:: /media/RTC_Simple_RTC/image2.png
+.. |2| image:: /media/ambd_arduino/RTC_Simple_RTC/image2.png
    :width: 597
    :height: 325
    :scale: 70 %

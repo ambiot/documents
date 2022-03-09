@@ -48,11 +48,11 @@ Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
 More information on TensorFlow Lite for Microcontrollers can be found
 at: https://www.tensorflow.org/lite/microcontrollers
 
-.. |1| image:: /media/TFL_HelloWorld/image1.png
+.. |1| image:: /media/ambd_arduino/TFL_HelloWorld/image1.png
    :width: 556
    :height: 830
    :scale: 70 %
-.. |2| image:: /media/TFL_HelloWorld/image2.png
+.. |2| image:: /media/ambd_arduino/TFL_HelloWorld/image2.png
    :width: 817
    :height: 586
    :scale: 60 %

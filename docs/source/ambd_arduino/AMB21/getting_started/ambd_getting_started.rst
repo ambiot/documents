@@ -239,109 +239,109 @@ Step 2.Run the Blink example
 .. note:: 
    If you face any issue, please refer to the FAQ and Trouble shooting sections on :doc:  /support/index` page.  
 
-.. |ambd-get-start-1| image::  /media/AMB21_getting_started/image1.jpeg
+.. |ambd-get-start-1| image::  /media/ambd_arduino/AMB21_getting_started/image1.jpeg
    :alt: get-start-1
    :width: 884
    :height: 883
    :scale: 50 %
 
-.. |ambd-get-start-2| image::  /media/AMB21_getting_started/image2.png
+.. |ambd-get-start-2| image::  /media/ambd_arduino/AMB21_getting_started/image2.png
    :alt: get-start-2
    :width: 1100
    :height: 1124
    :scale: 45 %
 
-.. |ambd-get-start-3| image::  /media/AMB21_getting_started/image3-1.png
+.. |ambd-get-start-3| image::  /media/ambd_arduino/AMB21_getting_started/image3-1.png
    :alt: get-start-3
    :width: 2917
    :height: 1490
    :scale: 40 %
 
-.. |ambd-get-start-4| image::  /media/AMB21_getting_started/image4.png
+.. |ambd-get-start-4| image::  /media/ambd_arduino/AMB21_getting_started/image4.png
    :alt: get-start-4
    :width: 820
    :height: 584
    :scale: 50 %
 
-.. |ambd-get-start-5| image::  /media/AMB21_getting_started/image5.png
+.. |ambd-get-start-5| image::  /media/ambd_arduino/AMB21_getting_started/image5.png
    :alt: get-start-5
    :width: 795
    :height: 579
    :scale: 80 %
 
-.. |ambd-get-start-6| image::  /media/AMB21_getting_started/image6.png
+.. |ambd-get-start-6| image::  /media/ambd_arduino/AMB21_getting_started/image6.png
    :alt: get-start-6
    :width: 500
    :height: 600
    :scale: 100 %
 
-.. |ambd-get-start-7| image::  /media/AMB21_getting_started/image7.png
+.. |ambd-get-start-7| image::  /media/ambd_arduino/AMB21_getting_started/image7.png
    :alt: get-start-7
    :width: 690
    :height: 834
    :scale: 100 %
 
-.. |ambd-get-start-8| image::  /media/AMB21_getting_started/image8-1.png
+.. |ambd-get-start-8| image::  /media/ambd_arduino/AMB21_getting_started/image8-1.png
    :alt: get-start-8
    :width: 781
    :height: 440
    :scale: 100 %
 
-.. |ambd-get-start-9| image::  /media/AMB21_getting_started/image9.png
+.. |ambd-get-start-9| image::  /media/ambd_arduino/AMB21_getting_started/image9.png
    :alt: get-start-9
    :width: 697
    :height: 767
    :scale: 100 %
 
-.. |ambd-get-start-10| image::  /media/AMB21_getting_started/image10.png
+.. |ambd-get-start-10| image::  /media/ambd_arduino/AMB21_getting_started/image10.png
    :alt: get-start-10
    :width: 570
    :height: 692
    :scale: 100 %
 
-.. |ambd-get-start-11| image::  /media/AMB21_getting_started/image11.png
+.. |ambd-get-start-11| image::  /media/ambd_arduino/AMB21_getting_started/image11.png
    :alt: get-start-11
    :width: 500
    :height: 600
    :scale: 100 %
 
-.. |ambd-get-start-12| image::  /media/AMB21_getting_started/image12.png
+.. |ambd-get-start-12| image::  /media/ambd_arduino/AMB21_getting_started/image12.png
    :alt: get-start-12
    :width: 500
    :height: 600
    :scale: 100 %
 
-.. |ambd-get-start-13| image::  /media/AMB21_getting_started/image13.png
+.. |ambd-get-start-13| image::  /media/ambd_arduino/AMB21_getting_started/image13.png
    :alt: get-start-13
    :width: 500
    :height: 600
    :scale: 100 %
 
-.. |ambd-get-start-14| image::  /media/AMB21_getting_started/image14.png
+.. |ambd-get-start-14| image::  /media/ambd_arduino/AMB21_getting_started/image14.png
    :alt: get-start-14
    :width: 628
    :height: 175
    :scale: 100 %
 
-.. |ambd-get-start-15| image::  /media/AMB21_getting_started/image15.png
+.. |ambd-get-start-15| image::  /media/ambd_arduino/AMB21_getting_started/image15.png
    :alt: get-start-15
    :width: 732
    :height: 752
    :scale: 60 %
 
-.. |ambd-get-start-16| image::  /media/AMB21_getting_started/image15-1.png
+.. |ambd-get-start-16| image::  /media/ambd_arduino/AMB21_getting_started/image15-1.png
    :alt: get-start-16
    :width: 930
    :height: 603
    :scale: 70 %
 
-.. |ambd-get-start-17| image::  /media/AMB21_getting_started/image17.png
+.. |ambd-get-start-17| image::  /media/ambd_arduino/AMB21_getting_started/image17.png
    :alt: get-start-17
    :width: 1123
    :height: 1048
    :scale: 50 %
 
-.. |ambd-get-start-18| image::  /media/AMB21_getting_started/image16.png
+.. |ambd-get-start-18| image::  /media/ambd_arduino/AMB21_getting_started/image16.png
    :alt: get-start-18
    :width: 588
    :height: 289

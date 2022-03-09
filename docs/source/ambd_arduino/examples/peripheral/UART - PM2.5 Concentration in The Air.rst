@@ -64,27 +64,27 @@ monitor.
   
   |4|
 
-.. |1| image:: /media/UART_PM2.5_Concentration_in_the_Air/image1.png
+.. |1| image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image1.png
    :width: 777
    :height: 1006
    :scale: 60 %
-.. |2| image:: /media/UART_PM2.5_Concentration_in_the_Air/image2.png
+.. |2| image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image2.png
    :width: 981
    :height: 869
    :scale: 40 %
-.. |3| image:: /media/UART_PM2.5_Concentration_in_the_Air/image3.png
+.. |3| image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image3.png
    :width: 928
    :height: 481
    :scale: 70 %
-.. |3-1| image:: /media/UART_PM2.5_Concentration_in_the_Air/image3-1.png
+.. |3-1| image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image3-1.png
    :width: 714
    :height: 642
    :scale: 60 %
-.. |3-3| image:: /media/UART_PM2.5_Concentration_in_the_Air/image3-3.png
+.. |3-3| image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image3-3.png
    :width: 938
    :height: 638
    :scale: 60 %
-.. |4| image:: /media/UART_PM2.5_Concentration_in_the_Air/image4.png
+.. |4| image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image4.png
    :width: 649
    :height: 410
    :scale: 100 %

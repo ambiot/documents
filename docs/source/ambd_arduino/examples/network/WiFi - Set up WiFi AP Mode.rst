@@ -53,19 +53,19 @@ station connects to Ameba AP in security mode:
 
   |4|
 
-.. |1| image:: /media/WiFi_Set_Up_WiFi_AP_Mode/image1.png
+.. |1| image:: /media/ambd_arduino/WiFi_Set_Up_WiFi_AP_Mode/image1.png
    :width: 716
    :height: 867
    :scale: 70 %
-.. |3| image:: /media/WiFi_Set_Up_WiFi_AP_Mode/image3.png
+.. |3| image:: /media/ambd_arduino/WiFi_Set_Up_WiFi_AP_Mode/image3.png
    :width: 718
    :height: 650
    :scale: 90 %
-.. |2| image:: /media/WiFi_Set_Up_WiFi_AP_Mode/image2.png
+.. |2| image:: /media/ambd_arduino/WiFi_Set_Up_WiFi_AP_Mode/image2.png
    :width: 704
    :height: 524
    :scale: 90 %
-.. |4| image:: /media/WiFi_Set_Up_WiFi_AP_Mode/image4.png
+.. |4| image:: /media/ambd_arduino/WiFi_Set_Up_WiFi_AP_Mode/image4.png
    :width: 914
    :height: 665
    :scale: 90 %

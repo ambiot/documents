@@ -89,15 +89,15 @@ Please refer to the `API
 Documents <https://www.amebaiot.com/rtl8722dm-arduino-online-api-documents/>`__ PowerSave
 section for detail description of all API.
 
-.. |1| image:: /media/Power_Save_Deep_Sleep_DHT_LCD/image1.png
+.. |1| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_DHT_LCD/image1.png
    :width: 689
    :height: 704
    :scale: 70 %
-.. |2| image:: /media/Power_Save_Deep_Sleep_DHT_LCD/image2.png
+.. |2| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_DHT_LCD/image2.png
    :width: 960
    :height: 677
    :scale: 60 %
-.. |3| image:: /media/Power_Save_Deep_Sleep_DHT_LCD/image3.png
+.. |3| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_DHT_LCD/image3.png
    :width: 960
    :height: 814
    :scale: 60 %

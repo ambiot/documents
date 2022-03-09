@@ -54,7 +54,7 @@ Then copy and paste the following code line by line into REPL to see their effec
    i2c.writeto(8, 123) # send 1 byte to slave with address 8
    i2c.readfrom(8, 6) # receive 6 bytes from slave
 
-.. |image1| image:: ../media/examples/imageI2C.jpg
+.. |image1| image:: /media/ambd_micropython/examples/imageI2C.jpg
    :width: 1540
    :height: 1051
    :scale: 50 %

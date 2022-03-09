@@ -112,35 +112,35 @@ this:
 | If there are data available to read, use read() to read from serial
   port.
 
-.. |1| image:: /media/UART_Communicate_with_PC_over_USB_to_Serial_Module/image1.png
+.. |1| image:: /media/ambd_arduino/UART_Communicate_with_PC_over_USB_to_Serial_Module/image1.png
    :width: 456
    :height: 370
    :scale: 100 %
-.. |2| image:: /media/UART_Communicate_with_PC_over_USB_to_Serial_Module/image2.png
+.. |2| image:: /media/ambd_arduino/UART_Communicate_with_PC_over_USB_to_Serial_Module/image2.png
    :width: 683
    :height: 1006
    :scale: 60 %
-.. |3| image:: /media/UART_Communicate_with_PC_over_USB_to_Serial_Module/image3.png
+.. |3| image:: /media/ambd_arduino/UART_Communicate_with_PC_over_USB_to_Serial_Module/image3.png
    :width: 1285
    :height: 1040
    :scale: 40 %
-.. |3-1| image:: /media/UART_Communicate_with_PC_over_USB_to_Serial_Module/image3-1.png
+.. |3-1| image:: /media/ambd_arduino/UART_Communicate_with_PC_over_USB_to_Serial_Module/image3-1.png
    :width: 1285
    :height: 1040
    :scale: 35 %
-.. |3-3| image:: /media/UART_Communicate_with_PC_over_USB_to_Serial_Module/image3-3.png
+.. |3-3| image:: /media/ambd_arduino/UART_Communicate_with_PC_over_USB_to_Serial_Module/image3-3.png
    :width: 1020
    :height: 705
    :scale: 55 %
-.. |4| image:: /media/UART_Communicate_with_PC_over_USB_to_Serial_Module/image4.png
+.. |4| image:: /media/ambd_arduino/UART_Communicate_with_PC_over_USB_to_Serial_Module/image4.png
    :width: 466
    :height: 448
    :scale: 100 %
-.. |5| image:: /media/UART_Communicate_with_PC_over_USB_to_Serial_Module/image5.png
+.. |5| image:: /media/ambd_arduino/UART_Communicate_with_PC_over_USB_to_Serial_Module/image5.png
    :width: 466
    :height: 448
    :scale: 100 %
-.. |6| image:: /media/UART_Communicate_with_PC_over_USB_to_Serial_Module/image6.png
+.. |6| image:: /media/ambd_arduino/UART_Communicate_with_PC_over_USB_to_Serial_Module/image6.png
    :width: 395
    :height: 248
    :scale: 100 %

@@ -45,15 +45,15 @@ volume will change as well. Note: if you are using a microphone with an
 amplifier included, such as Adafruit 1063, the amplifier can lead to the
 microphone picking up more noise.
 
-.. |1| image:: /media/Audio_Codec_Basic_Input_Output/image1.png
+.. |1| image:: /media/ambd_arduino/Audio_Codec_Basic_Input_Output/image1.png
    :width: 562
    :height: 468
    :scale: 100 %
-.. |1-1| image:: /media/Audio_Codec_Basic_Input_Output/image1-1.png
+.. |1-1| image:: /media/ambd_arduino/Audio_Codec_Basic_Input_Output/image1-1.png
    :width: 726
    :height: 783
    :scale: 50 %
-.. |2| image:: /media/Audio_Codec_Basic_Input_Output/image2.png
+.. |2| image:: /media/ambd_arduino/Audio_Codec_Basic_Input_Output/image2.png
    :width: 608
    :height: 830
    :scale: 100 %

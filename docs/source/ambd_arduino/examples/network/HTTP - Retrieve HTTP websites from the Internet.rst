@@ -53,15 +53,15 @@ HTTP - Retrieve HTTP websites from the Internet
 
 Use ``http.get()`` to send a GET request to the website.
 
-.. |1| image:: /media/HTTP_Retrieve_HTTP_Websites_From_The_Internet/image1.png
+.. |1| image:: /media/ambd_arduino/HTTP_Retrieve_HTTP_Websites_From_The_Internet/image1.png
    :width: 721
    :height: 1006
    :scale: 70 %
-.. |2| image:: /media/HTTP_Retrieve_HTTP_Websites_From_The_Internet/image2.png
+.. |2| image:: /media/ambd_arduino/HTTP_Retrieve_HTTP_Websites_From_The_Internet/image2.png
    :width: 721
    :height: 864
    :scale: 70 %
-.. |3| image:: /media/HTTP_Retrieve_HTTP_Websites_From_The_Internet/image3.png
+.. |3| image:: /media/ambd_arduino/HTTP_Retrieve_HTTP_Websites_From_The_Internet/image3.png
    :width: 757
    :height: 499
    :scale: 75 %

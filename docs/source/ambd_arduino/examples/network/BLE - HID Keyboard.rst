@@ -46,19 +46,19 @@ Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> BLEHIDKey
 
    |4|
 
-.. |1| image:: /media/BLE_HID_Keyboard/1.png
+.. |1| image:: /media/ambd_arduino/BLE_HID_Keyboard/1.png
    :width: 637
    :height: 1202
    :scale: 100 %
-.. |2| image:: /media/BLE_HID_Keyboard/2.png
+.. |2| image:: /media/ambd_arduino/BLE_HID_Keyboard/2.png
    :width: 2560
    :height: 1397
    :scale: 30 %
-.. |3| image:: /media/BLE_HID_Keyboard/3.png
+.. |3| image:: /media/ambd_arduino/BLE_HID_Keyboard/3.png
    :width: 1440
    :height: 2880
    :scale: 25 %
-.. |4| image:: /media/BLE_HID_Keyboard/4.png
+.. |4| image:: /media/ambd_arduino/BLE_HID_Keyboard/4.png
    :width: 753
    :height: 596
    :scale: 100 %

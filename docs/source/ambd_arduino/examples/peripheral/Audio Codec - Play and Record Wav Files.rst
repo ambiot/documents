@@ -59,19 +59,19 @@ Insert earphone/speaker into the onboard jack for playing the sample sound.
 
 | Insert earphone/speaker into the onboard jack for playing the sample sound.
 
-.. |image1| image:: /media/Audio_Codec_Play_and_Record_Wav_Files/image1.png
+.. |image1| image:: /media/ambd_arduino/Audio_Codec_Play_and_Record_Wav_Files/image1.png
    :width: 2103
    :height: 2630
    :scale: 20 %
-.. |image2| image:: /media/Audio_Codec_Play_and_Record_Wav_Files/image2.png
+.. |image2| image:: /media/ambd_arduino/Audio_Codec_Play_and_Record_Wav_Files/image2.png
    :width: 560
    :height: 453
    :scale: 100 %
-.. |image3| image:: /media/Audio_Codec_Play_and_Record_Wav_Files/image3.png
+.. |image3| image:: /media/ambd_arduino/Audio_Codec_Play_and_Record_Wav_Files/image3.png
    :width: 531
    :height: 402
    :scale: 100 %
-.. |image4| image:: /media/Audio_Codec_Play_and_Record_Wav_Files/image4.png
+.. |image4| image:: /media/ambd_arduino/Audio_Codec_Play_and_Record_Wav_Files/image4.png
    :width: 513
    :height: 540
    :scale: 100 %

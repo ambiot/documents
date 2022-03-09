@@ -140,41 +140,41 @@ Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI934
       screen rotates 90 degrees, the width becomes 320 and the height
       becomes 240.
 
-.. |1| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image1.png
+.. |1| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image1.png
    :width: 1640
    :height: 1018
    :scale: 40 %
-.. |1-1| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image1-1.png
+.. |1-1| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image1-1.png
    :width: 1043
    :height: 695
    :scale: 60 %
-.. |1-2| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image1-2.png
+.. |1-2| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image1-2.png
    :width: 1051
    :height: 659
    :scale: 70 %
-.. |2| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image2.png
+.. |2| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image2.png
    :width: 1426
    :height: 1006
    :scale: 40 %
-.. |2-1| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image2-1.png
+.. |2-1| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image2-1.png
    :width: 1045
    :height: 664
    :scale: 60 %
-.. |2-3| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image2-3.png
+.. |2-3| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image2-3.png
    :width: 971
    :height: 638
    :scale: 60 %
-.. |3| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image3.png
+.. |3| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image3.png
    :alt: 2
    :width: 683
    :height: 1006
    :scale: 70 %
-.. |4| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image4.png
+.. |4| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image4.png
    :alt: 4
    :width: 938
    :height: 300
    :scale: 60 %
-.. |5| image:: /media/SPI_Print_Image_And_Text_On_LCD_Screen/image5.png
+.. |5| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image5.png
    :width: 193
    :height: 258
    :scale: 100 %

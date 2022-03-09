@@ -277,99 +277,99 @@ state.
   
   updateLedState(desired_led_state);
 
-.. |1| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image1.png
+.. |1| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image1.png
    :width: 900
    :height: 400
    :scale: 90 %
-.. |2| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image2.png
+.. |2| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image2.png
    :width: 1898
    :height: 9
    :scale: 50 %
-.. |3| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image3.png
+.. |3| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image3.png
    :width: 1279
    :height: 984
    :scale: 50 %
-.. |4| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image4.png
+.. |4| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image4.png
    :width: 1279
    :height: 984
    :scale: 50 %
-.. |5| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image5.png
+.. |5| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image5.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |6| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image6.png
+.. |6| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image6.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |7| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image7.png
+.. |7| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image7.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |8| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image8.png
+.. |8| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image8.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |9| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image9.png
+.. |9| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image9.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |10| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image10.png
+.. |10| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image10.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |11| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image11.png
+.. |11| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image11.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |12| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image12.png
+.. |12| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image12.png
    :width: 1599
    :height: 800
    :scale: 50 %
-.. |13| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image13.png
+.. |13| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image13.png
    :width: 1269
    :height: 616
    :scale: 50 %
-.. |14| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image19.png
+.. |14| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image19.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |15| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image20.png
+.. |15| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image20.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |16| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image21.png
+.. |16| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image21.png
    :width: 1898
    :height: 902
    :scale: 50 %
-.. |17| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image18.png
+.. |17| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image18.png
    :width: 1279
    :height: 435
    :scale: 50 %
-.. |18| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image22.png
+.. |18| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image22.png
    :width: 1920
    :height: 753
    :scale: 50 %
-.. |19| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image24.png
+.. |19| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image24.png
    :width: 639
    :height: 846
    :scale: 70 %
-.. |20| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image25.png
+.. |20| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image25.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |21| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image26.png
+.. |21| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image26.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |22| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image27.png
+.. |22| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image27.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |23| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image28.png
+.. |23| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image28.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |24| image:: /media/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image29.png
+.. |24| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image29.png
    :width: 851
    :height: 546
    :scale: 50 %

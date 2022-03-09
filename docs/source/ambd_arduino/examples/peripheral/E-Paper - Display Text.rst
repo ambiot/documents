@@ -72,39 +72,39 @@ displayed on the board:
 Partial Refresh Arduino Sample Code to get the e-Paper successfully
 Display: http://www.good-display.com/product/201.html
 
-.. |1| image:: /media/Epaper_Display_Text/image1.png
+.. |1| image:: /media/ambd_arduino/Epaper_Display_Text/image1.png
    :width: 653
    :height: 291
    :scale: 50 %
-.. |2| image:: /media/Epaper_Display_Text/image2.png
+.. |2| image:: /media/ambd_arduino/Epaper_Display_Text/image2.png
    :width: 2310
    :height: 913
    :scale: 20 %
-.. |3| image:: /media/Epaper_Display_Text/image3.png
+.. |3| image:: /media/ambd_arduino/Epaper_Display_Text/image3.png
    :width: 884
    :height: 524
    :scale: 70 %
-.. |2-1| image:: /media/Epaper_Display_Text/image2-1.png
+.. |2-1| image:: /media/ambd_arduino/Epaper_Display_Text/image2-1.png
    :width: 1159
    :height: 457
    :scale: 50 %
-.. |3-1| image:: /media/Epaper_Display_Text/image3-1.png
+.. |3-1| image:: /media/ambd_arduino/Epaper_Display_Text/image3-1.png
    :width: 1361
    :height: 583
    :scale: 50 %
-.. |2-2| image:: /media/Epaper_Display_Text/image2-2.png
+.. |2-2| image:: /media/ambd_arduino/Epaper_Display_Text/image2-2.png
    :width: 1159
    :height: 457
    :scale: 50 %
-.. |3-2| image:: /media/Epaper_Display_Text/image3-2.png
+.. |3-2| image:: /media/ambd_arduino/Epaper_Display_Text/image3-2.png
    :width: 1361
    :height: 583
    :scale: 50 %
-.. |4| image:: /media/Epaper_Display_Text/image4.png
+.. |4| image:: /media/ambd_arduino/Epaper_Display_Text/image4.png
    :width: 580
    :height: 523
    :scale: 100 %
-.. |5| image:: /media/Epaper_Display_Text/image5.jpeg
+.. |5| image:: /media/ambd_arduino/Epaper_Display_Text/image5.jpeg
    :width: 1430
    :height: 1243
    :scale: 50 %

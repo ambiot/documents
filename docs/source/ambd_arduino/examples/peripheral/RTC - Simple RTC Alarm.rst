@@ -35,11 +35,11 @@ will print the following information: “Alarm Matched!” showing in this figur
 
   |2|
 
-.. |1| image:: /media/RTC_Simple_RTC_Alarm/image1.png
+.. |1| image:: /media/ambd_arduino/RTC_Simple_RTC_Alarm/image1.png
    :width: 543
    :height: 489
    :scale: 70 %
-.. |2| image:: /media/RTC_Simple_RTC_Alarm/image2.png
+.. |2| image:: /media/ambd_arduino/RTC_Simple_RTC_Alarm/image2.png
    :width: 598
    :height: 318
    :scale: 80 %

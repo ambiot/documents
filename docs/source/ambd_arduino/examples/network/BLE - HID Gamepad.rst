@@ -67,31 +67,31 @@ By default, the board emulates a gamepad with an 8-direction hat switch (d-pad),
 dependent on the host device, and the button ordering may differ between devices. 
 Also, some axes or buttons may be disabled or missing on certain host devices.
 
-.. |1| image:: /media/BLE_HID_Gamepad/1.png
+.. |1| image:: /media/ambd_arduino/BLE_HID_Gamepad/1.png
    :width: 637
    :height: 1202
    :scale: 70 %
-.. |2| image:: /media/BLE_HID_Gamepad/2.png
+.. |2| image:: /media/ambd_arduino/BLE_HID_Gamepad/2.png
    :width: 2560
    :height: 1397
    :scale: 30 %
-.. |3| image:: /media/BLE_HID_Gamepad/3.png
+.. |3| image:: /media/ambd_arduino/BLE_HID_Gamepad/3.png
    :width: 1440
    :height: 2880
    :scale: 25 %
-.. |4| image:: /media/BLE_HID_Gamepad/4.png
+.. |4| image:: /media/ambd_arduino/BLE_HID_Gamepad/4.png
    :width: 1006
    :height: 585
    :scale: 60 %
-.. |5| image:: /media/BLE_HID_Gamepad/5.png
+.. |5| image:: /media/ambd_arduino/BLE_HID_Gamepad/5.png
    :width: 952
    :height: 658
    :scale: 60 %
-.. |6| image:: /media/BLE_HID_Gamepad/6.png
+.. |6| image:: /media/ambd_arduino/BLE_HID_Gamepad/6.png
    :width: 952
    :height: 658
    :scale: 60 %
-.. |7| image:: /media/BLE_HID_Gamepad/7.png
+.. |7| image:: /media/ambd_arduino/BLE_HID_Gamepad/7.png
    :width: 2880
    :height: 1440
    :scale: 25 %

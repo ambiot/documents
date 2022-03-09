@@ -59,23 +59,23 @@ MQTT - Set up MQTT Client over TLS
   
   |5|
 
-.. |1| image:: /media/MQTT_Set_Up_MQTT_Client_Over_TLS/image1.png
+.. |1| image:: /media/ambd_arduino/MQTT_Set_Up_MQTT_Client_Over_TLS/image1.png
    :width: 668
    :height: 1028
    :scale: 70 %
-.. |2| image:: /media/MQTT_Set_Up_MQTT_Client_Over_TLS/image2.png
+.. |2| image:: /media/ambd_arduino/MQTT_Set_Up_MQTT_Client_Over_TLS/image2.png
    :width: 645
    :height: 846
    :scale: 90 %
-.. |3| image:: /media/MQTT_Set_Up_MQTT_Client_Over_TLS/image3.png
+.. |3| image:: /media/ambd_arduino/MQTT_Set_Up_MQTT_Client_Over_TLS/image3.png
    :width: 633
    :height: 476
    :scale: 100 %
-.. |4| image:: /media/MQTT_Set_Up_MQTT_Client_Over_TLS/image4.png
+.. |4| image:: /media/ambd_arduino/MQTT_Set_Up_MQTT_Client_Over_TLS/image4.png
    :width: 645
    :height: 846
    :scale: 100 %
-.. |5| image:: /media/MQTT_Set_Up_MQTT_Client_Over_TLS/image5.png
+.. |5| image:: /media/ambd_arduino/MQTT_Set_Up_MQTT_Client_Over_TLS/image5.png
    :width: 791
    :height: 846
    :scale: 80 %

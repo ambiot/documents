@@ -52,7 +52,7 @@ Then, copy and paste the following code line by line into REPL to see its effect
    uart.read(5) # read up to 5 bytes
 
 
-.. |image1| image:: ../media/examples/imageUART.jpg
+.. |image1| image:: /media/ambd_micropython/examples/imageUART.jpg
    :width: 1029
    :height: 987
    :scale: 50 %

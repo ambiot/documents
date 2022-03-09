@@ -75,11 +75,11 @@ characteristics on the connected device.
  - ``addClient(connID)`` creates a new BLEClient object that corresponds to the
    connected device.
 
-.. |1| image:: /media/BLE_Battery_Client/image1.png
+.. |1| image:: /media/ambd_arduino/BLE_Battery_Client/image1.png
    :width: 832
    :height: 1006
    :scale: 60 %
-.. |2| image:: /media/BLE_Battery_Client/image2.png
+.. |2| image:: /media/ambd_arduino/BLE_Battery_Client/image2.png
    :width: 741
    :height: 588
    :scale: 60 %

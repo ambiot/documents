@@ -19,7 +19,7 @@ Community Examples
     OpenMV Bluetooth TripWire
     Audio Codec - DIY MP3
 
-.. |image1| image:: /media/user-contribution-example.png
+.. |image1| image:: /media/ambd_arduino/user-contribution-example.png
    :width: 6318   
    :height: 3553
    :scale: 5 %

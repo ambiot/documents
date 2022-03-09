@@ -239,103 +239,103 @@ Connect to google cloud and publish messages:
    free(mqtt_id);
    free(pub_topic);
 
-.. |1| image:: /media/MQTT_Use_Google_Cloud_IoT/image1.png
+.. |1| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image1.png
    :width: 1352
    :height: 1125
    :scale: 50 %
-.. |image1| image:: /media/MQTT_Use_Google_Cloud_IoT/image2.png
+.. |image1| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image2.png
    :width: 1181
    :height: 540
    :scale: 50 %
-.. |image2| image:: /media/MQTT_Use_Google_Cloud_IoT/image3.png
+.. |image2| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image3.png
    :width: 1352
    :height: 1125
    :scale: 50 %
-.. |image3| image:: /media/MQTT_Use_Google_Cloud_IoT/image4.png
+.. |image3| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image4.png
    :width: 1352
    :height: 1125
    :scale: 50 %
-.. |image4| image:: /media/MQTT_Use_Google_Cloud_IoT/image5.png
+.. |image4| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image5.png
    :width: 1352
    :height: 1125
    :scale: 50 %
-.. |image5| image:: /media/MQTT_Use_Google_Cloud_IoT/image6.png
+.. |image5| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image6.png
    :width: 1352
    :height: 1125
    :scale: 50 %
-.. |image6| image:: /media/MQTT_Use_Google_Cloud_IoT/image7.png
+.. |image6| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image7.png
    :width: 1352
    :height: 1125
    :scale: 50 %
-.. |image7| image:: /media/MQTT_Use_Google_Cloud_IoT/image8.png
+.. |image7| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image8.png
    :width: 1101
    :height: 916
    :scale: 50 %
-.. |image8| image:: /media/MQTT_Use_Google_Cloud_IoT/image9.png
+.. |image8| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image9.png
    :width: 1622
    :height: 1125
    :scale: 50 %
-.. |image9| image:: /media/MQTT_Use_Google_Cloud_IoT/image10.png
+.. |image9| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image10.png
    :width: 1622
    :height: 1125
    :scale: 50 %
-.. |image10| image:: /media/MQTT_Use_Google_Cloud_IoT/image3.png
+.. |image10| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image3.png
    :width: 1321
    :height: 916
    :scale: 50 %
-.. |image11| image:: /media/MQTT_Use_Google_Cloud_IoT/image11.png
+.. |image11| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image11.png
    :width: 1622
    :height: 1125
    :scale: 25 %
-.. |image12| image:: /media/MQTT_Use_Google_Cloud_IoT/image12.png
+.. |image12| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image12.png
    :width: 1321
    :height: 916
    :scale: 50 %
-.. |image13| image:: /media/MQTT_Use_Google_Cloud_IoT/image13.png
+.. |image13| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image13.png
    :width: 963
    :height: 694
    :scale: 50 %
-.. |image14| image:: /media/MQTT_Use_Google_Cloud_IoT/image14.png
+.. |image14| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image14.png
    :width: 963
    :height: 694
    :scale: 50 %
-.. |image15| image:: /media/MQTT_Use_Google_Cloud_IoT/image15.png
+.. |image15| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image15.png
    :width: 1622
    :height: 1125
    :scale: 50 %
-.. |image16| image:: /media/MQTT_Use_Google_Cloud_IoT/image16.png
+.. |image16| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image16.png
    :width: 1380
    :height: 1125
    :scale: 50 %
-.. |image17| image:: /media/MQTT_Use_Google_Cloud_IoT/image17.png
+.. |image17| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image17.png
    :width: 1380
    :height: 1125
    :scale: 50 %
-.. |image18| image:: /media/MQTT_Use_Google_Cloud_IoT/image18.png
+.. |image18| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image18.png
    :width: 1380
    :height: 1125
    :scale: 50 %
-.. |image19| image:: /media/MQTT_Use_Google_Cloud_IoT/image19.png
+.. |image19| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image19.png
    :width: 1153
    :height: 940
    :scale: 50 %
-.. |image20| image:: /media/MQTT_Use_Google_Cloud_IoT/image20.png
+.. |image20| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image20.png
    :width: 737
    :height: 1202
    :scale: 50 %
-.. |image21| image:: /media/MQTT_Use_Google_Cloud_IoT/image21.png
+.. |image21| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image21.png
    :width: 737
    :height: 1062
    :scale: 50 %
-.. |image22| image:: /media/MQTT_Use_Google_Cloud_IoT/image22.png
+.. |image22| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image22.png
    :width: 732
    :height: 627
    :scale: 50 %
-.. |image23| image:: /media/MQTT_Use_Google_Cloud_IoT/image23.png
+.. |image23| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image23.png
    :width: 1586
    :height: 1125
    :scale: 50 %
-.. |image24| image:: /media/MQTT_Use_Google_Cloud_IoT/image24.png
+.. |image24| image:: /media/ambd_arduino/MQTT_Use_Google_Cloud_IoT/image24.png
    :width: 1586
    :height: 1125
    :scale: 50 %

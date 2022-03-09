@@ -99,31 +99,31 @@ Arduino Uno.
   to request data.
 | https://www.arduino.cc/en/Reference/WireRequestFrom
 
-.. |1| image:: /media/I2C_Receive_Data_from_Arduino_UNO/image1.png
+.. |1| image:: /media/ambd_arduino/I2C_Receive_Data_from_Arduino_UNO/image1.png
    :width: 683
    :height: 1028
    :scale: 60 %
-.. |2| image:: /media/I2C_Receive_Data_from_Arduino_UNO/image2.png
+.. |2| image:: /media/ambd_arduino/I2C_Receive_Data_from_Arduino_UNO/image2.png
    :width: 588
    :height: 1028
    :scale: 60 %  
-.. |3| image:: /media/I2C_Receive_Data_from_Arduino_UNO/image3.png
+.. |3| image:: /media/ambd_arduino/I2C_Receive_Data_from_Arduino_UNO/image3.png
    :width: 1540
    :height: 1051
    :scale: 40 %
-.. |3-1| image:: /media/I2C_Receive_Data_from_Arduino_UNO/image3-1.png
+.. |3-1| image:: /media/ambd_arduino/I2C_Receive_Data_from_Arduino_UNO/image3-1.png
    :width: 882
    :height: 670
    :scale: 60 %   
-.. |3-3| image:: /media/I2C_Receive_Data_from_Arduino_UNO/image3-3.png
+.. |3-3| image:: /media/ambd_arduino/I2C_Receive_Data_from_Arduino_UNO/image3-3.png
    :width: 923
    :height: 717
    :scale: 60 %
-.. |4| image:: /media/I2C_Receive_Data_from_Arduino_UNO/image4.png
+.. |4| image:: /media/ambd_arduino/I2C_Receive_Data_from_Arduino_UNO/image4.png
    :width: 434
    :height: 405
    :scale: 100 %
-.. |5| image:: /media/I2C_Receive_Data_from_Arduino_UNO/image5.png
+.. |5| image:: /media/ambd_arduino/I2C_Receive_Data_from_Arduino_UNO/image5.png
    :width: 649
    :height: 410
    :scale: 100 %

@@ -55,11 +55,11 @@ objects corresponding to the services, characteristics and descriptors
 that exist on the connected device. These objects can then be used to
 read and write data to the connected device.
 
-.. |1| image:: /media/BLE_UART_Client/image1.png
+.. |1| image:: /media/ambd_arduino/BLE_UART_Client/image1.png
    :width: 682
    :height: 1202
    :scale: 60 %
-.. |2| image:: /media/BLE_UART_Client/image2.png
+.. |2| image:: /media/ambd_arduino/BLE_UART_Client/image2.png
    :width: 779
    :height: 619
    :scale: 70 %

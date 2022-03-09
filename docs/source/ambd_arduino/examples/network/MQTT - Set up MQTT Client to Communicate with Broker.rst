@@ -94,31 +94,31 @@ to “Connection” on the left, and fill in the required information
 
   |7|
 
-.. |1| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image1.png
+.. |1| image:: /media/ambd_arduino/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image1.png
    :width: 1144
    :height: 751
    :scale: 50 %
-.. |2| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image2.png
+.. |2| image:: /media/ambd_arduino/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image2.png
    :width: 683
    :height: 1006
    :scale: 70 %
-.. |3| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image3.png
+.. |3| image:: /media/ambd_arduino/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image3.png
    :width: 683
    :height: 856
    :scale: 70 %
-.. |4| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image4.png
+.. |4| image:: /media/ambd_arduino/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image4.png
    :width: 704
    :height: 355
    :scale: 100 %
-.. |5| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image5.png
+.. |5| image:: /media/ambd_arduino/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image5.png
    :width: 1010
    :height: 744
    :scale: 70 %
-.. |6| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image6.png
+.. |6| image:: /media/ambd_arduino/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image6.png
    :width: 1208
    :height: 834
    :scale: 60 %
-.. |7| image:: /media/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image7.png
+.. |7| image:: /media/ambd_arduino/MQTT_Set_Up_MQTT_Client_To_Communicate_With_Broker/image7.png
    :width: 1217
    :height: 845
    :scale: 60 %

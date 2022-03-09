@@ -1,16 +1,16 @@
-######################################################
-AmebaMotors - Use Ameba as Server to Control Motors
-######################################################
+##################################################################
+ambd_arduino/AmebaMotors - Use Ameba as Server to Control Motors
+##################################################################
 
 .. role:: raw-html(raw)
    :format: html
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
-**Introduction to AmebaMotors**
+**Introduction to ambd_arduino/AmebaMotors**
 :raw-html:`</p>`
 
-AmebaMotors is a library which provides API related to controlling motors.
-Please download the library: `AmebaMotors <https://github.com/ambiot /raw/master/Arduino_zip_libraries/AmebaMotors.zip>`_
+ambd_arduino/AmebaMotors is a library which provides API related to controlling motors.
+Please download the library: `ambd_arduino/AmebaMotors <https://github.com/ambiot /raw/master/Arduino_zip_libraries/ambd_arduino/AmebaMotors.zip>`_
 And add the library to Ameba: https://www.arduino.cc/en/Guide/Libraries#toc4
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
@@ -129,19 +129,19 @@ https://www.arduino.cc/en/Reference/WiFiClientRead
 Use ``client.stop()`` to disconnect from the server the client is connected to.
 https://www.arduino.cc/en/Reference/WiFIClientStop
 
-.. |1| image::  /media/AmebaMotors/1.png
+.. |1| image::  /media/ambd_arduino/AmebaMotors/1.png
    :width: 1378
    :height: 1183
    :scale: 50 %
-.. |2| image::  /media/AmebaMotors/2.png
+.. |2| image::  /media/ambd_arduino/AmebaMotors/2.png
    :width: 795
    :height: 592
    :scale: 80 %
-.. |3| image::  /media/AmebaMotors/3.png
+.. |3| image::  /media/ambd_arduino/AmebaMotors/3.png
    :width: 854
    :height: 413
    :scale: 80 %
-.. |4| image::  /media/AmebaMotors/4.png
+.. |4| image::  /media/ambd_arduino/AmebaMotors/4.png
    :width: 714
    :height: 478
    :scale: 80 %

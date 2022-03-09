@@ -100,39 +100,39 @@ Next, insert SD card into card reader, and check whether the operations
 succeeded. In this case, we already know the root files folder “testdir”
 and text file “test.txt”by refer the above pictures.
 
-.. |1| image:: /media/FatfsSDIO_File_System_In_SD_Card/image1.png
+.. |1| image:: /media/ambd_arduino/FatfsSDIO_File_System_In_SD_Card/image1.png
    :width: 596
    :height: 702
    :scale: 100 %
-.. |2| image:: /media/FatfsSDIO_File_System_In_SD_Card/image2.png
+.. |2| image:: /media/ambd_arduino/FatfsSDIO_File_System_In_SD_Card/image2.png
    :width: 873
    :height: 379
    :scale: 100 %
-.. |3| image:: /media/FatfsSDIO_File_System_In_SD_Card/image3.png
+.. |3| image:: /media/ambd_arduino/FatfsSDIO_File_System_In_SD_Card/image3.png
    :width: 508
    :height: 319
    :scale: 100 %
-.. |4| image:: /media/FatfsSDIO_File_System_In_SD_Card/image4.png
+.. |4| image:: /media/ambd_arduino/FatfsSDIO_File_System_In_SD_Card/image4.png
    :width: 873
    :height: 379
    :scale: 100 %
-.. |5| image:: /media/FatfsSDIO_File_System_In_SD_Card/image5.png
+.. |5| image:: /media/ambd_arduino/FatfsSDIO_File_System_In_SD_Card/image5.png
    :width: 462
    :height: 336
    :scale: 100 %
-.. |6| image:: /media/FatfsSDIO_File_System_In_SD_Card/image6.png
+.. |6| image:: /media/ambd_arduino/FatfsSDIO_File_System_In_SD_Card/image6.png
    :width: 873
    :height: 379
    :scale: 100 %
-.. |7| image:: /media/FatfsSDIO_File_System_In_SD_Card/image7.png
+.. |7| image:: /media/ambd_arduino/FatfsSDIO_File_System_In_SD_Card/image7.png
    :width: 879
    :height: 379
    :scale: 100 %
-.. |8| image:: /media/FatfsSDIO_File_System_In_SD_Card/image8.png
+.. |8| image:: /media/ambd_arduino/FatfsSDIO_File_System_In_SD_Card/image8.png
    :width: 625
    :height: 598
    :scale: 100 %
-.. |9| image:: /media/FatfsSDIO_File_System_In_SD_Card/image9.png
+.. |9| image:: /media/ambd_arduino/FatfsSDIO_File_System_In_SD_Card/image9.png
    :width: 873
    :height: 379
    :scale: 100 %

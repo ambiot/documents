@@ -21,7 +21,7 @@ Welcome to BW16 (RTL8720DN) online documentation.
    resources/index
    support/index  
 
-.. |image1| image:: /media/BW16_index.png
+.. |image1| image:: /media/ambd_arduino/BW16_index.png
    :width: 380
    :height: 400
    :scale: 50 %

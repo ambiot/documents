@@ -74,19 +74,19 @@ tips:
 More information on TensorFlow Lite for Microcontrollers can be found
 at: https://www.tensorflow.org/lite/microcontrollers
 
-.. |1| image:: /media/TFL_MicroSpeech/image1.jpeg
+.. |1| image:: /media/ambd_arduino/TFL_MicroSpeech/image1.jpeg
    :width: 619
    :height: 455
    :scale: 100 %
-.. |1-1| image:: /media/TFL_MicroSpeech/image1-1.jpeg
+.. |1-1| image:: /media/ambd_arduino/TFL_MicroSpeech/image1-1.jpeg
    :width: 869
    :height: 765
    :scale: 50 %
-.. |2| image:: /media/TFL_MicroSpeech/image2.jpeg
+.. |2| image:: /media/ambd_arduino/TFL_MicroSpeech/image2.jpeg
    :width: 451
    :height: 674
    :scale: 100 %
-.. |3| image:: /media/TFL_MicroSpeech/image3.jpeg
+.. |3| image:: /media/ambd_arduino/TFL_MicroSpeech/image3.jpeg
    :width: 697
    :height: 379
    :scale: 100 %

@@ -311,79 +311,79 @@ References
 .. note:: 
    If you face any issue, please refer to the FAQ and Trouble shooting sections on :doc:`../support/index` page.  
 
-.. |bw16-get-start-1| image:: /media/BW16_getting_started/image1.png
+.. |bw16-get-start-1| image:: /media/ambd_arduino/BW16_getting_started/image1.png
    :width: 516
    :height: 438
    :scale: 80 %
-.. |bw16-get-start-2| image:: /media/BW16_getting_started/image2.png
+.. |bw16-get-start-2| image:: /media/ambd_arduino/BW16_getting_started/image2.png
    :width: 2363
    :height: 1103
    :scale: 40 %
-.. |bw16-get-start-3| image:: /media/BW16_getting_started/image3.png
+.. |bw16-get-start-3| image:: /media/ambd_arduino/BW16_getting_started/image3.png
    :width: 414
    :height: 690
    :scale: 50 %
-.. |bw16-get-start-4| image:: /media/BW16_getting_started/image4.png
+.. |bw16-get-start-4| image:: /media/ambd_arduino/BW16_getting_started/image4.png
    :width: 820
    :height: 584
    :scale: 60 %
-.. |bw16-get-start-5| image:: /media/BW16_getting_started/image5.png
+.. |bw16-get-start-5| image:: /media/ambd_arduino/BW16_getting_started/image5.png
    :width: 795
    :height: 579
    :scale: 55 %
-.. |bw16-get-start-6| image:: /media/BW16_getting_started/image6.png
+.. |bw16-get-start-6| image:: /media/ambd_arduino/BW16_getting_started/image6.png
    :width: 307
    :height: 484
    :scale: 100 %
-.. |bw16-get-start-7| image:: /media/BW16_getting_started/image7.png
+.. |bw16-get-start-7| image:: /media/ambd_arduino/BW16_getting_started/image7.png
    :width: 378
    :height: 346
    :scale: 150 %
-.. |bw16-get-start-8| image:: /media/BW16_getting_started/image8-1.png
+.. |bw16-get-start-8| image:: /media/ambd_arduino/BW16_getting_started/image8-1.png
    :width: 781
    :height: 440
    :scale: 100 %
-.. |bw16-get-start-9| image:: /media/BW16_getting_started/image9.png
+.. |bw16-get-start-9| image:: /media/ambd_arduino/BW16_getting_started/image9.png
    :width: 891
    :height: 407
    :scale: 90 %
-.. |bw16-get-start-10| image:: /media/BW16_getting_started/image10.png
+.. |bw16-get-start-10| image:: /media/ambd_arduino/BW16_getting_started/image10.png
    :width: 481
    :height: 351
    :scale: 100 %
-.. |bw16-get-start-11| image:: /media/BW16_getting_started/image11.png
+.. |bw16-get-start-11| image:: /media/ambd_arduino/BW16_getting_started/image11.png
    :width: 602
    :height: 348
    :scale: 100 %
-.. |bw16-get-start-12| image:: /media/BW16_getting_started/image12.png
+.. |bw16-get-start-12| image:: /media/ambd_arduino/BW16_getting_started/image12.png
    :width: 517
    :height: 204
    :scale: 100 %
-.. |bw16-get-start-13| image:: /media/BW16_getting_started/image13.png
+.. |bw16-get-start-13| image:: /media/ambd_arduino/BW16_getting_started/image13.png
    :width: 727
    :height: 475
    :scale: 80 %
-.. |bw16-get-start-14| image:: /media/BW16_getting_started/image14.png
+.. |bw16-get-start-14| image:: /media/ambd_arduino/BW16_getting_started/image14.png
    :width: 409  
    :height: 406
    :scale: 100 %
-.. |bw16-get-start-15| image:: /media/BW16_getting_started/image15.png
+.. |bw16-get-start-15| image:: /media/ambd_arduino/BW16_getting_started/image15.png
    :width: 418
    :height: 413
    :scale: 100 %
-.. |bw16-get-start-16| image:: /media/BW16_getting_started/image16.png
+.. |bw16-get-start-16| image:: /media/ambd_arduino/BW16_getting_started/image16.png
    :width: 378
    :height: 583
    :scale: 100 %
-.. |bw16-get-start-17| image:: /media/BW16_getting_started/image17.png
+.. |bw16-get-start-17| image:: /media/ambd_arduino/BW16_getting_started/image17.png
    :width: 378
    :height: 527
    :scale: 100 %
-.. |bw16-get-start-18| image:: /media/BW16_getting_started/image18.png
+.. |bw16-get-start-18| image:: /media/ambd_arduino/BW16_getting_started/image18.png
    :width: 288
    :height: 544
    :scale: 50 %
-.. |bw16-get-start-19| image:: /media/BW16_getting_started/image19.png
+.. |bw16-get-start-19| image:: /media/ambd_arduino/BW16_getting_started/image19.png
    :width: 351
    :height: 488
    :scale: 100 %

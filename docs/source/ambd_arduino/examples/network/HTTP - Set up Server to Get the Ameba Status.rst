@@ -80,19 +80,19 @@ HTTP - Set up Server to Get the Ameba Status
 
 
 
-.. |1| image:: /media/HTTP_Set_Up_Server_To_Get_The_Ameba_Status/image1.png
+.. |1| image:: /media/ambd_arduino/HTTP_Set_Up_Server_To_Get_The_Ameba_Status/image1.png
    :width: 716
    :height: 1226
    :scale: 70 %
-.. |2| image:: /media/HTTP_Set_Up_Server_To_Get_The_Ameba_Status/image2.png
+.. |2| image:: /media/ambd_arduino/HTTP_Set_Up_Server_To_Get_The_Ameba_Status/image2.png
    :width: 716
    :height: 867
    :scale: 80 %
-.. |3| image:: /media/HTTP_Set_Up_Server_To_Get_The_Ameba_Status/image3.png
+.. |3| image:: /media/ambd_arduino/HTTP_Set_Up_Server_To_Get_The_Ameba_Status/image3.png
    :width: 704
    :height: 355
    :scale: 90 %
-.. |4| image:: /media/HTTP_Set_Up_Server_To_Get_The_Ameba_Status/image4.png
+.. |4| image:: /media/ambd_arduino/HTTP_Set_Up_Server_To_Get_The_Ameba_Status/image4.png
    :width: 1208
    :height: 940
    :scale: 50 %

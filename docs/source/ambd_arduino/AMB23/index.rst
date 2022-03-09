@@ -22,7 +22,7 @@ Welcome to AMB23 Arduino online documentation.
    resources/index
    support/index  
 
-.. |image1| image:: /media/AMB23_index.jpg
+.. |image1| image:: /media/ambd_arduino/AMB23_index.jpg
    :width: 400
    :height: 200
    :scale: 100 %

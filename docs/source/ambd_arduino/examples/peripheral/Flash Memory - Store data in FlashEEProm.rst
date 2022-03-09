@@ -50,11 +50,11 @@ task together.
 | Use ``FlashMemory.buf[0] = 0x00;`` to manipulate the 4K buf.
 | Use ``FlashMemory.update();`` to update the data in buf to Flash Memory.
 
-.. |1| image:: /media/Flash_Memory_Store_Data_In_Flash_EEProm/image1.png
+.. |1| image:: /media/ambd_arduino/Flash_Memory_Store_Data_In_Flash_EEProm/image1.png
    :width: 581
    :height: 1116
    :scale: 50 %
-.. |2| image:: /media/Flash_Memory_Store_Data_In_Flash_EEProm/image2.png
+.. |2| image:: /media/ambd_arduino/Flash_Memory_Store_Data_In_Flash_EEProm/image2.png
    :width: 677
    :height: 591
    :scale: 100 %

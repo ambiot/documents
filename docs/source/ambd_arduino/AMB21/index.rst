@@ -22,7 +22,7 @@ Welcome to AMB21/AMB22 Arduino online documentation.
    resources/index
    support/index  
 
-.. |image1| image:: /media/AMB21_index.jpg
+.. |image1| image:: /media/ambd_arduino/AMB21_index.jpg
    :width: 240
    :height: 170
    :scale: 100 %

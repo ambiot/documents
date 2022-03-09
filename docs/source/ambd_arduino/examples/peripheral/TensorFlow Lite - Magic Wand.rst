@@ -68,23 +68,23 @@ TensorFlow Lite - Magic Wand
 More information on TensorFlow Lite for Microcontrollers can be found
 at: https://www.tensorflow.org/lite/microcontrollers
 
-.. |1| image:: /media/TFL_MagicWand/image1.jpeg
+.. |1| image:: /media/ambd_arduino/TFL_MagicWand/image1.jpeg
    :width: 1027
    :height: 630
    :scale: 60 %
-.. |1-1| image:: /media/TFL_MagicWand/image1-1.jpeg
+.. |1-1| image:: /media/ambd_arduino/TFL_MagicWand/image1-1.jpeg
    :width: 971
    :height: 658
    :scale: 50 %
-.. |2| image:: /media/TFL_MagicWand/image2.jpeg
+.. |2| image:: /media/ambd_arduino/TFL_MagicWand/image2.jpeg
    :width: 556
    :height: 830
    :scale: 70 %
-.. |3| image:: /media/TFL_MagicWand/image3.jpeg
+.. |3| image:: /media/ambd_arduino/TFL_MagicWand/image3.jpeg
    :width: 777
    :height: 337
    :scale: 50 %
-.. |4| image:: /media/TFL_MagicWand/image4.jpeg
+.. |4| image:: /media/ambd_arduino/TFL_MagicWand/image4.jpeg
    :width: 639
    :height: 458
    :scale: 100 %

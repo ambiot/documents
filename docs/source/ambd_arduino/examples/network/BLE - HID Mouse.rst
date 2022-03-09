@@ -53,15 +53,15 @@ How the mouse input is interpreted is dependent on the host system.
 Some systems, such as mobile operating systems, may not support all mouse button input functions.
 
 
-.. |1| image:: /media/BLE_HID_Mouse/1.png
+.. |1| image:: /media/ambd_arduino/BLE_HID_Mouse/1.png
    :width: 637
    :height: 1202
    :scale: 70 %
-.. |2| image:: /media/BLE_HID_Mouse/2.png
+.. |2| image:: /media/ambd_arduino/BLE_HID_Mouse/2.png
    :width: 2560
    :height: 1397
    :scale: 40 %
-.. |3| image:: /media/BLE_HID_Mouse/3.png
+.. |3| image:: /media/ambd_arduino/BLE_HID_Mouse/3.png
    :width: 1440
    :height: 2880
    :scale: 25 %

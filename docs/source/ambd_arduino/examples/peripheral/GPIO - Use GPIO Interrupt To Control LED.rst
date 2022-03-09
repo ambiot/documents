@@ -91,15 +91,15 @@ The second parameter is a function pointer, with prototype:
 In this handler, every time we press and release the button, we trigger
 an interrupt, and change the status of the LED.
 
-.. |1| image:: /media/GPIO_Use_GPIO_Interrupt_To_Control_LED/image1.png
+.. |1| image:: /media/ambd_arduino/GPIO_Use_GPIO_Interrupt_To_Control_LED/image1.png
    :width: 1335
    :height: 934
    :scale: 40 %
-.. |2| image:: /media/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2.png
+.. |2| image:: /media/ambd_arduino/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2.png
    :width: 1335
    :height: 934
    :scale: 40 %
-.. |2-2| image:: /media/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2-2.png
+.. |2-2| image:: /media/ambd_arduino/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2-2.png
    :width: 763
    :height: 777
    :scale: 70 %

@@ -60,7 +60,7 @@ memory offset, the second argument is the value to write to memory.
 
   FlashMemory.writeWord(0x3F0C, value);
 
-.. |1| image:: /media/Flash_Memory_Use_Flash_Memory_larger_than_4K/image1.png
+.. |1| image:: /media/ambd_arduino/Flash_Memory_Use_Flash_Memory_larger_than_4K/image1.png
    :width: 677
    :height: 591
    :scale: 100 %

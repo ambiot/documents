@@ -31,15 +31,15 @@ WiFi - Retrieve Universal Time (UTC) by UDP
 | We parse the replied packet and show UTC time in serial monitor:
 | |3|
 
-.. |1| image:: /media/WiFi_Retrieve_universal_time_(UTC)_by_UDP/image1.png
+.. |1| image:: /media/ambd_arduino/WiFi_Retrieve_universal_time_(UTC)_by_UDP/image1.png
    :width: 716
    :height: 1006
    :scale: 50 %
-.. |2| image:: /media/WiFi_Retrieve_universal_time_(UTC)_by_UDP/image2.png
+.. |2| image:: /media/ambd_arduino/WiFi_Retrieve_universal_time_(UTC)_by_UDP/image2.png
    :width: 716
    :height: 867
    :scale: 60 %
-.. |3| image:: /media/WiFi_Retrieve_universal_time_(UTC)_by_UDP/image3.png
+.. |3| image:: /media/ambd_arduino/WiFi_Retrieve_universal_time_(UTC)_by_UDP/image3.png
    :width: 704
    :height: 423
    :scale: 70 %

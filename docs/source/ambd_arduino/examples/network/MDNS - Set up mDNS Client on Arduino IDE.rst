@@ -121,19 +121,19 @@ and register to the mDNS service.
    
    MDNS.registerService(service);
 
-.. |1| image:: /media/MDNS_Set_Up_MDNS_Client_On_Arduino_IDE/image1.png
+.. |1| image:: /media/ambd_arduino/MDNS_Set_Up_MDNS_Client_On_Arduino_IDE/image1.png
    :width: 679
    :height: 623
    :scale: 100 %
-.. |2| image:: /media/MDNS_Set_Up_MDNS_Client_On_Arduino_IDE/image2.png
+.. |2| image:: /media/ambd_arduino/MDNS_Set_Up_MDNS_Client_On_Arduino_IDE/image2.png
    :width: 679
    :height: 853
    :scale: 100 %
-.. |3| image:: /media/MDNS_Set_Up_MDNS_Client_On_Arduino_IDE/image3.png
+.. |3| image:: /media/ambd_arduino/MDNS_Set_Up_MDNS_Client_On_Arduino_IDE/image3.png
    :width: 704
    :height: 355
    :scale: 100 %
-.. |4| image:: /media/MDNS_Set_Up_MDNS_Client_On_Arduino_IDE/image4.png
+.. |4| image:: /media/ambd_arduino/MDNS_Set_Up_MDNS_Client_On_Arduino_IDE/image4.png
    :width: 777
    :height: 853
    :scale: 100 %
