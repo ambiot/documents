@@ -55,30 +55,18 @@ Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->
   functions (Pin I/O, Image Transfer) require other BLE services that
   are not included in this example.
 
-.. image:: /ambd_arduino/media/BLE_UART_Service/image2.png
-   :width: 916
-   :height: 1317
-   :scale: 50 %
+  |2|
 
-.. image:: /ambd_arduino/media/BLE_UART_Service/image3.png
-   :width: 916
-   :height: 1317
-   :scale: 50 %
+  |3|
 
 | In the UART terminal section of the app, enter a message and click
   send. You should see the message appear in the Arduino serial monitor.
 | In the Arduino serial monitor, enter a message and click send. The
   message will appear in the smartphone app.
 
-.. image:: /ambd_arduino/media/BLE_UART_Service/image4.png
-   :width: 916
-   :height: 1317
-   :scale: 50 %
+  |4|
 
-.. image:: /ambd_arduino/media/BLE_UART_Service/image5.png
-   :width: 779
-   :height: 619
-   :scale: 50 %
+  |5|
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Code Reference**
@@ -99,7 +87,27 @@ Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->
   transmit characteristic buffer, and the ``notify()`` method is used to
   inform the connected device of the new data.
 
-.. |1| image:: /ambd_arduino/media/BLE_UART_Service/image1.png
+.. |1| image:: /media/ambd_arduino/BLE_UART_Service/image1.png
    :width: 696
    :height: 1126
-   :scale: 50 %
+   :scale: 60 %
+
+.. |2| image:: /media/ambd_arduino/BLE_UART_Service/image1-2.png
+   :width: 1440
+   :height: 2880
+   :scale: 20 %
+
+.. |3| image:: /media/ambd_arduino/BLE_UART_Service/image1-3.png
+   :width: 1440
+   :height: 2880
+   :scale: 20 %
+
+.. |4| image:: /media/ambd_arduino/BLE_UART_Service/image1-4.png
+   :width: 1440
+   :height: 2880
+   :scale: 20 %
+
+.. |5| image:: /media/ambd_arduino/BLE_UART_Service/image5.png
+   :width: 779
+   :height: 619
+   :scale: 70 %

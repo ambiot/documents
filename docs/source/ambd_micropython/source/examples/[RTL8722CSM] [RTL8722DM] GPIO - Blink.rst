@@ -22,7 +22,7 @@
 **Steps**
 :raw-html:`</p>`
 
-Blink is one of the best examples to get started with MicroPython.
+Blink is one of the best ambd_micropython/examples to get started with MicroPython.
 
 Let us connect pin PB_22 to the anode leg of an LED which in series with a current limiting resistor and GND to cathode of the LED as shown below,
 
@@ -47,7 +47,7 @@ Then, copy the following code and press ``Ctrl + e`` in ``REPL`` to enter the pa
    a.toggle()
 
 
-.. |image1| image:: ../media/examples/imageBlink.png
+.. |image1| image:: /media/ambd_micropython/examples/imageBlink.png
    :width: 724
    :height: 654
    :scale: 50 %

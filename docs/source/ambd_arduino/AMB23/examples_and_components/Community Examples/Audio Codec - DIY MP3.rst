@@ -2,19 +2,22 @@
 Audio Codec - DIY MP3
 ###################################
 
+.. role:: raw-html(raw)
+   :format: html
+
 **CONTRIBUTED BY: M-ichae-l** (`<https://github.com/M-ichae-l>`__)
 
 
 Hi if you haven’t watched the demo video, feel free to play
 this short clip below to see what it’s capable of.
 
-.. image:: /ambd_arduino/media/Audio_Codec-DIY_MP3/image1.png
-   :target: https://www.youtube.com/watch?v=4h21C170upI
-   :alt: youtube
-   :width: 380
-   :height: 620
-   :scale: 70%
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+:raw-html:`</p>`
 
+    .. raw:: html 
+
+        <style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+            <iframe width="380" height="620" src="https://www.youtube.com/embed/4h21C170upI" title="OpenMV Bluetooth TripWire" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 ********************
 Introduction

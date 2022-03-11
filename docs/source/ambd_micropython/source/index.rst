@@ -22,7 +22,7 @@ Welcome to Ameba MicroPython online documentation.
    resources/index
    support/index
    
-.. |image1| image:: media/imageIndex.jpg
+.. |image1| image:: /media/ambd_micropython/imageIndex.jpg
    :width: 1280
    :height: 720
    :scale: 50 %

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-03-09 03:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,24 +19,24 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:3 Server Use as to
-msgid "AmebaMotors - Use Ameba as Server to Control Motors"
+msgid "ambd_arduino/AmebaMotors - Use Ameba as Server to Control Motors"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:8 Server Use as to
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Introduction to"
-" AmebaMotors** :raw-html:`</p>`"
+" ambd_arduino/AmebaMotors** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:12 Server Use as to
 msgid ""
-"AmebaMotors is a library which provides API related to controlling "
-"motors. Please download the library: `AmebaMotors "
-"<https://github.com/ambiot/ambd_arduino/raw/master/Arduino_zip_libraries/AmebaMotors.zip>`_"
-" And add the library to Ameba: "
-"https://www.arduino.cc/en/Guide/Libraries#toc4"
+"ambd_arduino/AmebaMotors is a library which provides API related to "
+"controlling motors. Please download the library: "
+"`ambd_arduino/AmebaMotors <https://github.com/ambiot "
+"/raw/master/Arduino_zip_libraries/ambd_arduino/AmebaMotors.zip>`_ And add"
+" the library to Ameba: https://www.arduino.cc/en/Guide/Libraries#toc4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
@@ -176,7 +176,7 @@ msgid "|1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:131 Server Use as to
+#: Motors.rst:132 Server Use as to
 msgid "1"
 msgstr ""
 
@@ -231,7 +231,7 @@ msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:135 Server Use as to
+#: Motors.rst:136 Server Use as to
 msgid "2"
 msgstr ""
 
@@ -250,97 +250,97 @@ msgid "|3|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:139 Server Use as to
+#: Motors.rst:140 Server Use as to
 msgid "3"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:70 Server Use as to
+#: Motors.rst:71 Server Use as to
 msgid ""
 "Next, open the browser of a computer or a cell phone under the same WiFi "
 "domain, enter the address in the message."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:72 Server Use as to
+#: Motors.rst:73 Server Use as to
 msgid "|4|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:143 Server Use as to
+#: Motors.rst:144 Server Use as to
 msgid "4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:74 Server Use as to
+#: Motors.rst:75 Server Use as to
 msgid ""
 "In the webpage, you can press the corresponding button to control the "
 "motor car in any of the 4 directions."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:76 Server Use as to
+#: Motors.rst:77 Server Use as to
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Demo Video** "
 ":raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:86 Server Use as to
+#: Motors.rst:87 Server Use as to
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:90 Server Use as to
+#: Motors.rst:91 Server Use as to
 msgid ""
 "Use ``WiFi.begin()`` to establish WiFi connection. "
 "https://www.arduino.cc/en/Reference/WiFiBegin"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:93 Server Use as to
+#: Motors.rst:94 Server Use as to
 msgid "To get the information of a WiFi connection:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:95 Server Use as to
+#: Motors.rst:96 Server Use as to
 msgid ""
 "Use ``WiFi.SSID()`` to get SSID of the current connected network. "
 "https://www.arduino.cc/en/Reference/WiFiSSID"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:98 Server Use as to
+#: Motors.rst:99 Server Use as to
 msgid ""
 "Use ``WiFi.RSSI()`` to get the signal strength of the connection. "
 "https://www.arduino.cc/en/Reference/WiFiRSSI"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:101 Server Use as to
+#: Motors.rst:102 Server Use as to
 msgid ""
 "Use ``WiFi.localIP()`` to get the IP address of Ameba. "
 "https://www.arduino.cc/en/Reference/WiFiLocalIP"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:104 Server Use as to
+#: Motors.rst:105 Server Use as to
 msgid ""
 "Use ``WiFiServer server()`` to create a server that listens on the "
 "specified port. https://www.arduino.cc/en/Reference/WiFiServer"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:107 Server Use as to
+#: Motors.rst:108 Server Use as to
 msgid ""
 "Use ``server.begin()`` to tell the server to begin listening for incoming"
 " connections. https://www.arduino.cc/en/Reference/WiFiServerBegin"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:110 Server Use as to
+#: Motors.rst:111 Server Use as to
 msgid ""
 "Use ``server.available()`` to get a client that is connected to the "
 "server and has data available for reading. "
@@ -348,35 +348,35 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:113 Server Use as to
+#: Motors.rst:114 Server Use as to
 msgid ""
 "Use ``client.connected()`` to get whether or not the client is connected."
 " https://www.arduino.cc/en/Reference/WiFiClientConnected"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:116 Server Use as to
+#: Motors.rst:117 Server Use as to
 msgid ""
 "Use ``client.println()`` to print data followed by a carriage return and "
 "newline. https://www.arduino.cc/en/Reference/WiFiClientPrintln"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:119 Server Use as to
+#: Motors.rst:120 Server Use as to
 msgid ""
 "Use ``client.print()`` to print data to the server that a client is "
 "connected to. https://www.arduino.cc/en/Reference/WiFiClientPrint"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:122 Server Use as to
+#: Motors.rst:123 Server Use as to
 msgid ""
 "Use ``client.available()`` to return the number of bytes available for "
 "reading. https://www.arduino.cc/en/Reference/WiFiClientAvailable"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:125 Server Use as to
+#: Motors.rst:126 Server Use as to
 msgid ""
 "Use ``client.read()`` to read the next byte received from the server the "
 "client is connected to. "
@@ -384,12 +384,40 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
-#: Motors.rst:128 Server Use as to
+#: Motors.rst:129 Server Use as to
 msgid ""
 "Use ``client.stop()`` to disconnect from the server the client is "
 "connected to. https://www.arduino.cc/en/Reference/WiFIClientStop"
 msgstr ""
 
 #~ msgid "Ameba D [RTL8722DM / RTL8722CSM ] x 1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "AmebaMotors is a library which provides"
+#~ " API related to controlling motors. "
+#~ "Please download the library: `AmebaMotors "
+#~ "<https://github.com/ambiot/ambd_arduino/raw/master/Arduino_zip_libraries/AmebaMotors.zip>`_"
+#~ " And add the library to Ameba: "
+#~ "https://www.arduino.cc/en/Guide/Libraries#toc4"
+#~ msgstr ""
+
+#~ msgid "AmebaMotors - Use Ameba as Server to Control Motors"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":raw-html:`<p style=\"color:#E67E22; font-"
+#~ "size:24px\">` **Introduction to AmebaMotors** "
+#~ ":raw-html:`</p>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "AmebaMotors is a library which provides"
+#~ " API related to controlling motors. "
+#~ "Please download the library: `AmebaMotors "
+#~ "<https://github.com/ambiot "
+#~ "/raw/master/Arduino_zip_libraries/AmebaMotors.zip>`_ And "
+#~ "add the library to Ameba: "
+#~ "https://www.arduino.cc/en/Guide/Libraries#toc4"
 #~ msgstr ""
 

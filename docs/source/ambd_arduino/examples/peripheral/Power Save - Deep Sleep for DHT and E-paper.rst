@@ -29,10 +29,10 @@ Power Save - Deep Sleep for DHT and E-paper
 
 | **Procedure**
 | Download the Eink zip library, AmebaEink.zip, at 
-  https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries. 
+  https://github.com/ambiot/tree/master/Arduino_zip_libraries. 
   Then install the AmebaEink.zip.
 | Open ``“File” -> “Examples” -> “AmebaPowerSave” ->
-  “DeepSleep_DHT_Eink_Example”``
+  “DeepSleep_For_DHT_Epaper_Example”``
 
   |1|
 
@@ -63,7 +63,8 @@ Power Save - Deep Sleep for DHT and E-paper
   (D10), GPIOA_13 (D11), GPIOA_12 (D12).
 
 | These AON pins can be set by using ``SET_AON_GPIO_WAKEUP_GPIOA25`` or the pin that you want to use as shown in the picture below.
-| |2|
+ 
+  |2|
 
 | **Using RTC Timer as wakeup source**
 | RTC timer wakeup system is by setting alarm. The alarm has 4 values, day,
@@ -89,15 +90,15 @@ Please refer to the `API
 Documents <https://www.amebaiot.com/rtl8722dm-arduino-online-api-documents/>`__ PowerSave
 section for detail description of all API.
 
-.. |1| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_DHT_Eink/image1.png
+.. |1| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_For_DHT_Epaper/image1.png
    :width: 689
    :height: 704
-   :scale: 50 %
-.. |2| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_DHT_Eink/image2.png
+   :scale: 70 %
+.. |2| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_For_DHT_Epaper/image2.png
    :width: 957
    :height: 647
    :scale: 50 %
-.. |3| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_DHT_Eink/image3.png
+.. |3| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_For_DHT_Epaper/image3.png
    :width: 959
    :height: 780
    :scale: 50 %

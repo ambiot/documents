@@ -123,43 +123,45 @@ Assuming that the ImageTool on PC is a server, it sends images files to Ameba (c
 
    |image9|
 
-.. |image0| image:: ../media/getting_started/image1.png
+.. |image0| image:: /media/ambd_sdk/getting_started/image1.png
    :width: 624
    :height: 726
    :scale: 100 %
-.. |image1| image:: ../media/getting_started/image2.png
+.. |image1| image:: /media/ambd_sdk/getting_started/image2.png
    :width: 673
    :height: 690
    :scale: 100 %
-.. |image2| image:: ../media/getting_started/image3.png
+.. |image2| image:: /media/ambd_sdk/getting_started/image3.png
    :width: 858
    :height: 633
    :scale: 50 %
-.. |image3| image:: ../media/getting_started/image4.png
+.. |image3| image:: /media/ambd_sdk/getting_started/image4.png
    :width: 1017
    :height: 700
    :scale: 50 %
-.. |image4| image:: ../media/getting_started/image5.png
+.. |image4| image:: /media/ambd_sdk/getting_started/image5.png
    :width: 731
    :height: 421
    :scale: 50 %
-.. |image5| image:: ../media/getting_started/image6.png
+.. |image5| image:: /media/ambd_sdk/getting_started/image6.png
    :width: 801
    :height: 375
    :scale: 50 %
-.. |image6| image:: ../media/getting_started/image7.png
+.. |image6| image:: /media/ambd_sdk/getting_started/image7.png
    :width: 1333
    :height: 712
    :scale: 50 %
-.. |image7| image:: ../media/getting_started/image8.png
+.. |image7| image:: /media/ambd_sdk/getting_started/image8.png
    :width: 805
    :height: 401
    :scale: 50 %
-.. |image8| image:: ../media/getting_started/image9.png
+.. |image8| image:: /media/ambd_sdk/getting_started/image9.png
    :width: 576
    :height: 300
    :scale: 100 %
-.. |image9| image:: ../media/getting_started/image10.png
+.. |image9| image:: /media/ambd_sdk/getting_started/image10.png
    :width: 585
    :height: 739
    :scale: 100 %
+
+  

@@ -33,15 +33,15 @@ You will see the following display in your browser:
 
 Now you have successfully read and opened the html file saved in your SD card.
 
-.. |image1| image:: /ambd_arduino/media/Read_And_Open_HTML_File_From_SD/image1.png
+.. |image1| image:: /media/ambd_arduino/FatfsSDIO_Read_And_Open_HTML_File_From_SD_Card/image1.png
     :width: 1040
     :height: 360
     :scale: 50 %
-.. |image2| image:: /ambd_arduino/media/Read_And_Open_HTML_File_From_SD/image2.png
+.. |image2| image:: /media/ambd_arduino/FatfsSDIO_Read_And_Open_HTML_File_From_SD_Card/image2.png
     :width: 1168
     :height: 630
     :scale: 50 %
-.. |image3| image:: /ambd_arduino/media/Read_And_Open_HTML_File_From_SD/image3.png
+.. |image3| image:: /media/ambd_arduino/FatfsSDIO_Read_And_Open_HTML_File_From_SD_Card/image3.png
     :width: 3895
     :height: 1235
     :scale: 15 %

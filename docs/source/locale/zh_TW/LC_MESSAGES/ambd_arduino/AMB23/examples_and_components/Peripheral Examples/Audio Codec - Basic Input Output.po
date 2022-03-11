@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-03-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,7 +102,7 @@ msgstr ""
 #: Output.rst:33
 msgid ""
 "Open the example, ``\"Files\" -> \"Examples\" -> “AmebaAudioCodec” -> "
-"“BasicInputOutput”``."
+"“Basic_Input_Output”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
@@ -132,4 +132,10 @@ msgid ""
 "amplifier included, such as Adafruit 1063, the amplifier can lead to the "
 "microphone picking up more noise."
 msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``\"Files\" -> "
+#~ "\"Examples\" -> “AmebaAudioCodec” -> "
+#~ "“BasicInputOutput”``."
+#~ msgstr ""
 

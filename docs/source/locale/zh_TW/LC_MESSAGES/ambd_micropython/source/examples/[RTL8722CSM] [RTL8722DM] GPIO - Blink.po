@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 03:09+0000\n"
+"POT-Creation-Date: 2022-03-09 03:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,10 @@ msgstr ""
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:25
 #: GPIO [RTL8722DM]
-msgid "Blink is one of the best examples to get started with MicroPython."
+#, fuzzy
+msgid ""
+"Blink is one of the best ambd_micropython/examples to get started with "
+"MicroPython."
 msgstr "閃爍LED是開始瞭解並使用MicroPython最好示例。"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Blink.rst:27

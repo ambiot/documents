@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-03-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,9 +54,9 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:20 IR
 #: NEC Raw Transmit
 msgid ""
-"In this example, we use two Ameba RTL8722 modules that connecting with an"
-" infrared (IR) Emitter and an IR Receiver separately to transmit and "
-"receive IR NEC Raw data."
+"In this example, we use two AmebaD to connect with an infrared (IR) "
+"Emitter and an IR Receiver separately to transmit and receive IR NEC Raw "
+"data."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:24 IR
@@ -245,7 +245,7 @@ msgstr ""
 #: NEC Raw Transmit
 msgid ""
 "Figure 7 and 8 shows the pin configuration of IR Emitter and Receiver "
-"with Ameba RTL8722 board."
+"with AMB21/AMB22."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:89 IR
@@ -275,14 +275,14 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:95 IR
 #: NEC Raw Transmit
-msgid "Figure 8: Pin configuration of the IR Receiver and Ameba RTL8722"
+msgid "Figure 8: Pin configuration of the IR Receiver and AMB21/AMB22"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:97 IR
 #: NEC Raw Transmit
 msgid ""
 "Figure 9 and Figure 10 shows the pin configuration of IR Emitter and "
-"Receiver with Ameba RTL8722DM MINI."
+"Receiver with AMB23."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:100
@@ -319,7 +319,7 @@ msgstr ""
 #: IR NEC Raw Transmit
 msgid ""
 "Figure 11 and Figure 12 shows the pin configuration of IR Emitter and "
-"Receiver with Ameba RTL8720DN (BW16)."
+"Receiver with BW16."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:111
@@ -465,4 +465,33 @@ msgstr ""
 #: IR NEC Raw Transmit
 msgid "https://www.sbprojects.net/knowledge/ir/index.php"
 msgstr ""
+
+#~ msgid ""
+#~ "In this example, we use two Ameba"
+#~ " RTL8722 modules that connecting with "
+#~ "an infrared (IR) Emitter and an IR"
+#~ " Receiver separately to transmit and "
+#~ "receive IR NEC Raw data."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Figure 7 and 8 shows the pin "
+#~ "configuration of IR Emitter and Receiver"
+#~ " with Ameba RTL8722 board."
+#~ msgstr ""
+
+#~ msgid "Figure 8: Pin configuration of the IR Receiver and Ameba RTL8722"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Figure 9 and Figure 10 shows the"
+#~ " pin configuration of IR Emitter and"
+#~ " Receiver with Ameba RTL8722DM MINI."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Figure 11 and Figure 12 shows the"
+#~ " pin configuration of IR Emitter and"
+#~ " Receiver with Ameba RTL8720DN (BW16)."
+#~ msgstr ""
 

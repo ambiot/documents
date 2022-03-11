@@ -29,7 +29,7 @@ Welcome to Ameba IoT Family Online SDK Documentation!
 
 .. tip::
    
-   | We welcome contributions to the our SDKs documentations. 
+   | We welcome contributions to our SDKs documentations. 
    | To make contributions, please visit our official `GitHub Wiki <https://github.com/ambiot/documents/wiki>`_ page.
 
 .. |image1| image:: /media/image1.png

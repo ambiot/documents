@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 05:57+0000\n"
+"POT-Creation-Date: 2022-03-09 03:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgstr "歡迎來到 Ameba IoT 家族 SDK 綫上文檔!"
 msgid "|image1|"
 msgstr "|image1|"
 
-#: ../../source/index.rst:33
+#: ../../source/index.rst:35
 msgid "image1"
 msgstr "image1"
 
@@ -52,7 +52,8 @@ msgid ""
 msgstr "所有的 快速入門手冊、範例演示、教程、API參考文檔、相關資源下載 和 數據手冊 都可以在下方鏈接中找到。"
 
 #: ../../source/index.rst
-msgid "We welcome contributions to the our SDKs documentations."
+#, fuzzy
+msgid "We welcome contributions to our SDKs documentations."
 msgstr "歡迎貢獻者們對 SDK 相關文檔内容的更改或貢獻"
 
 #: ../../source/index.rst

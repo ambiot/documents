@@ -101,23 +101,23 @@ be one service running.
 
 ``addService()`` registers the battery service to the Bluetooth stack.
 
-.. |1| image:: /ambd_arduino/media/BLE_Battery_Service/image1.png
+.. |1| image:: /media/ambd_arduino/BLE_Battery_Service/image1.png
    :width: 1058
    :height: 972
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/BLE_Battery_Service/image2.png
+.. |2| image:: /media/ambd_arduino/BLE_Battery_Service/image2.png
    :width: 1148
    :height: 2880
    :scale: 30 %
-.. |3| image:: /ambd_arduino/media/BLE_Battery_Service/image3.png
+.. |3| image:: /media/ambd_arduino/BLE_Battery_Service/image3.png
    :width: 1148
    :height: 2880
    :scale: 30 %
-.. |4| image:: /ambd_arduino/media/BLE_Battery_Service/image4.png
+.. |4| image:: /media/ambd_arduino/BLE_Battery_Service/image4.png
    :width: 1148
    :height: 2880
    :scale: 30 %
-.. |5| image:: /ambd_arduino/media/BLE_Battery_Service/image5.png
+.. |5| image:: /media/ambd_arduino/BLE_Battery_Service/image5.png
    :width: 749
    :height: 509
    :scale: 100 %

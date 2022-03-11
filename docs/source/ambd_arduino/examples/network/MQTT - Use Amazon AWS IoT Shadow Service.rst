@@ -38,36 +38,45 @@ MQTT - Use Amazon AWS IoT Shadow Service
 | First, create an account and sign up for AWS IoT service:https://aws.amazon.com/
 | Afterwards, log in to the Amazon Management Console and click “IoT Core” found under services -> 
   Internet of Things.
-| |2|
+
+  |2|
 
 | Then you will enter the home page of AWS IoT. To offer the best service quality, 
   Amazon offers servers in different regions for users to choose from.
 | Click the region dropdown menu at the upper-right:
-| |3|
+
+  |3|
 
 | Choose a nearby region.
-| |4|
+
+  |4|
 
 | Then from Services, go to Onboard then Get Started.
-| |6|
+
+  |6|
 
 | Enter the main page of AWS IoT. Under the Onboard a device, click Get started.
-| |5|
+
+  |5|
 
 | Click Create single thing
-| |7|
+
+  |7|
 
 | Fill in “ameba” on the name field. Attributes represent the status of Ameba.
-| |8|
+
+  |8|
 
 | Under the searchable thing attributes. The value of the attributes can be updated 
   directly by Ameba or by the control side and control side can request Ameba to 
   set the attribute to desired value.
 | Here we add an attribute named “led” with value “0” and click “Next”.
-| |9|
+
+  |9|
 
 | Click Skip creating a certificate at this time and then Create thing
-| |10|
+
+  |10|
 
 | Next, click Policy¸ and create a policy. Policy is used to restrict the functions 
   that a “thing” can do, it can limit the MQTT actions or specific topic that can 
@@ -76,36 +85,45 @@ MQTT - Use Amazon AWS IoT Shadow Service
 | Here we do not place policy on Ameba. Fill in “amebaPolicy” in the Name field, 
   “iot:*” in Action field and “*” in resources field. Then “Allow”. Finally, 
   click “Create”.
-| |11|
+
+  |11|
 
 | Next, we have to setup the TLS certificate. You can choose to user-defined or generate a 
   certificate by AWS IoT. In this example we click Create Certificate to generate a TLS 
   certificate.
-| |12|
+
+  |12|
+
 | You can see 4 Links. Please download each of the link, “public key”, “private key”, 
   “Certificate” and “rootCA”. After downloading the 4 files, click Done and go back to 
   the certificate main page.
-| |13|
+
+  |13|
 
 | Click Attach a policy in the Actions dropdown menu.
-| |14|
+
+  |14|
 
 | Choose amebaPolicy and click attach.
-| |15|
+
+  |15|
 
 | Then go back to the “Actions” drop-down menu at the top right of the
   certificates homepage, click on “Attach thing”, select the thing
   “ameba” you just created when the window below appears, then click on
   “Attach”
-| |16|
+
+  |16|
 
 | Go back to certificate main page and click Certificate and click Activate 
   in the Actions drop down menu.
-| |17|
+
+  |17|
 
 | Next, click Manage, and click Things, then click “ameba” the thing we created just now.
 | Click on Interact and View settings.
-| |18|
+
+  |18|
 
 | Find out the information of Rest API Endpoint to set Amazon Alexa:
 
@@ -120,18 +138,22 @@ MQTT - Use Amazon AWS IoT Shadow Service
 | Open ``“File” -> “Examples” -> “AmebaMQTTClient” -> “Amazon_AWS_IoT_Basic”``
 | In the sample code, modify the highlighted snippet to reflect your WiFi 
   network settings.
-| |19|
+
+  |19|
 
 | Then fill in the “thing” name “ameba”.
-| |20|
+
+  |20|
 
 | And the MQTT Broker server address we found earlier in AWS IoT.
-| |21|
+
+  |21|
 
 | Next, fill in the root CA used in TLS. Download and make sure the
   downloaded root CA contents conforms to the root CA used in the
   sketch.
-| |22|
+
+  |22|
 
 | Next, fill in the certificate we created in the AWS IoT Console (i.e.,
   client certificate), usually its file name ends with
@@ -145,7 +167,8 @@ MQTT - Use Amazon AWS IoT Shadow Service
 | – The last line ends with semicolon.
 | Adjust the format of the private key in the same way and add it to
   privateKeyBuff.
-| |23|
+
+  |23|
 
 **Compile and run**
 
@@ -154,7 +177,8 @@ MQTT - Use Amazon AWS IoT Shadow Service
 | Open the serial monitor in the Arduino IDE and observe as Ameba
   connects to the AWS IoT server and sends updates on the LED state
   variable.
-| |24|
+
+  |24|
 
 **Alternatives**
 
@@ -253,99 +277,99 @@ state.
   
   updateLedState(desired_led_state);
 
-.. |1| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image1.png
+.. |1| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image1.png
    :width: 900
    :height: 400
-   :scale: 50 %
-.. |2| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image2.png
+   :scale: 90 %
+.. |2| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image2.png
    :width: 1898
    :height: 9
    :scale: 50 %
-.. |3| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image3.png
+.. |3| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image3.png
    :width: 1279
    :height: 984
    :scale: 50 %
-.. |4| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image4.png
+.. |4| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image4.png
    :width: 1279
    :height: 984
    :scale: 50 %
-.. |5| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image5.png
+.. |5| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image5.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |6| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image6.png
+.. |6| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image6.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |7| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image7.png
+.. |7| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image7.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |8| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image8.png
+.. |8| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image8.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |9| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image9.png
+.. |9| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image9.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |10| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image10.png
+.. |10| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image10.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |11| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image11.png
+.. |11| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image11.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |12| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image12.png
+.. |12| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image12.png
    :width: 1599
    :height: 800
    :scale: 50 %
-.. |13| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image13.png
+.. |13| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image13.png
    :width: 1269
    :height: 616
    :scale: 50 %
-.. |14| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image19.png
+.. |14| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image19.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |15| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image20.png
+.. |15| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image20.png
    :width: 1898
    :height: 830
    :scale: 50 %
-.. |16| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image21.png
+.. |16| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image21.png
    :width: 1898
    :height: 902
    :scale: 50 %
-.. |17| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image18.png
+.. |17| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image18.png
    :width: 1279
    :height: 435
    :scale: 50 %
-.. |18| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image22.png
+.. |18| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image22.png
    :width: 1920
    :height: 753
    :scale: 50 %
-.. |19| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image24.png
+.. |19| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image24.png
    :width: 639
    :height: 846
    :scale: 70 %
-.. |20| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image25.png
+.. |20| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image25.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |21| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image26.png
+.. |21| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image26.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |22| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image27.png
+.. |22| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image27.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |23| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image28.png
+.. |23| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image28.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |24| image:: /ambd_arduino/media/MQTT_Use_amazon_aws_iot_shadow_service/image29.png
+.. |24| image:: /media/ambd_arduino/MQTT_Use_Amazon_AWS_IoT_Shadow_Service/image29.png
    :width: 851
    :height: 546
    :scale: 50 %

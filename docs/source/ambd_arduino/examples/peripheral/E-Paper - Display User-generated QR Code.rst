@@ -52,7 +52,7 @@ Front view of the e-Paper Module:
   |3-2| 
 
 | Download the Eink zip library, AmebaEink.zip, at 
-  https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries
+  https://github.com/ambiot/tree/master/Arduino_zip_libraries
 | Then install the AmebaEink.zip. Open the “DisplayQR” example in 
   ``“File” → “Examples” → “AmebaEink” → “DisplayQR”``:
   |4|
@@ -80,39 +80,39 @@ ARDUINO <https://www.amebaiot.com/ameba-arduino-summary>`__
   processing and memory-constrained
   systems: https://github.com/ricmoo/QRCode#data-capacities
 
-.. |1| image:: /ambd_arduino/media/Epaper_Display_user_generated_QR_code/image1.png
+.. |1| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image1.png
    :width: 653
    :height: 291
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/Epaper_Display_user_generated_QR_code/image2.png
+.. |2| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image2.png
    :width: 2310
    :height: 913
-   :scale: 25 %
-.. |3| image:: /ambd_arduino/media/Epaper_Display_user_generated_QR_code/image3.png
+   :scale: 20 %
+.. |3| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image3.png
    :width: 884
    :height: 524
-   :scale: 60 %
-.. |2-1| image:: /ambd_arduino/media/Epaper_Display_user_generated_QR_code/image2-1.png
+   :scale: 70 %
+.. |2-1| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image2-1.png
    :width: 1159
    :height: 457
-   :scale: 50 %
-.. |3-1| image:: /ambd_arduino/media/Epaper_Display_user_generated_QR_code/image3-1.png
+   :scale: 40 %
+.. |3-1| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image3-1.png
    :width: 1361
    :height: 583
    :scale: 50 %
-.. |2-2| image:: /ambd_arduino/media/Epaper_Display_user_generated_QR_code/image2-2.png
+.. |2-2| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image2-2.png
    :width: 1159
    :height: 457
    :scale: 50 %
-.. |3-2| image:: /ambd_arduino/media/Epaper_Display_user_generated_QR_code/image3-2.png
+.. |3-2| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image3-2.png
    :width: 1361
    :height: 583
    :scale: 50 %
-.. |4| image:: /ambd_arduino/media/Epaper_Display_user_generated_QR_code/image4.png
+.. |4| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image4.png
    :width: 727
    :height: 640
-   :scale: 50 %
-.. |5| image:: /ambd_arduino/media/Epaper_Display_user_generated_QR_code/image5.jpeg
+   :scale: 60 %
+.. |5| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image5.jpeg
    :width: 1328
    :height: 1027
    :scale: 50 %

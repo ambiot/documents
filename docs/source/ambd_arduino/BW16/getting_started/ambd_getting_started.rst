@@ -28,6 +28,7 @@ Please refer to the following figure and table for the pin diagram and function 
 
    |bw16-get-start-2|
 
+
 =========  ========  ====  ==== ===== ============== ========= ========
 \#         PIN name  GPIO  ADC  PWM   UART           SPI       I2C
 =========  ========  ====  ==== ===== ============== ========= ========
@@ -152,9 +153,9 @@ How to upload firmware into BW16
 | Depending on the batch of manufacturing, some BW16 modules on the development board 
   might have built-in the default B&T firmware, the firmware information is shown in 
   the image below:
-| 
-|   |bw16-get-start-10|
-|
+
+  |bw16-get-start-10|
+  
 | This will cause Arduino Image unable to flash into the module. Although information 
   of “All images are sent successfully! Image tool closed! Upload Image did.” is 
   showing in the Image Tool, however, the factory image is unable to be erased. 
@@ -236,19 +237,27 @@ Step 1. Compile & Upload
 | Arduino IDE provides many built-in examples, which can be compiled, uploaded, and run directly on the boards. 
 | Here, we take the “Blink” example as the first try.
 | Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:
-|   |bw16-get-start-14|
+
+|bw16-get-start-14|
+
 | Arduino IDE opens a new window with the complete sample code.
-|   |bw16-get-start-15|
+
+|bw16-get-start-15|
+
 | There is an onboard LED of BW16, the default ``LED_BUILTIN`` is a green onboard LED. 
   Change ``LED_BUILTIN`` to ``LED_B`` or ``LED_R`` for different colors such as blue and red. 
   Here we use ``LED_B`` for demonstration purpose.
 | Next, we compile the sample code directly; click 
   :guilabel:`“Sketch” -> “Verify/Compile”`
-|   |bw16-get-start-16|
+
+ |bw16-get-start-16|
+
 | Arduino IDE prints the compiling messages in the bottom area of the IDE
   window. When the compilation is finished, you will get the message
   similar to the following figure:
-|   |bw16-get-start-17|
+
+ |bw16-get-start-17|
+
 | Afterwards, we will upload the compiled code to BW16.
 |
 | Please make sure BW16 is connected to your computer, then
@@ -258,7 +267,9 @@ Step 1. Compile & Upload
   users are required to enter the upload mode of the board. 
   To enter the upload mode, first press and hold the BW16 “Burn” 
   button, press the “RST” button, and then release the “Burn” button.
-|   |bw16-get-start-18|
+
+ |bw16-get-start-18|
+
 | Press “Upload” button in Arduino IDE to compile and upload the program. 
   Arduino IDE will wait for 5s for the development board to enter the upload mode.
 |   |bw16-get-start-19|
@@ -298,81 +309,81 @@ References
 -----------------------------------------------------------------------------------
 
 .. note:: 
-   If you face any issue, please refer to the FAQ and Trouble shooting sections on :doc:`../../support/index` page.  
+   If you face any issue, please refer to the FAQ and Trouble shooting sections on :doc:`../support/index` page.  
 
-.. |bw16-get-start-1| image:: ../media/getting_started/image1.png
+.. |bw16-get-start-1| image:: /media/ambd_arduino/BW16_getting_started/image1.png
    :width: 516
    :height: 438
    :scale: 80 %
-.. |bw16-get-start-2| image:: ../media/getting_started/image2.png
+.. |bw16-get-start-2| image:: /media/ambd_arduino/BW16_getting_started/image2.png
    :width: 2363
    :height: 1103
-   :scale: 25 %
-.. |bw16-get-start-3| image:: ../media/getting_started/image3.png
+   :scale: 40 %
+.. |bw16-get-start-3| image:: /media/ambd_arduino/BW16_getting_started/image3.png
    :width: 414
    :height: 690
    :scale: 50 %
-.. |bw16-get-start-4| image:: ../media/getting_started/image4.png
+.. |bw16-get-start-4| image:: /media/ambd_arduino/BW16_getting_started/image4.png
    :width: 820
    :height: 584
-   :scale: 50 %
-.. |bw16-get-start-5| image:: ../media/getting_started/image5.png
+   :scale: 60 %
+.. |bw16-get-start-5| image:: /media/ambd_arduino/BW16_getting_started/image5.png
    :width: 795
    :height: 579
-   :scale: 50 %
-.. |bw16-get-start-6| image:: ../media/getting_started/image6.png
+   :scale: 55 %
+.. |bw16-get-start-6| image:: /media/ambd_arduino/BW16_getting_started/image6.png
    :width: 307
    :height: 484
    :scale: 100 %
-.. |bw16-get-start-7| image:: ../media/getting_started/image7.png
+.. |bw16-get-start-7| image:: /media/ambd_arduino/BW16_getting_started/image7.png
    :width: 378
    :height: 346
-   :scale: 100 %
-.. |bw16-get-start-8| image:: ../media/getting_started/image8-1.png
+   :scale: 150 %
+.. |bw16-get-start-8| image:: /media/ambd_arduino/BW16_getting_started/image8-1.png
    :width: 781
    :height: 440
    :scale: 100 %
-.. |bw16-get-start-9| image:: ../media/getting_started/image9.png
+.. |bw16-get-start-9| image:: /media/ambd_arduino/BW16_getting_started/image9.png
    :width: 891
    :height: 407
-   :scale: 80 %
-.. |bw16-get-start-10| image:: ../media/getting_started/image10.png
+   :scale: 90 %
+.. |bw16-get-start-10| image:: /media/ambd_arduino/BW16_getting_started/image10.png
    :width: 481
    :height: 351
    :scale: 100 %
-.. |bw16-get-start-11| image:: ../media/getting_started/image11.png
+.. |bw16-get-start-11| image:: /media/ambd_arduino/BW16_getting_started/image11.png
    :width: 602
    :height: 348
    :scale: 100 %
-.. |bw16-get-start-12| image:: ../media/getting_started/image12.png
+.. |bw16-get-start-12| image:: /media/ambd_arduino/BW16_getting_started/image12.png
    :width: 517
    :height: 204
    :scale: 100 %
-.. |bw16-get-start-13| image:: ../media/getting_started/image13.png
+.. |bw16-get-start-13| image:: /media/ambd_arduino/BW16_getting_started/image13.png
    :width: 727
    :height: 475
    :scale: 80 %
-.. |bw16-get-start-14| image:: ../media/getting_started/image14.png
+.. |bw16-get-start-14| image:: /media/ambd_arduino/BW16_getting_started/image14.png
    :width: 409  
    :height: 406
    :scale: 100 %
-.. |bw16-get-start-15| image:: ../media/getting_started/image15.png
+.. |bw16-get-start-15| image:: /media/ambd_arduino/BW16_getting_started/image15.png
    :width: 418
    :height: 413
    :scale: 100 %
-.. |bw16-get-start-16| image:: ../media/getting_started/image16.png
+.. |bw16-get-start-16| image:: /media/ambd_arduino/BW16_getting_started/image16.png
    :width: 378
    :height: 583
    :scale: 100 %
-.. |bw16-get-start-17| image:: ../media/getting_started/image17.png
+.. |bw16-get-start-17| image:: /media/ambd_arduino/BW16_getting_started/image17.png
    :width: 378
    :height: 527
    :scale: 100 %
-.. |bw16-get-start-18| image:: ../media/getting_started/image18.png
+.. |bw16-get-start-18| image:: /media/ambd_arduino/BW16_getting_started/image18.png
    :width: 288
    :height: 544
-   :scale: 30 %
-.. |bw16-get-start-19| image:: ../media/getting_started/image19.png
+   :scale: 50 %
+.. |bw16-get-start-19| image:: /media/ambd_arduino/BW16_getting_started/image19.png
    :width: 351
    :height: 488
    :scale: 100 %

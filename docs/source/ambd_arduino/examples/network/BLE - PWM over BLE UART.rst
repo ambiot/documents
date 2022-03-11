@@ -84,35 +84,35 @@ that the data is RGB values. The received UART message is checked in the
 callback function for “!C” first, otherwise it is treated as a regular
 message and printed to the serial terminal.
 
-.. |1| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image1.png
+.. |1| image:: /media/ambd_arduino/BLE_PWM_over_BLE_UART/image1.png
    :width: 1383
    :height: 1048
    :scale: 50 %
-.. |1-1| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image1-1.png
+.. |1-1| image:: /media/ambd_arduino/BLE_PWM_over_BLE_UART/image1-1.png
    :width: 1012
    :height: 699
-   :scale: 50 %
-.. |1-2| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image1-2.png
+   :scale: 55 %
+.. |1-2| image:: /media/ambd_arduino/BLE_PWM_over_BLE_UART/image1-2.png
    :width: 1564
    :height: 1079
-   :scale: 30 %
-.. |2| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image2.png
+   :scale: 35 %
+.. |2| image:: /media/ambd_arduino/BLE_PWM_over_BLE_UART/image2.png
    :width: 682
    :height: 1202
-   :scale: 50%
-.. |3| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image3.png
+   :scale: 70%
+.. |3| image:: /media/ambd_arduino/BLE_PWM_over_BLE_UART/image3.png
    :width: 1440
    :height: 2880
    :scale: 25%
-.. |4| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image4.png
+.. |4| image:: /media/ambd_arduino/BLE_PWM_over_BLE_UART/image4.png
    :width: 1440
    :height: 2880
    :scale: 25%
-.. |5| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image5.png
+.. |5| image:: /media/ambd_arduino/BLE_PWM_over_BLE_UART/image5.png
    :width: 1440
    :height: 2880
    :scale: 25%
-.. |6| image:: /ambd_arduino/media/BLE_PWM_over_BLE_UART/image6.png
+.. |6| image:: /media/ambd_arduino/BLE_PWM_over_BLE_UART/image6.png
    :width: 1440
    :height: 2880
    :scale: 25%

@@ -20,10 +20,10 @@ TensorFlow Lite - Hello World
 
 Download the Ameba customized version of TensorFlow Lite for
 Microcontrollers library at
-https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries.
+https://github.com/ambiot/tree/master/Arduino_zip_libraries.
 Follow the instructions at https://www.arduino.cc/en/guide/libraries to
 install it. Ensure that the patch files found at
-https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ are also
+https://github.com/ambiot/tree/master/Ameba_misc/ are also
 installed.
 
 Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
@@ -48,11 +48,11 @@ Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
 More information on TensorFlow Lite for Microcontrollers can be found
 at: https://www.tensorflow.org/lite/microcontrollers
 
-.. |1| image:: /ambd_arduino/media/TFL_HelloWorld/image1.png
+.. |1| image:: /media/ambd_arduino/TFL_HelloWorld/image1.png
    :width: 556
    :height: 830
-   :scale: 100 %
-.. |2| image:: /ambd_arduino/media/TFL_HelloWorld/image2.png
+   :scale: 70 %
+.. |2| image:: /media/ambd_arduino/TFL_HelloWorld/image2.png
    :width: 817
    :height: 586
-   :scale: 50 %
+   :scale: 60 %

@@ -66,17 +66,17 @@ Next, rotate the axis to desired position:
 
   myservo.write(pos);
 
-.. |1| image:: /ambd_arduino/media/PWM_Servo_Control/image1.png
+.. |1| image:: /media/ambd_arduino/PWM_Servo_Control/image1.png
    :alt: 1
    :width: 1249
    :height: 974
-   :scale: 50 %
-.. |2| image:: /ambd_arduino/media/PWM_Servo_Control/image2.png
+   :scale: 40 %
+.. |2| image:: /media/ambd_arduino/PWM_Servo_Control/image2.png
    :alt: 1
    :width: 800
    :height: 633
    :scale: 50 %
-.. |2-1| image:: /ambd_arduino/media/PWM_Servo_Control/image2-1.png
+.. |2-1| image:: /media/ambd_arduino/PWM_Servo_Control/image2-1.png
    :alt: 1
    :width: 809
    :height: 598

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-03-02 09:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:3 Retrieve Search Set to up
-msgid "WiFi - Set up Client to Retrieve Google Search Information"
+msgid "WiFi - Set up Client to Retrieve Google Search Informations"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
@@ -44,8 +44,8 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:19 Retrieve Search Set to up
 msgid ""
-"In this example, we use Ameba to be a web client to retrieve information "
-"from the Internet."
+"In this example, we use Ameba to be a web client to retrieve Informations"
+" from the Internet."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
@@ -74,8 +74,8 @@ msgstr ""
 #: Information.rst:27 Retrieve Search Set to up
 msgid ""
 "In the sample code, modify the highlighted snippet and enter the required"
-" information (ssid, password, key index) required to connect to your WiFi"
-" network."
+" Informations (ssid, password, key index) required to connect to your "
+"WiFi network."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
@@ -92,7 +92,7 @@ msgstr ""
 #: Information.rst:33 Retrieve Search Set to up
 msgid ""
 "Upload the code and press the reset button on Ameba. Then you can see the"
-" information retrieved from Google is shown in the Arduino serial "
+" Informations retrieved from Google is shown in the Arduino serial "
 "monitor."
 msgstr ""
 
@@ -121,7 +121,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:45 Retrieve Search Set to up
 msgid ""
-"To get the information of a WiFi connection: Use ``WiFi.SSID()`` to get "
+"To get the Informations of a WiFi connection: Use ``WiFi.SSID()`` to get "
 "SSID of the current connected network."
 msgstr ""
 
@@ -219,5 +219,36 @@ msgid "https://www.arduino.cc/en/Reference/WiFIClientStop"
 msgstr ""
 
 #~ msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+#~ msgstr ""
+
+#~ msgid "WiFi - Set up Client to Retrieve Google Search Information"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this example, we use Ameba to"
+#~ " be a web client to retrieve "
+#~ "information from the Internet."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the sample code, modify the "
+#~ "highlighted snippet and enter the "
+#~ "required information (ssid, password, key "
+#~ "index) required to connect to your "
+#~ "WiFi network."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Upload the code and press the "
+#~ "reset button on Ameba. Then you "
+#~ "can see the information retrieved from"
+#~ " Google is shown in the Arduino "
+#~ "serial monitor."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To get the information of a WiFi"
+#~ " connection: Use ``WiFi.SSID()`` to get "
+#~ "SSID of the current connected network."
 #~ msgstr ""
 

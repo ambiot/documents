@@ -78,37 +78,37 @@ parameters represents the meaning of each bit in a byte, i.e., En is bit
 | Call ``setCursor(0, 0)`` to set the position of the cursor.
 | LCD inherits the Print class, so we can use ``lcd.print()`` to output string on the screen.
 
-.. |1| image:: /ambd_arduino/media/I2C_Display_Data_on_LCD_Screen/image1.png
-   :width: 1431
-   :height: 870
-   :scale: 50 %
-.. |2| image:: /ambd_arduino/media/I2C_Display_Data_on_LCD_Screen/image2.png
+.. |1| image:: /media/ambd_arduino/I2C_Display_Data_on_LCD_Screen/image1.png
+   :width: 938
+   :height: 814
+   :scale: 40 %
+.. |2| image:: /media/ambd_arduino/I2C_Display_Data_on_LCD_Screen/image2.png
    :alt: 2
    :width: 1429
    :height: 978
-   :scale: 50 %
-.. |2-1| image:: /ambd_arduino/media/I2C_Display_Data_on_LCD_Screen/image2-1.png
+   :scale: 45 %
+.. |2-1| image:: /media/ambd_arduino/I2C_Display_Data_on_LCD_Screen/image2-1.png
    :alt: 2
    :width: 1434
    :height: 748
-   :scale: 50 %
-.. |2-3| image:: /ambd_arduino/media/I2C_Display_Data_on_LCD_Screen/image2-3.png
+   :scale: 40 %
+.. |2-3| image:: /media/ambd_arduino/I2C_Display_Data_on_LCD_Screen/image2-3.png
    :alt: 2
    :width: 1158
    :height: 621
-   :scale: 70 %
-.. |3| image:: /ambd_arduino/media/I2C_Display_Data_on_LCD_Screen/image3.jpeg
+   :scale: 60 %
+.. |3| image:: /media/ambd_arduino/I2C_Display_Data_on_LCD_Screen/image3.jpeg
    :alt: 3
    :width: 1429
    :height: 978
-   :scale: 50 %
-.. |4| image:: /ambd_arduino/media/I2C_Display_Data_on_LCD_Screen/image4.jpeg
+   :scale: 30 %
+.. |4| image:: /media/ambd_arduino/I2C_Display_Data_on_LCD_Screen/image4.jpeg
    :alt: 4
    :width: 1431
    :height: 862
-   :scale: 50 %
-.. |5| image:: /ambd_arduino/media/I2C_Display_Data_on_LCD_Screen/image5.jpeg
+   :scale: 30 %
+.. |5| image:: /media/ambd_arduino/I2C_Display_Data_on_LCD_Screen/image5.jpeg
    :alt: 5
    :width: 1431
    :height: 851
-   :scale: 50 %
+   :scale: 30 %

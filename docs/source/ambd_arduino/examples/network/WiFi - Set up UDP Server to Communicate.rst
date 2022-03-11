@@ -70,19 +70,19 @@ connection to server” message and waits for client connection.
 | https://www.arduino.cc/en/Reference/WiFiUDPWrite
 | https://www.arduino.cc/en/Reference/WiFiUDPEndPacket
 
-.. |1| image:: /ambd_arduino/media/WiFi_Set_up_UDP_server_to_communicate/image1.png
+.. |1| image:: /media/ambd_arduino/WiFi_Set_Up_UDP_Server_To_Communicate/image1.png
    :width: 716
    :height: 1006
-   :scale: 50 %
-.. |2| image:: /ambd_arduino/media/WiFi_Set_up_UDP_server_to_communicate/image2.png
+   :scale: 70 %
+.. |2| image:: /media/ambd_arduino/WiFi_Set_Up_UDP_Server_To_Communicate/image2.png
    :width: 716
    :height: 867
-   :scale: 100 %
-.. |3| image:: /ambd_arduino/media/WiFi_Set_up_UDP_server_to_communicate/image3.png
+   :scale: 80 %
+.. |3| image:: /media/ambd_arduino/WiFi_Set_Up_UDP_Server_To_Communicate/image3.png
    :width: 649
    :height: 410
    :scale: 100 %
-.. |4| image:: /ambd_arduino/media/WiFi_Set_up_UDP_server_to_communicate/image4.png
+.. |4| image:: /media/ambd_arduino/WiFi_Set_Up_UDP_Server_To_Communicate/image4.png
    :width: 804
    :height: 575
    :scale: 100 %

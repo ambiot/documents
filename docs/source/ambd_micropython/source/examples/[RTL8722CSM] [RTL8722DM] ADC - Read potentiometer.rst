@@ -34,7 +34,7 @@ Copy and paste the following code into REPL.
    a = ADC(0)
    a.read()
 
-.. |image1| image:: ../media/examples/imageADC.jpg
+.. |image1| image:: /media/ambd_micropython/examples/imageADC.jpg
    :width: 1320
    :height: 987
    :scale: 50 %

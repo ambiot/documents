@@ -59,35 +59,35 @@ IPv6 address to “IPv6TCPClient” example in the highlighted area below,
 
     |8|
 
-.. |1| image:: /ambd_arduino/media/IPv6_TCP/image1.png
+.. |1| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image1.png
    :width: 379
    :height: 444
    :scale: 100 %
-.. |2| image:: /ambd_arduino/media/IPv6_TCP/image2.png
+.. |2| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image2.png
    :width: 427
    :height: 490
    :scale: 100 %
-.. |3| image:: /ambd_arduino/media/IPv6_TCP/image3.png
+.. |3| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image3.png
    :width: 602
    :height: 294
    :scale: 100 %
-.. |4| image:: /ambd_arduino/media/IPv6_TCP/image4.png
+.. |4| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image4.png
    :width: 391
    :height: 452
    :scale: 100 %
-.. |5| image:: /ambd_arduino/media/IPv6_TCP/image5.png
+.. |5| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image5.png
    :width: 431
    :height: 494
    :scale: 100 %
-.. |6| image:: /ambd_arduino/media/IPv6_TCP/image6.png
+.. |6| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image6.png
    :width: 510
    :height: 436
    :scale: 100 %
-.. |7| image:: /ambd_arduino/media/IPv6_TCP/image7.png
+.. |7| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image7.png
    :width: 517
    :height: 271
    :scale: 100 %
-.. |8| image:: /ambd_arduino/media/IPv6_TCP/image8.png
+.. |8| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image8.png
    :width: 518
    :height: 266
    :scale: 100 %

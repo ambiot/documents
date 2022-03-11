@@ -1,16 +1,16 @@
-######################################################
-AmebaMotors - Use Ameba as Server to Control Motors
-######################################################
+##################################################################
+ambd_arduino/AmebaMotors - Use Ameba as Server to Control Motors
+##################################################################
 
 .. role:: raw-html(raw)
    :format: html
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
-**Introduction to AmebaMotors**
+**Introduction to ambd_arduino/AmebaMotors**
 :raw-html:`</p>`
 
-AmebaMotors is a library which provides API related to controlling motors.
-Please download the library: `AmebaMotors <https://github.com/ambiot/ambd_arduino/raw/master/Arduino_zip_libraries/AmebaMotors.zip>`_
+ambd_arduino/AmebaMotors is a library which provides API related to controlling motors.
+Please download the library: `ambd_arduino/AmebaMotors <https://github.com/ambiot /raw/master/Arduino_zip_libraries/ambd_arduino/AmebaMotors.zip>`_
 And add the library to Ameba: https://www.arduino.cc/en/Guide/Libraries#toc4
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
@@ -44,8 +44,8 @@ And add the library to Ameba: https://www.arduino.cc/en/Guide/Libraries#toc4
     ===== ===== ===== ===== ===== =====
 
 | Wiring:
-|
-|   |1|
+
+    |1|
 
 .. note::
 
@@ -60,17 +60,18 @@ And add the library to Ameba: https://www.arduino.cc/en/Guide/Libraries#toc4
 |
 | In the sample code, modify the highlighted snippet to corresponding information.
 |
-|   |2|
-|
+    |2|
+
 | Upload the code and press the reset button on Ameba. When the connection is established, 
   you will see the message “To see this page in action, open a browser to http://xxx.xxx.xxx.xxx” in the Arduino IDE, 
   as shown in the figure:
-|
-|   |3|
+
+    |3|
+
 | Next, open the browser of a computer or a cell phone under the same WiFi domain, enter the address in the message.
-|
-|   |4|
-|
+
+    |4|
+
 | In the webpage, you can press the corresponding button to control the motor car in any of the 4 directions.
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
@@ -128,19 +129,19 @@ https://www.arduino.cc/en/Reference/WiFiClientRead
 Use ``client.stop()`` to disconnect from the server the client is connected to.
 https://www.arduino.cc/en/Reference/WiFIClientStop
 
-.. |1| image:: /ambd_arduino/media/AmebaMotors/1.png
+.. |1| image::  /media/ambd_arduino/AmebaMotors/1.png
    :width: 1378
    :height: 1183
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/AmebaMotors/2.png
+.. |2| image::  /media/ambd_arduino/AmebaMotors/2.png
    :width: 795
    :height: 592
-   :scale: 100 %
-.. |3| image:: /ambd_arduino/media/AmebaMotors/3.png
+   :scale: 80 %
+.. |3| image::  /media/ambd_arduino/AmebaMotors/3.png
    :width: 854
    :height: 413
-   :scale: 100 %
-.. |4| image:: /ambd_arduino/media/AmebaMotors/4.png
+   :scale: 80 %
+.. |4| image::  /media/ambd_arduino/AmebaMotors/4.png
    :width: 714
    :height: 478
-   :scale: 100 %
+   :scale: 80 %

@@ -45,7 +45,7 @@ Then, copy and paste the following code line by line into REPL and hit Enter. If
    # 100% duty cycle
    p.write(1.0)
 
-.. |image1| image:: ../media/examples/imagePWM.jpg
+.. |image1| image:: /media/ambd_micropython/examples/imagePWM.jpg
    :width: 1251
    :height: 804
    :scale: 50 %

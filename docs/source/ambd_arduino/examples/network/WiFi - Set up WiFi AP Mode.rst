@@ -22,7 +22,8 @@ set to open mode or WPA2 mode.
   Ameba.
 | Open the WiFi AP example, ``“File” -> “Examples” -> “AmebaWiFi” ->
   “WiFiAPMode”``
-| |1|
+
+  |1|
 
 In the highlighted code snippet, fill in your SSID, PASSWORD and
 CHANNEL.
@@ -52,19 +53,19 @@ station connects to Ameba AP in security mode:
 
   |4|
 
-.. |1| image:: /ambd_arduino/media/WiFi_set_up_wifi_ap_mode/image1.png
+.. |1| image:: /media/ambd_arduino/WiFi_Set_Up_WiFi_AP_Mode/image1.png
    :width: 716
    :height: 867
-   :scale: 50 %
-.. |3| image:: /ambd_arduino/media/WiFi_set_up_wifi_ap_mode/image3.png
+   :scale: 70 %
+.. |3| image:: /media/ambd_arduino/WiFi_Set_Up_WiFi_AP_Mode/image3.png
    :width: 718
    :height: 650
-   :scale: 100 %
-.. |2| image:: /ambd_arduino/media/WiFi_set_up_wifi_ap_mode/image2.png
+   :scale: 90 %
+.. |2| image:: /media/ambd_arduino/WiFi_Set_Up_WiFi_AP_Mode/image2.png
    :width: 704
    :height: 524
-   :scale: 100 %
-.. |4| image:: /ambd_arduino/media/WiFi_set_up_wifi_ap_mode/image4.png
+   :scale: 90 %
+.. |4| image:: /media/ambd_arduino/WiFi_Set_Up_WiFi_AP_Mode/image4.png
    :width: 914
    :height: 665
-   :scale: 100 %
+   :scale: 90 %

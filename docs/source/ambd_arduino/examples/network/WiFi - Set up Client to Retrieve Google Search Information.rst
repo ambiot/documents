@@ -1,5 +1,5 @@
 ##########################################################################
-WiFi - Set up Client to Retrieve Google Search Information
+WiFi - Set up Client to Retrieve Google Search Informations
 ##########################################################################
 
 .. role:: raw-html(raw)
@@ -16,7 +16,7 @@ WiFi - Set up Client to Retrieve Google Search Information
 :raw-html:`</p>`
 
 | In this example, we use Ameba to be a web client to retrieve
-  information from the Internet.
+  Informations from the Internet.
 | First, make sure the correct Ameba development board is selected in
   “Tools” -> “Board”
 
@@ -25,13 +25,13 @@ WiFi - Set up Client to Retrieve Google Search Information
   |1|
 
 In the sample code, modify the highlighted snippet and enter the
-required information (ssid, password, key index) required to connect to
+required Informations (ssid, password, key index) required to connect to
 your WiFi network.
 
   |2|
 
 Upload the code and press the reset button on Ameba. Then you can see
-the information retrieved from Google is shown in the Arduino serial
+the Informations retrieved from Google is shown in the Arduino serial
 monitor.
 
   |3|
@@ -41,7 +41,7 @@ monitor.
 :raw-html:`</p>`
 
 | https://www.arduino.cc/en/Reference/WiFiBegin
-| To get the information of a WiFi connection: Use ``WiFi.SSID()`` to get
+| To get the Informations of a WiFi connection: Use ``WiFi.SSID()`` to get
   SSID of the current connected network.
 | https://www.arduino.cc/en/Reference/WiFiSSID
 | Use ``WiFi.RSSI()`` to get the signal strength of the connection.
@@ -65,15 +65,15 @@ monitor.
   connected to.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
-.. |1| image:: /ambd_arduino/media/WiFi_Set_up_client_to_retrieve_google_search_informations/image1.png
+.. |1| image:: /media/ambd_arduino/WiFi_Set_Up_Client_To_Retrieve_Google_Search_Informations/image1.png
    :width: 716
    :height: 1006
-   :scale: 50 %
-.. |2| image:: /ambd_arduino/media/WiFi_Set_up_client_to_retrieve_google_search_informations/image2.png
+   :scale: 70 %
+.. |2| image:: /media/ambd_arduino/WiFi_Set_Up_Client_To_Retrieve_Google_Search_Informations/image2.png
    :width: 716
    :height: 867
-   :scale: 50 %
-.. |3| image:: /ambd_arduino/media/WiFi_Set_up_client_to_retrieve_google_search_informations/image3.png
+   :scale: 70 %
+.. |3| image:: /media/ambd_arduino/WiFi_Set_Up_Client_To_Retrieve_Google_Search_Informations/image3.png
    :width: 941
    :height: 703
-   :scale: 50 %
+   :scale: 70 %

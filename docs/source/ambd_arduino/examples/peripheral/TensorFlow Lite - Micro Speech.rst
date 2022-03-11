@@ -34,11 +34,11 @@ TensorFlow Lite - Micro Speech
 
 | Download the Ameba customized version of TensorFlow Lite for
   Microcontrollers library at
-| https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries.
+| https://github.com/ambiot/tree/master/Arduino_zip_libraries.
 | Follow the instructions at https://www.arduino.cc/en/guide/libraries to
   install it. 
 | Ensure that the patch files found at
-  https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ are also
+  https://github.com/ambiot/tree/master/Ameba_misc/ are also
   installed.
 | Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
   “micro_speech”``.
@@ -74,19 +74,19 @@ tips:
 More information on TensorFlow Lite for Microcontrollers can be found
 at: https://www.tensorflow.org/lite/microcontrollers
 
-.. |1| image:: /ambd_arduino/media/TFL_MicroSpeech/image1.jpeg
+.. |1| image:: /media/ambd_arduino/TFL_MicroSpeech/image1.jpeg
    :width: 619
    :height: 455
    :scale: 100 %
-.. |1-1| image:: /ambd_arduino/media/TFL_MicroSpeech/image1-1.jpeg
+.. |1-1| image:: /media/ambd_arduino/TFL_MicroSpeech/image1-1.jpeg
    :width: 869
    :height: 765
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/TFL_MicroSpeech/image2.jpeg
+.. |2| image:: /media/ambd_arduino/TFL_MicroSpeech/image2.jpeg
    :width: 451
    :height: 674
    :scale: 100 %
-.. |3| image:: /ambd_arduino/media/TFL_MicroSpeech/image3.jpeg
+.. |3| image:: /media/ambd_arduino/TFL_MicroSpeech/image3.jpeg
    :width: 697
    :height: 379
    :scale: 100 %

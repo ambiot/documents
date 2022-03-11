@@ -19,13 +19,19 @@ UART - Retrieve GPS Position
 
 In this example, we use Adafruit Ultimate GPS Breakout. Its data format
 is pure text, so we can connect it to USB to TTL Adapter and observe the
-output.\ |1|\ |2|\ 
+output.
+
+|1|
+
+|2| 
 
 It follows the NMEA sentence format (refer to http://aprs.gids.nl/nmea/)
 The GPS signal is weak in indoor environment. 
 The status that the GPS signal is not received is called “not fix”. 
 Bring the GPS module outdoors, when the GPS signal is “fix”,
-you would get message similar to the figure below.\ |3|\ 
+you would get message similar to the figure below.
+
+|3|
 
 | In this example we are only interested in the “$GPRMC (Global Positioning Recommended
   Minimum Coordinates)”: 
@@ -49,7 +55,9 @@ latitude, and 12059.7251,E represents 120 degrees 59.7251 minutes east
 longitude. 
 
 We can search **+24 46.8181’, +120 59.7251’** in Google map
-to check whether the position is correct.\ |4|
+to check whether the position is correct.
+
+|4|
 
    -  The seventh field is relative speed(knot). 1 knot = 1.852km/hr, in
       this example the relative speed is 0.39 knot.
@@ -78,41 +86,42 @@ Open the example in ``“Files” -> “Examples” ->
 | The result will be output to Serial Monitor: 
 
   |6| 
+
   |7|
 
-.. |1| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image1.png
+.. |1| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image1.png
    :width: 1252
    :height: 294
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image2.png
+.. |2| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image2.png
    :width: 649
    :height: 372
    :scale: 100 %
-.. |3| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image3.png
+.. |3| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image3.png
    :width: 777
    :height: 425
    :scale: 100 %
-.. |4| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image4.png
+.. |4| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image4.png
    :width: 1028
    :height: 651
    :scale: 60 %
-.. |5| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image5.png
+.. |5| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5.png
    :width: 1295
    :height: 1049
-   :scale: 50 %
-.. |5-1| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image5-1.png
+   :scale: 40 %
+.. |5-1| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5-1.png
    :width: 1100
    :height: 809
-   :scale: 50 %
-.. |5-3| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image5-3.png
+   :scale: 40 %
+.. |5-3| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5-3.png
    :width: 842
    :height: 590
    :scale: 60 %
-.. |6| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image6.png
+.. |6| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image6.png
    :width: 649
    :height: 410
    :scale: 100 %
-.. |7| image:: /ambd_arduino/media/UART_Retrieve_GPS_Position/image7.png
+.. |7| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image7.png
    :width: 649
    :height: 410
    :scale: 100 %

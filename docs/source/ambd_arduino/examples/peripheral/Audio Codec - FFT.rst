@@ -32,11 +32,11 @@ Audio Codec - FFT
    
    |2|
 
-.. |1| image:: /ambd_arduino/media/Audio_Codec_FFT/image1.png
+.. |1| image:: /media/ambd_arduino/Audio_Codec_FFT/image1.png
    :width: 608
    :height: 830
-   :scale: 100 %
-.. |2| image:: /ambd_arduino/media/Audio_Codec_FFT/image2.png
+   :scale: 80 %
+.. |2| image:: /media/ambd_arduino/Audio_Codec_FFT/image2.png
    :width: 639
    :height: 477
    :scale: 100 %

@@ -104,19 +104,19 @@ First, make sure the correct Ameba development board is selected in
 | However, Ameba is already equipped with WiFi module. Therefore,
   ``#include`` is not needed.
 
-.. |1| image:: /ambd_arduino/media/WiFi_Connect_to_WiFi_networks/image1.png
+.. |1| image:: /media/ambd_arduino/WiFi_Connect_to_WiFi_networks/image1.png
    :width: 703
    :height: 826
-   :scale: 50 %
-.. |2| image:: /ambd_arduino/media/WiFi_Connect_to_WiFi_networks/image2.png
+   :scale: 70 %
+.. |2| image:: /media/ambd_arduino/WiFi_Connect_to_WiFi_networks/image2.png
    :width: 704
-   :height: 530
-   :scale: 50 %
-.. |3| image:: /ambd_arduino/media/WiFi_Connect_to_WiFi_networks/image3.png
+   :height: 730
+   :scale: 70 %
+.. |3| image:: /media/ambd_arduino/WiFi_Connect_to_WiFi_networks/image3.png
    :width: 703
    :height: 826
-   :scale: 50 %
-.. |4| image:: /ambd_arduino/media/WiFi_Connect_to_WiFi_networks/image4.png
+   :scale: 70 %
+.. |4| image:: /media/ambd_arduino/WiFi_Connect_to_WiFi_networks/image4.png
    :width: 703
    :height: 826
-   :scale: 50 %
+   :scale: 70 %

@@ -31,11 +31,11 @@ TensorFlow Lite - Magic Wand
 
 | Download the Ameba customized version of TensorFlow Lite for
   Microcontrollers library at
-  https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries.
+  https://github.com/ambiot/tree/master/Arduino_zip_libraries.
 | Follow the instructions at https://www.arduino.cc/en/guide/libraries to
   install it. 
 | Ensure that the patch files found at
-  https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ are also
+  https://github.com/ambiot/tree/master/Ameba_misc/ are also
   installed.
 | In the Arduino IDE library manager, install the Arduino_LSM9DS1 library.
   This example has been tested with version 1.1.0 of the LSM9DS1 library.
@@ -68,23 +68,23 @@ TensorFlow Lite - Magic Wand
 More information on TensorFlow Lite for Microcontrollers can be found
 at: https://www.tensorflow.org/lite/microcontrollers
 
-.. |1| image:: /ambd_arduino/media/TFL_MagicWand/image1.jpeg
+.. |1| image:: /media/ambd_arduino/TFL_MagicWand/image1.jpeg
    :width: 1027
    :height: 630
-   :scale: 50 %
-.. |1-1| image:: /ambd_arduino/media/TFL_MagicWand/image1-1.jpeg
+   :scale: 60 %
+.. |1-1| image:: /media/ambd_arduino/TFL_MagicWand/image1-1.jpeg
    :width: 971
    :height: 658
    :scale: 50 %
-.. |2| image:: /ambd_arduino/media/TFL_MagicWand/image2.jpeg
+.. |2| image:: /media/ambd_arduino/TFL_MagicWand/image2.jpeg
    :width: 556
    :height: 830
-   :scale: 100 %
-.. |3| image:: /ambd_arduino/media/TFL_MagicWand/image3.jpeg
+   :scale: 70 %
+.. |3| image:: /media/ambd_arduino/TFL_MagicWand/image3.jpeg
    :width: 777
    :height: 337
    :scale: 50 %
-.. |4| image:: /ambd_arduino/media/TFL_MagicWand/image4.jpeg
+.. |4| image:: /media/ambd_arduino/TFL_MagicWand/image4.jpeg
    :width: 639
    :height: 458
    :scale: 100 %

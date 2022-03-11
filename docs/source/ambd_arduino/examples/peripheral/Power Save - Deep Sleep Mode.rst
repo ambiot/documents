@@ -92,47 +92,47 @@ Please refer to the `API
 Documents <https://www.amebaiot.com/rtl8722dm-arduino-online-api-documents/>`__ PowerSave
 section for detail description of all API.
 
-.. |1| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_Mode/image1.png
+.. |1| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_Mode/image1.png
    :alt: 1
    :width: 689
    :height: 704
    :scale: 80%
-.. |2| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_Mode/image2.png   
+.. |2| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_Mode/image2.png   
    :alt: 1
    :width: 699
    :height: 669
-   :scale: 80%
-.. |3| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_Mode/image3.png
+   :scale: 60%
+.. |3| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_Mode/image3.png
    :alt: 1
    :width: 729
    :height: 694
-   :scale: 80%
-.. |4| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_Mode/image4.png
+   :scale: 60%
+.. |4| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_Mode/image4.png
    :alt: 1
    :width: 423
    :height: 535
-   :scale: 80%
-.. |5| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_Mode/image5.png
+   :scale: 60%
+.. |5| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_Mode/image5.png
    :alt: 1
    :width: 903
    :height: 651
    :scale: 80%
-.. |6| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_Mode/image6.png
+.. |6| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_Mode/image6.png
    :alt: 1
    :width: 665
    :height: 262
    :scale: 80%
-.. |7| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_Mode/image7.png
+.. |7| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_Mode/image7.png
    :alt: 1
    :width: 859
    :height: 370
    :scale: 80%
-.. |8| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_Mode/image8.png
+.. |8| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_Mode/image8.png
    :alt: 1
    :width: 859
    :height: 369
    :scale: 80%
-.. |9| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_Mode/image9.png
+.. |9| image:: /media/ambd_arduino/Power_Save_Deep_Sleep_Mode/image9.png
    :alt: 1
    :width: 860
    :height: 370

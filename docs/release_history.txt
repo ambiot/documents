@@ -1,12 +1,18 @@
 Release History 
 
+
+2022/03/10
+
+- Misc:
+	- Media Folder Reorganisation
+	- Update the embedded Youtube Videos for Community Examples
+
 2022/02/23
 
 - Misc:
 	- Update Network Example Media Folder to sync with the Titles
 	- Update Peripheral Example Media folder to sync with the Titles
 	
-
 2022/02/18
 
 - Feature:

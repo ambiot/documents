@@ -19,10 +19,9 @@ Standard SDK
 
    getting_started/getting_started
    release_history/Release History
-   board_hdk/index
    support/index   
 
-.. |image1| image:: media/imageindex.jpg
+.. |image1| image:: /media/ambd_sdk/imageindex.jpg
    :width: 240
    :height: 170
    :scale: 100 %

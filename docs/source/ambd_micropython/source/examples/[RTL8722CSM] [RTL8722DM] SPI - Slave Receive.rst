@@ -65,7 +65,7 @@ Then copy and paste the following code into REPL under paste mode to see their e
    chr(s1.read())
 
 
-.. |image1| image:: ../media/examples/imageSPI.jpg
+.. |image1| image:: /media/ambd_micropython/examples/imageSPI.jpg
    :width: 1282
    :height: 901
    :scale: 50 %

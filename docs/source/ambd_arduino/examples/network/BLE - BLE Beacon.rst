@@ -104,11 +104,11 @@ non-connectable.
 ``BLE.beginPeripheral()`` starts Ameba in Bluetooth peripheral mode, after
 which it will begin to advertise with the beacon data provided.
 
-.. |1| image:: /ambd_arduino/media/BLE_Beacon/image1.png
+.. |1| image:: /media/ambd_arduino/BLE_Beacon/image1.png
    :width: 722
    :height: 1006
    :scale: 80 %
-.. |2| image:: /ambd_arduino/media/BLE_Beacon/image2.png
-   :width: 1148
+.. |2| image:: /media/ambd_arduino/BLE_Beacon/image2.png
+   :width: 1440
    :height: 2880
-   :scale: 50 %
+   :scale: 30 %

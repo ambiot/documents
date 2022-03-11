@@ -128,67 +128,67 @@ email notification will be received.
 
    |16|
 
-.. |1| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image1.png
+.. |1| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image1.png
    :width: 611
    :height: 332
    :scale: 100 %
-.. |2| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image2.png
+.. |2| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image2.png
    :width: 942
    :height: 137
    :scale: 50 %
-.. |3| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image3.png
+.. |3| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image3.png
    :width: 961
    :height: 764
    :scale: 50 %
-.. |4| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image5.png
+.. |4| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image5.png
    :width: 1071
    :height: 610
    :scale: 50 %
-.. |5| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image6.png
+.. |5| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image6.png
    :width: 960
    :height: 855
    :scale: 50 %
-.. |6| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image7.png
+.. |6| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image7.png
    :width: 958
    :height: 766
    :scale: 50 %
-.. |7| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image8.png
+.. |7| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image8.png
    :width: 960
    :height: 742
    :scale: 50 %
-.. |8| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image9.png
-   :width: 695
-   :height: 496
-   :scale: 100 %
-.. |9| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image10.png
+.. |8| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image9.png
+   :width: 954
+   :height: 574
+   :scale: 80 %
+.. |9| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image10.png
    :width: 927
    :height: 785
    :scale: 50 %
-.. |10| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image11.png
+.. |10| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image11.png
    :width: 934
    :height: 857
    :scale: 50 %
-.. |11| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image16.png
+.. |11| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image16.png
    :width: 716
    :height: 867
    :scale: 80 %
-.. |12| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image13.png
+.. |12| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image13.png
    :width: 944
    :height: 433
    :scale: 50 %
-.. |13| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image14.png
+.. |13| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image14.png
    :width: 941
    :height: 486
    :scale: 50 %
-.. |14| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image15.png
+.. |14| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image15.png
    :width: 1337
    :height: 615
    :scale: 50 %
-.. |15| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image17.png
+.. |15| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image17.png
    :width: 770
    :height: 378
    :scale: 70 %
-.. |16| image:: /ambd_arduino/media/HTTP_use_ifttt_for_web_service/image18.png
+.. |16| image::  /media/ambd_arduino/HTTP_Use_IFTTT_For_Web_Service/image18.png
    :width: 1075
    :height: 423
    :scale: 60 %
