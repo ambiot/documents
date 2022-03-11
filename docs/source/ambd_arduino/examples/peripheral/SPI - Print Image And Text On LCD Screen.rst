@@ -148,10 +148,10 @@ Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI934
    :width: 1043
    :height: 695
    :scale: 60 %
-.. |1-2| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image1-2.png
-   :width: 1051
-   :height: 659
-   :scale: 70 %
+.. |1-2| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image1-3.png
+   :width: 1237
+   :height: 698
+   :scale: 50 %
 .. |2| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image2.png
    :width: 1426
    :height: 1006
