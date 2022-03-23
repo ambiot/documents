@@ -7,7 +7,7 @@
 BW16 (RTL8720DN)
 #################
 
-Welcome to BW16 (RTL8720DN) online documentation.
+Welcome to BW16 Arduino online documentation.
 
 |image1|
 

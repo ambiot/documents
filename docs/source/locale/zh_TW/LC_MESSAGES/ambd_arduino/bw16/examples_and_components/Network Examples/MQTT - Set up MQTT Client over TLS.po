@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-03-23 08:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,51 +50,51 @@ msgid ""
 "“AmebaMQTTClient” -> “MQTT_TLS”``"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:22
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:23
 #: over up
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:57
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:62
 #: over up
 msgid "1"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:24
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:25
 #: over up
 msgid "Please modify the WiFi-related parameters to connect to your WiFi network."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:25
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:26
 #: over up
 msgid "Modify the MQTT parameters to fit your application:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:26
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:28
 #: over up
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:61
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:66
 #: over up
 msgid "2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:29
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:31
 #: over up
 msgid ""
 "The “mqttServer” refers to the MQTT-Broker, we use the free MQTT sandbox "
 "“test.mosquitto.org” for testing."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:30
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:32
 #: over up
 msgid ""
 "“clientId” is an identifier for MQTT-Broker to identify the connected "
 "device."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:32
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:34
 #: over up
 msgid ""
 "“publishTopic” is the topic of the published message, we use “outTopic” "
@@ -102,36 +102,36 @@ msgid ""
 "message."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:33
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:35
 #: over up
 msgid "“publishPayload” is the content to be published."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:34
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:36
 #: over up
 msgid ""
 "“subscribeTopic” is to tell MQTT-broker which topic we want to subscribe "
 "to."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:37
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:39
 #: over up
 msgid ""
 "Next, compile the code and upload it to Ameba. Press the reset button, "
 "then open the serial monitor"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:38
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:41
 #: over up
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:65
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:70
 #: over up
 msgid "3"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:42
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:45
 #: over up
 msgid ""
 "After Ameba is connected to MQTT server, it sends the message “hello "
@@ -139,7 +139,7 @@ msgid ""
 "to the MQTT_Basic example guide on how to setup a PC-based MQTT client."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:48
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:51
 #: over up
 msgid ""
 "If you wish to use TLS client authentication in addition to server "
@@ -149,7 +149,7 @@ msgid ""
 "guide at https://test.mosquitto.org/ssl/."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:53
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:56
 #: over up
 msgid ""
 "Replace the character strings “certificateBuff” and “privateKeyBuff” with"
@@ -159,22 +159,22 @@ msgid ""
 "MQTT port number."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:54
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:58
 #: over up
 msgid "|4|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:69
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:74
 #: over up
 msgid "4"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:55
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:60
 #: over up
 msgid "|5|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:73
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:78
 #: over up
 msgid "5"
 msgstr ""

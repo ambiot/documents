@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_sdk/source/release_history/Release History.rst:3
 msgid "Release History"
-msgstr ""
+msgstr "版本记录"
 
 #: ../../source/ambd_sdk/source/release_history/Release History.rst:5
 msgid "**Version 1.0.0 – 2021/10/12**"

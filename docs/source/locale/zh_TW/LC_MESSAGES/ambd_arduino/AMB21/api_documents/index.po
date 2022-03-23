@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/index.rst:8
 msgid "API Documents"
-msgstr ""
+msgstr "API文件"
 
 #: ../../source/ambd_arduino/AMB21/api_documents/index.rst:10
 msgid "**RTL8722DM ARDUINO Online API Documents**"

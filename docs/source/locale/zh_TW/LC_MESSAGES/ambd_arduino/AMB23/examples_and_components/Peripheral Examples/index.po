@@ -25,5 +25,5 @@ msgstr ""
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Peripheral
 #: Examples/index.rst:3
 msgid "Peripheral Examples"
-msgstr ""
+msgstr "周邊硬體相關範例"
 

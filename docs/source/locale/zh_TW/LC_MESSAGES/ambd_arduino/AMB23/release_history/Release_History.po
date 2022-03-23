@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/release_history.rst:3
 msgid "Release History"
-msgstr ""
+msgstr "版本記錄"
 
 #: ../../source/ambd_arduino/release_history.rst:5
 msgid "**Version 3.1.2 - 2021/12/28**"

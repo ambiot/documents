@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-03-23 08:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,7 +86,7 @@ msgstr ""
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:91
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:92
 #: Save Sleep and for
 msgid "1"
 msgstr ""
@@ -151,22 +151,22 @@ msgid ""
 " pin that you want to use as shown in the picture below."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:65
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:66
 #: Save Sleep and for
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:95
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:96
 #: Save Sleep and for
 msgid "2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:67
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:68
 #: Save Sleep and for
 msgid "**Using RTC Timer as wakeup source**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:70
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:71
 #: Save Sleep and for
 msgid ""
 "RTC timer wakeup system is by setting alarm. The alarm has 4 values, day,"
@@ -174,29 +174,29 @@ msgid ""
 "``DS_RTC_ALARM_HOUR``, ``DS_RTC_ALARM_MIN``, and ``DS_RTC_ALARM_SEC``"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:73
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:74
 #: Save Sleep and for
 msgid ""
 "``DHTPIN`` is used to set DHT sensor data pin. User can choose any GPIO "
 "pins."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:74
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:75
 #: Save Sleep and for
 msgid "``DHTTYPE`` is used to set DHT sensor type. (DHT11, DHT22 and DHT33)"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:76
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:77
 #: Save Sleep and for
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:99
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:100
 #: Save Sleep and for
 msgid "3"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:78
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:79
 #: Save Sleep and for
 msgid ""
 "When finished the condition values setting, system will run and switch "
@@ -205,14 +205,14 @@ msgid ""
 "measured from DHT sensor when system is awake."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:83
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:84
 #: Save Sleep and for
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:87
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:88
 #: Save Sleep and for
 msgid ""
 "Please refer to the `API Documents <https://www.amebaiot.com/rtl8722dm-"

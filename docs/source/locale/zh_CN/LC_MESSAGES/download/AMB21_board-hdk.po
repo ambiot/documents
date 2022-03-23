@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/download/AMB21_board-hdk.rst:3
 msgid "Board HDK"
-msgstr ""
+msgstr "开发板HDK文件"
 
 #: ../../source/download/AMB21_board-hdk.rst:7
 msgid "EVB"

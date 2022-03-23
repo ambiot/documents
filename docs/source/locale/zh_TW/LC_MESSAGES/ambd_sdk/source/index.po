@@ -27,7 +27,7 @@ msgstr "瑞昱標準 SDK"
 
 #: ../../source/ambd_sdk/source/index.rst:10
 msgid "Welcome to Ameba Standard SDK online documentation"
-msgstr "歡迎來到瑞昱標準 SDK 綫上文檔"
+msgstr "歡迎來到瑞昱標準 SDK 線上文檔"
 
 #: ../../source/ambd_sdk/source/index.rst:12
 msgid "Ameba RTL8722DM  (AMB 21)"

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:3
 msgid "Getting Started"
-msgstr "快速入門手冊"
+msgstr "入門指南"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:7
 msgid "Ameba MicroPython: Getting Started with RTL8722"

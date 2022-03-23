@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Basic Examples.rst:3
 msgid "Basic Examples"
-msgstr ""
+msgstr "基本范例"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Basic Examples.rst:8
 msgid ""

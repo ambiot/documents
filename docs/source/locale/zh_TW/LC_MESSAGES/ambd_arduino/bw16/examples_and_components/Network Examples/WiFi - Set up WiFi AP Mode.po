@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-03-23 08:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,67 +55,67 @@ msgid ""
 "“WiFiAPMode”``"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:25 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:26 Set WiFi up
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:55 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:56 Set WiFi up
 msgid "1"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:27 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:28 Set WiFi up
 msgid "In the highlighted code snippet, fill in your SSID, PASSWORD and CHANNEL."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:30 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:31 Set WiFi up
 msgid ""
 "The code highlighted in green is the API we used to turn on the AP mode "
 "in security mode."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:33 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:34 Set WiFi up
 msgid "If you want to turn on the AP mode in open mode, please modify the code to"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:40 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:41 Set WiFi up
 msgid ""
 "Then upload the sample code and press reset, and you can see related "
 "information shown in serial monitor."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:43 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:44 Set WiFi up
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:63 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:64 Set WiFi up
 msgid "2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:45 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:46 Set WiFi up
 msgid ""
 "In the figure below, we show the messages shown in serial monitor when "
 "two stations connect to Ameba AP in open mode:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:48 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:49 Set WiFi up
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:59 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:60 Set WiFi up
 msgid "3"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:50 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:51 Set WiFi up
 msgid ""
 "In the figure below, we show the messages shown in serial monitor when a "
 "station connects to Ameba AP in security mode:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:53 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:54 Set WiFi up
 msgid "|4|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:67 Set WiFi up
+#: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:68 Set WiFi up
 msgid "4"
 msgstr ""
 

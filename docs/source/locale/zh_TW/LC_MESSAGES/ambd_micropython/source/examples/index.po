@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/examples/index.rst:8
 msgid "Examples"
-msgstr "範例演示"
+msgstr "範例"
 
 #: ../../source/ambd_micropython/source/examples/index.rst:12
 msgid "Peripheral Examples"

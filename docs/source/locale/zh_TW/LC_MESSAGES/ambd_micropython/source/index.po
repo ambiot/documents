@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/index.rst:10
 msgid "Welcome to Ameba MicroPython online documentation."
-msgstr "歡迎來到 Ameba MicroPython 綫上文檔"
+msgstr "歡迎來到 Ameba MicroPython 線上文檔"
 
 #: ../../source/ambd_micropython/source/index.rst:12
 msgid "|image1|"

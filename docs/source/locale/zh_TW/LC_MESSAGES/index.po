@@ -26,7 +26,7 @@ msgstr "資源下載"
 
 #: ../../source/index.rst:8
 msgid "Welcome to Ameba IoT Family Online SDK Documentation!"
-msgstr "歡迎來到 Ameba IoT 家族 SDK 綫上文檔!"
+msgstr "歡迎來到 Ameba IoT 家族 SDK 線上文檔!"
 
 #: ../../source/index.rst:10
 msgid "|image1|"

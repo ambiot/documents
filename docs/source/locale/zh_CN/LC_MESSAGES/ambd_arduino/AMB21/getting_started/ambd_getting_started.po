@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:3
 msgid "Getting Started"
-msgstr ""
+msgstr "入门指南"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:7
 msgid "Ameba ARDUINO: Getting Started with AMB21/AMB22"
