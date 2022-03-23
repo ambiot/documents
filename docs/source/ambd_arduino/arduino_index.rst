@@ -15,4 +15,4 @@ Arduino SDK
 
    AMB21/index
    AMB23/index
-   BW16/index
+   BW16_/index

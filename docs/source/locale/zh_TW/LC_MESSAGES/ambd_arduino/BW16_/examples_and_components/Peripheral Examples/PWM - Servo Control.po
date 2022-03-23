@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:3 Servo
+msgid "PWM - Servo Control"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:8 Servo
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:12 Servo
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:13 Servo
+msgid "Servo x 1 (Ex. Tower Pro SG90)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:15 Servo
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:19 Servo
+msgid ""
+"A typical servo has 3 wires, the red wire is for power, black or brown "
+"one should be connected to GND, and the other one is for signal data. We "
+"use PWM signal to control the rotation angle of the axis of the servo. "
+"The frequency of the signal is 50Hz, that is length 20ms. Each servo "
+"defines its pulse bandwidth, which is usually 1ms~2ms."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:25 Servo
+msgid ""
+"To control the rotation angle, for example if 1ms-length pulse rotates "
+"the axis to degree 0, then 1.5 ms pulse rotates the axis to 90 degrees, "
+"and 2 ms pulse rotates the axis to 180 degrees. Furthermore, a servo "
+"defines the “dead bandwidth”, which stands for the required minimum "
+"difference of the length of two consecutive pulse for the servo to work."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:31 Servo
+msgid "**AMB21 / AMB22** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:33 Servo
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:69
+#: Control.rst:74 Control.rst:79 Servo
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:35 Servo
+msgid "**AMB23** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:37 Servo
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:39 Servo
+msgid "**BW16** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:41 Servo
+msgid "|2-1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:44 Servo
+msgid ""
+"Open the example, ``“File” -> “Examples” -> “AmebaAnalog” -> "
+"“ServoSweep”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:46 Servo
+msgid ""
+"This example makes the servo to rotate from degree 0 to 180, and then "
+"rotate back to degree 0."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:48 Servo
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:52 Servo
+msgid ""
+"The Servo API of Ameba is similar to the API of Arduino. To distinguish "
+"from the original API of Arduino, we name the header file “AmebaServo.h” "
+"and the Class “AmebaServo”, the usage is identical to the Arduino API."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:56 Servo
+msgid ""
+"The default pulse bandwidth of Arduino Servo is 0.5ms~2.4ms, which is the"
+" same as Tower Pro SG90. Therefore, we set the attached pin directly:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:63 Servo
+msgid "Next, rotate the axis to desired position:"
+msgstr ""
+
