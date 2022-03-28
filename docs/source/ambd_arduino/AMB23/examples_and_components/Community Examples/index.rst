@@ -16,8 +16,10 @@ Community Examples
     :maxdepth: 1
     :titlesonly:
 
+    AMB23 Getting Started Guide
     OpenMV Bluetooth TripWire
     Audio Codec - DIY MP3
+
 
 .. |image1| image:: /media/ambd_arduino/user-contribution-example.png
    :width: 6318   
