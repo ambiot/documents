@@ -25,5 +25,5 @@ msgstr ""
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Network
 #: Examples/index.rst:8
 msgid "Network Examples"
-msgstr ""
+msgstr "网路相关范例"
 

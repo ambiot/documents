@@ -1,0 +1,1315 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-28 09:17+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:3 Started
+msgid "AMB23 Getting Started Guide"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:5 Started
+msgid "**CONTRIBUTED BY: 董勝源** (`<tung79107910@gmail.com>`__ )"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:8 Started
+msgid ""
+"Ameba RTL8722DM物聯網開發板為瑞昱(Realtek)公司的產品， "
+"它是Ameba物聯網解決方案系列的最新一代SoC，並內含高性能32-bit的雙Arm®的新架構與最新的無線技術，具有高性能、超低功耗，適用於物聯網（IoT）應用。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:10 Started
+msgid "**一、RTL87系列產品與型號區分如下：**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:13 Started
+msgid "|image0|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:557 Started
+msgid "image0"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:16 Started
+msgid ""
+"其中AmebaD為超低功耗多功能物聯網單晶片解決方案(RTL8722DM)，具有非常高的安全級別架構和低功耗。成為智能門鎖和IoT Wi-"
+"Fi音頻/娛樂設備的最佳IoT解決方案。使客戶能夠開發具有最高安全性的高級物聯網應用程序。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:18 Started
+msgid "**二、RTL8722DM特性：**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:20 Started
+msgid "支持 Arduino IDE可掛載部份 Arduino的擴展板。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:22 Started
+msgid ""
+"雙Arm®的CPU：內含串列線偵錯器(SWD: Serial Wire Debug)、巢狀向量中斷控制器(NVIC: Nested "
+"Vectored Interrupt Controller)、不可遮蔽中斷(NMI: Non-maskable "
+"Interrupt)及系統節拍計時器(System tick timer)，可共同使用SRAM及周邊設備。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(1) "
+"低功耗的Cortex-M23，內含16KB指令快取(I-Cache)及4KB資料快取(D-Cache)記憶體，最高工作頻率為20MHz，其性能相當於Cortex-M0。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(2) 高性能的Cortex-M33，內含浮點運算器(FPU: floating point unit)、數位信號處理(DSP: Digital "
+"signal processing)、 三階管道的TrustZone-M、記憶體保護單元(MPU: Memory Protection "
+"Unit)、安全指令、32-bit硬體整數除法、 "
+"32KB指令快取(I-Cache)及4KB資料快取(D-Cache)記憶體，最高工作頻率為200MHz。其性能相當於Cortex-M4。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:31 Started
+msgid "超大容量記憶體：RTL8722DM記憶體分配，如下："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:33 Started
+msgid "|image1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:561 Started
+msgid "image1"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(1) KM0 CPU內部記憶體專用於Cortex-M23，最高128K-Byte的指令ITCH ROM、32K-Byte的資料DTCH ROM"
+"、64K-Byte SRAM及1K-Byte的SRAM用於在省電模式時可以保留資料，最高工作頻率為20MHz。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(2) KM4 CPU內部記憶體專用於Cortex-M33，最高768K-Byte的指令ITCH ROM、96K-Byte的資料DTCH ROM"
+"、128K-Byte的、512K-Byte的SRAM工作頻率200MHz"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(3) 外部擴展PSRAM，記憶體容量4M-Byte，工作頻率50MHz。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(4) 外部擴展Flash，最高2/4M-Byte(32M-bit)，可藉由串列介面SPI/DSPI/QSPI控制及線上燒錄(ICP:In-"
+"Circuit Programming)來存取程式。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(5) 外部擴展DDR，可外接8-bit的DDR SDRAM（Double Data Rate \\ `SDRAM "
+"<https://zh.wikipedia.org/wiki/SDRAM>`__\\ ）。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(6) 周邊直接記憶體存取(GDMA：Peripheral Direct Memory "
+"Access)，可直接令周邊設備與KM0及KM4記憶體存取大量的資料，如語音及影像資料等。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:50 Started
+msgid "豐富的I/O周邊設備，可應用於各種物聯網控制場合："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(1)  GPIO腳：PA0~PA31(無PA3、PA29)及PB0~PB31(無PB8~PB11、PB24~PB27)共54支腳。 "
+"每支腳輸入時可配置內含提升(pull-up)或下降(pull-down)電阻，且均具有外部中斷(GPIOINT)功能， "
+"觸發條件可設定為上升緣(rising)、下降緣(falling)或雙邊緣(both)。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(2)  通用非同步收發傳輸器(UART: Universal Asynchronous Receiver/Transmitter)： "
+"有三組高速HS\\_UART0及低功耗(LP\\_UART0、LP\\_UART1)，可外接UART模組，如USB、藍牙、Wi-Fi、GPS等。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(3)  串列周邊介面(SPI: Serial Peripheral "
+"Interface)：有兩組高速HS\\_SPI0及HS\\_SPI1，可外接SPI晶片與模組，如Flash、繪圖型LCD等。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(4)  積體匯流排電路(I²C: Inter-Integrated Circuit）：有一組低功耗LP\\_I2C0，可外接I\\ "
+":sup:`2`\\ C 晶片與模組，如EEPROM、LCD等。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(5)  通用串列介面(USI: Universal "
+"SerialInterface)：可設定為高速HS\\_USI\\_UART、HS\\_USI\\_SPI或HS\\_USI\\_I2C。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(6)  紅外線(IR: Infra Ray)：可外接紅外線感測器。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(7)  單線One wire(SGPIO)介面：可藉由一條信號線來進行串列資料傳輸，來控制串列元件。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(8)  計時器(Timer)：含基本(BASE)計時(HS\\_TIM0 ~ HS\\_TIM3 & LP\\_TIM0 "
+"~LP\\_TIM3)、PWM計時器(HS\\_TIM5 &LP\\_TIM5)及脈衝(Pulse)計時器(HS\\_TIM4 & "
+"LP\\_TIM4)。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(9)  脈波寬度調變(PWM:Pulse Width "
+"Modulation)輸出：有17通道(PWM1~17)，藉由方波的佔空比(duty)來進行功率控制，如LED亮度、馬達轉速等。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(10) 即時時脈(RTC: Real Time "
+"Clock)：關機時，可使用電池及石英晶體32.768KHz，提供年、月、日、週、時、分、秒的萬年曆與鬧鐘計時功能。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(11) 類比數位轉換器(ADC: Analog-to-Digital Converter)：有7通道(A0~A6)， "
+"最高精度為12-bit，但平時精度為10-bit，可將類比電壓0~3.3V轉換為數位資料0~1023(10-bit)或0~4095(12-bit)。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+#, python-format
+msgid ""
+"(12) 脈衝編碼調變(PCM:Pulse-code modulation)：是一種\\ `類比 "
+"<https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%93%AC%E4%BF%A1%E8%99%9F>`__\\"
+" 訊號的\\ `數位 <https://zh.wikipedia.org/wiki/%E6%95%B8%E4%BD%8D>`__\\ "
+"化方法，常被用於數位\\ `電信 <https://zh.wikipedia.org/wiki/%E9%9B%BB%E4%BF%A1>`__\\ "
+"系統上。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(13) 音頻編解碼器(I\\ :sup:`2`\\ S: Inter-IC Sound或Integrated InterchipSound）： "
+"是IC間傳輸數位音訊資料的一種介面標準，常用於CD等音頻信號處理。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(14) 安全數位介面(SD: Secure Digital)與高速SDIO，可外接SD記憶卡。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(15) 通用序列匯流排(USB：Universal Serial Bus)：為USB "
+"2.0可設定為HS/FS/LS模式，具有host(主控制器)或device(裝置)功能。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(16) 按鍵掃描：最多可使用16支 GPIO腳來進行8\\*8按鍵掃描。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(17) 觸摸按鍵：可連接4通道電容式觸摸感測器。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(18) LCD面板控制器：具有8-bit、16-bit及RGB模式控制，可連接TFT(Thin Film Transistor)彩色LCD。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:95 Started
+msgid "內含最新的無線技術：雙頻Wi-Fi（2.4GHz/5GHz）和低功耗藍牙(BLE5)。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:97 Started
+msgid "超低功耗，適合物聯網應用。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:99 Started
+msgid "最新的高安全性架構，附帶安全啟動。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:101 Started
+msgid "全方位便捷的開發套件，可從IAR/GCC/Arduino軟體SDK入手。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:103 Started
+msgid ""
+"應用領域：可以連接LED、開關、壓力計、濕度計、PM2.5粉塵感測器等電子元件，由Ameba所收集的資料可以通過Wi-"
+"Fi無線上傳，可應用於物聯網範圍如下："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(1)智能家居"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(2)智慧城市"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(3)工業物聯網"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(4)物聯網中心/網關"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(5)智能玩具"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(6)Wi-Fi音頻/娛樂設備"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(7)遊戲操縱桿/Wi-Fi遙控器"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:119 Started
+msgid "**三、RTL8722DM相關電路板介紹：有RTL8722DM及RTL8722DM\\_MINI比較如下表所示：**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:121 Started
+msgid "|image2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:565 Started
+msgid "image2"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:123 Started
+msgid "RTL8722DM\\_MINI電路板外型如下圖(a)(b)所示："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:125 Started
+msgid "|image3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:569 Started
+msgid "image3"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:127 Started
+msgid "圖1-(a) RTL8722DM\\_MINI電路板正面圖"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:129 Started
+msgid "|image4|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:573 Started
+msgid "image4"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:131 Started
+msgid "圖1-(b) RTL8722DM\\_MINI電路板背面圖"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:133 Started
+msgid "RTL8722DM\\_MINI電路板的GPIO接腳有D0~D22共23支腳，均可作為外部中斷(INT)及兼具各種特殊功能接腳，如下表所示："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:135 Started
+msgid "|image5|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:577 Started
+msgid "image5"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:137 Started
+msgid "RTL8722DM\\_MINI內含實習電路，如下："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(1) LED電路：LED1藍(PA9)，LED2綠(PA10)，輸出高電位(1)時亮。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(2) User按鍵開關(SW2)：Button(PA20)，未按鍵時輸入為0，按鍵時輸入為1，具有防止機械彈跳電路。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(3) 麥克風(MK1)：MIC1\\_P(PA4)及MIC1\\_Bias(PA0)。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(4) 耳機(J4)：左聲道AOUTP\\_L(PB31)及右聲道AOUTP\\_R(PB29)"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(5) USB轉UART(CON3)：插入Micro "
+"USB埠提供+5V電源，轉換成工作電壓+3.3V，經FT232提供虛擬UART連接MCU的接腳FT\\_UART\\_RX(PA7)及FT\\_UART\\_TX(PA8)，來燒錄程式與UART傳輸。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(6) Download(SW1)：連接FT\\_UART\\_RX(PA7)，SW1按下再重置(Reset)會進入燒錄功能。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(7) Reset(S1)：按下時為重置(Reset)動作。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(8) Host USB(CON1)：連接HSDP(PA26)及HSDM(PA25)。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(9) Micro "
+"SD卡(CON2)：SD\\_D1(PA23)、SD\\_D0(PA22)、SD\\_CLK(PA21)、SD\\_CMD(PA20)、SD\\_D3(PA19)、SD\\_D2(PA18)，SD\\_PWR\\_EN(PA20)"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:158 Started
+msgid "RTL8722DM\\_MINI程式燒錄操作："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:160 Started
+msgid "進入下載模式：按SW1(Download)按S1(Reset)鍵放開S1(Reset)鍵放開SW1(Download)，即可進入Download(下載)模式。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:162 Started
+msgid "允許燒錄程式，燒錄程式完畢。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:164 Started
+msgid "按S1(Reset)鍵放開S1(Reset)鍵進入執行模式。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:166 Started
+msgid "**四、RTL8722DM\\_MINI的Arduino IDE開發環境：**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:168 Started
+msgid "首先使用Micro USB經CON3將RTL8722DM\\_MINI連接到電腦:"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:170 Started
+msgid "如果是第一次將RTL8722DM\\_MINI連接電腦，會自動安裝USB驅動程式(FT232)，在裝置管理員顯示連接埠COM編號(如COM５):"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:172 Started
+msgid "|image6|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:581 Started
+msgid "image6"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:174 Started
+msgid "設定Arduino IDE環境："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(1) 必須執行Arduino IDE的1.8.1以後版本，才可以使用Arduino IDE在RTL8722DM上開發應用程式，"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(2) 打開Arduino IDE的“偏好設定“，如下："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:181 Started
+msgid "|image7|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:585 Started
+msgid "image7"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(3)  並將以下網址複製到“額外的開發板管理員網址”欄位: "
+"`https://github.com/ambiot/ambd\\_arduino/raw/master/Arduino\\_package/package\\_realtek.com\\_RTL8722DM\\_MINI\\_index.json"
+" "
+"<https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json>`__"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(4) 選擇“工具”->“開發板”->“開發板管理員”:"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:188 Started
+msgid "|image8|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:589 Started
+msgid "image8"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(5) 在“開發板管理員”用RTL8722DM來尋找及點擊“安裝”，Arduino "
+"IDE會自動開始下載RTL8722DM\\_MINI所需的檔案與範例程式。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:193 Started
+msgid "|image9|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:593 Started
+msgid "image9"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(6) 開始在網路下載RTL8722DM\\_MINI所需的檔案，包括軟體開發套件(SDK: Software Development "
+"Kit)及範例程式："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:198 Started
+msgid "|image10|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:597 Started
+msgid "image10"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(7) 選擇選擇RTL8722DM\\_MINI作為開發板:"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:202 Started
+msgid "|image11|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:601 Started
+msgid "image11"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "同時會加入各種範程式，包括RTL8722DM\\_MINI的範例程式(Ameba\\*\\*\\*\\*\\*)。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:206 Started
+msgid "|image12|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:605 Started
+msgid "image12"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:208 Started
+msgid "測試GPIO輸出範例：RTL8722DM\\_MINI的GPIO接腳，如下："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(1) 開啟內部範例程式(Blink)："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:212 Started
+msgid "|image13|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:609 Started
+msgid "image13"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:214 Started
+msgid "|image14|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:613 Started
+msgid "image14"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(2) "
+"LED\\_BUILTIN預定為LED1(藍)，可改為LED\\_B(LED1藍)、LED\\_G(LED2綠)或0~22(D0~D22)。不過改為PA\\_0~PA\\_31及PB\\_0~PB\\_7雖然編譯正確，但無輸出。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(3) "
+"RTL8722DM\\_MINI程式燒錄操作順序：(a)按SW1(Download)，(b)按、放S1(Reset)鍵，(c)放開SW1(Download)鍵等待燒錄程式，燒錄完畢(d)按、放S1(Reset)鍵開始執行程式。如下圖所示："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:220 Started
+msgid "|image15|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:617 Started
+msgid "image15"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(4) 編譯並上傳：在底下視窗顯示編譯及上傳結果，如下："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:224 Started
+msgid "|image16|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:621 Started
+msgid "image16"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "a. 編譯時會顯示警告(WARNING)訊息。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "b. 編譯完畢，顯示使用程式碼(草稿)記憶體的容量(192K-byte)、比率與上限(2M-byte)。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "c. 進入上傳(upload)模式，即開始燒錄程式碼，上傳過程需要相當長的時間(大約30秒到1分鐘)。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "d. 下載完畢，按、放S1(Reset)鍵會進入執行模式，令LED1(藍)閃爍。如下圖所示："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:234 Started
+msgid "|image17|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:625 Started
+msgid "image17"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:236 Started
+msgid "測試GPIO輸入與輸出範例：由按鍵開關(PUSH\\_BTN)控制LED\\_G(綠)，如下圖所示："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:238 Started
+msgid "|image18|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:629 Started
+msgid "image18"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(1) 開啟內部範例程式(Button)：修改按鍵開關接腳為buttonPin = PUSH\\_BTN及LED接腳為ledPin = "
+"LED\\_G，如下圖所示："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:243 Started
+msgid "|image19|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:633 Started
+msgid "image19"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:245 Started
+msgid "測試ADC範例：RTL8722DM\\_MINI的ADC接腳有A0~A6，如下圖所示："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:247 Started
+msgid "|image20|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:637 Started
+msgid "image20"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid ""
+"(1) "
+"開啟內部範例程式(AnalogReadSerial)：RTL8722DM\\_MINI的ADC應為12-bit，其中在Arduino執行時bit0~1會被捨棄，可應用的數位資料僅有10-bit為0~1023。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:251 Started
+msgid "|image21|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:641 Started
+msgid "image21"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:253 Started
+msgid "|image22|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:645 Started
+msgid "image22"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(2) 其中類比輸入接腳A0可改為A0~A6。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(3) 進入序列埠監控視窗。"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:259 Started
+msgid "|image23|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:649 Started
+msgid "image23"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst Started
+msgid "(4) 在接腳D4(A0)輸入類比電壓(0~3.3V)，會在序列埠監控視窗顯示數位資料(0~1023)，顯示如下圖所示："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:263 Started
+msgid "|image24|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:653 Started
+msgid "image24"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:265 Started
+msgid "測試呼吸燈範例：RTL8722DM\\_MINI的PWM接腳，以D9(PWM)為例，如下圖所示："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:267 Started
+msgid "|image25|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:657 Started
+msgid "image25"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:269 Started
+msgid "開啟內部範例程式(Fade)：其中9(D9)外接LED，執行時可觀察呼吸燈的動作，如下所示："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:271 Started
+msgid "|image26|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:661 Started
+msgid "image26"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:273 Started
+msgid "|image27|"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:665 Started
+msgid "image27"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:275 Started
+msgid "在ARDUINO內建範例，配合RTL8722DM\\_MINI接腳可修改的名稱如下表所示："
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:278 Started
+msgid "**Category**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:278 Started
+msgid "**Name**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:278 Started
+msgid "**Comment**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:278 Started
+msgid "**Remarks**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:280 Started
+msgid "01. Basics"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:280 Started
+msgid "AnalogRead Serial"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:280 Guide.rst:411 Started
+msgid "Connect potentiometer to 3.3V."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:280 Guide.rst:305 Guide.rst:357
+#: Guide.rst:395 Guide.rst:411 Guide.rst:434 Guide.rst:441 Guide.rst:455
+#: Guide.rst:478 Guide.rst:488 Guide.rst:495 Guide.rst:502 Guide.rst:527
+#: Started
+msgid ""
+"ADC pin options A0, A1, A2, A3, A4, A5 and A6. ADC pin reading voltage "
+"range 0 to 3.3V."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:287 Started
+msgid "Bare Minimum"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:290 Started
+msgid "Blink"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:290 Started
+msgid "Pin LED_BUILTIN sets to LED_B"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:290 Started
+msgid "Onboard LEDs options LED_B and LED_G. (blue and green)"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:295 Started
+msgid "DigitalRead Serial"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:295 Started
+msgid "Onboard button PUSH_BTN."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:298 Started
+msgid "Fade"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:298 Started
+msgid ""
+"Replace \"led = 9;\" by a PWM pin (D4, D5, D7, D12, D13, D14, D17, D20, "
+"or D21). e.g. \"led = 4;\""
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:305 Started
+msgid "ReadAnalog Voltage"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:312 Started
+msgid "02. Digital"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:312 Started
+msgid "BlinkWitout Delay"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:312 Started
+msgid "The onboard blue LED (LED_B) has been used."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:312 Started
+msgid "Onboard LEDs options LED_G."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:316 Started
+msgid "Button"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:316 Guide.rst:322 Guide.rst:332 Started
+msgid "Onboard LEDs options LED_B and LED_G. Onboard button PUSH_BTN."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:322 Started
+msgid "Debounce"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:328 Started
+msgid "DigitalInput Pullup"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:328 Guide.rst:407 Guide.rst:425 Started
+msgid "Onboard LEDs options LED_B and LED_G."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:332 Started
+msgid "StateChange Detection"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:338 Started
+msgid "toneKeyboard"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:338 Started
+msgid ""
+"Replace \"tone(8, notes[thisSensor], 20);\" by a PWM pin (D4, D5, D7, "
+"D12, D13, D14, D17, D20, or D21). e.g. \"tone(21, notes[thisSensor], "
+"20);\""
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:348 Started
+msgid "toneMelody"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:351 Started
+msgid "tone Multiple"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:354 Started
+msgid "tonePitch Follower"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:357 Started
+msgid "03. Analog"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:357 Started
+msgid "AnalogIn OutSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:357 Started
+msgid ""
+"Replace \"analogOutPin = 9;\" by a PWM pin (D4, D5, D7, D12, D13, D14, "
+"D17, D20, or D21). e.g. \"analogOutPin = 4;\""
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:365 Started
+msgid "AnalogInput"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:365 Started
+msgid ""
+"Onboard LEDs options LED_B and LED_G. ADC pin reading voltage range 0 to "
+"3.3V."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:372 Started
+msgid "Analog Write Mega"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:372 Started
+msgid "Use PWM pins D4, D5, D7, D12, D13, D14, D17, D20, or D21."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:376 Started
+msgid "Calibration"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:376 Started
+msgid ""
+"Onboard LEDs options LED_B and LED_G. Onboard button PUSH_BTN. ADC pin "
+"options A0, A1, A2, A3, A4, A5 and A6. ADC pin reading voltage range 0 to"
+" 3.3V."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:388 Started
+msgid "Fading"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:388 Guide.rst:488 Started
+msgid ""
+"Replace \"ledPin = 9;\" by a PWM pin (D4, D5, D7, D12, D13, D14, D17, "
+"D20, or D21). e.g. \"ledPin = 4;\""
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:395 Started
+msgid "Smoothing"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:402 Started
+msgid "04. Communication"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:402 Started
+msgid "ASCIITable"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:407 Started
+msgid "Dimmer"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:411 Started
+msgid "Graph"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:418 Started
+msgid "Midi"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:418 Started
+msgid "Use Serial1 and pin D18, or use Serial2 and pin D1."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:422 Started
+msgid "MultiSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:425 Started
+msgid "Physical Pixel"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:429 Started
+msgid "ReadASCII String"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:429 Started
+msgid "Use PWM pin for LED (D4, D5, D7, D12, D13, D14, D17, D20, or D21)."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:434 Started
+msgid "SerialCall Response"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:441 Started
+msgid "Serial CallResponse ASCII"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:448 Started
+msgid "SerialEvent"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:451 Started
+msgid "SerialPa ssthrough"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:451 Started
+msgid "Serial options, Serial1 or Serial2."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:455 Started
+msgid "VirtualColor Mixer"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:462 Started
+msgid "05. Control"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:462 Started
+msgid "Arrays"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:462 Guide.rst:466 Guide.rst:485 Started
+msgid "Use pins D1, D2, D3, D4, D5, D6."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:466 Started
+msgid "ForLoop Iteration"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:469 Started
+msgid "IfStatement Conditional"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:469 Started
+msgid ""
+"ADC pin options A0, A1, A2, A3, A4, A5 and A6. ADC pin reading voltage "
+"range 0 to 3.3V. Onboard LEDs options LED_B and LED_G."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:478 Started
+msgid "switchCase"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:485 Started
+msgid "switchCase2"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:488 Started
+msgid "WhileStatement Conditional"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:495 Started
+msgid "06. Display"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:495 Started
+msgid "barGraph"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:502 Started
+msgid "RowColumn Scanning"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:509 Started
+msgid "07. Strings"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:509 Started
+msgid "Character Analysis"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:513 Started
+msgid "String Addition Operator"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:517 Started
+msgid "String Append Operator"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:521 Started
+msgid "StringCase Changes"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:524 Started
+msgid "String Characters"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:527 Started
+msgid "String Comparison Operators"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:534 Started
+msgid "String IndexOf"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:537 Started
+msgid "String Length"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:540 Started
+msgid "StringLength Trim"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:543 Started
+msgid "String Replace"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:546 Started
+msgid "String StartsWith EndsWith"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:550 Started
+msgid "String Substring"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/examples_and_components/Community
+#: Examples/AMB23 Getting Guide.rst:553 Started
+msgid "String ToInt"
+msgstr ""
+

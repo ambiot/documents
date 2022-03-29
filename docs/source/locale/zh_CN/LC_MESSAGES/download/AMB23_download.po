@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../source/download/AMB23_download.rst:5
 msgid "Datasheet"
-msgstr ""
+msgstr "规格表"
 
 #: ../../source/download/AMB23_download.rst:5
 msgid "User Manual"
-msgstr ""
+msgstr "说明手册"
 
 #: ../../source/download/AMB23_download.rst:3
 msgid "AMB23 (RTL8722DM MINI)"

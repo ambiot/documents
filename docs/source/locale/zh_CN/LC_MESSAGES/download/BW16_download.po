@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../source/download/BW16_download.rst:5
 msgid " Datasheet"
-msgstr ""
+msgstr "规格表"
 
 #: ../../source/download/BW16_download.rst:5
 msgid " Datasheet (Module only)"
-msgstr ""
+msgstr "规格表 (Module only)"
 
 #: ../../source/download/BW16_download.rst:3
 msgid "BW16 (RTL8720DN)"

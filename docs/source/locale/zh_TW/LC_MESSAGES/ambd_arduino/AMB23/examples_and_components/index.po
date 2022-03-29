@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/index.rst:8
 msgid "Examples & Components"
-msgstr ""
+msgstr "範例和元件"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/index.rst:22
 msgid ""

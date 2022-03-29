@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/reference_link.rst:5
 msgid "Resources"
-msgstr ""
+msgstr "资源"
 
 #: ../../source/ambd_arduino/reference_link.rst:9
 msgid "Links"

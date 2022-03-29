@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/index.rst:14
 msgid "Table of Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/ambd_arduino/AMB23/index.rst:8
 msgid "AMB23 (RTL8722DM MINI)"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/index.rst:10
 msgid "Welcome to AMB23 Arduino online documentation."
-msgstr ""
+msgstr "欢迎来到AMB23 Arduino 线上文档"
 
 #: ../../source/ambd_arduino/AMB23/index.rst:12
 msgid "|image1|"
