@@ -20,7 +20,7 @@ msgstr ""
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community
 #: Examples/AMB23 Getting Guide.rst:3 Started
 msgid "AMB23 Getting Started Guide"
-msgstr ""
+msgstr "AMB23 入門操作"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community
 #: Examples/AMB23 Getting Guide.rst:5 Started

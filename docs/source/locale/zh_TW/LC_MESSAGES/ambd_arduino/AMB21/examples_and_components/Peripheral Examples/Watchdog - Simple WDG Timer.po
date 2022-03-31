@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:3
 #: WDG
 msgid "Watchdog - Simple WDG Timer"
-msgstr ""
+msgstr "Watchdog - 簡單的 WDG 定時器"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:8
 #: WDG

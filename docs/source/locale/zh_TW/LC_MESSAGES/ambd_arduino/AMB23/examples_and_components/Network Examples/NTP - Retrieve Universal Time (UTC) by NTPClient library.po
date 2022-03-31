@@ -20,7 +20,7 @@ msgstr ""
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:3
 msgid "NTP - Retrieve Universal Time (UTC) by NTPClient library"
-msgstr ""
+msgstr "NTP - 通過 NTPClient 庫檢索世界時 （UTC）"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:8

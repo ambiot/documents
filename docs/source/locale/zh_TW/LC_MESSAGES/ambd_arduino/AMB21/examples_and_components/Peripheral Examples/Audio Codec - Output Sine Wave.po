@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Output Sine
 #: Wave.rst:3
 msgid "Audio Codec – Output Sine Wave"
-msgstr ""
+msgstr "Audio Codec - 輸出正弦波"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Output Sine
 #: Wave.rst:8

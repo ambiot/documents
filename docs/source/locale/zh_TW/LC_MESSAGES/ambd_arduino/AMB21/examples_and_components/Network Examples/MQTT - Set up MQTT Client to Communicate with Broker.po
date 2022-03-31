@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:3 Client
 #: Communicate MQTT Set to up with
 msgid "MQTT - Set up MQTT Client to Communicate with Broker"
-msgstr ""
+msgstr "MQTT - 設置 MQTT 客戶端與 Broker 通信 "
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:8 Client
 #: Communicate MQTT Set to up with

@@ -1,5 +1,5 @@
 ##################################################################
-ambd_arduino/AmebaMotors - Use Ameba as Server to Control Motors
+AmebaMotors - Use Ameba as Server to Control Motors
 ##################################################################
 
 .. role:: raw-html(raw)

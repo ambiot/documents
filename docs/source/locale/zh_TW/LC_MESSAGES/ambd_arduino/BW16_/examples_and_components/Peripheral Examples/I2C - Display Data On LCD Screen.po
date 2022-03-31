@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
 #: Screen.rst:3
 msgid "I2C - Display Data On LCD Screen"
-msgstr ""
+msgstr "I2C - 使用 LCD 並在 LCD 上顯示資料"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
 #: Screen.rst:8

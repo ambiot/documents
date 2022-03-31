@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:3
 msgid "BLE - BLE Battery Service"
-msgstr ""
+msgstr "BLE - 電池服務"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:8
 msgid ""

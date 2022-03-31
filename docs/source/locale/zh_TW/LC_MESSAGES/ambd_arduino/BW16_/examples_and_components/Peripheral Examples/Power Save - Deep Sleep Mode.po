@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:3 Save
 #: Sleep
 msgid "Power Save - Deep Sleep Mode"
-msgstr ""
+msgstr "Power Save - 省電深度睡眠模式"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:8 Save
 #: Sleep

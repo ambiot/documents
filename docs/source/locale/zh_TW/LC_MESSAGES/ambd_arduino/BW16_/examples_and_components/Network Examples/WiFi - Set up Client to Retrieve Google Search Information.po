@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:3 Retrieve Search Set to up
 msgid "WiFi - Set up Client to Retrieve Google Search Informations"
-msgstr ""
+msgstr "WiFi - 設置客戶端以檢索 Google 搜索信息"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:8 Retrieve Search Set to up

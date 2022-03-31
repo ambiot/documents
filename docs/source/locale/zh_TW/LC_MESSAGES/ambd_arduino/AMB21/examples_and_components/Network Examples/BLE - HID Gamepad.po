@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:3 HID
 msgid "BLE - HID Gamepad"
-msgstr ""
+msgstr "BLE - HID 游戲控制器"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:8 HID
 msgid ""

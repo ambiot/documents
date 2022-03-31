@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:3 Simple
 msgid "RTC - Simple RTC"
-msgstr ""
+msgstr "RTC - RTC 簡單範例 "
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:8 Simple
 msgid ""

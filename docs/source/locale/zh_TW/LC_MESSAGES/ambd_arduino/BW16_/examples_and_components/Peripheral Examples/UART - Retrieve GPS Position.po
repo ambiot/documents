@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:3
 #: Retrieve
 msgid "UART - Retrieve GPS Position"
-msgstr ""
+msgstr "UART - 檢索 GPS 位置"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:8
 #: Retrieve

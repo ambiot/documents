@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:3
 msgid "BLE – BLE Beacon"
-msgstr ""
+msgstr "BLE - 廣播信標"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:8
 msgid ""

@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:3 Play
 #: Record Wav and
 msgid "Audio Codec – Play and Record Wav Files"
-msgstr ""
+msgstr "Audio Codec - 播放與錄製 wav 檔案"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:8 Play
 #: Record Wav and

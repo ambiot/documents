@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:3 Ultrasound
 msgid "GPIO - Measure Distance By Ultrasound Module"
-msgstr ""
+msgstr "GPIO - 通過超聲波模組測量距離"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:8 Ultrasound

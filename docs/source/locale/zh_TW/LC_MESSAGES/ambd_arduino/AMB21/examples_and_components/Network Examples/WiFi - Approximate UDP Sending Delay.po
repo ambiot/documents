@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:3
 #: Sending UDP
 msgid "WiFi - Approximate UDP Sending Delay"
-msgstr ""
+msgstr "WiFi - 估算 UDP 數據發送延遲"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:8
 #: Sending UDP

@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:3
 #: surrounding the
 msgid "WiFi - Scan the surrounding WiFi networks"
-msgstr ""
+msgstr "WiFi - 掃描周圍的 WiFi 網路"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:8
 #: surrounding the

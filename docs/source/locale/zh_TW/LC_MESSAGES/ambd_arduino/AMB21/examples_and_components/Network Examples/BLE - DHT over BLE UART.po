@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:3 over
 msgid "BLE – DHT over BLE UART"
-msgstr ""
+msgstr "BLE - UART DHT 功能"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:8 over
 msgid ""

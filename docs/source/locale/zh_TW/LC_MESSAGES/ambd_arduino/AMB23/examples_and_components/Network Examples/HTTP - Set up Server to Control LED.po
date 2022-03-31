@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:3 Server
 #: Set to up
 msgid "HTTP - Set up Server to Control LED"
-msgstr ""
+msgstr "HTTP - 設置伺服器以控制 LED"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:8 Server
 #: Set to up

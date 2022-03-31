@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:3 Periodic
 #: The Using
 msgid "GTimer - Using The Periodic GTimer"
-msgstr ""
+msgstr "GTimer - 使用周期性的 GTimer"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:8 Periodic
 #: The Using
