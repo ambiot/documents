@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:3
 msgid "BLE – Battery Client"
-msgstr ""
+msgstr "BLE - 电池客户端"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:8
 msgid ""

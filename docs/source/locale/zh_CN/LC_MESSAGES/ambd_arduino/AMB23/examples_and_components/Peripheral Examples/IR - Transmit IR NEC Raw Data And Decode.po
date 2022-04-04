@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:3 IR
 #: NEC Raw Transmit
 msgid "IR - Transmit IR NEC Raw Data And Decode"
-msgstr ""
+msgstr "IR - 传输 IR NEC 原始数据并解码"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:8 IR
 #: NEC Raw Transmit

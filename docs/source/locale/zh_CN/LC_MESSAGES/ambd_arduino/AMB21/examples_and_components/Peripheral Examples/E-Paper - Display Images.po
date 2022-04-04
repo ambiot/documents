@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Images.rst:3
 msgid "E-Paper - Display Images"
-msgstr ""
+msgstr "E-paper - 显示图像"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Images.rst:8
 msgid ""

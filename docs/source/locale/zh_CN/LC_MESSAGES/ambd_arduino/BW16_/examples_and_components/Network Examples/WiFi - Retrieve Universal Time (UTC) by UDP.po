@@ -20,7 +20,7 @@ msgstr ""
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:3 Universal by
 msgid "WiFi - Retrieve Universal Time (UTC) by UDP"
-msgstr ""
+msgstr "WiFi - 使用 UDP 取得国际标准时间"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:8 Universal by

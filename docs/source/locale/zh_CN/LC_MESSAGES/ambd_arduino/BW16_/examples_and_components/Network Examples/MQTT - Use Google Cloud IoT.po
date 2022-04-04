@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:3 Use
 msgid "MQTT - Use Google Cloud IoT"
-msgstr ""
+msgstr "MQTT - 使用 Google Cloud IoT"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:8 Use
 msgid ""

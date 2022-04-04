@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:3
 msgid "BLE - HID Mouse"
-msgstr ""
+msgstr "BLE - HID 滑鼠"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:8
 msgid ""

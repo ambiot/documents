@@ -34,12 +34,12 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:18px\">` There are many "
 "built-in examples in Arduino. In the table below, we list all examples "
 "that are compatible with Ameba. :raw-html:`</p>`"
-msgstr ""
+msgstr "Arduino内建许多Example，底下的列表是Ameba支援的内建范例。"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Basic
 #: Examples.rst:17
 msgid "Please refer to the following link to set up Ameba for Arduino IDE."
-msgstr ""
+msgstr "请参考以下链接来设置Ameba与Arduino IDE。"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Basic
 #: Examples.rst:18
@@ -49,7 +49,7 @@ msgstr ""
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Basic
 #: Examples.rst:19
 msgid "Please refer to the following link for Arduino built-in example details."
-msgstr ""
+msgstr "有关Arduino内建范例详细信息，请参阅以下链接。"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Basic
 #: Examples.rst:20

@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:3 Measure
 #: Temperature and
 msgid "GPIO - Measure Temperature and Humidity"
-msgstr ""
+msgstr "GPIO - 测量温度"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:8 Measure
 #: Temperature and

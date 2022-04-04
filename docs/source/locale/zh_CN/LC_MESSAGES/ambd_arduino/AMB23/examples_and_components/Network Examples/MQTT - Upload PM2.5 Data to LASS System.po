@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
 #: System.rst:3 Upload to
 msgid "MQTT - Upload PM2.5 Data to LASS System"
-msgstr ""
+msgstr "MQTT - 将 PM2.5 数据上传到 LASS 系统"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
 #: System.rst:8 Upload to

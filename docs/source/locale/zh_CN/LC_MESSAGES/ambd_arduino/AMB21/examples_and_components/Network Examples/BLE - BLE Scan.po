@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:3
 msgid "BLE – BLE Scan"
-msgstr ""
+msgstr "BLE - 扫描附近设备"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:8
 msgid ""

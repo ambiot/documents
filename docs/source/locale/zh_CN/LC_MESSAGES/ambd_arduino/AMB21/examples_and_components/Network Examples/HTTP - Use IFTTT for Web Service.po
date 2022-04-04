@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:3 Use
 #: Web for
 msgid "HTTP - Use IFTTT for Web Service"
-msgstr ""
+msgstr "HTTP - 将 IFTTT 用于 Web 服务"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:8 Use
 #: Web for

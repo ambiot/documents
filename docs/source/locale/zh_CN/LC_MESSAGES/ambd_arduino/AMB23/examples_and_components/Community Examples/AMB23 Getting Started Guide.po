@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-28 09:17+0100\n"
+"POT-Creation-Date: 2022-04-01 08:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community
 #: Examples/AMB23 Getting Guide.rst:3 Started
-msgid "AMB23 Getting Started Guide"
+msgid "AMB23 Getting Started Guide 中文版 AMB23 入門指南"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community
@@ -1312,4 +1312,7 @@ msgstr ""
 #: Examples/AMB23 Getting Guide.rst:553 Started
 msgid "String ToInt"
 msgstr ""
+
+#~ msgid "AMB23 Getting Started Guide"
+#~ msgstr ""
 

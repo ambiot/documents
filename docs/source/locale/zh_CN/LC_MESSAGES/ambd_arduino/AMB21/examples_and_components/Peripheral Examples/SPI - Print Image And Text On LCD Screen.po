@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:3 Text
 msgid "SPI – Print Image And Text On LCD Screen"
-msgstr ""
+msgstr "SPI - 使用 LCD 荧幕印出图案与文字"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:5 Text

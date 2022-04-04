@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:3 Display
 #: QR User-generated
 msgid "E-Paper - Display User-generated QR Code"
-msgstr ""
+msgstr "E-Paper - 显示用户生成的QR码"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:8 Display
 #: QR User-generated

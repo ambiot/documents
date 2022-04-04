@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:3 RTC Simple
 msgid "RTC - Simple RTC Alarm"
-msgstr ""
+msgstr "RTC - 简单 RTC 闹钟"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:8 RTC Simple
 msgid ""

@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:3 over
 msgid "BLE – PWM over BLE UART"
-msgstr ""
+msgstr "BLE - UART PWM 功能"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:8 over
 msgid ""

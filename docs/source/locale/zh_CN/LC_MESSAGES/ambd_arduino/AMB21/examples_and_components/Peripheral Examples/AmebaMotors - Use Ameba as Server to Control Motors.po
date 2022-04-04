@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:3 Server Use as to
 msgid "AmebaMotors - Use Ameba as Server to Control Motors"
-msgstr ""
+msgstr "AmebaMotors - 使用 Ameba 作为服务器来控制小车"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:8 Server Use as to

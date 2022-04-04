@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:3 On PM2.5 Show TFT
 msgid "SPI – Show PM2.5 Concentration On ILI9341 TFT LCD"
-msgstr ""
+msgstr "SPI - 将 PM2.5 的数值显示在 ILI9341 TFT LCD 上"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:5 On PM2.5 Show TFT

@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:3 Concentration
 #: PM2.5 The in
 msgid "UART - PM2.5 Concentration in The Air"
-msgstr ""
+msgstr "UART - PM2.5 空气悬浮粒子读数"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:8 Concentration
 #: PM2.5 The in
