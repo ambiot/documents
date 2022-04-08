@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-04-08 03:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:10
 msgid "Required Environment"
-msgstr ""
+msgstr "工作環境"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:12
 msgid ""
@@ -35,10 +35,12 @@ msgid ""
 "and 64-bits operating systems. In this documentation, please use Arduino "
 "IDE with version 1.8.15 or later."
 msgstr ""
+"BW16 雙頻 Wi-Fi 開發板目前支援 Windows XP/7/8/10 32 位元和 64 位元作業系統。在本文檔中，請使用 1.8.15"
+" 或更高版本的 Arduino IDE。"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:16
 msgid "Introduction to BW16"
-msgstr ""
+msgstr "BW16 介紹"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:18
 msgid ""
@@ -49,12 +51,15 @@ msgid ""
 "(System on Chip), it can be regarded as an SoC for the Wi-Fi and "
 "Bluetooth application with typical SBCs."
 msgstr ""
+"Realtek RTL8720DN 是一款 Wi-Fi 和藍牙IC， 支持2.4GHz和 5GHz 雙頻 Wi-Fi 通信，以及藍牙低能耗 "
+"(BLE)5.0。BW16 是深川市博安通科技股份有限公司 （B&T）生產的模塊，該模塊是以 RTL8720DN SoC 爲主的 Wi-Fi "
+"和藍牙模塊它可以被看作是與典型 SBC 一起用於 Wi-Fi 和藍牙應用的SoC。"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:23
 msgid "|bw16-get-start-1|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:314
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:315
 msgid "bw16-get-start-1"
 msgstr ""
 
@@ -65,12 +70,14 @@ msgid ""
 "devices. Please refer to the following figure and table for the pin "
 "diagram and function of BW16."
 msgstr ""
+"如上圖所示，BW16 的尺寸小於我們以往介紹的 AMB21 和 AMB23 開發板。它使用 Micro USB "
+"接口供電，這種供電方式在許多智能設備中很常見。BW16 的引腳圖和功能請參考下圖和表格。"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:29
 msgid "|bw16-get-start-2|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:318
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:319
 msgid "bw16-get-start-2"
 msgstr ""
 
@@ -272,99 +279,105 @@ msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:52
 msgid "Setting up Development Environment"
-msgstr ""
+msgstr "設置開發環境"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:55
 msgid "Step 1. Installing the Driver"
-msgstr ""
+msgstr "步驟一、安裝驅動程序"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:58
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:57
 msgid "First, connect BW16 to the computer via Micro USB:"
-msgstr ""
+msgstr "首先，通過 Micro USB 將 BW16 連接到電腦："
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:58
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:59
 msgid "|bw16-get-start-3|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:322
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:323
 msgid "bw16-get-start-3"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:61
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:62
 msgid ""
 "If this is the first time you connect BW16 to your computer, here is "
 "something that you might take note of:"
-msgstr ""
+msgstr "如果這是您第一次將 BW16 連接到電腦，請注意以下事項。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:65
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:66
 msgid ""
 "From the pinmap above, we know D0 and D1 pins are used for program "
 "uploading. However, according to the schematic design of AI Thinker, the "
 "onboard USB-to-UART module is connected to D4 and D5 which cannot be "
 "directly used for program upload."
 msgstr ""
+"從上面的引腳圖中，我們知道引腳 D0 和 D1可以被用於程序上傳。"
+"但是，根據安信可的原理圖設計，板載USB轉UART模組連接到引腳 D4 和 D5，"
+"因此該USB轉UART模組並不能直接用於程式上傳。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:68
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:69
 msgid ""
 "In order to upload firmware to this board, we suggested that you could "
 "choose to add in an external USB-to-UART module connecting to D0 and D1 "
 "as shown in the pin connection below:"
-msgstr ""
+msgstr "所以，為了將固件上傳到此主板，我們建議您選擇添加連接到 D0 和 D1 的外部 USB 轉 UART 模組，如下面的引腳連接所示："
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:70
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:71
 msgid "|bw16-get-start-4|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:326
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:327
 msgid "bw16-get-start-4"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:72
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:73
 msgid ""
 "Optionally, you could short the pins indicated below to use the on-board "
 "USB:"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:73
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:216
-msgid "D1 ––– D5"
-msgstr ""
+msgstr "或者，您也可以按照下表中所示，將引脚短接後使用板載的USB轉UART模塊進行程式碼上傳"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:74
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:217
+msgid "D1 ––– D5"
+msgstr ""
+
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:75
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:218
 msgid "D0 ––– D4"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:76
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:215
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:77
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:216
 msgid "|bw16-get-start-5|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:330
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:331
 msgid "bw16-get-start-5"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:81
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:82
 msgid ""
 "After connecting accordingly, the USB driver for BW16 will be "
 "automatically installed. If you have driver issue of connecting board, "
 "please go to http://www.wch-ic.com/downloads/CH341SER_ZIP.html for USB "
 "driver. You can check the COM Port number in your Device Manager:"
 msgstr ""
+"用USB將開發板連接至電腦後，電腦將自動安裝用於BW16/RTL8720DN的USB驅動程序。"
+"如果您在安裝驅動時遇到任何與開發板的連接問題，請前往 http://www.wch-ic.com/downloads/CH341SER_ZIP.html 網址下載USB驅動程式。"
+"安裝完成後，您可以在電腦裝置管理員中檢查 COM 端口以確認驅動安裝正確，電腦可以識別BW16開發板："
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:83
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:84
 msgid "|bw16-get-start-6|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:334
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:335
 msgid "bw16-get-start-6"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:86
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:87
 msgid "Step 2. Set up Arduino IDE"
-msgstr ""
+msgstr "步驟二、設定 Arduino IDE"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:88
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:89
 msgid ""
 "From version 1.6.5, Arduino IDE supports third-party hardware. "
 "TTherefore, we can use Arduino IDE to develop applications on BW16, and "
@@ -372,42 +385,46 @@ msgid ""
 ":doc:`Basic Examples </ambd_arduino/BW16_/examples_and_components/Basic "
 "Examples>`."
 msgstr ""
+"從 1.6.5 版本開始，Arduino IDE 支持第三方硬件。"
+"因此，我們可以使用Arduino IDE在RTL8720DN（BW16）開發應用程序，"
+"Arduino的基本範例也可以在 BW16 上運行。請參閱 "
+":doc:`基本範例 </ambd_arduino/BW16_/examples_and_components/Basic Examples>` 。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:93
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:94
 msgid ""
 "Arduino IDE can be downloaded in the `Arduino website "
 "<https://www.arduino.cc/en/Main/Software>`_."
-msgstr ""
+msgstr "Arduino IDE可以在 `Arduino 網站 <https://www.arduino.cc/en/Main/Software>`_ 下載。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:96
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:97
 msgid ""
 "When the installation is finished, open Arduino IDE. To set up BW16 "
 "correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`."
-msgstr ""
+msgstr "安裝完成後，打開Arduino IDE。為了在Arduino IDE中正常使用 BW16，請打開“File” -> “Preferences”。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:99
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:100
 msgid ""
 "And paste the following URL into :guilabel:`“Additional Boards Manager "
 "URLs”` field::"
-msgstr ""
+msgstr "並將以下 URL 複製到 “Additional Boards Manager URLs” 欄位:"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:103
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:104
 msgid "BW16 will be supported from v3.0.8 officially."
-msgstr ""
+msgstr "從 v3.0.8版本開始，Ameba Arduino將正式支持 BW16 開發板。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:107
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:108
 msgid "Next, go to :guilabel:`“Tools” -> “Board” -> “Boards Manager”`:"
-msgstr ""
+msgstr "接下來，打開Arduino IDE 中 “Tools”->”Board”->”Boards Manager”："
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:109
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:110
 msgid "|bw16-get-start-7|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:338
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:339
 msgid "bw16-get-start-7"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:111
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:112
 msgid ""
 "The :guilabel:`“Boards Manager”` requires about 10~20 seconds to refresh "
 "all hardware files (if the network is in bad condition, it may take "
@@ -417,91 +434,99 @@ msgid ""
 "Cortex-M33 @200MHz)”` in the list, click :guilabel:`“Install”`, then the "
 "Arduino IDE starts to download required files for RTL8722DM."
 msgstr ""
+"“Boards Manager”大約需要10~20秒來刷新所有硬件文件(如果網絡狀況不好，可能需要更長的時間)。"
+"每次連接新硬件時，我們都需要重新打開Boards Manager。因此，我們先關閉然後再次打開它。"
+"在列表中找到“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”，點擊“Install”，Arduino IDE會自動開始下載AmebaD所需的文件。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:119
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:120
 msgid "|bw16-get-start-8|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:342
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:343
 msgid "bw16-get-start-8"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:123
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:124
 msgid ""
 "If you are facing GitHub downloading issue, please refer to the following"
 " link at `Download/Software Development Kit`_. There are 3 sections:"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:125
-msgid ""
-"“AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There "
-"are 5 latest released SDK options."
-msgstr ""
+msgstr "如果您遇到 GitHub 下載問題，請參考以下 `Download/Software Development Kit`_ 中的鏈接。有3個部分。"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:126
 msgid ""
-"“AmebaD_Arduino_patch2_Tools”, please select according to your operation "
-"system. There are Windows, Linux and MacOS."
-msgstr ""
+"“AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There "
+"are 5 latest released SDK options."
+msgstr "“AmebaD_Arduino_patch1_SDK”，請至少選擇 1 個 SDK。目前有 5 個最新發布的 SDK 選項。"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:127
 msgid ""
+"“AmebaD_Arduino_patch2_Tools”, please select according to your operation "
+"system. There are Windows, Linux and MacOS."
+msgstr "“AmebaD_Arduino_patch2_Tools”，請根據您的作業系統進行選擇。有 Windows、Linux 和 MacOS。"
+
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:128
+msgid ""
 "“AmebaD_Arduino_Source_Code”, this section is optional download only "
 "wants to refer the latest source code."
-msgstr ""
+msgstr "“AmebaD_Arduino_Source_Code”，此部分為可選下載，用來參考最新原始碼。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:131
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:132
 msgid ""
 "Download the files selected, then unzip (patch1 and patch2 are "
 "compulsory). There are “Install.doc”/“Install.pdf” for you to refer "
 "installation steps. According to your system, please run the installation"
 " tool in the “Offline_SDK_installation_tool” folder."
 msgstr ""
+"下載選擇的文件，然後解壓（patch1 和patch2 是必須的）。"
+"有“Install_中文.doc”/“Install_中文.pdf”供您參考安裝步驟。根據您的系統，請運行“Offline_SDK_installation_tool”文件夾中的安裝工具。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:136
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:137
 msgid ""
 "After the installation tool running successfully, you may open Arduino "
 "IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. "
 "Try to find :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 "
 "@200MHz)”`` in the list, click :guilabel:`“Install”`, then the Arduino "
 "IDE starts to download required files for AmebaD."
-msgstr ""
+msgstr "" 
+"安裝工具運行成功後，您可以打開Arduino IDE並選擇 “tools” -> “Board“ -> “Boards Manager…”。"
+"嘗試在列表中找到“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”，"
+"點擊“Install”，Arduino IDE開始下載AmebaD所需的文件。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:144
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:145
 msgid ""
 "Finally, we select RTL8722DM as current connected board in "
 ":guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” "
 "RTL8722DM”`："
-msgstr ""
+msgstr "最後，我們在“tools”->“Board”->“Ameba ARM (32-bits) Boards”->” RTL8720DN（BW16）”中選擇了AmebaD作為當前連接的開發板:"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:147
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:148
 msgid "|bw16-get-start-9|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:346
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:347
 msgid "bw16-get-start-9"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:151
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:152
 msgid "How to upload firmware into BW16"
-msgstr ""
+msgstr "如何更新BW16軔體"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:155
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:156
 msgid ""
 "Depending on the batch of manufacturing, some BW16 modules on the "
 "development board might have built-in the default B&T firmware, the "
 "firmware information is shown in the image below:"
-msgstr ""
+msgstr "根據生產批次的不同，開發板上的部分 BW16 模塊可能內置了默認的 B&T 軔體，軔體信息如下圖所示："
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:157
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:158
 msgid "|bw16-get-start-10|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:350
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:351
 msgid "bw16-get-start-10"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:163
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:164
 msgid ""
 "This will cause Arduino Image unable to flash into the module. Although "
 "information of “All images are sent successfully! Image tool closed! "
@@ -509,28 +534,30 @@ msgid ""
 "image is unable to be erased. Unfortunately after press the onboard RST "
 "button, you will find the factory image still remains in the flash."
 msgstr ""
+"這將導致 Arduino Image 無法寫入模塊。 雖然有“All images are sent successfully! Image tool closed! Upload Image did.”的信息。"
+"但無法清除出廠Image，按下板載 RST 按鈕後，您會發現出廠Image仍然保留著。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:167
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:168
 msgid ""
 "Arduino IDE provides many built-in examples, which can be compiled, "
 "uploaded and run directly on the boards. Here, we take the “Blink” "
 "example as the first try."
-msgstr ""
+msgstr "Arduino IDE提供了很多內置的範例，可以在開發板上直接編譯、上傳和運行。這裡，我們以“Blink”為例進行第一次嘗試。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:168
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:239
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:169
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:240
 msgid "Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:"
-msgstr ""
+msgstr "打開 “File” -> “Examples” -> “01.Basics” -> “Blink”:"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:173
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:174
 msgid "Uploading Solution"
-msgstr ""
+msgstr "解決上傳方法"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:176
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:177
 msgid "Method 1: Use AmebaD Image Tool to erase flash"
-msgstr ""
+msgstr "方法1 – 使用AmebaD Image Tool清除Flash"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:182
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:183
 msgid ""
 "The B&T default factory image can be washed using “Erase” function "
 "provided by Realtek’s Image Tool. Using Image Tool to erase the flash "
@@ -538,114 +565,118 @@ msgid ""
 "2MB memory location, later on, we need to upload Realtek’s image back to "
 "the module again using Arduino IDE."
 msgstr ""
+"B&T預設軔體可以通過Realtek提供的Image Tool使用“Erase”功能來進行更新。"
+"使用 Image Tool 從記憶體位址 0x8000_0000 開始清除Flash image，直到 2MB 內存位置結束，"
+"稍後，我們需要使用 Arduino IDE 再次將 Realtek image上傳回模塊。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:183
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:184
 msgid "|bw16-get-start-11|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:354
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:355
 msgid "bw16-get-start-11"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:186
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:187
 msgid "Step 1 – Download and prepare the Image Tool"
-msgstr ""
+msgstr "步驟1 -下載並準備 Image Tool."
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:188
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:189
 msgid ""
 "Download ambd_sdk from the link ambiot GitHub: "
 "https://github.com/ambiot/ambd_sdk."
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:189
-msgid "The Realtek’s Image Tool can be found under the following file path:"
-msgstr ""
+msgstr "從 ambiot GitHub 的鏈接下載 ambd_sdk: https://github.com/ambiot/ambd_sdk 。"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:190
+msgid "The Realtek’s Image Tool can be found under the following file path:"
+msgstr "Realtek 的 Image Tool 可以在以下文件路徑下找到"
+
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:191
 msgid ":guilabel:`“ambd_sdk\\\\tools\\\\AmbaD\\\\Image_tool\\\\image_tool.exe”`"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:191
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:243
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:192
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:244
 msgid "Arduino IDE opens a new window with the complete sample code."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:194
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:195
 msgid "Step 2 – Setup the Image Tool"
-msgstr ""
+msgstr "步驟2 – 設定 Image Tool"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:196
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:197
 msgid ""
 "In the “Chip Select” option, choose “AmebaD(8721D)” which is also "
 "suitable for RTL8720DN chip."
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:197
-msgid "Select correct COM Port that you are using."
-msgstr ""
+msgstr "“Chip Select” 選項中, 選擇 “AmebaD(8721D)”"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:198
-msgid "Set the Baudrate to “115200”."
-msgstr ""
+msgid "Select correct COM Port that you are using."
+msgstr "選擇您正在使用的正確 COM 端口"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:199
+msgid "Set the Baudrate to “115200”."
+msgstr " 設定Baudrate至“115200”"
+
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:200
 msgid ""
 "Then key in the Flash Erase starting position from Memory Address of "
 "0x0800 0000."
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:200
-msgid "The size to be 2048 KB."
-msgstr ""
+msgstr "然後從Memory Address 0x0800 0000 開始鍵入Flash Erase 起始位置"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:201
-msgid "Set the module to “Download mode” first, then click the “Erase” button."
-msgstr ""
+msgid "The size to be 2048 KB."
+msgstr "具體內存大小為2048 KB"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:203
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:202
+msgid "Set the module to “Download mode” first, then click the “Erase” button."
+msgstr "首先將模塊設置為“Download mode”，然後單擊“Erase”按鈕"
+
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:204
 msgid "|bw16-get-start-12|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:358
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:359
 msgid "bw16-get-start-12"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:206
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:207
 msgid ""
 "Upon finishing the above image erase and press the reset button, we could"
 " find that the ``\"#calibration\"`` will no longer pop out, only "
 "``\"#\"`` will appear in the Serial Monitor."
-msgstr ""
+msgstr "完成上面的清除並按重置按鈕後，我們可以發現“#calibration”不再彈出，只有“#”出現在serial monitor中。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:207
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:208
 msgid "|bw16-get-start-13|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:362
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:363
 msgid "bw16-get-start-13"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:210
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:211
 msgid "Step 3 – Download Image using Arduino IDE"
-msgstr ""
+msgstr "步驟3 – 使用Arduino IDE 下載 Image"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:214
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:215
 msgid ""
 "Now you are able to download the program via UART in Ardunio IDE. In "
 "order to upload the program, you could choose to either use an external "
 "USB-to-UART module connecting to D0 and D1, or short the pins indicated "
 "below to use the on-board USB:"
-msgstr ""
+msgstr "現在您可以在 Arduio IDE 中通過 UART 下載程序。 為了上傳程序，"
+"您可以選擇使用連接到 D0 和 D1 的外部 USB-to-UART 模塊，或短接如下所示的引腳以使用板載 USB："
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:221
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:222
 msgid "Optional Uploading Solution"
-msgstr ""
+msgstr "解決上傳方法"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:224
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:225
 msgid "OTA (Over The Air)"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:226
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:227
 #, python-format
 msgid ""
 "Ai-Thinker is providing a guide for OTA firmware upload in Section 6.1 of"
@@ -653,188 +684,200 @@ msgid ""
 "this `link <https://docs.ai-thinker.com/_media/rtl8710/docs/rtl8720d-"
 "at%E6%8C%87%E4%BB%A4%E6%89%8B%E5%86%8Cv2.4.1-20190814.pdf>`_ here."
 msgstr ""
+"Ai-Thinker 在 B&T 《RTL8720D AT Command User Manual》的 6.1 節中提供了 OTA 軔體上傳指南，可從以下鏈接獲取："
+"https://docs.ai-thinker.com/_media/rtl8710/docs/rtl8720d-at%E6%8C%87%E4%BB%A4%E6%89%8B%E5%86%8Cv2.4.1-20190814.pdf."
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:232
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:233
 msgid "Try the First Example"
-msgstr ""
+msgstr "嘗試第一個範例"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:235
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:236
 msgid "Step 1. Compile & Upload"
-msgstr ""
+msgstr "步驟一、編譯和上傳"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:237
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:238
 msgid ""
 "Arduino IDE provides many built-in examples, which can be compiled, "
 "uploaded, and run directly on the boards."
-msgstr ""
+msgstr "Arduino IDE提供了很多內置的範例，可以在開發板上直接編譯、上傳和運行。這裡，我們以“Blink”為例進行第一次嘗試。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:238
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:239
 msgid "Here, we take the “Blink” example as the first try."
-msgstr ""
+msgstr "打開 “File” -> “Examples” -> “01.Basics” -> “Blink”:"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:241
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:242
 msgid "|bw16-get-start-14|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:366
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:367
 msgid "bw16-get-start-14"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:245
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:246
 msgid "|bw16-get-start-15|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:370
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:371
 msgid "bw16-get-start-15"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:249
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:250
 msgid ""
 "There is an onboard LED of BW16, the default ``LED_BUILTIN`` is a green "
 "onboard LED. Change ``LED_BUILTIN`` to ``LED_B`` or ``LED_R`` for "
 "different colors such as blue and red. Here we use ``LED_B`` for "
 "demonstration purpose."
 msgstr ""
+"BW16 的開發板上帶有板載 LED， 默認的”LED_BUILTIN”代表綠色板載 LED。"
+"將”LED_BUILTIN”更改為”LED_B”或”LED_R”則可以將顔色轉換爲藍色或者紅色。這裡，我們使用LED_B為例。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:251
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:252
 msgid ""
 "Next, we compile the sample code directly; click :guilabel:`“Sketch” -> "
 "“Verify/Compile”`"
-msgstr ""
+msgstr "接下來，我們直接編譯範例代碼，點擊“Sketch”->“Verify/Compile”"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:253
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:254
 msgid "|bw16-get-start-16|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:374
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:375
 msgid "bw16-get-start-16"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:257
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:258
 msgid ""
 "Arduino IDE prints the compiling messages in the bottom area of the IDE "
 "window. When the compilation is finished, you will get the message "
 "similar to the following figure:"
-msgstr ""
+msgstr "Arduino IDE在IDE窗口的底部區域打印編譯消息。編譯完成後，會得到如下圖所示的消息:"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:259
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:260
 msgid "|bw16-get-start-17|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:378
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:379
 msgid "bw16-get-start-17"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:261
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:262
 msgid "Afterwards, we will upload the compiled code to BW16."
-msgstr ""
+msgstr "之後，我們將把編譯後的代碼上傳到 BW16。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:264
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:265
 msgid ""
 "Please make sure BW16 is connected to your computer, then click "
 ":guilabel:`“Sketch” -> “Upload”`."
-msgstr ""
+msgstr "請確保 BW16 已連接到您的電腦，然後單擊“Sketch” -> “Upload”。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:269
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:270
 msgid ""
 "The Arduino IDE will compile first then upload. During the uploading "
 "process, users are required to enter the upload mode of the board. To "
 "enter the upload mode, first press and hold the BW16 “Burn” button, press"
 " the “RST” button, and then release the “Burn” button."
 msgstr ""
+"Arduino IDE將先編譯，然後上傳。在上傳過程中，用戶需要將開發板調至上傳模式。"
+"要進入上傳模式，首先按住 BW16 “Burn”鍵，按下“RST”鍵，然後鬆開“Burn”鍵。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:271
+
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:272
 msgid "|bw16-get-start-18|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:382
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:383
 msgid "bw16-get-start-18"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:274
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:275
 msgid ""
 "Press “Upload” button in Arduino IDE to compile and upload the program. "
 "Arduino IDE will wait for 5s for the development board to enter the "
 "upload mode."
-msgstr ""
+msgstr "Arduino IDE會等待5秒鐘，等待開發板進入上傳模式。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:275
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:276
 msgid "|bw16-get-start-19|"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:386
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:387
 msgid "bw16-get-start-19"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:278
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:279
 msgid ""
 "Again, during the uploading procedure the IDE prints messages. Uploading "
 "procedure takes considerably longer time (about 30 seconds to 1 minute). "
 "When upload completed, the “Done uploading” message is printed."
-msgstr ""
+msgstr "同樣，在上傳過程中IDE會自動顯示消息。上傳過程需要相當長的時間(大約30秒到1分鐘)。上傳完成後，您會看到“Done uploading”消息。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:281
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:282
 msgid "Step 2.Run the Blink example"
-msgstr ""
+msgstr "步驟二、運行Blink範例"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:286
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:287
 msgid ""
 "In each example, Arduino not only provides sample code, but also detailed"
 " documentation, including wiring diagram, sample code explanation, "
 "technical details, …etc. These examples can be directly used on BW16."
 msgstr ""
+"在每個範例中，Arduino不僅提供了範例代碼，還提供了詳細的文檔，包括接線圖、"
+"範例代碼說明、技術細節等。這些範例可以直接用於 BW16。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:288
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:289
 msgid ""
 "So, we find the detailed information of the `Blink example "
 "<https://www.arduino.cc/en/Tutorial/Blink>`__."
-msgstr ""
+msgstr "在這裡我們可以找到Blink這個範例的詳細信息: https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:292
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:293
 msgid ""
 "In short, for BW16, the example can be run on both the onboard RGB LED or"
 " external LED (use any GPIO pins for signal output). Finally, press the "
 "“RST” button, and you can see the RGB LED turns into blue and keep "
 "blinking."
-msgstr ""
+msgstr "簡而言之，對於RTL8720DN，該範例可以在板載RGB LED或外接LED（使用任何GPIO引腳進行信號輸出）上運行。最後，按RST按鈕，你就會看到LED開始閃爍。"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:296
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:297
 msgid "References"
-msgstr ""
+msgstr "參考"
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:298
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:299
 msgid ""
 "Introduction of BW16 on Instructable: "
 "https://www.instructables.com/RTL8720DN/"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:300
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:301
 msgid ""
 "Load Arduino image into BW16: `How to load BW16 program with Arduino – "
 "#13 <https://forum.amebaiot.com/t/how-to-load-bw16-program-with-"
 "arduino/517/13>`_"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:302
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:303
 msgid ""
 "BW16 IMG2 SIGN Invalid Solution: `RTL8720DN(BW16) IMG2 SIGN Invalid "
 "Solution <https://forum.amebaiot.com/t/rtl8720dn-bw16-img2-sign-invalid-"
 "solution/669>`_"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:304
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:305
 msgid ""
 "FTDI Driver Download from here: https://ftdichip.com/wp-"
 "content/uploads/2021/02/CDM21228_Setup.zip"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:307
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:308
 msgid "**(End)**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:312
+#: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:313
 msgid ""
 "If you face any issue, please refer to the FAQ and Trouble shooting "
 "sections on :doc:`../support/index` page."
-msgstr ""
+msgstr "如果您遇到任何問題，請參考故障排除 :doc:`../support/index` 的頁面"
+
+#~ msgid "|bw16-get-start-3|"
+#~ msgstr ""
 

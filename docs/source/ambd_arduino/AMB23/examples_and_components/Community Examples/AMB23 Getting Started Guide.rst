@@ -1,5 +1,5 @@
 ##################################################
-AMB23 Getting Started Guide 中文版 AMB23 入門指南
+AMB23 Getting Started Guide
 ##################################################
 
 **CONTRIBUTED BY: 董勝源** (`<tung79107910@gmail.com>`__ )

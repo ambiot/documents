@@ -54,7 +54,8 @@ Setting up Development Environment
 Step 1. Installing the Driver
 =============================
 
-First, connect BW16 to the computer via Micro USB:
+| First, connect BW16 to the computer via Micro USB:
+   
    |bw16-get-start-3|
 
 | If this is the first time you connect BW16 to your computer, 
@@ -188,7 +189,7 @@ Step 1 – Download and prepare the Image Tool
 | Download ambd_sdk from the link ambiot GitHub: https://github.com/ambiot/ambd_sdk.
 | The Realtek’s Image Tool can be found under the following file path: 
 | :guilabel:`“ambd_sdk\\tools\\AmbaD\\Image_tool\\image_tool.exe”`
-| Arduino IDE opens a new window with the complete sample code.
+
 
 Step 2 – Setup the Image Tool
 ---------------------------------------------

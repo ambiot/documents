@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-03-28 09:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,7 @@ msgstr "有关Arduino内建范例详细信息，请参阅以下链接。"
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
 #: Examples.rst:20
-msgid "`<https://www.arduino.cc/en/Tutorial/BuiltInExamples/>`_"
+msgid "`<https://www.arduino.cc/en/Tutorial/BuiltInExamples/ />`_"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
@@ -492,4 +492,7 @@ msgstr ""
 #: Examples.rst:233
 msgid "StringToInt"
 msgstr ""
+
+#~ msgid "`<https://www.arduino.cc/en/Tutorial/BuiltInExamples/>`_"
+#~ msgstr ""
 
