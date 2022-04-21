@@ -26,6 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:12 over
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -37,17 +39,19 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:14 over
 msgid "Android / iOS smartphone"
-msgstr ""
+msgstr "Android / iOS 智能手機"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:16 over
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:20 over
 msgid "**Introduction**"
-msgstr ""
+msgstr "**介紹**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:22 over
 msgid ""
@@ -56,17 +60,19 @@ msgid ""
 "to the other example guides for detailed explanations of the BLE UART "
 "service."
 msgstr ""
+"在此範例中，手機應用程序用於通過BLE UART傳輸以控制PWM輸出並更改RGB LED的顏色。"
+" 有關BLE UART服務的詳細說明，請參考其他範例說明。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:27 over
 msgid "**Procedure**"
-msgstr ""
+msgstr "**步驟**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:29 over
 msgid ""
 "Connect the RGB LED to the RTL8722 board following the diagram, the "
 "common LED pin may need to connect to 3.3V or GND depending on the type "
 "of LED (common anode / common cathode)."
-msgstr ""
+msgstr "如下圖所示，將RGB LED連接到RTL8722開發板上，根據LED的類型（共陽極/共陰極），共用LED引腳可能需要連接到3.3V或GND。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:33 over
 msgid "**AMB21 /AMB22:**"
@@ -108,7 +114,7 @@ msgstr ""
 msgid ""
 "Ensure that the required app is installed on your smartphone, it is "
 "available at:"
-msgstr ""
+msgstr "確保您的智能手機上已安裝所需的應用程序，該應用程序可從以下位置獲得："
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:47 over
 msgid "– Google Play Store:"
@@ -130,13 +136,13 @@ msgstr ""
 msgid ""
 "Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
 "“PWM_over_BLEUart”``."
-msgstr ""
+msgstr "打開範例， “Files” -> “Examples” -> “AmebaBLE” -> “PWM_over_BLEUart”."
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:56 over
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
-msgstr ""
+msgstr "上傳代碼並在上傳完成後按Ameba上的重置按鈕。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:59 over
 msgid "|2|"
@@ -151,7 +157,7 @@ msgid ""
 "Open the app on your smartphone, scan and connect to the board shown as "
 "“AMEBA_BLE_DEV” and choose the controller -> color picker function in the"
 " app."
-msgstr ""
+msgstr "在手機上打開應用程序，掃描並連接至顯示為“AMEBA_BLE_DEV”的面板，然後在應用程序中選擇控制器->顏色選擇器功能。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:64 over
 msgid "|3|"
@@ -183,6 +189,8 @@ msgid ""
 "choose a desired color and click select to send the RGB values to the "
 "board. You should see the RGB LED change to the matching color."
 msgstr ""
+"使用顏色選擇輪，飽和度和亮度滑塊，選擇所需的顏色，然後單擊“選擇”將RGB值發送到開發板。"
+"您應該看到RGB LED變為相對應的顏色。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:74 over
 msgid "|6|"
@@ -197,6 +205,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明"
+"** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:80 over
 msgid ""
@@ -207,4 +217,6 @@ msgid ""
 "callback function for “!C” first, otherwise it is treated as a regular "
 "message and printed to the serial terminal."
 msgstr ""
+"RGB值以三個連續的字節發送，並以“!C”字符為前綴。 “！” 用於指示以下數據是命令，"
+"“C”字符用於指示該數據是RGB值。 首先在回調函數中檢查收到的UART消息是否為“！C”，否則將其視為常規消息並打印到串行終端。"
 

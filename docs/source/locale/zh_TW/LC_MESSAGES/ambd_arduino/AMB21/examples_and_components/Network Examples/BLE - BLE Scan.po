@@ -26,6 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:12
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -33,32 +35,34 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:13
 msgid "Android / iOS mobile phone"
-msgstr ""
+msgstr "Android / iOS 智能手機"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:15
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:19
 msgid "**Introduction**"
-msgstr ""
+msgstr "**介紹**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:21
 msgid ""
 "This example configures the Ameba as a Bluetooth central device, uses the"
 " scan functionality to scan for other Bluetooth devices, and prints out "
 "the results to the serial monitor."
-msgstr ""
+msgstr "本例將Ameba配置為藍牙中心設備，使用掃描功能掃描其他藍牙設備，並將結果打印到串行監視器。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:25
 msgid "**Procedure**"
-msgstr ""
+msgstr "**步驟**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:27
 msgid "Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> “BLEScan”``"
-msgstr ""
+msgstr "打開Arduino的範例, “Files” -> “Examples” -> “AmebaBLE” -> “BLEScan”"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:29
 msgid "|1|"
@@ -72,13 +76,13 @@ msgstr ""
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
-msgstr ""
+msgstr "上傳代碼並在上傳完成後按下Ameba上的reset按鈕。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:34
 msgid ""
 "Open the Arduino serial monitor, and you should see the scan results of "
 "nearby Bluetooth devices formatted and printed out."
-msgstr ""
+msgstr "打開Arduino串口監視器，我們就可以看到被掃描到的附近的藍牙設備被打印出來。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:36
 msgid "|2|"
@@ -92,13 +96,15 @@ msgstr ""
 msgid ""
 "If you have the Bluetooth app nRF Connect installed, you can also use it "
 "to send out Bluetooth advertisements for the Ameba to pick up."
-msgstr ""
+msgstr "如果你已經安裝了藍牙app — nRF Connect，你也可以用它發送藍牙廣告讓Ameba來接收。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:41
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明**"
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:45
 msgid ""
@@ -107,6 +113,8 @@ msgid ""
 "from a device when it is found. Passive scanning will only look at the "
 "advertisement data, and not request for additional data."
 msgstr ""
+"setScanMode(GAP_SCAN_MODE_ACTIVE) 用於設置掃描模式。當找到設備時，主動掃描模式將向設備請求多一次額外的掃描響應數據包。"
+"而被動掃描模式只會查看廣告數據，而不會請求額外的數據。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:50
 msgid ""
@@ -117,6 +125,8 @@ msgid ""
 "Set a short interval to discover devices rapidly, set a long interval to "
 "conserve power."
 msgstr ""
+"setScanInterval() 和 setScanWindow() 用於設置以毫秒為單位的掃描頻率和持續時間。掃描將每隔一段時間啟動一次，"
+"並且每次掃描都將持續整個掃描窗口時間。掃描窗口時間應該小於或等於掃描間隔。設置短間隔可快速發現設備，設置長間隔可節約電能。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:57
 msgid ""
@@ -126,13 +136,16 @@ msgid ""
 "specific device. If no function is registered, the scan results are "
 "formatted and printed to the serial monitor by default."
 msgstr ""
+"setScanCallback(scanFunction) 用於註冊一個接收到掃描結果時調用的函數。它可以用來設置用戶自定義函數，"
+"以便對掃描數據進行額外的處理，例如查找特定的設備。如果沒有註冊函數，掃描結果將被收集整理並在默認情況下打印到串行監視器。"
+
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:63
 msgid ""
 "``beginCentral(0)`` is used to start the Bluetooth stack in Central mode."
 " The argument 0 is used to indicate that no clients will be operating in "
 "central mode."
-msgstr ""
+msgstr "beginCentral(0) 用於在中心模式下啟動藍牙堆棧。參數0用於指示當前沒有客戶端在中央模式下進行操作。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:67
 msgid ""
@@ -141,4 +154,7 @@ msgid ""
 " scan interval and scan window values. After 5000 milliseconds, the scan "
 "process will stop, and will be ready to be started again."
 msgstr ""
+"startScan(5000) 用於啟動一個特定持續時間為5000毫秒的掃描進程。"
+"掃描將按照設定的掃描間隔和掃描窗口值進行重複。在5000毫秒之後，掃描進程將停止，並準備再次啟動。"
+
 

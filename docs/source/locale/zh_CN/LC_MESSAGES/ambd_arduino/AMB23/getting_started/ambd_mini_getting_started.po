@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:10
 msgid "Required Environment"
-msgstr ""
+msgstr "工作环境"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:12
 msgid ""
@@ -37,6 +37,8 @@ msgid ""
 "In this documentation, please use the latest version Arduino IDE (at "
 "least version 1.8.12)."
 msgstr ""
+"AMB23 开发板目前支持 Windows OS 32 位元和 64 位元 (WIN 7/8/10) ，Linux OS (Ubuntu 18LTS/20LTS/最新) 和 macOS 作业系统。"
+"请使用最新的作业系统版本以获得最佳体验。在本文档中，请使用最新版本的 Arduino IDE (至少 1.8.12版)。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:18
 msgid "Introduction to AmebaD[AMB23]"
@@ -50,12 +52,18 @@ msgid ""
 "interfaces, AmebaD can connect with electronic components such as LED, "
 "switches, manometer, hygrometer, PM2.5 dust sensors, …etc."
 msgstr ""
+"Ameba是一个易于编程的微控制器平台，可用于开发各种物联网应用程序。"
+"AmebaD有各种外围接口，包括WiFi, GPIO INT, I2C, UART, SPI, PWM, ADC。通过这些接口，"
+"AmebaD可以连接LED、开关、压力计、湿度计、PM2.5粉尘传感器等电子元件。"
+
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:25
 msgid ""
 "The collected data can be uploaded via WiFi and be utilized by "
 "applications on smart devices to realize IoT implementation."
 msgstr ""
+"Ameba所收集的数据可以通过WiFi无线上传，"
+"并被智能设备上的应用程序使用，实现物联网的应用。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:28
 msgid "|ambd-mini-get-start-1|"
@@ -67,7 +75,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:30
 msgid "AMB23 has smaller size than Arduino Uno, as shown in the above figure."
-msgstr ""
+msgstr "AmebaD和Arduino Uno的尺寸类似，如上图所示。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:32
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:79
@@ -82,13 +90,13 @@ msgstr ""
 msgid ""
 "AMB23 uses Micro USB to supply power, which is common in many smart "
 "devices."
-msgstr ""
+msgstr "RTL8722DM MINI使用Micro USB来供电，这在许多智能设备中很常见。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:35
 msgid ""
 "Please refer to the following figure and table for the pin diagram and "
 "function of AMB23."
-msgstr ""
+msgstr "RTL8722DM MINI的引脚图和功能请参考下图和表格。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:37
 msgid "|ambd-mini-get-start-3|"
@@ -424,31 +432,36 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:72
 msgid "Setting up Development Environment"
-msgstr ""
+msgstr "设置开发环境"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:75
 msgid "Step 1. Installing the Driver"
-msgstr ""
+msgstr "步骤1：安装驱动程序"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:77
 msgid "First, connect AMB23 to the computer via Micro USB (same as power):"
-msgstr ""
+msgstr "首先，通过Micro USB将RTL8722DM MINI连接到电脑:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:82
 msgid ""
 "If this is the first time you connect AMB23 to your computer, the USB "
 "driver for AMB23 will be automatic installed."
 msgstr ""
+"如果这是您第一次将RTL8722DM MINI连接到您的电脑，"
+"那么RTL8722DM MINI的USB驱动程序将自动安装。"
+
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:84
 msgid ""
 "If you have driver issue of connect board to your computer please go to "
 "`here <https://ftdichip.com/drivers/>`_ for USB driver."
 msgstr ""
+"如果遇到开发板连接到电脑的驱动程序问题，"
+"请参考下列USB 驱动程序https:// ftdichip.com/drivers /。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:85
 msgid "You can check the COM port number in Device Manager of your computer:"
-msgstr ""
+msgstr "你可以在你电脑的装置管理员中检查COM端口号:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:87
 msgid "|ambd-mini-get-start-5|"
@@ -460,7 +473,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:90
 msgid "Step 2. Set up Arduino IDE"
-msgstr ""
+msgstr "步骤2: 设置Arduino IDE"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:96
 msgid ""
@@ -469,10 +482,14 @@ msgid ""
 "examples of Arduino can run on AMB23 too. Refer to `basic example link "
 "<https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/>`__."
 msgstr ""
+"从1.6.5版本开始，Arduino IDE支持第三方硬件。"
+"因此，我们可以使用Arduino IDE在RTL8722DM MINI上开发应用程序，"
+"Arduino的示例也可以在RTL8722DM MINI上运行。请参考基本范例："
+"https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:98
 msgid "Arduino IDE can be downloaded in the Arduino website:"
-msgstr ""
+msgstr "Arduino IDE可以在Arduino网站下载:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:99
 msgid "https://www.arduino.cc/en/Main/Software"
@@ -482,7 +499,7 @@ msgstr ""
 msgid ""
 "When the installation is finished, open Arduino IDE. To set up AMB23 "
 "correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`."
-msgstr ""
+msgstr "安装完成后，打开Arduino IDE。为了在Arduino IDE中正常使用 AMB23，请打开“File”—>“Preferences”。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:103
 msgid "|ambd-mini-get-start-6|"
@@ -496,11 +513,11 @@ msgstr ""
 msgid ""
 "And paste the following URL into :guilabel:`“Additional Boards Manager "
 "URLs”` field::"
-msgstr ""
+msgstr "并将以下网址粘贴到“Additional Boards Manager URLs” 栏位:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:111
 msgid "Next, go to :guilabel:`“Tools” -> “Board” -> “Boards Manager”`:"
-msgstr ""
+msgstr "接下来，选择 “Tools” -> “Board” -> “Boards Manager”:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:113
 msgid "|ambd-mini-get-start-7|"
@@ -520,6 +537,10 @@ msgid ""
 "Cortex-M33 @200MHz)”` in the list, click :guilabel:`“Install”`, then the "
 "Arduino IDE starts to download required files for AmebaD."
 msgstr ""
+"“Boards Manager”大约需要10~20秒来刷新所有硬件文件(如果网络状况不好，可能需要更长的时间)。"
+"每次连接新硬件时，我们都需要重新打开Boards Manager。"
+"因此，我们先关闭然后再次打开它。在列表中找到“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”，"
+"点击“Install”，Arduino IDE会自动开始下载AmebaD所需的文件。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:123
 msgid "|ambd-mini-get-start-8|"
@@ -535,25 +556,25 @@ msgid ""
 " link at `Download/Software Development Kit "
 "<https://www.amebaiot.com.cn/en/ameba-arduino-summary/>`_. There are 3 "
 "sections:"
-msgstr ""
+msgstr "如果您遇到 GitHub 下载问题，请参考以下“下载/软体开发套件”中的链接。 有3个部分。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:129
 msgid ""
 "“AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There "
 "are 5 latest released SDK options."
-msgstr ""
+msgstr "“AmebaD_Arduino_patch1_SDK”，请至少选择 1 个 SDK。 目前有 5 个最新发布的 SDK 选项。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:130
 msgid ""
 "“AmebaD_Arduino_patch2_Tools”, please select according to your operation "
 "system. There are Windows, Linux and MacOS."
-msgstr ""
+msgstr "“AmebaD_Arduino_patch2_Tools”，请根据您的作业系统进行选择。 有 Windows、Linux 和 MacOS。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:131
 msgid ""
 "“AmebaD_Arduino_Source_Code”, this section is optional download only "
 "wants to refer the latest source code."
-msgstr ""
+msgstr "“AmebaD_Arduino_Source_Code”，此部分为可选下载，用來参考最新原始码。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:133
 msgid ""
@@ -562,6 +583,9 @@ msgid ""
 "installation steps. According to your system, please run the installation"
 " tool in the “Offline_SDK_installation_tool” folder."
 msgstr ""
+"下载选择的文件，然后解压（patch1 和patch2 是必须的）。"
+"有“Install_中文.doc”/“Install_中文.pdf”供您参考安装步骤。 "
+"根据您的系统，请运行“Offline_SDK_installation_tool”文件夹中的安装工具。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:138
 msgid ""
@@ -571,6 +595,9 @@ msgid ""
 "@200MHz)”`` in the list, click :guilabel:`“Install”`, then the Arduino "
 "IDE starts to download required files for AmebaD."
 msgstr ""
+"安装工具运行成功后，您可以打开Arduino IDE并选择 “tools” -> “Board“ -> “Boards Manager…”。"
+"尝试在列表中找到“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”，"
+"点击“Install”，Arduino IDE开始下载AmebaD所需的文件。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:146
 msgid ""
@@ -578,6 +605,8 @@ msgid ""
 ":guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” "
 "RTL8722DM MINI”`："
 msgstr ""
+"最后，我们在“tools”->“Board”->“Ameba ARM (32-bits) Boards”"
+"->” RTL8722DM MINI”中选择了AmebaD作为当前连接的开发板:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:149
 msgid "|ambd-mini-get-start-9|"
@@ -589,22 +618,22 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:154
 msgid "Try the First Example"
-msgstr ""
+msgstr "测试第一个示例"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:157
 msgid "Step 1. Compile & Upload"
-msgstr ""
+msgstr "步骤1：编译并上传"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:161
 msgid ""
 "Arduino IDE provides many built-in examples, which can be compiled, "
 "uploaded and run directly on the boards. Here, we take the “Blink” "
 "example as the first try."
-msgstr ""
+msgstr "Arduino IDE提供了很多内置的范例，可以在开发板上直接编译、上传和运行。这里，我们以“Blink”为例进行第一次尝试。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:162
 msgid "Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:"
-msgstr ""
+msgstr "打开“File”->“Examples”->“ 01.Basics”-> “Blink”:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:164
 msgid "|ambd-mini-get-start-10|"
@@ -616,7 +645,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:166
 msgid "Arduino IDE opens a new window with the complete sample code."
-msgstr ""
+msgstr "Arduino IDE打开一个带有完整示例代码的新视窗。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:168
 msgid "|ambd-mini-get-start-11|"
@@ -630,13 +659,13 @@ msgstr ""
 msgid ""
 "There are onboard LED of AMB23, the default “LED_BUILTIN” is blue onboard"
 " LED."
-msgstr ""
+msgstr "开发板上有RTL8722DM MINI的LED，默认“LED_BUILTIN”是蓝色的LED"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:173
 msgid ""
 "Change “LED_BUILTIN” to “LED_B” or “LED_G” for different colour. Onboard "
 "LEDs options LED_B and LED_G (blue and green)."
-msgstr ""
+msgstr "将“LED_BUILTIN”更改为“LED_B”或“LED_G”以使用不同的颜色。板载LED选项LED_B和LED_G。 （蓝色和绿色）。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:175
 msgid "|ambd-mini-get-start-12|"
@@ -650,7 +679,7 @@ msgstr ""
 msgid ""
 "Next, we compile the sample code directly; click :guilabel:`“Sketch” -> "
 "“Verify/Compile”`"
-msgstr ""
+msgstr "接下来，我们直接编译示例代码，点击“Sketch”->“Verify/Compile”"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:180
 msgid "|ambd-mini-get-start-13|"
@@ -665,7 +694,7 @@ msgid ""
 "Arduino IDE prints the compiling messages in the bottom area of the IDE "
 "window. When the compilation is finished, you will get the message "
 "similar to the following figure:"
-msgstr ""
+msgstr "Arduino IDE在IDE窗口的底部区域打印编译消息。编译完成后，会得到如下图所示的消息:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:186
 msgid "|ambd-mini-get-start-14|"
@@ -677,13 +706,13 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:188
 msgid "Afterwards, we will upload the compiled code to AMB23."
-msgstr ""
+msgstr "之后，我们将把编译后的代码上传到 AMB23。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:190
 msgid ""
 "Please make sure AMB23 is connected to your computer, then click "
 ":guilabel:`“Sketch” -> “Upload”`."
-msgstr ""
+msgstr "请确保 AMB23 已连接到您的电脑，然后单击“Sketch” -> “Upload”。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:194
 msgid ""
@@ -691,6 +720,8 @@ msgid ""
 "process, users are required to enter the upload mode of the board. "
 "Arduino IDE will wait 5s for DEV board to enter the upload mode."
 msgstr ""
+"Arduino IDE将先编译，然后上传。在上传过程中，用户需要将开发板调至上传模式。"
+"Arduino IDE会等待5秒钟，等待开发板进入上传模式。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:196
 msgid "|ambd-mini-get-start-15|"
@@ -706,7 +737,7 @@ msgid ""
 ":guilabel:`UART_DOWNLOAD` button, then press the :guilabel:`RESET` "
 "button. If success, you should see the onboard green LED and blue LED all"
 " turned off."
-msgstr ""
+msgstr "想要进入上传模式，首先按住UART_DOWNLOAD按钮不放，然后轻按RESET按钮。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:202
 msgid "|ambd-mini-get-start-16|"
@@ -723,6 +754,9 @@ msgid ""
 "it is normal that some serial terminals may show unknown characters as "
 "following picture."
 msgstr ""
+"用户可选择检查开发板是否进入上传模式。打开串行监视器并查找“#Flash Download Start”。"
+"请注意，某些串口终端可能会显示如下图所示的未知字符是正常的。"
+
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:208
 msgid "|ambd-mini-get-start-17|"
@@ -738,10 +772,12 @@ msgid ""
 "procedure takes considerably longer time (about 30 seconds to 1 minute). "
 "When upload completed, the “Done uploading” message is printed."
 msgstr ""
+"同样，在上传过程中IDE会自动显示消息。上传过程需要相当长的时间(大约30秒到1分钟)。"
+"上传完成后，您会看到“Done uploading”消息。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:215
 msgid "Step 2.Run the Blink example"
-msgstr ""
+msgstr "步骤2：运行Blink示例"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:220
 msgid ""
@@ -749,10 +785,12 @@ msgid ""
 " documentation, including wiring diagram, sample code explanation, "
 "technical details, …etc. These examples can be directly used on AMB23."
 msgstr ""
+"在每个示例中，Arduino不仅提供了示例代码，还提供了详细的文档，包括接线图、示例代码说明、技术细节等。"
+"这些示例可以直接用于 AMB23。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:221
 msgid "So, we find the detailed information of the \"Blink\" example:"
-msgstr ""
+msgstr "在这里我们可以找到Blink这个示例的详细信息:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:222
 msgid "https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink"
@@ -763,12 +801,14 @@ msgid ""
 "In short, for AMB23, the example can be run on both onboard LEDs (green "
 "or blue) or external LED (use any GPIO pins for signal output)."
 msgstr ""
+"简而言之，对于 AMB23，该示例可以在板上LED（绿色或蓝色）或外部LED"
+"（使用任何GPIO引脚进行信号输出）上运行。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:227
 msgid ""
 "Finally, press the :guilabel:`RESET` button, and you can see the "
 ":guilabel:`LED` blinking."
-msgstr ""
+msgstr "最后，按RESET按钮，你就会看到LED开始闪烁。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:229
 msgid "**(End)**"
@@ -778,7 +818,7 @@ msgstr ""
 msgid ""
 "If you face any issue, please refer to the FAQ and Trouble shooting "
 "sections on  :doc:`/ambd_arduino/AMB23/support/index` page."
-msgstr ""
+msgstr "如果您遇到任何问题，请参考 :doc:`/ambd_arduino/AMB23/support/index` 的页面。"
 
 #~ msgid ""
 #~ "If you face any issue, please "

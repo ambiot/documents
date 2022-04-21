@@ -37,7 +37,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:13
 #: surrounding the
 msgid "Antenna x 1"
-msgstr ""
+msgstr "天線 x1"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:15
 #: surrounding the
@@ -53,20 +53,23 @@ msgid ""
 "surroundings, and prints the SSID, encryption type, signal strength "
 "information of each detected hotspot."
 msgstr ""
+"這個範例裡， 我們使用 Ameba 來檢測周圍的 WiFi 訊號，並將檢測到WiFi的名稱，加密方式，"
+"信號強度等信息打印出來。"
+
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:23
 #: surrounding the
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
 "Arduino IDE: ``“Tools” -> “Board”``"
-msgstr ""
+msgstr "首先先確定天線已經接上，確保在 “Tools” -> “Board” 中選擇了正確的Ameba開發板。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:25
 #: surrounding the
 msgid ""
 "Open the “ScanNetworks” example in ``“File” -> “Examples” -> “AmebaWiFi” "
 "-> “ScanNetworks”``:"
-msgstr ""
+msgstr "然後打開 Scan Networks 的範例, “File” -> “Examples” -> “AmebaWiFi” -> “ScanNetworks” :"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:27
 #: surrounding the
@@ -85,6 +88,8 @@ msgid ""
 "Afterwards, you can see “\\*\\*Scan Networks\\*\\*” message appears, with"
 " the detected WiFi hotspots and the information of each hotspot."
 msgstr ""
+"上傳程式碼之後，按下Ameba的Reset按鈕, 這時候會看到**Scan Networks**"
+"下會有搜索到WiFi的數目以及每一個WiFi的訊息。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:33
 #: surrounding the
@@ -108,14 +113,14 @@ msgstr ""
 msgid ""
 "First we use ``WiFi.macAddress(mac)`` to get the MAC address of Ameba: "
 "https://www.arduino.cc/en/Reference/WiFiMACAddress"
-msgstr ""
+msgstr "首先使用的是顯示Ameba自己的物理地址WiFi.macAddress(mac): https://www.arduino.cc/en/Reference/WiFiMACAddress"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:41
 #: surrounding the
 msgid ""
 "Then we use ``WiFi.scanNetworks()`` to detect WiFi hotspots: "
 "https://www.arduino.cc/en/Reference/WiFiScanNetworks"
-msgstr ""
+msgstr "然後開始搜索周圍WiFi環境的WiFi.scanNetworks()：https://www.arduino.cc/en/Reference/WiFiScanNetworks"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:43
 #: surrounding the
@@ -126,13 +131,18 @@ msgid ""
 "``WiFi.RSSI(thisNet)`` to get the signal strength of the connection to "
 "the router: https://www.arduino.cc/en/Reference/WiFiRSSI"
 msgstr ""
+"在打印WiFi具體訊息時使用到的有:"
+"顯示WiFi的名稱WiFi.SSID(thisNet):"
+"https://www.arduino.cc/en/Reference/WiFiSSID"
+"顯示WiFi的訊號強度WiFi.RSSI(thisNet):"
+"https://www.arduino.cc/en/Reference/WiFiRSSI"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:48
 #: surrounding the
 msgid ""
 "We use ``WiFi.encryptionType(thisNet)`` to get the encryption type of the"
 " network: https://www.arduino.cc/en/Reference/WiFiEncryptionType"
-msgstr ""
+msgstr "顯示WiFi的加密方式WiFi.encryptionType(thisNet):https://www.arduino.cc/en/Reference/WiFiEncryptionType"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:51
 #: surrounding the
@@ -140,6 +150,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Comparison with"
 " Arduino** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **與Arduino的差異** "
+" :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:57
 #: surrounding the
@@ -148,13 +160,17 @@ msgid ""
 "WiFi module to realize the WiFi connection. And we must ``#include`` to "
 "use SPI to communicate with WiFi module."
 msgstr ""
+"Arduino在完成WiFi的操作時，需要另外使用WiFi Shield來作為WiFi模塊，"
+"因此在使用WiFi是需要#include 來使用SPI與WiFi模塊進行通訊。"
+""
+
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:59
 #: surrounding the
 msgid ""
 "However, Ameba is already equipped with WiFi module. Therefore, "
 "``#include`` is not needed."
-msgstr ""
+msgstr "但是Ameba自身就具有WiFi模塊的功能，因此，不需要#include 。若想要使用Arduino的範例，要先刪掉這一項。"
 
 #~ msgid ""
 #~ "**AmebaD [:raw-html:`<p "
