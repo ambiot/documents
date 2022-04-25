@@ -2,17 +2,17 @@
 Getting Started
 ###############
 
-***********************************************
-Ameba MicroPython: Getting Started with RTL8722
-***********************************************
+*****************************************************
+Ameba MicroPython: Getting Started with AMB21/AMB22
+*****************************************************
 
 Required Environment
 ====================
 
-AmebaD RTL8722CSM/RTL8722DM MicroPython SDK currently supports Windows
+AMB21/22 MicroPython SDK currently supports Windows
 10 and Linux operating systems.
 
-Introduction to AmebaD RTL8722CSM/RTL8722DM
+Introduction to AmebaD[AMB21/AMB22]
 ===========================================
 
 Ameba is an easy-to-program platform for developing all kind of IoT
@@ -26,59 +26,58 @@ applications on smart devices to realize IoT implementation.
 
 |1|
 
-AmebaD and Arduino Uno have similar size, as shown in the above figure,
-and the pins on AmebaD are compatible with Arduino Uno.
+AMB21/AMB22 and Arduino Uno have similar size, as shown in the above figure,
+and the pins on AMB21/AMB22 are compatible with Arduino Uno.
 
-| AmebaD uses Micro USB to supply power, which is common in many smart devices.
-| Please refer to the following figure and table for the pin diagram and function of AmebaD.
+AmebaD uses Micro USB to supply power, which is common in many smart devices.
+
+Please refer to the following figure and table for the pin diagram and function of AmebaD.
 
 |2|
 
- table:: 
-   :align: center
-
-   ===  ========  ====  ==== ===== ============== ========= ========
-   |    PIN name  GPIO  ADC  PWM   UART           SPI       I2C
-   ===  ========  ====  ==== ===== ============== ========= ========
-   D00  GPIOB_2   ✓     ADC5       UART3_RX(b)              
-   D01  GPIOB_1   ✓     ADC4       UART3_TX(b)              
-   D02  GPIOB_3   ✓     ADC6                                
-   D03  GPIOB_31  ✓                                            
-   D04  GPIOB_30  ✓                                            
-   D05  GPIOB_28  ✓                                            
-   D06  GPIOB_29  ✓                                            
-   D07  NC                                                    
-   D08  GPIOB_22  ✓          PWM14                          
-   D09  GPIOB_23  ✓          PWM15                          
-   D10  GPIOB_21  ✓          PWM13 UART0_RTS(b)   SPI0_CS    
-   D11  GPIOB_18  ✓          PWM10 UART0_RX(b)    SPI0_MOSI  
-   D12  GPIOB_19  ✓          PWM11 UART0_TX(b)    SPI0_MISO  
-   D13  GPIOB_20  ✓          PWM12 UART0_CTS(b)   SPI0_CLK   
-   D14  GPIOA_7   ✓                UART2_TX(log)            
-   D15  GPIOA_8   ✓                UART2_RX(log)            
-   D16  GPIOA_25  ✓          PWM4  UART3_RX(a)              I2C0_SCL
-   D17  GPIOA_26  ✓          PWM5  UART3_TX(a)              I2C0_SDA
-   D18  GPIOB_7   ✓     ADC3 PWM17                SPI1_CS    
-   D19  GPIOB_6   ✓     ADC2                      SPI1_CLK   
-   D20  GPIOB_5   ✓     ADC1 PWM9                 SPI1_MISO  
-   D21  GPIOB_4   ✓     ADC0 PWM8                 SPI1_MOSI  
-   D22  GPIOA_28  ✓                                            
-   D23  GPIOA_24  ✓          PWM3  UART0_CTS(a)             I2C1_SDA
-   D24  GPIOA_23  ✓          PWM2  UART0_RTS(a)             I2C1_SCL
-   D25  GPIOA_22  ✓                UART0_RX(a)              
-   D26  GPIOA_21  ✓                UART0_TX(a)              
-   D27  GPIOA_20  ✓                                            
-   D28  GPIOA_19  ✓                                            
-   ===  ========  ====  ==== ===== ============== ========= ========
+===  ========  ====  ==== ===== ============== ========= ========
+|    PIN name  GPIO  ADC  PWM   UART           SPI       I2C
+===  ========  ====  ==== ===== ============== ========= ========
+D00  GPIOB_2   ✓     ADC5       UART3_RX(b)              
+D01  GPIOB_1   ✓     ADC4       UART3_TX(b)              
+D02  GPIOB_3   ✓     ADC6                                
+D03  GPIOB_31  ✓                                            
+D04  GPIOB_30  ✓                                            
+D05  GPIOB_28  ✓                                            
+D06  GPIOB_29  ✓                                            
+D07  NC                                                    
+D08  GPIOB_22  ✓          PWM14                          
+D09  GPIOB_23  ✓          PWM15                          
+D10  GPIOB_21  ✓          PWM13 UART0_RTS(b)   SPI0_CS    
+D11  GPIOB_18  ✓          PWM10 UART0_RX(b)    SPI0_MOSI  
+D12  GPIOB_19  ✓          PWM11 UART0_TX(b)    SPI0_MISO  
+D13  GPIOB_20  ✓          PWM12 UART0_CTS(b)   SPI0_CLK   
+D14  GPIOA_7   ✓                UART2_TX(log)            
+D15  GPIOA_8   ✓                UART2_RX(log)            
+D16  GPIOA_25  ✓          PWM4  UART3_RX(a)              I2C0_SCL
+D17  GPIOA_26  ✓          PWM5  UART3_TX(a)              I2C0_SDA
+D18  GPIOB_7   ✓     ADC3 PWM17                SPI1_CS    
+D19  GPIOB_6   ✓     ADC2                      SPI1_CLK   
+D20  GPIOB_5   ✓     ADC1 PWM9                 SPI1_MISO  
+D21  GPIOB_4   ✓     ADC0 PWM8                 SPI1_MOSI  
+D22  GPIOA_28  ✓                                            
+D23  GPIOA_24  ✓          PWM3  UART0_CTS(a)             I2C1_SDA
+D24  GPIOA_23  ✓          PWM2  UART0_RTS(a)             I2C1_SCL
+D25  GPIOA_22  ✓                UART0_RX(a)              
+D26  GPIOA_21  ✓                UART0_TX(a)              
+D27  GPIOA_20  ✓                                            
+D28  GPIOA_19  ✓                                            
+===  ========  ====  ==== ===== ============== ========= ========
 
 |3|
- 
- Note::
-   | Not all sets of peripherals shown on the picture/table above are available on MicroPython, please refer to :doc:`../../source/api_documents/index` section for more information.
+
+.. note::
+   Not all sets of peripherals shown on the picture/table above are available on MicroPython, please refer to 
+   :doc:`../../AMB21/api_documents/index` for more information.
 
 
-Introduction to RTL8722 MicroPython port
-========================================
+Introduction to AMB21/AMB22 MicroPython port
+===============================================
 
 Background Information
 ----------------------
@@ -120,24 +119,22 @@ that module will be returned to you,
 
 Let's take Pin module (GPIO) as an example:
 
- code-block:: python
-
+.. code-block:: python
+   
    >>> help(Pin)
-
    object <class 'Pin'> is of type type
-   id -- <function>
-   init -- <function>
-   value -- <function>
-   off -- <function>
-   on -- <function>
-   toggle -- <function>
-   board -- <class 'board'>
-   IN -- 0
-   OUT -- 1
-   PULL_NONE -- 0
-   PULL_UP -- 1
-   PULL_DOWN -- 2
-
+      id -- <function>
+      init -- <function>
+      value -- <function>
+      off -- <function>
+      on -- <function>
+      toggle -- <function>
+      board -- <class 'board'>
+      IN -- 0
+      OUT -- 1
+      PULL_NONE --0
+      PULL_UP --1
+      PULL_DOWN --2
 
 REPL Hotkeys
 ------------
@@ -174,14 +171,16 @@ Setting up Development Environment
 Step 1. Installing the Driver
 -----------------------------
 
-First, connect AmebaD to the computer via Micro USB:
+First, connect AMB21/AMB22 to the computer via Micro USB:
 
 |4|
 
-| If this is the first time you connect AmebaD to your computer, the USB
-  driver for AmebaD will be automatic installed.
-| If you have driver issue of connect board to your computer please go to https://ftdichip.com/drivers/ for USB driver.
-| You can check the COM port number in Device Manager of your computer:
+If this is the first time you connect AmebaD to your computer, the USB
+driver for AMB21/AMB22 will be automatic installed.
+
+If you have driver issue of connect board to your computer please go to https://ftdichip.com/drivers/ for USB driver.
+
+You can check the :guilabel:`COM` port number in :guilabel:`Device Manager` of your computer:
 
 |5|
 
@@ -260,7 +259,7 @@ Try the First Example
 Step 1. Open REPL
 ==================
 
-REPL stands for Read, Evaluate, Print and Loop, it is the
+REPL stands for **Read**, **Evaluate**, **Print** and **Loop**, it is the
 MicroPython’s terminal for user to control the microcontroller. REPL is
 running on LOG UART, thus we need to open our serial terminal software,
 in this case, ``Tera Term`` to see REPL.
@@ -273,7 +272,7 @@ choose your Ameba’s serial port using the dropdown list, after that, hit
 is the time to change it to ``115200`` and leave the rest of settings as
 default.
 
-Now that the serial port is connected, press the RESET button
+Now that the serial port is connected, press the :guilabel:`RESET` button
 once on your ameba and you should see the MicroPython’s welcome page as
 shown below.
 
@@ -303,7 +302,7 @@ example and to see how easy it is to control WiFi using MicroPython.
 Now, please follow along by copy+paste the following code or manually
 typing them out into ``Tera Term`` and hit “Enter”
 
- code-block:: python
+.. code-block:: python
 
    from wireless import WLAN
    wifi = WLAN(mode = WLAN.STA)
@@ -317,46 +316,46 @@ You should be able to see the returned result with all discovered wireless netwo
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
- note:: 
-   If you face any issue, please refer to the :doc:`../../source/support/FAQ` and :doc:`../../source/support/Trouble shooting` page.  
+.. note:: 
+   If you face any issue, please refer to the :doc:`../../AMB21/support/FAQ` and :doc:`../../AMB21/support/Trouble shooting` page.  
 
-.. |1| image:: /media/ambd_micropython/getting_started/imageGS1.png
+.. |1| image:: /media/ambd_micropython/AMB21_MP_getting_started/imageGS1.png
    :width: 882
    :height: 881
    :scale: 50 %
-.. |2| image:: /media/ambd_micropython/getting_started/imageGS2.png
+.. |2| image:: /media/ambd_micropython/AMB21_MP_getting_started/imageGS2.png
    :width: 1100
    :height: 1121
-   :scale: 50 %
-.. |3| image:: /media/ambd_micropython/getting_started/imageGS3.png
+   :scale: 30 %
+.. |3| image:: /media/ambd_micropython/AMB21_MP_getting_started/imageGS3.png
    :width: 1383
    :height: 690
-   :scale: 50 %
-.. |4| image:: /media/ambd_micropython/getting_started/imageGS5.png
+   :scale: 70 %
+.. |4| image:: /media/ambd_micropython/AMB21_MP_getting_started/imageGS5.png
    :width: 820
    :height: 584
    :scale: 50 %
-.. |5| image:: /media/ambd_micropython/getting_started/imageGS6.png
+.. |5| image:: /media/ambd_micropython/AMB21_MP_getting_started/imageGS6.png
    :width: 795
    :height: 579
    :scale: 50 %
-.. |6| image:: /media/ambd_micropython/getting_started/imageGS7.png
+.. |6| image:: /media/ambd_micropython/AMB21_MP_getting_started/imageGS7.png
    :width: 1431
    :height: 812
    :scale: 50 %
-.. |7| image:: /media/ambd_micropython/getting_started/imageGS8.png
+.. |7| image:: /media/ambd_micropython/AMB21_MP_getting_started/imageGS8.png
    :width: 732
    :height: 752
    :scale: 50 %
-.. |8| image:: /media/ambd_micropython/getting_started/imageGS9.png
+.. |8| image:: /media/ambd_micropython/AMB21_MP_getting_started/imageGS9.png
    :width: 819
    :height: 427
    :scale: 50 %
-.. |9| image:: /media/ambd_micropython/getting_started/imageGS10.png
+.. |9| image:: /media/ambd_micropython/AMB21_MP_getting_started/imageGS10.png
    :width: 816
    :height: 427
    :scale: 50 %
-.. |10| image:: /media/ambd_micropython/getting_started/imageGS11.png
+.. |10| image:: /media/ambd_micropython/AMB21_MP_getting_started/imageGS11.png
    :width: 820
    :height: 472
    :scale: 50 %

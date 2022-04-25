@@ -3,14 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-#############
-Resources
-#############
+#######
+Support
+#######
 
 .. toctree::
    :maxdepth: 1
-   :caption: Ameba MicroPython: Reference Links
    :titlesonly:
 
-   Ameba MicroPython SDK <https://github.com/ambiot/ambd_micropython>
-   MicroPython Official Website <http://docs.micropython.org/en/latest/index.html>
+   FAQ
+   Trouble shooting

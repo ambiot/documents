@@ -3,11 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-###############
-MicroPython SDK
-###############
+#######################################
+AMB21/AMB22 (RTL8722DM/RTL8722CSM)
+#######################################
 
-Welcome to Ameba MicroPython online documentation.
+Welcome to AMB21/AMB22 MicroPython SDK online documentation.
 
 |image1|
 
@@ -16,7 +16,7 @@ Welcome to Ameba MicroPython online documentation.
    :caption: Table of Contents
    
    getting_started/mp_getting_started
-   release_history/Release History
+   release_history/Release_History
    examples/index
    api_documents/index
    resources/index

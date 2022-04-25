@@ -7,8 +7,10 @@
 Welcome to Ameba IoT Family Online SDK Documentation!
 ########################################################
 
-| |image1|
+ |image1|
+
 | We have supported 3 unique developing platforms, Realtek **Arduino SDK**, **Standard SDK** and **MicroPython SDK**.
+
 | All Getting-started guides, Examples, Tutorials, API reference and Datasheet can be found under the respective link below: 
 
 .. toctree::
@@ -16,7 +18,7 @@ Welcome to Ameba IoT Family Online SDK Documentation!
    :caption: Open Source SDKs 
    
    ambd_arduino/arduino_index
-   ambd_micropython/source/index
+   ambd_micropython/micropython_index
    ambd_sdk/source/index
    
 .. toctree::

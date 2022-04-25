@@ -13,7 +13,7 @@ BW16 Dual-Band Wi-Fi board currently supports Windows XP/7/8/10 32-bits and 64-b
 operating systems. In this documentation, please use Arduino IDE with version 1.8.15 or later.
 
 Introduction to BW16
-===========================================
+======================
 
 Realtek RTL8720DN is a Wi-Fi and Bluetooth IC that supports 2.4GHz and 5GHz dual bands for 
 Wi-Fi communication, and Bluetooth Low Energy (BLE) 5.0. BW16 is a module manufactured by B&T, 
@@ -54,32 +54,36 @@ Setting up Development Environment
 Step 1. Installing the Driver
 =============================
 
-| First, connect BW16 to the computer via Micro USB:
+First, connect BW16 to the computer via Micro USB:
    
    |bw16-get-start-3|
 
-| If this is the first time you connect BW16 to your computer, 
-  here is something that you might take note of: 
+If this is the first time you connect BW16 to your computer, 
+here is something that you might take note of: 
 
-| From the pinmap above, we know D0 and D1 pins are used for program uploading. 
-  However, according to the schematic design of AI Thinker, the onboard USB-to-UART 
-  module is connected to D4 and D5 which cannot be directly used for program upload.
-| In order to upload firmware to this board, we suggested that you could choose to 
-  add in an external USB-to-UART module connecting to D0 and D1 as shown in the 
-  pin connection below:
+From the pinmap above, we know D0 and D1 pins are used for program uploading. 
+However, according to the schematic design of AI Thinker, the onboard USB-to-UART 
+module is connected to D4 and D5 which cannot be directly used for program upload.
+In order to upload firmware to this board, we suggested that you could choose to 
+add in an external USB-to-UART module connecting to D0 and D1 as shown in the 
+pin connection below:
 
    |bw16-get-start-4|
 
-| Optionally, you could short the pins indicated below to use the on-board USB:
-|   D1 ––– D5
-|   D0 ––– D4
+Optionally, you could short the pins indicated below to use the on-board USB:
+
+| D1 ––– D5
+| D0 ––– D4
 
    |bw16-get-start-5|
 
-| After connecting accordingly, the USB driver for BW16 will be 
-  automatically installed. If you have driver issue of connecting board, please 
-  go to http://www.wch-ic.com/downloads/CH341SER_ZIP.html for USB driver. 
-  You can check the COM Port number in your Device Manager:
+After connecting accordingly, the USB driver for BW16 will be 
+automatically installed. 
+
+If you have driver issue of connecting board, please 
+go to http://www.wch-ic.com/downloads/CH341SER_ZIP.html for USB driver. 
+
+You can check the :guilabel:`COM` Port number in your :guilabel:`Device Manager`:
    
    |bw16-get-start-6|
 
@@ -119,26 +123,26 @@ for RTL8722DM.
 
    |bw16-get-start-8|
 
-| If you are facing GitHub downloading issue, please refer to the
-  following link at `Download/Software Development Kit`_. There are 3
-  sections:
+If you are facing GitHub downloading issue, please refer to the
+following link at `Download/Software Development Kit`_. There are 3
+sections:
 
-      1. “AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There are 5 latest released SDK options.
-      2. “AmebaD_Arduino_patch2_Tools”, please select according to your operation system. There are Windows, Linux and MacOS. 
-      3. “AmebaD_Arduino_Source_Code”, this section is optional download only wants to refer the latest source code.
+#. :guilabel:`“AmebaD_Arduino_patch1_SDK”`, please select at least 1 of the SDKs. There are 5 latest released SDK options.
+#. :guilabel:`“AmebaD_Arduino_patch2_Tools”`, please select according to your operation system. There are Windows, Linux and MacOS. 
+#. :guilabel:`“AmebaD_Arduino_Source_Code”`, this section is optional download only wants to refer the latest source code.
 
 .. _Download/Software Development Kit: https://www.amebaiot.com.cn/en/ameba-arduino-summary/
 
-   Download the files selected, then unzip (patch1 and patch2 are compulsory). 
-   There are “Install.doc”/“Install.pdf” for you to refer installation steps. 
-   According to your system, please run the installation tool in the 
-   “Offline_SDK_installation_tool” folder.
+Download the files selected, then unzip (patch1 and patch2 are compulsory). 
+There are “Install.doc”/“Install.pdf” for you to refer installation steps. 
+According to your system, please run the installation tool in the 
+“Offline_SDK_installation_tool” folder.
 
-   After the installation tool running successfully, you may open Arduino
-   IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. Try to find
-   :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
-   click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
-   for AmebaD.
+After the installation tool running successfully, you may open Arduino
+IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. Try to find
+:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
+click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
+for AmebaD.
 
 ----
 
@@ -151,22 +155,23 @@ Finally, we select RTL8722DM as current connected board in
 How to upload firmware into BW16
 *********************************
 
-| Depending on the batch of manufacturing, some BW16 modules on the development board 
-  might have built-in the default B&T firmware, the firmware information is shown in 
-  the image below:
+Depending on the batch of manufacturing, some BW16 modules on the development board 
+might have built-in the default B&T firmware, the firmware information is shown in 
+the image below:
 
   |bw16-get-start-10|
   
-| This will cause Arduino Image unable to flash into the module. Although information 
-  of “All images are sent successfully! Image tool closed! Upload Image did.” is 
-  showing in the Image Tool, however, the factory image is unable to be erased. 
-  Unfortunately after press the onboard RST button, you will find the factory image 
-  still remains in the flash.
+This will cause Arduino Image unable to flash into the module. Although information 
+of “All images are sent successfully! Image tool closed! Upload Image did.” is 
+showing in the Image Tool, however, the factory image is unable to be erased. 
+Unfortunately after press the onboard RST button, you will find the factory image 
+still remains in the flash.
 
-| Arduino IDE provides many built-in examples, which can be compiled,
-  uploaded and run directly on the boards. Here, we take the “Blink”
-  example as the first try.
-| Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:
+Arduino IDE provides many built-in examples, which can be compiled,
+uploaded and run directly on the boards. Here, we take the “Blink”
+example as the first try.
+
+Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:
 
 
 *********************************
@@ -176,46 +181,51 @@ Uploading Solution
 Method 1: Use AmebaD Image Tool to erase flash
 ===============================================
 
-| The B&T default factory image can be washed using “Erase” function 
-  provided by Realtek’s Image Tool. Using Image Tool to erase the flash 
-  image memory starting from memory address: 0x8000_0000 till the end 
-  of 2MB memory location, later on, we need to upload Realtek’s image 
-  back to the module again using Arduino IDE.
-|   |bw16-get-start-11|
+The B&T default factory image can be washed using “Erase” function 
+provided by Realtek’s Image Tool. Using Image Tool to erase the flash 
+image memory starting from memory address: 0x8000_0000 till the end 
+of 2MB memory location, later on, we need to upload Realtek’s image 
+back to the module again using Arduino IDE.
+
+   |bw16-get-start-11|
 
 Step 1 – Download and prepare the Image Tool
 ---------------------------------------------
 
-| Download ambd_sdk from the link ambiot GitHub: https://github.com/ambiot/ambd_sdk.
-| The Realtek’s Image Tool can be found under the following file path: 
-| :guilabel:`“ambd_sdk\\tools\\AmbaD\\Image_tool\\image_tool.exe”`
+Download ambd_sdk from the link ambiot GitHub: https://github.com/ambiot/ambd_sdk.
+
+The Realtek’s Image Tool can be found under the following file path: 
+:guilabel:`“ambd_sdk\\tools\\AmbaD\\Image_tool\\image_tool.exe”`
 
 
 Step 2 – Setup the Image Tool
 ---------------------------------------------
 
-   1. In the “Chip Select” option, choose “AmebaD(8721D)” which is also suitable for RTL8720DN chip.
-   2. Select correct COM Port that you are using.
-   3. Set the Baudrate to “115200”.
-   4. Then key in the Flash Erase starting position from Memory Address of 0x0800 0000.
-   5. The size to be 2048 KB.
-   6. Set the module to “Download mode” first, then click the “Erase” button.
+#. In the :guilabel:`Chip Select` option, choose :guilabel:`AmebaD(8721D)` which is also suitable for RTL8720DN chip.
+#. Select correct :guilabel:`COM` Port that you are using.
+#. Set the Baudrate to :guilabel:`115200`.
+#. Then key in the Flash Erase starting position from Memory Address of **0x0800 0000**.
+#. The size to be 2048 KB.
+#. Set the module to “Download mode” first, then click the :guilabel:`Erase` button.
 
-|   |bw16-get-start-12|
-|
-| Upon finishing the above image erase and press the reset button, we could find that the 
-  ``"#calibration"`` will no longer pop out, only ``"#"`` will appear in the Serial Monitor.
-|   |bw16-get-start-13|
+   |bw16-get-start-12|
+
+Upon finishing the above image erase and press the reset button, we could find that the 
+``"#calibration"`` will no longer pop out, only ``"#"`` will appear in the Serial Monitor.
+  
+  |bw16-get-start-13|
 
 Step 3 – Download Image using Arduino IDE
 ---------------------------------------------
 
-| Now you are able to download the program via UART in Ardunio IDE. In order to upload the program, 
-  you could choose to either use an external USB-to-UART module connecting to D0 and D1, or short 
-  the pins indicated below to use the on-board USB:
-|   |bw16-get-start-5|
-|   D1 ––– D5
-|   D0 ––– D4
+Now you are able to download the program via UART in Ardunio IDE. In order to upload the program, 
+you could choose to either use an external USB-to-UART module connecting to D0 and D1, or short 
+the pins indicated below to use the on-board USB:
+
+| |bw16-get-start-5|
+
+   |  D1 ––– D5
+   |  D0 ––– D4
 
 
 Optional Uploading Solution
@@ -235,74 +245,80 @@ Try the First Example
 Step 1. Compile & Upload
 ============================
 
-| Arduino IDE provides many built-in examples, which can be compiled, uploaded, and run directly on the boards. 
-| Here, we take the “Blink” example as the first try.
-| Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:
+Arduino IDE provides many built-in examples, which can be compiled, uploaded, and run directly on the boards. 
+Here, we take the “Blink” example as the first try.
+
+Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:
 
 |bw16-get-start-14|
 
-| Arduino IDE opens a new window with the complete sample code.
+Arduino IDE opens a new window with the complete sample code.
 
 |bw16-get-start-15|
 
-| There is an onboard LED of BW16, the default ``LED_BUILTIN`` is a green onboard LED. 
-  Change ``LED_BUILTIN`` to ``LED_B`` or ``LED_R`` for different colors such as blue and red. 
-  Here we use ``LED_B`` for demonstration purpose.
-| Next, we compile the sample code directly; click 
-  :guilabel:`“Sketch” -> “Verify/Compile”`
+.. tip::
+   There is two onboard LED on BW16, the default ``LED_BUILTIN`` is the onboard green LED.
+   Change ``LED_BUILTIN`` to ``LED_B`` or ``LED_R`` for different colors such as blue and red. 
+
+Here we use ``LED_B`` for demonstration purpose.
+
+Next, we compile the sample code directly; click 
+:guilabel:`“Sketch” -> “Verify/Compile”`
 
  |bw16-get-start-16|
 
-| Arduino IDE prints the compiling messages in the bottom area of the IDE
-  window. When the compilation is finished, you will get the message
-  similar to the following figure:
+Arduino IDE prints the compiling messages in the bottom area of the IDE
+window. When the compilation is finished, you will get the message
+similar to the following figure:
 
  |bw16-get-start-17|
 
-| Afterwards, we will upload the compiled code to BW16.
-|
-| Please make sure BW16 is connected to your computer, then
-  click :guilabel:`“Sketch” -> “Upload”`.
-|
-| The Arduino IDE will compile first then upload. During the uploading process, 
-  users are required to enter the upload mode of the board. 
-  To enter the upload mode, first press and hold the BW16 “Burn” 
-  button, press the “RST” button, and then release the “Burn” button.
+Afterwards, we will upload the compiled code to BW16.
+
+Please make sure BW16 is connected to your computer, then
+click :guilabel:`“Sketch” -> “Upload”`.
+
+The Arduino IDE will compile first then upload. During the uploading process, 
+users are required to enter the upload mode of the board. 
+To enter the upload mode, first press and hold the BW16 :guilabel:`Burn` 
+button, press the :guilabel:`RST` button, and then release the :guilabel:`Burn` button.
 
  |bw16-get-start-18|
 
-| Press “Upload” button in Arduino IDE to compile and upload the program. 
-  Arduino IDE will wait for 5s for the development board to enter the upload mode.
-|   |bw16-get-start-19|
-| Again, during the uploading procedure the IDE prints messages. Uploading
-  procedure takes considerably longer time (about 30 seconds to 1 minute).
-  When upload completed, the “Done uploading” message is printed.
+Press :guilabel:`Upload` button in Arduino IDE to compile and upload the program. 
+Arduino IDE will wait for 5s for the development board to enter the upload mode.
 
-Step 2.Run the Blink example
-============================
+   |bw16-get-start-19|
 
-| In each example, Arduino not only provides sample code, but also
-  detailed documentation, including wiring diagram, sample code
-  explanation, technical details, …etc. These examples can be directly
-  used on BW16.
-| So, we find the detailed information of the 
-  `Blink example <https://www.arduino.cc/en/Tutorial/Blink>`__.
-|
-| In short, for BW16, the example can be run on both the 
-  onboard RGB LED or external LED (use any GPIO pins for signal output). 
-  Finally, press the “RST” button, and you can see the RGB LED turns into blue and keep blinking.
+Again, during the uploading procedure the IDE prints messages. Uploading
+procedure takes considerably longer time (about 30 seconds to 1 minute).
+When upload completed, the “Done uploading” message is printed.
+
+Step 2. Run the Blink example
+===============================
+
+In each example, Arduino not only provides sample code, but also
+detailed documentation, including wiring diagram, sample code
+explanation, technical details, …etc. These examples can be directly
+used on BW16.
+
+So, we find the detailed information of the `Blink example <https://www.arduino.cc/en/Tutorial/Blink>`__.
+
+In short, for BW16, the example can be run on both the 
+onboard RGB LED or external LED (use any GPIO pins for signal output). 
+Finally, press the :guilabel:`RST` button, and you can see the RGB LED turns into blue and keep blinking.
 
 *********************************
 References
 *********************************
 
-1. Introduction of BW16 on Instructable:
+#. Introduction of BW16 on Instructable:
    https://www.instructables.com/RTL8720DN/
-2. Load Arduino image into BW16:
+#. Load Arduino image into BW16:
    `How to load BW16 program with Arduino – #13 <https://forum.amebaiot.com/t/how-to-load-bw16-program-with-arduino/517/13>`_
-3. BW16 IMG2 SIGN Invalid Solution:
+#. BW16 IMG2 SIGN Invalid Solution:
    `RTL8720DN(BW16) IMG2 SIGN Invalid Solution <https://forum.amebaiot.com/t/rtl8720dn-bw16-img2-sign-invalid-solution/669>`_
-4. FTDI Driver Download from here:
+#. FTDI Driver Download from here:
    https://ftdichip.com/wp-content/uploads/2021/02/CDM21228_Setup.zip
 
 **(End)**
