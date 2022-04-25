@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:3
+msgid "Socket"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
+" :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:16
+msgid "**socket.SOCK(**\\ *domain*\\ [optional], *type*\\ [optional]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:17
+msgid ""
+"Create a SOCK object and configure it with the given parameters. SOCK "
+"class is under socket class and is the main class we use for all socket "
+"level communications."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:19
+msgid "``domain``: domain address family type. Default is ``AF_INET``"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:21
+msgid ""
+"``AF_INET``: IPv4, classic IP address with dot-notation that is slowly "
+"being replaced by IPv6 due to shortage."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:22
+msgid "``AF_INET6``: IPv6, IP address with colon-notation"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:24
+msgid "``type``: socket type, default is ``SOCK_STREAM``"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:26
+msgid "``SOCK_STREAM``: TCP type"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:27
+msgid "``SOCK_DGRAM``: UDP type"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:30
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:34
+msgid ""
+"**socket.SOCK.connect(**\\ *host*\\ [required], *port*\\ [required]\\ "
+"**)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:35
+msgid "This method connects to a remote server as client."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:37
+msgid "**host:** a website address in string"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:38
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:43
+msgid "**port:** port number in integer"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:40
+msgid "**socket.SOCK.bind(**\\ *port*\\ [required]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:41
+msgid "This method creates a server socket and binds it to the given port number."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:45
+msgid "**socket.SOCK.listen()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:46
+msgid ""
+"This method set the server to listening state, waiting for client "
+"connection at the given port."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:48
+msgid "**socket.SOCK.accept()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:49
+msgid ""
+"This method accepts a client connection and return a new socket object "
+"for subsequent communication and client’s address."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:51
+msgid "**socket.SOCK.recv(**\\ *length*\\ [required]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:52
+msgid "This method receive data with given length"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:54
+msgid "**length:** the length of data expected to receive"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:56
+msgid "**socket.SOCK.send(**\\ *buffer*\\ [required]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:57
+msgid "This method sends data stored in the buffer"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:59
+msgid "**buffer:** a data buffer in format of array/bytearray/string"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:61
+msgid "**socket.SOCK.settimeout(**\\ *seconds*\\ [required]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:62
+msgid "This method set socket’s timeout to the given value"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:64
+msgid "**seconds:** new timeout in seconds"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:66
+msgid "**socket.SOCK.close()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_Socket.rst:67
+msgid "This method close the socket."
+msgstr ""
+

@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_RTC.rst:3
+msgid "RTC"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_RTC.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
+" :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_RTC.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_RTC.rst:16
+msgid "**RTC()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_RTC.rst:17
+msgid "Create a RTC object."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_RTC.rst:20
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_RTC.rst:24
+msgid "**RTC.datetime(**\\ *array_8*\\ [optional]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_RTC.rst:25
+msgid "This method works in 2 ways"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_RTC.rst
+msgid "Return the local date and time if NOT passing any argument into it."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_RTC.rst
+msgid "The returned format is as follows:"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_RTC.rst
+msgid ""
+"(year, month, date, hour, minute, second, weekday[0-6 for Mon to Sun], "
+"yearday[1-366])"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_RTC.rst
+msgid ""
+"Update the local date and time if passing an eight-elements array into "
+"it, the array format is same as above"
+msgstr ""
+

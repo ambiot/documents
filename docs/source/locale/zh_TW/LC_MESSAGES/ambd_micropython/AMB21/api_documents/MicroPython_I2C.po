@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:3
+msgid "I2C"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
+" :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:16
+msgid ""
+"**I2C(** \\ *unit_id*\\  [optional], \\ *\"sda_pin\"*\\  [required], \\ "
+"*\"scl_pin\"*\\  [required], *frequency*\\  [optional]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:17
+msgid ""
+"Create a I2C object associated with the given pin name and configure it "
+"using other parameters."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:18
+msgid "This allows you to then read/write data on the I2C bus"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:20
+msgid ""
+"``unit_id``  : The unit ID of the hardware I2C, assume default value if "
+"left blank"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:21
+msgid "``\"sda_pin\"``: The pin name of SDA"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:22
+msgid "``\"scl_pin\"``: The pin name of SCL"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:23
+msgid ""
+"``frequency``: The frequency at which I2C operates at, assume default "
+"value if left blank."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:26
+msgid "All optional parameters have default values as follows:"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:32
+msgid "Parameter"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:32
+msgid "Default"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:34
+msgid "Unit_id"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:34
+msgid "0"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:35
+msgid "Frequency"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:35
+msgid "100000 (Hz)"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:39
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:43
+msgid "**I2C.reset()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:44
+msgid "This method de-initializes the I2C device."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:46
+msgid "**I2C.scan()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:47
+msgid "This method scans and return the available I2C addresses."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:49
+msgid "**I2C.readinto(** *buf*\\ [required], *flag*\\ [optional]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:50
+msgid ""
+"This method reads the data received at I2C buffer into a user-declared "
+"buffer"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:52
+msgid "**buf**: a buffer of string / array /byte array type"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:53
+msgid "**flag**: a Boolean flag, if True then send a NACK at the end, vice versa"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:55
+msgid "**I2C.write(**\\ *buf*\\ [required]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:56
+msgid "This method sends data stored in the buffer."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:58
+msgid "**buf:** a buffer of string / array /byte array type"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:60
+msgid ""
+"**I2C.readfrom(**\\ *addr*\\ [required], *len*\\ [required], *stop*\\ "
+"[optional]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:61
+msgid ""
+"This method reads len bytes of data from given address, if stop is True, "
+"then send a STOP bit at the end of the transmission."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:63
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:70
+msgid "**addr**: the address to read from"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:64
+msgid "**len**: the number of bytes to expect"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:65
+msgid ""
+"**stop**: a Boolean flag whether or not to send a STOP bit at the end of "
+"transmission"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:67
+msgid ""
+"**I2C.readfrom_into(**\\ *addr*\\ [required], *buf*\\ [required], "
+"*stop*\\ [optional]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:68
+msgid ""
+"This method reads data from given address into the user-declared buffer "
+"provided, if stop is True, then send a STOP bit at the end of the "
+"transmission."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:71
+msgid "**buf**: a data buffer of string / array/ byte array type"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:72
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:79
+msgid ""
+"**stop**: a Boolean flag, if True then send a STOP bit at the end of "
+"transmission, vice versa"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:74
+msgid ""
+"**I2C.writeto(**\\ *addr*\\ [required], *value*\\ [required], *stop*\\ "
+"[optional]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:75
+msgid ""
+"This method sends an integer value to the given address, if stop is True,"
+" then send a STOP bit at the end of the transmission."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:77
+msgid "**addr**: the address to write to"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_I2C.rst:78
+msgid "**value**: an integer value to be sent over"
+msgstr ""
+

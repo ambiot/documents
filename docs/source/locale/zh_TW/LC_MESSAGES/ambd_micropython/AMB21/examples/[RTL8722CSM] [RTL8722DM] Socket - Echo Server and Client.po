@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:8
+#: Echo Server Socket [RTL8722DM] and
+msgid "[RTL8722CSM] [RTL8722DM] Socket - Echo Server and Client"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:13
+#: Echo Server Socket [RTL8722DM] and
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:17
+#: Echo Server Socket [RTL8722DM] and
+msgid "Ameba x 2"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:19
+#: Echo Server Socket [RTL8722DM] and
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:23
+#: Echo Server Socket [RTL8722DM] and
+msgid ""
+"After WiFi is set up, the best way to access the internet is to use "
+"socket. Socket is like an imaginary ethernet socket by which you use to "
+"connect your PC to some server on the internet like Google or Github."
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:25
+#: Echo Server Socket [RTL8722DM] and
+msgid ""
+"Application layer protocol like HTTP are also built on top of socket. "
+"Once you are given an IP address and a port number, you can start to "
+"connect to the remote device and talk to it."
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:27
+#: Echo Server Socket [RTL8722DM] and
+msgid "|image1|"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:66
+#: Echo Server Socket [RTL8722DM] and
+msgid "image1"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:29
+#: Echo Server Socket [RTL8722DM] and
+msgid ""
+"Here is an example of letting a server socket and a client socket to echo"
+" each other’s message, to use this example, you need 2 ameba RTL8722 "
+"running MicroPython, copy and paste the following code to 2 ameba "
+"respectively under REPL paste mode."
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:31
+#: Echo Server Socket [RTL8722DM] and
+msgid "This is the **server** code,"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:49
+#: Echo Server Socket [RTL8722DM] and
+msgid "This is the **client** code,"
+msgstr ""
+

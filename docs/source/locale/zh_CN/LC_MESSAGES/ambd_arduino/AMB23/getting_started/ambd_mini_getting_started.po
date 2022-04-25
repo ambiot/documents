@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-07 04:47+0100\n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:3
 msgid "Getting Started"
@@ -37,8 +37,9 @@ msgid ""
 "In this documentation, please use the latest version Arduino IDE (at "
 "least version 1.8.12)."
 msgstr ""
-"AMB23 开发板目前支持 Windows OS 32 位元和 64 位元 (WIN 7/8/10) ，Linux OS (Ubuntu 18LTS/20LTS/最新) 和 macOS 作业系统。"
-"请使用最新的作业系统版本以获得最佳体验。在本文档中，请使用最新版本的 Arduino IDE (至少 1.8.12版)。"
+"AMB23 开发板目前支持 Windows OS 32 位元和 64 位元 (WIN 7/8/10) ，Linux OS (Ubuntu "
+"18LTS/20LTS/最新) 和 macOS 作业系统。请使用最新的作业系统版本以获得最佳体验。在本文档中，请使用最新版本的 Arduino "
+"IDE (至少 1.8.12版)。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:18
 msgid "Introduction to AmebaD[AMB23]"
@@ -52,24 +53,20 @@ msgid ""
 "interfaces, AmebaD can connect with electronic components such as LED, "
 "switches, manometer, hygrometer, PM2.5 dust sensors, …etc."
 msgstr ""
-"Ameba是一个易于编程的微控制器平台，可用于开发各种物联网应用程序。"
-"AmebaD有各种外围接口，包括WiFi, GPIO INT, I2C, UART, SPI, PWM, ADC。通过这些接口，"
-"AmebaD可以连接LED、开关、压力计、湿度计、PM2.5粉尘传感器等电子元件。"
-
+"Ameba是一个易于编程的微控制器平台，可用于开发各种物联网应用程序。AmebaD有各种外围接口，包括WiFi, GPIO INT, I2C, "
+"UART, SPI, PWM, ADC。通过这些接口，AmebaD可以连接LED、开关、压力计、湿度计、PM2.5粉尘传感器等电子元件。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:25
 msgid ""
 "The collected data can be uploaded via WiFi and be utilized by "
 "applications on smart devices to realize IoT implementation."
-msgstr ""
-"Ameba所收集的数据可以通过WiFi无线上传，"
-"并被智能设备上的应用程序使用，实现物联网的应用。"
+msgstr "Ameba所收集的数据可以通过WiFi无线上传，并被智能设备上的应用程序使用，实现物联网的应用。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:28
 msgid "|ambd-mini-get-start-1|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:236
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:244
 msgid "board-front"
 msgstr ""
 
@@ -78,11 +75,11 @@ msgid "AMB23 has smaller size than Arduino Uno, as shown in the above figure."
 msgstr "AmebaD和Arduino Uno的尺寸类似，如上图所示。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:32
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:79
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:80
 msgid "|ambd-mini-get-start-2|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:242
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:250
 msgid "board-bottom"
 msgstr ""
 
@@ -92,69 +89,68 @@ msgid ""
 "devices."
 msgstr "RTL8722DM MINI使用Micro USB来供电，这在许多智能设备中很常见。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:35
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:36
 msgid ""
 "Please refer to the following figure and table for the pin diagram and "
 "function of AMB23."
 msgstr "RTL8722DM MINI的引脚图和功能请参考下图和表格。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:37
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:38
 msgid "|ambd-mini-get-start-3|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:248
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:256
 msgid "pin-diagram-front"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:39
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:40
 msgid "|ambd-mini-get-start-4|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:254
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:262
 msgid "pin-diagram-bottom"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:42
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:43
 msgid "\\#"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:42
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:43
 msgid "PIN name"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:42
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:43
 msgid "GPIO INT"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:42
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:43
 msgid "ADC"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:42
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:43
 msgid "PWM"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:42
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:43
 msgid "UART"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:42
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:43
 msgid "SPI"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:42
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:43
 msgid "I2C"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:44
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:45
 msgid "D0"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:44
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:45
 msgid "GPIOB_0"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:44
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:45
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:46
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:47
@@ -177,268 +173,269 @@ msgstr ""
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:64
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:65
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:66
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:67
 msgid "✓"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:44
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:50
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:45
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:51
 msgid "I2C0 SDA"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:45
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:46
 msgid "D1"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:45
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:46
 msgid "GPIOB_1"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:45
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:46
 msgid "A4"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:45
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:53
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:46
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:54
 msgid "Serial2_TX"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:46
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:47
 msgid "D2"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:46
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:47
 msgid "GPIOB_2"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:46
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:47
 msgid "A5"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:46
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:54
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:47
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:55
 msgid "Serial2_RX"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:47
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:48
 msgid "D3"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:47
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:48
 msgid "GPIOB_3"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:47
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:48
 msgid "A6"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:48
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:49
 msgid "D4"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:48
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:49
 msgid "GPIOB_4"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:48
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:49
 msgid "A0"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:49
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:50
 msgid "D5"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:49
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:50
 msgid "GPIOB_5"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:49
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:50
 msgid "A1"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:49
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:66
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:50
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:67
 msgid "I2C0 SCL"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:50
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:51
 msgid "D6"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:50
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:51
 msgid "GPIOB_6"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:50
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:51
 msgid "A2"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:51
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:52
 msgid "D7"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:51
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:52
 msgid "GPIOB_7"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:51
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:52
 msgid "A3"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:52
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:53
 msgid "D8"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:52
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:53
 msgid "GPIOA_2"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:53
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:54
 msgid "D9"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:53
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:54
 msgid "GPIOA_12"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:53
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:54
 msgid "SPI1_MOSI"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:54
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:55
 msgid "D10"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:54
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:55
 msgid "GPIOA_13"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:54
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:55
 msgid "SPI1_MISO"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:55
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:56
 msgid "D11"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:55
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:56
 msgid "GPIOA_14"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:55
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:56
 msgid "SPI1_CLK"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:56
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:57
 msgid "D12"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:56
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:57
 msgid "GPIOA_15"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:56
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:57
 msgid "SPI1_CS"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:57
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:58
 msgid "D13"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:57
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:58
 msgid "GPIOA_16"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:58
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:59
 msgid "D14"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:58
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:59
 msgid "GPIOA_28"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:59
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:60
 msgid "D15"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:59
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:60
 msgid "GPIOA_18"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:59
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:62
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:60
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:63
 msgid "Serial1_TX"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:60
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:61
 msgid "D16"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:60
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:61
 msgid "GPIOA_19"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:60
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:63
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:61
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:64
 msgid "Serial1_RX"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:61
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:62
 msgid "D17"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:61
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:62
 msgid "GPIOA_30"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:62
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:63
 msgid "D18"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:62
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:63
 msgid "GPIOA_21"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:63
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:64
 msgid "D19"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:63
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:64
 msgid "GPIOA_22"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:64
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:65
 msgid "D20"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:64
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:65
 msgid "GPIOA_23"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:65
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:66
 msgid "D21"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:65
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:66
 msgid "GPIOA_24"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:66
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:67
 msgid "D22"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:66
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:67
 msgid "GPIOA_31"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:72
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:73
 msgid "Setting up Development Environment"
 msgstr "设置开发环境"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:75
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:76
 msgid "Step 1. Installing the Driver"
 msgstr "步骤1：安装驱动程序"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:77
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:78
 msgid "First, connect AMB23 to the computer via Micro USB (same as power):"
 msgstr "首先，通过Micro USB将RTL8722DM MINI连接到电脑:"
 
@@ -446,88 +443,80 @@ msgstr "首先，通过Micro USB将RTL8722DM MINI连接到电脑:"
 msgid ""
 "If this is the first time you connect AMB23 to your computer, the USB "
 "driver for AMB23 will be automatic installed."
-msgstr ""
-"如果这是您第一次将RTL8722DM MINI连接到您的电脑，"
-"那么RTL8722DM MINI的USB驱动程序将自动安装。"
+msgstr "如果这是您第一次将RTL8722DM MINI连接到您的电脑，那么RTL8722DM MINI的USB驱动程序将自动安装。"
 
-
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:84
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:85
 msgid ""
 "If you have driver issue of connect board to your computer please go to "
 "`here <https://ftdichip.com/drivers/>`_ for USB driver."
-msgstr ""
-"如果遇到开发板连接到电脑的驱动程序问题，"
-"请参考下列USB 驱动程序https:// ftdichip.com/drivers /。"
+msgstr "如果遇到开发板连接到电脑的驱动程序问题，请参考下列USB 驱动程序https:// ftdichip.com/drivers /。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:85
-msgid "You can check the COM port number in Device Manager of your computer:"
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:88
+#, fuzzy
+msgid ""
+"You can check the :guilabel:`COM` port number in :guilabel:`Device "
+"Manager` of your computer:"
 msgstr "你可以在你电脑的装置管理员中检查COM端口号:"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:87
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:90
 msgid "|ambd-mini-get-start-5|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:260
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:268
 msgid "install-driver"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:90
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:93
 msgid "Step 2. Set up Arduino IDE"
 msgstr "步骤2: 设置Arduino IDE"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:96
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:95
 msgid ""
 "From version 1.6.5, Arduino IDE supports third-party hardware. Therefore,"
 " we can use Arduino IDE to develop applications on AMB23, and the "
 "examples of Arduino can run on AMB23 too. Refer to `basic example link "
 "<https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/>`__."
 msgstr ""
-"从1.6.5版本开始，Arduino IDE支持第三方硬件。"
-"因此，我们可以使用Arduino IDE在RTL8722DM MINI上开发应用程序，"
-"Arduino的示例也可以在RTL8722DM MINI上运行。请参考基本范例："
-"https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/"
-
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:98
-msgid "Arduino IDE can be downloaded in the Arduino website:"
-msgstr "Arduino IDE可以在Arduino网站下载:"
-
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:99
-msgid "https://www.arduino.cc/en/Main/Software"
-msgstr ""
+"从1.6.5版本开始，Arduino IDE支持第三方硬件。因此，我们可以使用Arduino IDE在RTL8722DM "
+"MINI上开发应用程序，Arduino的示例也可以在RTL8722DM "
+"MINI上运行。请参考基本范例：https://www.amebaiot.com.cn/amebad-mini-arduino-"
+"compatible-ex/"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:101
 msgid ""
-"When the installation is finished, open Arduino IDE. To set up AMB23 "
-"correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`."
-msgstr "安装完成后，打开Arduino IDE。为了在Arduino IDE中正常使用 AMB23，请打开“File”—>“Preferences”。"
+"Arduino IDE can be downloaded in the Arduino website: "
+"https://www.arduino.cc/en/Main/Software When the installation is "
+"finished, open Arduino IDE. To set up AMB23 correctly in Arduino IDE, go "
+"to :guilabel:`“File” -> “Preferences”`."
+msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:103
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:106
 msgid "|ambd-mini-get-start-6|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:266
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:274
 msgid "get-start-6"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:105
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:108
 msgid ""
 "And paste the following URL into :guilabel:`“Additional Boards Manager "
 "URLs”` field::"
 msgstr "并将以下网址粘贴到“Additional Boards Manager URLs” 栏位:"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:111
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:114
 msgid "Next, go to :guilabel:`“Tools” -> “Board” -> “Boards Manager”`:"
 msgstr "接下来，选择 “Tools” -> “Board” -> “Boards Manager”:"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:113
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:116
 msgid "|ambd-mini-get-start-7|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:272
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:280
 msgid "get-start-7"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:115
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:118
 msgid ""
 "The :guilabel:`“Boards Manager”` requires about 10~20 seconds to refresh "
 "all hardware files (if the network is in bad condition, it may take "
@@ -537,20 +526,20 @@ msgid ""
 "Cortex-M33 @200MHz)”` in the list, click :guilabel:`“Install”`, then the "
 "Arduino IDE starts to download required files for AmebaD."
 msgstr ""
-"“Boards Manager”大约需要10~20秒来刷新所有硬件文件(如果网络状况不好，可能需要更长的时间)。"
-"每次连接新硬件时，我们都需要重新打开Boards Manager。"
-"因此，我们先关闭然后再次打开它。在列表中找到“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”，"
-"点击“Install”，Arduino IDE会自动开始下载AmebaD所需的文件。"
+"“Boards "
+"Manager”大约需要10~20秒来刷新所有硬件文件(如果网络状况不好，可能需要更长的时间)。每次连接新硬件时，我们都需要重新打开Boards "
+"Manager。因此，我们先关闭然后再次打开它。在列表中找到“Realtek AmebaD Boards (32-bits ARM "
+"Cortex-M33 @200MHz)”，点击“Install”，Arduino IDE会自动开始下载AmebaD所需的文件。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:123
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:126
 msgid "|ambd-mini-get-start-8|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:278
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:286
 msgid "get-start-8"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:127
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:128
 msgid ""
 "If you are facing GitHub downloading issue, please refer to the following"
 " link at `Download/Software Development Kit "
@@ -558,36 +547,39 @@ msgid ""
 "sections:"
 msgstr "如果您遇到 GitHub 下载问题，请参考以下“下载/软体开发套件”中的链接。 有3个部分。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:129
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:132
+#, fuzzy
 msgid ""
-"“AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There "
-"are 5 latest released SDK options."
+":guilabel:`“AmebaD_Arduino_patch1_SDK”`, please select at least 1 of the "
+"SDKs. There are 5 latest released SDK options."
 msgstr "“AmebaD_Arduino_patch1_SDK”，请至少选择 1 个 SDK。 目前有 5 个最新发布的 SDK 选项。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:130
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:133
+#, fuzzy
 msgid ""
-"“AmebaD_Arduino_patch2_Tools”, please select according to your operation "
-"system. There are Windows, Linux and MacOS."
+":guilabel:`“AmebaD_Arduino_patch2_Tools”`, please select according to "
+"your operation system. There are Windows, Linux and MacOS."
 msgstr "“AmebaD_Arduino_patch2_Tools”，请根据您的作业系统进行选择。 有 Windows、Linux 和 MacOS。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:131
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:134
+#, fuzzy
 msgid ""
-"“AmebaD_Arduino_Source_Code”, this section is optional download only "
-"wants to refer the latest source code."
+":guilabel:`“AmebaD_Arduino_Source_Code”`, this section is optional "
+"download only wants to refer the latest source code."
 msgstr "“AmebaD_Arduino_Source_Code”，此部分为可选下载，用來参考最新原始码。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:133
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:136
 msgid ""
 "Download the files selected, then unzip (patch1 and patch2 are "
 "compulsory). There are “Install.doc”/“Install.pdf” for you to refer "
 "installation steps. According to your system, please run the installation"
 " tool in the “Offline_SDK_installation_tool” folder."
 msgstr ""
-"下载选择的文件，然后解压（patch1 和patch2 是必须的）。"
-"有“Install_中文.doc”/“Install_中文.pdf”供您参考安装步骤。 "
+"下载选择的文件，然后解压（patch1 和patch2 "
+"是必须的）。有“Install_中文.doc”/“Install_中文.pdf”供您参考安装步骤。 "
 "根据您的系统，请运行“Offline_SDK_installation_tool”文件夹中的安装工具。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:138
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:141
 msgid ""
 "After the installation tool running successfully, you may open Arduino "
 "IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. "
@@ -595,143 +587,137 @@ msgid ""
 "@200MHz)”`` in the list, click :guilabel:`“Install”`, then the Arduino "
 "IDE starts to download required files for AmebaD."
 msgstr ""
-"安装工具运行成功后，您可以打开Arduino IDE并选择 “tools” -> “Board“ -> “Boards Manager…”。"
-"尝试在列表中找到“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”，"
-"点击“Install”，Arduino IDE开始下载AmebaD所需的文件。"
+"安装工具运行成功后，您可以打开Arduino IDE并选择 “tools” -> “Board“ -> “Boards "
+"Manager…”。尝试在列表中找到“Realtek AmebaD Boards (32-bits ARM Cortex-M33 "
+"@200MHz)”，点击“Install”，Arduino IDE开始下载AmebaD所需的文件。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:146
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:149
 msgid ""
 "Finally, we select AmebaD as current connected board in "
 ":guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” "
 "RTL8722DM MINI”`："
 msgstr ""
-"最后，我们在“tools”->“Board”->“Ameba ARM (32-bits) Boards”"
-"->” RTL8722DM MINI”中选择了AmebaD作为当前连接的开发板:"
+"最后，我们在“tools”->“Board”->“Ameba ARM (32-bits) Boards”->” RTL8722DM "
+"MINI”中选择了AmebaD作为当前连接的开发板:"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:149
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:152
 msgid "|ambd-mini-get-start-9|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:284
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:292
 msgid "get-start-9"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:154
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:157
 msgid "Try the First Example"
 msgstr "测试第一个示例"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:157
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:160
 msgid "Step 1. Compile & Upload"
 msgstr "步骤1：编译并上传"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:161
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:162
 msgid ""
 "Arduino IDE provides many built-in examples, which can be compiled, "
 "uploaded and run directly on the boards. Here, we take the “Blink” "
 "example as the first try."
 msgstr "Arduino IDE提供了很多内置的范例，可以在开发板上直接编译、上传和运行。这里，我们以“Blink”为例进行第一次尝试。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:162
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:166
 msgid "Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:"
 msgstr "打开“File”->“Examples”->“ 01.Basics”-> “Blink”:"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:164
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:168
 msgid "|ambd-mini-get-start-10|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:290
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:298
 msgid "get-start-10"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:166
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:170
 msgid "Arduino IDE opens a new window with the complete sample code."
 msgstr "Arduino IDE打开一个带有完整示例代码的新视窗。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:168
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:172
 msgid "|ambd-mini-get-start-11|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:296
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:304
 msgid "get-start-11"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:171
-msgid ""
-"There are onboard LED of AMB23, the default “LED_BUILTIN” is blue onboard"
-" LED."
-msgstr "开发板上有RTL8722DM MINI的LED，默认“LED_BUILTIN”是蓝色的LED"
-
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:173
-msgid ""
-"Change “LED_BUILTIN” to “LED_B” or “LED_G” for different colour. Onboard "
-"LEDs options LED_B and LED_G (blue and green)."
-msgstr "将“LED_BUILTIN”更改为“LED_B”或“LED_G”以使用不同的颜色。板载LED选项LED_B和LED_G。 （蓝色和绿色）。"
-
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:175
+msgid ""
+"There are two onboard LEDs on AMB23, ``LED_B`` and ``LED_G`` (Blue and "
+"Green), the default ``LED_BUILTIN`` is the onboard blue LED."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:178
+msgid "Change ``LED_BUILTIN`` to ``LED_B`` or ``LED_G`` for different colour."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:181
 msgid "|ambd-mini-get-start-12|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:302
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:310
 msgid "get-start-12"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:177
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:183
 msgid ""
 "Next, we compile the sample code directly; click :guilabel:`“Sketch” -> "
 "“Verify/Compile”`"
 msgstr "接下来，我们直接编译示例代码，点击“Sketch”->“Verify/Compile”"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:180
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:186
 msgid "|ambd-mini-get-start-13|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:308
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:316
 msgid "get-start-13"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:182
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:188
 msgid ""
 "Arduino IDE prints the compiling messages in the bottom area of the IDE "
 "window. When the compilation is finished, you will get the message "
 "similar to the following figure:"
 msgstr "Arduino IDE在IDE窗口的底部区域打印编译消息。编译完成后，会得到如下图所示的消息:"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:186
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:192
 msgid "|ambd-mini-get-start-14|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:314
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:322
 msgid "get-start-14"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:188
-msgid "Afterwards, we will upload the compiled code to AMB23."
-msgstr "之后，我们将把编译后的代码上传到 AMB23。"
-
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:190
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:194
+#, fuzzy
 msgid ""
-"Please make sure AMB23 is connected to your computer, then click "
-":guilabel:`“Sketch” -> “Upload”`."
+"Afterwards, we will upload the compiled code to AMB23. Please make sure "
+"AMB23 is connected to your computer, then click :guilabel:`“Sketch” -> "
+"“Upload”`."
 msgstr "请确保 AMB23 已连接到您的电脑，然后单击“Sketch” -> “Upload”。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:194
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:198
 msgid ""
 "The Arduino IDE will compile first then upload. During the uploading "
 "process, users are required to enter the upload mode of the board. "
 "Arduino IDE will wait 5s for DEV board to enter the upload mode."
-msgstr ""
-"Arduino IDE将先编译，然后上传。在上传过程中，用户需要将开发板调至上传模式。"
-"Arduino IDE会等待5秒钟，等待开发板进入上传模式。"
+msgstr "Arduino IDE将先编译，然后上传。在上传过程中，用户需要将开发板调至上传模式。Arduino IDE会等待5秒钟，等待开发板进入上传模式。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:196
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:202
 msgid "|ambd-mini-get-start-15|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:320
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:328
 msgid "get-start-15"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:198
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:204
 msgid ""
 "To enter the upload mode, first press and hold the "
 ":guilabel:`UART_DOWNLOAD` button, then press the :guilabel:`RESET` "
@@ -739,82 +725,75 @@ msgid ""
 " turned off."
 msgstr "想要进入上传模式，首先按住UART_DOWNLOAD按钮不放，然后轻按RESET按钮。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:202
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:208
 msgid "|ambd-mini-get-start-16|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:326
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:334
 msgid "get-start-16"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:204
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:210
+#, fuzzy
 msgid ""
 "It is optional for users to check if the board entered the upload mode. "
-"Open serial monitor/terminal and look for “#Flash Download Start”. Note, "
-"it is normal that some serial terminals may show unknown characters as "
-"following picture."
+"Open serial monitor/terminal and look for “#Flash Download Start”."
 msgstr ""
-"用户可选择检查开发板是否进入上传模式。打开串行监视器并查找“#Flash Download Start”。"
-"请注意，某些串口终端可能会显示如下图所示的未知字符是正常的。"
+"用户可选择检查开发板是否进入上传模式。打开串行监视器并查找“#Flash Download "
+"Start”。请注意，某些串口终端可能会显示如下图所示的未知字符是正常的。"
 
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:214
+msgid ""
+"It is normal that some serial terminals may show unknown characters as "
+"the following picture."
+msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:208
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:216
 msgid "|ambd-mini-get-start-17|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:332
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:340
 msgid "get-start-17"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:210
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:218
 msgid ""
 "Again, during the uploading procedure the IDE prints messages. Uploading "
 "procedure takes considerably longer time (about 30 seconds to 1 minute). "
 "When upload completed, the “Done uploading” message is printed."
-msgstr ""
-"同样，在上传过程中IDE会自动显示消息。上传过程需要相当长的时间(大约30秒到1分钟)。"
-"上传完成后，您会看到“Done uploading”消息。"
+msgstr "同样，在上传过程中IDE会自动显示消息。上传过程需要相当长的时间(大约30秒到1分钟)。上传完成后，您会看到“Done uploading”消息。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:215
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:223
 msgid "Step 2.Run the Blink example"
 msgstr "步骤2：运行Blink示例"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:220
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:225
+#, fuzzy
 msgid ""
 "In each example, Arduino not only provides sample code, but also detailed"
 " documentation, including wiring diagram, sample code explanation, "
-"technical details, …etc. These examples can be directly used on AMB23."
-msgstr ""
-"在每个示例中，Arduino不仅提供了示例代码，还提供了详细的文档，包括接线图、示例代码说明、技术细节等。"
-"这些示例可以直接用于 AMB23。"
+"technical details, …etc. These examples can be directly used on AMB23. "
+"So, we can find the detailed information of the \"Blink\" example: "
+"https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink"
+msgstr "在每个示例中，Arduino不仅提供了示例代码，还提供了详细的文档，包括接线图、示例代码说明、技术细节等。这些示例可以直接用于 AMB23。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:221
-msgid "So, we find the detailed information of the \"Blink\" example:"
-msgstr "在这里我们可以找到Blink这个示例的详细信息:"
-
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:222
-msgid "https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:226
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:231
 msgid ""
 "In short, for AMB23, the example can be run on both onboard LEDs (green "
 "or blue) or external LED (use any GPIO pins for signal output)."
-msgstr ""
-"简而言之，对于 AMB23，该示例可以在板上LED（绿色或蓝色）或外部LED"
-"（使用任何GPIO引脚进行信号输出）上运行。"
+msgstr "简而言之，对于 AMB23，该示例可以在板上LED（绿色或蓝色）或外部LED（使用任何GPIO引脚进行信号输出）上运行。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:227
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:235
 msgid ""
 "Finally, press the :guilabel:`RESET` button, and you can see the "
 ":guilabel:`LED` blinking."
 msgstr "最后，按RESET按钮，你就会看到LED开始闪烁。"
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:229
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:237
 msgid "**(End)**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:234
+#: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:242
 msgid ""
 "If you face any issue, please refer to the FAQ and Trouble shooting "
 "sections on  :doc:`/ambd_arduino/AMB23/support/index` page."
@@ -832,5 +811,40 @@ msgstr "如果您遇到任何问题，请参考 :doc:`/ambd_arduino/AMB23/suppor
 #~ "refer to the FAQ and Trouble "
 #~ "shooting sections on :doc:`../support/index` "
 #~ "page."
+#~ msgstr ""
+
+#~ msgid "Arduino IDE can be downloaded in the Arduino website:"
+#~ msgstr "Arduino IDE可以在Arduino网站下载:"
+
+#~ msgid "https://www.arduino.cc/en/Main/Software"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When the installation is finished, open"
+#~ " Arduino IDE. To set up AMB23 "
+#~ "correctly in Arduino IDE, go to "
+#~ ":guilabel:`“File” -> “Preferences”`."
+#~ msgstr "安装完成后，打开Arduino IDE。为了在Arduino IDE中正常使用 AMB23，请打开“File”—>“Preferences”。"
+
+#~ msgid ""
+#~ "There are onboard LED of AMB23, "
+#~ "the default “LED_BUILTIN” is blue "
+#~ "onboard LED."
+#~ msgstr "开发板上有RTL8722DM MINI的LED，默认“LED_BUILTIN”是蓝色的LED"
+
+#~ msgid ""
+#~ "Change “LED_BUILTIN” to “LED_B” or "
+#~ "“LED_G” for different colour. Onboard "
+#~ "LEDs options LED_B and LED_G (blue "
+#~ "and green)."
+#~ msgstr "将“LED_BUILTIN”更改为“LED_B”或“LED_G”以使用不同的颜色。板载LED选项LED_B和LED_G。 （蓝色和绿色）。"
+
+#~ msgid "Afterwards, we will upload the compiled code to AMB23."
+#~ msgstr "之后，我们将把编译后的代码上传到 AMB23。"
+
+#~ msgid "So, we find the detailed information of the \"Blink\" example:"
+#~ msgstr "在这里我们可以找到Blink这个示例的详细信息:"
+
+#~ msgid "https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink"
 #~ msgstr ""
 

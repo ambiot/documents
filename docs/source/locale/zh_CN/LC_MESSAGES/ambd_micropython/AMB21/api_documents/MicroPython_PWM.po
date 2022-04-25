@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst:3
+msgid "PWM"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
+" :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst:16
+msgid "**PWM(**\\ *unit*\\ [optional]\\ *, \"pin_name\"*\\ [required]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst:17
+msgid ""
+"Create a PWM object associated with the given pin name. This allows you "
+"to then write PWM signal on the pin."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst:19
+msgid ""
+"``unit``: unit ID of the hardware PWM, will use default unit 0 if leave "
+"blank"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst:20
+msgid ""
+"``\"pin_name\"``: The name of the pin, must be in string format. See "
+"below for PWM supported pins."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst
+msgid "PWM is currently only supported on the following pins,"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst
+msgid "PA_23 , PA_24 , PA_25 , PA_26"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst:27
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst:31
+msgid "**PWM.write(**\\ *dutycycle_float*\\ [required]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst:32
+msgid ""
+"This method will output a PWM signal with given duty cycle on the "
+"associated GPIO pin."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_PWM.rst:34
+msgid ""
+"**dutycycle_float**: a floating point duty cycle value, can be from 0.0 "
+"(0%) to 1.0 (100%)"
+msgstr ""
+

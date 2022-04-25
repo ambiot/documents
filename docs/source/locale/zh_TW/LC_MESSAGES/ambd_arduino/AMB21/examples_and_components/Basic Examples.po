@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic Examples.rst:3
 msgid "Basic Examples"
@@ -23,9 +23,8 @@ msgstr "基本範例"
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic Examples.rst:8
 msgid ""
-":raw-html:`<h1 style=\"color:#000000; font-size:20px\">` AMB21 "
-"(RTL8722DM/CSM) Supported ARDUINO built-in example table :raw-"
-"html:`</h1>`"
+":raw-html:`<h1 style=\"color:#000000; font-size:20px\">` AMB21/AMB22 "
+"Supported ARDUINO built-in example table :raw-html:`</h1>`"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
@@ -38,7 +37,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
 #: Examples.rst:17
-msgid "Please refer to the following link to set up Ameba for Arduino IDE."
+msgid "Please refer to the following link to set up Ameba for Arduino IDE:"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
@@ -47,388 +46,403 @@ msgid "`<https://www.amebaiot.com/en/amebad-arduino-getting-started/>`_"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:19
-msgid "Please refer to the following link for Arduino built-in example details."
+#: Examples.rst:20
+msgid "Please refer to the following link for Arduino built-in example details:"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:20
+#: Examples.rst:21
 msgid "`<https://www.arduino.cc/en/Tutorial/BuiltInExamples/>`_"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:24
+#: Examples.rst:25
 msgid "**Category**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:24
+#: Examples.rst:25
 msgid "**Name**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:24
+#: Examples.rst:25
 msgid "**Comment**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:24
+#: Examples.rst:25
 msgid "**Remarks**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:26
+#: Examples.rst:27
 msgid "01. Basics"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:26
+#: Examples.rst:27
 msgid "AnalogReadSerial"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:26 Examples.rst:116
+#: Examples.rst:27 Examples.rst:117
 msgid "Connect potentiometer to 3.3V."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:26 Examples.rst:42 Examples.rst:76 Examples.rst:83
-#: Examples.rst:93 Examples.rst:102 Examples.rst:116 Examples.rst:135
-#: Examples.rst:142 Examples.rst:155 Examples.rst:169 Examples.rst:176
-#: Examples.rst:186 Examples.rst:193 Examples.rst:200 Examples.rst:223
+#: Examples.rst:27 Examples.rst:43 Examples.rst:77 Examples.rst:84
+#: Examples.rst:94 Examples.rst:103 Examples.rst:117 Examples.rst:136
+#: Examples.rst:143 Examples.rst:156 Examples.rst:170 Examples.rst:177
+#: Examples.rst:187 Examples.rst:194 Examples.rst:201 Examples.rst:224
 msgid ""
 "ADC pin options A0, A1, A2, A3, A4, A5 and A6. ADC pin reading voltage "
 "range 0 to 3.3V."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:33
+#: Examples.rst:34
 msgid "BareMinimum"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:35
+#: Examples.rst:36
 msgid "Blink"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:35 Examples.rst:49
+#: Examples.rst:36 Examples.rst:50
 msgid "Pin LED_BUILTIN sets to pin D8."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:38
+#: Examples.rst:39
 msgid "DigitalReadSerial"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:40
+#: Examples.rst:41
 msgid "Fade"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:42
+#: Examples.rst:43
 msgid "ReadAnalogVoltage"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:49
+#: Examples.rst:50
 msgid "02. Digital"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:49
+#: Examples.rst:50
 msgid "BlinkWithoutDelay"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:53
+#: Examples.rst:54
 msgid "Button"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:53 Examples.rst:56 Examples.rst:59 Examples.rst:62
-#: Examples.rst:83
+#: Examples.rst:54 Examples.rst:57 Examples.rst:60 Examples.rst:63
+#: Examples.rst:84
 msgid "Connect LED to pin D13."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:56
+#: Examples.rst:57
 msgid "Debounce"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:59
+#: Examples.rst:60
 msgid "Digital InputPullup"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:62
+#: Examples.rst:63
 msgid "StateChange Detection"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:65
+#: Examples.rst:66
 msgid "toneKeyboard"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:68
+#: Examples.rst:69
 msgid "toneMelody"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:70
+#: Examples.rst:71
 msgid "toneMultiple"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:73
+#: Examples.rst:74
 msgid "tonePitch Follower"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:76
+#: Examples.rst:77
 msgid "03. Analog"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:76
+#: Examples.rst:77
 msgid "Analog InOutSerial"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:83
+#: Examples.rst:84
 msgid "AnalogInput"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:90
+#: Examples.rst:91
 msgid "Analog Write Mega"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:93
+#: Examples.rst:94
 msgid "Calibration"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:93 Examples.rst:186
+#: Examples.rst:94 Examples.rst:187
 msgid "Connect another LED to pin D13."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:100
+#: Examples.rst:101
 msgid "Fading"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:102
+#: Examples.rst:103
 msgid "Smoothing"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:109
+#: Examples.rst:110
 msgid "04. Communication"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:109
+#: Examples.rst:110
 msgid "ASCIITable"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:114
+#: Examples.rst:115
 msgid "Dimmer"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:116
+#: Examples.rst:117
 msgid "Graph"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:123
+#: Examples.rst:124
 msgid "Midi"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:123
+#: Examples.rst:124
 msgid "Use Serial1 and pin D26, or use Serial2 and pin D17."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:127
+#: Examples.rst:128
 msgid "MultiSerial"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:129
+#: Examples.rst:130
 msgid "PhysicalPixel"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:132
+#: Examples.rst:133
 msgid "Read ASCIIString"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:135
+#: Examples.rst:136
 msgid "SerialCallResponse"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:142
+#: Examples.rst:143
 msgid "SerialCallResponse ASCII"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:149
+#: Examples.rst:150
 msgid "SerialEvent"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:151
+#: Examples.rst:152
 msgid "Serial Passthrough"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:151
+#: Examples.rst:152
 msgid "Serial options, Serial1 or Serial2."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:155
+#: Examples.rst:156
 msgid "Virtual ColorMixer"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:162
+#: Examples.rst:163
 msgid "05. Control"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:162
+#: Examples.rst:163
 msgid "Arrays"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:162 Examples.rst:166 Examples.rst:183
+#: Examples.rst:163 Examples.rst:167 Examples.rst:184
 msgid "Use pins D1, D2, D3, D4, D5, D6."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:166
+#: Examples.rst:167
 msgid "ForLoop Iteration"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:169
+#: Examples.rst:170
 msgid "IfStatement Conditional"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:176
+#: Examples.rst:177
 msgid "switchCase"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:183
+#: Examples.rst:184
 msgid "switchCase2"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:186
+#: Examples.rst:187
 msgid "While Statement Conditional"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:193
+#: Examples.rst:194
 msgid "06. Display"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:193
+#: Examples.rst:194
 msgid "barGraph"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:193
+#: Examples.rst:194
 msgid "Use another pin to replace pin D7."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:200
+#: Examples.rst:201
 msgid "RowColumn Scanning"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:207
+#: Examples.rst:208
 msgid "07. Strings"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:207
+#: Examples.rst:208
 msgid "Character Analysis"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:211
+#: Examples.rst:212
 msgid "StringAddition Operator"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:214
+#: Examples.rst:215
 msgid "StringAppend Operator"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:217
+#: Examples.rst:218
 msgid "String CaseChanges"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:220
+#: Examples.rst:221
 msgid "String Characters"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:223
+#: Examples.rst:224
 msgid "StringComparision Operators"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:230
+#: Examples.rst:231
 msgid "StringIndexOf"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:233
+#: Examples.rst:234
 msgid "StringLength"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:236
+#: Examples.rst:237
 msgid "StringLengthTrim"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:239
+#: Examples.rst:240
 msgid "StringReplace"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:242
+#: Examples.rst:243
 msgid "StringStartsWith EndsWith"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:246
+#: Examples.rst:247
 msgid "StringSubstring"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
-#: Examples.rst:249
+#: Examples.rst:250
 msgid "StringToInt"
 msgstr ""
+
+#~ msgid ""
+#~ ":raw-html:`<h1 style=\"color:#000000; font-"
+#~ "size:20px\">` AMB21 (RTL8722DM/CSM) Supported "
+#~ "ARDUINO built-in example table :raw-"
+#~ "html:`</h1>`"
+#~ msgstr ""
+
+#~ msgid "Please refer to the following link to set up Ameba for Arduino IDE."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please refer to the following link "
+#~ "for Arduino built-in example details."
+#~ msgstr ""
 
