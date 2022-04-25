@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:3
 #: Sending UDP
 msgid "WiFi - Approximate UDP Sending Delay"
-msgstr ""
+msgstr "WiFi - 估算 UDP 數據發送延遲"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:8
 #: Sending UDP
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:12
 #: Sending UDP
@@ -37,7 +39,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:13
 #: Sending UDP
 msgid "Windows computer connected to same network"
-msgstr ""
+msgstr "Windows電腦（需連入同樣的網絡）"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:15
 #: Sending UDP
@@ -45,6 +47,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:19
 #: Sending UDP
@@ -52,18 +56,20 @@ msgid ""
 "This example uses Ameba to send UDP packets to a computer and calculates "
 "the UDP sending delay."
 msgstr ""
+"本例使用Ameba接收來自計算機的UDP數據包 "
+"併計算UDP數據包發送延遲。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:22
 #: Sending UDP
 msgid "**Ameba Preparation**"
-msgstr ""
+msgstr "**Ameba 準備**"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:24
 #: Sending UDP
 msgid ""
 "Open the “CalculateUdpSendDelay” example in ``“File” -> “Examples” -> "
 "“AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpSendDelay”``."
-msgstr ""
+msgstr "打開“CalculateUdpSendDelay”示例：”File” -> “Examples” -> “AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpSendDelay”."
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:27
 #: Sending UDP
@@ -81,7 +87,7 @@ msgid ""
 "In the sample code, modify the highlighted section to enter the "
 "information required (ssid, password, key index) to connect to your WiFi "
 "network."
-msgstr ""
+msgstr "在示例代碼中，修改高亮的部分，輸入連接WiFi網絡所需的信息(ssid、密碼、密鑰索引)。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:33
 #: Sending UDP
@@ -89,7 +95,7 @@ msgid ""
 "The server variable also needs to be changed to match the IP address of "
 "your computer. You can find the IP address using the “ipconfig” command "
 "in a terminal window."
-msgstr ""
+msgstr "還需要更改服務器變量以匹配計算機的IP地址。您可以在終端窗口中使用“ipconfig”命令找到IP地址。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:37
 #: Sending UDP
@@ -104,14 +110,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:39
 #: Sending UDP
 msgid "**Computer Preparation**"
-msgstr ""
+msgstr "**電腦準備**"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:41
 #: Sending UDP
 msgid ""
 "On the computer, Cygwin will be required to compile the code to send the "
 "UDP packets. Cygwin can be downloaded from https://www.cygwin.com/"
-msgstr ""
+msgstr "回到我們的電腦上，我們需要安裝Cygwin來編譯用來發送UDP數據包的代碼。 Cygwin可以從 https://www.cygwin.com/下載。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:44
 #: Sending UDP
@@ -121,6 +127,9 @@ msgid ""
 "between “#if 0” and “#endif”, into a new text file and rename the file to"
 " “UdpSendDelay.cpp”."
 msgstr ""
+"按照官網上的說明來安裝。接下來，從“CalculateUdpSendDelay”的Arduino示例中，"
+"將示例最下面的“#if 0”和“#endif”之間的代碼複製到一個新的文本文件中，"
+"將hostname更改為Ameba的IP地址，並將該文件重命名為“UdpSendDelay.cpp”。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:49
 #: Sending UDP
@@ -140,25 +149,27 @@ msgid ""
 " -o UdpDelay” to compile the code. A file named “UdpDelay.exe” will be "
 "created in the same directory."
 msgstr ""
+"接下來，打開Cygwin終端，將工作目錄更改為“UdpSendDelay.cpp”的位置，並使用 “g++ UdpSendDelay.cpp -o UdpDelay” 指令來編譯代碼。"
+"一個名為“UdpDelay.exe”的文件會在當前目錄中創建出來。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:56
 #: Sending UDP
 msgid "**Running the Example**"
-msgstr ""
+msgstr "**運行示例"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:58
 #: Sending UDP
 msgid ""
 "First, on the computer, run the UdpDelay.exe file, and the computer will "
 "begin to listen for packets from Ameba."
-msgstr ""
+msgstr "首先，在計算機上運行UdpDelay.exe文件，計算機將開始監聽來自Ameba的數據包。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:61
 #: Sending UDP
 msgid ""
 "Next, compile and upload the code from the Arduino IDE to Ameba and press"
 " the reset button when the upload is complete."
-msgstr ""
+msgstr "接下來，從Arduino IDE編譯並上傳代碼到Ameba，上傳完成後按reset按鈕。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:64
 #: Sending UDP
@@ -166,12 +177,13 @@ msgid ""
 "The Ameba will begin to send UDP packets to the computer. Once 10000 "
 "packets have been received, the computer will calculate the average delay"
 " and print out the result."
-msgstr ""
+msgstr "Ameba將開始向計算機發送UDP數據包。"
+"一旦接收到10000個數據包，計算機將計算出平均延遲並打印出結果。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:68
 #: Sending UDP
 msgid "It will take some time for 10000 packets to be sent."
-msgstr ""
+msgstr "發送10000個包需要一些時間。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:70
 #: Sending UDP

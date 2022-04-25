@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
 #: Status.rst:3 the to up
 msgid "HTTP - Set up Server to Get the Ameba Status"
-msgstr ""
+msgstr "HTTP - 设置伺服器以获取 Ameba 状态"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
 #: Status.rst:8 the to up

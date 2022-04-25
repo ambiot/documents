@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration Service.rst:3
 #: WiFi
 msgid "BLE – WiFi Configuration Service"
-msgstr ""
+msgstr "BLE - WiFi 設置服務"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration Service.rst:8
 #: WiFi

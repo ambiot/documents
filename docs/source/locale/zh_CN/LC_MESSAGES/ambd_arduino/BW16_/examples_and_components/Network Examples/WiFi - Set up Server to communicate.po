@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:3 to up
 msgid "WiFi - Set up Server to communicate"
-msgstr ""
+msgstr "WiFi - 设置伺服器进行通讯"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:8 to up

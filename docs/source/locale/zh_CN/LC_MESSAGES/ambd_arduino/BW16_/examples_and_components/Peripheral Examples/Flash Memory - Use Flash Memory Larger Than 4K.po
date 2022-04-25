@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:3 Flash Larger
 #: Memory Than Use
 msgid "Flash Memory - Use Flash Memory Larger Than 4K"
-msgstr ""
+msgstr "Flash Memory - 使用超过 4K 的 Flash Memory"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:8 Flash Larger
 #: Memory Than Use

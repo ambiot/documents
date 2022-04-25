@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:3
 #: Set mDNS on up
 msgid "MDNS - Set up mDNS Client on Arduino IDE"
-msgstr ""
+msgstr "MDNS - 在 Arduino IDE 上設置 mDNS 客戶端"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:8
 #: Set mDNS on up

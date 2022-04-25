@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:3 as over
 msgid "IPv6 – Ameba as IPv6 Server/Client over UDP"
-msgstr ""
+msgstr "IPv6 - 通过 UDP 设置 IPv6 伺服器/客户端"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:8 as over

@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:3 PC Serial USB over to with
 msgid "UART - Communicate with PC over USB to Serial Module"
-msgstr ""
+msgstr "UART - 透过 USB 转 Serial 模组与 PC 通讯"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:8 PC Serial USB over to with

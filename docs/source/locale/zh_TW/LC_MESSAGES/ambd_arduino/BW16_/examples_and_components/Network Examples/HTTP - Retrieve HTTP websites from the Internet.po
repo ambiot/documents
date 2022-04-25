@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:3
 #: Retrieve from the websites
 msgid "HTTP - Retrieve HTTP websites from the Internet"
-msgstr ""
+msgstr "HTTP - 從 Internet 檢索 HTTP 網站"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:8
 #: Retrieve from the websites

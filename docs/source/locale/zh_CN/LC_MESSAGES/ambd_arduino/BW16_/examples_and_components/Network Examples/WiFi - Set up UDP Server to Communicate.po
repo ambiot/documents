@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:3 Server
 #: Set UDP to up
 msgid "WiFi - Set up UDP Server to Communicate"
-msgstr ""
+msgstr "WiFi - 设置 UDP 伺服器进行通讯"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:8 Server
 #: Set UDP to up

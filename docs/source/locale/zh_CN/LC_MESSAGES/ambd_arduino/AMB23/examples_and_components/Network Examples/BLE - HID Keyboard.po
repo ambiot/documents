@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:3
 msgid "BLE - HID Keyboard"
-msgstr ""
+msgstr "BLE - HID 键盘"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:8
 msgid ""

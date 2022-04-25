@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART Callback
 #: Communications.rst:3 For Function Set UART
 msgid "UART – Set Callback Function For UART Communications"
-msgstr ""
+msgstr "UART - 為 UART 通信設置回調函數"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Callback
 #: Communications.rst:8 For Function Set UART

@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:3
 #: Save Sleep and for
 msgid "Power Save - Deep Sleep for DHT and LCD"
-msgstr ""
+msgstr "Power Save - DHT 和 LCD 的深度睡眠"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:8
 #: Save Sleep and for

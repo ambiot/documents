@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:3 Set WiFi up
 msgid "WiFi - Set up WiFi AP Mode"
-msgstr ""
+msgstr "WiFi - 设置 WiFi AP 模式"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:5 Set WiFi up
 msgid ""

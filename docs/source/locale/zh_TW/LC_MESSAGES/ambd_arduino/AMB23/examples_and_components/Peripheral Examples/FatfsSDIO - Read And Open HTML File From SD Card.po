@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:3
 #: File From HTML Open Read SD
 msgid "FatfsSDIO – Read And Open HTML File From SD Card"
-msgstr ""
+msgstr "FatfsSDIO - 從 SD 卡中讀取和打開 HTML 文件"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:8
 #: File From HTML Open Read SD

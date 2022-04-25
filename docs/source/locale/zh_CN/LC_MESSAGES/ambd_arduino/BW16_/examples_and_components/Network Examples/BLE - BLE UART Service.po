@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:3 UART
 msgid "BLE – BLE UART Service"
-msgstr ""
+msgstr "BLE - UART 服务"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:8 UART
 msgid ""

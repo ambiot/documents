@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:3
 #: Set mDNS on up
 msgid "MDNS - Set up mDNS Client on Arduino IDE"
-msgstr ""
+msgstr "MDNS - 在 Arduino IDE 上設置 mDNS 客户端"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:8
 #: Set mDNS on up
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:12
 #: Set mDNS on up
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:18
 #: Set mDNS on up
@@ -50,11 +54,15 @@ msgid ""
 "224.0.0.251 with port 5353 under IPv4 address. The naming style for the "
 "service follows the format: **{Instance Name}.{Protocol Name}.{Domain}**"
 msgstr ""
+"mDNS (Multicast DNS) 是適用於區域網路裡，讓對方知道自己IP與所提供的服務的協定。"
+"mDNS是基於UDP的協定，在IPV4底下會發送封包至224.0.0.251, 使用的port為5353。"
+"服務的命名遵循底下的格式: {Instance Name}.{Protocol Name}.{Domain} 其中"
+
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:24
 #: Set mDNS on up
 msgid "Instance Name: used to identify the name of the service"
-msgstr ""
+msgstr "**Instance Name**: 用來識別服務的名稱"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:25
 #: Set mDNS on up
@@ -64,18 +72,20 @@ msgid ""
 " regard to the transport protocol name it used, and it also adds baseline"
 " as a prefix"
 msgstr ""
+"**Protocol Name**: 分成兩部份, 前半是關於這個服務的名稱, 會前綴一個底線, "
+"後半則是所使用的transport protocol name, 一樣會前綴底線"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:29
 #: Set mDNS on up
 msgid "Domain: Local area network in normal cases"
-msgstr ""
+msgstr "**Domain**: 通常都是區域網路"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:32
 #: Set mDNS on up
 msgid ""
 "For example, Arduino IDE adopts the naming for the mDNS service which is "
 "used in OTA as following: **MyAmeba._arduino._tcp.local**"
-msgstr ""
+msgstr "舉例來說, Arduino IDE在OTA使用到的mDNS服務命名如下: **MyAmeba._arduino._tcp.local**"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:36
 #: Set mDNS on up
@@ -83,21 +93,21 @@ msgid ""
 "Among the naming example, “MyAmeba” can identify the Ameba device name "
 "and the name “MyAmeba” is changeable. “_arduino._tcp” is the protocol "
 "that Arduino IDE adopts, and the Domain is set as local in common."
-msgstr ""
+msgstr "其中MyAmeba可以用來識別我們的Ameba裝置名稱, 這個名稱可以更改。後面的_arduino._tcp則是Arduino IDE使用的協定, 而Domain通常都是local"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:37
 #: Set mDNS on up
 msgid ""
 "Open the example, ``“File” -> “Examples” -> “AmebaMDNS” -> "
 "“mdns_on_arduino_ide”``"
-msgstr ""
+msgstr "我們打開範例, “File” -> “Examples” -> “AmebaMDNS” -> “mdns_on_arduino_ide”"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:39
 #: Set mDNS on up
 msgid ""
 "You need to input ssid and password of the AP because the example will "
 "use WiFi connection."
-msgstr ""
+msgstr "這個範例會使用到WiFi, 所以我們將AP的ssid與密碼填入"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:42
 #: Set mDNS on up
@@ -105,7 +115,7 @@ msgid ""
 "And you can find out the naming of the service at the place where it "
 "declares MDNS Service. The example uses the default name “MyAmeba” and "
 "the name is changeable."
-msgstr ""
+msgstr "接著我們在宣告MDNS Service的地方會看到我們將服務的名稱填入, 其中MyAmeba是可更改的名稱, 這裡我們使用預設值"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:43
 #: Set mDNS on up
@@ -124,6 +134,8 @@ msgid ""
 " Port. This port is simulated by Ameba board via USB. Choose this port "
 "and upload the compiled code to Ameba."
 msgstr ""
+"接著在原本選Port的地方(“Tools” -> “Port”), 會看到至少一個Serial Port, 這個port是Ameba版子上經由USB模擬出來的Port,"
+"這裡我們選這個Port, 然後編譯程式碼並上傳至Ameba"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:50
 #: Set mDNS on up
@@ -141,7 +153,7 @@ msgid ""
 "After uploading the code, press the reset button on Ameba and waiting for"
 " Ameba to connect with AP and activate the mDNS service after a while. "
 "You can see the Log at the bottom of the Serial Monitor."
-msgstr ""
+msgstr "上傳完成後, 按下Ameba的Reset按鈕, 等待一會兒讓Ameba連上AP並且啟動mDNS服務, 我們可以在Serial Monitor看到底下的Log"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:57
 #: Set mDNS on up
@@ -165,6 +177,10 @@ msgid ""
 "successfully.(We still can not use the Internet to upload the code, and "
 "we will explain this part in the OTA example.)\\ |4|"
 msgstr ""
+"接著我們再看看Port的地方, 會發現多了Network Ports的項目 **“MyAmeba at 192.168.1.238 (Ameba RTL8722DM/RTL8722CSM)”**,"
+"其中MyAmeba是我們之前可以設定的裝置名稱,後面的IP是Ameba連上AP之後取得的IP, 這個IP與Serial Monitor看到的IP應該是一樣的, "
+"最後則是Ameba RTL8722DM/RTL8722CSM則是版子的類型名稱, "
+"到這裡代表Ameba成功地讓Arduino IDE辨識出mDNS服務。(但是仍無法使用網路上傳程式碼的功能, 這部份會在OTA的範例裡說明)"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:136
 #: Set mDNS on up
@@ -174,24 +190,24 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:69
 #: Set mDNS on up
 msgid "If you cannot find the Network ports on your Arduino IDE, please check："
-msgstr ""
+msgstr "如果你的Arduino IDE裡面沒有出現Network ports，請檢查："
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:71
 #: Set mDNS on up
 msgid "Does your computer in the same local area network with the Ameba?"
-msgstr ""
+msgstr "你的電腦與Ameba是否在同個區域網路裡？"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:72
 #: Set mDNS on up
 msgid "Restart the Arduino IDE, and it will find the mDNS service again"
-msgstr ""
+msgstr "重開Arduino IDE試試看, Arduino IDE會重新找尋mDNS服務"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:73
 #: Set mDNS on up
 msgid ""
 "Check the Log in Serial Monitor if the Ameba connects to the AP and "
 "activate mDNS service successfully"
-msgstr ""
+msgstr "在Serial Monitor的log裡Ameba是否成功連上AP並且成功啟用mDNS"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:76
 #: Set mDNS on up
@@ -199,6 +215,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
+"説明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:80
 #: Set mDNS on up
@@ -210,6 +228,9 @@ msgid ""
 "would be “local” in common. The fourth parameter is the port number for "
 "the service, it is 5000 here and we doesn’t use it in the example."
 msgstr ""
+"程式一開始設定了mDNS服務，第一個參數是Instance Name, 在這個範例裡可以更改,"
+"第二個參數是服務使用的協定, 對Arduino IDE而言會是 “_arduino._tcp”,"
+"第三個參數是Domain, 通常是填 “local”, 第四個參數是這個服務所在的port, 這裡是5000, 範例裡沒有使用到。"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:91
 #: Set mDNS on up
@@ -222,23 +243,26 @@ msgid ""
 "change “ameba_rtl8721d” to “yun” or other names to find out what’s the "
 "difference if interested."
 msgstr ""
+"連上網路之後, 我們對這個服務設定了一些文字欄位，以底下的例子來說， “board”是欄位名稱, “ameba_rtl8721d”則是欄位的值, "
+"“board”主要是讓Arduino IDE查找已安裝的SDK裡面是否有已知的裝置, "
+"如果有的話則會使用該裝置的名稱，使用者有興趣的話可以將 “ameba_rtl8721d”改成 “yun”或其它值試試看有什麼效果。"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:103
 #: Set mDNS on up
 msgid ""
 "Then we add three text fields “auth_upload”, “tcp_check”, and "
 "“ssh_upload”, this example does not activate these services."
-msgstr ""
+msgstr "接著添加三個文字欄位 “auth_upload”, “tcp_check”, 以及 “ssh_upload”，這個範例裡並沒有啟用這些服務。"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:112
 #: Set mDNS on up
 msgid "Next we activate MDNS"
-msgstr ""
+msgstr "接著我們啟用MDNS"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:118
 #: Set mDNS on up
 msgid "and register to the mDNS service."
-msgstr ""
+msgstr "並且註冊剛剛設定好的mDNS服務"
 
 #~ msgid ""
 #~ "Next, go to (“Tools” -> “Port”), "

@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:3
 #: Lite Person
 msgid "TensorFlow Lite - Person Detection"
-msgstr ""
+msgstr "TensorFlow Lite - 人物侦测"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:8
 #: Lite Person

@@ -19,7 +19,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:3 Servo
 msgid "PWM - Servo Control"
-msgstr ""
+msgstr "PWM - 伺服馬達控制"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:8 Servo
 msgid ""

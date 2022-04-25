@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:3 Music Play
 #: by
 msgid "PWM - Play Music by Buzzer"
-msgstr ""
+msgstr "PWM - 通过蜂鸣器播放音乐"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:8 Music Play
 #: by

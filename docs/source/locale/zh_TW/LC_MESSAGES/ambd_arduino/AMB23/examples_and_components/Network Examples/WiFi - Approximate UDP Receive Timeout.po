@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:3 UDP
 msgid "WiFi - Approximate UDP Receive Timeout"
-msgstr ""
+msgstr "WiFi - 估算 UDP 數據接收超時"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:8 UDP

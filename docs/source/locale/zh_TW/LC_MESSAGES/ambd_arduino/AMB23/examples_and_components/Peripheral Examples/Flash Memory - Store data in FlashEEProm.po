@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:3
 #: Memory Store data in
 msgid "Flash Memory - Store data in FlashEEProm"
-msgstr ""
+msgstr "Flash Memory - 記錄資訊在 FlashEEProm"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:8
 #: Memory Store data in

@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Communication.rst:3
 #: HTTPS SSL Set for up
 msgid "WiFi - Set up SSL Client for HTTPS Communication"
-msgstr ""
+msgstr "WiFi - 为 HTTPS通信设置 SSL 客户端"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Communication.rst:8
 #: HTTPS SSL Set for up

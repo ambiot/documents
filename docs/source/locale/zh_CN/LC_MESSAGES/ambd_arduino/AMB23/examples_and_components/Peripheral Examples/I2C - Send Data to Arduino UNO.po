@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:3 to
 msgid "I2C - Send Data to Arduino UNO"
-msgstr ""
+msgstr "I2C - 向 Arduino UNO 发送资料"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:8 to

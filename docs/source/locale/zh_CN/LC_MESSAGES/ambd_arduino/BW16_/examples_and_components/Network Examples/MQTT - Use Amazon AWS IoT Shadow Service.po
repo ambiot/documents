@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
 #: Service.rst:3 Shadow Use
 msgid "MQTT - Use Amazon AWS IoT Shadow Service"
-msgstr ""
+msgstr "MQTT - 使用 Amazon AWS IoT shadow 服务"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
 #: Service.rst:8 Shadow Use

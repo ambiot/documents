@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:3
 #: over up
 msgid "MQTT - Set up MQTT Client over TLS"
-msgstr ""
+msgstr "MQTT - 通过 TLS 设置 MQTT 客户端"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:8
 #: over up

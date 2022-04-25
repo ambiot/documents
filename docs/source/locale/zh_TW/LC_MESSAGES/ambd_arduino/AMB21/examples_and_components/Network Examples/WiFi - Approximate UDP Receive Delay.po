@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:3
 #: Receive UDP
 msgid "WiFi - Approximate UDP Receive Delay"
-msgstr ""
+msgstr "WiFi - 估算 UDP 數據接收延遲"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:8
 #: Receive UDP
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:12
 #: Receive UDP
@@ -37,7 +39,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:13
 #: Receive UDP
 msgid "Windows computer connected to same network"
-msgstr ""
+msgstr "Windows電腦（需連入同樣的網絡）"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:15
 #: Receive UDP
@@ -45,25 +47,27 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:19
 #: Receive UDP
 msgid ""
 "This example uses Ameba to receive UDP packets from a computer and "
 "calculates the UDP receive delay."
-msgstr ""
+msgstr "本例使用Ameba從計算機接收UDP數據包，併計算出可允許的UDP接收超時。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:22
 #: Receive UDP
 msgid "**Ameba Preparation**"
-msgstr ""
+msgstr "**Ameba 準備**"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:24
 #: Receive UDP
 msgid ""
 "Open the “CalculateUdpReceiveDelay” example in ``“File” -> “Examples” -> "
 "“AmebaWiFi” -> “UDP_Calculation” -> “CalculateUdpReceiveDelay”``."
-msgstr ""
+msgstr "打開”CalculateUdpReceiveTimeout” 示例： “File” -> “Examples” -> “AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”."
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:27
 #: Receive UDP
@@ -81,7 +85,7 @@ msgid ""
 "In the sample code, modify the highlighted section to enter the "
 "information required (ssid, password, key index) to connect to your WiFi "
 "network."
-msgstr ""
+msgstr "在示例代碼中，修改高亮的部分，輸入連接WiFi網絡所需的信息(ssid、密碼、密鑰索引)。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:33
 #: Receive UDP
@@ -99,7 +103,7 @@ msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished. Open the serial monitor in Arduino IDE and take note of the IP "
 "address assigned to Ameba."
-msgstr ""
+msgstr "上傳代碼並在上傳完成後按下Ameba上的reset按鈕。在Arduino IDE中打開串行監控器，並記下分配給Ameba的IP地址。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:39
 #: Receive UDP
@@ -114,14 +118,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:41
 #: Receive UDP
 msgid "**Computer Preparation**"
-msgstr ""
+msgstr "**電腦準備**"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:43
 #: Receive UDP
 msgid ""
 "On the computer, Cygwin will be required to compile the code to send the "
 "UDP packets. Cygwin can be downloaded from https://www.cygwin.com/"
-msgstr ""
+msgstr "回到我們的電腦上，我們需要安裝Cygwin來編譯用來發送UDP數據包的代碼。 Cygwin可以從 https://www.cygwin.com/ 下載。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:46
 #: Receive UDP
@@ -131,7 +135,8 @@ msgid ""
 " between “#if 0” and “#endif”, into a new text file, change the hostname "
 "to the IP address assigned to Ameba, and rename the file to "
 "“UdpReceiveDelay.cpp”."
-msgstr ""
+msgstr "按照官網上的說明來安裝。接下來，從“CalculateUdpReceiveTimeout”的Arduino示例中，"
+"將示例最下面的“#if 0”和“#endif”之間的代碼複製到一個新的文本文件中，將hostname更改為Ameba的IP地址，並將該文件重命名為“UdpReceiveTimeout.cpp”。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:52
 #: Receive UDP
@@ -150,12 +155,13 @@ msgid ""
 "location of “UdpReceiveDelay.cpp”, and use the command “g++ "
 "UdpReceiveDelay.cpp -o UdpDelay” to compile the code. A file named "
 "“UdpDelay.exe” will be created in the same directory."
-msgstr ""
+msgstr "接下來，打開Cygwin終端，將工作目錄更為“UdpReceiveTimeout.cpp”,的位置，並使用“g++ UdpReceiveTimeout.cpp -o UdpTimeout” 指令來編譯代碼。"
+"一個名為“UdpTimeout.exe” 的文件會在當前目錄中創建出來。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:60
 #: Receive UDP
 msgid "**Running the Example**"
-msgstr ""
+msgstr "運行示例"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:62
 #: Receive UDP
@@ -166,7 +172,9 @@ msgid ""
 "have been received, Ameba will calculate the average delay and print out "
 "the result to the serial monitor. It may take up to a few minutes for "
 "10000 packets to be sent."
-msgstr ""
+msgstr "重置Ameba，等待WiFi連接，並檢查IP地址是否保持不變。在計算機上運行UdpTimeout.exe文件，計算機就會開始不斷地向Ameba發送數據包。"
+"超時值最初設置為1000ms。對於每個成功接收的包，Ameba都會降低超時值。"
+"Ameba必須在超時時間內接收下一個包，否則就會登記一個失敗的包並增加超時值。打開串行監視器，可以看到超時值最終會收斂到最小值。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:68
 #: Receive UDP

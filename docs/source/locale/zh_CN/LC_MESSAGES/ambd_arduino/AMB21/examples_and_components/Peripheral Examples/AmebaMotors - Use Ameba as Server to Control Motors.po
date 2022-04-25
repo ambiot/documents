@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-09 03:52+0000\n"
+"POT-Creation-Date: 2022-03-31 09:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,8 +19,8 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:3 Server Use as to
-msgid "ambd_arduino/AmebaMotors - Use Ameba as Server to Control Motors"
-msgstr ""
+msgid "AmebaMotors - Use Ameba as Server to Control Motors"
+msgstr "AmebaMotors - 使用 Ameba 作为服务器来控制小车"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:8 Server Use as to
@@ -416,5 +416,8 @@ msgstr ""
 #~ "/raw/master/Arduino_zip_libraries/AmebaMotors.zip>`_ And "
 #~ "add the library to Ameba: "
 #~ "https://www.arduino.cc/en/Guide/Libraries#toc4"
+#~ msgstr ""
+
+#~ msgid "ambd_arduino/AmebaMotors - Use Ameba as Server to Control Motors"
 #~ msgstr ""
 

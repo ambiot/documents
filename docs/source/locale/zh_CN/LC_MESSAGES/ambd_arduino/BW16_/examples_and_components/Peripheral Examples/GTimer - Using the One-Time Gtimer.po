@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer Gtimer.rst:3 One-Time
 #: Using the
 msgid "GTimer - Using the One-Time Gtimer"
-msgstr ""
+msgstr "GTimer - 使用一次性的 GTimer"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer Gtimer.rst:8 One-Time
 #: Using the

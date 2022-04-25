@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep E-paper.rst:3
 #: Save Sleep and for
 msgid "Power Save - Deep Sleep for DHT and E-paper"
-msgstr ""
+msgstr "Power Save - DHT 和 E-paper 的深度睡眠模式"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep E-paper.rst:8
 #: Save Sleep and for

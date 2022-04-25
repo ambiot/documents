@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD card.rst:3
 #: in system
 msgid "FatfsSDIO – File system in SD card"
-msgstr ""
+msgstr "FatfsSDIO - SD 卡中的文件系統"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD card.rst:8
 #: in system

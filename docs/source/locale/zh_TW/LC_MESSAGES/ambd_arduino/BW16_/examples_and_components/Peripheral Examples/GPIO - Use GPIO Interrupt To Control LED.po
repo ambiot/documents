@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:3 To Use
 msgid "GPIO - Use GPIO Interrupt To Control LED"
-msgstr ""
+msgstr "GPIO - 使用 GPIO Interrupt 控制 LED"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:8 To Use

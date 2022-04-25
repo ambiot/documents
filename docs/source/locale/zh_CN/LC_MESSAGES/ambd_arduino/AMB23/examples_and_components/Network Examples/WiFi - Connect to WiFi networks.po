@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:3 to
 msgid "WiFi - Connect to WiFi networks"
-msgstr ""
+msgstr "WiFi - 连结到 WiFi 网路"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:8 to

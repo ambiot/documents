@@ -231,7 +231,7 @@ Step 2.Run the Blink example
 -----------------------------------------------------------------------------------
 
 .. note:: 
-   If you face any issue, please refer to the FAQ and Trouble shooting sections on :doc:`../support/index` page.  
+   If you face any issue, please refer to the FAQ and Trouble shooting sections on  :doc:`/ambd_arduino/AMB23/support/index` page.  
 
 .. |ambd-mini-get-start-1| image:: /media/ambd_arduino/AMB23_getting_started/image1.jpeg
    :alt: board-front

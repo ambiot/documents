@@ -19,19 +19,21 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:3 Set WiFi up
 msgid "WiFi - Set up WiFi AP Mode"
-msgstr ""
+msgstr "WiFi - 設置 WiFi AP 模式"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:5 Set WiFi up
 msgid ""
 "In AP mode, Ameba can accept at most 3 station connections, and can be "
 "set to open mode or WPA2 mode."
-msgstr ""
+msgstr "Ameba 可以支援AP mode，其他station可通過WiFi與Ameba進行連線。目前Ameba最多可連線三個station。可設置為open mode 或者 WPA2。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:11 Set WiFi up
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:15 Set WiFi up
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -42,18 +44,20 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:22 Set WiFi up
 msgid ""
 "In this example, we turn on the AP mode of Ameba and connect station to "
 "Ameba."
-msgstr ""
+msgstr "這個範例裡，我們使用Ameba開啟AP mode，讓station與Ameba進行連線。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:24 Set WiFi up
 msgid ""
 "Open the WiFi AP example, ``“File” -> “Examples” -> “AmebaWiFi” -> "
 "“WiFiAPMode”``"
-msgstr ""
+msgstr "打開 WiFi AP 的範例, “File” -> “Examples” -> “AmebaWiFi” -> “WiFiAPMode”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:25 Set WiFi up
 msgid "|1|"
@@ -65,23 +69,23 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:27 Set WiFi up
 msgid "In the highlighted code snippet, fill in your SSID, PASSWORD and CHANNEL."
-msgstr ""
+msgstr "黃色標記的部分為WiFi 的網絡設定，設定好所需的SSID, PASSWORD 和CHANNEL。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:30 Set WiFi up
 msgid ""
 "The code highlighted in green is the API we used to turn on the AP mode "
 "in security mode."
-msgstr ""
+msgstr "標記的部分是在使用 Security Mode 為開啟AP mode的API。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:33 Set WiFi up
 msgid "If you want to turn on the AP mode in open mode, please modify the code to"
-msgstr ""
+msgstr "若要使用open mode，將此行修改為"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:40 Set WiFi up
 msgid ""
 "Then upload the sample code and press reset, and you can see related "
 "information shown in serial monitor."
-msgstr ""
+msgstr "上傳程式碼之後，按下Ameba的Reset按鈕， 可以看到AP MODE 開啟後的相關訊息。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:43 Set WiFi up
 msgid "|2|"
@@ -95,7 +99,7 @@ msgstr ""
 msgid ""
 "In the figure below, we show the messages shown in serial monitor when "
 "two stations connect to Ameba AP in open mode:"
-msgstr ""
+msgstr "OPEN MODE - 兩個station先後連上 Ameba AP:"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:48 Set WiFi up
 msgid "|3|"
@@ -109,7 +113,7 @@ msgstr ""
 msgid ""
 "In the figure below, we show the messages shown in serial monitor when a "
 "station connects to Ameba AP in security mode:"
-msgstr ""
+msgstr "SECURITY MODE - 一個station連接Ameba AP:"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:53 Set WiFi up
 msgid "|4|"

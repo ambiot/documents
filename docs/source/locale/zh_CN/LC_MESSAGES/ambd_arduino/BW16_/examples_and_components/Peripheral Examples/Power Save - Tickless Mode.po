@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:3 Save
 #: Tickless
 msgid "Power Save - Tickless Mode"
-msgstr ""
+msgstr "Power Save - Tickless 模式"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:8 Save
 #: Tickless

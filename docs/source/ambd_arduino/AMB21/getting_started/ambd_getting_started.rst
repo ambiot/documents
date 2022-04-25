@@ -237,7 +237,7 @@ Step 2.Run the Blink example
 -----------------------------------------------------------------------------------
 
 .. note:: 
-   If you face any issue, please refer to the FAQ and Trouble shooting sections on :doc:  /support/index` page.  
+   If you face any issue, please refer to the FAQ and Trouble shooting sections on :doc:`/ambd_arduino/AMB21/support/index` page.  
 
 .. |ambd-get-start-1| image::  /media/ambd_arduino/AMB21_getting_started/image1.jpeg
    :alt: get-start-1

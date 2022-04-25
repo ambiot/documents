@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:3 as over
 msgid "IPv6 – Ameba as IPv6 Server/Client over TCP"
-msgstr ""
+msgstr "IPv6 - 通過 TCP 設置 IPv6 伺服器/客戶端"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:8 as over
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:12 as over
@@ -40,11 +42,13 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:18 as over
 msgid "**Introduction**"
-msgstr ""
+msgstr "介紹"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:20 as over
@@ -54,18 +58,21 @@ msgid ""
 "after you have set up the server and then configure the client "
 "accordingly."
 msgstr ""
+"此範例顯示 Ameba 如何通過 TCP 使用 IPv6 在區域網絡上進行通信。"
+"請注意，此範例僅在您設置服務器並配置對應客戶端後才有效。"
+
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:23 as over
 msgid "**Procedure**"
-msgstr ""
+msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:25 as over
 msgid ""
 "Step 1. IPv6TCPServer Open the example, ``“Files” -> “Examples” -> "
 "“AmebaWiFi” -> “IPv6TCPServer”``."
-msgstr ""
+msgstr "Step 1. IPv6TCPServer 打開範例，”Files” -> “Examples” -> “AmebaWiFi” -> “IPv6TCPServer”。"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:28 as over
@@ -82,7 +89,7 @@ msgstr ""
 msgid ""
 "In the sample code, modify the highlighted section to enter the "
 "information required (ssid, password) to connect to your WiFi network."
-msgstr ""
+msgstr "在範例代碼中，修改標示的部分以輸入連接到 WiFi 網絡所需的信息（ssid、密碼）。"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:33 as over
@@ -101,6 +108,8 @@ msgid ""
 " is finished. Open Serial Monitor and copy the IPv6 address of the Server"
 " (the highlighted area) for later use,"
 msgstr ""
+"接下來，上傳代碼並在上傳完成後按 Ameba 上的重置按鈕。"
+"打開串行監視器並複製服務器的 IPv6 地址（標示的區域）以備接下來使用，"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:38 as over
@@ -117,7 +126,7 @@ msgstr ""
 msgid ""
 "Step 2. IPv6TCPClient Now take the second Ameba D and open another "
 "example, ``“Files” -> “Examples” -> “AmebaWiFi” -> “IPv6TCPClient”``."
-msgstr ""
+msgstr "Step 2. IPv6TCPClient 現在以第二個 Ameba D 為例，打開另一個範例，”Files” -> “Examples” -> “AmebaWiFi” -> “IPv6TCPClient”，"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:43 as over
@@ -145,7 +154,7 @@ msgid ""
 "From the previous step, we have obtained the Server’s IPv6 address, now "
 "we copy the server’s IPv6 address to “IPv6TCPClient” example in the "
 "highlighted area below,"
-msgstr ""
+msgstr "從上一步中，我們已經獲得了服務器的 IPv6 地址，現在我們將服務器的 IPv6 地址複製到下面標示區域中的“IPv6TCPClient”範例中。"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:52 as over
@@ -162,7 +171,7 @@ msgstr ""
 msgid ""
 "Next, upload the code and press the reset button on Ameba once the upload"
 " is finished."
-msgstr ""
+msgstr "接下來，上傳代碼並在上傳完成後按 Ameba 上的重置按鈕。"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:56 as over
@@ -170,7 +179,7 @@ msgid ""
 "Open Serial Monitor on the port to the second Ameba D, you should see "
 "server and client are sending text message to each other at the same "
 "time."
-msgstr ""
+msgstr "在第二個 Ameba D 的端口上打開串行監視器，您應該看到服務器和客戶端同時相互發送短信。"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:58 as over
