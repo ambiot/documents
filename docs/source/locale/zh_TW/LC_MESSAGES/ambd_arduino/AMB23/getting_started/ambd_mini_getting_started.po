@@ -452,11 +452,10 @@ msgid ""
 msgstr "如果遇到開發板連接到電腦的驅動程序問題，請參考下列USB 驅動程序 https://ftdichip.com/drivers/。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:88
-#, fuzzy
 msgid ""
 "You can check the :guilabel:`COM` port number in :guilabel:`Device "
 "Manager` of your computer:"
-msgstr "你可以在你電腦的裝置管理員中檢查COM端口號:"
+msgstr "你可以在你電腦的 :guilabel:`裝置管理員` 中檢查 :guilabel:`COM` 端口號:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:90
 msgid "|ambd-mini-get-start-5|"
@@ -478,7 +477,7 @@ msgid ""
 "<https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/>`__."
 msgstr ""
 "從1.6.5版本開始，Arduino IDE支持第三方硬件。因此，我們可以使用Arduino IDE在 AMB23 "
-"上開發應用程序，Arduino的示例也可以在 AMB23 上運行。請參考 basic example link: "
+"上開發應用程序，Arduino的示例也可以在 AMB23 上運行。請參考 基本範例: "
 "https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/ "
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:101
@@ -487,7 +486,8 @@ msgid ""
 "https://www.arduino.cc/en/Main/Software When the installation is "
 "finished, open Arduino IDE. To set up AMB23 correctly in Arduino IDE, go "
 "to :guilabel:`“File” -> “Preferences”`."
-msgstr ""
+msgstr "Arduino IDE可以在Arduino網站下載: https://www.arduino.cc/en/Main/Software"
+"安裝完成後，打開Arduino IDE。為了在Arduino IDE中正常使用RTL8722DM MINI，請打開“File”—>“Preferences”。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:106
 msgid "|ambd-mini-get-start-6|"
@@ -547,21 +547,18 @@ msgid ""
 msgstr "如果您遇到 GitHub 下載問題，請參考以下“下載/軟體開發套件”中的鏈接。有3個部分。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:132
-#, fuzzy
 msgid ""
 ":guilabel:`“AmebaD_Arduino_patch1_SDK”`, please select at least 1 of the "
 "SDKs. There are 5 latest released SDK options."
 msgstr "“AmebaD_Arduino_patch1_SDK”，請至少選擇 1 個 SDK。目前有 5 個最新發布的 SDK 選項。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:133
-#, fuzzy
 msgid ""
 ":guilabel:`“AmebaD_Arduino_patch2_Tools”`, please select according to "
 "your operation system. There are Windows, Linux and MacOS."
 msgstr "“AmebaD_Arduino_patch2_Tools”，請根據您的作業系統進行選擇。有 Windows、Linux 和 MacOS。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:134
-#, fuzzy
 msgid ""
 ":guilabel:`“AmebaD_Arduino_Source_Code”`, this section is optional "
 "download only wants to refer the latest source code."
@@ -649,11 +646,11 @@ msgstr ""
 msgid ""
 "There are two onboard LEDs on AMB23, ``LED_B`` and ``LED_G`` (Blue and "
 "Green), the default ``LED_BUILTIN`` is the onboard blue LED."
-msgstr ""
+msgstr "開發板上有兩個LED， 板載LED選項LED_B和LED_G（藍色和綠色）。默認“LED_BUILTIN”是藍色的LED"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:178
 msgid "Change ``LED_BUILTIN`` to ``LED_B`` or ``LED_G`` for different colour."
-msgstr ""
+msgstr "將“LED_BUILTIN”更改為“LED_B”或“LED_G”以使用不同的顏色。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:181
 msgid "|ambd-mini-get-start-12|"
@@ -693,7 +690,6 @@ msgid "get-start-14"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:194
-#, fuzzy
 msgid ""
 "Afterwards, we will upload the compiled code to AMB23. Please make sure "
 "AMB23 is connected to your computer, then click :guilabel:`“Sketch” -> "
@@ -732,7 +728,6 @@ msgid "get-start-16"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:210
-#, fuzzy
 msgid ""
 "It is optional for users to check if the board entered the upload mode. "
 "Open serial monitor/terminal and look for “#Flash Download Start”."
@@ -744,7 +739,7 @@ msgstr ""
 msgid ""
 "It is normal that some serial terminals may show unknown characters as "
 "the following picture."
-msgstr ""
+msgstr "請注意，某些串口終端可能會顯示如下圖所示的未知字符是正常的。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:216
 msgid "|ambd-mini-get-start-17|"
@@ -766,7 +761,6 @@ msgid "Step 2.Run the Blink example"
 msgstr "步驟2：運行Blink示例"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:225
-#, fuzzy
 msgid ""
 "In each example, Arduino not only provides sample code, but also detailed"
 " documentation, including wiring diagram, sample code explanation, "

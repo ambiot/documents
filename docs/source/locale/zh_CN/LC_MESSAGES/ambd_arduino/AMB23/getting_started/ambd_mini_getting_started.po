@@ -449,14 +449,13 @@ msgstr "如果这是您第一次将RTL8722DM MINI连接到您的电脑，那么R
 msgid ""
 "If you have driver issue of connect board to your computer please go to "
 "`here <https://ftdichip.com/drivers/>`_ for USB driver."
-msgstr "如果遇到开发板连接到电脑的驱动程序问题，请参考下列USB 驱动程序https:// ftdichip.com/drivers /。"
+msgstr "如果遇到开发板连接到电脑的驱动程序问题，请参考下列USB 驱动程序 https://ftdichip.com/drivers /。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:88
-#, fuzzy
 msgid ""
 "You can check the :guilabel:`COM` port number in :guilabel:`Device "
 "Manager` of your computer:"
-msgstr "你可以在你电脑的装置管理员中检查COM端口号:"
+msgstr "你可以在你电脑的 :guilabel:`装置管理员` 中检查 :guilabel:`COM` 端口号:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:90
 msgid "|ambd-mini-get-start-5|"
@@ -477,9 +476,9 @@ msgid ""
 "examples of Arduino can run on AMB23 too. Refer to `basic example link "
 "<https://www.amebaiot.com.cn/amebad-mini-arduino-compatible-ex/>`__."
 msgstr ""
-"从1.6.5版本开始，Arduino IDE支持第三方硬件。因此，我们可以使用Arduino IDE在RTL8722DM "
-"MINI上开发应用程序，Arduino的示例也可以在RTL8722DM "
-"MINI上运行。请参考基本范例：https://www.amebaiot.com.cn/amebad-mini-arduino-"
+"从1.6.5版本开始，Arduino IDE支持第三方硬件。因此，我们可以使用Arduino IDE在 AMB23"
+"上开发应用程序，Arduino的示例也可以在 AMB23 "
+"上运行。请参考基本范例：https://www.amebaiot.com.cn/amebad-mini-arduino-"
 "compatible-ex/"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:101
@@ -488,7 +487,8 @@ msgid ""
 "https://www.arduino.cc/en/Main/Software When the installation is "
 "finished, open Arduino IDE. To set up AMB23 correctly in Arduino IDE, go "
 "to :guilabel:`“File” -> “Preferences”`."
-msgstr ""
+msgstr "Arduino IDE可以在Arduino网站下载: https://www.arduino.cc/en/Main/Software"
+"安装完成后，打开Arduino IDE。为了在Arduino IDE中正常使用RTL8722DM MINI，请打开“File”—>“Preferences”。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:106
 msgid "|ambd-mini-get-start-6|"
@@ -548,21 +548,18 @@ msgid ""
 msgstr "如果您遇到 GitHub 下载问题，请参考以下“下载/软体开发套件”中的链接。 有3个部分。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:132
-#, fuzzy
 msgid ""
 ":guilabel:`“AmebaD_Arduino_patch1_SDK”`, please select at least 1 of the "
 "SDKs. There are 5 latest released SDK options."
 msgstr "“AmebaD_Arduino_patch1_SDK”，请至少选择 1 个 SDK。 目前有 5 个最新发布的 SDK 选项。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:133
-#, fuzzy
 msgid ""
 ":guilabel:`“AmebaD_Arduino_patch2_Tools”`, please select according to "
 "your operation system. There are Windows, Linux and MacOS."
 msgstr "“AmebaD_Arduino_patch2_Tools”，请根据您的作业系统进行选择。 有 Windows、Linux 和 MacOS。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:134
-#, fuzzy
 msgid ""
 ":guilabel:`“AmebaD_Arduino_Source_Code”`, this section is optional "
 "download only wants to refer the latest source code."
@@ -651,11 +648,11 @@ msgstr ""
 msgid ""
 "There are two onboard LEDs on AMB23, ``LED_B`` and ``LED_G`` (Blue and "
 "Green), the default ``LED_BUILTIN`` is the onboard blue LED."
-msgstr ""
+msgstr "开发板上有两个LED，板载LED选项LED_B和LED_G（蓝色和绿色）。默认“LED_BUILTIN”是蓝色的LED。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:178
 msgid "Change ``LED_BUILTIN`` to ``LED_B`` or ``LED_G`` for different colour."
-msgstr ""
+msgstr "将“LED_BUILTIN”更改为“LED_B”或“LED_G”以使用不同的颜色。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:181
 msgid "|ambd-mini-get-start-12|"
@@ -695,7 +692,6 @@ msgid "get-start-14"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:194
-#, fuzzy
 msgid ""
 "Afterwards, we will upload the compiled code to AMB23. Please make sure "
 "AMB23 is connected to your computer, then click :guilabel:`“Sketch” -> "
@@ -734,19 +730,18 @@ msgid "get-start-16"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:210
-#, fuzzy
 msgid ""
 "It is optional for users to check if the board entered the upload mode. "
 "Open serial monitor/terminal and look for “#Flash Download Start”."
 msgstr ""
 "用户可选择检查开发板是否进入上传模式。打开串行监视器并查找“#Flash Download "
-"Start”。请注意，某些串口终端可能会显示如下图所示的未知字符是正常的。"
+"Start”。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:214
 msgid ""
 "It is normal that some serial terminals may show unknown characters as "
 "the following picture."
-msgstr ""
+msgstr "请注意，某些串口终端可能会显示如下图所示的未知字符是正常的。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:216
 msgid "|ambd-mini-get-start-17|"
@@ -768,7 +763,6 @@ msgid "Step 2.Run the Blink example"
 msgstr "步骤2：运行Blink示例"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:225
-#, fuzzy
 msgid ""
 "In each example, Arduino not only provides sample code, but also detailed"
 " documentation, including wiring diagram, sample code explanation, "

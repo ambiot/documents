@@ -558,18 +558,16 @@ msgid ""
 msgstr "如果這是您第一次將AmebaD連接到您的電腦，那麽AmebaD的USB驅動程序將自動安裝。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:90
-#, fuzzy
 msgid ""
 "If you have driver issue of connect board to your computer please go to "
 "`<https://ftdichip.com/drivers/>`_ for USB driver."
-msgstr "如果遇到開發板連接到電腦的驅動程序問題，請參考下列USB驅動程序 https://ftdichip.com/drivers/"
+msgstr "如果遇到開發板連接到電腦的驅動程序問題，請參考下列USB驅動程序 https://ftdichip.com/drivers/."
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:93
-#, fuzzy
 msgid ""
 "You can check the :guilabel:`COM` port number in :guilabel:`Device "
 "Manager` of your computer:"
-msgstr "您可以在您的電腦的設備管理器中檢查COM端口號："
+msgstr "您可以在您的電腦的 :guilabel:`設備管理器` 中檢查 :guilabel:`COM` 端口號："
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:95
 msgid "|ambd-get-start-5|"
@@ -658,28 +656,24 @@ msgid ""
 msgstr "如果您遇到 GitHub 下載問題，請參考以下 `Download/Software Development Kit`_ 中的鏈接。有3個部分。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:134
-#, fuzzy
 msgid ""
 ":guilabel:`“AmebaD_Arduino_patch1_SDK”`, please select at least 1 of the "
 "SDKs. There are 5 latest released SDK options."
 msgstr "“AmebaD_Arduino_patch1_SDK”，請至少選擇 1 個 SDK。目前有 5 個最新發布的 SDK 選項。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:135
-#, fuzzy
 msgid ""
 ":guilabel:`“AmebaD_Arduino_patch2_Tools”`, please select according to "
 "your operation system. There are Windows, Linux and MacOS."
 msgstr "“AmebaD_Arduino_patch2_Tools”，請根據您的作業系統進行選擇。有 Windows、Linux 和 MacOS。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:136
-#, fuzzy
 msgid ""
 ":guilabel:`:“AmebaD_Arduino_Source_Code”`, this section is optional "
 "download only wants to refer the latest source code."
 msgstr "“AmebaD_Arduino_Source_Code”，此部分為可選下載，用來參考最新原始碼。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:140
-#, fuzzy
 msgid ""
 "Download the files selected, then unzip (patch1 and patch2 are "
 "compulsory). There are “Install.doc”/“Install.pdf” for you to refer "
@@ -730,7 +724,6 @@ msgid "Step 1. Compile & Upload"
 msgstr "步驟1：編譯並上傳"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:166
-#, fuzzy
 msgid ""
 "Arduino IDE provides many built-in examples, which can be compiled, "
 "uploaded and run directly on the boards. Here, we take the “Blink” "
@@ -788,7 +781,6 @@ msgid "get-start-13"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:187
-#, fuzzy
 msgid ""
 "Afterwards, we will upload the compiled code to AMB21/AMB22. Please make "
 "sure AMB21/AMB22 is connected to your computer, then click "
@@ -859,12 +851,10 @@ msgid "get-start-18"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:215
-#, fuzzy
 msgid "Step 2. Run the Blink example"
 msgstr "步驟2. 運行Blink示例"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:217
-#, fuzzy
 msgid ""
 "In each example, Arduino not only provides sample code, but also detailed"
 " documentation, including wiring diagram, sample code explanation, "
@@ -881,7 +871,6 @@ msgid ""
 msgstr "簡而言之，這個示例會使LED不停閃爍。它使用的是GPIO引脚08(參考引脚圖D08）。我們把LED和電阻連接起來，如下圖所示:"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:230
-#, fuzzy
 msgid ""
 "In an LED, the longer pin is the **positive pole**, and the shorter pin "
 "is the **negative pole**. So we connect the longer pin to ``D08``, and "
