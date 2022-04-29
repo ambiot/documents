@@ -314,7 +314,7 @@ compiled and installed.
 -------------------------------------------------------------------------------------------------------------------------------------
 
 .. note::
-   If you face any issue, please refer to the :doc:`../../AMB21/support/FAQ` and :doc:`../../AMB21/support/Trouble shooting` page.
+   If you face any issue, please refer to the :doc:`../../AMB23/support/FAQ` and :doc:`../../AMB23/support/Trouble shooting` page.
 
 
 .. |image1| image:: /media/ambd_micropython/AMB23_MP_getting_started/image1.png

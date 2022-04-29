@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 02:53+0000\n"
+"POT-Creation-Date: 2022-04-28 08:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
 #: World.rst:3
@@ -31,7 +31,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
 #: World.rst:12
-msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
@@ -138,5 +138,8 @@ msgstr ""
 #~ "found at "
 #~ "https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ "
 #~ "are also installed."
+#~ msgstr ""
+
+#~ msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
 #~ msgstr ""
 

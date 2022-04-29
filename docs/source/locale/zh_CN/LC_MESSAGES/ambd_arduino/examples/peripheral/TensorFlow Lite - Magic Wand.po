@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 02:53+0000\n"
+"POT-Creation-Date: 2022-04-28 08:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:3
@@ -31,7 +31,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:12
-msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
@@ -58,13 +58,13 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:22
-msgid "**AMB21* / AMB22** Wiring Diagram:"
+msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:23
 msgid ""
-"Connect the accelerometer and LEDs to the RTL8722 board following the "
+"Connect the accelerometer and LEDs to the AMB21/AMB22 following the "
 "diagram."
 msgstr ""
 
@@ -74,7 +74,7 @@ msgid "|1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:71
+#: Wand.rst:76
 msgid "1"
 msgstr ""
 
@@ -85,7 +85,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:28
-msgid "For RTL8722DM MINI, we will use the onboard LEDs on the board itself."
+msgid "For AMB23, we will use the onboard LEDs on the board itself."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
@@ -94,12 +94,32 @@ msgid "|1-1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:75
+#: Wand.rst:80
 msgid "1-1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:34
+#: Wand.rst:32
+msgid "**BW16** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:33
+msgid "For BW16, we will use the onboard LEDs on the board itself."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:35
+msgid "|1-2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:84
+msgid "1-2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:39
 msgid ""
 "Download the Ameba customized version of TensorFlow Lite for "
 "Microcontrollers library at "
@@ -107,52 +127,52 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:36
+#: Wand.rst:41
 msgid ""
 "Follow the instructions at https://www.arduino.cc/en/guide/libraries to "
 "install it."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:39
+#: Wand.rst:44
 msgid ""
 "Ensure that the patch files found at "
 "https://github.com/ambiot/tree/master/Ameba_misc/ are also installed."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:41
+#: Wand.rst:46
 msgid ""
 "In the Arduino IDE library manager, install the Arduino_LSM9DS1 library. "
 "This example has been tested with version 1.1.0 of the LSM9DS1 library."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:43
+#: Wand.rst:48
 msgid ""
 "Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
 "-> “magic_wand”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:45
+#: Wand.rst:50
 msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:79
+#: Wand.rst:88
 msgid "2"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:48
+#: Wand.rst:53
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:52
+#: Wand.rst:57
 msgid ""
 "Holding the accelerometer steady, with the positive x-axis pointing to "
 "the right and the positive z-axis pointing upwards, move it following the"
@@ -161,17 +181,17 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:54
+#: Wand.rst:59
 msgid "|3|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:83
+#: Wand.rst:92
 msgid "3"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:58
+#: Wand.rst:63
 msgid ""
 "If the movement is recognised by the Tensorflow Lite model, you should "
 "see the same shape output to the Arduino serial monitor. Different LEDs "
@@ -179,31 +199,31 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:60
+#: Wand.rst:65
 msgid ""
 "Note that the wing shape is easy to achieve, while the slope and ring "
 "shapes tend to be harder to get right."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:62
+#: Wand.rst:67
 msgid "|4|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:87
+#: Wand.rst:96
 msgid "4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:64
+#: Wand.rst:69
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:68
+#: Wand.rst:73
 msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
 " https://www.tensorflow.org/lite/microcontrollers"
@@ -230,5 +250,20 @@ msgstr ""
 #~ "at "
 #~ "https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ "
 #~ "are also installed."
+#~ msgstr ""
+
+#~ msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
+#~ msgstr ""
+
+#~ msgid "**AMB21* / AMB22** Wiring Diagram:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Connect the accelerometer and LEDs to"
+#~ " the RTL8722 board following the "
+#~ "diagram."
+#~ msgstr ""
+
+#~ msgid "For RTL8722DM MINI, we will use the onboard LEDs on the board itself."
 #~ msgstr ""
 

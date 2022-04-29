@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021, Ameba IoT
+# Copyright (C) 2022, Ameba IoT
 # This file is distributed under the same license as the AmebaDocs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
@@ -123,23 +123,4 @@ msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
 " https://www.tensorflow.org/lite/microcontrollers"
 msgstr ""
-
-#~ msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Download the Ameba customized version of"
-#~ " TensorFlow Lite for Microcontrollers "
-#~ "library at "
-#~ "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
-#~ " Follow the instructions at "
-#~ "https://www.arduino.cc/en/guide/libraries to install "
-#~ "it. Ensure that the patch files "
-#~ "found at "
-#~ "https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ "
-#~ "are also installed."
-#~ msgstr ""
-
-#~ msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
-#~ msgstr ""
 

@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:3
 #: Lite Person
 msgid "TensorFlow Lite - Person Detection"
-msgstr "TensorFlow Lite - 人物偵測"
+msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:8
 #: Lite Person
@@ -225,19 +225,4 @@ msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
 " https://www.tensorflow.org/lite/microcontrollers"
 msgstr ""
-
-#~ msgid "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Follow the instructions at "
-#~ "https://www.arduino.cc/en/guide/libraries to install "
-#~ "it. Ensure that the patch files "
-#~ "found at "
-#~ "https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ "
-#~ "are also installed."
-#~ msgstr ""
-
-#~ msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
-#~ msgstr ""
 

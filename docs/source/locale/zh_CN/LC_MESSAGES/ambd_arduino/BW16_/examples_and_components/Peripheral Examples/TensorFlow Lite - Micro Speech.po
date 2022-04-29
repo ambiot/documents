@@ -241,30 +241,3 @@ msgid ""
 " https://www.tensorflow.org/lite/microcontrollers"
 msgstr ""
 
-#~ msgid "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Ensure that the patch files found "
-#~ "at "
-#~ "https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ "
-#~ "are also installed."
-#~ msgstr ""
-
-#~ msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Connect the microphone and LEDs to "
-#~ "the RTL8722 board following the diagram."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "As RTL8722DM MINI have a built in"
-#~ " microphone on the board, there is"
-#~ " no need for any external microphone."
-#~ " For the LEDs, we will only "
-#~ "connect two LEDs and then use the"
-#~ " two onboard LEDs (Blue and Green)."
-#~ msgstr ""
-

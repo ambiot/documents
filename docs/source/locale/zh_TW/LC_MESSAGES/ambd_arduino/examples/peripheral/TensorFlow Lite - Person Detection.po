@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 02:53+0000\n"
+"POT-Creation-Date: 2022-04-28 08:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:3
 #: Lite Person
@@ -31,7 +31,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:12
 #: Lite Person
-msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:13
@@ -71,7 +71,7 @@ msgstr ""
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:82
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:86
 #: Lite Person
 msgid "1"
 msgstr ""
@@ -86,24 +86,39 @@ msgstr ""
 msgid "|1-1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:86
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:90
 #: Lite Person
 msgid "1-1"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:32
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:31
+#: Lite Person
+msgid "**BW16** Wiring Diagram:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:33
+#: Lite Person
+msgid "|1-2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:94
+#: Lite Person
+msgid "1-2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:36
 #: Lite Person
 msgid ""
 "Download the Ameba customized version of TensorFlow Lite for "
 "Microcontrollers library at"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:33
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:37
 #: Lite Person
 msgid "https://github.com/ambiot/tree/master/Arduino_zip_libraries."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:37
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:41
 #: Lite Person
 msgid ""
 "Follow the instructions at https://www.arduino.cc/en/guide/libraries to "
@@ -111,21 +126,21 @@ msgid ""
 "https://github.com/ambiot/tree/master/Ameba_misc/ are also installed."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:39
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:43
 #: Lite Person
 msgid ""
 "You will also need to install the Ameba_ArduCAM library, found together "
 "with the TensorFlow Lite library."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:42
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:46
 #: Lite Person
 msgid ""
 "In the Arduino IDE library manager, install the JPEGDecoder library. This"
 " example has been tested with version 1.8.0 of the JPEGDecoder library."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:45
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:49
 #: Lite Person
 msgid ""
 "Once the library has installed, you will need to configure it to disable "
@@ -133,12 +148,12 @@ msgid ""
 " the following file:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:47
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:51
 #: Lite Person
 msgid "``Arduino/libraries/JPEGDecoder/src/User_Config.h``"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:51
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:55
 #: Lite Person
 msgid ""
 "Make sure that both ``#define LOAD_SD_LIBRARY`` and ``#define "
@@ -146,31 +161,31 @@ msgid ""
 " file:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:58
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:62
 #: Lite Person
 msgid ""
 "Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
 "-> “person_detection”``."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:61
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:65
 #: Lite Person
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:90
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:98
 #: Lite Person
 msgid "2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:64
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:68
 #: Lite Person
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:69
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:73
 #: Lite Person
 msgid ""
 "Once it is running, you should see the blue LED flashing once every few "
@@ -180,31 +195,31 @@ msgid ""
 "there is a person."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:71
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:75
 #: Lite Person
 msgid ""
 "The inference results are also output to the Arduino serial monitor, "
 "which appear as follows:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:73
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:77
 #: Lite Person
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:94
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:102
 #: Lite Person
 msgid "3"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:75
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:79
 #: Lite Person
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:79
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:83
 #: Lite Person
 msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
@@ -230,5 +245,8 @@ msgstr ""
 #~ "found at "
 #~ "https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/ "
 #~ "are also installed."
+#~ msgstr ""
+
+#~ msgid "AmebaD [AMB21 / AMB22 / AMB23] x 1"
 #~ msgstr ""
 
