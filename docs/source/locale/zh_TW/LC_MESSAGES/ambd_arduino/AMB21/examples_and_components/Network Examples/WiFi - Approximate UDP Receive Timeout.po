@@ -31,6 +31,7 @@ msgstr ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
 ":raw-html:`</p>`"
 
+
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:12 UDP
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -60,14 +61,14 @@ msgstr "本例使用Ameba從計算機接收UDP數據包，併計算出可允許�
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:22 UDP
 msgid "**Ameba Preparation**"
-msgstr "**Ameba 準備**"
+msgstr "**Ameba準備**"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:24 UDP
 msgid ""
 "Open the “CalculateUdpReceiveTimeout” example in ``“File” -> “Examples” "
 "-> “AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”``."
-msgstr "打開 “CalculateUdpReceiveTimeout” 示例： “File” -> “Examples” -> “AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”."
+msgstr "打開”CalculateUdpReceiveTimeout” 示例： “File” -> “Examples” -> “AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”."
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:27 UDP
@@ -124,7 +125,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:44 UDP
 msgid "**Computer Preparation**"
-msgstr "**電腦準備"
+msgstr "**電腦準備**"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:46 UDP
@@ -141,9 +142,10 @@ msgid ""
 "bottom between “#if 0” and “#endif”, into a new text file, change the "
 "hostname to the IP address assigned to Ameba, and rename the file to "
 "“UdpReceiveTimeout.cpp”."
-msgstr "按照官網上的說明來安裝。接下來，從“CalculateUdpReceiveTimeout”的Arduino示例中，將示例最下面的“#if 0”和“#endif”之間的代碼複製到一個新的文本文件中，"
+msgstr ""
+"按照官網上的說明來安裝。接下來，從“CalculateUdpReceiveTimeout”的Arduino示例中，"
+"將示例最下面的“#if 0”和“#endif”之間的代碼複製到一個新的文本文件中，"
 "將hostname更改為Ameba的IP地址，並將該文件重命名為“UdpReceiveTimeout.cpp”。"
-
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:55 UDP
@@ -162,13 +164,15 @@ msgid ""
 "location of “UdpReceiveTimeout.cpp”, and use the command “g++ "
 "UdpReceiveTimeout.cpp -o UdpTimeout” to compile the code. A file named "
 "“UdpTimeout.exe” will be created in the same directory."
-msgstr "接下來，打開Cygwin終端，將工作目錄更為“UdpReceiveTimeout.cpp”,"
-"的位置，並使用“g++ UdpReceiveTimeout.cpp -o UdpTimeout” 指令來編譯代碼。一個名為“UdpTimeout.exe” 的文件會在當前目錄中創建出來。"
+msgstr ""
+"接下來，打開Cygwin終端，將工作目錄更為“UdpReceiveTimeout.cpp”,的位置，"
+"並使用“g++ UdpReceiveTimeout.cpp -o UdpTimeout” 指令來編譯代碼。"
+"一個名為“UdpTimeout.exe” 的文件會在當前目錄中創建出來。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:62 UDP
 msgid "**Running the Example**"
-msgstr "運行示例"
+msgstr "**運行示例**"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:64 UDP

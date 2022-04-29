@@ -23,11 +23,12 @@ msgstr ""
 
 #: ../../source/ambd_micropython/micropython_index.rst:10
 msgid "Welcome to Ameba MicroPython online documentation."
-msgstr ""
+msgstr "歡迎來到Ameba MicroPython 線上文檔 "
 
 #: ../../source/ambd_micropython/micropython_index.rst:12
 msgid ""
 "MicroPython SDK is supported on the following developement boards listed "
 "below:"
 msgstr ""
+"MicroPython SDK 現在已經支援下列兩款開發板："
 

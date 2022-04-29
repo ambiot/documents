@@ -47,9 +47,9 @@ msgid ""
 "these interfaces, AmebaD can connect with electronic components such as "
 "LED, switches, manometer, hygrometer, PM2.5 dust sensors, …etc."
 msgstr ""
-"Ameba是一個易於編程的微控制器平台，可用於開發各種物聯網應用程序。 "
-" AmebaD有各種外圍接口，包括WiFi, BLE, GPIO, I2C, UART, SPI, PWM, ADC。"
-"通過這些接口，AmebaD可以連接LED、開關、壓力計、濕度計、PM2.5粉塵傳感器等電子元件。"
+"Ameba是一個易於編程的微控制器平台，可用於開發各種物聯網應用程序。 AmebaD有各種外圍接口，"
+"包括WiFi, BLE, GPIO, I2C, UART, SPI, PWM, ADC。通過這些接口，"
+"AmebaD可以連接LED、開關、壓力計、濕度計、PM2.5粉塵傳感器等電子元件。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:24
 msgid ""
@@ -75,7 +75,7 @@ msgstr "AMB21/AMB22 和Arduino Uno的尺寸類似，如上圖所示，並且Ameb
 msgid ""
 "AmebaD uses Micro USB to supply power, which is common in many smart "
 "devices."
-msgstr "AMB21/AMB22 使用Micro USB來供電，這在許多智能設備中很常見。"
+msgstr "AmebaD使用Micro USB來供電，這在許多智能設備中很常見。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:34
 msgid ""
@@ -579,7 +579,7 @@ msgid ""
 "Not all sets of peripherals shown on the picture/table above are "
 "available on MicroPython, please refer to "
 ":doc:`../../AMB21/api_documents/index` for more information."
-msgstr "注意：上圖/表中顯示的並非所有外圍設備都可以在MicroPython上使用，"
+msgstr "上圖/表中顯示的並非所有外圍設備都可以在MicroPython上使用，"
 "請參閱 :doc:`../../AMB21/api_documents/index` 部分以獲取更多資訊。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:80
@@ -603,8 +603,8 @@ msgid ""
 "basically functions like the classic Python IDLE but running on "
 "microcontroller."
 msgstr ""
-"REPL具有其他強大的特色，例如tab處理，行編輯，自動縮排，輸入歷史記錄等。"
-"它的基本功能類似於標準的Python IDLE，但是運行在微控制器上。"
+"REPL具有其他強大的特色，例如tab處理，行編輯，自動縮排，"
+"輸入歷史記錄等。 它的基本功能類似於標準的Python IDLE，但是運行在微控制器上。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:93
 msgid ""
@@ -617,8 +617,8 @@ msgid ""
 "MicroPython port."
 msgstr ""
 "要使用REPL，只需在PC上打開任何串行終端軟件（最常用的工具是teraterm，putty等），"
-"然後連接到微控制器的串行端口，然後將baudrate設置為 ``115200``，"
-"然後手動重置開發板，即可看到>>> MicroPython提示符出現在終端畫面上。"
+"然後連接到微控制器的串行端口，然後將baudrate設置為115200，"
+"然後手動重置開發板，即可看到>>> MicroPython提示符出現在終端畫面上。 "
 "您就可以在REPL上輸入任何Python腳本。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:101
@@ -626,17 +626,17 @@ msgid ""
 "Most importantly, try to abuse \"``help()``\" function as much as "
 "possible to gain more information. For example, upon microcontroller "
 "power up and REPL shown, just type"
-msgstr "建議多嘗試使用 “help()” 函數以獲得更多資訊。 例如，微控制器上電並顯示REPL後，只需鍵入help()，"
+msgstr "建議多嘗試使用 ``help()`` 函數以獲得更多資訊。 例如，微控制器上電並顯示REPL後，只需鍵入"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:107
 msgid ""
 "You will see a help page giving you more details about this port; also if"
 " you type"
-msgstr "只需鍵入help()，您將看到一個幫助頁面，為您提供有關此移植的更多詳細信息。 "
+msgstr "您將看到一個幫助頁面，為您提供有關此移植的更多詳細信息。 如果您輸入"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:112
 msgid "it will list out all available builtin modules that are at your disposal"
-msgstr "如果您輸入help(modules)，它將列出所有可用的內建模塊供您使用。"
+msgstr "，它將列出所有可用的內建模塊供您使用。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:114
 msgid ""
@@ -668,7 +668,7 @@ msgid ""
 "will stay the way it is until you manually hard-reset the board."
 msgstr ""
 "MicroPython將執行軟件重啟，這在您的微控制器表現異常時非常有用。"
-"並且將再次執行 “boot.py” 中的腳本。請注意，這只會重置MicroPython interpreter 而不重置硬件，"
+"並且將再次執行 ``boot.py`` 中的腳本。請注意，這只會重置MicroPython interpreter 而不重置硬件，"
 "所有先前配置的硬件將保持原樣，直到您手動重置開發板為止。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:151
@@ -682,7 +682,7 @@ msgid ""
 "when you have found a MicroPython library and wish to test it out "
 "immediately by copy and paste"
 msgstr ""
-"Paste mode 可以一次將一大部分的代碼粘貼到REPL中，而無需一行一行地執行代碼。"
+"Paste mode 可以一次將一大部分的代碼粘貼到REPL中，而無需一行一行地執行代碼。 "
 "適合當您找到MicroPython庫並希望通過複製和貼上立即對其進行測試時。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:158
@@ -693,8 +693,8 @@ msgstr ""
 msgid ""
 "Normal mode This hotkey will set REPL back to normal mode. This is useful"
 " if you are stuck in certain mode and can not get out."
-msgstr ""
-"此熱鍵會將REPL設置回Normal mode。 當你卡在某些模式下，可以利用這個解決。"
+msgstr "此熱鍵會將REPL設置回Normal mode。 當你卡在某些模式下，可以利用這個解決。"
+
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:163
 msgid "``Ctrl + c``"
@@ -736,7 +736,7 @@ msgstr "如果這是您第一次將AMB21/AMB22連接到您的電腦，那麼 AMB
 msgid ""
 "If you have driver issue of connect board to your computer please go to "
 "https://ftdichip.com/drivers/ for USB driver."
-msgstr "如果遇到開發板連接到電腦的驅動程序問題，請參考下列USB 驅動程序 https://ftdichip.com/drivers /。"
+msgstr "如果遇到開發板連接到電腦的驅動程序問題，請參考下列USB 驅動程序 https://ftdichip.com/drivers/。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:183
 msgid ""
@@ -766,7 +766,9 @@ msgid ""
 "with MicroPython. The most common serial terminals are ``Tera Term`` and "
 "``Putty``, here we recommend using ``Tera Term``, which can be downloaded"
 " from internet."
-msgstr "對於Windows用戶，請安裝串行終端軟件。 最常見的串行終端是``Tera Term`` 和``Putty``，在這裡我們建議使用 ``Tera Term``，可以從網路下載。"
+msgstr ""
+"對於Windows用戶，請安裝串行終端軟件。 最常見的串行終端是**Tera Term**和**Putty**，"
+"在這裡我們建議使用Tera Term，可以從網路下載。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:198
 msgid ""
@@ -779,10 +781,11 @@ msgid ""
 "from the ``Devel`` category (see picture below) and pick the latest "
 "edition."
 msgstr ""
-"對於希望從頭開始編譯MicroPython的用戶，請確保安裝Cygwin，這是在Windows系統上運行的類似Linux的環境。 "
-"擇Cygwin安裝程序時，我們建議使用Cygwin 32位元版本。"
-"在Cygwin安裝期間，安裝程序將提示用戶是否安裝其他軟件，請確保從“Devel”類別中選擇make的GNU版本（請參見下圖），"
-"然後選擇最新版本。"
+"對於希望從頭開始編譯MicroPython的用戶，請確保安裝 ``Cygwin``，這是在Windows系統上運行的類似Linux的環境。"
+"選擇 ``Cygwin`` 安裝程序時，我們建議使用 ``Cygwin`` 32位元版本。"
+"在 ``Cygwin`` 安裝期間，安裝程序將提示用戶是否安裝其他軟件，"
+"請確保從 ``Devel`` 類別中選擇 ``make`` 的GNU版本（請參見下圖），然後選擇最新版本。"
+
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:206
 msgid "|6|"
@@ -797,7 +800,9 @@ msgid ""
 "Also, Python3 is required during firmware compilation, so be sure to "
 "download the latest Python3 from its official website and have it added "
 "as environment variable when asked during installation."
-msgstr "另外，在固件編譯過程中需要Python3，因此請確保從其官方網站下載最新的Python3，並在安裝過程中要求時將其添加為環境變量。"
+msgstr ""
+"另外，在固件編譯過程中需要Python3，因此請確保從其官方網站下載最新的Python3，"
+"並在安裝過程中要求時將其添加為環境變量。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:213
 msgid "On Linux"
@@ -808,7 +813,9 @@ msgid ""
 "For Linux user, please install a serial terminal software of your choice "
 "using ``apt-get`` install command. Here we recommend using ``picocom`` "
 "for its lightweight."
-msgstr "對於Linux用戶，請使用 ``apt-get install`` 命令安裝您選擇的串行終端軟件。 在這裡，我們建議使用 **picocom**。"
+msgstr ""
+"對於Linux用戶，請使用 ``apt-get`` install命令安裝您選擇的串行終端軟件。"
+" 在這裡，我們建議使用 ``picocom``。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:219
 msgid ""
@@ -831,7 +838,9 @@ msgid ""
 "<https://github.com/ambiot/ambd_micropython>`_, you will notice a "
 "``“Release”`` folder in the root directory of this repository, enter this"
 " folder and locate a tool named ``“Double-Click-Me-to-Upload”``."
-msgstr "從 `Github <https://github.com/ambiot/ambd_micropython>`_下載MicroPython repository 後，會在根目錄中看到一個“Release”文件夾，並且在該路徑下找到一個名為“Double-Click-Me-to-Upload”的工具。"
+msgstr ""
+"從 `GitHub <https://github.com/ambiot/ambd_micropython>`_ 下載MicroPython repository 後，"
+"會在根目錄中看到一個“Release”文件夾，並且在該路徑下找到一個名為“Double-Click-Me-to-Upload”的工具。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:237
 msgid "Step 2. Enter UART Download mode"

@@ -453,7 +453,7 @@ msgid ""
 "Not all sets of peripherals shown on the on the picture/table above are "
 "available on MicroPython, please refer to **Peripheral Example and API** "
 "section for more information."
-msgstr "注意：上圖/表中顯示的並非所有外圍設備都可以在MicroPython上使用， 請參閱“Examples and API”部分以獲取更多資訊。"
+msgstr "上圖/表中顯示的並非所有外圍設備都可以在MicroPython上使用， 請參閱**Examples and API**部分以獲取更多資訊。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:84
 msgid "Introduction to AMB23 MicroPython port"
@@ -505,8 +505,9 @@ msgid ""
 "MicroPython port."
 msgstr ""
 "要使用REPL，只需在PC上打開任何串行終端軟件（最常用的工具是teraterm，putty等），"
-"然後連接到微控制器的串行端口，然後將baudrate設置為115200，"
-"然後手動重置開發板，即可看到>>> MicroPython提示符出現在終端畫面上。 您就可以在REPL上輸入任何Python腳本。"
+"然後連接到微控制器的串行端口，然後將**baudrate**設置為 ``115200``，"
+"然後手動重置開發板，即可看到>>> MicroPython提示符出現在終端畫面上。"
+"您就可以在REPL上輸入任何Python腳本。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:112
 msgid ""
@@ -516,12 +517,11 @@ msgid ""
 msgstr ""
 "建議多嘗試使用 ``help()`` 函數以獲得更多資訊。 例如，微控制器上電並顯示REPL後，只需鍵入"
 
-
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:118
 msgid ""
 "You will see a help page giving you more details about this port; also if"
 " you type"
-msgstr "您將看到一個幫助頁面，為您提供有關的更多詳細信息。 如果您輸入"
+msgstr "，您將看到一個幫助頁面，為您提供有關的更多詳細信息。 如果您輸入"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:123
 msgid "it will list out all available builtin modules that are at your disposal"
@@ -565,8 +565,9 @@ msgid ""
 "will stay the way it is until you manually hard-reset the board."
 msgstr ""
 "MicroPython將執行軟件重啟，這在您的微控制器表現異常時非常有用。"
-"並且將再次執行 “boot.py” 中的腳本。請注意，這只會重置MicroPython 直譯器而不重置硬件，"
-"所有先前配置的硬件將保持原樣，直到您手動重置開發板為"
+"並且將再次執行 ``boot.py`` 中的腳本。請注意，這只會重置MicroPython 直譯器而不重置硬件，"
+"所有先前配置的硬件將保持原樣，直到您手動重置開發板為止。"
+
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:147
 msgid "``Ctrl + e``:"
@@ -632,7 +633,7 @@ msgstr "如果這是您第一次將AmebaD連接到您的電腦，那麼AmebaD的
 msgid ""
 "You can check the :guilabel:`COM` port number in :guilabel:`Device "
 "Manager` of your computer:"
-msgstr "你可以在你的電腦的 :guilabel:`裝置管理員`中檢查 :guilabel:`COM`端口號:"
+msgstr "你可以在你的電腦的 :guilabel:`裝置管理員` 中檢查 :guilabel:`COM` 端口號:"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:178
 msgid "|image7|"
@@ -657,7 +658,7 @@ msgid ""
 "**Putty,** here we recommend using Tera Term, which can be downloaded "
 "from internet."
 msgstr ""
-"對於Windows用戶，請安裝串行終端軟件。 最常見的串行終端是 **Tera Term**和**Putty**，"
+"對於Windows用戶，請安裝串行終端軟件。 最常見的串行終端是Tera Term和Putty，"
 "在這裡我們建議使用Tera Term，可以從網路下載。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:191
@@ -670,10 +671,10 @@ msgid ""
 "software, please make sure to select the GNU version of **make** from the"
 " **Devel** category (see picture below) and pick the latest edition."
 msgstr ""
-"對於希望從頭開始編譯MicroPython的用戶，請確保安裝Cygwin，這是在Windows系統上運行的類似Linux的環境。"
-"選擇Cygwin安裝程序時，我們建議使用Cygwin 32位元版本。 "
-"在Cygwin安裝期間，安裝程序將提示用戶是否安裝其他軟件，請確保從“Devel”類別中選擇make的GNU版本（請參見下圖），"
-"然後選擇最新版本。"
+"對於希望從頭開始編譯MicroPython的用戶，請確保安裝 ``Cygwin``，"
+"這是在Windows系統上運行的類似Linux的環境。 選擇 ``Cygwin`` 安裝程序時，"
+"我們建議使用 ``Cygwin`` 32位元版本。 在 ``Cygwin`` 安裝期間，安裝程序將提示用戶是否安裝其他軟件，"
+"請確保從 ``Devel`` 類別中選擇 ``make`` 的GNU版本（請參見下圖），然後選擇最新版本。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:199
 msgid "|image8|"
@@ -701,15 +702,14 @@ msgid ""
 "For Linux user, please install a serial terminal software of your choice "
 "using apt-get install command. Here we recommend using **picocom** for "
 "its lightweight."
-msgstr "對於Linux用戶，請使用apt-get install命令安裝您選擇的串行終端軟件。 在這裡，我們建議使用 **picocom**。"
+msgstr "對於Linux用戶，請使用apt-get install命令安裝您選擇的串行終端軟件。 在這裡，我們建議使用**picocom**。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:214
 msgid ""
 "For advanced developer interested in developing MicroPython module in C, "
 "please make sure the GNU make of at least **version 3.82 or newer** and "
 "Python3 are installed and can be found using terminal."
-msgstr ""
-"對於有興趣在C語言中開發MicroPython模塊的用戶，請確保安裝了至少3.82或更高版本的GNU make軟件以及Python3。"
+msgstr "對於有興趣在C語言中開發MicroPython模塊的用戶，請確保安裝了至少**3.82或更高**版本的GNU make軟件以及Python3。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:220
 msgid "Upload Firmware into Ameba"
@@ -736,7 +736,7 @@ msgstr "步驟2: 進入UART下載模式"
 msgid ""
 "To do this, first press and hold the :guilabel:`UART_DOWNLOAD` button, "
 "then press the :guilabel:`RESET` button."
-msgstr "請先按住 :guilabel:`UART_DOWNLOAD`按鈕，然後按 :guilabel:`RESET`按鈕。"
+msgstr "請先按住 :guilabel:`UART_DOWNLOAD` 按鈕，然後按 :guilabel:`RESET` 按鈕。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:235
 msgid "|image9|"
@@ -786,7 +786,8 @@ msgid ""
 "in this case, Tera Term to see REPL,"
 msgstr ""
 "REPL代表讀取，評估，打印和循環，它是MicroPython的終端，供用戶控制微控制器。"
-" REPL在LOG UART上運行，因此我們需要打開串行終端軟件，在本例中為Tera Term，用以查看REPL。"
+"REPL在LOG UART上運行，因此我們需要打開串行終端軟件，"
+"在本例中為Tera Term，用以查看REPL。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:261
 msgid ""
@@ -797,7 +798,7 @@ msgid ""
 "default."
 msgstr ""
 "打開Tera Term後，如上圖所示選擇“Serial”，然後使用下拉列表選擇ameba的串行端口，"
-"然後單擊“OK”。 如果您的串行終端未配置為115200 baudrate，建議將115200設定為默認設置。"
+"然後單擊“OK”。 如果您的串行終端未配置為**115200** baudrate，建議將115200設定為默認設置。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:267
 msgid ""
@@ -820,8 +821,8 @@ msgid ""
 "and then boot into MicroPython’s firmware, MicroPython then run the "
 "``“boot.py”`` python script and imported all the built-in libraries so we"
 " can quickly start coding."
-msgstr ""
-"過程為Ameba首先檢查其校準數據，然後啟動MicroPython的固件，接著再運行 ``boot.py``python腳本和導入的內建python庫。"
+msgstr "過程為Ameba首先檢查其校準數據，然後啟動MicroPython的固件，接著再運行"
+"``boot.py`` python腳本和導入的內建python庫。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:278
 msgid "Now, you can simply type"
