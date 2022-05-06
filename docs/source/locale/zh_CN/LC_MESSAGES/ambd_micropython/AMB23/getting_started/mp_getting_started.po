@@ -1,0 +1,862 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-29 04:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:3
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:7
+msgid "Ameba MicroPython: Getting Started with AMB23"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:10
+msgid "Required Environment"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:12
+msgid ""
+"AmebaD AMB23 board currently supports Windows OS 32-bits and 64-bits "
+"(WIN7/8/10), Linux OS (Ubuntu 18 LTS/20 LTS/latest) and macOS operating "
+"systems. Please use the latest OS version to have the best experiences. "
+"In this documentation, please use the latest version Arduino IDE (at "
+"least version 1.8.12)."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:19
+msgid "Introduction to AmebaD[AMB23]"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:21
+msgid ""
+"Ameba is an easy-to-program platform for developing all kind of IoT "
+"applications. AmebaD is equipped with various peripheral interfaces, "
+"including WiFi, GPIO INT, I2C, UART, SPI, PWM, ADC. Through these "
+"interfaces, AmebaD can connect with electronic components such as LED, "
+"switches, manometer, hygrometer, PM2.5 dust sensors, …etc."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:27
+msgid ""
+"The collected data can be uploaded via WiFi and be utilized by "
+"applications on smart devices to realize IoT implementation."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:30
+msgid "|image1|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:320
+msgid "image1"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:33
+msgid "PIN name"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:33
+msgid "GPIO"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:33
+msgid "ADC"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:33
+msgid "PWM"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:33
+msgid "UART"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:33
+msgid "SPI"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:33
+msgid "I2C"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:35
+msgid "D0"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:35
+msgid "GPIOB_0"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:35
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:36
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:37
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:38
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:39
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:40
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:41
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:42
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:43
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:44
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:45
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:46
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:47
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:48
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:49
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:50
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:51
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:52
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:53
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:54
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:55
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:56
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:57
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:58
+msgid "✓"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:36
+msgid "D1"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:36
+msgid "GPIOB_1"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:36
+msgid "A4"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:36
+msgid "Serial2_TX"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:36
+msgid "I2C0 SDA"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:37
+msgid "D2"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:37
+msgid "GPIOB_2"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:37
+msgid "A5"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:37
+msgid "Serial2_RX"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:38
+msgid "D3"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:38
+msgid "GPIOB_3"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:38
+msgid "A6"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:39
+msgid "D4"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:39
+msgid "GPIOB_4"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:39
+msgid "A0"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:40
+msgid "D5"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:40
+msgid "GPIOB_5"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:40
+msgid "A1"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:40
+msgid "I2C0 SCL*"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:41
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:42
+msgid "D6"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:41
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:42
+msgid "GPIOB_6"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:41
+msgid "A2"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:41
+msgid "I2C0 SDA*"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:42
+msgid "A3"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:43
+msgid "D7"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:43
+msgid "GPIOB_7"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:44
+msgid "D8"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:44
+msgid "GPIOA_2"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:45
+msgid "D9"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:45
+msgid "GPIOA_12"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:45
+msgid "Serial2_TX*"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:45
+msgid "SPI1_MOSI"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:46
+msgid "D10"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:46
+msgid "GPIOA_13"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:46
+msgid "Serial2_RX*"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:46
+msgid "SPI1_MISO"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:47
+msgid "D11"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:47
+msgid "GPIOA_14"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:47
+msgid "SPI1_CLK"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:48
+msgid "D12"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:48
+msgid "GPIOA_15"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:48
+msgid "SPI1_CS"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:49
+msgid "D13"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:49
+msgid "GPIOA_16"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:50
+msgid "D14"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:50
+msgid "GPIOA_28"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:51
+msgid "D15"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:51
+msgid "GPIOA_18"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:51
+msgid "Serial1_TX*"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:52
+msgid "D16"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:52
+msgid "GPIOA_19"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:52
+msgid "Serial1_RX*"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:53
+msgid "D17"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:53
+msgid "GPIOA_30"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:54
+msgid "D18"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:54
+msgid "GPIOB_21"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:54
+msgid "Serial1_TX"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:55
+msgid "D19"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:55
+msgid "GPIOB_22"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:55
+msgid "Serial1_RX"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:56
+msgid "D20"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:56
+msgid "GPIOB_23"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:57
+msgid "D21"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:57
+msgid "GPIOB_24"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:58
+msgid "D22"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:58
+msgid "GPIOA_31"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:58
+msgid "I2C0 SCL"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:62
+msgid "`*` : Those functions are not available on MicroPython"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:64
+msgid "AMB23 has smaller size than Arduino Uno, as shown in the above figure."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:66
+msgid "|image2|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:324
+msgid "image2"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:69
+msgid ""
+"AMB23 uses Micro USB to supply power, which is common in many smart "
+"devices."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:71
+msgid ""
+"Please refer to the following figure and table for the pin diagram and "
+"function of AMB23."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:73
+msgid "|image3|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:328
+msgid "image3"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:75
+msgid "|image4|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:332
+msgid "image4"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:79
+msgid ""
+"Not all sets of peripherals shown on the on the picture/table above are "
+"available on MicroPython, please refer to **Peripheral Example and API** "
+"section for more information."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:84
+msgid "Introduction to AMB23 MicroPython port"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:87
+msgid "Background Information"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:89
+msgid ""
+"MicroPython, by definition, is a lean and efficient Python3 compiler and "
+"runtime specially designed for microcontrollers."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:92
+msgid ""
+"MicroPython distinguishes itself from other compilation-based platforms "
+"(Arduino etc.) with its powerful method of real-time interaction to "
+"Microcontroller through a built-in feature -- REPL."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:96
+msgid ""
+"REPL stands for Read-Evaluation-Print-Loop, it is an interactive prompt "
+"that you can use to access and control your microcontroller."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:99
+msgid ""
+"REPL has been equipped with other powerful features such as tab "
+"completion, line editing, auto-indentation, input history and more. It "
+"basically functions like the classic Python IDLE but running on "
+"microcontroller."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:104
+msgid ""
+"To use REPL, simply open any serial terminal software (most common ones "
+"are teraterm, putty etc.) on your PC and connect to your "
+"microcontroller's serial port, then set **baudrate** to ``115200`` before"
+" manually reset the board, then you will see >>> MicroPython prompt "
+"appear on the terminal. Now you may type in any Python script on REPL as "
+"long as it's support by MicroPython and your microcontroller's "
+"MicroPython port."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:112
+msgid ""
+"Most importantly, try to abuse ``help()`` function as much as possible to"
+" gain more information. For example, upon microcontroller power up and "
+"REPL shown, just type"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:118
+msgid ""
+"You will see a help page giving you more details about this port; also if"
+" you type"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:123
+msgid "it will list out all available builtin modules that are at your disposal"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:125
+msgid ""
+"Furthermore, if you want to learn more about a module, such as its API "
+"and CONSTANT available, simply type the following code and details of "
+"that module will be returned to you,"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:131
+msgid "Let's take Pin module (GPIO) as an example:"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:133
+msgid "|image5|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:336
+msgid "image5"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:136
+msgid "REPL Hotkeys"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:138
+msgid "``Ctrl + d`` :"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:140
+msgid ""
+"Soft reboot MicroPython will perform software reboot, this is useful when"
+" your microcontroller is behaving abnormally. This will also run scripts "
+"in 'boot.py' once again. Note that this will only reset the MicroPython "
+"interpreter not the hardware, all your previously configured hardware "
+"will stay the way it is until you manually hard-reset the board."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:147
+msgid "``Ctrl + e``:"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:149
+msgid ""
+"Paste mode Paste mode allow you to perform pasting a large trunk of code "
+"into REPL at once without executing code line by line. This is useful "
+"when you have found a MicroPython library and wish to test it out "
+"immediately by copy and paste"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:154
+msgid "``Ctrl + b`` :"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:156
+msgid ""
+"Normal mode This hotkey will set REPL back to normal mode. This is useful"
+" if you are stuck in certain mode and can not get out."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:159
+msgid "``Ctrl + c`` :"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:161
+msgid ""
+"Quick cancel This hotkey help you to cancel any input and return a new "
+"line"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:165
+msgid "Setting up Development Environment"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:168
+msgid "Step 1. Installing the Driver"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:170
+msgid "First, connect AMB23 to the computer via Micro USB:"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:172
+msgid "|image6|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:340
+msgid "image6"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:175
+msgid ""
+"If this is the first time you connect AMB23 to your computer, the USB "
+"driver for AmebaD will be automatic installed."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:176
+msgid ""
+"You can check the :guilabel:`COM` port number in :guilabel:`Device "
+"Manager` of your computer:"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:178
+msgid "|image7|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:344
+msgid "image7"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:181
+msgid "Step 2. Installing the necessary tools"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:184
+msgid "On Windows"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:186
+msgid ""
+"For windows users, please install a serial terminal software to interact "
+"with MicroPython. The most common serial terminals are **Tera Term** and "
+"**Putty,** here we recommend using Tera Term, which can be downloaded "
+"from internet."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:191
+msgid ""
+"For advanced developer who wish to compile MicroPython firmware from "
+"scratch, then please be sure to install **Cygwin**, which is a Linux-like"
+" environment running on Windows system. When selecting the Cygwin "
+"installer, we recommend using the Cygwin 32-bit version. During Cygwin "
+"installation, installer will prompt user if wish to install other "
+"software, please make sure to select the GNU version of **make** from the"
+" **Devel** category (see picture below) and pick the latest edition."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:199
+msgid "|image8|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:348
+msgid "image8"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:201
+msgid ""
+"Also, Python3 is required during firmware compilation, so be sure to "
+"download the latest Python3 from its official website and have it added "
+"as environment variable when asked during installation."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:208
+msgid "On Linux"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:210
+msgid ""
+"For Linux user, please install a serial terminal software of your choice "
+"using apt-get install command. Here we recommend using **picocom** for "
+"its lightweight."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:214
+msgid ""
+"For advanced developer interested in developing MicroPython module in C, "
+"please make sure the GNU make of at least **version 3.82 or newer** and "
+"Python3 are installed and can be found using terminal."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:220
+msgid "Upload Firmware into Ameba"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:223
+msgid "Step 1. Navigate to “Release” folder"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:225
+msgid ""
+"After downloading the MicroPython repository from Github, you will notice"
+" a “Release” folder in the root directory of this repository, enter this "
+"folder and locate a tool named “Double-Click-Me-to-Upload”."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:230
+msgid "Step 2. Enter UART Download mode"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:232
+msgid ""
+"To do this, first press and hold the :guilabel:`UART_DOWNLOAD` button, "
+"then press the :guilabel:`RESET` button."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:235
+msgid "|image9|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:352
+msgid "image9"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:238
+msgid "Step 3. Run “Double-Click-Me-to-Upload”"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:240
+msgid ""
+"As the name suggested, double click on the file to run it, follow "
+"instructions printed on the screen to update the ameba’s serial COM port "
+"(this is known to us during the driver installation step mentioned above)"
+" so the uploading can be carried out successfully. Once the uploading is "
+"successful, you will see a line of log printed on the screen – “All "
+"images are sent successfully”"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:249
+msgid "Try the First Example"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:252
+msgid "Step 1. Open REPL"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:254
+msgid "|image10|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:356
+msgid "image10"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:256
+msgid ""
+"REPL stands for **Read**, **Evaluate**, **Print** and **Loop**, it is the"
+" MicroPython’s terminal for user to control the microcontroller. REPL is "
+"running on LOG UART, thus we need to open our serial terminal software, "
+"in this case, Tera Term to see REPL,"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:261
+msgid ""
+"Once Tera Term is opened, select “Serial” like in the picture above and "
+"choose your ameba’s serial port using the dropdown list, after that, hit "
+"“OK”. If your serial terminal is not configured to 115200 baud rate, now "
+"is the time to change it to **115200** and leave the rest of settings as "
+"default."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:267
+msgid ""
+"Now that the serial port is connected, press the :guilabel:`RESET` button"
+" once on your ameba and you should see the MicroPython’s welcome page as "
+"shown below,"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:271
+msgid "|image11|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:360
+msgid "image11"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:273
+msgid ""
+"What happened here was that your Ameba first check its calibration data "
+"and then boot into MicroPython’s firmware, MicroPython then run the "
+"``“boot.py”`` python script and imported all the built-in libraries so we"
+" can quickly start coding."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:278
+msgid "Now, you can simply type"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:282
+msgid "to see more information, and type"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:286
+msgid "to check all readily available libraries"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:289
+msgid "Step 2. Run WiFi Scan example"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:291
+msgid ""
+"As most of peripherals’ examples requires additional hardware to show the"
+" example is working, we will just use WiFi Scan example as our first "
+"example and to see how easy it is to control WiFi using MicroPython."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:295
+msgid "Now, simply type"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:299
+msgid "You should be able to see this,"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:301
+msgid "|image12|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:364
+msgid "image12"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:303
+msgid ""
+"Then simply copy the code highlighted in the red box and paste to REPL "
+"then Enter, you should be able to see the returned result with all "
+"discovered wireless network in your surrounding"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:307
+msgid "|image13|"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:368
+msgid "image13"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:309
+msgid ""
+"With this, we can be sure that the MicroPython firmware is correctly "
+"compiled and installed."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:312
+msgid "**(End)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:317
+msgid ""
+"If you face any issue, please refer to the :doc:`../../AMB23/support/FAQ`"
+" and :doc:`../../AMB23/support/Trouble shooting` page."
+msgstr ""
+
+#~ msgid ""
+#~ "If you face any issue, please "
+#~ "refer to the :doc:`../../AMB21/support/FAQ` "
+#~ "and :doc:`../../AMB21/support/Trouble shooting` "
+#~ "page."
+#~ msgstr ""
+

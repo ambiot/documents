@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:3
+msgid "SDFS"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
+" :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:16
+msgid "**SDFS()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:17
+msgid ""
+"Create a ``sdfs`` object and configure it to the given mode. This then "
+"allows you to navigate through the SD card and read/write files as you "
+"see."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:20
+msgid "No parameter is required"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:23
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:27
+msgid "**sdfs.listdir()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:28
+msgid "This method listing the files and folders under current path."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:30
+msgid "**sdfs.mkdir(**\\ *\"folder name\"*\\ [required] **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:31
+msgid "This method attempts to create a folder under current path."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:33
+msgid ""
+"**folder name**: the name of the new folder/directory you wish to create,"
+" it must be a string less than 128 characters"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:35
+msgid "**sdfs.chdir(**\\ *\"folder name\"*\\ [required] **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:36
+msgid "This method change directory to the one given in the parameter."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:38
+msgid ""
+"**folder name**: the name of the folder/directory you wish to navigate "
+"to, it must be a string less than 128 characters"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:41
+msgid ""
+"Key in “/” as the parameter to this API would navigate back to the root "
+"directory."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:43
+msgid "**sdfs.pwd()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:44
+msgid "This method is to print out present working directory (current path)."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:46
+msgid "**sdfs.rm(**\\ *\"folder name or file name*\\ [required]\" **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:47
+msgid ""
+"This method is to delete a file or a folder. Note that, the folder to be "
+"deleted has to be empty before it can be deleted successfully."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:49
+msgid ""
+"**folder name or file name**: the name of the folder or file you wish to "
+"delete, it must be a string less than 128 characters"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:51
+msgid "**sdfs.create(** \\ *\"file name*\\ [required]\" **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:52
+msgid "This method is to create a file."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:54
+msgid "**file name**: The name of the file you wish to create."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:56
+msgid ""
+"**sdfs.write(**\\ *\"file name*\\ [required]\" , \\ *\"string*\\ "
+"[required]\"**)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:57
+msgid "This method is to write your input as a string to a file specified."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:59
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:65
+msgid "**file name**: The name of the file you wish to read."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:60
+msgid "**string**: The data you wish to write."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:62
+msgid "**sdfs.read(**\\ *\"file name*\\ [required]\"**)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_SDFS.rst:63
+msgid "This method is to read the content from a file."
+msgstr ""
+

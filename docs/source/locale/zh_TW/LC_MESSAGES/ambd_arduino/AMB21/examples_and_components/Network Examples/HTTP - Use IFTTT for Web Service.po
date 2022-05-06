@@ -8,19 +8,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-04-29 08:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:3 Use
 #: Web for
 msgid "HTTP - Use IFTTT for Web Service"
-msgstr "HTTP - 將 IFTTT 用於 Web 服務"
+msgstr "HTTP - 將IFTTT用於Web服務"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:8 Use
 #: Web for
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Introduction to"
 " IFTTT** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **IFTTT 介紹**"
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **IFTTT的"
+" 介紹** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:12 Use
 #: Web for
@@ -40,9 +40,9 @@ msgid ""
 "within other web services such as Gmail, Facebook, Telegram, Instagram, "
 "Pinterest etc."
 msgstr ""
-"IFTTT (If This Then That) 為一個雲端平台提供免費網路服務來創建applets"
-"或是簡單的條件陳述來指定網路服務觸發條件使其他像是"
-"Gmail, Facebook, Telegram, Instagram, Pinterest 等網路服務進行特定的反應動作。"
+"IFTTT(If This Then That)為一個雲端平台提供免費網路服務來創建applets或是簡單的"
+"陳述來指定網路服務觸發條件使其他像是 Gmail, Facebook, Instagram, Pinterest等"
+"網路服務進行特定的反應動作。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:18 Use
 #: Web for
@@ -61,7 +61,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:23 Use
 #: Web for
 msgid "An account from https://ifttt.com/ , in order to access IFTTT service\\*"
-msgstr "帳戶來存取 IFTTT 服務* https://ifttt.com/"
+msgstr "賬號來存取 IFTTT 服務* https://ifttt.com/ "
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:25 Use
 #: Web for
@@ -78,7 +78,7 @@ msgstr ""
 msgid ""
 "Upon log in, there are several cloud and online services that are "
 "integrated with IFTTT platforms."
-msgstr "*Note: 登入後有多個雲端服務整合在 IFTTT 平台"
+msgstr "登入後有多個雲端服務整合在 IFTTT 平台"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:31 Use
 #: Web for
@@ -92,14 +92,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:35 Use
 #: Web for
 msgid "Generate Applet from IFTTT"
-msgstr "生成 IFTTT Applet"
+msgstr "生成IFTTT Applet"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:37 Use
 #: Web for
 msgid ""
 "In this example, we obtain an example of IFTTT Applet to send email to "
 "specified recipient."
-msgstr "接下來示範如何透過 IFTTT Applet 來寄信至特定的收件者"
+msgstr "接下來示範如何透過 IFTTT Applet 來寄信至特定的收件者。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:40 Use
 #: Web for
@@ -108,13 +108,15 @@ msgid ""
 "simple webhook service that is received by IFTTT platform and in turn be "
 "used to trigger a response (sending an email)."
 msgstr ""
-"這個範例中，利用 ameba HTTP POST 功能來發布一個簡單的webhook服務，"
-"IFTTT 收到後觸發另一個網路服務(發送信件)"
+"這個範例中，利用 Ameba HTTP POST 功能來發布一個簡單的webhook服務，"
+"IFTTT 收到後觸發另一個網路服務(發送信件)。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:44 Use
 #: Web for
 msgid "After logging in https://ifttt.com/, click **Create** from the top bar."
-msgstr "登錄 https://ifttt.com/後，點選 Create"
+msgstr ""
+"登錄 https://ifttt.com/後，"
+"點選 **Create**"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:46 Use
 #: Web for
@@ -129,7 +131,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:48 Use
 #: Web for
 msgid "Click **“Add”** to add the trigger."
-msgstr "點選 **“Add”** 來新增觸發服務"
+msgstr "點選 **“Add”** 來新增觸發服務。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:50 Use
 #: Web for
@@ -163,7 +165,7 @@ msgstr ""
 msgid ""
 "After that, the available triggers will appear. Choose Receive a Web "
 "request."
-msgstr "接著會出現可用的觸發服務，選擇 **Receive a Web request**"
+msgstr "接著會出現可用的觸發服務，選擇 Receive a Web request"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:59 Use
 #: Web for
@@ -180,7 +182,7 @@ msgstr ""
 msgid ""
 "Next, an Event Name is required to identify the trigger successfully. In "
 "this example, set the Event name as “test_event”."
-msgstr "需要填入 event name 來成功辨別觸發服務 範例中使用 “test_event” 來當作事件名稱。"
+msgstr "需要填入 event name 來成功辨別觸發服務 範例中使用 **“test_event”** 來當作事件名稱。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:64 Use
 #: Web for
@@ -197,7 +199,7 @@ msgstr ""
 msgid ""
 "Next, click **Add** in Then That field to create the action service taken"
 " in response to the last trigger."
-msgstr "接著選擇 Then That 欄位中的 Add 來創建 action service 對應的服務"
+msgstr "接著選擇 Then That 欄位中的 **Add** 來創建 action service 對應的服務"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:69 Use
 #: Web for
@@ -227,7 +229,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:75 Use
 #: Web for
 msgid "Click on Send me an email."
-msgstr "點選 **Send me an email**"
+msgstr "點選 Send me an email"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:77 Use
 #: Web for
@@ -246,8 +248,10 @@ msgid ""
 "such as subject and body is editable. Click **Create Action** to complete"
 " the action. Take note that **Email service** is offered to the email "
 "address registered under IFTTT account."
-msgstr "在 Send me an Email 模板下, email 主旨與內文的內容是可編輯的。"
-"點選 Create Action 來完成執行的動作。注意 Email服務是基於IFTTT帳號下註冊的 email ID。"
+msgstr ""
+"在 **Send me an Email** 模板下, email 主旨與內文的內容是可編輯的。"
+"點選 **Create Action** 來完成執行的動作。"
+"注意 **Email** 服務是基於IFTTT帳號下註冊的 email ID。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:84 Use
 #: Web for
@@ -290,35 +294,35 @@ msgstr "在程式碼中編輯下列三項使程式可以順利執行。"
 msgid ""
 "The WiFi credentials to connect to the Wi-Fi hotspot or access point of "
 "desirable choice."
-msgstr "1. 編輯 wi-fi 憑證來連接至 wi-fi 熱點或是無線接入點"
+msgstr "編輯 wi-fi 憑證來連接至 wi-fi 熱點或是無線接入點"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:95 Use
 #: Web for
 msgid ""
 "Under the Host name field, enter the host name of the IFTTT service "
 "“maker.ifttt.com”."
-msgstr "2. 在 host name 欄位中輸入 IFTTT 服務的 hostname “maker.ifttt.com”"
+msgstr "在 host name 欄位中輸入 IFTTT 服務的 hostname “maker.ifttt.com”"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:96 Use
 #: Web for
 msgid ""
 "Under the Path name field, enter the Event name and key field "
 "“/trigger/Event name/with/key/Key Field”"
-msgstr "3. 在 Path 欄位中輸入 EventName 並在 Key 欄位中輸入 “trigger//with/key/”"
+msgstr "在 Path 欄位中輸入 EventName 並在 Key 欄位中輸入 “trigger/with/key/”"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:98 Use
 #: Web for
 msgid ""
 "Event name: The event name should be the same as the one specified in the"
 " IFTTT applet. In this example, the event name is “test_event”."
-msgstr "**Event name**: 必須與 IFTTT applet 所指定的名子一致, 此範例中的 event name 為 “test_event”"
+msgstr "Event name: 必須與 IFTTT applet 所指定的名子一致, 此範例中的 event name 為 “test_event”"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:99 Use
 #: Web for
 msgid ""
 "Key Field: Available under webhook service in individual IFTTT account. "
 "See the next step for the steps to obtain the Key Field."
-msgstr "**Key Field**: 在 IFTTT 帳戶中的 Webhook 服務下可以找到"
+msgstr "Key Field: 在 IFTTT 帳戶中的 Webhook 服務下可以找到"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:101 Use
 #: Web for
@@ -391,8 +395,10 @@ msgid ""
 "press the reset button. After the event has been successfully fired, "
 "“Congratulations! You have fired the test_event event” can be seen on the"
 " serial monitor and an email reminder for this event will be delivered."
-msgstr "在 Arduino IDE 上，編譯代碼並將代碼上傳到 Ameba，然後按重置按鈕。"
-"事件成功觸發後，可以在串行監視器上看到“Congratulations! You have fired the test_event event”與將發送此事件的電子郵件提醒。"
+msgstr ""
+"在 Arduino IDE 上，編譯代碼並將代碼上傳到 Ameba，然後按重置按鈕。"
+"事件成功觸發後，可以在串行監視器上看到“Congratulations! "
+"You have fired the test_event event”與將發送此事件的電子郵件提醒。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:124 Use
 #: Web for

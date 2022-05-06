@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-07 04:35+0100\n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:3
 msgid "Getting Started"
@@ -66,85 +66,83 @@ msgstr "Ameba所收集的數據可以通過WiFi無線上傳，並被智能設備
 msgid "|ambd-get-start-1|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:242
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:246
 msgid "get-start-1"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:31
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:30
 msgid ""
 "AMB21/AMB22 and Arduino Uno have similar size, as shown in the above "
 "figure, and the pins on AMB21/AMB22 are compatible with Arduino Uno."
 msgstr "AMB21/AMB22和Arduino UNO的尺寸類似，如下圖所示，并且AmebaD上的引脚與Arduino UNO兼容。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:32
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:33
 msgid ""
 "AMB21/AMB22 uses Micro USB to supply power, which is common in many smart"
 " devices."
 msgstr "AMB21/AMB22使用Micro USB來供電，這在許多智能設備中很常見。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:33
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:35
 msgid ""
 "Please refer to the following figure and table for the pin diagram and "
 "function of AMB21/AMB22."
 msgstr "AMB21/AMB22的引脚圖和功能請參考下圖和表格。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:35
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:37
 msgid "|ambd-get-start-2|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:248
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:252
 msgid "get-start-2"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:38
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
 msgid "\\#"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:38
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
 msgid "PIN name"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:38
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
 msgid "GPIO"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:38
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
 msgid "ADC"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:38
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
 msgid "PWM"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:38
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
 msgid "UART"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:38
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
 msgid "SPI"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:38
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
 msgid "I2C"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:42
 msgid "D00"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:42
 msgid "GPIOB_2"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:41
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:42
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:43
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:44
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:45
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:46
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:47
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:48
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:49
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:50
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:51
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:52
@@ -164,422 +162,426 @@ msgstr ""
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:66
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:67
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:68
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:69
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:70
 msgid "✓"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:42
 msgid "ADC5"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:40
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:42
 msgid "UART3_RX(b)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:41
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:43
 msgid "D01"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:41
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:43
 msgid "GPIOB_1"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:41
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:43
 msgid "ADC4"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:41
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:43
 msgid "UART3_TX(b)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:42
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:44
 msgid "D02"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:42
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:44
 msgid "GPIOB_3"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:42
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:44
 msgid "ADC6"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:43
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:45
 msgid "D03"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:43
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:45
 msgid "GPIOB_31"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:44
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:46
 msgid "D04"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:44
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:46
 msgid "GPIOB_30"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:45
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:47
 msgid "D05"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:45
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:47
 msgid "GPIOB_28"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:46
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:48
 msgid "D06"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:46
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:48
 msgid "GPIOB_29"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:47
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:49
 msgid "D07"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:47
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:49
 msgid "NC"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:48
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:50
 msgid "D08"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:48
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:50
 msgid "GPIOB_22"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:49
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:51
 msgid "D09"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:49
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:51
 msgid "GPIOB_23"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:50
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:52
 msgid "D10"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:50
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:52
 msgid "GPIOB_21"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:50
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:52
 msgid "UART0_RTS(b)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:50
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:52
 msgid "SPI0_CS"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:51
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:53
 msgid "D11"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:51
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:53
 msgid "GPIOB_18"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:51
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:53
 msgid "UART0_RX(b)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:51
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:53
 msgid "SPI0_MOSI"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:52
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:54
 msgid "D12"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:52
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:54
 msgid "GPIOB_19"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:52
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:54
 msgid "UART0_TX(b)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:52
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:54
 msgid "SPI0_MISO"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:53
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:55
 msgid "D13"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:53
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:55
 msgid "GPIOB_20"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:53
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:55
 msgid "UART0_CTS(b)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:53
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:55
 msgid "SPI0_CLK"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:54
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:56
 msgid "D14"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:54
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:56
 msgid "GPIOA_7"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:54
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:56
 msgid "UART2_TX(log)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:55
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:57
 msgid "D15"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:55
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:57
 msgid "GPIOA_8"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:55
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:57
 msgid "UART2_RX(log)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:56
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:58
 msgid "D16"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:56
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:58
 msgid "GPIOA_25"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:56
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:58
 msgid "UART3_RX(a)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:56
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:58
 msgid "I2C0_SCL"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:57
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:59
 msgid "D17"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:57
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:59
 msgid "GPIOA_26"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:57
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:59
 msgid "UART3_TX(a)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:57
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:59
 msgid "I2C0_SDA"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:58
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:60
 msgid "D18"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:58
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:60
 msgid "GPIOB_7"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:58
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:60
 msgid "ADC3"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:58
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:60
 msgid "SPI1_CS"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:59
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:61
 msgid "D19"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:59
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:61
 msgid "GPIOB_6"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:59
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:61
 msgid "ADC2"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:59
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:61
 msgid "SPI1_CLK"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:60
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:62
 msgid "D20"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:60
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:62
 msgid "GPIOB_5"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:60
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:62
 msgid "ADC1"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:60
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:62
 msgid "SPI1_MISO"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:61
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:63
 msgid "D21"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:61
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:63
 msgid "GPIOB_4"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:61
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:63
 msgid "ADC0"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:61
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:63
 msgid "SPI1_MOSI"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:62
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:64
 msgid "D22"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:62
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:64
 msgid "GPIOA_28"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:63
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:65
 msgid "D23"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:63
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:65
 msgid "GPIOA_24"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:63
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:65
 msgid "UART0_CTS(a)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:63
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:65
 msgid "I2C1_SDA"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:64
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:66
 msgid "D24"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:64
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:66
 msgid "GPIOA_23"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:64
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:66
 msgid "UART0_RTS(a)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:64
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:66
 msgid "I2C1_SCL"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:65
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:67
 msgid "D25"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:65
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:67
 msgid "GPIOA_22"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:65
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:67
 msgid "UART0_RX(a)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:66
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:68
 msgid "D26"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:66
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:68
 msgid "GPIOA_21"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:66
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:68
 msgid "UART0_TX(a)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:67
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:69
 msgid "D27"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:67
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:69
 msgid "GPIOA_20"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:68
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:70
 msgid "D28"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:68
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:70
 msgid "GPIOA_19"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:71
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:73
 msgid "|ambd-get-start-3|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:254
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:258
 msgid "get-start-3"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:76
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:78
 msgid "Setting up Development Environment"
 msgstr "設置開發環境"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:79
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:81
 msgid "Step 1. Installing the Driver"
 msgstr "步驟1：安裝驅動程序"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:81
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:83
 msgid "First, connect AMB21/AMB22 to the computer via Micro USB:"
 msgstr "首先，通過Micro USB將AmebaD連接到電腦："
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:83
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:85
 msgid "|ambd-get-start-4|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:260
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:264
 msgid "get-start-4"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:86
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:87
 msgid ""
 "If this is the first time you connect AMB21/AMB22 to your computer, the "
 "USB driver for AMB21/AMB22 will be automatic installed."
 msgstr "如果這是您第一次將AmebaD連接到您的電腦，那麽AmebaD的USB驅動程序將自動安裝。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:88
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:90
 msgid ""
 "If you have driver issue of connect board to your computer please go to "
-"`here <https://ftdichip.com/drivers/>`_ for USB driver."
-msgstr "如果遇到開發板連接到電腦的驅動程序問題，請參考下列USB驅動程序 https://ftdichip.com/drivers/"
+"`<https://ftdichip.com/drivers/>`_ for USB driver."
+msgstr "如果遇到開發板連接到電腦的驅動程序問題，請參考下列USB驅動程序 https://ftdichip.com/drivers/."
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:89
-msgid "You can check the COM port number in Device Manager of your computer:"
-msgstr "您可以在您的電腦的設備管理器中檢查COM端口號："
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:93
+msgid ""
+"You can check the :guilabel:`COM` port number in :guilabel:`Device "
+"Manager` of your computer:"
+msgstr "您可以在您的電腦的 :guilabel:`設備管理器` 中檢查 :guilabel:`COM` 端口號："
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:91
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:95
 msgid "|ambd-get-start-5|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:266
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:270
 msgid "get-start-5"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:94
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:98
 msgid "Step 2. Set up Arduino IDE"
 msgstr "步驟2：設置Arduino IDE"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:96
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:100
 msgid ""
 "From version 1.6.5, Arduino IDE supports third-party hardware. Therefore,"
 " we can use Arduino IDE to develop applications on AMB21/AMB22, and the "
@@ -591,40 +593,40 @@ msgstr ""
 "IDE在AmebaD上開發應用程序，Arduino的示例也可以在AmebaD上運行。Arduino IDE可以在Arduino網站下載： "
 "https://www.arduino.cc/en/Main/Software"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:101
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:105
 msgid ""
 "When the installation is finished, open Arduino IDE. To set up "
 "AMB21/AMB22 correctly in Arduino IDE, go to :guilabel:`“File” -> "
 "“Preferences”`."
 msgstr "安裝完成後，打開Arduino IDE。為了在Arduino IDE 中正常使用AmebaD，請打開 “File”—>“Preferences”。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:104
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:108
 msgid "|ambd-get-start-6|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:272
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:276
 msgid "get-start-6"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:106
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:110
 msgid ""
 "And paste the following URL into :guilabel:`“Additional Boards Manager "
 "URLs”` field::"
 msgstr "並將一下網址粘貼到“Additional Boards Manager URLs” 欄位"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:112
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:116
 msgid "Next, go to :guilabel:`“Tools” -> “Board” -> “Boards Manager”`:"
 msgstr "接下來，選著 “Tools” -> “Board” -> “Boards Manager”："
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:114
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:118
 msgid "|ambd-get-start-7|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:278
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:282
 msgid "get-start-7"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:116
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:120
 msgid ""
 "The :guilabel:`“Boards Manager”` requires about 10~20 seconds to refresh "
 "all hardware files (if the network is in bad condition, it may take "
@@ -639,49 +641,54 @@ msgstr ""
 "因此， 我們先關閉然後再次打開它。在列表中找到“Realtek AmebaD Boards”，點擊“Install”，Arduino IDE "
 "會自動開始下載AmebaD所需的文件。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:124
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:128
 msgid "|ambd-get-start-8|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:284
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:288
 msgid "get-start-8"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:128
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:130
 msgid ""
 "If you are facing GitHub downloading issue, please refer to the following"
 " link at `Download/Software Development Kit`_. There are 3 sections:"
 msgstr "如果您遇到 GitHub 下載問題，請參考以下 `Download/Software Development Kit`_ 中的鏈接。有3個部分。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:130
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:134
 msgid ""
-"“AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There "
-"are 5 latest released SDK options."
+":guilabel:`“AmebaD_Arduino_patch1_SDK”`, please select at least 1 of the "
+"SDKs. There are 5 latest released SDK options."
 msgstr "“AmebaD_Arduino_patch1_SDK”，請至少選擇 1 個 SDK。目前有 5 個最新發布的 SDK 選項。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:131
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:135
 msgid ""
-"“AmebaD_Arduino_patch2_Tools”, please select according to your operation "
-"system. There are Windows, Linux and MacOS."
+":guilabel:`“AmebaD_Arduino_patch2_Tools”`, please select according to "
+"your operation system. There are Windows, Linux and MacOS."
 msgstr "“AmebaD_Arduino_patch2_Tools”，請根據您的作業系統進行選擇。有 Windows、Linux 和 MacOS。"
-
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:132
-msgid ""
-"“AmebaD_Arduino_Source_Code”, this section is optional download only "
-"wants to refer the latest source code."
-msgstr "“AmebaD_Arduino_Source_Code”，此部分為可選下載，用來參考最新原始碼。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:136
 msgid ""
+":guilabel:`:“AmebaD_Arduino_Source_Code”`, this section is optional "
+"download only wants to refer the latest source code."
+msgstr "“AmebaD_Arduino_Source_Code”，此部分為可選下載，用來參考最新原始碼。"
+
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:140
+msgid ""
 "Download the files selected, then unzip (patch1 and patch2 are "
 "compulsory). There are “Install.doc”/“Install.pdf” for you to refer "
-"installation steps. According to your system, please run the installation"
-" tool in the “Offline_SDK_installation_tool” folder."
+"installation steps."
 msgstr ""
 "下載選擇的文件，然後解壓（patch1 和patch2 "
 "是必須的）。有“Install_中文.doc”/“Install_中文.pdf”供您參考安裝步驟。根據您的系統，請運行“Offline_SDK_installation_tool”文件夾中的安裝工具。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:141
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:142
+msgid ""
+"According to your system, please run the installation tool in the "
+"“Offline_SDK_installation_tool” folder."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:145
 msgid ""
 "After the installation tool running successfully, you may open Arduino "
 "IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. "
@@ -693,96 +700,90 @@ msgstr ""
 "Manager…”。嘗試在列表中找到“Realtek AmebaD Boards (32-bits ARM Cortex-M33 "
 "@200MHz)”，點擊“Install”，Arduino IDE開始下載AmebaD所需的文件。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:149
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:153
 msgid ""
 "Finally, we select AMB21/AMB22 as current connected board in "
 ":guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” "
 "AMB21”`："
 msgstr "最後我們在“tools”->“Board”->“Arduino AmebaD”中選擇了AmebaD作爲當前連接的開發板："
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:152
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:156
 msgid "|ambd-get-start-9|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:290
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:294
 msgid "get-start-9"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:157
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:161
 msgid "Try the First Example"
 msgstr "測試第一個示例"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:160
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:164
 msgid "Step 1. Compile & Upload"
 msgstr "步驟1：編譯並上傳"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:164
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:166
 msgid ""
 "Arduino IDE provides many built-in examples, which can be compiled, "
 "uploaded and run directly on the boards. Here, we take the “Blink” "
-"example as the first try."
+"example as the first try. Open :guilabel:`“File” -> “Examples” -> "
+"“01.Basics” -> “Blink”`:"
 msgstr "Arduino IDE提供了很多内置的範例，可以在開發板上直接編譯，上傳和運行。這裏，我們以“Blink”爲例進行第一次嘗試。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:165
-msgid "Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:"
-msgstr "打開“File”->“Examples”->“ 01.Basics”-> “Blink”:"
-
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:167
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:170
 msgid "|ambd-get-start-10|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:296
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:300
 msgid "get-start-10"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:169
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:172
 msgid "Arduino IDE opens a new window with the complete sample code."
 msgstr "Arduino IDE打開一個帶有完整示例代碼的新窗口。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:171
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:174
 msgid "|ambd-get-start-11|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:302
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:306
 msgid "get-start-11"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:173
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:176
 msgid ""
 "Next, we compile the sample code directly; click :guilabel:`“Sketch” -> "
 "“Verify/Compile”`"
 msgstr "接下來，我們直接編譯示例代碼，點擊“Sketch”->“Verify/Compile”"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:176
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:179
 msgid "|ambd-get-start-12|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:308
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:312
 msgid "get-start-12"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:178
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:181
 msgid ""
 "Arduino IDE prints the compiling messages in the bottom area of the IDE "
 "window. When the compilation is finished, you will get the message "
 "similar to the following figure:"
 msgstr "Arduino IDE在IDE窗口的底部區域打印編譯消息。編譯完成後，會得到如下圖所示的消息："
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:182
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:185
 msgid "|ambd-get-start-13|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:314
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:318
 msgid "get-start-13"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:184
-msgid "Afterwards, we will upload the compiled code to AMB21/AMB22."
-msgstr "之後，我們將吧編譯後的代碼上傳到AmebaD。"
-
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:186
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:187
 msgid ""
-"Please make sure AMB21/AMB22 is connected to your computer, then click "
+"Afterwards, we will upload the compiled code to AMB21/AMB22. Please make "
+"sure AMB21/AMB22 is connected to your computer, then click "
 ":guilabel:`“Sketch” -> “Upload”`."
 msgstr "請確保AmebaD已連接到您的計算機，然後單擊“Sketch” -> “Upload”。"
 
@@ -793,30 +794,30 @@ msgid ""
 "Arduino IDE will wait 5s for DEV board to enter the upload mode."
 msgstr "Arduino IDE將首先編譯，然後上傳。在上傳過程中，用戶需要將開發板調至上傳模式。Arduino IDE會等待5秒鐘，等待開發板進入上傳模式。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:192
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:194
 msgid "|ambd-get-start-14|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:320
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:324
 msgid "get-start-14"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:194
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:196
 msgid ""
 "To enter the upload mode, first press and hold the "
 ":guilabel:`UART_DOWNLOAD` button, then press the :guilabel:`RESET` "
 "button. If success, you should see the LED flashing on the DEV board."
 msgstr "想要進入上傳模式，首先按住UART_DOWNLOAD按鈕。如果成功的話，您應該會在開發板上看到閃爍的綠色LED，之後就可以放開按鈕。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:198
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:200
 msgid "|ambd-get-start-15|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:326
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:330
 msgid "get-start-15"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:200
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:202
 msgid ""
 "It is optional for users to check if the board entered the upload mode. "
 "Open serial monitor/terminal and look for “#Flash Download Start”. Note, "
@@ -826,46 +827,41 @@ msgstr ""
 "用戶可選擇檢查開發板是否進入上傳模式。打開串行監視器並查找“#Flash Download "
 "Start”。請注意，某些串口終端可能會顯示如下圖所示的未知字符是正常的。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:204
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:206
 msgid "|ambd-get-start-16|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:332
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:336
 msgid "get-start-16"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:206
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:208
 msgid ""
 "Again, during the uploading procedure the IDE prints messages. Uploading "
 "procedure takes considerably longer time (about 30 seconds to 1 minute). "
 "When upload completed, the “Done uploading” message is printed."
 msgstr "同樣，在上傳過程中IDE會自動顯示消息。上傳過程要需要相當長的時間(大約30秒到1分鐘）。上傳完成後，您會看到“Done uploading”消息。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:210
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:212
 msgid "|ambd-get-start-18|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:344
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:348
 msgid "get-start-18"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:213
-msgid "Step 2.Run the Blink example"
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:215
+msgid "Step 2. Run the Blink example"
 msgstr "步驟2. 運行Blink示例"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:218
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:217
 msgid ""
 "In each example, Arduino not only provides sample code, but also detailed"
 " documentation, including wiring diagram, sample code explanation, "
 "technical details, …etc. These examples can be directly used on "
-"AMB21/AMB22."
-msgstr "在每個示例中，Arduino不僅提供了示例代碼，還提供了詳細的文檔，包括接線圖，示例代碼説明，技術細節等。這些示例可以直接用於AMB21/AMB22。"
-
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:220
-msgid ""
-"So, we find the detailed information of the `Blink example "
+"AMB21/AMB22. So, we find the detailed information of the `Blink example "
 "<https://www.arduino.cc/en/Tutorial/Blink>`__."
-msgstr "在這裡我們可以找到Blink這個示列的詳細信息： https://www.arduino.cc/en/Tutorial/Blink"
+msgstr "在每個示例中，Arduino不僅提供了示例代碼，還提供了詳細的文檔，包括接線圖，示例代碼説明，技術細節等。這些示例可以直接用於AMB21/AMB22。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:225
 msgid ""
@@ -874,40 +870,40 @@ msgid ""
 "the following figure:"
 msgstr "簡而言之，這個示例會使LED不停閃爍。它使用的是GPIO引脚08(參考引脚圖D08）。我們把LED和電阻連接起來，如下圖所示:"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:229
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:230
 msgid ""
-"（NOTE: In an LED, the longer pin is the positive pole, and shorter pin is"
-" the negative pole. So we connect the longer pin to ``D08``, and connect "
-"the shorter pin to ``GND``. In addition, please use a resister with "
-"suitable resistance in series between LED and GND to protect LED）"
+"In an LED, the longer pin is the **positive pole**, and the shorter pin "
+"is the **negative pole**. So we connect the longer pin to ``D08``, and "
+"connect the shorter pin to ``GND``. In addition, please use a resistor "
+"with suitable resistance in series between LED and GND to protect the "
+"LED."
 msgstr ""
 "（注意：在一個LED中，較長的引脚是正極，較短的引脚是負極。我們將較長引脚連接到D08， "
 "並將較短的引脚連接到GND、另外，請在LED和GND之間串聯一個適合大小的電阻來保護LED。）"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:231
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:235
 msgid "|ambd-get-start-17|"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:338
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:342
 msgid "get-start-17"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:233
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:237
 msgid ""
 "Finally, press the :guilabel:`RESET` button, and you can see the "
 ":guilabel:`LED` blinking."
 msgstr "最後，按RESET的按鈕，你就會看到LED閃爍。"
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:235
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:239
 msgid "**(End)**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:240
+#: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:244
 msgid ""
 "If you face any issue, please refer to the FAQ and Trouble shooting "
 "sections on :doc:`/ambd_arduino/AMB21/support/index` page."
 msgstr "如果您遇到任何問題，請參考 :doc:`/ambd_arduino/AMB21/support/index` 的頁面。"
-
 
 #~ msgid "Ameba ARDUINO: Getting Started with AMB21"
 #~ msgstr ""
@@ -1041,4 +1037,16 @@ msgstr "如果您遇到任何問題，請參考 :doc:`/ambd_arduino/AMB21/suppor
 #~ "shooting sections on :doc:  /support/index`"
 #~ " page."
 #~ msgstr ""
+
+#~ msgid "Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:"
+#~ msgstr "打開“File”->“Examples”->“ 01.Basics”-> “Blink”:"
+
+#~ msgid "Afterwards, we will upload the compiled code to AMB21/AMB22."
+#~ msgstr "之後，我們將吧編譯後的代碼上傳到AmebaD。"
+
+#~ msgid ""
+#~ "So, we find the detailed information "
+#~ "of the `Blink example "
+#~ "<https://www.arduino.cc/en/Tutorial/Blink>`__."
+#~ msgstr "在這裡我們可以找到Blink這個示列的詳細信息： https://www.arduino.cc/en/Tutorial/Blink"
 

@@ -27,10 +27,12 @@ to realize IoT implementation.
 
 |ambd-get-start-1|
 
-| AMB21/AMB22 and Arduino Uno have similar size, as shown in the above
-  figure, and the pins on AMB21/AMB22 are compatible with Arduino Uno. 
-| AMB21/AMB22 uses Micro USB to supply power, which is common in many smart devices.
-| Please refer to the following figure and table for the pin diagram and function of AMB21/AMB22.
+AMB21/AMB22 and Arduino Uno have similar size, as shown in the above
+figure, and the pins on AMB21/AMB22 are compatible with Arduino Uno. 
+
+AMB21/AMB22 uses Micro USB to supply power, which is common in many smart devices.
+
+Please refer to the following figure and table for the pin diagram and function of AMB21/AMB22.
 
 |ambd-get-start-2|
 
@@ -82,11 +84,13 @@ First, connect AMB21/AMB22 to the computer via Micro USB:
 
 |ambd-get-start-4|
 
-| If this is the first time you connect AMB21/AMB22 to your computer, the USB driver 
-  for AMB21/AMB22 will be automatic installed. 
-| If you have driver issue of connect board to your computer please go to 
-  `here <https://ftdichip.com/drivers/>`_ for USB driver.
-| You can check the COM port number in Device Manager of your computer:
+If this is the first time you connect AMB21/AMB22 to your computer, the USB driver 
+for AMB21/AMB22 will be automatic installed. 
+
+If you have driver issue of connect board to your computer please go to 
+`<https://ftdichip.com/drivers/>`_ for USB driver.
+
+You can check the :guilabel:`COM` port number in :guilabel:`Device Manager` of your computer:
 
 |ambd-get-start-5|
 
@@ -123,26 +127,26 @@ for AMB21/AMB22.
 
 |ambd-get-start-8|
 
-| If you are facing GitHub downloading issue, please refer to the
-  following link at `Download/Software Development Kit`_. There are 3
-  sections:
+If you are facing GitHub downloading issue, please refer to the
+following link at `Download/Software Development Kit`_. There are 3
+sections:
 
-      1. “AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There are 5 latest released SDK options.
-      2. “AmebaD_Arduino_patch2_Tools”, please select according to your operation system. There are Windows, Linux and MacOS. 
-      3. “AmebaD_Arduino_Source_Code”, this section is optional download only wants to refer the latest source code.
+#. :guilabel:`“AmebaD_Arduino_patch1_SDK”`, please select at least 1 of the SDKs. There are 5 latest released SDK options.
+#. :guilabel:`“AmebaD_Arduino_patch2_Tools”`, please select according to your operation system. There are Windows, Linux and MacOS. 
+#. :guilabel:`:“AmebaD_Arduino_Source_Code”`, this section is optional download only wants to refer the latest source code.
 
 .. _Download/Software Development Kit: https://www.amebaiot.com.cn/en/ameba-arduino-summary/
 
-   Download the files selected, then unzip (patch1 and patch2 are compulsory). 
-   There are “Install.doc”/“Install.pdf” for you to refer installation steps. 
-   According to your system, please run the installation tool in the 
-   “Offline_SDK_installation_tool” folder.
+Download the files selected, then unzip (patch1 and patch2 are compulsory). There are “Install.doc”/“Install.pdf” for you to refer installation steps. 
 
-   After the installation tool running successfully, you may open Arduino
-   IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. Try to find
-   :guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
-   click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
-   for AMB21/AMB22.
+According to your system, please run the installation tool in the 
+“Offline_SDK_installation_tool” folder.
+
+After the installation tool running successfully, you may open Arduino
+IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. Try to find
+:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
+click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
+for AMB21/AMB22.
 
 ----
 
@@ -159,10 +163,9 @@ Try the First Example
 Step 1. Compile & Upload
 ========================
 
-| Arduino IDE provides many built-in examples, which can be compiled,
-  uploaded and run directly on the boards. Here, we take the “Blink”
-  example as the first try.
-| Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:
+Arduino IDE provides many built-in examples, which can be compiled,
+uploaded and run directly on the boards. Here, we take the “Blink” example as the first try.
+Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:
 
 |ambd-get-start-10|
 
@@ -181,13 +184,12 @@ similar to the following figure:
 
 |ambd-get-start-13|
 
-| Afterwards, we will upload the compiled code to AMB21/AMB22.
-| Please make sure AMB21/AMB22 is connected to your computer, then
-  click :guilabel:`“Sketch” -> “Upload”`.
+Afterwards, we will upload the compiled code to AMB21/AMB22.
+Please make sure AMB21/AMB22 is connected to your computer, then click :guilabel:`“Sketch” -> “Upload”`.
 
-| The Arduino IDE will compile first then upload. During the uploading
-  process, users are required to enter the upload mode of the board.
-  Arduino IDE will wait 5s for DEV board to enter the upload mode.
+The Arduino IDE will compile first then upload. During the uploading
+process, users are required to enter the upload mode of the board.
+Arduino IDE will wait 5s for DEV board to enter the upload mode.
 
 |ambd-get-start-14|
 
@@ -209,28 +211,30 @@ When upload completed, the “Done uploading” message is printed.
 
 |ambd-get-start-18|
 
-Step 2.Run the Blink example
-============================
+Step 2. Run the Blink example
+===============================
 
-| In each example, Arduino not only provides sample code, but also
-  detailed documentation, including wiring diagram, sample code
-  explanation, technical details, …etc. These examples can be directly
-  used on AMB21/AMB22.
-| So, we find the detailed information of the 
-  `Blink example <https://www.arduino.cc/en/Tutorial/Blink>`__.
+In each example, Arduino not only provides sample code, but also
+detailed documentation, including wiring diagram, sample code
+explanation, technical details, …etc. These examples can be directly
+used on AMB21/AMB22.
+So, we find the detailed information of the 
+`Blink example <https://www.arduino.cc/en/Tutorial/Blink>`__.
 
 
-| In short, this example makes LED blinks, and it uses GPIO pin 08
-  (refer to the pin diagram ``D08``). Then we connect the LED and resistance
-  as the following figure:
-| （NOTE: In an LED, the longer pin is the positive pole, and shorter
-  pin is the negative pole. So we connect the longer pin to ``D08``, and
-  connect the shorter pin to ``GND``. In addition, please use a resister
-  with suitable resistance in series between LED and GND to protect LED）
+In short, this example makes LED blinks, and it uses GPIO pin 08
+(refer to the pin diagram ``D08``). Then we connect the LED and resistance
+as the following figure:
+
+.. important::
+   In an LED, the longer pin is the **positive pole**, and the shorter pin
+   is the **negative pole**. So we connect the longer pin to ``D08``, and 
+   connect the shorter pin to ``GND``. In addition, please use a resistor 
+   with suitable resistance in series between LED and GND to protect the LED.
 
 |ambd-get-start-17|
 
-| Finally, press the :guilabel:`RESET` button, and you can see the :guilabel:`LED` blinking.
+Finally, press the :guilabel:`RESET` button, and you can see the :guilabel:`LED` blinking.
 
 **(End)**
 

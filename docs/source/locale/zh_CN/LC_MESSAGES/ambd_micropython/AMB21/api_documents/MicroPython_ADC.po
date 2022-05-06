@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:3
+msgid "ADC"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
+" :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:16
+msgid "**ADC(**\\ *unit*\\  [required]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:17
+msgid ""
+"Create an ADC object associated with the given unit ID. This allows you "
+"to then read analog values on the pin assigned to the unit ID."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:19
+msgid ""
+"``unit``: unit number is tied to a specific pin. Refer to table below for"
+" more information,"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:25
+msgid "Unit"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:25
+msgid "Pin"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:27
+msgid "0"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:27
+msgid "PB_4"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:28
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:28
+msgid "PB_5"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:29
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:29
+msgid "PB_6"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:30
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:30
+msgid "PB_7"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:31
+msgid "4"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:31
+msgid "PB_1"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:32
+msgid "5"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:32
+msgid "PB_2"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:33
+msgid "6"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:33
+msgid "PB_3"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:37
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:41
+msgid "**ADC.read()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_ADC.rst:42
+msgid "Read the value on the analog pin and return it."
+msgstr ""
+

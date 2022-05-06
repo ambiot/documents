@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:3
+msgid "UART"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
+" :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:16
+msgid ""
+"**UART(**\\ *unit*\\ [optional]\\ *, baudrate*\\ [optional]\\ *, "
+"databits*\\ [optional]\\ *, stopbit*\\ [optional]\\ *, paritybit*\\ "
+"[optional]\\ *, timeout*\\ [optional]\\ *, tx_pin*\\ [required]\\ *, "
+"rx_pin*\\ [required]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:17
+msgid ""
+"Create a UART object associated with the given tx and rx pins and "
+"configure it using other parameters. This allows you to then read/write "
+"uart signal on the pins."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:19
+msgid "``unit``: The unit ID, either 0 or 3"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:20
+msgid "``baudrate``: 115200 is the recommended baudrate on ameba"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:21
+msgid "``databits``: the number of bits for data bits, usually 7 or 8 bits"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:22
+msgid "``stopbits``: the number of stop bits, usually 1 or 1.5 or 2 bits"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:23
+msgid "``paritybit``: for parity check, usually none, odd or even"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:24
+msgid "``timeout``: how long uart wait before its timeout (in milliseconds)"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:25
+msgid "``tx_pin``: the transmitter pin, connect the rx pin of the receiver"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:26
+msgid "``rx_pin``: the receiver pin, connect to tx pin of the transmitter"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:29
+msgid ""
+"Not all parameters are required, thus MicroPython will assume its default"
+" value once left blank, here are the default values for each optional "
+"parameter:"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:35
+msgid "Parameter"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:35
+msgid "Default Value"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:37
+msgid "Unit"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:37
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:41
+msgid "0"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:38
+msgid "Baudrate"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:38
+msgid "115200"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:39
+msgid "Databits"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:39
+msgid "8"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:40
+msgid "Stopbits"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:40
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:41
+msgid "Paritybit"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:42
+msgid "Timeout"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:42
+msgid "10 (ms)"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:46
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:50
+msgid "**UART.init()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:51
+msgid "This method initializes and configures the UART."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:53
+msgid "**UART.read(**\\ *length*\\ [optional]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:54
+msgid "This method reads the data received in UART buffer."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:56
+msgid "**length:** the length of the data to receive"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:58
+msgid "**UART.readline()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:59
+msgid ""
+"This method is similar to read(), but read a line ending with a newline "
+"character."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:61
+msgid "**UART.write(**\\ *buffer*\\ [require]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:62
+msgid ""
+"This method sends the buffer of bytes to the bus and returns the number "
+"of bytes written."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:64
+msgid ""
+"**buffer**: data buffer that can be a string, an integer or other data "
+"types"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:66
+msgid "**UART.irq_enable(**\\ *bool*\\ [optional]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:67
+msgid "This method works in 2 way:"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:69
+msgid ""
+"Check the status of uart irq when NOT passing any argument, and it will "
+"return True if irq is enabled, False if disabled"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:70
+msgid "Enable/disable uart irq handler by passing True or False as bool"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:72
+msgid "**UART.irq_handler(**\\ *function*\\ [required]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:73
+msgid ""
+"Passing the python handler to uart irq so that it will be triggered when "
+"an UART event occurs."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_UART.rst:75
+msgid "**function:** a function defined in python or a lambda function"
+msgstr ""
+

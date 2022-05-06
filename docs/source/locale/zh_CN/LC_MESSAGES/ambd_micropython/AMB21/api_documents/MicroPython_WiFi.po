@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:3
+msgid "WiFi"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
+" :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:12
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:16
+msgid "**WLAN(**\\ *mode*\\ [required]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:17
+msgid ""
+"Create a WLAN object and configure it to the given mode. This then allows"
+" you to control WiFi and check its status."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:19
+msgid "``mode``: use WLAN.STA for station mode"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:21
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:25
+msgid "**WLAN.scan()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:26
+msgid ""
+"This method scan and list out all available WiFi network in the "
+"surroundings."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:28
+msgid ""
+"**WLAN.connect(**\\ *ssid*\\ [required], *pswd*\\ [optional], "
+"*security*\\ [optional]\\ **)**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:29
+msgid "This method attempts to establish a connection to a WiFi access point."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:31
+msgid "**ssid**: The name of your WiFi network"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:32
+msgid "**pswd:** The password of your WiFi network"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:33
+msgid "**security:** The security type of your WiFi network"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:36
+msgid ""
+"Leaving optional parameters blank will assume taking default values, "
+"which are:"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:42
+msgid "Parameter"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:42
+msgid "Default value"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:44
+msgid "pswd"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:44
+msgid "NULL"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:45
+msgid "security"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:45
+msgid "WPA2_AES_PSK"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst
+msgid "Connecting to an **OPEN** network is also supported, just omit"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst
+msgid "``pswd`` parameter and type in ``security = WLAN.OPEN`` followed by ssid."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:52
+msgid "**WLAN.get_ip()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:53
+msgid ""
+"This method returns the IP address of the current WLAN interface. Only "
+"works after successful connection to an AP."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:55
+msgid "**WLAN.disconnect()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:56
+msgid ""
+"This method disconnect ameba from current WiFi AP, but still keep WiFi "
+"module on."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:58
+msgid "**WLAN.on()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:59
+msgid "This method turns on the WiFi device."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:61
+msgid "**WLAN.off()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:62
+msgid "This method shut down WiFi device and suspend all connections."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:64
+msgid "**WLAN.wifi_is_running()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:65
+msgid ""
+"This method returns the WiFi status. True when WiFi is on, and False when"
+" off."
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:67
+msgid "**WLAN.is_connect_to_ap()**"
+msgstr ""
+
+#: ../../source/ambd_micropython/AMB21/api_documents/MicroPython_WiFi.rst:68
+msgid ""
+"This method returns the connection status. True if ameba is connected to "
+"an AP, False if ameba is not connected to anything."
+msgstr ""
+

@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Delay Time
+#: Timing.rst:8 [RTL8722DM] and
+msgid "[RTL8722CSM] [RTL8722DM] Time - Delay and Timing"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Delay Time
+#: Timing.rst:13 [RTL8722DM] and
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Delay Time
+#: Timing.rst:17 [RTL8722DM] and
+msgid "Ameba x 1"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Delay Time
+#: Timing.rst:19 [RTL8722DM] and
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Delay Time
+#: Timing.rst:23 [RTL8722DM] and
+msgid ""
+"MicroPython has provided rich functions to deal with time and delay, here"
+" are some examples."
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Delay Time
+#: Timing.rst:25 [RTL8722DM] and
+msgid ""
+"Copy and paste the following code line by line into REPL to see its "
+"effect."
+msgstr ""
+

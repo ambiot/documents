@@ -6,7 +6,7 @@ Basic Examples
    :format: html
 
 :raw-html:`<h1 style="color:#000000; font-size:20px">`
-AMB21 (RTL8722DM/CSM) Supported ARDUINO built-in example table
+AMB21/AMB22 Supported ARDUINO built-in example table
 :raw-html:`</h1>`
 
 :raw-html:`<p style="color:#E67E22; font-size:18px">`
@@ -14,9 +14,10 @@ There are many built-in examples in Arduino. In the table below, we list
 all examples that are compatible with Ameba.
 :raw-html:`</p>`
 
-| Please refer to the following link to set up Ameba for Arduino IDE.
+| Please refer to the following link to set up Ameba for Arduino IDE:
 | `<https://www.amebaiot.com/en/amebad-arduino-getting-started/>`_
-| Please refer to the following link for Arduino built-in example details.
+
+| Please refer to the following link for Arduino built-in example details:
 | `<https://www.arduino.cc/en/Tutorial/BuiltInExamples/>`_
 
 

@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] ADC Read
+#: [RTL8722DM] potentiometer.rst:8
+msgid "[RTL8722CSM] [RTL8722DM] ADC - Read potentiometer"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] ADC Read
+#: [RTL8722DM] potentiometer.rst:13
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] ADC Read
+#: [RTL8722DM] potentiometer.rst:17
+msgid "Ameba x 1"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] ADC Read
+#: [RTL8722DM] potentiometer.rst:18
+msgid "Potentiometerx 1"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] ADC Read
+#: [RTL8722DM] potentiometer.rst:20
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] ADC Read
+#: [RTL8722DM] potentiometer.rst:24
+msgid ""
+"Here we connect ameba to a potentiometer to measure its analogue value, "
+"the connection is as follows."
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] ADC Read
+#: [RTL8722DM] potentiometer.rst:26
+msgid "|image1|"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] ADC Read
+#: [RTL8722DM] potentiometer.rst:37
+msgid "image1"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] ADC Read
+#: [RTL8722DM] potentiometer.rst:28
+msgid "Copy and paste the following code into REPL."
+msgstr ""
+

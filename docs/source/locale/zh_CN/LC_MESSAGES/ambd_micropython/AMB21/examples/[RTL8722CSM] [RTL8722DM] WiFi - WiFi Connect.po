@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Connect.rst:8
+#: WiFi [RTL8722DM]
+msgid "[RTL8722CSM] [RTL8722DM] WiFi - WiFi Connect"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Connect.rst:13
+#: WiFi [RTL8722DM]
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Connect.rst:17
+#: WiFi [RTL8722DM]
+msgid "Ameba x 1"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Connect.rst:19
+#: WiFi [RTL8722DM]
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Connect.rst:23
+#: WiFi [RTL8722DM]
+msgid ""
+"Ameba can connect to WiFi access point with open security or WPA2 "
+"security type, which is the most common security type used in household "
+"wireless routers."
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Connect.rst:25
+#: WiFi [RTL8722DM]
+msgid ""
+"Here we are going to connect to a WiFi access point using code below, "
+"copy and paste the following code line by line into REPL to see their "
+"effects."
+msgstr ""
+

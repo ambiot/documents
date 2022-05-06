@@ -9,7 +9,7 @@ TensorFlow Lite - Person Detection
 **Materials**
 :raw-html:`</p>`
 
-  - AmebaD [AMB21 / AMB22 / AMB23] x 1
+  - AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1
   - Arducam Mini 2MP Plus OV2640 SPI Camera Module x 1
   - LED x 3
 
@@ -27,6 +27,10 @@ TensorFlow Lite - Person Detection
 | **AMB23** Wiring Diagram:
   
   |1-1|
+
+| **BW16** Wiring Diagram:
+
+  |1-2|
 
 | Download the Ameba customized version of TensorFlow Lite for
   Microcontrollers library at
@@ -60,6 +64,8 @@ Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
 
   |2|
 
+| User can define the LED pins by using any GPIO pins on the boards.  
+
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
 | Once it is running, you should see the blue LED flashing once every few
@@ -84,9 +90,13 @@ at: https://www.tensorflow.org/lite/microcontrollers
    :height: 467
    :scale: 80 %
 .. |1-1| image:: /media/ambd_arduino/TFL_PersonDetection/image1-1.png
-   :width: 1487
-   :height: 714
-   :scale: 50 %
+   :width: 1067
+   :height: 590
+   :scale: 60 %
+.. |1-2| image:: /media/ambd_arduino/TFL_PersonDetection/image1-2.png
+   :width: 967
+   :height: 557
+   :scale: 60 %
 .. |2| image:: /media/ambd_arduino/TFL_PersonDetection/image2.png
    :width: 556
    :height: 830

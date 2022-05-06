@@ -155,7 +155,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:56
 #: Sending UDP
 msgid "**Running the Example**"
-msgstr "**運行示例"
+msgstr "**運行示例**"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:58
 #: Sending UDP

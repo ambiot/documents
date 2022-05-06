@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:8 Send [RTL8722DM] and
+msgid "[RTL8722CSM] [RTL8722DM] I2C - Send and Receive"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:13 Send [RTL8722DM] and
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:17 Send [RTL8722DM] and
+msgid "Ameba x 1"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:18 Send [RTL8722DM] and
+msgid "Arduino UNO x 1"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:20 Send [RTL8722DM] and
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:24 Send [RTL8722DM] and
+msgid ""
+"I2C is a very common module on microcontrollers, it only takes 2 wire and"
+" able to achieve data rate at up to 3.4Mbps. It works in master-slave "
+"model and a master can simultaneously connect to up to 128 slaves, making"
+" it a very versatile communication protocol between microcontroller and "
+"sensor."
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:26 Send [RTL8722DM] and
+msgid ""
+"Here we are going to use Ameba as an I2C master and Arduino UNO as a "
+"slave to achieve I2C send and recv."
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:28 Send [RTL8722DM] and
+msgid ""
+"Before connection, make sure to upload the *“Examples -> Wire -> "
+"Slave_receiver”* example code to Arduino UNO."
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:30 Send [RTL8722DM] and
+msgid ""
+"Connection is shown as follows, here we are using PA_26 as SDA pin and "
+"PA_25 as SCL."
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:33 Send [RTL8722DM] and
+msgid "There is currently 1 set of I2C available to MicroPython user, they are"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:39 Send [RTL8722DM] and
+msgid "Unit"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:39 Send [RTL8722DM] and
+msgid "SDA"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:39 Send [RTL8722DM] and
+msgid "SCL"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:41 Send [RTL8722DM] and
+msgid "0"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:41 Send [RTL8722DM] and
+msgid "PA_26"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:41 Send [RTL8722DM] and
+msgid "PA_25"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:44 Send [RTL8722DM] and
+msgid "|image1|"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:57 Send [RTL8722DM] and
+msgid "image1"
+msgstr ""
+
+#: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
+#: Receive.rst:46 Send [RTL8722DM] and
+msgid ""
+"Then copy and paste the following code line by line into REPL to see "
+"their effects."
+msgstr ""
+
