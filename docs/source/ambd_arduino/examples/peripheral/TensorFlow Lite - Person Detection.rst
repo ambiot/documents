@@ -64,6 +64,8 @@ Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
 
   |2|
 
+| User can define the LED pins by using any GPIO pins on the boards.  
+
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
 | Once it is running, you should see the blue LED flashing once every few

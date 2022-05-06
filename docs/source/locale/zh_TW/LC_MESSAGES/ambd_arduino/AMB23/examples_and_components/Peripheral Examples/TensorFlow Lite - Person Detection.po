@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-28 08:05+0100\n"
+"POT-Creation-Date: 2022-05-06 10:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr ""
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:86
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:88
 #: Lite Person
 msgid "1"
 msgstr ""
@@ -86,7 +86,7 @@ msgstr ""
 msgid "|1-1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:90
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:92
 #: Lite Person
 msgid "1-1"
 msgstr ""
@@ -101,7 +101,7 @@ msgstr ""
 msgid "|1-2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:94
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:96
 #: Lite Person
 msgid "1-2"
 msgstr ""
@@ -173,19 +173,24 @@ msgstr ""
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:98
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:100
 #: Lite Person
 msgid "2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:68
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:67
+#: Lite Person
+msgid "User can define the LED pins by using any GPIO pins on the boards."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:70
 #: Lite Person
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:73
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:75
 #: Lite Person
 msgid ""
 "Once it is running, you should see the blue LED flashing once every few "
@@ -195,31 +200,31 @@ msgid ""
 "there is a person."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:75
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:77
 #: Lite Person
 msgid ""
 "The inference results are also output to the Arduino serial monitor, "
 "which appear as follows:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:77
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:79
 #: Lite Person
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:102
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:104
 #: Lite Person
 msgid "3"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:79
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:81
 #: Lite Person
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:83
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:85
 #: Lite Person
 msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
