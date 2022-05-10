@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:12
 #: over up
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:21
 #: over up
@@ -48,98 +52,100 @@ msgid ""
 "authentication. Then send messages as a publisher and receive messages "
 "from as a subscriber. Open the MQTT example ``“File” -> “Examples” -> "
 "“AmebaMQTTClient” -> “MQTT_TLS”``"
-msgstr ""
+msgstr "在此範例中，我們使用TLS身份驗證將Ameba連接到MQTT服務器。 然後以發布者的身份發送消息，並以訂閱者的身份接收消息。"
+"打開MQTT範例， “File” -> “Examples” -> “AmebaMQTTClient” -> “MQTT_TLS”"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:23
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:22
 #: over up
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:62
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:57
 #: over up
 msgid "1"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:25
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:24
 #: over up
 msgid "Please modify the WiFi-related parameters to connect to your WiFi network."
-msgstr ""
+msgstr "請修改與WiFi相關的參數以連接到您的WiFi網絡。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:26
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:25
 #: over up
 msgid "Modify the MQTT parameters to fit your application:"
-msgstr ""
+msgstr "請修改MQTT參數以符合您的應用程序："
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:28
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:26
 #: over up
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:66
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:61
 #: over up
 msgid "2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:31
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:29
 #: over up
 msgid ""
 "The “mqttServer” refers to the MQTT-Broker, we use the free MQTT sandbox "
 "“test.mosquitto.org” for testing."
-msgstr ""
+msgstr "“mqttServer” 表示MQTT-Broker，我們使用免費的MQTT服務器“ test.mosquitto.org”進行測試。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:32
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:30
 #: over up
 msgid ""
 "“clientId” is an identifier for MQTT-Broker to identify the connected "
 "device."
-msgstr ""
+msgstr "“clientId” 是MQTT-Broker用來標識已連接的設備。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:34
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:32
 #: over up
 msgid ""
 "“publishTopic” is the topic of the published message, we use “outTopic” "
 "in the example. The devices subscribe to “outTopic” will receive the "
 "message."
-msgstr ""
+msgstr "“publishTopic” 是發布消息的主題，我們在範例中使用“outTopic”。 訂閱“outTopic”的設備將收到該消息。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:35
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:33
 #: over up
 msgid "“publishPayload” is the content to be published."
-msgstr ""
+msgstr "“publishPayload” 是要發布的內容。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:36
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:34
 #: over up
 msgid ""
 "“subscribeTopic” is to tell MQTT-broker which topic we want to subscribe "
 "to."
-msgstr ""
+msgstr "“subscribeTopic” 通知MQTT-broker我們要訂閱哪個主題。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:39
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:37
 #: over up
 msgid ""
 "Next, compile the code and upload it to Ameba. Press the reset button, "
 "then open the serial monitor"
-msgstr ""
+msgstr "接著編譯程式碼並將其上傳到Ameba。 按下重置按鈕，然後打開串行端口。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:41
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:38
 #: over up
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:70
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:65
 #: over up
 msgid "3"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:45
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:42
 #: over up
 msgid ""
 "After Ameba is connected to MQTT server, it sends the message “hello "
 "world” to “outTopic”. To see the message, use another MQTT client. Refer "
 "to the MQTT_Basic example guide on how to setup a PC-based MQTT client."
-msgstr ""
+msgstr "Ameba連接到MQTT服務器後，它將消息“hello world”發送到“outTopic”。"
+"要查看消息，請使用另一個MQTT客戶端。 有關如何設置基於PC的MQTT客戶端的信息，請參閱MQTT_Basic示例指南。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:51
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:48
 #: over up
 msgid ""
 "If you wish to use TLS client authentication in addition to server "
@@ -148,8 +154,10 @@ msgid ""
 " certificates can be obtained from test.mosquitto.org by following the "
 "guide at https://test.mosquitto.org/ssl/."
 msgstr ""
+"如果除了服務器身份驗證之外，還希望使用TLS客戶端身份驗證，則需要生成OpenSSL私鑰並從服務器獲取憑證。"
+"出於測試目的，可以按照https://test.mosquitto.org/ssl/上的指南從test.mosquitto.org獲得憑證。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:56
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:53
 #: over up
 msgid ""
 "Replace the character strings “certificateBuff” and “privateKeyBuff” with"
@@ -158,23 +166,25 @@ msgid ""
 "the highlighted code to enable client authentication, and to change the "
 "MQTT port number."
 msgstr ""
+"將字串“certificateBuff”和“privateKeyBuff”替換為憑證和OpenSSL私鑰，確保它們的格式設置與範例代碼中所示的相同。"
+"另外還要取消黃色部分的註解代碼以啟用客戶端身份驗證並更改MQTT端口號。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:58
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:54
 #: over up
 msgid "|4|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:74
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:69
 #: over up
 msgid "4"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:60
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:55
 #: over up
 msgid "|5|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:78
+#: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:73
 #: over up
 msgid "5"
 msgstr ""
