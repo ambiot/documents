@@ -38,7 +38,7 @@ msgstr ""
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
 #: Examples.rst:17
 msgid "Please refer to the following link to set up Ameba for Arduino IDE:"
-msgstr ""
+msgstr "請參考以下連結來設置 Ameba與Arduino IDE。"
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
 #: Examples.rst:18
@@ -48,7 +48,7 @@ msgstr ""
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
 #: Examples.rst:20
 msgid "Please refer to the following link for Arduino built-in example details:"
-msgstr ""
+msgstr "有關 Arduino 內建範例詳細信息，請參閱以下連結。"
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Basic
 #: Examples.rst:21
