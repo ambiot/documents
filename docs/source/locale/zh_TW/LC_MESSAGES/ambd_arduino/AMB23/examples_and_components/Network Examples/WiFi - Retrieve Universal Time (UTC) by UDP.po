@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:12 Universal by
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:22 Universal by
@@ -50,13 +54,16 @@ msgid ""
 "Time) packet. We will parse the UTC packet to show current UTC time in "
 "the serial monitor."
 msgstr ""
+"這個範例裡，我們使用Ameba連上無線網絡，經由UDP發送NTP (Network Time Protocol, RFC 1305)"
+"請求到NTP Server，NTP Server會回應並且發送當下的UTC(Coordinated Universal Time)封包"
+"，我們將當下的時分秒解析並且顯示在Serial Monitor上。"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:23 Universal by
 msgid ""
 "Open the example: ``“File” -> “Examples” -> “AmebaWiFi” -> "
 "“WiFiUdpNtpClient”``"
-msgstr ""
+msgstr "首先打開 WiFi Web Server的範例, “File” -> “Examples” -> “AmebaWiFi” -> “WiFiUdpNtpClient”"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:24 Universal by
@@ -73,7 +80,7 @@ msgstr ""
 msgid ""
 "Modify the highlighted code section (ssid, password, keyindex) to connect"
 " to your WiFi network."
-msgstr ""
+msgstr "將無線網絡連線至AP的相關訊息進行修改，包括 ssid, pass, keyIndex，並且修改連線的方式。"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:27 Universal by
@@ -91,12 +98,12 @@ msgid ""
 "Compile the code and upload it to Ameba. After pressing the Reset button,"
 " Ameba connects to WiFi and sends NTP request packet to NTP server "
 "“129.6.15.28”."
-msgstr ""
+msgstr "上傳程式碼之後，按下Ameba的Reset按鈕，WiFi連線成功後，會傳送NTP請求的封包至NTP Server “129, 6, 15, 28”"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:31 Universal by
 msgid "We parse the replied packet and show UTC time in serial monitor:"
-msgstr ""
+msgstr "，並且解析封包內容，將當下的時分秒顯示在Serial Monitor上:"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:32 Universal by

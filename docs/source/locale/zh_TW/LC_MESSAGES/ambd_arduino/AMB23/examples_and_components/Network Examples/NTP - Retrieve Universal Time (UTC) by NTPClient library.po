@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:12
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:19
@@ -47,7 +51,8 @@ msgid ""
 "In this example, we use an NTP client to sync with NTP servers using UDP "
 "and keep track of time locally. Open the example. ``“File” -> "
 "“Examples”-> “NTPClient” -> “Advanced”``"
-msgstr ""
+msgstr "在此範例中，我們使用NTP客戶端與使用UDP的NTP服務器同步，並追蹤本地時間。"
+"打開範例 “File” -> “Examples” -> “NTPClient” -> “Advanced”"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:24
@@ -64,7 +69,7 @@ msgstr ""
 msgid ""
 "Modify the highlighted code section (ssid, password) to connect to your "
 "WiFi network."
-msgstr ""
+msgstr "修改標註的代碼部分（ssid，password）以連接到您的WiFi網絡。"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:28
@@ -82,7 +87,7 @@ msgid ""
 "Compile the code and upload it to Ameba. After pressing the Reset button,"
 " Ameba connects to WiFi, gets the UTC time from the NTP server, and "
 "prints out the current time with time zone offset to the serial monitor."
-msgstr ""
+msgstr "編譯代碼並將其上傳到Ameba。 按下“重置”按鈕後，Ameba連接到WiFi，從NTP服務器獲取UTC時間，並以時區偏移量輸出當前時間到serial monitor。"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:34
@@ -100,11 +105,13 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** "
+":raw-html:`</p>`"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:40
 msgid "Configure NTP client:"
-msgstr ""
+msgstr "配置NTP客戶端："
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:46
@@ -116,11 +123,14 @@ msgid ""
 "the UDP client is also sufficient, refer to the “NTPClient” -> “Basic” "
 "example."
 msgstr ""
+"NTPClient需要使用UDP客戶端進行通信。 WiFiUDP客戶端並將其與NTP服務器地址，"
+"時區偏移量（以秒為單位）和更新間隔（以毫秒為單位）一起傳遞給NTPClient。 "
+"如果不需要詳細的配置，只需傳入UDP客戶端就足夠了，請參考“ NTPClient”->“ Basic”範例。"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:53
 msgid "Start NTP client:"
-msgstr ""
+msgstr "啟動NTP客戶端："
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:56
@@ -128,12 +138,12 @@ msgid ""
 "After connecting to WiFi, the NTPClient is started using the ``begin()`` "
 "function, which causes the client to sync with the NTP server and get the"
 " UTC time."
-msgstr ""
+msgstr "連接到WiFi後，將使用begin（）函數啟動NTPClient，這將導致客戶端與NTP服務器同步並獲取UTC時間。"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:63
 msgid "Get local time:"
-msgstr ""
+msgstr "獲取當地時間："
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:66
@@ -141,5 +151,6 @@ msgid ""
 "``getFormattedTime()`` is used to format the received UTC time into the "
 "local time zone. ``update()`` is called every loop so that the NTPClient "
 "will sync with the NTP server once every update interval."
-msgstr ""
+msgstr "getFormattedTime（）用於將接收到的UTC時間格式化為本地時區。"
+"每個循環呼叫update（），以便NTPClient將在每個更新間隔與NTP服務器同步一次。"
 
