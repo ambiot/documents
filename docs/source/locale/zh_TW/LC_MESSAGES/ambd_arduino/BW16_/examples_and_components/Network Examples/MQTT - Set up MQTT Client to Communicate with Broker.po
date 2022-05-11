@@ -114,7 +114,7 @@ msgstr ""
 msgid ""
 "In this example, we connect Ameba to MQTT-Broker. Then send messages as "
 "publisher and receive messages from MQTT-Broker as subscriber."
-msgstr " 這個範例裡，我們嘗試連上MQTT-Broker，發送topic訊息，並接收來自MQTT-Broker的訊息。"
+msgstr "這個範例裡，我們嘗試連上MQTT-Broker，發送topic訊息，並接收來自MQTT-Broker的訊息。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:49 Client
 #: Communicate MQTT Set to up with
