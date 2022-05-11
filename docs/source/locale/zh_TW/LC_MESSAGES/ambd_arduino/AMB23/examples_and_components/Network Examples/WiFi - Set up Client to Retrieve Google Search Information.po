@@ -27,7 +27,8 @@ msgstr "WiFi - 設置客戶端以檢索 Google 搜索信息"
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
-msgstr ""
+msgstr ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:12 Retrieve Search Set to up
@@ -39,26 +40,27 @@ msgstr ""
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
-msgstr ""
+msgstr ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:19 Retrieve Search Set to up
 msgid ""
 "In this example, we use Ameba to be a web client to retrieve Informations"
 " from the Internet."
-msgstr ""
+msgstr "這個範例裡，我們使用Ameba連上WiFi，作為客戶端，從Google上獲取資訊。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:21 Retrieve Search Set to up
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
 "“Tools” -> “Board”"
-msgstr ""
+msgstr "首先確定板子是 Ameba, “Tools” -> “Board” -> “Arduino Ameba”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:23 Retrieve Search Set to up
 msgid "Then open ``“File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebClient”``"
-msgstr ""
+msgstr "然後打開 WiFi Web Client的範例, “File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebClient”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:25 Retrieve Search Set to up
@@ -76,7 +78,7 @@ msgid ""
 "In the sample code, modify the highlighted snippet and enter the required"
 " Informations (ssid, password, key index) required to connect to your "
 "WiFi network."
-msgstr ""
+msgstr "將WiFi連線的相關訊息，如下圖中黃色標註的地方進行對應的修改。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:31 Retrieve Search Set to up
@@ -94,7 +96,7 @@ msgid ""
 "Upload the code and press the reset button on Ameba. Then you can see the"
 " Informations retrieved from Google is shown in the Arduino serial "
 "monitor."
-msgstr ""
+msgstr "上傳程式碼之後，按下Ameba的Reset按鈕, 這時會看到WiFi 連線後從Google上獲取到的搜索信息。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:37 Retrieve Search Set to up
@@ -111,7 +113,8 @@ msgstr ""
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
-msgstr ""
+msgstr ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼說明** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:43 Retrieve Search Set to up
@@ -123,7 +126,7 @@ msgstr ""
 msgid ""
 "To get the Informations of a WiFi connection: Use ``WiFi.SSID()`` to get "
 "SSID of the current connected network."
-msgstr ""
+msgstr "連線成功後會讀取WiFi的信息：顯示WiFi的名稱WiFi.SSID()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:46 Retrieve Search Set to up
@@ -133,7 +136,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:47 Retrieve Search Set to up
 msgid "Use ``WiFi.RSSI()`` to get the signal strength of the connection."
-msgstr ""
+msgstr "顯示WiFi的訊號強度WiFi.RSSI()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:48 Retrieve Search Set to up
@@ -143,7 +146,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:49 Retrieve Search Set to up
 msgid "Use ``WiFi.localIP()`` to get the IP address of Ameba."
-msgstr ""
+msgstr "顯示Ameba的IP信息WiFi.localIP()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:50 Retrieve Search Set to up
@@ -153,7 +156,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:51 Retrieve Search Set to up
 msgid "Use ``WiFiClient()`` to create a client."
-msgstr ""
+msgstr "建立一個Client: WiFiClient()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:52 Retrieve Search Set to up
@@ -163,7 +166,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:53 Retrieve Search Set to up
 msgid "Use ``client.connect()`` to connect to the IP address and port specified."
-msgstr ""
+msgstr "客戶端通過服務器的IP和端口連線client.connect()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:54 Retrieve Search Set to up
@@ -175,7 +178,7 @@ msgstr ""
 msgid ""
 "Use ``client.println()`` to print data followed by a carriage return and "
 "newline."
-msgstr ""
+msgstr "向服務器對發送數據并開啟新的一行 client.println()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:57 Retrieve Search Set to up
@@ -187,7 +190,7 @@ msgstr ""
 msgid ""
 "Use ``client.available()`` to return the number of bytes available for "
 "reading."
-msgstr ""
+msgstr "判斷是否有數據從服務器端發送過來client.available()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:60 Retrieve Search Set to up
@@ -199,7 +202,7 @@ msgstr ""
 msgid ""
 "Use ``client.read()`` to read the next byte received from the server the "
 "client is connected to."
-msgstr ""
+msgstr "客戶端讀取數據client.read()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:63 Retrieve Search Set to up
@@ -211,7 +214,7 @@ msgstr ""
 msgid ""
 "Use ``client.stop()`` to disconnect from the server the client is "
 "connected to."
-msgstr ""
+msgstr "客戶端斷開與服務器的連線client.stop()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:66 Retrieve Search Set to up

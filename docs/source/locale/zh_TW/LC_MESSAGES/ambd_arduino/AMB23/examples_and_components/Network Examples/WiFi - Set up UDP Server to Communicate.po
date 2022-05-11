@@ -27,7 +27,8 @@ msgstr "WiFi - 使用 UDP 伺服器進行通信"
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
-msgstr ""
+msgstr ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:12 Server
 #: Set UDP to up
@@ -39,7 +40,8 @@ msgstr ""
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
-msgstr ""
+msgstr ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:20 Server
 #: Set UDP to up
@@ -47,14 +49,14 @@ msgid ""
 "In this example, we connect Ameba to WiFi and use Ameba to be an UDP "
 "server. When Ameba receives a message from UDP client, it replies "
 "“acknowledged” message to client."
-msgstr ""
+msgstr "這個範例裡，我們使用Ameba連上WiFi，作為UDP服務器端，當UDP 客戶端發送訊息給Ameba之後，回應“acknowledged” 給客戶端。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:23 Server
 #: Set UDP to up
 msgid ""
 "Open the WiFi Web Server example. ``“File” -> “Examples” -> “AmebaWiFi” "
 "-> “WiFiUdpSendReceiveString”``"
-msgstr ""
+msgstr "首先打開 WiFi Web Server的範例, “File” -> “Examples” -> “AmebaWiFi” -> “WiFiUdpSendReceiveString”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:24 Server
 #: Set UDP to up
@@ -71,7 +73,7 @@ msgstr ""
 msgid ""
 "Modify the highlighted code section (ssid, password, keyindex) to connect"
 " to your WiFi network."
-msgstr ""
+msgstr "將WiFi連線至AP的相關訊息進行修改，包括 ssid, pass, keyIndex"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:27 Server
 #: Set UDP to up
@@ -91,6 +93,8 @@ msgid ""
 "the UDP server starts service, Ameba prints the “Starting connection to "
 "server” message and waits for client connection."
 msgstr ""
+"上傳程式碼之後，按下Ameba的Reset按鈕, WiFi連線成功後，會開啟UDP服務器，服務器端的IP為Ameba的IP，端口為2390"
+"啟動服務之後，會印出訊息“Starting connection to server”，並等待UDP客戶端連線進來。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:35 Server
 #: Set UDP to up
@@ -107,14 +111,14 @@ msgstr ""
 msgid ""
 "As to the UDP client, we use “sokit” program in the computer to connect "
 "to UDP server."
-msgstr ""
+msgstr "另外在電腦的socket工具上（本示例中使用的工具為“sokit”）"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:40 Server
 #: Set UDP to up
 msgid ""
 "Choose client mode and fill in the IP of UDP server (which is the IP of "
 "Ameba) and port 2390, then click “UDP Connect”."
-msgstr ""
+msgstr "選取Client模式，填寫Server IP和PORT信息，點擊“UDP Connect”."
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:44 Server
 #: Set UDP to up
@@ -122,7 +126,8 @@ msgid ""
 "After the connection is established, fill in “Hello World” in the Buf 0 "
 "field in sokit and click “Send”. Then you can see the Ameba UDP server "
 "replies “acknowledged”."
-msgstr ""
+msgstr "連接成功後, 傳送字串過去，這個例子裡，在Buf 0填入“Hello World”, 並且按下Send"
+"此時會看到Ameba UDP服務器端回應“acknowledged”，並且Ameba的Serial Monitor會看到Contents: “Hello World”，這個例子就成功了。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:45 Server
 #: Set UDP to up
@@ -140,11 +145,13 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼說明** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:52 Server
 #: Set UDP to up
 msgid "Refer to the Arduino tutorial for detailed information about this example."
-msgstr ""
+msgstr "Ameba使用相容於Arduino Wifi Shield的WiFiUdp class，所以範例程式也與Arduino相容。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:53 Server
 #: Set UDP to up
@@ -154,7 +161,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:55 Server
 #: Set UDP to up
 msgid "First, use ``begin()`` to open an UDP port on Ameba."
-msgstr ""
+msgstr "首先呼叫 begin() 在Ameba開啟UDP端口"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:56 Server
 #: Set UDP to up
@@ -164,7 +171,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:58 Server
 #: Set UDP to up
 msgid "Use ``parsePacket()`` to wait for data from client."
-msgstr ""
+msgstr "使用parsePacket() 等待客戶端傳送資料進來"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:59 Server
 #: Set UDP to up
@@ -176,7 +183,7 @@ msgstr ""
 msgid ""
 "When a connection is established, use ``remoteIP()`` and ``remotePort()``"
 " to get the IP and port of the client."
-msgstr ""
+msgstr "如果有資料進來, 使用remoteIP() 與remotePort() 取得客戶端的IP 與Port"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:63 Server
 #: Set UDP to up
@@ -186,7 +193,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:65 Server
 #: Set UDP to up
 msgid "Then use ``read()`` to read the data sent by client."
-msgstr ""
+msgstr "並且呼叫 read() 將資料收進來"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:66 Server
 #: Set UDP to up
@@ -196,7 +203,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:68 Server
 #: Set UDP to up
 msgid "To send reply, use ``beginPacket()``, ``write()``, ``end()``."
-msgstr ""
+msgstr "回傳資料時, 使用beginPacket(), write(), end()傳送資料,需要三個為一組來使用"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:69 Server
 #: Set UDP to up

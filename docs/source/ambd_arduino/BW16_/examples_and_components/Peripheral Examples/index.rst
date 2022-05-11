@@ -32,7 +32,6 @@ Peripheral Examples
    SPI - Show PM2.5 Concentration On ILI9341 TFT LCD
    TensorFlow Lite - Hello World
    TensorFlow Lite - Magic Wand
-   TensorFlow Lite - Micro Speech
    TensorFlow Lite - Person Detection
    UART - Communicate with PC over USB to Serial Module
    UART - Retrieve GPS Position

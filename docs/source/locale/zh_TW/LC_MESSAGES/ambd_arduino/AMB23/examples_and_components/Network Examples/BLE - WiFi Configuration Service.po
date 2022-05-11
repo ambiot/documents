@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:12 WiFi
@@ -37,7 +39,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:13 WiFi
 msgid "Android / iOS mobile phone"
-msgstr ""
+msgstr "Android / iOS 智能手機"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:15 WiFi
@@ -45,11 +47,13 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:19 WiFi
 msgid "**Introduction**"
-msgstr ""
+msgstr "**介紹**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:21 WiFi
@@ -59,18 +63,20 @@ msgid ""
 "the Ameba device using BLE and configures the Ameba to connect to the "
 "correct WiFi access point."
 msgstr ""
+"在此範例中，在Ameba藍牙堆棧上設置了WiFi配置服務。"
+"帶有應用程序的手機使用BLE連接到Ameba設備，並將Ameba配置連線至正確的WiFi路由器。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:26 WiFi
 msgid "**Procedure**"
-msgstr ""
+msgstr "**具體的步驟如下**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:28 WiFi
 msgid ""
 "Ensure that the Realtek WiFi configuration app is installed on your "
 "mobile phone, it is available at:"
-msgstr ""
+msgstr "確保您的手機上安裝了Realtek WiFi配置應用程序，請參考下列連結："
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:32 WiFi
@@ -91,7 +97,7 @@ msgstr ""
 msgid ""
 "Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
 "“BLEWifiConfigService”``."
-msgstr ""
+msgstr "打開範例，”Files” -> “Examples” -> “AmebaBLE” -> “BLEWifiConfig”."
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:39 WiFi
@@ -108,14 +114,14 @@ msgstr ""
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
-msgstr ""
+msgstr "上傳程式碼並在上傳完成後按Ameba上的重置按鈕。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:45 WiFi
 msgid ""
 "On your mobile phone, open the Realtek WiFiConfig app and tap the round "
 "button to scan for Ameba boards."
-msgstr ""
+msgstr "打開手機上的Realtek WiFiConfig應用程序，然後點擊圓形按鈕以掃描Ameba板。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:48 WiFi
@@ -133,7 +139,7 @@ msgid ""
 "Select the correct Ameba board from the scan results. The app will "
 "connect to the Ameba board and ask the board to scan for WiFi networks "
 "and send the scan results back to the app using BLE."
-msgstr ""
+msgstr "從掃描結果中選擇正確的Ameba板。 該應用程序將連接到Ameba開發板，並要求開發板掃描WiFi網絡，然後使用BLE將掃描結果發送回該應用程序。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:54 WiFi
@@ -173,6 +179,8 @@ msgid ""
 "network. Tap “Select AP” to choose another WiFi network, or enter the "
 "password and tap continue to connect Ameba to the selected WiFi network."
 msgstr ""
+"如果手機當前已連接到WiFi網絡，則該應用程序將要求輸入WiFi密碼以將Ameba板連接到同一WiFi網絡。 "
+"點擊“Select AP”以選擇另一個WiFi網絡，或者輸入密碼，然後點擊Continue將Ameba連接到所選的WiFi網絡。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:65 WiFi
@@ -192,6 +200,8 @@ msgid ""
 "or tap “Confirm” to keep the current WiFi network and disconnect BLE from"
 " the Ameba board."
 msgstr ""
+"Ameba板連接到WiFi網絡後，將顯示以下消息。點擊“Try another AP”以連接到其他WiFi網絡，"
+"或者點擊“Confirm”以保持當前的WiFi網絡並將Ameba板斷開與手機的BLE連接。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:72 WiFi
@@ -209,13 +219,15 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明**"
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:78 WiFi
 msgid ""
 "BLEWifiConfigService is used to create an instance of the WiFi "
 "configuration service to run on the Bluetooth device."
-msgstr ""
+msgstr "BLEWifiConfig用於創建要在藍牙設備上運行的WiFi配置服務的實例。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:81 WiFi
@@ -223,5 +235,5 @@ msgid ""
 "``BLE.configAdvert()->setAdvType(configService.advData())`` is used to "
 "set the correct advertisement data necessary for the phone app to find "
 "the Ameba Bluetooth device."
-msgstr ""
+msgstr "BLE.configAdvert（）-> setAdvType（configService.advData（)）用於設置手機應用程序找到Ameba藍牙設備所需的正確廣播數據。"
 

@@ -2,9 +2,8 @@
 Class AmebaServo
 ################
 
-AmebaServo Class
------------------
-
+.. class:: AmebaServo()
+    
 **Description**
 
 Defines a class of manipulating servo motors connected to Arduino pins.
@@ -42,8 +41,10 @@ class AmebaServo
 | AmebaServo::attached          | Check if the servo is attached.     |
 +-------------------------------+-------------------------------------+
 
-AmebaServo::attach
-------------------
+------------------------------------------------------------------------------
+
+
+.. method:: AmebaServo::attach
 
 **Description**
 
@@ -62,19 +63,17 @@ failure.
 
 **Parameters**
 
-pin: The Arduino pin number to be attached.
+``pin`` : The Arduino pin number to be attached.
 
-min: Minimum values for writes.
+``min`` : Minimum values for writes.
 
-max: Maximum values for writes.
+``max`` : Maximum values for writes.
 
 **Returns**
 
 The function returns channel number or 0
 
 **Example Code**
-
-Example: ServoSweep
 
 The code demos servo motor sweeping from 0 degrees to 180 degrees then
 sweep back to 0 degrees in the step of 1 degree.
@@ -135,15 +134,14 @@ sweep back to 0 degrees in the step of 1 degree.
         }  
     }
 
-**Notes and Warnings**
+**Note and Warnings**
 
 Every time must include the header file “AmebaServo.h” in front of the
-project to use the class function.
+project to use the class function. 
 
- 
+--------------------------------------------------------------------------------------------------------------------
 
-AmebaServo::detach
-------------------
+.. method:: AmebaServo::detach
 
 **Description**
 
@@ -170,9 +168,9 @@ NA
 Every time must include the header file “AmebaServo.h” in front of the
 project to use the class function.
 
- 
+--------------------------------------------------------------------------------------------------------------------
 
-**AmebaServo::write**
+.. method:: AmebaServo::write
 
 **Description**
 
@@ -181,11 +179,13 @@ being treated as an angle, otherwise as pulse-width in microseconds.
 
 **Syntax**
 
-void AmebaServo::write(int value);
+.. code:: c++
+
+    void AmebaServo::write(int value);
 
 **Parameters**
 
-value: The value < 200 its treated as an angle; otherwise as pulse width
+``value`` : The value < 200 its treated as an angle; otherwise as pulse width
 in microseconds.
 
 **Returns**
@@ -194,7 +194,7 @@ The function returns nothing.
 
 **Example Code**
 
-Example: ServoSweep
+Example: `ServoSweep`
 
 The code demos servo motor sweeping from 0 degrees to 180 degrees then
 sweep back to 0 degrees in the step of 1 degree. Please refer to code in
@@ -205,9 +205,9 @@ sweep back to 0 degrees in the step of 1 degree. Please refer to code in
 Every time must include the header file “AmebaServo.h” in front of the
 project to use the class function.
 
- 
+--------------------------------------------------------------------------------------------------------------------
 
-**AmebaServo::writeMicroseconds**
+.. method:: AmebaServo::writeMicroseconds
 
 **Description**
 
@@ -215,11 +215,13 @@ Write pulse width to the servo in microseconds.
 
 **Syntax**
 
-void AmebaServo::writeMicroseconds(int value);
+.. code:: c++
+
+    void AmebaServo::writeMicroseconds(int value);
 
 **Parameters**
 
-value: Write value the pulse width in microseconds.
+``value`` : Write value the pulse width in microseconds.
 
 **Returns**
 
@@ -234,9 +236,9 @@ NA
 Every time must include the header file “AmebaServo.h” in front of the
 project to use the class function.
 
- 
+--------------------------------------------------------------------------------------------------------------------
 
-**AmebaServo::read**
+.. method:: AmebaServo::read
 
 **Description**
 
@@ -245,7 +247,9 @@ and 180 degrees.
 
 **Syntax**
 
-int AmebaServo::read(void);
+.. code:: c++
+
+    void AmebaServo::read(void);
 
 **Parameters**
 
@@ -264,9 +268,10 @@ NA
 Every time must include the header file “AmebaServo.h” in front of the
 project to use the class function.
 
- 
+--------------------------------------------------------------------------------------------------------------------
 
-**AmebaServo::readMicroseconds**
+
+.. method:: AmebaServo::readMicroseconds 
 
 **Description**
 
@@ -275,7 +280,9 @@ otherwise returns “false”.
 
 **Syntax**
 
-int AmebaServo::readMicroseconds(void);
+.. code:: c++
+
+    void AmebaServo::readMicroseconds(void);
 
 **Parameters**
 
@@ -294,9 +301,9 @@ NA
 Every time must include the header file “AmebaServo.h” in front of the
 project to use the class function.
 
- 
+--------------------------------------------------------------------------------------------------------------------
 
-**AmebaServo::attached**
+.. method:: AmebaServo::attached
 
 **Description**
 
@@ -304,7 +311,9 @@ It returns true if this servo is attached, otherwise false.
 
 **Syntax**
 
-bool AmebaServo::attached(void);
+.. code:: c++
+
+    void AmebaServo::attached(void);
 
 **Parameters**
 
@@ -316,7 +325,7 @@ The function returns a Boolean value as true or false.
 
 **Example Code**
 
-Example: ServoSweep
+Example: `ServoSweep`
 
 The code demos servo motor sweeping from 0 degrees to 180 degrees then
 sweep back to 0 degrees in the step of 1 degree. Please refer to code in

@@ -91,19 +91,19 @@ The string sent to server is returned and showed at the client side.
 | Use ``client.stop()`` to disconnect from the server.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
-.. |1| image:: /media/ambd_arduino/WiFi_Set_up_Server_to_communicate/image1.png
+.. |1| image:: /media/ambd_arduino/WiFi_Set_Up_Server_To_Communicate/image1.png
    :width: 716
    :height: 867
    :scale: 80 %
-.. |2| image:: /media/ambd_arduino/WiFi_Set_up_Server_to_communicate/image2.png
+.. |2| image:: /media/ambd_arduino/WiFi_Set_Up_Server_To_Communicate/image2.png
    :width: 704
    :height: 355
    :scale: 80 %
-.. |3| image:: /media/ambd_arduino/WiFi_Set_up_Server_to_communicate/image3.png
+.. |3| image:: /media/ambd_arduino/WiFi_Set_Up_Server_To_Communicate/image3.png
    :width: 799
    :height: 574
    :scale: 70 %
-.. |4| image:: /media/ambd_arduino/WiFi_Set_up_Server_to_communicate/image4.png
+.. |4| image:: /media/ambd_arduino/WiFi_Set_Up_Server_To_Communicate/image4.png
    :width: 704
    :height: 355
    :scale: 80 %
