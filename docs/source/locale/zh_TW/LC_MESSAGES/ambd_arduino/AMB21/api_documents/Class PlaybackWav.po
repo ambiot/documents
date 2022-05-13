@@ -8,349 +8,285 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 05:15+0000\n"
+"POT-Creation-Date: 2022-05-13 02:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:3
 msgid "Class PlaybackWav"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:5
-#: PlaybackWav.rst:42 PlaybackWav.rst:70 PlaybackWav.rst:98 PlaybackWav.rst:126
-#: PlaybackWav.rst:154 PlaybackWav.rst:182 PlaybackWav.rst:210
-#: PlaybackWav.rst:238 PlaybackWav.rst:266 PlaybackWav.rst:294
-#: PlaybackWav.rst:322
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:7
+#: PlaybackWav.rst:44 PlaybackWav.rst:74 PlaybackWav.rst:104
+#: PlaybackWav.rst:134 PlaybackWav.rst:164 PlaybackWav.rst:194
+#: PlaybackWav.rst:224 PlaybackWav.rst:254 PlaybackWav.rst:284
+#: PlaybackWav.rst:314 PlaybackWav.rst:344
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:7
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:9
 msgid "A class used for control and playback of .wav file format audio data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:9
-#: PlaybackWav.rst:46 PlaybackWav.rst:74 PlaybackWav.rst:102
-#: PlaybackWav.rst:130 PlaybackWav.rst:158 PlaybackWav.rst:186
-#: PlaybackWav.rst:214 PlaybackWav.rst:242 PlaybackWav.rst:270
-#: PlaybackWav.rst:298 PlaybackWav.rst:326
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:11
+#: PlaybackWav.rst:48 PlaybackWav.rst:78 PlaybackWav.rst:108
+#: PlaybackWav.rst:138 PlaybackWav.rst:168 PlaybackWav.rst:198
+#: PlaybackWav.rst:228 PlaybackWav.rst:258 PlaybackWav.rst:288
+#: PlaybackWav.rst:318 PlaybackWav.rst:348
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:11
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:13
 msgid "class PlaybackWav"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:13
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:15
 msgid "**Members**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:15
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:17
 msgid "**Public Constructors**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:18
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:20
 msgid "PlaybackWav::PlaybackWav"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:18
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:20
 msgid "Create an instance of the PlaybackWav class"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:21
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:23
 msgid "**Public Methods**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:24
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:26
 msgid "PlaybackWav::openFile"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:24
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:26
 msgid "Open a .wav file for playback"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:25
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:27
 msgid "PlaybackWav::closeFile"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:25
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:27
 msgid "Close a previously opened file"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:26
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:28
 msgid "PlaybackWav::fileOpened"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:26
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:28
 msgid "Check if a .wav file is already opened"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:27
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:29
 msgid "PlaybackWav::getSampleRate"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:27
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:29
 msgid "Get the sample rate of the .wav file"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:28
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:30
 msgid "PlaybackWav::getChannelCount"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:28
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:30
 msgid "Get the number of audio channels in the .wav file"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:29
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:31
 msgid "PlaybackWav::getBitDepth"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:29
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:31
 msgid "Get the bit depth of each sample in the .wav file"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:30
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:32
 msgid "PlaybackWav::getLengthMillis"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:30
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:32
 msgid "Get the playback length of the .wav file in milliseconds"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:31
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:33
 msgid "PlaybackWav::getPositionMillis"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:31
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:33
 msgid "Get the current playback position in milliseconds"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:32
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:34
 msgid "PlaybackWav::setPositionMillis"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:32
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:34
 msgid "Set the current playback position in milliseconds"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:33
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:35
 msgid "PlaybackWav::millisToBytes"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:33
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:35
 msgid "Convert a playback duration to equivalent number of bytes"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:34
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:36
 msgid "PlaybackWav::bytesToMillis"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:34
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:36
 msgid "Convert number of bytes to an equivalent playback duration"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:35
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:37
 msgid "PlaybackWav::readAudioData"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:35
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:37
 msgid "Read audio data from the .wav file"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:40
-msgid "**PlaybackWav::PlaybackWav**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:44
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:46
 msgid "Create a PlaybackWav class object."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:48
-msgid "void PlaybackWav(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:50
-#: PlaybackWav.rst:78 PlaybackWav.rst:106 PlaybackWav.rst:134
-#: PlaybackWav.rst:162 PlaybackWav.rst:190 PlaybackWav.rst:218
-#: PlaybackWav.rst:246 PlaybackWav.rst:274 PlaybackWav.rst:302
-#: PlaybackWav.rst:331
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:54
+#: PlaybackWav.rst:84 PlaybackWav.rst:114 PlaybackWav.rst:144
+#: PlaybackWav.rst:174 PlaybackWav.rst:204 PlaybackWav.rst:234
+#: PlaybackWav.rst:264 PlaybackWav.rst:294 PlaybackWav.rst:324
+#: PlaybackWav.rst:353
 msgid "**Parameters**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:52
-#: PlaybackWav.rst:80 PlaybackWav.rst:108 PlaybackWav.rst:136
-#: PlaybackWav.rst:164 PlaybackWav.rst:192 PlaybackWav.rst:220
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:56
+#: PlaybackWav.rst:86 PlaybackWav.rst:116 PlaybackWav.rst:146
+#: PlaybackWav.rst:176 PlaybackWav.rst:206 PlaybackWav.rst:236
 msgid "The function requires no input parameter."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:54
-#: PlaybackWav.rst:82 PlaybackWav.rst:110 PlaybackWav.rst:138
-#: PlaybackWav.rst:166 PlaybackWav.rst:194 PlaybackWav.rst:222
-#: PlaybackWav.rst:250 PlaybackWav.rst:278 PlaybackWav.rst:306
-#: PlaybackWav.rst:336
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:58
+#: PlaybackWav.rst:88 PlaybackWav.rst:118 PlaybackWav.rst:148
+#: PlaybackWav.rst:178 PlaybackWav.rst:208 PlaybackWav.rst:238
+#: PlaybackWav.rst:268 PlaybackWav.rst:298 PlaybackWav.rst:328
+#: PlaybackWav.rst:358
 msgid "**Returns**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:56
-#: PlaybackWav.rst:252
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:60
+#: PlaybackWav.rst:270
 msgid "The function returns nothing."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:58
-#: PlaybackWav.rst:86 PlaybackWav.rst:114 PlaybackWav.rst:142
-#: PlaybackWav.rst:170 PlaybackWav.rst:198 PlaybackWav.rst:226
-#: PlaybackWav.rst:254 PlaybackWav.rst:282 PlaybackWav.rst:310
-#: PlaybackWav.rst:340
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:62
+#: PlaybackWav.rst:92 PlaybackWav.rst:122 PlaybackWav.rst:152
+#: PlaybackWav.rst:182 PlaybackWav.rst:212 PlaybackWav.rst:242
+#: PlaybackWav.rst:272 PlaybackWav.rst:302 PlaybackWav.rst:332
+#: PlaybackWav.rst:362
 msgid "**Example Code**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:60
-#: PlaybackWav.rst:64 PlaybackWav.rst:92 PlaybackWav.rst:120
-#: PlaybackWav.rst:148 PlaybackWav.rst:176 PlaybackWav.rst:204
-#: PlaybackWav.rst:232 PlaybackWav.rst:284 PlaybackWav.rst:288
-#: PlaybackWav.rst:312 PlaybackWav.rst:316 PlaybackWav.rst:346
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:64
+#: PlaybackWav.rst:68 PlaybackWav.rst:98 PlaybackWav.rst:128
+#: PlaybackWav.rst:158 PlaybackWav.rst:188 PlaybackWav.rst:218
+#: PlaybackWav.rst:248 PlaybackWav.rst:304 PlaybackWav.rst:308
+#: PlaybackWav.rst:334 PlaybackWav.rst:338 PlaybackWav.rst:368
 msgid "NA"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:62
-#: PlaybackWav.rst:90 PlaybackWav.rst:118 PlaybackWav.rst:146
-#: PlaybackWav.rst:174 PlaybackWav.rst:202 PlaybackWav.rst:230
-#: PlaybackWav.rst:258 PlaybackWav.rst:286 PlaybackWav.rst:314
-#: PlaybackWav.rst:344
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:66
+#: PlaybackWav.rst:96 PlaybackWav.rst:126 PlaybackWav.rst:156
+#: PlaybackWav.rst:186 PlaybackWav.rst:216 PlaybackWav.rst:246
+#: PlaybackWav.rst:276 PlaybackWav.rst:306 PlaybackWav.rst:336
+#: PlaybackWav.rst:366
 msgid "**Notes and Warnings**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:68
-msgid "**PlaybackWav::fileOpened**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:72
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:76
 msgid "Check if a .wav file is already opened."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:76
-msgid "bool fileOpened(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:84
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:90
 msgid "The function returns true if a .wav file is already open, false otherwise."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:88
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:94
 msgid "Example: RecordPlaybackWav"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:96
-msgid "**PlaybackWav::getSampleRate**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:100
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:106
 msgid "Get the sample rate of the .wav file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:104
-msgid "uint32_t getSampleRate(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:112
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:120
 msgid "The function returns sampling rate encoded in the .wav file header."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:116
-#: PlaybackWav.rst:144 PlaybackWav.rst:172 PlaybackWav.rst:200
-#: PlaybackWav.rst:228 PlaybackWav.rst:256 PlaybackWav.rst:342
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:124
+#: PlaybackWav.rst:154 PlaybackWav.rst:184 PlaybackWav.rst:214
+#: PlaybackWav.rst:244 PlaybackWav.rst:274 PlaybackWav.rst:364
 msgid "Example: PlaybackWavFile"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:124
-msgid "**PlaybackWav::getChannelCount**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:128
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:136
 msgid "Get the number of audio channels in the .wav file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:132
-msgid "uint16_t getChannelCount(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:140
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:150
 msgid "The function returns channel count encoded in the .wav file header."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:152
-msgid "**PlaybackWav::getBitDepth**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:156
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:166
 msgid "Get the bit depth of each sample in the .wav file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:160
-msgid "uint16_t getBitDepth(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:168
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:180
 msgid "The function returns bit depth encoded in the .wav file header."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:180
-msgid "**PlaybackWav::getLengthMillis**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:184
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:196
 msgid "Get the playback length of the .wav file in milliseconds."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:188
-msgid "uint32_t getLengthMillis(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:196
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:210
 msgid ""
 "The function returns the total playback length of the currently open .wav"
 " file in milliseconds."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:208
-msgid "**PlaybackWav::getPositionMillis**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:212
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:226
 msgid "Get the current playback position in milliseconds."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:216
-msgid "uint32_t getPositionMillis(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:224
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:240
 msgid ""
 "The function returns the current playback position of the currently open "
 ".wav file in milliseconds."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:236
-msgid "**PlaybackWav::setPositionMillis**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:240
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:256
 msgid "Set the current playback position in milliseconds."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:244
-msgid "void setPositionMillis(uint32_t pos);"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:266
+msgid "``pos`` : The desired playback position expressed in milliseconds."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:248
-msgid "pos: The desired playback position expressed in milliseconds."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:260
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:278
 msgid ""
 "Any changes to playback position will only take effect on the next call "
 "to PlaybackWav::readAudioData. If the desired playback position is beyond"
@@ -359,77 +295,133 @@ msgid ""
 "reads."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:264
-msgid "**PlaybackWav::millisToBytes**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:268
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:286
 msgid "Convert a playback duration to equivalent number of bytes."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:272
-msgid "uint32_t millisToBytes(uint32_t ms);"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:296
+msgid "``ms`` : playback duration in milliseconds."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:276
-msgid "ms: playback duration in milliseconds."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:280
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:300
 msgid ""
 "The function returns the number of bytes that is equivalent to the input "
 "playback duration, converted using the current sample rate, number of "
 "channels and bit depth."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:292
-msgid "**PlaybackWav::bytesToMillis**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:296
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:316
 msgid "Convert number of bytes to an equivalent playback duration."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:300
-msgid "uint32_t bytesToMillis(uint32_t bytes);"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:326
+msgid "``bytes`` : playback duration in number of bytes."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:304
-msgid "bytes: playback duration in number of bytes."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:308
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:330
 msgid ""
 "The function returns the time duration in milliseconds that is equivalent"
 " to the input number of bytes, converted using the current sample rate, "
 "number of channels and bit depth."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:320
-msgid "**PlaybackWav::readAudioData**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:324
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:346
 msgid "Read audio data from the .wav file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:328
-msgid "``uint32_t readAudioData(int8_t* dst, uint32_t len);``"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:350
+msgid ""
+"uint32_t readAudioData(int8_t* dst, uint32_t len); uint32_t "
+"readAudioData(int16_t* dst, uint32_t len);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:329
-msgid "``uint32_t readAudioData(int16_t* dst, uint32_t len);``"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:333
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:355
 msgid "``dst``: pointer to array to store data read from .wav file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:334
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:356
 msgid "``len``: number of audio samples to read from .wav file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:338
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PlaybackWav.rst:360
 msgid "The function returns number of audio samples read."
 msgstr ""
+
+#~ msgid "**PlaybackWav::PlaybackWav**"
+#~ msgstr ""
+
+#~ msgid "void PlaybackWav(void);"
+#~ msgstr ""
+
+#~ msgid "**PlaybackWav::fileOpened**"
+#~ msgstr ""
+
+#~ msgid "bool fileOpened(void);"
+#~ msgstr ""
+
+#~ msgid "**PlaybackWav::getSampleRate**"
+#~ msgstr ""
+
+#~ msgid "uint32_t getSampleRate(void);"
+#~ msgstr ""
+
+#~ msgid "**PlaybackWav::getChannelCount**"
+#~ msgstr ""
+
+#~ msgid "uint16_t getChannelCount(void);"
+#~ msgstr ""
+
+#~ msgid "**PlaybackWav::getBitDepth**"
+#~ msgstr ""
+
+#~ msgid "uint16_t getBitDepth(void);"
+#~ msgstr ""
+
+#~ msgid "**PlaybackWav::getLengthMillis**"
+#~ msgstr ""
+
+#~ msgid "uint32_t getLengthMillis(void);"
+#~ msgstr ""
+
+#~ msgid "**PlaybackWav::getPositionMillis**"
+#~ msgstr ""
+
+#~ msgid "uint32_t getPositionMillis(void);"
+#~ msgstr ""
+
+#~ msgid "**PlaybackWav::setPositionMillis**"
+#~ msgstr ""
+
+#~ msgid "void setPositionMillis(uint32_t pos);"
+#~ msgstr ""
+
+#~ msgid "pos: The desired playback position expressed in milliseconds."
+#~ msgstr ""
+
+#~ msgid "**PlaybackWav::millisToBytes**"
+#~ msgstr ""
+
+#~ msgid "uint32_t millisToBytes(uint32_t ms);"
+#~ msgstr ""
+
+#~ msgid "ms: playback duration in milliseconds."
+#~ msgstr ""
+
+#~ msgid "**PlaybackWav::bytesToMillis**"
+#~ msgstr ""
+
+#~ msgid "uint32_t bytesToMillis(uint32_t bytes);"
+#~ msgstr ""
+
+#~ msgid "bytes: playback duration in number of bytes."
+#~ msgstr ""
+
+#~ msgid "**PlaybackWav::readAudioData**"
+#~ msgstr ""
+
+#~ msgid "``uint32_t readAudioData(int8_t* dst, uint32_t len);``"
+#~ msgstr ""
+
+#~ msgid "``uint32_t readAudioData(int16_t* dst, uint32_t len);``"
+#~ msgstr ""
 

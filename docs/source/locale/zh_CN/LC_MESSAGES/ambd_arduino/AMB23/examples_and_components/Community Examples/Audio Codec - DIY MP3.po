@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 02:53+0000\n"
+"POT-Creation-Date: 2022-05-13 04:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:3
@@ -25,14 +25,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:8
 msgid "**CONTRIBUTED BY: M-ichae-l** (`<https://github.com/M-ichae-l>`__)"
-msgstr ""
+msgstr "**贡献者: M-ichae-l** (`<https://github.com/M-ichae-l>`__)"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:11
 msgid ""
 "Hi if you haven’t watched the demo video, feel free to play this short "
 "clip below to see what it’s capable of."
-msgstr ""
+msgstr "大家好，请大家在阅读这篇文章之前，先观看 YouTube 演示影片了解专案的详情。"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:14
@@ -42,7 +42,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:24
 msgid "Introduction"
-msgstr ""
+msgstr "介绍"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:26
@@ -52,50 +52,56 @@ msgid ""
 "battery to power the system. There are two optional features, wireless "
 "charge, and LCD control panel (touch screen is possiable)."
 msgstr ""
+"这个专案使用了AMB23（RTL8722DM_MINI）板在Arduino平台自制 一個MP3播放器。专案使用到了Micro "
+"SD存储卡，可以支援MP3文件读取，并使用電池為 整个专案供電。 "
+"另外，这个专案还附加额外兩個备选功能，分别是：無線充電和LCD控制面板（可以是觸摸屏）。 "
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:31
 msgid "Components"
-msgstr ""
+msgstr "元件"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:33
 msgid "AMB23 (RTL8722DM MINI) dev board x1"
-msgstr ""
+msgstr "AMB23 （RTL8722DM MINI） 开发板 x1"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:34
 msgid "Micro SD card x1"
-msgstr ""
+msgstr "MicroSD卡 x1"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:35
 msgid "A speaker / earphone x1"
-msgstr ""
+msgstr "一个扬声器/耳机 x1"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:37
 msgid ""
 "Connection is simple, just insert Micro SD card into adaptor and speaker "
 "into jack."
-msgstr ""
+msgstr "连接很简单，只需将Micro SD卡插入适配器，扬声器插入插孔。 "
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:42
 msgid "Function Flow"
-msgstr ""
+msgstr "功能流程"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:44
+#, fuzzy
 msgid ""
 "Please refer to the hackaday link. (`<https://hackaday.io/project/180706"
 "-diy-mp3-player>`__)"
 msgstr ""
+"Please refer to the hackaday link. (`<https://hackaday.io/project/180706"
+"-diy-mp3-player>`__)"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:49
 msgid "Code"
-msgstr ""
+msgstr "程式码"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:51
@@ -103,11 +109,13 @@ msgid ""
 "Please refer to the GitHub link. "
 "(`<https://github.com/M-ichae-l/AmebaIoT_M_example/tree/main/M_MP3/PlaybackWavFile>`__)"
 msgstr ""
+"请参考GitHub的链接. "
+"(`<https://github.com/M-ichae-l/AmebaIoT_M_example/tree/main/M_MP3/PlaybackWavFile>`__)"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:56
 msgid "Conclusion"
-msgstr ""
+msgstr "结论"
 
 #: - ../../source/ambd_arduino/AMB23/examples_and_components/Community Codec
 #: DIY Examples/Audio MP3.rst:58
@@ -120,6 +128,9 @@ msgid ""
 "give a like at any of the 3 channels (Hackaday, YouTube or GitHub). Happy"
 " coding."
 msgstr ""
+"这个项目仅用了很短的时间完成，所以它现在并不完美。 "
+"还有很多可以加入的功能可以使专案更完善，比如，无线充电，智能语音控制等等。因此，如果有社群朋友想进一步加入更多功能，你可以继续修改我的代码，或者把你的新点子在GitHub中留言告诉我。"
+" 如果您喜欢这个专案，请在这三个频道（Hackaday、YouTube或GitHub）中的任何一个给个赞。  敬请期待我的下一个项目更新~"
 
 #~ msgid "youtube"
 #~ msgstr ""

@@ -71,9 +71,9 @@ SoftSerial object.
 
 **Syntax**
 
-``Adafruit_GPS::Adafruit_GPS(SoftwareSerial \*ser)``
+Adafruit_GPS::Adafruit_GPS(SoftwareSerial \*ser)
 
-``Adafruit_GPS::Adafruit_GPS(HardwareSerial \*ser)``
+Adafruit_GPS::Adafruit_GPS(HardwareSerial \*ser)
 
 **Parameters** 
 
@@ -251,7 +251,9 @@ Returns the last NMEA line received and unsets the received flag
 
 **Syntax**
 
-``char \*Adafruit_GPS::lastNMEA(void0)``
+.. code:: cpp
+
+    char *Adafruit_GPS::lastNMEA(void0)
 
 **Parameters**
 
@@ -344,7 +346,9 @@ Send a command to the GPS device
 
 **Syntax**
 
-``void Adafruit_GPS::sendCommand(const char\*str)``
+.. code:: cpp
+
+    void Adafruit_GPS::sendCommand(const char * str)
 
 **Parameters**
 
@@ -375,7 +379,9 @@ Pause/unpause receiving new data
 
 **Syntax**
 
-``void Adafruit_GPS::pause(boolean p)``
+.. code:: cpp
+
+    void Adafruit_GPS::pause(boolean p)
 
 **Parameters**
 
@@ -466,7 +472,9 @@ Parse an NMEA string
 
 **Syntax**
 
-``boolean Adafruit_GPS::parse(char \*nmea)``
+.. code:: cpp
+
+    boolean Adafruit_GPS::parse(char * nmea)
 
 **Parameters**
 
@@ -494,7 +502,7 @@ Wake the sensor up
 
 **Syntax**
 
-.. code::cpp
+.. code:: cpp
 
     boolean Adafruit_GPS::wakeup(void)
 
@@ -554,7 +562,9 @@ Wait for a specified sentence from the device
 
 **Syntax**
 
-``boolean Adafruit_GPS::waitForSentence(const char \*wait4me, uint8_tmax)``
+.. code:: cpp
+
+    boolean Adafruit_GPS::waitForSentence(const char * wait4me, uint8_tmax)
 
 **Parameters**
 

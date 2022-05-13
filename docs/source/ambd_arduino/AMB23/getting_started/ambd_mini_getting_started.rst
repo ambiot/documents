@@ -80,7 +80,7 @@ First, connect AMB23 to the computer via Micro USB (same as power):
 |ambd-mini-get-start-2|
 
 If this is the first time you connect AMB23 to your computer, 
-the USB driver for AMB23 will be automatic installed.
+the USB driver for AMB23 will be automatically installed.
 
 If you have driver issue of connect board to your computer please go to 
 `here <https://ftdichip.com/drivers/>`_ for USB driver.
@@ -119,7 +119,7 @@ The :guilabel:`“Boards Manager”` requires about 10~20 seconds to refresh all
 hardware files (if the network is in bad condition, it may take longer).
 Every time the new hardware is connected, we need to reopen the Board
 Manager. So, we close the :guilabel:`“Boards Manager”`, and then open it again. Find
-:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”` in the list,
+:guilabel:`“Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)”` in the list,
 click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
 for AmebaD.
 
@@ -140,7 +140,7 @@ According to your system, please run the installation tool in the
 
 After the installation tool running successfully, you may open Arduino
 IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. Try to find
-:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
+:guilabel:`“Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
 click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
 for AmebaD.
 
@@ -195,15 +195,13 @@ Afterwards, we will upload the compiled code to AMB23.
 Please make sure AMB23 is connected to your computer, then
 click :guilabel:`“Sketch” -> “Upload”`.
 
-The Arduino IDE will compile first then upload. During the uploading
-process, users are required to enter the upload mode of the board.
-Arduino IDE will wait 5s for DEV board to enter the upload mode.
+The Arduino IDE will compile first then upload. Users are required to enter the upload mode of the board.
 
 |ambd-mini-get-start-15|
 
-To enter the upload mode, first press and hold the :guilabel:`UART_DOWNLOAD` button,
-then press the :guilabel:`RESET` button. If success, you should see the onboard
-green LED and blue LED all turned off.
+To enter the upload mode, first press and hold the :guilabel:`UART_DOWNLOAD` button, then press and release
+the :guilabel:`RESET` button, lastly release the :guilabel:`UART_DOWNLOAD` button. There is a 5-seconds count down
+set as a reminder to enter the upload mode.
 
 |ambd-mini-get-start-16|
 

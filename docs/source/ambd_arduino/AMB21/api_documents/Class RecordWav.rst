@@ -2,6 +2,8 @@
 Class RecordWav
 ################
 
+.. class:: RecordWav
+
 **Description**
 
 A class used for control and recording of .wav file format audio data.
@@ -35,7 +37,7 @@ RecordWav::writeAudioData	    Write audio data to the .wav file
 
 ----
 
-**RecordWav::RecordWav**
+.. method:: RecordWav::RecordWav
 
 **Description**
 
@@ -43,7 +45,9 @@ Create a RecordWav class object.
 
 **Syntax**
 
-void RecordWav(void);
+.. code:: cpp
+
+    void RecordWav(void);
 
 **Parameters**
 
@@ -63,7 +67,7 @@ NA
 
 ----
 
-**RecordWav::openFile**
+.. method:: RecordWav::openFile
 
 **Description**
 
@@ -71,7 +75,9 @@ Open a .wav file for recording.
 
 **Syntax**
 
-void openFile(const char* absFilepath);
+.. code:: cpp
+
+    void openFile(const char* absFilepath);
 
 **Parameters**
 
@@ -91,7 +97,7 @@ NA
 
 ----
 
-**RecordWav::closeFile**
+.. method:: RecordWav::closeFile
 
 **Description**
 
@@ -99,7 +105,9 @@ Close a previously opened file.
 
 **Syntax**
 
-void closeFile(void);
+.. code:: cpp
+
+    void closeFile(void);
 
 **Parameters**
 
@@ -119,7 +127,7 @@ Any open .wav files should be closed after recording is complete, otherwise, los
 
 ----
 
-**RecordWav::fileOpened**
+.. method:: RecordWav::fileOpened
 
 **Description**
 
@@ -127,7 +135,9 @@ Check if a .wav file is already opened.
 
 **Syntax**
 
-bool fileOpened(void);
+.. code:: cpp
+
+    bool fileOpened(void);
 
 **Parameters**
 
@@ -147,7 +157,7 @@ NA
 
 ----
 
-**RecordWav::setSampleRate**
+.. method:: RecordWav::setSampleRate
 
 **Description**
 
@@ -155,11 +165,13 @@ Set the recording sample rate of the .wav file.
 
 **Syntax**
 
-void setSampleRate(uint32_t sampleRate);
+.. code:: cpp
+
+    void setSampleRate(uint32_t sampleRate);
 
 **Parameters**
 
-sampleRate: The desired recording sample rate.
+``sampleRate`` : The desired recording sample rate.
 
 **Returns**
 
@@ -175,7 +187,7 @@ NA
 
 ----
 
-**RecordWav::setChannelCount**
+.. method:: RecordWav::setChannelCount
 
 **Description**
 
@@ -183,11 +195,13 @@ Set the number of recording audio channels in the .wav file.
 
 **Syntax**
 
-void setChannelCount(uint16_t channelCount);
+.. code:: cpp
+
+    void setChannelCount(uint16_t channelCount);
 
 **Parameters**
 
-channelCount: number of recording audio channels.
+``channelCount`` : number of recording audio channels.
 
 **Returns**
 
@@ -203,8 +217,8 @@ NA
 
 ----
 
-**RecordWav::setBitDepth**
-
+.. method:: RecordWav::setBitDepth
+    
 **Description**
 
 Set the recording bit depth of each sample in the .wav file.

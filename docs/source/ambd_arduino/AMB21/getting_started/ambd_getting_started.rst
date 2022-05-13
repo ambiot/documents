@@ -39,16 +39,16 @@ Please refer to the following figure and table for the pin diagram and function 
 ===  ========  ====  ==== ===== ============== ========= ========
 \#   PIN name  GPIO  ADC  PWM   UART           SPI       I2C
 ===  ========  ====  ==== ===== ============== ========= ========
-D00  GPIOB_2   ✓     ADC5       UART3_RX(b)              
-D01  GPIOB_1   ✓     ADC4       UART3_TX(b)              
-D02  GPIOB_3   ✓     ADC6                                
-D03  GPIOB_31  ✓                                            
-D04  GPIOB_30  ✓                                            
-D05  GPIOB_28  ✓                                            
-D06  GPIOB_29  ✓                                            
-D07  NC                                                    
-D08  GPIOB_22  ✓          ✓                              
-D09  GPIOB_23  ✓          ✓                              
+D0   GPIOB_2   ✓     A5         UART3_RX(b)              
+D1   GPIOB_1   ✓     A4         UART3_TX(b)              
+D2   GPIOB_3   ✓     A6                                  
+D3   GPIOB_31  ✓                                            
+D4   GPIOB_30  ✓                                            
+D5   GPIOB_28  ✓                                            
+D6   GPIOB_29  ✓                                            
+D7   NC                                                    
+D8   GPIOB_22  ✓          ✓                              
+D9   GPIOB_23  ✓          ✓                              
 D10  GPIOB_21  ✓          ✓     UART0_RTS(b)   SPI0_CS    
 D11  GPIOB_18  ✓          ✓     UART0_RX(b)    SPI0_MOSI  
 D12  GPIOB_19  ✓          ✓     UART0_TX(b)    SPI0_MISO  
@@ -57,10 +57,10 @@ D14  GPIOA_7   ✓                UART2_TX(log)            
 D15  GPIOA_8   ✓                UART2_RX(log)            
 D16  GPIOA_25  ✓          ✓     UART3_RX(a)    I2C0_SCL
 D17  GPIOA_26  ✓          ✓     UART3_TX(a)    I2C0_SDA
-D18  GPIOB_7   ✓     ADC3 ✓                    SPI1_CS    
-D19  GPIOB_6   ✓     ADC2                      SPI1_CLK   
-D20  GPIOB_5   ✓     ADC1 ✓                    SPI1_MISO  
-D21  GPIOB_4   ✓     ADC0 ✓                    SPI1_MOSI  
+D18  GPIOB_7   ✓     A3   ✓                    SPI1_CS    
+D19  GPIOB_6   ✓     A2                        SPI1_CLK   
+D20  GPIOB_5   ✓     A1   ✓                    SPI1_MISO  
+D21  GPIOB_4   ✓     A0   ✓                    SPI1_MOSI  
 D22  GPIOA_28  ✓                                            
 D23  GPIOA_24  ✓          ✓     UART0_CTS(a)   I2C1_SDA
 D24  GPIOA_23  ✓          ✓     UART0_RTS(a)   I2C1_SCL
@@ -121,7 +121,7 @@ The :guilabel:`“Boards Manager”` requires about 10~20 seconds to refresh all
 hardware files (if the network is in bad condition, it may take longer).
 Every time the new hardware is connected, we need to reopen the Board
 Manager. So, we close the :guilabel:`“Boards Manager”`, and then open it again. Find
-:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”` in the list,
+:guilabel:`“Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)”` in the list,
 click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
 for AMB21/AMB22.
 
@@ -144,7 +144,7 @@ According to your system, please run the installation tool in the
 
 After the installation tool running successfully, you may open Arduino
 IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. Try to find
-:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
+:guilabel:`“Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
 click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
 for AMB21/AMB22.
 
@@ -187,15 +187,13 @@ similar to the following figure:
 Afterwards, we will upload the compiled code to AMB21/AMB22.
 Please make sure AMB21/AMB22 is connected to your computer, then click :guilabel:`“Sketch” -> “Upload”`.
 
-The Arduino IDE will compile first then upload. During the uploading
-process, users are required to enter the upload mode of the board.
-Arduino IDE will wait 5s for DEV board to enter the upload mode.
+The Arduino IDE will compile first then upload. Users are required to enter the upload mode of the board.
 
 |ambd-get-start-14|
 
-To enter the upload mode, first press and hold the :guilabel:`UART_DOWNLOAD` button,
-then press the :guilabel:`RESET` button. If success, you should see the LED flashing
-on the DEV board.
+To enter upload mode, first press and hold the :guilabel:`UART_DOWNLOAD` , then press and release
+the :guilabel:`RESET` button, lastly release the :guilabel:`UART_DOWNLOAD`. There is a 5-seconds count
+down set as a reminder to enter the upload mode.
 
 |ambd-get-start-15|
 

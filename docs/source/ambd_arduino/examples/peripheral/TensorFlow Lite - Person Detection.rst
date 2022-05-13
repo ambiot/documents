@@ -32,21 +32,26 @@ TensorFlow Lite - Person Detection
 
   |1-2|
 
-| Download the Ameba customized version of TensorFlow Lite for
-  Microcontrollers library at
-| https://github.com/ambiot/tree/master/Arduino_zip_libraries.
-| Follow the instructions at https://www.arduino.cc/en/guide/libraries to
-  install it. Ensure that the patch files found at
-  https://github.com/ambiot/tree/master/Ameba_misc/ are also
-  installed.
-| You will also need to install the Ameba_ArduCAM library, found together
-  with the TensorFlow Lite library.
-| In the Arduino IDE library manager, install the JPEGDecoder library.
-  This example has been tested with version 1.8.0 of the JPEGDecoder
-  library.
-| Once the library has installed, you will need to configure it to disable
-  some optional components that are not compatible with the RTL8722DM.
-  Open the following file:
+Download the Ameba customized version of TensorFlow Lite for
+Microcontrollers library at
+https://github.com/ambiot/tree/master/Arduino_zip_libraries.
+
+Follow the instructions at https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to
+install it. 
+
+Ensure that the patch files found at
+https://github.com/ambiot/tree/master/Ameba_misc/ are also installed.
+
+You will also need to install the Ameba_ArduCAM library, found together
+with the TensorFlow Lite library.
+
+In the Arduino IDE library manager, install the JPEGDecoder library.
+This example has been tested with version 1.8.0 of the JPEGDecoder
+library.
+
+Once the library has installed, you will need to configure it to disable
+some optional components that are not compatible with the RTL8722DM.
+Open the following file:
 
   ``Arduino/libraries/JPEGDecoder/src/User_Config.h``
 

@@ -34,18 +34,23 @@ TensorFlow Lite - Magic Wand
 
   |1-2|
 
-| Download the Ameba customized version of TensorFlow Lite for
-  Microcontrollers library at
-  https://github.com/ambiot/tree/master/Arduino_zip_libraries.
-| Follow the instructions at https://www.arduino.cc/en/guide/libraries to
-  install it. 
-| Ensure that the patch files found at
-  https://github.com/ambiot/tree/master/Ameba_misc/ are also
-  installed.
-| In the Arduino IDE library manager, install the Arduino_LSM9DS1 library.
-  This example has been tested with version 1.1.0 of the LSM9DS1 library.
-| Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
-  “magic_wand”``.
+Download the Ameba customized version of TensorFlow Lite for
+Microcontrollers library at
+https://github.com/ambiot/tree/master/Arduino_zip_libraries.
+
+Follow the instructions at https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to
+install it. 
+
+Ensure that the patch files found at
+https://github.com/ambiot/tree/master/Ameba_misc/ are also
+installed.
+
+In the Arduino IDE library manager, install the Arduino_LSM9DS1 library.
+
+This example has been tested with version 1.1.0 of the LSM9DS1 library.
+
+Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
+“magic_wand”``.
   
   |2|
 
