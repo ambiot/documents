@@ -2,6 +2,8 @@
 Class PlaybackWav
 ##################
 
+.. class:: PlaybackWav
+
 **Description**
 
 A class used for control and playback of .wav file format audio data.
@@ -35,9 +37,9 @@ PlaybackWav::bytesToMillis	    Convert number of bytes to an equivalent playback
 PlaybackWav::readAudioData	    Read audio data from the .wav file
 ============================== =============================================
 
-----
+-------
 
-**PlaybackWav::PlaybackWav**
+.. method:: PlaybackWav::PlaybackWav
 
 **Description**
 
@@ -45,7 +47,9 @@ Create a PlaybackWav class object.
 
 **Syntax**
 
-void PlaybackWav(void);
+.. code:: cpp
+
+  void PlaybackWav(void);
 
 **Parameters**
 
@@ -65,7 +69,7 @@ NA
 
 ----
 
-**PlaybackWav::fileOpened**
+.. method:: PlaybackWav::fileOpened
 
 **Description**
 
@@ -73,7 +77,9 @@ Check if a .wav file is already opened.
 
 **Syntax**
 
-bool fileOpened(void);
+.. code:: cpp
+
+  bool fileOpened(void);
 
 **Parameters**
 
@@ -93,7 +99,7 @@ NA
 
 ----
 
-**PlaybackWav::getSampleRate**
+.. method:: PlaybackWav::getSampleRate
 
 **Description**
 
@@ -101,7 +107,9 @@ Get the sample rate of the .wav file.
 
 **Syntax**
 
-uint32_t getSampleRate(void);
+.. code:: cpp
+
+  uint32_t getSampleRate(void);
 
 **Parameters**
 
@@ -121,7 +129,7 @@ NA
 
 ----
 
-**PlaybackWav::getChannelCount**
+.. method:: PlaybackWav::getChannelCount
 
 **Description**
 
@@ -129,7 +137,9 @@ Get the number of audio channels in the .wav file.
 
 **Syntax**
 
-uint16_t getChannelCount(void);
+.. code:: cpp
+
+  uint16_t getChannelCount(void);
 
 **Parameters**
 
@@ -149,7 +159,7 @@ NA
 
 ----
 
-**PlaybackWav::getBitDepth**
+.. method:: PlaybackWav::getBitDepth
 
 **Description**
 
@@ -157,7 +167,9 @@ Get the bit depth of each sample in the .wav file.
 
 **Syntax**
 
-uint16_t getBitDepth(void);
+.. code:: cpp
+
+  uint16_t getBitDepth(void);
 
 **Parameters**
 
@@ -177,7 +189,7 @@ NA
 
 ----
 
-**PlaybackWav::getLengthMillis**
+.. method:: PlaybackWav::getLengthMillis
 
 **Description**
 
@@ -185,7 +197,9 @@ Get the playback length of the .wav file in milliseconds.
 
 **Syntax**
 
-uint32_t getLengthMillis(void);
+.. code:: cpp
+
+  uint32_t getLengthMillis(void);
 
 **Parameters**
 
@@ -205,7 +219,7 @@ NA
 
 ----
 
-**PlaybackWav::getPositionMillis**
+.. method:: PlaybackWav::getPositionMillis
 
 **Description**
 
@@ -213,7 +227,9 @@ Get the current playback position in milliseconds.
 
 **Syntax**
 
-uint32_t getPositionMillis(void);
+.. code:: cpp
+
+  uint32_t getPositionMillis(void);
 
 **Parameters**
 
@@ -233,7 +249,7 @@ NA
 
 ----
 
-**PlaybackWav::setPositionMillis**
+.. method:: PlaybackWav::setPositionMillis
 
 **Description**
 
@@ -241,11 +257,13 @@ Set the current playback position in milliseconds.
 
 **Syntax**
 
-void setPositionMillis(uint32_t pos);
+.. code:: cpp
+
+  void setPositionMillis(uint32_t pos);
 
 **Parameters**
 
-pos: The desired playback position expressed in milliseconds.
+``pos`` : The desired playback position expressed in milliseconds.
 
 **Returns**
 
@@ -261,7 +279,7 @@ Any changes to playback position will only take effect on the next call to Playb
 
 ----
 
-**PlaybackWav::millisToBytes**
+.. method:: PlaybackWav::millisToBytes
 
 **Description**
 
@@ -269,11 +287,13 @@ Convert a playback duration to equivalent number of bytes.
 
 **Syntax**
 
-uint32_t millisToBytes(uint32_t ms);
+.. code:: cpp
+
+  uint32_t millisToBytes(uint32_t ms);
 
 **Parameters**
 
-ms: playback duration in milliseconds.
+``ms`` : playback duration in milliseconds.
 
 **Returns**
 
@@ -289,7 +309,7 @@ NA
 
 ----
 
-**PlaybackWav::bytesToMillis**
+.. method:: PlaybackWav::bytesToMillis
 
 **Description**
 
@@ -297,11 +317,13 @@ Convert number of bytes to an equivalent playback duration.
 
 **Syntax**
 
-uint32_t bytesToMillis(uint32_t bytes);
+.. code:: cpp
+
+  uint32_t bytesToMillis(uint32_t bytes);
 
 **Parameters**
 
-bytes: playback duration in number of bytes.
+``bytes`` : playback duration in number of bytes.
 
 **Returns**
 
@@ -317,7 +339,7 @@ NA
 
 ----
 
-**PlaybackWav::readAudioData**
+.. method:: PlaybackWav::read
 
 **Description**
 
@@ -325,8 +347,8 @@ Read audio data from the .wav file.
 
 **Syntax**
 
-  * ``uint32_t readAudioData(int8_t* dst, uint32_t len);``
-  * ``uint32_t readAudioData(int16_t* dst, uint32_t len);``
+  uint32_t readAudioData(int8_t* dst, uint32_t len);
+  uint32_t readAudioData(int16_t* dst, uint32_t len);
 
 **Parameters**
 

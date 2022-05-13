@@ -2,6 +2,8 @@
 Class FFT
 ################
 
+.. class:: FFT
+
 
 **Description**
 
@@ -34,11 +36,9 @@ FFT::FFT Create an instance of the FFT class
 |                       | input size                                  |
 +-----------------------+---------------------------------------------+
 
+-----------------------------------------------------------------------------------
 
-
-
-**FFT::FFT**
-
+.. method:: FFT::FFT
 
 **Description**
 
@@ -46,7 +46,9 @@ Create a FFT class object.
 
 **Syntax**
 
-void FFT();
+.. code:: cpp
+
+    void FFT();
 
 **Parameters**
 
@@ -62,8 +64,11 @@ Example: FFT
 
 **Notes and Warnings**
 
-**FFT::setWindow**
+NA
 
+----------------------------------------------------------------------------------------
+
+.. method:: FFT::setWindow
 
 **Description**
 
@@ -71,14 +76,15 @@ Configure the window function used in FFT calculations.
 
 **Syntax**
 
-void setWindow(FFTWindow_t window, uint16_t sampleCount);
+.. code:: cpp
+
+    void setWindow(FFTWindow_t window, uint16_t sampleCount);
 
 **Parameters**
 
-window: The window function to be used in FFT calculations. Valid
-values: None, Hann, Hamming.
+* ``window`` : The window function to be used in FFT calculations. Valid values: None, Hann, Hamming.
 
-sampleCount: Number of sample datapoints in the input.
+* ``sampleCount`` : Number of sample datapoints in the input.
 
 **Returns**
 
@@ -100,8 +106,9 @@ https://download.ni.com/evaluation/pxi/Understanding%20FFTs%20and%20Windowing.pd
 
 https://en.wikipedia.org/wiki/Window_function
 
-**FFT::Calculate**
+-----------------------------------------------------------------------------------------------------
 
+.. method:: FFT::Calculate
 
 **Description**
 
@@ -117,14 +124,14 @@ sampleCount);
 
 **Parameters**
 
-inputBuf: pointer to an array of sampleCount size, containing input
-sample datapoints, in float or uint16_t format.
+* ``inputBuf`` : pointer to an array of sampleCount size, containing input
+  sample datapoints, in float or uint16_t format.
 
-outputBuf: pointer to a float array of sampleCount/2 size, for
-containing FFT output.
+* ``outputBuf`` : pointer to a float array of sampleCount/2 size, for
+  containing FFT output.
 
-sampleCount: number of sample datapoints in the input array, valid
-values: 16, 32, 64, 128, 256, 512, 1024, 2048.
+* ``sampleCount`` : number of sample datapoints in the input array, valid
+  values: 16, 32, 64, 128, 256, 512, 1024, 2048.
 
 **Returns**
 
@@ -139,8 +146,9 @@ Example:FFT
 Large sample counts will require a longer time for FFT calculations, but
 will also return a result with higher frequency resolution.
 
-**FFT::getFrequencyBins**
+-------------------------------------------------------------------------------------
 
+.. method:: FFT::getFrequencyBins
 
 **Description**
 
@@ -148,12 +156,13 @@ Get the FFT output frequency bins.
 
 **Syntax**
 
-void getFrequencyBins(uint16_t\* outputBuf, uint16_t sampleCount,
-uint32_t sampleRate);
+.. code:: cpp
+
+    void getFrequencyBins(uint16_t * outputBuf, uint16_t sampleCount,uint32_t sampleRate);
 
 **Parameters**
 
-outputBuf: pointer to a uint16_t array of sampleCount/2 size, for
+``outputBuf`` : pointer to a uint16_t array of sampleCount/2 size, for
 containing the calculated center frequency of each FFT output element.
 
 **Returns**
@@ -165,11 +174,12 @@ The function returns nothing.
 Example: FFT
 
 **Notes and Warnings**
+
 NA
 
----
+------------------------------------------------------------------------------------------------------
 
-**FFT::getFFTSize**
+.. method:: FFT::getFFTSize
 
 **Description**
 
@@ -177,11 +187,13 @@ Get the size of FFT output for a given input size.
 
 **Syntax**
 
-uint16_t getFFTSize(uint16_t sampleCount);
+.. code:: cpp
+
+    uint16_t getFFTSize(uint16_t sampleCount);
 
 **Parameters**
 
-sampleCount: number of input sample datapoints.
+``sampleCount`` : number of input sample datapoints.
 
 **Returns**
 
@@ -193,4 +205,5 @@ which is sampleCount/2.
 NA
 
 **Notes and Warnings**
+
 NA

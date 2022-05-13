@@ -117,7 +117,7 @@ The :guilabel:`“Boards Manager”` requires about 10~20 seconds to refresh all
 hardware files (if the network is in bad condition, it may take longer).
 Every time the new hardware is connected, we need to reopen the Board
 Manager. So, we close the :guilabel:`“Boards Manager”`, and then open it again. Find
-:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”` in the list,
+:guilabel:`“Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)”` in the list,
 click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
 for RTL8722DM.
 
@@ -140,7 +140,7 @@ According to your system, please run the installation tool in the
 
 After the installation tool running successfully, you may open Arduino
 IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. Try to find
-:guilabel:`“Realtek AmebaD Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
+:guilabel:`“Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)”`` in the list,
 click :guilabel:`“Install”`, then the Arduino IDE starts to download required files
 for AmebaD.
 
@@ -285,8 +285,8 @@ button, press the :guilabel:`RST` button, and then release the :guilabel:`Burn` 
 
  |bw16-get-start-18|
 
-Press :guilabel:`Upload` button in Arduino IDE to compile and upload the program. 
-Arduino IDE will wait for 5s for the development board to enter the upload mode.
+Please make sure the board is connected to your computer, then click :guilabel:`"sketch" → "Upload"`.
+There is a 5-seconds count down set as a reminder to enter the upload mode.
 
    |bw16-get-start-19|
 

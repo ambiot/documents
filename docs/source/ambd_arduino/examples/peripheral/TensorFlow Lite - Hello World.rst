@@ -21,8 +21,11 @@ TensorFlow Lite - Hello World
 Download the Ameba customized version of TensorFlow Lite for
 Microcontrollers library at
 https://github.com/ambiot/tree/master/Arduino_zip_libraries.
-Follow the instructions at https://www.arduino.cc/en/guide/libraries to
-install it. Ensure that the patch files found at
+
+Follow the instructions at https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to
+install it. 
+
+Ensure that the patch files found at
 https://github.com/ambiot/tree/master/Ameba_misc/ are also
 installed.
 

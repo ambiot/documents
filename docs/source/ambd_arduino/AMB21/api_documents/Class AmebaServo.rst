@@ -41,6 +41,7 @@ class AmebaServo
 | AmebaServo::attached          | Check if the servo is attached.     |
 +-------------------------------+-------------------------------------+
 
+
 ------------------------------------------------------------------------------
 
 
@@ -63,11 +64,11 @@ failure.
 
 **Parameters**
 
-``pin`` : The Arduino pin number to be attached.
+* ``pin`` : The Arduino pin number to be attached.
 
-``min`` : Minimum values for writes.
+* ``min`` : Minimum values for writes.
 
-``max`` : Maximum values for writes.
+* ``max`` : Maximum values for writes.
 
 **Returns**
 
@@ -149,6 +150,7 @@ Detach the servo.
 
 **Syntax**
 
+    
 void AmebaServo::detach(void);
 
 **Parameters**

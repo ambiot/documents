@@ -20,19 +20,19 @@ msgstr ""
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:3
 msgid "OpenMV Bluetooth TripWire"
-msgstr ""
+msgstr "OpenMV藍牙警戒線"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:8
 msgid "**CONTRIBUTED BY: SIMON XI** (`<https://github.com/xidameng>`__ )"
-msgstr ""
+msgstr "**貢獻者：SIMON XI** (`<https://github.com/xidameng>`__ )"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:11
 msgid ""
 "Hi if you haven’t watched the demo video, feel free to play this short "
 "clip below to see what it’s capable of."
-msgstr ""
+msgstr "大家好， 請大家在閲讀這篇文章之前， 先觀看 YouTube 演示影片瞭解專案的詳情。"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:13
@@ -42,7 +42,7 @@ msgstr ""
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:23
 msgid "Introduction"
-msgstr ""
+msgstr "介紹"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:25
@@ -55,6 +55,9 @@ msgid ""
 "even push it a little further by adding some more cool features like face"
 " recognition, speed detection and even more."
 msgstr ""
+"這個專案的靈感來自於另一個開源專案 daytripper （連結 1），這個專案使用兩個獨立的設備分別用來 “檢測運動”"
+"和 “控制電腦切換應用程式”。 然而如果采用計算機視覺解決方案，使用一個設備就能做到上述功能。除此之外，我們甚至還可以在專案中添加例如："
+"人臉識別，速度檢測等功能來進一步擴展現有的專案。"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:33
@@ -64,38 +67,39 @@ msgid ""
 "RTL8722DM_MINI, together we can achieve the same function as "
 "**daytripper** and more."
 msgstr ""
+"所以在這個專案中我使用了 OpenMV, 它是一個容易部署，輕量，體積小的 IoT 微控制器。與 AMB23 同時使用就可以實現與 DayTripper 專案類似，甚至更多的功能。"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:40
 msgid "Components"
-msgstr ""
+msgstr "元件"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:42
 msgid "AMB23 (RTL8722DM MINI) dev board x1"
-msgstr ""
+msgstr "AMB23 （RTL8722DM MINI) 開發板 x1"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:43
 msgid "OpenMV( any model) dev board x1"
-msgstr ""
+msgstr "OpenMV （任何型號）開發板 x1"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:45
 msgid ""
 "Connection is simple, just connect P0 pin on OpenMV to pin 9 on Ameba "
 "Board."
-msgstr ""
+msgstr "硬體的連接方法非常簡單，只需將 OpenMV 的 P0 引脚連接到 Ameba 板的 Pin 9 引脚。"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:49
 msgid "Function Flow"
-msgstr ""
+msgstr "功能流程"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:51
 msgid "This is how it works,"
-msgstr ""
+msgstr "以下是這個專案程式碼的工作原理流程圖："
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:53
@@ -125,7 +129,7 @@ msgstr ""
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:202
 msgid "Conclusion"
-msgstr ""
+msgstr "總結"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:204
@@ -134,10 +138,11 @@ msgid ""
 " perfect it you may go ahead and change my code however you like, or "
 "leave a comment below if you have a question or want to discuss something"
 " with me~"
-msgstr ""
+msgstr "這個項目僅用了很短的時間完成，所以它現在並不完美。如果有社群朋友想進一步加入更多功能， 你可以继续"
+"修改我的程式碼，或者把你的新點子在 GitHub 中留言告訴我。"
 
 #: ../../source/ambd_arduino/AMB23/examples_and_components/Community Bluetooth
 #: Examples/OpenMV TripWire.rst:209
 msgid "Until next time, happy coding."
-msgstr ""
+msgstr "敬請期待我的下一個專案更新~"
 

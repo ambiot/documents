@@ -2,6 +2,8 @@
 Class AudioCodec 
 #################
 
+.. class:: AudioCodec
+
 **Description**
 
 
@@ -10,11 +12,9 @@ codec functions.
 
 **Syntax**
 
-
 class AudioCodec
 
 **Members**
-
 
 **Public Constructors**
 
@@ -85,11 +85,9 @@ named Codec.
 |                               | new data is available for read      |
 +-------------------------------+-------------------------------------+
 
+------------------------------------------------------------------------------
 
-
-
-**AudioCodec::begin**
-
+.. method:: AudioCodec::begin
 
 **Description**
 
@@ -97,13 +95,15 @@ Configure and start the audio codec for transmit and receive operation.
 
 **Syntax**
 
-void begin(bool input, bool output);
+.. code:: cpp
+
+    void begin(bool input, bool output);
 
 **Parameters**
 
-input: enable audio codec data input
+``input`` : enable audio codec data input
 
-output: enable audio codec data output
+``output``: enable audio codec data output
 
 **Returns**
 
@@ -115,8 +115,11 @@ Example: BasicInputOutput
 
 **Notes and Warnings**
 
-**AudioCodec::end**
+NA
 
+------------------------------------------------------------------------------
+
+.. method:: AudioCodec::end
 
 **Description**
 
@@ -124,7 +127,9 @@ Stop all audio codec operation.
 
 **Syntax**
 
-void end();
+.. code:: cpp
+
+    void end();
 
 **Parameters**
 
@@ -140,8 +145,11 @@ NA
 
 **Notes and Warnings**
 
-**AudioCodec::getBufferPageSize**
+NA
 
+----------------------------------------------------------------------------
+
+.. class:: AudioCodec::getBufferPageSize
 
 **Description**
 
@@ -149,7 +157,9 @@ Get the byte size of a single page of the audio codec buffer.
 
 **Syntax**
 
-uint32_t getBufferPageSize();
+.. code:: cpp
+
+    uint32_t getBufferPageSize();
 
 **Parameters**
 
@@ -172,8 +182,9 @@ can be read and written one page at a time. Depending on the configured
 bit depth (bits per audio sample) and channel count, a buffer page may
 contain a different number of audio samples.
 
-**AudioCodec::setSampleRate**
+---------------------------------------------------------------------------------
 
+.. method:: AudioCodec::setSampleRate
 
 **Description**
 
@@ -181,11 +192,13 @@ Configure the audio codec transmit and receive sampling rate.
 
 **Syntax**
 
-void setSampleRate(uint32_t sampleRate);
+.. code:: cpp
+
+    void setSampleRate(uint32_t sampleRate);
 
 **Parameters**
 
-sampleRate: desired audio codec sampling rate in Hz. Default value of
+``sampleRate`` : desired audio codec sampling rate in Hz. Default value of
 48000. Supported values: 8000, 16000, 32000, 44100, 48000, 88200, 96000.
 
 **Returns**
@@ -203,8 +216,9 @@ writes to keep up with the large amount of data input and output. If
 there is insufficient processing time dedicated to this task, audio
 quality will be degraded.
 
-**AudioCodec::setBitDepth**
+-----------------------------------------------------------------------------------
 
+.. method:: AudioCodec::setBitDepth
 
 **Description**
 
@@ -213,11 +227,13 @@ sample).
 
 **Syntax**
 
-void setBitDepth(uint8_t bitDepth);
+.. code:: cpp
+
+    void setBitDepth(uint8_t bitDepth);
 
 **Parameters**
 
-bitDepth: desired number of bits per sample. Default value of 16.
+``bitDepth`` : desired number of bits per sample. Default value of 16.
 Supported values: 8, 16, 24.
 
 **Returns**
@@ -234,8 +250,9 @@ Setting a bit depth of 24 bits per sample will require 32 bits (4 bytes)
 of buffer space for storing each sample, with the most significant byte
 ignored.
 
-**AudioCodec::setChannelCount**
+-------------------------------------------------------------------------------------
 
+.. method:: AudioCodec::setChannelCount
 
 **Description**
 
@@ -243,11 +260,13 @@ Configure the audio codec transmit and receive channel count.
 
 **Syntax**
 
-void setChannelCount(uint8_t monoStereo);
+.. code:: cpp
+
+    void setChannelCount(uint8_t monoStereo);
 
 **Parameters**
 
-monoStereo: number of channels. Default value of 1. Supported values: 1,
+``monoStereo`` : number of channels. Default value of 1. Supported values: 1,
 2.
 
 **Returns**
@@ -260,7 +279,11 @@ Example: BasicInputOutput
 
 **Notes and Warnings**
 
-**AudioCodec::setInputMicType**
+NA
+
+----------------------------------------------------------------------------------------
+
+.. method:: AudioCodec::setInputMicType
 
 
 **Description**
@@ -269,11 +292,13 @@ Configure for analog or digital input microphone type.
 
 **Syntax**
 
-Void setInputMicType(Mic_Type micType);
+.. code:: cpp
+
+    Void setInputMicType(Mic_Type micType);
 
 **Parameters**
 
-micType: Input microphone type. Default value ANALOGMIC. Valid values:
+``micType`` : Input microphone type. Default value ANALOGMIC. Valid values:
 
 -  ANALOGMIC – microphone with an analog output
 
@@ -295,8 +320,9 @@ PA_2 for the right channel.
 For digital PDM output, connect the PDM clock to PB_1 and PDM data to
 PB_2.
 
-**AudioCodec::setInputLRMux**
+-------------------------------------------------------------------------------------
 
+.. method:: AudioCodec::setInputLRMux
 
 **Description**
 
@@ -304,11 +330,13 @@ Configure input left right channel multiplexing.
 
 **Syntax**
 
-void setInputLRMux(uint32_t mux);
+.. code:: cpp
+
+    void setInputLRMux(uint32_t mux);
 
 **Parameters**
 
-mux: desired left right audio channel multiplexing setting. Default
+``mux`` : desired left right audio channel multiplexing setting. Default
 value RX_CH_LR. Valid values:
 
 -  RX_CH_LR
@@ -339,8 +367,9 @@ sampled from the microphones. RX_CH_RR and RX_CH_LL will result in
 duplicated samples from the right and left microphones respectively.\ **
 **
 
-**AudioCodec::setDMicBoost**
+-----------------------------------------------------------------------------------
 
+.. method:: AudioCodec::setDMicBoost
 
 **Description**
 
@@ -348,13 +377,15 @@ Configure boost gain for digital microphone input.
 
 **Syntax**
 
-void setDMicBoost(uint32_t leftBoost, uint32_t rightBoost);
+.. code:: cpp
+
+    void setDMicBoost(uint32_t leftBoost, uint32_t rightBoost);
 
 **Parameters**
 
-leftBoost: boost gain for left channel digital microphone input
+``leftBoost`` : boost gain for left channel digital microphone input
 
-rightBoost: boost gain for right channel digital microphone input
+``rightBoost``: boost gain for right channel digital microphone input
 
 Valid boost gain values:
 
@@ -376,8 +407,11 @@ NA
 
 **Notes and Warnings**
 
-**AudioCodec::setAMicBoost**
+NA
 
+----------------------------------------------------------------------------------
+
+.. method:: AudioCodec::setAMicBoost
 
 **Description**
 
@@ -385,13 +419,15 @@ Configure boost gain for analog microphone input.
 
 **Syntax**
 
-void setAMicBoost(uint32_t leftBoost, uint32_t rightBoost);
+.. code:: cpp
+
+    void setAMicBoost(uint32_t leftBoost, uint32_t rightBoost);
 
 **Parameters**
 
-leftBoost: boost gain for left channel analog microphone input
+``leftBoost`` : boost gain for left channel analog microphone input
 
-rightBoost: boost gain for right channel analog microphone input
+``rightBoost`` : boost gain for right channel analog microphone input
 
 Valid boost gain values:
 
@@ -416,8 +452,9 @@ NA
 Only use this function if additional gain is required after using
 setADCGain function.
 
-**AudioCodec::setADCGain**
+--------------------------------------------------------------------------------
 
+.. method:: AudioCodec::setADCGain
 
 **Description**
 
@@ -425,13 +462,15 @@ Configure gain of ADC used to acquire analog input.
 
 **Syntax**
 
-void setADCGain(uint32_t leftGain, uint32_t rightGain);
+.. code:: cpp
+
+    void setADCGain(uint32_t leftGain, uint32_t rightGain);
 
 **Parameters**
 
-leftGain: Gain for left channel ADC
+``leftGain`` : Gain for left channel ADC
 
-rightGain: Gain for right channel ADC
+``rightGain`` : Gain for right channel ADC
 
 Valid value range is from 0x00 to 0x7f. Gain increases by 0.375dB for
 every increment in value:
@@ -456,8 +495,11 @@ NA
 
 **Notes and Warnings**
 
-**AudioCodec::muteInput**
+NA
 
+---------------------------------------------------------------------------
+
+.. method:: AudioCodec::muteInput
 
 **Description**
 
@@ -465,13 +507,15 @@ Mute input audio data stream.
 
 **Syntax**
 
-void muteInput(uint8_t leftMute, uint8_t rightMute);
+.. code:: cpp
+
+    void muteInput(uint8_t leftMute, uint8_t rightMute);
 
 **Parameters**
 
-leftMute: 1 to mute left channel input, 0 to unmute
+``leftMute`` : 1 to mute left channel input, 0 to unmute
 
-rightMute: 1 to mute right channel input, 0 to unmute
+``rightMute`` : 1 to mute right channel input, 0 to unmute
 
 **Returns**
 
@@ -483,8 +527,11 @@ NA
 
 **Notes and Warnings**
 
-**AudioCodec::setOutputVolume**
+NA
 
+-----------------------------------------------------------------------------
+
+.. method:: AudioCodec::setOutputVolume
 
 **Description**
 
@@ -492,13 +539,15 @@ Configure output audio volume.
 
 **Syntax**
 
-void setOutputVolume(uint8_t leftVol, uint8_t rightVol);
+.. code:: cpp
+
+    void setOutputVolume(uint8_t leftVol, uint8_t rightVol);
 
 **Parameters**
 
-leftVol: left channel output volume
+``leftVol`` : left channel output volume
 
-rightVol: right channel output volume
+``rightVol`` : right channel output volume
 
 Valid value ranges from 0 to 100, corresponding to a volume of -65.625dB
 to 0dB.
@@ -513,8 +562,11 @@ Example: BasicInputOutput
 
 **Notes and Warnings**
 
-**AudioCodec::muteOutput**
+NA
 
+-------------------------------------------------------------------------------
+
+.. method:: AudioCodec::muteOutput
 
 **Description**
 
@@ -522,13 +574,15 @@ Mute output audio.
 
 **Syntax**
 
-void muteOutput(uint8_t leftMute, uint8_t rightMute);
+.. code:: cpp
+
+    void muteOutput(uint8_t leftMute, uint8_t rightMute);
 
 **Parameters**
 
-leftMute: 1 to mute left channel output, 0 to unmute
+``leftMute`` : 1 to mute left channel output, 0 to unmute
 
-rightMute: 1 to mute right channel output, 0 to unmute
+``rightMute`` : 1 to mute right channel output, 0 to unmute
 
 **Returns**
 
@@ -540,8 +594,11 @@ NA
 
 **Notes and Warnings**
 
-**AudioCodec::writeAvaliable**
+NA
 
+--------------------------------------------------------------------------------
+
+.. method:: AudioCodec::writeAvaliable
 
 **Description**
 
@@ -549,7 +606,9 @@ Check for free buffer page available for data write.
 
 **Syntax**
 
-bool writeAvaliable();
+.. code:: cpp
+
+    bool writeAvaliable();
 
 **Parameters**
 
@@ -566,8 +625,11 @@ Example: BasicInputOutput
 
 **Notes and Warnings**
 
-**AudioCodec::writeDataPage**
+NA
 
+------------------------------------------------------------------------------
+
+.. method:: AudioCodec::writeDataPage
 
 **Description**
 
@@ -581,9 +643,9 @@ uint32_t writeDataPage(int16_t\* src, uint32_t len);
 
 **Parameters**
 
-src: pointer to array containing audio samples to write to audio codec.
+``src`` : pointer to array containing audio samples to write to audio codec.
 
-len: number of audio samples in array.
+``len`` : number of audio samples in array.
 
 **Returns**
 
@@ -596,8 +658,11 @@ Example: BasicInputOutput
 
 **Notes and Warnings**
 
-**AudioCodec::readAvaliable**
+NA
 
+----------------------------------------------------------------------------------
+
+.. method:: AudioCodec::readAvaliable
 
 **Description**
 
@@ -605,7 +670,9 @@ Check for buffer page with new data available for read.
 
 **Syntax**
 
-bool readAvaliable();
+.. code:: cpp
+
+    bool readAvaliable();
 
 **Parameters**
 
@@ -622,8 +689,11 @@ Example: BasicInputOutput
 
 **Notes and Warnings**
 
-**AudioCodec::readDataPage**
+NA
 
+-----------------------------------------------------------------------------------
+
+.. method:: AudioCodec::readDataPage
 
 **Description**
 
@@ -637,9 +707,9 @@ uint32_t readDataPage(int16_t\* dst, uint32_t len);
 
 **Parameters**
 
-dst: pointer to array to contain audio samples read from audio codec.
+``dst`` : pointer to array to contain audio samples read from audio codec.
 
-len: number of audio samples to read.
+``len`` : number of audio samples to read.
 
 **Returns**
 
@@ -652,8 +722,11 @@ Example: BasicInputOutput
 
 **Notes and Warnings**
 
-**AudioCodec::setWriteCallback**
+NA
 
+-----------------------------------------------------------------------------------------------------
+
+.. method:: AudioCodec::setWriteCallback
 
 **Description**
 
@@ -662,11 +735,13 @@ available for write.
 
 **Syntax**
 
-**void** setWriteCallback(**void** (*writeCB)(**void**));
+.. code:: cpp
+
+    void setWriteCallback(void(*writeCB)(void));
 
 **Parameters**
 
-writeCB: function to be called when a buffer page becomes available for
+``writeCB``: function to be called when a buffer page becomes available for
 data write. Takes no arguments and returns nothing
 
 **Returns**
@@ -683,8 +758,9 @@ After starting the audio codec with AudioCodec::begin(), the callback
 function will be called each time the audio codec finishes outputting
 the data in a buffer page.
 
-**AudioCodec::setReadCallback**
+---------------------------------------------------------------------------------------------------
 
+.. method:: AudioCodec::setReadCallback
 
 **Description**
 
@@ -693,7 +769,9 @@ is available for read.
 
 **Syntax**
 
-**void** setReadCallback(**void** (*readCB)(**void**));
+.. code:: cpp
+
+    void setReadCallback(void(*readCB)(void));
 
 **Parameters**
 
