@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:12 RTC Simple
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -36,6 +38,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:18 RTC Simple
 msgid ""
@@ -44,19 +48,20 @@ msgid ""
 "particular, the RTC time is set at 16:00:00 and an alarm at 16:00:10. "
 "When the time matches, “Alarm Match” information will be printed on the "
 "serial monitor."
-msgstr ""
+msgstr "此范例说明如何使用RTC库方法创建RTC闹钟，"
+"以便在时间匹配时执行一些任务。像是RTC时间设置为16:00:00，闹钟设置为16:00:10。当时间匹配时，“Alarm Match”信息将打印在串行监视器上。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:23 RTC Simple
 msgid ""
 "First, select the correct Ameba development board from the Arduino IDE: "
 "“Tools” -> “Board”."
-msgstr ""
+msgstr "首先，从Arduino IDE中选择正确的Ameba开发板：“Tools”->“Board”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:26 RTC Simple
 msgid ""
 "Then open the \"RTCAlarm\" example from: ``“File” -> “Examples” -> “RTC” "
 "-> “RTCAlarm”``:"
-msgstr ""
+msgstr "然后从以下位置打开“ RTCAlarm”示例：“File”->“Examples”->“ RTC”->“ RTCAlarm”："
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:29 RTC Simple
 msgid "|1|"
@@ -73,7 +78,8 @@ msgid ""
 "button. When the alarm time (10 seconds) is reached the attached "
 "interrupt function will print the following information: “Alarm Matched!”"
 " showing in this figure below."
-msgstr ""
+msgstr "在范例中，RTC时间设置为16:00:00，闹钟设置为16:00:10。成功上传范例代码后，按重置按钮。"
+"当达到闹钟时间（10秒）时，附加的中断功能将打印以下信息：“Alarm Matched!” 如下图所示。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:36 RTC Simple
 msgid "|2|"

@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:12
 #: Memory Store data in
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:22
 #: Memory Store data in
@@ -48,7 +52,8 @@ msgid ""
 "be preserved when the power is off if necessary, e.g., compiled program. "
 "To avoid the memory space overlapped with the program on Ameba, the Flash"
 " API uses the tail part of the address space, with sector size 4K."
-msgstr ""
+msgstr "Ameba提供Flash Memory供储存永久性的资料，让Ameba断电之后这些资料可以保存。"
+"这些资料包括编译好的程式。为了避免覆盖到程式，Flash Api使用位址较后面的区段，大小为一个sector = 4K。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:25
 #: Memory Store data in
@@ -56,14 +61,14 @@ msgid ""
 "In this example, we store the value of boot times in flash memory. Every "
 "time Ameba reboots, it reads the boot times from flash, increases the "
 "value by 1, and writes it back to flash memory."
-msgstr ""
+msgstr "这个范例里将开机的次数存到flash里面，重开机之后将这个值读出来加1，再写回到flash里面，并显示在Serial Monitor上。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:28
 #: Memory Store data in
 msgid ""
 "First open the example, ``“File” -> “Example” -> “AmebaFlashMemory” -> "
 "“FlashMemoryBasic”``"
-msgstr ""
+msgstr "首先打开范例, “File” -> “Examples” -> “AmebaFlashMemory” -> “FlashMemoryBasic”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:29
 #: Memory Store data in
@@ -78,14 +83,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:31
 #: Memory Store data in
 msgid "Compile and upload to Ameba, then press the reset button."
-msgstr ""
+msgstr "将程式码编绎并上传到Ameba，结束之后按Reset按钮"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:33
 #: Memory Store data in
 msgid ""
 "Open the Serial Monitor, press the reset button for a few times. Then you"
 " can see the boot times value increases."
-msgstr ""
+msgstr "接着打开Serial Monitor，按个几次Reset按钮，会看到Boot count随着开机次数而增加，表示开机次数成功地写入到Flash Memory里面。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:34
 #: Memory Store data in
@@ -103,13 +108,15 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:40
 #: Memory Store data in
 msgid ""
 "By default, the Flash Memory API uses address 0xFF000~0xFFFFF to store "
 "data."
-msgstr ""
+msgstr "Flash Memory API预设使用位址0xFF000的Flash memory，大小为4K，即0xFF000~0xFFFFF"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:43
 #: Memory Store data in
@@ -119,20 +126,21 @@ msgid ""
 "that correctly, you need erase the sector first. The Flash API of Ameba "
 "uses a 4K SRAM to record the user modification and do the erase/write "
 "task together."
-msgstr ""
+msgstr "Flash Memory在读的时候可以直接读，但写入时则有限制，如果前一次该位址已被写入，则这次写入会有问题。"
+"要正确的写入，需要先erase sector，但会一次清除4K大小的Flash memory。所以Flash API里面使用4K大小的SRAM，记录使用者要做的修改，最后再一并erase/write"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:49
 #: Memory Store data in
 msgid "Use ``FlashMemory.read()`` to read from Flash memory."
-msgstr ""
+msgstr "FlashMemory.read()可以读出Flash memory的值"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:50
 #: Memory Store data in
 msgid "Use ``FlashMemory.buf[0] = 0x00;`` to manipulate the 4K buf."
-msgstr ""
+msgstr "FlashMemory.buf[0] = 0x00;可以直接操作4K大小的buf"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:51
 #: Memory Store data in
 msgid "Use ``FlashMemory.update();`` to update the data in buf to Flash Memory."
-msgstr ""
+msgstr "FlashMemory.update();可以将buf所有内容更新到Flash Memory里面"
 

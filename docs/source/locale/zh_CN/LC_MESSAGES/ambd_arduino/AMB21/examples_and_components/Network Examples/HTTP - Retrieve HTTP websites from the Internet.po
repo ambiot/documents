@@ -122,7 +122,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:41
 #: Retrieve from the websites
 msgid "Use ``WiFi.begin()`` to establish WiFi connection:"
-msgstr "使用WiFi.begin()建立WiFi连接:"
+msgstr "使用 ``WiFi.begin()`` 建立WiFi连接:"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:42
 #: Retrieve from the websites
@@ -137,7 +137,7 @@ msgstr "获取WiFi连接信息:"
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:44
 #: Retrieve from the websites
 msgid "Use ``WiFi.SSID()`` to get SSID of the current connected network."
-msgstr "使用WiFi.SSID()获取当前已连接网络的SSID。"
+msgstr "使用 ``WiFi.SSID()`` 获取当前已连接网络的SSID。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:45
 #: Retrieve from the websites
@@ -147,7 +147,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:46
 #: Retrieve from the websites
 msgid "Use ``WiFi.RSSI()`` to get the signal strength of the connection."
-msgstr "使用WiFi.RSSI()获得连接的信号强度。"
+msgstr "使用 ``WiFi.RSSI()`` 获得连接的信号强度。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:47
 #: Retrieve from the websites
@@ -157,7 +157,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:48
 #: Retrieve from the websites
 msgid "Use ``WiFi.localIP()`` to get the IP address of Ameba."
-msgstr "使用WiFi.localIP()获取Ameba的IP地址。"
+msgstr "使用 ``WiFi.localIP()`` 获取Ameba的IP地址。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:49
 #: Retrieve from the websites
@@ -182,5 +182,5 @@ msgstr "使用HTTPClient创建一个客户端来处理HTTP连接"
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:54
 #: Retrieve from the websites
 msgid "Use ``http.get()`` to send a GET request to the website."
-msgstr "使用http.get()向网站发送GET请求"
+msgstr "使用 ``http.get()`` 向网站发送GET请求"
 

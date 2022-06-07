@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-23 07:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:12 to
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Procedure** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:18 to
@@ -49,33 +53,33 @@ msgid ""
 "network. The second type of encryption is WPA, which requires the correct"
 " password to access. The third type is WEP, which requires a hexadecimal "
 "password and a keyindex."
-msgstr ""
+msgstr "常见的WiFi有三种加密方式，一种为OPEN，即没有密码，第二种为WPA，即我们通常使用的密码，第三种为WEP，会需要十六进制的密码以及一个初向量 (keyindex)。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:24 to
 msgid ""
 "In the following, we will give a brief introduction on how to establish "
 "WiFi connection with these three types of encryption on Ameba."
-msgstr ""
+msgstr "下面我们将分别介绍这三种加密方式的WiFi连线方法。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:27 to
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
 "“Tools” -> “Board”."
-msgstr ""
+msgstr "确保在 “Tools” -> “Board” 中选择了正确的Ameba开发板。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:30 to
 msgid "Open (WiFi connection without password)"
-msgstr ""
+msgstr "Open (即无密码的WiFi连线)"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:32 to
 msgid ""
 "Open the “ConnectNoEncryption” example in ``“File” -> “Examples” -> "
 "“AmebaWiFi” -> “ConnectWithWiFi” -> “ConnectNoEncryption”`` |1| \\"
-msgstr ""
+msgstr "打开 Connect No Encryption 的范例, “File” -> “Examples” -> “AmebaWiFi” -> “ConnectNoEncryption”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:107 to
@@ -87,7 +91,7 @@ msgstr ""
 msgid ""
 "In the sample code, modify “ssid” to be the same as the WiFi SSID to be "
 "connected to."
-msgstr ""
+msgstr "在SSID后修改“yourNetwork”为要连线的WiFi名称。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:38 networks.rst:53 to
@@ -96,7 +100,7 @@ msgid ""
 "you will see a message “You’re connected to the networkSSID: XXXXX”, and "
 "the information of this WiFi connection is printed in the serial monitor "
 "every 10 seconds."
-msgstr ""
+msgstr "修改之后上传程式码，按下Ameba的Reset按钮, 这时候会看到You’re connected to the networkSSID: XXXXX,以及后面会每十秒列印出WiFi信息。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:43 to
@@ -111,14 +115,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:45 to
 msgid "WiFi connection with WPA encryption"
-msgstr ""
+msgstr "WPA加密模式的WiFi连线"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:47 to
 msgid ""
 "Open the “ConnectWithWPA” example in ``“File” -> “Examples” -> "
 "“AmebaWiFi” -> “ConnectWithWiFi” -> “ConnectWithWPA”`` |3|\\"
-msgstr ""
+msgstr "打开 Connect With WPA 的范例, “File” -> “Examples” -> “AmebaWiFi” -> “ConnectWithWPA”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:115 to
@@ -130,19 +134,19 @@ msgstr ""
 msgid ""
 "In the sample code, modify “ssid” to the WiFi SSID to be connected to and"
 " “pass” to the network password."
-msgstr ""
+msgstr "在SSID后修改“yourNetwork”为要连线的WiFi名称, “secretPassword”改为对应的密码。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:58 to
 msgid "WiFi connection with WEP encryption"
-msgstr ""
+msgstr "WEP加密模式的WiFi连线"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:60 to
 msgid ""
 "Open the “ConnectWithWEP” example in ``“File” -> “Examples” -> "
 "“AmebaWiFi” -> “ConnectWithWiFi” -> “ConnectWithWEP”`` |4|\\"
-msgstr ""
+msgstr "打开 Connect With WEP 的范例, “File” -> “Examples” -> “AmebaWiFi” -> “ConnectWithWEP”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:119 to
@@ -154,7 +158,7 @@ msgstr ""
 msgid ""
 "In the sample code, modify “ssid” to the SSID to be connected, “key” to "
 "the hexadecimal password, “keyIndex” to your key index number."
-msgstr ""
+msgstr "在SSID后修改“yourNetwork”为要连线的WiFi名称, key改为对应的十六进制的密码，keyIndex 修改为对应的数字。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:66 to
@@ -163,7 +167,7 @@ msgid ""
 "you will see a message “You’re connected to the networkSSID: XXXXX”, and "
 "the information of this WiFi connection is printed in the IDE every 10 "
 "seconds."
-msgstr ""
+msgstr "修改之后上传程式码，按下Ameba的Reset按钮, 这时候会看到You’re connected to the networkSSID: XXXXX,以及后面会每十秒列印出WiFi信息。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:71 to
@@ -171,6 +175,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:75 to
@@ -180,12 +186,12 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:76 to
 msgid "To get the information of a WiFi connection:"
-msgstr ""
+msgstr "在连线WiFi时会使用到WiFi.begin();"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:77 to
 msgid "Use ``WiFi.SSID()`` to get SSID of the current connected network."
-msgstr ""
+msgstr "显示WiFi的名称WiFi.SSID()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:78 to
@@ -195,7 +201,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:79 to
 msgid "Use ``WiFi.RSSI()`` to get the signal strength of the connection."
-msgstr ""
+msgstr "显示WiFi的讯号强度WiFi.RSSI()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:80 to
@@ -207,7 +213,7 @@ msgstr ""
 msgid ""
 "Use ``WiFi.encryptionType()`` to get the encryption type of the WiFi "
 "connection."
-msgstr ""
+msgstr "显示WiFi的加密方式WiFi.encryptionType()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:83 to
@@ -219,7 +225,7 @@ msgstr ""
 msgid ""
 "Use ``WiFi.BSSID()`` to get the MAC address of the router you are "
 "connected to."
-msgstr ""
+msgstr "显示连线的路由器的物理地址即BSSID WiFi.BSSID()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:86 to
@@ -229,12 +235,12 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:87 to
 msgid "To get the information of Ameba:"
-msgstr ""
+msgstr "也会读取Ameba自己的信息："
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:88 to
 msgid "Use ``WiFi.macAddress()`` to get the MAC address of Ameba."
-msgstr ""
+msgstr "显示Ameba的MAC信息WiFi.macAddress()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:89 to
@@ -244,7 +250,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:90 to
 msgid "Use ``WiFi.localIP()`` to get the IP address of Ameba."
-msgstr ""
+msgstr "显示Ameba的IP信息WiFi.localIP()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:91 to
@@ -254,7 +260,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:92 to
 msgid "Use ``WiFi.subnetMask()`` to get the subnet mask."
-msgstr ""
+msgstr "显示子网掩码WiFi.subnetMask()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:93 to
@@ -264,7 +270,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:94 to
 msgid "Use ``WiFi.gatewayIP()`` to get the WiFi shield’s gateway IP address."
-msgstr ""
+msgstr "显示网关信息WiFi.gatewayIP()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:95 to
@@ -277,6 +283,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Comparison with"
 " Arduino** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **与Arduino的差异**"
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:103 to
@@ -284,12 +292,23 @@ msgid ""
 "In the Arduino platform, we need to add an extra WiFi shield to be the "
 "WiFi module to realize the WiFi connection. And we must ``#include`` to "
 "use SPI to communicate with WiFi module."
-msgstr ""
+msgstr "Arduino在完成WiFi的操作时，需要另外使用WiFi Shield来作为WiFi模块，因此在使用WiFi是需要 ``#include`` 来使用SPI与WiFi模块进行通讯。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:105 to
 msgid ""
 "However, Ameba is already equipped with WiFi module. Therefore, "
 "``#include`` is not needed."
-msgstr ""
+msgstr "但是Ameba自身就具有WiFi模块的功能，因此，不需要#include 。若想要使用Arduino的范例，要先删掉这一项。"
+
+#~ msgid ""
+#~ "Next, upload the sample code, and "
+#~ "press the reset button on Ameba. "
+#~ "Then you will see a message "
+#~ "“You’re connected to the networkSSID: "
+#~ "XXXXX”, and the information of this "
+#~ "WiFi connection is printed in the "
+#~ "serial monitor every 10 seconds. |2| "
+#~ "\\"
+#~ msgstr ""
 

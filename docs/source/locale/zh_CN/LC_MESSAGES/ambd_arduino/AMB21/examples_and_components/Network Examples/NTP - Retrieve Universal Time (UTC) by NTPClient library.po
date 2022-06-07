@@ -135,7 +135,7 @@ msgid ""
 "After connecting to WiFi, the NTPClient is started using the ``begin()`` "
 "function, which causes the client to sync with the NTP server and get the"
 " UTC time."
-msgstr "连接到WiFi后，将使用begin（）函数启动NTPClient，这将导致客户端与NTP服务器同步并获取UTC时间。"
+msgstr "连接到WiFi后，将使用 ``begin（）`` 函数启动NTPClient，这将导致客户端与NTP服务器同步并获取UTC时间。"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:63
@@ -148,6 +148,6 @@ msgid ""
 "``getFormattedTime()`` is used to format the received UTC time into the "
 "local time zone. ``update()`` is called every loop so that the NTPClient "
 "will sync with the NTP server once every update interval."
-msgstr "getFormattedTime（）用于将接收到的UTC时间格式化为本地时区。"
-"每个循环呼叫update（），以便NTPClient将在每个更新间隔与NTP服务器同步一次。"
+msgstr "``getFormattedTime（）`` 用于将接收到的UTC时间格式化为本地时区。"
+"每个循环呼叫 ``update（)``，以便NTPClient将在每个更新间隔与NTP服务器同步一次。"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-23 07:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:12
 #: Use
@@ -38,6 +40,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Google Cloud "
 "IoT Configuration** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Google Cloud IoT 设置**"
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:18
 #: Use
@@ -45,14 +49,15 @@ msgid ""
 "1. Select or create a Cloud Platform project In the Google Cloud Console,"
 " select an existing project or create a new project. You will need a "
 "**Project ID** to use with Ameba."
-msgstr ""
+msgstr "1.选择或创建一个Cloud Platform项目"
+"在Google Cloud Console中，选择一个现有项目或创建一个新项目。您需要 **Project ID** 才能与Ameba一起使用。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:22
 #: Use
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:242
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:236
 #: Use
 msgid "1"
 msgstr ""
@@ -62,14 +67,14 @@ msgstr ""
 msgid ""
 "If creating a new project, enter a project name, and take note of the "
 "**Project ID** generated."
-msgstr ""
+msgstr "如果创建新项目，请输入项目名称，并记下生成的 **Project ID** 。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:27
 #: Use
 msgid "|image1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:246
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:240
 #: Use
 msgid "image1"
 msgstr ""
@@ -83,14 +88,18 @@ msgid ""
 "https://cloud.google.com/billing/docs/how-to/modify-project 3. Enable the"
 " Cloud IoT Core API In Google Cloud console, click on the top left menu "
 "button and search for IoT Core."
-msgstr ""
+msgstr "2.为您的项目启用计费"
+"需要为您的项目启用结算功能，才能使用Google Cloud Platform功能。请遵循Google云端文档中的指南以启用计费。"
+"https://cloud.google.com/billing/docs/how-to/modify-project "
+"3.启用 Cloud IoT Core API"
+"在Google Cloud控制台中，单击左上方的菜单按钮，然后搜索IoT Core。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:36
 #: Use
 msgid "|image2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:250
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:244
 #: Use
 msgid "image2"
 msgstr ""
@@ -98,14 +107,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:38
 #: Use
 msgid "Click enable to activate Google Cloud IoT API for your project."
-msgstr ""
+msgstr "点击启用，为您的项目激活Google Cloud IoT API"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:41
 #: Use
 msgid "|image3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:254
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:248
 #: Use
 msgid "image3"
 msgstr ""
@@ -115,14 +124,15 @@ msgstr ""
 msgid ""
 "4. Create a Cloud Pub\\/Sub topic In Google Cloud console, click on the "
 "top left menu button and search for Pub\\/Sub."
-msgstr ""
+msgstr "4.创建一个Cloud Pub / Sub主题"
+"在Google Cloud控制台中，单击左上方的菜单按钮，然后搜索Pub/Sub。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:46
 #: Use
 msgid "|image4|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:258
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:252
 #: Use
 msgid "image4"
 msgstr ""
@@ -130,14 +140,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:48
 #: Use
 msgid "Create a new topic for your project and give it a suitable topic ID."
-msgstr ""
+msgstr "为您的项目创建一个新主题，并为其指定合适的主题ID。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:51
 #: Use
 msgid "|image5|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:262
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:256
 #: Use
 msgid "image5"
 msgstr ""
@@ -147,7 +157,7 @@ msgstr ""
 msgid "|image6|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:266
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:260
 #: Use
 msgid "image6"
 msgstr ""
@@ -158,14 +168,14 @@ msgid ""
 "After the topic is created, go to the permissions tab of the info panel, "
 "and add “cloud-iot@system.gserviceaccount.com” with the role of "
 "“Pub\\/Sub Publisher”."
-msgstr ""
+msgstr "创建主题后，转到面板的权限选项，并添加具有“Pub/Sub Publisher“ cloud-iot@system.gserviceaccount.com”。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:61
 #: Use
 msgid "|image7|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:270
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:264
 #: Use
 msgid "image7"
 msgstr ""
@@ -175,7 +185,7 @@ msgstr ""
 msgid "|image8|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:274
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:268
 #: Use
 msgid "image8"
 msgstr ""
@@ -185,7 +195,7 @@ msgstr ""
 msgid "|image9|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:278
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:272
 #: Use
 msgid "image9"
 msgstr ""
@@ -195,14 +205,14 @@ msgstr ""
 msgid ""
 "5.Create a device registry Go back to the IoT Core settings page and "
 "create a new registry."
-msgstr ""
+msgstr "5.创建设备注册返回IoT Core设置页面并创建一个新注册。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:70
 #: Use
 msgid "|image10|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:282
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:276
 #: Use
 msgid "image10"
 msgstr ""
@@ -212,7 +222,7 @@ msgstr ""
 msgid "|image11|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:286
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:280
 #: Use
 msgid "image11"
 msgstr ""
@@ -223,14 +233,15 @@ msgid ""
 "Choose a suitable **Registry ID** and **\\ in which to store data. "
 "Remember the **Registry ID** and **Region**\\ for use with Ameba later. "
 "For the Pub/Sub topic, select the topic created in the previous step."
-msgstr ""
+msgstr "选择合适的Registry ID，然后选择用于存储数据的服务器 **Region** 。请记住 **Registry ID** 和 **Region**，以便以后与Ameba一起使用。"
+"对于Pub/Sub主题，选择在上一步中创建的主题。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:80
 #: Use
 msgid "|image12|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:290
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:284
 #: Use
 msgid "image12"
 msgstr ""
@@ -243,14 +254,14 @@ msgid ""
 " public key pair. Two files will be created by these commands, "
 "“ec_private.pem” containing the private key, and “ec_public.pem” "
 "containing the public key."
-msgstr ""
+msgstr "6.创建一对公钥/私钥在Windows/Linux/MacOs的终端中使用Openssl，运行以下命令以生成私钥和公钥对。这些命令将创建两个文件，包含私钥的“ec_private.pem”和包含公钥的“ec_public.pem”。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:94
 #: Use
 msgid "|image13|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:294
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:288
 #: Use
 msgid "image13"
 msgstr ""
@@ -260,14 +271,14 @@ msgstr ""
 msgid ""
 "Run the next command to extract out the private key, and remember the "
 "highlighted string of hexadecimal numbers for use with Ameba later."
-msgstr ""
+msgstr "运行下一个命令以提取私钥，并记住标注的十六进制字符串，以供以后与Ameba一起使用"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:104
 #: Use
 msgid "|image14|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:298
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:292
 #: Use
 msgid "image14"
 msgstr ""
@@ -277,14 +288,14 @@ msgstr ""
 msgid ""
 "7. Create a device Go back to the IoT Core settings page and create a new"
 " device."
-msgstr ""
+msgstr "7.创建一个设备返回IoT Core设置页面并创建新设备。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:109
 #: Use
 msgid "|image15|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:302
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:296
 #: Use
 msgid "image15"
 msgstr ""
@@ -294,14 +305,14 @@ msgstr ""
 msgid ""
 "Give the device a suitable **Device ID** and remember it for use with "
 "Ameba later."
-msgstr ""
+msgstr "给设备一个合适的 **Device ID**，并记住它以便以后与Ameba一起使用。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:114
 #: Use
 msgid "|image16|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:306
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:300
 #: Use
 msgid "image16"
 msgstr ""
@@ -311,14 +322,14 @@ msgstr ""
 msgid ""
 "In the authentication section of the additional options, upload the "
 "previously generated “ec_public.pem” public key."
-msgstr ""
+msgstr "在其他选项的身份验证部分，上载先前生成的“ec_public.pem”公钥"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:120
 #: Use
 msgid "|image17|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:310
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:304
 #: Use
 msgid "image17"
 msgstr ""
@@ -328,14 +339,14 @@ msgstr ""
 msgid ""
 "8. Create a Cloud Pub/Sub subscription To observe messages sent by Ameba,"
 " create a subscription in Pub/Sub."
-msgstr ""
+msgstr "8.创建Cloud Pub/Sub 订阅要观察Ameba发送的消息，请在Pub/Sub中创建订阅。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:126
 #: Use
 msgid "|image18|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:314
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:308
 #: Use
 msgid "image18"
 msgstr ""
@@ -343,14 +354,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:128
 #: Use
 msgid "Choose a suitable subscription ID and select the previously created topic."
-msgstr ""
+msgstr "选择一个合适的订阅ID，然后选择以前创建的主题。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:131
 #: Use
 msgid "|image19|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:318
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:312
 #: Use
 msgid "image19"
 msgstr ""
@@ -361,40 +372,42 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:138
 #: Use
 msgid ""
 "Open the example in ``“File” -> “Examples” -> “AmebaMQTTClient” -> "
 "“Google_Cloud_IoT”``."
-msgstr ""
+msgstr "打开范例 “File” -> “Examples” -> “AmebaMQTTClient” -> “Google_Cloud_IoT”。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:140
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:139
 #: Use
 msgid "|image20|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:322
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:316
 #: Use
 msgid "image20"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:142
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:140
 #: Use
 msgid "Enter the required information in the highlighted sections below."
-msgstr ""
+msgstr "在下面标注的部分中输入所需的信息。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:144
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:141
 #: Use
 msgid "|image21|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:326
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:320
 #: Use
 msgid "image21"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:153
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:149
 #: Use
 msgid ""
 "In the yellow section, enter the SSID and password required to connect to"
@@ -404,97 +417,182 @@ msgid ""
 "extracted from the private key. Upload the code and press the reset "
 "button on Ameba once the upload is finished. Open the serial monitor and "
 "observe as Ameba connects and sends messages to Google Cloud IoT."
-msgstr ""
+msgstr "在黄色部分中，输入连接到WiFi网络所需的SSID和密码。"
+"在绿色部分中，输入之前在Google Cloud控制台中配置的项目ID，服务器区域，Registry ID和Device ID。"
+"在蓝色部分中，输入先前从私钥中提取的十六进制字符串。"
+"上传代码并在上传完成后按Ameba上的重置按钮。打开串行端口，观察Ameba连接并向Google Cloud IoT发送消息。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:155
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:150
 #: Use
 msgid "|image22|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:330
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:324
 #: Use
 msgid "image22"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:159
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:153
 #: Use
 msgid ""
 "In Google Cloud console, go to Pub/Sub subscriptions, select the "
 "previously created subscription, and click view messages. Here you can "
 "view the messages sent by Ameba."
-msgstr ""
+msgstr "在Google Cloud控制台中，转到Pub/Sub订阅，选择先前创建的订阅，然后单击查看消息。在这里您可以查看Ameba发送的消息。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:162
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:156
 #: Use
 msgid "|image23|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:334
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:328
 #: Use
 msgid "image23"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:165
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:159
 #: Use
 msgid "|image24|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:338
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:332
 #: Use
 msgid "image24"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:167
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:161
 #: Use
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:171
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:165
 #: Use
 msgid ""
 "In ``setup()``, we set up RootCA which is required to form a TLS "
 "connection with Google’s servers."
-msgstr ""
+msgstr "在setup（）中，我们设置了RootCA，这是与Google服务器建立TLS连接所必需的。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:178
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:172
 #: Use
 msgid ""
 "In ``loop()``, each loop checks the Internet status and re-connect to it "
 "when the environment has a problem."
-msgstr ""
+msgstr "在loop（）中，每个循环都会检查Internet状态，并在环境出现问题时重新连接到Internet。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:191
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:185
 #: Use
 msgid ""
 "To publish messages, mqtt_id , clientPass and pub_topic are required. "
 "mqtt_id is generated by printing the project ID, server location, "
 "registry ID and device ID in the required format:"
-msgstr ""
+msgstr "要发布消息，需要mqtt_id，clientPass和pub_topic。"
+"通过project ID，服务器位置，registry ID和device ID来生成mqtt_id："
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:200
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:194
 #: Use
 msgid ""
 "``clientPass`` is generated using a JSON web token (JWT) generator "
 "function, which requires the project ID and current time, and signs it "
 "with the private key:"
-msgstr ""
+msgstr "clientPass是使用JSON web token（JWT）生成器函数生成的，该函数需要project ID和当前时间，并使用私钥对其进行签名："
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:208
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:202
 #: Use
 msgid ""
 "``pub_topic`` is generated by printing the project ID and topic in the "
 "required format:"
-msgstr ""
+msgstr "pub_topic是通过project ID和主题生成的："
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:216
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:210
 #: Use
 msgid "MQTT Server setting:"
-msgstr ""
+msgstr "MQTT Server 设定:"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:224
+#: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:218
 #: Use
 msgid "Connect to google cloud and publish messages:"
-msgstr ""
+msgstr "连接到Google Cloud并发布消息："
+
+#~ msgid ""
+#~ "1. Select or create a Cloud "
+#~ "Platform project In the Google Cloud "
+#~ "Console, select an existing project or"
+#~ " create a new project. You will "
+#~ "need a **Project ID** to use with"
+#~ " Ameba.\\ |1|\\ If creating a new "
+#~ "project, enter a project name, and "
+#~ "take note of the **Project ID** "
+#~ "generated. \\ |image1|\\ 2. Enable "
+#~ "billing for your project Billing needs"
+#~ " to be enabled for your project "
+#~ "to use Google Cloud Platform features."
+#~ " Follow the guide in Google cloud "
+#~ "documentation to enable billing. "
+#~ "https://cloud.google.com/billing/docs/how-to/modify-"
+#~ "project 3. Enable the Cloud IoT "
+#~ "Core API In Google Cloud console, "
+#~ "click on the top left menu button"
+#~ " and search for IoT Core.\\ "
+#~ "|image2|\\ Click enable to activate "
+#~ "Google Cloud IoT API for your "
+#~ "project.\\ |image3|\\ 4. Create a Cloud"
+#~ " Pub\\/Sub topic In Google Cloud "
+#~ "console, click on the top left "
+#~ "menu button and search for Pub\\/Sub.\\"
+#~ " |image4|\\ Create a new topic for"
+#~ " your project and give it a "
+#~ "suitable topic ID.\\ |image5|\\ |image6|\\ "
+#~ "After the topic is created, go to"
+#~ " the permissions tab of the info "
+#~ "panel, and add “cloud-"
+#~ "iot@system.gserviceaccount.com” with the role "
+#~ "of “Pub\\/Sub Publisher”. \\ |image7|\\ "
+#~ "|image8|\\ |image9|\\ 5.Create a device "
+#~ "registry Go back to the IoT Core"
+#~ " settings page and create a new "
+#~ "registry.\\ |image10|\\ |image11|\\ Choose a"
+#~ " suitable **Registry ID** and **\\ in"
+#~ " which to store data. Remember the"
+#~ " **Registry ID** and **Region**\\ for "
+#~ "use with Ameba later. For the "
+#~ "Pub/Sub topic, select the topic created"
+#~ " in the previous step.\\ |image12|\\ "
+#~ "6. Create a public/private key pair "
+#~ "Using Openssl in a terminal in "
+#~ "Windows/Linux/MacOs, run the following "
+#~ "commands to generate a private and "
+#~ "public key pair. Two files will be"
+#~ " created by these commands, "
+#~ "“ec_private.pem” containing the private key,"
+#~ " and “ec_public.pem” containing the public"
+#~ " key."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Give the device a suitable **Device "
+#~ "ID** and remember it for use with"
+#~ " Ameba later.\\ |image16|\\ In the "
+#~ "authentication section of the additional "
+#~ "options, upload the previously generated "
+#~ "“ec_public.pem” public key.\\ |image17|\\ 8."
+#~ " Create a Cloud Pub/Sub subscription "
+#~ "To observe messages sent by Ameba, "
+#~ "create a subscription in Pub/Sub.\\ "
+#~ "|image18|\\ Choose a suitable subscription "
+#~ "ID and select the previously created "
+#~ "topic.\\ |image19|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Google Cloud console, go to "
+#~ "Pub/Sub subscriptions, select the previously"
+#~ " created subscription, and click view "
+#~ "messages. Here you can view the "
+#~ "messages sent by Ameba.\\ |image23|\\ "
+#~ "|image24|"
+#~ msgstr ""
 

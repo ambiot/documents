@@ -26,7 +26,7 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
 ":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:12 UART
@@ -51,7 +51,7 @@ msgid ""
 "runs a BLE UART service, while the other connects to the service using a "
 "client and both boards are able to communicate with text messages over "
 "the UART service."
-msgstr "在此範例中，使用BLE連接兩個RTL8722開發板。 其中一個運行BLE UART服務，另一個使用客戶端連接到該服務，並且兩塊開發板都可以通過UART服務進行通信。"
+msgstr "在此范例中，使用BLE连接两个RTL8722开发板。其中一个运行BLE UART服务，另一个使用客户端连接到该服务，并且两块开发板都可以通过UART服务进行通信。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:25 UART
 msgid "**Procedure**"
@@ -61,13 +61,13 @@ msgstr "**流程**"
 msgid ""
 "On the first board, upload the BLE UART service example code. Refer to "
 "the example guide for detailed instructions."
-msgstr "在第一個開發板上，上傳BLE UART服務範例代碼。 有關詳細說明，請參考範例說明。"
+msgstr "在第一个开发板上，上传BLE UART服务范例代码。有关详细说明，请参考范例说明。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:30 UART
 msgid ""
 "For the second board, open the example, ``“Files” -> “Examples” -> "
 "“AmebaBLE” -> “BLEUartClient”``."
-msgstr "對於第二個開發板，打開範例，“Files”->“Examples”->“AmebaBLE”->“BLEUartClient”。"
+msgstr "对于第二个开发板，打开范例，“Files”->“Examples”->“AmebaBLE”->“BLEUartClient”。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:33 UART
 msgid "|1|"
@@ -81,7 +81,7 @@ msgstr ""
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
-msgstr "上傳代碼並在上傳完成後按Ameba上的重置按鈕。"
+msgstr "上传代码并在上传完成后按Ameba上的重置按钮。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:43 UART
 msgid ""
@@ -93,9 +93,9 @@ msgid ""
 "characteristic. Any message typed in the serial terminal will be sent to "
 "the other board using the UART service."
 msgstr ""
-"首先重置UART服務開發板，等待BLE廣播開始，然後重置UART客戶端開發板。 客戶端開發板應掃描，發現並連接到服務。 "
-"連接後，客戶端開發板將在啟用關於TX特性的通知之前，驗證服務開發板上是否存在正確的UART服務。"
-"使用UART服務將在串行終端中鍵入的任何消息發送到另一個開發板。"
+"首先重置UART服务开发板，等待BLE广播开始，然后重置UART客户端开发板。客户端开发板应扫描，"
+"发现并连接到服务。连接后，客户端开发板将在启用关于TX特性的通知之前，验证服务开发板上是否存在正确的UART服务。"
+"使用UART服务将在串行终端中键入的任何消息发送到另一个开发板。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Client.rst:45 UART
 msgid "|2|"
@@ -121,6 +121,6 @@ msgid ""
 " the services, characteristics and descriptors that exist on the "
 "connected device. These objects can then be used to read and write data "
 "to the connected device."
-msgstr "BLEClient class 用於發現連接的BLE設備上存在的服務。 發現過程將創建與連接的設備上存在的服務，"
-"特徵和描述符相對應的BLERemoteService，BLERemoteCharacteristic和BLERemoteDescriptor對象。 然後可以使用這些對象讀取與寫入數據至所連接的設備。"
+msgstr "BLEClient class 用于发现连接的BLE设备上存在的服务。发现过程将创建与连接的设备上存在的服务，"
+"特征和描述符相对应的BLERemoteService，BLERemoteCharacteristic和BLERemoteDescriptor对象。然后可以使用这些对象读取与写入数据至所连接的设备。"
 

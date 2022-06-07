@@ -39,7 +39,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:13 WiFi
 msgid "Android / iOS mobile phone"
-msgstr ""
+msgstr "Android / iOS 智能手机"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Configuration
 #: Service.rst:15 WiFi
@@ -231,5 +231,5 @@ msgid ""
 "``BLE.configAdvert()->setAdvType(configService.advData())`` is used to "
 "set the correct advertisement data necessary for the phone app to find "
 "the Ameba Bluetooth device."
-msgstr "BLE.configAdvert（）-> setAdvType（configService.advData（)）用于设置手机应用程序找到Ameba蓝牙设备所需的正确广播数据。"
+msgstr "``BLE.configAdvert（）-> setAdvType（configService.advData（)）`` 用于设置手机应用程序找到Ameba蓝牙设备所需的正确广播数据。"
 

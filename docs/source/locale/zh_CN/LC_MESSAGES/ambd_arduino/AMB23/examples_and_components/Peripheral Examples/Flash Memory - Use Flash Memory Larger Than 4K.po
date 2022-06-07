@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:12 Flash Larger
 #: Memory Than Use
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:20 Flash Larger
 #: Memory Than Use
@@ -47,14 +51,14 @@ msgid ""
 "Flash Memory API uses memory of 4K bytes, which is normally sufficient "
 "for most application. However, larger memory can be provided by "
 "specifying a specific memory address and required size."
-msgstr ""
+msgstr "Flash Memory API预设使用4K大小的memory，对大部份的应用应该已经足够，但如果遇到需要用到超过4K的情况，可以指定特定的位置与大小来使用。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:23 Flash Larger
 #: Memory Than Use
 msgid ""
 "First, open the sample code in ``“File” -> “Examples” -> "
 "“AmebaFlashMemory” -> “ReadWriteOneWord”``"
-msgstr ""
+msgstr "首先打开范例 “File” -> “Examples” -> “AmebaFlashMemory” -> “ReadWriteOneWord”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:27 Flash Larger
 #: Memory Than Use
@@ -62,7 +66,7 @@ msgid ""
 "In this example, we specify the starting address of flash memory is "
 "0xFC000 and size is 0x4000 (The default starting address is 0xFF000 and "
 "size is 0x1000)."
-msgstr ""
+msgstr "这个范例里会声明Flash起始位置为0xFC000, 大小为0x4000。 (预设起始位置为0xFF000，大小为0x1000)"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:31 Flash Larger
 #: Memory Than Use
@@ -71,7 +75,7 @@ msgid ""
 "perform read/write operation. In the sample code we use offset 0x3F00, "
 "that is, 0xFC000 + 0x3F00 = 0xFFF00 in flash. We set the value to 0 at "
 "first, then increase by 1 every time Ameba reboots."
-msgstr ""
+msgstr "然后根据offset对特定位置做读写。范例里使用offset 0x3F00，即Flash位置0xFC000 + 0x3F00 = 0xFFF00。第一次读出来将值设定成0，之后每次开机都加1。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:33 Flash Larger
 #: Memory Than Use
@@ -89,6 +93,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:39 Flash Larger
 #: Memory Than Use
@@ -96,7 +102,7 @@ msgid ""
 "We can use the flash api we used in previous flash memory example, but we"
 " need to use ``begin()`` function to specify the desired starting address"
 " and memory size."
-msgstr ""
+msgstr "之前的Flash API可以直接使用，但预设起始位置为0xFF000，大小为0x1000，如果要使用别的设定，则要呼叫begin()，范例里第一个参数是起始位置，第二个参数是大小"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:47 Flash Larger
 #: Memory Than Use
@@ -105,12 +111,12 @@ msgid ""
 "example, we read the value stored in memory offset 0x3F00, that is "
 "0xFC000 + 0x3F00 = 0xFFF00. ``readWord()`` function reads a 32-bit value "
 "and returns it."
-msgstr ""
+msgstr "要读出这个区块的值，使用readWord()，范例里读出offset 0x3F00的地方，也就是0xFC000 + 0x3F00 = 0xFFF00的位置，读出来的大小为32-bit，放在回传值里"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:56 Flash Larger
 #: Memory Than Use
 msgid ""
 "Use ``writeWord()`` to write to a memory address. The first argument is "
 "the memory offset, the second argument is the value to write to memory."
-msgstr ""
+msgstr "写入则使用writeWord()，第一个参数是offset，第二个参数是要写入的值。"
 

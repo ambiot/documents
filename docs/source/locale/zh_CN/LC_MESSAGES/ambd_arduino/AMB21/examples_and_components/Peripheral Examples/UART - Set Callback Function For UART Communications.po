@@ -56,7 +56,7 @@ msgid ""
 "This example shows how to set a callback function for UART communication "
 "to process the UART data."
 msgstr "这个例子展示了如何为UART通信设置一个回调函数来处理UART数据。"
-"本例需要一个USB到TTL的适配器。确保已安装驱动程序并如图将其连接到Ameba板上。"
+
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Callback
 #: Communications.rst:23 For Function Set UART
@@ -64,6 +64,7 @@ msgid ""
 "A USB to TTL adapter is required for this example. Ensure that you have "
 "the driver installed and connect it to the Ameba board as shown."
 msgstr ""
+"本例需要一个USB到TTL的适配器。确保已安装驱动程序并如图将其连接到Ameba板上。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Callback
 #: Communications.rst:25 For Function Set UART

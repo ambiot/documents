@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:12 to up
@@ -39,7 +41,7 @@ msgstr ""
 msgid ""
 "Laptop（Make sure it is connected to the same network domain as Ameba, and"
 " tcp tools are installed.）"
-msgstr ""
+msgstr "Laptop（可与Ameba连到相同网域，并安装TCP工具）"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:16 to up
@@ -47,27 +49,29 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:20 to up
 msgid ""
 "In this example, we first connect Ameba to WiFi, then we use Ameba as "
 "server to communicate with client."
-msgstr ""
+msgstr "这个范例里，我们使用 Ameba 连上WiFi，作为服务器，与连接过来的客户端进行对话。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:23 to up
 msgid ""
 "First, we make sure the correct Ameba development board is set in “Tools”"
 " -> “Board”"
-msgstr ""
+msgstr "确保在 “Tools” -> “Board” 中选择了正确的Ameba开发板。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:26 to up
 msgid ""
 "Then, open the Simple WiFi Server example in ``“File” -> “Examples” -> "
 "“AmebaWiFi” -> “SimpleServerWiFi”``"
-msgstr ""
+msgstr "然后打开 Simple Web Server的范例, “File” -> “Examples” -> “AmebaWiFi” -> “SimpleServerWiFi”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:29 to up
@@ -84,7 +88,7 @@ msgstr ""
 msgid ""
 "In the sample code, modify the highlighted parameters and enter the ssid "
 "and password for your WiFi connection."
-msgstr ""
+msgstr "将WiFi 连线的相关讯息进行修改，将下图中黄色标注的地方进行对应的修改。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:34 to up
@@ -102,7 +106,7 @@ msgid ""
 "Next, upload the code, then press the reset button on Ameba. At this "
 "moment, you will see the connection information is displayed in the "
 "console."
-msgstr ""
+msgstr "上传程式码之后，按下Ameba 的Reset 按钮, 这时会看到WiFi 连线后的信息。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:42 to up
@@ -110,7 +114,7 @@ msgid ""
 "Next, we use the socket tool in the laptop to be the client and connect "
 "to the IP address of the Ameba board shown in the connection information "
 "at port 5000. (Note: The socket tool we used in this example is “sokit”)"
-msgstr ""
+msgstr "在laptop 上的socket 工具上（本示例中使用的工具为“sokit” ）通过获取的IP地址以及范例中设定的port 5000 来进行连线。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:47 to up
@@ -127,7 +131,7 @@ msgstr ""
 msgid ""
 "Click on the “Client” tab to choose the client mode, specify the IP and "
 "port of the server, then click “TCP Connect”."
-msgstr ""
+msgstr "选取Client 模式，填写Server IP 和port 信息，点击 “TCP Connect”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:52 to up
@@ -135,7 +139,7 @@ msgid ""
 "If the connection is established successfully, the server shows a "
 "message: “A client connected to this Server”, and the IP and port of the "
 "connected client."
-msgstr ""
+msgstr "连接成功后会显示”A client connected to this Server”，以及Client的IP和port讯息。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:56 to up
@@ -143,7 +147,7 @@ msgid ""
 "In this example, when the client and server are connected and the client "
 "sends a string to Ameba server, the Ameba server returns the identical "
 "string back to the client."
-msgstr ""
+msgstr "从Client 发送一个字串过来，Ameba收到后，会将这个字串再发给Client。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:60 to up
@@ -158,7 +162,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:62 to up
 msgid "The string sent to server is returned and showed at the client side."
-msgstr ""
+msgstr "客户端会显示收到这个字串。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:64 to up
@@ -166,11 +170,13 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:68 to up
 msgid "Use ``WiFi.begin()`` to establish WiFi connection;"
-msgstr ""
+msgstr "在连线WiFi时会使用到 ``WiFi.begin()``;"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:69 to up
@@ -180,12 +186,12 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:70 to up
 msgid "To get the information of a WiFi connection:"
-msgstr ""
+msgstr "连线成功后会读取WiFi的信息："
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:71 to up
 msgid "Use ``WiFi.SSID()`` to get SSID of the current connected network."
-msgstr ""
+msgstr "显示WiFi的名称WiFi.SSID()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:72 to up
@@ -195,7 +201,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:73 to up
 msgid "Use ``WiFi.RSSI()`` to get the signal strength of the connection."
-msgstr ""
+msgstr "显示WiFi的讯号强度WiFi.RSSI()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:74 to up
@@ -205,7 +211,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:75 to up
 msgid "Use ``WiFi.localIP()`` to get the Ameba WiFi shield’s IP address."
-msgstr ""
+msgstr "显示Ameba的IP信息WiFi.localIP()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:76 to up
@@ -215,14 +221,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:77 to up
 msgid "Create server and transmitting data:"
-msgstr ""
+msgstr "创建服器器并传输数据。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:79 to up
 msgid ""
 "Use ``Server(port)`` to create a server that listens on the specified "
 "port."
-msgstr ""
+msgstr "设定服务器的端口号WiFiServer server(5000)"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:80 to up
@@ -234,7 +240,7 @@ msgstr ""
 msgid ""
 "Use ``server.begin()`` to tell the server to begin listening for incoming"
 " connections."
-msgstr ""
+msgstr "开始服务器的监听server.begin();"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:83 to up
@@ -246,7 +252,7 @@ msgstr ""
 msgid ""
 "Use ``server.available()`` to get a client that is connected to the "
 "server and has data available for reading."
-msgstr ""
+msgstr "判断是否有客户端连线server.available()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:86 to up
@@ -256,7 +262,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:87 to up
 msgid "Use ``client.read()`` to read the next byte received from the server."
-msgstr ""
+msgstr "从Server读取数据client.read()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:88 to up
@@ -266,7 +272,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:89 to up
 msgid "Use ``client.write()`` to write data to the server."
-msgstr ""
+msgstr "对Server发送数据client.write()"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:90 to up
@@ -276,7 +282,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:91 to up
 msgid "Use ``client.stop()`` to disconnect from the server."
-msgstr ""
+msgstr "与Server断开连线client.stop();"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:92 to up

@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:12
@@ -37,7 +39,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:13
 msgid "Adafruit LSM9DS1 accelerometer"
-msgstr ""
+msgstr "Adafruit LSM9DS1 加速感测器"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:14
@@ -50,23 +52,25 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:20
 msgid "**Procedure**"
-msgstr ""
+msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:22
 msgid "**AMB21 / AMB22** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21/AMB22** 接线图:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:23
 msgid ""
 "Connect the accelerometer and LEDs to the AMB21/AMB22 following the "
 "diagram."
-msgstr ""
+msgstr "如下图，将加速感测器和LED连接到 AMB21 / AMB22 开发板上。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:25
@@ -81,12 +85,12 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:27
 msgid "**AMB23** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23** 接线图:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:28
 msgid "For AMB23, we will use the onboard LEDs on the board itself."
-msgstr ""
+msgstr "直接使用 AMB23 板上的LED"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:30
@@ -101,12 +105,12 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:32
 msgid "**BW16** Wiring Diagram:"
-msgstr ""
+msgstr "**BW16** 接线图:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:33
 msgid "For BW16, we will use the onboard LEDs on the board itself."
-msgstr ""
+msgstr "直接使用 BW16 板上的LED"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:35
@@ -125,6 +129,8 @@ msgid ""
 "Microcontrollers library at "
 "https://github.com/ambiot/tree/master/Arduino_zip_libraries."
 msgstr ""
+"从以下网址下载TensorFlow Lite for Microcontrollers的Ameba版本 "
+"https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:41
@@ -133,6 +139,8 @@ msgid ""
 "https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to"
 " install it."
 msgstr ""
+"请按照以下说明进行安装操作 https://docs.arduino.cc/software/ide-v1/tutorials"
+"/installing-libraries。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:44
@@ -140,13 +148,15 @@ msgid ""
 "Ensure that the patch files found at "
 "https://github.com/ambiot/tree/master/Ameba_misc/ are also installed."
 msgstr ""
+"确保在以下位置找到patch文件并安装 "
+"https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:49
 msgid ""
 "Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
 "-> “magic_wand”``."
-msgstr ""
+msgstr "打开范例， “Files” -> “Examples” -> “TensorFlowLite_Ameba” -> “magic_wand”."
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:52
@@ -163,7 +173,7 @@ msgstr ""
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
-msgstr ""
+msgstr "上传代码并在上传完成后按Ameba上的重置按钮。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:59
@@ -172,7 +182,7 @@ msgid ""
 "the right and the positive z-axis pointing upwards, move it following the"
 " shapes as shown, moving it in a smooth motion over 1 to 2 seconds, "
 "avoiding any sharp movements."
-msgstr ""
+msgstr "保持加速感测器稳定，使x轴的正极指向右侧，z轴的正极指向上方，按照所示形状移动加速感测器，使其平稳运动1至2秒钟，避免剧烈运动。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:61
@@ -190,14 +200,14 @@ msgid ""
 "If the movement is recognised by the Tensorflow Lite model, you should "
 "see the same shape output to the Arduino serial monitor. Different LEDs "
 "will light up corresponding to different recognized gestures."
-msgstr ""
+msgstr "如果Tensorflow Lite模型可以识别移动，则应该看到相同形状的输出到Arduino串行监视器。对应于不同的识别手势，不同的LED将亮起。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:67
 msgid ""
 "Note that the wing shape is easy to achieve, while the slope and ring "
 "shapes tend to be harder to get right."
-msgstr ""
+msgstr "请注意，机翼形状易于实现，而坡度和环形形状则更难于正确定位。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:69
@@ -215,13 +225,15 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明"
+"** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:75
 msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
 " https://www.tensorflow.org/lite/microcontrollers"
-msgstr ""
+msgstr "有关TensorFlow Lite for Microcontrollers的更多信息，请参考以下网址: https://www.tensorflow.org/lite/microcontrollers"
 
 #~ msgid ""
 #~ "Download the Ameba customized version of"

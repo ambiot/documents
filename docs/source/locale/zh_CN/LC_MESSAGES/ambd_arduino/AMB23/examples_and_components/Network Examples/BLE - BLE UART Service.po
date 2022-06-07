@@ -35,7 +35,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:13 UART
 msgid "Android / iOS smartphone"
-msgstr ""
+msgstr "Android / iOS 智能手机"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:15 UART
 msgid ""
