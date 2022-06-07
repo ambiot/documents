@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-12 10:15+0100\n"
+"POT-Creation-Date: 2022-06-06 10:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,7 +74,7 @@ msgid "|1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:81
+#: Wand.rst:78
 msgid "1"
 msgstr ""
 
@@ -94,7 +94,7 @@ msgid "|1-1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:85
+#: Wand.rst:82
 msgid "1-1"
 msgstr ""
 
@@ -114,7 +114,7 @@ msgid "|1-2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:89
+#: Wand.rst:86
 msgid "1-2"
 msgstr ""
 
@@ -142,41 +142,31 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:48
-msgid "In the Arduino IDE library manager, install the Arduino_LSM9DS1 library."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:50
-msgid "This example has been tested with version 1.1.0 of the LSM9DS1 library."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:52
+#: Wand.rst:49
 msgid ""
 "Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
 "-> “magic_wand”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:55
+#: Wand.rst:52
 msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:93
+#: Wand.rst:90
 msgid "2"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:58
+#: Wand.rst:55
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:62
+#: Wand.rst:59
 msgid ""
 "Holding the accelerometer steady, with the positive x-axis pointing to "
 "the right and the positive z-axis pointing upwards, move it following the"
@@ -185,17 +175,17 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:64
+#: Wand.rst:61
 msgid "|3|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:97
+#: Wand.rst:94
 msgid "3"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:68
+#: Wand.rst:65
 msgid ""
 "If the movement is recognised by the Tensorflow Lite model, you should "
 "see the same shape output to the Arduino serial monitor. Different LEDs "
@@ -203,31 +193,31 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:70
+#: Wand.rst:67
 msgid ""
 "Note that the wing shape is easy to achieve, while the slope and ring "
 "shapes tend to be harder to get right."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:72
+#: Wand.rst:69
 msgid "|4|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:101
+#: Wand.rst:98
 msgid "4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:74
+#: Wand.rst:71
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:78
+#: Wand.rst:75
 msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
 " https://www.tensorflow.org/lite/microcontrollers"
@@ -244,5 +234,13 @@ msgstr ""
 #~ "install the Arduino_LSM9DS1 library. This "
 #~ "example has been tested with version "
 #~ "1.1.0 of the LSM9DS1 library."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Arduino IDE library manager, "
+#~ "install the Arduino_LSM9DS1 library."
+#~ msgstr ""
+
+#~ msgid "This example has been tested with version 1.1.0 of the LSM9DS1 library."
 #~ msgstr ""
 

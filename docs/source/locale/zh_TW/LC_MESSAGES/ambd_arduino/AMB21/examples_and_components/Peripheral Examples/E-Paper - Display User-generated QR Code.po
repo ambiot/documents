@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:12 Display
 #: QR User-generated
@@ -45,6 +47,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:22 Display
 #: QR User-generated
@@ -53,7 +57,7 @@ msgid ""
 "2.9inch e-Paper module to display a few QR codes. The display uses the "
 "flexible substrate as a base plate, with an interface and a reference "
 "system design."
-msgstr ""
+msgstr "在此範例中，我們使用Ameba RTL8722模塊連接到Waveshare 2.9英寸e-Paper來顯示一些QR碼。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:26 Display
 #: QR User-generated
@@ -62,7 +66,8 @@ msgid ""
 "full display capabilities. An integrated circuit contains gate buffer, "
 "source buffer, interface, timing control logic, oscillator, etc… are "
 "supplied with each panel."
-msgstr ""
+msgstr "2.9英寸有效區域包含296×128像素，並具有白色/黑色全顯示功能。"
+"每個面板都提供了一個包含gate buffer, source buffer, interface, timing control logic, oscillator等的集成電路。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:30 Display
 #: QR User-generated
@@ -71,12 +76,13 @@ msgid ""
 "<https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
 "Paper_(D)_Specification.pdf>`__ to know more information about this "
 "module."
-msgstr ""
+msgstr "可以參考官方的 `2.9 inch e-Paper HAT(D) datasheet <https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
+"Paper_(D)_Specification.pdf>`__ ，以了解有關此模塊的更多信息。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:32 Display
 #: QR User-generated
 msgid "Front view of the e-Paper Module:"
-msgstr ""
+msgstr "e-Paper模塊:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:34 Display
 #: QR User-generated
@@ -168,14 +174,14 @@ msgstr ""
 msgid ""
 "Download the Eink zip library, AmebaEink.zip, at "
 "https://github.com/ambiot/tree/master/Arduino_zip_libraries"
-msgstr ""
+msgstr "在 https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries 下載 Eink 庫 AmebaEink.zip。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:58 Display
 #: QR User-generated
 msgid ""
 "Then install the AmebaEink.zip. Open the “DisplayQR” example in ``“File” "
 "→ “Examples” → “AmebaEink” → “DisplayQR”``: |4|"
-msgstr ""
+msgstr "接著安裝 AmebaEink.zip。 打開 “DisplayQR” 範例 “File” → “Examples” → “AmebaEink” → “DisplayQR”:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:111 Display
 #: QR User-generated
@@ -192,6 +198,9 @@ msgid ""
 " leads to our Ameba IoT official website: `Ameba ARDUINO "
 "<https://www.amebaiot.com/ameba-arduino-summary>`__"
 msgstr ""
+"根據需要修改 loop() 部分中的 URL，然後驗證代碼並將其上傳到 Ameba 板。"
+"上傳範例代碼後，按重置按鈕，根據您輸入的 URL 生成的二維碼將顯示在e-Paper模塊上。 "
+"下面顯示的二維碼可以連結至我們的 `Ameba IoT 網站 <https://www.amebaiot.com/ameba-arduino-summary>`__."
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:68 Display
 #: QR User-generated
@@ -209,6 +218,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
+"説明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:76 Display
 #: QR User-generated
@@ -216,7 +227,7 @@ msgid ""
 "[1] We use Good Display GDEH029A1 2.9 Inch / 296×128 Resolution / Partial"
 " Refresh Arduino Sample Code to get the e-Paper successfully Display: "
 "http://www.good-display.com/product/201.html"
-msgstr ""
+msgstr "[1] 我們使用Good Display GDEH029A1 2.9英寸/ 296×128解析度/部分刷新Arduino範例代碼來成功獲取e-Paper顯示："
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:78 Display
 #: QR User-generated
@@ -224,7 +235,9 @@ msgid ""
 "[2] Provide the link to how to generate a QR code on the E-paper module: "
 "https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-"
 "arduino.html"
-msgstr ""
+msgstr "[2] 提供如何在e-Paper模塊上生成二維碼的鏈接："
+"https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-"
+"arduino.html"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:81 Display
 #: QR User-generated
@@ -232,7 +245,8 @@ msgid ""
 "[3] A simple library for generating QR codes in C, optimized for "
 "processing and memory-constrained systems: "
 "https://github.com/ricmoo/QRCode#data-capacities"
-msgstr ""
+msgstr "[3]用於在 C 中生成 QR 碼的庫，針對處理和內存受限系統進行了優化："
+"https://github.com/ricmoo/QRCode#data-capacities"
 
 #~ msgid ""
 #~ "Download the Eink zip library, "

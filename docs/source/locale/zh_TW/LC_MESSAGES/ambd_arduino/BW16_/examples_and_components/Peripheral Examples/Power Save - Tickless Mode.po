@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:12 Save
 #: Tickless
@@ -40,11 +42,13 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:18 Save
 #: Tickless
 msgid "**Introduction**"
-msgstr ""
+msgstr "**介紹**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:20 Save
 #: Tickless
@@ -53,171 +57,173 @@ msgid ""
 "mode. The power consumptions of Tickless Sleep Mode is around 28uA to "
 "30uA compare to normal state around 15mA. This example describes how to "
 "use freertos tickless with uart interruptable interface."
-msgstr ""
+msgstr "Ameba-D支持兩種低功耗模式，分別是深度睡眠模式和睡眠模式。 與正常狀態下約15mA的耗電相比，tickless睡眠模式的功耗約為28uA至30uA。 這個例子描述如何使用帶有uart可中斷接口的freertos tickless。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:25 Save
 #: Tickless
 msgid "**Procedure**"
-msgstr ""
+msgstr "**步驟**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:26 Save
 #: Tickless
 msgid "Open ``“File” -> “Examples” -> “AmebaPowerSave” -> “TicklessMode”``"
-msgstr ""
+msgstr "打開 “File” -> “Examples” -> “AmebaPowerSave” -> “TicklessMode”"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:28 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:27 Save
 #: Tickless
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:101
-#: Mode.rst:106 Mode.rst:111 Mode.rst:116 Mode.rst:121 Mode.rst:126
-#: Mode.rst:131 Mode.rst:136 Mode.rst:141 Save Tickless
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:93
+#: Mode.rst:98 Mode.rst:103 Mode.rst:108 Mode.rst:113 Mode.rst:118 Mode.rst:123
+#: Mode.rst:128 Mode.rst:133 Save Tickless
 msgid "1"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:31 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:30 Save
 #: Tickless
 msgid "Set condition values as picture below."
-msgstr ""
+msgstr "如下圖所示設置條件值。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:33 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:32 Save
 #: Tickless
 msgid ""
 "“TL_WAKEUP_SOURCE” is used to set the wake-up source, user can chose 3 "
 "wake up sources now,"
-msgstr ""
+msgstr "“TL_WAKEUP_SOURCE” 用於設置喚醒源，用戶現在可以選擇3個喚醒,"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:41 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:40 Save
 #: Tickless
 msgid "**Using LOGUART as wakeup source**"
-msgstr ""
+msgstr "**使用 LOGUART 作為喚醒源**"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:44 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:43 Save
 #: Tickless
 msgid ""
 "When the LOGUART is selected as the wakeup source, the "
 "“TL_Suspend_function” will enter sleep mode. And then it is kept alive "
 "for 13s then enter sleep mode. To wakeup, press enter."
-msgstr ""
+msgstr "當使用LOGUART喚醒時，“TL_Suspend_function”將進入休眠模式。 然後它保持活動狀態 13 秒，然後進入睡眠模式。 要喚醒，請按 Enter。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:46 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:45 Save
 #: Tickless
 msgid "**Using RTC Timer as wakeup source**"
-msgstr ""
+msgstr "**使用 RTC 定時器作為喚醒源**"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:50 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:49 Save
 #: Tickless
 msgid ""
 "RTC Timer wakeup system is by setting alarm. The alarm has 4 values to be"
 " set, day, hour, min and sec. All 4 values can be set by "
 "DS_RTC_ALARM_DAY, DS_RTC_ALARM_HOUR, DS_RTC_ALARM_MIN, and "
 "DS_RTC_ALARM_SEC."
-msgstr ""
+msgstr "RTC定時器通過設置鬧鐘喚醒系統。 鬧鐘具有4個值，日，時，分和秒。 可以通過TL_RTC_ALARM_DAY，TL_RTC_ALARM_HOUR，TL_RTC_ALARM_MIN和TL_RTC_ALARM_SEC設置所有4個值"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:52 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:50 Save
 #: Tickless
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:54 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:52 Save
 #: Tickless
 msgid "**Using AON GPIO pins as wakeup source**"
-msgstr ""
+msgstr "**使用 AON GPIO 引腳作為喚醒源**"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:57 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:55 Save
 #: Tickless
 msgid ""
 "For AMB21, there are 5 pins that can be set as AON pins and active high "
 "for wakeup, GPIOA25(D16), GPIOA26(D17), GPIOA21(D26), GPIOA20(D27), "
 "GPIOA(D28)."
-msgstr ""
+msgstr "對於AMB21，有5個引腳可以設置為AON引腳和上緣觸發，GPIOA25(D16)、GPIOA26(D17)、GPIOA21(D26)、GPIOA20(D27)、GPIOA(D28)。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:59 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:56 Save
 #: Tickless
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:63 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:60 Save
 #: Tickless
 msgid ""
 "For AMB23, there are 8 pins that can be set as AON pins and active high "
 "for wakeup, GPIOA12(D9), GPIOA13(D10), GPIOA14(D11), GPIOA15(D12), "
 "GPIOA16(D13), GPIOA18(D15), GPIOA19(D16), GPIOA21(D18)."
-msgstr ""
+msgstr "對於AMB23，有8個引腳可以設置為AON引腳和上緣觸發，GPIOA12(D9), GPIOA13(D10), GPIOA14(D11), GPIOA15(D12), GPIOA16(D13), GPIOA18(D15), GPIOA19(D16)、GPIOA21(D18)。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:65 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:61 Save
 #: Tickless
 msgid "|4|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:69 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:65 Save
 #: Tickless
 msgid ""
 "For BW16, there is only 6 pins that can be set as AON pin and active high"
 " for wakeup, GPIOA_25 (D7), GPIOA_26 (D8), GPIOA_15 (D9), GPIOA_14 (D10),"
 " GPIOA_13 (D11), GPIOA_12 (D12)."
-msgstr ""
+msgstr "對於BW16，有6個引腳可以設置為AON引腳和上緣觸發，GPIOA_25 (D7), GPIOA_26 (D8), GPIOA_15 (D9), GPIOA_14 (D10), GPIOA_13 (D11), GPIOA_12 (D12)。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:71 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:66 Save
 #: Tickless
 msgid "|5|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:74 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:67 Save
 #: Tickless
 msgid "|6|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:77 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:69 Save
 #: Tickless
 msgid ""
 "TL_SYSACTIVE_TIME is for setting time duration of the system to keep "
 "alive. (Unit ms)"
-msgstr ""
+msgstr "TL_SYSACTIVE_TIME用於設置系統保持活動的持續時間。 （單位毫秒）"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:79 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:71 Save
 #: Tickless
 msgid "**LOGUART**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:81 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:73 Save
 #: Tickless
 msgid "|7|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:84 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:76 Save
 #: Tickless
 msgid "**RTC Timer**"
-msgstr ""
+msgstr "**RTC 定時器**"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:86 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:78 Save
 #: Tickless
 msgid "|8|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:89 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:81 Save
 #: Tickless
 msgid "**AON GPIO Pins**"
-msgstr ""
+msgstr "**AON GPIO 引腳**"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:91 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:83 Save
 #: Tickless
 msgid "|9|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:93 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:85 Save
 #: Tickless
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
+"説明** :raw-html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:97 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:89 Save
 #: Tickless
 msgid ""
 "Please refer to the `API Documents <https://www.amebaiot.com/rtl8722dm-"
 "arduino-online-api-documents/>`__ PowerSave section for detail "
 "description of all API."
-msgstr ""
+msgstr "請參考 `API文件 <https://www.amebaiot.com/rtl8722dm-arduino-online-api-documents/>`__ 相關的說明"
 

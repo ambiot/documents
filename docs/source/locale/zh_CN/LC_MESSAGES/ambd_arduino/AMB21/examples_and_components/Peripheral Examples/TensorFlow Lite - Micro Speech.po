@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:12
@@ -37,7 +39,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:13
 msgid "Adafruit PDM MEMS microphone"
-msgstr ""
+msgstr "Adafruit PDM MEMS 麦克风"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:14
@@ -50,21 +52,23 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:20
 msgid "**Procedure**"
-msgstr ""
+msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:22
 msgid "**AMB21 / AMB22** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21 / AMB22** 接线图:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:24
 msgid "Connect the microphone and LEDs to the AMB21 following the diagram."
-msgstr ""
+msgstr "如下图所示，将麦克风和 LED 连接到 Ameba 板。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:26
@@ -79,7 +83,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:28
 msgid "**AMB23** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23** 接线图:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:31
@@ -87,7 +91,7 @@ msgid ""
 "As AMB23 have a built in microphone on the board, there is no need for "
 "any external microphone. For the LEDs, we will only connect two LEDs and "
 "then use the two onboard LEDs (Blue and Green)."
-msgstr ""
+msgstr "由于 AMB23 板上有一个内建麦克风，因此不需要任何外部麦克风。对于 LED，我们将只连接两个 LED，然后使用两个板载 LED（蓝色和绿色）。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:33
@@ -105,7 +109,7 @@ msgid ""
 "Download the Ameba customized version of TensorFlow Lite for "
 "Microcontrollers library at "
 "https://github.com/ambiot/tree/master/Arduino_zip_libraries."
-msgstr ""
+msgstr "从以下网址下载TensorFlow Lite for Microcontrollers的Ameba版本 https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:39
@@ -113,21 +117,21 @@ msgid ""
 "Follow the instructions at "
 "https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to"
 " install it."
-msgstr ""
+msgstr "请按照以下说明进行安装操作 https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:42
 msgid ""
 "Ensure that the patch files found at "
 "https://github.com/ambiot/tree/master/Ameba_misc/ are also installed."
-msgstr ""
+msgstr "确保在以下位置找到patch文件并安装 https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:46
 msgid ""
 "Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
 "-> “micro_speech”``."
-msgstr ""
+msgstr "打开范例， “Files” -> “Examples” -> “TensorFlowLite_Ameba” -> “micro_speech”."
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:49
@@ -144,7 +148,7 @@ msgstr ""
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
-msgstr ""
+msgstr "上传代码并在上传完成后按Ameba上的重置按钮。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:56
@@ -153,14 +157,14 @@ msgid ""
 "that it is processing audio. Saying the word \"yes\" will cause the green"
 " LED to light up. Saying the word “no” will cause the red LED to light "
 "up. If the word is not recognized, the blue LED will to light up."
-msgstr ""
+msgstr "一旦运行，您应该会看到一个LED闪烁，表明它正在处理音频。说“yes”一词将导致绿色LED点亮。说“no”将导致红色LED点亮。如果无法识别该单词，则蓝色LED将亮起"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:58
 msgid ""
 "The inference results are also output to the Arduino serial monitor, "
 "which appear as follows:"
-msgstr ""
+msgstr "推理结果也将输出到Arduino串行监视器，其显示如下："
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:60
@@ -177,24 +181,24 @@ msgstr ""
 msgid ""
 "If you are having trouble in getting the words recognized, here are some "
 "tips:"
-msgstr ""
+msgstr "如果您在识别单词时遇到困难，请参考以下提示："
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:65
 msgid "Ensure that your surroundings are quiet with minimal noise."
-msgstr ""
+msgstr "确保周围环境安静，降低噪音。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:66
 msgid ""
 "Experiment with varying the distance of the microphone, starting with it "
 "at an arm’s length."
-msgstr ""
+msgstr "尝试改变与麦克风的距离，从一个手臂距离开始。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:68
 msgid "Experiment with different tones and volume when saying the words."
-msgstr ""
+msgstr "尝试以不同的音调和音量说出单词。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:69
@@ -202,7 +206,7 @@ msgid ""
 "Depending on how you pronounce the words, the characteristics of the "
 "microphone used, getting one keyword recognized may be easier than the "
 "other."
-msgstr ""
+msgstr "根据您的发音方式和所用麦克风的特性可能会更容易地识别关键字。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:73
@@ -210,13 +214,15 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:77
 msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
 " https://www.tensorflow.org/lite/microcontrollers"
-msgstr ""
+msgstr "有关TensorFlow Lite for Microcontrollers的更多信息，请参考以下网址: https://www.tensorflow.org/lite/microcontrollers"
 
 #~ msgid "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
 #~ msgstr ""

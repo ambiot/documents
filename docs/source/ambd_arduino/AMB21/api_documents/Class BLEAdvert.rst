@@ -3,13 +3,17 @@
 Class BLEAdvert
 #################
 
-**BLEAdvert Class**
+.. class:: BLEAdvert
 
-| **Description**
-| A class used for managing BLE advertising settings.
+**Description**
 
-| **Syntax**
-| class BLEAdvert
+A class used for managing BLE advertising settings.
+
+**Syntax**
+
+.. code:: cpp
+
+  class BLEAdvert
 
 **Members**
 
@@ -45,209 +49,299 @@ Class BLEAdvert
 | BLEAdvert::setScanRspData     | Set BLE scan response data          |
 +-------------------------------+-------------------------------------+
 
-**BLEAdvert::updateAdvertParams**
+-----
 
-| **Description**
-| Update the lower Bluetooth stack with the current advertising
-  settings.
+.. method:: BLEAdvert::updateAdvertParams
 
-| **Syntax**
-| void updateAdvertParams(void);
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+Update the lower Bluetooth stack with the current advertising
+settings.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| Please use the other class member functions to set the BLE advertising
-  parameters first before using this function.
-|  
+  void updateAdvertParams(void);
 
-**BLEAdvert::startAdv**
+**Parameters**
 
-| **Description**
-| Start BLE advertising.
+The function requires no input parameter.
 
-| **Syntax**
-| void startAdv(void);
+**Returns**
 
-| **Parameters**
-| The function requires no input parameter.
+The function returns nothing.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| This function is provided for flexibility in controlling and updating
-  BLE advertising parameters. You should avoid using this function to
-  directly start the BLE advertising process without first registering
-  the necessary callback and handler functions. Call
-  BLEDevice::beginPeripheral() to register the necessary functions and
-  start advertising for the first time.
-|  
+**Notes and Warnings**
 
-**BLEAdvert::stopAdv**
+Please use the other class member functions to set the BLE advertising
+parameters first before using this function.
 
-| **Description**
-| Stop BLE advertising.
+------
 
-| **Syntax**
-| void stopAdv(void);
+.. method:: BLEAdvert::startAdv
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Start BLE advertising.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| This function is provided for flexibility in controlling and updating
-  BLE advertising parameters. You should avoid using this function to
-  directly stop the BLE advertising process. Call BLEDevice::end() to
-  stop advertising and free up used resources.
-|  
+.. code:: cpp
 
+  void startAdv(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+This function is provided for flexibility in controlling and updating
+BLE advertising parameters. You should avoid using this function to
+directly start the BLE advertising process without first registering
+the necessary callback and handler functions. Call
+BLEDevice::beginPeripheral() to register the necessary functions and
+start advertising for the first time.
+
+-----
+
+.. method:: BLEAdvert::stopAdv
+
+**Description**
+
+Stop BLE advertising.
+
+**Syntax**
+
+.. code:: cpp
+
+  void stopAdv(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+This function is provided for flexibility in controlling and updating
+BLE advertising parameters. You should avoid using this function to
+directly stop the BLE advertising process. Call BLEDevice::end() to
+stop advertising and free up used resources.
+ 
+ 
+ 
 **BLEAdvert::setAdvType**
 
-| **Description**
-| Set the BLE advertising type.
+**Description**
 
-| **Syntax**
-| void setAdvType(uint8_t advType);
+Set the BLE advertising type.
 
-| **Parameters**
-| advType: the desired advertisement type. Valid values:
-| – 0 = GAP_ADTYPE_ADV_IND : connectable undirected advertisement
-| – 1 = GAP_ADTYPE_ADV_HDC_DIRECT_IND : connectable high duty cycle
-  directed
-| – 2 = GAP_ADTYPE_ADV_SCAN_IND : scannable undirected advertisement
-| – 3 = GAP_ADTYPE_ADV_NONCONN_IND : Non-connectable undirected
-  advertisement
-| – 4 = GAP_ADTYPE_ADV_LDC_DIRECT_IND : connectable low duty cycle
-  directed advertisement
+**Syntax**
 
-| **Returns**
-| The function returns nothing.
+.. code:: cpp
 
-| **Example Code**
-| Example: BLEBatteryService
+  void setAdvType(uint8_t advType);
 
-| **Notes and Warnings**
-| Call this function with the GAP_ADTYPE_ADV_IND argument if connection
-  requests should be allowed, and GAP_ADTYPE_ADV_NONCONN_IND if all
-  connection requests should be rejected.
-|  
+**Parameters**
 
-**BLEAdvert::setMinInterval**
+advType: the desired advertisement type. 
+Valid values:
 
-| **Description**
-| Set the minimum BLE advertising interval.
+– 0 = GAP_ADTYPE_ADV_IND : connectable undirected advertisement
 
-| **Syntax**
-| void setMinInterval(uint16_t minInt_ms);
+– 1 = GAP_ADTYPE_ADV_HDC_DIRECT_IND : connectable high duty cycle
+directed
 
-| **Parameters**
-| minInt_ms: the desired advertisement minimum interval, expressed in
-  milliseconds. The valid values for the interval are from 20ms to
-  10240ms.
+– 2 = GAP_ADTYPE_ADV_SCAN_IND : scannable undirected advertisement
 
-| **Returns**
-| The function returns nothing.
+– 3 = GAP_ADTYPE_ADV_NONCONN_IND : Non-connectable undirected
+advertisement
 
-| **Example Code**
-| NA
+– 4 = GAP_ADTYPE_ADV_LDC_DIRECT_IND : connectable low duty cycle
+directed advertisement
 
-| **Notes and Warnings**
-| BLE advertisements will repeat with an interval between the set
-  minimum and maximum intervals. Set a shorter interval for the BLE
-  device to be discovered rapidly and set a longer interval to conserve
-  power.
-|  
+**Returns**
 
-**BLEAdvert::setMaxInterval**
+The function returns nothing.
 
-| **Description**
-| Set the maximum BLE advertising interval.
+**Example Code**
 
-| **Syntax**
-| void setMaxInterval(uint16_t minInt_ms);
+Example: BLEBatteryService
 
-| **Parameters**
-| minInt_ms: the desired advertisement maximum interval, expressed in
-  milliseconds. The valid values for the interval are from 20ms to
-  10240ms.
+**Notes and Warnings**
 
-| **Returns**
-| The function returns nothing.
+Call this function with the GAP_ADTYPE_ADV_IND argument if connection
+requests should be allowed, and GAP_ADTYPE_ADV_NONCONN_IND if all
+connection requests should be rejected.
 
-| **Example Code**
-| NA
+--------
 
-| **Notes and Warnings**
-| BLE advertisements will repeat with an interval between the set
-  minimum and maximum intervals. Set a shorter interval for the BLE
-  device to be discovered rapidly and set a longer interval to conserve
-  power.
-|  
+.. method:: BLEAdvert::setMinInterval
 
-**BLEAdvert::setAdvData**
+**Description**
 
-| **Description**
-| Set BLE advertising data.
+Set the minimum BLE advertising interval.
 
-| **Syntax**
-| void setAdvData(BLEAdvertData adData);
-| void setAdvData(uint8_t\* pData, uint8_t size);
+**Syntax**
 
-| **Parameters**
-| adData: scan response data formatted in a BLEAdvertData class object
-| pData: pointer to a byte array containing the required scan response
-  data.
-| size: number of bytes the scan response data contains, maximum of 31
-  bytes.
+.. code:: cpp
 
-| **Returns**
-| The function returns nothing.
+  void setMinInterval(uint16_t minInt_ms);
 
-| **Example Code**
-| NA
+**Parameters**
 
-| **Notes and Warnings**
-| N/A
-|  
+``minInt_ms`` : the desired advertisement minimum interval, expressed in
+milliseconds. The valid values for the interval are from 20ms to
+10240ms.
 
-**BLEAdvert::setScanRspData**
+**Returns**
 
-| **Description**
-| Set BLE scan response data.
+The function returns nothing.
 
-| **Syntax**
-| void setScanRspData(BLEAdvertData adData);
-| void setScanRspData(uint8_t\* pData, uint8_t size);
+**Example Code**
 
-| **Parameters**
-| adData: scan response data formatted in a BLEAdvertData class object
-| pData: pointer to a byte array containing the required scan response
-  data.
-| size: number of bytes the scan response data contains, maximum of 31
-  bytes.
+NA
 
-| **Returns**
-| The function returns nothing.
+**Notes and Warnings**
 
-| **Example Code**
-| NA
+BLE advertisements will repeat with an interval between the set
+minimum and maximum intervals. Set a shorter interval for the BLE
+device to be discovered rapidly and set a longer interval to conserve
+power.
 
-| **Notes and Warnings**
-| N/A
+-----
+
+.. method:: BLEAdvert::setMaxInterval
+
+**Description**
+
+Set the maximum BLE advertising interval.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setMaxInterval(uint16_t minInt_ms);
+
+**Parameters**
+
+``minInt_ms``: the desired advertisement maximum interval, expressed in
+milliseconds. The valid values for the interval are from 20ms to
+10240ms.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+BLE advertisements will repeat with an interval between the set
+minimum and maximum intervals. Set a shorter interval for the BLE
+device to be discovered rapidly and set a longer interval to conserve
+power.
+
+-----
+
+.. method:: BLEAdvert::setAdvData 
+
+**Description**
+
+Set BLE advertising data.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setAdvData(BLEAdvertData adData);
+
+.. code:: cpp
+
+  void setAdvData(uint8_t*pData, uint8_t size);
+
+**Parameters**
+
+``adData``: scan response data formatted in a BLEAdvertData class object
+
+``pData``: pointer to a byte array containing the required scan response
+data.
+
+``size``: number of bytes the scan response data contains, maximum of 31
+bytes.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+N/A
+ 
+---------------------------
+
+.. method:: BLEAdvert::setScanRspData
+
+**Description**
+
+Set BLE scan response data.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setScanRspData(BLEAdvertData adData);
+
+.. code:: cpp
+
+  void setScanRspData(uint8_t * pData, uint8_t size);
+
+
+**Parameters**
+
+``adData`` : scan response data formatted in a BLEAdvertData class object
+
+``pData`` : pointer to a byte array containing the required scan response
+data.
+
+``size`` : number of bytes the scan response data contains, maximum of 31
+bytes.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+N/A

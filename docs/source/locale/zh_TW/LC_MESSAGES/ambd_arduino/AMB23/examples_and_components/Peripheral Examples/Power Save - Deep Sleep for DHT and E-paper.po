@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:12 Save Sleep and for
@@ -50,11 +52,13 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:20 Save Sleep and for
 msgid "**Introduction**"
-msgstr ""
+msgstr "**介紹**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:28 Save Sleep and for
@@ -68,11 +72,16 @@ msgid ""
 "enter DeepSleep Mode for power save. System will wake up by wakeup "
 "source.( Aon timer, Aon Pins or RTC timer)."
 msgstr ""
+"Ameba-D支持低功耗模式，即深度睡眠模式。 深度睡眠模式會關閉大多數系統power domain。"
+"DeepSleep模式下核心模塊的功耗約為7uA至8uA，而正常狀態下約為22mA。"
+"該範例演示了系統在“工作”和“睡眠”（省電）之間進行切換。當系統處於喚醒狀態時，使用DHT傳感器讀取數據並在Eink屏幕上顯示。"
+" 5秒鐘後，系統自動進入DeepSleep模式以節電。 系統將通過喚醒源（Aon計時器，Aon引腳或RTC計時器）喚醒。"
+
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:30 Save Sleep and for
 msgid "**Procedure**"
-msgstr ""
+msgstr "**步驟**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:33 Save Sleep and for
@@ -80,14 +89,14 @@ msgid ""
 "Download the Eink zip library, AmebaEink.zip, at "
 "https://github.com/ambiot/tree/master/Arduino_zip_libraries. Then install"
 " the AmebaEink.zip."
-msgstr ""
+msgstr "在 https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries 下載 Eink 庫 AmebaEink.zip。 然後安裝 AmebaEink.zip。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:35 Save Sleep and for
 msgid ""
 "Open ``“File” -> “Examples” -> “AmebaPowerSave” -> "
 "“DeepSleep_For_DHT_Epaper_Example”``"
-msgstr ""
+msgstr "打開 “File” -> “Examples” -> “AmebaPowerSave” -> “DeepSleep_DHT_Eink_Example”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:37 Save Sleep and for
@@ -102,31 +111,31 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:39 Save Sleep and for
 msgid "Set condition values as picture below."
-msgstr ""
+msgstr "如下圖所示設置條件值。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:41 Save Sleep and for
 msgid ""
 "``DS_WAKEUP_SOURCE`` is used to set the wake-up source, user can chose 3 "
 "wake up sources now,"
-msgstr ""
+msgstr "“DS_WAKEUP_SOURCE” 用於設置喚醒源，用戶現在可以選擇3個喚醒源,"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:49 Save Sleep and for
 msgid "**Using AON Timer as wakeup source**"
-msgstr ""
+msgstr "**使用 AON 定時器作為喚醒源**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:50 Save Sleep and for
 msgid ""
 "AON timer can be set from 0 to 32760000 range (unit ms) by "
 "``AON_TIMER_SLEEP_DURATION``"
-msgstr ""
+msgstr "可以通過AON_TIMER_SLEEP_DURATION在0到32760000範圍（單位毫秒）之間設置AON計時器"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:52 Save Sleep and for
 msgid "**Using AON GPIO pins as wakeup source**"
-msgstr ""
+msgstr "**使用 AON GPIO 引腳作為喚醒源**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:55 Save Sleep and for
@@ -134,7 +143,7 @@ msgid ""
 "For AMB21, there are 5 pins that can be set as AON pins and active high "
 "for wakeup, GPIOA25(D16), GPIOA26(D17), GPIOA21(D26), GPIOA20(D27), "
 "GPIOA(D28)."
-msgstr ""
+msgstr "對於 AMB21，有5個引腳可以設置為AON引腳和上緣觸發，GPIOA25(D16)、GPIOA26(D17)、GPIOA21(D26)、GPIOA20(D27)、GPIOA(D28)。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:59 Save Sleep and for
@@ -142,7 +151,7 @@ msgid ""
 "For AMB23, there are 8 pins that can be set as AON pins and active high "
 "for wakeup, GPIOA12(D9), GPIOA13(D10), GPIOA14(D11), GPIOA15(D12), "
 "GPIOA16(D13), GPIOA18(D15), GPIOA19(D16), GPIOA21(D18)."
-msgstr ""
+msgstr "對於 AMB23，有8個引腳可以設置為AON引腳和上緣觸發，GPIOA12(D9), GPIOA13(D10), GPIOA14(D11), GPIOA15(D12), GPIOA16(D13), GPIOA18(D15), GPIOA19(D16)、GPIOA21(D18)。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:63 Save Sleep and for
@@ -150,14 +159,14 @@ msgid ""
 "For BW16, there is only 6 pins that can be set as AON pin and active high"
 " for wakeup, GPIOA_25 (D7), GPIOA_26 (D8), GPIOA_15 (D9), GPIOA_14 (D10),"
 " GPIOA_13 (D11), GPIOA_12 (D12)."
-msgstr ""
+msgstr "對於 BW16，有5個引腳可以設置為AON引腳和上緣觸發，GPIOA_25(D7)、GPIOA_26(D8)、GPIOA_15(D9)、GPIOA_14(D10)、GPIOA_13(D11)、GPIOA_12 (D12)."
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:65 Save Sleep and for
 msgid ""
 "These AON pins can be set by using ``SET_AON_GPIO_WAKEUP_GPIOA25`` or the"
 " pin that you want to use as shown in the picture below."
-msgstr ""
+msgstr "這些 AON 引腳可以使用 SET_AON_GPIO_WAKEUP_GPIOA25 或您想使用的引腳進行設置，如下圖所示。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:67 Save Sleep and for
@@ -172,7 +181,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:69 Save Sleep and for
 msgid "**Using RTC Timer as wakeup source**"
-msgstr ""
+msgstr "**使用 RTC 定時器作為喚醒源**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:72 Save Sleep and for
@@ -180,19 +189,19 @@ msgid ""
 "RTC timer wakeup system is by setting alarm. The alarm has 4 values, day,"
 " hour, min and sec. All 4 values can be set by ``DS_RTC_ALARM_DAY``, "
 "``DS_RTC_ALARM_HOUR``, ``DS_RTC_ALARM_MIN``, and ``DS_RTC_ALARM_SEC``"
-msgstr ""
+msgstr "RTC定時器通過設置鬧鐘喚醒系統。 鬧鐘具有4個值，日，時，分和秒。 可以通過DS_RTC_ALARM_DAY，DS_RTC_ALARM_HOUR，DS_RTC_ALARM_MIN和DS_RTC_ALARM_SEC設置所有4個值。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:75 Save Sleep and for
 msgid ""
 "``DHTPIN`` is used to set DHT sensor data pin. User can choose any GPIO "
 "pins."
-msgstr ""
+msgstr "``DHTPIN`` 用於設置DHT傳感器數據引腳。 用戶可以選擇任何GPIO引腳。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:76 Save Sleep and for
 msgid "``DHTTYPE`` is used to set DHT sensor type. (DHT11, DHT22 and DHT33)"
-msgstr ""
+msgstr "``DHTTYPE`` 用於設置DHT傳感器類型。 （DHT11，DHT22和DHT33）"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:78 Save Sleep and for
@@ -211,7 +220,7 @@ msgid ""
 "between normal working mode and deepsleep mode controlled by wakeup "
 "source. Eink screen will display the temperature and humidity data "
 "measured from DHT sensor when system is awake."
-msgstr ""
+msgstr "完成條件值設置後，系統將運行並在正常工作模式和喚醒源控制的深度睡眠模式之間切換。 系統喚醒時，Eink屏幕將顯示從DHT傳感器測得的溫度和濕度數據。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:85 Save Sleep and for
@@ -219,6 +228,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
+"說明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:89 Save Sleep and for
@@ -226,7 +237,7 @@ msgid ""
 "Please refer to the `API Documents <https://www.amebaiot.com/rtl8722dm-"
 "arduino-online-api-documents/>`__ PowerSave section for detail "
 "description of all API."
-msgstr ""
+msgstr "請參考 `API Documents <https://www.amebaiot.com/rtl8722dm-arduino-online-api-documents/>`__ 相關的說明。"
 
 #~ msgid ""
 #~ "Download the Eink zip library, "

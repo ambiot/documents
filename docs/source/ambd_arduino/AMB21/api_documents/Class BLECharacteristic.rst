@@ -1,13 +1,17 @@
 Class BLECharacteristic
 ===========================
-**BLECharacteristic Class**
+
+.. class:: BLECharacteristic
 
 **Description**
 
 A class used for creating and managing BLE GATT characteristics.
 
-| **Syntax**
-| class BLECharacteristic
+ **Syntax**
+
+ .. code:: cpp
+
+  class BLECharacteristic
 
 **Members**
 
@@ -115,27 +119,39 @@ A class used for creating and managing BLE GATT characteristics.
 | ECharacteristic::setCCCDCallback | write callback                   |
 +----------------------------------+----------------------------------+
 
-**BLECharacteristic::BLECharacteristic**
+------------------------------------------------------------------------------
 
-| **Description**
-| Constructs a BLECharacteristic object.
+.. method:: BLECharacteristic::BLECharacteristic
 
-| **Syntax**
-| BLECharacteristic::BLECharacteristic(BLEUUID uuid);
-| BLECharacteristic::BLECharacteristic(const char\* uuid);
+**Description**
 
-| **Parameters**
-| uuid: characteristic UUID, expressed as a BLEUUID class object or a
-  character array
+Constructs a BLECharacteristic object.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| Example: BLEUartService
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
+  BLECharacteristic::BLECharacteristic(BLEUUID uuid);
+
+BLECharacteristic::BLECharacteristic(const char\* uuid);
+
+**Parameters**
+
+uuid: characteristic UUID, expressed as a BLEUUID class object or a
+
+character array
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEUartService
+
+**Notes and Warnings**
+
+NA
 
 **BLECharacteristic::setUUID**
 
