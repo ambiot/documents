@@ -10,7 +10,9 @@ Defines a class of manipulating servo motors connected to Arduino pins.
 
 **Syntax**
 
-class AmebaServo
+.. code:: cpp
+
+    class AmebaServo
 
 **Members**
 
@@ -64,11 +66,11 @@ failure.
 
 **Parameters**
 
-* ``pin`` : The Arduino pin number to be attached.
+ ``pin`` : The Arduino pin number to be attached.
 
-* ``min`` : Minimum values for writes.
+ ``min`` : Minimum values for writes.
 
-* ``max`` : Maximum values for writes.
+ ``max`` : Maximum values for writes.
 
 **Returns**
 
@@ -150,8 +152,9 @@ Detach the servo.
 
 **Syntax**
 
-    
-void AmebaServo::detach(void);
+.. code:: cpp
+
+    void AmebaServo::detach(void);
 
 **Parameters**
 
@@ -181,7 +184,7 @@ being treated as an angle, otherwise as pulse-width in microseconds.
 
 **Syntax**
 
-.. code:: c++
+.. code:: cpp
 
     void AmebaServo::write(int value);
 
@@ -196,7 +199,7 @@ The function returns nothing.
 
 **Example Code**
 
-Example: `ServoSweep`
+Example: ServoSweep
 
 The code demos servo motor sweeping from 0 degrees to 180 degrees then
 sweep back to 0 degrees in the step of 1 degree. Please refer to code in
@@ -217,7 +220,7 @@ Write pulse width to the servo in microseconds.
 
 **Syntax**
 
-.. code:: c++
+.. code:: cpp
 
     void AmebaServo::writeMicroseconds(int value);
 

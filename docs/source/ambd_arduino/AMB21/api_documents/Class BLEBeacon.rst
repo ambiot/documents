@@ -1,12 +1,16 @@
 Class BLEBeacon
 ======================
-**iBeacon Class**
 
-| **Description**
-| A class used for managing iBeacon BLE advertising data.
+.. class:: iBeacon
 
-| **Syntax**
-| class iBeacon
+
+**Description**
+
+A class used for managing iBeacon BLE advertising data.
+
+**Syntax**
+
+class iBeacon
 
 **Members**
 
@@ -42,13 +46,19 @@ Class BLEBeacon
 | iBeacon::getScanRsp        | Get current scan response data                 |
 +----------------------------+------------------------------------------------+
 
-**altBeacon Class**
+--------------------------------------------------------------------------------------
 
-| **Description**
-| A class used for managing altBeacon BLE advertising data.
+.. class:: altBeacon
 
-| **Syntax**
-| class altBeacon
+
+
+**Description**
+
+A class used for managing altBeacon BLE advertising data.
+
+**Syntax**
+
+class altBeacon
 
 **Members**
 
@@ -89,26 +99,38 @@ Class BLEBeacon
 | altBeacon::getScanRsp        | Get current scan response data       |
 +------------------------------+--------------------------------------+
 
-**iBeacon::iBeacon**
+------------------------------------------------------------------------------------
 
-| **Description**
-| Create an iBeacon object.
+.. method:: iBeacon::iBeacon
 
-| **Syntax**
-| void iBeacon(void);
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+Create an iBeacon object.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| Include “BLEBeacon.h” to use this class function.
-|  
+  void iBeacon(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Include “BLEBeacon.h” to use this class function.
+
+---------------
+
 
 **altBeacon::altBeacon**
 

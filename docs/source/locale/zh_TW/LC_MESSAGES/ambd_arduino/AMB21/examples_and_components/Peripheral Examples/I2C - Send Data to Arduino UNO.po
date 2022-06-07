@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Introduction of"
 " I2C** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **I2C 介紹**"
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:12 to
@@ -41,6 +43,10 @@ msgid ""
 "is transmitted through SDA. The I2C example was named “Wire” in the "
 "Arduino example."
 msgstr ""
+"I2C裡有兩個角色，一個是Master，另一個是Slave。 Master的角色只能有一個，而Slave可以有很多個。"
+"每個Slave都有自己的位址(address)編號，所以當Master要與特定的Slave溝通時，就會使用這個位址。"
+"I2C使用了兩根接腳，一根是資料線 (SDA)，另一根是時脈線 (SCL)。 Master藉由控制SCL讓Slave知道有東西要傳，"
+"而資料就可以在SDA上面傳送。 I2C在當初Arduino的範例裡，為了親易近人而稱呼I2C為Wire。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:21 to
@@ -48,6 +54,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:25 to
@@ -65,39 +73,41 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:33 to
 msgid ""
 "In this example, we use Ameba as the I2C master writer, and use Arduino "
 "as the I2C slave receiver."
-msgstr ""
+msgstr "這個範例裡，我們將Ameba當作I2C Master Writer, 而Arduino為I2C Slave Receiver。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:35 to
 msgid ""
 "When the I2C slave receives string sent from I2C master, it prints the "
 "received string."
-msgstr ""
+msgstr "I2C Master會傳字串到I2C Slave，並且I2C Slave將字串印出來。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:37 to
 msgid "Setting up Arduino Uno to be I2C Slave"
-msgstr ""
+msgstr "準備 Arduino Uno 為 I2C Slave"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:39 to
 msgid ""
 "First, select Arduino in the Arduino IDE in ``“Tools” -> “Board” -> "
 "“Arduino Uno”``"
-msgstr ""
+msgstr "首先我們先準備Arduino，先將Arduino IDE選成Arduino, “Tools” -> “Board” -> “Arduino/Genuino Uno”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:40 to
 msgid ""
 "Open the “Slave Receiver” example in ``“Examples” -> “Wire” -> "
 "“slave_receiver”``:"
-msgstr ""
+msgstr "接著打開 Slave Receiver 的範例，”Examples” -> “Wire” -> “slave_receiver”:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:42 to
@@ -114,26 +124,26 @@ msgstr ""
 msgid ""
 "Then click ``“Sketch” -> “Upload”`` to compile and upload the example to "
 "Arduino Uno."
-msgstr ""
+msgstr "然後點選 “Sketch” -> “Upload” 將程式編譯並上傳到 Arduino Uno。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:46 to
 msgid "Setting up Ameba to be I2C Master"
-msgstr ""
+msgstr "準備Ameba 为 I2C Master"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:49 to
 msgid ""
 "Next, open another window of Arduino IDE, make sure to choose your Ameba "
 "development board in the IDE: ``“Tools” -> “Board”``"
-msgstr ""
+msgstr "我們額外再開一個Arduino IDE，確定板子是 Ameba, “Tools” -> “Board”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:51 to
 msgid ""
 "Then open the “Master Writer” example in ``“File” -> “Examples” -> "
 "“AmebaWire” -> “MasterWriter”``"
-msgstr ""
+msgstr "然後打開 Master Writer 的範例, “File” -> “Examples” -> “AmebaWire” -> “MasterWriter”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:53 to
@@ -153,14 +163,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:57 to
 msgid "The Arduino example uses A4 as the I2C SDA and A5 as the I2C SCL."
-msgstr ""
+msgstr "Arduino的範例裡，使用A4當作I2C SDA, A5為I2C SCL。這些接腳與Ameba一樣。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:59 to
 msgid ""
 "Another important thing is that the GND pins of Arduino and Ameba should "
 "be connected to each other."
-msgstr ""
+msgstr "另外很重要的是，兩塊板子的GND要互接。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:61 to
@@ -212,19 +222,20 @@ msgstr ""
 msgid ""
 "Open the Arduino IDE of the Arduino Uno and open the serial monitor "
 "(“Tools” -> “Serial Monitor”)."
-msgstr ""
+msgstr "打開包含Arduino Uno的Arduino IDE，開啟Serial Monitor, “Tools” -> “Serial Monitor”, "
+"會出現Serial Monitor的視窗。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:76 to
 msgid "In the Serial Monitor, you can see the messages printed from Arduino Uno."
-msgstr ""
+msgstr "這個視窗可以讓你看到Arduino Uno印出來的訊息。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:78 to
 msgid ""
 "Next, press the reset button on Arduino Uno. Now the Arduino Uno is "
 "waiting for the connection from I2C Master."
-msgstr ""
+msgstr "接著按下Arduino Uno的Reset按鈕，讓Arduino Uno等待I2C master連接。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:81 to
@@ -232,7 +243,7 @@ msgid ""
 "We press the reset button on Ameba to start to send messages. Then "
 "observe the serial monitor, you can see the messages show up every half "
 "second."
-msgstr ""
+msgstr "再按下Ameba的Reset按鈕，讓Ameba開始傳訊息。這時候會看到Serial Monitor每隔0.5秒出現新的訊息，這樣就代表成功了。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:83 to
@@ -250,13 +261,15 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
+"説明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:90 to
 msgid ""
 "You can find detailed information of this example in the documentation of"
 " Arduino:"
-msgstr ""
+msgstr "Ameba使用同樣的Arduino範例，Arduino官方網站的範例說明可以參考這裡:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:91 to
@@ -268,7 +281,7 @@ msgstr ""
 msgid ""
 "First use Wire.begin()/Wire.begin(address) to join the I2C bus as a "
 "master or slave, in the Master case the address is not required."
-msgstr ""
+msgstr "首先Wire.begin()會先設定address, 如果是Master可以不用設定address:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:95 to
@@ -280,7 +293,7 @@ msgstr ""
 msgid ""
 "Next, the Master uses Wire.beginTransmission(address) to begin a "
 "transmission to the I2C slave with the given address:"
-msgstr ""
+msgstr "接著Master使用Wire.beginTransmission()來設定要傳到哪一個Slave:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:99 to
@@ -292,7 +305,7 @@ msgstr ""
 msgid ""
 "Uses Wire.write() to send data, and finally use Wire.endTransmission() to"
 " end a transmission to a Slave and transmits the bytes that were queued:"
-msgstr ""
+msgstr "使用Wire.write()送資料, 並且最後使用Wire.endTransmission()將所有資料傳出去:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:104 to

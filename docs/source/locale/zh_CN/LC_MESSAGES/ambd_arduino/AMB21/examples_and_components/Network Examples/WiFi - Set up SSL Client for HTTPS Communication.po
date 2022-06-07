@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:12 HTTPS SSL Set for up
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:18 HTTPS SSL Set for up
@@ -49,14 +53,14 @@ msgid ""
 "cryptographic protocol designed to provide communications security over a"
 " computer network, by encrypting the messages passed between server and "
 "client."
-msgstr ""
+msgstr "这个范例里，Ameba使用SSL安全地连线至Internet。SSL是 Secure Sockets Layer 的缩写。它是一种加密协议用来对服务器和客户端之间传递的消息进行加密来提供传输安全性。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:24 HTTPS SSL Set for up
 msgid ""
 "Open the “WiFiSSLClient” example in ``“File” -> “Examples” -> “AmebaWiFi”"
 " -> “WiFiSSLClient”``."
-msgstr ""
+msgstr "打开 “WiFiSSLClient” 范例 “File” -> “Examples” -> “AmebaWiFi” -> ” WiFiSSLClient “."
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:27 HTTPS SSL Set for up
@@ -73,7 +77,7 @@ msgstr ""
 msgid ""
 "In the sample code, modify the highlighted snippet to reflect your WiFi "
 "network settings."
-msgstr ""
+msgstr "在范例代码中，如下图中黄色标注的地方进行对应的修改。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:32 HTTPS SSL Set for up
@@ -90,14 +94,14 @@ msgstr ""
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
-msgstr ""
+msgstr "上传程式码之后，按下Ameba的Reset按钮 。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:37 HTTPS SSL Set for up
 msgid ""
 "Open the serial monitor in the Arduino IDE and observe as Ameba retrieves"
 " a text file from os.mbed.com."
-msgstr ""
+msgstr "打開Arduino IDE，這時會看到Ameba連線後從os.mbed.com上獲取信息。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:40 HTTPS SSL Set for up
@@ -115,11 +119,13 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:46 HTTPS SSL Set for up
 msgid ""
 "Use “WiFiSSLClient client;” to create a client that uses SSL. After "
 "creation, the client can be used in the same way as a regular client."
-msgstr ""
+msgstr "使用 “WiFiSSLClient client；” 创建使用SSL的客户端。创建后，可以使用与一般客户端相同的方式来使用客户端。"
 

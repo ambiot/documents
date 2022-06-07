@@ -26,6 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:12 RTC Simple
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -36,6 +38,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:18 RTC Simple
 msgid ""
@@ -44,19 +48,19 @@ msgid ""
 "particular, the RTC time is set at 16:00:00 and an alarm at 16:00:10. "
 "When the time matches, “Alarm Match” information will be printed on the "
 "serial monitor."
-msgstr ""
+msgstr "此範例說明如何使用RTC庫方法創建RTC鬧鐘，以便在時間匹配時執行一些任務。像是RTC時間設置為16:00:00，鬧鐘設置為16:00:10。當時間匹配時，“Alarm Match”信息將打印在串行監視器上。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:23 RTC Simple
 msgid ""
 "First, select the correct Ameba development board from the Arduino IDE: "
 "“Tools” -> “Board”."
-msgstr ""
+msgstr "首先，從Arduino IDE中選擇正確的Ameba開發板：“Tools”->“Board”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:26 RTC Simple
 msgid ""
 "Then open the \"RTCAlarm\" example from: ``“File” -> “Examples” -> “RTC” "
 "-> “RTCAlarm”``:"
-msgstr ""
+msgstr "然後從以下位置打開“ RTCAlarm”示例：“File”->“Examples”->“ RTC”->“ RTCAlarm”："
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:29 RTC Simple
 msgid "|1|"
@@ -73,7 +77,7 @@ msgid ""
 "button. When the alarm time (10 seconds) is reached the attached "
 "interrupt function will print the following information: “Alarm Matched!”"
 " showing in this figure below."
-msgstr ""
+msgstr "在範例中，RTC時間設置為16:00:00，鬧鐘設置為16:00:10。成功上傳範例代碼後，按重置按鈕。當達到鬧鐘時間（10秒）時，附加的中斷功能將打印以下信息：“Alarm Matched!” 如下圖所示。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:36 RTC Simple
 msgid "|2|"

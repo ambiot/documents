@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-13 02:53+0100\n"
+"POT-Creation-Date: 2022-05-18 08:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:7
 #: RecordWav.rst:42 RecordWav.rst:72 RecordWav.rst:102 RecordWav.rst:132
-#: RecordWav.rst:162 RecordWav.rst:192 RecordWav.rst:222 RecordWav.rst:250
-#: RecordWav.rst:278 RecordWav.rst:306 RecordWav.rst:334
+#: RecordWav.rst:162 RecordWav.rst:192 RecordWav.rst:222 RecordWav.rst:251
+#: RecordWav.rst:281 RecordWav.rst:311 RecordWav.rst:341
 msgid "**Description**"
 msgstr ""
 
@@ -34,8 +34,8 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:11
 #: RecordWav.rst:46 RecordWav.rst:76 RecordWav.rst:106 RecordWav.rst:136
-#: RecordWav.rst:166 RecordWav.rst:196 RecordWav.rst:226 RecordWav.rst:254
-#: RecordWav.rst:282 RecordWav.rst:310 RecordWav.rst:338
+#: RecordWav.rst:166 RecordWav.rst:196 RecordWav.rst:226 RecordWav.rst:255
+#: RecordWav.rst:285 RecordWav.rst:315
 msgid "**Syntax**"
 msgstr ""
 
@@ -149,20 +149,20 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:52
 #: RecordWav.rst:82 RecordWav.rst:112 RecordWav.rst:142 RecordWav.rst:172
-#: RecordWav.rst:202 RecordWav.rst:230 RecordWav.rst:258 RecordWav.rst:286
-#: RecordWav.rst:314 RecordWav.rst:343
+#: RecordWav.rst:202 RecordWav.rst:230 RecordWav.rst:261 RecordWav.rst:291
+#: RecordWav.rst:321 RecordWav.rst:355
 msgid "**Parameters**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:54
-#: RecordWav.rst:114 RecordWav.rst:144 RecordWav.rst:260
+#: RecordWav.rst:114 RecordWav.rst:144 RecordWav.rst:263
 msgid "The function requires no input parameter."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:56
 #: RecordWav.rst:86 RecordWav.rst:116 RecordWav.rst:146 RecordWav.rst:176
-#: RecordWav.rst:206 RecordWav.rst:234 RecordWav.rst:262 RecordWav.rst:290
-#: RecordWav.rst:318 RecordWav.rst:348
+#: RecordWav.rst:206 RecordWav.rst:234 RecordWav.rst:265 RecordWav.rst:295
+#: RecordWav.rst:325 RecordWav.rst:360
 msgid "**Returns**"
 msgstr ""
 
@@ -174,29 +174,29 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:60
 #: RecordWav.rst:90 RecordWav.rst:120 RecordWav.rst:150 RecordWav.rst:180
-#: RecordWav.rst:210 RecordWav.rst:238 RecordWav.rst:266 RecordWav.rst:294
-#: RecordWav.rst:322 RecordWav.rst:352
+#: RecordWav.rst:210 RecordWav.rst:238 RecordWav.rst:269 RecordWav.rst:299
+#: RecordWav.rst:329 RecordWav.rst:364
 msgid "**Example Code**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:62
 #: RecordWav.rst:92 RecordWav.rst:122 RecordWav.rst:152 RecordWav.rst:182
-#: RecordWav.rst:354
+#: RecordWav.rst:366
 msgid "Example: RecordWavFile"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:64
 #: RecordWav.rst:94 RecordWav.rst:124 RecordWav.rst:154 RecordWav.rst:184
-#: RecordWav.rst:214 RecordWav.rst:242 RecordWav.rst:270 RecordWav.rst:298
-#: RecordWav.rst:326 RecordWav.rst:356
+#: RecordWav.rst:214 RecordWav.rst:242 RecordWav.rst:273 RecordWav.rst:303
+#: RecordWav.rst:333 RecordWav.rst:368
 msgid "**Notes and Warnings**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:66
 #: RecordWav.rst:96 RecordWav.rst:156 RecordWav.rst:186 RecordWav.rst:212
-#: RecordWav.rst:216 RecordWav.rst:240 RecordWav.rst:244 RecordWav.rst:268
-#: RecordWav.rst:272 RecordWav.rst:296 RecordWav.rst:300 RecordWav.rst:324
-#: RecordWav.rst:328 RecordWav.rst:358
+#: RecordWav.rst:216 RecordWav.rst:240 RecordWav.rst:244 RecordWav.rst:271
+#: RecordWav.rst:275 RecordWav.rst:301 RecordWav.rst:305 RecordWav.rst:331
+#: RecordWav.rst:335 RecordWav.rst:370
 msgid "NA"
 msgstr ""
 
@@ -254,91 +254,65 @@ msgstr ""
 msgid "bitDepth: number of bits per sample."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:248
-msgid "**RecordWav::getLengthMillis**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:252
+#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:253
 msgid "Get the current recorded length of the .wav file in milliseconds."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:256
-msgid "uint32_t getLengthMillis(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:264
+#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:267
 msgid ""
 "The function returns the current recorded length of the currently open "
 ".wav file in milliseconds."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:276
-msgid "**RecordWav::millisToBytes**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:280
+#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:283
 msgid "Convert a playback duration to equivalent number of bytes."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:284
-msgid "uint32_t millisToBytes(uint32_t ms);"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:293
+msgid "``ms`` : playback duration in milliseconds."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:288
-msgid "ms: playback duration in milliseconds."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:292
+#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:297
 msgid ""
 "The function returns the number of bytes that is equivalent to the input "
 "playback duration, converted using the current sample rate, number of "
 "channels and bit depth."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:304
-msgid "**RecordWav::bytesToMillis**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:308
+#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:313
 msgid "Convert number of bytes to an equivalent playback duration."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:312
-msgid "uint32_t bytesToMillis(uint32_t bytes);"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:323
+msgid "``bytes`` : playback duration in number of bytes."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:316
-msgid "bytes: playback duration in number of bytes."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:320
+#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:327
 msgid ""
 "The function returns the time duration in milliseconds that is equivalent"
 " to the input number of bytes, converted using the current sample rate, "
 "number of channels and bit depth."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:332
-msgid "**RecordWav::writeAudioData**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:336
+#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:343
 msgid "Write audio data to the .wav file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:340
-msgid ""
-"uint32_t writeAudioData(int8_t* src, uint32_t len); uint32_t "
-"writeAudioData(int16_t* src, uint32_t len);"
-msgstr ""
-
 #: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:345
-msgid ""
-"src: pointer to array containing data to write to .wav file. len: number "
-"of audio samples to write to .wav file."
+msgid "**Syntax** .. code:: cpp"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:350
+#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:348
+msgid "uint32_t writeAudioData(int8_t * src, uint32_t len);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:357
+msgid ""
+"``src`` : pointer to array containing data to write to .wav file. ``len``"
+" : number of audio samples to write to .wav file."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class RecordWav.rst:362
 msgid "The function returns number of audio samples written."
 msgstr ""
 
@@ -385,5 +359,45 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "**RecordWav::setBitDepth**"
+#~ msgstr ""
+
+#~ msgid "**RecordWav::getLengthMillis**"
+#~ msgstr ""
+
+#~ msgid "uint32_t getLengthMillis(void);"
+#~ msgstr ""
+
+#~ msgid "**RecordWav::millisToBytes**"
+#~ msgstr ""
+
+#~ msgid "uint32_t millisToBytes(uint32_t ms);"
+#~ msgstr ""
+
+#~ msgid "ms: playback duration in milliseconds."
+#~ msgstr ""
+
+#~ msgid "**RecordWav::bytesToMillis**"
+#~ msgstr ""
+
+#~ msgid "uint32_t bytesToMillis(uint32_t bytes);"
+#~ msgstr ""
+
+#~ msgid "bytes: playback duration in number of bytes."
+#~ msgstr ""
+
+#~ msgid "**RecordWav::writeAudioData**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "uint32_t writeAudioData(int8_t* src, uint32_t "
+#~ "len); uint32_t writeAudioData(int16_t* src, "
+#~ "uint32_t len);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "src: pointer to array containing data"
+#~ " to write to .wav file. len: "
+#~ "number of audio samples to write "
+#~ "to .wav file."
 #~ msgstr ""
 

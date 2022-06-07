@@ -2,13 +2,14 @@
 Class Adafruit_GPS
 =====================================
 
-**Adafruit_GPS Class**
 
-| **Description**
-| Defines a class to use GPS module on Ameba.
+**Description**
 
-| **Syntax**
-| class Adafruit_GPS
+Defines a class to use GPS module on Ameba.
+
+**Syntax**
+
+class Adafruit_GPS
 
 **Members**
 
@@ -56,6 +57,8 @@ Class Adafruit_GPS
 +---------------------------------+-----------------------------------+
 | Adafruit_GPS::LOCUS_ReadStatus  | Read the logger status            |
 +---------------------------------+-----------------------------------+
+
+-----
 
 **Adafruit_GPS::Adafruit_GPS**
 

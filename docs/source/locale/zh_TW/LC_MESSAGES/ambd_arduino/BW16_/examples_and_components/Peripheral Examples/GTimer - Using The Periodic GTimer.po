@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:12
 #: Periodic The Using
@@ -40,34 +42,37 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:18
 #: Periodic The Using
 msgid ""
 "Ameba provides 4 hardware GTimer for users to use. The timers’ "
 "resolutions are at microseconds scale."
-msgstr ""
+msgstr "Ameba 提供 4 個硬件 GTimer 供使用者使用。 定時器是微秒級的。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:19
 #: Periodic The Using
 msgid ""
 "The timer can be set to be periodic or for single use. The periodic "
 "timers reset periodically, and the single-use timers do not."
-msgstr ""
+msgstr "定時器可以設置為周期性或一次性使用。 週期性計時器會定期重置，而一次性計時器則不會。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:21
 #: Periodic The Using
 msgid ""
 "Open the example, ``“File” -> “Examples” -> “AmebaGTimer” -> "
 "“TimerPeriodical”``. Compile and upload to Ameba, and press reset."
-msgstr ""
+msgstr "打開範例， “File” -> “Examples” -> “AmebaGTimer” -> “TimerPeriodical”。"
+"編譯並且上傳到Ameba，按下reset。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:22
 #: Periodic The Using
 msgid ""
 "In the Serial Monitor, you can see the counter value is increased "
 "periodically."
-msgstr ""
+msgstr "在串行視窗中，您可以看到計數器值定期增加。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:24
 #: Periodic The Using
@@ -75,18 +80,20 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
+"説明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:28
 #: Periodic The Using
 msgid "The first argument of begin() is the timer id (0~3)."
-msgstr ""
+msgstr "begin() 的第一個參數是定時器 id (0~3)。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:30
 #: Periodic The Using
 msgid ""
 "The second argument is the value of the timer (in microseconds). In the "
 "example, we fill in 1000000us = 1s."
-msgstr ""
+msgstr "第二個參數是計時器的值（以微秒為單位）。 在範例中，我們填寫 1000000us = 1s。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:33
 #: Periodic The Using
@@ -94,12 +101,13 @@ msgid ""
 "The third argument specifies the function to call when the time is up. In"
 " the example, we call the “myhandler” function to increase the counter "
 "value by 1 and print the counter value to serial monitor."
-msgstr ""
+msgstr "第三個參數指定時間到時要調用的函數。 在範例中，我們調用“myhandler”函數將計數器值加 1，並將計數器值打印到串行視窗。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:39
 #: Periodic The Using
 msgid ""
 "The GTimer is periodic by default, therefore “myhandler” function is "
 "called every second. When we want to stop the GTimer, use ``stop()``:"
-msgstr ""
+msgstr "GTimer 默認是周期性的，因此“myhandler”函數每秒被調用一次。
+當我們想停止 GTimer 時，使用“stop()”："
 

@@ -12,7 +12,9 @@ codec functions.
 
 **Syntax**
 
-class AudioCodec
+.. code:: cpp
+
+    class AudioCodec
 
 **Members**
 
@@ -637,9 +639,14 @@ Write audio data to an available buffer page.
 
 **Syntax**
 
-uint32_t writeDataPage(int8_t\* src, uint32_t len);
+.. code:: cpp
 
-uint32_t writeDataPage(int16_t\* src, uint32_t len);
+    uint32_t writeDataPage(int8_t*src, uint32_t len);
+
+
+.. code:: cpp
+
+    uint32_t writeDataPage(int16_t*src, uint32_t len);
 
 **Parameters**
 
@@ -701,9 +708,14 @@ Read audio data from a ready buffer page.
 
 **Syntax**
 
-uint32_t readDataPage(int8_t\* dst, uint32_t len);
+.. code:: cpp
 
-uint32_t readDataPage(int16_t\* dst, uint32_t len);
+    uint32_t readDataPage(int8_t*dst, uint32_t len);
+
+
+.. code:: cpp
+
+    uint32_t readDataPage(int16_t*dst, uint32_t len);
 
 **Parameters**
 

@@ -43,6 +43,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:22
@@ -52,6 +54,7 @@ msgid ""
 "flexible substrate as a base plate, with an interface and a reference "
 "system design."
 msgstr ""
+"在此範例中，我們使用Ameba RTL8722模塊連接到Waveshare 2.9英寸e-Paper來顯示一些QR碼。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:26
@@ -61,6 +64,8 @@ msgid ""
 "source buffer, interface, timing control logic, oscillator, etc… are "
 "supplied with each panel."
 msgstr ""
+"2.9英寸有效區域包含296×128像素，並具有白色/黑色全顯示功能。 "
+"每個面板都提供了一個包含gate buffer, source buffer, interface, timing control logic, oscillator等的集成電路。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:30
@@ -69,12 +74,13 @@ msgid ""
 "<https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
 "Paper_(D)_Specification.pdf>`__ to know more information about this "
 "module."
-msgstr ""
+msgstr "您可以參考官方的 `2.9 inch e-Paper HAT(D) datasheet <https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
+"Paper_(D)_Specification.pdf>`__ ，以了解有關此模塊的更多信息"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:32
 msgid "Front view of the e-Paper Module:"
-msgstr ""
+msgstr "e-Paper模塊:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:34
@@ -167,14 +173,14 @@ msgid ""
 "Firstly, you need to prepare a picture/photo in the format of 296×128 "
 "pixels. We can easily find a photo resizing tool online, for example, the"
 " `Online Image Resizer <https://resizeimage.net/>`__."
-msgstr ""
+msgstr "首先，您需要準備296×128像素格式的圖片/照片。 我們可以輕鬆地在線找到照片尺寸調整工具，例如，`Online Image Resizer <https://resizeimage.net/>`__.。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:59
 msgid ""
 "Following the instructions on the website, then download the generated "
 "image in JPG format."
-msgstr ""
+msgstr "按照網站上的說明，然後以JPG格式下載生成的圖像。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:62
@@ -185,20 +191,22 @@ msgid ""
 "`YouTube <https://www.youtube.com/watch?v=kAmnU5Y96MA&t=363s>`__ link to "
 "get detailed instructions."
 msgstr ""
+"其次，我們使用 `Image2LCD <http://www.waveshare.net/w/upload/3/36/Image2Lcd.7z>`__ 工具來將傳輸下載的296×128圖片轉換成十六進制代碼。"
+"您可以參考此 `YouTube <https://www.youtube.com/watch?v=kAmnU5Y96MA&t=363s>`__ 連結以獲取詳細說明。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:70
 msgid ""
 "Download the Eink zip library, AmebaEink.zip, at "
 "https://github.com/ambiot /tree/master/Arduino_zip_libraries"
-msgstr ""
+msgstr "在 https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries 下載 Eink 庫 AmebaEink.zip。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:72
 msgid ""
 "Then install the AmebaEink.zip. Open the “DisplayQR” example in ``“File” "
 "→ “Examples” → “AmebaEink” → “EinkDisplayImage”``:"
-msgstr ""
+msgstr "接著安裝 AmebaEink.zip。 打開 “DisplayQR” 範例 “File” → “Examples” → “AmebaEink” → “EinkDisplayImage”:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:74
@@ -221,6 +229,8 @@ msgid ""
 " if you wish to). Lastly, a gif which comes in form of 3 frames will be "
 "displayed for a few seconds."
 msgstr ""
+"上傳範例代碼後按重置按鈕，您需要等待大約 1-2 秒，e-Paper模塊才能刷新屏幕。 然後屏幕會先開始顯示圖像 5 秒，"
+"然後每 5 秒會顯示 3 個不同的二維碼（如下圖所示，您可以掃描二維碼了解更多信息）。 最後，以 3 幀形式出現的 gif 將顯示幾秒鐘。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:83
@@ -238,6 +248,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
+"説明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:91
@@ -245,7 +257,8 @@ msgid ""
 "We use Good Display GDEH029A1 2.9 Inch / 296×128 Resolution / Partial "
 "Refresh Arduino Sample Code to get the e-Paper successfully Display: "
 "http://www.good-display.com/product/201.html"
-msgstr ""
+msgstr "我們使用Good Display GDEH029A1 2.9英寸/ 296×128解析度/部分刷新Arduino範例代碼來成功獲取e-Paper顯示："
+"http://www.good-display.com/product/201.html"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:94
@@ -253,7 +266,9 @@ msgid ""
 "The link on how to generate a QR code on the E-paper module: "
 "https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-"
 "arduino.html"
-msgstr ""
+msgstr "提供有關如何在e-Paper模塊上生成QR碼的連結："
+"https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-"
+"arduino.html"
 
 #~ msgid ""
 #~ "Download the Eink zip library, "

@@ -26,6 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:12 HID
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -33,33 +35,35 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:13 HID
 msgid "BLE capable host device [Windows / Linux / MacOS / Android"
-msgstr ""
+msgstr "支援 BLE 的设备 [Windows / Linux / MacOS / Android"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:15 HID
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:19 HID
 msgid "**Introduction**"
-msgstr ""
+msgstr "**介绍**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:21 HID
 msgid ""
 "In this example, the RTL8722 board emulates a HID gamepad connected using"
 " BLE."
-msgstr ""
+msgstr "在此范例中，RTL8722 开发板用来模拟使用 BLE 连接的 HID 游戏控制器。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:23 HID
 msgid "**Procedure**"
-msgstr ""
+msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:25 HID
 msgid ""
 "Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
 "BLEHIDGamepad``."
-msgstr ""
+msgstr "打开范例，”Files” -> “Examples” -> “AmebaBLE” -> “BLEHIDGamepad”。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:27 HID
 msgid "|1|"
@@ -71,27 +75,28 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:29 HID
 msgid "Upload the code and press the reset button once the upload is finished."
-msgstr ""
+msgstr "上传代码并在上传完成后按重置按钮。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:31 HID
 msgid ""
 "Immediately after reset, the board will begin BLE advertising as "
 "“AMEBA_BLE_HID”. On your host device, go to the Bluetooth settings menu, "
 "scan, and connect to the board."
-msgstr ""
+msgstr "重置完毕后，开发板将开始蓝牙广播“AMEBA_BLE_HID”。此时可以在有支援 BLE 的设备上，扫描并连接到开发板。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:32 HID
 msgid ""
 "You should ensure that the connection process is completed before "
 "proceeding."
 msgstr ""
+"在继续之前，您应该确保连接过程已完成。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:34 HID
 msgid ""
 "On Windows, ensure that any driver installation is finished, and the "
 "board shows up in the Bluetooth menu under the “Mouse, keyboard & pen” "
 "category."
-msgstr ""
+msgstr "在 Windows 上，确保任何驱动程序已完成安装，并且在蓝牙选单中的“Mouse, keyboard & pen”类别中找到已连接的开发板。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:36 HID
 msgid "|2|"
@@ -103,7 +108,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:38 HID
 msgid "On Android, ensure that “Input device” is enabled for the board."
-msgstr ""
+msgstr "在 Android 上，确保为开发板启用“Input device”。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:40 HID
 msgid "|3|"
@@ -119,13 +124,14 @@ msgid ""
 "to send gamepad input to the host device. Connect digital pin 8 to 3.3V "
 "to start sending input, and connect to GND to stop."
 msgstr ""
+"蓝牙连接过程完成后，开发板准备将游戏控制器讯号发送到设备。将引脚 8 连接到 3.3V 开始发送，连接到 GND 来停止。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:46 HID
 msgid ""
 "To view the input, open a browser window and go to `Gamepad Tester <https"
 "://gamepad-tester.com/>`_. The connected gamepad device should show up "
 "here, and some of the buttons and axes should show changing values."
-msgstr ""
+msgstr "请打开浏览器并存取 https://gamepad-tester.com/来查看资讯 。连接的游戏控制器与其不断变化的数值应显示在此处。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:48 HID
 msgid "|4|"
@@ -141,7 +147,7 @@ msgid ""
 "-> “Devices and Printers” -> “AMEBA_BLE_HID” -> “Game Controller "
 "Settings” -> “Properties”. The buttons and axes should also show changing"
 " values here."
-msgstr ""
+msgstr "在 Windows 上，也可以通过“Control Panel” -> “Devices and Printers” -> “AMEBA_BLE_HID” -> “Game Controller Settings” -> “Properties”来查看游戏控制器。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:54 HID
 msgid "|5| |6|"
@@ -160,7 +166,7 @@ msgid ""
 "On Android, gamepad testing apps such as `Andriod Gamepad Tester "
 "<https://play.google.com/store/apps/details?id=com.chimera.saturday.evogamepadtester>`_"
 " can also be used to view the gamepad input."
-msgstr ""
+msgstr "在 Android 上，游戏控制器测试应用程序，例如 https://play.google.com/store/apps/details?id=com.chimera.saturday.evogamepadtester 也可以来查看资讯。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:60 HID
 msgid "|7|"
@@ -175,6 +181,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:66 HID
 msgid ""
@@ -183,7 +191,7 @@ msgid ""
 "dependent on the host device, and the button ordering may differ between "
 "devices. Also, some axes or buttons may be disabled or missing on certain"
 " host devices."
-msgstr ""
+msgstr "开发板预设模拟带有 8 向 d-pad、6 轴和 16 个按钮的游戏控制器。如何定义接收值取决于主机设备，并且设备之间的按钮顺序可能不同。此外，主机设备上的某些轴或按钮可能会被禁用。"
 
 #~ msgid "|5|"
 #~ msgstr ""
