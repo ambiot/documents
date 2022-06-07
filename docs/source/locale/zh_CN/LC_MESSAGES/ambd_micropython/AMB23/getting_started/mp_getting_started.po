@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:3
 msgid "Getting Started"
-msgstr ""
+msgstr "入门指南"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:7
 msgid "Ameba MicroPython: Getting Started with AMB23"

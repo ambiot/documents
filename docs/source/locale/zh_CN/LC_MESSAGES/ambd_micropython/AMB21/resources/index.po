@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/reference_links.rst:8
 msgid "Resources"
-msgstr ""
+msgstr "支援"
 
 #: ../../source/ambd_micropython/reference_links.rst:12
 msgid "Links"

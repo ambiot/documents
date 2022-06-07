@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB21/index.rst:14
 msgid "Table of Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/ambd_micropython/AMB21/index.rst:8
 msgid "AMB21/AMB22 (RTL8722DM/RTL8722CSM)"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB21/index.rst:10
 msgid "Welcome to AMB21/AMB22 MicroPython SDK online documentation."
-msgstr ""
+msgstr "欢迎来到 AMB21/AMB22 MicroPython SDK 线上文档"
 
 #: ../../source/ambd_micropython/AMB21/index.rst:12
 msgid "|image1|"
