@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"POT-Creation-Date: 2022-06-09 08:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:3 SDFS
 msgid "[RTL8722DM_MINI] SDFS - Directory Navigation"
-msgstr ""
+msgstr "[RTL8722DM mini] SDFS 目錄操作"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:8 SDFS
@@ -28,16 +28,18 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:12 SDFS
-msgid "Ameba RTL8722DM_MINI x 1"
+msgid "AmebaD[AMB23] x 1"
 msgstr ""
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:13 SDFS
 msgid "MicroSD Card x 1 (SD card must be < 32GB with format set to fatfs)"
-msgstr ""
+msgstr "MicroSD卡 x 1 (SD卡必須 < 32GB，格式設置為 fatfs)"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:15 SDFS
@@ -45,6 +47,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:19 SDFS
@@ -53,17 +57,20 @@ msgid ""
 " the SDFS module from the machine module. This module is a simplified "
 "file system with the aim to highlight SD card manipulation, thus it does "
 "not support virtual file system as well as virtual file object."
-msgstr ""
+msgstr "MicroPython RTL8722 通過從 machine 導入 SDFS 模塊來支持 SD 文件系統。 該模塊是一個簡化的文件系統，主要著重於 SD 卡操作，因此它不支持虛擬文件系統。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:21 SDFS
 msgid ""
 "Copy and paste the following code line by line into REPL to see its "
 "effect."
-msgstr ""
+msgstr "將以下代碼逐行複制粘貼到REPL中來使用。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:36 SDFS
 msgid "No file open or close is needed, the API does that automatically for you."
-msgstr ""
+msgstr "不需要打開或關閉文件，API 會自動為您完成。"
+
+#~ msgid "Ameba RTL8722DM_MINI x 1"
+#~ msgstr ""
 

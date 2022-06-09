@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"POT-Creation-Date: 2022-06-09 08:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] LED PWM
 #: [RTL8722DM] fade.rst:8
 msgid "[RTL8722CSM] [RTL8722DM] PWM - LED fade"
-msgstr ""
+msgstr "[RTL8722CSM] [RTL8722DM] PWM - LED 渐变"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] LED PWM
 #: [RTL8722DM] fade.rst:13
@@ -28,10 +28,12 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] LED PWM
 #: [RTL8722DM] fade.rst:17
-msgid "Ameba x 1"
+msgid "AmebaD[AMB21 / AMB22] x 1"
 msgstr ""
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] LED PWM
@@ -42,7 +44,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] LED PWM
 #: [RTL8722DM] fade.rst:19
 msgid "Resistor(220ohm) x 1"
-msgstr ""
+msgstr "电阻(220欧姆) x 1"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] LED PWM
 #: [RTL8722DM] fade.rst:21
@@ -50,6 +52,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] LED PWM
 #: [RTL8722DM] fade.rst:25
@@ -57,14 +61,14 @@ msgid ""
 "PWM use pulse width modulation to control output duty cycle and is widely"
 " used to control LED brightness and motor. Here we are using an LED to "
 "demonstrate how PWM works."
-msgstr ""
+msgstr "PWM脉宽调变控制输出脉波周期来实现对LED亮度和马达的控制。下面是我们用LED来展示PWM是如何来实做的。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] LED PWM
 #: [RTL8722DM] fade.rst:27
 msgid ""
 "Let us connect pin PA_26 to the anode leg of an LED which in series with "
 "a current limiting resistor and GND to cathode of the LED as shown below,"
-msgstr ""
+msgstr "连接PA_26至LED的正极和电阻串联在一起, 然后GND接至LED负极。如图"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] LED PWM
 #: [RTL8722DM] fade.rst:29
@@ -82,5 +86,8 @@ msgid ""
 "Then, copy and paste the following code line by line into REPL and hit "
 "Enter. If everything is in order, you should be able to see the LED "
 "slowly become brighter as you paste another line of code."
-msgstr ""
+msgstr "然后, 逐行复制下面的代码去REPL并观察结果, LED会慢慢的渐变明亮。"
+
+#~ msgid "Ameba x 1"
+#~ msgstr ""
 

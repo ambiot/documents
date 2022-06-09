@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"POT-Creation-Date: 2022-06-09 08:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:3 SDFS
 msgid "[RTL8722DM_MINI] SDFS - Directory Navigation"
-msgstr ""
+msgstr "[RTL8722DM_MINI] SDFS - 目录操作"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:8 SDFS
@@ -28,16 +28,18 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:12 SDFS
-msgid "Ameba RTL8722DM_MINI x 1"
+msgid "AmebaD[AMB23] x 1"
 msgstr ""
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:13 SDFS
 msgid "MicroSD Card x 1 (SD card must be < 32GB with format set to fatfs)"
-msgstr ""
+msgstr "MicroSD卡 x 1 (SD卡必须 < 32GB，格式设置为 fatfs)"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:15 SDFS
@@ -45,6 +47,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **步骤** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:19 SDFS
@@ -54,16 +58,21 @@ msgid ""
 "file system with the aim to highlight SD card manipulation, thus it does "
 "not support virtual file system as well as virtual file object."
 msgstr ""
+"MicroPython RTL8722 通过从 machine 导入 SDFS 模块来支持 SD 文件系统。该模块是一个简化的文件系统，主要着重于"
+" SD 卡操作，因此它不支持虚拟文件系统。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:21 SDFS
 msgid ""
 "Copy and paste the following code line by line into REPL to see its "
 "effect."
-msgstr ""
+msgstr "将以下代码逐行复制粘贴到REPL中来使用。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722DM Directory MINI]
 #: Navigation.rst:36 SDFS
 msgid "No file open or close is needed, the API does that automatically for you."
-msgstr ""
+msgstr "不需要打开或关闭文件，API 会自动为您完成。"
+
+#~ msgid "Ameba RTL8722DM_MINI x 1"
+#~ msgstr ""
 

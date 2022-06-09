@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"POT-Creation-Date: 2022-06-09 08:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:8
 #: SPI Slave [RTL8722DM]
 msgid "[RTL8722CSM] [RTL8722DM] SPI - Slave Receive"
-msgstr ""
+msgstr "[RTL8722CSM] [RTL8722DM] SPI - 作爲從設備接收消息"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:13
 #: SPI Slave [RTL8722DM]
@@ -28,10 +28,12 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:17
 #: SPI Slave [RTL8722DM]
-msgid "Ameba x 1"
+msgid "AmebaD[AMB21 / AMB22] x 1"
 msgstr ""
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:18
@@ -45,6 +47,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:24
 #: SPI Slave [RTL8722DM]
@@ -54,21 +58,22 @@ msgid ""
 "output image signal to a display. Ameba support SPI in both master and "
 "slave mode. Here we are going to see an example demonstrating how ameba "
 "receive data in slave mode on MicroPython."
-msgstr ""
+msgstr "SPI是一種快速且强大的通訊協議，並通常在微處理器中被用來接受傳感器的數據或輸出圖像訊號。"
+"在這個示例中將示範ameba如何透過MicroPython以從屬模式接收數據。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:26
 #: SPI Slave [RTL8722DM]
 msgid ""
 "Before connection, make sure to upload the following code to your Arduino"
 " UNO."
-msgstr ""
+msgstr "在通訊連接建立之前，需要先將以下代碼燒錄到Arduino UNO。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:53
 #: SPI Slave [RTL8722DM]
 msgid ""
 "Connection is shown as follows, here we are using unit 0 as SPI slave, "
 "and Arduino UNO as SPI master,"
-msgstr ""
+msgstr "Arduino UNO將以如下圖所示的連接方式和Ameba連接，我們使用第“0”組SPI作爲從機， 並將Arduino UNO當作SPI的主機。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:55
 #: SPI Slave [RTL8722DM]
@@ -85,5 +90,8 @@ msgstr ""
 msgid ""
 "Then copy and paste the following code into REPL under paste mode to see "
 "their effects."
-msgstr ""
+msgstr "然後複製以下代碼並粘貼到REPL的粘貼模式窗口，並等待代碼生效。"
+
+#~ msgid "Ameba x 1"
+#~ msgstr ""
 

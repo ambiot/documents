@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"POT-Creation-Date: 2022-06-09 08:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Delay Time
 #: Timing.rst:8 [RTL8722DM] and
 msgid "[RTL8722CSM] [RTL8722DM] Time - Delay and Timing"
-msgstr ""
+msgstr "[RTL8722CSM] [RTL8722DM] Time - 延遲和計時"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Delay Time
 #: Timing.rst:13 [RTL8722DM] and
@@ -28,10 +28,12 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Delay Time
 #: Timing.rst:17 [RTL8722DM] and
-msgid "Ameba x 1"
+msgid "AmebaD[AMB21 / AMB22] x 1"
 msgstr ""
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Delay Time
@@ -40,18 +42,23 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Delay Time
 #: Timing.rst:23 [RTL8722DM] and
 msgid ""
 "MicroPython has provided rich functions to deal with time and delay, here"
 " are some examples."
-msgstr ""
+msgstr "MicroPython 提供了很多函數來處理延遲和計時，以下是一些示例。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Delay Time
 #: Timing.rst:25 [RTL8722DM] and
 msgid ""
 "Copy and paste the following code line by line into REPL to see its "
 "effect."
-msgstr ""
+msgstr "複製下面的代碼至REP來觀察結果。"
+
+#~ msgid "Ameba x 1"
+#~ msgstr ""
 

@@ -14,7 +14,7 @@
 **Materials**
 :raw-html:`</p>`
 
-* Ameba x 1
+* AmebaD[AMB21 / AMB22] x 1
 * TTL USB to Serial module x 1
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`

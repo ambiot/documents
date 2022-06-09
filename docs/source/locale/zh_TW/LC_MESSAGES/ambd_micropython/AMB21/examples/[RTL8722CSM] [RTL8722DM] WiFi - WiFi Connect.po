@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"POT-Creation-Date: 2022-06-09 08:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Connect.rst:8
 #: WiFi [RTL8722DM]
 msgid "[RTL8722CSM] [RTL8722DM] WiFi - WiFi Connect"
-msgstr ""
+msgstr "[RTL8722CSM] [RTL8722DM] WiFi - WiFi 連接"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Connect.rst:13
 #: WiFi [RTL8722DM]
@@ -28,10 +28,12 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Connect.rst:17
 #: WiFi [RTL8722DM]
-msgid "Ameba x 1"
+msgid "AmebaD[AMB21 / AMB22] x 1"
 msgstr ""
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Connect.rst:19
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Connect.rst:23
 #: WiFi [RTL8722DM]
@@ -47,7 +51,7 @@ msgid ""
 "Ameba can connect to WiFi access point with open security or WPA2 "
 "security type, which is the most common security type used in household "
 "wireless routers."
-msgstr ""
+msgstr "Ameba可以使用開放安全性或WPA2安全類型連接到WiFi接入點，WPA2安全類型是家用無線路由器中最常用的安全類型。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Connect.rst:25
 #: WiFi [RTL8722DM]
@@ -55,5 +59,8 @@ msgid ""
 "Here we are going to connect to a WiFi access point using code below, "
 "copy and paste the following code line by line into REPL to see their "
 "effects."
-msgstr ""
+msgstr "在這裡我們將使用下面的代碼連接到WiFi接入點，將以下代碼逐行複制並粘貼到REPL中，以查看其作用。"
+
+#~ msgid "Ameba x 1"
+#~ msgstr ""
 

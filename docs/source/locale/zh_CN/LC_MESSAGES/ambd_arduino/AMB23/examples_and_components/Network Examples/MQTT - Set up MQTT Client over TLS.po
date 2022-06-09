@@ -117,7 +117,7 @@ msgstr "``publishPayload`` 是要发布的内容。"
 msgid ""
 "“subscribeTopic” is to tell MQTT-broker which topic we want to subscribe "
 "to."
-msgstr "``subscribeTopic” 通知MQTT-broker我们要订阅哪个主题。"
+msgstr "``subscribeTopic`` 通知MQTT-broker我们要订阅哪个主题。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:37
 #: over up
