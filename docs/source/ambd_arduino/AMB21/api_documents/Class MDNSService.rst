@@ -1,12 +1,17 @@
-Class HttpClient
+Class MDNSService
 ==================
-**MDNSService Class**
+.. class:: MDNSService
 
-| **Description**
-| A class used for creating MDNS service records.
 
-| **Syntax**
-| class MDNSService
+**Description**
+
+A class used for creating MDNS service records.
+
+**Syntax**
+
+.. code:: cpp
+
+  class MDNSService
 
 **Members**
 
@@ -14,54 +19,83 @@ Class HttpClient
 **Public Constructors**    
 ========================= ===============================
 MDNSService::MDNSService  Create a MDNS service record
+========================= ===============================
+
+========================= ===============================
 **Public Methods**         
 MDNSService::addTxtRecord Add text to MDNS service record
 ========================= ===============================
 
-**MDNSService::MDNSService**
+-----------------------------------------------------------
 
-| **Description**
-| Create a MDNS service record.
+.. class:: MDNSService::MDNSService
 
-| **Syntax**
-| MDNSService(char\* name, char\* service_type, char\* domain, unsigned
-  short port, int bufsize);
 
-| **Parameters**
-| name: device name
-| service_type: MDNS service type
-| domain: host domain
-| port: network port
-| bufsize: size of buffer for MDNS text record
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Create a MDNS service record.
 
-| **Example Code**
-| Example: mDNS_On_Arduino_IDE
+**Syntax**
 
-| **Notes and Warnings**
-| Include “AmebaMDNS.h” to use the class function.
-|  
+.. code:: cpp
 
-**MDNSService::addTxtRecord**
+  MDNSService(char* name, char* service_type, char* domain, unsigned short port, int bufsize);
 
-| **Description**
-| Add text to MDNS service record.
+**Parameters**
 
-| **Syntax**
-| int addTextRecord(char\* key, int value_len, char\* value);
+``name``: device name
 
-| **Parameters**
-| key: record type expressed as character string
-| value_len: length of value string
-| value: record value expressed as character string
+``service_type``: MDNS service type
 
-| **Returns**
-| 0 if add record successful
+``domain``: host domain
 
-| **Example Code**
-| Example: mDNS_On_Arduino_IDE
+``port``: network port
 
-| **Notes and Warnings**
-| Include “AmebaMDNS.h” to use the class function.
+``bufsize`` : size of buffer for MDNS text record
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: mDNS_On_Arduino_IDE
+
+**Notes and Warnings**
+
+Include “AmebaMDNS.h” to use the class function.
+
+-------------------------------------------
+
+.. method:: MDNSService::addTxtRecord*
+
+
+**Description**
+
+Add text to MDNS service record.
+
+**Syntax**
+
+.. code:: cpp
+
+  int addTextRecord(char* key, int value_len, char* value);
+
+**Parameters**
+
+``key`` : record type expressed as character string
+
+``value_len`` : length of value string
+
+``value`` : record value expressed as character string
+
+**Returns**
+
+0 if add record successful
+
+**Example Code**
+
+Example: mDNS_On_Arduino_IDE
+
+**Notes and Warnings**
+
+Include “AmebaMDNS.h” to use the class function.

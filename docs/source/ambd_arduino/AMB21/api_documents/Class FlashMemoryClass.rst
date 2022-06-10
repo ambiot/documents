@@ -1,12 +1,17 @@
-Class EpdIF
-============
-**FlashMemoryClass Class**
+Class FlashMemory 
+====================
 
-| **Description**
-| Defines a class of Flash memory API
+.. class:: FlashMemory
 
-| **Syntax**
-| class FlashMemoryClass
+**Description**
+
+Defines a class of Flash memory API
+
+**Syntax**
+
+.. code:: cpp
+
+  class FlashMemoryClass
 
 **Members**
 
@@ -37,295 +42,334 @@ Class EpdIF
 | FlashMemoryClass::\*buf          | The buf to be operated           |
 +----------------------------------+----------------------------------+
 
-**FlashMemoryClass::FlashMemoryClass**
+--------------------------
 
-| **Description**
-| Constructs a FlashMemoryClass object.
 
-| **Syntax**
-| FlashMemoryClass(unsigned int \_base_address, unsigned int
-  \_buf_size);
+.. method:: FlashMemoryClass::FlashMemoryClass
 
-| **Parameters**
-| \_base_address: The base address to operate.
-| \_buf_size: The buf size for mirror a copy to reduce flash memory
-  operation
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Constructs a FlashMemoryClass object.
 
-| **Example Code**
-| Example: FleshMemory_Basic
-| This example demonstrates the basic use of flash memory. Since boot
-  count is stored in flash, each time upon device boot up, the boot
-  count will be read from the flash, add one, then write back to the
-  flash. Ameba’s flash memory can be edit in a unit of a sector which
-  has the size of 4K bytes.
-| Direct read from flash memory is allowed. To write data into flash
-  memory, each bit on flash memory can only change from ‘1’ to ‘0’ and
-  it cannot change from ‘0’ to ‘1’. To make sure the data are correctly
-  written we do erase the flash memory sector before write data on it.
+**Syntax**
 
-**#include <FlashMemory.h>**
+.. code:: cpp
 
-**void** setup() {
+  FlashMemoryClass(unsigned int _base_address, unsigned int _buf_size);
 
-FlashMemory.read();
+**Parameters**
 
-**if** (FlashMemory.buf[0] == *0xFF*) {
+``\_base_address`` : The base address to operate.
 
-FlashMemory.buf[0] = *0x00*;
+``\_buf_size`` : The buf size for mirror a copy to reduce flash memory operation
 
-FlashMemory.update();
+**Returns**
 
-Serial.println("write count to 0");
+The function returns nothing.
 
-} **else** {
+**Example Code**
 
-FlashMemory.buf[0]++;
+Example: FleshMemory_Basic
 
-FlashMemory.update();
+This example demonstrates the basic use of flash memory. Since boot count is stored in flash, each time upon device boot up, the boot count will be read from the flash, add one, then write back to the
+flash. Ameba’s flash memory can be edit in a unit of a sector which has the size of 4K bytes.
+Direct read from flash memory is allowed. To write data into flash memory, each bit on flash memory can only change from ‘1’ to ‘0’ and it cannot change from ‘0’ to ‘1’. To make sure the data are correctly
+written we do erase the flash memory sector before write data on it.
 
-Serial.print("Boot count: ");
+.. code-block:: cpp
+  :caption: FlashMemory_Basic
+  :linenos:
+    
+    #include "FlashMemory.h"    
 
-Serial.println(FlashMemory.buf[0]);
+    void setup() {  
+      FlashMemory.read();  
+      if (FlashMemory.buf[0] == 0xFF) {  
+        FlashMemory.buf[0] = 0x00;  
+        FlashMemory.update();  
+        Serial.println("write count to 0");  
+      } else {  
+        FlashMemory.buf[0]++;  
+        FlashMemory.update();  
+        Serial.print("Boot count: ");  
+        Serial.println(FlashMemory.buf[0]);  
+      }  
+    }  
 
-}
+    void loop() {  
+      delay(1000);  
+    }  }
 
-}
+-------------------------------------------------------------------
 
-**void** loop() {
+Example: ReadWriteOneWord
 
-delay(1000);
+This example shows how to request flash memory larger than default
+0x4000, and read/write one specific word (32-bit).
 
-}
+.. code-block:: cpp
+  :caption: ReadWriteOneWord
+  :linenos:
 
-| Example: ReadWriteOneWord
-| This example shows how to request flash memory larger than default
-  0x4000, and read/write one specific word (32-bit).
+  #include "FlashMemory.h"    
+  
+  void setup() {  
+    unsigned int value;  
+    /* request flash size 0x4000 from 0xFC000 */  
+    FlashMemory.begin(0xFC000, 0x4000);  
 
-**#include <FlashMemory.h>**
+    /* read one word (32-bit) from 0xFC000 plus offset 0x3F00 */  
+    value = FlashMemory.readWord(0x3F00);  
 
-**void** setup() {
+    printf("value is 0x%08X\r\n", value);  
 
-unsigned **int** value;
+    if (value == 0xFFFFFFFF) {  
+      value = 0;  
+    } else {  
+      value++;  
+    }  
 
-/\* request flash size 0x4000 from 0xFC000 \*/
+    /* write one word (32-bit) to 0xFC000 plus offset 0x3F00 */  
+    FlashMemory.writeWord(0x3F00, value);  
+  }  
 
-FlashMemory.begin(*0xFC000*, *0x4000*);
+  void loop() {  
+    // put your main code here, to run repeatedly:  
+  }
 
-/\* read one word (32-bit) from 0xFC000 plus offset 0x3F00 \*/
 
-value = FlashMemory.readWord(*0x3F00*);
+**Notes and Warnings**
 
-printf("value is 0x%08X\r\n", value);
+Include “FlashMemory.h” to use the class function.
 
-**if** (value == *0xFFFFFFFF*) {
+-----------------------------------------------------------------
 
-value = 0;
+.. method:: FlashMemoryClass::begin
 
-} **else** {
 
-value++;
+**Description**
 
-}
+Initialize/Re-initialize the base address and size. The base address shell aligns with the size of 0x1000. And the size shell is multiple of 0x1000.
 
-/\* write one word (32-bit) to 0xFC000 plus offset 0x3F00 \*/
+**Syntax**
 
-FlashMemory.writeWord(*0x3F00*, value);
+.. code:: cpp
 
-}
+  void begin(unsigned int _base_address, unsigned int _buf_size);
 
-**void** loop() {
+**Parameters**
 
-// put your main code here, to run repeatedly:
-
-}
+``_base_address``: The base address
 
-| **Notes and Warnings**
-| Include “FlashMemory.h” to use the class function.
-|  
+``_buf_size`` : The desired work size
 
-**FlashMemoryClass::begin**
-
-| **Description**
-| Initialize/Re-initialize the base address and size. The base address
-  shell aligns with the size of 0x1000. And the size shell is multiple
-  of 0x1000.
+**Returns**
 
-| **Syntax**
-| void begin(unsigned int \_base_address, unsigned int \_buf_size);
+The function returns nothing.
 
-| **Parameters**
-| \_base_address: The base address
-| \_buf_size: The desired work size
-
-| **Returns**
-| The function returns nothing.
-
-| **Example Code**
-| Example: FleshMemory_Basic
-| This example demonstrates the basic use of flash memory. Since boot
-  count is stored in flash, each time upon device boot up, the boot
-  count will be read from the flash, add one, then write back to the
-  flash. Ameba’s flash memory can be edit in a unit of a sector which
-  has the size of 4K bytes.
-| Example: ReadWriteOneWord
-| This example shows how to request flash memory larger than default
-  0x4000, and read/write one specific word (32-bit).
-| Details of the example codes can be found in the previous section of
-  “FlashMemoryClass:: FlashMemoryClass”.
+**Example Code**
 
-| **Notes and Warnings**
-| Include “FlashMemory.h” to use the class function.
-|  
+Example: FleshMemory_Basic
 
-**FlashMemoryClass::read**
+This example demonstrates the basic use of flash memory. Since boot count is stored in flash, each time upon device boot up, the boot count will be read from the flash, add one, then write back to the
+flash. Ameba’s flash memory can be edit in a unit of a sector which has the size of 4K bytes.
 
-| **Description**
-| Read the content to buf. Read flash memory into the buf. The size
-  would be 0x1000.
+------------------------------------
 
-| **Syntax**
-| void read(void);
-
-| **Parameters**
-| The function requires no input parameter.
-
-| **Returns**
-| The function returns nothing.
-
-| **Example Code**
-| Example: FleshMemory_Basic
-| This example demonstrates the basic use of flash memory. Since boot
-  count is stored in flash, each time upon device boot up, the boot
-  count will be read from the flash, add one, then write back to the
-  flash. Ameba’s flash memory can be edit in a unit of a sector which
-  has the size of 4K bytes.
-| Details of the example codes can be found in the previous section of
-  “FlashMemoryClass:: FlashMemoryClass”.
+Example: ReadWriteOneWord
 
-| **Notes and Warnings**
-| Include “FlashMemory.h” to use the class function.
-|  
-
-**FlashMemoryClass::update**
-
-| **Description**
-| Write buf back to flash memory. Write flash memory with the content of
-  the buffer. The size is 0x1000.
-
-| **Syntax**
-| void update(bool erase = true);
+This example shows how to request flash memory larger than default 0x4000, and read/write one specific word (32-bit). Details of the example codes can be found in the previous section of ``FlashMemoryClass:: FlashMemoryClass``.
 
-| **Parameters**
-| erase: By default, it is true and erases flash memory before writing
-  to it
+**Notes and Warnings**
 
-| **Returns**
-| The function returns nothing.
+Include “FlashMemory.h” to use the class function.
 
-| **Example Code**
-| Example: FleshMemory_Basic
-| This example demonstrates the basic use of flash memory. Since boot
-  count is stored in flash, each time upon device boot up, the boot
-  count will be read from the flash, add one, then write back to the
-  flash. Ameba’s flash memory can be edit in a unit of a sector which
-  has the size of 4K bytes.
-| Details of the example codes can be found in the previous section of
-  “FlashMemoryClass:: FlashMemoryClass”.
+---------------------
 
-| **Notes and Warnings**
-| Include “FlashMemory.h” to use the class function.
-|  
+.. method:: FlashMemoryClass::read
 
-**FlashMemoryClass::readWord**
 
-| **Description**
-| Read 4 bytes from flash memory. Read 4 byte from specific offset based
-  on base address.
+**Description**
 
-| **Syntax**
-| unsigned int readWord(unsigned int offset);
+Read the content to buf. Read flash memory into the buf. The size would be 0x1000.
 
-| **Parameters**
-| offset: The offset according to the base address
+**Syntax**
 
-| **Returns**
-| The read data with a size of 4 bytes
+.. code:: cpp
 
-| **Example Code**
-| Example: ReadWriteOneWord
-| This example shows how to request flash memory larger than default
-  0x4000, and read/write one specific word (32-bit).
-| Details of the example codes can be found in the previous section of
-  “FlashMemoryClass:: FlashMemoryClass”.
+  void read(void);
 
-| **Notes and Warnings**
-| Include “FlashMemory.h” to use the class function.
-|  
+**Parameters**
 
-**FlashMemoryClass::writeWord**
+The function requires no input parameter.
 
-| **Description**
-| Write 4 bytes into flash memory. It will try to write 4 bytes first.
-  If the read data differ from the write data, then we buffer the sector
-  of flash memory, erase it, and write correct data back to it.
+**Returns**
 
-| **Syntax**
-| void writeWord(unsigned int offset, unsigned int data);
+The function returns nothing.
 
-| **Parameters**
-| offset: The offset according to the base address
-| data: The data to be written
+**Example Code**
 
-| **Returns**
-| The function returns nothing.
+Example: FleshMemory_Basic
 
-| **Example Code**
-| Example: ReadWriteOneWord
-| This example shows how to request flash memory larger than default
-  0x4000, and read/write one specific word (32-bit).
-| Details of the example codes can be found in the previous section of
-  “FlashMemoryClass:: FlashMemoryClass”.
+This example demonstrates the basic use of flash memory. Since boot count is stored in flash, each time upon device boot up, the boot count will be read from the flash, add one, then write back to the
+flash. Ameba’s flash memory can be edit in a unit of a sector which has the size of 4K bytes. Details of the example codes can be found in the previous section of ``FlashMemoryClass:: FlashMemoryClass``.
 
-| **Notes and Warnings**
-| Include “FlashMemory.h” to use the class function.
-|  
+**Notes and Warnings**
 
-**FlashMemoryClass::buf_size**
+Include “FlashMemory.h” to use the class function.
 
-| **Description**
-| The buf size (It can be regarded as work size).
+-------------------------------------------------------
 
-| **Syntax**
-| unsigned int buf_size;
+.. method:: FlashMemoryClass::update
 
-| **Example Code**
-| Example: FlashMemory_Basic
-| This example demonstrates the basic use of flash memory. Since boot
-  count is stored in flash, each time upon device boot up, the boot
-  count will be read from the flash, add one, then write back to the
-  flash. Ameba’s flash memory can be edit in a unit of a sector which
-  has the size of 4K bytes.
-| Details of the example codes can be found in the previous section of
-  “FlashMemoryClass:: FlashMemoryClass”.
 
-| **Notes and Warnings**
-| Include “FlashMemory.h” to use the class function.
-|  
+**Description**
 
-**FlashMemoryClass::*buf**
+Write buf back to flash memory. Write flash memory with the content of the buffer. The size is 0x1000.
 
-| **Description**
-| The buf to be operated. Modify buf won’t change the content of the
-  buf. It needs an update to write back to flash memory.
+**Syntax**
 
-| **Syntax**
-| unsigned char \*buf;
+.. code:: cpp
 
-| **Example Code**
-| NA
+  void update(bool erase = true);
 
-| **Notes and Warnings**
-| Include “FlashMemory.h” to use the class function.
+**Parameters**
+
+``erase``: By default, it is true and erases flash memory before writing to it
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: FleshMemory_Basic
+
+This example demonstrates the basic use of flash memory. Since boot count is stored in flash, each time upon device boot up, the boot
+count will be read from the flash, add one, then write back to the flash. Ameba’s flash memory can be edit in a unit of a sector which has the size of 4K bytes.
+Details of the example codes can be found in the previous section of ``FlashMemoryClass:: FlashMemoryClass``.
+
+**Notes and Warnings**
+
+Include “FlashMemory.h” to use the class function.
+
+--------------------------------------
+
+.. method:: FlashMemoryClass::readWord
+
+
+**Description**
+
+Read 4 bytes from flash memory. Read 4 byte from specific offset based on base address.
+
+**Syntax**
+
+.. code:: cpp
+
+  unsigned int readWord(unsigned int offset);
+
+**Parameters**
+
+``offset`` : The offset according to the base address
+
+**Returns**
+
+The read data with a size of 4 bytes
+
+**Example Code**
+
+Example: ReadWriteOneWord
+
+This example shows how to request flash memory larger than default 0x4000, and read/write one specific word (32-bit).
+Details of the example codes can be found in the previous section of ``FlashMemoryClass:: FlashMemoryClass``.
+
+**Notes and Warnings**
+
+Include “FlashMemory.h” to use the class function.
+
+-------------------------------------------------------
+
+.. method:: FlashMemoryClass::writeWord
+
+
+**Description**
+
+Write 4 bytes into flash memory. It will try to write 4 bytes first. If the read data differ from the write data, then we buffer the sector
+of flash memory, erase it, and write correct data back to it.
+
+**Syntax**
+
+.. code:: cpp
+
+  void writeWord(unsigned int offset, unsigned int data);
+
+**Parameters**
+
+``offset`` : The offset according to the base address
+
+``data`` : The data to be written
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: ReadWriteOneWord
+
+This example shows how to request flash memory larger than default 0x4000, and read/write one specific word (32-bit).
+Details of the example codes can be found in the previous section of ``FlashMemoryClass:: FlashMemoryClass``.
+
+**Notes and Warnings**
+
+Include “FlashMemory.h” to use the class function.
+
+---------------------------------
+
+.. method:: FlashMemoryClass::buf_size
+
+
+**Description**
+
+The buf size (It can be regarded as work size).
+
+**Syntax**
+
+.. code:: cpp
+
+  unsigned int buf_size;
+
+**Example Code**
+
+Example: FlashMemory_Basic
+
+This example demonstrates the basic use of flash memory. Since boot count is stored in flash, each time upon device boot up, the boot
+count will be read from the flash, add one, then write back to the flash. Ameba’s flash memory can be edit in a unit of a sector which has the size of 4K bytes.
+Details of the example codes can be found in the previous section of ``FlashMemoryClass:: FlashMemoryClass``.
+
+**Notes and Warnings**
+
+Include “FlashMemory.h” to use the class function.
+
+----------------------------------------
+
+.. method:: FlashMemoryClass::*buf
+
+
+**Description**
+
+The buf to be operated. Modify buf won’t change the content of the buf. It needs an update to write back to flash memory.
+
+**Syntax**
+
+.. code:: cpp
+
+  unsigned char *buf;
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Include “FlashMemory.h” to use the class function.

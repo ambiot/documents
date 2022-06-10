@@ -1,14 +1,16 @@
 Class BLEHIDGamepad
 ===================
-
-**BLEHIDGamepad Class**
+.. class:: BLEHIDGamepad
 
 **Description**
 
 A class used for creating and managing a BLE HID Gamepad.
 
-| **Syntax**
-| class BLEHIDGamepad
+**Syntax**
+
+.. code:: cpp
+
+  class BLEHIDGamepad
 
 **Members**
 
@@ -52,280 +54,422 @@ A class used for creating and managing a BLE HID Gamepad.
 | mepad::setTriggers | of axes corresponding to triggers               |
 +--------------------+-------------------------------------------------+
 
-**BLEHIDGamepad::BLEHIDGamepad**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------
 
-| **Description**
-| Constructs a BLE object
+.. method:: LEHIDGamepad::BLEHIDGamepad
 
-| **Syntax**
-| BLEHIDGamepad::BLEHIDGamepad();
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+Constructs a BLE object
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| Example: BLEHIDGamepad
+.. code:: cpp
 
-| **Notes and Warnings**
-| By default, the BLEHIDGamepad class assumes the HID report descriptor
-  implements a gamepad device with 16 buttons, 6 16-bit axes and an
-  8-direction hat switch. This class will not work if a different
-  gamepad report descriptor is implemented.
+  BLEHIDGamepad::BLEHIDGamepad();
 
-**BLEHIDGamepad::setReportID**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Parameters**
 
-| **Description**
-| Set HID report ID for the HID Gamepad.
+The function requires no input parameter.
 
-| **Syntax**
-| void setReportID (uint8_t reportID);
+**Returns**
 
-| **Parameters**
-| reportID: The report ID for the gamepad device, corresponding to the
-  HID report descriptor.
+The function returns nothing.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| Example: BLEHIDGamepad
+Example: BLEHIDGamepad
 
-| **Notes and Warnings**
-| HID report ID should start at 1. Some systems may consider a report ID
-  of 0 as invalid.
+**Notes and Warnings**
+
+By default, the BLEHIDGamepad class assumes the HID report descriptor
+implements a gamepad device with 16 buttons, 6 16-bit axes and an
+8-direction hat switch. This class will not work if a different
+gamepad report descriptor is implemented.
+
+---------------------------------------------------------------
+
+.. method:: BLEHIDGamepad::setReportID
+
+
+**Description**
+
+Set HID report ID for the HID Gamepad.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setReportID (uint8_t reportID);
+
+**Parameters**
+
+``reportID`` : The report ID for the gamepad device, corresponding to the ID report descriptor.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEHIDGamepad
+
+**Notes and Warnings**
+
+HID report ID should start at 1. Some systems may consider a report ID
+of 0 as invalid.
+
+---------------------------------------------------------------------------
 
 **BLEHIDGamepad::gamepadReport**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| **Description**
-| Send a HID Gamepad report.
 
-| **Syntax**
-| void gamepadReport (hid_gamepad_report_t\* report);
-| void gamepadReport (uint16_t buttons, uint8_t hat, int16_t x, int16_t
-  y, int16_t z, int16_t Rz, int16_t Rx, int16_t Ry);
+**Description**
 
-| **Parameters**
-| report: pointer to gamepad report structure containing data on all
-  inputs
-| buttons: bitmap indicating state of each button. 1 = pressed, 0 =
-  released.
-| hat: position of hat switch. Valid values:
-| – GAMEPAD_HAT_CENTERED = 0
-| – GAMEPAD_HAT_UP = 1
-| – GAMEPAD_HAT_UP_RIGHT = 2
-| – GAMEPAD_HAT_RIGHT = 3
-| – GAMEPAD_HAT_DOWN_RIGHT = 4
-| – GAMEPAD_HAT_DOWN = 5
-| – GAMEPAD_HAT_DOWN_LEFT = 6
-| – GAMEPAD_HAT_LEFT = 7
-| – GAMEPAD_HAT_UP_LEFT = 8
-| x: position of x axis. Integer value from -32767 to 32767.
-| y: position of y axis. Integer value from -32767 to 32767.
-| z: position of z axis. Integer value from -32767 to 32767.
-| Rz: position of Rz axis. Integer value from -32767 to 32767.
-| Rx: position of Rx axis. Integer value from -32767 to 32767.
-| Ry: position of Ry axis. Integer value from -32767 to 32767.
+Send a HID Gamepad report.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| Example: BLEHIDGamepad
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
+  void gamepadReport (hid_gamepad_report_t* report);
 
-**BLEHIDGamepad::buttonPress**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. code:: cpp
 
-| **Description**
-| Send a HID Gamepad report indicating buttons pressed.
+  void gamepadReport (uint16_t buttons, uint8_t hat, int16_t x, int16_t y, int16_t z, int16_t Rz, int16_t Rx, int16_t Ry);
 
-| **Syntax**
-| void buttonPress (uint16_t buttons);
+**Parameters**
 
-| **Parameters**
-| buttons: bitmap indicating buttons pressed. 1 = pressed.
+``report``: pointer to gamepad report structure containing data on all inputs
 
-| **Returns**
-| The function returns nothing.
+``buttons``: bitmap indicating state of each button. 1 = pressed, 0 = released.
 
-| **Example Code**
-| NA
+``hat`` : position of hat switch. Valid values:
 
-| **Notes and Warnings**
-| NA
+– GAMEPAD_HAT_CENTERED = 0
 
-**BLEHIDGamepad::buttonRelease**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+– GAMEPAD_HAT_UP = 1
 
-| **Description**
-| Send a HID Gamepad report indicating buttons released.
+– GAMEPAD_HAT_UP_RIGHT = 2
 
-| **Syntax**
-| void buttonRelease (uint16_t buttons);
+– GAMEPAD_HAT_RIGHT = 3
 
-| **Parameters**
-| buttons: bitmap indicating buttons released. 1 = released.
+– GAMEPAD_HAT_DOWN_RIGHT = 4
 
-| **Returns**
-| The function returns nothing.
+– GAMEPAD_HAT_DOWN = 5
 
-| **Example Code**
-| NA
+– GAMEPAD_HAT_DOWN_LEFT = 6
 
-| **Notes and Warnings**
-| NA
+– GAMEPAD_HAT_LEFT = 7
 
-**BLEHIDGamepad::buttonReleaseAll**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+– GAMEPAD_HAT_UP_LEFT = 8
 
-| **Description**
-| Send a HID Gamepad report indicating no buttons pressed.
+x: position of x axis. Integer value from -32767 to 32767.
 
-| **Syntax**
-| void buttonReleaseAll (void);
+y: position of y axis. Integer value from -32767 to 32767.
 
-| **Parameters**
-| The function requires no input parameter.
+z: position of z axis. Integer value from -32767 to 32767.
 
-| **Returns**
-| The function returns nothing.
+Rz: position of Rz axis. Integer value from -32767 to 32767.
 
-| **Example Code**
-| Example: BLEHIDGamepad
+Rx: position of Rx axis. Integer value from -32767 to 32767.
 
-| **Notes and Warnings**
-| NA
+Ry: position of Ry axis. Integer value from -32767 to 32767.
 
-**BLEHIDGamepad::setHat**
-~~~~~~~~~~~~~~~~~~~~~~~~~
+**Returns**
 
-| **Description**
-| Send a HID Gamepad report indicating hat switch position.
+The function returns nothing.
 
-| **Syntax**
-| void setHat (uint8_t hat);
+**Example Code**
 
-| **Parameters**
-| hat: position of hat switch. Valid values:
-| – GAMEPAD_HAT_CENTERED = 0
-| – GAMEPAD_HAT_UP = 1
-| – GAMEPAD_HAT_UP_RIGHT = 2
-| – GAMEPAD_HAT_RIGHT = 3
-| – GAMEPAD_HAT_DOWN_RIGHT = 4
-| – GAMEPAD_HAT_DOWN = 5
-| – GAMEPAD_HAT_DOWN_LEFT = 6
-| – GAMEPAD_HAT_LEFT = 7
-| – GAMEPAD_HAT_UP_LEFT = 8
+Example: BLEHIDGamepad
 
-| **Returns**
-| The function returns nothing.
+**Notes and Warnings**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| NA
+-------------------------------------------------------------
 
-**BLEHIDGamepad::setAxes**
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. method:: BLEHIDGamepad::buttonPress
 
-| **Description**
-| Send a HID Gamepad report indicating position of all axes.
 
-| **Syntax**
-| void setAxes (int16_t x, int16_t y, int16_t z, int16_t Rz, int16_t Rx,
-  int16_t Ry);
+**Description**
 
-| **Parameters**
-| x: position of x axis. Integer value from -32767 to 32767.
-| y: position of y axis. Integer value from -32767 to 32767.
-| z: position of z axis. Integer value from -32767 to 32767.
-| Rz: position of Rz axis. Integer value from -32767 to 32767.
-| Rx: position of Rx axis. Integer value from -32767 to 32767.
-| Ry: position of Ry axis. Integer value from -32767 to 32767.
+Send a HID Gamepad report indicating buttons pressed.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| Example: BLEHIDGamepad
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
+  void buttonPress (uint16_t buttons);
 
-**BLEHIDGamepad::setLeftStick**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Parameters**
 
-| **Description**
-| Send a HID Gamepad report indicating position of axes corresponding to
-  left analog stick.
+``buttons`` : bitmap indicating buttons pressed. 1 = pressed.
 
-| **Syntax**
-| void setLeftStick (int16_t x, int16_t y);
+**Returns**
 
-| **Parameters**
-| x: position of x axis. Integer value from -32767 to 32767.
-| y: position of y axis. Integer value from -32767 to 32767.
+The function returns nothing.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| NA
+**Notes and Warnings**
 
-**BLEHIDGamepad::setRightStick**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+NA
 
-| **Description**
-| Send a HID Gamepad report indicating position of axes corresponding to
-  right analog stick.
+------------------------------------------------------------------
 
-| **Syntax**
-| void setLeftStick (int16_t z, int16_t Rz);
+.. method:: BLEHIDGamepad::buttonRelease
 
-| **Parameters**
-| z: position of z axis. Integer value from -32767 to 32767.
-| Rz: position of Rz axis. Integer value from -32767 to 32767.
 
-| **Returns**
-| The function returns nothing.
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| NA
+Send a HID Gamepad report indicating buttons released.
 
-**BLEHIDGamepad::setTriggers**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Syntax**
 
-| **Description**
-| Send a HID Gamepad report indicating position of axes corresponding to
-  triggers.
+.. code:: cpp
 
-| **Syntax**
-| void setTriggers (int16_t Rx, int16_t Ry);
+  void buttonRelease (uint16_t buttons);
 
-| **Parameters**
-| Rx: position of Rx axis. Integer value from -32767 to 32767.
-| Ry: position of Ry axis. Integer value from -32767 to 32767.
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+``buttons`` : bitmap indicating buttons released. 1 = released.
 
-| **Example Code**
-| NA
+**Returns**
 
-| **Notes and Warnings**
-| NA
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+----------------------------------------------------------------
+
+.. method:: BLEHIDGamepad::buttonReleaseAll
+
+**Description**
+
+Send a HID Gamepad report indicating no buttons pressed.
+
+**Syntax**
+
+.. code:: cpp
+
+  void buttonReleaseAll (void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEHIDGamepad
+
+**Notes and Warnings**
+
+NA
+
+--------------------------------------------------------------------
+
+.. method:: BLEHIDGamepad::setHat 
+
+
+**Description**
+
+Send a HID Gamepad report indicating hat switch position.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setHat (uint8_t hat);
+
+**Parameters**
+
+hat: position of hat switch. Valid values:
+
+– GAMEPAD_HAT_CENTERED = 0
+
+– GAMEPAD_HAT_UP = 1
+
+– GAMEPAD_HAT_UP_RIGHT = 2
+
+– GAMEPAD_HAT_RIGHT = 3
+
+– GAMEPAD_HAT_DOWN_RIGHT = 4
+
+– GAMEPAD_HAT_DOWN = 5
+
+– GAMEPAD_HAT_DOWN_LEFT = 6
+
+– GAMEPAD_HAT_LEFT = 7
+
+– GAMEPAD_HAT_UP_LEFT = 8
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-------------------------------------------------
+
+.. method:: BLEHIDGamepad::setAxes
+
+
+**Description**
+
+Send a HID Gamepad report indicating position of all axes.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setAxes (int16_t x, int16_t y, int16_t z, int16_t Rz, int16_t Rx, int16_t Ry);
+
+**Parameters**
+
+``x`` : position of x axis. Integer value from -32767 to 32767.
+
+``y`` : position of y axis. Integer value from -32767 to 32767.
+
+``z`` : position of z axis. Integer value from -32767 to 32767.
+
+``Rz`` : position of Rz axis. Integer value from -32767 to 32767.
+
+``Rx`` : position of Rx axis. Integer value from -32767 to 32767.
+
+``Ry`` : position of Ry axis. Integer value from -32767 to 32767.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEHIDGamepad
+
+**Notes and Warnings**
+
+NA
+
+--------------------------------------------------------------------------------------
+
+.. method:: BLEHIDGamepad::setLeftStick
+
+
+**Description**
+
+Send a HID Gamepad report indicating position of axes corresponding to
+left analog stick.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setLeftStick (int16_t x, int16_t y);
+
+**Parameters**
+
+``x``: position of x axis. Integer value from -32767 to 32767.
+
+``y``: position of y axis. Integer value from -32767 to 32767.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+----------------------------------------------------------------
+
+.. method:: BLEHIDGamepad::setRightStick
+
+
+
+**Description**
+
+Send a HID Gamepad report indicating position of axes corresponding to
+right analog stick.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setLeftStick (int16_t z, int16_t Rz);
+
+**Parameters**
+
+``z`` : position of z axis. Integer value from -32767 to 32767.
+
+``Rz`` : position of Rz axis. Integer value from -32767 to 32767.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-------------------------------------------------------------------
+
+.. method:: BLEHIDGamepad::setTriggers
+
+
+**Description**
+
+Send a HID Gamepad report indicating position of axes corresponding to
+triggers.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setTriggers (int16_t Rx, int16_t Ry);
+
+**Parameters**
+
+``Rx``: position of Rx axis. Integer value from -32767 to 32767.
+
+``Ry`` : position of Ry axis. Integer value from -32767 to 32767.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA

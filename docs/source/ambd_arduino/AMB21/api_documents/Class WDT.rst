@@ -1,12 +1,16 @@
 Class WDT
 ============
-**WDT Class**
+.. class:: WDT
 
-| **Description**
-| A class used for initializing, starting, stopping watchdog timer.
+ **Description**
 
-| **Syntax**
-| class WDT
+ A class used for initializing, starting, stopping watchdog timer.
+
+ **Syntax**
+
+.. code:: cpp
+
+  class WDT
 
 **Members**
 
@@ -36,216 +40,230 @@ Class WDT
 |                       | interrupt handler                           |
 +-----------------------+---------------------------------------------+
 
-**WDT:: InitWatchdog**
+------------------------------------
 
-| **Description**
-| Initializes the watchdog, include time setting, and mode register.
+.. method:: WDT:: InitWatchdog
 
-| **Syntax**
-| void InitWatchdog(uint32_t timeout_ms);
 
-| **Parameters**
-| timeout_ms: the watch-dog timer timeout value in millisecond (ms). The
-  default action after watchdog timer timeout is to reset the whole
-  system.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Initializes the watchdog, include time setting, and mode register.
 
-| **Example Code**
-| Example: WatchdogTimer
+**Syntax**
 
-\/*
+.. code:: cpp
 
-\* This example describes how to use watchdog api.
+  void InitWatchdog(uint32_t timeout_ms);
 
-\* In this example, watchdog is setup to 5s timeout.
+**Parameters**
 
-\* Watchdog won't bark if we refresh it before timeout in smallTask.
+``timeout_ms``: the watch-dog timer timeout value in millisecond (ms). The default action after watchdog timer timeout is to reset the whole system.
 
-\* The timer is also reloaded after refresh.
+**Returns**
 
-\* Otherwise, while running bigTask, watchdog will restart system in
-default or call callback function if registered.
+The function returns nothing.
 
-\*/
+**Example Code**
 
-**#include "wdt.h"**
+Example: WatchdogTimer
 
-**#define RUN_CALLBACK_IF_WATCHDOG_BARKS (0)**
+.. code-block:: cpp
+    :caption: WatchdogTimer
+    :linenos:
 
-WDT wdt;
+        /** 
+     * This example describes how to use watchdog api. 
+     * In this example, watchdog is setup to 5s timeout. 
+     * Watchdog won't bark if we refresh it before timeout in smallTask. 
+     * The timer is also reloaded after refresh. 
+     * Otherwise, while running bigTask, watchdog will restart system in default or call callback function if registered. 
+    */  
+    #include "wdt.h"  
 
-**void** setup() {
+    #define RUN_CALLBACK_IF_WATCHDOG_BARKS (0)  
+    WDT wdt;  
 
-Serial.begin(115200);
+    void setup() {  
+        Serial.begin(115200);  
+        wdt.InitWatchdog(5000);  // setup 5s watchdog  
 
-wdt.InitWatchdog(5000); // setup 5s watchdog
+    #if RUN_CALLBACK_IF_WATCHDOG_BARKS  
+        wdt.InitWatchdogIRQ(my_watchdog_irq_handler, 0);  
+    #else  
+        // system would restart in default when watchdog barks  
+    #endif  
 
-**#if RUN_CALLBACK_IF_WATCHDOG_BARKS**
+        wdt.StartWatchdog();  // enable watchdog timer  
+        Small_Task();  
+        Big_Task();  
+        while(1);  
+    }  
 
-wdt.InitWatchdogIRQ(my_watchdog_irq_handler, 0);
+    void loop() {
+        delay(1000); 
+    }  
 
-**#else**
+    void Small_Task (void) {  
+        Serial.println("......doing small task......");  
+        for (int i = 0; i < 50000000; i++) {  // dummy task  
+            asm(" nop");
+        }
+        Serial.println("Small_Task finished refresh watchdog.");  
+        wdt.RefreshWatchdog();  
+    }  
 
-// system would restart in default when watchdog barks
+    /* If Big_Task unable to reach #10, watchdog barks. */ 
+    void Big_Task (void) {  
+        Serial.println("......doing big task, up to 10......");  
+        for (int i = 0; i < 10; i++) {  
+            Serial.print("doing dummy task #");  
+            Serial.println(i, DEC);  
 
-**#endif**
+            for (int j = 0; j < 50000000; j++)  // dummy task  
+                asm(" nop");  
+        }  
+        Serial.println("Big_Task finished refresh watchdog.");  
+        wdt.RefreshWatchdog();  
+    }  
 
-wdt.StartWatchdog(); // enable watchdog timer
+    void my_watchdog_irq_handler(uint32_t id) {  
+        Serial.println("watchdog barks!!!");  
+        wdt.StopWatchdog();
+    }
 
-successfulTask();
+**Notes and Warnings**
+NA
 
-failedTask();
+--------------------------------------------
 
-**while** (1)
+.. method:: WDT:: StartWatchdog
 
-;
 
-}
+**Description**
 
-**void** loop() {
+Start the watchdog counting.
 
-}
+**Syntax**
 
-**void** successfulTask(**void**) {
+.. code:: cpp
 
-Serial.println("......doing small task......");
+  void StartWatchdog(void);
 
-**for** (**int** i = 0; i < 50000000; i++) // dummy task
+**Parameters**
 
-**asm**\ (" nop");
+The function requires no input parameter.
 
-Serial.println("refresh watchdog\r\n");
+**Returns**
 
-wdt.RefreshWatchdog();
+The function returns nothing.
 
-}
+**Example Code**
 
-\/*
+Example: WatchdogTimer
 
-\* Doing this task will lead to failed refresh the
+You may refer to the code in previous section of ``WDT::InitWatchdog``.
 
-\* watchdog timer within the time limits of 5 seconds
+**Notes and Warnings**
 
-\*/
+NA
 
-**void** failedTask(**void**) {
+---------------------------------
 
-Serial.println("......doing big task......");
+.. method:: WDT:: StopWatchdog
 
-**for** (**int** i = 0; i < 10; i++) {
 
-Serial.print("doing dummy task #");
+**Description**
 
-Serial.println(i, DEC);
+Stop the watchdog counting.
 
-**for** (**int** j = 0; j < 50000000; j++) // dummy task
+**Syntax**
 
-**asm**\ (" nop");
+.. code:: cpp
 
-}
+  void StopWatchdog(void);
 
-Serial.println("refresh watchdog\r\n");
+**Parameters**
 
-wdt.RefreshWatchdog();
+The function requires no input parameter.
 
-}
+**Returns**
 
-**void** my_watchdog_irq_handler(**uint32_t** id) {
+The function returns nothing.
 
-printf("watchdog barks!!!\r\n");
+**Example Code**
 
-WDG_Cmd(DISABLE);
+Example: WatchdogTimer
 
-}
+You may refer to the code in previous section of ``WDT::InitWatchdog``.
 
-| **Notes and Warnings**
-| NA
+**Notes and Warnings**
 
-**WDT:: StartWatchdog**
+NA
 
-| **Description**
-| Start the watchdog counting.
+-----------------
 
-| **Syntax**
-| void StartWatchdog(void);
+.. method:: WDT:: RefreshWatchdog
 
-| **Parameters**
-| The function requires no input parameter.
 
-| **Returns**
-| The function returns nothing.
+**Description**
 
-| **Example Code**
-| Example: WatchdogTimer
-| You may refer to the code in previous section of WDT::InitWatchdog.
+Refresh the watchdog counting to prevent WDT timeout.
 
-| **Notes and Warnings**
-| NA
+**Syntax**
 
-**WDT:: StopWatchdog**
+.. code:: cpp
 
-| **Description**
-| Stop the watchdog counting.
+  void RefreshWatchdog(void);
 
-| **Syntax**
-| void StopWatchdog(void);
+**Parameters**
 
-| **Parameters**
-| The function requires no input parameter.
+The function requires no input parameter.
 
-| **Returns**
-| The function returns nothing.
+**Returns**
 
-| **Example Code**
-| Example: WatchdogTimer
-| You may refer to the code in previous section of WDT::InitWatchdog.
+The function returns nothing.
 
-| **Notes and Warnings**
-| NA
+**Example Code**
 
-**WDT:: RefreshWatchdog**
+Example: WatchdogTimer
 
-| **Description**
-| Refresh the watchdog counting to prevent WDT timeout.
+You may refer to the code in previous section of ``WDT::InitWatchdog``.
 
-| **Syntax**
-| void RefreshWatchdog(void);
+**Notes and Warnings**
 
-| **Parameters**
-| The function requires no input parameter.
+NA
 
-| **Returns**
-| The function returns nothing.
+--------------------------
 
-| **Example Code**
-| Example: WatchdogTimer
-| You may refer to the code in previous section of WDT::InitWatchdog.
+.. method:: WDT:: InitWatchdogIRQ
 
-| **Notes and Warnings**
-| NA
 
-**WDT:: InitWatchdogIRQ**
+**Description**
 
-| **Description**
-| Switch the watchdog timer to interrupt mode and register a watchdog
-  timer timeout interrupt handler. The interrupt handler will be called
-  when the watchdog timer is timeout.
+Switch the watchdog timer to interrupt mode and register a watchdog timer timeout interrupt handler. The interrupt handler will be called when the watchdog timer is timeout.
 
-| **Syntax**
-| void WDT::InitWatchdogIRQ(wdt_irq_handler handler, uint32_t id)
+**Syntax**
 
-| **Parameters**
-| handler: the callback function for WDT timeout interrupt.
-| id: the parameter for the callback function
+.. code:: cpp
 
-| **Returns**
-| The function returns nothing.
+  void WDT::InitWatchdogIRQ(wdt_irq_handler handler, uint32_t id)
 
-| **Example Code**
-| Example: WatchdogTimer
-| You may refer to the code in previous section of WDT::InitWatchdog.
+**Parameters**
 
-| **Notes and Warnings**
-| NA
+``handler`` : the callback function for WDT timeout interrupt.
+
+``id`` : the parameter for the callback function
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: WatchdogTimer
+
+You may refer to the code in previous section of ``WDT::InitWatchdog``.
+
+**Notes and Warnings**
+
+NA

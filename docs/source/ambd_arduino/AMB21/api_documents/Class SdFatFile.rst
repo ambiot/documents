@@ -1,12 +1,17 @@
 Class SdFatFile
 =========================
 
+.. class:: SdFatFile
+
+
 **Description**
 
 Defines a class of SD FAT File.
 
-| **Syntax**
-| class SdFatFile
+**Syntax**
+.. code:: cpp
+
+  class SdFatFile
 
 **Members**
 
@@ -25,46 +30,73 @@ SdFatFile::seek         Change cursor to a specific position
 SdFatFile::close        Close file
 ======================= ===========================================
 
-**SdFatFile::write**
+-------------------------------------
 
-| **Description**
-| Write 1 byte or bytes to the file.
+.. method:: SdFatFile::write
 
-| **Syntax**
-| size_t SdFatFile::write(uint8_t c);
-| size_t SdFatFile::write(const uint8_t \*buf, size_t size);
 
-| **Parameters**
-| c: The character to be written.
-| buf: The buffer to be written.
-| size: The length of buffer to be written.
+**Description**
 
-| **Returns**
-| The function returns the number of byte count that has been
-  successfully written to the file.
+Write 1 byte or bytes to the file.
 
-| **Example Code**
-| NA.
+**Syntax**
 
-| **Notes and Warnings**
-| Include “SdFatFile.h” to use the class function. 
+.. code:: cpp
 
-**SdFatFile:: read**
+  size_t SdFatFile::write(uint8_t c);
 
-| **Description**
-| Read 1 byte or bytes from the file.
+.. code:: cpp
 
-| **Syntax**
-| int SdFatFile::read(void);
-| int SdFatFile::read(void \*buf, uint16_t nbyte);
+  size_t SdFatFile::write(const uint8_t *buf, size_t size);
 
-| **Parameters**
-| buf: The buffer to store the content.
-| nbyte: The buffer size. (Or can be regarded as the desired length to
-  read).
+**Parameters**
 
-| **Returns**
-| The function returns a read character or the read size of the buffer.
+``c`` : The character to be written.
+
+``buf`` : The buffer to be written.
+
+``size`` : The length of buffer to be written.
+
+**Returns**
+
+The function returns the number of byte count that has been
+successfully written to the file.
+
+**Example Code**
+
+NA.
+
+**Notes and Warnings**
+
+Include “SdFatFile.h” to use the class function. 
+
+----------------------------------------------------------------
+
+.. method:: SdFatFile:: read
+
+**Description**
+
+Read 1 byte or bytes from the file.
+
+**Syntax**
+
+.. code:: cpp
+
+  int SdFatFile::read(void);
+
+.. code:: cpp
+
+  int SdFatFile::read(void *buf, uint16_t nbyte);
+
+**Parameters**
+
+``buf``: The buffer to store the content.
+
+``nbyte``: The buffer size. (Or can be regarded as the desired length to read).
+
+**Returns**
+
+The function returns a read character or the read size of the buffer.
 
 **Example Code**
 
@@ -240,117 +272,175 @@ SdFatFile::close        Close file
 | This example shows how to open/close files and perform read/write to
   it.
 
-| **Notes and Warnings**
-| Include “SdFatFile.h” to use the class function. 
+**Notes and Warnings**
 
-**SdFatFile:: peek**
+Include “SdFatFile.h” to use the class function. 
 
-| **Description**
-| Read one byte from the file without moving the curser.
+----------------------------------------------------------------
 
-| **Syntax**
-| int SdFatFile::peek(void);
+.. method:: SdFatFile:: peek
 
-| **Parameters**
-| The function requires no input parameter.
 
-| **Returns**
-| The function returns the read character as an integer number.
+**Description**
 
-| **Example Code**
-| NA
+Read one byte from the file without moving the curser.
 
-| **Notes and Warnings**
-| Include “SdFatFile.h” to use the class function. 
+**Syntax**
 
-**SdFatFile:: available**
+.. code:: cpp
 
-| **Description**
-| Check if the cursor is at EOF.
+  int SdFatFile::peek(void);
 
-| **Syntax**
-| int SdFatFile::available(void);
+**Parameters**
 
-| **Parameters**
-| The function requires no input parameter.
+The function requires no input parameter.
 
-| **Returns**
-| The function returns “0” if the cursor is at EOF, else returns “1”.
+**Returns**
 
-| **Example Code**
-| NA
+The function returns the read character as an integer number.
 
-| **Notes and Warnings**
-| Include “SdFatFile.h” to use the class function. 
+**Example Code**
 
-**SdFatFile:: flush**
+NA
 
-| **Description**
-| It is a nop. This is an inherited function from class Stream. And it
-  does not affect SD File.
+**Notes and Warnings**
 
-| **Syntax**
-| void SdFatFile::flush(void);
+Include “SdFatFile.h” to use the class function. 
 
-| **Parameters**
-| The function requires no input parameter.
+------------------------------------------------------------------
 
-| **Returns**
-| The function returns nothing.
+.. method:: SdFatFile:: available
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| Include “SdFatFile.h” to use the class function. 
+Check if the cursor is at EOF.
 
-**SdFatFile:: seek**
+**Syntax**
 
-| **Description**
-| Change cursor to a specific position.
+.. code:: cpp
 
-| **Syntax**
-| int SdFatFile::seek(uint32_t pos);
+  int SdFatFile::available(void);
 
-| **Parameters**
-| pos: The desired position.
+**Parameters**
 
-| **Returns**
-| The function returns 0 if success otherwise returns a negative value.
+The function requires no input parameter.
 
-| **Example Code**
-| NA
+**Returns**
 
-| **Notes and Warnings**
-| Include “SdFatFile.h” in order to use the class function. 
+The function returns ``0`` if the cursor is at EOF, else returns “1”.
 
-**SdFatFile:: close**
+**Example Code**
 
-| **Description**
-| Close file.
+NA
 
-| **Syntax**
-| int SdFatFile::close(void);
+**Notes and Warnings**
 
-| **Parameters**
-| The function requires no input parameter.
+Include “SdFatFile.h” to use the class function. 
 
-| **Returns**
-| The function returns 0 if runs successfully otherwise it returns a
-  negative value.
+-----------------------------------------------------------------
 
-| **Example Code**
-| Example: last_modified_time;
-| The example shows how to get and set last modified time of a file.
+.. method:: SdFatFile:: flush
 
-| Example: create_folder;
-| This example shows how to create a folder and open a file under it.
-  The details of the code can be found in the section of SdFatFile::
-  read.
-| Example: file_read_write;
-| This example shows how to open/close files and perform read/write to
-  it. The details of the code can be found in the section of SdFatFile::
-  read.
+
+**Description**
+
+It is a nop. This is an inherited function from class Stream. And it
+does not affect SD File.
+
+**Syntax**
+
+.. code:: cpp
+
+  void SdFatFile::flush(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Include “SdFatFile.h” to use the class function. 
+
+----------------------------------------------
+
+.. method:: SdFatFile:: seek
+
+
+**Description**
+
+Change cursor to a specific position.
+
+**Syntax**
+
+.. code:: cpp
+
+  int SdFatFile::seek(uint32_t pos);
+
+**Parameters**
+
+pos: The desired position.
+
+**Returns**
+
+The function returns 0 if success otherwise returns a negative value.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Include “SdFatFile.h” in order to use the class function. 
+
+--------------------------------------------------
+
+.. method:: SdFatFile:: close
+
+
+**Description**
+
+Close file.
+
+**Syntax**
+
+.. code:: cpp
+
+  int SdFatFile::close(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns 0 if runs successfully otherwise it returns a
+negative value.
+
+**Example Code**
+
+Example: last_modified_time;
+
+The example shows how to get and set last modified time of a file.
+
+Example: create_folder;
+
+This example shows how to create a folder and open a file under it.
+
+the details of the code can be found in the section of SdFatFile::read.
+
+Example: file_read_write;
+
+This example shows how to open/close files and perform read/write to
+
+it. The details of the code can be found in the section of SdFatFile::read.
 
 1.  #include <FatFs_SD.h>
 
@@ -425,5 +515,7 @@ SdFatFile::close        Close file
 
 35.  
 
-| **Notes and Warnings**
-| Include “SdFatFile.h” in order to use the class function.
+
+**Notes and Warnings**
+
+Include “SdFatFile.h” in order to use the class function.

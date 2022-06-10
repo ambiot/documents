@@ -1,24 +1,26 @@
 Class SdFatFs
 ==================
 
-**Description**
+.. class:: SdFatFs
 
+**Description**
 
 Defines a class of SD FAT File system.
 
 **Syntax**
 
-
 class SdFatFs
 
 **Members**
 
-
 **Public Constructors**
 
-SdFatFs::SdFatFs Constructs a SdFatFs object
++-------------------------+-------------------------------------------+
+|SdFatFs::SdFatFs         |  Constructs a SdFatFs object              |
++-------------------------+-------------------------------------------+
+|SdFatFs::~SdFatFs        |  Destructs a SdFatFs object               |
++-------------------------+-------------------------------------------+
 
-SdFatFs::~SdFatFs Destructs a SdFatFs object
 
 **Public Methods**
 
@@ -51,289 +53,408 @@ SdFatFs::~SdFatFs Destructs a SdFatFs object
 | SdFatFs::open           | Open a file                               |
 +-------------------------+-------------------------------------------+
 
+--------------------------------------------
 
+.. method:: SdFatFs::begin
 
 
-**SdFatFs::begin**
+**Description**
 
-| **Description**
-| Initialize SD FAT File System.
+Initialize SD FAT File System.
 
-| **Syntax**
-| int SdFatFs::begin(void);
+**Syntax**
 
-| **Parameters**
-| The function requires no input parameter.
+.. code:: cpp
 
-| **Returns**
-| Returns “0” if success, else returns a negative value.
+  int SdFatFs::begin(void);
 
-| **Example Code**
-| Example: create_folder; file_read_write; get_file_attribute;
-  last_modified_time; list_root_files.
+**Parameters**
 
-| **Notes and Warnings**
-| Include “SdFatFs.h” to use the class function.
-|  
+The function requires no input parameter.
 
-**SdFatFs::end**
+**Returns**
 
-| **Description**
-| De-initialize SD FAT File System.
+Returns **0** if success, else returns a negative value.
 
-| **Syntax**
-| int SdFatFs::end(void);
+**Example Code**
 
-| **Parameters**
-| The function requires no input parameter.
+Example: create_folder; file_read_write; get_file_attribute; last_modified_time; list_root_files.
 
-| **Returns**
-| Returns “0” if success, else returns a negative value.
+**Notes and Warnings**
 
-| **Example Code**
-| Example: create_folder; file_read_write; get_file_attribute;
-  last_modified_time; list_root_files.
+Include “SdFatFs.h” to use the class function.
 
-| **Notes and Warnings**
-| Include “SdFatFs.h” to use the class function.
-|  
+-------------------------------------------
 
-**SdFatFs::*getRootPath**
+.. method:: SdFatFs::end
 
-| **Description**
-| Get the root path of the SD FAT File System. The logical volume
-  character is starting from ‘0’, so the root path would like “0:/”.
 
-| **Syntax**
-| char \*SdFatFs::getRootPath(void);
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+De-initialize SD FAT File System.
 
-| **Returns**
-| The function returns the root path.
+**Syntax**
 
-| **Example Code**
-| Example: create_folder; file_read_write; get_file_attribute;
-  last_modified_time; list_root_files.
+.. code:: cpp
 
-| **Notes and Warnings**
-| Include “SdFatFs.h” to use the class function.
-|  
+  int SdFatFs::end(void);
 
-**SdFatFs::readDir**
+**Parameters**
 
-| **Description**
-| List items under a specific folder. List items under a specific folder
-  and store the result in the buffer that user specified. Each item is
-  separated by ‘\0’.
+The function requires no input parameter.
 
-| **Syntax**
-| int SdFatFs::readDir(char \*path, char \*result_buf, unsigned int
-  bufsize);
+**Returns**
 
-| **Parameters**
-| path: The absolute directory path to be listed.
-| result_buf: The buffer to be stored results.
-| bufsize: The size of result_buf. If results exceed this size, then the
-  results larger than this size would be discarded.
+Returns “0” if success, else returns a negative value.
 
-| **Returns**
-| Returns “0” if success, else returns a negative value.
+**Example Code**
 
-| **Example Code**
-| Example: get_file_attribute; list_root_files
+Example: create_folder; file_read_write; get_file_attribute; last_modified_time; list_root_files.
 
-| **Notes and Warnings**
-| Include “SdFatFs.h” to use the class function.
-|  
+**Notes and Warnings**
 
-**SdFatFs::mkdir**
+Include “SdFatFs.h” to use the class function.
 
-| **Description**
-| Create folder.
+--------------------------------------------------
 
-| **Syntax**
-| int SdFatFs::mkdir(char \*absolute_path);
+.. method:: SdFatFs::*getRootPath**
 
-| **Parameters**
-| absolute_path: The absolute directory path to be created
 
-| **Returns**
-| Returns “0” if success, else returns a negative value.
+**Description**
 
-| **Example Code**
-| Example: create_folder
+Get the root path of the SD FAT File System. The logical volume
+character is starting from ‘0’, so the root path would like “0:/”.
 
-| **Notes and Warnings**
-| Include “SdFatFs.h” to use the class function.
-|  
+**Syntax**
 
-**SdFatFs::rm**
+.. code:: cpp
 
-| **Description**
-| Remove folder or file.
+  char *SdFatFs::getRootPath(void);
 
-| **Syntax**
-| int SdFatFs::rm(char \*absolute_path);
+**Parameters**
 
-| **Parameters**
-| absolute_path: The absolute directory or file path to be deleted
+The function requires no input parameter.
 
-| **Returns**
-| Returns “0” if success, else returns a negative value.
+**Returns**
 
-| **Example Code**
-| NA
+The function returns the root path.
 
-| **Notes and Warnings**
-| Include “SdFatFs.h” to use the class function.
-|  
+**Example Code**
 
-**SdFatFs::isDir**
+Example: create_folder; file_read_write; get_file_attribute; last_modified_time; list_root_files.
 
-| **Description**
-| Check if a specific path is a directory.
+**Notes and Warnings**
 
-| **Syntax**
-| unsigned char SdFatFs::isDir(char \*absolute_path);
+Include “SdFatFs.h” to use the class function.
 
-| **Parameters**
-| absolute_path: The absolute path to be queried
+------------------------------------------------------
 
-| **Returns**
-| The function returns “1” if it is a directory, else returns “0”.
+.. method:: SdFatFs::readDir
 
-| **Example Code**
-| Example: get_file_attribute
 
-| **Notes and Warnings**
-| Include “SdFatFs.h” to use the class function.
-|  
+**Description**
 
-**SdFatFs::isFile**
+List items under a specific folder. List items under a specific folder
+and store the result in the buffer that user specified. Each item is
+separated by ‘\0’.
 
-| **Description**
-| Check if a specific path is a file.
+**Syntax**
 
-| **Syntax**
-| unsigned char SdFatFs::isFile(char \*absolute_path);
+.. code:: cpp
 
-| **Parameters**
-| absolute_path: The absolute path to be queried
+  int SdFatFs::readDir(char *path, char *result_buf, unsigned int bufsize);
 
-| **Returns**
-| The function returns “1” if it is a directory, else returns “0”.
+**Parameters**
 
-| **Example Code**
-| Example: get_file_attribute
+``path``: The absolute directory path to be listed.
 
-| **Notes and Warnings**
-| Include “SdFatFs.h” to use the class function.
-|  
+``result_buf`` : The buffer to be stored results.
 
-**SdFatFs::getLastModTime**
+``bufsize`` : The size of result_buf. If results exceed this size, then the results larger than this size would be discarded.
 
-| **Description**
-| Get the last modified time for a file or directory.
+**Returns**
 
-| **Syntax**
-| int SdFatFs::getLastModTime(char \*absolute_path, uint16_t \*year,
-  uint16_t \*month, uint16_t \*date, uint16_t \*hour, uint16_t \*minute,
-  uint16_t \*second);
+Returns ``0`` if success, else returns a negative value.
 
-| **Parameters**
-| absolute_path: The absolute path to be queried.
-| year: The value of the year.
-| month: The value of the month.
-| date: The value of the date.
-| hour: The value of an hour.
-| minute: The value of a minute.
-| second: field “second” contains no valid information in the current
-  version.
+**Example Code**
 
-| **Returns**
-| The function returns “0” if success, otherwise returns a negative
-  value for failure.
+Example: get_file_attribute; list_root_files
 
-| **Example Code**
-| Example: last_modified_time
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| Include “SdFatFs.h” to use the class function.
-|  
+Include “SdFatFs.h” to use the class function.
 
-**SdFatFs::setLastModTime**
+-------------------------------
 
-| **Description**
-| Set the last modified time for a file or directory. Ameba doesn’t have
-  built-in RTC. So we manually change file/directory last modified time.
+.. method:: SdFatFs::mkdir
 
-| **Syntax**
-| int SdFatFs::setLastModTime(char \*absolute_path, uint16_t year,
-  uint16_t month, uint16_t date, uint16_t hour, uint16_t minute,
-  uint16_t second);
+**Description**
 
-| **Parameters**
-| absolute_path: The absolute path to be queried.
-| year: The value of the year.
-| month: The value of the month.
-| date: The value of the date.
-| hour: The value of an hour.
-| minute: The value of a minute.
-| second: field “second” contains no valid information in the current
-  version.
+Create folder.
 
-| **Returns**
-| The function returns “0” if success, otherwise returns a negative
-  value for failure.
+**Syntax**
 
-| **Example Code**
-| Example: last_modified_time
+.. code:: cpp
 
-| **Notes and Warnings**
-| Include “SdFatFs.h” to use the class function.
-|  
+  int SdFatFs::mkdir(char *absolute_path);
 
-**SdFatFs::open**
+**Parameters**
 
-| **Description**
-| Open a file.
+``absolute_path`` : The absolute directory path to be created
 
-| **Syntax**
-| SdFatFile SdFatFs::open(char \*absolute_path);
+**Returns**
 
-| **Parameters**
-| absolute_path: The path to a file.
+Returns ``0`` if success, else returns a negative value.
 
-| **Returns**
-| The file object is an instance of SdFatFile.
+**Example Code**
 
-| **Example Code**
-| Example: create_folder; file_read_write; get_file_attribute;
-  last_modified_time; list_root_files.
+Example: create_folder
 
-| **Notes and Warnings**
-| Include “SdFatFs.h” to use the class function.
-|  
+**Notes and Warnings**
 
-**SdFatFs::status**
+Include “SdFatFs.h” to use the class function.
 
-| **Description**
-| Return the current status of SD.
+-------------------------------------
 
-| **Syntax**
-| int SdFatFs::status(void);
+.. method:: SdFatFs::rm
 
-| **Parameters**
-| The function requires no input parameter.
 
-| **Returns**
-| Function returns “1” if ready to use, else return “0” if the status is
-  inactivating or abnormal.
+**Description**
 
-| **Example Code**
-| NA.
+Remove folder or file.
 
-| **Notes and Warnings**
-| Include “SdFatFs.h” to use the class function.
+**Syntax**
+
+.. code:: cpp
+
+  int SdFatFs::rm(char *absolute_path);
+
+**Parameters**
+
+``absolute_path`` : The absolute directory or file path to be deleted
+
+**Returns**
+
+Returns ``0`` if success, else returns a negative value.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Include “SdFatFs.h” to use the class function.
+
+-------------------------------------------
+
+.. method:: SdFatFs::isDir
+
+
+**Description**
+
+Check if a specific path is a directory.
+
+**Syntax**
+
+.. code:: cpp
+
+  unsigned char SdFatFs::isDir(char *absolute_path);
+
+**Parameters**
+
+``absolute_path``: The absolute path to be queried
+
+**Returns**
+
+The function returns ``1`` if it is a directory, else returns ``0``.
+
+**Example Code**
+
+Example: get_file_attribute
+
+**Notes and Warnings**
+
+Include “SdFatFs.h” to use the class function.
+
+---------------------------------------------------
+
+.. method:: SdFatFs::isFile
+
+
+**Description**
+
+Check if a specific path is a file.
+
+**Syntax**
+
+.. code:: cpp
+
+  unsigned char SdFatFs::isFile(char *absolute_path);
+
+**Parameters**
+
+``absolute_path`` : The absolute path to be queried
+
+**Returns**
+
+The function returns “1” if it is a directory, else returns “0”.
+
+**Example Code**
+
+Example: get_file_attribute
+
+**Notes and Warnings**
+
+Include “SdFatFs.h” to use the class function.
+
+--------------------------------
+
+.. method:: SdFatFs::getLastModTime
+
+
+**Description**
+
+Get the last modified time for a file or directory.
+
+**Syntax**
+
+.. code:: cpp
+
+  int SdFatFs::getLastModTime(char *absolute_path, uint16_t *year, uint16_t *month, uint16_t *date, uint16_t *hour, uint16_t *minute, uint16_t *second);
+
+**Parameters**
+
+``absolute_path``: The absolute path to be queried.
+
+``year``: The value of the year.
+
+``month``: The value of the month.
+
+``date``: The value of the date.
+
+``hour``: The value of an hour.
+
+``minute``: The value of a minute.
+
+``second``: field “second” contains no valid information in the current version.
+
+**Returns**
+
+The function returns “0” if success, otherwise returns a negative
+
+value for failure.
+
+**Example Code**
+
+Example: last_modified_time
+
+**Notes and Warnings**
+
+Include “SdFatFs.h” to use the class function.
+
+------------------------------------------------
+
+.. method:: SdFatFs::setLastModTime
+
+
+**Description**
+
+Set the last modified time for a file or directory. Ameba doesn’t have built-in RTC. So we manually change file/directory last modified time.
+
+**Syntax**
+
+.. code:: cpp
+
+  int SdFatFs::setLastModTime(char *absolute_path, uint16_t year,uint16_t month, uint16_t date, uint16_t hour, uint16_t minute, uint16_t second);
+
+**Parameters**
+
+``absolute_path``: The absolute path to be queried.
+
+``year``: The value of the year.
+
+``month``: The value of the month.
+
+``date``: The value of the date.
+
+``hour``: The value of an hour.
+
+``minute``: The value of a minute.
+
+``second``: field “second” contains no valid information in the current version.
+
+**Returns**
+
+The function returns “0” if success, otherwise returns a negative
+value for failure.
+
+**Example Code**
+
+Example: last_modified_time
+
+**Notes and Warnings**
+
+Include “SdFatFs.h” to use the class function.
+
+--------------------------------------------------------------
+
+.. method:: SdFatFs::open
+
+
+**Description**
+
+Open a file.
+
+**Syntax**
+
+.. code:: cpp
+
+  SdFatFile SdFatFs::open(char *absolute_path);
+
+**Parameters**
+
+``absolute_path``: The path to a file.
+
+**Returns**
+
+The file object is an instance of SdFatFile.
+
+**Example Code**
+
+Example: create_folder; file_read_write; get_file_attribute; last_modified_time; list_root_files.
+
+**Notes and Warnings**
+
+Include “SdFatFs.h” to use the class function.
+
+--------------------------------------------------
+
+.. method:: SdFatFs::status
+
+
+**Description**
+
+Return the current status of SD.
+
+**Syntax**
+
+.. code:: cpp
+
+  int SdFatFs::status(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+Function returns “1” if ready to use, else return “0” if the status is
+inactivating or abnormal.
+
+**Example Code**
+
+NA.
+
+**Notes and Warnings**
+
+Include “SdFatFs.h” to use the class function.

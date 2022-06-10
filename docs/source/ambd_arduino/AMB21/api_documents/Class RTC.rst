@@ -1,13 +1,17 @@
 Class RTC
 =============
-**RTC Class**
+.. class:: RTC
 
-| **Description**
-| A class used for displaying date and time and alarm configuration
-  using RTC, the independent BCD (Binary-Coded-Decimal) timer.
 
-| **Syntax**
-| class RTC
+**Description**
+
+A class used for displaying date and time and alarm configuration using RTC, the independent BCD (Binary-Coded-Decimal) timer.
+
+**Syntax**
+
+.. code:: cpp
+
+  class RTC
 
 **Members**
 
@@ -36,258 +40,278 @@ Class RTC
 | RTC:: SetEpoch     | Convert human-readable time to epoch time      |
 +--------------------+------------------------------------------------+
 
-**RTC::Init**
+----------------------------
 
-| **Description**
-| Initializes the RTC device, including the Clock, the RTC registers,
-  and other functions.
+.. method:: RTC::Init
 
-| **Syntax**
-| void RTC::Init(void);
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Initializes the RTC device, including the Clock, the RTC registers, and other functions.
 
-| **Example Code**
-| Example: RTC
+**Syntax**
 
-\/*
+.. code:: cpp
 
-\* This function describes how to use the RTC API.
+    void RTC::Init(void);
 
-\* The RTC function is implemented by an independent BCD timer/counter.
+**Parameters**
 
-\* This example will print out the time information every second.
+The function requires no input parameter.
 
-\*/
+**Returns**
 
-**#include <stdio.h>**
+The function returns nothing.
 
-**#include <time.h>**
+**Example Code**
 
-**#include "rtc.h"**
+  Example: RTC
 
-**#define YEAR 2020**
+  .. code-block:: cpp
+    :caption: RTC
+    :linenos:
 
-**#define MONTH 9**
+      /** 
+    *  This function describes how to use the RTC API.  
+    *  The RTC function is implemented by an independent BCD timer/counter. 
+    *  This example will print out the time information every second. 
+    */  
+    #include "stdio.h"    
+    #include "time.h"  
 
-**#define DAY 10**
+    #include "rtc.h"  
 
-**#define HOUR 20**
+    #define YEAR 2020  
+    #define MONTH 9  
+    #define DAY 10  
+    #define HOUR 20  
+    #define MIN 30  
+    #define SEC 40  
 
-**#define MIN 30**
+    /* Create an rtc object */  
+    RTC rtc;  
+    int32_t seconds;  
+    struct tm *timeinfo;  
 
-**#define SEC 40**
+    void setup() {  
+        Serial.begin(115200);  
+        rtc.Init();  // initialize RTC  
+    }  
 
-/\* Create an rtc object \*/
+    void loop() {  
+        // step 1: convert user time to epoch  
+        int epochTime = humanReadableToEpoch(YEAR, MONTH, DAY, HOUR, MIN, SEC);  
 
-RTC rtc;
+        // step 2: write epoch time to rtc  
+        rtc.Write(epochTime);  
+        while (1) {  
+            seconds = rtc.Read();  
+            printf("Epoch Time (in s) since January 1, 1970 = %ds\n", seconds);  
+            printf("Time as a basic string = %s", ctime(&seconds));  
+            timeinfo = localtime(&seconds);  
+            printf("Time as a custom formatted string = %d-%d-%d %d:%d:%d\n",  
+                  (timeinfo->tm_year + 1900), (timeinfo->tm_mon + 1), timeinfo->tm_mday, timeinfo->tm_hour,  
+                  timeinfo->tm_min, timeinfo->tm_sec);  
+            Serial.println();  
+            rtc.wait(1);  
+        }  
+    }  
 
-**int32_t** seconds;
+    // convert human readable time to epoch time  
+    int humanReadableToEpoch(int year, int month, int day, int hour, int min, int sec) {  
+        struct tm t;  
+        time_t t_of_day;  
 
-**struct** tm \*timeinfo;
+        t.tm_year = year - 1900;  // Year - 1970  
+        t.tm_mon = month - 1;     // Month, where 0 = jan  
+        t.tm_mday = day;          // Day of the month  
+        t.tm_hour = hour;  
+        t.tm_min = min;  
+        t.tm_sec = sec;  
+        t.tm_isdst = -1;  // Is DST on? 1 = yes, 0 = no, -1 = unknown  
+        t_of_day = mktime(&t);  
 
-**void** setup() {
+        // printf("seconds since the Epoch: %d\n", (long)t_of_day);  
+        return t_of_day;  
+    }  
 
-Serial.begin(115200);
+**Notes and Warnings**
 
-rtc.Init(); // initialize RTC
+NA
 
-}
+------------------------------
 
-**void** loop() {
+.. method:: RTC::DeInit
 
-// step 1: convert user time to epoch
 
-**int** epochTime = humanReadableToEpoch(YEAR, MONTH, DAY, HOUR, MIN,
-SEC);
+**Description**
 
-// step 2: write epoch time to rtc
+Deinitializes the RTC device.
 
-rtc.Write(epochTime);
+**Syntax**
 
-**while** (1) {
+.. code:: cpp
 
-seconds = rtc.Read();
+  void RTC::DeInit(void);
 
-printf("Epoch Time (in s) since January 1, 1970 = %ds\n", seconds);
+**Parameters**
 
-printf("Time as a basic string = %s", ctime(&seconds));
+The function requires no input parameter.
 
-timeinfo = localtime(&seconds);
+**Returns**
 
-printf("Time as a custom formatted string = %d-%d-%d %d:%d:%d\n",
+The function returns nothing.
 
-(timeinfo->tm_year + 1900), (timeinfo->tm_mon + 1), timeinfo->tm_mday,
-timeinfo->tm_hour,
+**Example Code**
 
-timeinfo->tm_min, timeinfo->tm_sec);
+Example: RTC
 
-Serial.println();
+Details of the code can be found in the previous section of ``RTC::Init``.
 
-rtc.wait(1);
+**Notes and Warnings**
 
-}
+NA
 
-}
+---------------------------
 
-// convert human readable time to epoch time
+.. method:: RTC:: Write
 
-**int** humanReadableToEpoch(**int** year, **int** month, **int** day,
-**int** hour, **int** min, **int** sec) {
 
-**struct** tm t;
+**Description**
 
-time_t t_of_day;
+Set the specified timestamp in seconds to RTC. Seconds from 1970.1.1 00:00:00 (YEAR.MONTH.DAY, HOUR: MIN: SECONDS) to specified date and time which is to be set.
 
-t.tm_year = year - 1900; // Year - 1970
+**Syntax**
 
-t.tm_mon = month - 1; // Month, where 0 = jan
+.. code:: cpp
 
-t.tm_mday = day; // Day of the month
+  void RTC::Write(int t);
 
-t.tm_hour = hour;
+**Parameters**
 
-t.tm_min = min;
+``t`` : Seconds from 1970.1.1 00:00:00 (YEAR.MONTH.DAY, HOUR: MIN: SECONDS) to specified date and time which is to be set.
 
-t.tm_sec = sec;
+**Returns**
 
-t.tm_isdst = -1; // Is DST on? 1 = yes, 0 = no, -1 = unknown
+The function returns nothing.
 
-t_of_day = mktime(&t);
+**Example Code**
 
-// printf("seconds since the Epoch: %d\n", (long)t_of_day);
+Example: RTC
 
-**return** t_of_day;
+Details of the code can be found in the previous section of ``RTC::Init.``
 
-}
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
+NA
 
-**RTC::DeInit**
+--------------------------------------
 
-| **Description**
-| Deinitializes the RTC device.
+.. method:: RTC::Read
 
-| **Syntax**
-| void RTC::DeInit(void);
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+Get the current timestamp in seconds from RTC. The current timestamp
+n seconds which is calculated from 1970.1.1 00:00:00 (YEAR.MONTH.DAY,
+OUR: MIN: SECONDS).
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| Example: RTC
-| Details of the code can be found in the previous section of RTC::
-  Init.
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
+  int32_t RTC::Read(void);
 
-**RTC:: Write**
+**Parameters**
 
-| **Description**
-| Set the specified timestamp in seconds to RTC. Seconds from 1970.1.1
-  00:00:00 (YEAR.MONTH.DAY, HOUR: MIN: SECONDS) to specified date and
-  time which is to be set.
+The function requires no input parameter.
 
-| **Syntax**
-| void RTC::Write(int t);
+**Returns**
 
-| **Parameters**
-| Parameters
-| t: Seconds from 1970.1.1 00:00:00 (YEAR.MONTH.DAY, HOUR: MIN: SECONDS)
-  to specified date and time which is to be set.
+The function returns the current timestamp in seconds which is
+alculated from 1970.1.1 00:00:00 (YEAR.MONTH.DAY, HOUR: MIN:
+ECONDS).
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| Example: RTC
-| Details of the code can be found in the previous section of RTC::
-  Init.
+Example: RTC
 
-| **Notes and Warnings**
-| NA
+Details of the code can be found in the previous section of ``RTC::Init`` .
 
-**RTC::Read**
+**Notes and Warnings**
+NA
 
-| **Description**
-| Get the current timestamp in seconds from RTC. The current timestamp
-  in seconds which is calculated from 1970.1.1 00:00:00 (YEAR.MONTH.DAY,
-  HOUR: MIN: SECONDS).
+-----------------------------------
 
-| **Syntax**
-| int32_t RTC::Read(void);
+.. method:: RTC:: Wait
 
-| **Parameters**
-| The function requires no input parameter.
 
-| **Returns**
-| The function returns the current timestamp in seconds which is
-  calculated from 1970.1.1 00:00:00 (YEAR.MONTH.DAY, HOUR: MIN:
-  SECONDS).
+**Description**
 
-| **Example Code**
-| Example: RTC
-| Details of the code can be found in the previous section of RTC::
-  Init.
+Send IR raw data.
 
-| **Notes and Warnings**
-| NA
+**Syntax**
 
-**RTC:: Wait**
+.. code:: cpp
 
-| **Description**
-| Send IR raw data.
+  void RTC::wait(float s);
 
-| **Syntax**
-| void RTC::wait(float s);
+**Parameters**
 
-| **Parameters**
-| s: unit microseconds (1 us)
+``s`` : unit microseconds (1 us)
 
-| **Returns**
-| The function returns nothing.
+**Returns**
 
-| **Example Code**
-| Example: RTC
-| Details of the code can be found in the previous section of RTC::
-  Init.
+The function returns nothing.
 
-| **Notes and Warnings**
-| NA
+**Example Code**
+
+Example: RTC
+
+Details of the code can be found in the previous section of ``RTC::Init``.
+
+**Notes and Warnings**
+
+NA
+
+----------------------------------------
 
 **RTC:: SetEpoch**
 
-| **Description**
-| Convert human-readable time to epoch time
 
-| **Syntax**
-| int RTC:: SetEpoch(int year, int month, int day, int hour, int min,
-  int sec);
+**Description**
 
-| **Parameters**
-| year: user input year
-| month: user input month
-| day: user input day
-| hour: user input hour
-| min: user input minutes
-| sec: user input seconds
+Convert human-readable time to epoch time
 
-| **Returns**
-| The function returns epoch time in seconds for RTC use.
+**Syntax**
 
-| **Example Code**
-| Example: RTC
-| Details of the code can be found in the previous section of RTC::
-  Init.
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
+  int RTC:: SetEpoch(int year, int month, int day, int hour, int min, int sec);
+
+**Parameters**
+
+``year`` : user input year
+
+``month`` : user input month
+
+``day`` : user input day
+
+``hour`` : user input hour
+
+``min`` : user input minutes
+
+``sec`` : user input seconds
+
+**Returns**
+
+The function returns epoch time in seconds for RTC use.
+
+**Example Code**
+
+Example: RTC
+
+Details of the code can be found in the previous section of ``RTC::Init``.
+
+**Notes and Warnings**
+
+NA

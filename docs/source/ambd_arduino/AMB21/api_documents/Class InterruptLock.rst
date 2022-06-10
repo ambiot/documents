@@ -1,12 +1,18 @@
-Class HttpClient
-==================
-**InterruptLock Class**
+Class InterruptLock
+========================
 
-| **Description**
-| Defines a class of turning off/on interrupts temporarily
+.. class:: InterruptLock
 
-| **Syntax**
-| class InterruptLock
+
+**Description**
+
+Defines a class of turning off/on interrupts temporarily
+
+**Syntax**
+
+.. code:: cpp
+
+    class InterruptLock
 
 **Members**
 
