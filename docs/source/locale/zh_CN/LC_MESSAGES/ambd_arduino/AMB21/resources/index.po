@@ -23,7 +23,7 @@ msgstr "资源"
 
 #: ../../source/ambd_arduino/reference_link.rst:9
 msgid "Links"
-msgstr ""
+msgstr "链接"
 
 #: ../../source/ambd_arduino/reference_link.rst:11
 msgid "`AmebaD Arduino Github <https://github.com/ambiot/ambd_arduino>`_"
@@ -31,5 +31,5 @@ msgstr ""
 
 #: ../../source/ambd_arduino/reference_link.rst:12
 msgid "`Arduino Website <https://www.arduino.cc/>`_"
-msgstr ""
+msgstr "`Arduino 官方网站 <https://www.arduino.cc/>`_"
 

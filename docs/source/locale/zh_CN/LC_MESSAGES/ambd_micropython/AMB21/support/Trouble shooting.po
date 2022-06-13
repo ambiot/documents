@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB21/support/Trouble shooting.rst:3
 msgid "Trouble-shooting"
-msgstr ""
+msgstr "故障排除"
 
 #: ../../source/ambd_micropython/AMB21/support/Trouble shooting.rst:5
 msgid "Compilation of MicroPython firmware failed"

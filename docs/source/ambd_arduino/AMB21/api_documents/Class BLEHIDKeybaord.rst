@@ -1,14 +1,19 @@
 Class BLEHIDKeyboard 
 ====================
 
-**BLEHIDKeyboard Class**
+.. class:: BLEHIDKeyboard
 
 **Description**
 
 A class used for creating and managing a BLE HID Keyboard.
 
-| **Syntax**
-| class BLEHIDKeyboard
+
+ **Syntax**
+
+.. code:: cpp
+
+
+  class BLEHIDKeyboard
 
 **Members**
 
@@ -52,50 +57,71 @@ A class used for creating and managing a BLE HID Keyboard.
 | yboard::keySequence | pressed to output an ASCII string              |
 +---------------------+------------------------------------------------+
 
-**BLEHIDKeyboard::BLEHIDKeyboard**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------------------------------
 
-| **Description**
-| Constructs a BLEHIDKeyboard object.
+.. method:: BLEHIDKeyboard::BLEHIDKeyboard
 
-| **Syntax**
-| BLEHIDKeyboard::BLEHIDKeyboard();
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+Constructs a BLEHIDKeyboard object.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| Example: BLEHIDKeyboard
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
+  BLEHIDKeyboard::BLEHIDKeyboard();
 
-**BLEHIDKeyboard::setReportID**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Parameters**
 
-| **Description**
-| Set HID report ID for the HID Keyboard and HID consumer control.
+The function requires no input parameter.
 
-| **Syntax**
-| void setReportID (uint8_t reportIDKeyboard, uint8_t reportIDConsumer);
+**Returns**
 
-| **Parameters**
-| reportIDKeyboard: The report ID for the HID keyboard device,
-  corresponding to the HID report descriptor.
-| reportIDConsumer: The report ID for the HID consumer control device,
-  corresponding to the HID report descriptor.
+The function returns nothing.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| NA
+Example: BLEHIDKeyboard
 
-| **Notes and Warnings**
-| NA
+**Notes and Warnings**
+
+NA
+
+------------------------------------------------------
+
+.. method:: BLEHIDKeyboard::setReportID
+
+**Description**
+
+Set HID report ID for the HID Keyboard and HID consumer control.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setReportID (uint8_t reportIDKeyboard, uint8_t reportIDConsumer);
+
+**Parameters**
+
+reportIDKeyboard: The report ID for the HID keyboard device,
+
+corresponding to the HID report descriptor.
+
+reportIDConsumer: The report ID for the HID consumer control device,
+
+corresponding to the HID report descriptor.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
 
 **BLEHIDKeyboard::consumerReport**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
