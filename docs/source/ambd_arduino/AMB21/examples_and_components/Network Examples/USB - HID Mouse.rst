@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/USB - HID Mouse.rst

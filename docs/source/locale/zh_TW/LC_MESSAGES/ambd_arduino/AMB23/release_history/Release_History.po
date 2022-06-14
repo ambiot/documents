@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 05:15+0000\n"
+"POT-Creation-Date: 2022-06-14 03:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: ../../source/ambd_arduino/release_history.rst:3
 msgid "Release History"
@@ -61,7 +61,8 @@ msgid "API Updates:"
 msgstr "API 更新:"
 
 #: ../../source/ambd_arduino/release_history.rst:14
-msgid "Update WLAN related naming from \"AmebaWiFi\" become \"WiFi\""
+#, fuzzy
+msgid "Update Wlan related naming from \"AmebaWiFi\" become \"WiFi\""
 msgstr "更新 WLAN 名稱，從 “AmebaWiFi” 變成 “WiFi”"
 
 #: ../../source/ambd_arduino/release_history.rst:15
@@ -410,8 +411,9 @@ msgid "Update SDK for supporting Arduino IDE 2.0"
 msgstr "更新 SDK 以支援 Arduino IDE 2.0"
 
 #: ../../source/ambd_arduino/release_history.rst:159
-msgid "Update WLAN lib"
-msgstr "更新WLAN庫"
+#, fuzzy
+msgid "Update wlan lib"
+msgstr "更新全部的庫"
 
 #: ../../source/ambd_arduino/release_history.rst:163
 msgid "Update zip libraries of Eink"
@@ -456,7 +458,8 @@ msgid "Update Ameba Arduino SSL related API"
 msgstr "更新 Ameba Arduino 的 SSL 相關 API"
 
 #: ../../source/ambd_arduino/release_history.rst:179
-msgid "Update Ameba Arduino WLAN API to support static IP function"
+#, fuzzy
+msgid "Update Ameba Arduino Wlan API to support static IP function"
 msgstr "更新 Ameba Arduino WLAN API 以支援靜態IP功能"
 
 #: ../../source/ambd_arduino/release_history.rst:183
@@ -488,11 +491,13 @@ msgid "Add AmebaBLE example BLEUartService, DHT_over_BLEUart"
 msgstr "更新對 Ameba BLE BLEUart服務 和 Uart DHT 功能"
 
 #: ../../source/ambd_arduino/release_history.rst:193
-msgid "Update Ameba WLAN library"
+#, fuzzy
+msgid "Update Ameba Wlan library"
 msgstr "更新 Ameba WLAN 庫"
 
 #: ../../source/ambd_arduino/release_history.rst:194
-msgid "Update Ameba WLAN SDK structure, add AP mode hidden SSID support"
+#, fuzzy
+msgid "Update Ameba Wlan SDK structure, add AP mode hidden SSID support"
 msgstr "更新 Ameba WLAN SDK 結構， 新增 AP 模式隱藏SSID"
 
 #: ../../source/ambd_arduino/release_history.rst:198
@@ -620,4 +625,7 @@ msgstr "UART 功能"
 #: ../../source/ambd_arduino/release_history.rst:261
 msgid "I2C master mode"
 msgstr "I2C主機模式"
+
+#~ msgid "Update WLAN lib"
+#~ msgstr "更新WLAN庫"
 

@@ -1,6 +1,5 @@
 Class BLEHIDGamepad
 ===================
-.. class:: BLEHIDGamepad
 
 **Description**
 

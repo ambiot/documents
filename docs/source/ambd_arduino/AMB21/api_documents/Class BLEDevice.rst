@@ -1,7 +1,5 @@
 Class BLEDevice
-====================
-.. class:: BLEDevice
-
+===================
 
  **Description**
 

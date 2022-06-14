@@ -38,3 +38,5 @@ Peripheral Examples
    UART - Set Callback Function For UART Communications
    UART - PM2.5 Concentration in The Air
    Watchdog - Simple WDG Timer
+   WS2812B - Basics
+   WS2812B - Patterns

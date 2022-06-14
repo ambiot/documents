@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-14 10:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:3
+msgid "Class USBHIDGamepad"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:5
+#: USBHIDGamepad.rst:66 USBHIDGamepad.rst:99 USBHIDGamepad.rst:131
+#: USBHIDGamepad.rst:202 USBHIDGamepad.rst:232 USBHIDGamepad.rst:262
+#: USBHIDGamepad.rst:292 USBHIDGamepad.rst:340 USBHIDGamepad.rst:381
+#: USBHIDGamepad.rst:414 USBHIDGamepad.rst:447
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:7
+msgid "A class used for creating and managing a USB HID Gamepad."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:9
+#: USBHIDGamepad.rst:70 USBHIDGamepad.rst:103 USBHIDGamepad.rst:135
+#: USBHIDGamepad.rst:206 USBHIDGamepad.rst:236 USBHIDGamepad.rst:266
+#: USBHIDGamepad.rst:296 USBHIDGamepad.rst:344 USBHIDGamepad.rst:386
+#: USBHIDGamepad.rst:419 USBHIDGamepad.rst:452
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:15
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:17
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:20
+msgid "USBHIDGamepad::USBHIDGamepad"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:20
+msgid "Constructs a USBHIDGamepad object"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:24
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:27
+msgid "USBHIDGamepad::setReportID"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:27
+msgid "Set HID report ID for the HID Gamepad"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:30
+msgid "USBHIDGamepad::gamepadReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:30
+msgid "Send a HID Gamepad report"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:32
+msgid "USBHIDGamepad::buttonPress"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:32
+msgid "Send a HID Gamepad report indicating buttons pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:35
+msgid "USBHIDGamepad::buttonRelease"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:35
+msgid "Send a HID Gamepad report indicating buttons released"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:38
+msgid "USBHIDGamepad::buttonReleaseAll"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:38
+msgid "Send a HID Gamepad report indicating no buttons pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:41
+msgid "USBHIDGamepad::setHat"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:41
+msgid "Send a HID Gamepad report indicating hat switch position"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:44
+msgid "USBHIDGamepad::setAxes"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:44
+msgid "Send a HID Gamepad report indicating position of all axes"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:47
+msgid "USBHIDGamepad::setLeftStick"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:47
+msgid ""
+"Send a HID Gamepad report indicating position of axes corresponding to "
+"left analog stick"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:52
+msgid "USBHIDGamepad::setRightStick"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:52
+msgid ""
+"Send a HID Gamepad report indicating position of axes corresponding to "
+"right analog stick"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:57
+msgid "USBHIDGamepad::setTriggers"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:57
+msgid ""
+"Send a HID Gamepad report indicating position of axes corresponding to "
+"triggers"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:68
+msgid "Constructs a USBHIDGamepad object."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:76
+#: USBHIDGamepad.rst:109 USBHIDGamepad.rst:146 USBHIDGamepad.rst:212
+#: USBHIDGamepad.rst:242 USBHIDGamepad.rst:272 USBHIDGamepad.rst:302
+#: USBHIDGamepad.rst:351 USBHIDGamepad.rst:392 USBHIDGamepad.rst:425
+#: USBHIDGamepad.rst:458
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:78
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:80
+#: USBHIDGamepad.rst:114 USBHIDGamepad.rst:186 USBHIDGamepad.rst:216
+#: USBHIDGamepad.rst:246 USBHIDGamepad.rst:276 USBHIDGamepad.rst:324
+#: USBHIDGamepad.rst:365 USBHIDGamepad.rst:398 USBHIDGamepad.rst:431
+#: USBHIDGamepad.rst:464
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:82
+#: USBHIDGamepad.rst:116 USBHIDGamepad.rst:188 USBHIDGamepad.rst:218
+#: USBHIDGamepad.rst:248 USBHIDGamepad.rst:278 USBHIDGamepad.rst:326
+#: USBHIDGamepad.rst:367 USBHIDGamepad.rst:400 USBHIDGamepad.rst:433
+#: USBHIDGamepad.rst:466
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:84
+#: USBHIDGamepad.rst:118 USBHIDGamepad.rst:190 USBHIDGamepad.rst:220
+#: USBHIDGamepad.rst:250 USBHIDGamepad.rst:280 USBHIDGamepad.rst:328
+#: USBHIDGamepad.rst:369 USBHIDGamepad.rst:402 USBHIDGamepad.rst:435
+#: USBHIDGamepad.rst:468
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:86
+#: USBHIDGamepad.rst:192 USBHIDGamepad.rst:282 USBHIDGamepad.rst:371
+msgid "Example: USBHIDGamepad"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:88
+#: USBHIDGamepad.rst:122 USBHIDGamepad.rst:194 USBHIDGamepad.rst:224
+#: USBHIDGamepad.rst:254 USBHIDGamepad.rst:284 USBHIDGamepad.rst:332
+#: USBHIDGamepad.rst:373 USBHIDGamepad.rst:406 USBHIDGamepad.rst:439
+#: USBHIDGamepad.rst:472
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:90
+msgid ""
+"By default, the USBHIDGamepad class assumes the HID report descriptor "
+"implements a gamepad device with 16 buttons, 6 axes with 16-bit "
+"resolution and an 8-direction hat switch. This class will not work if a "
+"different gamepad report descriptor is implemented."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:101
+msgid "Set HID report ID for the HID Gamepad."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:111
+msgid ""
+"``reportID`` : The report ID for the gamepad device, corresponding to the"
+" HID report descriptor."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:120
+#: USBHIDGamepad.rst:196 USBHIDGamepad.rst:222 USBHIDGamepad.rst:226
+#: USBHIDGamepad.rst:252 USBHIDGamepad.rst:256 USBHIDGamepad.rst:286
+#: USBHIDGamepad.rst:330 USBHIDGamepad.rst:334 USBHIDGamepad.rst:375
+#: USBHIDGamepad.rst:404 USBHIDGamepad.rst:408 USBHIDGamepad.rst:437
+#: USBHIDGamepad.rst:441 USBHIDGamepad.rst:470 USBHIDGamepad.rst:474
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:124
+msgid ""
+"HID report ID should start at 1. Some systems may consider a report ID of"
+" 0 as invalid."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:133
+msgid "Send a HID Gamepad report."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:148
+msgid ""
+"``report`` : pointer to gamepad report structure containing data on all "
+"inputs"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:151
+msgid ""
+"``buttons`` : bitmap indicating state of each button. 1 = pressed, 0 = "
+"released."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:154
+#: USBHIDGamepad.rst:304
+msgid "``hat`` : position of hat switch. Valid values:"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:156
+#: USBHIDGamepad.rst:306
+msgid "GAMEPAD_HAT_CENTERED = 0"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:158
+#: USBHIDGamepad.rst:308
+msgid "GAMEPAD_HAT_UP = 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:160
+#: USBHIDGamepad.rst:310
+msgid "GAMEPAD_HAT_UP_RIGHT = 2"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:162
+#: USBHIDGamepad.rst:312
+msgid "GAMEPAD_HAT_RIGHT = 3"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:164
+#: USBHIDGamepad.rst:314
+msgid "GAMEPAD_HAT_DOWN_RIGHT = 4"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:166
+#: USBHIDGamepad.rst:316
+msgid "GAMEPAD_HAT_DOWN = 5"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:168
+#: USBHIDGamepad.rst:318
+msgid "GAMEPAD_HAT_DOWN_LEFT = 6"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:170
+#: USBHIDGamepad.rst:320
+msgid "GAMEPAD_HAT_LEFT = 7"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:172
+#: USBHIDGamepad.rst:322
+msgid "GAMEPAD_HAT_UP_LEFT = 8"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:174
+#: USBHIDGamepad.rst:353
+msgid "``x`` : position of x axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:176
+#: USBHIDGamepad.rst:355 USBHIDGamepad.rst:396
+msgid "``y`` : position of y axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:178
+#: USBHIDGamepad.rst:357 USBHIDGamepad.rst:427
+msgid "``z`` : position of z axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:180
+#: USBHIDGamepad.rst:359 USBHIDGamepad.rst:429
+msgid "``Rz`` : position of Rz axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:182
+#: USBHIDGamepad.rst:361 USBHIDGamepad.rst:460
+msgid "``Rx`` : position of Rx axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:184
+#: USBHIDGamepad.rst:363 USBHIDGamepad.rst:462
+msgid "``Ry`` : position of Ry axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:204
+msgid "Send a HID Gamepad report indicating buttons pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:214
+msgid "``buttons`` : bitmap indicating buttons pressed. 1 = pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:234
+msgid "Send a HID Gamepad report indicating buttons released."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:244
+msgid "``buttons`` : bitmap indicating buttons released. 1 = released."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:264
+msgid "Send a HID Gamepad report indicating no buttons pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:274
+msgid "The function takes no parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:294
+msgid "Send a HID Gamepad report indicating hat switch position."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:342
+msgid "Send a HID Gamepad report indicating position of all axes."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:383
+msgid ""
+"Send a HID Gamepad report indicating position of axes corresponding to "
+"left analog stick."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:394
+msgid "``x``: position of x axis. Integer value from -32767 to 32767."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:416
+msgid ""
+"Send a HID Gamepad report indicating position of axes corresponding to "
+"right analog stick."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDGamepad.rst:449
+msgid ""
+"Send a HID Gamepad report indicating position of axes corresponding to "
+"triggers."
+msgstr ""
+

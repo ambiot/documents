@@ -219,6 +219,19 @@ Sys
 
 ----
 
+****************
+USB
+****************
+
+.. toctree:: 
+   :maxdepth: 1
+
+   Class USBCDCDevice
+   Class USBHIDDevice
+   Class USBHIDGamepad
+   Class USBHIDKeyboard
+   Class USBHIDMouse
+
 *********************
 WDT
 ********************* 
@@ -253,3 +266,14 @@ Wire
 
    Class TwoWire
    Readme Wire
+
+----
+
+*********************
+WS2812B
+*********************
+
+.. toctree::
+   :maxdepth: 1
+
+   Class WS2812B

@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-14 03:55+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:3
+msgid "WS2812B Basics"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:12
+msgid "AmebaD [ AMB21 / AMB22 / AMB23 / BW16 ] x1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:14
+msgid "WS2812B LED Strip / Ring / Stick / Board x1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:16
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:21
+msgid "Introduction"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:23
+msgid ""
+"In this example, we will be using the AmebaD board to control the WS2812B"
+" RGB LED, using the SPI peripheral to create the waveform necessary for "
+"the LEDs."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:27
+msgid ""
+"WS2812B basics allows you to control a single LED with a color or fill "
+"all the LED with the same color."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:31
+msgid "Procedure"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:33
+msgid ""
+"Firstly, connect the WS2812B to the Ameba board as shown in the following"
+" diagrams."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:36
+msgid "**AMB21/AMB22 Wiring Diagram:**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:38
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:77
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:40
+msgid "**AMB23 Wiring Diagram:**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:42
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:82
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:44
+msgid "**BW16 Wiring Diagram:**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:46
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:87
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:48
+msgid ""
+"To light up one individual LED or multiple LEDs with the same color, use "
+"**WS2812B_Basics**."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:51
+msgid ""
+"Open the example in ``“File” → “Example” → “AmebaWS2812B” → "
+"“WS2812B_Basics”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:54
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:92
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:56
+msgid ""
+"In the sample code, modify **NUM_OF_LEDS** to be the number of LEDs that "
+"you have connected."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:59
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:97
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:61
+msgid ""
+"Next, compile and upload to Ameba, then press the reset button. You will "
+"see the first 3 LED light up with red, green, and blue light color "
+"individually and after a while all the LED will be filled with a color."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:65
+msgid "|6|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:102
+msgid "6"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:67
+msgid "|7|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:107
+msgid "7"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:70
+msgid "Code Reference"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:72
+msgid "[1] WS2812B Datasheet:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:74
+msgid "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+msgstr ""
+

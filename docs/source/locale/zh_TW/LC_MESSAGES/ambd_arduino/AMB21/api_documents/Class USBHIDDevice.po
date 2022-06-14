@@ -1,0 +1,377 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-14 10:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:3
+msgid "Class USBHIDDevice"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:5
+#: USBHIDDevice.rst:61 USBHIDDevice.rst:94 USBHIDDevice.rst:125
+#: USBHIDDevice.rst:156 USBHIDDevice.rst:187 USBHIDDevice.rst:218
+#: USBHIDDevice.rst:249 USBHIDDevice.rst:280 USBHIDDevice.rst:311
+#: USBHIDDevice.rst:342 USBHIDDevice.rst:372 USBHIDDevice.rst:402
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:7
+msgid "A class used for creating and managing USB HID device class"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:9
+#: USBHIDDevice.rst:65 USBHIDDevice.rst:98 USBHIDDevice.rst:129
+#: USBHIDDevice.rst:160 USBHIDDevice.rst:191 USBHIDDevice.rst:222
+#: USBHIDDevice.rst:253 USBHIDDevice.rst:284 USBHIDDevice.rst:315
+#: USBHIDDevice.rst:346 USBHIDDevice.rst:376 USBHIDDevice.rst:406
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:15
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:17
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:19
+msgid ""
+"The public constructor should not be used as this class is intended to be"
+" a singleton class. Access member functions using the object instance "
+"named ``USBHIDDev``."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:23
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:26
+msgid "USBHIDDevice::setReportDescriptor"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:26
+msgid "Configure the HID report descriptor"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:29
+msgid "USBHIDDevice::setUSBEndpointMPS"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:29
+msgid "Configure USB endpoint maximum packet size"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:32
+msgid "US BHIDDevice::setUSBEndpointInterval"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:32
+msgid "Configure USB endpoint polling interval"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:35
+msgid "USBHIDDevice::setVID"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:35
+msgid "Set USB vendor ID value"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:37
+msgid "USBHIDDevice::setPID"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:37
+msgid "Set USB product ID value"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:39
+msgid "U SBHIDDevice::setManufacturerString"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:39
+msgid "Set USB manufacturer string"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:42
+msgid "USBHIDDevice::setModelString"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:42
+msgid "Set USB product model string"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:44
+msgid "USBHIDDevice::setSerialString"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:44
+msgid "Set USB product serial number string"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:47
+msgid "USBHIDDevice::USBconnected"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:47
+msgid "Check if the USB port is connected to a host"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:50
+msgid "USBHIDDevice::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:50
+msgid "Start USB HID device"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:52
+msgid "USBHIDDevice::end"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:52
+msgid "Stop USB HID device"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:54
+msgid "USBHIDDevice::inputReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:54
+msgid "Send a HID input report"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:63
+msgid "Configure the HID report descriptor."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:71
+#: USBHIDDevice.rst:104 USBHIDDevice.rst:135 USBHIDDevice.rst:166
+#: USBHIDDevice.rst:197 USBHIDDevice.rst:228 USBHIDDevice.rst:259
+#: USBHIDDevice.rst:290 USBHIDDevice.rst:321 USBHIDDevice.rst:352
+#: USBHIDDevice.rst:382 USBHIDDevice.rst:412
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:73
+msgid "``report_desc`` : pointer to buffer containing HID report descriptor"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:75
+msgid "``len`` : HID report descriptor length in number of bytes"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:77
+#: USBHIDDevice.rst:108 USBHIDDevice.rst:140 USBHIDDevice.rst:170
+#: USBHIDDevice.rst:201 USBHIDDevice.rst:232 USBHIDDevice.rst:263
+#: USBHIDDevice.rst:294 USBHIDDevice.rst:325 USBHIDDevice.rst:356
+#: USBHIDDevice.rst:386 USBHIDDevice.rst:420
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:79
+#: USBHIDDevice.rst:110 USBHIDDevice.rst:142 USBHIDDevice.rst:172
+#: USBHIDDevice.rst:203 USBHIDDevice.rst:234 USBHIDDevice.rst:265
+#: USBHIDDevice.rst:296 USBHIDDevice.rst:358 USBHIDDevice.rst:388
+#: USBHIDDevice.rst:422
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:81
+#: USBHIDDevice.rst:112 USBHIDDevice.rst:144 USBHIDDevice.rst:174
+#: USBHIDDevice.rst:205 USBHIDDevice.rst:236 USBHIDDevice.rst:267
+#: USBHIDDevice.rst:298 USBHIDDevice.rst:330 USBHIDDevice.rst:360
+#: USBHIDDevice.rst:390 USBHIDDevice.rst:424
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:83
+#: USBHIDDevice.rst:114
+msgid "Example: USBHIDGamepad"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:85
+#: USBHIDDevice.rst:116 USBHIDDevice.rst:148 USBHIDDevice.rst:178
+#: USBHIDDevice.rst:209 USBHIDDevice.rst:240 USBHIDDevice.rst:271
+#: USBHIDDevice.rst:302 USBHIDDevice.rst:334 USBHIDDevice.rst:364
+#: USBHIDDevice.rst:394 USBHIDDevice.rst:428
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:87
+msgid ""
+"Default HID report descriptor is configured for mouse + keyboard + "
+"consumer control."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:96
+msgid "Configure USB endpoint maximum packet size."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:106
+msgid "``max_packet_size`` : maximum HID report packet size in bytes"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:118
+msgid ""
+"The USB endpoint maximum packet size should correspond to the size of the"
+" largest HID report defined in the HID report descriptor."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:127
+msgid "Configure USB endpoint polling interval."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:137
+msgid ""
+"``poll_interval`` : polling interval for USB interrupt endpoint, "
+"expressed in milliseconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:146
+#: USBHIDDevice.rst:176 USBHIDDevice.rst:207 USBHIDDevice.rst:238
+#: USBHIDDevice.rst:269 USBHIDDevice.rst:300 USBHIDDevice.rst:336
+#: USBHIDDevice.rst:366 USBHIDDevice.rst:392 USBHIDDevice.rst:396
+#: USBHIDDevice.rst:426
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:150
+msgid "Default polling interval is set at the minimum of 1 millisecond."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:158
+msgid "Set USB vendor ID value."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:168
+msgid "``VID`` : vendor ID"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:180
+msgid ""
+"The VID should be configured before USBHIDDevice::begin() function is "
+"called."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:189
+msgid "Set USB product ID value."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:199
+msgid "``PID`` : product ID"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:211
+msgid ""
+"The PID should be configured before USBHIDDevice::begin() function is "
+"called."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:220
+msgid "Set USB manufacturer string."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:230
+msgid "``manufacturer`` : Character string containing manufacturer name"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:242
+msgid ""
+"The manufacturer string should be configured before "
+"``USBHIDDevice::begin()`` function is called."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:251
+msgid "Set USB product model string."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:261
+msgid "``model`` : Character string containing model name"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:273
+msgid ""
+"The model string should be configured before ``USBHIDDevice::begin()`` "
+"function is called."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:282
+msgid "Set USB product serial number string."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:292
+msgid "``serial`` : Character string containing serial number"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:304
+msgid ""
+"The serial string should be configured before USBHIDDevice::begin() "
+"function is called."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:313
+msgid "Check if the USB port is connected to a host."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:323
+#: USBHIDDevice.rst:354 USBHIDDevice.rst:384
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:327
+msgid ""
+"The function returns **TRUE** if the USB port is connected to a host, "
+"**FALSE** if it is not connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:332
+#: USBHIDDevice.rst:362
+msgid "Example: USBHIDGamepad, USBHIDKeyboard, USBHIDMouse"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:344
+msgid "Start USB HID device."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:374
+msgid "Stop USB HID device."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:404
+msgid "Send a HID input report."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:414
+msgid "``reportID`` : HID report ID of input report"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:416
+msgid "``data`` : pointer to HID input report data to send"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:418
+msgid "``len`` : length of HID input report data in bytes"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBHIDDevice.rst:430
+msgid ""
+"A reportID value of 0 is not a valid report ID and will send an input "
+"report without the report ID field."
+msgstr ""
+
