@@ -1,5 +1,56 @@
 Release History 
 
+2022/06/20
+
+- Features:
+	- Update TW and CN Translations for the all the Network and Peripheral Examples
+	- Update TW and CN Translations for all the Release History 
+	- Update TW and CN Translations for 
+	- Added USB Example guides and API documents to AMB21/AMB22/AMB23
+	- Added WS2812B Example guides and API documents to AMB21/AMB22/AMB23/BW16
+	- Added IR - Transmit IR SONY Data Example to AMB21/AMB22/BW16
+
+- Misc: 
+	- Update GPIO - Use GPIO Interrupt to control LED Wiring Diagram
+	- Update SPI - Print Image and Text on LCD Screen Wiring Diagram
+
+2022/05/23
+
+- Features:
+	- Update Community Examples TW and CN Translations
+
+- Misc:
+	- Fixed minor mistakes in Getting Started for 3 languages
+
+2022/05/11
+
+- Features:
+	- Update AMB23 and BW16 Network Examples TW Translations
+	- Remove TensorFlow Lite - MicroSpeech from BW16
+	- Update TW Translations for community examples
+
+2022/05/06
+
+- Features:
+	- Added a section for AMB23 in MicroPython SDK
+	- Update .po files
+	- Added AMB23 Getting Started in MicroPython page
+	- Added BW16 into TensorFlow Lite examples
+	- Update MicroPython Getting started TW Translations
+
+2022/04/25
+
+- Features:
+	- Update content pages with TW and CN Translations
+	- Update examples with TW and CN Translations
+	- Update AMB21 / AMB 23 & BW16 Getting started TW Translations
+	- Update AMB21 Network Examples Translations
+
+2022/03/29
+
+- Features:
+	- Added AMB23 Getting Started Guide in AMB23 Community Examples
+	- All the titles and content pages CN and TW Translations
 
 2022/03/10
 
@@ -15,7 +66,7 @@ Release History
 	
 2022/02/18
 
-- Feature:
+- Features:
 	- Move the Download section to the main page for easier access.
 	- Move Board-HDK section into the Download section.
 	- Update AMB23 Board-HDK section.
