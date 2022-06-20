@@ -20,6 +20,7 @@ Peripheral Examples
    I2C - Display Data On LCD Screen
    I2C - Receive Data from Arduino UNO	
    IR - Transmit IR NEC Raw Data And Decode
+   IR - Transmit IR SONY Data
    Power Save - Deep Sleep Mode
    Power Save - Deep Sleep for DHT and E-paper
    Power Save - Deep Sleep for DHT and LCD
