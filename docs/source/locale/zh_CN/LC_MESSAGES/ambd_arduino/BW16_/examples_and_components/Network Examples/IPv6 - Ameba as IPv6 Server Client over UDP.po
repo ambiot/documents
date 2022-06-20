@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:3 as over
 msgid "IPv6 – Ameba as IPv6 Server/Client over UDP"
-msgstr "IPv6 - 通过 UDP 设置 IPv6 伺服器/客户端"
+msgstr "IPv6 - 通过 UDP 设置 IPv6 伺服器/客户端 "
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:8 as over
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:12 as over
@@ -40,11 +42,13 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:18 as over
 msgid "**Introduction**"
-msgstr ""
+msgstr "**介绍**"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:20 as over
@@ -53,7 +57,8 @@ msgid ""
 "Internet Protocol version 6 over UDP. Note that this example only works "
 "after you have set up the server and then configure the client "
 "accordingly."
-msgstr ""
+msgstr "此范例显示 Ameba 如何通过 UDP 使用 IPv6 在区域网络上进行通信。"
+"请注意，此范例仅在您设置服务器并配置对应客户端后才有效。"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:23 as over
@@ -70,7 +75,7 @@ msgstr ""
 msgid ""
 "In the sample code, modify the highlighted section to enter the "
 "information required (ssid, password) to connect to your WiFi network."
-msgstr ""
+msgstr "在范例代码中，修改标示的部分以输入连接到 WiFi 网络所需的信息（ssid、密码）。"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:28 as over
@@ -88,7 +93,7 @@ msgid ""
 "Next, upload the code and press the reset button on Ameba once the upload"
 " is finished. Open Serial Monitor and copy the IPv6 address of the Server"
 " (the highlighted area) for later use,"
-msgstr ""
+msgstr "接下来，上传代码并在上传完成后按 Ameba 上的重置按钮。打开串行监视器并复制服务器的 IPv6 地址（标示的区域）以备接下来使用，"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:33 as over
@@ -105,7 +110,7 @@ msgstr ""
 msgid ""
 "Step 2. IPv6UDPClient Now take the second Ameba D and open another "
 "example, ``“Files” -> “Examples” -> “AmebaWiFi” -> “IPv6UDPClient”``."
-msgstr ""
+msgstr "Step 2. IPv6UDPClient现在以第二个 Ameba D 为例，打开另一个范例，”Files” -> “Examples” -> “AmebaWiFi” -> “IPv6UDPClient”，"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:38 as over
@@ -133,7 +138,7 @@ msgid ""
 "From the previous step, we have obtained the Server’s IPv6 address, now "
 "we copy the server’s IPv6 address to “IPv6UDPClient” example in the "
 "highlighted area below,"
-msgstr ""
+msgstr "从上一步中，我们已经获得了服务器的 IPv6 地址，现在我们将服务器的 IPv6 地址复制到下面标示区域中的“IPv6UDPClient”范例中。"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:47 as over
@@ -150,7 +155,7 @@ msgstr ""
 msgid ""
 "Next, upload the code and press the reset button on Ameba once the upload"
 " is finished."
-msgstr ""
+msgstr "接下来，上传代码并在上传完成后按 Ameba 上的重置按钮。"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:51 as over
@@ -158,7 +163,7 @@ msgid ""
 "Open Serial Monitor on the port to the second Ameba D, you should see "
 "server and client are sending text message to each other at the same "
 "time."
-msgstr ""
+msgstr "在第二个 Ameba D 的端口上打开串行监视器，您应该看到服务器和客户端同时相互发送短信。"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:53 as over

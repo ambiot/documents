@@ -14,7 +14,7 @@
 **Materials**
 :raw-html:`</p>`
 
-* Ameba x 1 
+* AmebaD[AMB21 / AMB22] x 1 
 * LED x 1
 * Resistor(220ohm) x 1
 

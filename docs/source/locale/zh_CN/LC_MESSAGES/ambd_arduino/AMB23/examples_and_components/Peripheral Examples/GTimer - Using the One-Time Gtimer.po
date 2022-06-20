@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer Gtimer.rst:12
 #: One-Time Using the
@@ -40,13 +42,15 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer Gtimer.rst:18
 #: One-Time Using the
 msgid ""
 "In this example, we will use 4 One-Time GTimer, and pass user data to "
 "each timer."
-msgstr ""
+msgstr "在这个例子中，我们将使用 4 个 One-Time GTimer，并将用户数据传递给每个计时器。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer Gtimer.rst:20
 #: One-Time Using the
@@ -54,7 +58,7 @@ msgid ""
 "Open the example ``“File” -> “Examples” -> “AmebaGTimer” -> "
 "“TimerOneshot”``. Compile and upload to Ameba, and press reset. Then you "
 "can see the 4 timer log printed to the serial monitor in series."
-msgstr ""
+msgstr "打开范例， “File” -> “Examples” -> “AmebaGTimer” -> “TimerOneshot”. 编译上传到Ameba，按reset。然后您可以看到打印到串行视窗的4个计时器日志。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer Gtimer.rst:24
 #: One-Time Using the
@@ -62,6 +66,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer Gtimer.rst:28
 #: One-Time Using the
@@ -73,14 +79,17 @@ msgid ""
 "periodic timer, we use “false” here to begin a single-use timer. The "
 "fifth argument is the user data, we give 0 here to represent that this is"
 " timer 0."
-msgstr ""
+msgstr "begin() 的第一个参数是定时器 ID (0~3)。第二个参数是计时器的值（以微秒为单位）。"
+"在范例中，我们填写 1000000us = 1s。第三个参数指定时间到时要调用的函数。"
+"第四个参数是设置这个定时器是否是一个周期定时器，我们这里使用“false”来开始一个一次性定时器。"
+"第五个参数是用户数据，我们这里给0表示这是定时器0。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer Gtimer.rst:37
 #: One-Time Using the
 msgid ""
 "Next, we set up the second timer, which has timer value 2 seconds, and "
 "user data 1. And other timers are set similarly."
-msgstr ""
+msgstr "接下来我们设置第二个定时器，定时器值为2秒，用户数据为1，其他定时器的设置类似。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer Gtimer.rst:44
 #: One-Time Using the
@@ -89,5 +98,6 @@ msgid ""
 "the 4 timers are separately set to count for 1, 2, 3, 4 seconds, from 1 "
 "second to 4 second, the user data of each timer are printed on the serial"
 " monitor in order. After 4 second, no log will be printed."
-msgstr ""
+msgstr "在 myhandler 函数中，我们将用户数据打印到串行视窗。"
+"由于4个定时器分别设置为1、2、3、4秒计时，从1秒到4秒，每个定时器的用户数据按顺序打印在串行视窗上。 4 秒后，不会打印任何日志。"
 

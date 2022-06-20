@@ -1,13 +1,17 @@
 Class BLECharacteristic
 ===========================
-**BLECharacteristic Class**
+
+.. class:: BLECharacteristic
 
 **Description**
 
 A class used for creating and managing BLE GATT characteristics.
 
-| **Syntax**
-| class BLECharacteristic
+ **Syntax**
+
+ .. code:: cpp
+
+  class BLECharacteristic
 
 **Members**
 
@@ -115,667 +119,978 @@ A class used for creating and managing BLE GATT characteristics.
 | ECharacteristic::setCCCDCallback | write callback                   |
 +----------------------------------+----------------------------------+
 
-**BLECharacteristic::BLECharacteristic**
+------------------------------------------------------------------------------
 
-| **Description**
-| Constructs a BLECharacteristic object.
+.. method:: BLECharacteristic::BLECharacteristic
 
-| **Syntax**
-| BLECharacteristic::BLECharacteristic(BLEUUID uuid);
-| BLECharacteristic::BLECharacteristic(const char\* uuid);
+**Description**
 
-| **Parameters**
-| uuid: characteristic UUID, expressed as a BLEUUID class object or a
-  character array
+Constructs a BLECharacteristic object.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| Example: BLEUartService
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
+  BLECharacteristic::BLECharacteristic(BLEUUID uuid);
 
-**BLECharacteristic::setUUID**
+.. code:: cpp
 
-| **Description**
-| Set the characteristic UUID.
+  BLECharacteristic::BLECharacteristic(const char * uuid);
 
-| **Syntax**
-| void setUUID(BLEUUID uuid);
+**Parameters**
 
-| **Parameters**
-| uuid: the new characteristic UUID, expressed with a BLEUUID class
-  object
+``uuid`` : characteristic UUID, expressed as a BLEUUID class object or a character array
 
-| **Returns**
-| The function returns nothing.
+**Returns**
 
-| **Example Code**
-| NA
+The function returns nothing.
 
-| **Notes and Warnings**
-| NA
+**Example Code**
 
-**BLECharacteristic::getUUID**
+Example: BLEUartService
 
-| **Description**
-| Get the characteristic UUID.
+**Notes and Warnings**
 
-| **Syntax**
-| BLEUUID getUUID();
+NA
 
-| **Parameters**
-| The function requires no input parameter.
+--------------------------------------------------------------------------------
 
-| **Returns**
-| The function returns the characteristic UUID in a BLEUUID class
-  object.
+.. method:: BLECharacteristic::setUUID
 
-| **Example Code**
-| NA
 
-| **Notes and Warnings**
-| NA
+**Description**
 
-**BLECharacteristic::setBufferLen**
+Set the characteristic UUID.
 
-| **Description**
-| Set the size of the internal data buffer of the characteristic.
+**Syntax**
 
-| **Syntax**
-| void setBufferLen(uint16_t max_len);
+.. code:: cpp
 
-| **Parameters**
-| max_len: number of bytes to resize the internal buffer to
+  void setUUID(BLEUUID uuid);
 
-| **Returns**
-| The function returns nothing.
+**Parameters**
 
-| **Example Code**
-| Example: BLEUartService
+``uuid`` : the new characteristic UUID, expressed with a BLEUUID class object
 
-| **Notes and Warnings**
-| Characteristic data buffer has a default size of 20 bytes and can be
-  increased up to 230 bytes.
+**Returns**
 
-**BLECharacteristic::getBufferLen**
+The function returns nothing.
 
-| **Description**
-| Get the size of the characteristic internal buffer.
+**Example Code**
 
-| **Syntax**
-| uint16_t getBufferLen();
+NA
 
-| **Parameters**
-| The function requires no input parameter.
+**Notes and Warnings**
 
-| **Returns**
-| The function returns the currently set internal buffer size.
+NA
 
-| **Example Code**
-| NA
+---------------------------------------------------------------------------------
 
-| **Notes and Warnings**
-| NA
+.. method:: BLECharacteristic::getUUID
 
-**BLECharacteristic::setReadProperty**
+**Description**
 
-| **Description**
-| Set the characteristic read property.
+Get the characteristic UUID.
 
-| **Syntax**
-| void setReadProperty(bool value);
+**Syntax**
 
-| **Parameters**
-| value: TRUE to allow connected devices to read characteristic data
+.. code:: cpp
 
-| **Returns**
-| The function returns nothing.
+  BLEUUID getUUID();
 
-| **Example Code**
-| Example: BLEBatteryService
+**Parameters**
 
-| **Notes and Warnings**
-| NA
+The function requires no input parameter.
 
-**BLECharacteristic::setWriteProperty**
+**Returns**
 
-| **Description**
-| Set the characteristic write property.
+The function returns the characteristic UUID in a BLEUUID class
+object.
 
-| **Syntax**
-| void setWriteProperty(bool value);
+**Example Code**
 
-| **Parameters**
-| value: TRUE to allow connected devices to write characteristic data
+NA
 
-| **Returns**
-| The function returns nothing.
+**Notes and Warnings**
 
-| **Example Code**
-| Example: BLEUartService
+NA
 
-| **Notes and Warnings**
-| NA
+---------
 
-**BLECharacteristic::setNotifyProperty**
+.. method:: BLECharacteristic::setBufferLen
 
-| **Description**
-| Set the characteristic notify property.
+**Description**
 
-| **Syntax**
-| void setNotifyProperty(bool value);
+Set the size of the internal data buffer of the characteristic.
 
-| **Parameters**
-| value: TRUE to allow connected devices to enable receiving
-  characteristic data notifications.
+**Syntax**
 
-| **Returns**
-| The function returns nothing.
+.. code:: cpp
 
-| **Example Code**
-| Example: BLEUartService
+  void setBufferLen(uint16_t max_len);
 
-| **Notes and Warnings**
-| Enabling this property will add a CCCD descriptor to the
-  characteristic.
+**Parameters**
 
-**BLECharacteristic::setIndicateProperty**
+``max_len`` : number of bytes to resize the internal buffer to
 
-| **Description**
-| Set the characteristic indicate property.
+**Returns**
 
-| **Syntax**
-| void setIndicateProperty(bool value);
+The function returns nothing.
 
-| **Parameters**
-| value: TRUE to allow connected devices to enable receiving
-  characteristic data indications.
+**Example Code**
 
-| **Returns**
-| The function returns nothing.
+Example: BLEUartService
 
-| **Example Code**
-| NA
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| Enabling this property will add a CCCD descriptor to the
-  characteristic.
+Characteristic data buffer has a default size of 20 bytes and can be
+increased up to 230 bytes.
 
-**BLECharacteristic::setProperties**
+---------------
 
-| **Description**
-| Set the characteristic properties.
+.. method:: BLECharacteristic::getBufferLen
 
-| **Syntax**
-| void setProperties(uint8_t value);
 
-| **Parameters**
-| value: desired characteristic properties
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Get the size of the characteristic internal buffer.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
+.. code:: cpp
 
-**BLECharacteristic::getProperties**
+  uint16_t getBufferLen();
 
-| **Description**
-| Get the currently set characteristic properties.
+**Parameters**
 
-| **Syntax**
-| uint8_t getProperties();
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| The function returns the currently set characteristic properties
-  expressed as an unsigned 8-bit integer.
+The function returns the currently set internal buffer size.
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| NA
+NA
 
-**BLECharacteristic::readString**
+**Notes and Warnings**
 
-| **Description**
-| Read the data in the characteristic internal buffer, expressed as a
-  String class object.
+NA
 
-| **Syntax**
-| String readString();
+---------------
 
-| **Parameters**
-| The function requires no input parameter.
+.. method:: BLECharacteristic::setReadProperty
 
-| **Returns**
-| The function returns the data in the characteristic internal buffer
-  expressed as a String class object.
 
-| **Example Code**
-| Example: BLEUartService
+**Description**
 
-| **Notes and Warnings**
-| Non-ASCII data may result in unexpected characters in the string.
+Set the characteristic read property.
 
-**BLECharacteristic::readData8**
+**Syntax**
 
-| **Description**
-| Read the data in the characteristic internal buffer, expressed as an
-  unsigned 8-bit integer.
+.. code:: cpp
 
-| **Syntax**
-| uint8_t readData8();
+  void setReadProperty(bool value);
 
-| **Parameters**
-| The function requires no input parameter.
+**Parameters**
 
-| **Returns**
-| The function returns the data in the characteristic internal buffer
-  expressed as a uint8_t value.
+``value`` : TRUE to allow connected devices to read characteristic data
 
-| **Example Code**
-| NA
+**Returns**
 
-| **Notes and Warnings**
-| NA
+The function returns nothing.
 
-**BLECharacteristic::readData16**
+**Example Code**
 
-| **Description**
-| Read the data in the characteristic internal buffer, expressed as an
-  unsigned 16-bit integer.
+Example: BLEBatteryService
 
-| **Syntax**
-| uint16_t readData16();
+**Notes and Warnings**
 
-| **Parameters**
-| The function requires no input parameter.
+NA
 
-| **Returns**
-| The function returns the data in the characteristic internal buffer
-  expressed as a uint16_t value.
+---------------------------
 
-| **Example Code**
-| NA
+.. method:: BLECharacteristic::setWriteProperty
 
-| **Notes and Warnings**
-| NA
 
-**BLECharacteristic::readData32**
+**Description**
 
-| **Description**
-| Read the data in the characteristic internal buffer, expressed as an
-  unsigned 32-bit integer.
+Set the characteristic write property.
 
-| **Syntax**
-| uint32_t readData32();
+**Syntax**
 
-| **Parameters**
-| The function requires no input parameter.
+.. code:: cpp
 
-| **Returns**
-| The function returns the data in the characteristic internal buffer
-  expressed as a uint32_t value.
+  void setWriteProperty(bool value);
 
-| **Example Code**
-| NA
+**Parameters**
 
-| **Notes and Warnings**
-| NA
+value: TRUE to allow connected devices to write characteristic data
 
-**BLECharacteristic::readData32**
+**Returns**
 
-| **Description**
-| Write data to the characteristic data buffer as a String object or
-  character array.
+The function returns nothing.
 
-| **Syntax**
-| bool writeString(String str);
-| bool writeString(const char\* str);
+**Example Code**
 
-| **Parameters**
-| str: the data to write to the characteristic buffer, expressed as a
-  String class object or a char array.
+Example: BLEUartService
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+**Notes and Warnings**
 
-| **Example Code**
-| Example: BLEUartService
+NA
 
-| **Notes and Warnings**
-| NA
+-----------------------------
 
-**BLECharacteristic::writeData8**
+.. method:: BLECharacteristic::setNotifyProperty
 
-| **Description**
-| Write data to the characteristic data buffer as an unsigned 8-bit
-  integer.
+**Description**
 
-| **Syntax**
-| bool writeData8(uint8_t num);
+Set the characteristic notify property.
 
-| **Parameters**
-| num: the data to write to the characteristic buffer expressed as an
-  unsigned 8-bit integer.
+**Syntax**
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+.. code:: cpp
 
-| **Example Code**
-| Example: BLEBatteryService
+  void setNotifyProperty(bool value);
 
-| **Notes and Warnings**
-| NA
+**Parameters**
 
-**BLECharacteristic::writeData16**
+``value``: TRUE to allow connected devices to enable receiving characteristic data notifications.
 
-| **Description**
-| Write data to the characteristic data buffer as an unsigned 16-bit
-  integer.
+**Returns**
 
-| **Syntax**
-| bool writeData16(uint16_t num);
+The function returns nothing.
 
-| **Parameters**
-| num: the data to write to the characteristic buffer expressed as an
-  unsigned 16-bit integer.
+**Example Code**
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+Example: BLEUartService
 
-| **Example Code**
-| NA
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
+Enabling this property will add a CCCD descriptor to the
+characteristic.
 
-**BLECharacteristic::writeData32**
+----------------
 
-| **Description**
-| Write data to the characteristic data buffer as a 32-bit integer.
+.. method:: BLECharacteristic::setIndicateProperty
 
-| **Syntax**
-| bool writeData32(uint32_t num);
-| bool writeData32(int num);
 
-| **Parameters**
-| num: the data to write to the characteristic buffer expressed as a
-  32-bit integer.
+**Description**
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+Set the characteristic indicate property.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
+.. code:: cpp
 
-**BLECharacteristic::setData**
+  void setIndicateProperty(bool value);
 
-| **Description**
-| Write data to the characteristic data buffer.
+**Parameters**
 
-| **Syntax**
-| bool setData(uint8_t\* data, uint16_t datalen);
+``value`` : TRUE to allow connected devices to enable receiving characteristic data indications.
 
-| **Parameters**
-| data: pointer to byte array containing desired data
-| datalen: number of bytes of data to write
+**Returns**
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+The function returns nothing.
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| NA
+NA
 
-**BLECharacteristic::getData**
+**Notes and Warnings**
 
-| **Description**
-| Read data from the characteristic data buffer.
+Enabling this property will add a CCCD descriptor to the
+characteristic.
 
-| **Syntax**
-| uint16_t getData(uint8_t\* data, uint16_t datalen);
+----------------------
 
-| **Parameters**
-| data: pointer to byte array to save data read from buffer
-| datalen: number of bytes of data to read
+.. method:: BLECharacteristic::setProperties
 
-| **Returns**
-| The function returns the number of bytes read.
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| If the data buffer contains less data than requested, it will only
-  read the available number of bytes of data.
+Set the characteristic properties.
 
-**BLECharacteristic::getDataBuff**
+**Syntax**
 
-| **Description**
-| Get a pointer to the characteristic data buffer.
+.. code:: cpp
 
-| **Syntax**
-| uint8_t\* getDataBuff();
+  void setProperties(uint8_t value);
 
-| **Parameters**
-| The function requires no input parameter.
+**Parameters**
 
-| **Returns**
-| The function returns a pointer to the uint8_t array used as the
-  characteristic internal buffer.
+``value`` : desired characteristic properties
 
-| **Example Code**
-| NA
+**Returns**
 
-| **Notes and Warnings**
-| NA
+The function returns nothing.
 
-**BLECharacteristic::getDataLen**
+**Example Code**
 
-| **Description**
-| Get the number of bytes of data in the characteristic data buffer.
+NA
 
-| **Syntax**
-| uint16_t getDataLen
+**Notes and Warnings**
 
-| **Parameters**
-| The function requires no input parameter.
+NA
 
-| **Returns**
-| The function returns the number of bytes of data in the internal
-  buffer.
+-----------------------
 
-| **Example Code**
-| NA
+.. method:: BLECharacteristic::getProperties
 
-| **Notes and Warnings**
-| NA
 
-**BLECharacteristic::notify**
 
-| **Description**
-| Send a notification to a connected device.
+**Description**
 
-| **Syntax**
-| void notify(uint8_t conn_id);
+Get the currently set characteristic properties.
 
-| **Parameters**
-| conn_id: the connection ID for the device to send a notification to.
+**Syntax**
 
-| **Returns**
-| The function returns nothing.
+.. code:: cpp
 
-| **Example Code**
-| Example: BLEUartService
+  uint8_t getProperties();
 
-| **Notes and Warnings**
-| NA
+**Parameters**
 
-**BLECharacteristic::indicate**
+The function requires no input parameter.
 
-| **Description**
-| Send an indication to a connected device.
+**Returns**
 
-| **Syntax**
-| void indicate(uint8_t conn_id);
+The function returns the currently set characteristic properties expressed as an unsigned 8-bit integer.
 
-| **Parameters**
-| conn_id: the connection ID for the device to send an indication to.
+**Example Code**
 
-| **Returns**
-| The function returns nothing.
+NA
 
-| **Example Code**
-| NA
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
+NA
 
-**BLECharacteristic::setUserDescriptor**
+--------------------
 
-| **Description**
-| Add a user description descriptor attribute (UUID 0x2901) to the
-  characteristic.
+.. method:: BLECharacteristic::readString
 
-| **Syntax**
-| void setUserDescriptor(const char\* description);
 
-| **Parameters**
-| description: the desired user description string expressed in a char
-  array.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Read the data in the characteristic internal buffer, expressed as a String class object.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
+.. code:: cpp
 
-**BLECharacteristic::setFormatDescriptor**
+  String readString();
 
-| **Description**
-| Add a data format descriptor attribute (UUID 0x2904) to the
-  characteristic.
+**Parameters**
 
-| **Syntax**
-| void setFormatDescriptor(uint8_t format, uint8_t exponent, uint16_t
-  unit, uint16_t description);
+The function requires no input parameter.
 
-| **Parameters**
-| format: refer
-  to https://www.bluetooth.com/specifications/assigned-numbers/format-types/ for
-  the valid values and associated format types.
-| exponent: base-10 exponent to be applied to characteristic data value.
-| unit: refer
-  to `https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf  <https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf>`__\ for
-  the valid values and associated units.
-| descriptor: refer
-  to https://www.bluetooth.com/specifications/assigned-numbers/gatt-namespace-descriptors/ for
-  the valid values and associated descriptors.
+**Returns**
 
-| **Returns**
-| The function returns nothing.
+The function returns the data in the characteristic internal buffer
 
-| **Example Code**
-| NA
+expressed as a String class object.
 
-| **Notes and Warnings**
-| NA
+**Example Code**
 
-**BLECharacteristic::setReadCallback**
+Example: BLEUartService
 
-| **Description**
-| Set a user function to be called when the characteristic data is read
-  by a connected device.
+**Notes and Warnings**
 
-| **Syntax**
-| void setReadCallback(void (\*fCallback) (BLECharacteristic\* chr,
-  uint8_t conn_id));
+Non-ASCII data may result in unexpected characters in the string.
 
-| **Parameters**
-| fCallback: A user callback function that returns void and takes two
-  arguments.
-| chr: pointer to BLECharacteristic object containing data read
-| conn_id: connection ID of connected device that read characteristic
-  data
+-------------------------------
 
-| **Returns**
-| The function returns nothing.
+.. method:: BLECharacteristic::readData8 
 
-| **Example Code**
-| Example: BLEBatteryService
 
-| **Notes and Warnings**
-| NA
+**Description**
 
-**BLECharacteristic::setWriteCallback**
+Read the data in the characteristic internal buffer, expressed as an unsigned 8-bit integer.
 
-| **Description**
-| Set a user function to be called when the characteristic data is
-  written by a connected device.
+**Syntax**
 
-| **Syntax**
-| void setWriteCallback(void (\*fCallback) (BLECharacteristic\* chr,
-  uint8_t conn_id));
+.. code:: cpp
 
-| **Parameters**
-| fCallback: A user callback function that returns void and takes two
-  arguments.
-| chr: pointer to BLECharacteristic object containing written data.
-| conn_id: connection ID of connected device that wrote characteristic
-  data.
+  uint8_t readData8();
 
-| **Returns**
-| The function returns nothing.
+**Parameters**
 
-| **Example Code**
-| Example: BLEUartService
+The function requires no input parameter.
 
-| **Notes and Warnings**
-| NA
+**Returns**
 
-**BLECharacteristic::setCCCDCallback**
+The function returns the data in the characteristic internal buffer
 
-| **Description**
-| Set a user function to be called when a connected device modifies the
-  characteristic CCCD to enable or disable notifications or indications.
+expressed as a uint8_t value.
 
-| **Syntax**
-| void setCCCDCallback(void (\*fCallback) (BLECharacteristic\* chr,
-  uint8_t conn_id, uint16_t ccc_bits));
+**Example Code**
 
-| **Parameters**
-| fCallback: A user callback function that returns void and takes two
-  arguments.
-| chr: pointer to BLECharacteristic object containing written data.
-| conn_id: connection ID of connected device that wrote characteristic
-  data.
-| ccc_bits: the new CCCD data bits after modification by the connected
-  device
+NA
 
-| **Returns**
-| The function returns nothing.
+**Notes and Warnings**
 
-| **Example Code**
-| Example: BLEUartService
+NA
 
-| **Notes and Warnings**
-| NA
+---------------------
+
+.. method:: BLECharacteristic::readData16
+
+
+**Description**
+
+Read the data in the characteristic internal buffer, expressed as an unsigned 16-bit integer.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint16_t readData16();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the data in the characteristic internal buffer expressed as a uint16_t value.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-------------------------
+
+.. method:: BLECharacteristic::readData32
+
+
+**Description**
+
+Read the data in the characteristic internal buffer, expressed as an unsigned 32-bit integer.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint32_t readData32();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the data in the characteristic internal buffer expressed as a uint32_t value.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+----------------------
+
+.. method:: BLECharacteristic::readData32
+
+
+**Description**
+
+Write data to the characteristic data buffer as a String object or character array.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool writeString(String str);
+
+.. code:: cpp
+
+  bool writeString(const char * str);
+
+**Parameters**
+
+``str`` : the data to write to the characteristic buffer, expressed as a String class object or a char array.
+
+**Returns**
+
+The function returns TRUE if write data is successful.
+
+**Example Code**
+
+Example: BLEUartService
+
+**Notes and Warnings**
+
+NA
+
+------------------------------
+
+.. method:: BLECharacteristic::writeData8
+
+
+**Description**
+
+Write data to the characteristic data buffer as an unsigned 8-bit integer.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool writeData8(uint8_t num);
+
+**Parameters**
+
+``num`` : the data to write to the characteristic buffer expressed as an unsigned 8-bit integer.
+
+**Returns**
+
+The function returns TRUE if write data is successful.
+
+**Example Code**
+
+Example: BLEBatteryService
+
+**Notes and Warnings**
+
+NA
+
+-------------------------------
+
+.. method:: BLECharacteristic::writeData16
+
+
+**Description**
+
+Write data to the characteristic data buffer as an unsigned 16-bit integer.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool writeData16(uint16_t num);
+
+**Parameters**
+
+``num``: the data to write to the characteristic buffer expressed as an unsigned 16-bit integer.
+
+**Returns**
+
+The function returns TRUE if write data is successful.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-------------------------
+
+.. method:: BLECharacteristic::writeData32
+
+
+**Description**
+
+Write data to the characteristic data buffer as a 32-bit integer.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool writeData32(uint32_t num);
+
+
+.. code:: cpp
+  
+  bool writeData32(int num);
+
+**Parameters**
+
+``num```: the data to write to the characteristic buffer expressed as a 32-bit integer.
+
+**Returns**
+
+The function returns TRUE if write data is successful.
+
+**Example Code**
+
+NA
+
+
+**Notes and Warnings**
+
+NA
+
+----------------------------
+
+.. method:: BLECharacteristic::setData
+
+
+**Description**
+
+Write data to the characteristic data buffer.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool setData(uint8_t * data, uint16_t datalen);
+
+**Parameters**
+
+``data`` : pointer to byte array containing desired data
+
+``datalen`` : number of bytes of data to write
+
+**Returns**
+
+The function returns TRUE if write data is successful.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+--------------------------
+
+.. method:: BLECharacteristic::getData
+
+
+**Description**
+
+Read data from the characteristic data buffer.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint16_t getData(uint8_t* data, uint16_t datalen);
+
+**Parameters**
+
+``data``: pointer to byte array to save data read from buffer
+
+``datalen``: number of bytes of data to read
+
+**Returns**
+
+The function returns the number of bytes read.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+If the data buffer contains less data than requested, it will only read the available number of bytes of data.
+
+--------------------------------------
+
+.. method:: BLECharacteristic::getDataBuff
+
+
+**Description**
+
+Get a pointer to the characteristic data buffer.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint8_t* getDataBuff();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns a pointer to the uint8_t array used as the characteristic internal buffer.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+---------------------
+
+.. method:: BLECharacteristic::getDataLen
+
+
+**Description**
+
+Get the number of bytes of data in the characteristic data buffer.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint16_t getDataLen
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the number of bytes of data in the internal buffer.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----------------
+
+.. method:: BLECharacteristic::notify
+
+
+**Description**
+
+Send a notification to a connected device.
+
+**Syntax**
+
+.. code:: cpp
+
+  void notify(uint8_t conn_id);
+
+**Parameters**
+
+``conn_id`` : the connection ID for the device to send a notification to.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEUartService
+
+**Notes and Warnings**
+
+NA
+
+---------------------------
+
+.. method:: BLECharacteristic::indicate
+
+
+**Description**
+
+Send an indication to a connected device.
+
+**Syntax**
+
+.. code:: cpp
+
+  void indicate(uint8_t conn_id);
+
+**Parameters**
+
+``conn_id`` : the connection ID for the device to send an indication to.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-------------
+
+.. method:: BLECharacteristic::setUserDescriptor
+
+**Description**
+
+Add a user description descriptor attribute (UUID 0x2901) to the characteristic.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setUserDescriptor(const char * description);
+
+**Parameters**
+
+``description`` : the desired user description string expressed in a char array.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+----------------------
+
+.. method:: BLECharacteristic::setFormatDescriptor
+
+
+**Description**
+
+Add a data format descriptor attribute (UUID 0x2904) to the characteristic.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setFormatDescriptor(uint8_t format, uint8_t exponent, uint16_t unit, uint16_t description);
+
+**Parameters**
+
+``format``: refer to https://www.bluetooth.com/specifications/assigned-numbers/format-types/  for the valid values and associated format types.
+
+``exponent``: base-10 exponent to be applied to characteristic data value.
+
+``unit``: refer to `https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf  <https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf>`__\ 
+for the valid values and associated units.
+
+``description``: refer to https://www.bluetooth.com/specifications/assigned-numbers/gatt-namespace-descriptors/  
+for the valid values and associated descriptors.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-------------------------------
+
+.. method:: BLECharacteristic::setReadCallback
+
+
+**Description**
+
+Set a user function to be called when the characteristic data is read by a connected device.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setReadCallback(void (*fCallback) (BLECharacteristic * chr,uint8_t conn_id));
+
+**Parameters**
+
+``fCallback`` : A user callback function that returns void and takes two arguments.
+
+``chr`` : pointer to BLECharacteristic object containing data read
+
+``conn_id`` : connection ID of connected device that read characteristic data
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEBatteryService
+
+**Notes and Warnings**
+
+NA
+
+---------------------
+
+.. method:: BLECharacteristic::setWriteCallback
+
+
+
+**Description**
+
+Set a user function to be called when the characteristic data is written by a connected device.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setWriteCallback(void (*fCallback) (BLECharacteristic * chr,uint8_t conn_id));
+
+**Parameters**
+
+``fCallback`` : A user callback function that returns void and takes two arguments.
+
+``chr`` : pointer to BLECharacteristic object containing written data.
+
+``conn_id`` : connection ID of connected device that wrote characteristic data.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEUartService
+
+**Notes and Warnings**
+
+NA
+
+-------------------
+
+.. method:: BLECharacteristic::setCCCDCallback
+
+
+
+**Description**
+
+Set a user function to be called when a connected device modifies the characteristic CCCD to enable or disable notifications or indications.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setCCCDCallback(void (*fCallback) (BLECharacteristic * chr,uint8_t conn_id, uint16_t ccc_bits));
+
+**Parameters**
+
+``fCallback`` : A user callback function that returns void and takes two arguments.
+
+``chr`` : pointer to BLECharacteristic object containing written data.
+
+``conn_id`` : connection ID of connected device that wrote characteristic data.
+
+``ccc_bits``: the new CCCD data bits after modification by the connected device
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEUartService
+
+**Notes and Warnings**
+
+NA

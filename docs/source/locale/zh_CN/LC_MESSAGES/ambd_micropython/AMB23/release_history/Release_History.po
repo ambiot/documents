@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/Release_History.rst:3
 msgid "Release History"
-msgstr ""
+msgstr "版本记录"
 
 #: ../../source/ambd_micropython/Release_History.rst:5
 msgid "**Version 1.0.2 release - 2021/10/14**"

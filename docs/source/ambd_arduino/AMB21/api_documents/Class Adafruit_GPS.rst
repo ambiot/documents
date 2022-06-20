@@ -2,7 +2,6 @@
 Class Adafruit_GPS
 =====================================
 
-.. class:: Adafruit_GPS
 
 **Description**
 
@@ -10,7 +9,9 @@ Defines a class to use GPS module on Ameba.
 
 **Syntax**
 
-class Adafruit_GPS
+.. code:: cpp
+    
+    class Adafruit_GPS
 
 **Members**
 

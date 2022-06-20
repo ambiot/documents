@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Intro to MQTT**"
 " :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **MQTT 的简介**"
+" :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:12 Client
 #: Communicate MQTT Set to up with
@@ -40,6 +42,9 @@ msgid ""
 "protocol designed for IoT. MQTT is based on TCP/IP and transmits/receives"
 " data via publish/subscribe. Please refer to the figure below:"
 msgstr ""
+"MQTT (Message Queuing Telemetry Transport)，它是为IBM和Eurotech共同制定出来的protocol，在MQTT的官网可以看到它对MQTT的介绍："
+"所以它是为了IOT而设计的protocol，它是基于TCP/IP的协定，并且透过publish/subscribe的方式做资料传送与接收。
+它的架构如下图:"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:21 Client
 #: Communicate MQTT Set to up with
@@ -54,7 +59,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:23 Client
 #: Communicate MQTT Set to up with
 msgid "In the operation of MQTT, there are several roles:"
-msgstr ""
+msgstr "其中它有几个元素"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:25 Client
 #: Communicate MQTT Set to up with
@@ -62,14 +67,14 @@ msgid ""
 "**Publisher**: Usually publishers are the devices equipped with sensors "
 "(ex. Ameba). Publishers uploads the data of the sensors to MQTT-Broker, "
 "which serves as a database with MQTT service."
-msgstr ""
+msgstr "**Publisher**: 它通常是带有sensor的装置(Ex. Ameba)，经由网路上传到MQTT-Broker，其中MATT-Broker是带有MQTT service的资料库"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:29 Client
 #: Communicate MQTT Set to up with
 msgid ""
 "**Subscriber**: Subscribers are referred to the devices which receive and"
 " observe messages, such as a laptop or a mobile phone."
-msgstr ""
+msgstr "**Subscriber**: 它通常是可以观看讯息的装置，如笔电，手机等"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:32 Client
 #: Communicate MQTT Set to up with
@@ -77,7 +82,7 @@ msgid ""
 "**Topic**: Topic is used to categorized the messages, for example the "
 "topic of a message can be “PM2.5” or “Temperature”. Subscribers can "
 "choose messages of which topics they want to receive."
-msgstr ""
+msgstr "**Topic**: 讯息的内容由Topic来分类，比如说Topic可以是PM2.5, 或是Temperature, 而手机可以选择想要接收的Topic"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:36 Client
 #: Communicate MQTT Set to up with
@@ -85,6 +90,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:40 Client
 #: Communicate MQTT Set to up with
@@ -97,20 +104,22 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:47 Client
 #: Communicate MQTT Set to up with
 msgid ""
 "In this example, we connect Ameba to MQTT-Broker. Then send messages as "
 "publisher and receive messages from MQTT-Broker as subscriber."
-msgstr ""
+msgstr "这个范例里，我们尝试连上MQTT-Broker，发送topic讯息，并接收来自MQTT-Broker的讯息。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:49 Client
 #: Communicate MQTT Set to up with
 msgid ""
 "Open the MQTT example ``“File” -> “Examples” -> “AmebaMQTTClient” -> "
 "“MQTT_Basic”``"
-msgstr ""
+msgstr "打开MQTT的范例, “File” -> “Examples” -> “AmebaMQTTClient” -> “MQTT_Basic”"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:50 Client
 #: Communicate MQTT Set to up with
@@ -125,12 +134,12 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:51 Client
 #: Communicate MQTT Set to up with
 msgid "Please modify some WiFi-related parameters."
-msgstr ""
+msgstr "因为它需要用到WiFi, 所以要设定里面的ssid, pass, 以及连上AP的方式。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:52 Client
 #: Communicate MQTT Set to up with
 msgid "And some information related to MQTT:"
-msgstr ""
+msgstr "此外还有一些MQTT的设定可以修改:"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:53 Client
 #: Communicate MQTT Set to up with
@@ -147,14 +156,14 @@ msgstr ""
 msgid ""
 "The “mqttServer” refers to the MQTT-Broker, we use the free MQTT sandbox "
 "“test.mosquitto.org” for testing."
-msgstr ""
+msgstr "其中mqttServer就是MQTT-broker的位置，这边使用“iot.eclipse.org” 是IBM 的eclipse 提供的MQTT sandbox，供开发者测试MQTT"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:58 Client
 #: Communicate MQTT Set to up with
 msgid ""
 "“clientId” is an identifier for MQTT-Broker to identify the connected "
 "device."
-msgstr ""
+msgstr "clientId用来让MQTT-broker辨识连上线的装置"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:59 Client
 #: Communicate MQTT Set to up with
@@ -162,26 +171,26 @@ msgid ""
 "“publishTopic” is the topic of the published message, we use “outTopic” "
 "in the example. The devices subscribe to “outTopic” will receive the "
 "message."
-msgstr ""
+msgstr "publishTopic是发布的主题，例子里是“outTopic”, 而其它有subscribe “outTopic” 的装置可以接收这份讯息。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:61 Client
 #: Communicate MQTT Set to up with
 msgid "“publishPayload” is the content to be published."
-msgstr ""
+msgstr "publishPayload是发布的内容"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:62 Client
 #: Communicate MQTT Set to up with
 msgid ""
 "“subscribeTopic” is to tell MQTT-broker which topic we want to subscribe "
 "to."
-msgstr ""
+msgstr "subscribeTopic是对MQTT-broker注册要倾听的topic"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:64 Client
 #: Communicate MQTT Set to up with
 msgid ""
 "Next, compile the code and upload it to Ameba. Press the reset button, "
 "then open the serial monitor"
-msgstr ""
+msgstr "我们将程式码编译并上传到Ameba之后，按下Reset按钮，然后打开Serial Monitor"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:65 Client
 #: Communicate MQTT Set to up with
@@ -198,19 +207,19 @@ msgstr ""
 msgid ""
 "After Ameba is connected to MQTT server, it sends the message “hello "
 "world” to “outTopic”."
-msgstr ""
+msgstr "程式里也有publish ”outTopic”，"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:67 Client
 #: Communicate MQTT Set to up with
 msgid "To see the message, we need another MQTT client."
-msgstr ""
+msgstr "所以我们需要另外一个MQTT client 来测试看看是否成功"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:68 Client
 #: Communicate MQTT Set to up with
 msgid ""
 "Here we use a chrome plugin “MQTTLens” to be the MQTT client. You can "
 "find it in google webstore."
-msgstr ""
+msgstr "这边我们使用chrome的外挂程式MQTTLens当作client，你可以在google的扩充程式里找到它"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:69 Client
 #: Communicate MQTT Set to up with
@@ -227,29 +236,29 @@ msgstr ""
 msgid ""
 "Install and open the MQTTLens, click “+” next to “Connection” on the "
 "left, and fill in the required information"
-msgstr ""
+msgstr "打开它之后，点选左边的Connection的“+”，并在填入这些栏位"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:74 Client
 #: Communicate MQTT Set to up with
 msgid ""
 "**Connection Name**: Used to identify the connection, you can choose a "
 "name you like."
-msgstr ""
+msgstr "**Connection Name**: 用来辨识这笔连线，可以任意填"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:76 Client
 #: Communicate MQTT Set to up with
 msgid "**Hostname**: The MQTT-Broker server, here we use “iot.eclipse.org”"
-msgstr ""
+msgstr "**Hostname**: 这边填入MQTT-Broker的server位置， “iot.eclipse.org”"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:77 Client
 #: Communicate MQTT Set to up with
 msgid "**Client ID**: We use the default randomly generated ID."
-msgstr ""
+msgstr "**Client ID**: 它预设会随机给你一个ID，我们可以使用预设的ID"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:79 Client
 #: Communicate MQTT Set to up with
 msgid "Then click “CREATE CONNECTION”."
-msgstr ""
+msgstr "填好之后，点选右下角的 “CREATE CONNECTION”"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:80 Client
 #: Communicate MQTT Set to up with
@@ -266,19 +275,19 @@ msgstr ""
 msgid ""
 "Since we have not registered the topic we want to listen to, we would not"
 " receive any messages now."
-msgstr ""
+msgstr "由于我们没有注册想要倾听的资讯，所以没有任何讯息进来。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:82 Client
 #: Communicate MQTT Set to up with
 msgid "Fill in “outTopic” in the “Topic” field and click “Subscribe”."
-msgstr ""
+msgstr "我们在Subscribe那边的Topic填入“outTopic”, 并点选右边的“Subscribe”。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:84 Client
 #: Communicate MQTT Set to up with
 msgid ""
 "Wait for Ameba to send next message (or you can press the reset button). "
 "Then you can see the “hello world” message show up."
-msgstr ""
+msgstr "此时我们等一下Ameba下次传送资料的时间，或是将Ameba Reset并等它的第一次传送资料，等到之后就会看到新一笔的资料“hello world” 出现，这样代表整个机制运作正常。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Broker.rst:85 Client
 #: Communicate MQTT Set to up with

@@ -2,14 +2,17 @@
 Class BLEAddr
 #################
 
-**BLEAddr Class**
+.. class:: BLEAddr
 
 **Description**
 
 A class used for managing Bluetooth addresses.
 
-| **Syntax**
-| class BLEAddr
+**Syntax**
+
+.. code:: cpp
+
+  class BLEAddr
 
 **Members**
 
@@ -27,71 +30,113 @@ A class used for managing Bluetooth addresses.
 |                         | an integer array                          |
 +-------------------------+-------------------------------------------+
 
-**BLEAddr::BLEAddr**
+-----
 
-| **Description**
-| Constructs a BLEAddr object.
+.. method:: BLEAddr::BLEAddr
 
-| **Syntax**
-| BLEAddr::BLEAddr(void);
-| BLEAddr::BLEAddr(uint8_t (&addr)[6]);
-| BLEAddr::BLEAddr(const char\* str);
+**Description**
 
-| **Parameters**
-| addr: An array of 6 bytes containing the desired Bluetooth address.
-| str: A character string representing the desired Bluetooth address.
+Constructs a BLEAddr object.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| When expressed as a string, the Bluetooth address should be written as
-  6 bytes in hexadecimal format, using a colon “:” to separate the bytes
-  is acceptable (example – 00:11:22:33:EE:FF).
+  BLEAddr::BLEAddr(void);
 
-**BLEAddr::str**
 
-| **Description**
-| Get the Bluetooth address represented as a formatted string.
 
-| **Syntax**
-| const char\* str(void);
+.. code:: cpp
 
-| **Parameters**
-| The function requires no input parameter.
+  BLEAddr::BLEAddr(uint8_t (&addr)[6]);
 
-| **Returns**
-| The function returns a pointer to a character string containing the
-  hexadecimal representation of the Bluetooth address.
 
-| **Example Code**
-| Example: BLEScan
 
-| **Notes and Warnings**
-| The Bluetooth address expressed as a string will be written as 6 bytes
-  in hexadecimal format, with a colon “:” separating the bytes (example
-  – 00:11:22:33:EE:FF).
+.. code:: cpp
+  
+  BLEAddr::BLEAddr(const char*str);
 
-**BLEAddr::data**
 
-| **Description**
-| Get the Bluetooth address represented as an integer array.
+**Parameters**
 
-| **Syntax**
-| uint8_t\* data(void);
+``addr`` : An array of 6 bytes containing the desired Bluetooth address.
 
-| **Parameters**
-| The function requires no input parameter.
+``str``: A character string representing the desired Bluetooth address.
 
-| **Returns**
-| The function returns a pointer to a 6 byte array containing the
-  Bluetooth address.
+**Returns**
 
-| **Example Code**
-| NA
+The function returns nothing.
 
-| **Notes and Warnings**
-| The Bluetooth address is stored with MSB at array index [5].
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+When expressed as a string, the Bluetooth address should be written as
+6 bytes in hexadecimal format, using a colon “:” to separate the bytes
+is acceptable (example – 00:11:22:33:EE:FF).
+
+----
+
+.. method:: BLEAddr::str
+
+**Description**
+
+Get the Bluetooth address represented as a formatted string.
+
+**Syntax**
+
+.. code:: cpp
+
+  const char*str(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns a pointer to a character string containing the
+hexadecimal representation of the Bluetooth address.
+
+**Example Code**
+
+Example: BLEScan
+
+**Notes and Warnings**
+
+The Bluetooth address expressed as a string will be written as 6 bytes
+in hexadecimal format, with a colon “:” separating the bytes (example
+– 00:11:22:33:EE:FF).
+
+-----
+
+.. method:: BLEAddr::data
+
+**Description**
+
+Get the Bluetooth address represented as an integer array.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint8_t*data(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns a pointer to a 6 byte array containing the
+Bluetooth address.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+The Bluetooth address is stored with MSB at array index [5].

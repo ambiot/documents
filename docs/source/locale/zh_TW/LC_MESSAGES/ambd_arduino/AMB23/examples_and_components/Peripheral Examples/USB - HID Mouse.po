@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-17 08:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:3
+msgid "USB - HID Mouse"
+msgstr "USB - HID 滑鼠"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:12
+msgid "Ameba D [ AMB21 / AMB22 / AMB23 ] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:14
+msgid "USB capable host device [ Windows / Linux / MacOS ]"
+msgstr "USB主機設備 x 1"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:16
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例** :raw-"
+"html:`</p>`"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:21
+msgid "Introduction"
+msgstr "介紹"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:23
+msgid ""
+"In this example, the RTL8722 board emulates a HID mouse connected using "
+"USB."
+msgstr "在此範例中，RTL8722 開發板模擬使用 USB 連接的 HID 滑鼠。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:27
+msgid "Procedure"
+msgstr "步驟"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:29
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaUSB” -> "
+"“USBHIDMouse”``."
+msgstr "打開範例， ``“Files” -> “Examples” -> “AmebaUSB” -> “USBHIDMouse”``。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:31
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:55
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:33
+msgid "Upload the code and press the reset button once the upload is finished."
+msgstr "上傳代碼並在上傳完成後按重置按鈕。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:35
+msgid ""
+"Connect the USB OTG port on the board to the host device. Refer to the "
+"example guide for USB CDC Serial for connection instructions."
+msgstr "將開發板上的 USB OTG 端口連接到主機設備。 有關連接說明，請參閱 USB CDC 串行端口的範例介紹。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:38
+msgid "The board is ready to send mouse input to the host device."
+msgstr "該開發板已準備好將滑鼠輸入發送到主機設備。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:42
+msgid ""
+"Connect digital pin 8 to 3.3V to start sending input, connect to GND to "
+"stop."
+msgstr "將引腳 8 連接到 3.3V 開始發送輸入，連接到 GND 來停止。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:44
+msgid ""
+"You should see the mouse cursor move around four points in a square, "
+"performing right and left clicks, and scrolling up and down"
+msgstr "您應該會看到滑鼠游標在正方形中圍繞四個點移動，執行左右單擊以及上下滾動"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:47
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Mouse.rst:51
+msgid ""
+"How the mouse input is interpreted is dependent on the host system. Some "
+"systems, such as mobile operating systems, may not support all mouse "
+"button input functions."
+msgstr "如何解釋滑鼠輸入取決於主機系統。 某些系統（例如行動作業系統）可能不支持所有滑鼠按鈕輸入功能。"
+
+#~ msgid "USB HID Mouse"
+#~ msgstr "USB HID 滑鼠"
+

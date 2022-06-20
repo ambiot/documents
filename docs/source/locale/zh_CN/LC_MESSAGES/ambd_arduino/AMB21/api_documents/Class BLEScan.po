@@ -8,211 +8,185 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 05:15+0000\n"
+"POT-Creation-Date: 2022-06-10 10:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:2
 msgid "Class BLEScan"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:3
-msgid "**BLEScan Class**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:5
-#: BLEScan.rst:48 BLEScan.rst:69 BLEScan.rst:95 BLEScan.rst:116 BLEScan.rst:140
-#: BLEScan.rst:162 BLEScan.rst:185 BLEScan.rst:207 BLEScan.rst:228
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:6
+#: BLEScan.rst:56 BLEScan.rst:87 BLEScan.rst:126 BLEScan.rst:157
+#: BLEScan.rst:189 BLEScan.rst:221 BLEScan.rst:254 BLEScan.rst:286
+#: BLEScan.rst:317
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:6
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:8
 msgid "A class used for managing BLE scanning settings."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:8
-#: BLEScan.rst:51 BLEScan.rst:72 BLEScan.rst:98 BLEScan.rst:119 BLEScan.rst:143
-#: BLEScan.rst:165 BLEScan.rst:188 BLEScan.rst:210 BLEScan.rst:231
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:10
+#: BLEScan.rst:60 BLEScan.rst:91 BLEScan.rst:130 BLEScan.rst:161
+#: BLEScan.rst:193 BLEScan.rst:225 BLEScan.rst:258 BLEScan.rst:290
+#: BLEScan.rst:321
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:9
-msgid "class BLEScan"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:11
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:16
 msgid "**Members**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:14
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:19
 msgid "**Public Constructors**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:16
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:21
 msgid ""
 "No public constructor is available as this class is intended to be a "
 "singleton class. You can get a pointer to this class using "
 "BLEDevice::configScan"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:22
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:27
 msgid "**Public Methods**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:24
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:29
 msgid "BLEScan::updateScanParams"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:24
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:29
 msgid "Update the current BLE advertisement settings to the lower Bluetooth stack"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:28
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:33
 msgid "BLEScan::startScan"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:28
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:33
 msgid "Start a BLE scan"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:30
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:35
 msgid "BLEScan::stopScan"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:30
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:35
 msgid "Stop a BLE scan"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:32
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:37
 msgid "BLEScan::setScanMode"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:32
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:37
 msgid "Set the BLE scanning mode"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:34
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:39
 msgid "BLEScan::setScanInterval"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:34
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:39
 msgid "Set the BLE scanning interval"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:36
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:41
 msgid "BLEScan::setScanWindow"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:36
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:41
 msgid "Set the BLE scanning window"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:38
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:43
 msgid "BLEScan::setScanDuplicateFilter"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:38
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:43
 msgid "Set the BLE scan duplicate filter"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:40
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:45
 msgid "BLEScan::scanInProgress"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:40
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:45
 msgid "Check if a scan is currently in progress"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:43
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:48
 msgid "BLEScan::printScanInfo"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:43
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:48
 msgid "Print out scanned information"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:46
-msgid "**BLEScan::updateScanParams**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:49
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:58
 msgid "Update the lower Bluetooth stack with the current scan settings."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:52
-msgid "void updateScanParams(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:54
-#: BLEScan.rst:76 BLEScan.rst:101 BLEScan.rst:122 BLEScan.rst:146
-#: BLEScan.rst:168 BLEScan.rst:191 BLEScan.rst:213 BLEScan.rst:234
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:66
+#: BLEScan.rst:101 BLEScan.rst:136 BLEScan.rst:167 BLEScan.rst:199
+#: BLEScan.rst:231 BLEScan.rst:264 BLEScan.rst:296 BLEScan.rst:327
 msgid "**Parameters**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:55
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:68
 msgid "The function requires no input parameter."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:57
-#: BLEScan.rst:79 BLEScan.rst:104 BLEScan.rst:126 BLEScan.rst:149
-#: BLEScan.rst:171 BLEScan.rst:194 BLEScan.rst:216 BLEScan.rst:237
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:70
+#: BLEScan.rst:105 BLEScan.rst:140 BLEScan.rst:171 BLEScan.rst:203
+#: BLEScan.rst:235 BLEScan.rst:268 BLEScan.rst:300 BLEScan.rst:331
 msgid "**Returns**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:58
-#: BLEScan.rst:80 BLEScan.rst:105 BLEScan.rst:127 BLEScan.rst:150
-#: BLEScan.rst:172 BLEScan.rst:195 BLEScan.rst:238
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:72
+#: BLEScan.rst:107 BLEScan.rst:142 BLEScan.rst:173 BLEScan.rst:205
+#: BLEScan.rst:237 BLEScan.rst:270 BLEScan.rst:333
 msgid "The function returns nothing."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:60
-#: BLEScan.rst:82 BLEScan.rst:107 BLEScan.rst:129 BLEScan.rst:152
-#: BLEScan.rst:174 BLEScan.rst:197 BLEScan.rst:219 BLEScan.rst:240
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:74
+#: BLEScan.rst:109 BLEScan.rst:144 BLEScan.rst:175 BLEScan.rst:207
+#: BLEScan.rst:239 BLEScan.rst:272 BLEScan.rst:304 BLEScan.rst:335
 msgid "**Example Code**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:61
-#: BLEScan.rst:83 BLEScan.rst:130 BLEScan.rst:153 BLEScan.rst:175
-#: BLEScan.rst:241
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:76
+#: BLEScan.rst:111 BLEScan.rst:177 BLEScan.rst:209 BLEScan.rst:241
+#: BLEScan.rst:337
 msgid "Example: BLEScan"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:63
-#: BLEScan.rst:85 BLEScan.rst:110 BLEScan.rst:132 BLEScan.rst:155
-#: BLEScan.rst:177 BLEScan.rst:200 BLEScan.rst:222 BLEScan.rst:243
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:78
+#: BLEScan.rst:113 BLEScan.rst:148 BLEScan.rst:179 BLEScan.rst:211
+#: BLEScan.rst:243 BLEScan.rst:276 BLEScan.rst:308 BLEScan.rst:339
 msgid "**Notes and Warnings**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:64
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:80
 msgid "Stop any scans in progress first before using this function."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:67
-msgid "**BLEScan::startScan**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:70
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:89
 msgid "Start BLE scanning."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:73
-msgid "void startScan();"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:103
+msgid "``scanDuration`` : BLE scan will stop after scanDuration milliseconds."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:74
-msgid "void startScan(uint32_t scanDuration_ms);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:77
-msgid "scanDuration: BLE scan will stop after scanDuration milliseconds."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:90
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:115
 msgid ""
 "Set the scan parameters first before starting a scan. BLE scans will "
 "occur continuously for the duration set with BLEDevice::setScanWindow() "
@@ -221,151 +195,181 @@ msgid ""
 "argument to start scanning until BLEDevice::stopScan() is called."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:93
-msgid "**BLEScan::stopScan**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:96
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:128
 msgid "Stop BLE scanning."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:99
-msgid "void stopScan(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:102
-#: BLEScan.rst:214
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:138
+#: BLEScan.rst:298
 msgid "The function requires no input paramter."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:108
-#: BLEScan.rst:111 BLEScan.rst:198 BLEScan.rst:220 BLEScan.rst:223
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:146
+#: BLEScan.rst:150 BLEScan.rst:274 BLEScan.rst:306 BLEScan.rst:310
 msgid "NA"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:114
-msgid "**BLEScan::setScanMode**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:117
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:159
 msgid "Set the BLE scan mode."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:120
-msgid "void setScanMode(uint8_t scanMode);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:124
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:169
 msgid ""
-"scanMode: GAP_SCAN_MODE_PASSIVE for passive scanning, "
+"``scanMode``: GAP_SCAN_MODE_PASSIVE for passive scanning, "
 "GAP_SCAN_MODE_ACTIVE for active scanning"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:135
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:181
 msgid ""
 "Active scanning will request for scan response packets after discovering "
 "an advertising device. Passive scanning will only capture advertising "
 "data packets."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:138
-msgid "**BLEScan::setScanInterval**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:141
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:191
 msgid "Set the BLE scan interval."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:144
-msgid "void setScanInterval(uint16_t scanInt_ms);"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:201
+msgid "``scanInt_ms`` : scan interval in milliseconds. Value range of 3 to 10240."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:147
-msgid "scanInt_ms: scan interval in milliseconds. Value range of 3 to 10240."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:157
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:213
 msgid "A BLE scan will repeat with a time interval set with this member function."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:160
-msgid "**BLEScan::setScanWindow**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:163
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:223
 msgid "Set the BLE scan window."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:166
-msgid "void setScanWindow(uint16_t scanWindow_ms);"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:233
+msgid ""
+"``scanWindow_ms`` : scan window in milliseconds. Value range of 3 to "
+"10240."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:169
-msgid "scanWindow_ms: scan window in milliseconds. Value range of 3 to 10240."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:180
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:245
 msgid ""
 "A BLE scan will scan continuously for a window duration set with this "
 "member function. The scan window should be less than or equal to the scan"
 " interval."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:183
-msgid "**BLEScan::setScanDuplicateFilter**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:186
-#: BLEScan.rst:208
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:256
+#: BLEScan.rst:288
 msgid "Set the scan duplicate filter."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:189
-msgid "void setScanDuplicateFilter(bool dupeFilter);"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:266
+msgid "``dupeFilter``: TRUE to enable duplicate filtering."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:192
-msgid "dupeFilter: TRUE to enable duplicate filtering."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:202
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:278
 msgid ""
 "Enabling duplicate filters will ignore scan results for devices already "
 "discovered previously."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:205
-msgid "**BLEScan::scanInProgress**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:211
-msgid "bool scanInProgress(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:217
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:302
 msgid "TRUE if BLE scanning is in progress."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:226
-msgid "**BLEScan::printScanInfo**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:229
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:319
 msgid "Parse and print out scanned information."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:232
-msgid "void printScanInfo(T_LE_CB_DATA\\* p_data);"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:329
+msgid "``p_data`` : pointer to scan data of type T_LE_CB_DATA\\*"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:235
-msgid "p_data: pointer to scan data of type T_LE_CB_DATA\\*"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:246
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEScan.rst:341
 msgid ""
 "Use this member function to parse the various fields of received "
 "advertisement data packets and print the results out to the serial "
 "monitor."
 msgstr ""
+
+#~ msgid "**BLEScan Class**"
+#~ msgstr ""
+
+#~ msgid "class BLEScan"
+#~ msgstr ""
+
+#~ msgid "**BLEScan::updateScanParams**"
+#~ msgstr ""
+
+#~ msgid "void updateScanParams(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEScan::startScan**"
+#~ msgstr ""
+
+#~ msgid "void startScan();"
+#~ msgstr ""
+
+#~ msgid "void startScan(uint32_t scanDuration_ms);"
+#~ msgstr ""
+
+#~ msgid "scanDuration: BLE scan will stop after scanDuration milliseconds."
+#~ msgstr ""
+
+#~ msgid "**BLEScan::stopScan**"
+#~ msgstr ""
+
+#~ msgid "void stopScan(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEScan::setScanMode**"
+#~ msgstr ""
+
+#~ msgid "void setScanMode(uint8_t scanMode);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "scanMode: GAP_SCAN_MODE_PASSIVE for passive "
+#~ "scanning, GAP_SCAN_MODE_ACTIVE for active "
+#~ "scanning"
+#~ msgstr ""
+
+#~ msgid "**BLEScan::setScanInterval**"
+#~ msgstr ""
+
+#~ msgid "void setScanInterval(uint16_t scanInt_ms);"
+#~ msgstr ""
+
+#~ msgid "scanInt_ms: scan interval in milliseconds. Value range of 3 to 10240."
+#~ msgstr ""
+
+#~ msgid "**BLEScan::setScanWindow**"
+#~ msgstr ""
+
+#~ msgid "void setScanWindow(uint16_t scanWindow_ms);"
+#~ msgstr ""
+
+#~ msgid "scanWindow_ms: scan window in milliseconds. Value range of 3 to 10240."
+#~ msgstr ""
+
+#~ msgid "**BLEScan::setScanDuplicateFilter**"
+#~ msgstr ""
+
+#~ msgid "void setScanDuplicateFilter(bool dupeFilter);"
+#~ msgstr ""
+
+#~ msgid "dupeFilter: TRUE to enable duplicate filtering."
+#~ msgstr ""
+
+#~ msgid "**BLEScan::scanInProgress**"
+#~ msgstr ""
+
+#~ msgid "bool scanInProgress(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEScan::printScanInfo**"
+#~ msgstr ""
+
+#~ msgid "void printScanInfo(T_LE_CB_DATA\\* p_data);"
+#~ msgstr ""
+
+#~ msgid "p_data: pointer to scan data of type T_LE_CB_DATA\\*"
+#~ msgstr ""
 

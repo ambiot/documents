@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/USB - CDC Serial.rst

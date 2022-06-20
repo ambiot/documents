@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:12
 #: WDG
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:18
 #: WDG
@@ -48,8 +52,7 @@ msgid ""
 "the Ameba RTL8722 module to illustrate how to use the watchdog API. "
 "Before we get into the details of the example, let’s briefly go through "
 "the definition of Watchdog as well as it’s working principles."
-msgstr ""
-
+msgstr "在此范例中，我们将使用在AmebaD AMB21/AMB22/AMB23 上运行的Watchdog计时器范例来说明如何使用Watchdog API。在详细介绍范例之前，我们先简要介绍一下 ``Watchdog`` 的定义及其工作原理。"
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:23
 #: WDG
 msgid "**Watchdog**"
@@ -61,7 +64,7 @@ msgid ""
 "Watchdog Timer (WDT) is a hardware timer that is used to detect the "
 "occurrence of a software fault, then automatically generates a system "
 "reset or a watchdog interrupt on the expiry of a programmed period."
-msgstr ""
+msgstr "Watchdog Timer（WDT）是一种硬件定时器，用于检测软件故障的发生，然后在编程周期到期时自动生成系统重置或Watchdog中断。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:29
 #: WDG
@@ -74,6 +77,8 @@ msgid ""
 "the watchdog timer that embedded inside the micro-controller would help "
 "with this situation."
 msgstr ""
+"一般来说，想像一下您的微控制器陷入无限循环的混乱情况，或者像微控制器在执行某些任务时卡住的任何情况。"
+"正常的故障排除方法是按下重置按钮并跳出无限循环。但是，实际上不可能一直都按下按钮，因此，嵌入在微控制器内的Watchdog定时器将有助于解决这种情况。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:37
 #: WDG
@@ -96,7 +101,7 @@ msgid ""
 "If you have a dog in your home. You need to feed that dog at a regular "
 "interval. if you can’t feed one day, it will bite you! And likewise, this"
 " is the working logic behind the watchdog timer."
-msgstr ""
+msgstr "如果您的家中有一只狗。您需要定期喂食。如果一天不能喂食，它会咬你！同样，这是Watchdog定时器背后的工作逻辑。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:48
 #: WDG
@@ -106,7 +111,8 @@ msgid ""
 "“Big_Task”. We are enabling the watchdog timer is loaded with an initial "
 "value (5 seconds) greater than the total delay in the “Small_Task”, but "
 "shorter than the “Big_Task”."
-msgstr ""
+msgstr "在我们的范例中，我们创建了2个任务，其中包含一次又一次重复运行的循环，"
+"一个称为Small_Task任务，另一个称为Big_Task任务。我们使Watchdog定时器的初始值（5秒）大于Small_Task任务的总延迟，但比Big_Task任务的延迟短。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:53
 #: WDG
@@ -117,14 +123,15 @@ msgid ""
 "watchdog (dog barks), an interrupt is generated to reset the processor. "
 "Likewise, the watchdog timer protects the micro-controller from the "
 "hanging case."
-msgstr ""
+msgstr "对于Small_Task任务的情况，Watchdog将在5秒内刷新/喂食，但是，"
+"对于Big_Task任务的情况，循环正在处理中，并且Watchdog在5秒后仍不刷新，这会触发Watchdog 以重置处理器。同样，Watchdog定时器可以保护微控制器免受卡住情况的影响。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:56
 #: WDG
 msgid ""
 "Then we move to the coding part for this example, for this example, you "
 "will only need the RTL8722CSM/RTL8722DM/RTL8722DM MINI Board itself."
-msgstr ""
+msgstr "然后我们开始说明本范例的编码部分，对于本范例，您仅需要RTL8722CSM/RTL8722DM/RTL8722DM MINI开发板。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:61
 #: WDG
@@ -134,6 +141,8 @@ msgid ""
 "“RTL8722DM MINI”)``. Then open the “Watchdog Timer” example in ``“File” "
 "-> “Examples” -> “AmebaWatchdog” -> “Watchdog Timer”``:"
 msgstr ""
+"首先，确保在Arduino IDE中选择了正确的Ameba开发板："
+"“Tools”->“Board”->“RTL8722CSM/RTL8722DM”(或 “RTL8722DM MINI”)。然后在“File”->“Examples”->“AmebaWatchdog”->“Watchdog Timer”中打开“Watchdog Timer”范例："
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:63
 #: WDG
@@ -153,7 +162,9 @@ msgid ""
 "the watchdog within the 5 seconds (initialized in the watchdog timer). "
 "However, the “Big_Task” will not be able to refresh the watchdog within 5"
 " seconds, which the watchdog “barks” then the microcontroller reset."
-msgstr ""
+msgstr "成功上传范例代码后，打开串行监视器，然后按重置按钮。"
+"您会发现Small_Task任务可以在5秒内刷新Watchdog（初始化Watchdog定时器）。"
+"但是，Big_Task任务将无法在5秒内刷新Watchdog，这将导致微控制器重置。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:71
 #: WDG

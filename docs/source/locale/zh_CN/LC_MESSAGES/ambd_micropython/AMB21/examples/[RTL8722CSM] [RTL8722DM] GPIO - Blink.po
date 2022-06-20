@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"POT-Creation-Date: 2022-06-09 08:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,18 +20,21 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Blink.rst:8 GPIO
 #: [RTL8722DM]
 msgid "[RTL8722CSM] [RTL8722DM] GPIO - Blink"
-msgstr ""
+msgstr "[RTL8722CSM] [RTL8722DM] GPIO - 闪烁LED"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Blink.rst:13
 #: GPIO [RTL8722DM]
+#, fuzzy
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Blink.rst:17
 #: GPIO [RTL8722DM]
-msgid "Ameba x 1"
+msgid "AmebaD[AMB21 / AMB22] x 1"
 msgstr ""
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Blink.rst:18
@@ -42,7 +45,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Blink.rst:19
 #: GPIO [RTL8722DM]
 msgid "Resistor(220ohm) x 1"
-msgstr ""
+msgstr "电阻(220欧姆) x 1"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Blink.rst:21
 #: GPIO [RTL8722DM]
@@ -50,20 +53,22 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Blink.rst:25
 #: GPIO [RTL8722DM]
 msgid ""
 "Blink is one of the best ambd_micropython/examples to get started with "
 "MicroPython."
-msgstr ""
+msgstr "闪烁LED是开始了解并使用MicroPython最好示例。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Blink.rst:27
 #: GPIO [RTL8722DM]
 msgid ""
 "Let us connect pin PB_22 to the anode leg of an LED which in series with "
 "a current limiting resistor and GND to cathode of the LED as shown below,"
-msgstr ""
+msgstr "首先，如下图所示将PB_22引脚连接到与限流电阻串联的LED的阳极引脚，再将GND连接到LED的阴极引脚："
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Blink.rst:29
 #: GPIO [RTL8722DM]
@@ -85,4 +90,18 @@ msgid ""
 "``REPL``, then press ``Ctrl + d`` to execute the code. If everything is "
 "order, you should be able to see the LED blink for 3 times in 3 seconds."
 msgstr ""
+"然后，复制以下代码并在 **REPL** 界面中按 ``Ctrl + E`` 进入 **REPL** "
+"的粘贴模式（有关REPL和粘贴模式的更多信息，请检查“Getting started”页面）。如果使用 **Tera Term** "
+"，只需右键单击终端的任何空白处即可将代码粘贴到 **REPL**，然后按 ``Ctrl + D`` "
+"执行代码。如果一切正常，就可以看到LED在3秒钟内闪烁3次。"
+
+#~ msgid ""
+#~ ":raw-html:`<p style=\"color:#E67E22; font-"
+#~ "size:24px\">` **Materials** :raw-html:`</p>`:raw-"
+#~ "html:`<p style=\"color:#E67E22; font-size:24px\">`"
+#~ " **材料准备** :raw-html:`</p>`"
+#~ msgstr ""
+
+#~ msgid "Ameba x 1"
+#~ msgstr ""
 

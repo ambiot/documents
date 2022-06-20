@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/release_history.rst:9
 msgid "Update SimpleWebServerWiFi example"
-msgstr ""
+msgstr "更新示例 SimpleWebServerWiFi"
 
 #: ../../source/ambd_arduino/release_history.rst:10
 msgid "Support BW16"
@@ -58,24 +58,24 @@ msgstr ""
 #: ../../source/ambd_arduino/release_history.rst:141
 #: ../../source/ambd_arduino/release_history.rst:161
 msgid "API Updates:"
-msgstr ""
+msgstr "API 更新："
 
 #: ../../source/ambd_arduino/release_history.rst:14
 msgid "Update Wlan related naming from \"AmebaWiFi\" become \"WiFi\""
-msgstr ""
+msgstr "更新 Wlan 名称，从 \"AmebaWiFi\" 变为 \"WiFi\""
 
 #: ../../source/ambd_arduino/release_history.rst:15
 msgid "Update RTC library for minor bug fix"
-msgstr ""
+msgstr "更新 RTC 库， 适用小bug修复"
 
 #: ../../source/ambd_arduino/release_history.rst:17
 #: ../../source/ambd_arduino/release_history.rst:55
 msgid "Misc:"
-msgstr ""
+msgstr "其他："
 
 #: ../../source/ambd_arduino/release_history.rst:19
 msgid "Update all Fritzing files for new name updates"
-msgstr ""
+msgstr "更新 Fritzing 文档适用新名称"
 
 #: ../../source/ambd_arduino/release_history.rst:20
 msgid "AMB21, AMB22, AMB23, and BW16"

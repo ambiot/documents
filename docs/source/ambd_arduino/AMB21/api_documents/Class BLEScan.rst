@@ -1,12 +1,17 @@
 Class BLEScan
 =================
-**BLEScan Class**
+.. class:: BLEScan
 
-| **Description**
-| A class used for managing BLE scanning settings.
 
-| **Syntax**
-| class BLEScan
+**Description**
+
+A class used for managing BLE scanning settings.
+
+**Syntax**
+
+.. code:: cpp
+
+  class BLEScan
 
 **Members**
 
@@ -43,204 +48,296 @@ Class BLEScan
 | BLEScan::printScanInfo          | Print out scanned information     |
 +---------------------------------+-----------------------------------+
 
-**BLEScan::updateScanParams**
+-------------------------------------------
 
-| **Description**
-| Update the lower Bluetooth stack with the current scan settings.
+.. method:: BLEScan::updateScanParams
 
-| **Syntax**
-| void updateScanParams(void);
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Update the lower Bluetooth stack with the current scan settings.
 
-| **Example Code**
-| Example: BLEScan
+**Syntax**
 
-| **Notes and Warnings**
-| Stop any scans in progress first before using this function.
-|  
+.. code:: cpp
 
-**BLEScan::startScan**
+  void updateScanParams(void);
 
-| **Description**
-| Start BLE scanning.
+**Parameters**
 
-| **Syntax**
-| void startScan();
-| void startScan(uint32_t scanDuration_ms);
+The function requires no input parameter.
 
-| **Parameters**
-| scanDuration: BLE scan will stop after scanDuration milliseconds.
+**Returns**
 
-| **Returns**
-| The function returns nothing.
+The function returns nothing.
 
-| **Example Code**
-| Example: BLEScan
+**Example Code**
 
-| **Notes and Warnings**
-| Set the scan parameters first before starting a scan. BLE scans will
-  occur continuously for the duration set with
-  BLEDevice::setScanWindow() and will repeat with a time interval set
-  with BLEDevice::setScanInterval(). Call this member function without
-  an argument to start scanning until BLEDevice::stopScan() is called.
-|  
+Example: BLEScan
 
-**BLEScan::stopScan**
+**Notes and Warnings**
 
-| **Description**
-| Stop BLE scanning.
+Stop any scans in progress first before using this function.
 
-| **Syntax**
-| void stopScan(void);
+-----------------------------------
 
-| **Parameters**
-| The function requires no input paramter.
+.. method:: BLEScan::startScan
 
-| **Returns**
-| The function returns nothing.
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| NA
-|  
+Start BLE scanning.
 
-**BLEScan::setScanMode**
+**Syntax**
 
-| **Description**
-| Set the BLE scan mode.
+.. code:: cpp
 
-| **Syntax**
-| void setScanMode(uint8_t scanMode);
+  void startScan();
 
-| **Parameters**
-| scanMode: GAP_SCAN_MODE_PASSIVE for passive scanning,
-  GAP_SCAN_MODE_ACTIVE for active scanning
+.. code:: cpp
 
-| **Returns**
-| The function returns nothing.
+  void startScan(uint32_t scanDuration_ms);
 
-| **Example Code**
-| Example: BLEScan
+**Parameters**
 
-| **Notes and Warnings**
-| Active scanning will request for scan response packets after
-  discovering an advertising device. Passive scanning will only capture
-  advertising data packets.
-|  
+``scanDuration`` : BLE scan will stop after scanDuration milliseconds.
 
-**BLEScan::setScanInterval**
+**Returns**
 
-| **Description**
-| Set the BLE scan interval.
+The function returns nothing.
 
-| **Syntax**
-| void setScanInterval(uint16_t scanInt_ms);
+**Example Code**
 
-| **Parameters**
-| scanInt_ms: scan interval in milliseconds. Value range of 3 to 10240.
+Example: BLEScan
 
-| **Returns**
-| The function returns nothing.
+**Notes and Warnings**
 
-| **Example Code**
-| Example: BLEScan
+Set the scan parameters first before starting a scan. BLE scans will
+occur continuously for the duration set with
+BLEDevice::setScanWindow() and will repeat with a time interval set
+with BLEDevice::setScanInterval(). Call this member function without
+an argument to start scanning until BLEDevice::stopScan() is called.
 
-| **Notes and Warnings**
-| A BLE scan will repeat with a time interval set with this member
-  function.
-|  
+-------------------------------------
 
-**BLEScan::setScanWindow**
+.. method:: BLEScan::stopScan
 
-| **Description**
-| Set the BLE scan window.
 
-| **Syntax**
-| void setScanWindow(uint16_t scanWindow_ms);
+**Description**
 
-| **Parameters**
-| scanWindow_ms: scan window in milliseconds. Value range of 3 to 10240.
+Stop BLE scanning.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| Example: BLEScan
+.. code:: cpp
 
-| **Notes and Warnings**
-| A BLE scan will scan continuously for a window duration set with this
-  member function. The scan window should be less than or equal to the
-  scan interval.
-|  
+  void stopScan(void);
 
-**BLEScan::setScanDuplicateFilter**
+**Parameters**
 
-| **Description**
-| Set the scan duplicate filter.
+The function requires no input paramter.
 
-| **Syntax**
-| void setScanDuplicateFilter(bool dupeFilter);
+**Returns**
 
-| **Parameters**
-| dupeFilter: TRUE to enable duplicate filtering.
+The function returns nothing.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| Enabling duplicate filters will ignore scan results for devices
-  already discovered previously.
-|  
+**Notes and Warnings**
 
-**BLEScan::scanInProgress**
+NA
 
-| **Description**
-| Set the scan duplicate filter.
+--------------------------------------
 
-| **Syntax**
-| bool scanInProgress(void);
+.. method:: BLEScan::setScanMode
 
-| **Parameters**
-| The function requires no input paramter.
 
-| **Returns**
-| TRUE if BLE scanning is in progress.
+**Description**
 
-| **Example Code**
-| NA
+Set the BLE scan mode.
 
-| **Notes and Warnings**
-| NA
-|  
+**Syntax**
 
-**BLEScan::printScanInfo**
+.. code:: cpp
 
-| **Description**
-| Parse and print out scanned information.
+  void setScanMode(uint8_t scanMode);
 
-| **Syntax**
-| void printScanInfo(T_LE_CB_DATA\* p_data);
+**Parameters**
 
-| **Parameters**
-| p_data: pointer to scan data of type T_LE_CB_DATA\*
+``scanMode``: GAP_SCAN_MODE_PASSIVE for passive scanning, GAP_SCAN_MODE_ACTIVE for active scanning
 
-| **Returns**
-| The function returns nothing.
+**Returns**
 
-| **Example Code**
-| Example: BLEScan
+The function returns nothing.
 
-| **Notes and Warnings**
-| Use this member function to parse the various fields of received
-  advertisement data packets and print the results out to the serial
-  monitor.
+**Example Code**
+
+Example: BLEScan
+
+**Notes and Warnings**
+
+Active scanning will request for scan response packets after
+discovering an advertising device. Passive scanning will only capture
+advertising data packets.
+
+----------------------------
+
+.. method:: BLEScan::setScanInterval
+
+**Description**
+
+Set the BLE scan interval.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setScanInterval(uint16_t scanInt_ms);
+
+**Parameters**
+
+``scanInt_ms`` : scan interval in milliseconds. Value range of 3 to 10240.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEScan
+
+**Notes and Warnings**
+
+A BLE scan will repeat with a time interval set with this member
+function.
+ 
+-----------------------------------------------
+
+.. method:: BLEScan::setScanWindow
+
+
+**Description**
+
+Set the BLE scan window.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setScanWindow(uint16_t scanWindow_ms);
+
+**Parameters**
+
+``scanWindow_ms`` : scan window in milliseconds. Value range of 3 to 10240.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEScan
+
+**Notes and Warnings**
+
+A BLE scan will scan continuously for a window duration set with this
+member function. The scan window should be less than or equal to the
+scan interval.
+
+----------------------------------------------
+
+.. method:: BLEScan::setScanDuplicateFilter
+
+
+**Description**
+
+Set the scan duplicate filter.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setScanDuplicateFilter(bool dupeFilter);
+
+**Parameters**
+
+``dupeFilter``: TRUE to enable duplicate filtering.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Enabling duplicate filters will ignore scan results for devices
+already discovered previously.
+
+----------------------------------------------
+
+.. method:: BLEScan::scanInProgress
+
+
+**Description**
+
+Set the scan duplicate filter.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool scanInProgress(void);
+
+**Parameters**
+
+The function requires no input paramter.
+
+**Returns**
+
+TRUE if BLE scanning is in progress.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-------------------------------------------------
+
+.. method:: BLEScan::printScanInfo
+
+
+**Description**
+
+Parse and print out scanned information.
+
+**Syntax**
+
+.. code:: cpp
+
+  void printScanInfo(T_LE_CB_DATA* p_data);
+
+**Parameters**
+
+``p_data`` : pointer to scan data of type T_LE_CB_DATA\*
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEScan
+
+**Notes and Warnings**
+
+Use this member function to parse the various fields of received
+advertisement data packets and print the results out to the serial
+monitor.

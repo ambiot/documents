@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-03-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr "SPI - 使用 LCD 荧幕印出图案与文字"
 msgid ""
 "If you are not familiar with SPI, please read `Introduction to SPI "
 "<https://www.amebaiot.com/spi-intro/>`__ first."
-msgstr ""
+msgstr "若您对SPI还不太熟悉，请参考 `SPI <https://www.amebaiot.com/spi-intro/>`__ 介绍"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:11 Text
@@ -35,6 +35,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:15 Text
@@ -52,18 +54,20 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:22 Text
 msgid ""
 "We have tested the following two models of ILI9341 TFT LCD with SPI "
 "interface:"
-msgstr ""
+msgstr "手边已测试过两款ILI9341 TFT LCD with SPI interface，分别是"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:24 Text
 msgid "Adafruit 2.8″ TFT LCD (with touch screen)"
-msgstr ""
+msgstr "Adafruit出产的8吋TFT LCD含触控的萤幕"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:26 Text
@@ -78,7 +82,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:29 Text
 msgid "QVGA 2.2″ TFT LCD"
-msgstr ""
+msgstr "QVGA 2.2吋TFT LCD"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:31 Text
@@ -88,61 +92,61 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:33 Text
 msgid "Common pins in ILI9341 TFT LCD with SPI interface:"
-msgstr ""
+msgstr "常见的ILI9341 TFT LCD with SPI interface有底下这些Pin脚"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:35 Text
 msgid "MOSI: Standard SPI Pin"
-msgstr ""
+msgstr "MOSI: 标准的USB Pin 脚"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:36 Text
 msgid "MISO: Standard SPI Pin"
-msgstr ""
+msgstr "MOSI: 标准的USB Pin 脚"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:37 Text
 msgid "SLK: Standard SPI Pin"
-msgstr ""
+msgstr "SLK: 标准的USB Pin 脚"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:38 Text
 msgid "CS: Standard SPI Pin"
-msgstr ""
+msgstr "CS: 标准的USB Pin 脚"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:39 Text
 msgid "RESET: Used to reboot LCD."
-msgstr ""
+msgstr "RESET: 拉Low再拉High可以重启LCD, 详细的重启顺序需要看LCD的规格"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:40 Text
 msgid ""
 "D/C: Data/Command. When it is at Low, the signal transmitted are "
 "commands, otherwise the data transmitted are data."
-msgstr ""
+msgstr "D/C: Data/Command, 这个Pin脚准位在Low的时候, 表示此时SPI传送的都是命令, 而准位在High的时候表时传送的都是资料"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:42 Text
 msgid ""
 "LED (or BL): Adapt the screen backlight. Can be controlled by PWM or "
 "connected to VCC for 100% backlight."
-msgstr ""
+msgstr "LED (or BL): 即背光, 需要有一定的亮度才可以看到萤幕内容，通常可用PWM控制，或直接接到VCC让它100%发亮"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:44 Text
 msgid "VCC: Connected to 3V or 5V, depends on its spec."
-msgstr ""
+msgstr "VCC: 接到3 V或5V, 要参考规格"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:45 Text
 msgid "GND: Connected to GND."
-msgstr ""
+msgstr "GND: 接到GND"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:47 Text
 msgid "**AMB21/ AMB22 and QVGA TFT LCD** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21 / AMB22 and QVGA TFT LCD 接线图:**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:49 Text
@@ -157,7 +161,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:51 Text
 msgid "**AMB23 and QVGA TFT LCD** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23 and QVGA TFT LCD 接线图:**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:53 Text
@@ -172,7 +176,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:55 Text
 msgid "**BW16 and QVGA TFT LCD** Wiring Diagram:"
-msgstr ""
+msgstr "**BW16 and QVGA TFT LCD** 接线图:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:57 Text
@@ -187,19 +191,19 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:59 Text
 msgid "Wiring example of Adafruit 2.8” TFT LCD touch shield:"
-msgstr ""
+msgstr "Adafruit 2.8” TFT LCD touch shield 接线图"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:61 Screen.rst:66 Text
 msgid ""
 "Please note that this shield model enables the backlight by default and "
 "pin 8 is not for backlight, and the VCC should be connected to 5V."
-msgstr ""
+msgstr "要注意的是，这款shield预设已打上背光，并且pin 8不是背光的pin，所以不需接上背光的pin。另外它接到5V，而不是3.3V。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:63 Text
 msgid "**AMB21 / AMB22 and Adafruit 2.8'' TFT LCD touch shield** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21 /AMB22 and Adafruit 2.8” TFT LCD touch shield** 接线图:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:68 Text
@@ -214,7 +218,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:70 Text
 msgid "**AMB23 and Adafruit 2.8'' TFT LCD touch shield**  Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23 and Adafruit 2.8” TFT LCD Touch Shield** 接线图:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:72 Text
@@ -229,7 +233,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:74 Text
 msgid "**BW16 and Adafruit 2.8'' TFT LCD touch shield**  Wiring Diagram:"
-msgstr ""
+msgstr "**BW16 and Adafruit 2.8” TFT LCD Touch Shield** 接线图:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:76 Text
@@ -246,7 +250,7 @@ msgstr ""
 msgid ""
 "Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> "
 "“ILI9341_TFT_LCD_basic”``"
-msgstr ""
+msgstr "打开范例程式, “Files” -> “Examples” -> “AmebaSPI” -> “ILI9341_TFT_LCD_basic”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:81 Text
@@ -256,7 +260,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:83 Text
 msgid "Compile and upload to Ameba, then press the reset button."
-msgstr ""
+msgstr "编译后上传到Ameba，完成后按下Reset按钮。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:86 Text
@@ -264,7 +268,7 @@ msgid ""
 "Then you can see some display tests appear on the LCD screen, such as "
 "displaying different colors, drawing vertical and horizontal lines, "
 "drawing circles, etc.…"
-msgstr ""
+msgstr "萤幕上会执行一些基本测试，像是刷新萤幕为不同颜色，画直线与横线，画斜线，画圆圈，画正方形，显示不同大小的文字，最后不停地旋转萤幕并印出文字"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:88 Text
@@ -282,6 +286,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:94 Text
@@ -294,7 +300,8 @@ msgid ""
 "ILI9341 uses RGB 16-bit to display colors. Different from RGB 24-bit, it "
 "uses 5 bits for red, 6 bits for green, 5 bits for blue. For example, the "
 "RGB 24-bit representation of sky blue is 0x87CEFF, that is in binary:"
-msgstr ""
+msgstr "ILI9341在绘图时，使用的颜色代码是RGB 16-bit, 与一般常见的RBG 24-bit差异是Red使用5 bit (原本的8 bits向右移3bits),"
+"Green使用6 bits(原本的8 bits向右移2bits), Blue使用5 bit(原本的8 bits向右移3bits)举例来说，天空蓝的RGB 24 bit为0x87CEFF，表示成二进位为："
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:101 Text
@@ -314,7 +321,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:105 Text
 msgid "and converted to RGB 16-bit:"
-msgstr ""
+msgstr "转成RGB 16 bit为"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:107 Text
@@ -334,12 +341,12 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:111 Text
 msgid "Then concatenate them, which forms B1000011001111111 = 0x867F"
-msgstr ""
+msgstr "最后将这些二进位数值接起来 B1000011001111111 = 0x867F"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:113 Text
 msgid "**Drawing of ILI9341**"
-msgstr ""
+msgstr "**ILI9341 绘图方式**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:115 Text
@@ -347,26 +354,26 @@ msgid ""
 "First you must specify the range of the rectangle to draw, then pass the "
 "2-byte RGB 16-bit color to ILI9341 corresponding to each pixel one by "
 "one, in this way ILI9341 fills each color to each pixel."
-msgstr ""
+msgstr "在绘图前，需要下Command告诉它接下来要画的矩形范围, 接着再一个一个传入2 byte的RGB 16 bits颜色代码，ILI9341会一个一个pixel填入对应的颜色。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:119 Text
 msgid ""
 "You still must specify the drawing range even though the range covers "
 "only one pixel."
-msgstr ""
+msgstr "画1个pixel也需要设定范围，只不过它的矩形长宽只有1个pixel"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:121 Text
 msgid ""
 "From the rules we mentioned above, we can conclude that drawing vertical "
 "or horizontal lines are faster than diagonal lines."
-msgstr ""
+msgstr "因此画垂直线或水平线要比画斜线要快，因为垂直线或水平线只需要设定一次矩形范围(长或宽为1个pixel)，但画斜线则比较慢，因为实际上它画了许多点，而每个点都要设定矩形范围。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:124 Text
 msgid "**Printing text on ILI9341**"
-msgstr ""
+msgstr "**ILI9341 绘出文字**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:126 Text
@@ -374,7 +381,7 @@ msgid ""
 "In our API, each character is 5×7 but each character is printed to size "
 "6×8 (its right side and below are left blank), so as to separate from "
 "next character. For example, the character “A”:"
-msgstr ""
+msgstr "在API里，字型档使用5×7的文字，但印出时是6×8的文字，其中右边及下方都留白，这样可以与下一个文字区分。底下是A的例子："
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:131 Text
@@ -391,22 +398,37 @@ msgstr ""
 msgid ""
 "The font size represents the dot size. For example, if the font size is "
 "2, each dot in the character is a 2×2 rectangle"
-msgstr ""
+msgstr "如果是Font Size为2的情况，则里面每个dot的大小为2×2的矩形。 Font Size为3则每个dot的大小为3×3的矩形，以此类推。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:136 Text
 msgid "**Screen rotation**"
-msgstr ""
+msgstr "**ILI9341 萤幕转向**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:138 Text
 msgid "ILI9341 provides 0, 90, 180, 270 degrees screen rotation."
-msgstr ""
+msgstr "ILI9341提供0度、90度、180度、270度的萤幕转向"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI And Image LCD On Print
 #: Screen.rst:139 Text
 msgid ""
 "If the original width is 240 and original height is 320, when the screen "
 "rotates 90 degrees, the width becomes 320 and the height becomes 240."
-msgstr ""
+msgstr "原本0度的width为240，height为320，转向90度之后，width为320，height为240"
+
+#~ msgid "|1-3|"
+#~ msgstr ""
+
+#~ msgid "1-3"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In our API, each character is 5×7"
+#~ " but each character is printed to "
+#~ "size 6×8 (its right side and below"
+#~ " are left blank), so as to "
+#~ "separate from next character. For "
+#~ "example, the character “A”:|5|"
+#~ msgstr ""
 

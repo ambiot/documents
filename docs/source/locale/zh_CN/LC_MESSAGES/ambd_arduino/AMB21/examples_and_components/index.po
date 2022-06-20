@@ -25,5 +25,5 @@ msgstr "范例和元件"
 msgid ""
 "Welcome to share your examples under the **Community Examples** section "
 "if you have completed a project using the Ameba boards"
-msgstr ""
+msgstr "欢迎您把有趣的专案分享到我们的 **社群范例** 里。"
 

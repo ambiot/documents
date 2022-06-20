@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:12
 #: File From HTML Open Read SD
@@ -53,7 +55,8 @@ msgid ""
 " SD card (Note: put the file at outside and do not put it inside of any "
 "folder in the SD card). Here is a HTML sample for testing, "
 "“Web_test.html”."
-msgstr ""
+msgstr "將 MicroSD 卡插入電腦，將 HTML 文件複製到 SD 卡中（注意：不要將文件放在 SD 卡的任何資料夾內）。 "
+"這是用於測試的 HTML 範例，“Web_test.html”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:21
 #: File From HTML Open Read SD
@@ -70,14 +73,14 @@ msgstr ""
 msgid ""
 "Then insert the MicroSD card into the onboard SD card reader of RTL8722DM"
 " MINI board."
-msgstr ""
+msgstr "然後將 MicroSD 卡插入 RTL8722DM MINI 板的 SD 讀卡器。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:24
 #: File From HTML Open Read SD
 msgid ""
 "Open the example, ``“Files” -> “Examples” -> “AmebaFatfsSDIO” -> "
 "“read_html_from_SD_card”``"
-msgstr ""
+msgstr "打開範例，“Files”->“Examples”->“AmebaFatfsSDIO”->“read_html_from_SD_card”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:25
 #: File From HTML Open Read SD
@@ -86,7 +89,8 @@ msgid ""
 "finished. When the connection is established, you should be able to see "
 "the message “To see this page in action, open a browser to "
 "http://xxx.xxx.xxx.xxx” in the serial monitor as shown in the figure:"
-msgstr ""
+msgstr "上傳代碼並在上傳完成後按 Ameba 上的重置按鈕。 建立連接後，您應該能夠在串口監視器中看到消息"
+"“To see this page in action, open a browser to http://xxx.xxx.xxx.xxx”，如下圖："
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:27
 #: File From HTML Open Read SD
@@ -104,7 +108,7 @@ msgid ""
 "Next, open the address stated in serial monitor in the browser of your "
 "laptop or cell phone under the same WiFi domain. You will see the "
 "following display in your browser:"
-msgstr ""
+msgstr "接下來，在同一個WiFi網域下電腦或手機的瀏覽器中打開串口監視器中指定的地址。 您將在瀏覽器中看到以下："
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:32
 #: File From HTML Open Read SD
@@ -121,5 +125,5 @@ msgstr ""
 msgid ""
 "Now you have successfully read and opened the html file saved in your SD "
 "card."
-msgstr ""
+msgstr "現在您已成功讀取並打開保存在 SD 卡中的 html 文件。"
 

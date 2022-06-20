@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-06-17 02:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic Examples.rst:3
 msgid "Basic Examples"
@@ -86,14 +86,14 @@ msgid "Analog ReadSerial"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:25 Examples.rst:132
+#: Examples.rst:25 Examples.rst:120
 msgid "Connect potentiometer to 3.3V. Use ADC pin A2(PB3)."
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:25 Examples.rst:44 Examples.rst:92 Examples.rst:111
-#: Examples.rst:119 Examples.rst:132 Examples.rst:170 Examples.rst:190
-#: Examples.rst:210
+#: Examples.rst:25 Examples.rst:44 Examples.rst:80 Examples.rst:99
+#: Examples.rst:107 Examples.rst:120 Examples.rst:161 Examples.rst:183
+#: Examples.rst:203
 msgid "ADC pin reading voltage range 0 to 3.3V."
 msgstr ""
 
@@ -128,7 +128,7 @@ msgid "Fade"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:40 Examples.rst:107
+#: Examples.rst:40 Examples.rst:95
 msgid "Use PWM pins D7(PA25), D8(PA26), D11(PA13), D12(PA12)"
 msgstr ""
 
@@ -138,8 +138,8 @@ msgid "Read Analog Voltage"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:44 Examples.rst:119 Examples.rst:170 Examples.rst:190
-#: Examples.rst:210
+#: Examples.rst:44 Examples.rst:107 Examples.rst:161 Examples.rst:183
+#: Examples.rst:203
 msgid "Use ADC pin A2(PB3)."
 msgstr ""
 
@@ -155,7 +155,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
 #: Examples.rst:48 Examples.rst:52 Examples.rst:57 Examples.rst:62
-#: Examples.rst:67 Examples.rst:128 Examples.rst:142
+#: Examples.rst:67 Examples.rst:116 Examples.rst:130
 msgid "Onboard LEDs options LED_R, LED_B, and LED_G."
 msgstr ""
 
@@ -188,217 +188,213 @@ msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
 #: Examples.rst:72
-msgid "toneKeyboard"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:72
-msgid ""
-"Replace \"tone(8, notes[thisSensor], 20);\" by a PWM pin D7(PA25), "
-"D8(PA26), D11(PA13) or D12(PA12)). e.g. \"tone(PA25, notes[thisSensor - "
-"4], 20);\", \"tone(7, notes[thisSensor - 4], 20);\""
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:84
 msgid "toneMelody"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:86
+#: Examples.rst:74
 msgid "tone Multiple"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:89
+#: Examples.rst:77
 msgid "tonePitch Follower"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:92
+#: Examples.rst:80
 msgid "03. Analog"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:92
+#: Examples.rst:80
 msgid "Analog InOutSerial"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:92
+#: Examples.rst:80
 msgid ""
 "Replace \"analogOutPin = 9;\" by a PWM pin (D7(PA25), D8(PA26), D11(PA13)"
 " or D12(PA12))). e.g. \"analogOutPin = 7;\". Use ADC pin A2(PB3)."
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:100
+#: Examples.rst:88
 msgid "AnalogInput"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:100 Examples.rst:163
+#: Examples.rst:88 Examples.rst:154
 msgid ""
 "Replace \"ledPin = 13;\" by available digital pins. e.g. \"ledPin = "
 "LED_BUILTIN;\". Use ADC pin A2(PB3)."
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:100 Examples.rst:163
+#: Examples.rst:88 Examples.rst:154
 msgid ""
 "Onboard LEDs options LED_R, LED_B, and LED_G. ADC pin reading voltage "
 "range 0 to 3.3V."
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:107
+#: Examples.rst:95
 msgid "Analog Write Mega"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:107 Examples.rst:115 Examples.rst:147
+#: Examples.rst:95 Examples.rst:103 Examples.rst:135
 msgid "Onboard LEDs with PWM. LED_B(D11), and LED_G(D12)."
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:111
+#: Examples.rst:99
 msgid "Calibration"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:111
+#: Examples.rst:99
 msgid "Connect another LED to pin D13. Use ADC pin A2(PB3)."
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:115
+#: Examples.rst:103
 msgid "Fading"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:115
+#: Examples.rst:103
 msgid "Use PWM pins D7(PA25), D8(PA26), D11(PA13), D12(PA12)."
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:119
+#: Examples.rst:107
 msgid "Smoothing"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:123
+#: Examples.rst:111
 msgid "04. Communication"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:123
+#: Examples.rst:111
 msgid "ASCIITable"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:128
+#: Examples.rst:116
 msgid "Dimmer"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:132
+#: Examples.rst:120
 msgid "Graph"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:136
+#: Examples.rst:124
 msgid "Midi"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:136
+#: Examples.rst:124
 msgid "Use Serial1 and pin D4(PB1)."
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:139
+#: Examples.rst:127
 msgid "MultiSerial"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:139 Examples.rst:153
+#: Examples.rst:127 Examples.rst:141
 msgid "Required external USB-to-UART module."
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:142
+#: Examples.rst:130
 msgid "Physical Pixel"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:142
+#: Examples.rst:130
 msgid ""
 "Replace \"ledPin = 13;\" by available digital pins. e.g. \"ledPin = "
 "LED_BUILTIN;\"."
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:147
+#: Examples.rst:135
 msgid "Read ASCIIString"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:147
+#: Examples.rst:135
 msgid "Use PWM pins for LED, D7(PA25), D8(PA26), D11(PA13), D12(PA12)."
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:151
+#: Examples.rst:139
 msgid "SerialEvent"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:153
+#: Examples.rst:141
 msgid "Serial Passthrough"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:156
+#: Examples.rst:144
 msgid "05. Control"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:156
+#: Examples.rst:144
 msgid "Arrays"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:156 Examples.rst:160 Examples.rst:174
-msgid "Use pins D9, D2, D8, D1, D11, D10."
+#: Examples.rst:144 Examples.rst:149
+msgid ""
+"Use pins D6, D7, D8, D9, D10, D11. Modify pin number in your code "
+"accordingly"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:160
+#: Examples.rst:149
 msgid "ForLoop Iteration"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:163
+#: Examples.rst:154
 msgid "IfStatement Conditional"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:170
+#: Examples.rst:161
 msgid "switchCase"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:174
+#: Examples.rst:165
 msgid "switchCase2"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:177
+#: Examples.rst:165
+msgid ""
+"Use pins D7, D8, D9, D10, D11. Modify pin number used in your code "
+"accordingly."
+msgstr ""
+
+#: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
+#: Examples.rst:170
 msgid "While Statement Conditional"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:177
+#: Examples.rst:170
 msgid ""
 "Use ADC pin A2(PB3). Replace \"indicatorLedPin = 13;\" by available "
 "digital pins. e.g. \"indicatorLedPin = LED_BUILTIN;\". Replace \"ledPin ="
@@ -407,89 +403,103 @@ msgid ""
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:177
+#: Examples.rst:170
 msgid ""
 "ADC pin reading voltage range 0 to 3.3V. Onboard LEDs options LED_R, "
 "LED_B, and LED_G. Onboard LEDs with PWM. LED_B(D11), and LED_G(D12)."
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:190
+#: Examples.rst:183
 msgid "06. Display"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:190
+#: Examples.rst:183
 msgid "barGraph"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:194
+#: Examples.rst:187
 msgid "07. Strings"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:194
+#: Examples.rst:187
 msgid "Character Analysis"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:198
+#: Examples.rst:191
 msgid "StringAddition Operator"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:201
+#: Examples.rst:194
 msgid "StringAppend Operator"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:204
+#: Examples.rst:197
 msgid "String CaseChanges"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:207
+#: Examples.rst:200
 msgid "String Characters"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:210
+#: Examples.rst:203
 msgid "String Comparision Operators"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:214
+#: Examples.rst:207
 msgid "StringIndexOf"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:217
+#: Examples.rst:210
 msgid "StringLength"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:220
+#: Examples.rst:213
 msgid "String LengthTrim"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:223
+#: Examples.rst:216
 msgid "String Replace"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:226
+#: Examples.rst:219
 msgid "String Starts WithEndsWith"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:230
+#: Examples.rst:223
 msgid "String Substring"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/examples_and_components/Basic
-#: Examples.rst:233
+#: Examples.rst:226
 msgid "StringToInt"
 msgstr ""
+
+#~ msgid "toneKeyboard"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Replace \"tone(8, notes[thisSensor], 20);\" by"
+#~ " a PWM pin D7(PA25), D8(PA26), "
+#~ "D11(PA13) or D12(PA12)). e.g. \"tone(PA25, "
+#~ "notes[thisSensor - 4], 20);\", \"tone(7, "
+#~ "notes[thisSensor - 4], 20);\""
+#~ msgstr ""
+
+#~ msgid "Use pins D9, D2, D8, D1, D11, D10."
+#~ msgstr ""
 

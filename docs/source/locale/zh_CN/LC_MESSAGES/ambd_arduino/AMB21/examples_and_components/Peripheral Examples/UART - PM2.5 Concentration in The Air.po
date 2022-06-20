@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-06-07 03:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:3 Concentration
 #: PM2.5 The in
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:12
 #: Concentration PM2.5 The in
@@ -45,6 +47,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:19
 #: Concentration PM2.5 The in
@@ -53,6 +57,8 @@ msgid ""
 "concentration of those 0.3 to 10 micrometer particulate matters in the "
 "air. The sensor output its data via UART."
 msgstr ""
+"PMS3003 或PMS5003 是一款空气悬浮粒子感测器，使用激光散射原理，能够得到空气中0.3 ～ "
+"10微米悬浮颗粒物浓度。测出来的数据，会经由UART输出。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:23
 #: Concentration PM2.5 The in
@@ -60,7 +66,7 @@ msgid ""
 "The PMS3003 (or PMS5003) sensor detects the concentration value of PM "
 "1.0, PM 2.5, PM 10. Take PM 2.5 for example, it stands for the fine "
 "particles with a diameter of 2.5 micrometers or less."
-msgstr ""
+msgstr "它可以读出PM 1.0, PM 2.5, PM 10的数据。以PM2.5为例子, 表示每立方公尺的空气中直径小于2.5 um的悬浮例子密度。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:27
 #: Concentration PM2.5 The in
@@ -68,6 +74,8 @@ msgid ""
 "Open the example in ``“File” -> “Examples” -> “AmebaSoftwareSerial” -> "
 "“PMS3003_AirQuality”``"
 msgstr ""
+"这个范例在 “File” -> “Examples” -> “AmebaSoftwareSerial” -> "
+"“PMS3003_AirQuality”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:29
 #: Concentration PM2.5 The in
@@ -82,7 +90,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:31
 #: Concentration PM2.5 The in
 msgid "There are 8 pins in PMS3003:"
-msgstr ""
+msgstr "接线的部份，PMS3003一共有8根pin："
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:33
 #: Concentration PM2.5 The in
@@ -101,7 +109,9 @@ msgid ""
 "Therefore, the working voltage of Reset, TX, RX, Set are 3.3 as well. If "
 "the “Set” pin is pulled to high, the PMS3003 is put to operating mode. If"
 " the “Set” pin is pulled low, the PMS3003 is put to standby mode."
-msgstr ""
+msgstr "它的VCC需要接到5V的电源, 但内部IC的工作电压是3.3V,"
+"所以Reset, TX, RX, Set的工作电压都是3.3V, Set这根pin如果对它pull high,"
+"可以让PMS3003处于工作模式, 如果对它pull low, 则让它处于standby mode"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:40
 #: Concentration PM2.5 The in
@@ -109,19 +119,17 @@ msgid ""
 "TX/RX pins are for UART connection. Under operating mode, PMS3003 output "
 "the data it reads continuously. Each data is of 32 byte, please refer to "
 "the following article for detailed data format information:"
-msgstr ""
+msgstr "TX/RX这两根pin是UART的pin，PMS3003在工作模式下，会不停地输出读到的数据，每笔数据的长度是32 byte，资料格式可以参考："
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:45
 #: Concentration PM2.5 The in
-msgid ""
-"https://www.dfrobot.com/wiki/index.php?title=PM2.5_laser_dust_sensor_SKU:SEN0177"
-" RTL8722"
+msgid "https://www.dfrobot.com/wiki/index.php?title=PM2.5_laser_dust_sensor_SKU:SEN0177"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:47
 #: Concentration PM2.5 The in
 msgid "**AMB21 / AMB22** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21 / AMB22** 接线的方式如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:49
 #: Concentration PM2.5 The in
@@ -136,7 +144,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:51
 #: Concentration PM2.5 The in
 msgid "**AMB23** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23** 接线的方式如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:53
 #: Concentration PM2.5 The in
@@ -151,7 +159,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:55
 #: Concentration PM2.5 The in
 msgid "**BW16** Wiring Diagram:"
-msgstr ""
+msgstr "**BW16** 接线的方式如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:57
 #: Concentration PM2.5 The in
@@ -166,14 +174,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:59
 #: Concentration PM2.5 The in
 msgid "In this example, we do not use the “Set” and “Reset” pins."
-msgstr ""
+msgstr "这个例子里并没有接 ``Set``与 ``Reset`` 这两根pin"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:61
 #: Concentration PM2.5 The in
 msgid ""
 "Compile the code and upload it to Ameba. After pressing the Reset button,"
 " Ameba starts to output the PM 2.5 data to serial monitor."
-msgstr ""
+msgstr "上传程式码之后，按下Ameba的Reset按钮，并且开启Serial Monitor，就可以看到读到的PM 2.5数据"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:65
 #: Concentration PM2.5 The in
@@ -184,4 +192,7 @@ msgstr ""
 #: Concentration PM2.5 The in
 msgid "4"
 msgstr ""
+
+#~ msgid "https://www.dfrobot.com/wiki/index.php?title=PM2.5_laser_dust_sensor_SKU:SEN0177RTL8722"
+#~ msgstr ""
 

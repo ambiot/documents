@@ -245,7 +245,8 @@ NA
 
 ----
 
-**RecordWav::getLengthMillis**
+.. method:: RecordWav::getLengthMillis
+
 
 **Description**
 
@@ -253,7 +254,9 @@ Get the current recorded length of the .wav file in milliseconds.
 
 **Syntax**
 
-uint32_t getLengthMillis(void);
+.. code:: cpp
+
+    uint32_t getLengthMillis(void);
 
 **Parameters**
 
@@ -273,7 +276,7 @@ NA
 
 ----
 
-**RecordWav::millisToBytes**
+.. method:: RecordWav::millisToBytes
 
 **Description**
 
@@ -281,11 +284,13 @@ Convert a playback duration to equivalent number of bytes.
 
 **Syntax**
 
-uint32_t millisToBytes(uint32_t ms);
+.. code:: cpp
+
+    uint32_t millisToBytes(uint32_t ms);
 
 **Parameters**
 
-ms: playback duration in milliseconds.
+``ms`` : playback duration in milliseconds.
 
 **Returns**
 
@@ -301,7 +306,7 @@ NA
 
 ----
 
-**RecordWav::bytesToMillis**
+.. method:: RecordWav::bytesToMillis
 
 **Description**
 
@@ -309,11 +314,13 @@ Convert number of bytes to an equivalent playback duration.
 
 **Syntax**
 
-uint32_t bytesToMillis(uint32_t bytes);
+.. code:: cpp
+
+    uint32_t bytesToMillis(uint32_t bytes);
 
 **Parameters**
 
-bytes: playback duration in number of bytes.
+``bytes`` : playback duration in number of bytes.
 
 **Returns**
 
@@ -329,21 +336,26 @@ NA
 
 ----
 
-**RecordWav::writeAudioData**
+.. method:: RecordWav::writeAudioData
 
 **Description**
 
 Write audio data to the .wav file.
 
 **Syntax**
+.. code:: cpp
 
-uint32_t writeAudioData(int8_t* src, uint32_t len);
-uint32_t writeAudioData(int16_t* src, uint32_t len);
+    uint32_t writeAudioData(int8_t * src, uint32_t len);
+
+
+.. code:: cpp
+
+    uint32_t writeAudioData(int16_t * src, uint32_t len);
 
 **Parameters**
 
-src: pointer to array containing data to write to .wav file.
-len: number of audio samples to write to .wav file.
+``src`` : pointer to array containing data to write to .wav file.
+``len`` : number of audio samples to write to .wav file.
 
 **Returns**
 

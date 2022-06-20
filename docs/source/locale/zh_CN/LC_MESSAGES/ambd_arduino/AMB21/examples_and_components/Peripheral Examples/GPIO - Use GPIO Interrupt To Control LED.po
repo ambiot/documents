@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:12 To Use
@@ -50,6 +52,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:20 To Use
@@ -59,7 +63,8 @@ msgid ""
 "release the button again, and the LED lights.Note that in the Arduino "
 "example “Button and LED”, LED only lights when the button is pressed and "
 "hold, when we release the button, the LED dims."
-msgstr ""
+msgstr "这个范例里，我们使用按钮与LED。一开始LED是亮的，当我们按下按钮并放开之后，LED变暗。再按下按钮之后，LED变亮。"
+"相比较于Arduino的入门的范例 “按钮与LED”，不一样的地方是，Arduino的范例是按着按钮，LED才亮着，放开按钮，LED才熄灭。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:26 To Use
@@ -67,11 +72,12 @@ msgid ""
 "Open the example, ``“Files” -> “Examples” -> “AmebaGPIO” -> "
 "“LED_InterruptCtrl”``"
 msgstr ""
+"我们打开范例程式， “Files” -> “Examples” -> “AmebaGPIO” -> “LED_InterruptCtrl”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:29 To Use
 msgid "**AMB21 / AMB22** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21/AMB22** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:31 To Use
@@ -86,7 +92,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:33 To Use
 msgid "**AMB23** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:35 To Use
@@ -101,7 +107,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:37 To Use
 msgid "**BW16** Wiring Diagram:"
-msgstr ""
+msgstr "**BW16** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:39 To Use
@@ -116,14 +122,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:41 To Use
 msgid "Compile and upload the program, press reset."
-msgstr ""
+msgstr "编译程式并上传到Ameba完成之后，按下Reset按钮。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:43 To Use
 msgid ""
 "The LED lights at first. Press and release the button, then the LED "
 "should dim. Press again, then the LED should light."
-msgstr ""
+msgstr "一开始LED是亮的，当我们按下Pin 12的按钮并放开，LED变暗，再按一次，LED变亮"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:45 To Use
@@ -131,16 +137,18 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:49 To Use
 msgid "In"
-msgstr ""
+msgstr "在"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:55 To Use
 msgid "we set Pin 12 to"
-msgstr ""
+msgstr "里面我们将Pin 12的按钮设定成"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:61 To Use
@@ -149,12 +157,12 @@ msgid ""
 "changes from GND to 3V3. Therefore, we connect the other side of the "
 "button to 3V3, so as to trigger interrupt event when the button is "
 "pressed."
-msgstr ""
+msgstr "，代表当这根pin的电压遇到GND变成3V3的情况会触发Interrupt。所以我们将按钮一端接在3V3，按下按钮时3V3会连通而触发interrupt。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:70 To Use
 msgid "On the other hand, we can set pin 12 to"
-msgstr ""
+msgstr "我们也可以设定成"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:76 To Use
@@ -163,17 +171,18 @@ msgid ""
 "changes from 3V3 to GND. In this case, the other side of the button is "
 "connected to GND.Next, we need to specify the funtion to be execute to "
 "handle the interrupt:"
-msgstr ""
+msgstr "，代表遇到pin的电压遇到3V3变成GND会触发Interrupt。这种情况里，按钮另一端通常会接在GND"
+"设定完pin mode之后，再设定要处理interrupt的function:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:85 To Use
 msgid "The second parameter is a function pointer, with prototype:"
-msgstr ""
+msgstr "其中第二个参数是function pointer，它的prototype是："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:91 To Use
 msgid ""
 "In this handler, every time we press and release the button, we trigger "
 "an interrupt, and change the status of the LED."
-msgstr ""
+msgstr "所以我们在这个handler里面处理interrupt，每按一次按钮（并放开）会触发一次中断，我们就改变LED状态。"
 

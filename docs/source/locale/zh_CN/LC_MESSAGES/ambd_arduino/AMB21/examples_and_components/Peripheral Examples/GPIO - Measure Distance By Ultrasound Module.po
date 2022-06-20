@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:12 Ultrasound
@@ -42,7 +44,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:14 Ultrasound
 msgid "Dropping resistor or Level converter"
-msgstr ""
+msgstr "降压电阻 或 Level converter"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:16 Ultrasound
@@ -50,6 +52,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:22 Ultrasound
@@ -57,7 +61,7 @@ msgid ""
 "HC-SR04 is a module that uses ultrasound to measure the distance. It "
 "looks like a pair of eyes in its appearance, therefore it’s often "
 "installed onto robot-vehicle or mechanical bugs to be their eyes."
-msgstr ""
+msgstr "HC-SR04是一款超音波测距的模组，由于形状像两只眼睛，所以常被装在自走车或机械昆虫上，兼俱美观与实用的角色。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:26 Ultrasound
@@ -66,7 +70,8 @@ msgid ""
 "pull high then pull low). The HC-SR04 would send eight 40kHz sound wave "
 "signal and pull high the ECHO pin. When the sound wave returns back, it "
 "pull low the ECHO pin."
-msgstr ""
+msgstr "它的运作方式，首先我们先在TRIG这根GPIO对它toggle high (即pull high再pull low) 。接着HC-SR04会发出8个40k Hz的音波讯号出去，并且将ECHO这根GPIO的讯号pull high。"
+"等到音波讯号回来，再将ECHO的GPIO pull low。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:28 Ultrasound
@@ -83,7 +88,7 @@ msgstr ""
 msgid ""
 "Assume the velocity of sound is 340 m/s, the time it takes for the sound "
 "to advance 1 cm in the air is 340*100*10^-6 = 29 us."
-msgstr ""
+msgstr "假设音速是340 m/s，那么音波在空气中行走1公分所需的时间是340 * 100 * 10^-6 = 29 us。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:31 Ultrasound
@@ -91,7 +96,7 @@ msgid ""
 "The sound wave actually travels twice the distance between HC-SR04 and "
 "the object, therefore the distance can be calculated by (time/29) / 2 = "
 "time / 58."
-msgstr ""
+msgstr "HC-SR04的音波从发射出到折回是两段距离，所以HC-SR04与目标物的距离是 (time / 29) / 2 = time / 58。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:34 Ultrasound
@@ -99,12 +104,12 @@ msgid ""
 "The working voltage of HC-SR04 is 5V. When we pull high the ECHO pin to "
 "5V, the voltage might cause damage to the GPIO pin of Ameba. To avoid "
 "this situation, we need to drop the voltage as follows:"
-msgstr ""
+msgstr "HC-SR04的工作电压是5V，为了避免ECHO这根GPIO在pull high的5V电压会损坏Ameba的GPIO，所以我们需要做降压的动作，底下是使用电阻降压的方式："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:36 Module.rst:52 Ultrasound
 msgid "**AMB21 / AMB22** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21 / AMB22** 接线图"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:38 Ultrasound
@@ -119,7 +124,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:40 Module.rst:56 Ultrasound
 msgid "**AMB23** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:42 Ultrasound
@@ -134,7 +139,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:44 Module.rst:60 Ultrasound
 msgid "**BW16** Wiring Diagram:"
-msgstr ""
+msgstr "**BW16** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:46 Ultrasound
@@ -151,14 +156,15 @@ msgstr ""
 msgid ""
 "We pick the resistors with resistance 1:2, in the example we use 10kΩ and"
 " 20kΩ."
-msgstr ""
+msgstr "其中电阻只要取适当大小，比例为1:2，"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:50 Ultrasound
 msgid ""
 "If you do not have resistors in hand, you can use level converter "
 "instead.The TXB0108 8 channel level converter is a suitable example:"
-msgstr ""
+msgstr "任何电阻值都可以，但不推荐太高的值。 HC-SR04的TRIG这根GPIO可以辨别3.3V的电压，所以不需要特地做电压转换。"
+"如果不想使用电阻，也可以使用Level converter。以TXB0108 8 channel level converter为例："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:54 Ultrasound
@@ -195,7 +201,7 @@ msgstr ""
 msgid ""
 "Next, open the sample code in ``“File” -> “Examples” -> “AmebaGPIO” -> "
 "“HCSR04_Ultrasonic”``"
-msgstr ""
+msgstr "程式的部份，打开“File” -> “Examples” -> “AmebaGPIO” -> “HCSR04_Ultrasonic”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:66 Ultrasound
@@ -213,7 +219,7 @@ msgid ""
 "Compile and upload to Ameba, then press the reset button. Open the Serial"
 " Monitor, the calculated result is output to serial monitor every 2 "
 "seconds."
-msgstr ""
+msgstr "编译并上传到Ameba，完成之后按下Reset按钮。打开Serial Monitor，可以看到每两秒量出一笔数据。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:71 Ultrasound
@@ -232,7 +238,7 @@ msgid ""
 "calculate the distance, thus the result can be affected by the surface "
 "material of the object (e.g., harsh surface tends to cause scattering of "
 "sound wave, and soft surface may cause the sound wave to be absorbed)."
-msgstr ""
+msgstr "因为HC-SR04使用超音波反射的方式，所以如果遇到表面粗糙或柔软，音波可能会散射或被吸引，因而影响实验数据，所以可以先找表面平整的物体做测试。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:78 Ultrasound
@@ -240,6 +246,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:82 Ultrasound
@@ -247,15 +255,15 @@ msgid ""
 "Before the measurement starts, we need to pull high the TRIG pin for 10us"
 " and then pull low. By doing this, we are telling the HC-SR04 that we are"
 " about to start the measurement:"
-msgstr ""
+msgstr "每次测量时，将TRIG pin pull high 10us之后再pull low告诉HC-SR04准备测量:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:92 Ultrasound
 msgid "Next, use pulseIn to measure the time when the ECHO pin is pulled high."
-msgstr ""
+msgstr "之后使用pulseIn测量ECHO pin pull high的时间"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:98 Ultrasound
 msgid "Finally, use the formula to calculate the distance."
-msgstr ""
+msgstr "再根据公式算出距离并印在Serial Monitor上"
 

@@ -1,12 +1,17 @@
 Class BLEService
 ==================
-**BLEService Class**
+.. class:: BLEService
 
-| **Description**
-| A class used for creating and managing BLE GATT services.
 
-| **Syntax**
-| class BLEService
+**Description**
+
+A class used for creating and managing BLE GATT services.
+
+**Syntax**
+
+.. code:: cpp
+
+  class BLEService
 
 **Members**
 
@@ -21,109 +26,162 @@ BLEService::addCharacteristic Add a characteristic to service
 BLEService::getCharacteristic Get a previously added characteristic
 ============================= =====================================
 
-**BLEService::BLEService**
+----------------------------------------------------------
 
-| **Description**
-| Constructs a BLEService object.
+.. method:: BLEService::BLEService
 
-| **Syntax**
-| BLEService::BLEService(BLEUUID uuid);
-| BLEService::BLEService(const char\* uuid);
 
-| **Parameters**
-| uuid: service UUID, expressed as a BLEUUID class object or a character
-  array
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Constructs a BLEService object.
 
-| **Example Code**
-| Example: BLEUartService
+**Syntax**
 
-| **Notes and Warnings**
-| NA
-|  
+.. code:: cpp
 
-**BLEService::setUUID**
+  BLEService::BLEService(BLEUUID uuid);
 
-| **Description**
-| Set the service UUID.
+.. code:: cpp
 
-| **Syntax**
-| void setUUID(BLEUUID uuid);
+  BLEService::BLEService(const char *uuid);
 
-| **Parameters**
-| uuid: service UUID, expressed as a BLEUUID class object.
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+``uuid``: service UUID, expressed as a BLEUUID class object or a character array
 
-| **Example Code**
-| NA
+**Returns**
 
-| **Notes and Warnings**
-| NA
-|  
+The function returns nothing.
 
-**BLEService::getUUID**
+**Example Code**
 
-| **Description**
-| Get the service UUID.
+Example: BLEUartService
 
-| **Syntax**
-| BLEUUID getUUID();
+**Notes and Warnings**
 
-| **Parameters**
-| The function requires no input parameter.
+NA
 
-| **Returns**
-| The function returns the service UUID in a BLEUUID class object.
+---------------------------------------------------
 
-| **Example Code**
-| NA
+.. method:: BLEService::setUUID
 
-| **Notes and Warnings**
-| NA
-|  
 
-**BLEService::addCharacteristic**
+**Description**
 
-| **Description**
-| Add a characteristic to the service.
+Set the service UUID.
 
-| **Syntax**
-| void addCharacteristic(BLECharacteristic& newChar);
+**Syntax**
 
-| **Parameters**
-| newChar: the BLECharacteristic to add to the service.
+.. code:: cpp
 
-| **Returns**
-| The function returns nothing.
+  void setUUID(BLEUUID uuid);
 
-| **Example Code**
-| Example: BLEUartService
+**Parameters**
 
-| **Notes and Warnings**
-| NA
-|  
+``uuid`` : service UUID, expressed as a BLEUUID class object.
 
-**BLEService::getCharacteristic**
+**Returns**
 
-| **Description**
-| Get a previously added characteristic.
+The function returns nothing.
 
-| **Syntax**
-| BLECharacteristic\* getCharacteristic(uint8_t charIndex);
+**Example Code**
 
-| **Parameters**
-| charIndex: position index of characteristic.
+NA
 
-| **Returns**
-| The function returns a pointer to the BLECharacteristic at the
-  requested position index.
+**Notes and Warnings**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| NA
+-------------------------------------------------------
+
+.. method:: BLEService::getUUID
+
+
+**Description**
+
+Get the service UUID.
+
+**Syntax**
+
+.. code:: cpp
+
+  BLEUUID getUUID();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the service UUID in a BLEUUID class object.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+------------------------------------------------------------
+
+.. method:: BLEService::addCharacteristic
+
+
+**Description**
+
+Add a characteristic to the service.
+
+**Syntax**
+
+.. code:: cpp
+
+  void addCharacteristic(BLECharacteristic &newChar);
+
+**Parameters**
+
+``newChar`` : the BLECharacteristic to add to the service.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEUartService
+
+**Notes and Warnings**
+
+NA
+
+-------------------------------------------------------------------
+
+.. method:: BLEService::getCharacteristic
+
+
+**Description**
+
+Get a previously added characteristic.
+
+**Syntax**
+
+.. code:: cpp
+
+  BLECharacteristic *getCharacteristic(uint8_t charIndex);
+
+**Parameters**
+
+``charIndex`` : position index of characteristic.
+
+**Returns**
+
+The function returns a pointer to the BLECharacteristic at the
+requested position index.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA

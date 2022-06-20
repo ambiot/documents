@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:12 Simple
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -36,23 +38,25 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:18 Simple
 msgid ""
 "This example demonstrates how to use the RTC library methods. This "
 "function describes how to use the RTC API. The RTC function is "
 "implemented by an independent BCD timer/counter."
-msgstr ""
+msgstr "本范例说明如何使用RTC库方法。此函数描述如何使用RTC API。 RTC功能由独立的BCD timer/counter实现。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:23 Simple
 msgid ""
 "Select the correct Ameba development board from the Arduino IDE: "
 "\"Tools\" -> \"Board\"."
-msgstr ""
+msgstr "从Arduino IDE中选择正确的Ameba开发板：“Tools”->“Board”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:24 Simple
 msgid "Then open the “RTC” example from:"
-msgstr ""
+msgstr "接着打开 “RTC” 范例:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:25 Simple
 msgid "``\"File\" -> \"Examples\" -> \"AmebaRTC\" -> \"RTC\"``:"
@@ -71,7 +75,7 @@ msgid ""
 "Upon successfully upload the sample code and press the reset button, this"
 " example will print out time information since the user initialized time "
 "every second in the Serial Monitor."
-msgstr ""
+msgstr "成功上传范例代码并按下重置按钮后，此范例将打印出时间信息，因为用户每秒在串行监视器中初始化时间。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:33 Simple
 msgid "|2|"
@@ -86,10 +90,12 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:39 Simple
 msgid "[1] Simple RTC example from Arduino Tutorials:"
-msgstr ""
+msgstr "[1] Arduino教学中的RTC范例:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:40 Simple
 msgid "https://www.arduino.cc/en/Tutorial/SimpleRTC"

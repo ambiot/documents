@@ -1,0 +1,305 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-14 10:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:3
+msgid "Class USBHIDKeyboard"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:5
+#: USBHIDKeyboard.rst:63 USBHIDKeyboard.rst:93 USBHIDKeyboard.rst:127
+#: USBHIDKeyboard.rst:157 USBHIDKeyboard.rst:193 USBHIDKeyboard.rst:223
+#: USBHIDKeyboard.rst:253 USBHIDKeyboard.rst:283 USBHIDKeyboard.rst:313
+#: USBHIDKeyboard.rst:343 USBHIDKeyboard.rst:374
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:7
+msgid "A class used for creating and managing a USB HID Keyboard."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:9
+#: USBHIDKeyboard.rst:67 USBHIDKeyboard.rst:97 USBHIDKeyboard.rst:131
+#: USBHIDKeyboard.rst:161 USBHIDKeyboard.rst:197 USBHIDKeyboard.rst:227
+#: USBHIDKeyboard.rst:257 USBHIDKeyboard.rst:287 USBHIDKeyboard.rst:317
+#: USBHIDKeyboard.rst:348 USBHIDKeyboard.rst:379
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:15
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:17
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:20
+msgid "USBHIDKeyboard::USBHIDKeyboard"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:20
+msgid "Constructs a USBHIDKeyboard object"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:24
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:27
+msgid "USBHIDKeyboard::setReportID"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:27
+msgid "Set HID report ID for the HID Keyboard and HID consumer control"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:31
+msgid "USBHIDKeyboard::consumerReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:31
+msgid "Send a HID Consumer report"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:33
+msgid "USBHIDKeyboard::keyboardReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:33
+msgid "Send a HID Keyboard report"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:35
+msgid "USBHIDKeyboard::consumerPress"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:35
+msgid "Send a HID Consumer report indicating button pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:38
+msgid "USBHIDKeyboard::consumerRelease"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:38
+msgid "Send a HID Consumer report indicating button released"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:41
+msgid "USBHIDKeyboard::keyPress"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:41
+msgid "Send a HID Keyboard report indicating keys pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:44
+msgid "USBHIDKeyboard::keyRelease"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:44
+msgid "Send a HID Keyboard report indicating keys released"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:47
+msgid "USBHIDKeyboard::keyReleaseAll"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:47
+msgid "Send a HID Keyboard report indicating no keys pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:50
+msgid "USBHIDKeyboard::keyCharPress"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:50
+msgid ""
+"Send a HID Keyboard report indicating keys pressed to output an ASCII "
+"character"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:54
+msgid "USBHIDKeyboard::keySequence"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:54
+msgid ""
+"Send a HID Keyboard report indicating keys pressed to output an ASCII "
+"string"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:65
+msgid "Constructs a USBHIDKeyboard object."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:73
+#: USBHIDKeyboard.rst:103 USBHIDKeyboard.rst:137 USBHIDKeyboard.rst:171
+#: USBHIDKeyboard.rst:203 USBHIDKeyboard.rst:233 USBHIDKeyboard.rst:263
+#: USBHIDKeyboard.rst:293 USBHIDKeyboard.rst:323 USBHIDKeyboard.rst:354
+#: USBHIDKeyboard.rst:389
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:75
+#: USBHIDKeyboard.rst:235 USBHIDKeyboard.rst:325
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:77
+#: USBHIDKeyboard.rst:111 USBHIDKeyboard.rst:141 USBHIDKeyboard.rst:177
+#: USBHIDKeyboard.rst:207 USBHIDKeyboard.rst:237 USBHIDKeyboard.rst:267
+#: USBHIDKeyboard.rst:297 USBHIDKeyboard.rst:327 USBHIDKeyboard.rst:358
+#: USBHIDKeyboard.rst:398
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:79
+#: USBHIDKeyboard.rst:113 USBHIDKeyboard.rst:143 USBHIDKeyboard.rst:179
+#: USBHIDKeyboard.rst:209 USBHIDKeyboard.rst:239 USBHIDKeyboard.rst:269
+#: USBHIDKeyboard.rst:299 USBHIDKeyboard.rst:329 USBHIDKeyboard.rst:360
+#: USBHIDKeyboard.rst:400
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:81
+#: USBHIDKeyboard.rst:115 USBHIDKeyboard.rst:145 USBHIDKeyboard.rst:181
+#: USBHIDKeyboard.rst:211 USBHIDKeyboard.rst:241 USBHIDKeyboard.rst:271
+#: USBHIDKeyboard.rst:301 USBHIDKeyboard.rst:331 USBHIDKeyboard.rst:362
+#: USBHIDKeyboard.rst:402
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:83
+#: USBHIDKeyboard.rst:273 USBHIDKeyboard.rst:333 USBHIDKeyboard.rst:404
+msgid "Example: USBHIDKeyboard"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:85
+#: USBHIDKeyboard.rst:119 USBHIDKeyboard.rst:149 USBHIDKeyboard.rst:185
+#: USBHIDKeyboard.rst:215 USBHIDKeyboard.rst:245 USBHIDKeyboard.rst:275
+#: USBHIDKeyboard.rst:305 USBHIDKeyboard.rst:335 USBHIDKeyboard.rst:366
+#: USBHIDKeyboard.rst:406
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:87
+#: USBHIDKeyboard.rst:117 USBHIDKeyboard.rst:121 USBHIDKeyboard.rst:147
+#: USBHIDKeyboard.rst:151 USBHIDKeyboard.rst:183 USBHIDKeyboard.rst:187
+#: USBHIDKeyboard.rst:213 USBHIDKeyboard.rst:217 USBHIDKeyboard.rst:243
+#: USBHIDKeyboard.rst:247 USBHIDKeyboard.rst:277 USBHIDKeyboard.rst:303
+#: USBHIDKeyboard.rst:307 USBHIDKeyboard.rst:337 USBHIDKeyboard.rst:364
+#: USBHIDKeyboard.rst:368 USBHIDKeyboard.rst:408
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:95
+msgid "Set HID report ID for the HID Keyboard and HID consumer control."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:105
+msgid ""
+"``reportIDKeyboard`` : The report ID for the HID keyboard device, "
+"corresponding to the HID report descriptor."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:108
+msgid ""
+"``reportIDConsumer`` : The report ID for the HID consumer control device,"
+" corresponding to the HID report descriptor."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:129
+msgid "Send a HID Consumer report."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:139
+#: USBHIDKeyboard.rst:205
+msgid "``usage_code`` : HID consumer control usage code for the button pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:159
+msgid "Send a HID Keyboard report."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:173
+msgid ""
+"``modifiers`` : bitmap indicating key modifiers pressed (CTRL, ALT, "
+"SHIFT)."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:175
+msgid "``keycode`` : byte array indicating keys pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:195
+msgid "Send a HID Consumer report indicating button pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:225
+msgid "Send a HID Consumer report indicating button released."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:255
+msgid "Send a HID Keyboard report indicating keys pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:265
+#: USBHIDKeyboard.rst:295
+msgid "``key`` : HID keycode for key pressed, value ranges from 0x00 to 0xE7."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:285
+msgid "Send a HID Keyboard report indicating keys released."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:315
+msgid "Send a HID Keyboard report indicating no keys pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:345
+msgid ""
+"Send a HID Keyboard report indicating keys pressed to output an ASCII "
+"character."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:356
+msgid "``ch`` : ASCII character to output."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:376
+msgid ""
+"Send a HID Keyboard report indicating keys pressed to output an ASCII "
+"string."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:391
+msgid "``str``: pointer to character string to output"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:393
+msgid "``str``: String object containing character string to output"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB23/api_documents/Class USBHIDKeyboard.rst:395
+msgid ""
+"``delayTime``: time delay between key press and release, in milliseconds."
+" Default value of 5."
+msgstr ""
+

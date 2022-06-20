@@ -96,9 +96,9 @@ an interrupt, and change the status of the LED.
    :height: 934
    :scale: 40 %
 .. |2| image:: /media/ambd_arduino/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2.png
-   :width: 1335
-   :height: 934
-   :scale: 40 %
+   :width: 831
+   :height: 797
+   :scale: 60 %
 .. |2-2| image:: /media/ambd_arduino/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2-2.png
    :width: 763
    :height: 777

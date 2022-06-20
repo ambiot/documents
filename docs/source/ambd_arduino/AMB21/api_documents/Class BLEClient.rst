@@ -1,13 +1,18 @@
 Class BLEClient
 ===================
-**BLEClient Class**
 
-| **Description**
-| A class used for discovering and accessing BLE GATT services on a
-  connected remote device.
+.. class:: BLEClient 
 
-| **Syntax**
-| class BLEClient
+
+**Description**
+
+A class used for discovering and accessing BLE GATT services on a connected remote device.
+
+**Syntax**
+
+.. code:: cpp
+
+  class BLEClient
 
 **Members**
 
@@ -46,183 +51,257 @@ Class BLEClient
 |                                  | disconnected                     |
 +----------------------------------+----------------------------------+
 
-**BLEClient::connected**
+-------
 
-| **Description**
-| Check if the remote device associated with the client is still
-  connected.
+.. method:: BLEClient::connected
 
-| **Syntax**
-| bool connected();
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns TRUE if the remote device is connected.
+Check if the remote device associated with the client is still connected.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
-|  
+.. code:: cpp
 
-**BLEClient::discoverServices**
+  bool connected();
 
-| **Description**
-| Start the service discovery process for the connected remote device.
+**Parameters**
 
-| **Syntax**
-| void discoverServices();
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| The function returns nothing.
+The function returns TRUE if the remote device is connected.
 
-| **Example Code**
-| Example: BLEUartClient
+**Example Code**
 
-| **Notes and Warnings**
-| NA
-|  
+NA
 
-**BLEClient::discoveryDone**
+**Notes and Warnings**
 
-| **Description**
-| Check if the service discovery process has been completed.
+NA
 
-| **Syntax**
-| bool discoveryDone();
+-----------
 
-| **Parameters**
-| The function requires no input parameter.
+.. method:: BLEClient::discoverServices
 
-| **Returns**
-| TThe function returns TRUE if the service discovery process has been
-  completed successfully, FALSE if the service discovery process failed,
-  is still in progress, or has yet to start.
 
-| **Example Code**
-| Example: BLEUartClient
+**Description**
 
-| **Notes and Warnings**
-| NA
-|  
+Start the service discovery process for the connected remote device.
 
-**BLEClient::printServices**
+**Syntax**
 
-| **Description**
-| Print out a formatted list of discovered services to the serial port.
+.. code:: cpp
 
-| **Syntax**
-| void printServices();
+  void discoverServices();
 
-| **Parameters**
-| The function requires no input parameter.
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+The function requires no input parameter.
 
-| **Example Code**
-| NA
+**Returns**
 
-| **Notes and Warnings**
-| NA
-|  
+The function returns nothing.
 
-**BLEClient::getService**
+**Example Code**
 
-| **Description**
-| Get a service with the specified UUID on the remote device.
+Example: BLEUartClient
 
-| **Syntax**
-| BLERemoteService\* getService(const char\* uuid);
-| BLERemoteService\* getService(BLEUUID uuid);
+**Notes and Warnings**
 
-| **Parameters**
-| uuid: the desired service UUID, expressed as a character array or a
-  BLEUUID object.
+NA
 
-| **Returns**
-| The function returns the found service as a BLERemoteService object
-  pointer, otherwise nullptr is returned if a service with the UUID is
-  not found.
+-------------
 
-| **Example Code**
-| Example: BLEUartClient
+.. method:: BLEClient::discoveryDone
 
-| **Notes and Warnings**
-| NA
-|  
 
-**BLEClient::getConnId**
+**Description**
 
-| **Description**
-| Get the connection ID associated with the remote device.
+Check if the service discovery process has been completed.
 
-| **Syntax**
-| uint8_t getConnId;
+**Syntax**
 
-| **Parameters**
-| The function requires no input parameter.
+.. code:: cpp
 
-| **Returns**
-| The function returns the connection ID for the connected remote
-  device.
+  bool discoveryDone();
 
-| **Example Code**
-| NA
+**Parameters**
 
-| **Notes and Warnings**
-| NA
-|  
+The function requires no input parameter.
 
-**BLEClient::getClientId**
+**Returns**
 
-| **Description**
-| Get the client ID for the BLEClient object.
+TThe function returns TRUE if the service discovery process has been completed successfully, FALSE if the service discovery process failed, is still in progress, or has yet to start.
 
-| **Syntax**
-| T_CLIENT_ID getClientId();;
+**Example Code**
 
-| **Parameters**
-| The function requires no input parameter.
+Example: BLEUartClient
 
-| **Returns**
-| The function returns the BLEClient object’s client ID.
+**Notes and Warnings**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| The client ID is used when calling internal GATT client API.
-|  
+-----------------------
 
-**BLEClient::setDisconnectCallback**
+.. method:: BLEClient::printServices
 
-| **Description**
-| Set a user function as a callback function when the remote device is
-  disconnected.
 
-| **Syntax**
-| void setDisconnectCallback(void (\*fCallback) (BLEClient\* client));
+**Description**
 
-| **Parameters**
-| fCallback: A user callback function that returns void and takes one
-  argument.
-| client: A pointer to the BLEClient object corresponding to the
-  disconnected remote device
+Print out a formatted list of discovered services to the serial port.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| The user callback function will be called after the remote device has
-  disconnected, before the characteristics, services and client
-  associated with the remote device are deleted.
+  void printServices();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+------------------
+
+.. method:: BLEClient::getService
+
+
+**Description**
+
+Get a service with the specified UUID on the remote device.
+
+**Syntax**
+
+.. code:: cpp
+
+  BLERemoteService * getService(const char * uuid);
+
+.. code:: cpp
+
+  BLERemoteService * getService(BLEUUID uuid);
+
+**Parameters**
+
+``uuid``: the desired service UUID, expressed as a character array or a BLEUUID object.
+
+**Returns**
+
+The function returns the found service as a BLERemoteService object pointer, otherwise nullptr is returned if a service with the UUID is not found.
+
+**Example Code**
+
+Example: BLEUartClient
+
+**Notes and Warnings**
+
+NA
+
+-----------
+
+.. method:: BLEClient::getConnId
+
+
+**Description**
+
+Get the connection ID associated with the remote device.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint8_t getConnId;
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the connection ID for the connected remote device.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+------------------------------
+
+.. method:: BLEClient::getClientId
+
+
+**Description**
+
+Get the client ID for the BLEClient object.
+
+**Syntax**
+
+.. code:: cpp
+
+  T_CLIENT_ID getClientId();;
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the BLEClient object’s client ID.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+The client ID is used when calling internal GATT client API.
+
+--------------------
+
+.. method:: BLEClient::setDisconnectCallback
+
+
+**Description**
+
+Set a user function as a callback function when the remote device is disconnected.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setDisconnectCallback(void (*fCallback) (BLEClient * client));
+
+**Parameters**
+
+``fCallback`` : A user callback function that returns void and takes one argument.
+
+``client`` : A pointer to the BLEClient object corresponding to the disconnected remote device
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+The user callback function will be called after the remote device has disconnected, before the characteristics, services and client
+associated with the remote device are deleted.

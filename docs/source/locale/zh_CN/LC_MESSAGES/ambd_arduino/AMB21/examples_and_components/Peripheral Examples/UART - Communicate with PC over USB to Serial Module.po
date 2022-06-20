@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Introduction of"
 " UART** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **UART"
+"介绍** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:12 PC Serial USB over to with
@@ -44,6 +46,10 @@ msgid ""
 "equipped with several hardware UART ports, but it is also compatible with"
 " the Software Serial library."
 msgstr ""
+"UART使用了两条线让双方可以同时传送资料。其中一条是Transmitting, 另一条则是Receiving，双方使用约定好的频率 (baud rate) 来传资料。"
+"Arduino 称呼UART 为Serial, 在Arduino Uno上只有一组硬体UART，并且这组UART主要被当作印出讯息使用(即Log UART) ，所以当Arduino要使用硬体的UART时，就会占用Log UART的资源。"
+"为了提供多组UART, Arduino Uno利用软体将Serial Pin模拟成UART的行为，称之为Software Serial。"
+"Ameba除了Log UART之外，还提供多组硬体的UART。为了相容于Arduino的Software Serial API，Ameba在取名上沿用Software Serial，但底层是硬体而不是软体模拟。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:25 PC Serial USB over to with
@@ -51,6 +57,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:29 PC Serial USB over to with
@@ -68,23 +76,25 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:36 PC Serial USB over to with
 msgid "In this example, we use UART to connect USB to TTL adapter to Ameba."
-msgstr ""
+msgstr "这个范例里,我们使用USB to TTL Adapter扮演UART的其中一端,另一端则是Ameba。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:38 PC Serial USB over to with
 msgid ""
 "USB to TTL adapter sends data to Ameba, the data would be returned by "
 "Ameba, and showed on the screen."
-msgstr ""
+msgstr "USB to TTL Adapter送出资料给Ameba, Ameba回传相同的资料, 最后显示在萤幕上。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:40 PC Serial USB over to with
 msgid "**Install USB to TTL Adapter**"
-msgstr ""
+msgstr "**安装USB to TTL Adapter**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:47 PC Serial USB over to with
@@ -96,13 +106,15 @@ msgid ""
 "will search and install the driver automatically, otherwise, you may need"
 " to install corresponding driver yourself."
 msgstr ""
+"USB to TTL Adapter是个将USB转成Serial介面的晶片。它一般会有4根脚, 分别是3V3(或5V), GND, TX, RX。"
+"在使用USB to TTL Adapter时, 通常都需要安装驱动程式。如果你的晶片是FTDI的, Windows会上网找驱动程式并自动安装, 或者也可以自己找驱动程式。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:49 PC Serial USB over to with
 msgid ""
 "Afterwards, open device manager. You can find corresponding serial port "
 "number of the USB to TTL adapter:"
-msgstr ""
+msgstr "安装完驱动程式之后, 会在装置管理员找到对应的Serial Port, 像图中我的FTDI USB to TTL Adapter在COM8, 而Silicon USB to TTL Adapter则在COM6:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:51 PC Serial USB over to with
@@ -117,14 +129,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:53 PC Serial USB over to with
 msgid "Executing the Example"
-msgstr ""
+msgstr "执行范例"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:56 PC Serial USB over to with
 msgid ""
 "Open the “SoftwareSerialExample” example in ``“File” -> “Examples” -> "
 "“AmebaSoftwareSerial” -> “SoftwareSerial_Basic”``:"
-msgstr ""
+msgstr "首先先打开SoftwareSerialExamle范例, 它在 “File” -> “Examples” -> “AmebaSoftwareSerial” -> “SoftwareSerial_Basic”:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:58 PC Serial USB over to with
@@ -142,12 +154,12 @@ msgid ""
 "Connect the wire as the following diagrams show. The TX pin of USB to TTL"
 " adapter is connected to the RX of Ameba, and the RX pin of USB to TTL "
 "adapter is connected to the TX of Ameba."
-msgstr ""
+msgstr "并且我们这样接线, USB to TTL Adapter的TX接到Ameba的D0(即RX), USB to TTL Adapter的RX接到Ameba的D1(即TX):"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:64 PC Serial USB over to with
 msgid "**AMB21 / AMB22** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21 / AMB22 接线图如下:**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:66 PC Serial USB over to with
@@ -162,7 +174,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:68 PC Serial USB over to with
 msgid "**AMB23** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23 接线图如下:**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:70 PC Serial USB over to with
@@ -177,7 +189,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:72 PC Serial USB over to with
 msgid "**BW16** Wiring Diagram:"
-msgstr ""
+msgstr "**BW16** 接线图如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:74 PC Serial USB over to with
@@ -199,6 +211,10 @@ msgid ""
 "connection. Note that both sides of the connection should use the same "
 "baud rate. In this example we set baud rate 4800."
 msgstr ""
+"接着我们打开Serial Port Terminal, 常见的Serial Port Terminal有Putty, Tera Term。"
+"我们以Putty说明如何设定, 先将Connection Type选择Serial, 并且将Serial line填入USB to TTL Adapter所在的Port, (Ex. COM8)。"
+"Speed指的就是USB的baud rate，需要与Serial的另一端做搭配，这个在范例里为4800，所以我们设定4800。"
+
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:83 PC Serial USB over to with
@@ -215,7 +231,7 @@ msgstr ""
 msgid ""
 "Next, select “Serial” on the left side. Set data bits to 8, stop bits to "
 "1, parity to none, and flow control to none."
-msgstr ""
+msgstr "接着我们切换左边的Category到Serial的页面，其中Data bits为8, Stop bits为1, Stop bits为1, Parity为None, Flow control为None。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:88 PC Serial USB over to with
@@ -238,6 +254,9 @@ msgid ""
 "Putty. Therefore, if you insert “I am fine”, you will get something like "
 "this:"
 msgstr ""
+"设定完之后按下Open, 并且按下Ameba的Reset按钮，Putty就会出现“Hello, world?” 的讯息, 这时候你在键盘上敲字，"
+"会经由USB to TTL Adapter的TX送到Ameba的Serial RX, 在程式码里面再送到Ameba的Serial TX, 最后由USB to TTL Adapter的RX接收并印出来。"
+"所以如果我们敲这个讯息“I am fine”, 就会出现这样:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:98 PC Serial USB over to with
@@ -255,13 +274,15 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:105 PC Serial USB over to with
 msgid ""
 "First, use ``SoftwareSerial:begin(speed)`` to set the baud rate for the "
 "serial communication:"
-msgstr ""
+msgstr "首先需要设定UART的Baud rate, 使用SoftwareSerial:Begin():"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:106 PC Serial USB over to with
@@ -274,7 +295,7 @@ msgid ""
 "Use ``write()`` to send data, and use ``SoftwareSerial:available()`` to "
 "get the number of bytes available for reading from a software serial "
 "port:"
-msgstr ""
+msgstr "使用 ``write()`` 送出资料, 并且使用 ``Software:available()`` 来检查是否有资料送进来:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:111 PC Serial USB over to with
@@ -284,5 +305,5 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:113 PC Serial USB over to with
 msgid "If there are data available to read, use read() to read from serial port."
-msgstr ""
+msgstr "如果有资料进来, 就使用read将资料读进来。"
 

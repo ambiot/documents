@@ -1,12 +1,17 @@
-Class HttpClient
+Class MDNS
 ===================
-**MDNSClass Class**
+.. class:: MDNSClass
 
-| **Description**
-| A class used for registering and removing MDNS service records.
 
-| **Syntax**
-| class MDNSClass
+**Description**
+
+A class used for registering and removing MDNS service records.
+
+**Syntax**
+
+.. code:: cpp
+
+  class MDNSClass
 
 **Members**
 
@@ -28,163 +33,203 @@ MDNSClass::deregisterService Remove service record
 MDNSClass::updateService     Update service record
 ============================ =====================
 
-**MDNSClass::begin**
+------------------------
 
-| **Description**
-| Start MDNS operations to begin responding to MDNS queries.
+.. method:: MDNSClass::begin
 
-| **Syntax**
-| void begin(void);
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Start MDNS operations to begin responding to MDNS queries.
 
-| **Example Code**
-| Example: mDNS_On_Arduino_IDE
-| This example shows how to register Ameba as a service that can be
-  recognized by Arduino IDE. If both of the PC runs Arduino IDE and the
-  Ameba board are connecting to the same local network. Then you can
-  find Ameba in “Tools” -> “Port” -> “Arduino at 192.168.1.238 (Ameba
-  RTL8195A), which means the Arduino IDE find Ameba via mDNS.
+**Syntax**
 
-**#include <WiFi.h>**
+.. code:: cpp
 
-**#include <AmebaMDNS.h>**
+  void begin(void);
 
-**char** ssid[] = "yourNetwork"; // your network SSID (name)
+**Parameters**
 
-**char** pass[] = "secretPassword"; // your network password
+The function requires no input parameter.
 
-MDNSService service("MyAmeba", "_arduino._tcp", "local", 5000);
+**Returns**
 
-**void** setup() {
+The function returns nothing.
 
-printf("Try to connect to %s\r\n", ssid);
+**Example Code**
 
-**while** (WiFi.begin(ssid, pass) != WL_CONNECTED) {
+Example: mDNS_On_Arduino_IDE
 
-printf("Failed. Wait 1s and retry...\r\n");
+This example shows how to register Ameba as a service that can be
 
-delay(1000);
+recognized by Arduino IDE. If both of the PC runs Arduino IDE and the
+Ameba board are connecting to the same local network. Then you can
+find Ameba in “Tools” -> “Port” -> “Arduino at 192.168.1.238 (Ameba
+RTL8195A), which means the Arduino IDE find Ameba via mDNS.
 
-}
+.. code-block:: cpp
+  :caption: mDNS_On_Arduino_IDE
+  :linenos:
 
-printf("Connected to %s\r\n", ssid);
+  #include "WiFi.h"   
+  #include "AmebaMDNS.h"   
 
-service.addTxtRecord("board", strlen("ameba_rtl8195a"),
-"ameba_rtl8195a");
+  char ssid[] = "yourNetwork";     //  your network SSID (name)  
+  char pass[] = "secretPassword";  // your network password  
 
-service.addTxtRecord("auth_upload", strlen("no"), "no");
+  MDNSService service("MyAmeba", "_arduino._tcp", "local", 5000);  
 
-service.addTxtRecord("tcp_check", strlen("no"), "no");
+  void setup() {  
+    printf("Try to connect to %s\r\n", ssid);  
+    while (WiFi.begin(ssid, pass) != WL_CONNECTED) {  
+      printf("Failed. Wait 1s and retry...\r\n");  
+      delay(1000);  
+    }  
+    printf("Connected to %s\r\n", ssid);  
 
-service.addTxtRecord("ssh_upload", strlen("no"), "no");
+    service.addTxtRecord("board", strlen("ameba_rtl8195a"), "ameba_rtl8195a");  
+    service.addTxtRecord("auth_upload", strlen("no"), "no");  
+    service.addTxtRecord("tcp_check", strlen("no"), "no");  
+    service.addTxtRecord("ssh_upload", strlen("no"), "no");  
 
-printf("Start mDNS service\r\n");
+    printf("Start mDNS service\r\n");  
+    MDNS.begin();  
 
-MDNS.begin();
+    printf("register mDNS service\r\n");  
+    MDNS.registerService(service);  
+  }  
 
-printf("register mDNS service\r\n");
+  void loop() {  
+    // put your main code here, to run repeatedly:  
+    delay(1000);  
+  }  
 
-MDNS.registerService(service);
+----------------------------------------------------------
 
-}
+.. method:: MDNSClass::end 
 
-**void** loop() {
 
-// put your main code here, to run repeatedly:
+**Description**
 
-delay(1000);
+Stop MDNS operations and stop responding to MDNS queries.
 
-}
+**Syntax**
 
-| **Notes and Warnings**
-| Include “AmebaMDNS.h” to use the class function. 
+.. code:: cpp
 
-**MDNSClass::end**
+  void end(void);
 
-| **Description**
-| Stop MDNS operations and stop responding to MDNS queries.
+**Parameters**
 
-| **Syntax**
-| void end(void);
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| The function returns nothing.
+The function returns nothing.
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| Include “AmebaMDNS.h” to use the class function. 
+NA
 
-**MDNSClass::registerService**
+**Notes and Warnings**
 
-| **Description**
-| Add a service record to be included in MDNS responses.
+Include “AmebaMDNS.h” to use the class function. 
 
-| **Syntax**
-| void register service(MDNSService service);
+------------------------------------------------------------
 
-| **Parameters**
-| service: MDNSService class object with required MDNS service data
+.. method:: MDNSClass::registerService
 
-| **Returns**
-| The function returns nothing.
 
-| **Example Code**
-| Example: mDNS_On_Arduino_IDE
-| Details of the code can be found in the previous section of
-  MDNSClass:: begin.
+**Description**
 
-| **Notes and Warnings**
-| Include “AmebaMDNS.h” to use the class function. 
+Add a service record to be included in MDNS responses.
 
-**MDNSClass::deregisterService**
+**Syntax**
 
-| **Description**
-| Remove a service record from MDNS responses.
+.. code:: cpp
 
-| **Syntax**
-| void deregisterService(MDNSService service);
+  void register service(MDNSService service);
 
-| **Parameters**
-| service: MDNSService class object to be removed
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+``service`` : MDNSService class object with required MDNS service data
 
-| **Example Code**
-| Example: mDNS_On_Arduino_IDE
-| Details of the code can be found in the previous section of
-  MDNSClass:: begin.
+**Returns**
 
-| **Notes and Warnings**
-| Include “AmebaMDNS.h” to use the class function. 
+The function returns nothing.
 
-**MDNSClass::updateService**
+**Example Code**
 
-| **Description**
-| Update a service record.
+Example: mDNS_On_Arduino_IDE
 
-| **Syntax**
-| void updateService(MDNSService service, unsigned int ttl);
+Details of the code can be found in the previous section of ``MDNSClass:: begin``.
 
-| **Parameters**
-| service: MDNSService class object to be updated
-| ttl: time-to-live(TTL) for service
+**Notes and Warnings**
 
-| **Returns**
-| The function returns nothing.
+Include “AmebaMDNS.h” to use the class function. 
 
-| **Example Code**
-| NA
+--------------------------------------------------------------------------------
 
-| **Notes and Warnings**
-| Include “AmebaMDNS.h” to use the class function.
+.. method:: MDNSClass::deregisterService
+
+**Description**
+
+Remove a service record from MDNS responses.
+
+**Syntax**
+
+.. code:: cpp
+
+  void deregisterService(MDNSService service);
+
+**Parameters**
+
+``service`` : MDNSService class object to be removed
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: mDNS_On_Arduino_IDE
+
+Details of the code can be found in the previous section of ``MDNSClass:: begin``.
+
+**Notes and Warnings**
+
+Include “AmebaMDNS.h” to use the class function. 
+
+-------------------------------------------------------------
+
+
+..  method:: MDNSClass::updateService
+
+
+**Description**
+
+Update a service record.
+
+**Syntax**
+
+.. code:: cpp
+
+  void updateService(MDNSService service, unsigned int ttl);
+
+**Parameters**
+
+``service``: MDNSService class object to be updated
+
+``ttl`` : time-to-live(TTL) for service
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Include “AmebaMDNS.h” to use the class function.

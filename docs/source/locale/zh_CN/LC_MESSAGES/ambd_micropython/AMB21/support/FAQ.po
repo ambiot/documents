@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB21/support/FAQ.rst:3
 msgid "FAQ"
-msgstr ""
+msgstr "常见问题"
 
 #: ../../source/ambd_micropython/AMB21/support/FAQ.rst:5
 msgid "What is MicroPython and how to use it?"

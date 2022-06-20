@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:3
 msgid "Getting Started"
-msgstr ""
+msgstr "入门指南"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:7
 msgid "Ameba MicroPython: Getting Started with AMB21/AMB22"
@@ -27,17 +27,17 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:10
 msgid "Required Environment"
-msgstr ""
+msgstr "工作环境"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:12
 msgid ""
 "AMB21/22 MicroPython SDK currently supports Windows 10 and Linux "
 "operating systems."
-msgstr ""
+msgstr "AmebaD AMB21/AMB22 MicroPython SDK 目前支持 Windows 10 以及 Linux 作业系统。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:16
 msgid "Introduction to AmebaD[AMB21/AMB22]"
-msgstr ""
+msgstr "AmebaD[AMB21/AMB22] 介绍"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:18
 msgid ""
@@ -46,13 +46,14 @@ msgid ""
 "including WiFi, BLE, GPIO, I2C, UART, SPI, PWM, ADC and so on. Through "
 "these interfaces, AmebaD can connect with electronic components such as "
 "LED, switches, manometer, hygrometer, PM2.5 dust sensors, …etc."
-msgstr ""
+msgstr "Ameba是一个易于编程的微控制器平台，可用于开发各种物联网应用程序。 AmebaD有各种外围接口，"
+"包括WiFi, BLE, GPIO, I2C, UART, SPI, PWM, ADC。通过这些接口，AmebaD可以连接LED、开关、压力计、湿度计、PM2.5粉尘传感器等电子元件。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:24
 msgid ""
 "The collected data can be uploaded via WiFi and be utilized by "
 "applications on smart devices to realize IoT implementation."
-msgstr ""
+msgstr "Ameba所收集的数据可以通过WiFi无线上传，并被智能设备上的应用程序使用，实现物联网的应用。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:27
 msgid "|1|"
@@ -66,19 +67,19 @@ msgstr ""
 msgid ""
 "AMB21/AMB22 and Arduino Uno have similar size, as shown in the above "
 "figure, and the pins on AMB21/AMB22 are compatible with Arduino Uno."
-msgstr ""
+msgstr "AMB21/AMB22 和Arduino Uno的尺寸类似，如上图所示，并且 AMB21/AMB22 上的引脚与Arduino Uno兼容。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:32
 msgid ""
 "AmebaD uses Micro USB to supply power, which is common in many smart "
 "devices."
-msgstr ""
+msgstr "AmebaD使用Micro USB来供电，这在许多智能设备中很常见。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:34
 msgid ""
 "Please refer to the following figure and table for the pin diagram and "
 "function of AmebaD."
-msgstr ""
+msgstr "AmebaD的引脚图和功能请参考下图和表格。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:36
 msgid "|2|"
@@ -576,21 +577,21 @@ msgid ""
 "Not all sets of peripherals shown on the picture/table above are "
 "available on MicroPython, please refer to "
 ":doc:`../../AMB21/api_documents/index` for more information."
-msgstr ""
+msgstr "注意：上图/表中显示的并非所有外围设备都可以在MicroPython上使用，请参阅 :doc:`../../AMB21/api_documents/index` 部分以获取更多资讯。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:80
 msgid "Introduction to AMB21/AMB22 MicroPython port"
-msgstr ""
+msgstr "RTL8722 MicroPython 移植简介"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:83
 msgid "Background Information"
-msgstr ""
+msgstr "基本背景"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:85
 msgid ""
 "REPL stands for Read-Evaluation-Print-Loop, it is an interactive prompt "
 "that you can use to access and control your microcontroller."
-msgstr ""
+msgstr "REPL代表Read-Evaluation-Print-Loop，它是一个交互式提示，可用于存取和控制微控制器。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:88
 msgid ""
@@ -598,7 +599,7 @@ msgid ""
 "completion, line editing, auto-indentation, input history and more. It "
 "basically functions like the classic Python IDLE but running on "
 "microcontroller."
-msgstr ""
+msgstr "REPL具有其他强大的特色，例如tab处理，行编辑，自动缩排，输入历史记录等。它的基本功能类似于标准的Python IDLE，但是运行在微控制器上。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:93
 msgid ""
@@ -609,35 +610,36 @@ msgid ""
 "appear on the terminal. Now you may type in any Python script on REPL as "
 "long as it’s support by MicroPython and your microcontroller’s "
 "MicroPython port."
-msgstr ""
+msgstr "要使用REPL，只需在PC上打开任何串行终端软件（最常用的工具是teraterm，putty等），"
+"然后连接到微控制器的串行端口，然后将baudrate设置为115200，然后手动重置开发板，即可看到>>> MicroPython提示符出现在终端画面上。您就可以在REPL上输入任何Python脚本。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:101
 msgid ""
 "Most importantly, try to abuse \"``help()``\" function as much as "
 "possible to gain more information. For example, upon microcontroller "
 "power up and REPL shown, just type"
-msgstr ""
+msgstr "建议多尝试使用 ``help()`` 函数以获得更多资讯。例如，微控制器上电并显示REPL后，只需键入"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:107
 msgid ""
 "You will see a help page giving you more details about this port; also if"
 " you type"
-msgstr ""
+msgstr "您将看到一个帮助页面，为您提供有关此移植的更多详细信息。如果您输入"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:112
 msgid "it will list out all available builtin modules that are at your disposal"
-msgstr ""
+msgstr "它将列出所有可用的内建模块供您使用。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:114
 msgid ""
 "Furthermore, if you want to learn more about a module, such as its API "
 "and CONSTANT available, simply type the following code and details of "
 "that module will be returned to you,"
-msgstr ""
+msgstr "此外，如果您想了解有关模块的更多资讯，例如可用的API和CONSTANT，只需键入以下代码help(您感兴趣的模块)来获取该模块的详细信息。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:120
 msgid "Let's take Pin module (GPIO) as an example:"
-msgstr ""
+msgstr "让我们以Pin模块（GPIO）为例："
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:140
 msgid "REPL Hotkeys"
@@ -654,7 +656,8 @@ msgid ""
 "in 'boot.py' once again. Note that this will only reset the MicroPython "
 "interpreter not the hardware, all your previously configured hardware "
 "will stay the way it is until you manually hard-reset the board."
-msgstr ""
+msgstr "MicroPython将执行软件重启，这在您的微控制器表现异常时非常有用。"
+"并且将再次执行 “boot.py” 中的脚本。请注意，这只会重置MicroPython interpreter 而不重置硬件，所有先前配置的硬件将保持原样，直到您手动重置开发板为止。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:151
 msgid "``Ctrl + e``"
@@ -666,7 +669,7 @@ msgid ""
 "into REPL at once without executing code line by line. This is useful "
 "when you have found a MicroPython library and wish to test it out "
 "immediately by copy and paste"
-msgstr ""
+msgstr "Paste mode 可以一次将一大部分的代码粘贴到REPL中，而无需一行一行地执行代码。适合当您找到MicroPython库并希望通过复制和贴上立即对其进行测试时。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:158
 msgid "``Ctrl + b``"
@@ -676,7 +679,7 @@ msgstr ""
 msgid ""
 "Normal mode This hotkey will set REPL back to normal mode. This is useful"
 " if you are stuck in certain mode and can not get out."
-msgstr ""
+msgstr "此热键会将REPL设置回Normal mode。当你卡在某些模式下，可以利用这个解决。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:163
 msgid "``Ctrl + c``"
@@ -686,19 +689,19 @@ msgstr ""
 msgid ""
 "Quick cancel This hotkey help you to cancel any input and return a new "
 "line"
-msgstr ""
+msgstr "此热键可帮助您快速取消任何输入并另起一行"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:169
 msgid "Setting up Development Environment"
-msgstr ""
+msgstr "设置开发环境"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:172
 msgid "Step 1. Installing the Driver"
-msgstr ""
+msgstr "步骤1: 安装驱动程序"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:174
 msgid "First, connect AMB21/AMB22 to the computer via Micro USB:"
-msgstr ""
+msgstr "首先，通过Micro USB将AmebaD连接到电脑:"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:176
 msgid "|4|"
@@ -712,19 +715,19 @@ msgstr ""
 msgid ""
 "If this is the first time you connect AmebaD to your computer, the USB "
 "driver for AMB21/AMB22 will be automatic installed."
-msgstr ""
+msgstr "如果这是您第一次将AmebaD连接到您的电脑，那么AmebaD的USB驱动程序将自动安装。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:181
 msgid ""
 "If you have driver issue of connect board to your computer please go to "
 "https://ftdichip.com/drivers/ for USB driver."
-msgstr ""
+msgstr "如果遇到开发板连接到电脑的驱动程序问题，请参考下列USB 驱动程序 https://ftdichip.com/drivers/。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:183
 msgid ""
 "You can check the :guilabel:`COM` port number in :guilabel:`Device "
 "Manager` of your computer:"
-msgstr ""
+msgstr "你可以在你的电脑的装置 :guilabel:`管理员` 中检查 :guilabel:`COM` 端口号:"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:185
 msgid "|5|"
@@ -736,11 +739,11 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:188
 msgid "Step 2. Installing the necessary tools"
-msgstr ""
+msgstr "步骤2: 安装相关工具"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:191
 msgid "On Windows"
-msgstr ""
+msgstr "Windows环境:"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:193
 msgid ""
@@ -748,7 +751,7 @@ msgid ""
 "with MicroPython. The most common serial terminals are ``Tera Term`` and "
 "``Putty``, here we recommend using ``Tera Term``, which can be downloaded"
 " from internet."
-msgstr ""
+msgstr "对于Windows用户，请安装串行终端软件。最常见的串行终端是 ``Tera Term`` 和 ``Putty``，在这里我们建议使用 ``Tera Term``，可以从网路下载。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:198
 msgid ""
@@ -761,6 +764,9 @@ msgid ""
 "from the ``Devel`` category (see picture below) and pick the latest "
 "edition."
 msgstr ""
+"对于希望从头开始编译MicroPython的用户，请确保安装 ``Cygwin`` ，这是在Windows系统上运行的类似Linux的环境。"
+"选择 ``Cygwin`` 安装程序时，我们建议使用 ``Cygwin`` 32位元版本。"
+"在 ``Cygwin`` 安装期间，安装程序将提示用户是否安装其他软件，请确保从 ``Devel`` 类别中选择 ``make`` 的GNU版本（请参见下图），然后选择最新版本。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:206
 msgid "|6|"
@@ -775,33 +781,33 @@ msgid ""
 "Also, Python3 is required during firmware compilation, so be sure to "
 "download the latest Python3 from its official website and have it added "
 "as environment variable when asked during installation."
-msgstr ""
+msgstr "另外，在固件编译过程中需要Python3，因此请确保从其官方网站下载最新的Python3，并在安装过程中要求时将其添加为环境变量。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:213
 msgid "On Linux"
-msgstr ""
+msgstr "Linux环境:"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:215
 msgid ""
 "For Linux user, please install a serial terminal software of your choice "
 "using ``apt-get`` install command. Here we recommend using ``picocom`` "
 "for its lightweight."
-msgstr ""
+msgstr "对于Linux用户，请使用 ``apt-get install`` 命令安装您选择的串行终端软件。在这里，我们建议使用 ``picocom``。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:219
 msgid ""
 "For advanced developer interested in developing MicroPython module in C, "
 "please make sure the GNU make of at least version 3.82 or newer and "
 "Python3 are installed and can be found using terminal."
-msgstr ""
+msgstr "对于有兴趣在C语言中开发MicroPython模块的用户，请确保安装了至少3.82或更高版本的GNU make软件以及Python3"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:225
 msgid "Upload Firmware into Ameba"
-msgstr ""
+msgstr "将固件上传到Ameba"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:228
 msgid "Step 1. Navigate to “Release” folder"
-msgstr ""
+msgstr "步骤1: 找到“Release”文件夹"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:230
 msgid ""
@@ -809,18 +815,18 @@ msgid ""
 "<https://github.com/ambiot/ambd_micropython>`_, you will notice a "
 "``“Release”`` folder in the root directory of this repository, enter this"
 " folder and locate a tool named ``“Double-Click-Me-to-Upload”``."
-msgstr ""
+msgstr "从 `Github <https://github.com/ambiot/ambd_micropython>`_ 下载MicroPython repository 后，会在根目录中看到一个“Release”文件夹，并且在该路径下找到一个名为“Double-Click-Me-to-Upload”的工具。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:237
 msgid "Step 2. Enter UART Download mode"
-msgstr ""
+msgstr "步骤2: 进入UART下载模式"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:239
 msgid ""
 "To do this, first press and hold the ``UART_DOWNLOAD`` button, then press"
 " the ``RESET`` button. If success, you should see a green LED flashing on"
 " your ameba."
-msgstr ""
+msgstr "请先按住 ``UART_DOWNLOAD`` 按钮，然后按 ``RESET`` 按钮。如果成功，您应该在ameba上看到绿色的LED闪烁。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:243
 msgid "|7|"
@@ -832,7 +838,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:246
 msgid "Step 3. Run “Double-Click-Me-to-Upload”"
-msgstr ""
+msgstr "步骤3: 运行 “Double-Click-Me-to-Upload”"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:248
 msgid ""
@@ -842,15 +848,16 @@ msgid ""
 " so the uploading can be carried out successfully. Once the uploading is "
 "successful, you will see a line of log printed on the screen – “All "
 "images are sent successfully”"
-msgstr ""
+msgstr "顾名思义，双击该文件以运行它，然后按照屏幕上显示的说明更新ameba的串行COM端口，"
+"这样上传就可以成功进行。上传成功后，您将在屏幕上看到一行日志–“All images are sent successfully”。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:257
 msgid "Try the First Example"
-msgstr ""
+msgstr "尝试第一个范例"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:260
 msgid "Step 1. Open REPL"
-msgstr ""
+msgstr "步骤1: 打开 REPL"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:262
 msgid ""
@@ -858,7 +865,8 @@ msgid ""
 " MicroPython’s terminal for user to control the microcontroller. REPL is "
 "running on LOG UART, thus we need to open our serial terminal software, "
 "in this case, ``Tera Term`` to see REPL."
-msgstr ""
+msgstr "REPL代表 **读取** ，**评估** ，**打印** 和 **循环**，它是MicroPython的终端，供用户控制微控制器。"
+"REPL在LOG UART上运行，因此我们需要打开串行终端软件，在本例中为Tera Term，用以查看REPL。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:267
 msgid "|8|"
@@ -876,13 +884,15 @@ msgid ""
 "rate, now is the time to change it to ``115200`` and leave the rest of "
 "settings as default."
 msgstr ""
+"打开 ``Tera Term`` 后，如上图所示选择 ``Serial`` ，然后使用下拉列表选择ameba的串行端口，然后单击 ``OK``。"
+"如果您的串行终端未配置为 ``115200`` baudrate，建议将 ``115200`` 设定为默认设置。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:275
 msgid ""
 "Now that the serial port is connected, press the :guilabel:`RESET` button"
 " once on your ameba and you should see the MicroPython’s welcome page as "
 "shown below."
-msgstr ""
+msgstr "现在已经连接了串行端口，在ameba上按一下 :guilabel:`RESET` 按钮，如下所示会看到MicroPython的欢迎页面。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:279
 msgid "|9|"
@@ -897,42 +907,42 @@ msgid ""
 "What happened here was that your Ameba first check its calibration data "
 "and then boot into MicroPython’s firmware, MicroPython then run the "
 "“``boot.py``” python script and imported builtin libraries."
-msgstr ""
+msgstr "过程为Ameba首先检查其校准数据，然后启动MicroPython的固件，接着再运行 ``boot.py`` python脚本和导入的内建python库。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:285
 msgid "Now, you can simply type"
-msgstr ""
+msgstr "现在试着输入"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:289
 msgid "to see more information, and type"
-msgstr ""
+msgstr "然后输入"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:293
 msgid "to check all readily available libraries."
-msgstr ""
+msgstr "检查所有现成可用的python库。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:296
 msgid "Step 2. Run WiFi Scan example"
-msgstr ""
+msgstr "步骤2: 执行WiFi扫描范例"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:298
 msgid ""
 "As most of peripherals’ examples requires additional hardware to show the"
 " example is working, we will just use WiFi Scan example as our first "
 "example and to see how easy it is to control WiFi using MicroPython."
-msgstr ""
+msgstr "由于大多数外围设备的范例都需要额外的硬件才能显示该范例是否正常运行，因此我们将仅以WiFi扫描范例为例，来了解使用MicroPython控制WiFi是十分容易的。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:302
 msgid ""
 "Now, please follow along by copy+paste the following code or manually "
 "typing them out into ``Tera Term`` and hit “Enter”"
-msgstr ""
+msgstr "现在，请复制并贴上以下代码，或手动将其输入Tera Term，然后按“Enter”。"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:311
 msgid ""
 "You should be able to see the returned result with all discovered "
 "wireless network in your surrounding"
-msgstr ""
+msgstr "您应该能够看到返回周围无线网络的结果"
 
 #: ../../source/ambd_micropython/AMB21/getting_started/mp_getting_started.rst:313
 msgid "|10|"
@@ -950,5 +960,5 @@ msgstr ""
 msgid ""
 "If you face any issue, please refer to the :doc:`../../AMB21/support/FAQ`"
 " and :doc:`../../AMB21/support/Trouble shooting` page."
-msgstr ""
+msgstr "如果您遇到任何问题，请参考 :doc:`../../AMB21/support/FAQ` 和 :doc:`../../AMB21/support/Trouble shooting` 的页面。"
 

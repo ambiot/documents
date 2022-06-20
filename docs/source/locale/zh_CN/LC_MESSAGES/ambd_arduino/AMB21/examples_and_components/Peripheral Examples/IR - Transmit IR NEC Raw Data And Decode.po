@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 02:53+0000\n"
+"POT-Creation-Date: 2022-06-20 07:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:3 IR
 #: NEC Raw Transmit
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:12 IR
 #: NEC Raw Transmit
@@ -37,12 +39,12 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:13 IR
 #: NEC Raw Transmit
 msgid "Grove – Infrared Emitter x1 (Figure 1)"
-msgstr ""
+msgstr "Grove – 红外线发射器 x1 (Figure 1)"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:14 IR
 #: NEC Raw Transmit
 msgid "Grove – Infrared Receiver x1 (Figure 2)"
-msgstr ""
+msgstr "Grove – 红外线接收器 x1 (Figure 2)"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:16 IR
 #: NEC Raw Transmit
@@ -50,6 +52,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:20 IR
 #: NEC Raw Transmit
@@ -57,14 +61,14 @@ msgid ""
 "In this example, we use two AmebaD to connect with an infrared (IR) "
 "Emitter and an IR Receiver separately to transmit and receive IR NEC Raw "
 "data."
-msgstr ""
+msgstr "在此范例中，我们使用两个Ameba RTL8722模块，它们分别与红外线（IR）发射器和IR接收器连接，以发送和接收IR NEC 原始数据。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:24 IR
 #: NEC Raw Transmit
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:163
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:152
 #: IR NEC Raw Transmit
 msgid "1"
 msgstr ""
@@ -72,14 +76,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:26 IR
 #: NEC Raw Transmit
 msgid "Figure 1: Grove – Infrared Receiver"
-msgstr ""
+msgstr "图一: Grove – 红外线发射器"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:28 IR
 #: NEC Raw Transmit
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:167
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:156
 #: IR NEC Raw Transmit
 msgid "2"
 msgstr ""
@@ -87,7 +91,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:30 IR
 #: NEC Raw Transmit
 msgid "Figure 2: Grove – Infrared Emitter"
-msgstr ""
+msgstr "图二: Grove – 红外线接收器"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:34 IR
 #: NEC Raw Transmit
@@ -95,24 +99,24 @@ msgid ""
 "On the transmission side, the transmitter will send IR NEC raw data. The "
 "raw data can be seen as consecutive durations of “marks” and “spaces” "
 "(Figure 3) in microseconds (us)."
-msgstr ""
+msgstr "在发送端，发送器将发送IR NEC原始数据。原始数据可以看作是“marks”和“spaces”（图三）的连续持续时间（以微秒（us）为单位）。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:36 IR
 #: NEC Raw Transmit
 msgid "Mark: a specific period of sending pulses"
-msgstr ""
+msgstr "Mark: 特定时间发送脉冲"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:37 IR
 #: NEC Raw Transmit
 msgid "Space: a specific period of sending nothing"
-msgstr ""
+msgstr "Space: 特定时间不发送脉冲"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:39 IR
 #: NEC Raw Transmit
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:171
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:160
 #: IR NEC Raw Transmit
 msgid "3"
 msgstr ""
@@ -120,7 +124,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:41 IR
 #: NEC Raw Transmit
 msgid "Figure 3: A typical IR transmission and reception setup implementation"
-msgstr ""
+msgstr "图三: 典型的红外线发射和接收设置实作"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:43 IR
 #: NEC Raw Transmit
@@ -131,46 +135,49 @@ msgid ""
 "protocol descriptions. In this example, we are going to use NEC (Now "
 "Renesas, also known as Japanese Format) as the transmission protocol."
 msgstr ""
+"有关更多详细信息，请参阅SB-Projects的主题 `IR Remote Control Theory "
+"<https://www.sbprojects.net/knowledge/ir/index.php>`__ "
+"学习IR遥控器操作的理论以及IR协议说明。在此范例中，我们将使用NEC（Now Renesas，也称为日语格式）作为传输协议。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:49 IR
 #: NEC Raw Transmit
 msgid "**NEC Features**"
-msgstr ""
+msgstr "**NEC 特色**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:51 IR
 #: NEC Raw Transmit
 msgid "8-bit address and 8-bit command length."
-msgstr ""
+msgstr "8位元地址和8位元命令长度。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:52 IR
 #: NEC Raw Transmit
 msgid "Extended mode available, doubling the address size."
-msgstr ""
+msgstr "具扩展模式，地址长度加倍。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:53 IR
 #: NEC Raw Transmit
 msgid "Address and command are transmitted twice for reliability."
-msgstr ""
+msgstr "为了确保可靠性，发送两次地址和命令。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:54 IR
 #: NEC Raw Transmit
 msgid "Pulse distance modulation."
-msgstr ""
+msgstr " 调节脉冲距离。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:55 IR
 #: NEC Raw Transmit
 msgid "The carrier frequency of 38kHz."
-msgstr ""
+msgstr "载波频率为38kHz。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:56 IR
 #: NEC Raw Transmit
 msgid "Bit time of 1.125ms or 2.25ms."
-msgstr ""
+msgstr "Bit Time为1.125ms或2.25ms。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:58 IR
 #: NEC Raw Transmit
 msgid "**Modulation**"
-msgstr ""
+msgstr "**调节**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:63 IR
 #: NEC Raw Transmit
@@ -181,13 +188,15 @@ msgid ""
 "logical ”0” is represented by total duration of 1120us, with 560us "
 "“marks” and (1120-560) us of “spaces”."
 msgstr ""
+"NEC协议使用Pulse Distance Encoding进行数据通信（图四）。 "
+"“1”由2250us的总持续时间表示，其中560us的“marks”和（2250-560）us的“spaces”表示。“0”由总持续时间1120us表示，其中560us是“marks”，而（1120-560）us是“spaces”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:65 IR
 #: NEC Raw Transmit
 msgid "|4|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:175
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:164
 #: IR NEC Raw Transmit
 msgid "4"
 msgstr ""
@@ -195,7 +204,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:67 IR
 #: NEC Raw Transmit
 msgid "Figure 4: Modulation of NEC"
-msgstr ""
+msgstr "图四: NEC 调节"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:69 IR
 #: NEC Raw Transmit
@@ -210,13 +219,16 @@ msgid ""
 "<http://www.righto.com/2009/08/multi-protocol-infrared-remote-"
 "library.html>`__, where it provides multiple libraries provided online."
 msgstr ""
+"有关更多详细信息，请参阅SB-Projects的主题 `IR Remote Control Theory "
+"<https://www.sbprojects.net/knowledge/ir/index.php>`__ "
+"学习IR遥控器操作的理论以及IR协议说明。 在此范例中，我们将使用NEC（Now Renesas，也称为日语格式）作为传输协议。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:78 IR
 #: NEC Raw Transmit
 msgid "|5|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:179
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:168
 #: IR NEC Raw Transmit
 msgid "5"
 msgstr ""
@@ -224,14 +236,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:80 IR
 #: NEC Raw Transmit
 msgid "Figure 5: Sample of a Full NEC Data (in logic1 or 0)"
-msgstr ""
+msgstr "图五: 完整NEC数据的样本（1或0）"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:82 IR
 #: NEC Raw Transmit
 msgid "|6|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:183
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:172
 #: IR NEC Raw Transmit
 msgid "6"
 msgstr ""
@@ -239,21 +251,21 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:84 IR
 #: NEC Raw Transmit
 msgid "Figure 6: Sample of a Full NEC RAW Data (in us)"
-msgstr ""
+msgstr "图六: NEC 原始完整数据的样本(us)"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:86 IR
 #: NEC Raw Transmit
 msgid ""
 "Figure 7 and 8 shows the pin configuration of IR Emitter and Receiver "
 "with AMB21/AMB22."
-msgstr ""
+msgstr "图七和图八显示了AMB21 / AMB22板的红外发射器和接收器的引脚配置。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:89 IR
 #: NEC Raw Transmit
 msgid "|7|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:187
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:176
 #: IR NEC Raw Transmit
 msgid "7"
 msgstr ""
@@ -261,14 +273,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:91 IR
 #: NEC Raw Transmit
 msgid "Figure 7: Pin configuration of IR Emitter and AMB21/AMB22"
-msgstr ""
+msgstr "图七: 红外发射器和AMB21 / AMB22的引脚配置"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:93 IR
 #: NEC Raw Transmit
 msgid "|8|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:191
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:180
 #: IR NEC Raw Transmit
 msgid "8"
 msgstr ""
@@ -276,192 +288,164 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:95 IR
 #: NEC Raw Transmit
 msgid "Figure 8: Pin configuration of the IR Receiver and AMB21/AMB22"
-msgstr ""
+msgstr "图八: 红外接收器和AMB21 / AMB22的引脚配置"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:97 IR
 #: NEC Raw Transmit
 msgid ""
 "Figure 9 and Figure 10 shows the pin configuration of IR Emitter and "
-"Receiver with AMB23."
-msgstr ""
+"Receiver with BW16."
+msgstr "图九和图十显示了BW16板的红外发射器和接收器的引脚配置。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:100
-#: IR NEC Raw Transmit
-msgid "|7-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:195
-#: IR NEC Raw Transmit
-msgid "7-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:102
-#: IR NEC Raw Transmit
-msgid "Figure 9: Pin configuration of IR Emitter and AMB23"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:104
-#: IR NEC Raw Transmit
-msgid "|8-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:199
-#: IR NEC Raw Transmit
-msgid "8-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:106
-#: IR NEC Raw Transmit
-msgid "Figure 10: Pin configuration of the IR Receiver and AMB23"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:108
-#: IR NEC Raw Transmit
-msgid ""
-"Figure 11 and Figure 12 shows the pin configuration of IR Emitter and "
-"Receiver with BW16."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:111
 #: IR NEC Raw Transmit
 msgid "|7-2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:203
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:184
 #: IR NEC Raw Transmit
 msgid "7-2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:113
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:102
 #: IR NEC Raw Transmit
-msgid "Figure 11: Pin configuration of IR Emitter and BW16"
-msgstr ""
+msgid "Figure 9: Pin configuration of IR Emitter and BW16"
+msgstr "图十一: 红外发射器和BW16的引脚配置"
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:115
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:104
 #: IR NEC Raw Transmit
 msgid "|8-2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:207
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:188
 #: IR NEC Raw Transmit
 msgid "8-2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:117
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:106
 #: IR NEC Raw Transmit
-msgid "Figure 12: Pin configuration of IR Receiver and BW16"
-msgstr ""
+msgid "Figure 10: Pin configuration of IR Receiver and BW16"
+msgstr "图十二: 红外接收器和BW16的引脚配置"
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:119
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:108
 #: IR NEC Raw Transmit
 msgid ""
 "After the connection is being set up correctly, we will move to the "
 "coding part for this example. First, make sure the correct Ameba "
 "development board is selected in Arduino IDE: “Tools” -> “Board”."
-msgstr ""
+msgstr "正确设置连接后，我们将介绍此范例的编码部分。首先，确保在Arduino IDE中选择了正确的Ameba开发板：“Tools”->“Board”。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:123
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:112
 #: IR NEC Raw Transmit
 msgid ""
 "Open the “IRSendRAW” example in ``“File” -> “Examples” -> “AmebaIRDevice”"
 " -> “IRSendRAW”`` (Figure 11) and upload to 1st board connected with IR "
 "Emitter:"
 msgstr ""
+"在“File”->“Examples”->“ AmebaIRDevice”->“ IRSendRAW”中打开“ "
+"IRSendRAW”范例（图十一），并将其上传到与IR Emitter连接的第一块板上："
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:127
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:116
 #: IR NEC Raw Transmit
 msgid "|9|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:211
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:192
 #: IR NEC Raw Transmit
 msgid "9"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:129
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:118
 #: IR NEC Raw Transmit
-msgid "Figure 13: Example Location of IRSendRaw and IRRecvNEC"
-msgstr ""
+msgid "Figure 11: Example Location of IRSendRaw and IRRecvNEC"
+msgstr "图十一: IRSendRaw 与 IRRecvNEC 的范例位置"
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:131
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:120
 #: IR NEC Raw Transmit
 msgid ""
 "After successfully upload the sample code for IRSendRaw, you might need "
 "to upload the IRRecvNEC example for the 2nd board connected with IR "
 "Receiver from ``“File” -> “Examples” -> “AmebaIRDevice” -> “IRRecvNEC”``."
 msgstr ""
+"成功上传IRSendRaw的范例代码后，您可能需要从“File”->“Examples”->“ AmebaIRDevice”->“ "
+"IRRecvNEC”上传与IR接收器连接的第二块板的IRRecvNEC范例。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:135
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:124
 #: IR NEC Raw Transmit
 msgid ""
 "After opening the serial monitor on the IR Receiver side and press the "
 "reset buttons on two boards, the data “48” will be received every 3 "
 "seconds (due to the delays () function, not compulsory to wait). After "
 "decoding the signal from the receiving Pin D8 and transmitting Pin D9 "
-"with Logic Analyser and Pulse View (Figure 10), the result is also shown "
+"with Logic Analyser and Pulse View (Figure 12), the result is also shown "
 "as “48” after decoding the receiving data with IR NEC Protocol."
 msgstr ""
+"打开IR接收器的serial monitor并按两块开发板上的重置按钮后，将每3秒接收一次数据“ "
+"48”（由于具有delays（）函式，因此不必强制等待）。解码来自接收引脚D8的信号并使用逻辑分析仪和脉冲视图发送引脚D9（图十二）后，使用IR "
+"NEC协议解码接收数据后，结果也显示为“ 48”。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:142
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:131
 #: IR NEC Raw Transmit
 msgid "|10|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:215
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:196
 #: IR NEC Raw Transmit
 msgid "10"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:144
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:133
 #: IR NEC Raw Transmit
-msgid "Figure 14: Pulse View results from sending and receiving pin"
-msgstr ""
+msgid "Figure 12: Pulse View results from sending and receiving pin"
+msgstr "图十二: 发送和接收引脚的脉冲视图结果"
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:146
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:135
 #: IR NEC Raw Transmit
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:150
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:139
 #: IR NEC Raw Transmit
 msgid "[1] Seeed Official website for Grove – Infrared Receiver"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:151
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:140
 #: IR NEC Raw Transmit
 msgid "https://wiki.seeedstudio.com/Grove-Infrared_Receiver/"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:153
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:142
 #: IR NEC Raw Transmit
 msgid "[2] Seed Official website for Grove – Infrared Emitter"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:154
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:143
 #: IR NEC Raw Transmit
 msgid "https://wiki.seeedstudio.com/Grove-Infrared_Emitter/"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:157
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:146
 #: IR NEC Raw Transmit
 msgid ""
 "[3] Ken SHirriff’s blog on A Multi-Protocol Infrared Remote Library for "
 "the Arduino"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:158
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:147
 #: IR NEC Raw Transmit
 msgid "http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:160
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:149
 #: IR NEC Raw Transmit
 msgid "[4] SB-Projects: IR Remote Control Project"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:161
+#: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:150
 #: IR NEC Raw Transmit
 msgid "https://www.sbprojects.net/knowledge/ir/index.php"
 msgstr ""
@@ -494,4 +478,28 @@ msgstr ""
 #~ " pin configuration of IR Emitter and"
 #~ " Receiver with Ameba RTL8720DN (BW16)."
 #~ msgstr ""
+
+#~ msgid "|7-1|"
+#~ msgstr ""
+
+#~ msgid "7-1"
+#~ msgstr ""
+
+#~ msgid "Figure 9: Pin configuration of IR Emitter and AMB23"
+#~ msgstr "图九: 红外发射器和AMB23的引脚配置"
+
+#~ msgid "|8-1|"
+#~ msgstr ""
+
+#~ msgid "8-1"
+#~ msgstr ""
+
+#~ msgid "Figure 10: Pin configuration of the IR Receiver and AMB23"
+#~ msgstr "图十: 红外接收器和AMB23的引脚配置"
+
+#~ msgid ""
+#~ "Figure 11 and Figure 12 shows the"
+#~ " pin configuration of IR Emitter and"
+#~ " Receiver with BW16."
+#~ msgstr "图十一和图十二显示了BW16板的红外发射器和接收器的引脚配置。"
 

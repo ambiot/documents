@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-03-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:12
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:22
 msgid ""
@@ -47,7 +51,7 @@ msgid ""
 "2.9inch e-Paper module to display a few QR codes. The display uses the "
 "flexible substrate as a base plate, with an interface and a reference "
 "system design."
-msgstr ""
+msgstr "在此范例中，我们使用Ameba RTL8722模块连接到Waveshare 2.9英寸e-Paper来显示一些QR码。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:26
 msgid ""
@@ -55,7 +59,7 @@ msgid ""
 "full display capabilities. An integrated circuit contains gate buffer, "
 "source buffer, interface, timing control logic, oscillator, etc… are "
 "supplied with each panel."
-msgstr ""
+msgstr "2.9英寸有效区域包含296×128像素，并具有白色/黑色全显示功能。每个面板都提供了一个包含gate buffer, source buffer, interface, timing control logic, oscillator等的集成电路。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:30
 msgid ""
@@ -63,11 +67,12 @@ msgid ""
 "<https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
 "Paper_(D)_Specification.pdf>`__ to know more information about this "
 "module."
-msgstr ""
+msgstr "您可以参考官方的 `2.9 inch e-Paper HAT(D) datasheet <https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
+"Paper_(D)_Specification.pdf>`__ ，以了解有关此模块的更多信息。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:32
 msgid "Front view of the e-Paper Module:"
-msgstr ""
+msgstr "e-Paper模块:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:34
 msgid "|1|"
@@ -79,7 +84,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:36
 msgid "**AMB21 / AMB22** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21 / AMB22** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:38
 msgid "|2|"
@@ -99,7 +104,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:42
 msgid "**AMB23** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:44
 msgid "|2-1|"
@@ -119,7 +124,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:48
 msgid "**BW16** Wiring Diagram:"
-msgstr ""
+msgstr "**BW16** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:50
 msgid "|2-2|"
@@ -141,13 +146,13 @@ msgstr ""
 msgid ""
 "Download the Eink zip library, AmebaEink.zip, at "
 "https://github.com/ambiot/tree/master/Arduino_zip_libraries"
-msgstr ""
+msgstr "在 https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries 下载 Eink 库 AmebaEink.zip。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:57
 msgid ""
 "Then install the AmebaEink.zip. Open the “DisplayQR” example in ``“File” "
 "-> “Examples” -> “AmebaEink” -> “EinkDisplayText”``:"
-msgstr ""
+msgstr "接着安装 AmebaEink.zip。打开 “DisplayText” 范例 “File” → “Examples” → “AmebaEink” → “EinkDisplayText”:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:59
 msgid "|4|"
@@ -161,7 +166,7 @@ msgstr ""
 msgid ""
 "Upload the code to the board and press the Reset button after the "
 "uploading is done. You will find these texts displayed on the board:"
-msgstr ""
+msgstr "将代码上传到开发板，上传完成后按重置按钮。就可以看到这些文字："
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:65
 msgid "|5|"
@@ -176,11 +181,20 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Text.rst:71
 msgid ""
 "[1] We use Good Display GDEH029A1 2.9 Inch / 296×128 Resolution / Partial"
 " Refresh Arduino Sample Code to get the e-Paper successfully Display: "
 "http://www.good-display.com/product/201.html"
-msgstr ""
+msgstr "[1] 我们使用Good Display GDEH029A1 2.9英寸/ 296×128解析度/部分刷新Arduino范例代码来成功获取e-Paper显示："
+"http://www.good-display.com/product/201.html"
+
+#~ msgid ""
+#~ "Download the Eink zip library, "
+#~ "AmebaEink.zip, at "
+#~ "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries"
+#~ msgstr ""
 

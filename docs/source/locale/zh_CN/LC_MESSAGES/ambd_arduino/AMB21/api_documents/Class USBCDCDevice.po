@@ -1,0 +1,444 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-14 10:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:3
+msgid "Class USBCDCDevice"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:5
+#: USBCDCDevice.rst:79 USBCDCDevice.rst:110 USBCDCDevice.rst:141
+#: USBCDCDevice.rst:172 USBCDCDevice.rst:203 USBCDCDevice.rst:234
+#: USBCDCDevice.rst:265 USBCDCDevice.rst:296 USBCDCDevice.rst:326
+#: USBCDCDevice.rst:356 USBCDCDevice.rst:387 USBCDCDevice.rst:417
+#: USBCDCDevice.rst:448 USBCDCDevice.rst:480 USBCDCDevice.rst:510
+#: USBCDCDevice.rst:540
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:7
+msgid ""
+"A class for managing, transmitting, and receiving data using USB CDC ACM "
+"device class."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:10
+#: USBCDCDevice.rst:83 USBCDCDevice.rst:114 USBCDCDevice.rst:145
+#: USBCDCDevice.rst:176 USBCDCDevice.rst:207 USBCDCDevice.rst:238
+#: USBCDCDevice.rst:269 USBCDCDevice.rst:300 USBCDCDevice.rst:330
+#: USBCDCDevice.rst:360 USBCDCDevice.rst:391 USBCDCDevice.rst:422
+#: USBCDCDevice.rst:453 USBCDCDevice.rst:484 USBCDCDevice.rst:514
+#: USBCDCDevice.rst:544
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:16
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:18
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:20
+msgid ""
+"The public constructor should not be used as this class is intended to be"
+" a singleton class. Access member functions using the object instance "
+"named ``SerialUSB``."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:24
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:27
+msgid "USBCDCDevice::setVID"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:27
+msgid "Set USB vendor ID value"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:29
+msgid "USBCDCDevice::setPID"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:29
+msgid "Set USB product ID value"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:31
+msgid "U SBCDCDevice::setManufacturerString"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:31
+msgid "Set USB manufacturer string"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:34
+msgid "USBCDCDevice::setModelString"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:34
+msgid "Set USB product model string"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:36
+msgid "USBCDCDevice::setSerialString"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:36
+msgid "Set USB product serial number string"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:39
+msgid "USBCDCDevice::USBconnected"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:39
+msgid "Check if the USB port is connected to a host"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:42
+msgid "USBCDCDevice::connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:42
+msgid "Check if the USB CDC serial terminal is ready on the host"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:45
+msgid "USBCDCDevice::dtr"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:45
+msgid "Check DTR signal state"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:47
+msgid "USBCDCDevice::rts"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:47
+msgid "Check RTS signal state"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:49
+msgid "USBCDCDevice::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:49
+msgid "Start serial communication using USB CDC"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:52
+msgid "USBCDCDevice::end"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:52
+msgid "Stop serial communication using USB CDC"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:55
+msgid "USBCDCDevice::available"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:55
+msgid ""
+"Get the number of bytes (characters) available for reading from the USB "
+"serial port"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:60
+msgid "USBCDCDevice::peek"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:60
+msgid ""
+"Returns the next byte (character) of incoming serial data without "
+"removing it from the internal buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:65
+msgid "USBCDCDevice::read"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:65
+msgid "Reads incoming serial data"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:67
+msgid "USBCDCDevice::flush"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:67
+msgid "Waits for the transmission of outgoing serial data to complete"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:71
+msgid "USBCDCDevice::write"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:71
+msgid "Writes binary data to the serial port"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:81
+msgid "Set USB vendor ID value."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:89
+#: USBCDCDevice.rst:120 USBCDCDevice.rst:151 USBCDCDevice.rst:182
+#: USBCDCDevice.rst:213 USBCDCDevice.rst:244 USBCDCDevice.rst:275
+#: USBCDCDevice.rst:306 USBCDCDevice.rst:336 USBCDCDevice.rst:366
+#: USBCDCDevice.rst:397 USBCDCDevice.rst:428 USBCDCDevice.rst:459
+#: USBCDCDevice.rst:490 USBCDCDevice.rst:520 USBCDCDevice.rst:554
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:91
+msgid "``VID`` : vendor ID"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:93
+#: USBCDCDevice.rst:124 USBCDCDevice.rst:155 USBCDCDevice.rst:186
+#: USBCDCDevice.rst:217 USBCDCDevice.rst:248 USBCDCDevice.rst:279
+#: USBCDCDevice.rst:310 USBCDCDevice.rst:340 USBCDCDevice.rst:370
+#: USBCDCDevice.rst:401 USBCDCDevice.rst:432 USBCDCDevice.rst:463
+#: USBCDCDevice.rst:494 USBCDCDevice.rst:524 USBCDCDevice.rst:562
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:95
+#: USBCDCDevice.rst:126 USBCDCDevice.rst:157 USBCDCDevice.rst:188
+#: USBCDCDevice.rst:219 USBCDCDevice.rst:372 USBCDCDevice.rst:403
+#: USBCDCDevice.rst:526
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:97
+#: USBCDCDevice.rst:128 USBCDCDevice.rst:159 USBCDCDevice.rst:190
+#: USBCDCDevice.rst:221 USBCDCDevice.rst:253 USBCDCDevice.rst:284
+#: USBCDCDevice.rst:314 USBCDCDevice.rst:344 USBCDCDevice.rst:374
+#: USBCDCDevice.rst:405 USBCDCDevice.rst:436 USBCDCDevice.rst:468
+#: USBCDCDevice.rst:498 USBCDCDevice.rst:528 USBCDCDevice.rst:566
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:99
+#: USBCDCDevice.rst:130 USBCDCDevice.rst:161 USBCDCDevice.rst:192
+#: USBCDCDevice.rst:223 USBCDCDevice.rst:255 USBCDCDevice.rst:259
+#: USBCDCDevice.rst:286 USBCDCDevice.rst:290 USBCDCDevice.rst:316
+#: USBCDCDevice.rst:320 USBCDCDevice.rst:346 USBCDCDevice.rst:350
+#: USBCDCDevice.rst:407 USBCDCDevice.rst:411 USBCDCDevice.rst:442
+#: USBCDCDevice.rst:470 USBCDCDevice.rst:474 USBCDCDevice.rst:504
+#: USBCDCDevice.rst:530 USBCDCDevice.rst:534 USBCDCDevice.rst:572
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:101
+#: USBCDCDevice.rst:132 USBCDCDevice.rst:163 USBCDCDevice.rst:194
+#: USBCDCDevice.rst:225 USBCDCDevice.rst:257 USBCDCDevice.rst:288
+#: USBCDCDevice.rst:318 USBCDCDevice.rst:348 USBCDCDevice.rst:378
+#: USBCDCDevice.rst:409 USBCDCDevice.rst:440 USBCDCDevice.rst:472
+#: USBCDCDevice.rst:502 USBCDCDevice.rst:532 USBCDCDevice.rst:570
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:103
+msgid ""
+"The VID should be configured before ``USBCDCDevice::begin()`` function is"
+" called."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:112
+msgid "Set USB product ID value."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:122
+msgid "``PID`` : product ID"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:134
+msgid ""
+"The PID should be configured before ``USBCDCDevice::begin()`` function is"
+" called."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:143
+msgid "Set USB manufacturer string."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:153
+msgid "``manufacturer`` : Character string containing manufacturer name"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:165
+msgid ""
+"The manufacturer string should be configured before "
+"``USBCDCDevice::begin()`` function is called."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:174
+msgid "Set USB product model string."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:184
+msgid "``model`` : Character string containing model name"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:196
+msgid ""
+"The model string should be configured before ``USBCDCDevice::begin()`` "
+"function is called."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:205
+msgid "Set USB product serial number string."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:215
+msgid "``serial`` : Character string containing serial number"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:227
+msgid ""
+"The serial string should be configured before ``USBCDCDevice::begin()`` "
+"function is called."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:236
+msgid "Check if the USB port is connected to a host."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:246
+#: USBCDCDevice.rst:277 USBCDCDevice.rst:308 USBCDCDevice.rst:338
+#: USBCDCDevice.rst:399 USBCDCDevice.rst:430 USBCDCDevice.rst:461
+#: USBCDCDevice.rst:492 USBCDCDevice.rst:522
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:250
+msgid ""
+"The function returns **TRUE** if the USB port is connected to a host, "
+"**FALSE** if it is not connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:267
+msgid "Check if the USB CDC serial terminal is ready on the host."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:281
+msgid ""
+"The function returns **TRUE** if the USB port is connected to a host and "
+"the DTR and RTS signals are set, **FALSE** otherwise."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:298
+msgid "Check DTR signal state."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:312
+msgid "The function returns the state of the DTR signal line."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:328
+msgid "Check RTS signal state."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:342
+msgid "The function returns the state of the RTS signal line."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:358
+msgid "Start serial communication using USB CDC."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:368
+msgid "``baud`` : baud rate"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:376
+#: USBCDCDevice.rst:438 USBCDCDevice.rst:500 USBCDCDevice.rst:568
+msgid "Example: USBCDCSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:380
+msgid ""
+"The baud rate parameter has no significance in the context of a USB CDC "
+"serial port and can be left empty."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:389
+msgid "Stop serial communication using USB CDC."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:419
+msgid ""
+"Get the number of bytes (characters) available for reading from the USB "
+"serial port."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:434
+msgid "The function returns the number of bytes received in the buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:450
+msgid ""
+"Returns the next byte (character) of incoming serial data without "
+"removing it from the internal buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:465
+msgid ""
+"The function returns the next byte of received serial data without "
+"removing it from the internal buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:482
+msgid "Reads incoming serial data."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:496
+msgid "The function returns the next byte of received serial data."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:512
+msgid "Waits for the transmission of outgoing serial data to complete."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:542
+msgid "Writes binary data to the serial port."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:556
+msgid "``data`` : 1 byte of data to write to serial port"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:558
+msgid "``buffer`` : pointer to buffer containing data to write to serial port"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:560
+msgid "``size`` : number of bytes of data in buffer to write to serial port"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class USBCDCDevice.rst:564
+msgid "The function returns the number of bytes written to serial port."
+msgstr ""
+

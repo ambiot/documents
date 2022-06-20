@@ -20,6 +20,7 @@ Peripheral Examples
    I2C - Display Data On LCD Screen
    I2C - Receive Data from Arduino UNO	
    IR - Transmit IR NEC Raw Data And Decode
+   IR - Transmit IR SONY Data
    Power Save - Deep Sleep Mode
    Power Save - Deep Sleep for DHT and E-paper
    Power Save - Deep Sleep for DHT and LCD
@@ -38,3 +39,5 @@ Peripheral Examples
    UART - Set Callback Function For UART Communications
    UART - PM2.5 Concentration in The Air
    Watchdog - Simple WDG Timer
+   WS2812B - Basics
+   WS2812B - Patterns

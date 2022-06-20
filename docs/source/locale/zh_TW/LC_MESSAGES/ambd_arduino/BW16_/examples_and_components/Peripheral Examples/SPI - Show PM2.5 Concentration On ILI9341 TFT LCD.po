@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr "SPI - 將PM2.5的數值顯示在ILI9341 TFT LCD 上"
 msgid ""
 "If you are not familiar with SPI, please read `Introduction to SPI "
 "<https://www.amebaiot.com/spi-intro/>`__ first."
-msgstr ""
+msgstr "若您對SPI還不太熟悉，請參考 `SPI介紹 <https://www.amebaiot.com/spi-intro/>`__ "
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:11 On PM2.5 Show TFT
@@ -35,6 +35,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:15 On PM2.5 Show TFT
@@ -57,23 +59,25 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:24 On PM2.5 Show TFT
 msgid ""
 "This example extends previous PM2.5 example to show the PM2.5 "
 "concentration on the LCD."
-msgstr ""
+msgstr "這個範例整合UART的偵測PM2.5的範例，並將結果顯示在LCD上"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:26 On PM2.5 Show TFT
 msgid "**AMB21 / AMB22 and QVGA TFT LCD** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21 / AMB22 與 QVGA** 的接線如下圖："
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:27 On PM2.5 Show TFT
 msgid "(Note: PMS3003/PMS5003 sensor requires 5V voltage)"
-msgstr ""
+msgstr "要注意PM2.5使用5V的電壓"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:29 On PM2.5 Show TFT
@@ -88,7 +92,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:31 On PM2.5 Show TFT
 msgid "**AMB23 and QVGA TFT LCD** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23 與 QVGA** 的接線如下圖："
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:33 On PM2.5 Show TFT
@@ -103,7 +107,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:35 On PM2.5 Show TFT
 msgid "**BW16 and QVGA TFT LCD** Wiring Diagram:"
-msgstr ""
+msgstr "**BW16 與 QVGA** 的接線如下圖："
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:37 On PM2.5 Show TFT
@@ -118,7 +122,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:39 On PM2.5 Show TFT
 msgid "**AMB21 / AMB22 and Adafruit 2.8” TFT LCD** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21 / AMB22 與 Adafruit 2.8” TFT LCD** 的接線如下圖："
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:41 On PM2.5 Show TFT
@@ -133,7 +137,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:43 On PM2.5 Show TFT
 msgid "**AMB23 and and Adafruit 2.8” TFT LCD** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23 與 Adafruit 2.8” TFT LCD** 的接線如下圖："
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:45 On PM2.5 Show TFT
@@ -148,7 +152,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:47 On PM2.5 Show TFT
 msgid "**BW16 and and Adafruit 2.8” TFT LCD** Wiring Diagram:"
-msgstr ""
+msgstr "**BW16 與 Adafruit 2.8” TFT LCD** 的接線如下圖："
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:49 On PM2.5 Show TFT
@@ -165,7 +169,7 @@ msgstr ""
 msgid ""
 "Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> "
 "“PM25_on_ILI9341_TFT_LCD”``"
-msgstr ""
+msgstr "然後打開範例, “Files” -> “Examples” -> “AmebaSPI” -> “ILI9341_TFT_LCD_PM2.5”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:53 On PM2.5 Show TFT
@@ -180,14 +184,14 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:55 On PM2.5 Show TFT
 msgid "Compile and upload to Ameba, then press the reset button."
-msgstr ""
+msgstr "編譯並上傳到Ameba，完成之後按Reset按鈕"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:57 On PM2.5 Show TFT
 msgid ""
 "Then you can see the concentration value of PM1.0, PM2.5 and PM10 on the "
 "LCD."
-msgstr ""
+msgstr "在螢幕上會看到PM1.0、PM2.5、PM10的數值"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:60 On PM2.5 Show TFT
@@ -205,6 +209,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
+"説明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:66 On PM2.5 Show TFT
@@ -213,5 +219,8 @@ msgid ""
 "static components such as the circles, the measuring scale, and the title"
 " text. After the concentration value is detected, it is printed inside "
 "the circle."
-msgstr ""
+msgstr "這個範例先將螢幕轉向90度"
+"然後繪出不會變動的部份，像是圓圈，量尺，標題文字等等"
+"等量到數字時再印到圓圈中間。"
+"量尺旁的箭標則是要先清掉之前的箭標，再畫新的上去"
 

@@ -26,6 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:12 UART
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -33,17 +35,19 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:13 UART
 msgid "Android / iOS smartphone"
-msgstr ""
+msgstr "Android / iOS 智能手机"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:15 UART
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:19 UART
 msgid "**Introduction**"
-msgstr ""
+msgstr "**介绍**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:27 UART
 msgid ""
@@ -54,6 +58,8 @@ msgid ""
 "applications, but users are free to implement custom services and "
 "characteristics to best fit their data structure and application needs"
 msgstr ""
+"BLE可以使用GATT系统发送和接收应用程序数据。 GATT使用服务，特征和属性来组织数据并控制如何读取和写入数据。"
+"BLE的蓝牙SIG规范包括针对常见应用的几种定义服务，但用户可以依据适合其数据结构和应用需求来自由实施自定义服务和特性。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:31 UART
 msgid ""
@@ -61,17 +67,18 @@ msgid ""
 " implement a custom service for transmitting ASCII characters similar to "
 "regular UART. This custom service is the Nordic UART Service, which is "
 "supported in several smartphone apps."
-msgstr ""
+msgstr "在此范例中，BLEService和BLECharacteristic"
+"用于实现类似于常规UART传输ASCII字符的自定义服务。此自定义服务是在多个智能手机应用程序中受支持的Nordic UART服务。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:33 UART
 msgid "**Procedure**"
-msgstr ""
+msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:36 UART
 msgid ""
 "Ensure that a compatible BLE UART app is installed on your smartphone, it"
 " is available at:"
-msgstr ""
+msgstr "确保您的智能手机上已安装兼容的BLE UART应用程序，该应用程序可在以下位置获得："
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:37 UART
 msgid "– Google Play Store:"
@@ -97,7 +104,7 @@ msgstr ""
 msgid ""
 "Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
 "“BLEUartService”``."
-msgstr ""
+msgstr "打开范例, “Files” -> “Examples” -> “AmebaBLE” -> “BLEUartService”."
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:47 UART
 msgid "|1|"
@@ -111,7 +118,7 @@ msgstr ""
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
-msgstr ""
+msgstr "上传代码并在上传完成后按Ameba上的重置按钮。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:56 UART
 msgid ""
@@ -122,6 +129,8 @@ msgid ""
 " I/O, Image Transfer) require other BLE services that are not included in"
 " this example."
 msgstr ""
+"在手机上打开应用程序，扫描并连接到显示为“AMEBA_BLE_DEV”的Ameba开发板，然后在应用程序中选择UART功能。"
+"请注意，Ameba板上的BLE UART服务仅可与Bluefruit Connect应用程序中的UART和Plotter功能一起使用，其他功能（Pin I/O，图像传输）需要此范例中未包括的其他BLE服务。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:58 UART
 msgid "|2|"
@@ -143,13 +152,13 @@ msgstr ""
 msgid ""
 "In the UART terminal section of the app, enter a message and click send. "
 "You should see the message appear in the Arduino serial monitor."
-msgstr ""
+msgstr "在应用程序的UART终端部分中，输入一条消息，然后单击发送。您应该看到消息出现在Arduino串行监视器中。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:65 UART
 msgid ""
 "In the Arduino serial monitor, enter a message and click send. The "
 "message will appear in the smartphone app."
-msgstr ""
+msgstr "在Arduino串行监视器中，输入一条消息，然后单击发送。该消息将出现在手机应用程序中。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:67 UART
 msgid "|4|"
@@ -172,6 +181,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:77 UART
 msgid ""
@@ -179,6 +190,7 @@ msgid ""
 "for receive (Rx) and one for transmit (Tx), and added to a service "
 "created with the BLEService class."
 msgstr ""
+"BLECharacteristic用于创建两个特征，一个用于接收（Rx），一个用于发送（Tx），并添加到使用BLEService创建的服务中。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:82 UART
 msgid ""
@@ -188,6 +200,7 @@ msgid ""
 "size is also set for each characteristic so that it has enough memory to "
 "store a complete string."
 msgstr ""
+"使用 ``set__Property（）`` 方法为每个特征设置所需的读/写/通知属性，并使用 ``set__Callback（）`` 方法注册回调函数。还为每个特征设置了所需的缓冲区大小，以便它有足够的内存来存储完整的字符串。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:85 UART
 msgid ""
@@ -195,6 +208,7 @@ msgid ""
 "callback function is called, which prints out the received data as a "
 "string to the serial monitor."
 msgstr ""
+"将数据写入接收特性时，将调用已注册的回调函数，该函数将接收到的数据作为字符串输出到串行监视器。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:88 UART
 msgid ""
@@ -202,4 +216,5 @@ msgid ""
 "characteristic buffer, and the ``notify()`` method is used to inform the "
 "connected device of the new data."
 msgstr ""
+"在串行端口上接收到数据后，会将其复制到发送特性缓冲区中，然后 ``notify（）`` 方法用于将新数据通知给连接的设备。"
 

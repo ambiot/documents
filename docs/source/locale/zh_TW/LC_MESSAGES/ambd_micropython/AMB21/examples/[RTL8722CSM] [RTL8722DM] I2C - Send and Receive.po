@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"POT-Creation-Date: 2022-06-09 08:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
 #: Receive.rst:8 Send [RTL8722DM] and
 msgid "[RTL8722CSM] [RTL8722DM] I2C - Send and Receive"
-msgstr ""
+msgstr "[RTL8722CSM] [RTL8722DM] I2C - 發送與接收"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
 #: Receive.rst:13 Send [RTL8722DM] and
@@ -28,10 +28,12 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
 #: Receive.rst:17 Send [RTL8722DM] and
-msgid "Ameba x 1"
+msgid "AmebaD[AMB21 / AMB22] x 1"
 msgstr ""
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
@@ -45,6 +47,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
 #: Receive.rst:24 Send [RTL8722DM] and
@@ -54,33 +58,34 @@ msgid ""
 "model and a master can simultaneously connect to up to 128 slaves, making"
 " it a very versatile communication protocol between microcontroller and "
 "sensor."
-msgstr ""
+msgstr "I2C是一個微控制器上非常常見的模塊，它只需要兩根綫就可以實現最大3.4Mbps的傳輸速度。"
+"它使用主從模式，一個主機可以同時連接最多128個從機，因此經常用在微控制器與感應器之間的數據傳輸。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
 #: Receive.rst:26 Send [RTL8722DM] and
 msgid ""
 "Here we are going to use Ameba as an I2C master and Arduino UNO as a "
 "slave to achieve I2C send and recv."
-msgstr ""
+msgstr "這裏我們使用ameba作爲主機來連接從機Arduino UNO，來驗證I2C的發送和接受。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
 #: Receive.rst:28 Send [RTL8722DM] and
 msgid ""
 "Before connection, make sure to upload the *“Examples -> Wire -> "
 "Slave_receiver”* example code to Arduino UNO."
-msgstr ""
+msgstr "在連接之前，請先將以下代碼上傳到Arduino UNO中，“Examples -> Wire -> Slave_receiver”"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
 #: Receive.rst:30 Send [RTL8722DM] and
 msgid ""
 "Connection is shown as follows, here we are using PA_26 as SDA pin and "
 "PA_25 as SCL."
-msgstr ""
+msgstr "接下來，請按以下所示來連接，此處我們選擇PA_26 作爲 SDA引脚，PA_25 作爲 SCL."
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
 #: Receive.rst:33 Send [RTL8722DM] and
 msgid "There is currently 1 set of I2C available to MicroPython user, they are"
-msgstr ""
+msgstr "目前僅支持一組I2C在MicroPython上使用，引脚如下"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] I2C
 #: Receive.rst:39 Send [RTL8722DM] and
@@ -127,5 +132,8 @@ msgstr ""
 msgid ""
 "Then copy and paste the following code line by line into REPL to see "
 "their effects."
-msgstr ""
+msgstr "請一行接一行地複製粘貼以下代碼到REPL上，來觀察代碼效果。"
+
+#~ msgid "Ameba x 1"
+#~ msgstr ""
 

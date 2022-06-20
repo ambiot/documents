@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-17 08:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:3 HID
+msgid "USB - HID Gamepad"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:8 HID
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:13 HID
+msgid "AmebaD [ AMB21 / AMB22 / AMB23 ] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:15 HID
+msgid "USB host device [ Windows / Linux / MacOS ]"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:17 HID
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:22 HID
+msgid "Introduction"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:24 HID
+msgid ""
+"In this example, the RTL8722 board emulates a HID gamepad connected using"
+" USB."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:28 HID
+msgid "Procedure"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:30 HID
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaUSB” -> "
+"“USBHIDGamepad”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:33 HID
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:73 HID
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:35 HID
+msgid "Upload the code and press the reset button once the upload is finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:37 HID
+msgid ""
+"Connect the USB OTG port on the board to the host device. Refer to the "
+"example guide for  USB CDC Serial for connection instructions."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:42 HID
+msgid ""
+"Connect digital pin 8 to 3.3V to start sending input, connect to GND to "
+"stop."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:45 HID
+msgid ""
+"To view the input, open a browser window and go to https://gamepad-"
+"tester.com/. The connected gamepad device should show up here, and some "
+"of the buttons and axes should show changing values."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:49 HID
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:78 HID
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:51 HID
+msgid "On Windows, gamepad input can also be viewed by going to"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:53 HID
+msgid ""
+"**“Control Panel”-> “Devices and Printers” -> “Realtek USB HID” -> “Game "
+"Controller Settings” -> “Properties”**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:56 HID
+msgid "The buttons and axes should also show changing values here."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:59 HID
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:83 HID
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:61 HID
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:88 HID
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:63 HID
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:67 HID
+msgid ""
+"By default, the board emulates a gamepad with an 8-direction hat switch "
+"(d-pad), 6 analog axes and 16 buttons. How the inputs are interpreted is "
+"dependent on the host device, and the button ordering may differ between "
+"devices. Also, some axes or buttons may be disabled or missing on certain"
+" host devices."
+msgstr ""
+
+#~ msgid "USB HID Gamepad"
+#~ msgstr ""
+

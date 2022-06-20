@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:12 Measure
 #: Temperature and
@@ -45,6 +47,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:22 Measure
 #: Temperature and
@@ -53,7 +57,7 @@ msgid ""
 "3.3V~5V. At room temperature, the measurable range of the humidity is 20%"
 " ~ 90%RH with ±5%RH precision, the measurable range of the temperature is"
 " 0 ~ 50℃ with ±2℃ precision."
-msgstr ""
+msgstr "DHT11结合温度与湿度的传感器，工作电压在3.3V~5V，在常温下可量测湿度20% ~ 90%RH，精准度±5%RH，温度可量测0 ~ 50℃，精准度±2 ℃。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:26 Measure
 #: Temperature and
@@ -62,12 +66,12 @@ msgid ""
 "has better precision. Its measurable range of the humidity is 0%~100%RH "
 "with ±5%RH precision, the measurable range of the temperature is -40~125 "
 "℃ with ±0.2℃ precision."
-msgstr ""
+msgstr "DHT22则精准度较高, 湿度可量测0%~100%RH，精准度±5%RH，温度可量测-40 ~ 125 ℃，精准度±0.2℃。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:27 Measure
 #: Temperature and
 msgid "There are 4 pins on the sensor:"
-msgstr ""
+msgstr "两者的pin脚都是一样的，总共有4只脚:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:29 Measure
 #: Temperature and
@@ -84,7 +88,7 @@ msgstr ""
 msgid ""
 "Since one of the 4 pins has no function, there are temperature/humidity "
 "sensors with only 3 pins on the market:"
-msgstr ""
+msgstr "其中有一只脚目前没有作用，所以市面上也看的到重新包装成3只脚的版本:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:34 Measure
 #: Temperature and
@@ -101,21 +105,21 @@ msgstr ""
 msgid ""
 "DHT is normally in the sleeping mode. To get the temperature/humidity "
 "data, please follow the steps:"
-msgstr ""
+msgstr "上电之后，平常DHT都处于睡眠模式，要从DHT取得温湿度，需要以下步骤："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:39 Measure
 #: Temperature and
 msgid ""
 "Awake DHT: Ameba toggles low its DATA pin of GPIO. Now the DATA pin of "
 "GPIO serves as digital out to Ameba."
-msgstr ""
+msgstr "唤醒DHT：Ameba将DATA pin 这根GPIO toggle low，此时DATA GPIO对AMEBA来说是digital out"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:42 Measure
 #: Temperature and
 msgid ""
 "DHT response: DHT also toggle low its DATA pin of GPIO. Now the DATA pin "
 "of GPIO serves as digital in for Ameba."
-msgstr ""
+msgstr "等待DHT回应：DHT也将DATA pin这根GPIO toggle low，此时DATA GPIO对AMEBA来说是digital in"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:45 Measure
 #: Temperature and
@@ -125,7 +129,8 @@ msgid ""
 "pull low the DATA GPIO pin for a while and then pull high. If the "
 "duration of high is smaller than low, it stands for bit 0. Otherwise it "
 "stands for bit 1."
-msgstr ""
+msgstr "DHT将温湿度资料送出：DHT将5 bytes的温湿度资料送出，此时DATA GPIO对AMEBA来说是digital in。 DHT会将5 bytes = 40 bits，以每个bit的方式送出，每个bit的表示方式是，"
+"DHT会先将DATA GPIO pull low 一段时间，再pull high，如果pull high的时间小于pull low的时间就是bit 0, 如果pull high的时间大于pull high的时间就是bi​​t 1"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:51 Measure
 #: Temperature and
@@ -140,7 +145,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:53 Measure
 #: Temperature and
 msgid "**AMB21 / AMB22** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21 / AMB22** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:55 Measure
 #: Temperature and
@@ -155,7 +160,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:57 Measure
 #: Temperature and
 msgid "**AMB23** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:59 Measure
 #: Temperature and
@@ -170,7 +175,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:61 Measure
 #: Temperature and
 msgid "**BW16** Wiring Diagram:"
-msgstr ""
+msgstr "**BW16** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:63 Measure
 #: Temperature and
@@ -188,7 +193,8 @@ msgid ""
 "Open the sample code in ``“Files” -> “Examples” -> “AmebaGPIO” -> "
 "“DHT_Tester”``. Compile and upload to Ameba, then press the reset button."
 " The result would be shown on the Serial Monitor."
-msgstr ""
+msgstr "打开范例程式， “Files” -> “Examples” -> “AmebaGPIO” -> “DHT_Tester”，编译并上传到Ameba，完成之后按Reset按钮。"
+"测量结果会显示在Serial Monitor上"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:70 Measure
 #: Temperature and
@@ -206,13 +212,15 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:76 Measure
 #: Temperature and
 msgid ""
 "Use ``dht.readHumidity()`` read the humidity value, and use "
 "``dht.readTemperature()`` to read the temperature value."
-msgstr ""
+msgstr "``dht.readHumidity()`` 可以读取湿度，``dht.readTemperature()`` 可以读取温度。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:79 Measure
 #: Temperature and
@@ -221,5 +229,5 @@ msgid ""
 " temperature/humidity data unless it found the data has expired (i.e., "
 "has not been updated for over 2 seconds). If the data is expired, Ameba "
 "issues a request to DHT to read the latest data."
-msgstr ""
+msgstr "每次读值的时候，都直接拿现有的数据使用。如果发现暂存的温湿度数据已经两秒没更新，才会主动向DHT要数据。"
 

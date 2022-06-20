@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-14 03:55+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:3
+msgid "USB HID Mouse"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:12
+msgid "Ameba D [ AMB21 / AMB22 / AMB23 ] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:14
+msgid "USB capable host device [ Windows / Linux / MacOS ]"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:16
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:21
+msgid "Introduction"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:23
+msgid ""
+"In this example, the RTL8722 board emulates a HID mouse connected using "
+"USB."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:27
+msgid "Procedure"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:29
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaUSB” -> "
+"“USBHIDMouse”``."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:31
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:55
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:33
+msgid "Upload the code and press the reset button once the upload is finished."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:35
+msgid ""
+"Connect the USB OTG port on the board to the host device. Refer to the "
+"example guide for USB CDC Serial for connection instructions."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:38
+msgid "The board is ready to send mouse input to the host device."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:42
+msgid ""
+"Connect digital pin 8 to 3.3V to start sending input, connect to GND to "
+"stop."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:44
+msgid ""
+"You should see the mouse cursor move around four points in a square, "
+"performing right and left clicks, and scrolling up and down"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:47
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/USB HID Mouse.rst:51
+msgid ""
+"How the mouse input is interpreted is dependent on the host system. Some "
+"systems, such as mobile operating systems, may not support all mouse "
+"button input functions."
+msgstr ""
+

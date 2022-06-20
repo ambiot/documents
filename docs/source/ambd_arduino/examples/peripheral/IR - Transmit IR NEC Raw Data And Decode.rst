@@ -93,28 +93,17 @@ with AMB21/AMB22.
   |8|
 
   Figure 8: Pin configuration of the IR Receiver and AMB21/AMB22
-  
+
 Figure 9 and Figure 10 shows the pin configuration of IR Emitter and 
-Receiver with AMB23.
-
-  |7-1|
-
-  Figure 9: Pin configuration of IR Emitter and AMB23
-
-  |8-1|
-  
-  Figure 10: Pin configuration of the IR Receiver and AMB23
-
-Figure 11 and Figure 12 shows the pin configuration of IR Emitter and 
 Receiver with BW16.
    
    |7-2|
 
-   Figure 11: Pin configuration of IR Emitter and BW16
+   Figure 9: Pin configuration of IR Emitter and BW16
 
    |8-2|
 
-   Figure 12: Pin configuration of IR Receiver and BW16
+   Figure 10: Pin configuration of IR Receiver and BW16
    
 After the connection is being set up correctly, we will move to the
 coding part for this example. First, make sure the correct Ameba
@@ -126,7 +115,7 @@ Emitter:
   
   |9|
   
-  Figure 13: Example Location of IRSendRaw and IRRecvNEC
+  Figure 11: Example Location of IRSendRaw and IRRecvNEC
 
 After successfully upload the sample code for IRSendRaw, you might need
 to upload the IRRecvNEC example for the 2nd board connected with IR
@@ -136,12 +125,12 @@ After opening the serial monitor on the IR Receiver side and press the
 reset buttons on two boards, the data “48” will be received every 3
 seconds (due to the delays () function, not compulsory to wait). After
 decoding the signal from the receiving Pin D8 and transmitting Pin D9
-with Logic Analyser and Pulse View (Figure 10), the result is also shown
+with Logic Analyser and Pulse View (Figure 12), the result is also shown
 as “48” after decoding the receiving data with IR NEC Protocol.
 
   |10|
   
-  Figure 14: Pulse View results from sending and receiving pin
+  Figure 12: Pulse View results from sending and receiving pin
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Code Reference**
@@ -192,14 +181,6 @@ as “48” after decoding the receiving data with IR NEC Protocol.
    :width: 721
    :height: 468
    :scale: 70 %
-.. |7-1| image:: /media/ambd_arduino/Transmit_IR_NEC_Raw_Data_And_Decode/image7-1.png
-   :width: 842
-   :height: 746
-   :scale: 50 %
-.. |8-1| image:: /media/ambd_arduino/Transmit_IR_NEC_Raw_Data_And_Decode/image8-1.png
-   :width: 794
-   :height: 733
-   :scale: 50 %
 .. |7-2| image:: /media/ambd_arduino/Transmit_IR_NEC_Raw_Data_And_Decode/image7-2.png
    :width: 1302
    :height: 1127

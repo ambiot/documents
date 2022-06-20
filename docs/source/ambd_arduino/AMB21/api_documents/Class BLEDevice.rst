@@ -1,12 +1,15 @@
 Class BLEDevice
-====================
-**BLEDevice Class**
+===================
 
-| **Description**
-| A class used for general control and management of BLE functions.
+ **Description**
 
-| **Syntax**
-| class BLEDevice
+ A class used for general control and management of BLE functions.
+
+ **Syntax**
+
+.. code:: cpp
+
+ class BLEDevice
 
 **Members**
 
@@ -58,143 +61,195 @@ Class BLEDevice
 | BLEDevice::getLocalAddr        | Get local device Bluetooth address |
 +--------------------------------+------------------------------------+
 
-**BLEDevice::init**
+-------------------
 
-| **Description**
-| Allocate resources required for BLE functionality.
+.. method:: BLEDevice::init
 
-| **Syntax**
-| void init(void);
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Allocate resources required for BLE functionality.
 
-| **Example Code**
-| Example: BLEBatteryService
+**Syntax**
 
-| **Notes and Warnings**
-| Call this member function first before using any other member
-  functions in the BLEDevice class.
-|  
+.. code:: cpp
 
-**BLEDevice::deinit**
+  void init(void);
 
-| **Description**
-| Free up resources used for BLE functionality.
+**Parameters**
 
-| **Syntax**
-| void deinit(void);
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| The function returns nothing.
+The function returns nothing.
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| Call this member function last after all other BLE operations are
-  stopped.
-|  
+Example: BLEBatteryService
 
-**BLEDevice::connected**
+**Notes and Warnings**
 
-| **Description**
-| Check if a BLE device is connected.
+Call this member function first before using any other member functions in the BLEDevice class.
 
-| **Syntax**
-| bool connected(void);
+---------------------
 
-| **Parameters**
-| The function requires no input parameter.
+.. method:: BLEDevice::deinit
 
-| **Returns**
-| TRUE if another BLE device is connected, FALSE if no BLE device is
-  connected.
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| NA
-|  
+Free up resources used for BLE functionality.
 
-**BLEDevice::setDeviceName**
+**Syntax**
 
-| **Description**
-| Set the BLE GAP device name.
+.. code:: cpp
 
-| **Syntax**
-| void setDeviceName(String devName);
+  void deinit(void);
 
-| **Parameters**
-| devName: desired device name contained in an Arduino String object
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+The function requires no input parameter.
 
-| **Example Code**
-| NA
+**Returns**
 
-| **Notes and Warnings**
-| The GAP device name has a maximum length of 39 characters. Other
-  devices can see this name after a BLE connection is established. This
-  name is separate and different from the device name sent in a BLE
-  advertisement, the names should be the same but are not required.
-|  
+The function returns nothing.
 
-**BLEDevice::setDeviceAppearance**
+**Example Code**
 
-| **Description**
-| Set the BLE GAP device appearance.
+NA
 
-| **Syntax**
-| void setDeviceAppearance(uint16_t devAppearance);
+**Notes and Warnings**
 
-| **Parameters**
-| devAppearance: desired device appearance expressed as a 16-bit
-  unsigned integer.
+Call this member function last after all other BLE operations are stopped.
 
-| **Returns**
-| The function returns nothing.
+------------------------------
 
-| **Example Code**
-| NA
+.. method:: BLEDevice::connected
 
-| **Notes and Warnings**
-| Refer to Bluetooth SIG assigned device appearances
-  at https://www.bluetooth.com/specifications/gatt/characteristics/.
-|  
 
-**BLEDevice::configAdvert**
+**Description**
 
-| **Description**
-| Configure BLE advertising parameters.
+Check if a BLE device is connected.
 
-| **Syntax**
-| BLEAdvert\* configAdvert(void);
+**Syntax**
 
-| **Parameters**
-| The function requires no input parameter.
+.. code:: cpp
 
-| **Returns**
-| A pointer to a BLEAdvert class instance for configuring BLE
-  advertising parameters.
+  bool connected(void);
 
-| **Example Code**
-| Example: BLEBatteryService
+**Parameters**
 
-| **Notes and Warnings**
-| Use this member function instead of creating a BLEAdvert class
-  instance manually.
-|  
+The function requires no input parameter.
 
-**BLEDevice::configScan**
+**Returns**
+
+**TRUE** if another BLE device is connected, **FALSE** if no BLE device is connected.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+---------------
+
+.. method:: BLEdevice::setDeviceName
+
+**Description**
+
+Set the BLE GAP device name.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setDeviceName(String devName);
+
+**Parameters**
+
+``devName`` : desired device name contained in an Arduino String object
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+The GAP device name has a maximum length of 39 characters. Other devices can see this name after a BLE connection is established. This name is separate and different from the device name sent in a BLE
+advertisement, the names should be the same but are not required.
+
+-----------------------------
+
+.. method:: BLEDevice::setDeviceAppearance
+
+
+**Description**
+
+Set the BLE GAP device appearance.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setDeviceAppearance(uint16_t devAppearance);
+
+**Parameters**
+
+``devAppearance``: desired device appearance expressed as a 16-bit unsigned integer.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Refer to Bluetooth SIG assigned device appearances at https://www.bluetooth.com/specifications/gatt/characteristics/.
+
+----------------
+
+.. method:: BLEDevice::configAdvert
+
+
+**Description**
+
+Configure BLE advertising parameters.
+
+**Syntax**
+
+.. code:: cpp
+
+  BLEAdvert * configAdvert(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+A pointer to a BLEAdvert class instance for configuring BLE advertising parameters.
+
+**Example Code**
+
+Example: BLEBatteryService
+
+**Notes and Warnings**
+
+Use this member function instead of creating a BLEAdvert class instance manually.
+
+---------------------------
+
+.. method:: BLEDevice::configScan
 
 | **Description**
 | Configure BLE scanning parameters.
@@ -209,258 +264,323 @@ Class BLEDevice
 | A pointer to a BLEScan class instance for configuring BLE scanning
   parameters.
 
-| **Example Code**
-| Example: BLEScan
+**Example Code**
 
-#include "BLEDevice.h"
+.. code-block:: cpp
+  :caption: BLEScan.ino
+  :linenos:
 
-#include "BLEScan.h"
+  #include "BLEDevice.h"  
+  #include "BLEScan.h"  
 
-int dataCount = 0;
+  int dataCount = 0;  
 
-void scanFunction(T_LE_CB_DATA\* p_data) {
+  void scanFunction(T_LE_CB_DATA* p_data) {  
+      printf("\r\nScan Data %d\r\n", ++dataCount);  
+      BLE.configScan()->printScanInfo(p_data);  
+  }  
 
-printf("\r\nScan Data %d\r\n", ++dataCount);
+  void setup() {  
+      BLE.init();  
+      BLE.configScan()->setScanMode(GAP_SCAN_MODE_ACTIVE);  
+      BLE.configScan()->setScanInterval(500);   // Start a scan every 500ms  
+      BLE.configScan()->setScanWindow(250);     // Each scan lasts for 250ms  
+      // Provide a callback function to process scan data.  
+      // If no function is provided, default BLEScan::printScanInfo is used  
+      BLE.setScanCallback(scanFunction);  
+      BLE.beginCentral(0);  
 
-BLE.configScan()->printScanInfo(p_data);
+      BLE.configScan()->startScan(5000);    // Repeat scans for 5 seconds, then stop  
+  }  
 
-}
+  void loop() {  
 
-void setup() {
+  }
 
-BLE.init();
 
-BLE.configScan()->setScanMode(GAP_SCAN_MODE_ACTIVE);
+**Notes and Warnings**
 
-BLE.configScan()->setScanInterval(500); // Start a scan every 500ms
+Use this member function instead of creating a BLEScan class instance manually.
 
-BLE.configScan()->setScanWindow(250); // Each scan lasts for 250ms
+--------------------
 
-// Provide a callback function to process scan data.
+.. method:: BLEDevice::setScanCallback
 
-// If no function is provided, default BLEScan::printScanInfo is used
 
-BLE.setScanCallback(scanFunction);
+**Description**
 
-BLE.beginCentral(0);
+Set a callback function for processing BLE scan results.
 
-BLE.configScan()->startScan(5000); // Repeat scans for 5 seconds, then
-stop
+**Syntax**
 
-}
+.. code:: cpp
 
-void loop() {
+  void setScanCallback(void (*scanCB)(T_LE_CB_DATA*));
 
-}
+**Parameters**
 
-| **Notes and Warnings**
-| Use this member function instead of creating a BLEScan class instance
-  manually.
-|  
+``scanCB`` : a function that returns nothing and takes in a scan data pointer of type T_LE_CB_DATA\*
 
-**BLEDevice::setScanCallback**
+**Returns**
 
-| **Description**
-| Set a callback function for processing BLE scan results.
+The function returns nothing.
 
-| **Syntax**
-| void setScanCallback(void (*scanCB)(T_LE_CB_DATA*));
+**Example Code**
 
-| **Parameters**
-| scanCB: a function that returns nothing and takes in a scan data
-  pointer of type T_LE_CB_DATA\*
+Example: BLEScan
 
-| **Returns**
-| The function returns nothing.
+**Notes and Warnings**
 
-| **Example Code**
-| Example: BLEScan
+Use this member function to set a callback function that will be called for each BLE device scan result found.
 
-| **Notes and Warnings**
-| Use this member function to set a callback function that will be
-  called for each BLE device scan result found.
-|  
+---------------------
 
-**BLEDevice::beginCentral**
+.. method:: BLEDevice::beginCentral
 
-| **Description**
-| Start the BLE stack in central mode.
 
-| **Syntax**
-| void beginCentral(uint8_t connCount);
+**Description**
 
-| **Parameters**
-| connCount: maximum number of allowed connected devices. If no argument
-  is provided, default to maximum allowed connected devices for specific
-  board.
+Start the BLE stack in central mode.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| Example: BLEScan
-| The function returns nothing.
+.. code:: cpp
 
-| **Notes and Warnings**
-| Use this member function to start the device in BLE central mode,
-  after other BLE parameters are set correctly.
-|  
+  void beginCentral(uint8_t connCount);
 
-**BLEDevice::beginPeripheral**
+**Parameters**
 
-| **Description**
-| Start the BLE stack in peripheral mode.
+``connCount`` : maximum number of allowed connected devices. If no argument is provided, default to maximum allowed connected devices for specific board.
 
-| **Syntax**
-| void beginPeripheral(void);
+**Returns**
 
-| **Parameters**
-| The function requires no input parameter.
+The function returns nothing.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| Example: BLEBatteryService
+Example: BLEScan
 
-| **Notes and Warnings**
-| Use this member function to start the device in BLE peripheral mode,
-  after other BLE parameters are set correctly.
-|  
+The function returns nothing.
 
-**BLEDevice::end**
+**Notes and Warnings**
 
-| **Description**
-| Stop the BLE stack.
+Use this member function to start the device in BLE central mode, after other BLE parameters are set correctly.
 
-| **Syntax**
-| void end(void);
+---------------------------------------
 
-| **Parameters**
-| The function requires no input parameter.
+.. method:: BLEDevice::beginPeripheral
 
-| **Returns**
-| The function returns nothing.
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| Use this member function to stop the device operating in either BLE
-  peripheral mode or BLE central mode.
-|  
+Start the BLE stack in peripheral mode.
 
-**BLEDevice::configServer**
+**Syntax**
 
-| **Description**
-| Configure the BLE stack for services.
+.. code:: cpp
 
-| **Syntax**
-| void configServer(uint8_t maxServiceCount);
+  void beginPeripheral(void);
 
-| **Parameters**
-| maxServiceCount: Maximum number of services that will run on the
-  device
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+The function requires no input parameter.
 
-| **Example Code**
-| Example: BLEBatteryService
+**Returns**
 
-| **Notes and Warnings**
-| Use this member function before adding any service to the BLE stack.
-|  
+The function returns nothing.
 
-**BLEDevice::addService**
+**Example Code**
 
-| **Description**
-| Add a new service to the BLE stack.
+Example: BLEBatteryService
 
-| **Syntax**
-| void addService(BLEService& newService);
+**Notes and Warnings**
 
-| **Parameters**
-| newService: the service to be added, defined using a BLEService class
-  object.
+Use this member function to start the device in BLE peripheral mode, after other BLE parameters are set correctly.
 
-| **Returns**
-| The function returns nothing.
+---------------------
 
-| **Example Code**
-| Example: BLEBatteryService
+.. method:: BLEDevice::end
 
-| **Notes and Warnings**
-| N/A
-|  
 
-**BLEDevice::configClient**
+**Description**
 
-| **Description**
-| Configure the BLE stack for clients.
+Stop the BLE stack.
 
-| **Syntax**
-| void configClient();
+**Syntax**
 
-| **Parameters**
-| The function requries no input parameter.
+.. code:: cpp
 
-| **Returns**
-| The function returns nothing.
+  void end(void);
 
-| **Example Code**
-| Example: BLEBatteryClient
+**Parameters**
 
-| **Notes and Warnings**
-| Use this member function before adding any client to the BLE stack.
-|  
+The function requires no input parameter.
 
-**BLEDevice::addClient**
+**Returns**
 
-| **Description**
-| Add a new client to the BLE stack.
+The function returns nothing.
 
-| **Syntax**
-| BLEClient\* addClient(uint8_t connId);
+**Example Code**
 
-| **Parameters**
-| connId: the connection ID of the connected device to create a client
-  for.
+NA
 
-| **Returns**
-| The function returns a pointer to a BLEClient class object,
-  corresponding to the device with the specified connection ID, which
-  can be used to access the services and characteristics on the
-  connected device.
+**Notes and Warnings**
 
-| **Example Code**
-| Example: BLEBatteryClient
+Use this member function to stop the device operating in either BLE peripheral mode or BLE central mode.
 
-| **Notes and Warnings**
-| Only one client should be added per connected device.
-| The BLEClient object and any service, characteristic, descriptor
-  associated with the connected device will be deleted when the device
-  is disconnected.
-|  
+------------
 
-**BLEDevice::getLocalAddr**
+.. method:: BLEDevice::configServer
 
-| **Description**
-| Get local device Bluetooth address.
 
-| **Syntax**
-| void getLocalAddr(uint8_t (&addr)[GAP_BD_ADDR_LEN]);
+**Description**
 
-| **Parameters**
-| addr: 6 byte array to store local device Bluetooth address.
+Configure the BLE stack for services.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| Local device address is only available after starting in central or
-  peripheral mode. This function will return all zeros for the address
-  if central or peripheral mode is not in operation.
+  void configServer(uint8_t maxServiceCount);
+
+**Parameters**
+
+``maxServiceCount`` : Maximum number of services that will run on the device
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEBatteryService
+
+**Notes and Warnings**
+
+Use this member function before adding any service to the BLE stack.
+
+-----------------------------
+
+.. method:: BLEDevice::addService
+
+
+**Description**
+
+Add a new service to the BLE stack.
+
+**Syntax**
+
+.. code:: cpp
+
+  void addService(BLEService & newService);
+
+**Parameters**
+
+``newService`` : the service to be added, defined using a BLEService class object.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEBatteryService
+
+**Notes and Warnings**
+
+N/A
+
+------------------------
+
+.. method:: BLEDevice::configClient
+
+
+**Description**
+
+Configure the BLE stack for clients.
+
+**Syntax**
+
+.. code:: cpp
+
+  void configClient();
+
+**Parameters**
+
+The function requries no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEBatteryClient
+
+**Notes and Warnings**
+
+Use this member function before adding any client to the BLE stack.
+
+--------
+
+.. method:: BLEDevice::addClient
+
+
+**Description**
+
+Add a new client to the BLE stack.
+
+**Syntax**
+
+.. code:: cpp
+
+  BLEClient * addClient(uint8_t connId);
+
+**Parameters**
+
+``connId``: the connection ID of the connected device to create a client for.
+
+**Returns**
+
+The function returns a pointer to a BLEClient class object, corresponding to the device with the specified connection ID, which
+can be used to access the services and characteristics on the connected device.
+
+**Example Code**
+
+Example: BLEBatteryClient
+
+**Notes and Warnings**
+
+Only one client should be added per connected device. The BLEClient object and any service, characteristic, descriptor associated with the connected device will be deleted when the device
+is disconnected.
+
+-----------------------------
+
+.. method:: BLEDevice::getLocalAddr
+
+
+**Description**
+
+Get local device Bluetooth address.
+
+**Syntax**
+
+.. code:: cpp
+
+  void getLocalAddr(uint8_t (&addr)[GAP_BD_ADDR_LEN]);
+
+**Parameters**
+
+``addr`` : 6 byte array to store local device Bluetooth address.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Local device address is only available after starting in central or peripheral mode. This function will return all zeros for the address if central or peripheral mode is not in operation.

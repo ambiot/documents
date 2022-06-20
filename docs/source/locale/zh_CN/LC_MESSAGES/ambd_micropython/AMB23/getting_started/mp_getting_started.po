@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:3
 msgid "Getting Started"
-msgstr ""
+msgstr "入门指南"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:7
 msgid "Ameba MicroPython: Getting Started with AMB23"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:10
 msgid "Required Environment"
-msgstr ""
+msgstr "工作环境"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:12
 msgid ""
@@ -36,11 +36,12 @@ msgid ""
 "systems. Please use the latest OS version to have the best experiences. "
 "In this documentation, please use the latest version Arduino IDE (at "
 "least version 1.8.12)."
-msgstr ""
+msgstr "AmebaD AMB23 开发板目前支持Windows OS 32位元和64位元（WIN7/8/10）、"
+"Linux OS（Ubuntu 18 LTS/20 LTS/最新版本）和macOS作业系统。请使用最新的作业系统版本以获得最佳体验。在本文档中，请使用最新版本的 Arduino IDE（至少版本 1.8.12）。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:19
 msgid "Introduction to AmebaD[AMB23]"
-msgstr ""
+msgstr "AmebaD[AMB23] 介绍"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:21
 msgid ""
@@ -49,13 +50,14 @@ msgid ""
 "including WiFi, GPIO INT, I2C, UART, SPI, PWM, ADC. Through these "
 "interfaces, AmebaD can connect with electronic components such as LED, "
 "switches, manometer, hygrometer, PM2.5 dust sensors, …etc."
-msgstr ""
+msgstr "Ameba是一个易于编程的微控制器平台，可用于开发各种物联网应用程序。"
+"AmebaD有各种外围接口，包括 WiFi, GPIO INT, I2C, UART, SPI, PWM, ADC。通过这些接口，AmebaD可以连接LED、开关、压力计、湿度计、PM2.5粉尘传感器等电子元件。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:27
 msgid ""
 "The collected data can be uploaded via WiFi and be utilized by "
 "applications on smart devices to realize IoT implementation."
-msgstr ""
+msgstr "Ameba所收集的数据可以通过WiFi无线上传，并被智能设备上的应用程序使用，实现物联网的应用。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:30
 msgid "|image1|"
@@ -400,11 +402,11 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:62
 msgid "`*` : Those functions are not available on MicroPython"
-msgstr ""
+msgstr " `*`: 这些函数在 MicroPython 上不可用。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:64
 msgid "AMB23 has smaller size than Arduino Uno, as shown in the above figure."
-msgstr ""
+msgstr "AMB23 的尺寸比Arduino Uno小，如上图所示。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:66
 msgid "|image2|"
@@ -418,13 +420,13 @@ msgstr ""
 msgid ""
 "AMB23 uses Micro USB to supply power, which is common in many smart "
 "devices."
-msgstr ""
+msgstr "AMB23使用Micro USB来供电，这在许多智能设备中很常见。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:71
 msgid ""
 "Please refer to the following figure and table for the pin diagram and "
 "function of AMB23."
-msgstr ""
+msgstr "AMB23的引脚图和功能请参考下图和表格。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:73
 msgid "|image3|"
@@ -447,34 +449,34 @@ msgid ""
 "Not all sets of peripherals shown on the on the picture/table above are "
 "available on MicroPython, please refer to **Peripheral Example and API** "
 "section for more information."
-msgstr ""
+msgstr "上图/表中显示的并非所有外围设备都可以在MicroPython上使用， 请参阅 **Examples and API** 部分以获取更多资讯。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:84
 msgid "Introduction to AMB23 MicroPython port"
-msgstr ""
+msgstr "AMB23 MicroPython 端口介绍"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:87
 msgid "Background Information"
-msgstr ""
+msgstr "基本介绍"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:89
 msgid ""
 "MicroPython, by definition, is a lean and efficient Python3 compiler and "
 "runtime specially designed for microcontrollers."
-msgstr ""
+msgstr "根据定义，MicroPython是专门为微控制器设计的精简高效的Python3编译器。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:92
 msgid ""
 "MicroPython distinguishes itself from other compilation-based platforms "
 "(Arduino etc.) with its powerful method of real-time interaction to "
 "Microcontroller through a built-in feature -- REPL."
-msgstr ""
+msgstr "MicroPython 透过内建功能-REPL与Microcontroller进行即时交互的方法，将其与其他基于编译的平台（Arduino等）区分开来。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:96
 msgid ""
 "REPL stands for Read-Evaluation-Print-Loop, it is an interactive prompt "
 "that you can use to access and control your microcontroller."
-msgstr ""
+msgstr "REPL代表Read-Evaluation-Print-Loop，它是一个交互式提示，可用于存取和控制微控制器。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:99
 msgid ""
@@ -482,7 +484,7 @@ msgid ""
 "completion, line editing, auto-indentation, input history and more. It "
 "basically functions like the classic Python IDLE but running on "
 "microcontroller."
-msgstr ""
+msgstr "REPL具有其他强大的特色，例如tab处理，行编辑，自动缩排，输入历史记录等。它的基本功能类似于标准的Python IDE，但是运行在微控制器上。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:104
 msgid ""
@@ -494,34 +496,36 @@ msgid ""
 "long as it's support by MicroPython and your microcontroller's "
 "MicroPython port."
 msgstr ""
+"要使用REPL，只需在PC上打开任何串行终端软件（最常用的工具是teraterm，putty等），"
+"然后连接到微控制器的串行端口，然后将baudrate设置为115200，然后手动重置开发板，即可看到>>> MicroPython提示符出现在终端画面上。您就可以在REPL上输入任何Python脚本。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:112
 msgid ""
 "Most importantly, try to abuse ``help()`` function as much as possible to"
 " gain more information. For example, upon microcontroller power up and "
 "REPL shown, just type"
-msgstr ""
+msgstr "建议多尝试使用 ``help()`` 函数以获得更多资讯。例如，微控制器上电并显示REPL后，只需键入help(modules)，"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:118
 msgid ""
 "You will see a help page giving you more details about this port; also if"
 " you type"
-msgstr ""
+msgstr "您将看到一个帮助页面，为您提供有关的更多详细信息。如果您输入"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:123
 msgid "it will list out all available builtin modules that are at your disposal"
-msgstr ""
+msgstr "它将列出所有可用的内建模块供您使用。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:125
 msgid ""
 "Furthermore, if you want to learn more about a module, such as its API "
 "and CONSTANT available, simply type the following code and details of "
 "that module will be returned to you,"
-msgstr ""
+msgstr "此外，如果您想了解有关模块的更多资讯，例如可用的API和CONSTANT，只需键入以下代码help(您感兴趣的模块)来获取该模块的详细信息。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:131
 msgid "Let's take Pin module (GPIO) as an example:"
-msgstr ""
+msgstr "让我们以Pin模块（GPIO）为例："
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:133
 msgid "|image5|"
@@ -546,7 +550,8 @@ msgid ""
 "in 'boot.py' once again. Note that this will only reset the MicroPython "
 "interpreter not the hardware, all your previously configured hardware "
 "will stay the way it is until you manually hard-reset the board."
-msgstr ""
+msgstr "MicroPython将执行软件重启，这在您的微控制器表现异常时非常有用。"
+"并且将再次执行 “boot.py” 中的脚本。请注意，这只会重置MicroPython 直译器而不重置硬件，所有先前配置的硬件将保持原样，直到您手动重置开发板为止。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:147
 msgid "``Ctrl + e``:"
@@ -558,7 +563,7 @@ msgid ""
 "into REPL at once without executing code line by line. This is useful "
 "when you have found a MicroPython library and wish to test it out "
 "immediately by copy and paste"
-msgstr ""
+msgstr "Paste mode 可以一次将一大部分的代码粘贴到REPL中，而无需一行一行地执行代码。适合当您找到MicroPython库并希望通过复制和贴上立即对其进行测试时。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:154
 msgid "``Ctrl + b`` :"
@@ -568,7 +573,7 @@ msgstr ""
 msgid ""
 "Normal mode This hotkey will set REPL back to normal mode. This is useful"
 " if you are stuck in certain mode and can not get out."
-msgstr ""
+msgstr "此热键会将REPL设置回Normal mode。当你卡在某些模式下，可以利用这个解决。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:159
 msgid "``Ctrl + c`` :"
@@ -578,19 +583,19 @@ msgstr ""
 msgid ""
 "Quick cancel This hotkey help you to cancel any input and return a new "
 "line"
-msgstr ""
+msgstr "此热键可帮助您快速取消任何输入并另起一行。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:165
 msgid "Setting up Development Environment"
-msgstr ""
+msgstr "设置开发环境"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:168
 msgid "Step 1. Installing the Driver"
-msgstr ""
+msgstr "步骤1: 安装驱动程序"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:170
 msgid "First, connect AMB23 to the computer via Micro USB:"
-msgstr ""
+msgstr "首先，通过Micro USB将AmebaD连接到电脑:"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:172
 msgid "|image6|"
@@ -604,13 +609,13 @@ msgstr ""
 msgid ""
 "If this is the first time you connect AMB23 to your computer, the USB "
 "driver for AmebaD will be automatic installed."
-msgstr ""
+msgstr "如果这是您第一次将AmebaD连接到您的电脑，那么AmebaD的USB驱动程序将自动安装。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:176
 msgid ""
 "You can check the :guilabel:`COM` port number in :guilabel:`Device "
 "Manager` of your computer:"
-msgstr ""
+msgstr "你可以在你的电脑的装置 :guilabel:`管理员` 中检查 :guilabel:`COM` 端口号:"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:178
 msgid "|image7|"
@@ -622,11 +627,11 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:181
 msgid "Step 2. Installing the necessary tools"
-msgstr ""
+msgstr "步骤2: 安装相关工具"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:184
 msgid "On Windows"
-msgstr ""
+msgstr "Windows环境"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:186
 msgid ""
@@ -634,7 +639,7 @@ msgid ""
 "with MicroPython. The most common serial terminals are **Tera Term** and "
 "**Putty,** here we recommend using Tera Term, which can be downloaded "
 "from internet."
-msgstr ""
+msgstr "对于Windows用户，请安装串行终端软件。最常见的串行终端是 **Tera Term** 和 **Putty**，在这里我们建议使用Tera Term，可以从网路下载。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:191
 msgid ""
@@ -645,7 +650,8 @@ msgid ""
 "installation, installer will prompt user if wish to install other "
 "software, please make sure to select the GNU version of **make** from the"
 " **Devel** category (see picture below) and pick the latest edition."
-msgstr ""
+msgstr "对于希望从头开始编译MicroPython的用户，请确保安装 **Cygwin**，这是在Windows系统上运行的类似Linux的环境。选择Cygwin安装程序时，"
+"我们建议使用Cygwin 32位元版本。在Cygwin安装期间，安装程序将提示用户是否安装其他软件，请确保从 **Devel** 类别中选择 **make** 的GNU版本（请参见下图），然后选择最新版本。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:199
 msgid "|image8|"
@@ -660,50 +666,50 @@ msgid ""
 "Also, Python3 is required during firmware compilation, so be sure to "
 "download the latest Python3 from its official website and have it added "
 "as environment variable when asked during installation."
-msgstr ""
+msgstr "另外，在固件编译过程中需要Python3，因此请确保从其官方网站下载最新的Python3，并在安装过程中要求时将其添加为环境变量。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:208
 msgid "On Linux"
-msgstr ""
+msgstr "Linux环境:"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:210
 msgid ""
 "For Linux user, please install a serial terminal software of your choice "
 "using apt-get install command. Here we recommend using **picocom** for "
 "its lightweight."
-msgstr ""
+msgstr "对于Linux用户，请使用apt-get install命令安装您选择的串行终端软件。在这里，我们建议使用picocom。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:214
 msgid ""
 "For advanced developer interested in developing MicroPython module in C, "
 "please make sure the GNU make of at least **version 3.82 or newer** and "
 "Python3 are installed and can be found using terminal."
-msgstr ""
+msgstr "对于有兴趣在C语言中开发MicroPython模块的用户，请确保安装了至少3.82或更高版本的GNU make软件以及Python3。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:220
 msgid "Upload Firmware into Ameba"
-msgstr ""
+msgstr "将固件上传到Ameba"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:223
 msgid "Step 1. Navigate to “Release” folder"
-msgstr ""
+msgstr "步骤1: 找到“Release”文件夹"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:225
 msgid ""
 "After downloading the MicroPython repository from Github, you will notice"
 " a “Release” folder in the root directory of this repository, enter this "
 "folder and locate a tool named “Double-Click-Me-to-Upload”."
-msgstr ""
+msgstr "从Github下载MicroPython repository 后，会在根目录中看到一个“Release”文件夹，并且在该路径下找到一个名为“Double-Click-Me-to-Upload”的工具。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:230
 msgid "Step 2. Enter UART Download mode"
-msgstr ""
+msgstr "步骤2: 进入UART下载模式"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:232
 msgid ""
 "To do this, first press and hold the :guilabel:`UART_DOWNLOAD` button, "
 "then press the :guilabel:`RESET` button."
-msgstr ""
+msgstr "请先按住UART_DOWNLOAD按钮，然后按RESET按钮。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:235
 msgid "|image9|"
@@ -715,7 +721,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:238
 msgid "Step 3. Run “Double-Click-Me-to-Upload”"
-msgstr ""
+msgstr "步骤3: 运行 “Double-Click-Me-to-Upload”"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:240
 msgid ""
@@ -725,15 +731,15 @@ msgid ""
 " so the uploading can be carried out successfully. Once the uploading is "
 "successful, you will see a line of log printed on the screen – “All "
 "images are sent successfully”"
-msgstr ""
+msgstr "顾名思义，双击该文件以运行它，然后按照屏幕上显示的说明更新ameba的串行COM端口，这样上传就可以成功进行。上传成功后，您将在屏幕上看到一行日志–“All images are sent successfully”。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:249
 msgid "Try the First Example"
-msgstr ""
+msgstr "尝试第一个范例"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:252
 msgid "Step 1. Open REPL"
-msgstr ""
+msgstr "步骤1: 打开 REPL"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:254
 msgid "|image10|"
@@ -749,7 +755,7 @@ msgid ""
 " MicroPython’s terminal for user to control the microcontroller. REPL is "
 "running on LOG UART, thus we need to open our serial terminal software, "
 "in this case, Tera Term to see REPL,"
-msgstr ""
+msgstr "REPL代表 **读取** ， **评估** ，**打印** 和 **循环** ，它是MicroPython的终端，供用户控制微控制器。 REPL在LOG UART上运行，因此我们需要打开串行终端软件，在本例中为Tera Term，用以查看REPL。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:261
 msgid ""
@@ -758,14 +764,14 @@ msgid ""
 "“OK”. If your serial terminal is not configured to 115200 baud rate, now "
 "is the time to change it to **115200** and leave the rest of settings as "
 "default."
-msgstr ""
+msgstr "打开Tera Term后，如上图所示选择 “Serial”，然后使用下拉列表选择ameba的串行端口，然后单击“OK”。如果您的串行终端未配置为 **115200** baudrate，建议将 **115200** 设定为默认设置。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:267
 msgid ""
 "Now that the serial port is connected, press the :guilabel:`RESET` button"
 " once on your ameba and you should see the MicroPython’s welcome page as "
 "shown below,"
-msgstr ""
+msgstr "现在已经连接了串行端口，在ameba上按一下RESET按钮，如下所示会看到MicroPython的欢迎页面。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:271
 msgid "|image11|"
@@ -781,38 +787,38 @@ msgid ""
 "and then boot into MicroPython’s firmware, MicroPython then run the "
 "``“boot.py”`` python script and imported all the built-in libraries so we"
 " can quickly start coding."
-msgstr ""
+msgstr "过程为Ameba首先检查其校准数据，然后启动MicroPython的固件，接着再运行 ``boot.py`` python脚本和导入的内建python库。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:278
 msgid "Now, you can simply type"
-msgstr ""
+msgstr "现在试着输入"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:282
 msgid "to see more information, and type"
-msgstr ""
+msgstr "查看更多信息，然后输入"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:286
 msgid "to check all readily available libraries"
-msgstr ""
+msgstr "检查所有现成可用的python库。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:289
 msgid "Step 2. Run WiFi Scan example"
-msgstr ""
+msgstr "步骤2: 执行WiFi扫描范例"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:291
 msgid ""
 "As most of peripherals’ examples requires additional hardware to show the"
 " example is working, we will just use WiFi Scan example as our first "
 "example and to see how easy it is to control WiFi using MicroPython."
-msgstr ""
+msgstr "由于大多数外围设备的范例都需要额外的硬件才能显示该范例是否正常运行，因此我们将仅以WiFi扫描范例为例，来了解使用MicroPython控制WiFi是十分容易的。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:295
 msgid "Now, simply type"
-msgstr ""
+msgstr "接着输入"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:299
 msgid "You should be able to see this,"
-msgstr ""
+msgstr "应该可以看到下图:"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:301
 msgid "|image12|"
@@ -827,7 +833,7 @@ msgid ""
 "Then simply copy the code highlighted in the red box and paste to REPL "
 "then Enter, you should be able to see the returned result with all "
 "discovered wireless network in your surrounding"
-msgstr ""
+msgstr "然后只需复制红色框中显示的代码并黏贴到 REPL 然后按Enter，则能够看到返回的结果显示周围所有发现的无线网络。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:307
 msgid "|image13|"
@@ -841,7 +847,7 @@ msgstr ""
 msgid ""
 "With this, we can be sure that the MicroPython firmware is correctly "
 "compiled and installed."
-msgstr ""
+msgstr "这样我们可以确定 MicroPython 固件被正确编译和安装。"
 
 #: ../../source/ambd_micropython/AMB23/getting_started/mp_getting_started.rst:312
 msgid "**(End)**"
@@ -851,7 +857,7 @@ msgstr ""
 msgid ""
 "If you face any issue, please refer to the :doc:`../../AMB23/support/FAQ`"
 " and :doc:`../../AMB23/support/Trouble shooting` page."
-msgstr ""
+msgstr "如果您遇到任何问题，请参考 :doc:`../../AMB21/support/FAQ` 和 :doc:`../../AMB23/support/Trouble shooting` 的页面。"
 
 #~ msgid ""
 #~ "If you face any issue, please "

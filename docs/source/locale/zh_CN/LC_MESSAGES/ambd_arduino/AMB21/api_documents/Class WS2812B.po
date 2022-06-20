@@ -1,0 +1,305 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-14 10:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:3
+msgid "Class WS2812B"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:7
+#: WS2812B.rst:58 WS2812B.rst:90 WS2812B.rst:120 WS2812B.rst:151
+#: WS2812B.rst:182 WS2812B.rst:212 WS2812B.rst:249 WS2812B.rst:288
+#: WS2812B.rst:326
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:9
+msgid "Defines a class to use WS2812B LED with AmebaD."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:11
+#: WS2812B.rst:62 WS2812B.rst:94 WS2812B.rst:124 WS2812B.rst:155
+#: WS2812B.rst:186 WS2812B.rst:216 WS2812B.rst:253 WS2812B.rst:292
+#: WS2812B.rst:330
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:17
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:19
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:22
+msgid "WS2812B::WS2812B"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:22
+#: WS2812B.rst:60
+msgid "Constructs a WS2812B object"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:26
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:29
+msgid "WS2812B::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:29
+#: WS2812B.rst:92
+msgid "Check for correct pin settings and prepare to drive the WS2812B"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:33
+msgid "WS2812B::show"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:33
+#: WS2812B.rst:122
+msgid "Pushes the color data out to the LEDs"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:36
+msgid "WS2812B::clear"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:36
+#: WS2812B.rst:153
+msgid "Clear the memory"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:38
+msgid "WS2812B::setLEDCount"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:38
+#: WS2812B.rst:184
+msgid "Allocate memory for all the LEDs"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:41
+msgid "WS2812B::setPixelColor"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:41
+#: WS2812B.rst:214
+msgid "Set the color of a LED"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:43
+msgid "WS2812B::fill"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:43
+msgid "Set multiple LEDs with the same color"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:46
+msgid "WS2812B::colorHSV"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:46
+#: WS2812B.rst:290
+msgid "Convert to RGB values from HSV"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:49
+msgid "WS2812B::rainbow"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:49
+#: WS2812B.rst:328
+msgid "Fill all the LEDs with one or more cycle of hues"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:68
+#: WS2812B.rst:100 WS2812B.rst:130 WS2812B.rst:161 WS2812B.rst:192
+#: WS2812B.rst:222 WS2812B.rst:259 WS2812B.rst:298 WS2812B.rst:336
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:70
+msgid "``input_pin`` : The MOSI pin that is connected to the WS2812B LED."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:72
+msgid "``num_leds`` : The number of LEDs that needs to be light up"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:74
+#: WS2812B.rst:104 WS2812B.rst:134 WS2812B.rst:165 WS2812B.rst:196
+#: WS2812B.rst:233 WS2812B.rst:271 WS2812B.rst:310 WS2812B.rst:351
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:76
+#: WS2812B.rst:106 WS2812B.rst:136 WS2812B.rst:167 WS2812B.rst:198
+#: WS2812B.rst:235 WS2812B.rst:273 WS2812B.rst:353
+msgid "The function returns nothing"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:78
+#: WS2812B.rst:108 WS2812B.rst:138 WS2812B.rst:169 WS2812B.rst:200
+#: WS2812B.rst:237 WS2812B.rst:275 WS2812B.rst:314 WS2812B.rst:355
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:80
+#: WS2812B.rst:110 WS2812B.rst:140 WS2812B.rst:239
+msgid "Example: WS2812B_Basics; WS2812B_Patterns"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:82
+#: WS2812B.rst:112 WS2812B.rst:142 WS2812B.rst:173 WS2812B.rst:204
+#: WS2812B.rst:241 WS2812B.rst:279 WS2812B.rst:318 WS2812B.rst:359
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:84
+msgid "Only SPI MOSI pin is valid for driving WS2812B LEDs."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:102
+#: WS2812B.rst:132 WS2812B.rst:163 WS2812B.rst:194
+msgid "This function does not require any input parameters"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:114
+#: WS2812B.rst:202 WS2812B.rst:206 WS2812B.rst:243 WS2812B.rst:320
+#: WS2812B.rst:361
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:144
+msgid ""
+"The amount of time needed to push the color data will increase with more "
+"LEDs."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:171
+#: WS2812B.rst:316 WS2812B.rst:357
+msgid "Example: WS2812B_Patterns"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:175
+msgid ""
+"This function only clears the color data from memory. To turn off the "
+"LED, please use ``WS2812B::show()``."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:224
+msgid ""
+"``Led_Number`` : The LED number, with 0 being the LED closest to the data"
+" input pin"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:227
+#: WS2812B.rst:261
+msgid "``rColor`` : Red brightness level, from 0 (Off) – 255 (Maximum brightness)"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:229
+#: WS2812B.rst:263
+msgid ""
+"``gColor`` : Green brightness level, from 0 (Off) – 255 (Maximum "
+"brightness)"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:231
+#: WS2812B.rst:265
+msgid ""
+"``bColor`` : Blue brightness level, from 0 (Off) – 255 (Maximum "
+"brightness)"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:251
+msgid "Set multiple LEDs with the same colors"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:267
+msgid "``first`` : The index of the first LED to start filling with color"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:269
+msgid "``count`` : Total number of LEDs to be set with the color"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:277
+msgid "Example: WS2812B_Basics"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:281
+msgid ""
+"If the first and count is not provided, the default behaviour would be to"
+" fill all LEDs."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:300
+msgid ""
+"``hue`` : Expressed as 16-bit number. Starting from 0 for red, it "
+"increments first towards yellow, and on through green, cyan, blue, "
+"magenta, and black to red."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:304
+msgid ""
+"``sat`` : Intensity or purity of the color. Expressed as 8-bit number "
+"ranging from 0 to 255. In the middle, you will get something sort of "
+"pastel."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:307
+msgid ""
+"``val`` : Brightness of a color. Expressed as an 8-bit number ranging "
+"from 0 to 255."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:312
+msgid "The function returns the RGB values converted from HSV."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:338
+msgid ""
+"``first_hue`` : hue of first LED, 0 – 65535, representing one full cycle "
+"of the color wheel."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:341
+msgid ""
+"``reps`` : Number of cycles of the color wheel over the length of the "
+"strip. Default is 1. Negative values can be used to reverse the hue "
+"order."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:344
+msgid ""
+"``saturation`` : Intensity or purity of the color. Expressed as 8-bit "
+"number ranging from 0 to 255. In the middle, you will get something sort "
+"of pastel."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class WS2812B.rst:348
+msgid ""
+"``brightness`` : Brightness of a color. Expressed as an 8-bit number "
+"ranging from 0 to 255."
+msgstr ""
+

@@ -1,0 +1,321 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-20 03:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:3 IR SONY
+#: Transmit
+msgid "IR - Transmit IR Sony Data"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:8 IR SONY
+#: Transmit
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:12 IR SONY
+#: Transmit
+msgid "AmebaD [ AMB21 / AMB22 / BW16 ] x 2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:14 IR SONY
+#: Transmit
+msgid "Grove – Infrared Emitter x1 (Figure 1)"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:16 IR SONY
+#: Transmit
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:20 IR SONY
+#: Transmit
+msgid ""
+"In this example, we use one Ameba RTL8722 modules that connecting with an"
+" infrared (IR) Emitter to transmit and receive IR SONY data “0xA90” (Sony"
+" TV power code). For the receiver side, you can either use an "
+"oscilloscope/logic analyser to view the waveform and decode accordingly."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:25 IR SONY
+#: Transmit
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:129 IR SONY
+#: Transmit
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:27 IR SONY
+#: Transmit
+msgid "Figure 1: Grove – Infrared Transmitter"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:29 IR SONY
+#: Transmit
+msgid ""
+"On the transmission side, the transmitter will send IR SONY data. For "
+"more details, please refer to SB-Projects’ topic of IR Remote Control "
+"Theory to learn the theory of IR remote controls operation and a "
+"collection of IR protocol descriptions. In this example, we are going to "
+"use Sony as the transmission protocol."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:35 IR SONY
+#: Transmit
+msgid "**Sony Features**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:37 IR SONY
+#: Transmit
+msgid "12-bit version, 7 command bits, 5 address bits."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:39 IR SONY
+#: Transmit
+msgid "Pulse width modulation."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:41 IR SONY
+#: Transmit
+msgid "Carrier frequency of 40kHz."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:43 IR SONY
+#: Transmit
+msgid "Bit time of 1.2ms or 0.6ms."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:45 IR SONY
+#: Transmit
+msgid "**Sony SIRC Modulation**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:47 IR SONY
+#: Transmit
+msgid ""
+"The SIRC protocol uses pulse width encoding of the bits. The pulse "
+"representing a logical \"1\" is a 1200us long burst of the 40kHz carrier,"
+" while the burst width for a logical \"0\" is 600us long. All bursts are "
+"separated by a 600us long space interval as shown in Figure 2 below."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:52 IR SONY
+#: Transmit
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:134 IR SONY
+#: Transmit
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:54 IR SONY
+#: Transmit
+msgid "Figure 2: Sony SIRC Modulation"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:56 IR SONY
+#: Transmit
+msgid "**Protocol**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:58 IR SONY
+#: Transmit
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:139 IR SONY
+#: Transmit
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:60 IR SONY
+#: Transmit
+msgid "Figure 3: 12-bit Sony SIRC protocol"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:62 IR SONY
+#: Transmit
+msgid ""
+"The Figure 3 above shows a typical pulse train of the 12-bit SIRC "
+"protocol. With this protocol the LSB is transmitted first. The start "
+"burst is always 2.4ms wide, followed by a standard space of 0.6ms. Apart "
+"from signalling the start of a SIRC message this start burst is also used"
+" to adjust the gain of the IR receiver. Then the 7-bit Command is "
+"transmitted, followed by the 5-bit Device address. In this case Address 1"
+" and Command 19 is transmitted."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:70 IR SONY
+#: Transmit
+msgid ""
+"Commands are repeated every 45ms (measured from start to start) for as "
+"long as the key on the remote control is held down."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:73 IR SONY
+#: Transmit
+msgid ""
+"Figure 4 shows the pin configuration of IR Emitter with AMB21 / AMB22 "
+"board."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:76 IR SONY
+#: Transmit
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:144 IR SONY
+#: Transmit
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:78 IR SONY
+#: Transmit
+msgid "Figure 4: Pin configuration of IR Emitter and AMB21 / AMB22"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:80 IR SONY
+#: Transmit
+msgid "Figure 6 shows the pin configuration of IR Emitter with BW16."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:82 IR SONY
+#: Transmit
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:149 IR SONY
+#: Transmit
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:84 IR SONY
+#: Transmit
+msgid "Figure 5: Pin configuration of the IR Emitter and BW16"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:86 IR SONY
+#: Transmit
+msgid ""
+"After the connection is being set up correctly, we will move to the "
+"coding part for this example. First, make sure the correct Ameba "
+"development board is selected in Arduino IDE: “Tools” -> “Board”."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:90 IR SONY
+#: Transmit
+msgid ""
+"Open the “IRSendSONY” example in “File” -> “Examples” -> “AmebaIRDevice” "
+"-> “IRSendSONY” (Figure 6) and upload to the board connected with IR "
+"Emitter:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:94 IR SONY
+#: Transmit
+msgid "|6|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:154 IR SONY
+#: Transmit
+msgid "6"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:96 IR SONY
+#: Transmit
+msgid "Figure 6: Example Location of IRSendSONY"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:98 IR SONY
+#: Transmit
+msgid ""
+"After successfully upload the sample code for IRSendSONY, you could use "
+"oscilloscope or Pulse View software to find out the waveform of the "
+"signal transmitted from the IR Emitter is “0xA90” as shown in Figure "
+"below:"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:103 IR SONY
+#: Transmit
+msgid "|7|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:159 IR SONY
+#: Transmit
+msgid "7"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:105 IR SONY
+#: Transmit
+msgid "Figure 7: Waveform of IRSendSONY “0xA90”"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:107 IR SONY
+#: Transmit
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
+"Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:111 IR SONY
+#: Transmit
+msgid "[1] Seed Official website for Grove – Infrared Emitter"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:113 IR SONY
+#: Transmit
+msgid "https://wiki.seeedstudio.com/Grove-Infrared_Emitter/"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:115 IR SONY
+#: Transmit
+msgid ""
+"[2] Ken SHirriff’s blog on A Multi-Protocol Infrared Remote Library for "
+"the Arduino"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:118 IR SONY
+#: Transmit
+msgid "http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:120 IR SONY
+#: Transmit
+msgid "[3] SB-Projects: IR Remote Control Project"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:122 IR SONY
+#: Transmit
+msgid "https://www.sbprojects.net/knowledge/ir/index.php"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:124 IR SONY
+#: Transmit
+msgid "[4] SONY SIRC Protocol"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:126 IR SONY
+#: Transmit
+msgid "https://www.sbprojects.net/knowledge/ir/sirc.php"
+msgstr ""
+

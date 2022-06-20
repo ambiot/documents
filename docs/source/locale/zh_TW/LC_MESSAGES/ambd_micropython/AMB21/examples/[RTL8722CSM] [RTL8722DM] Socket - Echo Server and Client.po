@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"POT-Creation-Date: 2022-06-09 08:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:8
 #: Echo Server Socket [RTL8722DM] and
 msgid "[RTL8722CSM] [RTL8722DM] Socket - Echo Server and Client"
-msgstr ""
+msgstr "[RTL8722CSM] [RTL8722DM] Socket - Echo服務器與客戶端"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:13
 #: Echo Server Socket [RTL8722DM] and
@@ -28,10 +28,12 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:17
 #: Echo Server Socket [RTL8722DM] and
-msgid "Ameba x 2"
+msgid "AmebaD[AMB21 / AMB22] x 2"
 msgstr ""
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:19
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:23
 #: Echo Server Socket [RTL8722DM] and
@@ -47,7 +51,7 @@ msgid ""
 "After WiFi is set up, the best way to access the internet is to use "
 "socket. Socket is like an imaginary ethernet socket by which you use to "
 "connect your PC to some server on the internet like Google or Github."
-msgstr ""
+msgstr "WiFi連接完成後即可使用Socket來使用網路。 Socket就像一個假想的乙太網路介面，你可以用它把你的PC連接到互聯網上的服務器上，比如Google或Github。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:25
 #: Echo Server Socket [RTL8722DM] and
@@ -55,7 +59,8 @@ msgid ""
 "Application layer protocol like HTTP are also built on top of socket. "
 "Once you are given an IP address and a port number, you can start to "
 "connect to the remote device and talk to it."
-msgstr ""
+msgstr "即使是像HTTP這樣的應用層協議也是建立在socket之上的。"
+"一旦給定了IP地址和端口號，就可以自由地連接到遠程設備並與其進行通信。連接流程如下圖所示。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:27
 #: Echo Server Socket [RTL8722DM] and
@@ -74,15 +79,19 @@ msgid ""
 " each other’s message, to use this example, you need 2 ameba RTL8722 "
 "running MicroPython, copy and paste the following code to 2 ameba "
 "respectively under REPL paste mode."
-msgstr ""
+msgstr "下面是一個使用服務器socket和客戶端socket互相傳送消息的範例，"
+"要使用這個範例，您需要兩個ameba RTL8722來運行MicroPython，在REPL 的paste模式下分別將下面的代碼複製並粘貼到兩個ameba。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:31
 #: Echo Server Socket [RTL8722DM] and
 msgid "This is the **server** code,"
-msgstr ""
+msgstr "以下是 **服務器** 代碼"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Client.rst:49
 #: Echo Server Socket [RTL8722DM] and
 msgid "This is the **client** code,"
-msgstr ""
+msgstr "以下是 **客戶端** 代碼"
+
+#~ msgid "Ameba x 2"
+#~ msgstr ""
 

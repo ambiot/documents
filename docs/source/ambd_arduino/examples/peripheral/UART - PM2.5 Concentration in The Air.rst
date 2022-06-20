@@ -42,7 +42,7 @@ the data it reads continuously. Each data is of 32 byte, please refer to
 the following article for detailed data format
 information: 
 
-https://www.dfrobot.com/wiki/index.php?title=PM2.5_laser_dust_sensor_SKU:SEN0177 RTL8722
+https://www.dfrobot.com/wiki/index.php?title=PM2.5_laser_dust_sensor_SKU:SEN0177 
 
 **AMB21 / AMB22** Wiring Diagram:
   

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/AMB21/api_documents/index.rst:8
 msgid "API Documents"
-msgstr ""
+msgstr "API 文件"
 
 #: ../../source/ambd_micropython/AMB21/api_documents/index.rst:10
 msgid "**AMB21/AMB22 MicroPython Online API Documents**"

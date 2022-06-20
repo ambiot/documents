@@ -1,14 +1,15 @@
 Class BLEHIDMouse 
 =================
 
-**BLEHIDMouse Class**
-
 **Description**
 
 A class used for creating and managing a BLE HID Mouse.
 
-| **Syntax**
-| class BLEHIDMouse
+**Syntax**
+
+.. code:: cpp
+
+  class BLEHIDMouse
 
 **Members**
 
@@ -43,179 +44,268 @@ A class used for creating and managing a BLE HID Mouse.
 | HIDMouse::mouseScroll | scroll wheel movement                        |
 +-----------------------+----------------------------------------------+
 
-**BLEHIDMouse::BLEHIDMouse**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----
 
-| **Description**
-| Constructs a BLEHIDMouse object.
+.. method:: BLEHIDMouse::BLEHIDMouse
 
-| **Syntax**
-| BLEHIDMouse::BLEHIDMouse();
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+Constructs a BLEHIDMouse object.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| Example: BLEHIDMouse
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
+  BLEHIDMouse::BLEHIDMouse();
 
-**BLEHIDMouse::setReportID**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Parameters**
 
-| **Description**
-| Set HID report ID for the HID Mouse.
+The function requires no input parameter.
 
-| **Syntax**
-| void setReportID (uint8_t reportID);
+**Returns**
 
-| **Parameters**
-| reportID: The report ID for the HID mouse device, corresponding to the
-  HID report descriptor.
+The function returns nothing.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| NA
+Example: BLEHIDMouse
 
-| **Notes and Warnings**
-| NA
+**Notes and Warnings**
 
-**BLEHIDMouse::mouseReport**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+NA
 
-| **Description**
-| Send a HID Mouse report.
+----
 
-| **Syntax**
-| void mouseReport (hid_mouse_report_t\* report);
-| void mouseReport (uint8_t buttons, int8_t x, int8_t y, int8_t scroll);
+.. method:: BLEHIDMouse::setReportID
 
-| **Parameters**
-| report: pointer to mouse report structure containing data on mouse
-  inputs
-| buttons: bitmap indicating state of each button. 1 = pressed, 0 =
-  released.
-| x: mouse x-axis movement. Integer value from -127 to 127.
-| y: mouse y-axis movement. Integer value from -127 to 127.
-| scroll: mouse scroll wheel movement. Integer value from -127 to 127.
 
-| **Returns**
-| The function returns nothing.
+**Description**
 
-| **Example Code**
-| NA
+Set HID report ID for the HID Mouse.
 
-| **Notes and Warnings**
-| NA
+**Syntax**
 
-**BLEHIDMouse::mousePress**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. code:: cpp
 
-| **Description**
-| Send a HID Mouse report indicating buttons pressed.
+  void setReportID (uint8_t reportID);
 
-| **Syntax**
-| void mousePress (uint8_t buttons);
+**Parameters**
 
-| **Parameters**
-| buttons: bitmap indicating buttons pressed. 1 = pressed.
+``reportID`` : The report ID for the HID mouse device, corresponding to the
+HID report descriptor.
 
-| **Returns**
-| The function returns nothing.
+**Returns**
 
-| **Example Code**
-| Example: BLEHIDMouse
+The function returns nothing.
 
-| **Notes and Warnings**
-| NA
+**Example Code**
 
-**BLEHIDMouse::mouseRelease**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+NA
 
-| **Description**
-| Send a HID Mouse report indicating buttons released.
+**Notes and Warnings**
 
-| **Syntax**
-| void mouseRelease (uint8_t buttons);
+NA
 
-| **Parameters**
-| buttons: bitmap indicating buttons released. 1 = released.
+----
 
-| **Returns**
-| The function returns nothing.
+.. method:: BLEHIDMouse::mouseReport
 
-| **Example Code**
-| Example: BLEHIDMouse
 
-| **Notes and Warnings**
-| NA
+**Description**
 
-**BLEHIDMouse::mouseReleaseAll**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Send a HID Mouse report.
 
-| **Description**
-| Send a HID Mouse report indicating no buttons pressed.
+**Syntax**
 
-| **Syntax**
-| void mouseReleaseAll(void);
+.. code:: cpp
 
-| **Parameters**
-| The function requires no input parameter.
+  void mouseReport (hid_mouse_report_t* report);
 
-| **Returns**
-| The function returns nothing.
+.. code:: cpp
 
-| **Example Code**
-| NA
+  void mouseReport (uint8_t buttons, int8_t x, int8_t y, int8_t scroll);
 
-| **Notes and Warnings**
-| NA
+**Parameters**
 
-**BLEHIDMouse::mouseMove**
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+``report`` : pointer to mouse report structure containing data on mouse
+inputs
 
-| **Description**
-| Send a HID Mouse report indicating mouse movement.
+``buttons`` : bitmap indicating state of each button. 1 = pressed, 0 =
+released.
 
-| **Syntax**
-| void mouseMove (int8_t x, int8_t y);
+``x`` : mouse x-axis movement. Integer value from -127 to 127.
 
-| **Parameters**
-| x: mouse x-axis movement. Integer value from -127 to 127.
-| y: mouse y-axis movement. Integer value from -127 to 127.
+``y`` : mouse y-axis movement. Integer value from -127 to 127.
 
-| **Returns**
-| The function returns nothing.
+``scroll`` : mouse scroll wheel movement. Integer value from -127 to 127.
 
-| **Example Code**
-| Example: BLEHIDMouse
+**Returns**
 
-| **Notes and Warnings**
-| NA
+The function returns nothing.
 
-**BLEHIDMouse::mouseScroll**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Example Code**
 
-| **Description**
-| Send a HID Mouse report indicating mouse scroll wheel movement.
+NA
 
-| **Syntax**
-| void mouseScroll (int8_t scroll);
+**Notes and Warnings**
 
-| **Parameters**
-| scroll: mouse scroll wheel movement. Integer value from -127 to 127.
+NA
 
-| **Returns**
-| The function returns nothing.
+-----
 
-| **Example Code**
-| Example: BLEHIDMouse
+.. method:: BLEHIDMouse::mousePress
 
-| **Notes and Warnings**
-| NA
+
+**Description**
+
+Send a HID Mouse report indicating buttons pressed.
+
+**Syntax**
+
+.. code:: cpp
+
+  void mousePress (uint8_t buttons);
+
+**Parameters**
+
+``buttons`` : bitmap indicating buttons pressed. 1 = pressed.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEHIDMouse
+
+**Notes and Warnings**
+
+NA
+
+----
+
+.. method:: BLEHIDMouse::mouseRelease
+
+
+
+**Description**
+
+Send a HID Mouse report indicating buttons released.
+
+**Syntax**
+
+.. code:: cpp
+
+  void mouseRelease (uint8_t buttons);
+
+**Parameters**
+
+``buttons`` : bitmap indicating buttons released. 1 = released.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEHIDMouse
+
+**Notes and Warnings**
+
+NA
+
+----
+
+.. method:: BLEHIDMouse::mouseReleaseAll
+
+
+**Description**
+
+Send a HID Mouse report indicating no buttons pressed.
+
+**Syntax**
+
+.. code:: cpp
+
+  void mouseReleaseAll(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLEHIDMouse::mouseMove
+
+
+**Description**
+
+Send a HID Mouse report indicating mouse movement.
+
+**Syntax**
+
+.. code:: cpp
+
+  void mouseMove (int8_t x, int8_t y);
+
+**Parameters**
+
+``x`` : mouse x-axis movement. Integer value from -127 to 127.
+
+``y`` : mouse y-axis movement. Integer value from -127 to 127.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEHIDMouse
+
+**Notes and Warnings**
+
+NA
+
+----
+
+.. method:: BLEHIDMouse::mouseScroll
+
+
+
+**Description**
+
+Send a HID Mouse report indicating mouse scroll wheel movement.
+
+**Syntax**
+
+.. code:: cpp
+
+  void mouseScroll (int8_t scroll);
+
+**Parameters**
+
+``scroll`` : mouse scroll wheel movement. Integer value from -127 to 127.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEHIDMouse
+
+**Notes and Warnings**
+
+NA

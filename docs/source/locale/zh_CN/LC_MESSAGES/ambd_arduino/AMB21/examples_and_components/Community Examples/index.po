@@ -27,14 +27,14 @@ msgstr "社群范例"
 msgid ""
 "Welcome to share your examples under the **Community Examples** section "
 "if you have completed a project using the Ameba boards."
-msgstr ""
+msgstr "如果你使用Ameba开发板完成了一个项目，欢迎在社群范例里分享你的专案。"
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Community
 #: Examples/index.rst:11
 msgid ""
 "To make contributions, please visit our official `GitHub Wiki "
 "<https://github.com/ambiot/documents/wiki>`_ page."
-msgstr ""
+msgstr "要做出贡献，请访问我们的官方 `GitHub Wiki <https://github.com/ambiot/documents/wiki>`_ 页面。"
 
 #: ../../source/ambd_arduino/AMB21/examples_and_components/Community
 #: Examples/index.rst:13

@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-17 08:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:3
+msgid "USB - HID Keyboard"
+msgstr "USB - HID 键盘"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:8
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:12
+msgid "Ameba D [ AMB21 / AMB22 / AMB23 ] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:14
+msgid "USB capable host device [ Windows / Linux / MacOS ]"
+msgstr "在此范例中，RTL8722 开发板模拟使用 USB 连接的 HID 键盘。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:17
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例** :raw-"
+"html:`</p>`"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:22
+msgid "Introduction"
+msgstr "介绍"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:24
+msgid ""
+"In this example, the RTL8722 board emulates a HID keyboard connected "
+"using USB."
+msgstr "在此范例中，RTL8722 开发板模拟使用 USB 连接的 HID 键盘。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:28
+msgid "Procedure"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:30
+msgid ""
+"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaUSB” -> "
+"“USBHIDKeyboard”``."
+msgstr "打开范例， “Files” -> “Examples” -> “AmebaUSB” -> “USBHIDKeyboard”。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:33
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:53
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:35
+msgid "Upload the code and press the reset button once the upload is finished."
+msgstr "上传代码并在上传完成后按重置按钮。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:37
+msgid ""
+"Connect the USB OTG port on the board to the host device. Refer to the "
+"example guide for USB CDC Serial for connection instructions."
+msgstr "将开发板上的 USB OTG 端口连接到主机设备。有关连接说明，请参阅 USB CDC 串行端口的范例介绍。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:40
+msgid ""
+"The board is ready to send keyboard input to the host device. Select a "
+"text input field, such as in the Serial Monitor or a text document."
+msgstr "该开发板已准备好将键盘输入发送到主机设备。选择文本输入字段，例如在串行监视器或文本文档中。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:45
+msgid ""
+"Connect digital pin 8 to 3.3V to start sending keystrokes, connect to GND"
+" to stop."
+msgstr "将引脚 8 连接到 3.3V 开始发送击键，连接到 GND 来停止。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:48
+msgid "You should see the text ``Hello World!`` typed out and deleted repeatedly."
+msgstr "您应该会看到文本“Hello World！” 反覆输入和删除。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:51
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:58
+msgid "2"
+msgstr ""
+
+#~ msgid "USB HID Keyboard"
+#~ msgstr ""
+

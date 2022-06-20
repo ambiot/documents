@@ -8,1123 +8,838 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 05:15+0000\n"
+"POT-Creation-Date: 2022-06-10 10:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:2
 msgid "Class BLECharacteristic"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:3
-msgid "**BLECharacteristic Class**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:5
-#: BLECharacteristic.rst:120 BLECharacteristic.rst:142
-#: BLECharacteristic.rst:163 BLECharacteristic.rst:184
-#: BLECharacteristic.rst:205 BLECharacteristic.rst:225
-#: BLECharacteristic.rst:245 BLECharacteristic.rst:265
-#: BLECharacteristic.rst:287 BLECharacteristic.rst:309
-#: BLECharacteristic.rst:329 BLECharacteristic.rst:350
-#: BLECharacteristic.rst:372 BLECharacteristic.rst:394
-#: BLECharacteristic.rst:416 BLECharacteristic.rst:438
-#: BLECharacteristic.rst:461 BLECharacteristic.rst:483
-#: BLECharacteristic.rst:505 BLECharacteristic.rst:527
-#: BLECharacteristic.rst:548 BLECharacteristic.rst:570
-#: BLECharacteristic.rst:591 BLECharacteristic.rst:612
-#: BLECharacteristic.rst:632 BLECharacteristic.rst:652
-#: BLECharacteristic.rst:674 BLECharacteristic.rst:705
-#: BLECharacteristic.rst:731 BLECharacteristic.rst:757
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:6
+#: BLECharacteristic.rst:126 BLECharacteristic.rst:161
+#: BLECharacteristic.rst:191 BLECharacteristic.rst:222
+#: BLECharacteristic.rst:254 BLECharacteristic.rst:285
+#: BLECharacteristic.rst:316 BLECharacteristic.rst:346
+#: BLECharacteristic.rst:378 BLECharacteristic.rst:410
+#: BLECharacteristic.rst:442 BLECharacteristic.rst:473
+#: BLECharacteristic.rst:506 BLECharacteristic.rst:539
+#: BLECharacteristic.rst:570 BLECharacteristic.rst:601
+#: BLECharacteristic.rst:636 BLECharacteristic.rst:667
+#: BLECharacteristic.rst:698 BLECharacteristic.rst:735
+#: BLECharacteristic.rst:768 BLECharacteristic.rst:801
+#: BLECharacteristic.rst:832 BLECharacteristic.rst:863
+#: BLECharacteristic.rst:894 BLECharacteristic.rst:924
+#: BLECharacteristic.rst:955 BLECharacteristic.rst:994
+#: BLECharacteristic.rst:1030 BLECharacteristic.rst:1066
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:7
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:8
 msgid "A class used for creating and managing BLE GATT characteristics."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:9
-#: BLECharacteristic.rst:123 BLECharacteristic.rst:145
-#: BLECharacteristic.rst:166 BLECharacteristic.rst:187
-#: BLECharacteristic.rst:208 BLECharacteristic.rst:228
-#: BLECharacteristic.rst:248 BLECharacteristic.rst:268
-#: BLECharacteristic.rst:290 BLECharacteristic.rst:312
-#: BLECharacteristic.rst:332 BLECharacteristic.rst:354
-#: BLECharacteristic.rst:376 BLECharacteristic.rst:398
-#: BLECharacteristic.rst:420 BLECharacteristic.rst:442
-#: BLECharacteristic.rst:465 BLECharacteristic.rst:487
-#: BLECharacteristic.rst:508 BLECharacteristic.rst:530
-#: BLECharacteristic.rst:551 BLECharacteristic.rst:573
-#: BLECharacteristic.rst:594 BLECharacteristic.rst:615
-#: BLECharacteristic.rst:635 BLECharacteristic.rst:656
-#: BLECharacteristic.rst:678 BLECharacteristic.rst:709
-#: BLECharacteristic.rst:735 BLECharacteristic.rst:761
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:10
+#: BLECharacteristic.rst:130 BLECharacteristic.rst:165
+#: BLECharacteristic.rst:195 BLECharacteristic.rst:226
+#: BLECharacteristic.rst:258 BLECharacteristic.rst:289
+#: BLECharacteristic.rst:320 BLECharacteristic.rst:350
+#: BLECharacteristic.rst:382 BLECharacteristic.rst:414
+#: BLECharacteristic.rst:446 BLECharacteristic.rst:477
+#: BLECharacteristic.rst:510 BLECharacteristic.rst:543
+#: BLECharacteristic.rst:574 BLECharacteristic.rst:605
+#: BLECharacteristic.rst:640 BLECharacteristic.rst:671
+#: BLECharacteristic.rst:702 BLECharacteristic.rst:739
+#: BLECharacteristic.rst:772 BLECharacteristic.rst:805
+#: BLECharacteristic.rst:836 BLECharacteristic.rst:867
+#: BLECharacteristic.rst:898 BLECharacteristic.rst:928
+#: BLECharacteristic.rst:959 BLECharacteristic.rst:998
+#: BLECharacteristic.rst:1034 BLECharacteristic.rst:1070
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:10
-msgid "class BLECharacteristic"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:12
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:16
 msgid "**Members**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:15
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:19
 msgid "**Public Constructors**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:17
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:21
 msgid "BLEC haracteristic::BLECharacteristic"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:17
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:21
 msgid "Constructs a BLECharacteristic object"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:20
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:24
 msgid "**Public Methods**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:22
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:26
 msgid "BLECharacteristic::setUUID"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:22
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:26
 msgid "Set the characteristic UUID"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:24
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:28
 msgid "BLECharacteristic::getUUID"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:24
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:28
 msgid "Get the characteristic UUID"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:26
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:30
 msgid "BLECharacteristic::setBufferLen"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:26
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:30
 msgid "Set the size of the internal data buffer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:29
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:33
 msgid "BLECharacteristic::getBufferLen"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:29
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:33
 msgid "Get the current size of the internal data buffer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:32
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:36
 msgid "BL ECharacteristic::setReadProperty"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:32
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:36
 msgid ""
 "Get the current size of the internal data bufferSet the characteristic "
 "read property"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:36
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:40
 msgid "BLE Characteristic::setWriteProperty"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:36
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:40
 msgid "Set the characteristic write property"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:39
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:43
 msgid "BLEC haracteristic::setNotifyProperty"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:39
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:43
 msgid "Set the characteristic notify property"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:42
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:46
 msgid "BLECha racteristic::setIndicateProperty"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:42
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:46
 msgid "Set the characteristic indicate property"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:45
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:49
 msgid "BLECharacteristic::setProperties"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:45
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:49
 msgid "Set the characteristic properties"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:48
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:52
 msgid "BLECharacteristic::getProperties"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:48
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:52
 msgid "Get the characteristic properties"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:51
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:55
 msgid "BLECharacteristic::readString"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:51
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:55
 msgid "Read the characteristic data buffer as a String object"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:54
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:58
 msgid "BLECharacteristic::readData8"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:54
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:58
 msgid "Read the characteristic data buffer as an unsigned 8-bit integer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:58
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:62
 msgid "BLECharacteristic::readData16"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:58
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:62
 msgid "Read the characteristic data buffer as an unsigned 16-bit integer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:62
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:66
 msgid "BLECharacteristic::readData32"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:62
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:66
 msgid "Read the characteristic data buffer as an unsigned 32-bit integer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:66
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:70
 msgid "BLECharacteristic::writeString"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:66
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:70
 msgid ""
 "Write data to the characteristic data buffer as a String object or "
 "character array"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:70
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:74
 msgid "BLECharacteristic::writeData8"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:70
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:74
 msgid "Write data to the characteristic data buffer as an unsigned 8-bit integer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:74
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:78
 msgid "BLECharacteristic::writeData16"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:74
-#: BLECharacteristic.rst:78
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:78
+#: BLECharacteristic.rst:82
 msgid "Write data to the characteristic data buffer as an unsigned 16-bit integer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:78
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:82
 msgid "BLECharacteristic::writeData32"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:82
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:86
 msgid "BLECharacteristic::setData"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:82
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:86
 msgid "Write data to the characteristic data buffer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:85
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:89
 msgid "BLECharacteristic::getData"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:85
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:89
 msgid "Read data from the characteristic data buffer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:88
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:92
 msgid "BLECharacteristic::getDataBuff"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:88
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:92
 msgid "Get a pointer to the characteristic data buffer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:91
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:95
 msgid "BLECharacteristic::getDataLen"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:91
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:95
 msgid "Get the number of bytes of data in the characteristic data buffer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:95
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:99
 msgid "BLECharacteristic::notify"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:95
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:99
 msgid "Send a notification to a connected device"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:98
+#: ../../source/ambd_arduino/AMB21/api_documents/Class
+#: BLECharacteristic.rst:102
 msgid "BLECharacteristic::indicate"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLECharacteristic.rst:98
+#: ../../source/ambd_arduino/AMB21/api_documents/Class
+#: BLECharacteristic.rst:102
 msgid "Send an indication to a connected device"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:101
+#: BLECharacteristic.rst:105
 msgid "BLEC haracteristic::setUserDescriptor"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:101
+#: BLECharacteristic.rst:105
 msgid "Add a user description descriptor to characteristic"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:104
+#: BLECharacteristic.rst:108
 msgid "BLECha racteristic::setFormatDescriptor"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:104
+#: BLECharacteristic.rst:108
 msgid "Add a data format descriptor to characteristic"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:107
+#: BLECharacteristic.rst:111
 msgid "BLECharacteristic::Add a data format descriptor to characteristic"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:107
+#: BLECharacteristic.rst:111
 msgid "Set a user function as a read callback"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:111
+#: BLECharacteristic.rst:115
 msgid "BLE Characteristic::setWriteCallback"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:111
+#: BLECharacteristic.rst:115
 msgid "Set a user function as a write callback"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:114
+#: BLECharacteristic.rst:118
 msgid "BL ECharacteristic::setCCCDCallback"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:114
+#: BLECharacteristic.rst:118
 msgid "Set a user function as a CCCD write callback"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:118
-msgid "**BLECharacteristic::BLECharacteristic**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:121
+#: BLECharacteristic.rst:128
 msgid "Constructs a BLECharacteristic object."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:124
-msgid "BLECharacteristic::BLECharacteristic(BLEUUID uuid);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:125
-msgid "BLECharacteristic::BLECharacteristic(const char\\* uuid);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:127 BLECharacteristic.rst:148
-#: BLECharacteristic.rst:169 BLECharacteristic.rst:190
-#: BLECharacteristic.rst:211 BLECharacteristic.rst:231
-#: BLECharacteristic.rst:251 BLECharacteristic.rst:271
-#: BLECharacteristic.rst:293 BLECharacteristic.rst:315
-#: BLECharacteristic.rst:335 BLECharacteristic.rst:357
-#: BLECharacteristic.rst:379 BLECharacteristic.rst:401
-#: BLECharacteristic.rst:423 BLECharacteristic.rst:446
-#: BLECharacteristic.rst:468 BLECharacteristic.rst:490
-#: BLECharacteristic.rst:512 BLECharacteristic.rst:533
-#: BLECharacteristic.rst:554 BLECharacteristic.rst:576
-#: BLECharacteristic.rst:597 BLECharacteristic.rst:618
-#: BLECharacteristic.rst:638 BLECharacteristic.rst:659
-#: BLECharacteristic.rst:682 BLECharacteristic.rst:713
-#: BLECharacteristic.rst:739 BLECharacteristic.rst:765
+#: BLECharacteristic.rst:140 BLECharacteristic.rst:171
+#: BLECharacteristic.rst:201 BLECharacteristic.rst:232
+#: BLECharacteristic.rst:264 BLECharacteristic.rst:295
+#: BLECharacteristic.rst:326 BLECharacteristic.rst:356
+#: BLECharacteristic.rst:388 BLECharacteristic.rst:420
+#: BLECharacteristic.rst:452 BLECharacteristic.rst:483
+#: BLECharacteristic.rst:516 BLECharacteristic.rst:549
+#: BLECharacteristic.rst:580 BLECharacteristic.rst:615
+#: BLECharacteristic.rst:646 BLECharacteristic.rst:677
+#: BLECharacteristic.rst:713 BLECharacteristic.rst:745
+#: BLECharacteristic.rst:778 BLECharacteristic.rst:811
+#: BLECharacteristic.rst:842 BLECharacteristic.rst:873
+#: BLECharacteristic.rst:904 BLECharacteristic.rst:934
+#: BLECharacteristic.rst:965 BLECharacteristic.rst:1004
+#: BLECharacteristic.rst:1040 BLECharacteristic.rst:1076
 msgid "**Parameters**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:129
+#: BLECharacteristic.rst:142
 msgid ""
-"uuid: characteristic UUID, expressed as a BLEUUID class object or a "
+"``uuid`` : characteristic UUID, expressed as a BLEUUID class object or a "
 "character array"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:131 BLECharacteristic.rst:152
-#: BLECharacteristic.rst:172 BLECharacteristic.rst:193
-#: BLECharacteristic.rst:214 BLECharacteristic.rst:234
-#: BLECharacteristic.rst:254 BLECharacteristic.rst:275
-#: BLECharacteristic.rst:297 BLECharacteristic.rst:318
-#: BLECharacteristic.rst:338 BLECharacteristic.rst:360
-#: BLECharacteristic.rst:382 BLECharacteristic.rst:404
-#: BLECharacteristic.rst:426 BLECharacteristic.rst:450
-#: BLECharacteristic.rst:472 BLECharacteristic.rst:494
-#: BLECharacteristic.rst:516 BLECharacteristic.rst:537
-#: BLECharacteristic.rst:558 BLECharacteristic.rst:579
-#: BLECharacteristic.rst:600 BLECharacteristic.rst:621
-#: BLECharacteristic.rst:641 BLECharacteristic.rst:663
-#: BLECharacteristic.rst:694 BLECharacteristic.rst:720
-#: BLECharacteristic.rst:746 BLECharacteristic.rst:774
+#: BLECharacteristic.rst:144 BLECharacteristic.rst:175
+#: BLECharacteristic.rst:205 BLECharacteristic.rst:236
+#: BLECharacteristic.rst:268 BLECharacteristic.rst:299
+#: BLECharacteristic.rst:330 BLECharacteristic.rst:360
+#: BLECharacteristic.rst:392 BLECharacteristic.rst:424
+#: BLECharacteristic.rst:456 BLECharacteristic.rst:487
+#: BLECharacteristic.rst:520 BLECharacteristic.rst:553
+#: BLECharacteristic.rst:584 BLECharacteristic.rst:619
+#: BLECharacteristic.rst:650 BLECharacteristic.rst:681
+#: BLECharacteristic.rst:717 BLECharacteristic.rst:751
+#: BLECharacteristic.rst:784 BLECharacteristic.rst:815
+#: BLECharacteristic.rst:846 BLECharacteristic.rst:877
+#: BLECharacteristic.rst:908 BLECharacteristic.rst:938
+#: BLECharacteristic.rst:977 BLECharacteristic.rst:1012
+#: BLECharacteristic.rst:1048 BLECharacteristic.rst:1086
 msgid "**Returns**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:132 BLECharacteristic.rst:153
-#: BLECharacteristic.rst:194 BLECharacteristic.rst:235
-#: BLECharacteristic.rst:255 BLECharacteristic.rst:276
-#: BLECharacteristic.rst:298 BLECharacteristic.rst:319
-#: BLECharacteristic.rst:622 BLECharacteristic.rst:642
-#: BLECharacteristic.rst:664 BLECharacteristic.rst:695
-#: BLECharacteristic.rst:721 BLECharacteristic.rst:747
-#: BLECharacteristic.rst:775
+#: BLECharacteristic.rst:146 BLECharacteristic.rst:177
+#: BLECharacteristic.rst:238 BLECharacteristic.rst:301
+#: BLECharacteristic.rst:332 BLECharacteristic.rst:362
+#: BLECharacteristic.rst:394 BLECharacteristic.rst:426
+#: BLECharacteristic.rst:879 BLECharacteristic.rst:910
+#: BLECharacteristic.rst:940 BLECharacteristic.rst:979
+#: BLECharacteristic.rst:1014 BLECharacteristic.rst:1050
+#: BLECharacteristic.rst:1088
 msgid "The function returns nothing."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:134 BLECharacteristic.rst:155
-#: BLECharacteristic.rst:176 BLECharacteristic.rst:196
-#: BLECharacteristic.rst:217 BLECharacteristic.rst:237
-#: BLECharacteristic.rst:257 BLECharacteristic.rst:278
-#: BLECharacteristic.rst:300 BLECharacteristic.rst:321
-#: BLECharacteristic.rst:342 BLECharacteristic.rst:364
-#: BLECharacteristic.rst:386 BLECharacteristic.rst:408
-#: BLECharacteristic.rst:430 BLECharacteristic.rst:453
-#: BLECharacteristic.rst:475 BLECharacteristic.rst:497
-#: BLECharacteristic.rst:519 BLECharacteristic.rst:540
-#: BLECharacteristic.rst:561 BLECharacteristic.rst:583
-#: BLECharacteristic.rst:604 BLECharacteristic.rst:624
-#: BLECharacteristic.rst:644 BLECharacteristic.rst:666
-#: BLECharacteristic.rst:697 BLECharacteristic.rst:723
-#: BLECharacteristic.rst:749 BLECharacteristic.rst:777
+#: BLECharacteristic.rst:148 BLECharacteristic.rst:179
+#: BLECharacteristic.rst:210 BLECharacteristic.rst:240
+#: BLECharacteristic.rst:272 BLECharacteristic.rst:303
+#: BLECharacteristic.rst:334 BLECharacteristic.rst:364
+#: BLECharacteristic.rst:396 BLECharacteristic.rst:428
+#: BLECharacteristic.rst:460 BLECharacteristic.rst:493
+#: BLECharacteristic.rst:526 BLECharacteristic.rst:557
+#: BLECharacteristic.rst:588 BLECharacteristic.rst:623
+#: BLECharacteristic.rst:654 BLECharacteristic.rst:685
+#: BLECharacteristic.rst:721 BLECharacteristic.rst:755
+#: BLECharacteristic.rst:788 BLECharacteristic.rst:819
+#: BLECharacteristic.rst:850 BLECharacteristic.rst:881
+#: BLECharacteristic.rst:912 BLECharacteristic.rst:942
+#: BLECharacteristic.rst:981 BLECharacteristic.rst:1016
+#: BLECharacteristic.rst:1052 BLECharacteristic.rst:1090
 msgid "**Example Code**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:135 BLECharacteristic.rst:197
-#: BLECharacteristic.rst:258 BLECharacteristic.rst:279
-#: BLECharacteristic.rst:365 BLECharacteristic.rst:454
-#: BLECharacteristic.rst:625 BLECharacteristic.rst:750
-#: BLECharacteristic.rst:778
+#: BLECharacteristic.rst:150 BLECharacteristic.rst:242
+#: BLECharacteristic.rst:336 BLECharacteristic.rst:366
+#: BLECharacteristic.rst:495 BLECharacteristic.rst:625
+#: BLECharacteristic.rst:883 BLECharacteristic.rst:1054
+#: BLECharacteristic.rst:1092
 msgid "Example: BLEUartService"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:137 BLECharacteristic.rst:158
-#: BLECharacteristic.rst:179 BLECharacteristic.rst:199
-#: BLECharacteristic.rst:220 BLECharacteristic.rst:240
-#: BLECharacteristic.rst:260 BLECharacteristic.rst:281
-#: BLECharacteristic.rst:303 BLECharacteristic.rst:324
-#: BLECharacteristic.rst:345 BLECharacteristic.rst:367
-#: BLECharacteristic.rst:389 BLECharacteristic.rst:411
-#: BLECharacteristic.rst:433 BLECharacteristic.rst:456
-#: BLECharacteristic.rst:478 BLECharacteristic.rst:500
-#: BLECharacteristic.rst:522 BLECharacteristic.rst:543
-#: BLECharacteristic.rst:564 BLECharacteristic.rst:586
-#: BLECharacteristic.rst:607 BLECharacteristic.rst:627
-#: BLECharacteristic.rst:647 BLECharacteristic.rst:669
-#: BLECharacteristic.rst:700 BLECharacteristic.rst:726
-#: BLECharacteristic.rst:752 BLECharacteristic.rst:780
+#: BLECharacteristic.rst:152 BLECharacteristic.rst:183
+#: BLECharacteristic.rst:214 BLECharacteristic.rst:244
+#: BLECharacteristic.rst:276 BLECharacteristic.rst:307
+#: BLECharacteristic.rst:338 BLECharacteristic.rst:368
+#: BLECharacteristic.rst:400 BLECharacteristic.rst:432
+#: BLECharacteristic.rst:464 BLECharacteristic.rst:497
+#: BLECharacteristic.rst:530 BLECharacteristic.rst:561
+#: BLECharacteristic.rst:592 BLECharacteristic.rst:627
+#: BLECharacteristic.rst:658 BLECharacteristic.rst:689
+#: BLECharacteristic.rst:726 BLECharacteristic.rst:759
+#: BLECharacteristic.rst:792 BLECharacteristic.rst:823
+#: BLECharacteristic.rst:854 BLECharacteristic.rst:885
+#: BLECharacteristic.rst:916 BLECharacteristic.rst:946
+#: BLECharacteristic.rst:985 BLECharacteristic.rst:1020
+#: BLECharacteristic.rst:1056 BLECharacteristic.rst:1094
 msgid "**Notes and Warnings**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:138 BLECharacteristic.rst:156
-#: BLECharacteristic.rst:159 BLECharacteristic.rst:177
-#: BLECharacteristic.rst:180 BLECharacteristic.rst:218
-#: BLECharacteristic.rst:221 BLECharacteristic.rst:241
-#: BLECharacteristic.rst:261 BLECharacteristic.rst:301
-#: BLECharacteristic.rst:322 BLECharacteristic.rst:325
-#: BLECharacteristic.rst:343 BLECharacteristic.rst:346
-#: BLECharacteristic.rst:387 BLECharacteristic.rst:390
-#: BLECharacteristic.rst:409 BLECharacteristic.rst:412
-#: BLECharacteristic.rst:431 BLECharacteristic.rst:434
-#: BLECharacteristic.rst:457 BLECharacteristic.rst:479
-#: BLECharacteristic.rst:498 BLECharacteristic.rst:501
-#: BLECharacteristic.rst:520 BLECharacteristic.rst:523
-#: BLECharacteristic.rst:541 BLECharacteristic.rst:544
-#: BLECharacteristic.rst:562 BLECharacteristic.rst:584
-#: BLECharacteristic.rst:587 BLECharacteristic.rst:605
-#: BLECharacteristic.rst:608 BLECharacteristic.rst:628
-#: BLECharacteristic.rst:645 BLECharacteristic.rst:648
-#: BLECharacteristic.rst:667 BLECharacteristic.rst:670
-#: BLECharacteristic.rst:698 BLECharacteristic.rst:701
-#: BLECharacteristic.rst:727 BLECharacteristic.rst:753
-#: BLECharacteristic.rst:781
+#: BLECharacteristic.rst:154 BLECharacteristic.rst:181
+#: BLECharacteristic.rst:185 BLECharacteristic.rst:212
+#: BLECharacteristic.rst:216 BLECharacteristic.rst:274
+#: BLECharacteristic.rst:278 BLECharacteristic.rst:309
+#: BLECharacteristic.rst:340 BLECharacteristic.rst:398
+#: BLECharacteristic.rst:430 BLECharacteristic.rst:434
+#: BLECharacteristic.rst:462 BLECharacteristic.rst:466
+#: BLECharacteristic.rst:528 BLECharacteristic.rst:532
+#: BLECharacteristic.rst:559 BLECharacteristic.rst:563
+#: BLECharacteristic.rst:590 BLECharacteristic.rst:594
+#: BLECharacteristic.rst:629 BLECharacteristic.rst:660
+#: BLECharacteristic.rst:687 BLECharacteristic.rst:691
+#: BLECharacteristic.rst:723 BLECharacteristic.rst:728
+#: BLECharacteristic.rst:757 BLECharacteristic.rst:761
+#: BLECharacteristic.rst:790 BLECharacteristic.rst:821
+#: BLECharacteristic.rst:825 BLECharacteristic.rst:852
+#: BLECharacteristic.rst:856 BLECharacteristic.rst:887
+#: BLECharacteristic.rst:914 BLECharacteristic.rst:918
+#: BLECharacteristic.rst:944 BLECharacteristic.rst:948
+#: BLECharacteristic.rst:983 BLECharacteristic.rst:987
+#: BLECharacteristic.rst:1022 BLECharacteristic.rst:1058
+#: BLECharacteristic.rst:1096
 msgid "NA"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:140
-msgid "**BLECharacteristic::setUUID**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:143
+#: BLECharacteristic.rst:163
 msgid "Set the characteristic UUID."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:146
-msgid "void setUUID(BLEUUID uuid);"
+#: BLECharacteristic.rst:173
+msgid ""
+"``uuid`` : the new characteristic UUID, expressed with a BLEUUID class "
+"object"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:150
-msgid "uuid: the new characteristic UUID, expressed with a BLEUUID class object"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:161
-msgid "**BLECharacteristic::getUUID**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:164
+#: BLECharacteristic.rst:193
 msgid "Get the characteristic UUID."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:167
-msgid "BLEUUID getUUID();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:170 BLECharacteristic.rst:212
-#: BLECharacteristic.rst:336 BLECharacteristic.rst:358
-#: BLECharacteristic.rst:380 BLECharacteristic.rst:402
-#: BLECharacteristic.rst:424 BLECharacteristic.rst:577
-#: BLECharacteristic.rst:598
+#: BLECharacteristic.rst:203 BLECharacteristic.rst:266
+#: BLECharacteristic.rst:454 BLECharacteristic.rst:485
+#: BLECharacteristic.rst:518 BLECharacteristic.rst:551
+#: BLECharacteristic.rst:582 BLECharacteristic.rst:813
+#: BLECharacteristic.rst:844
 msgid "The function requires no input parameter."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:174
+#: BLECharacteristic.rst:207
 msgid "The function returns the characteristic UUID in a BLEUUID class object."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:182
-msgid "**BLECharacteristic::setBufferLen**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:185
+#: BLECharacteristic.rst:224
 msgid "Set the size of the internal data buffer of the characteristic."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:188
-msgid "void setBufferLen(uint16_t max_len);"
+#: BLECharacteristic.rst:234
+msgid "``max_len`` : number of bytes to resize the internal buffer to"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:191
-msgid "max_len: number of bytes to resize the internal buffer to"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:201
+#: BLECharacteristic.rst:246
 msgid ""
 "Characteristic data buffer has a default size of 20 bytes and can be "
 "increased up to 230 bytes."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:203
-msgid "**BLECharacteristic::getBufferLen**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:206
+#: BLECharacteristic.rst:256
 msgid "Get the size of the characteristic internal buffer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:209
-msgid "uint16_t getBufferLen();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:215
+#: BLECharacteristic.rst:270
 msgid "The function returns the currently set internal buffer size."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:223
-msgid "**BLECharacteristic::setReadProperty**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:226
+#: BLECharacteristic.rst:287
 msgid "Set the characteristic read property."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:229
-msgid "void setReadProperty(bool value);"
+#: BLECharacteristic.rst:297
+msgid "``value`` : TRUE to allow connected devices to read characteristic data"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:232
-msgid "value: TRUE to allow connected devices to read characteristic data"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:238 BLECharacteristic.rst:476
-#: BLECharacteristic.rst:724
+#: BLECharacteristic.rst:305 BLECharacteristic.rst:656
+#: BLECharacteristic.rst:1018
 msgid "Example: BLEBatteryService"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:243
-msgid "**BLECharacteristic::setWriteProperty**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:246
+#: BLECharacteristic.rst:318
 msgid "Set the characteristic write property."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:249
-msgid "void setWriteProperty(bool value);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:252
+#: BLECharacteristic.rst:328
 msgid "value: TRUE to allow connected devices to write characteristic data"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:263
-msgid "**BLECharacteristic::setNotifyProperty**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:266
+#: BLECharacteristic.rst:348
 msgid "Set the characteristic notify property."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:269
-msgid "void setNotifyProperty(bool value);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:273
+#: BLECharacteristic.rst:358
 msgid ""
-"value: TRUE to allow connected devices to enable receiving characteristic"
-" data notifications."
+"``value``: TRUE to allow connected devices to enable receiving "
+"characteristic data notifications."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:283 BLECharacteristic.rst:305
+#: BLECharacteristic.rst:370 BLECharacteristic.rst:402
 msgid "Enabling this property will add a CCCD descriptor to the characteristic."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:285
-msgid "**BLECharacteristic::setIndicateProperty**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:288
+#: BLECharacteristic.rst:380
 msgid "Set the characteristic indicate property."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:291
-msgid "void setIndicateProperty(bool value);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:295
+#: BLECharacteristic.rst:390
 msgid ""
-"value: TRUE to allow connected devices to enable receiving characteristic"
-" data indications."
+"``value`` : TRUE to allow connected devices to enable receiving "
+"characteristic data indications."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:307
-msgid "**BLECharacteristic::setProperties**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:310
+#: BLECharacteristic.rst:412
 msgid "Set the characteristic properties."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:313
-msgid "void setProperties(uint8_t value);"
+#: BLECharacteristic.rst:422
+msgid "``value`` : desired characteristic properties"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:316
-msgid "value: desired characteristic properties"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:327
-msgid "**BLECharacteristic::getProperties**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:330
+#: BLECharacteristic.rst:444
 msgid "Get the currently set characteristic properties."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:333
-msgid "uint8_t getProperties();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:340
+#: BLECharacteristic.rst:458
 msgid ""
 "The function returns the currently set characteristic properties "
 "expressed as an unsigned 8-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:348
-msgid "**BLECharacteristic::readString**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:352
+#: BLECharacteristic.rst:475
 msgid ""
 "Read the data in the characteristic internal buffer, expressed as a "
 "String class object."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:355
-msgid "String readString();"
+#: BLECharacteristic.rst:489 BLECharacteristic.rst:522
+msgid "The function returns the data in the characteristic internal buffer"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:362
-msgid ""
-"The function returns the data in the characteristic internal buffer "
-"expressed as a String class object."
+#: BLECharacteristic.rst:491
+msgid "expressed as a String class object."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:368
+#: BLECharacteristic.rst:499
 msgid "Non-ASCII data may result in unexpected characters in the string."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:370
-msgid "**BLECharacteristic::readData8**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:374
+#: BLECharacteristic.rst:508
 msgid ""
 "Read the data in the characteristic internal buffer, expressed as an "
 "unsigned 8-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:377
-msgid "uint8_t readData8();"
+#: BLECharacteristic.rst:524
+msgid "expressed as a uint8_t value."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:384
-msgid ""
-"The function returns the data in the characteristic internal buffer "
-"expressed as a uint8_t value."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:392
-msgid "**BLECharacteristic::readData16**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:396
+#: BLECharacteristic.rst:541
 msgid ""
 "Read the data in the characteristic internal buffer, expressed as an "
 "unsigned 16-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:399
-msgid "uint16_t readData16();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:406
+#: BLECharacteristic.rst:555
 msgid ""
 "The function returns the data in the characteristic internal buffer "
 "expressed as a uint16_t value."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:414 BLECharacteristic.rst:436
-msgid "**BLECharacteristic::readData32**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:418
+#: BLECharacteristic.rst:572
 msgid ""
 "Read the data in the characteristic internal buffer, expressed as an "
 "unsigned 32-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:421
-msgid "uint32_t readData32();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:428
+#: BLECharacteristic.rst:586
 msgid ""
 "The function returns the data in the characteristic internal buffer "
 "expressed as a uint32_t value."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:440
+#: BLECharacteristic.rst:603
 msgid ""
 "Write data to the characteristic data buffer as a String object or "
 "character array."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:443
-msgid "bool writeString(String str);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:444
-msgid "bool writeString(const char\\* str);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:448
+#: BLECharacteristic.rst:617
 msgid ""
-"str: the data to write to the characteristic buffer, expressed as a "
+"``str`` : the data to write to the characteristic buffer, expressed as a "
 "String class object or a char array."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:451 BLECharacteristic.rst:473
-#: BLECharacteristic.rst:495 BLECharacteristic.rst:517
-#: BLECharacteristic.rst:538
+#: BLECharacteristic.rst:621 BLECharacteristic.rst:652
+#: BLECharacteristic.rst:683 BLECharacteristic.rst:719
+#: BLECharacteristic.rst:753
 msgid "The function returns TRUE if write data is successful."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:459
-msgid "**BLECharacteristic::writeData8**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:463
+#: BLECharacteristic.rst:638
 msgid "Write data to the characteristic data buffer as an unsigned 8-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:466
-msgid "bool writeData8(uint8_t num);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:470
+#: BLECharacteristic.rst:648
 msgid ""
-"num: the data to write to the characteristic buffer expressed as an "
+"``num`` : the data to write to the characteristic buffer expressed as an "
 "unsigned 8-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:481
-msgid "**BLECharacteristic::writeData16**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:485
+#: BLECharacteristic.rst:669
 msgid ""
 "Write data to the characteristic data buffer as an unsigned 16-bit "
 "integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:488
-msgid "bool writeData16(uint16_t num);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:492
+#: BLECharacteristic.rst:679
 msgid ""
-"num: the data to write to the characteristic buffer expressed as an "
+"``num``: the data to write to the characteristic buffer expressed as an "
 "unsigned 16-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:503
-msgid "**BLECharacteristic::writeData32**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:506
+#: BLECharacteristic.rst:700
 msgid "Write data to the characteristic data buffer as a 32-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:509
-msgid "bool writeData32(uint32_t num);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:510
-msgid "bool writeData32(int num);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:514
+#: BLECharacteristic.rst:715
 msgid ""
-"num: the data to write to the characteristic buffer expressed as a 32-bit"
-" integer."
+"``num```: the data to write to the characteristic buffer expressed as a "
+"32-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:525
-msgid "**BLECharacteristic::setData**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:528
+#: BLECharacteristic.rst:737
 msgid "Write data to the characteristic data buffer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:531
-msgid "bool setData(uint8_t\\* data, uint16_t datalen);"
+#: BLECharacteristic.rst:747
+msgid "``data`` : pointer to byte array containing desired data"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:534
-msgid "data: pointer to byte array containing desired data"
+#: BLECharacteristic.rst:749
+msgid "``datalen`` : number of bytes of data to write"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:535
-msgid "datalen: number of bytes of data to write"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:546
-msgid "**BLECharacteristic::getData**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:549
+#: BLECharacteristic.rst:770
 msgid "Read data from the characteristic data buffer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:552
-msgid "uint16_t getData(uint8_t\\* data, uint16_t datalen);"
+#: BLECharacteristic.rst:780
+msgid "``data``: pointer to byte array to save data read from buffer"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:555
-msgid "data: pointer to byte array to save data read from buffer"
+#: BLECharacteristic.rst:782
+msgid "``datalen``: number of bytes of data to read"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:556
-msgid "datalen: number of bytes of data to read"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:559
+#: BLECharacteristic.rst:786
 msgid "The function returns the number of bytes read."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:566
+#: BLECharacteristic.rst:794
 msgid ""
 "If the data buffer contains less data than requested, it will only read "
 "the available number of bytes of data."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:568
-msgid "**BLECharacteristic::getDataBuff**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:571
+#: BLECharacteristic.rst:803
 msgid "Get a pointer to the characteristic data buffer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:574
-msgid "uint8_t\\* getDataBuff();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:581
+#: BLECharacteristic.rst:817
 msgid ""
 "The function returns a pointer to the uint8_t array used as the "
 "characteristic internal buffer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:589
-msgid "**BLECharacteristic::getDataLen**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:592
+#: BLECharacteristic.rst:834
 msgid "Get the number of bytes of data in the characteristic data buffer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:595
-msgid "uint16_t getDataLen"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:602
+#: BLECharacteristic.rst:848
 msgid "The function returns the number of bytes of data in the internal buffer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:610
-msgid "**BLECharacteristic::notify**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:613
+#: BLECharacteristic.rst:865
 msgid "Send a notification to a connected device."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:616
-msgid "void notify(uint8_t conn_id);"
+#: BLECharacteristic.rst:875
+msgid "``conn_id`` : the connection ID for the device to send a notification to."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:619
-msgid "conn_id: the connection ID for the device to send a notification to."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:630
-msgid "**BLECharacteristic::indicate**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:633
+#: BLECharacteristic.rst:896
 msgid "Send an indication to a connected device."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:636
-msgid "void indicate(uint8_t conn_id);"
+#: BLECharacteristic.rst:906
+msgid "``conn_id`` : the connection ID for the device to send an indication to."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:639
-msgid "conn_id: the connection ID for the device to send an indication to."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:650
-msgid "**BLECharacteristic::setUserDescriptor**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:654
+#: BLECharacteristic.rst:926
 msgid ""
 "Add a user description descriptor attribute (UUID 0x2901) to the "
 "characteristic."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:657
-msgid "void setUserDescriptor(const char\\* description);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:661
+#: BLECharacteristic.rst:936
 msgid ""
-"description: the desired user description string expressed in a char "
-"array."
+"``description`` : the desired user description string expressed in a char"
+" array."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:672
-msgid "**BLECharacteristic::setFormatDescriptor**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:676
+#: BLECharacteristic.rst:957
 msgid ""
 "Add a data format descriptor attribute (UUID 0x2904) to the "
 "characteristic."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:680
+#: BLECharacteristic.rst:967
 msgid ""
-"void setFormatDescriptor(uint8_t format, uint8_t exponent, uint16_t unit,"
-" uint16_t description);"
+"``format``: refer to https://www.bluetooth.com/specifications/assigned-"
+"numbers/format-types/  for the valid values and associated format types."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:685
-msgid ""
-"format: refer to https://www.bluetooth.com/specifications/assigned-"
-"numbers/format-types/ for the valid values and associated format types."
+#: BLECharacteristic.rst:969
+msgid "``exponent``: base-10 exponent to be applied to characteristic data value."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:686
-msgid "exponent: base-10 exponent to be applied to characteristic data value."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:689
+#: BLECharacteristic.rst:971
 msgid ""
-"unit: refer to `https://btprodspecificationrefs.blob.core.windows.net"
+"``unit``: refer to `https://btprodspecificationrefs.blob.core.windows.net"
 "/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf  "
 "<https://btprodspecificationrefs.blob.core.windows.net/assigned-"
 "values/16-bit%20UUID%20Numbers%20Document.pdf>`__\\ for the valid values "
@@ -1132,102 +847,424 @@ msgid ""
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:692
+#: BLECharacteristic.rst:974
 msgid ""
-"descriptor: refer to https://www.bluetooth.com/specifications/assigned-"
-"numbers/gatt-namespace-descriptors/ for the valid values and associated "
-"descriptors."
+"``description``: refer to https://www.bluetooth.com/specifications"
+"/assigned-numbers/gatt-namespace-descriptors/ for the valid values and "
+"associated descriptors."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:703
-msgid "**BLECharacteristic::setReadCallback**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:707
+#: BLECharacteristic.rst:996
 msgid ""
 "Set a user function to be called when the characteristic data is read by "
 "a connected device."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:711
+#: BLECharacteristic.rst:1006 BLECharacteristic.rst:1042
+#: BLECharacteristic.rst:1078
 msgid ""
-"void setReadCallback(void (\\*fCallback) (BLECharacteristic\\* chr, "
-"uint8_t conn_id));"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:715 BLECharacteristic.rst:741
-#: BLECharacteristic.rst:767
-msgid ""
-"fCallback: A user callback function that returns void and takes two "
+"``fCallback`` : A user callback function that returns void and takes two "
 "arguments."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:716
-msgid "chr: pointer to BLECharacteristic object containing data read"
+#: BLECharacteristic.rst:1008
+msgid "``chr`` : pointer to BLECharacteristic object containing data read"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:718
-msgid "conn_id: connection ID of connected device that read characteristic data"
+#: BLECharacteristic.rst:1010
+msgid ""
+"``conn_id`` : connection ID of connected device that read characteristic "
+"data"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:729
-msgid "**BLECharacteristic::setWriteCallback**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:733
+#: BLECharacteristic.rst:1032
 msgid ""
 "Set a user function to be called when the characteristic data is written "
 "by a connected device."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:737
+#: BLECharacteristic.rst:1044 BLECharacteristic.rst:1080
+msgid "``chr`` : pointer to BLECharacteristic object containing written data."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class
+#: BLECharacteristic.rst:1046 BLECharacteristic.rst:1082
 msgid ""
-"void setWriteCallback(void (\\*fCallback) (BLECharacteristic\\* chr, "
-"uint8_t conn_id));"
+"``conn_id`` : connection ID of connected device that wrote characteristic"
+" data."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:742 BLECharacteristic.rst:768
-msgid "chr: pointer to BLECharacteristic object containing written data."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:744 BLECharacteristic.rst:770
-msgid "conn_id: connection ID of connected device that wrote characteristic data."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:755
-msgid "**BLECharacteristic::setCCCDCallback**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:759
+#: BLECharacteristic.rst:1068
 msgid ""
 "Set a user function to be called when a connected device modifies the "
 "characteristic CCCD to enable or disable notifications or indications."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:763
+#: BLECharacteristic.rst:1084
 msgid ""
-"void setCCCDCallback(void (\\*fCallback) (BLECharacteristic\\* chr, "
-"uint8_t conn_id, uint16_t ccc_bits));"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLECharacteristic.rst:772
-msgid ""
-"ccc_bits: the new CCCD data bits after modification by the connected "
+"``ccc_bits``: the new CCCD data bits after modification by the connected "
 "device"
 msgstr ""
+
+#~ msgid "**BLECharacteristic Class**"
+#~ msgstr ""
+
+#~ msgid "class BLECharacteristic"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::BLECharacteristic**"
+#~ msgstr ""
+
+#~ msgid "BLECharacteristic::BLECharacteristic(BLEUUID uuid);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "uuid: characteristic UUID, expressed as "
+#~ "a BLEUUID class object or a "
+#~ "character array"
+#~ msgstr ""
+
+#~ msgid "BLECharacteristic::BLECharacteristic(const char\\* uuid);"
+#~ msgstr ""
+
+#~ msgid "uuid: characteristic UUID, expressed as a BLEUUID class object or a"
+#~ msgstr ""
+
+#~ msgid "character array"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setUUID**"
+#~ msgstr ""
+
+#~ msgid "void setUUID(BLEUUID uuid);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "uuid: the new characteristic UUID, "
+#~ "expressed with a BLEUUID class object"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::getUUID**"
+#~ msgstr ""
+
+#~ msgid "BLEUUID getUUID();"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setBufferLen**"
+#~ msgstr ""
+
+#~ msgid "void setBufferLen(uint16_t max_len);"
+#~ msgstr ""
+
+#~ msgid "max_len: number of bytes to resize the internal buffer to"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::getBufferLen**"
+#~ msgstr ""
+
+#~ msgid "uint16_t getBufferLen();"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setReadProperty**"
+#~ msgstr ""
+
+#~ msgid "void setReadProperty(bool value);"
+#~ msgstr ""
+
+#~ msgid "value: TRUE to allow connected devices to read characteristic data"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setWriteProperty**"
+#~ msgstr ""
+
+#~ msgid "void setWriteProperty(bool value);"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setNotifyProperty**"
+#~ msgstr ""
+
+#~ msgid "void setNotifyProperty(bool value);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "value: TRUE to allow connected devices"
+#~ " to enable receiving characteristic data"
+#~ " notifications."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setIndicateProperty**"
+#~ msgstr ""
+
+#~ msgid "void setIndicateProperty(bool value);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "value: TRUE to allow connected devices"
+#~ " to enable receiving characteristic data"
+#~ " indications."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setProperties**"
+#~ msgstr ""
+
+#~ msgid "void setProperties(uint8_t value);"
+#~ msgstr ""
+
+#~ msgid "value: desired characteristic properties"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::getProperties**"
+#~ msgstr ""
+
+#~ msgid "uint8_t getProperties();"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::readString**"
+#~ msgstr ""
+
+#~ msgid "String readString();"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The function returns the data in "
+#~ "the characteristic internal buffer expressed"
+#~ " as a String class object."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::readData8**"
+#~ msgstr ""
+
+#~ msgid "uint8_t readData8();"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The function returns the data in "
+#~ "the characteristic internal buffer expressed"
+#~ " as a uint8_t value."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::readData16**"
+#~ msgstr ""
+
+#~ msgid "uint16_t readData16();"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::readData32**"
+#~ msgstr ""
+
+#~ msgid "uint32_t readData32();"
+#~ msgstr ""
+
+#~ msgid "bool writeString(String str);"
+#~ msgstr ""
+
+#~ msgid "bool writeString(const char\\* str);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "str: the data to write to the "
+#~ "characteristic buffer, expressed as a "
+#~ "String class object or a char "
+#~ "array."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::writeData8**"
+#~ msgstr ""
+
+#~ msgid "bool writeData8(uint8_t num);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "num: the data to write to the "
+#~ "characteristic buffer expressed as an "
+#~ "unsigned 8-bit integer."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::writeData16**"
+#~ msgstr ""
+
+#~ msgid "bool writeData16(uint16_t num);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "num: the data to write to the "
+#~ "characteristic buffer expressed as an "
+#~ "unsigned 16-bit integer."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::writeData32**"
+#~ msgstr ""
+
+#~ msgid "bool writeData32(uint32_t num);"
+#~ msgstr ""
+
+#~ msgid "bool writeData32(int num);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "num: the data to write to the "
+#~ "characteristic buffer expressed as a "
+#~ "32-bit integer."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setData**"
+#~ msgstr ""
+
+#~ msgid "bool setData(uint8_t\\* data, uint16_t datalen);"
+#~ msgstr ""
+
+#~ msgid "data: pointer to byte array containing desired data"
+#~ msgstr ""
+
+#~ msgid "datalen: number of bytes of data to write"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::getData**"
+#~ msgstr ""
+
+#~ msgid "uint16_t getData(uint8_t\\* data, uint16_t datalen);"
+#~ msgstr ""
+
+#~ msgid "data: pointer to byte array to save data read from buffer"
+#~ msgstr ""
+
+#~ msgid "datalen: number of bytes of data to read"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::getDataBuff**"
+#~ msgstr ""
+
+#~ msgid "uint8_t\\* getDataBuff();"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::getDataLen**"
+#~ msgstr ""
+
+#~ msgid "uint16_t getDataLen"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::notify**"
+#~ msgstr ""
+
+#~ msgid "void notify(uint8_t conn_id);"
+#~ msgstr ""
+
+#~ msgid "conn_id: the connection ID for the device to send a notification to."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::indicate**"
+#~ msgstr ""
+
+#~ msgid "void indicate(uint8_t conn_id);"
+#~ msgstr ""
+
+#~ msgid "conn_id: the connection ID for the device to send an indication to."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setUserDescriptor**"
+#~ msgstr ""
+
+#~ msgid "void setUserDescriptor(const char\\* description);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "description: the desired user description "
+#~ "string expressed in a char array."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setFormatDescriptor**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void setFormatDescriptor(uint8_t format, uint8_t "
+#~ "exponent, uint16_t unit, uint16_t "
+#~ "description);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "format: refer to "
+#~ "https://www.bluetooth.com/specifications/assigned-numbers"
+#~ "/format-types/ for the valid values "
+#~ "and associated format types."
+#~ msgstr ""
+
+#~ msgid "exponent: base-10 exponent to be applied to characteristic data value."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "unit: refer to "
+#~ "`https://btprodspecificationrefs.blob.core.windows.net/assigned-"
+#~ "values/16-bit%20UUID%20Numbers%20Document.pdf  "
+#~ "<https://btprodspecificationrefs.blob.core.windows.net/assigned-"
+#~ "values/16-bit%20UUID%20Numbers%20Document.pdf>`__\\ for "
+#~ "the valid values and associated units."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "descriptor: refer to "
+#~ "https://www.bluetooth.com/specifications/assigned-numbers"
+#~ "/gatt-namespace-descriptors/ for the valid"
+#~ " values and associated descriptors."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setReadCallback**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void setReadCallback(void (\\*fCallback) "
+#~ "(BLECharacteristic\\* chr, uint8_t conn_id));"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "fCallback: A user callback function that"
+#~ " returns void and takes two "
+#~ "arguments."
+#~ msgstr ""
+
+#~ msgid "chr: pointer to BLECharacteristic object containing data read"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "conn_id: connection ID of connected "
+#~ "device that read characteristic data"
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setWriteCallback**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void setWriteCallback(void (\\*fCallback) "
+#~ "(BLECharacteristic\\* chr, uint8_t conn_id));"
+#~ msgstr ""
+
+#~ msgid "chr: pointer to BLECharacteristic object containing written data."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "conn_id: connection ID of connected "
+#~ "device that wrote characteristic data."
+#~ msgstr ""
+
+#~ msgid "**BLECharacteristic::setCCCDCallback**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void setCCCDCallback(void (\\*fCallback) "
+#~ "(BLECharacteristic\\* chr, uint8_t conn_id, "
+#~ "uint16_t ccc_bits));"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "ccc_bits: the new CCCD data bits "
+#~ "after modification by the connected "
+#~ "device"
+#~ msgstr ""
 

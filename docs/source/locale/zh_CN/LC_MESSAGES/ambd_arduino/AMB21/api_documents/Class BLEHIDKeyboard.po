@@ -1,0 +1,384 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-14 10:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:2
+msgid "Class BLEHIDKeyboard"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:6
+#: BLEHIDKeyboard.rst:64 BLEHIDKeyboard.rst:94 BLEHIDKeyboard.rst:129
+#: BLEHIDKeyboard.rst:150 BLEHIDKeyboard.rst:173 BLEHIDKeyboard.rst:194
+#: BLEHIDKeyboard.rst:215 BLEHIDKeyboard.rst:236 BLEHIDKeyboard.rst:257
+#: BLEHIDKeyboard.rst:278 BLEHIDKeyboard.rst:300
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:8
+msgid "A class used for creating and managing a BLE HID Keyboard."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:11
+#: BLEHIDKeyboard.rst:68 BLEHIDKeyboard.rst:98 BLEHIDKeyboard.rst:132
+#: BLEHIDKeyboard.rst:153 BLEHIDKeyboard.rst:176 BLEHIDKeyboard.rst:197
+#: BLEHIDKeyboard.rst:218 BLEHIDKeyboard.rst:239 BLEHIDKeyboard.rst:260
+#: BLEHIDKeyboard.rst:282 BLEHIDKeyboard.rst:304
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:18
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:21
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:24
+msgid "BLEHIDKeybo ard::BLEHIDKeyboard"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:24
+msgid "Constructs a BLEHIDKeyboard object"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:27
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:29
+msgid "BLEHIDKe yboard::setReportID"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:29
+msgid "Set HID report ID for the HID Keyboard and HID consumer control"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:32
+msgid "BLEHIDKeybo ard::consumerReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:32
+msgid "Send a HID Consumer report"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:35
+msgid "BLEHIDKeybo ard::keyboardReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:35
+msgid "Send a HID Keyboard report"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:38
+msgid "BLEHIDKeyb oard::consumerPress"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:38
+msgid "Send a HID Consumer report indicating button pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:41
+msgid "BLEHIDKeyboa rd::consumerRelease"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:41
+msgid "Send a HID Consumer report indicating button released"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:44
+msgid "BLEHI DKeyboard::keypress"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:44
+msgid "Send a HID Keyboard report indicating keys pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:47
+msgid "BLEHIDK eyboard::keyRelease"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:47
+msgid "Send a HID Keyboard report indicating keys released"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:50
+msgid "BLEHIDKeyb oard::keyReleaseAll"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:50
+msgid "Send a HID Keyboard report indicating no keys pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:53
+msgid "BLEHIDKey board::keyCharPress"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:53
+msgid ""
+"Send a HID Keyboard report indicating keys pressed to output an ASCII "
+"character"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:56
+msgid "BLEHIDKe yboard::keySequence"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:56
+msgid ""
+"Send a HID Keyboard report indicating keys pressed to output an ASCII "
+"string"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:66
+msgid "Constructs a BLEHIDKeyboard object."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:74
+#: BLEHIDKeyboard.rst:104 BLEHIDKeyboard.rst:135 BLEHIDKeyboard.rst:157
+#: BLEHIDKeyboard.rst:179 BLEHIDKeyboard.rst:200 BLEHIDKeyboard.rst:221
+#: BLEHIDKeyboard.rst:242 BLEHIDKeyboard.rst:263 BLEHIDKeyboard.rst:285
+#: BLEHIDKeyboard.rst:308
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:76
+#: BLEHIDKeyboard.rst:201 BLEHIDKeyboard.rst:264
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:78
+#: BLEHIDKeyboard.rst:114 BLEHIDKeyboard.rst:138 BLEHIDKeyboard.rst:161
+#: BLEHIDKeyboard.rst:182 BLEHIDKeyboard.rst:203 BLEHIDKeyboard.rst:224
+#: BLEHIDKeyboard.rst:245 BLEHIDKeyboard.rst:266 BLEHIDKeyboard.rst:288
+#: BLEHIDKeyboard.rst:314
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:80
+#: BLEHIDKeyboard.rst:116 BLEHIDKeyboard.rst:139 BLEHIDKeyboard.rst:162
+#: BLEHIDKeyboard.rst:183 BLEHIDKeyboard.rst:204 BLEHIDKeyboard.rst:225
+#: BLEHIDKeyboard.rst:246 BLEHIDKeyboard.rst:267 BLEHIDKeyboard.rst:289
+#: BLEHIDKeyboard.rst:315
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:82
+#: BLEHIDKeyboard.rst:118 BLEHIDKeyboard.rst:141 BLEHIDKeyboard.rst:164
+#: BLEHIDKeyboard.rst:185 BLEHIDKeyboard.rst:206 BLEHIDKeyboard.rst:227
+#: BLEHIDKeyboard.rst:248 BLEHIDKeyboard.rst:269 BLEHIDKeyboard.rst:291
+#: BLEHIDKeyboard.rst:317
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:84
+#: BLEHIDKeyboard.rst:228 BLEHIDKeyboard.rst:270 BLEHIDKeyboard.rst:318
+msgid "Example: BLEHIDKeyboard"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:86
+#: BLEHIDKeyboard.rst:122 BLEHIDKeyboard.rst:144 BLEHIDKeyboard.rst:167
+#: BLEHIDKeyboard.rst:188 BLEHIDKeyboard.rst:209 BLEHIDKeyboard.rst:230
+#: BLEHIDKeyboard.rst:251 BLEHIDKeyboard.rst:272 BLEHIDKeyboard.rst:294
+#: BLEHIDKeyboard.rst:320
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:88
+#: BLEHIDKeyboard.rst:120 BLEHIDKeyboard.rst:124 BLEHIDKeyboard.rst:142
+#: BLEHIDKeyboard.rst:145 BLEHIDKeyboard.rst:165 BLEHIDKeyboard.rst:168
+#: BLEHIDKeyboard.rst:186 BLEHIDKeyboard.rst:189 BLEHIDKeyboard.rst:207
+#: BLEHIDKeyboard.rst:210 BLEHIDKeyboard.rst:231 BLEHIDKeyboard.rst:249
+#: BLEHIDKeyboard.rst:252 BLEHIDKeyboard.rst:273 BLEHIDKeyboard.rst:292
+#: BLEHIDKeyboard.rst:295 BLEHIDKeyboard.rst:321
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:96
+msgid "Set HID report ID for the HID Keyboard and HID consumer control."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:106
+msgid "reportIDKeyboard: The report ID for the HID keyboard device,"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:108
+#: BLEHIDKeyboard.rst:112
+msgid "corresponding to the HID report descriptor."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:110
+msgid "reportIDConsumer: The report ID for the HID consumer control device,"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:127
+msgid "**BLEHIDKeyboard::consumerReport**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:130
+msgid "Send a HID Consumer report."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:133
+msgid "void consumerReport (uint16_t usage_code);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:136
+#: BLEHIDKeyboard.rst:180
+msgid "usage_code: HID consumer control usage code for the button pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:148
+msgid "**BLEHIDKeyboard::keyboardReport**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:151
+msgid "Send a HID Keyboard report."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:154
+msgid "void keyboardReport (void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:155
+msgid "void keyboardReport (uint8_t modifiers, uint8_t keycode[6]);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:158
+msgid "modifiers: bitmap indicating key modifiers pressed (CTRL, ALT, SHIFT)."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:159
+msgid "keycode: byte array indicating keys pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:171
+msgid "**BLEHIDKeyboard::consumerPress**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:174
+msgid "Send a HID Consumer report indicating button pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:177
+msgid "void consumerPress (uint16_t usage_code);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:192
+msgid "**BLEHIDKeyboard::consumerRelease**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:195
+msgid "Send a HID Consumer report indicating button released."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:198
+msgid "void consumerRelease (void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:213
+msgid "**BLEHIDKeyboard::keypress**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:216
+msgid "Send a HID Keyboard report indicating keys pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:219
+msgid "void keyPress (uint16_t key);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:222
+#: BLEHIDKeyboard.rst:243
+msgid "key: HID keycode for key pressed, value ranges from 0x00 to 0xE7."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:234
+msgid "**BLEHIDKeyboard::keyRelease**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:237
+msgid "Send a HID Keyboard report indicating keys released."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:240
+msgid "void keyRelease (uint16_t key);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:255
+msgid "**BLEHIDKeyboard::keyReleaseAll**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:258
+msgid "Send a HID Keyboard report indicating no keys pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:261
+msgid "void keyReleaseAll(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:276
+msgid "**BLEHIDKeyboard::keyCharPress**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:280
+msgid ""
+"Send a HID Keyboard report indicating keys pressed to output an ASCII "
+"character."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:283
+msgid "void keyCharPress (char ch);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:286
+msgid "ch: ASCII character to output."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:298
+msgid "**BLEHIDKeyboard::keySequence**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:302
+msgid ""
+"Send a HID Keyboard report indicating keys pressed to output an ASCII "
+"string."
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:305
+msgid "void keySequence (const char\\* str, uint16_t delayTime);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:306
+msgid "void keySequence (String str, uint16_t delayTime);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:309
+msgid "str: pointer to character string to output"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:310
+msgid "str: String object containing character string to output"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLEHIDKeyboard.rst:312
+msgid ""
+"delayTime: time delay between key press and release, in milliseconds. "
+"Default value of 5."
+msgstr ""
+

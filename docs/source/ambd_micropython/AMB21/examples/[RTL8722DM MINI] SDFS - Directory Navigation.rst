@@ -9,7 +9,7 @@
 **Materials**
 :raw-html:`</p>`
 
-* Ameba RTL8722DM_MINI x 1
+* AmebaD[AMB23] x 1
 * MicroSD Card x 1 (SD card must be < 32GB with format set to fatfs)
   
 :raw-html:`<p style="color:#E67E22; font-size:24px">`

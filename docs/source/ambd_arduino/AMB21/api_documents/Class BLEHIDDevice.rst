@@ -66,349 +66,513 @@ services.
 | BLEHIDDevice::battService | Get reference to Battery service         |
 +---------------------------+------------------------------------------+
 
-**BLEHIDDevice::init**
+------------------------------------------------------------------------------
 
-| **Description**
-| Initialize the HID Device profile by creating the required services.
+.. method:: BLEHIDDevice::init
 
-| **Syntax**
-| void init(void);
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Initialize the HID Device profile by creating the required services.
 
-| **Example Code**
-| Example: BLEHIDGamepad
+**Syntax**
 
-| **Notes and Warnings**
-| The HID Device object should be initialized before any HID reports can
-  be sent.
+.. code:: cpp
 
-**BLEHIDDevice::setNumOutputReport**
+  void init(void);
 
-| **Description**
-| Configure the number of HID output reports.
+**Parameters**
 
-| **Syntax**
-| void setNumOutputReport (uint8_t numOutputReports);
+The function requires no input parameter.
 
-| **Parameters**
-| numOutputReports: number of output reports
+**Returns**
 
-| **Returns**
-| The function returns nothing.
+The function returns nothing.
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| The number of output reports should be configured before BLEHIDDevice
-  init() function is called.
+Example: BLEHIDGamepad
 
-**BLEHIDDevice::setNumInputReport**
+**Notes and Warnings**
 
-| **Description**
-| Configure the number of HID input reports.
+The HID Device object should be initialized before any HID reports can
+be sent.
 
-| **Syntax**
-| void setNumInputReport (uint8_t numInputReports);
+-------------------------------------------------------------------------------------
 
-| **Parameters**
-| numInputReports: number of input reports
+.. method:: BLEHIDDevice::setNumOutputReport
 
-| **Returns**
-| The function returns nothing.
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| The number of input reports should be configured before BLEHIDDevice
-  init() function is called.
+Configure the number of HID output reports.
 
-**BLEHIDDevice::setReportMap**
+**Syntax**
 
-| **Description**
-| Configure the HID report map characteristic with a HID report
-  descriptor.
+.. code:: cpp
 
-| **Syntax**
-| void setReportMap (uint8_t\* report_map, uint16_t len);
+  void setNumOutputReport (uint8_t numOutputReports);
 
-| **Parameters**
-| report_map: pointer to HID report descriptor
-| len: HID report descriptor length in bytes
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+``numOutputReports`` : number of output reports
 
-| **Example Code**
-| Example: BLEHIDGamepad
+**Returns**
 
-| **Notes and Warnings**
-| The HID report map characteristic can only be configured after
-  BLEHIDDevice init() function is called.
+The function returns nothing.
 
-**BLEHIDDevice::inputReport**
+**Example Code**
 
-| **Description**
-| Send a HID input report.
+NA
 
-| **Syntax**
-| void inputReport (uint8_t reportID, uint8_t\* data, uint16_t len,
-  uint8_t conn_id);
+**Notes and Warnings**
 
-| **Parameters**
-| reportID: HID report ID of input report
-| data: pointer to HID input report data to send
-| len: length of HID input report data in bytes
-| conn_id: connection ID of device to send HID report to
+The number of output reports should be configured before BLEHIDDevice
+init() function is called.
 
-| **Returns**
-| The function returns nothing.
+------------------------------------------------------------------------------
 
-| **Example Code**
-| NA
+.. method:: BLEHIDDevice::setNumInputReport
 
-| **Notes and Warnings**
-| HID input reports can only be sent after BLEHIDDevice init() function
-  has been called.
 
-**BLEHIDDevice::setOutputReportCallback**
+**Description**
 
-| **Description**
-| Set a user callback function for receiving HID output report data.
+Configure the number of HID input reports.
 
-| **Syntax**
-| void setOutputReportCallback (uint8_t reportID, void (\*fCallback)
-  (BLECharacteristic\* chr, uint8_t conn_id));
+**Syntax**
 
-| **Parameters**
-| reportID: HID report ID of output report to link callback function
-  with
-| chr: BLECharacteristic class object containing received HID output
-  report data
-| conn_id: connection ID of device which sent HID report data
+.. code:: cpp
 
-| **Returns**
-| The function returns nothing.
+  void setNumInputReport (uint8_t numInputReports);
 
-| **Example Code**
-| NA
+**Parameters**
 
-| **Notes and Warnings**
-| Setting a user callback function for output reports can only occur
-  after BLEHIDDevice init() function has been called.
+``numInputReports`` : number of input reports
 
-**BLEHIDDevice::bootKeyboardReport**
+**Returns**
 
-| **Description**
-| Send a HID boot keyboard input report.
+The function returns nothing.
 
-| **Syntax**
-| void bootKeyboardReport (uint8_t\* data, uint16_t len, uint8_t
-  conn_id);
+**Example Code**
 
-| **Parameters**
-| data: pointer to HID input report data to send
-| len: length of HID input report data in bytes
-| conn_id: connection ID of device to send HID report to
+NA
 
-| **Returns**
-| The function returns nothing.
+**Notes and Warnings**
 
-| **Example Code**
-| NA
+The number of input reports should be configured before BLEHIDDevice
+init() function is called.
 
-| **Notes and Warnings**
-| By default, the HID service Protocol Mode characteristic has boot mode
-  disabled. To send boot keyboard input reports, the Protocol Mode
-  characteristic needs to have boot mode enabled.
+-----------------------------------------------------------------
 
-**BLEHIDDevice::setHidInfo**
 
-| **Description**
-| Set data of the HID Info characteristic of the HID service.
+.. method:: BLEHIDDevice::setReportMap
 
-| **Syntax**
-| void setHidInfo (uint16_t bcd, uint8_t country, uint8_t flags);
 
-| **Parameters**
-| bcd: 16-bit unsigned integer representing version number of base USB
-  HID Specification implemented by HID Device
-| country: 8-bit integer identifying country HID Device hardware is
-  localized for. Most hardware is not localized (value 0x00).
-| flags: Bit flags indicating remote-wake capability and advertising
-  when bonded but not connected.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Configure the HID report map characteristic with a HID report
+descriptor.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| For detailed information on the characteristic, refer to Bluetooth SIG
-  HID Service specifications.
+.. code:: cpp
 
-**BLEHIDDevice::setBattLevel**
+  void setReportMap (uint8_t* report_map, uint16_t len);
 
-| **Description**
-| Set battery level data of the Battery service.
+**Parameters**
 
-| **Syntax**
-| void setBattLevel (uint8_t level);
+``report_map``: pointer to HID report descriptor
 
-| **Parameters**
-| level: battery level expressed as % of full charge
+``len`` : HID report descriptor length in bytes
 
-| **Returns**
-| The function returns nothing.
+**Returns**
 
-| **Example Code**
-| NA
+The function returns nothing.
 
-| **Notes and Warnings**
-| Battery level is set to 100% by default. For detailed information
-  refer to Bluetooth SIG Battery service specifications.
+**Example Code**
 
-**BLEHIDDevice::setPNPInfo**
+Example: BLEHIDGamepad
 
-| **Description**
-| Set PNP data of the Device Information service.
+**Notes and Warnings**
 
-| **Syntax**
-| void setPNPInfo (uint8_t sig, uint16_t vid, uint16_t pid, uint16_t
-  version);
+The HID report map characteristic can only be configured after
+BLEHIDDevice init() function is called.
 
-| **Parameters**
-| sig: The Vendor ID Source field designates which organization assigned
-  the value used in the Vendor ID field value.
-| vid: The Vendor ID field is intended to uniquely identify the vendor
-  of the device.
-| pid: The Product ID field is intended to distinguish between different
-  products made by the vendor.
-| version: The Product Version field is a numeric expression identifying
-  the device release number in Binary-Coded Decimal.
+---------------------------------------------------------------
 
-| **Returns**
-| The function returns nothing.
+.. method:: BLEHIDDevice::inputReport
 
-| **Example Code**
-| NA
 
-| **Notes and Warnings**
-| By default, sig and vid are configured to indicate Realtek as the
-  vendor. For detailed information refer to Bluetooth SIG Device
-  Information service specifications.
+**Description**
 
-**BLEHIDDevice::setManufacturerString**
+Send a HID input report.
 
-| **Description**
-| Set manufacturer information of the Device Information service.
+**Syntax**
 
-| **Syntax**
-| void setManufacturerString (const char\* manufacturer);
+.. code:: cpp
 
-| **Parameters**
-| manufacturer: pointer to character string containing manufacturer name
-  info.
+  void inputReport (uint8_t reportID, uint8_t* data, uint16_t len, uint8_t conn_id);
 
-| **Returns**
-| The function returns nothing.
+**Parameters**
 
-| **Example Code**
-| NA
+``reportID``: HID report ID of input report
 
-| **Notes and Warnings**
-| Manufacturer is set to “Realtek” by default. For detailed information
-  refer to Bluetooth SIG Device Information service specifications.
+``data``: pointer to HID input report data to send
 
-**BLEHIDDevice::setModelString**
+``len``: length of HID input report data in bytes
 
-| **Description**
-| Set model information of the Device Information service.
+``conn_id``: connection ID of device to send HID report to
 
-| **Syntax**
-| void setModelString (const char\* model);
+**Returns**
 
-| **Parameters**
-| model: pointer to character string containing device model info.
+The function returns nothing.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| Model is set to “Ameba_BLE_HID” by default. For detailed information
-  refer to Bluetooth SIG Device Information service specifications.
+**Notes and Warnings**
 
-**BLEHIDDevice::hidService**
+HID input reports can only be sent after BLEHIDDevice init() function
+has been called.
 
-| **Description**
-| Get reference to HID service
+--------------------------------------------------------------------------------------------
 
-| **Syntax**
-| BLEService& hidService ();
+.. method:: BLEHIDDevice::setOutputReportCallback
 
-| **Parameters**
-| The function requires no input parameter.
 
-| **Returns**
-| The function returns a reference to the BLEService class object for
-  the HID service.
+**Description**
 
-| **Example Code**
-| Example: BLEHIDMouse
+Set a user callback function for receiving HID output report data.
 
-| **Notes and Warnings**
-| NA
+**Syntax**
 
-**BLEHIDDevice::devInfoService**
+.. code:: cpp
 
-| **Description**
-| Get reference to Device Information service
+  void setOutputReportCallback (uint8_t reportID, void (*fCallback)(BLECharacteristic* chr, uint8_t conn_id));
 
-| **Syntax**
-| BLEService& devInfoService ();
+**Parameters**
 
-| **Parameters**
-| The function requires no input parameter.
+``reportID``: HID report ID of output report to link callback function with
 
-| **Returns**
-| The function returns a reference to the BLEService class object for
-  the Device Information service.
+``chr``: BLECharacteristic class object containing received HID output report data
 
-| **Example Code**
-| Example: BLEHIDMouse
+``conn_id`` : connection ID of device which sent HID report data
 
-| **Notes and Warnings**
-| NA
+**Returns**
 
-**BLEHIDDevice::battService**
+The function returns nothing.
 
-| **Description**
-| Get reference to Battery service
+**Example Code**
 
-| **Syntax**
-| BLEService& battService ();
+NA
 
-| **Parameters**
-| The function requires no input parameter.
+**Notes and Warnings**
 
-| **Returns**
-| The function returns a reference to the BLEService class object for
-  the Battery service.
+Setting a user callback function for output reports can only occur
+after BLEHIDDevice init() function has been called.
 
-| **Example Code**
-| Example: BLEHIDMouse
+---------------------------------------------------------------------------
 
-| **Notes and Warnings**
-| NA
+.. method:: BLEHIDDevice::bootKeyboardReport
+
+
+**Description**
+
+Send a HID boot keyboard input report.
+
+**Syntax**
+
+.. code:: cpp
+
+  void bootKeyboardReport (uint8_t* data, uint16_t len, uint8_t conn_id);
+
+**Parameters**
+
+``data``: pointer to HID input report data to send
+
+``len``: length of HID input report data in bytes
+
+``conn_id``: connection ID of device to send HID report to
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+By default, the HID service Protocol Mode characteristic has boot mode
+disabled. To send boot keyboard input reports, the Protocol Mode
+characteristic needs to have boot mode enabled.
+
+-----------------------------------------------------------------------
+
+.. method:: BLEHIDDevice::setHidInfo
+
+
+**Description**
+
+Set data of the HID Info characteristic of the HID service.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setHidInfo (uint16_t bcd, uint8_t country, uint8_t flags);
+
+**Parameters**
+
+``bcd``: 16-bit unsigned integer representing version number of base USB HID Specification implemented by HID Device
+
+``country``: 8-bit integer identifying country HID Device hardware is localized for. Most hardware is not localized (value 0x00).
+
+``flags``: Bit flags indicating remote-wake capability and advertising when bonded but not connected.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+For detailed information on the characteristic, refer to Bluetooth SIG
+HID Service specifications.
+
+--------------------------------------------------------------------------------------------------------
+
+.. method:: BLEHIDDevice::setBattLevel
+
+
+**Description**
+
+Set battery level data of the Battery service.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setBattLevel (uint8_t level);
+
+**Parameters**
+
+``level`` : battery level expressed as % of full charge
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Battery level is set to 100% by default. For detailed information
+refer to Bluetooth SIG Battery service specifications.
+
+--------------------------------------------------------------------
+
+.. method:: BLEHIDDevice::setPNPInfo
+
+
+**Description**
+
+Set PNP data of the Device Information service.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setPNPInfo (uint8_t sig, uint16_t vid, uint16_t pid, uint16_t version);
+
+**Parameters**
+
+``sig``: The Vendor ID Source field designates which organization assigned the value used in the Vendor ID field value.
+
+``vid``: The Vendor ID field is intended to uniquely identify the vendor of the device.
+
+``pid``: The Product ID field is intended to distinguish between different products made by the vendor.
+
+``version`` : The Product Version field is a numeric expression identifying the device release number in Binary-Coded Decimal.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+By default, sig and vid are configured to indicate Realtek as the
+vendor. For detailed information refer to Bluetooth SIG Device Information service specifications.
+
+--------------------------------------------------------------------
+
+.. method:: BLEHIDDevice::setManufacturerString
+
+
+**Description**
+
+Set manufacturer information of the Device Information service.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setManufacturerString (const char* manufacturer);
+
+**Parameters**
+
+``manufacturer``: pointer to character string containing manufacturer name info.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Manufacturer is set to “Realtek” by default. For detailed information
+refer to Bluetooth SIG Device Information service specifications.
+
+----------------------------------------------------------------------------
+
+.. method:: BLEHIDDevice::setModelString
+
+
+**Description**
+
+Set model information of the Device Information service.
+
+**Syntax**
+
+.. code:: cpp
+
+  void setModelString (const char* model);
+
+**Parameters**
+
+``model`` : pointer to character string containing device model info.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Model is set to “Ameba_BLE_HID” by default. For detailed information
+refer to Bluetooth SIG Device Information service specifications.
+
+----------------------------------------------------------------------
+
+.. method:: BLEHIDDevice::hidService
+
+
+**Description**
+
+Get reference to HID service
+
+**Syntax**
+
+.. code:: cpp
+
+  BLEService& hidService ();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns a reference to the BLEService class object for
+the HID service.
+
+**Example Code**
+
+Example: BLEHIDMouse
+
+**Notes and Warnings**
+
+NA
+
+-------------------------------------------------------------------
+
+.. method:: BLEHIDDevice::devInfoService
+
+
+**Description**
+
+Get reference to Device Information service
+
+**Syntax**
+
+.. code:: cpp
+
+  BLEService& devInfoService ();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns a reference to the BLEService class object for
+the Device Information service.
+
+**Example Code**
+
+Example: BLEHIDMouse
+
+**Notes and Warnings**
+
+NA
+
+-----------------------------------------------------
+
+.. method:: BLEHIDDevice::battService
+
+
+**Description**
+
+Get reference to Battery service
+
+**Syntax**
+
+.. code:: cpp
+
+  BLEService& battService ();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns a reference to the BLEService class object for
+the Battery service.
+
+**Example Code**
+
+Example: BLEHIDMouse
+
+**Notes and Warnings**
+
+NA
 
  

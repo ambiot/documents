@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-23 07:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:12
 #: surrounding the
@@ -37,7 +39,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:13
 #: surrounding the
 msgid "Antenna x 1"
-msgstr ""
+msgstr "天线 x 1"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:15
 #: surrounding the
@@ -45,6 +47,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:21
 #: surrounding the
@@ -52,21 +56,21 @@ msgid ""
 "In this example, we use Ameba to scan available WiFi hotspots in the "
 "surroundings, and prints the SSID, encryption type, signal strength "
 "information of each detected hotspot."
-msgstr ""
+msgstr "这个范例里，我们使用Ameba来检测周围的WiFi讯号，并将检测到WiFi的名称，加密方式，信号强度等信息打印出来。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:23
 #: surrounding the
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
 "Arduino IDE: ``“Tools” -> “Board”``"
-msgstr ""
+msgstr "首先先确定天线已经接上，确保在 “Tools” -> “Board” 中选择了正确的Ameba开发板。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:25
 #: surrounding the
 msgid ""
 "Open the “ScanNetworks” example in ``“File” -> “Examples” -> “AmebaWiFi” "
 "-> “ScanNetworks”``:"
-msgstr ""
+msgstr "然后打开 Scan Networks 的范例, “File” -> “Examples” -> “AmebaWiFi” -> “ScanNetworks” :"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:27
 #: surrounding the
@@ -84,7 +88,7 @@ msgid ""
 "Then upload the sample code and press the reset button on Ameba. "
 "Afterwards, you can see “\\*\\*Scan Networks\\*\\*” message appears, with"
 " the detected WiFi hotspots and the information of each hotspot."
-msgstr ""
+msgstr "上传程式码之后，按下Ameba的Reset按钮, 这时候会看到 **Scan Networks** 下会有搜索到WiFi的数目以及每一个WiFi的讯息。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:33
 #: surrounding the
@@ -102,20 +106,24 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
+"说明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:39
 #: surrounding the
 msgid ""
 "First we use ``WiFi.macAddress(mac)`` to get the MAC address of Ameba: "
 "https://www.arduino.cc/en/Reference/WiFiMACAddress"
-msgstr ""
+msgstr "首先使用的是显示Ameba自己的物理地址WiFi.macAddress(mac):"
+"https://www.arduino.cc/en/Reference/WiFiMACAddress"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:41
 #: surrounding the
 msgid ""
 "Then we use ``WiFi.scanNetworks()`` to detect WiFi hotspots: "
 "https://www.arduino.cc/en/Reference/WiFiScanNetworks"
-msgstr ""
+msgstr "然后开始搜索周围WiFi环境的WiFi.scanNetworks()"
+"https://www.arduino.cc/en/Reference/WiFiScanNetworks""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:43
 #: surrounding the
@@ -125,14 +133,17 @@ msgid ""
 "https://www.arduino.cc/en/Reference/WiFiSSID We use "
 "``WiFi.RSSI(thisNet)`` to get the signal strength of the connection to "
 "the router: https://www.arduino.cc/en/Reference/WiFiRSSI"
-msgstr ""
+msgstr "在打印WiFi具体讯息时使用到的有, 显示WiFi的名称WiFi.SSID(thisNet):https://www.arduino.cc/en/Reference/WiFiSSID "
+"显示WiFi的讯号强度WiFi.RSSI(thisNet):"
+"https://www.arduino.cc/en/Reference/WiFiRSSI"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:48
 #: surrounding the
 msgid ""
 "We use ``WiFi.encryptionType(thisNet)`` to get the encryption type of the"
 " network: https://www.arduino.cc/en/Reference/WiFiEncryptionType"
-msgstr ""
+msgstr "显示WiFi的加密方式WiFi.encryptionType(thisNet):"
+"https://www.arduino.cc/en/Reference/WiFiEncryptionType"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:51
 #: surrounding the
@@ -140,6 +151,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Comparison with"
 " Arduino** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **与Arduino的差异**"
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:57
 #: surrounding the
@@ -147,12 +160,18 @@ msgid ""
 "In the Arduino platform, we need to add an extra WiFi shield to be the "
 "WiFi module to realize the WiFi connection. And we must ``#include`` to "
 "use SPI to communicate with WiFi module."
-msgstr ""
+msgstr "Arduino在完成WiFi的操作时，需要另外使用WiFi Shield来作为WiFi模块，因此在使用WiFi是需要#include 来使用SPI与WiFi模块进行通讯。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:59
 #: surrounding the
 msgid ""
 "However, Ameba is already equipped with WiFi module. Therefore, "
 "``#include`` is not needed."
-msgstr ""
+msgstr "但是Ameba自身就具有WiFi模块的功能，因此，不需要 ``#include`` 。若想要使用Arduino的范例，要先删掉这一项。"
+
+#~ msgid ""
+#~ "**AmebaD [:raw-html:`<p "
+#~ "style=\"color:#1A76B4;\">AMB21(RTL8722DM/CSM)\\</p>` / "
+#~ "AMB23(RTL8722DM_MINI) / BW16(RTL8729DN)] x 1**"
+#~ msgstr ""
 

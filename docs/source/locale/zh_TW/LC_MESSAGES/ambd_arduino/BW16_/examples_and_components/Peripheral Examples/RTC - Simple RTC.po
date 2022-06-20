@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,13 +19,15 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:3 Simple
 msgid "RTC - Simple RTC"
-msgstr "RTC - RTC 簡單範例 "
+msgstr "RTC - RTC 簡單範例"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:8 Simple
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:12 Simple
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -36,23 +38,25 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:18 Simple
 msgid ""
 "This example demonstrates how to use the RTC library methods. This "
 "function describes how to use the RTC API. The RTC function is "
 "implemented by an independent BCD timer/counter."
-msgstr ""
+msgstr "本範例說明如何使用RTC庫方法。 此函數描述如何使用RTC API。 RTC功能由獨立的BCD timer/counter實現。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:23 Simple
 msgid ""
 "Select the correct Ameba development board from the Arduino IDE: "
 "\"Tools\" -> \"Board\"."
-msgstr ""
+msgstr "從Arduino IDE中選擇正確的Ameba開發板：“Tools”->“Board”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:24 Simple
 msgid "Then open the “RTC” example from:"
-msgstr ""
+msgstr "接著打開 “RTC” 範例:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:25 Simple
 msgid "``\"File\" -> \"Examples\" -> \"AmebaRTC\" -> \"RTC\"``:"
@@ -71,7 +75,7 @@ msgid ""
 "Upon successfully upload the sample code and press the reset button, this"
 " example will print out time information since the user initialized time "
 "every second in the Serial Monitor."
-msgstr ""
+msgstr "成功上傳範例代碼並按下重置按鈕後，此範例將打印出時間信息，因為用戶每秒在串行監視器中初始化時間。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:33 Simple
 msgid "|2|"
@@ -86,10 +90,12 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
+"説明** :raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:39 Simple
 msgid "[1] Simple RTC example from Arduino Tutorials:"
-msgstr ""
+msgstr "[1] Arduino教學中的RTC範例:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:40 Simple
 msgid "https://www.arduino.cc/en/Tutorial/SimpleRTC"

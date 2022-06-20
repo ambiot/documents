@@ -1,13 +1,18 @@
 Class EpdIF
 =============
-**EpdIf Class**
 
-| **Description**
-| A class used to control the electronic paper display internal
-  functions.
+.. class:: EpdIf
 
-| **Syntax**
-| class EpdIf
+
+**Description**
+
+A class used to control the electronic paper display internal functions.
+
+**Syntax**
+
+.. code:: cpp
+
+  class EpdIf
 
 **Members**
 
@@ -59,227 +64,333 @@ Class EpdIF
 |                                | deep-sleep mode to save power      |
 +--------------------------------+------------------------------------+
 
-**EpdIf:: EPD_Dis_Part**
+-------------------
 
-| **Description**
-| Put an image buffer to the frame memory, but not updating the display.
+.. method:: EpdIf:: EPD_Dis_Part
 
-| **Syntax**
-| void EPD_Dis_Part(unsigned int x_start, unsigned int y_start, const
-  unsigned char\* datas, unsigned int PART_COLUMN, unsigned int
-  PART_LINE);
 
-| **Parameters**
-| x_start: starting position of the x-axis
-| y_start: starting position of the y-axis
-| datas: data to be displayed on the e-paper module
-| PART_COLUMN: height of the display area
-| PART_LINE: width of the display area
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Put an image buffer to the frame memory, but not updating the display.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
+.. code:: cpp
 
-**EpdIf:: EPD_SetFrame**
+  void EPD_Dis_Part(unsigned int x_start, unsigned int y_start, const unsigned char * datas, unsigned int PART_COLUMN, unsigned int PART_LINE);
 
-| **Description**
-| Put display data to the frame memory, usually used for setup text
-  display functions.
+**Parameters**
 
-| **Syntax**
-| void EPD_SetFrame(const unsigned char\* image_buffer, int x, int y,
-  int image_width, int image_height);
+``x_start`` : starting position of the x-axis
 
-| **Parameters**
-| image_buffer: the buffer which stores the data to be displayed on the
-  e-paper module, usually used to display texts.
-| x: starting position of the x-axis
-| y: starting position of the y-axis
-| image_width: width of the display area
-| image_height: height of the display area
+``y_start`` : starting position of the y-axis
 
-| **Returns**
-| The function returns nothing.
+``datas`` : data to be displayed on the e-paper module
 
-| **Example Code**
-| NA
+``PART_COLUMN`` : height of the display area
 
-| **Notes and Warnings**
-| NA
+``PART_LINE`` : width of the display area
 
-**EpdIf:: EPD_SetRAMValue_BaseMap**
+**Returns**
 
-| **Description**
-| To read image data stored in the RAM, but not display on the screen.
+The function returns nothing.
 
-| **Syntax**
-| void EPD_SetRAMValue_BaseMap(const unsigned char\* datas);
+**Example Code**
 
-| **Parameters**
-| datas: contains the black and white information that forms the image
-  stored in RAM
+NA
 
-| **Returns**
-| The function returns nothing.
+**Notes and Warnings**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| NA
+--------------------------
 
-**EpdIf:: EPD_SetFrameMemory**
+.. method:: EpdIf:: EPD_SetFrame
 
-| **Description**
-| To read image data stored in the buffer but not display on the screen.
 
-| **Syntax**
-| void EPD_SetFrameMemory(const unsigned char\* image_buffer);
+**Description**
 
-| **Parameters**
-| image_buffer: the buffer where stores the image data in hexadecimal
-  numbers
+Put display data to the frame memory, usually used for setup text display functions.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
+  void EPD_SetFrame(const unsigned char * image_buffer, int x, int y, int image_width, int image_height);
 
-**EpdIf:: EPD_UpdateDisplay**
+**Parameters**
 
-| **Description**
-| Update the ePaper display module. Always combined used with functions
-  set the frames.
+``image_buffer`` : the buffer which stores the data to be displayed on the e-paper module, usually used to display texts.
 
-| **Syntax**
-| void EPD_UpdateDisplay(void);
+``x`` : starting position of the x-axis
 
-| **Parameters**
-| The function requires no input parameter.
+``y`` : starting position of the y-axis
 
-| **Returns**
-| The function returns nothing.
+``image_width`` : width of the display area
 
-| **Example Code**
-| NA
+``image_height`` : height of the display area
 
-| **Notes and Warnings**
-| There are 2 memory areas embedded in the e-paper display but once this
-  function is called, then the next action of SetFrameMemory or
-  ClearScreen will set the other memory area.
+**Returns**
 
-**EpdIf:: EPD_ClearScreen_White**
+The function returns nothing.
 
-| **Description**
-| Clear the frame memory with the White color.
+**Example Code**
 
-| **Syntax**
-| void EpdIf::EPD_ClearScreen_White(void);
+NA
 
-| **Parameters**
-| The function requires no input parameter.
+**Notes and Warnings**
 
-| **Returns**
-| The function returns nothing.
+NA
 
-| **Example Code**
-| NA
+--------------
 
-| **Notes and Warnings**
-| If the users want to see the actual display on the e-paper screen, the
-  function EPD_UpdateDisplay() is required to be added behind this code.
+.. method:: EpdIf:: EPD_SetRAMValue_BaseMap
 
-**EpdIf:: EPD_ClearScreen_Black**
 
-| **Description**
-| Clear the frame memory with the Black color.
+**Description**
 
-| **Syntax**
-| void EpdIf::EPD_ClearScreen_Black(void);
+To read image data stored in the RAM, but not display on the screen.
 
-| **Parameters**
-| The function requires no input parameter.
+**Syntax**
 
-| **Returns**
-| The function returns nothing.
+.. code:: cpp
 
-| **Example Code**
-| NA
+  void EPD_SetRAMValue_BaseMap(const unsigned char * datas);
 
-| **Notes and Warnings**
-| If the users want to see the actual display on the e-paper screen, the
-  function EPD_UpdateDisplay() is required to be added behind this code.
+**Parameters**
 
-**EpdIf:: EPD_Busy**
+``datas`` : contains the black and white information that forms the image stored in RAM
 
-| **Description**
-| Wait until the busy_pin goes to low, which is the idle state.
+**Returns**
 
-| **Syntax**
-| void EpdIf::EPD_Busy(void);
+The function returns nothing.
 
-| **Parameters**
-| The function requires no input parameter.
+**Example Code**
 
-| **Returns**
-| The function returns nothing.
+NA
 
-| **Example Code**
-| NA
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| If the users want to see the actual display on the e-paper screen, the
-  function EPD_UpdateDisplay() is required to be added behind this code.
+NA
 
-**EpdIf:: EPD_Reset**
+------------------
 
-| **Description**
-| This command will let the E-paper module reset, it is often used to
-  awaken the module in while it’s in the deep sleep mode, you will find
-  more details in the function EpdIf:: EPD_Sleep().
 
-| **Syntax**
-| void EpdIf::EPD_Reset(void);
+.. method:: EpdIf:: EPD_SetFrameMemory
 
-| **Parameters**
-| The function requires no input parameter.
 
-| **Returns**
-| The function returns nothing.
+**Description**
 
-| **Example Code**
-| NA
+To read image data stored in the buffer but not display on the screen.
 
-| **Notes and Warnings**
-| NA
+**Syntax**
 
-**EpdIf::EPD_Sleep**
+.. code:: cpp
 
-| **Description**
-| After this command is transmitted, the chip would enter the deep-sleep
-  mode to save power. The deep sleep mode would return to standby by
-  hardware reset. You can use EPD:: Init() to awaken the E-paper module.
+  void EPD_SetFrameMemory(const unsigned char * image_buffer);
 
-| **Syntax**
-| void EpdIf::EPD_Sleep(void);
+**Parameters**
 
-| **Parameters**
-| The function requires no input parameter.
+``image_buffer``: the buffer where stores the image data in hexadecimal numbers
 
-| **Returns**
-| The function returns nothing.
+**Returns**
 
-| **Example Code**
-| NA
+The function returns nothing.
 
-| **Notes and Warnings**
-| NA
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----------
+
+.. method:: EpdIf:: EPD_UpdateDisplay
+
+
+**Description**
+
+Update the ePaper display module. Always combined used with functions set the frames.
+
+**Syntax**
+
+.. code:: cpp
+
+  void EPD_UpdateDisplay(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+There are 2 memory areas embedded in the e-paper display but once this
+function is called, then the next action of SetFrameMemory or
+ClearScreen will set the other memory area.
+
+----------
+
+.. method:: EpdIf:: EPD_ClearScreen_White
+
+
+**Description**
+
+Clear the frame memory with the White color.
+
+**Syntax**
+
+.. code:: cpp
+
+  void EpdIf::EPD_ClearScreen_White(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+If the users want to see the actual display on the e-paper screen, the
+function EPD_UpdateDisplay() is required to be added behind this code.
+
+-------------------------
+
+.. method:: EpdIf:: EPD_ClearScreen_Black
+
+
+**Description**
+
+Clear the frame memory with the Black color.
+
+**Syntax**
+
+.. code:: cpp
+
+  void EpdIf::EPD_ClearScreen_Black(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+If the users want to see the actual display on the e-paper screen, the function EPD_UpdateDisplay() is required to be added behind this code.
+
+-------------------------------
+
+.. method:: EpdIf:: EPD_Busy
+
+
+**Description**
+
+Wait until the busy_pin goes to low, which is the idle state.
+
+**Syntax**
+
+.. code:: cpp
+
+  void EpdIf::EPD_Busy(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+If the users want to see the actual display on the e-paper screen, the function EPD_UpdateDisplay() is required to be added behind this code.
+
+------------------
+
+.. method:: EpdIf:: EPD_Reset
+
+
+**Description**
+
+This command will let the E-paper module reset, it is often used to awaken the module in while it’s in the deep sleep mode, you will find
+more details in the function ``EpdIf:: EPD_Sleep()``.
+
+**Syntax**
+
+.. code:: cpp
+
+  void EpdIf::EPD_Reset(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----------------
+
+.. method:: EpdIf::EPD_Sleep
+
+
+**Description**
+
+After this command is transmitted, the chip would enter the deep-sleep mode to save power. The deep sleep mode would return to standby by hardware reset. You can use EPD:: Init() to awaken the E-paper module.
+
+**Syntax**
+
+.. code:: cpp
+
+  void EpdIf::EPD_Sleep(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA

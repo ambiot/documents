@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-02-18 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,10 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
+
+
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:12 Music Play
 #: by
@@ -45,6 +49,9 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
+
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:19 Music Play
 #: by
@@ -52,7 +59,7 @@ msgid ""
 "A sound is composed of volume, tone and timbre. Volume is determined by "
 "the amplitude of the sound wave. Tone is determined by the frequency of "
 "the sound wave. Timbre is determined by the waveform of the sound wave."
-msgstr ""
+msgstr "聲音的組成包括音量、音調與音色。音量為聲波的振幅，音調為聲波的頻率，音色則是由聲波的波形決定。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:23 Music Play
 #: by
@@ -61,7 +68,7 @@ msgid ""
 "desired tone. As PWM outputs square wave, if we wish to emit tone C4 "
 "(frequency=262Hz), we have to make PWM to output square wave with "
 "wavelength 1/262 = 3.8ms:"
-msgstr ""
+msgstr "這個範例裡我們使用PWM控制蜂鳴器發出想要的音調。 PWM輸出的是方波，當我們想要發出中央C(C4)的聲音時，C4的頻率是262Hz，每個波的長度是 1/262 = 3.8ms，所以波形如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:28 Music Play
 #: by
@@ -78,17 +85,17 @@ msgstr ""
 msgid ""
 "We use PWM to output sound wave with different frequency, so as to play "
 "music by the buzzer."
-msgstr ""
+msgstr "所以我們只要讓PWM送出不同的頻率，就可以讓蜂鳴器發出音樂"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:33 Music Play
 #: by
 msgid "Connect the buzzer to the PWM output pin shown in the following diagrams."
-msgstr ""
+msgstr "接著我們將蜂鳴器接上要發出訊號的PWM pin腳:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:35 Music Play
 #: by
 msgid "**AMB21 / AMB22** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21/AMB22** 的接線圖:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:37 Music Play
 #: by
@@ -103,7 +110,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:39 Music Play
 #: by
 msgid "**AMB23** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23** 的接線圖"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:41 Music Play
 #: by
@@ -118,7 +125,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:43 Music Play
 #: by
 msgid "**BW16** Wiring Diagram:"
-msgstr ""
+msgstr "**BW16**  的接線圖"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:45 Music Play
 #: by
@@ -136,13 +143,15 @@ msgid ""
 "Open the example code in ``“Examples” -> “AmebaAnalog” -> "
 "“TonePlayMelody”``"
 msgstr ""
+"打開 ``“Examples” -> “AmebaAnalog” -> "
+"“TonePlayMelody”``"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:49 Music Play
 #: by
 msgid ""
 "Compile and upload to Ameba, press the reset button. Then you can hear "
 "the buzzer playing music."
-msgstr ""
+msgstr "編譯並上傳完成之後, 按下Reset按鈕, Ameba就會播出 ”妹妹背著洋娃娃” 的音樂。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:51 Music Play
 #: by
@@ -150,11 +159,14 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
+"説明** :raw-html:`</p>`"
+
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:55 Music Play
 #: by
 msgid "Ameba implement the tone() and noTone() API of Arduino:"
-msgstr ""
+msgstr "Ameba實作了跟 Arduino一樣的tone()與noTone() API:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:56 Music Play
 #: by
@@ -173,5 +185,6 @@ msgid ""
 " make. Another array, noteDurations, contains the length of each tone, 4 "
 "represents quarter note (equals to 3000ms/4 = 750ms, and plus an extra "
 "30% time pause), 8 represents eighth note."
-msgstr ""
+msgstr "程式碼裡我們宣告melody的陣列, 裡面擺要發出的音調, 另外宣告noteDurations的陣列,"
+"裡面放每個音調的長度, 4代表4分音符, 8代表8分音符，4分音符的長度是3000ms/ 4 = 750ms, 另外加上30%的停頓時間。"
 

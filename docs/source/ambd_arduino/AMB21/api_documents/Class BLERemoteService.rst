@@ -1,13 +1,16 @@
 Class BLERemoteService
 ========================
-**BLERemoteService Class**
 
-| **Description**
-| A class used for managing BLE GATT services on connected remote
-  devices.
+.. class:: BLERemoteService
 
-| **Syntax**
-| class BLERemoteService
+
+**Description**
+
+A class used for managing BLE GATT services on connected remote devices.
+
+**Syntax**
+
+class BLERemoteService
 
 **Members**
 
@@ -27,47 +30,70 @@ Class BLERemoteService
 | RemoteService::getCharacteristic | the remote device                |
 +----------------------------------+----------------------------------+
 
-**BLERemoteService::getUUID**
+---------------------------------------
 
-| **Description**
-| Get the service UUID.
+.. method:: BLERemoteService::getUUID
 
-| **Syntax**
-| BLEUUID getUUID();
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns the service UUID as a BLEUUID class object.
+Get the service UUID.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
-|  
+.. code:: cpp
 
-**BLERemoteService::getCharacteristic**
+  BLEUUID getUUID();
 
-| **Description**
-| Get a characteristic with the specified UUID on the remote device.
+**Parameters**
 
-| **Syntax**
-| BLERemoteCharacteristic\* getCharacteristic (const char\* uuid);
-| BLERemoteCharacteristic\* getCharacteristic (BLEUUID uuid);
+The function requires no input parameter.
 
-| **Parameters**
-| uuid: the desired characteristic UUID, expressed as a character array
-  or a BLEUUID object.
+**Returns**
 
-| **Returns**
-| The function returns the found characteristic as a
-  BLERemoteCharacteristic object pointer, otherwise nullptr is returned
-  if a characteristic with the UUID is not found.
+The function returns the service UUID as a BLEUUID class object.
 
-| **Example Code**
-| Example: BLEUartClient
+**Example Code**
 
-| **Notes and Warnings**
-| NA
+NA
+
+**Notes and Warnings**
+
+NA
+
+---------------------------------------------------------
+
+.. method:: BLERemoteService::getCharacteristic
+
+
+**Description**
+
+Get a characteristic with the specified UUID on the remote device.
+
+**Syntax**
+
+.. code:: cpp
+
+  BLERemoteCharacteristic* getCharacteristic (const char* uuid);
+
+.. code:: cpp
+
+  BLERemoteCharacteristic* getCharacteristic (BLEUUID uuid);
+
+**Parameters**
+
+``uuid``: the desired characteristic UUID, expressed as a character array or a BLEUUID object.
+
+**Returns**
+
+The function returns the found characteristic as a
+BLERemoteCharacteristic object pointer, otherwise nullptr is returned
+if a characteristic with the UUID is not found.
+
+**Example Code**
+
+Example: BLEUartClient
+
+**Notes and Warnings**
+
+NA

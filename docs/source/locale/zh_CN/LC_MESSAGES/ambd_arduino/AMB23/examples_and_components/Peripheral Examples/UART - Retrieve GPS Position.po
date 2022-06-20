@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:12
 #: Retrieve
@@ -40,7 +42,7 @@ msgid ""
 "`Adafruit Ultimate GPS Breakout "
 "<https://www.adafruit.com/products/746>`__ x 1 (Refer to `official "
 "document <https://learn.adafruit.com/adafruit-ultimate-gps?view=all>`__)"
-msgstr ""
+msgstr "Adafruit Ultimate GPS Breakout x 1 (可参考 `官方文件 <https://learn.adafruit.com/adafruit-ultimate-gps?view=all>`__))"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:16
 #: Retrieve
@@ -48,6 +50,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:20
 #: Retrieve
@@ -55,7 +59,7 @@ msgid ""
 "In this example, we use Adafruit Ultimate GPS Breakout. Its data format "
 "is pure text, so we can connect it to USB to TTL Adapter and observe the "
 "output."
-msgstr ""
+msgstr "这边介绍使用Adafruit Ultimate GPS Breakout。它的资料格式是文字介面，所以可以直接接在USB to TTL Adapter上直接看GPS内容："
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:24
 #: Retrieve
@@ -86,6 +90,8 @@ msgid ""
 "outdoors, when the GPS signal is “fix”, you would get message similar to "
 "the figure below."
 msgstr ""
+"的格式使用NMEA sentence, 详细内容可以参考http://aprs.gids.nl/nmea/ 但在室内不太容易收到GPS讯号，"
+"上一张图尚未收到讯号，称之为还没“fix”。带GPS模组到室外做测试，等到fix有讯号的内容长的像这样："
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:34
 #: Retrieve
@@ -102,7 +108,7 @@ msgstr ""
 msgid ""
 "In this example we are only interested in the “$GPRMC (Global Positioning"
 " Recommended Minimum Coordinates)”:"
-msgstr ""
+msgstr "这边我们目前关心的内容是$GPRMC (Global Positioning Recommended Minimum Coordinates):"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:38
 #: Retrieve
@@ -112,7 +118,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:39
 #: Retrieve
 msgid "Each field is separated by a comma."
-msgstr ""
+msgstr "每个栏位都用逗号隔开"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:41
 #: Retrieve
@@ -121,12 +127,12 @@ msgid ""
 "this example. The time format is HH:MM:SS.SSS, i.e., 03:21:22.000. Note "
 "that the time zone and the daylight-saving time adjustment should be "
 "handled on your own."
-msgstr ""
+msgstr "第1栏是GMT(Greenwich Mean Time), 这边的例子是032122.000, 格式为HH:MM:SS.SSS, 也就是03:21:22.000。时区与日光节约需要自行调整"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:46
 #: Retrieve
 msgid "Second field represents the status code"
-msgstr ""
+msgstr "第2栏是status code"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:48
 #: Retrieve
@@ -136,12 +142,12 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:49
 #: Retrieve
 msgid "A: Active, meaning the GPS signal is fix."
-msgstr ""
+msgstr "A: Active, 这个状态下GPS可以fix"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:51
 #: Retrieve
 msgid "The third to sixth fields represent the geolocation"
-msgstr ""
+msgstr "3~6栏是地理位置定位(geolocation)"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:53
 #: Retrieve
@@ -149,14 +155,14 @@ msgid ""
 "In this example, 2446.8181,N represents 24 degrees 46.8181 minutes north "
 "latitude, and 12059.7251,E represents 120 degrees 59.7251 minutes east "
 "longitude."
-msgstr ""
+msgstr "例子中，2446.8181,N 表示北半球纬度24度46.8181分，12059.7251,E 表示东半球经度120度59.7251分，"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:57
 #: Retrieve
 msgid ""
 "We can search **+24 46.8181’, +120 59.7251’** in Google map to check "
 "whether the position is correct."
-msgstr ""
+msgstr "我们可以在google map的搜寻栏输入+24 46.8181′, +120 59.7251′ 就可以检查位置是否正确"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:60
 #: Retrieve
@@ -173,31 +179,31 @@ msgstr ""
 msgid ""
 "The seventh field is relative speed(knot). 1 knot = 1.852km/hr, in this "
 "example the relative speed is 0.39 knot."
-msgstr ""
+msgstr "第7栏是相对地面速度, 单位是节(knot), 每节等同于时速1.852公里, 例子中是0.39节"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:64
 #: Retrieve
 msgid ""
 "The eighth field is the moving angle, which is calculated by its moving "
 "orbit."
-msgstr ""
+msgstr "第8栏是行进角度, 这是根据之前的轨迹算出来的"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:66
 #: Retrieve
 msgid ""
 "The ninth field is the date with format ddMMyy. In this example, “270116”"
 " stands for day 27, January, year 2016."
-msgstr ""
+msgstr "第9栏是日期, 格式是ddMMyy, 例子中270116为27日, 1月, 2016年"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:68
 #: Retrieve
 msgid "The last field is checksum. In the example we have \\*53 as checksum."
-msgstr ""
+msgstr "最后1栏为checksum, 例子中是*53"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:70
 #: Retrieve
 msgid "**AMB21 / AMB22** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB21 / AMB22** 接线图如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:72
 #: Retrieve
@@ -212,7 +218,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:74
 #: Position.rst:78 Retrieve
 msgid "**AMB23** Wiring Diagram:"
-msgstr ""
+msgstr "**AMB23** 接线图如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:76
 #: Retrieve
@@ -244,12 +250,12 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:85
 #: Retrieve
 msgid "Compile and upload to Ameba, then press the reset button."
-msgstr ""
+msgstr "编译并上传到Ameba, 完成之后按Reset按钮, "
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:86
 #: Retrieve
 msgid "The result will be output to Serial Monitor:"
-msgstr ""
+msgstr "结果会输出到Serial Monitor上, 所以带着笔电到户外试试看："
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART GPS Position.rst:88
 #: Retrieve

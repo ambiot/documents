@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-25 10:47+0100\n"
+"POT-Creation-Date: 2022-06-09 08:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:8
 #: Send UART [RTL8722DM] and
 msgid "[RTL8722CSM] [RTL8722DM] UART - Send and Receive"
-msgstr ""
+msgstr "[RTL8722CSM] [RTL8722DM] UART - 發送和接收"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:13
 #: Send UART [RTL8722DM] and
@@ -28,16 +28,18 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:17
 #: Send UART [RTL8722DM] and
-msgid "Ameba x 1"
+msgid "AmebaD[AMB21 / AMB22] x 1"
 msgstr ""
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:18
 #: Send UART [RTL8722DM] and
 msgid "TTL USB to Serial module x 1"
-msgstr ""
+msgstr "USB轉TTL串行模塊 x 1"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:20
 #: Send UART [RTL8722DM] and
@@ -45,6 +47,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:24
 #: Send UART [RTL8722DM] and
@@ -56,14 +60,16 @@ msgid ""
 " including ameba. However, the module on Ameba is reserved for LOG UART "
 "and Firmware uploading, that is why we need a separate module to "
 "communicate between ameba and PC."
-msgstr ""
+msgstr "UART是一種非常通用的通信協議，是微控制器的一個重要組成部分。USB轉TTL串行傳輸模塊是一種可以將UART信號轉換為USB信號的集成電路，"
+"以便我們可以在PC上看到UART日誌。該模塊經常用於包括Ameba在內的許多開發板上。"
+"但是，該模塊在Ameba上的功能被保留用於LOG UART和固件上傳，所以我們需要其他獨立模塊在Ameba和PC之間進行通信。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:26
 #: Send UART [RTL8722DM] and
 msgid ""
 "There are currently 2 sets of UART available to MicroPython users and "
 "they are:"
-msgstr ""
+msgstr "當前有2組UART引脚供MicroPython用戶使用，它們分別是"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:32
 #: Send UART [RTL8722DM] and
@@ -113,12 +119,12 @@ msgstr ""
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:38
 #: Send UART [RTL8722DM] and
 msgid "Here we are using unit 0 to demonstrate how uart works on ameba."
-msgstr ""
+msgstr "在此示例中，我們使用第“0”組UART引脚來示範UART在Ameba上的工作方式。"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:39
 #: Send UART [RTL8722DM] and
 msgid "Connect TTL module to ``PA_21`` and ``PA_22`` as shown below,"
-msgstr ""
+msgstr "如下圖所示，將USB轉TTL串行傳輸模塊連接到引脚PA_21和PA_22"
 
 #: - ../../source/ambd_micropython/AMB21/examples/[RTL8722CSM] Receive.rst:41
 #: Send UART [RTL8722DM] and
@@ -135,5 +141,8 @@ msgstr ""
 msgid ""
 "Then, copy and paste the following code line by line into REPL to see its"
 " effect."
-msgstr ""
+msgstr "然後，將以下代碼逐行複制並粘貼到REPL中，以查看其效果。"
+
+#~ msgid "Ameba x 1"
+#~ msgstr ""
 

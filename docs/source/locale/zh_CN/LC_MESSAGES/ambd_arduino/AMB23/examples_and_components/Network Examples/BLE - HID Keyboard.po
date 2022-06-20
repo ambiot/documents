@@ -26,6 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:12
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -33,33 +35,35 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:13
 msgid "BLE capable host device [Windows / Linux / MacOS / Android"
-msgstr ""
+msgstr "支援 BLE 的设备 [Windows / Linux / MacOS / Android]"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:15
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:19
 msgid "**Introduction**"
-msgstr ""
+msgstr "**介绍**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:21
 msgid ""
 "In this example, the RTL8722 board emulates a HID keyboard connected "
 "using BLE."
-msgstr ""
+msgstr "在此范例中，RTL8722 开发板用来模拟使用 BLE 连接的 HID 键盘。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:23
 msgid "**Procedure**"
-msgstr ""
+msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:25
 msgid ""
 "Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
 "BLEHIDKeyboard``."
-msgstr ""
+msgstr "打开范例，”Files” -> “Examples” -> “AmebaBLE” -> “BLEHIDKeyboard”。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:27
 msgid "|1|"
@@ -71,27 +75,27 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:29
 msgid "Upload the code and press the reset button once the upload is finished."
-msgstr ""
+msgstr "上传代码并在上传完成后按重置按钮。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:31
 msgid ""
 "Immediately after reset, the board will begin BLE advertising as "
 "“AMEBA_BLE_HID”. On your host device, go to the Bluetooth settings menu, "
 "scan, and connect to the board."
-msgstr ""
+msgstr "重置完毕后，开发板将开始蓝牙广播“AMEBA_BLE_HID”。此时可以在有支援 BLE 的设备上，扫描并连接到开发板。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:32
 msgid ""
 "You should ensure that the connection process is completed before "
 "proceeding."
-msgstr ""
+msgstr "在继续之前，您应该确保连接过程已完成。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:34
 msgid ""
 "On Windows, ensure that any driver installation is finished, and the "
 "board shows up in the Bluetooth menu under the “Mouse, keyboard & pen” "
 "category."
-msgstr ""
+msgstr "在 Windows 上，确保任何驱动程序已完成安装，并且在蓝牙选单中的“Mouse, keyboard & pen”类别中找到已连接的开发板。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:35
 msgid "|2|"
@@ -103,7 +107,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:37
 msgid "On Android, ensure that “Input device” is enabled for the board."
-msgstr ""
+msgstr "在 Android 上，确保为开发板启用“Input device”。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:38
 msgid "|3|"
@@ -118,11 +122,11 @@ msgid ""
 "After the Bluetooth connection process is completed, the board is ready "
 "to send mouse input to the host device. Connect digital pin 8 to 3.3V to "
 "start sending input, and connect to GND to stop."
-msgstr ""
+msgstr "蓝牙连接过程完成后，开发板准备将键盘讯号发送到设备。将引脚 8 连接到 3.3V 开始发送，连接到 GND 来停止。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:43
 msgid "You should see the text “Hello World !” typed out and deleted repeatedly."
-msgstr ""
+msgstr "您应该可以看到“Hello World！”文字。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Keyboard.rst:44
 msgid "|4|"
