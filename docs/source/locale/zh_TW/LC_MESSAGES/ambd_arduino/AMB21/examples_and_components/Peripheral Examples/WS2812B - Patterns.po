@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-14 03:55+0100\n"
+"POT-Creation-Date: 2022-06-17 08:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,16 @@ msgstr ""
 "Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:3
-msgid "WS2812B Patterns"
-msgstr ""
+msgid "WS2812B - Patterns"
+msgstr "WS2812B - Patterns 範例"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:8
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:12
 msgid "AmebaD [ AMB21 / AMB22 / AMB23 / BW16 ] x1"
@@ -33,44 +35,46 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:14
 msgid "WS2812B LED Strip / Ring / Stick / Board x1"
-msgstr ""
+msgstr "WS2812B LED 燈條 / LED 環 / LED 棒 / LED 板 x1"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:16
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:21
 msgid "Introduction"
-msgstr ""
+msgstr "介紹"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:23
 msgid ""
 "In this example, we will be using the AmebaD board to control the WS2812B"
 " RGB LED, using the SPI peripheral to create the waveform necessary for "
 "the LEDs."
-msgstr ""
+msgstr "在此範例中，我們將使用 AmebaD 開發板來控制 WS2812B RGB LED，使用 SPI 創建 LED 所需的波形。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:27
 msgid ""
 "WS2812B_Patterns allows you to create different light patterns with many "
 "different colors."
-msgstr ""
+msgstr "WS2812B_Patterns 範例允許您創建具有多種不同顏色的不同燈光圖案。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:31
 msgid "Procedure"
-msgstr ""
+msgstr "步驟"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:33
 msgid ""
 "Firstly, connect the WS2812B to the Ameba board as shown in the following"
 " diagrams."
-msgstr ""
+msgstr "首先，將 WS2812B 連接到 Ameba 開發板，如下圖所示。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:36
 msgid "**AMB21/AMB22 Wiring Diagram:**"
-msgstr ""
+msgstr "**AMB21/AMB22 接線圖:**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:38
 msgid "|1|"
@@ -82,7 +86,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:40
 msgid "**AMB23 Wiring Diagram:**"
-msgstr ""
+msgstr "**AMB23 接線圖:**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:42
 msgid "|2|"
@@ -94,7 +98,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:44
 msgid "**BW16 Wiring Diagram:**"
-msgstr ""
+msgstr "**BW16 接線圖:**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:46
 msgid "|3|"
@@ -108,13 +112,13 @@ msgstr ""
 msgid ""
 "To create different light patterns with many different colors, use "
 "**WS2812B_Patterns**."
-msgstr ""
+msgstr "要創建具有多種不同顏色的不同燈光圖案，請使用 WS2812B_Patterns範例。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:51
 msgid ""
 "Open the example in ``“File” → “Example” → “AmebaWS2812B” → "
 "“WS2812B_Patterns”``"
-msgstr ""
+msgstr "在 ``“File” → “Example” → “AmebaWS2812B” → “WS2812B_Patterns”`` 中打開範例。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:54
 msgid "|4|"
@@ -128,7 +132,7 @@ msgstr ""
 msgid ""
 "In the sample code, modify ``NUM_OF_LEDS`` to be the number of LEDs that "
 "you have connected."
-msgstr ""
+msgstr "在代碼中，將 **NUM_OF_LEDS** 修改為您已連接的 LED 數量。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:59
 msgid "|5|"
@@ -143,7 +147,7 @@ msgid ""
 "Next compile and upload to Ameba, then press the reset button. You will "
 "see the WS2812B displaying a color wipe, theater chase, rainbow, and "
 "theater chase rainbow light patterns in loop."
-msgstr ""
+msgstr "接下來編譯並上傳到 Ameba，然後按重置按鈕。 您將看到 WS2812B 循環顯示多種不同的光圖案造型。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:65
 msgid "|6|"
@@ -182,10 +186,12 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:78
 msgid "[1] WS2812B Datasheet:"
-msgstr ""
+msgstr "【1】WS2812B 文件："
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:80
 msgid "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"

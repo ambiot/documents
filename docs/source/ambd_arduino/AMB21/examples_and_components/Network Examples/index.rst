@@ -36,10 +36,6 @@ Network Examples
    MQTT - Use Google Cloud IoT
    MQTT - Upload PM2.5 Data to LASS System
    NTP - Retrieve Universal Time (UTC) by NTPClient library
-   USB - CDC Serial
-   USB - HID Gamepad
-   USB - HID Keyboard
-   USB - HID Mouse
    WiFi - Approximate UDP Receive Delay
    WiFi - Approximate UDP Sending Delay
    WiFi - Approximate UDP Receive Timeout

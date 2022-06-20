@@ -69,18 +69,6 @@ all examples that are compatible with Ameba.
 |               |                | pins. e.g. "ledPin =   | LED_B, and LED_G.  |
 |               |                | LED_BUILTIN;"          |                    |
 +---------------+----------------+------------------------+--------------------+
-|               | toneKeyboard   | Replace "tone(8,       |                    |
-|               |                | notes[thisSensor],     |                    |
-|               |                | 20);" by a PWM pin     |                    |
-|               |                | D7(PA25), D8(PA26),    |                    |
-|               |                | D11(PA13) or           |                    |
-|               |                | D12(PA12)). e.g.       |                    |
-|               |                | "tone(PA25,            |                    |
-|               |                | notes[thisSensor - 4], |                    |
-|               |                | 20);", "tone(7,        |                    |
-|               |                | notes[thisSensor - 4], |                    |
-|               |                | 20);"                  |                    |
-+---------------+----------------+------------------------+--------------------+
 |               | toneMelody     |                        |                    |
 +---------------+----------------+------------------------+--------------------+
 |               | tone           |                        |                    |
@@ -153,12 +141,15 @@ all examples that are compatible with Ameba.
 |               | Serial         | Required external      |                    |
 |               | Passthrough    | USB-to-UART module.    |                    |
 +---------------+----------------+------------------------+--------------------+
-| 05.           | Arrays         | Use pins D9, D2, D8,   |                    |
-| Control       |                | D1, D11, D10.          |                    |
-|               |                |                        |                    |
+| 05.           | Arrays         | Use pins D6, D7, D8,   |                    |
+| Control       |                | D9, D10, D11. Modify   |                    |
+|               |                | pin number in your     |                    |
+|               |                | code accordingly       |                    |
 +---------------+----------------+------------------------+--------------------+
-|               | ForLoop        | Use pins D9, D2, D8,   |                    |
-|               | Iteration      | D1, D11, D10.          |                    |
+|               | ForLoop        | Use pins D6, D7, D8,   |                    |
+|               | Iteration      | D9, D10, D11. Modify   |                    |
+|               |                | pin number in your     |                    |
+|               |                | code accordingly       |                    |
 +---------------+----------------+------------------------+--------------------+
 |               | IfStatement    | Replace "ledPin = 13;" | Onboard LEDs       |
 |               | Conditional    | by available digital   | options LED_R,     |
@@ -171,8 +162,10 @@ all examples that are compatible with Ameba.
 |               |                |                        | voltage range 0 to |
 |               |                |                        | 3.3V.              |
 +---------------+----------------+------------------------+--------------------+
-|               | switchCase2    | Use pins D9, D2, D8,   |                    |
-|               |                | D1, D11, D10.          |                    |
+|               | switchCase2    | Use pins D7, D8, D9,   |                    |
+|               |                | D10, D11. Modify pin   |                    |
+|               |                | number used in your    |                    |
+|               |                | code accordingly.      |                    | 
 +---------------+----------------+------------------------+--------------------+
 |               | While          | Use ADC pin A2(PB3).   | ADC pin reading    |
 |               | Statement      | Replace                | voltage range 0 to |

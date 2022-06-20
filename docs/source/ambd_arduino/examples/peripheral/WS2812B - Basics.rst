@@ -1,6 +1,6 @@
-################
-WS2812B Basics
-################
+#################
+WS2812B - Basics
+#################
 
 .. role:: raw-html(raw)
    :format: html
@@ -66,8 +66,9 @@ individually and after a while all the LED will be filled with a color.
 
 |7|
 
-Code Reference
-==============
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Code Reference**
+:raw-html:`</p>`
 
 [1] WS2812B Datasheet:
 

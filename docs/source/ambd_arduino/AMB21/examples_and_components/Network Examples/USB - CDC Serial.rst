@@ -1,1 +1,0 @@
-.. include:: ../../../examples/network/USB - CDC Serial.rst

@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/USB - HID Keyboard.rst
