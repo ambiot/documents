@@ -156,7 +156,7 @@ msgstr ""
 msgid ""
 "In the Arduino IDE library manager, install the Arduino_LSM9DS1 library. "
 "This example has been tested with version 1.1.0 of the LSM9DS1 library."
-msgstr "在 Arduino IDE 库管理器中，安装Arduino_LSM9DS1 库。此范例已使用 LSM9DS1 库的 1.1.0 版进行了測試。"
+msgstr "在Arduino IDE库管理器中，安装Arduino_LSM9DS1 库。此范例已使用 LSM9DS1 库的 1.1.0 版进行了測試。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:51
