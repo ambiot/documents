@@ -128,7 +128,8 @@ msgid ""
 "Download the Ameba customized version of TensorFlow Lite for "
 "Microcontrollers library at "
 "https://github.com/ambiot/tree/master/Arduino_zip_libraries."
-msgstr "從以下網址下載TensorFlow Lite for Microcontrollers的Ameba版本"
+msgstr "從以下網址下載TensorFlow Lite for Microcontrollers的Ameba版本 "
+"https://github.com/ambiot/tree/master/Arduino_zip_libraries."
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:41
@@ -137,7 +138,7 @@ msgid ""
 "https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to"
 " install it."
 msgstr ""
-"請按照以下說明進行安裝操作https://docs.arduino.cc/software/ide-v1/tutorials"
+"請按照以下說明進行安裝操作 https://docs.arduino.cc/software/ide-v1/tutorials"
 "/installing-libraries。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
@@ -145,7 +146,7 @@ msgstr ""
 msgid ""
 "Ensure that the patch files found at "
 "https://github.com/ambiot/tree/master/Ameba_misc/ are also installed."
-msgstr "確保在以下位置找到patch文件並安裝https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/。"
+msgstr "確保在以下位置找到patch文件並安裝 https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
 #: Wand.rst:48
