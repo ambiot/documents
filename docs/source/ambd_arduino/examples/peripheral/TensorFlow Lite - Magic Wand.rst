@@ -45,6 +45,8 @@ Ensure that the patch files found at
 https://github.com/ambiot/tree/master/Ameba_misc/ are also
 installed.
 
+In the Arduino IDE library manager, install the Arduino_LSM9DS1 library. This example has been tested with version 1.1.0 of the LSM9DS1 library.
+
 
 Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
 “magic_wand”``.

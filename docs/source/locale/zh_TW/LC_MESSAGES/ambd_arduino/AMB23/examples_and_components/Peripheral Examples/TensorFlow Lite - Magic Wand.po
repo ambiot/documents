@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-06 10:48+0100\n"
+"POT-Creation-Date: 2022-06-23 02:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,7 +78,7 @@ msgid "|1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:78
+#: Wand.rst:80
 msgid "1"
 msgstr ""
 
@@ -98,7 +98,7 @@ msgid "|1-1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:82
+#: Wand.rst:84
 msgid "1-1"
 msgstr ""
 
@@ -118,7 +118,7 @@ msgid "|1-2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:86
+#: Wand.rst:88
 msgid "1-2"
 msgstr ""
 
@@ -148,31 +148,38 @@ msgid ""
 msgstr "確保在以下位置找到patch文件並安裝https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:49
+#: Wand.rst:48
+msgid ""
+"In the Arduino IDE library manager, install the Arduino_LSM9DS1 library. "
+"This example has been tested with version 1.1.0 of the LSM9DS1 library."
+msgstr "在 Arduino IDE 庫管理器中，安裝 Arduino_LSM9DS1 庫。此範例已使用 LSM9DS1 庫的 1.1.0 版進行了測試。"
+
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
+#: Wand.rst:51
 msgid ""
 "Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
 "-> “magic_wand”``."
 msgstr "打開範例， “Files” -> “Examples” -> “TensorFlowLite_Ameba” -> “magic_wand”."
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:52
+#: Wand.rst:54
 msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:90
+#: Wand.rst:92
 msgid "2"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:55
+#: Wand.rst:57
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
 msgstr "上傳代碼並在上傳完成後按Ameba上的重置按鈕。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:59
+#: Wand.rst:61
 msgid ""
 "Holding the accelerometer steady, with the positive x-axis pointing to "
 "the right and the positive z-axis pointing upwards, move it following the"
@@ -181,17 +188,17 @@ msgid ""
 msgstr "保持加速感測器穩定，使x軸的正極指向右側，z軸的正極指向上方，按照所示形狀移動加速感測器，使其平穩運動1至2秒鐘，避免劇烈運動。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:61
+#: Wand.rst:63
 msgid "|3|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:94
+#: Wand.rst:96
 msgid "3"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:65
+#: Wand.rst:67
 msgid ""
 "If the movement is recognised by the Tensorflow Lite model, you should "
 "see the same shape output to the Arduino serial monitor. Different LEDs "
@@ -201,24 +208,24 @@ msgstr ""
 "Lite模型可以識別移動，則應該看到相同形狀的輸出到Arduino串行監視器。對應於不同的識別手勢，不同的LED將亮起。請注意，機翼形狀易於實現，而坡度和環形形狀則更難於正確定位。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:67
+#: Wand.rst:69
 msgid ""
 "Note that the wing shape is easy to achieve, while the slope and ring "
 "shapes tend to be harder to get right."
 msgstr "請注意，機翼形狀易於實現，而坡度和環形形狀則更難於正確定位。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:69
+#: Wand.rst:71
 msgid "|4|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:98
+#: Wand.rst:100
 msgid "4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:71
+#: Wand.rst:73
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
@@ -227,7 +234,7 @@ msgstr ""
 "html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Magic
-#: Wand.rst:75
+#: Wand.rst:77
 msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
 " https://www.tensorflow.org/lite/microcontrollers"
