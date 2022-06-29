@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:3 Server
 #: Set to up
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:12 Server
 #: Set to up
@@ -57,8 +57,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Procedure** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:22 Server
 #: Set to up
@@ -80,11 +80,7 @@ msgid ""
 "longer pin to D13. Additionally, to avoid the electric current exceeds "
 "the tolerance of the LED and causes damage, we connect a resistance on "
 "the positive pole."
-msgstr ""
-"LED燈泡的接線裡，LED比較長的腳為正極，比較短的腳為負極，所以我們要將短腳接到GND的地方(電壓為0)，"
-"並將長腳接到D13的地方。為了避免LED因為電流太大而燒壞，通常會在正極的前面加上電阻。"
-"現在很多LED其實都做的很好，不加電阻也不會燒壞，但保險起見還是加上電阻。"
-
+msgstr "LED燈泡的接線裡，LED比較長的腳為正極，比較短的腳為負極，所以我們要將短腳接到GND的地方(電壓為0)，並將長腳接到D13的地方。為了避免LED因為電流太大而燒壞，通常會在正極的前面加上電阻。現在很多LED其實都做的很好，不加電阻也不會燒壞，但保險起見還是加上電阻。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:30 Server
 #: Set to up
@@ -142,13 +138,17 @@ msgid ""
 "For BW16 board, you may consider to re-define \"LED_PIN\" macro to **10**"
 " for built-in green LED, or **11** for blue built-in LED, or **12** for "
 "red built-in LED to avoid using extra components."
-msgstr "對於 RTL8720DN(BW16) ，您可以考慮將“LED_PIN”重新定義為。"
-"10 用於內置綠色 LED，或 11 用於藍色內置 LED，或 12 用於紅色內置 LED，以避免使用額外的組件"
+msgstr ""
+"對於 RTL8720DN(BW16) ，您可以考慮將“LED_PIN”重新定義為。10 用於內置綠色 LED，或 11 用於藍色內置 LED，或 "
+"12 用於紅色內置 LED，以避免使用額外的組件"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:46 Server
 #: Set to up
-msgid "Then open ``“File” -> “Examples” -> “AmebaWiFi” -> “SimpleWebServerWiFi”``"
-msgstr "然後打開Simple Web Server WiFi的範例, “File” -> “Examples” -> “AmebaWiFi” -> “SimpleWebServerWiFi”"
+#, fuzzy
+msgid "Then open ``“File” -> “Examples” -> “WiFi” -> “SimpleWebServerWiFi”``"
+msgstr ""
+"然後打開Simple Web Server WiFi的範例, “File” -> “Examples” -> “AmebaWiFi” -> "
+"“SimpleWebServerWiFi”"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:48 Server
 #: Set to up
@@ -183,7 +183,6 @@ msgid ""
 "Upload the code and press the reset button on Ameba. When the connection "
 "is established, you will see the message::"
 msgstr "上傳程式碼之後，按下Ameba的Reset按鈕, 在WiFi連線成功后，會提示."
-
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:62 Server
 #: Set to up
@@ -228,8 +227,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
-"説明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:77 Server
 #: Set to up

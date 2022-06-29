@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:3 Use
 #: Web for
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Introduction to"
 " IFTTT** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **IFTTT"
-" 介绍** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **IFTTT 介绍** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:12 Use
 #: Web for
@@ -40,8 +40,9 @@ msgid ""
 "within other web services such as Gmail, Facebook, Telegram, Instagram, "
 "Pinterest etc."
 msgstr ""
-"IFTTT (If This Then That) 为一个云端平台提供免费网路服务来创建applets"
-"或是简单的条件陈述来指定网路服务触发条件使其他像是Gmail, Facebook, Telegram, Instagram, Pinterest 等网路服务进行特定的反应动作。"
+"IFTTT (If This Then That) "
+"为一个云端平台提供免费网路服务来创建applets或是简单的条件陈述来指定网路服务触发条件使其他像是Gmail, Facebook, "
+"Telegram, Instagram, Pinterest 等网路服务进行特定的反应动作。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:18 Use
 #: Web for
@@ -49,8 +50,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:22 Use
 #: Web for
@@ -243,8 +244,9 @@ msgid ""
 "such as subject and body is editable. Click **Create Action** to complete"
 " the action. Take note that **Email service** is offered to the email "
 "address registered under IFTTT account."
-msgstr "在 Send me an Email 模板下, email 主旨与内文的内容是可编辑的。点选 Create Action 来完成执行的动作。"
-"注意 Email服务是基于IFTTT帐号下注册的 email ID。"
+msgstr ""
+"在 Send me an Email 模板下, email 主旨与内文的内容是可编辑的。点选 Create Action 来完成执行的动作。注意 "
+"Email服务是基于IFTTT帐号下注册的 email ID。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:84 Use
 #: Web for
@@ -270,8 +272,9 @@ msgstr "一旦Applet在IFTTT仪表板中准备就绪, 范例程式即可烧录�
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:90 Use
 #: Web for
+#, fuzzy
 msgid ""
-"Open the example code in ``“File” -> “Examples” -> “AmebaWiFi” -> "
+"Open the example code in ``“File” -> “Examples” -> “WiFi” -> "
 "“HTTP_IFTTT_Post”``"
 msgstr "打开范例 “File” -> “Examples” -> “AmebaWiFi” -> “HTTP_IFTTT_Post”"
 
@@ -388,8 +391,10 @@ msgid ""
 "press the reset button. After the event has been successfully fired, "
 "“Congratulations! You have fired the test_event event” can be seen on the"
 " serial monitor and an email reminder for this event will be delivered."
-msgstr "在 Arduino IDE 上，编译代码并将代码上传到 Ameba，然后按重置按钮。事件成功触发后，"
-"可以在串行监视器上看到“Congratulations! You have fired the test_event event”与将发送此事件的电子邮件提醒。"
+msgstr ""
+"在 Arduino IDE 上，编译代码并将代码上传到 "
+"Ameba，然后按重置按钮。事件成功触发后，可以在串行监视器上看到“Congratulations! You have fired the "
+"test_event event”与将发送此事件的电子邮件提醒。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:124 Use
 #: Web for

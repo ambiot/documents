@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:3 Universal by
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:12 Universal by
@@ -53,15 +53,18 @@ msgid ""
 "NTP request, the NTP server replies current UTC (Coordinated Universal "
 "Time) packet. We will parse the UTC packet to show current UTC time in "
 "the serial monitor."
-msgstr "这个范例里，我们使用Ameba连上无线网络，经由UDP发送NTP (Network Time Protocol, RFC 1305)请求到NTP Server，"
-"NTP Server会回应并且发送当下的UTC(Coordinated Universal Time)封包，我们将当下的时分秒解析并且显示在Serial Monitor上。"
+msgstr ""
+"这个范例里，我们使用Ameba连上无线网络，经由UDP发送NTP (Network Time Protocol, RFC 1305)请求到NTP "
+"Server，NTP Server会回应并且发送当下的UTC(Coordinated Universal "
+"Time)封包，我们将当下的时分秒解析并且显示在Serial Monitor上。"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:23 Universal by
-msgid ""
-"Open the example: ``“File” -> “Examples” -> “AmebaWiFi” -> "
-"“WiFiUdpNtpClient”``"
-msgstr "首先打开 WiFi Web Server的范例, “File” -> “Examples” -> “AmebaWiFi” -> “WiFiUdpNtpClient”"
+#, fuzzy
+msgid "Open the example: ``“File” -> “Examples” -> “WiFi” -> “WiFiUdpNtpClient”``"
+msgstr ""
+"首先打开 WiFi Web Server的范例, “File” -> “Examples” -> “AmebaWiFi” -> "
+"“WiFiUdpNtpClient”"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:24 Universal by

@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 09:17+0100\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:3 Server Use as to
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Introduction to"
 " ambd_arduino/AmebaMotors** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **介绍**"
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **介绍**:raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:12 Server Use as to
@@ -40,9 +40,9 @@ msgid ""
 "/raw/master/Arduino_zip_libraries/ambd_arduino/AmebaMotors.zip>`_ And add"
 " the library to Ameba: https://www.arduino.cc/en/Guide/Libraries#toc4"
 msgstr ""
-"AmebaMotors 是一個提供如何控制馬達相關的 API 庫。"
-"請下載 AmebaMotors https://github.com/ambiot/ambd_arduino/raw/master/Arduino_zip_libraries/AmebaMotors.zip"
-"並且新增 AmebaMotors 至 Ameba: https://www.arduino.cc/en/Guide/Libraries#toc4"
+"AmebaMotors 是一個提供如何控制馬達相關的 API 庫。請下載 AmebaMotors "
+"https://github.com/ambiot/ambd_arduino/raw/master/Arduino_zip_libraries/AmebaMotors.zip並且新增"
+" AmebaMotors 至 Ameba: https://www.arduino.cc/en/Guide/Libraries#toc4"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:16 Server Use as to
@@ -50,8 +50,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:20 Server Use as to
@@ -100,15 +100,15 @@ msgid ""
 "To know more about motor movement and the technical details of the L298N "
 "H-Bridge, please check out this `link <https://www.amebaiot.com/en/ameba-"
 "arduino-amebamotors-basic/>`."
-msgstr "要了解有關 L298N H-Bridge 技術細節的更多信息，請查看 `此處 <https://www.amebaiot.com/en/ameba-arduino-amebamotors-basic/>`_  。"
+msgstr ""
+"要了解有關 L298N H-Bridge 技術細節的更多信息，請查看 `此處 <https://www.amebaiot.com/en"
+"/ameba-arduino-amebamotors-basic/>`_  。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:36 Server Use as to
-msgid ""
-"Open the example, ``“Files” -> “Examples” -> “AmebaWiFi” -> "
-"“WiFiControlCar”``."
-msgstr ""
-"打開範例，“Files” -> “Examples” -> “AmebaWiFi” -> “WiFiControlCar”。"
+#, fuzzy
+msgid "Open the example, ``“Files” -> “Examples” -> “WiFi” -> “WiFiControlCar”``."
+msgstr "打開範例，“Files” -> “Examples” -> “AmebaWiFi” -> “WiFiControlCar”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:38 Server Use as to
@@ -198,8 +198,8 @@ msgid ""
 "L298N +12V to other power supply (e.g., +12V) and use L298N +5V to supply"
 " power to Ameba."
 msgstr ""
-"這邊我們將Ameba的5V接到L298N的+12V供電的地方，但並不是每個L298N模組都可以使用5V供電。"
-"如果不行的話，請使用其它電源(Ex. +12V)供電給L298N的+12V接腳，再用L298N的+5V供電給Ameba。"
+"這邊我們將Ameba的5V接到L298N的+12V供電的地方，但並不是每個L298N模組都可以使用5V供電。如果不行的話，請使用其它電源(Ex. "
+"+12V)供電給L298N的+12V接腳，再用L298N的+5V供電給Ameba。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:53 Server Use as to
@@ -223,10 +223,7 @@ msgid ""
 "of L298N to avoid the motor running unexpectedly. Connect Ameba to power,"
 " upload the program, and then connect L298N to power when you are going "
 "to test the program."
-msgstr ""
-"接線完之後，在每次需要改動程式時，可以先將L298N的電源拔掉，"
-"避免馬達不預期地亂跑。然後再將Ameba接上電源。"
-"上傳完程式並確定開始測試時再將L298N的電源插上。"
+msgstr "接線完之後，在每次需要改動程式時，可以先將L298N的電源拔掉，避免馬達不預期地亂跑。然後再將Ameba接上電源。上傳完程式並確定開始測試時再將L298N的電源插上。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:59 Server Use as to
@@ -258,8 +255,8 @@ msgid ""
 "open a browser to http://xxx.xxx.xxx.xxx” in the Arduino IDE, as shown in"
 " the figure:"
 msgstr ""
-"上傳代碼並按下 Ameba 上的重置按鈕。"
-"建立連接後，您會在Arduino IDE中看到“To see this page in action, open a browser to http://xxx.xxx.xxx.xxx”的信息，如圖："
+"上傳代碼並按下 Ameba 上的重置按鈕。建立連接後，您會在Arduino IDE中看到“To see this page in action, "
+"open a browser to http://xxx.xxx.xxx.xxx”的信息，如圖："
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:69 Server Use as to
@@ -301,8 +298,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Demo Video** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Demo 影片** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Demo 影片** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:87 Server Use as to
@@ -310,16 +307,15 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
-"説明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:91 Server Use as to
 msgid ""
 "Use ``WiFi.begin()`` to establish WiFi connection. "
 "https://www.arduino.cc/en/Reference/WiFiBegin"
-msgstr "使用 WiFi.begin() 建立 WiFi 連接。"
-"https://www.arduino.cc/en/Reference/WiFiBegin"
+msgstr "使用 WiFi.begin() 建立 WiFi 連接。https://www.arduino.cc/en/Reference/WiFiBegin"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:94 Server Use as to
@@ -331,40 +327,41 @@ msgstr "獲取 WiFi 連接信息："
 msgid ""
 "Use ``WiFi.SSID()`` to get SSID of the current connected network. "
 "https://www.arduino.cc/en/Reference/WiFiSSID"
-msgstr "使用 WiFi.SSID() 獲取當前連接網絡的 SSID。"
-"https://www.arduino.cc/en/Reference/WiFiSSID"
+msgstr "使用 WiFi.SSID() 獲取當前連接網絡的 SSID。https://www.arduino.cc/en/Reference/WiFiSSID"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:99 Server Use as to
 msgid ""
 "Use ``WiFi.RSSI()`` to get the signal strength of the connection. "
 "https://www.arduino.cc/en/Reference/WiFiRSSI"
-msgstr "使用 WiFi.RSSI() 獲取連接的信號強度。"
-"https://www.arduino.cc/en/Reference/WiFiRSSI"
+msgstr "使用 WiFi.RSSI() 獲取連接的信號強度。https://www.arduino.cc/en/Reference/WiFiRSSI"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:102 Server Use as to
 msgid ""
 "Use ``WiFi.localIP()`` to get the IP address of Ameba. "
 "https://www.arduino.cc/en/Reference/WiFiLocalIP"
-msgstr "使用 WiFi.localIP() 獲取 Ameba 的 IP 地址。"
-"https://www.arduino.cc/en/Reference/WiFiLocalIP"
+msgstr ""
+"使用 WiFi.localIP() 獲取 Ameba 的 IP "
+"地址。https://www.arduino.cc/en/Reference/WiFiLocalIP"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:105 Server Use as to
 msgid ""
 "Use ``WiFiServer server()`` to create a server that listens on the "
 "specified port. https://www.arduino.cc/en/Reference/WiFiServer"
-msgstr "使用 WiFiServer server() 創建一個監聽指定端口的服務器。"
-"https://www.arduino.cc/en/Reference/WiFiServer"
+msgstr ""
+"使用 WiFiServer server() "
+"創建一個監聽指定端口的服務器。https://www.arduino.cc/en/Reference/WiFiServer"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:108 Server Use as to
 msgid ""
 "Use ``server.begin()`` to tell the server to begin listening for incoming"
 " connections. https://www.arduino.cc/en/Reference/WiFiServerBegin"
-msgstr "使用 server.begin() 使服務器開始監聽連接。"
-"https://www.arduino.cc/en/Reference/WiFiServerBegin"
+msgstr ""
+"使用 server.begin() "
+"使服務器開始監聽連接。https://www.arduino.cc/en/Reference/WiFiServerBegin"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:111 Server Use as to
@@ -372,40 +369,45 @@ msgid ""
 "Use ``server.available()`` to get a client that is connected to the "
 "server and has data available for reading. "
 "https://www.arduino.cc/en/Reference/WiFiServerAvailable"
-msgstr "使用 server.available() 獲取連接到服務器並具有可供讀取數據的客戶端。"
-"https://www.arduino.cc/en/Reference/WiFiServerAvailable"
+msgstr ""
+"使用 server.available() "
+"獲取連接到服務器並具有可供讀取數據的客戶端。https://www.arduino.cc/en/Reference/WiFiServerAvailable"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:114 Server Use as to
 msgid ""
 "Use ``client.connected()`` to get whether or not the client is connected."
 " https://www.arduino.cc/en/Reference/WiFiClientConnected"
-msgstr "使用 client.connected 獲取客戶端是否已連接。"
-" https://www.arduino.cc/en/Reference/WiFiClientConnected"
+msgstr ""
+"使用 client.connected 獲取客戶端是否已連接。 "
+"https://www.arduino.cc/en/Reference/WiFiClientConnected"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:117 Server Use as to
 msgid ""
 "Use ``client.println()`` to print data followed by a carriage return and "
 "newline. https://www.arduino.cc/en/Reference/WiFiClientPrintln"
-msgstr "使用 client.println() 打印數據。"
-"https://www.arduino.cc/en/Reference/WiFiClientPrintln"
+msgstr ""
+"使用 client.println() "
+"打印數據。https://www.arduino.cc/en/Reference/WiFiClientPrintln"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:120 Server Use as to
 msgid ""
 "Use ``client.print()`` to print data to the server that a client is "
 "connected to. https://www.arduino.cc/en/Reference/WiFiClientPrint"
-msgstr "使用 client.print() 將數據打印到客戶端連接的服務器。"
-"https://www.arduino.cc/en/Reference/WiFiClientPrint"
+msgstr ""
+"使用 client.print() "
+"將數據打印到客戶端連接的服務器。https://www.arduino.cc/en/Reference/WiFiClientPrint"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:123 Server Use as to
 msgid ""
 "Use ``client.available()`` to return the number of bytes available for "
 "reading. https://www.arduino.cc/en/Reference/WiFiClientAvailable"
-msgstr "使用 client.available() 返回可供讀取的字節數。"
-"https://www.arduino.cc/en/Reference/WiFiClientAvailable"
+msgstr ""
+"使用 client.available() "
+"返回可供讀取的字節數。https://www.arduino.cc/en/Reference/WiFiClientAvailable"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:126 Server Use as to
@@ -413,14 +415,16 @@ msgid ""
 "Use ``client.read()`` to read the next byte received from the server the "
 "client is connected to. "
 "https://www.arduino.cc/en/Reference/WiFiClientRead"
-msgstr "使用 client.read() 讀取從客戶端連接的服務器接收到的下一個字節。"
-"https://www.arduino.cc/en/Reference/WiFiClientRead"
+msgstr ""
+"使用 client.read() "
+"讀取從客戶端連接的服務器接收到的下一個字節。https://www.arduino.cc/en/Reference/WiFiClientRead"
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:129 Server Use as to
 msgid ""
 "Use ``client.stop()`` to disconnect from the server the client is "
 "connected to. https://www.arduino.cc/en/Reference/WiFIClientStop"
-msgstr "使用 client.stop() 斷開客戶端與服務器的連接。"
-"https://www.arduino.cc/en/Reference/WiFIClientStop"
+msgstr ""
+"使用 client.stop() "
+"斷開客戶端與服務器的連接。https://www.arduino.cc/en/Reference/WiFIClientStop"
 

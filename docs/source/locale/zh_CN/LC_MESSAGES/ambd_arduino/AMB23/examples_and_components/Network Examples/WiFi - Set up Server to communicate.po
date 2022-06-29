@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:3 to up
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:12 to up
@@ -70,8 +70,10 @@ msgstr "确保在 “Tools” -> “Board” 中选择了正确的Ameba开发板
 #: communicate.rst:26 to up
 msgid ""
 "Then, open the Simple WiFi Server example in ``“File” -> “Examples” -> "
-"“AmebaWiFi” -> “SimpleServerWiFi”``"
-msgstr "然后打开 Simple Web Server的范例, “File” -> “Examples” -> “AmebaWiFi” -> “SimpleServerWiFi”"
+"“WiFi” -> “SimpleServerWiFi”``"
+msgstr ""
+"然后打开 Simple Web Server的范例, “File” -> “Examples” -> “AmebaWiFi” -> "
+"“SimpleServerWiFi”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:29 to up
@@ -170,8 +172,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:68 to up

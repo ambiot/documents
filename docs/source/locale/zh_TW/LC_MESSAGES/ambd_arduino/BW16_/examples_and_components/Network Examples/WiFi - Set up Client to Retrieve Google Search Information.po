@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 09:55+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:3 Retrieve Search Set to up
@@ -27,8 +27,9 @@ msgstr "WiFi - 設置客戶端以檢索 Google 搜索信息"
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
-msgstr ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:12 Retrieve Search Set to up
@@ -40,7 +41,8 @@ msgstr ""
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
-msgstr ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
 "html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
@@ -59,8 +61,11 @@ msgstr "首先確定板子是 Ameba, “Tools” -> “Board” -> “Arduino Am
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:23 Retrieve Search Set to up
-msgid "Then open ``“File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebClient”``"
-msgstr "然後打開 WiFi Web Client的範例, “File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebClient”"
+#, fuzzy
+msgid "Then open ``“File” -> “Examples” -> “WiFi” -> “WiFiWebClient”``"
+msgstr ""
+"然後打開 WiFi Web Client的範例, “File” -> “Examples” -> “AmebaWiFi” -> "
+"“WiFiWebClient”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:25 Retrieve Search Set to up
@@ -113,8 +118,9 @@ msgstr ""
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
-msgstr ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼說明** "
-":raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼說明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:43 Retrieve Search Set to up

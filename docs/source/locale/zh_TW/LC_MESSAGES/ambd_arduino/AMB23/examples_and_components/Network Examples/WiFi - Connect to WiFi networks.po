@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-23 07:12+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:3 to
@@ -40,8 +40,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Procedure** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:18 to
@@ -51,9 +51,9 @@ msgid ""
 "network. The second type of encryption is WPA, which requires the correct"
 " password to access. The third type is WEP, which requires a hexadecimal "
 "password and a keyindex."
-msgstr "常見的 WiFi 有三種加密方式，一種為 OPEN，即沒有密碼，第二種為 WPA，"
-"即我們通常使用的密碼，第三種為 WEP ，會需要十六進制的密碼以及一個初向量 (Keyindex)。"
-""
+msgstr ""
+"常見的 WiFi 有三種加密方式，一種為 OPEN，即沒有密碼，第二種為 WPA，即我們通常使用的密碼，第三種為 WEP "
+"，會需要十六進制的密碼以及一個初向量 (Keyindex)。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:24 to
@@ -76,10 +76,13 @@ msgstr "Open （即無密碼的 WiFi 連線）"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:32 to
+#, fuzzy
 msgid ""
 "Open the “ConnectNoEncryption” example in ``“File” -> “Examples” -> "
-"“AmebaWiFi” -> “ConnectWithWiFi” -> “ConnectNoEncryption”`` |1| \\"
-msgstr "打開 “ConnectNoEncryption” 的範例，``“File” -> “Examples” -> “AmebaWiFi” -> “ConnectWithWiFi” -> “ConnectNoEncryption”``"
+"“WiFi” -> “ConnectWithWiFi” -> “ConnectNoEncryption”`` |1| \\"
+msgstr ""
+"打開 “ConnectNoEncryption” 的範例，``“File” -> “Examples” -> “AmebaWiFi” -> "
+"“ConnectWithWiFi” -> “ConnectNoEncryption”``"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:107 to
@@ -100,8 +103,9 @@ msgid ""
 "you will see a message “You’re connected to the networkSSID: XXXXX”, and "
 "the information of this WiFi connection is printed in the serial monitor "
 "every 10 seconds."
-msgstr "修改之後上傳程式碼，按下 Ameba 的 Reset 按鈕，這時侯會看到 “You’re connected to the networkSSID: XXXXX”"
-"，以及後面會每十秒列印出 WiFi 信息。"
+msgstr ""
+"修改之後上傳程式碼，按下 Ameba 的 Reset 按鈕，這時侯會看到 “You’re connected to the "
+"networkSSID: XXXXX”，以及後面會每十秒列印出 WiFi 信息。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:43 to
@@ -120,10 +124,13 @@ msgstr "WPA 加密模式的 WiFi 連線"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:47 to
+#, fuzzy
 msgid ""
-"Open the “ConnectWithWPA” example in ``“File” -> “Examples” -> "
-"“AmebaWiFi” -> “ConnectWithWiFi” -> “ConnectWithWPA”`` |3|\\"
+"Open the “ConnectWithWPA” example in ``“File” -> “Examples” -> “WiFi” -> "
+"“ConnectWithWiFi” -> “ConnectWithWPA”`` |3|\\"
 msgstr ""
+"打開 “ConnectNoEncryption” 的範例，``“File” -> “Examples” -> “AmebaWiFi” -> "
+"“ConnectWithWiFi” -> “ConnectNoEncryption”``"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:115 to
@@ -144,10 +151,13 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:60 to
+#, fuzzy
 msgid ""
-"Open the “ConnectWithWEP” example in ``“File” -> “Examples” -> "
-"“AmebaWiFi” -> “ConnectWithWiFi” -> “ConnectWithWEP”`` |4|\\"
+"Open the “ConnectWithWEP” example in ``“File” -> “Examples” -> “WiFi” -> "
+"“ConnectWithWiFi” -> “ConnectWithWEP”`` |4|\\"
 msgstr ""
+"打開 “ConnectNoEncryption” 的範例，``“File” -> “Examples” -> “AmebaWiFi” -> "
+"“ConnectWithWiFi” -> “ConnectNoEncryption”``"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:119 to
@@ -307,5 +317,17 @@ msgstr ""
 #~ "WiFi connection is printed in the "
 #~ "serial monitor every 10 seconds. |2| "
 #~ "\\"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the “ConnectWithWPA” example in "
+#~ "``“File” -> “Examples” -> “AmebaWiFi” ->"
+#~ " “ConnectWithWiFi” -> “ConnectWithWPA”`` |3|\\"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the “ConnectWithWEP” example in "
+#~ "``“File” -> “Examples” -> “AmebaWiFi” ->"
+#~ " “ConnectWithWiFi” -> “ConnectWithWEP”`` |4|\\"
 #~ msgstr ""
 
