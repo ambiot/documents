@@ -17,7 +17,7 @@ HTTP - Set up Server to Get the Ameba Status
 
 | In this example, we connect Ameba to WiFi and use Ameba as server to
   send message to connected client.
-| First, open ``“File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebServer”``
+| First, open ``“File” -> “Examples” -> “WiFi” -> “WiFiWebServer”``
 
   |1|
 

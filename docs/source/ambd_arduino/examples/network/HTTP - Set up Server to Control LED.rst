@@ -43,7 +43,7 @@ HTTP - Set up Server to Control LED
 | For BW16 board, you may consider to re-define "LED_PIN" macro to **10** for built-in green LED, or **11** for blue built-in LED, or **12** for red built-in LED to avoid using extra components.
 
 
-| Then open ``“File” -> “Examples” -> “AmebaWiFi” -> “SimpleWebServerWiFi”``
+| Then open ``“File” -> “Examples” -> “WiFi” -> “SimpleWebServerWiFi”``
   
   |2|
 

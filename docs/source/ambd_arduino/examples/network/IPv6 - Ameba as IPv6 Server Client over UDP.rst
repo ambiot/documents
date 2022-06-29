@@ -33,7 +33,7 @@ Open Serial Monitor and copy the IPv6 address of the Server (the highlighted are
     |3|
 
 Step 2. IPv6UDPClient
-Now take the second Ameba D and open another example, ``“Files” -> “Examples” -> “AmebaWiFi” -> “IPv6UDPClient”``.
+Now take the second Ameba D and open another example, ``“Files” -> “Examples” -> “WiFi” -> “IPv6UDPClient”``.
     
     |4| 
 
@@ -54,9 +54,9 @@ IPv6 address to “IPv6UDPClient” example in the highlighted area below,
 
     |8|
 
-.. |1| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image1.png
-   :width: 453
-   :height: 525
+.. |1| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_UDP/image1.png
+   :width: 1158
+   :height: 961
    :scale: 100 %
 .. |2| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_UDP/image2.png
    :width: 458
@@ -67,8 +67,8 @@ IPv6 address to “IPv6UDPClient” example in the highlighted area below,
    :height: 294
    :scale: 100 %
 .. |4| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_UDP/image4.png
-   :width: 426
-   :height: 491
+   :width: 1156
+   :height: 962
    :scale: 100 %
 .. |5| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_UDP/image5.png
    :width: 436

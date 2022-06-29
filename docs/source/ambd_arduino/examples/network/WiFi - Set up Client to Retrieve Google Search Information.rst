@@ -20,7 +20,7 @@ WiFi - Set up Client to Retrieve Google Search Informations
 | First, make sure the correct Ameba development board is selected in
   “Tools” -> “Board”
 
-| Then open ``“File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebClient”``
+| Then open ``“File” -> “Examples” -> “WiFi” -> “WiFiWebClient”``
 
   |1|
 

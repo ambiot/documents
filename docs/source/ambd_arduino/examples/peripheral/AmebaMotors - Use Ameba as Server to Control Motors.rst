@@ -33,7 +33,7 @@ And add the library to Ameba: https://www.arduino.cc/en/Guide/Libraries#toc4
 |
 | To know more about motor movement and the technical details of the L298N H-Bridge, 
   please check out this `link <https://www.amebaiot.com/en/ameba-arduino-amebamotors-basic/>`.
-| Open the example, ``“Files” -> “Examples” -> “AmebaWiFi” -> “WiFiControlCar”``.
+| Open the example, ``“Files” -> “Examples” -> “WiFi” -> “WiFiControlCar”``.
 
 | You will see we use the following pins in the example:
 

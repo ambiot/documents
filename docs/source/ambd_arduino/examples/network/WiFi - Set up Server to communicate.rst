@@ -24,7 +24,7 @@ First, we make sure the correct Ameba development board is set in
 “Tools” -> “Board”
 
 Then, open the Simple WiFi Server example in ``“File” -> “Examples” ->
-“AmebaWiFi” -> “SimpleServerWiFi”`` 
+“WiFi” -> “SimpleServerWiFi”`` 
 
   |1|
 

@@ -22,7 +22,7 @@ calculates the allowed UDP receive timeout setting.
 **Ameba Preparation**
 
 Open the “CalculateUdpReceiveTimeout” example in 
-``“File” -> “Examples” -> “AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”``.
+``“File” -> “Examples” -> “WiFi” -> ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”``.
 
    |1|
 

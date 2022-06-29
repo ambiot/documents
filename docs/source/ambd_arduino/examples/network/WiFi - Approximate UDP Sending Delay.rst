@@ -22,7 +22,7 @@ the UDP sending delay.
 **Ameba Preparation**
 
 Open the “CalculateUdpSendDelay” example in ``“File” -> “Examples” ->
-“AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpSendDelay”``.
+“WiFi” -> ” UDP_Calculation ” -> “CalculateUdpSendDelay”``.
 
    |1|
 

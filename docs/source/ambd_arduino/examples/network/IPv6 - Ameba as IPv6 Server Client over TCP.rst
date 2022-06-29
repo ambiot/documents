@@ -23,7 +23,7 @@ Note that this example only works after you have set up the server and then conf
 **Procedure**
 
 Step 1. IPv6TCPServer
-Open the example, ``“Files” -> “Examples” -> “AmebaWiFi” -> “IPv6TCPServer”``.
+Open the example, ``“Files” -> “Examples” -> “WiFi” -> “IPv6TCPServer”``.
 
     |1|
 
@@ -38,7 +38,7 @@ Open Serial Monitor and copy the IPv6 address of the Server (the highlighted are
     |3|
 
 Step 2. IPv6TCPClient
-Now take the second Ameba D and open another example, ``“Files” -> “Examples” -> “AmebaWiFi” -> “IPv6TCPClient”``.
+Now take the second Ameba D and open another example, ``“Files” -> “Examples” -> “WiFi” -> “IPv6TCPClient”``.
     
     |4| 
 
@@ -60,8 +60,8 @@ IPv6 address to “IPv6TCPClient” example in the highlighted area below,
     |8|
 
 .. |1| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image1.png
-   :width: 379
-   :height: 444
+   :width: 1160
+   :height: 962
    :scale: 100 %
 .. |2| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image2.png
    :width: 427
@@ -72,8 +72,8 @@ IPv6 address to “IPv6TCPClient” example in the highlighted area below,
    :height: 294
    :scale: 100 %
 .. |4| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image4.png
-   :width: 391
-   :height: 452
+   :width: 1196
+   :height: 957
    :scale: 100 %
 .. |5| image:: /media/ambd_arduino/IPv6_Ameba_As_IPv6_Server_Client_Over_TCP/image5.png
    :width: 431

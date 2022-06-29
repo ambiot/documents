@@ -20,7 +20,7 @@ set to open mode or WPA2 mode.
 
 | In this example, we turn on the AP mode of Ameba and connect station to
   Ameba.
-| Open the WiFi AP example, ``“File” -> “Examples” -> “AmebaWiFi” ->
+| Open the WiFi AP example, ``“File” -> “Examples” -> “WiFi” ->
   “WiFiAPMode”``
 
   |1|
