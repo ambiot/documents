@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:3 as over
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:12 as over
@@ -57,8 +57,7 @@ msgid ""
 "Internet Protocol version 6 over UDP. Note that this example only works "
 "after you have set up the server and then configure the client "
 "accordingly."
-msgstr "此范例显示 Ameba 如何通过 UDP 使用 IPv6 在区域网络上进行通信。"
-"请注意，此范例仅在您设置服务器并配置对应客户端后才有效。"
+msgstr "此范例显示 Ameba 如何通过 UDP 使用 IPv6 在区域网络上进行通信。请注意，此范例仅在您设置服务器并配置对应客户端后才有效。"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:23 as over
@@ -109,8 +108,10 @@ msgstr ""
 #: UDP.rst:35 as over
 msgid ""
 "Step 2. IPv6UDPClient Now take the second Ameba D and open another "
-"example, ``“Files” -> “Examples” -> “AmebaWiFi” -> “IPv6UDPClient”``."
-msgstr "Step 2. IPv6UDPClient现在以第二个 Ameba D 为例，打开另一个范例，”Files” -> “Examples” -> “AmebaWiFi” -> “IPv6UDPClient”，"
+"example, ``“Files” -> “Examples” -> “WiFi” -> “IPv6UDPClient”``."
+msgstr ""
+"Step 2. IPv6UDPClient现在以第二个 Ameba D 为例，打开另一个范例，”Files” -> “Examples” -> "
+"“AmebaWiFi” -> “IPv6UDPClient”，"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:38 as over

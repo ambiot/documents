@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:3 UDP
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:12 UDP
@@ -64,10 +64,13 @@ msgstr "**Ameba 准备**"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:24 UDP
+#, fuzzy
 msgid ""
 "Open the “CalculateUdpReceiveTimeout” example in ``“File” -> “Examples” "
-"-> “AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”``."
-msgstr "打开”CalculateUdpReceiveTimeout” 示例： “File” -> “Examples” -> “AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”."
+"-> “WiFi” -> ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”``."
+msgstr ""
+"打开”CalculateUdpReceiveTimeout” 示例： “File” -> “Examples” -> “AmebaWiFi” ->"
+" ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”."
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:27 UDP
@@ -131,7 +134,9 @@ msgstr "**电脑准备**"
 msgid ""
 "On the computer, Cygwin will be required to compile the code to send the "
 "UDP packets. Cygwin can be downloaded from https://www.cygwin.com/"
-msgstr "回到我们的电脑上，我们需要安装Cygwin来编译用来发送UDP数据包的代码。Cygwin可以从 https://www.cygwin.com/ 下载。"
+msgstr ""
+"回到我们的电脑上，我们需要安装Cygwin来编译用来发送UDP数据包的代码。Cygwin可以从 https://www.cygwin.com/ "
+"下载。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:49 UDP
@@ -142,8 +147,8 @@ msgid ""
 "hostname to the IP address assigned to Ameba, and rename the file to "
 "“UdpReceiveTimeout.cpp”."
 msgstr ""
-"按照官网上的说明来安装。接下来，从“CalculateUdpReceiveTimeout”的Arduino示例中，将示例最下面的“#if 0”和“#endif”之间的代码复制到一个新的文本文件中，"
-"将hostname更改为Ameba的IP地址，并将该文件重命名为“UdpReceiveTimeout.cpp”。"
+"按照官网上的说明来安装。接下来，从“CalculateUdpReceiveTimeout”的Arduino示例中，将示例最下面的“#if "
+"0”和“#endif”之间的代码复制到一个新的文本文件中，将hostname更改为Ameba的IP地址，并将该文件重命名为“UdpReceiveTimeout.cpp”。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:55 UDP
@@ -162,8 +167,10 @@ msgid ""
 "location of “UdpReceiveTimeout.cpp”, and use the command “g++ "
 "UdpReceiveTimeout.cpp -o UdpTimeout” to compile the code. A file named "
 "“UdpTimeout.exe” will be created in the same directory."
-msgstr "接下来，打开Cygwin终端，将工作目录更为 “UdpReceiveTimeout.cpp”,的位置，"
-"并使用 “g++ UdpReceiveTimeout.cpp -o UdpTimeout” 指令来编译代码。一个名为 “UdpTimeout.exe” 的文件会在当前目录中创建出来。"
+msgstr ""
+"接下来，打开Cygwin终端，将工作目录更为 “UdpReceiveTimeout.cpp”,的位置，并使用 “g++ "
+"UdpReceiveTimeout.cpp -o UdpTimeout” 指令来编译代码。一个名为 “UdpTimeout.exe” "
+"的文件会在当前目录中创建出来。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:62 UDP
@@ -186,6 +193,5 @@ msgid ""
 "received within the timeout period, otherwise Ameba registers a failed "
 "packet and increases the timeout value. Open the serial monitor and "
 "observe the timeout value converge to a minimum value."
-msgstr "超时值最初设置为1000ms。对于每个成功接收的包，Ameba都会降低超时值。"
-"Ameba必须在超时时间内接收下一个包，否则就会登记一个失败的包并增加超时值。打开串行监视器，可以看到超时值最终会收敛到最小值。"
+msgstr "超时值最初设置为1000ms。对于每个成功接收的包，Ameba都会降低超时值。Ameba必须在超时时间内接收下一个包，否则就会登记一个失败的包并增加超时值。打开串行监视器，可以看到超时值最终会收敛到最小值。"
 

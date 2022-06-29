@@ -20,7 +20,7 @@ WiFi - Retrieve Universal Time (UTC) by UDP
   NTP request, the NTP server replies current UTC (Coordinated Universal
   Time) packet. We will parse the UTC packet to show current UTC time in
   the serial monitor.
-| Open the example: ``“File” -> “Examples” -> “AmebaWiFi” -> “WiFiUdpNtpClient”``
+| Open the example: ``“File” -> “Examples” -> “WiFi” -> “WiFiUdpNtpClient”``
 | |1|
 | Modify the highlighted code section (ssid, password, keyindex) to connect 
   to your WiFi network.
@@ -32,9 +32,9 @@ WiFi - Retrieve Universal Time (UTC) by UDP
 | |3|
 
 .. |1| image:: /media/ambd_arduino/WiFi_Retrieve_universal_time_(UTC)_by_UDP/image1.png
-   :width: 716
-   :height: 1006
-   :scale: 50 %
+   :width: 897
+   :height: 957
+   :scale: 70 %
 .. |2| image:: /media/ambd_arduino/WiFi_Retrieve_universal_time_(UTC)_by_UDP/image2.png
    :width: 716
    :height: 867

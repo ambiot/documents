@@ -20,7 +20,7 @@ WiFi - Set up Client to Retrieve Google Search Informations
 | First, make sure the correct Ameba development board is selected in
   “Tools” -> “Board”
 
-| Then open ``“File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebClient”``
+| Then open ``“File” -> “Examples” -> “WiFi” -> “WiFiWebClient”``
 
   |1|
 
@@ -66,8 +66,8 @@ monitor.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
 .. |1| image:: /media/ambd_arduino/WiFi_Set_Up_Client_To_Retrieve_Google_Search_Informations/image1.png
-   :width: 716
-   :height: 1006
+   :width: 1155
+   :height: 961
    :scale: 70 %
 .. |2| image:: /media/ambd_arduino/WiFi_Set_Up_Client_To_Retrieve_Google_Search_Informations/image2.png
    :width: 716

@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:3 Universal by
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:12 Universal by
@@ -54,16 +54,17 @@ msgid ""
 "Time) packet. We will parse the UTC packet to show current UTC time in "
 "the serial monitor."
 msgstr ""
-"這個範例裡，我們使用Ameba連上無線網絡，經由UDP發送NTP (Network Time Protocol, RFC 1305)"
-"請求到NTP Server，NTP Server會回應並且發送當下的UTC(Coordinated Universal Time)封包"
-"，我們將當下的時分秒解析並且顯示在Serial Monitor上。"
+"這個範例裡，我們使用Ameba連上無線網絡，經由UDP發送NTP (Network Time Protocol, RFC 1305)請求到NTP "
+"Server，NTP Server會回應並且發送當下的UTC(Coordinated Universal "
+"Time)封包，我們將當下的時分秒解析並且顯示在Serial Monitor上。"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:23 Universal by
-msgid ""
-"Open the example: ``“File” -> “Examples” -> “AmebaWiFi” -> "
-"“WiFiUdpNtpClient”``"
-msgstr "首先打開 WiFi Web Server的範例, “File” -> “Examples” -> “AmebaWiFi” -> “WiFiUdpNtpClient”"
+#, fuzzy
+msgid "Open the example: ``“File” -> “Examples” -> “WiFi” -> “WiFiUdpNtpClient”``"
+msgstr ""
+"首先打開 WiFi Web Server的範例, “File” -> “Examples” -> “AmebaWiFi” -> "
+"“WiFiUdpNtpClient”"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:24 Universal by

@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:3 Server
 #: Set UDP to up
@@ -52,8 +52,8 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:23 Server
 #: Set UDP to up
 msgid ""
-"Open the WiFi Web Server example. ``“File” -> “Examples” -> “AmebaWiFi” "
-"-> “WiFiUdpSendReceiveString”``"
+"Open the WiFi Web Server example. ``“File” -> “Examples” -> “WiFi” -> "
+"“WiFiUdpSendReceiveString”``"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:24 Server
@@ -214,5 +214,11 @@ msgid "https://www.arduino.cc/en/Reference/WiFiUDPEndPacket"
 msgstr ""
 
 #~ msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the WiFi Web Server example. "
+#~ "``“File” -> “Examples” -> “AmebaWiFi” ->"
+#~ " “WiFiUdpSendReceiveString”``"
 #~ msgstr ""
 

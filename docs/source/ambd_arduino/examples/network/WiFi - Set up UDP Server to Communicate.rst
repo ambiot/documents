@@ -19,7 +19,7 @@ WiFi - Set up UDP Server to Communicate
   server. When Ameba receives a message from UDP client, it replies
   “acknowledged” message to client.
 
-| Open the WiFi Web Server example. ``“File” -> “Examples” -> “AmebaWiFi”
+| Open the WiFi Web Server example. ``“File” -> “Examples” -> “WiFi”
   -> “WiFiUdpSendReceiveString”``
 | |1|
 | Modify the highlighted code section (ssid, password, keyindex) to
@@ -71,8 +71,8 @@ connection to server” message and waits for client connection.
 | https://www.arduino.cc/en/Reference/WiFiUDPEndPacket
 
 .. |1| image:: /media/ambd_arduino/WiFi_Set_Up_UDP_Server_To_Communicate/image1.png
-   :width: 716
-   :height: 1006
+   :width: 898
+   :height: 961
    :scale: 70 %
 .. |2| image:: /media/ambd_arduino/WiFi_Set_Up_UDP_Server_To_Communicate/image2.png
    :width: 716

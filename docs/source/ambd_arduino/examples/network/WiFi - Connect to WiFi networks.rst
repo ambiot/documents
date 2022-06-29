@@ -30,7 +30,7 @@ First, make sure the correct Ameba development board is selected in
    - Open (WiFi connection without password)
 
       Open the “ConnectNoEncryption” example in ``“File” -> “Examples” ->
-      “AmebaWiFi” -> “ConnectWithWiFi” -> “ConnectNoEncryption”`` |1| \
+      “WiFi” -> “ConnectWithWiFi” -> “ConnectNoEncryption”`` |1| \
 
       In the sample code, modify “ssid” to be the same as the WiFi SSID to be
       connected to.
@@ -44,7 +44,7 @@ First, make sure the correct Ameba development board is selected in
 
    -  WiFi connection with WPA encryption
 
-      Open the “ConnectWithWPA” example in ``“File” -> “Examples” -> “AmebaWiFi”
+      Open the “ConnectWithWPA” example in ``“File” -> “Examples” -> “WiFi”
       -> “ConnectWithWiFi” -> “ConnectWithWPA”`` |3|\
 
       In the sample code, modify “ssid” to the WiFi SSID to be connected to
@@ -57,7 +57,7 @@ First, make sure the correct Ameba development board is selected in
 
 -  WiFi connection with WEP encryption
 
-      Open the “ConnectWithWEP” example in ``“File” -> “Examples” -> “AmebaWiFi”
+      Open the “ConnectWithWEP” example in ``“File” -> “Examples” -> “WiFi”
       -> “ConnectWithWiFi” -> “ConnectWithWEP”`` |4|\         
       
       In the sample code, modify “ssid” to the SSID to be connected, “key” to

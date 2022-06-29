@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:3 Server
 #: Set UDP to up
@@ -27,8 +27,9 @@ msgstr "WiFi - 使用 UDP 伺服器進行通信"
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
-msgstr ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:12 Server
 #: Set UDP to up
@@ -40,7 +41,8 @@ msgstr ""
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
-msgstr ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
 "html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:20 Server
@@ -49,14 +51,19 @@ msgid ""
 "In this example, we connect Ameba to WiFi and use Ameba to be an UDP "
 "server. When Ameba receives a message from UDP client, it replies "
 "“acknowledged” message to client."
-msgstr "這個範例裡，我們使用Ameba連上WiFi，作為UDP服務器端，當UDP 客戶端發送訊息給Ameba之後，回應“acknowledged” 給客戶端。"
+msgstr ""
+"這個範例裡，我們使用Ameba連上WiFi，作為UDP服務器端，當UDP 客戶端發送訊息給Ameba之後，回應“acknowledged” "
+"給客戶端。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:23 Server
 #: Set UDP to up
+#, fuzzy
 msgid ""
-"Open the WiFi Web Server example. ``“File” -> “Examples” -> “AmebaWiFi” "
-"-> “WiFiUdpSendReceiveString”``"
-msgstr "首先打開 WiFi Web Server的範例, “File” -> “Examples” -> “AmebaWiFi” -> “WiFiUdpSendReceiveString”"
+"Open the WiFi Web Server example. ``“File” -> “Examples” -> “WiFi” -> "
+"“WiFiUdpSendReceiveString”``"
+msgstr ""
+"首先打開 WiFi Web Server的範例, “File” -> “Examples” -> “AmebaWiFi” -> "
+"“WiFiUdpSendReceiveString”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:24 Server
 #: Set UDP to up
@@ -93,8 +100,9 @@ msgid ""
 "the UDP server starts service, Ameba prints the “Starting connection to "
 "server” message and waits for client connection."
 msgstr ""
-"上傳程式碼之後，按下Ameba的Reset按鈕, WiFi連線成功後，會開啟UDP服務器，服務器端的IP為Ameba的IP，端口為2390"
-"啟動服務之後，會印出訊息“Starting connection to server”，並等待UDP客戶端連線進來。"
+"上傳程式碼之後，按下Ameba的Reset按鈕, "
+"WiFi連線成功後，會開啟UDP服務器，服務器端的IP為Ameba的IP，端口為2390啟動服務之後，會印出訊息“Starting "
+"connection to server”，並等待UDP客戶端連線進來。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:35 Server
 #: Set UDP to up
@@ -126,8 +134,10 @@ msgid ""
 "After the connection is established, fill in “Hello World” in the Buf 0 "
 "field in sokit and click “Send”. Then you can see the Ameba UDP server "
 "replies “acknowledged”."
-msgstr "連接成功後, 傳送字串過去，這個例子裡，在Buf 0填入“Hello World”, 並且按下Send"
-"此時會看到Ameba UDP服務器端回應“acknowledged”，並且Ameba的Serial Monitor會看到Contents: “Hello World”，這個例子就成功了。"
+msgstr ""
+"連接成功後, 傳送字串過去，這個例子裡，在Buf 0填入“Hello World”, 並且按下Send此時會看到Ameba "
+"UDP服務器端回應“acknowledged”，並且Ameba的Serial Monitor會看到Contents: “Hello "
+"World”，這個例子就成功了。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:45 Server
 #: Set UDP to up
@@ -145,8 +155,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼說明** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼說明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Communicate.rst:52 Server
 #: Set UDP to up

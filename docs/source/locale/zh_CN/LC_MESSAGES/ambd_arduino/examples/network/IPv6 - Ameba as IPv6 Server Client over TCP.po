@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:3 as over
@@ -63,8 +63,8 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:25 as over
 msgid ""
-"Step 1. IPv6TCPServer Open the example, ``“Files” -> “Examples” -> "
-"“AmebaWiFi” -> “IPv6TCPServer”``."
+"Step 1. IPv6TCPServer Open the example, ``“Files” -> “Examples” -> “WiFi”"
+" -> “IPv6TCPServer”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
@@ -116,7 +116,7 @@ msgstr ""
 #: TCP.rst:40 as over
 msgid ""
 "Step 2. IPv6TCPClient Now take the second Ameba D and open another "
-"example, ``“Files” -> “Examples” -> “AmebaWiFi” -> “IPv6TCPClient”``."
+"example, ``“Files” -> “Examples” -> “WiFi” -> “IPv6TCPClient”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
@@ -193,5 +193,18 @@ msgid "8"
 msgstr ""
 
 #~ msgid "AmebaD [RTL8722DM/RTL8722CSM/RTL8722DM MINI] / [RTL8720DN(BW16)] x 2"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Step 1. IPv6TCPServer Open the example,"
+#~ " ``“Files” -> “Examples” -> “AmebaWiFi” "
+#~ "-> “IPv6TCPServer”``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Step 2. IPv6TCPClient Now take the "
+#~ "second Ameba D and open another "
+#~ "example, ``“Files” -> “Examples” -> "
+#~ "“AmebaWiFi” -> “IPv6TCPClient”``."
 #~ msgstr ""
 

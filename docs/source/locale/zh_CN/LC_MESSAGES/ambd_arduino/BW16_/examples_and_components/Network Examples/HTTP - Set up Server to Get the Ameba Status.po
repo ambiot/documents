@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
 #: Status.rst:3 the to up
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
 #: Status.rst:12 the to up
@@ -54,21 +54,24 @@ msgstr "这个范例里，我们使用Ameba连上WiFi，作为服务器端，将
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
 #: Status.rst:20 the to up
-msgid "First, open ``“File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebServer”``"
-msgstr "首先打开 WiFi Web Server的范例 ``“File” -> “Examples” -> “AmebaWiFi” -> “WiFiWebServer”``"
+#, fuzzy
+msgid "First, open ``“File” -> “Examples” -> “WiFi” -> “WiFiWebServer”``"
+msgstr ""
+"首先打开 WiFi Web Server的范例 ``“File” -> “Examples” -> “AmebaWiFi” -> "
+"“WiFiWebServer”``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:21 the to up
+#: Status.rst:22 the to up
 msgid "|1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:74 the to up
+#: Status.rst:83 the to up
 msgid "1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:24 the to up
+#: Status.rst:26 the to up
 msgid ""
 "In the sample code, modify the highlighted snippet and enter the required"
 " information (ssid, password, key index) required to connect to your WiFi"
@@ -76,17 +79,17 @@ msgid ""
 msgstr "将WiFi连线的相关讯息，如将下图中黄色标注的地方进行对应的修改。 ."
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:25 the to up
+#: Status.rst:28 the to up
 msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:78 the to up
+#: Status.rst:87 the to up
 msgid "2"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:28 the to up
+#: Status.rst:32 the to up
 msgid ""
 "Upload the code and press the reset button on Ameba. After connecting to "
 "WiFi, Ameba starts to run as server. The IP of the server is shown in the"
@@ -94,193 +97,193 @@ msgid ""
 msgstr "上传程式码之后，按下Ameba的Reset按钮, WiFi连线成功后，会开启服务器端，服务器端的IP为Ameba的IP，端口为80"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:29 the to up
+#: Status.rst:34 the to up
 msgid "|3|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:82 the to up
+#: Status.rst:91 the to up
 msgid "3"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:31 the to up
+#: Status.rst:37 the to up
 msgid ""
 "We connect to the server in a browser, and we can see the data sent from "
 "the server."
 msgstr "通过浏览器来与服务器进行连线，即可获得服务器所发出的数据"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:32 the to up
+#: Status.rst:39 the to up
 msgid "|4|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:86 the to up
+#: Status.rst:95 the to up
 msgid "4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:34 the to up
+#: Status.rst:41 the to up
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:38 the to up
+#: Status.rst:45 the to up
 msgid "Use ``WiFi.begin()`` to establish WiFi connection."
 msgstr "在连线WiFi时会使用到 ``WiFi.begin()``;"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:39 the to up
+#: Status.rst:46 the to up
 msgid "https://www.arduino.cc/en/Reference/WiFiBegin"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:40 the to up
+#: Status.rst:47 the to up
 msgid "To get the information of a WiFi connection:"
 msgstr "连线成功后会读取WiFi的信息："
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:41 the to up
+#: Status.rst:48 the to up
 msgid "Use ``WiFi.SSID()`` to get SSID of the current connected network."
 msgstr "显示WiFi的名称 ``WiFi.SSID()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:42 the to up
+#: Status.rst:49 the to up
 msgid "https://www.arduino.cc/en/Reference/WiFiSSID"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:43 the to up
+#: Status.rst:50 the to up
 msgid "Use ``WiFi.RSSI()`` to get the signal strength of the connection."
 msgstr "显示WiFi的讯号强度 ``WiFi.RSSI()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:44 the to up
+#: Status.rst:51 the to up
 msgid "https://www.arduino.cc/en/Reference/WiFiRSSI"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:45 the to up
+#: Status.rst:52 the to up
 msgid "se ``WiFi.localIP()`` to get the IP address of Ameba."
 msgstr "显示Ameba的IP信息 ``WiFi.localIP()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:46 the to up
+#: Status.rst:53 the to up
 msgid "https://www.arduino.cc/en/Reference/WiFiLocalIP"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:48 the to up
+#: Status.rst:55 the to up
 msgid ""
 "Use ``WiFiServer server()`` to create a server that listens on the "
 "specified port."
 msgstr "设定服务器的端口号 ``WiFiServer server()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:49 the to up
+#: Status.rst:56 the to up
 msgid "https://www.arduino.cc/en/Reference/WiFiServer"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:51 the to up
+#: Status.rst:58 the to up
 msgid ""
 "Use ``server.begin()`` to tell the server to begin listening for incoming"
 " connections."
 msgstr "开始服务器的监听 ``server.begin()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:52 the to up
+#: Status.rst:59 the to up
 msgid ""
 "`https://www.arduino.cc/en/Reference/WiFiServerBegin "
 "<https://www.arduino.cc/en/Reference/WiFiClientConnect>`__"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:54 the to up
+#: Status.rst:61 the to up
 msgid ""
 "Use ``server.available()`` to get a client that is connected to the "
 "server and has data available for reading."
 msgstr " 判断是否有客户端连线 ``server.available()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:55 the to up
+#: Status.rst:62 the to up
 msgid "https://www.arduino.cc/en/Reference/WiFiServerAvailable"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:56 the to up
+#: Status.rst:63 the to up
 msgid ""
 "Use ``client.connected()`` to check whether or not the client is "
 "connected."
 msgstr "判断客户端是否处于连线状态 ``client.connected``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:57 the to up
+#: Status.rst:64 the to up
 msgid "https://www.arduino.cc/en/Reference/WiFiClientConnected"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:59 the to up
+#: Status.rst:66 the to up
 msgid ""
 "Use ``client.println()`` to print data followed by a carriage return and "
 "newline."
 msgstr "向服务器发送数据并开启新的一行 ``client.println()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:60 the to up
+#: Status.rst:67 the to up
 msgid "https://www.arduino.cc/en/Reference/WiFiClientPrintln"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:62 the to up
+#: Status.rst:69 the to up
 msgid ""
 "Use ``client.print()`` to print data to the server that a client is "
 "connected to."
 msgstr "向服务器发送数据 ``client.print()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:63 the to up
+#: Status.rst:70 the to up
 msgid "https://www.arduino.cc/en/Reference/WiFiClientPrint"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:65 the to up
+#: Status.rst:72 the to up
 msgid ""
 "Use ``client.available()`` to return the number of bytes available for "
 "reading."
 msgstr "判断是否有数据从服务器端发送过来 ``client.available()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:66 the to up
+#: Status.rst:73 the to up
 msgid "https://www.arduino.cc/en/Reference/WiFiClientAvailable"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:68 the to up
+#: Status.rst:75 the to up
 msgid ""
 "Use ``client.read()`` to read the next byte received from the server the "
 "client is connected to."
 msgstr "客户端读取数据 ``client.read()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:69 the to up
+#: Status.rst:76 the to up
 msgid "https://www.arduino.cc/en/Reference/WiFiClientRead"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:71 the to up
+#: Status.rst:78 the to up
 msgid ""
 "Use ``client.stop()`` to disconnect from the server the client is "
 "connected to."
 msgstr "客户端断开与服务器的连线 ``client.stop()``;"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
-#: Status.rst:72 the to up
+#: Status.rst:79 the to up
 msgid "https://www.arduino.cc/en/Reference/WiFIClientStop"
 msgstr ""
 

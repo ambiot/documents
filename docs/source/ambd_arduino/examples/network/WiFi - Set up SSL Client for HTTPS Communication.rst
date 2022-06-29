@@ -21,7 +21,7 @@ cryptographic protocol designed to provide communications security over
 a computer network, by encrypting the messages passed between server and
 client.
 
-Open the “WiFiSSLClient” example in ``“File” -> “Examples” -> “AmebaWiFi”
+Open the “WiFiSSLClient” example in ``“File” -> “Examples” -> “WiFi”
 -> “WiFiSSLClient”``.
 
    |1|
@@ -47,8 +47,8 @@ Use “WiFiSSLClient client;” to create a client that uses SSL. After
 creation, the client can be used in the same way as a regular client.
 
 .. |1| image:: /media/ambd_arduino/WiFi_Set_Up_SSL_Client_For_HTTPS_Communications/image1.png
-   :width: 716
-   :height: 1006
+   :width: 1158
+   :height: 960
    :scale: 70 %
 .. |2| image:: /media/ambd_arduino/WiFi_Set_Up_SSL_Client_For_HTTPS_Communications/image2.png
    :width: 716

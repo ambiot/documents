@@ -22,7 +22,7 @@ WiFi - Scan the surrounding WiFi networks
 | First, make sure the correct Ameba development board is selected in
   Arduino IDE: ``“Tools” -> “Board”``
 | Open the “ScanNetworks” example in 
-  ``“File” -> “Examples” -> “AmebaWiFi” -> “ScanNetworks”``:
+  ``“File” -> “Examples” -> “WiFi” -> “ScanNetworks”``:
 
   |image1|
 
@@ -59,9 +59,9 @@ detected WiFi hotspots and the information of each hotspot.
   ``#include`` is not needed.
 
 .. |image1| image::   /media/ambd_arduino/WiFi _Scan_the_surrounding_WiFi_networks/image1.png
-   :width: 716
-   :height: 1006
-   :scale: 80 %
+   :width: 901
+   :height: 960
+   :scale: 70 %
 .. |image2| image::   /media/ambd_arduino/WiFi_Scan_the_surrounding_WiFi_networks/image2.png
    :width: 704
    :height: 530

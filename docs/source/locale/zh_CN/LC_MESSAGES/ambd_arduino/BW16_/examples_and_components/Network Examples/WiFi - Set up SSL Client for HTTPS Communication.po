@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-06-29 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Communication.rst:3
 #: HTTPS SSL Set for up
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:12 HTTPS SSL Set for up
@@ -53,14 +53,19 @@ msgid ""
 "cryptographic protocol designed to provide communications security over a"
 " computer network, by encrypting the messages passed between server and "
 "client."
-msgstr "这个范例里，Ameba使用SSL安全地连线至Internet。SSL是 Secure Sockets Layer 的缩写。它是一种加密协议用来对服务器和客户端之间传递的消息进行加密来提供传输安全性。"
+msgstr ""
+"这个范例里，Ameba使用SSL安全地连线至Internet。SSL是 Secure Sockets Layer "
+"的缩写。它是一种加密协议用来对服务器和客户端之间传递的消息进行加密来提供传输安全性。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:24 HTTPS SSL Set for up
+#, fuzzy
 msgid ""
-"Open the “WiFiSSLClient” example in ``“File” -> “Examples” -> “AmebaWiFi”"
-" -> “WiFiSSLClient”``."
-msgstr "打开 “WiFiSSLClient” 范例 “File” -> “Examples” -> “AmebaWiFi” -> ” WiFiSSLClient “."
+"Open the “WiFiSSLClient” example in ``“File” -> “Examples” -> “WiFi” -> "
+"“WiFiSSLClient”``."
+msgstr ""
+"打开 “WiFiSSLClient” 范例 “File” -> “Examples” -> “AmebaWiFi” -> ” "
+"WiFiSSLClient “."
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:27 HTTPS SSL Set for up
@@ -119,8 +124,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:46 HTTPS SSL Set for up
