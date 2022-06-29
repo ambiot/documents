@@ -48,7 +48,7 @@ SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 
   |2-4|
 
-Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “PM25_on_ILI9341_TFT_LCD”``
+Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “PM25_on_ILI9341_TCT_LCD”``
   
   |3|
 
@@ -58,6 +58,8 @@ Then you can see the concentration value of PM1.0, PM2.5 and PM10 on the
 LCD.
 
   |4|
+
+  |5|
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Code Reference**
@@ -97,6 +99,11 @@ inside the circle.
    :height: 1006
    :scale: 70 %
 .. |4| image:: /media/ambd_arduino/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image4.png
-   :width: 1428
-   :height: 601
+   :width: 979
+   :height: 749
    :scale: 50 %
+.. |5| image:: /media/ambd_arduino/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image4.png
+   :width: 1000
+   :height: 750
+   :scale: 50 %
+
