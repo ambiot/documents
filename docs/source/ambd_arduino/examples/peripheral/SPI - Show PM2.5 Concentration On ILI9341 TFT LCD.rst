@@ -102,7 +102,7 @@ inside the circle.
    :width: 979
    :height: 749
    :scale: 50 %
-.. |5| image:: /media/ambd_arduino/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image4.png
+.. |5| image:: /media/ambd_arduino/SPI_Show_PM2.5_Concentration_On_ILI9341_LCD/image5.png
    :width: 1000
    :height: 750
    :scale: 50 %
