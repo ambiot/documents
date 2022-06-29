@@ -68,8 +68,8 @@ monitor. It may take up to a few minutes for 10000 packets to be sent.
 |5|
 
 .. |1| image:: /media/ambd_arduino/WiFi_Approximate_UDP_Receive_Delay/image1.png
-   :width: 852
-   :height: 1006
+   :width: 1157
+   :height: 962
    :scale: 80 %
 .. |2| image:: /media/ambd_arduino/WiFi_Approximate_UDP_Receive_Delay/image2.png
    :width: 721

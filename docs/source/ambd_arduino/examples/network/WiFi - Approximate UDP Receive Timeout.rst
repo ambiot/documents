@@ -72,8 +72,8 @@ packet and increases the timeout value. Open the serial monitor and
 observe the timeout value converge to a minimum value.
 
 .. |1| image:: /media/ambd_arduino/WiFi_Approximate_UDP_Receive_Timeout/image1.png
-   :width: 852
-   :height: 1006
+   :width: 1152
+   :height: 962
    :scale: 70 %
 .. |2| image:: /media/ambd_arduino/WiFi_Approximate_UDP_Receive_Timeout/image2.png
    :width: 721

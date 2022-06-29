@@ -70,8 +70,8 @@ It will take some time for 10000 packets to be sent.
    |4|
 
 .. |1| image:: /media/ambd_arduino/WiFi_Approximate_UDP_Sending_Delay/image1.png
-   :width: 852
-   :height: 1006
+   :width: 1153
+   :height: 960
    :scale: 70 %
 .. |2| image:: /media/ambd_arduino/WiFi_Approximate_UDP_Sending_Delay/image2.png
    :width: 721

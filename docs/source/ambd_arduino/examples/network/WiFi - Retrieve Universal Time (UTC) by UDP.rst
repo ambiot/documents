@@ -32,9 +32,9 @@ WiFi - Retrieve Universal Time (UTC) by UDP
 | |3|
 
 .. |1| image:: /media/ambd_arduino/WiFi_Retrieve_universal_time_(UTC)_by_UDP/image1.png
-   :width: 716
-   :height: 1006
-   :scale: 50 %
+   :width: 897
+   :height: 957
+   :scale: 70 %
 .. |2| image:: /media/ambd_arduino/WiFi_Retrieve_universal_time_(UTC)_by_UDP/image2.png
    :width: 716
    :height: 867
