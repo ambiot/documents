@@ -48,7 +48,7 @@ SPI <https://www.amebaiot.com/spi-intro/>`__ first.
 
   |2-4|
 
-Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “PM25_on_ILI9341_TCT_LCD”``
+Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI9341_TFT_LCD_PM2.5”``
   
   |3|
 
