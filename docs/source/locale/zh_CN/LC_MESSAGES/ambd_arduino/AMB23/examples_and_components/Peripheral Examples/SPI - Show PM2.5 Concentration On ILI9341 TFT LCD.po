@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 08:51+0100\n"
+"POT-Creation-Date: 2022-07-22 08:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,9 +166,10 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
 #: LCD.rst:51 On PM2.5 Show TFT
+#, fuzzy
 msgid ""
 "Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> "
-"“PM25_on_ILI9341_TCT_LCD”``"
+"“ILI9341_TFT_LCD_PM2.5”``"
 msgstr "然后打开范例, “Files” -> “Examples” -> “AmebaSPI” -> “ILI9341_TFT_LCD_PM2.5”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/SPI Concentration ILI9341
