@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/UART - Communicate with PC over USB to Serial Module.rst

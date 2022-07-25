@@ -16,3 +16,4 @@ Arduino SDK
    AMB21/index
    AMB23/index
    BW16_/index
+   BW16-TypeC/index

@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/WS2812B - Basics.rst

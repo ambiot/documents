@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/IR - Transmit IR SONY Data.rst

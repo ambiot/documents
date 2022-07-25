@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/WiFi - Set up WiFi AP Mode.rst

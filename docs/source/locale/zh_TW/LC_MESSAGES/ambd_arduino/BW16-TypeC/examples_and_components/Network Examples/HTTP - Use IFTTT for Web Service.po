@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:3 Use
+#: Web for
+msgid "HTTP - Use IFTTT for Web Service"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:8 Use
+#: Web for
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Introduction to"
+" IFTTT** :raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:12 Use
+#: Web for
+msgid ""
+"IFTTT, known as If This Then That, is a website and mobile app and free "
+"web-based service to create the applets, or the chains of simple "
+"conditional statements. The applet is triggered by changes that occur "
+"within other web services such as Gmail, Facebook, Telegram, Instagram, "
+"Pinterest etc."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:18 Use
+#: Web for
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
+":raw-html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:22 Use
+#: Web for
+msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:23 Use
+#: Web for
+msgid "An account from https://ifttt.com/ , in order to access IFTTT service\\*"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:25 Use
+#: Web for
+msgid "|1|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:131 Use
+#: Web for
+msgid "1"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:28 Use
+#: Web for
+msgid ""
+"Upon log in, there are several cloud and online services that are "
+"integrated with IFTTT platforms."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:31 Use
+#: Web for
+msgid ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
+"html:`</p>`"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:35 Use
+#: Web for
+msgid "Generate Applet from IFTTT"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:37 Use
+#: Web for
+msgid ""
+"In this example, we obtain an example of IFTTT Applet to send email to "
+"specified recipient."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:40 Use
+#: Web for
+msgid ""
+"To run the example, HTTP POST feature of the Ameba is used to post a "
+"simple webhook service that is received by IFTTT platform and in turn be "
+"used to trigger a response (sending an email)."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:44 Use
+#: Web for
+msgid "After logging in https://ifttt.com/, click **Create** from the top bar."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:46 Use
+#: Web for
+msgid "|2|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:135 Use
+#: Web for
+msgid "2"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:48 Use
+#: Web for
+msgid "Click **“Add”** to add the trigger."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:50 Use
+#: Web for
+msgid "|3|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:139 Use
+#: Web for
+msgid "3"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:52 Use
+#: Web for
+msgid ""
+"Choose Webhooks service as shown below. Alternatively, search the service"
+" by typing into the search bar."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:55 Use
+#: Web for
+msgid "|4|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:143 Use
+#: Web for
+msgid "4"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:57 Use
+#: Web for
+msgid ""
+"After that, the available triggers will appear. Choose Receive a Web "
+"request."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:59 Use
+#: Web for
+msgid "|5|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:147 Use
+#: Web for
+msgid "5"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:61 Use
+#: Web for
+msgid ""
+"Next, an Event Name is required to identify the trigger successfully. In "
+"this example, set the Event name as “test_event”."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:64 Use
+#: Web for
+msgid "|6|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:151 Use
+#: Web for
+msgid "6"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:66 Use
+#: Web for
+msgid ""
+"Next, click **Add** in Then That field to create the action service taken"
+" in response to the last trigger."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:69 Use
+#: Web for
+msgid "|7|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:155 Use
+#: Web for
+msgid "7"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:71 Use
+#: Web for
+msgid "Choose Email as the action service."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:73 Use
+#: Web for
+msgid "|8|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:159 Use
+#: Web for
+msgid "8"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:75 Use
+#: Web for
+msgid "Click on Send me an email."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:77 Use
+#: Web for
+msgid "|9|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:163 Use
+#: Web for
+msgid "9"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:79 Use
+#: Web for
+msgid ""
+"Under the template of **Send me an Email**, the contents of the email, "
+"such as subject and body is editable. Click **Create Action** to complete"
+" the action. Take note that **Email service** is offered to the email "
+"address registered under IFTTT account."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:84 Use
+#: Web for
+msgid "|10|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:167 Use
+#: Web for
+msgid "10"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:86 Use
+#: Web for
+msgid "Post the Trigger via Ameba"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:89 Use
+#: Web for
+msgid ""
+"Once the Applet is ready in the IFTTT dashboard, the example program can "
+"be flashed onto the Ameba board to post the HTTP request."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:90 Use
+#: Web for
+msgid ""
+"Open the example code in ``“File” -> “Examples” -> “WiFi” -> "
+"“HTTP_IFTTT_Post”``"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:92 Use
+#: Web for
+msgid ""
+"In the example program, edit the following 3 items inside the code to "
+"make the program work."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:94 Use
+#: Web for
+msgid ""
+"The WiFi credentials to connect to the Wi-Fi hotspot or access point of "
+"desirable choice."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:95 Use
+#: Web for
+msgid ""
+"Under the Host name field, enter the host name of the IFTTT service "
+"“maker.ifttt.com”."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:96 Use
+#: Web for
+msgid ""
+"Under the Path name field, enter the Event name and key field "
+"“/trigger/Event name/with/key/Key Field”"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:98 Use
+#: Web for
+msgid ""
+"Event name: The event name should be the same as the one specified in the"
+" IFTTT applet. In this example, the event name is “test_event”."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:99 Use
+#: Web for
+msgid ""
+"Key Field: Available under webhook service in individual IFTTT account. "
+"See the next step for the steps to obtain the Key Field."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:101 Use
+#: Web for
+msgid "|11|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:171 Use
+#: Web for
+msgid "11"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:103 Use
+#: Web for
+msgid ""
+"To obtain a key from documentation tab of the Webhooks, find the webhook "
+"service in the Explore tab."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:106 Use
+#: Web for
+msgid "|12|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:175 Use
+#: Web for
+msgid "12"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:108 Use
+#: Web for
+msgid "On the Webhooks service page, click on the Documentation tab."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:110 Use
+#: Web for
+msgid "|13|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:179 Use
+#: Web for
+msgid "13"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:112 Use
+#: Web for
+msgid ""
+"The key can be found in the documentation page. Also, information on how "
+"HTTP request can be used."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:115 Use
+#: Web for
+msgid "|14|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:183 Use
+#: Web for
+msgid "14"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:117 Use
+#: Web for
+msgid "Once the example is ready, connect to Ameba board via USB Cable."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:122 Use
+#: Web for
+msgid ""
+"On the Arduino IDE, compile the code and upload the code onto Ameba and "
+"press the reset button. After the event has been successfully fired, "
+"“Congratulations! You have fired the test_event event” can be seen on the"
+" serial monitor and an email reminder for this event will be delivered."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:124 Use
+#: Web for
+msgid "|15|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:187 Use
+#: Web for
+msgid "15"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:126 Use
+#: Web for
+msgid ""
+"Thereafter an email is sent to recipient email account registered at "
+"IFTTT Applet and email notification will be received."
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:129 Use
+#: Web for
+msgid "|16|"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:191 Use
+#: Web for
+msgid "16"
+msgstr ""
+
