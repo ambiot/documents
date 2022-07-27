@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.1\n"
 
-#: ../../source/ambd_arduino/BW16-TypeC/examples_and_components/index.rst:8
+#: ../../source/ambd_arduino/BW16_/examples_and_components/index.rst:8
 msgid "Examples & Components"
-msgstr ""
+msgstr "范例和元件"
 
-#: ../../source/ambd_arduino/BW16-TypeC/examples_and_components/index.rst:22
+#: ../../source/ambd_arduino/BW16_/examples_and_components/index.rst:22
 msgid ""
 "Welcome to share your examples under the **Community Examples** section "
 "if you have completed a project using the Ameba boards"
-msgstr ""
+msgstr "欢迎您把有趣的专案分享到我们的 **社群范例** 里。"
 

@@ -191,14 +191,11 @@ Step 1. Compile & Upload
 ============================
 
 Arduino IDE provides many built-in examples, which can be compiled, uploaded, and run directly on the boards. Here, we take the “Blink” example as the first try.
-Open “File” -> “Examples” -> “01.Basics” -> “Blink”:
 
 Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:
 
 .. image:: /media/ambd_arduino/bw16_typec_getting_started/image16.png
    :align: center
-
-Arduino IDE opens a new window with the complete sample code.
 
 .. image:: /media/ambd_arduino/bw16_typec_getting_started/image17.png
    :align: center
