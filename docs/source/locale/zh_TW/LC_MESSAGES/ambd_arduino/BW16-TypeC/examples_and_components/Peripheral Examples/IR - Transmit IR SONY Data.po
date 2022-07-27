@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-07-27 03:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:3 IR SONY
 #: Transmit
 msgid "IR - Transmit IR Sony Data"
-msgstr ""
+msgstr "IR - 發送 IR Sony 資料"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:8 IR SONY
 #: Transmit
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:12 IR SONY
 #: Transmit
@@ -37,7 +39,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:14 IR SONY
 #: Transmit
 msgid "Grove – Infrared Emitter x1 (Figure 1)"
-msgstr ""
+msgstr "Grove – 紅外線發射器 x1"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:16 IR SONY
 #: Transmit
@@ -45,6 +47,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例說明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:20 IR SONY
 #: Transmit
@@ -54,13 +58,15 @@ msgid ""
 " TV power code). For the receiver side, you can either use an "
 "oscilloscope/logic analyser to view the waveform and decode accordingly."
 msgstr ""
+"在這個例子中，我們使用一個 Ameba RTL8722 模塊，連接一個紅外線（IR）發射器來發送和接收 IR SONY "
+"數據“0xA90”（Sony TV power code）。 對於接收端，您可以使用示波器/邏輯分析儀查看波形並進行相應解碼。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:25 IR SONY
 #: Transmit
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:129 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:126 IR SONY
 #: Transmit
 msgid "1"
 msgstr ""
@@ -68,7 +74,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:27 IR SONY
 #: Transmit
 msgid "Figure 1: Grove – Infrared Transmitter"
-msgstr ""
+msgstr "圖一: Grove – 紅外線發射器"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:29 IR SONY
 #: Transmit
@@ -79,36 +85,38 @@ msgid ""
 "collection of IR protocol descriptions. In this example, we are going to "
 "use Sony as the transmission protocol."
 msgstr ""
+"在傳輸端，發射器將發送 IR SONY 數據。 更多詳情請參考SB-Projects的IR Remote Control "
+"Theory專題，了解IR遙控器操作原理和IR協議說明。 在此範例中，我們將使用 Sony 作為傳輸協議。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:35 IR SONY
 #: Transmit
 msgid "**Sony Features**"
-msgstr ""
+msgstr "**Sony 特色**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:37 IR SONY
 #: Transmit
 msgid "12-bit version, 7 command bits, 5 address bits."
-msgstr ""
+msgstr "12-位元版本, 7 位元命令, 5 位元地址"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:39 IR SONY
 #: Transmit
 msgid "Pulse width modulation."
-msgstr ""
+msgstr "調節脈衝距離"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:41 IR SONY
 #: Transmit
 msgid "Carrier frequency of 40kHz."
-msgstr ""
+msgstr "載波頻率為 40kHz"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:43 IR SONY
 #: Transmit
 msgid "Bit time of 1.2ms or 0.6ms."
-msgstr ""
+msgstr "Bit time 為 1.2ms 或 0.6ms"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:45 IR SONY
 #: Transmit
 msgid "**Sony SIRC Modulation**"
-msgstr ""
+msgstr "**Sony SIRC 調節**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:47 IR SONY
 #: Transmit
@@ -118,13 +126,15 @@ msgid ""
 " while the burst width for a logical \"0\" is 600us long. All bursts are "
 "separated by a 600us long space interval as shown in Figure 2 below."
 msgstr ""
+"SIRC 協議使用脈衝編碼。 代表邏輯“1”的脈衝是 40kHz 載波的 1200us，而邏輯“0”的是 600us 長。 都由 600us "
+"長的間隔隔開，如下圖二所示。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:52 IR SONY
 #: Transmit
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:134 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:131 IR SONY
 #: Transmit
 msgid "2"
 msgstr ""
@@ -132,19 +142,19 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:54 IR SONY
 #: Transmit
 msgid "Figure 2: Sony SIRC Modulation"
-msgstr ""
+msgstr "圖二: Sony SIRC 調節"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:56 IR SONY
 #: Transmit
 msgid "**Protocol**"
-msgstr ""
+msgstr "**協議**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:58 IR SONY
 #: Transmit
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:139 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:136 IR SONY
 #: Transmit
 msgid "3"
 msgstr ""
@@ -152,7 +162,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:60 IR SONY
 #: Transmit
 msgid "Figure 3: 12-bit Sony SIRC protocol"
-msgstr ""
+msgstr "圖三: 12位元 Sony SIRC 協議"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:62 IR SONY
 #: Transmit
@@ -165,88 +175,84 @@ msgid ""
 "transmitted, followed by the 5-bit Device address. In this case Address 1"
 " and Command 19 is transmitted."
 msgstr ""
+"圖三顯示了 12位元 SIRC 協議的典型脈衝序列。 使用此協議，首先傳輸 LSB。 開始是 2.4ms，後面跟著 0.6ms "
+"的標準間隔。除了發出 SIRC 訊息開始的信號外，還用於調整 IR 接收器訊號。 然後發送 7 位元命令，後跟 5 位元設備地址。 "
+"在這種情況下，地址 1 和命令 19 被傳輸。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:70 IR SONY
 #: Transmit
 msgid ""
 "Commands are repeated every 45ms (measured from start to start) for as "
 "long as the key on the remote control is held down."
-msgstr ""
+msgstr "只要按住遙控器上的鍵，命令就會每 45 毫秒重複一次（從這次開始到下次開始測量）。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:73 IR SONY
 #: Transmit
 msgid ""
 "Figure 4 shows the pin configuration of IR Emitter with AMB21 / AMB22 "
 "board."
-msgstr ""
+msgstr "圖四: AMB21 / AMB22 的紅外發射器引腳配置"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:76 IR SONY
 #: Transmit
 msgid "|4|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:144 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:141 IR SONY
 #: Transmit
 msgid "4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:78 IR SONY
 #: Transmit
-msgid "Figure 4: Pin configuration of IR Emitter and AMB21 / AMB22"
-msgstr ""
+#, fuzzy
+msgid "Figure 5: Pin configuration of the IR Emitter and BW16"
+msgstr "圖五: BW16 的紅外發射器引腳配置"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:80 IR SONY
-#: Transmit
-msgid "Figure 6 shows the pin configuration of IR Emitter with BW16."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:82 IR SONY
 #: Transmit
 msgid "|5|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:149 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:146 IR SONY
 #: Transmit
 msgid "5"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:84 IR SONY
-#: Transmit
-msgid "Figure 5: Pin configuration of the IR Emitter and BW16"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:86 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:83 IR SONY
 #: Transmit
 msgid ""
 "After the connection is being set up correctly, we will move to the "
 "coding part for this example. First, make sure the correct Ameba "
 "development board is selected in Arduino IDE: “Tools” -> “Board”."
-msgstr ""
+msgstr "正確設置連接後，我們將介紹此範例的編碼部分。 首先，確保在Arduino IDE中選擇了正確的Ameba開發板：“Tools”->“Board”。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:90 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:87 IR SONY
 #: Transmit
 msgid ""
 "Open the “IRSendSONY” example in “File” -> “Examples” -> “AmebaIRDevice” "
 "-> “IRSendSONY” (Figure 6) and upload to the board connected with IR "
 "Emitter:"
 msgstr ""
+"在“File”->“Examples”->“AmebaIRDevice”->“IRSendSONY”中打開“IRSendSONY”範例（圖六）並上傳到與IR"
+" Emitter相連的板上："
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:94 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:91 IR SONY
 #: Transmit
 msgid "|6|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:154 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:151 IR SONY
 #: Transmit
 msgid "6"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:96 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:93 IR SONY
 #: Transmit
 msgid "Figure 6: Example Location of IRSendSONY"
-msgstr ""
+msgstr "圖六: IRSendSONY 範例"
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:98 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:95 IR SONY
 #: Transmit
 msgid ""
 "After successfully upload the sample code for IRSendSONY, you could use "
@@ -254,68 +260,84 @@ msgid ""
 "signal transmitted from the IR Emitter is “0xA90” as shown in Figure "
 "below:"
 msgstr ""
+"成功上傳 IRSendSONY 的範例代碼後，您可以使用示波器或 Pulse View 查看 IR Emitter "
+"發射的信號波形為“0xA90”，如下圖所示："
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:103 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:100 IR SONY
 #: Transmit
 msgid "|7|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:159 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:156 IR SONY
 #: Transmit
 msgid "7"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:105 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:102 IR SONY
 #: Transmit
 msgid "Figure 7: Waveform of IRSendSONY “0xA90”"
-msgstr ""
+msgstr "圖七: IRSendSONY “0xA90” 波型"
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:107 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:104 IR SONY
 #: Transmit
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:111 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:108 IR SONY
 #: Transmit
 msgid "[1] Seed Official website for Grove – Infrared Emitter"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:113 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:110 IR SONY
 #: Transmit
 msgid "https://wiki.seeedstudio.com/Grove-Infrared_Emitter/"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:115 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:112 IR SONY
 #: Transmit
 msgid ""
 "[2] Ken SHirriff’s blog on A Multi-Protocol Infrared Remote Library for "
 "the Arduino"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:118 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:115 IR SONY
 #: Transmit
 msgid "http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:120 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:117 IR SONY
 #: Transmit
 msgid "[3] SB-Projects: IR Remote Control Project"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:122 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:119 IR SONY
 #: Transmit
 msgid "https://www.sbprojects.net/knowledge/ir/index.php"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:124 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:121 IR SONY
 #: Transmit
 msgid "[4] SONY SIRC Protocol"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:126 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:123 IR SONY
 #: Transmit
 msgid "https://www.sbprojects.net/knowledge/ir/sirc.php"
 msgstr ""
+
+#~ msgid "Figure 4: Pin configuration of IR Emitter and AMB21 / AMB22"
+#~ msgstr ""
+
+#~ msgid "Figure 5: Pin configuration of IR Emitter and AMB21 / AMB22"
+#~ msgstr ""
+
+#~ msgid "Figure 6 shows the pin configuration of IR Emitter with BW16."
+#~ msgstr ""
+
+#~ msgid "Figure 5: Pin configuration of the IR Emitter and BW16"
+#~ msgstr ""
 

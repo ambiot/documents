@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-20 03:12+0100\n"
+"POT-Creation-Date: 2022-07-27 03:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,7 +60,7 @@ msgstr ""
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:129 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:126 IR SONY
 #: Transmit
 msgid "1"
 msgstr ""
@@ -124,7 +124,7 @@ msgstr ""
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:134 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:131 IR SONY
 #: Transmit
 msgid "2"
 msgstr ""
@@ -144,7 +144,7 @@ msgstr ""
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:139 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:136 IR SONY
 #: Transmit
 msgid "3"
 msgstr ""
@@ -185,37 +185,27 @@ msgstr ""
 msgid "|4|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:144 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:141 IR SONY
 #: Transmit
 msgid "4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:78 IR SONY
 #: Transmit
-msgid "Figure 4: Pin configuration of IR Emitter and AMB21 / AMB22"
+msgid "Figure 5: Pin configuration of the IR Emitter and BW16"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:80 IR SONY
 #: Transmit
-msgid "Figure 6 shows the pin configuration of IR Emitter with BW16."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:82 IR SONY
-#: Transmit
 msgid "|5|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:149 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:146 IR SONY
 #: Transmit
 msgid "5"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:84 IR SONY
-#: Transmit
-msgid "Figure 5: Pin configuration of the IR Emitter and BW16"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:86 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:83 IR SONY
 #: Transmit
 msgid ""
 "After the connection is being set up correctly, we will move to the "
@@ -223,7 +213,7 @@ msgid ""
 "development board is selected in Arduino IDE: “Tools” -> “Board”."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:90 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:87 IR SONY
 #: Transmit
 msgid ""
 "Open the “IRSendSONY” example in “File” -> “Examples” -> “AmebaIRDevice” "
@@ -231,22 +221,22 @@ msgid ""
 "Emitter:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:94 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:91 IR SONY
 #: Transmit
 msgid "|6|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:154 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:151 IR SONY
 #: Transmit
 msgid "6"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:96 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:93 IR SONY
 #: Transmit
 msgid "Figure 6: Example Location of IRSendSONY"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:98 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:95 IR SONY
 #: Transmit
 msgid ""
 "After successfully upload the sample code for IRSendSONY, you could use "
@@ -255,67 +245,73 @@ msgid ""
 "below:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:103 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:100 IR SONY
 #: Transmit
 msgid "|7|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:159 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:156 IR SONY
 #: Transmit
 msgid "7"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:105 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:102 IR SONY
 #: Transmit
 msgid "Figure 7: Waveform of IRSendSONY “0xA90”"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:107 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:104 IR SONY
 #: Transmit
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:111 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:108 IR SONY
 #: Transmit
 msgid "[1] Seed Official website for Grove – Infrared Emitter"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:113 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:110 IR SONY
 #: Transmit
 msgid "https://wiki.seeedstudio.com/Grove-Infrared_Emitter/"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:115 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:112 IR SONY
 #: Transmit
 msgid ""
 "[2] Ken SHirriff’s blog on A Multi-Protocol Infrared Remote Library for "
 "the Arduino"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:118 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:115 IR SONY
 #: Transmit
 msgid "http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:120 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:117 IR SONY
 #: Transmit
 msgid "[3] SB-Projects: IR Remote Control Project"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:122 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:119 IR SONY
 #: Transmit
 msgid "https://www.sbprojects.net/knowledge/ir/index.php"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:124 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:121 IR SONY
 #: Transmit
 msgid "[4] SONY SIRC Protocol"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:126 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:123 IR SONY
 #: Transmit
 msgid "https://www.sbprojects.net/knowledge/ir/sirc.php"
 msgstr ""
+
+#~ msgid "Figure 4: Pin configuration of IR Emitter and AMB21 / AMB22"
+#~ msgstr ""
+
+#~ msgid "Figure 6 shows the pin configuration of IR Emitter with BW16."
+#~ msgstr ""
 

@@ -75,13 +75,10 @@ board.
 
 |4|
 
-Figure 4: Pin configuration of IR Emitter and AMB21 / AMB22
-
-Figure 6 shows the pin configuration of IR Emitter with BW16.
+Figure 5: Pin configuration of the IR Emitter and BW16
 
 |5|
 
-Figure 5: Pin configuration of the IR Emitter and BW16
 
 After the connection is being set up correctly, we will move to the
 coding part for this example. First, make sure the correct Ameba
