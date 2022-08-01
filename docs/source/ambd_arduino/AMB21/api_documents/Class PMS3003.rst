@@ -53,6 +53,7 @@ Defines a class to work with PMS3003 air quality sensor on Ameba.
 Constructs a PMS3003 object and initialize the pin mapping.
 
 **Syntax**
+
 .. code:: cpp
 
   PMS3003::PMS3003(int _rx, int _tx, int _set, int _reset)

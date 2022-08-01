@@ -13,7 +13,7 @@ Defines a class of software serial implementation for Ameba.
 
   class SoftwareSerial
 
-*Members**
+**Members**
 
 +----------------------------------+----------------------------------+
 | **Public Constructors**          |                                  |

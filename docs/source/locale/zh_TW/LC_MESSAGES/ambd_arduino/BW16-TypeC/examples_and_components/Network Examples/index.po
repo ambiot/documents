@@ -25,5 +25,5 @@ msgstr ""
 #: ../../source/ambd_arduino/BW16-TypeC/examples_and_components/Network
 #: Examples/index.rst:8
 msgid "Network Examples"
-msgstr ""
+msgstr "網路相關範例"
 

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/BW16-TypeC/index.rst:12
 msgid "Table of Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/ambd_arduino/BW16-TypeC/index.rst:8
 msgid "BW16-TypeC (RTL8720DN)"
@@ -27,5 +27,5 @@ msgstr ""
 
 #: ../../source/ambd_arduino/BW16-TypeC/index.rst:10
 msgid "Welcome to BW16-TypeC Arduino online documentation."
-msgstr ""
+msgstr "欢迎来到 BW16-TypeC Arduino线上文档"
 

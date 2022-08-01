@@ -20,7 +20,7 @@ msgstr ""
 #: ../../source/ambd_arduino/BW16-TypeC/examples_and_components/Community
 #: Examples/index.rst:8 Examples/index.rst:15
 msgid "Community Examples"
-msgstr ""
+msgstr "社群範例"
 
 #: ../../source/ambd_arduino/BW16-TypeC/examples_and_components/Community
 #: Examples/index.rst:10

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/support/index.rst:10
 msgid "Support"
-msgstr ""
+msgstr "支援"
 
 #: ../../source/ambd_arduino/support/index.rst:12
 msgid "Ameba IoT Forum & Facebook Group"

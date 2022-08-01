@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 10:14+0100\n"
+"POT-Creation-Date: 2022-08-01 09:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,8 +22,8 @@ msgid "Class DHT"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:5 DHT.rst:48
-#: DHT.rst:207 DHT.rst:242 DHT.rst:279 DHT.rst:313 DHT.rst:348 DHT.rst:391
-#: DHT.rst:428
+#: DHT.rst:166 DHT.rst:201 DHT.rst:238 DHT.rst:272 DHT.rst:307 DHT.rst:350
+#: DHT.rst:387
 msgid "**Description**"
 msgstr ""
 
@@ -32,8 +32,8 @@ msgid "Defines a class of using DHT temperature & humidity sensors"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:9 DHT.rst:52
-#: DHT.rst:211 DHT.rst:246 DHT.rst:283 DHT.rst:317 DHT.rst:354 DHT.rst:396
-#: DHT.rst:432
+#: DHT.rst:170 DHT.rst:205 DHT.rst:242 DHT.rst:276 DHT.rst:313 DHT.rst:355
+#: DHT.rst:391
 msgid "**Syntax**"
 msgstr ""
 
@@ -65,7 +65,7 @@ msgstr ""
 msgid "Initialize the DHT sensor"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:26 DHT.rst:239
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:26 DHT.rst:198
 msgid "DHT::readTemperature"
 msgstr ""
 
@@ -119,8 +119,8 @@ msgstr ""
 msgid "Constructs a DHT object."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:58 DHT.rst:217
-#: DHT.rst:252 DHT.rst:289 DHT.rst:323 DHT.rst:360 DHT.rst:402 DHT.rst:438
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:58 DHT.rst:176
+#: DHT.rst:211 DHT.rst:248 DHT.rst:282 DHT.rst:319 DHT.rst:361 DHT.rst:397
 msgid "**Parameters**"
 msgstr ""
 
@@ -138,17 +138,17 @@ msgid ""
 "itself based on the speed of the processor"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:67 DHT.rst:221
-#: DHT.rst:258 DHT.rst:293 DHT.rst:327 DHT.rst:369 DHT.rst:406 DHT.rst:443
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:67 DHT.rst:180
+#: DHT.rst:217 DHT.rst:252 DHT.rst:286 DHT.rst:328 DHT.rst:365 DHT.rst:402
 msgid "**Returns**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:69 DHT.rst:223
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:69 DHT.rst:182
 msgid "The function returns nothing."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:71 DHT.rst:225
-#: DHT.rst:262 DHT.rst:297 DHT.rst:331 DHT.rst:374 DHT.rst:410 DHT.rst:448
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:71 DHT.rst:184
+#: DHT.rst:221 DHT.rst:256 DHT.rst:290 DHT.rst:333 DHT.rst:369 DHT.rst:407
 msgid "**Example Code**"
 msgstr ""
 
@@ -162,8 +162,8 @@ msgid ""
 "sensors."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:78 DHT.rst:232
-#: DHT.rst:269 DHT.rst:304 DHT.rst:338 DHT.rst:381 DHT.rst:417 DHT.rst:455
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:78 DHT.rst:191
+#: DHT.rst:228 DHT.rst:263 DHT.rst:297 DHT.rst:340 DHT.rst:376 DHT.rst:414
 msgid "**Notes and Warnings**"
 msgstr ""
 
@@ -183,201 +183,74 @@ msgstr ""
 msgid "// Written by ladyada, public domain"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:134 DHT.rst:165
-#: DHT.rst:201
-msgid "}"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:136
-msgid "**void** loop() {"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:138
-msgid "// Wait a few seconds between measurements."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:140
-msgid "delay(2000);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:142
-msgid "// Reading temperature or humidity takes about 250 milliseconds!"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:144
-msgid ""
-"// Sensor readings may also be up to 2 seconds 'old' (its a very slow "
-"sensor)"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:147
-msgid "**float** h = dht.readHumidity();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:149
-msgid "// Read temperature as Celsius (the default)"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:151
-msgid "**float** t = dht.readTemperature();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:153
-msgid "// Read temperature as Fahrenheit (isFahrenheit = true)"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:155
-msgid "**float** f = dht.readTemperature(**true**);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:157
-msgid "// Check if any reads failed and exit early (to try again)."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:159
-msgid "**if** (isnan(h) \\|\\| isnan(t) \\|\\| isnan(f)) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:161
-msgid "Serial.println(\"Failed to read from DHT sensor!\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:163
-msgid "**return**;"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:167
-msgid "// Compute heat index in Fahrenheit (the default)"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:169
-msgid "**float** hif = dht.computeHeatIndex(f, h);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:171
-msgid "// Compute heat index in Celsius (isFahreheit = false)"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:173
-msgid "**float** hic = dht.computeHeatIndex(t, h, **false**);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:175
-msgid "Serial.print(\"Humidity: \");"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:177
-msgid "Serial.print(h);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:179
-msgid "Serial.print(\" %\\t\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:181
-msgid "Serial.print(\"Temperature: \");"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:183
-msgid "Serial.print(t);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:185 DHT.rst:195
-msgid "Serial.print(\" \\*C \");"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:187
-msgid "Serial.print(f);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:189
-msgid "Serial.print(\" \\*F\\t\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:191
-msgid "Serial.print(\"Heat index: \");"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:193
-msgid "Serial.print(hic);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:197
-msgid "Serial.print(hif);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:199
-msgid "Serial.println(\" \\*F\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:209
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:168
 msgid "Initialize the DHT sensor."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:219
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:178
 msgid "The function requires no input parameter."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:227 DHT.rst:264
-#: DHT.rst:299 DHT.rst:333 DHT.rst:376 DHT.rst:412 DHT.rst:450
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:186 DHT.rst:223
+#: DHT.rst:258 DHT.rst:292 DHT.rst:335 DHT.rst:371 DHT.rst:409
 msgid "Example: DHTTester"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:229 DHT.rst:266
-#: DHT.rst:301 DHT.rst:335 DHT.rst:378 DHT.rst:414 DHT.rst:452
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:188 DHT.rst:225
+#: DHT.rst:260 DHT.rst:294 DHT.rst:337 DHT.rst:373 DHT.rst:411
 msgid ""
 "The code demos basic testing for various DHT humidity & temperature "
 "sensors. Please refer to code in the “DHT: DHT” section."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:234 DHT.rst:271
-#: DHT.rst:306 DHT.rst:340 DHT.rst:383 DHT.rst:457
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:193 DHT.rst:230
+#: DHT.rst:265 DHT.rst:299 DHT.rst:342 DHT.rst:416
 msgid ""
 "Every time must include the header file “DHT.h” in front of the project "
 "to use the class function."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:244
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:203
 msgid "Read temperature(Fahrenheit or Celcius) from the DHT sensor."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:254
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:213
 msgid "``S``: Temperature scale, True is Fahrenheit and False is Celcius"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:256
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:215
 msgid "``force``: Index of checking sensor readability, default is False"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:260
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:219
 msgid "The function returns the current temperature as a float value."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:281
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:240
 msgid "Convert a value from Celcius to Fahrenheit."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:291
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:250
 msgid "``c``: The value in Celcius"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:295
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:254
 msgid "The function returns the temperature in Fahrenheit as a float number."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:315
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:274
 msgid "Convert a value from Fahrenheit to Celcius."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:325
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:284
 msgid "``f``: The value in Fahrenheit"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:329
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:288
 msgid "The function returns the temperature in Celcius as a float number."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:350
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:309
 msgid ""
 "Compute the HeatIndex from the readings (Using both Rothfusz and "
 "Steadman’s equations). More details refer to "
@@ -385,58 +258,58 @@ msgid ""
 "<http://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml>`__."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:362
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:321
 msgid "``temperature``: The temperature value"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:364
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:323
 msgid "``percentHumidity``: The humidity percent value"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:366
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:325
 msgid ""
 "``isFahrenheit``: True, temperature value in Fahrenheit (Default); False,"
 " temperature value in Celcius"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:371
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:330
 msgid ""
 "The function returns the heat index in Fahrenheit or Celsius as a float "
 "value."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:393
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:352
 msgid ""
 "Reading temperature or humidity from the DHT sensor and return as a float"
 " value(%)."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:404
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:363
 msgid "``force``: Ignored."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:408
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:367
 msgid "The function returns current humidity in a float number (in %)."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:419
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:378
 msgid ""
 "Every time must include the header file “DHT.h” in front of the project "
 "to use the class function. Reading temperature or humidity takes about "
 "250 milliseconds! Sensor readings may also be up to 2 seconds."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:430
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:389
 msgid "Check if the sensor is readable."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:440
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:399
 msgid ""
 "``force``: Index of whether checking the sensor was read less than two "
 "seconds ago or not. False, checking; True, not checking."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:445
+#: ../../source/ambd_arduino/AMB21/api_documents/Class DHT.rst:404
 msgid ""
 "Return the last correct measurement of the sensor. False, low means not "
 "readable; True, high means readable."
@@ -624,5 +497,101 @@ msgstr ""
 #~ "sensor was read less than two "
 #~ "seconds ago or not. False, checking; "
 #~ "True, not checking."
+#~ msgstr ""
+
+#~ msgid "}"
+#~ msgstr ""
+
+#~ msgid "**void** loop() {"
+#~ msgstr ""
+
+#~ msgid "// Wait a few seconds between measurements."
+#~ msgstr ""
+
+#~ msgid "delay(2000);"
+#~ msgstr ""
+
+#~ msgid "// Reading temperature or humidity takes about 250 milliseconds!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "// Sensor readings may also be up"
+#~ " to 2 seconds 'old' (its a very"
+#~ " slow sensor)"
+#~ msgstr ""
+
+#~ msgid "**float** h = dht.readHumidity();"
+#~ msgstr ""
+
+#~ msgid "// Read temperature as Celsius (the default)"
+#~ msgstr ""
+
+#~ msgid "**float** t = dht.readTemperature();"
+#~ msgstr ""
+
+#~ msgid "// Read temperature as Fahrenheit (isFahrenheit = true)"
+#~ msgstr ""
+
+#~ msgid "**float** f = dht.readTemperature(**true**);"
+#~ msgstr ""
+
+#~ msgid "// Check if any reads failed and exit early (to try again)."
+#~ msgstr ""
+
+#~ msgid "**if** (isnan(h) \\|\\| isnan(t) \\|\\| isnan(f)) {"
+#~ msgstr ""
+
+#~ msgid "Serial.println(\"Failed to read from DHT sensor!\");"
+#~ msgstr ""
+
+#~ msgid "**return**;"
+#~ msgstr ""
+
+#~ msgid "// Compute heat index in Fahrenheit (the default)"
+#~ msgstr ""
+
+#~ msgid "**float** hif = dht.computeHeatIndex(f, h);"
+#~ msgstr ""
+
+#~ msgid "// Compute heat index in Celsius (isFahreheit = false)"
+#~ msgstr ""
+
+#~ msgid "**float** hic = dht.computeHeatIndex(t, h, **false**);"
+#~ msgstr ""
+
+#~ msgid "Serial.print(\"Humidity: \");"
+#~ msgstr ""
+
+#~ msgid "Serial.print(h);"
+#~ msgstr ""
+
+#~ msgid "Serial.print(\" %\\t\");"
+#~ msgstr ""
+
+#~ msgid "Serial.print(\"Temperature: \");"
+#~ msgstr ""
+
+#~ msgid "Serial.print(t);"
+#~ msgstr ""
+
+#~ msgid "Serial.print(\" \\*C \");"
+#~ msgstr ""
+
+#~ msgid "Serial.print(f);"
+#~ msgstr ""
+
+#~ msgid "Serial.print(\" \\*F\\t\");"
+#~ msgstr ""
+
+#~ msgid "Serial.print(\"Heat index: \");"
+#~ msgstr ""
+
+#~ msgid "Serial.print(hic);"
+#~ msgstr ""
+
+#~ msgid "Serial.print(hif);"
+#~ msgstr ""
+
+#~ msgid "Serial.println(\" \\*F\");"
 #~ msgstr ""
 

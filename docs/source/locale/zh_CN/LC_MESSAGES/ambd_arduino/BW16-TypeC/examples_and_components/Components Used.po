@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/examples/component/Components Used.rst:3
 msgid "Components Used"
-msgstr ""
+msgstr "相关元件介绍"
 
 #: ../../source/ambd_arduino/examples/component/Components Used.rst:5
 msgid "Components used in Examples"

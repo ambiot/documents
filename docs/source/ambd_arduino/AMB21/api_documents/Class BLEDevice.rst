@@ -2,11 +2,11 @@
 Class BLEDevice
 #################
 
- **Description**
+**Description**
 
- A class used for general control and management of BLE functions.
+A class used for general control and management of BLE functions.
 
- **Syntax**
+**Syntax**
 
 .. code:: cpp
 

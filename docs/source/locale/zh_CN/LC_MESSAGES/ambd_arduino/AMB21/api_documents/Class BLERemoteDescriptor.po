@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 10:14+0100\n"
+"POT-Creation-Date: 2022-08-01 09:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,51 +23,46 @@ msgid "Class BLERemoteDescriptor"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:5 BLERemoteDescriptor.rst:65
-#: BLERemoteDescriptor.rst:86 BLERemoteDescriptor.rst:108
-#: BLERemoteDescriptor.rst:129 BLERemoteDescriptor.rst:152
-#: BLERemoteDescriptor.rst:175 BLERemoteDescriptor.rst:198
-#: BLERemoteDescriptor.rst:221 BLERemoteDescriptor.rst:245
-#: BLERemoteDescriptor.rst:268 BLERemoteDescriptor.rst:291
-#: BLERemoteDescriptor.rst:314 BLERemoteDescriptor.rst:336
+#: BLERemoteDescriptor.rst:6 BLERemoteDescriptor.rst:72
+#: BLERemoteDescriptor.rst:103 BLERemoteDescriptor.rst:135
+#: BLERemoteDescriptor.rst:166 BLERemoteDescriptor.rst:199
+#: BLERemoteDescriptor.rst:231 BLERemoteDescriptor.rst:264
+#: BLERemoteDescriptor.rst:297 BLERemoteDescriptor.rst:334
+#: BLERemoteDescriptor.rst:366 BLERemoteDescriptor.rst:399
+#: BLERemoteDescriptor.rst:435 BLERemoteDescriptor.rst:468
 msgid "**Description**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:7
+#: BLERemoteDescriptor.rst:8
 msgid ""
 "A class used for managing BLE GATT descriptors on connected remote "
 "devices."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:9 BLERemoteDescriptor.rst:68
-#: BLERemoteDescriptor.rst:89 BLERemoteDescriptor.rst:111
-#: BLERemoteDescriptor.rst:133 BLERemoteDescriptor.rst:156
-#: BLERemoteDescriptor.rst:179 BLERemoteDescriptor.rst:202
-#: BLERemoteDescriptor.rst:225 BLERemoteDescriptor.rst:249
-#: BLERemoteDescriptor.rst:272 BLERemoteDescriptor.rst:294
-#: BLERemoteDescriptor.rst:317 BLERemoteDescriptor.rst:340
+#: BLERemoteDescriptor.rst:11 BLERemoteDescriptor.rst:76
+#: BLERemoteDescriptor.rst:107 BLERemoteDescriptor.rst:139
+#: BLERemoteDescriptor.rst:171 BLERemoteDescriptor.rst:204
+#: BLERemoteDescriptor.rst:236 BLERemoteDescriptor.rst:269
+#: BLERemoteDescriptor.rst:302 BLERemoteDescriptor.rst:339
+#: BLERemoteDescriptor.rst:372 BLERemoteDescriptor.rst:403
+#: BLERemoteDescriptor.rst:439 BLERemoteDescriptor.rst:473
 msgid "**Syntax**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:10
-msgid "class BLERemoteDescriptor"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:12
+#: BLERemoteDescriptor.rst:17
 msgid "**Members**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:15
+#: BLERemoteDescriptor.rst:20
 msgid "**Public Constructors**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:17
+#: BLERemoteDescriptor.rst:22
 msgid ""
 "No public constructor is available for this class. You can get a pointer "
 "to an instance of this class using "
@@ -75,541 +70,538 @@ msgid ""
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:23
+#: BLERemoteDescriptor.rst:28
 msgid "**Public Methods**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:25
+#: BLERemoteDescriptor.rst:30
 msgid "BLERemoteDescriptor::getUUID"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:25
+#: BLERemoteDescriptor.rst:30
 msgid "Get the descriptor UUID"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:27
+#: BLERemoteDescriptor.rst:32
 msgid "B LERemoteDescriptor::setBufferLen"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:27
+#: BLERemoteDescriptor.rst:32
 msgid "Set the size of the internal data buffer"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:30
+#: BLERemoteDescriptor.rst:35
 msgid "B LERemoteDescriptor::getBufferLen"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:30
+#: BLERemoteDescriptor.rst:35
 msgid "Get the current size of the internal data buffer"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:33
+#: BLERemoteDescriptor.rst:38
 msgid "BLERemoteDescriptor::readString"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:33
+#: BLERemoteDescriptor.rst:38
 msgid "Read the descriptor data buffer as a String object"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:36
+#: BLERemoteDescriptor.rst:41
 msgid "BLERemoteDescriptor::readData8"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:36
+#: BLERemoteDescriptor.rst:41
 msgid "Read the descriptor data buffer as an unsigned 8-bit integer"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:39
+#: BLERemoteDescriptor.rst:44
 msgid "BLERemoteDescriptor::readData16"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:39
+#: BLERemoteDescriptor.rst:44
 msgid "Read the descriptor data buffer as an unsigned 16-bit integer"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:42
+#: BLERemoteDescriptor.rst:47
 msgid "BLERemoteDescriptor::readData32"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:42
+#: BLERemoteDescriptor.rst:47
 msgid "Read the descriptor data buffer as an unsigned 32-bit integer"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:45
+#: BLERemoteDescriptor.rst:50
 msgid "BLERemoteDescriptor::writeString"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:45
+#: BLERemoteDescriptor.rst:50
 msgid "Write data to the descriptor as a String object or character array"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:49
+#: BLERemoteDescriptor.rst:54
 msgid "BLERemoteDescriptor::writeData8"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:49
+#: BLERemoteDescriptor.rst:54
 msgid "Write data to the descriptor as an unsigned 8-bit integer"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:52
+#: BLERemoteDescriptor.rst:57
 msgid "BLERemoteDescriptor::writeData16"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:52 BLERemoteDescriptor.rst:55
+#: BLERemoteDescriptor.rst:57 BLERemoteDescriptor.rst:60
 msgid "Write data to the descriptor as an unsigned 16-bit integer"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:55
+#: BLERemoteDescriptor.rst:60
 msgid "BLERemoteDescriptor::writeData32"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:58
+#: BLERemoteDescriptor.rst:63
 msgid "BLERemoteDescriptor::setData"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:58
+#: BLERemoteDescriptor.rst:63
 msgid "Write data to the descriptor"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:60
+#: BLERemoteDescriptor.rst:65
 msgid "BLERemoteDescriptor::getData"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:60
+#: BLERemoteDescriptor.rst:65
 msgid "Read data from the descriptor"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:63
-msgid "**BLERemoteDescriptor::getUUID**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:66
+#: BLERemoteDescriptor.rst:74
 msgid "Get the descriptor UUID."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:69
-msgid "BLEUUID getUUID();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:71 BLERemoteDescriptor.rst:92
-#: BLERemoteDescriptor.rst:114 BLERemoteDescriptor.rst:136
-#: BLERemoteDescriptor.rst:159 BLERemoteDescriptor.rst:182
-#: BLERemoteDescriptor.rst:205 BLERemoteDescriptor.rst:229
-#: BLERemoteDescriptor.rst:252 BLERemoteDescriptor.rst:275
-#: BLERemoteDescriptor.rst:298 BLERemoteDescriptor.rst:320
-#: BLERemoteDescriptor.rst:343
+#: BLERemoteDescriptor.rst:82 BLERemoteDescriptor.rst:113
+#: BLERemoteDescriptor.rst:145 BLERemoteDescriptor.rst:177
+#: BLERemoteDescriptor.rst:210 BLERemoteDescriptor.rst:242
+#: BLERemoteDescriptor.rst:275 BLERemoteDescriptor.rst:312
+#: BLERemoteDescriptor.rst:345 BLERemoteDescriptor.rst:378
+#: BLERemoteDescriptor.rst:413 BLERemoteDescriptor.rst:445
+#: BLERemoteDescriptor.rst:479
 msgid "**Parameters**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:72 BLERemoteDescriptor.rst:115
-#: BLERemoteDescriptor.rst:137 BLERemoteDescriptor.rst:160
-#: BLERemoteDescriptor.rst:183 BLERemoteDescriptor.rst:206
+#: BLERemoteDescriptor.rst:84 BLERemoteDescriptor.rst:147
+#: BLERemoteDescriptor.rst:179 BLERemoteDescriptor.rst:212
+#: BLERemoteDescriptor.rst:244 BLERemoteDescriptor.rst:277
 msgid "The function requires no input parameter."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:74 BLERemoteDescriptor.rst:95
-#: BLERemoteDescriptor.rst:117 BLERemoteDescriptor.rst:139
-#: BLERemoteDescriptor.rst:162 BLERemoteDescriptor.rst:185
-#: BLERemoteDescriptor.rst:208 BLERemoteDescriptor.rst:233
-#: BLERemoteDescriptor.rst:256 BLERemoteDescriptor.rst:279
-#: BLERemoteDescriptor.rst:302 BLERemoteDescriptor.rst:324
-#: BLERemoteDescriptor.rst:347
+#: BLERemoteDescriptor.rst:86 BLERemoteDescriptor.rst:117
+#: BLERemoteDescriptor.rst:149 BLERemoteDescriptor.rst:181
+#: BLERemoteDescriptor.rst:214 BLERemoteDescriptor.rst:246
+#: BLERemoteDescriptor.rst:279 BLERemoteDescriptor.rst:317
+#: BLERemoteDescriptor.rst:350 BLERemoteDescriptor.rst:383
+#: BLERemoteDescriptor.rst:418 BLERemoteDescriptor.rst:451
+#: BLERemoteDescriptor.rst:485
 msgid "**Returns**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:75
+#: BLERemoteDescriptor.rst:88
 msgid "The function returns the descriptor UUID as a BLEUUID class object."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:77 BLERemoteDescriptor.rst:98
-#: BLERemoteDescriptor.rst:120 BLERemoteDescriptor.rst:143
-#: BLERemoteDescriptor.rst:166 BLERemoteDescriptor.rst:189
-#: BLERemoteDescriptor.rst:212 BLERemoteDescriptor.rst:236
-#: BLERemoteDescriptor.rst:259 BLERemoteDescriptor.rst:282
-#: BLERemoteDescriptor.rst:305 BLERemoteDescriptor.rst:327
-#: BLERemoteDescriptor.rst:350
+#: BLERemoteDescriptor.rst:90 BLERemoteDescriptor.rst:121
+#: BLERemoteDescriptor.rst:153 BLERemoteDescriptor.rst:186
+#: BLERemoteDescriptor.rst:219 BLERemoteDescriptor.rst:251
+#: BLERemoteDescriptor.rst:284 BLERemoteDescriptor.rst:321
+#: BLERemoteDescriptor.rst:354 BLERemoteDescriptor.rst:387
+#: BLERemoteDescriptor.rst:422 BLERemoteDescriptor.rst:455
+#: BLERemoteDescriptor.rst:489
 msgid "**Example Code**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:78 BLERemoteDescriptor.rst:81
-#: BLERemoteDescriptor.rst:99 BLERemoteDescriptor.rst:121
-#: BLERemoteDescriptor.rst:124 BLERemoteDescriptor.rst:144
-#: BLERemoteDescriptor.rst:147 BLERemoteDescriptor.rst:167
-#: BLERemoteDescriptor.rst:170 BLERemoteDescriptor.rst:190
-#: BLERemoteDescriptor.rst:193 BLERemoteDescriptor.rst:213
-#: BLERemoteDescriptor.rst:216 BLERemoteDescriptor.rst:237
-#: BLERemoteDescriptor.rst:240 BLERemoteDescriptor.rst:260
-#: BLERemoteDescriptor.rst:263 BLERemoteDescriptor.rst:283
-#: BLERemoteDescriptor.rst:286 BLERemoteDescriptor.rst:306
-#: BLERemoteDescriptor.rst:309 BLERemoteDescriptor.rst:328
-#: BLERemoteDescriptor.rst:331 BLERemoteDescriptor.rst:351
+#: BLERemoteDescriptor.rst:92 BLERemoteDescriptor.rst:96
+#: BLERemoteDescriptor.rst:123 BLERemoteDescriptor.rst:155
+#: BLERemoteDescriptor.rst:159 BLERemoteDescriptor.rst:188
+#: BLERemoteDescriptor.rst:192 BLERemoteDescriptor.rst:221
+#: BLERemoteDescriptor.rst:225 BLERemoteDescriptor.rst:253
+#: BLERemoteDescriptor.rst:257 BLERemoteDescriptor.rst:286
+#: BLERemoteDescriptor.rst:290 BLERemoteDescriptor.rst:323
+#: BLERemoteDescriptor.rst:327 BLERemoteDescriptor.rst:356
+#: BLERemoteDescriptor.rst:360 BLERemoteDescriptor.rst:389
+#: BLERemoteDescriptor.rst:393 BLERemoteDescriptor.rst:424
+#: BLERemoteDescriptor.rst:428 BLERemoteDescriptor.rst:457
+#: BLERemoteDescriptor.rst:461 BLERemoteDescriptor.rst:491
 msgid "NA"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:80 BLERemoteDescriptor.rst:101
-#: BLERemoteDescriptor.rst:123 BLERemoteDescriptor.rst:146
-#: BLERemoteDescriptor.rst:169 BLERemoteDescriptor.rst:192
-#: BLERemoteDescriptor.rst:215 BLERemoteDescriptor.rst:239
-#: BLERemoteDescriptor.rst:262 BLERemoteDescriptor.rst:285
-#: BLERemoteDescriptor.rst:308 BLERemoteDescriptor.rst:330
-#: BLERemoteDescriptor.rst:353
+#: BLERemoteDescriptor.rst:94 BLERemoteDescriptor.rst:125
+#: BLERemoteDescriptor.rst:157 BLERemoteDescriptor.rst:190
+#: BLERemoteDescriptor.rst:223 BLERemoteDescriptor.rst:255
+#: BLERemoteDescriptor.rst:288 BLERemoteDescriptor.rst:325
+#: BLERemoteDescriptor.rst:358 BLERemoteDescriptor.rst:391
+#: BLERemoteDescriptor.rst:426 BLERemoteDescriptor.rst:459
+#: BLERemoteDescriptor.rst:493
 msgid "**Notes and Warnings**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:84
-msgid "**BLERemoteDescriptor::setBufferLen**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:87
+#: BLERemoteDescriptor.rst:105
 msgid "Set the size of the internal data buffer of the descriptor."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:90
-msgid "void setBufferLen(uint16_t max_len);"
+#: BLERemoteDescriptor.rst:115
+msgid "``max_len`` : number of bytes to resize the internal buffer to."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:93
-msgid "max_len: number of bytes to resize the internal buffer to."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:96
+#: BLERemoteDescriptor.rst:119
 msgid "The function returns nothing."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:103
+#: BLERemoteDescriptor.rst:127
 msgid ""
 "Descriptor data buffer has a default size of 20 bytes and can be "
 "increased up to 230 bytes."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:106
-msgid "**BLERemoteDescriptor::getBufferLen**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:109
+#: BLERemoteDescriptor.rst:137
 msgid "Get the size of the descriptor internal buffer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:112
-msgid "uint16_t getBufferLen();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:118
+#: BLERemoteDescriptor.rst:151
 msgid "The function returns the currently set internal buffer size."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:127
-msgid "**BLERemoteDescriptor::readString**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:131
+#: BLERemoteDescriptor.rst:168
 msgid ""
 "Request for descriptor data from the remote device and read the data in "
 "the buffer, expressed as a String class object."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:134
-msgid "String readString();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:141
+#: BLERemoteDescriptor.rst:183
 msgid ""
 "The function returns the data in the descriptor buffer expressed as a "
 "String class object."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:150
-msgid "**BLERemoteDescriptor::readData8**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:154
+#: BLERemoteDescriptor.rst:201
 msgid ""
 "Request for descriptor data from the remote device and read the data in "
 "the buffer, expressed as an unsigned 8-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:157
-msgid "uint8_t readData8();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:164
+#: BLERemoteDescriptor.rst:216
 msgid ""
 "The function returns the data in the descriptor buffer expressed as a "
 "uint8_t value."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:173
-msgid "**BLERemoteDescriptor::readData16**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:177
+#: BLERemoteDescriptor.rst:233
 msgid ""
 "Request for descriptor data from the remote device and read the data in "
 "the buffer, expressed as an unsigned 16-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:180
-msgid "uint16_t readData16();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:187
+#: BLERemoteDescriptor.rst:248
 msgid ""
 "The function returns the data in the descriptor buffer expressed as a "
 "uint16_t value."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:196
-msgid "**BLERemoteDescriptor::readData32**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:200
+#: BLERemoteDescriptor.rst:266
 msgid ""
 "Request for descriptor data from the remote device and read the data in "
 "the buffer, expressed as an unsigned 32-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:203
-msgid "uint32_t readData32();"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:210
+#: BLERemoteDescriptor.rst:281
 msgid ""
 "The function returns the data in the descriptor buffer expressed as a "
 "uint32_t value."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:219
-msgid "**BLERemoteDescriptor::writeString**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:223
+#: BLERemoteDescriptor.rst:299
 msgid ""
 "Write data to the remote device descriptor as a String object or "
 "character array."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:226
-msgid "bool writeString(String str);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:227
-msgid "bool writeString(const char\\* str);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:231
+#: BLERemoteDescriptor.rst:314
 msgid ""
-"str: the data to write to the remote descriptor, expressed as a String "
-"class object or a char array."
+"``str``: the data to write to the remote descriptor, expressed as a "
+"String class object or a char array."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:234 BLERemoteDescriptor.rst:257
-#: BLERemoteDescriptor.rst:280 BLERemoteDescriptor.rst:303
-#: BLERemoteDescriptor.rst:325
+#: BLERemoteDescriptor.rst:319 BLERemoteDescriptor.rst:352
+#: BLERemoteDescriptor.rst:385 BLERemoteDescriptor.rst:420
+#: BLERemoteDescriptor.rst:453
 msgid "The function returns TRUE if write data is successful."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:243
-msgid "**BLERemoteDescriptor::writeData8**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:247
+#: BLERemoteDescriptor.rst:336
 msgid "Write data to the remote device descriptor as an unsigned 8-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:250
-msgid "bool writeData8(uint8_t num);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:254
+#: BLERemoteDescriptor.rst:347
 msgid ""
-"num: the data to write to the descriptor buffer expressed as an unsigned "
-"8-bit integer."
+"``num`` : the data to write to the descriptor buffer expressed as an "
+"unsigned 8-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:266
-msgid "**BLERemoteDescriptor::writeData16**"
+#: BLERemoteDescriptor.rst:368
+msgid "Write data to the remote device descriptor as an unsigned 16-bit"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:270
-msgid "Write data to the remote device descriptor as an unsigned 16-bit integer."
+#: BLERemoteDescriptor.rst:370
+msgid "integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:273
-msgid "bool writeData16(uint16_t num);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:277
+#: BLERemoteDescriptor.rst:380
 msgid ""
-"num: the data to write to the descriptor buffer expressed as an unsigned "
-"16-bit integer."
+"``num`` : the data to write to the descriptor buffer expressed as an "
+"unsigned 16-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:289
-msgid "**BLERemoteDescriptor::writeData32**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:292
+#: BLERemoteDescriptor.rst:401
 msgid "Write data to the remote device descriptor as a 32-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:295
-msgid "bool writeData32(uint32_t num);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:296
-msgid "bool writeData32(int num);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:300
+#: BLERemoteDescriptor.rst:415
 msgid ""
-"num: the data to write to the descriptor buffer expressed as a 32-bit "
-"integer."
+"``num`` : the data to write to the descriptor buffer expressed as a "
+"32-bit integer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:312
-msgid "**BLERemoteDescriptor::setData**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:315
+#: BLERemoteDescriptor.rst:437
 msgid "Write data to the remote device descriptor."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:318
-msgid "bool setData(uint8_t\\* data, uint16_t datalen);"
+#: BLERemoteDescriptor.rst:447
+msgid "``data`` : pointer to byte array containing desired data"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:321
-msgid "data: pointer to byte array containing desired data"
+#: BLERemoteDescriptor.rst:449
+msgid "``datalen`` : number of bytes of data to write"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:322
-msgid "datalen: number of bytes of data to write"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:334
-msgid "**BLERemoteDescriptor::getData**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:338
+#: BLERemoteDescriptor.rst:470
 msgid ""
 "Request for descriptor data from the remote device and read the data in "
 "the buffer."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:341
-msgid "uint16_t getData(uint8_t\\* data, uint16_t datalen);"
+#: BLERemoteDescriptor.rst:481
+msgid "``data`` : pointer to byte array to save data read from buffer"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:344
-msgid "data: pointer to byte array to save data read from buffer"
+#: BLERemoteDescriptor.rst:483
+msgid "``datalen`` : number of bytes of data to read"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:345
-msgid "datalen: number of bytes of data to read"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:348
+#: BLERemoteDescriptor.rst:487
 msgid "The function returns the number of bytes read."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:355
+#: BLERemoteDescriptor.rst:495
 msgid ""
 "If the data buffer contains less data than requested, it will only read "
 "the available number of bytes of data."
 msgstr ""
 
 #~ msgid "**BLERemoteDescriptor Class**"
+#~ msgstr ""
+
+#~ msgid "class BLERemoteDescriptor"
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::getUUID**"
+#~ msgstr ""
+
+#~ msgid "BLEUUID getUUID();"
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::setBufferLen**"
+#~ msgstr ""
+
+#~ msgid "void setBufferLen(uint16_t max_len);"
+#~ msgstr ""
+
+#~ msgid "max_len: number of bytes to resize the internal buffer to."
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::getBufferLen**"
+#~ msgstr ""
+
+#~ msgid "uint16_t getBufferLen();"
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::readString**"
+#~ msgstr ""
+
+#~ msgid "String readString();"
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::readData8**"
+#~ msgstr ""
+
+#~ msgid "uint8_t readData8();"
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::readData16**"
+#~ msgstr ""
+
+#~ msgid "uint16_t readData16();"
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::readData32**"
+#~ msgstr ""
+
+#~ msgid "uint32_t readData32();"
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::writeString**"
+#~ msgstr ""
+
+#~ msgid "bool writeString(String str);"
+#~ msgstr ""
+
+#~ msgid "bool writeString(const char\\* str);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "str: the data to write to the "
+#~ "remote descriptor, expressed as a String"
+#~ " class object or a char array."
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::writeData8**"
+#~ msgstr ""
+
+#~ msgid "bool writeData8(uint8_t num);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "num: the data to write to the "
+#~ "descriptor buffer expressed as an "
+#~ "unsigned 8-bit integer."
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::writeData16**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Write data to the remote device "
+#~ "descriptor as an unsigned 16-bit "
+#~ "integer."
+#~ msgstr ""
+
+#~ msgid "bool writeData16(uint16_t num);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "num: the data to write to the "
+#~ "descriptor buffer expressed as an "
+#~ "unsigned 16-bit integer."
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::writeData32**"
+#~ msgstr ""
+
+#~ msgid "bool writeData32(uint32_t num);"
+#~ msgstr ""
+
+#~ msgid "bool writeData32(int num);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "num: the data to write to the "
+#~ "descriptor buffer expressed as a 32-bit"
+#~ " integer."
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::setData**"
+#~ msgstr ""
+
+#~ msgid "bool setData(uint8_t\\* data, uint16_t datalen);"
+#~ msgstr ""
+
+#~ msgid "data: pointer to byte array containing desired data"
+#~ msgstr ""
+
+#~ msgid "datalen: number of bytes of data to write"
+#~ msgstr ""
+
+#~ msgid "**BLERemoteDescriptor::getData**"
+#~ msgstr ""
+
+#~ msgid "uint16_t getData(uint8_t\\* data, uint16_t datalen);"
+#~ msgstr ""
+
+#~ msgid "data: pointer to byte array to save data read from buffer"
+#~ msgstr ""
+
+#~ msgid "datalen: number of bytes of data to read"
 #~ msgstr ""
 

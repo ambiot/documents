@@ -20,7 +20,7 @@ msgstr ""
 #: ../../source/ambd_arduino/BW16-TypeC/examples_and_components/Basic
 #: Examples.rst:3
 msgid "Basic Examples"
-msgstr ""
+msgstr "基本範例"
 
 #: ../../source/ambd_arduino/BW16-TypeC/examples_and_components/Basic
 #: Examples.rst:8

@@ -10,6 +10,7 @@ Class SdFatFile
 Defines a class of SD FAT File.
 
 **Syntax**
+
 .. code:: cpp
 
   class SdFatFile

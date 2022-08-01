@@ -13,6 +13,7 @@ codec functions.
 .. code:: cpp
 
     class AudioCodec
+    
 
 **Members**
 

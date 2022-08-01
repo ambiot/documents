@@ -7,7 +7,7 @@ Class BLEHIDKeyboard
 A class used for creating and managing a BLE HID Keyboard.
 
 
- **Syntax**
+**Syntax**
 
 .. code:: cpp
 
@@ -23,8 +23,10 @@ A class used for creating and managing a BLE HID Keyboard.
 | BLEHIDKeybo         | Constructs a BLEHIDKeyboard object             |
 | ard::BLEHIDKeyboard |                                                |
 +---------------------+------------------------------------------------+
-| **Public Methods**  |                                                |
+
 +---------------------+------------------------------------------------+
+| **Public Methods**  |                                                |
++=====================+================================================+
 | BLEHIDKe            | Set HID report ID for the HID Keyboard and HID |
 | yboard::setReportID | consumer control                               |
 +---------------------+------------------------------------------------+
