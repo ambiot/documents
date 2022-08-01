@@ -2,8 +2,6 @@
 Class RecordWav
 ################
 
-.. class:: RecordWav
-
 **Description**
 
 A class used for control and recording of .wav file format audio data.

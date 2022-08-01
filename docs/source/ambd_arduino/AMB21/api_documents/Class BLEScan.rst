@@ -1,7 +1,6 @@
+################
 Class BLEScan
-=================
-.. class:: BLEScan
-
+################
 
 **Description**
 

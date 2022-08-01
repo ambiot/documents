@@ -1,14 +1,13 @@
+#####################
 Class BLEHIDKeyboard 
-====================
-
-.. class:: BLEHIDKeyboard
+#####################
 
 **Description**
 
 A class used for creating and managing a BLE HID Keyboard.
 
 
- **Syntax**
+**Syntax**
 
 .. code:: cpp
 
@@ -24,8 +23,10 @@ A class used for creating and managing a BLE HID Keyboard.
 | BLEHIDKeybo         | Constructs a BLEHIDKeyboard object             |
 | ard::BLEHIDKeyboard |                                                |
 +---------------------+------------------------------------------------+
-| **Public Methods**  |                                                |
+
 +---------------------+------------------------------------------------+
+| **Public Methods**  |                                                |
++=====================+================================================+
 | BLEHIDKe            | Set HID report ID for the HID Keyboard and HID |
 | yboard::setReportID | consumer control                               |
 +---------------------+------------------------------------------------+
@@ -103,12 +104,10 @@ Set HID report ID for the HID Keyboard and HID consumer control.
 
 **Parameters**
 
-reportIDKeyboard: The report ID for the HID keyboard device,
-
+``reportIDKeyboard`` : The report ID for the HID keyboard device,
 corresponding to the HID report descriptor.
 
-reportIDConsumer: The report ID for the HID consumer control device,
-
+``reportIDConsumer`` : The report ID for the HID consumer control device,
 corresponding to the HID report descriptor.
 
 **Returns**
@@ -123,199 +122,299 @@ NA
 
 NA
 
-**BLEHIDKeyboard::consumerReport**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------------
 
-| **Description**
-| Send a HID Consumer report.
+.. method:: BLEHIDKeyboard::consumerReport
 
-| **Syntax**
-| void consumerReport (uint16_t usage_code);
 
-| **Parameters**
-| usage_code: HID consumer control usage code for the button pressed.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Send a HID Consumer report.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
+.. code:: cpp
 
-**BLEHIDKeyboard::keyboardReport**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  void consumerReport (uint16_t usage_code);
 
-| **Description**
-| Send a HID Keyboard report.
+**Parameters**
 
-| **Syntax**
-| void keyboardReport (void);
-| void keyboardReport (uint8_t modifiers, uint8_t keycode[6]);
+``usage_code`` : HID consumer control usage code for the button pressed.
 
-| **Parameters**
-| modifiers: bitmap indicating key modifiers pressed (CTRL, ALT, SHIFT).
-| keycode: byte array indicating keys pressed.
+**Returns**
 
-| **Returns**
-| The function returns nothing.
+The function returns nothing.
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| NA
+NA
 
-**BLEHIDKeyboard::consumerPress**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Notes and Warnings**
 
-| **Description**
-| Send a HID Consumer report indicating button pressed.
+NA
 
-| **Syntax**
-| void consumerPress (uint16_t usage_code);
+--------------------------------------------------------------------------------------
 
-| **Parameters**
-| usage_code: HID consumer control usage code for the button pressed.
+.. method:: BLEHIDKeyboard::keyboardReport
 
-| **Returns**
-| The function returns nothing.
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| NA
+Send a HID Keyboard report.
 
-**BLEHIDKeyboard::consumerRelease**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Syntax**
 
-| **Description**
-| Send a HID Consumer report indicating button released.
+.. code:: cpp
 
-| **Syntax**
-| void consumerRelease (void);
+  void keyboardReport (void);
 
-| **Parameters**
-| The function requires no input parameter.
+.. code:: cpp
 
-| **Returns**
-| The function returns nothing.
+  void keyboardReport (uint8_t modifiers, uint8_t keycode[6]);
 
-| **Example Code**
-| NA
+**Parameters**
 
-| **Notes and Warnings**
-| NA
+``modifiers`` : bitmap indicating key modifiers pressed (CTRL, ALT, SHIFT).
 
-**BLEHIDKeyboard::keypress**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``keycode`` : byte array indicating keys pressed.
 
-| **Description**
-| Send a HID Keyboard report indicating keys pressed.
+**Returns**
 
-| **Syntax**
-| void keyPress (uint16_t key);
+The function returns nothing.
 
-| **Parameters**
-| key: HID keycode for key pressed, value ranges from 0x00 to 0xE7.
+**Example Code**
 
-| **Returns**
-| The function returns nothing.
+NA
 
-| **Example Code**
-| Example: BLEHIDKeyboard
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
+NA
 
-**BLEHIDKeyboard::keyRelease**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------------------------------------------
 
-| **Description**
-| Send a HID Keyboard report indicating keys released.
+.. method:: BLEHIDKeyboard::consumerPress
 
-| **Syntax**
-| void keyRelease (uint16_t key);
 
-| **Parameters**
-| key: HID keycode for key pressed, value ranges from 0x00 to 0xE7.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Send a HID Consumer report indicating button pressed.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
+.. code:: cpp
 
-**BLEHIDKeyboard::keyReleaseAll**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  void consumerPress (uint16_t usage_code);
 
-| **Description**
-| Send a HID Keyboard report indicating no keys pressed.
+**Parameters**
 
-| **Syntax**
-| void keyReleaseAll(void);
+``usage_code`` : HID consumer control usage code for the button pressed.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| The function returns nothing.
+The function returns nothing.
 
-| **Example Code**
-| Example: BLEHIDKeyboard
+**Example Code**
 
-| **Notes and Warnings**
-| NA
+NA
 
-**BLEHIDKeyboard::keyCharPress**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Notes and Warnings**
 
-| **Description**
-| Send a HID Keyboard report indicating keys pressed to output an ASCII
-  character.
+NA
 
-| **Syntax**
-| void keyCharPress (char ch);
+------------------------------------------------------------------------------------
 
-| **Parameters**
-| ch: ASCII character to output.
+.. method:: BLEHIDKeyboard::consumerRelease
 
-| **Returns**
-| The function returns nothing.
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| NA
+Send a HID Consumer report indicating button released.
 
-**BLEHIDKeyboard::keySequence**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Syntax**
 
-| **Description**
-| Send a HID Keyboard report indicating keys pressed to output an ASCII
-  string.
+.. code:: cpp
 
-| **Syntax**
-| void keySequence (const char\* str, uint16_t delayTime);
-| void keySequence (String str, uint16_t delayTime);
+  void consumerRelease (void);
 
-| **Parameters**
-| str: pointer to character string to output
-| str: String object containing character string to output
-| delayTime: time delay between key press and release, in milliseconds.
-  Default value of 5.
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+The function requires no input parameter.
 
-| **Example Code**
-| Example: BLEHIDKeyboard
+**Returns**
 
-| **Notes and Warnings**
-| NA
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+------------------------------------------------------------
+
+.. method:: BLEHIDKeyboard::keypress
+
+
+**Description**
+
+Send a HID Keyboard report indicating keys pressed.
+
+**Syntax**
+
+.. code:: cpp
+
+  void keyPress (uint16_t key);
+
+**Parameters**
+
+``key`` : HID keycode for key pressed, value ranges from 0x00 to 0xE7.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEHIDKeyboard
+
+**Notes and Warnings**
+
+NA
+
+-----------------------------------------------------------------------------
+
+.. method:: BLEHIDKeyboard::keyRelease
+
+
+**Description**
+
+Send a HID Keyboard report indicating keys released.
+
+**Syntax**
+
+.. code:: cpp
+
+  void keyRelease (uint16_t key);
+
+**Parameters**
+
+``key`` : HID keycode for key pressed, value ranges from 0x00 to 0xE7.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+------------------------------------------------------------------------------
+
+.. method:: BLEHIDKeyboard::keyReleaseAll
+
+
+**Description**
+
+Send a HID Keyboard report indicating no keys pressed.
+
+**Syntax**
+
+.. code:: cpp
+
+  void keyReleaseAll(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEHIDKeyboard
+
+**Notes and Warnings**
+
+NA
+
+------------------------------------------------------------------------------
+
+.. method:: BLEHIDKeyboard::keyCharPress
+
+
+**Description**
+
+Send a HID Keyboard report indicating keys pressed to output an ASCII
+
+character.
+
+**Syntax**
+
+.. code:: cpp
+
+  void keyCharPress (char ch);
+
+**Parameters**
+
+``ch``: ASCII character to output.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+----------------------------------------------------------------------------
+
+.. method:: BLEHIDKeyboard::keySequence
+
+
+**Description**
+
+Send a HID Keyboard report indicating keys pressed to output an ASCII
+string.
+
+**Syntax**
+
+.. code:: cpp
+
+  void keySequence (const char* str, uint16_t delayTime);
+
+.. code:: cpp
+
+  void keySequence (String str, uint16_t delayTime);
+
+**Parameters**
+
+``str``: pointer to character string to output
+
+``str``: String object containing character string to output
+
+``delayTime``: time delay between key press and release, in milliseconds.
+Default value of 5.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEHIDKeyboard
+
+**Notes and Warnings**
+
+NA

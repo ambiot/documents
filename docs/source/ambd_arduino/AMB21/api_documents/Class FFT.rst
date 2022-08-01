@@ -2,9 +2,6 @@
 Class FFT
 ################
 
-.. class:: FFT
-
-
 **Description**
 
 A class used for performing FFT calculations with real-number inputs and
@@ -12,7 +9,9 @@ outputs.
 
 **Syntax**
 
-class FFT
+.. code:: cpp
+
+  class FFT
 
 **Members**
 

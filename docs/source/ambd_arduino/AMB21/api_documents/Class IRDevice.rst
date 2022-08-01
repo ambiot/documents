@@ -1,12 +1,17 @@
-Class HttpClient
-====================
-**IRDevice Class**
+####################
+Class IRDevice
+####################
 
-| **Description**
-| A class used for managing, sending, and receiving data using IR.
 
-| **Syntax**
-| class IRDevice
+**Description**
+
+A class used for managing, sending, and receiving data using IR.
+
+**Syntax**
+
+.. code:: cpp
+
+  class IRDevice
 
 **Members**
 
@@ -39,318 +44,272 @@ Class HttpClient
 | IRDevice::recvNEC  | Receive data using the NEC protocol            |
 +--------------------+------------------------------------------------+
 
-**IRDevice::getFreq**
+---------------------------------------------------------------------------------
 
-| **Description**
-| Get the current IR modulation frequency.
+.. method:: IRDevice::getFreq
 
-| **Syntax**
-| uint32_t getFreq(void);
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+Get the current IR modulation frequency.
 
-| **Returns**
-| Currently set IR modulation frequency in Hertz.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
-|  
+  uint32_t getFreq(void);
 
-**IRDevice::begin**
+**Parameters**
 
-| **Description**
-| Allocate resources and start the IR device with a custom frequency.
+The function requires no input parameter.
 
-| **Syntax**
-| void begin(uint8_t receivePin, uint8_t transmitPin, uint32_t irMode,
-  uint32_t freq);
+**Returns**
 
-| **Parameters**
-| receivePin: pin on which IR sensor is connected. Hardware IR receiver
-  is available at pins 3, 8, 17.
-| transmitPin: pin on which IR LED is connected. Hardware IR transmitter
-  is available at pins 6, 9, 16.
-| irMode: transmit or receive mode. Valid values: IR_MODE_TX, IR_MODE_RX
-| freq: IR modulation frequency in Hertz
-
-| **Returns**
-| The function returns nothing.
-
-| **Example Code**
-| NA
-
-| **Notes and Warnings**
-| IR device can only operate in either transmit or receive mode.
-|  
-
-**IRDevice::end**
-
-| **Description**
-| Stop the IR device operations and free up resources.
-
-| **Syntax**
-| void end(void);
-
-| **Parameters**
-| The function requires no input parameter.
-
-| **Returns**
-| The function returns nothing.
-
-| **Example Code**
-| NA
-
-| **Notes and Warnings**
-| NA
-|  
-
-**IRDevice::send**
-
-| **Description**
-| Send IR raw data.
-
-| **Syntax**
-| void send(const unsigned int buf[ ] , uint16_t len);
-
-| **Parameters**
-| buf[ ] : IR raw signals (in us) in an array form.
-| len: total length of the IR raw signal array.
-
-| **Returns**
-| The function returns nothing.
+Currently set IR modulation frequency in Hertz.
 
 **Example Code**
 
-**#include "IRDevice.h"**
+NA
 
-// User defined txPin, rxPin and carrier frequency
+**Notes and Warnings**
 
-**#define IR_RX_PIN 8**
+NA
 
-**#define IR_TX_PIN 9**
+----------------------------------------------------------------------------------
 
-**#define CARRIER_FREQ 38000**
+.. method:: IRDevice::begin
 
-unsigned **int** irRawSignal[] = {
+**Description**
 
-9000, 4500, // starting bit
+Allocate resources and start the IR device with a custom frequency.
 
-560, 560, 560, 560, 560, 1690, 560, 560, 560, 560, 560, 560, 560, 560,
-560, 560, // address 00100000 ： 4
+**Syntax**
 
-560, 1690, 560, 1690, 560, 560, 560, 1690, 560, 1690, 560, 1690, 560,
-1690, 560, 1690, // ~ address 11011111
+.. code:: cpp
 
-560, 560, 560, 560, 560, 560, 560, 1690, 560, 560, 560, 560, 560, 560,
-560, 560, // data 00010000 ： 8
+  void begin(uint8_t receivePin, uint8_t transmitPin, uint32_t irMode, uint32_t freq);
 
-560, 1690, 560, 1690, 560, 1690, 560, 560, 560, 1690, 560, 1690, 560,
-1690, 560, 1690, //~ data 11101111
+**Parameters**
 
-560 // stoping bit
+``receivePin`` : pin on which IR sensor is connected. Hardware IR receiver
+is available at pins 3, 8, 17.
 
-};
+``transmitPin`` : pin on which IR LED is connected. Hardware IR transmitter
+is available at pins 6, 9, 16.
 
-**int** DataLen = sizeof(irRawSignal) / sizeof(irRawSignal[0]); // 284/
-4 = 71
+``irMode``: transmit or receive mode. Valid values: IR_MODE_TX, IR_MODE_RX
 
-**void** setup()
+``freq`` : IR modulation frequency in Hertz
 
-{
+**Returns**
 
-Serial.begin(115200);
+The function returns nothing.
 
-IR.begin(IR_RX_PIN, IR_TX_PIN, IR_MODE_TX, CARRIER_FREQ);
+**Example Code**
 
-}
+NA
 
-**void** loop()
+**Notes and Warnings**
 
-{
+IR device can only operate in either transmit or receive mode.
 
-IR.send(irRawSignal, DataLen);
+-----
 
-Serial.println("Finished Sending NEC Raw Data....");
+.. method:: IRDevice::end
 
-delay(3000);
 
-}
+**Description**
 
-| **Notes and Warnings**
-| IR Raw Data array contains information in the form of consecutive
-  microseconds (us). For more details, please refer to:
-  http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html.
-|  
+Stop the IR device operations and free up resources.
 
-**IRDevice::beginNEC**
+**Syntax**
 
-| **Description**
-| Allocate resources and start the IR device with a frequency suitable
-  for the NEC protocol.
+.. code:: cpp
 
-| **Syntax**
-| void beginNEC(uint8_t receivePin, uint8_t transmitPin, uint32_t
-  irMode);
+  void end(void);
 
-| **Parameters**
-| receivePin: pin on which IR sensor is connected. Hardware IR receiver
-  is available at pins 3, 8, 17.
-| transmitPin: pin on which IR LED is connected. Hardware IR transmitter
-  is available at pins 6, 9, 16.
-| irMode: transmit or receive mode. Valid values: IR_MODE_TX, IR_MODE_RX
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+The function requires no input parameter.
 
-| **Example Code**
-| Example: IRRecvNEC
+**Returns**
 
-**#include "IRDevice.h"**
+The function returns nothing.
 
-**uint8_t** adr = 0;
+**Example Code**
 
-**uint8_t** cmd = 0;
+NA
 
-**void** setup() {
+**Notes and Warnings**
 
-//Initialize serial and wait for port to open:
+NA
 
-Serial.begin(115200);
+-----
 
-**while** (!Serial) {
+.. method:: IRDevice::send
 
-; // wait for serial port to connect. Needed for native USB port only
+**Description**
 
-}
+Send IR raw data.
 
-IR.beginNEC(8, 9, IR_MODE_RX); // configure for NEC IR protocol
+**Syntax**
 
-}
+.. code:: cpp
 
-**void** loop() {
+  void send(const unsigned int buf[ ] , uint16_t len);
 
-**if** (IR.recvNEC(adr, cmd, 1000)) {
+**Parameters**
 
-Serial.print("Received ");
+``buf[ ]`` : IR raw signals (in us) in an array form.
 
-Serial.print(adr);
+``len`` : total length of the IR raw signal array.
 
-Serial.print(cmd);
+**Returns**
 
-Serial.println();
+The function returns nothing.
 
-} **else** {
+**Example Code**
 
-Serial.println("Received nothing, timed out");
+.. code:: cpp
 
-}
+  #include "IRDevice.h"  
+  // User defined txPin, rxPin and carrier frequency  
+  #define IR_RX_PIN         8  
+  #define IR_TX_PIN         9  
+  #define CARRIER_FREQ  38000  
 
-//IR.end();
+  unsigned int irRawSignal[] = {  
+    9000, 4500,   // starting bit  
+    560, 560, 560, 560, 560, 1690, 560, 560, 560, 560, 560, 560, 560, 560, 560, 560,               // address       00100000 ： 4  
+    560, 1690, 560, 1690, 560, 560, 560, 1690, 560, 1690, 560, 1690, 560, 1690, 560, 1690,         // ~ address     11011111  
+    560, 560, 560, 560, 560, 560, 560, 1690, 560, 560, 560, 560, 560, 560, 560, 560,               // data          00010000 ： 8  
+    560, 1690, 560, 1690, 560, 1690, 560, 560, 560, 1690, 560, 1690, 560, 1690, 560, 1690,          //~ data         11101111  
+    560          // stoping bit  
+  };  
+  int DataLen = sizeof(irRawSignal) / sizeof(irRawSignal[0]); // 284/ 4 = 71  
 
-}
+  void setup()  
+  {  
+    Serial.begin(115200);  
+    IR.begin(IR_RX_PIN, IR_TX_PIN, IR_MODE_TX, CARRIER_FREQ);  
+  }  
 
-| **Notes and Warnings**
-| IR device can only operate in either transmit or receive mode. Refer
-  to https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol for
-  the NEC protocol.
-|  
+  void loop()  
+  {  
+    IR.send(irRawSignal, DataLen);  
+    Serial.println("Finished Sending NEC Raw Data....");  
+    delay(3000);  
+  }  
 
-**IRDevice::sendNEC**
 
-| **Description**
-| Send data using the NEC protocol.
+**Notes and Warnings**
 
-| **Syntax**
-| void sendNEC(uint8_t adr, uint8_t cmd);
+IR device can only operate in either transmit or receive mode. Refer
+to https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol for
+the NEC protocol.
 
-| **Parameters**
-| adr: 8-bit address to transmit
-| cmd: 8-bit command to transmit
+-----
 
-| **Returns**
-| The function returns nothing.
+.. method:: IRDevice::sendNEC
 
-| **Example Code**
-| Example: IRSendNEC
 
-**#include "IRDevice.h"**
+**Description**
 
-**uint8_t** adr = 0;
+Send data using the NEC protocol.
 
-**uint8_t** cmd = 0;
+**Syntax**
 
-**void** setup() {
+.. code:: cpp
 
-//Initialize serial and wait for port to open:
+  void sendNEC(uint8_t adr, uint8_t cmd);
 
-Serial.begin(115200);
+**Parameters**
 
-**while** (!Serial) {
+``adr`` : 8-bit address to transmit
 
-; // wait for serial port to connect. Needed for native USB port only
+``cmd`` : 8-bit command to transmit
 
-}
+**Returns**
 
-IR.beginNEC(8, 9, IR_MODE_TX); // configure for NEC IR protocol
+The function returns nothing.
 
-}
+**Example Code**
 
-**void** loop() {
+Example: IRSendNEC
 
-**if** (cmd++ >=255) {
+.. code:: cpp
 
-adr++;
+  #include "IRDevice.h"  
+  
+  uint8_t adr = 0;  
+  uint8_t cmd = 0;  
 
-}
+  void setup() {  
+      //Initialize serial and wait for port to open:  
+      Serial.begin(115200);  
+      while (!Serial) {  
+          ; // wait for serial port to connect. Needed for native USB port only  
+      }  
+      IR.beginNEC(8, 9, IR_MODE_TX); // configure for NEC IR protocol  
+  }  
 
-IR.sendNEC(adr, cmd);
+  void loop() {  
+      if (cmd++ >=255) {  
+          adr++;  
+      }  
 
-Serial.print("Sent ");
+      IR.sendNEC(adr, cmd);  
+      Serial.print("Sent ");  
+      Serial.print(adr);  
+      Serial.print(cmd);  
+      Serial.println();  
+      //IR.end();   // Call this method to stop IR device and free up the pins for other uses  
+  }
 
-Serial.print(adr);
 
-Serial.print(cmd);
+**Notes and Warnings**
 
-Serial.println();
+IR device can only operate in either transmit or receive mode. Refer
+to https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol for
+the NEC protocol.
+ 
 
-//IR.end(); // Call this method to stop IR device and free up the pins
-for other uses
+-----
 
-}
+.. method:: IRDevice::recvNEC
 
-| **Notes and Warnings**
-| IR device can only operate in either transmit or receive mode. Refer
-  to https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol for
-  the NEC protocol.
-|  
 
-**IRDevice::recvNEC**
+**Description**
 
-| **Description**
-| Receive data using the NEC protocol.
+Receive data using the NEC protocol.
 
-| **Syntax**
-| void recvNEC(uint8_t& adr, uint8_t& cmd uint32_t timeout);
+**Syntax**
 
-| **Parameters**
-| adr: variable to store received NEC address
-| cmd: variable to store received NEC command
-| timeout: time duration to wait for an incoming transmission
+.. code:: cpp
 
-| **Returns**
-| The function returns “1” if data has been received, returns “0” if no
-  data has been received.
+  void recvNEC(uint8_t& adr, uint8_t& cmd uint32_t timeout);
 
-| **Example Code**
-| Example: IRRecvNEC
-| Details of the code can be found in the previous section of
-  IRDevice::beginNEC.
+**Parameters**
 
-| **Notes and Warnings**
-| IR device can only operate in either transmit or receive mode. Refer
-  to https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol for
-  the NEC protocol.
+``adr`` : variable to store received NEC address
+
+``cmd`` : variable to store received NEC command
+
+``timeout`` : time duration to wait for an incoming transmission
+
+**Returns**
+
+The function returns “1” if data has been received, returns “0” if no
+data has been received.
+
+**Example Code**
+
+Example: IRRecvNEC
+
+Details of the code can be found in the previous section of
+IRDevice::beginNEC.
+
+**Notes and Warnings**
+
+IR device can only operate in either transmit or receive mode. Refer
+to https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol  for
+the NEC protocol.

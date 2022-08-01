@@ -2,8 +2,6 @@
 Class AudioCodec 
 #################
 
-.. class:: AudioCodec
-
 **Description**
 
 
@@ -15,6 +13,7 @@ codec functions.
 .. code:: cpp
 
     class AudioCodec
+    
 
 **Members**
 
@@ -201,7 +200,7 @@ Configure the audio codec transmit and receive sampling rate.
 **Parameters**
 
 ``sampleRate`` : desired audio codec sampling rate in Hz. Default value of
-48000. Supported values: 8000, 16000, 32000, 44100, 48000, 88200, 96000.
+1.     Supported values: 8000, 16000, 32000, 44100, 48000, 88200, 96000.
 
 **Returns**
 

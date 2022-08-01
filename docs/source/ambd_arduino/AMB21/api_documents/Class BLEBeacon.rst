@@ -1,8 +1,6 @@
+#################
 Class BLEBeacon
-======================
-
-.. class:: iBeacon
-
+#################
 
 **Description**
 
@@ -10,7 +8,9 @@ A class used for managing iBeacon BLE advertising data.
 
 **Syntax**
 
-class iBeacon
+.. code:: cpp
+
+  class iBeacon
 
 **Members**
 
@@ -19,8 +19,10 @@ class iBeacon
 +============================+================================================+
 | iBeacon::iBeacon           | Create an instance of iBeacon advertising data |
 +----------------------------+------------------------------------------------+
-| **Public Methods**         |                                                |
+
 +----------------------------+------------------------------------------------+
+| **Public Methods**         |                                                |
++============================+================================================+
 | iBeacon::getManufacturerId | Get current manufacturer ID value              |
 +----------------------------+------------------------------------------------+
 | iBeacon::getUUID           | Get current UUID value                         |

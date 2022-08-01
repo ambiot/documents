@@ -1,13 +1,18 @@
+##########################
 Class BLERemoteDescriptor
-============================
-**BLERemoteDescriptor Class**
+##########################
 
-| **Description**
-| A class used for managing BLE GATT descriptors on connected remote
-  devices.
 
-| **Syntax**
-| class BLERemoteDescriptor
+**Description**
+
+A class used for managing BLE GATT descriptors on connected remote
+devices.
+
+**Syntax**
+
+.. code:: cpp
+
+  class BLERemoteDescriptor
 
 **Members**
 
@@ -60,296 +65,432 @@ Class BLERemoteDescriptor
 | BLERemoteDescriptor::getData     | Read data from the descriptor    |
 +----------------------------------+----------------------------------+
 
-**BLERemoteDescriptor::getUUID**
+-----
 
-| **Description**
-| Get the descriptor UUID.
+.. method:: BLERemoteDescriptor::getUUID
 
-| **Syntax**
-| BLEUUID getUUID();
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+Get the descriptor UUID.
 
-| **Returns**
-| The function returns the descriptor UUID as a BLEUUID class object.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
-|  
+  BLEUUID getUUID();
 
-**BLERemoteDescriptor::setBufferLen**
+**Parameters**
 
-| **Description**
-| Set the size of the internal data buffer of the descriptor.
+The function requires no input parameter.
 
-| **Syntax**
-| void setBufferLen(uint16_t max_len);
+**Returns**
 
-| **Parameters**
-| max_len: number of bytes to resize the internal buffer to.
+The function returns the descriptor UUID as a BLEUUID class object.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| Descriptor data buffer has a default size of 20 bytes and can be
-  increased up to 230 bytes.
-|  
+**Notes and Warnings**
 
-**BLERemoteDescriptor::getBufferLen**
+NA
 
-| **Description**
-| Get the size of the descriptor internal buffer.
+-----
 
-| **Syntax**
-| uint16_t getBufferLen();
+.. method:: BLERemoteDescriptor::setBufferLen
 
-| **Parameters**
-| The function requires no input parameter.
 
-| **Returns**
-| The function returns the currently set internal buffer size.
+**Description**
 
-| **Example Code**
-| NA
+Set the size of the internal data buffer of the descriptor.
 
-| **Notes and Warnings**
-| NA
-|  
+**Syntax**
 
-**BLERemoteDescriptor::readString**
+.. code:: cpp
 
-| **Description**
-| Request for descriptor data from the remote device and read the data
-  in the buffer, expressed as a String class object.
+  void setBufferLen(uint16_t max_len);
 
-| **Syntax**
-| String readString();
+**Parameters**
 
-| **Parameters**
-| The function requires no input parameter.
+``max_len`` : number of bytes to resize the internal buffer to.
 
-| **Returns**
-| The function returns the data in the descriptor buffer expressed as a
-  String class object.
+**Returns**
 
-| **Example Code**
-| NA
+The function returns nothing.
 
-| **Notes and Warnings**
-| NA
-|  
+**Example Code**
 
-**BLERemoteDescriptor::readData8**
+NA
 
-| **Description**
-| Request for descriptor data from the remote device and read the data
-  in the buffer, expressed as an unsigned 8-bit integer.
+**Notes and Warnings**
 
-| **Syntax**
-| uint8_t readData8();
+Descriptor data buffer has a default size of 20 bytes and can be
+increased up to 230 bytes.
 
-| **Parameters**
-| The function requires no input parameter.
+-----
 
-| **Returns**
-| The function returns the data in the descriptor buffer expressed as a
-  uint8_t value.
+.. method:: BLERemoteDescriptor::getBufferLen
 
-| **Example Code**
-| NA
 
-| **Notes and Warnings**
-| NA
-|  
+**Description**
 
-**BLERemoteDescriptor::readData16**
+Get the size of the descriptor internal buffer.
 
-| **Description**
-| Request for descriptor data from the remote device and read the data
-  in the buffer, expressed as an unsigned 16-bit integer.
+**Syntax**
 
-| **Syntax**
-| uint16_t readData16();
+.. code:: cpp
 
-| **Parameters**
-| The function requires no input parameter.
+  uint16_t getBufferLen();
 
-| **Returns**
-| The function returns the data in the descriptor buffer expressed as a
-  uint16_t value.
+**Parameters**
 
-| **Example Code**
-| NA
+The function requires no input parameter.
 
-| **Notes and Warnings**
-| NA
-|  
+**Returns**
 
-**BLERemoteDescriptor::readData32**
+The function returns the currently set internal buffer size.
 
-| **Description**
-| Request for descriptor data from the remote device and read the data
-  in the buffer, expressed as an unsigned 32-bit integer.
+**Example Code**
 
-| **Syntax**
-| uint32_t readData32();
+NA
 
-| **Parameters**
-| The function requires no input parameter.
+**Notes and Warnings**
 
-| **Returns**
-| The function returns the data in the descriptor buffer expressed as a
-  uint32_t value.
+NA
 
-| **Example Code**
-| NA
+-----
 
-| **Notes and Warnings**
-| NA
-|  
+.. method:: BLERemoteDescriptor::readString
 
-**BLERemoteDescriptor::writeString**
 
-| **Description**
-| Write data to the remote device descriptor as a String object or
-  character array.
+**Description**
 
-| **Syntax**
-| bool writeString(String str);
-| bool writeString(const char\* str);
+Request for descriptor data from the remote device and read the data
+in the buffer, expressed as a String class object.
 
-| **Parameters**
-| str: the data to write to the remote descriptor, expressed as a String
-  class object or a char array.
+**Syntax**
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+.. code:: cpp
 
-| **Example Code**
-| NA
+  String readString();
 
-| **Notes and Warnings**
-| NA
-|  
+**Parameters**
 
-**BLERemoteDescriptor::writeData8**
+The function requires no input parameter.
 
-| **Description**
-| Write data to the remote device descriptor as an unsigned 8-bit
-  integer.
+**Returns**
 
-| **Syntax**
-| bool writeData8(uint8_t num);
+The function returns the data in the descriptor buffer expressed as a
+String class object.
 
-| **Parameters**
-| num: the data to write to the descriptor buffer expressed as an
-  unsigned 8-bit integer.
+**Example Code**
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+NA
 
-| **Example Code**
-| NA
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
-|  
+NA
 
-**BLERemoteDescriptor::writeData16**
+-----
 
-| **Description**
-| Write data to the remote device descriptor as an unsigned 16-bit
-  integer.
+.. method:: BLERemoteDescriptor::readData8
 
-| **Syntax**
-| bool writeData16(uint16_t num);
 
-| **Parameters**
-| num: the data to write to the descriptor buffer expressed as an
-  unsigned 16-bit integer.
+**Description**
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+Request for descriptor data from the remote device and read the data
+in the buffer, expressed as an unsigned 8-bit integer.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
-|  
+.. code:: cpp
 
-**BLERemoteDescriptor::writeData32**
+  uint8_t readData8();
 
-| **Description**
-| Write data to the remote device descriptor as a 32-bit integer.
+**Parameters**
 
-| **Syntax**
-| bool writeData32(uint32_t num);
-| bool writeData32(int num);
+The function requires no input parameter.
 
-| **Parameters**
-| num: the data to write to the descriptor buffer expressed as a 32-bit
-  integer.
+**Returns**
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+The function returns the data in the descriptor buffer expressed as a
+uint8_t value.
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| NA
-|  
+NA
 
-**BLERemoteDescriptor::setData**
+**Notes and Warnings**
 
-| **Description**
-| Write data to the remote device descriptor.
+NA
 
-| **Syntax**
-| bool setData(uint8_t\* data, uint16_t datalen);
+-----
 
-| **Parameters**
-| data: pointer to byte array containing desired data
-| datalen: number of bytes of data to write
+.. method:: BLERemoteDescriptor::readData16
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+**Description**
 
-| **Example Code**
-| NA
+Request for descriptor data from the remote device and read the data
+in the buffer, expressed as an unsigned 16-bit integer.
 
-| **Notes and Warnings**
-| NA
-|  
+**Syntax**
 
-**BLERemoteDescriptor::getData**
+.. code:: cpp
 
-| **Description**
-| Request for descriptor data from the remote device and read the data
-  in the buffer.
+  uint16_t readData16();
 
-| **Syntax**
-| uint16_t getData(uint8_t\* data, uint16_t datalen);
+**Parameters**
 
-| **Parameters**
-| data: pointer to byte array to save data read from buffer
-| datalen: number of bytes of data to read
+The function requires no input parameter.
 
-| **Returns**
-| The function returns the number of bytes read.
+**Returns**
 
-| **Example Code**
-| NA
+The function returns the data in the descriptor buffer expressed as a
+uint16_t value.
 
-| **Notes and Warnings**
-| If the data buffer contains less data than requested, it will only
-  read the available number of bytes of data.
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteDescriptor::readData32
+
+
+**Description**
+
+Request for descriptor data from the remote device and read the data
+in the buffer, expressed as an unsigned 32-bit integer.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint32_t readData32();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the data in the descriptor buffer expressed as a
+uint32_t value.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteDescriptor::writeString
+
+
+**Description**
+
+Write data to the remote device descriptor as a String object or
+character array.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool writeString(String str);
+
+.. code:: cpp
+
+  bool writeString(const char* str);
+
+**Parameters**
+
+``str``: the data to write to the remote descriptor, expressed as a String
+class object or a char array.
+
+**Returns**
+
+The function returns TRUE if write data is successful.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteDescriptor::writeData8
+
+
+**Description**
+
+Write data to the remote device descriptor as an unsigned 8-bit
+integer.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool writeData8(uint8_t num);
+
+**Parameters**
+
+``num`` : the data to write to the descriptor buffer expressed as an
+unsigned 8-bit integer.
+
+**Returns**
+
+The function returns TRUE if write data is successful.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteDescriptor::writeData16
+
+**Description**
+
+Write data to the remote device descriptor as an unsigned 16-bit
+
+integer.
+
+**Syntax**
+
+.. code:: cpp
+  
+  bool writeData16(uint16_t num);
+
+**Parameters**
+
+``num`` : the data to write to the descriptor buffer expressed as an
+unsigned 16-bit integer.
+
+**Returns**
+
+The function returns TRUE if write data is successful.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteDescriptor::writeData32
+
+**Description**
+
+Write data to the remote device descriptor as a 32-bit integer.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool writeData32(uint32_t num);
+
+.. code:: cpp
+
+  bool writeData32(int num);
+
+**Parameters**
+
+``num`` : the data to write to the descriptor buffer expressed as a 32-bit
+integer.
+
+**Returns**
+
+The function returns TRUE if write data is successful.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteDescriptor::setData
+
+
+**Description**
+
+Write data to the remote device descriptor.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool setData(uint8_t* data, uint16_t datalen);
+
+**Parameters**
+
+``data`` : pointer to byte array containing desired data
+
+``datalen`` : number of bytes of data to write
+
+**Returns**
+
+The function returns TRUE if write data is successful.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteDescriptor::getData
+
+
+**Description**
+
+Request for descriptor data from the remote device and read the data
+in the buffer.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint16_t getData(uint8_t* data, uint16_t datalen);
+
+**Parameters**
+
+``data`` : pointer to byte array to save data read from buffer
+
+``datalen`` : number of bytes of data to read
+
+**Returns**
+
+The function returns the number of bytes read.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+If the data buffer contains less data than requested, it will only
+read the available number of bytes of data.

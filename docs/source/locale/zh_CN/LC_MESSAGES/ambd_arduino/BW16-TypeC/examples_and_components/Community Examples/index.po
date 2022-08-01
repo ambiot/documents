@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/BW16-TypeC/examples_and_components/Community
+#: Examples/index.rst:8 Examples/index.rst:15
+msgid "Community Examples"
+msgstr "社群范例"
+
+#: ../../source/ambd_arduino/BW16-TypeC/examples_and_components/Community
+#: Examples/index.rst:10
+msgid ""
+"Welcome to share your examples under the **Community Examples** section "
+"if you have completed a project using the Ameba boards."
+msgstr "如果你使用Ameba开发板完成了一个项目，欢迎在社群范例里分享你的专案。"
+
+#: ../../source/ambd_arduino/BW16-TypeC/examples_and_components/Community
+#: Examples/index.rst:11
+msgid ""
+"To make contributions, please visit our official `GitHub Wiki "
+"<https://github.com/ambiot/documents/wiki>`_ page."
+msgstr "要做出贡献，请访问我们的官方 `GitHub Wiki <https://github.com/ambiot/documents/wiki>`_ 页面。"
+
+#: ../../source/ambd_arduino/BW16-TypeC/examples_and_components/Community
+#: Examples/index.rst:13
+msgid "|image1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/BW16-TypeC/examples_and_components/Community
+#: Examples/index.rst:19
+msgid "image1"
+msgstr ""
+

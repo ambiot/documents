@@ -2,6 +2,23 @@
 Release History
 ##################
 
+**Version 3.1.3 - 2022/06/29**
+
+* Feature:
+
+  - Add WS2812B Library and examples 
+    - Add examples (WS2812B_Basics and WS2812B_Patterns)
+  - Add USBD Features and examples
+    - Support for USB CDC ACM device
+    - Support for USB HID device
+    - Add examples (USBCDCSerial, USBHIDKeyboard, USBHIDMouse and USBHIDGamepad)
+  - Fix for Iphone hotspot SSIDs
+    - Add in examples for using UTF-8 encoding to connect to Iphone hotspots using non-ASCII SSIDs
+    - Update examples (ConnectNoEncryption, ConnectWithWE, ConnectWithWPA and WiFiAPMode.ino)
+  - Remove example IBM_Watson
+
+----
+
 **Version 3.1.2 - 2021/12/28**
 
 * Feature:

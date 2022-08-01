@@ -1,12 +1,17 @@
-Class PMUClass
-================
-**PubSubClient Class**
+######################
+Class PubSubClient
+######################
 
-| **Description**
-| Defines a class of MQTT implementation for Ameba.
 
-| **Syntax**
-| class PubSubClient
+**Description**
+
+Defines a class of MQTT implementation for Ameba.
+
+**Syntax**
+
+.. code:: cpp
+
+  class PubSubClient
 
 **Members**
 
@@ -15,8 +20,11 @@ Class PMUClass
 +============================+========================================+
 | PubSubClient::PubSubClient | Constructs a PubSubClient object       |
 +----------------------------+----------------------------------------+
-| **Public Methods**         |                                        |
+
+
 +----------------------------+----------------------------------------+
+| **Public Methods**         |                                        |
++============================+========================================+
 | PubSubClient::setServer    | Set MQTT server address and port       |
 +----------------------------+----------------------------------------+
 | PubSubClient::setCallback  | Set callback function                  |
@@ -45,510 +53,619 @@ Class PMUClass
 | PubSubClient::state        | Return connection state                |
 +----------------------------+----------------------------------------+
 
-**PubSubClient::PubSubClient**
+-----
 
-| **Description**
-| Constructs a PubSubClient object and, if applicable, sets server
-  address, port, callback function, data stream and wifi client.
+.. method:: PubSubClient::PubSubClient
 
-| **Syntax**
-| PubSubClient::PubSubClient();
-| PubSubClient::PubSubClient(Client& client);
-| PubSubClient::PubSubClient(IPAddress, uint16_t, Client& client);
-| PubSubClient::PubSubClient(IPAddress, uint16_t, Client& client,
-  Stream&);
-| PubSubClient::PubSubClient(IPAddress, uint16_t,
-  MQTT_CALLBACK_SIGNATURE, Client& client);
-| PubSubClient::PubSubClient(IPAddress, uint16_t,
-  MQTT_CALLBACK_SIGNATURE, Client& client, Stream&);
-| PubSubClient::PubSubClient(uint8_t \*, uint16_t, Client& client);
-| PubSubClient::PubSubClient(uint8_t \*, uint16_t, Client& client,
-  Stream&);
-| PubSubClient::PubSubClient(uint8_t \*, uint16_t,
-  MQTT_CALLBACK_SIGNATURE, Client& client);
-| PubSubClient::PubSubClient(uint8_t \*, uint16_t,
-  MQTT_CALLBACK_SIGNATURE, Client& client, Stream&);
-| PubSubClient::PubSubClient(const char*, uint16_t, Client& client);
-| PubSubClient::PubSubClient(const char*, uint16_t, Client& client,
-  Stream&);
-| PubSubClient::PubSubClient(const char*, uint16_t,
-  MQTT_CALLBACK_SIGNATURE, Client& client);
-| PubSubClient::PubSubClient(const char*, uint16_t,
-  MQTT_CALLBACK_SIGNATURE, Client& client, Stream&);
 
-| **Parameters**
-| client: the network client to use, for example WiFiClient
-| IPAddress: MQTT server address
-| port: port for MQTT, usually 1883 for unencrypted connection
-| MQTT_CALLBACK_SIGNATURE: callback function for MQTT
-| Stream: a stream to write received messages to
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Constructs a PubSubClient object and, if applicable, sets server
+address, port, callback function, data stream and wifi client.
 
-| **Example Code**
-| Example: MQTT_Basic
+**Syntax**
 
-**#include <WiFi.h>**
+.. code:: cpp
 
-**#include <PubSubClient.h>**
+  PubSubClient::PubSubClient();
 
-// Update these with values suitable for your network.
+.. code:: cpp
+  
+  PubSubClient::PubSubClient(Client& client);
 
-**char** ssid[] = "yourNetwork"; // your network SSID (name)
+.. code:: cpp
+  
+  PubSubClient::PubSubClient(IPAddress, uint16_t, Client& client);
 
-**char** pass[] = "secretPassword"; // your network password
+.. code:: cpp
+  
+  PubSubClient::PubSubClient(IPAddress, uint16_t, Client& client, Stream&);
 
-**int** status = WL_IDLE_STATUS; // the Wifi radio's status
+.. code:: cpp
+  
+  PubSubClient::PubSubClient(IPAddress, uint16_t, MQTT_CALLBACK_SIGNATURE, Client& client);
 
-**char** mqttServer[] = "test.mosquitto.org";
+.. code:: cpp
 
-**char** clientId[] = "amebaClient";
+  PubSubClient::PubSubClient(IPAddress, uint16_t,MQTT_CALLBACK_SIGNATURE, Client& client, Stream&);
 
-**char** publishTopic[] = "outTopic";
+.. code:: cpp
+  
+  PubSubClient::PubSubClient(uint8_t*, uint16_t, Client& client);
 
-**char** publishPayload[] = "hello world";
+.. code:: cpp
+  
+  PubSubClient::PubSubClient(uint8_t*, uint16_t, Client& client, Stream&);
 
-**char** subscribeTopic[] = "inTopic";
+.. code:: cpp
 
-**void** callback(**char**\ \* topic, byte\* payload, unsigned **int**
-length) {
+  PubSubClient::PubSubClient(uint8_t*, uint16_t, MQTT_CALLBACK_SIGNATURE, Client& client);
 
-Serial.print("Message arrived [");
+.. code:: cpp
 
-Serial.print(topic);
+  PubSubClient::PubSubClient(uint8_t*, uint16_t,MQTT_CALLBACK_SIGNATURE, Client& client, Stream&);
 
-Serial.print("] ");
+.. code:: cpp
 
-**for** (**int** i=0;i<length;i++) {
+  PubSubClient::PubSubClient(const char*, uint16_t, Client& client);
 
-Serial.print((**char**)payload[i]);
+.. code:: cpp
 
-}
+  PubSubClient::PubSubClient(const char*, uint16_t, Client& client, Stream&);
 
-Serial.println();
+.. code:: cpp
 
-}
+  PubSubClient::PubSubClient(const char*, uint16_t, MQTT_CALLBACK_SIGNATURE, Client& client);
 
-WiFiClient wifiClient;
+.. code:: cpp
 
-PubSubClient client(wifiClient);
+  PubSubClient::PubSubClient(const char*, uint16_t, MQTT_CALLBACK_SIGNATURE, Client& client, Stream&);
 
-**void** reconnect() {
+**Parameters**
 
-// Loop until we're reconnected
+``client`` : the network client to use, for example WiFiClient
 
-**while** (!client.connected()) {
+``IPAddress`` : MQTT server address
 
-Serial.print("Attempting MQTT connection...");
+``port`` : port for MQTT, usually 1883 for unencrypted connection
 
-// Attempt to connect
+``MQTT_CALLBACK_SIGNATURE`` : callback function for MQTT
 
-**if** (client.connect(clientId)) {
+``Stream`` : a stream to write received messages to
 
-Serial.println("connected");
+**Returns**
 
-// Once connected, publish an announcement...
+The function returns nothing.
 
-client.publish(publishTopic, publishPayload);
+**Example Code**
 
-// ... and resubscribe
+Example: MQTT_Basic
 
-client.subscribe(subscribeTopic);
+**Notes and Warnings**
 
-} **else** {
+PubSubClient::PubSubClient(Client& client) would suffice for normal
+MQTT connection 
 
-Serial.print("failed, rc=");
+-----
 
-Serial.print(client.state());
+.. method:: PubSubClient::setServer
 
-Serial.println(" try again in 5 seconds");
+**Description**
 
-// Wait 5 seconds before retrying
+Sets the server details.
 
-delay(5000);
+**Syntax**
 
-}
+.. code:: cpp
 
-}
+  PubSubClient& PubSubClient::setServer(uint8_t * ip, uint16_t port)
 
-}
+.. code:: cpp
 
-**void** setup()
+  PubSubClient& PubSubClient::setServer(IPAddress ip, uint16_t port)
 
-{
+.. code:: cpp
 
-Serial.begin(38400);
-
-**while** (status != WL_CONNECTED) {
-
-Serial.print("Attempting to connect to SSID: ");
-
-Serial.println(ssid);
-
-// Connect to WPA/WPA2 network. Change this line if using open or WEP
-network:
-
-status = WiFi.begin(ssid, pass);
-
-// wait 10 seconds for connection:
-
-delay(10000);
-
-}
-
-client.setServer(mqttServer, 1883);
-
-client.setCallback(callback);
-
-// Allow the hardware to sort itself out
-
-delay(1500);
-
-}
-
-**void** loop()
-
-{
-
-**if** (!client.connected()) {
-
-reconnect();
-
-}
-
-client.loop();
-
-}
-
-| **Notes and Warnings**
-| PubSubClient::PubSubClient(Client& client) would suffice for normal
-  MQTT connection 
-
-**PubSubClient::setServer**
-
-| **Description**
-| Sets the server details.
-
-| **Syntax**
-| PubSubClient& PubSubClient::setServer(uint8_t \* ip, uint16_t port)
-| PubSubClient& PubSubClient::setServer(IPAddress ip, uint16_t port)
-| PubSubClient& PubSubClient::setServer(const char \* domain, uint16_t
+  PubSubClient& PubSubClient::setServer(const char* domain, uint16_t
   port)
 
-| **Parameters**
-| ip: the address of the server
-| port: the port to connect to, default 1883
-| domain: the address of the server
 
-| **Returns**
-| The client instance, allowing the function to be chained
+**Parameters**
 
-| **Example Code**
-| Example: MQTT_Basic
+``ip`` : the address of the server
 
-| **Notes and Warnings**
-| NA 
+``port`` : the port to connect to, default 1883
 
-**PubSubClient::setCallback**
+``domain`` : the address of the server
 
-| **Description**
-| Sets the message callback function.
+**Returns**
 
-| **Syntax**
-| PubSubClient& PubSubClient::setCallback(MQTT_CALLBACK_SIGNATURE)
+The client instance, allowing the function to be chained
 
-| **Parameters**
-| MQTT_CALLBACK_SIGNATURE: a pointer to a message callback function
-  called when a message arrives for a subscription created by this
-  client.
+**Example Code**
 
-| **Returns**
-| The client instance, allowing the function to be chained.
+Example: MQTT_Basic
 
-| **Example Code**
-| Example: MQTT_Basic
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA 
+NA 
 
-**PubSubClient::setClient**
+-----
 
-| **Description**
-| Sets the network client instance to use.
+.. method:: PubSubClient::setCallback
 
-| **Syntax**
-| PubSubClient& PubSubClient::setClient(Client& client)
 
-| **Parameters**
-| client: the network client to use, for example WiFiClient
+**Description**
 
-| **Returns**
-| The client instance, allowing the function to be chained
+Sets the message callback function.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA 
+.. code:: cpp
 
-**PubSubClient::setStream**
+  PubSubClient& PubSubClient::setCallback(MQTT_CALLBACK_SIGNATURE)
 
-| **Description**
-| Sets the stream to write received messages to.
+**Parameters**
 
-| **Syntax**
-| PubSubClient& PubSubClient::setStream(Stream& stream)
+``MQTT_CALLBACK_SIGNATURE`` : a pointer to a message callback function
+called when a message arrives for a subscription created by this
+client.
 
-| **Parameters**
-| stream: a stream to write received messages to
+**Returns**
 
-| **Returns**
-| The client instance, allowing the function to be chained.
+The client instance, allowing the function to be chained.
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| NA 
+Example: MQTT_Basic
 
-**PubSubClient::connect**
+**Notes and Warnings**
 
-| **Description**
-| Connects the client to the server.
+NA 
 
-| **Syntax**
-| boolean PubSubClient::connect(const char \*id)
-| boolean PubSubClient::connect(const char \*id, const char \*user,
-  const char \*pass)
-| boolean PubSubClient::connect(const char \*id, const char\* willTopic,
-  uint8_t willQos, boolean willRetain, const char\* willMessage)
-| boolean PubSubClient::connect(const char \*id, const char \*user,
-  const char \*pass, const char\* willTopic, uint8_t willQos, boolean
-  willRetain, const char\* willMessage)
+-----
 
-| **Parameters**
-| id: Client ID, a unique string identifier
-| user: Username for authentication, default NULL
-| pass: Password for authentication, default NULL
-| willTopic: the topic to be used by the will message
-| willQoS: the quality of service to be used by the will message
-| willRetain: whether the will should be published with the retain flag
-| willMessage: the payload of the will message
+.. method:: PubSubClient::setClient
 
-| **Returns**
-| True – connection succeeded
-| False – connection failed
 
-| **Example Code**
-| Example: MQTT_Basic
+**Description**
 
-| **Notes and Warnings**
-| Client ID is required and should always be unique else connection
-  might be rejected by the server. 
+Sets the network client instance to use.
 
-**PubSubClient::disconnect**
+**Syntax**
 
-| **Description**
-| Disconnect the client
+.. code:: cpp
 
-| **Syntax**
-| void PubSubClient::disconnect(void)
+  PubSubClient& PubSubClient::setClient(Client& client)
 
-| **Parameters**
-| The function requires no input parameter.
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+``client`` : the network client to use, for example WiFiClient
 
-| **Example Code**
-| NA
+**Returns**
 
-| **Notes and Warnings**
-| NA 
+The client instance, allowing the function to be chained
 
-**PubSubClient::publish**
+**Example Code**
 
-| **Description**
-| Publishes a message to the specified topic.
+NA
 
-| **Syntax**
-| boolean PubSubClient::publish(const char\* topic, const char\*
-  payload)
-| boolean PubSubClient::publish(const char\* topic, const char\*
-  payload, boolean retained)
-| boolean PubSubClient::publish(const char\* topic, const uint8_t\*
-  payload, unsigned int plength)
-| boolean PubSubClient::publish(const char\* topic, const uint8_t\*
-  payload, unsigned int plength, boolean retained)
+**Notes and Warnings**
 
-| **Parameters**
-| topic: the topic to publish to
-| payload: the message to publish
-| plength: the length of the payload. Required if payload is a byte[]
-| retained: whether the message should be retained
-| – false – not retained
-| – true – retained
+NA 
 
-| **Returns**
-| False – publish failed, either connection lost or message too large
-| True – publish succeeded
+-----
 
-| **Example Code**
-| Example: MQTT_Basic
+.. method:: PubSubClient::setStream
 
-| **Notes and Warnings**
-| Default max packet size is 128 bytes. 
 
-**PubSubClient::publish_P**
+**Description**
 
-| **Description**
-| Publishes a message stored in PROGMEM to the specified topic.
+Sets the stream to write received messages to.
 
-| **Syntax**
-| boolean PubSubClient::publish_P(const char\* topic, const uint8_t\*
-  payload, unsigned int plength, boolean retained)
+**Syntax**
 
-| **Parameters**
-| topic: the topic to publish to
-| payload: the message to publish
-| plength: the length of the payload. Required if payload is a byte[]
-| retained: whether the message should be retained
-| – false – not retained
-| – true – retained
+.. code:: cpp
 
-| **Returns**
-| False – publish failed, either connection lost or message too large
-| True – publish succeeded
+  PubSubClient& PubSubClient::setStream(Stream& stream)
 
-| **Example Code**
-| NA
+**Parameters**
 
-| **Notes and Warnings**
-| NA 
+``stream`` : a stream to write received messages to
 
-**PubSubClient::subscribe**
+**Returns**
 
-| **Description**
-| Subscribes to messages published to the specified topic.
+The client instance, allowing the function to be chained.
 
-| **Syntax**
-| boolean PubSubClient::subscribe(const char\* topic)
-| boolean PubSubClient::subscribe(const char\* topic, uint8_t qos)
+**Example Code**
 
-| **Parameters**
-| topic: the topic to subscribe to
-| qos: the qos to subscribe at
+NA
 
-| **Returns**
-| False – sending the subscribe failed, either connection lost or
-  message too large
-| True – sending the subscribe succeeded
+**Notes and Warnings**
 
-| **Example Code**
-| Example: MQTT_Basic
+NA 
 
-| **Notes and Warnings**
-| NA 
+-----
 
-**PubSubClient::unsubscribe**
+.. method:: PubSubClient::connect
 
-| **Description**
-| Unsubscribes from the specified topic.
 
-| **Syntax**
-| boolean PubSubClient::unsubscribe(const char\* topic)
+**Description**
 
-| **Parameters**
-| topic: the topic to unsubscribe to
+Connects the client to the server.
 
-| **Returns**
-| False – sending the unsubscribe failed, either connection lost or
-  message too large
-| True – sending the unsubscribe succeeded
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA 
+  boolean PubSubClient::connect(const char *id)
 
-**PubSubClient::loop**
+.. code:: cpp
 
-| **Description**
-| A must method called regularly to allow the client to process incoming
-  messages and maintain its connection to the server.
+  boolean PubSubClient::connect(const char *id, const char *user, const char *pass)
 
-| **Syntax**
-| boolean PubSubClient::loop(void)
+.. code:: cpp
 
-| **Parameters**
-| The function requires no input parameter.
+  boolean PubSubClient::connect(const char *id, const char* willTopic, uint8_t willQos, boolean willRetain, const char* willMessage)
 
-| **Returns**
-| False – the client is no longer connected
-| True – the client is still connected
+.. code:: cpp
 
-| **Example Code**
-| Example: MQTT_Basic
+  boolean PubSubClient::connect(const char *id, const char *user, const char *pass, const char* willTopic, uint8_t willQos, boolean willRetain, const char* willMessage)
 
-| **Notes and Warnings**
-| A required method that should not be blocked for too long. 
+**Parameters**
 
-**PubSubClient::connected**
+``id`` : Client ID, a unique string identifier
 
-| **Description**
-| Checks whether the client is connected to the server.
+``user``: Username for authentication, default NULL
 
-| **Syntax**
-| boolean PubSubClient::connected(void)
+``pass`` : Password for authentication, default NULL
 
-| **Parameters**
-| The function requires no input parameter.
+``willTopic`` : the topic to be used by the will message
 
-| **Returns**
-| False – the client is not connected
-| True – the client is connected
+``willQoS`` : the quality of service to be used by the will message
 
-| **Example Code**
-| Example: MQTT_Basic
+``willRetain`` : whether the will should be published with the retain flag
 
-| **Notes and Warnings**
-| NA 
+``willMessage`` : the payload of the will message
 
-**PubSubClient::state**
+**Returns**
 
-| **Description**
-| Returns the current state of the client. If a connection attempt
-  fails, this can be used to get more information about the failure.
-| All of the values have corresponding constants defined in
-  PubSubClient.h.
+True – connection succeeded
 
-| **Syntax**
-| int PubSubClient::state(void)
+False – connection failed
 
-| **Parameters**
-| The function requires no input parameter.
+**Example Code**
 
-| **Returns**
-| -4 : MQTT_CONNECTION_TIMEOUT – the server didn’t respond within the
-  keepalive time
-| -3 : MQTT_CONNECTION_LOST – the network connection was broken
-| -2 : MQTT_CONNECT_FAILED – the network connection failed
-| -1 : MQTT_DISCONNECTED – the client is disconnected cleanly
-| 0 : MQTT_CONNECTED – the client is connected
-| 1 : MQTT_CONNECT_BAD_PROTOCOL – the server doesn’t support the
-  requested version of MQTT
-| 2 : MQTT_CONNECT_BAD_CLIENT_ID – the server rejected the client
-  identifier
-| 3 : MQTT_CONNECT_UNAVAILABLE – the server was unable to accept the
-  connection
-| 4 : MQTT_CONNECT_BAD_CREDENTIALS – the username/password were rejected
-| 5 : MQTT_CONNECT_UNAUTHORIZED – the client was not authorized to
-  connect
+Example: MQTT_Basic
 
-| **Example Code**
-| Example: MQTT_Basic
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA 
+Client ID is required and should always be unique else connection
+might be rejected by the server. 
+
+-----
+
+.. method:: PubSubClient::disconnect
+
+**Description**
+
+Disconnect the client
+
+**Syntax**
+
+.. code:: cpp
+
+  void PubSubClient::disconnect(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA 
+
+-----
+
+.. method:: PubSubClient::publish
+
+**Description**
+
+Publishes a message to the specified topic.
+
+**Syntax**
+
+.. code:: cpp
+
+  boolean PubSubClient::publish(const char* topic, const char* payload)
+
+.. code:: cpp
+
+  boolean PubSubClient::publish(const char* topic, const char* payload, boolean retained)
+
+.. code:: cpp
+
+  boolean PubSubClient::publish(const char* topic, const uint8_t* payload, unsigned int plength)
+
+.. code:: cpp
+
+  boolean PubSubClient::publish(const char* topic, const uint8_t* payload, unsigned int plength, boolean retained)
+
+**Parameters**
+
+``topic`` : the topic to publish to
+
+``payload`` : the message to publish
+
+``plength`` : the length of the payload. Required if payload is a byte[]
+
+``retained`` : whether the message should be retained
+
+– false – not retained
+
+– true – retained
+
+**Returns**
+
+False – publish failed, either connection lost or message too large
+
+True – publish succeeded
+
+**Example Code**
+
+Example: MQTT_Basic
+
+**Notes and Warnings**
+
+Default max packet size is 128 bytes. 
+
+------
+
+.. method:: PubSubClient::publish_P
+
+
+**Description**
+
+Publishes a message stored in PROGMEM to the specified topic.
+
+**Syntax**
+
+.. code:: cpp
+
+  boolean PubSubClient::publish_P(const char* topic, const uint8_t* payload, unsigned int plength, boolean retained)
+
+**Parameters**
+
+``topic`` : the topic to publish to
+
+``payload`` : the message to publish
+
+``plength`` : the length of the payload. Required if payload is a byte[]
+
+``retained`` : whether the message should be retained
+
+– false – not retained
+
+– true – retained
+
+**Returns**
+
+False – publish failed, either connection lost or message too large
+
+True – publish succeeded
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA 
+
+-----
+
+.. method:: PubSubClient::subscribe
+
+
+**Description**
+
+Subscribes to messages published to the specified topic.
+
+**Syntax**
+
+.. code:: cpp
+
+  boolean PubSubClient::subscribe(const char* topic)
+
+.. code:: cpp
+  
+  boolean PubSubClient::subscribe(const char* topic, uint8_t qos)
+
+**Parameters**
+
+``topic`` : the topic to subscribe to
+
+``qos`` : the qos to subscribe at
+
+**Returns**
+
+False – sending the subscribe failed, either connection lost or
+message too large
+
+True – sending the subscribe succeeded
+
+**Example Code**
+
+Example: MQTT_Basic
+
+**Notes and Warnings**
+
+NA 
+
+-----
+
+.. method:: PubSubClient::unsubscribe
+
+
+**Description**
+
+Unsubscribes from the specified topic.
+
+**Syntax**
+
+.. code:: cpp
+
+  boolean PubSubClient::unsubscribe(const char* topic)
+
+**Parameters**
+
+``topic`` : the topic to unsubscribe to
+
+**Returns**
+
+False – sending the unsubscribe failed, either connection lost or
+message too large
+
+True – sending the unsubscribe succeeded
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA 
+
+-----
+
+.. method:: PubSubClient::loop
+
+
+**Description**
+
+A must method called regularly to allow the client to process incoming
+messages and maintain its connection to the server.
+
+**Syntax**
+
+.. code:: cpp
+
+  boolean PubSubClient::loop(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+False – the client is no longer connected
+
+True – the client is still connected
+
+**Example Code**
+
+Example: MQTT_Basic
+
+**Notes and Warnings**
+
+A required method that should not be blocked for too long. 
+
+-----
+
+.. method:: PubSubClient::connected
+
+
+**Description**
+
+Checks whether the client is connected to the server.
+
+**Syntax**
+
+.. code:: cpp
+
+  boolean PubSubClient::connected(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+False – the client is not connected
+
+True – the client is connected
+
+**Example Code**
+
+Example: MQTT_Basic
+
+**Notes and Warnings**
+
+NA 
+
+-----
+
+.. method:: PubSubClient::state
+
+
+**Description**
+
+Returns the current state of the client. If a connection attempt
+fails, this can be used to get more information about the failure.
+All of the values have corresponding constants defined in
+PubSubClient.h.
+
+**Syntax**
+
+.. code:: cpp
+
+  int PubSubClient::state(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+-4 : MQTT_CONNECTION_TIMEOUT – the server didn’t respond within the
+
+keepalive time
+
+-3 : MQTT_CONNECTION_LOST – the network connection was broken
+
+-2 : MQTT_CONNECT_FAILED – the network connection failed
+
+-1 : MQTT_DISCONNECTED – the client is disconnected cleanly
+
+0 : MQTT_CONNECTED – the client is connected
+
+1 : MQTT_CONNECT_BAD_PROTOCOL – the server doesn’t support the
+requested version of MQTT
+
+2 : MQTT_CONNECT_BAD_CLIENT_ID – the server rejected the client
+identifier
+
+3 : MQTT_CONNECT_UNAVAILABLE – the server was unable to accept the
+connection
+
+4 : MQTT_CONNECT_BAD_CREDENTIALS – the username/password were rejected
+
+5 : MQTT_CONNECT_UNAUTHORIZED – the client was not authorized to
+connect
+
+**Example Code**
+
+Example: MQTT_Basic
+
+**Notes and Warnings**
+
+NA 
+

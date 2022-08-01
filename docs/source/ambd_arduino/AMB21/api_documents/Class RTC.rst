@@ -1,7 +1,6 @@
+###########
 Class RTC
-=============
-.. class:: RTC
-
+###########
 
 **Description**
 

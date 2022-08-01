@@ -1,5 +1,6 @@
+####################
 Class SdFatFs
-==================
+####################
 
 .. class:: SdFatFs
 
@@ -9,7 +10,9 @@ Defines a class of SD FAT File system.
 
 **Syntax**
 
-class SdFatFs
+.. code:: cpp
+
+  class SdFatFs
 
 **Members**
 

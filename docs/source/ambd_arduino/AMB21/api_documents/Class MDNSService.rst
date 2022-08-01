@@ -1,7 +1,6 @@
+###################
 Class MDNSService
-==================
-.. class:: MDNSService
-
+###################
 
 **Description**
 

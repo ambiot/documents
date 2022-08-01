@@ -1,12 +1,16 @@
+############
 Class WiFi
-===============
-**WiFiClass Class**
+############
 
-| **Description**
-| Defines a class of WiFi and network implementation for Ameba.
+**Description**
 
-| **Syntax**
-| class WiFiClass
+Defines a class of WiFi and network implementation for Ameba.
+
+**Syntax**
+
+.. code:: cpp
+
+  class WiFiClass
 
 **Members**
 
@@ -17,8 +21,11 @@ Class WiFi
 |                              | initializes the WiFi libraries and   |
 |                              | network settings                     |
 +------------------------------+--------------------------------------+
-| **Public Methods**           |                                      |
+
+
 +------------------------------+--------------------------------------+
+| **Public Methods**           |                                      |
++==============================+======================================+
 | WiFiClass::firmwareVersion   | Get firmware version                 |
 +------------------------------+--------------------------------------+
 | WiFiClass:: begin            | Start Wifi connection for OPEN       |
@@ -78,1336 +85,1303 @@ Class WiFi
 | WiFiClass:: disablePowerSave | Disable power-saving mode            |
 +------------------------------+--------------------------------------+
 
-**WiFiClass::WiFiClass**
+-----
 
-| **Description**
-| Constructs a WiFiClass object and initializes the WiFi libraries and
-  network settings.
+.. method:: WiFiClass::WiFiClass
 
-| **Syntax**
-| WiFiClass::WiFiClass()
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Constructs a WiFiClass object and initializes the WiFi libraries and
+network settings.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| An instance of WiFiClass is created as WiFi inside WiFi.h and is
-  extern for direct use.
+.. code:: cpp
 
-**WiFiClass::firmwareVersion**
+  WiFiClass::WiFiClass()
 
-| **Description**
-| Get firmware version
+**Parameters**
 
-| **Syntax**
-| char\* WiFiClass::firmwareVersion()
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| WiFi firmware version
+The function returns nothing.
 
-| **Example Code**
-| Example: ConnectWithWPA
-| This example demos how to connect to an unencrypted WiFI network, and
-  prints the MAC address of the Wifi shield, the IP address obtained,
-  and other network details.
+**Example Code**
 
-**#include <WiFi.h>**
+NA
 
-// char ssid[] = "yourNetwork"; // your network SSID (name)
+**Notes and Warnings**
+
+An instance of WiFiClass is created as WiFi inside WiFi.h and is
+extern for direct use.
+
+-----
+
+.. method:: WiFiClass::firmwareVersion
+
+
+**Description**
+
+Get firmware version
+
+**Syntax**
+
+.. code:: cpp
+
+  char* WiFiClass::firmwareVersion()
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+WiFi firmware version
+
+**Example Code**
+
+Example: ConnectWithWPA
+
+This example demos how to connect to an unencrypted WiFI network, and
+prints the MAC address of the Wifi shield, the IP address obtained,
+and other network details.
+
+.. code:: cpp
+
+  #include "WiFi.h"    
+  
+  // char ssid[] = "yourNetwork";     //  your network SSID (name)  
+  // char pass[] = "secretPassword";  // your network password  
+  char ssid[] = "SINGTEL-D45F";                     // your network SSID (name)  
+  char pass[] = "mooxuteeth";                         // your network key  
+  int status = WL_IDLE_STATUS;     // the Wifi radio's status  
+    
+  void setup() {  
+    //Initialize serial and wait for port to open:  
+    Serial.begin(9600);  
+    while (!Serial) {  
+      ; // wait for serial port to connect. Needed for native USB port only  
+    }  
+    
+    // check for the presence of the shield:  
+    if (WiFi.status() == WL_NO_SHIELD) {  
+      Serial.println("WiFi shield not present");  
+      // don't continue:  
+      while (true);  
+    }  
+    
+    String fv = WiFi.firmwareVersion();  
+    if (fv != "1.1.0") {  
+      Serial.println("Please upgrade the firmware");  
+    }  
+    
+    // attempt to connect to Wifi network:  
+    while (status != WL_CONNECTED) {  
+      Serial.print("Attempting to connect to WPA SSID: ");  
+      Serial.println(ssid);  
+      // Connect to WPA/WPA2 network:  
+      status = WiFi.begin(ssid, pass);  
+    
+      // wait 10 seconds for connection:  
+      delay(10000);  
+    }  
+    
+    // you're connected now, so print out the data:  
+    Serial.print("You're connected to the network");  
+    printCurrentNet();  
+    printWifiData();  
+    
+  }  
+    
+  void loop() {  
+    // check the network connection once every 10 seconds:  
+    delay(10000);  
+    printCurrentNet();  
+  }  
+    
+  void printWifiData() {  
+    // print your WiFi shield's IP address:  
+    IPAddress ip = WiFi.localIP();  
+    Serial.print("IP Address: ");  
+    Serial.println(ip);  
+    Serial.println(ip);  
+    
+    // print your MAC address:  
+    byte mac[6];  
+    WiFi.macAddress(mac);  
+    Serial.print("MAC address: ");  
+    Serial.print(mac[0], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[1], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[2], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[3], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[4], HEX);  
+    Serial.print(":");  
+    Serial.println(mac[5], HEX);  
+  }  
+    
+  void printCurrentNet() {  
+    // print the SSID of the network you're attached to:  
+    Serial.print("SSID: ");  
+    Serial.println(WiFi.SSID());  
+    
+    // print the MAC address of the router you're attached to:  
+    byte bssid[6];  
+    WiFi.BSSID(bssid);  
+    Serial.print("BSSID: ");  
+    Serial.print(bssid[5], HEX);  
+    Serial.print(":");  
+    Serial.print(bssid[4], HEX);  
+    Serial.print(":");  
+    Serial.print(bssid[3], HEX);  
+    Serial.print(":");  
+    Serial.print(bssid[2], HEX);  
+    Serial.print(":");  
+    Serial.print(bssid[1], HEX);  
+    Serial.print(":");  
+    Serial.println(bssid[0], HEX);  
+    
+    // print the received signal strength:  
+    long rssi = WiFi.RSSI();  
+    Serial.print("signal strength (RSSI):");  
+    Serial.println(rssi);  
+        
+    // print the encryption type:  
+    byte encryption = WiFi.encryptionType();  
+    Serial.print("Encryption Type:");  
+    Serial.println(encryption, HEX);  
+    Serial.println();  
+  }  
 
-// char pass[] = "secretPassword"; // your network password
+  
+**Notes and Warnings**
 
-**char** ssid[] = "SINGTEL-D45F"; // your network SSID (name)
+NA
 
-**char** pass[] = "mooxuteeth"; // your network key
+-----
 
-**int** status = WL_IDLE_STATUS; // the Wifi radio's status
+.. method:: WiFiClass::begin
 
-**void** setup() {
 
-//Initialize serial and wait for port to open:
+**Description**
 
-Serial.begin(9600);
+Start Wifi connection for OPEN networks
 
-**while** (!Serial) {
+**Syntax**
 
-; // wait for serial port to connect. Needed for native USB port only
+.. code:: cpp
 
-}
+  int WiFiClass::begin(char* ssid)
 
-// check for the presence of the shield:
+.. code:: cpp
 
-**if** (WiFi.status() == WL_NO_SHIELD) {
+  int WiFiClass::begin(char* ssid, uint8_t key_idx, const char *key)
 
-Serial.println("WiFi shield not present");
+.. code:: cpp
 
-// don't continue:
+  int WiFiClass::begin(char* ssid, const char *passphrase)
 
-**while** (**true**);
+**Parameters**
 
-}
+``ssid`` : Pointer to the SSID string
 
-String fv = WiFi.firmwareVersion();
+``key_idx`` : The key index to set. Valid values are 0-3.
 
-**if** (fv != "1.1.0") {
+``key`` : Key input buffer.
 
-Serial.println("Please upgrade the firmware");
+``passphrase``: Passphrase. Valid characters in a passphrase must be
+between ASCII 32-126 (decimal).
 
-}
+**Returns**
 
-// attempt to connect to Wifi network:
+WiFi status
 
-**while** (status != WL_CONNECTED) {
+**Example Code**
 
-Serial.print("Attempting to connect to WPA SSID: ");
+Example: ConnectWithWPA
 
-Serial.println(ssid);
+This example demos how to connect to an unencrypted WiFi network, and
+prints the MAC address of the Wifi shield, the IP address obtained,
+and other network details. The details of the code can be found in the
+previous section of WiFiClass:: firmwareVersion.
 
-// Connect to WPA/WPA2 network:
+**Notes and Warnings**
 
-status = WiFi.begin(ssid, pass);
+NA
 
-// wait 10 seconds for connection:
+-----
 
-delay(10000);
+.. method:: WiFiClass::config
 
-}
 
-// you're connected now, so print out the data:
+**Description**
 
-Serial.print("You're connected to the network");
+Configure network settings for the WiFi network
 
-printCurrentNet();
+**Syntax**
 
-printWifiData();
+.. code:: cpp
 
-}
+  void WiFiClass::config(IPAddress local_ip)
 
-**void** loop() {
+.. code:: cpp
 
-// check the network connection once every 10 seconds:
+  void WiFiClass::config(IPAddress local_ip, IPAddress dns_server, IPAddress gateway)
 
-delay(10000);
+.. code:: cpp
 
-printCurrentNet();
+  void WiFiClass::config(IPAddress local_ip, IPAddress dns_server, IPAddress gateway, IPAddress subnet)
 
-}
+**Parameters**
 
-**void** printWifiData() {
+``local_ip`` : Local device IP address to use on the network
 
-// print your WiFi shield's IP address:
+``dns_server`` : IP address of the DNS server to use
 
-IPAddress ip = WiFi.localIP();
+``gateway`` : IP address of the gateway device on the network
 
-Serial.print("IP Address: ");
+``subnet`` : Subnet mask for the network, expressed as a IP address
 
-Serial.println(ip);
+**Returns**
 
-Serial.println(ip);
+The function returns nothing.
 
-// print your MAC address:
+**Example Code**
 
-byte mac[6];
+NA
 
-WiFi.macAddress(mac);
+**Notes and Warnings**
 
-Serial.print("MAC address: ");
+This will disable the DHCP client when connecting to a network, and
+will require the network accepts a static IP. The configured IP
+addresses will also apply to AP mode, but the DHCP server will not be
+disabled in AP mode.
 
-Serial.print(mac[0], HEX);
+-----
 
-Serial.print(":");
+.. method:: WiFiClass::setDNS
 
-Serial.print(mac[1], HEX);
 
-Serial.print(":");
+**Description**
 
-Serial.print(mac[2], HEX);
+Configure the IP address of the DNS server to use
 
-Serial.print(":");
+**Syntax**
 
-Serial.print(mac[3], HEX);
+.. code:: cpp
 
-Serial.print(":");
+  void WiFiClass::setDNS(IPAddress dns_server1)
 
-Serial.print(mac[4], HEX);
+.. code:: cpp
 
-Serial.print(":");
+  void WiFiClass::setDNS(IPAddress dns_server1, IPAddress dns_server2)
 
-Serial.println(mac[5], HEX);
+**Parameters**
 
-}
+``dns_server1``: IP address of DNS server to use
 
-**void** printCurrentNet() {
+``dns_server2`` : IP address of DNS server to use
 
-// print the SSID of the network you're attached to:
+**Returns**
 
-Serial.print("SSID: ");
+The function returns nothing.
 
-Serial.println(WiFi.SSID());
+**Example Code**
 
-// print the MAC address of the router you're attached to:
+NA
 
-byte bssid[6];
+**Notes and Warnings**
 
-WiFi.BSSID(bssid);
+NA
 
-Serial.print("BSSID: ");
+-----
 
-Serial.print(bssid[5], HEX);
+.. method:: WiFiClass::disconnect
 
-Serial.print(":");
 
-Serial.print(bssid[4], HEX);
+**Description**
 
-Serial.print(":");
+Disconnect from the network
 
-Serial.print(bssid[3], HEX);
+**Syntax**
 
-Serial.print(":");
+.. code:: cpp
 
-Serial.print(bssid[2], HEX);
+  int WiFiClass::disconnect()
 
-Serial.print(":");
+**Parameters**
 
-Serial.print(bssid[1], HEX);
+The function requires no input parameter.
 
-Serial.print(":");
+**Returns**
 
-Serial.println(bssid[0], HEX);
+The function returns one value of wl_status_t enum as an integer.
 
-// print the received signal strength:
+**Example Code**
 
-**long** rssi = WiFi.RSSI();
+NA
 
-Serial.print("signal strength (RSSI):");
+**Notes and Warnings**
 
-Serial.println(rssi);
+NA
 
-// print the encryption type:
+-----
 
-byte encryption = WiFi.encryptionType();
+.. method:: WiFiClass::macAddress
 
-Serial.print("Encryption Type:");
 
-Serial.println(encryption, HEX);
+**Description**
 
-Serial.println();
+Get the interface MAC address
 
-}
+**Syntax**
 
-| **Notes and Warnings**
-| NA
+.. code:: cpp
 
-**WiFiClass::begin**
+  uint8_t* WiFiClass::macAddress(uint8_t* mac)
 
-| **Description**
-| Start Wifi connection for OPEN networks
+**Parameters**
 
-| **Syntax**
-| int WiFiClass::begin(char\* ssid)
-| int WiFiClass::begin(char\* ssid, uint8_t key_idx, const char \*key)
-| int WiFiClass::begin(char\* ssid, const char \*passphrase)
+``mac`` : an array to store MAC address
 
-| **Parameters**
-| ssid: Pointer to the SSID string
-| key_idx: The key index to set. Valid values are 0-3.
-| key: Key input buffer.
-| passphrase: Passphrase. Valid characters in a passphrase must be
-  between ASCII 32-126 (decimal).
+**Returns**
 
-| **Returns**
-| WiFi status
+The function returns a pointer to uint8_t array with length
+WL_MAC_ADDR_LENGTH.
 
-| **Example Code**
-| Example: ConnectWithWPA
-| This example demos how to connect to an unencrypted WiFi network, and
-  prints the MAC address of the Wifi shield, the IP address obtained,
-  and other network details. The details of the code can be found in the
-  previous section of WiFiClass:: firmwareVersion.
+**Example Code**
 
-| **Notes and Warnings**
-| NA
+Example: ConnectWithWPA
 
-**WiFiClass::config**
+This example demos how to connect to an unencrypted WiFi network, and
+prints the MAC address of the Wifi shield, the IP address obtained,
+and other network details. The details of the code can be found in the
+previous section of WiFiClass:: firmwareVersion.
 
-| **Description**
-| Configure network settings for the WiFi network
+**Notes and Warnings**
 
-| **Syntax**
-| void WiFiClass::config(IPAddress local_ip)
-| void WiFiClass::config(IPAddress local_ip, IPAddress dns_server)
-| void WiFiClass::config(IPAddress local_ip, IPAddress dns_server,
-  IPAddress gateway)
-| void WiFiClass::config(IPAddress local_ip, IPAddress dns_server,
-  IPAddress gateway, IPAddress subnet)
+NA
 
- 
+------
 
-| **Parameters**
-| local_ip: Local device IP address to use on the network
-| dns_server: IP address of the DNS server to use
-| gateway: IP address of the gateway device on the network
-| subnet: Subnet mask for the network, expressed as a IP address
+.. method:: WiFiClass::localIP
 
-| **Returns**
-| The function returns nothing.
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| This will disable the DHCP client when connecting to a network, and
-  will require the network accepts a static IP. The configured IP
-  addresses will also apply to AP mode, but the DHCP server will not be
-  disabled in AP mode.
+Get the interface IP address
 
-**WiFiClass::setDNS**
+**Syntax**
 
-| **Description**
-| Configure the IP address of the DNS server to use
+.. code:: cpp
 
-| **Syntax**
-| void WiFiClass::setDNS(IPAddress dns_server1)
-| void WiFiClass::setDNS(IPAddress dns_server1, IPAddress dns_server2)
+  IPAddress WiFiClass::localIP()
 
-| **Parameters**
-| dns_server1: IP address of DNS server to use
-| dns_server2: IP address of DNS server to use
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+The function requires no input parameter.
 
-| **Example Code**
-| NA
+**Returns**
 
-| **Notes and Warnings**
-| NA
+Ip address value
 
-**WiFiClass::disconnect**
+**Example Code**
 
-| **Description**
-| Disconnect from the network
+Example: ConnectWithWPA
 
-| **Syntax**
-| int WiFiClass::disconnect()
+This example demos how to connect to an unencrypted WiFi network, and
+prints the MAC address of the Wifi shield, the IP address obtained,
+and other network details. The details of the code can be found in the
+previous section of WiFiClass:: firmwareVersion.
 
-| **Parameters**
-| The function requires no input parameter.
+**Notes and Warnings**
 
-| **Returns**
-| The function returns one value of wl_status_t enum as an integer.
+NA
 
-| **Example Code**
-| NA
+------
 
-| **Notes and Warnings**
-| NA
+.. method:: WiFiClass::subnetMask
 
-**WiFiClass::macAddress**
 
-| **Description**
-| Get the interface MAC address
+**Description**
 
-| **Syntax**
-| uint8_t\* WiFiClass::macAddress(uint8_t\* mac)
+Get the interface subnet mask address
 
-| **Parameters**
-| mac: an array to store MAC address
+**Syntax**
 
-| **Returns**
-| The function returns a pointer to uint8_t array with length
-  WL_MAC_ADDR_LENGTH.
+.. code:: cpp
 
-| **Example Code**
-| Example: ConnectWithWPA
-| This example demos how to connect to an unencrypted WiFi network, and
-  prints the MAC address of the Wifi shield, the IP address obtained,
-  and other network details. The details of the code can be found in the
-  previous section of WiFiClass:: firmwareVersion.
+  IPAddress WiFiClass::subnetMask()
 
-| **Notes and Warnings**
-| NA
+**Parameters**
 
-**WiFiClass::localIP**
+The function requires no input parameter.
 
-| **Description**
-| Get the interface IP address
+**Returns**
 
-| **Syntax**
-| IPAddress WiFiClass::localIP()
+subnet mask address value
 
-| **Parameters**
-| The function requires no input parameter.
+**Example Code**
 
-| **Returns**
-| Ip address value
+Example: ConnectNoEncryption
 
-| **Example Code**
-| Example: ConnectWithWPA
-| This example demos how to connect to an unencrypted WiFi network, and
-  prints the MAC address of the Wifi shield, the IP address obtained,
-  and other network details. The details of the code can be found in the
-  previous section of WiFiClass:: firmwareVersion.
+This example demonstrates how to connect to an unencrypted WiFi
+network and prints the MAC address of the WiFi shield, the IP address
+obtained, and other network details.
 
-| **Notes and Warnings**
-| NA
+.. code:: cpp
 
-**WiFiClass::subnetMask**
+  #include "WiFi.h"    
+  
+  // char ssid[] = "yourNetwork";     //  your network SSID (name)  
+  // char pass[] = "secretPassword";  // your network password  
+  char ssid[] = "SINGTEL-D45F";                     // your network SSID (name)  
+  char pass[] = "mooxuteeth";                         // your network key  
+  int status = WL_IDLE_STATUS;     // the Wifi radio's status  
 
-| **Description**
-| Get the interface subnet mask address
+  void setup() {  
+    //Initialize serial and wait for port to open:  
+    Serial.begin(9600);  
+    while (!Serial) {  
+      ; // wait for serial port to connect. Needed for native USB port only  
+    }  
 
-| **Syntax**
-| IPAddress WiFiClass::subnetMask()
+    // check for the presence of the shield:  
+    if (WiFi.status() == WL_NO_SHIELD) {  
+      Serial.println("WiFi shield not present");  
+      // don't continue:  
+      while (true);  
+    }  
 
-| **Parameters**
-| The function requires no input parameter.
+    String fv = WiFi.firmwareVersion();  
+    if (fv != "1.1.0") {  
+      Serial.println("Please upgrade the firmware");  
+    }  
 
-| **Returns**
-| subnet mask address value
+    // attempt to connect to Wifi network:  
+    while (status != WL_CONNECTED) {  
+      Serial.print("Attempting to connect to WPA SSID: ");  
+      Serial.println(ssid);  
+      // Connect to WPA/WPA2 network:  
+      status = WiFi.begin(ssid, pass);  
 
-| **Example Code**
-| Example: ConnectNoEncryption
-| This example demonstrates how to connect to an unencrypted WiFi
-  network and prints the MAC address of the WiFi shield, the IP address
-  obtained, and other network details.
+      // wait 10 seconds for connection:  
+      delay(10000);  
+    }  
 
-**#include <WiFi.h>**
+    // you're connected now, so print out the data:  
+    Serial.print("You're connected to the network");  
+    printCurrentNet();  
+    printWifiData();  
 
-**char** ssid[] = "SINGTEL-D45F_5G"; // the name of your network
+  }  
 
-**int** status = WL_IDLE_STATUS; // the Wifi radio's status
+  void loop() {  
+    // check the network connection once every 10 seconds:  
+    delay(10000);  
+    printCurrentNet();  
+  }  
 
-**void** setup() {
+  void printWifiData() {  
+    // print your WiFi shield's IP address:  
+    IPAddress ip = WiFi.localIP();  
+    Serial.print("IP Address: ");  
+    Serial.println(ip);  
+    Serial.println(ip);  
 
-//Initialize serial and wait for port to open:
+    // print your MAC address:  
+    byte mac[6];  
+    WiFi.macAddress(mac);  
+    Serial.print("MAC address: ");  
+    Serial.print(mac[0], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[1], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[2], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[3], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[4], HEX);  
+    Serial.print(":");  
+    Serial.println(mac[5], HEX);  
+  }  
 
-Serial.begin(9600);
+  void printCurrentNet() {  
+    // print the SSID of the network you're attached to:  
+    Serial.print("SSID: ");  
+    Serial.println(WiFi.SSID());  
 
-**while** (!Serial) {
+    // print the MAC address of the router you're attached to:  
+    byte bssid[6];  
+    WiFi.BSSID(bssid);  
+    Serial.print("BSSID: ");  
+    Serial.print(bssid[5], HEX);  
+    Serial.print(":");  
+    Serial.print(bssid[4], HEX);  
+    Serial.print(":");  
+    Serial.print(bssid[3], HEX);  
+    Serial.print(":");  
+    Serial.print(bssid[2], HEX);  
+    Serial.print(":");  
+    Serial.print(bssid[1], HEX);  
+    Serial.print(":");  
+    Serial.println(bssid[0], HEX);  
 
-; // wait for serial port to connect. Needed for native USB port only
+    // print the received signal strength:  
+    long rssi = WiFi.RSSI();  
+    Serial.print("signal strength (RSSI):");  
+    Serial.println(rssi);  
 
-}
+    // print the encryption type:  
+    byte encryption = WiFi.encryptionType();  
+    Serial.print("Encryption Type:");  
+    Serial.println(encryption, HEX);  
+    Serial.println();  
+  }  
 
-// check for the presence of the shield:
 
-**if** (WiFi.status() == WL_NO_SHIELD) {
+**Notes and Warnings**
 
-Serial.println("WiFi shield not present");
+NA
 
-// don't continue:
+-----
 
-**while** (**true**);
+.. method:: WiFiClass::gatewayIP
 
-}
 
-String fv = WiFi.firmwareVersion();
+**Description**
 
-**if** (fv != "1.1.0") {
+Get the gateway IP address
 
-Serial.println("Please upgrade the firmware");
+**Syntax**
 
-}
+.. code:: cpp
 
-// attempt to connect to Wifi network:
+  IPAddress WiFiClass::gatewayIP()
 
-**while** (status != WL_CONNECTED) {
+**Parameters**
 
-Serial.print("Attempting to connect to open SSID: ");
+The function requires no input parameter.
 
-Serial.println(ssid);
+**Returns**
 
-status = WiFi.begin(ssid);
+The function returns the value of the gateway IP address.
 
-// wait 10 seconds for connection:
+**Example Code**
 
-delay(10000);
+Example: ConnectNoEncryption
 
-}
+This example demonstrates how to connect to an unencrypted WiFi
+network and prints the MAC address of the WiFi shield, the IP address
+obtained, and other network details. Details of the code can be found
+in the section of WiFiClass:: subnetMask.
 
-// you're connected now, so print out the data:
+**Notes and Warnings**
 
-Serial.print("You're connected to the network");
+NA
 
-printCurrentNet();
+------
 
-printWifiData();
+.. method:: WiFiClass::SSID
 
-}
 
-**void** loop() {
+**Description**
 
-// check the network connection once every 10 seconds:
+Return the current SSID associated with the network
 
-delay(10000);
+**Syntax**
 
-printCurrentNet();
+.. code:: cpp
 
-}
+  char* WiFiClass::SSID()
 
-**void** printWifiData() {
+**Parameters**
 
-// print your WiFi shield's IP address:
+The function requires no input parameter.
 
-IPAddress ip = WiFi.localIP();
+**Returns**
 
-Serial.print("IP Address: ");
+The function returns current SSID associate with the network.
 
-Serial.println(ip);
+**Example Code**
 
-Serial.println(ip);
+Example: ConnectWithWPA
 
-// print your MAC address:
+This example demos how to connect to an unencrypted WiFi network, and
+prints the MAC address of the Wifi shield, the IP address obtained,
+and other network details. The details of the code can be found in the
+previous section of WiFiClass:: firmwareVersion.
 
-byte mac[6];
+**Notes and Warnings**
 
-WiFi.macAddress(mac);
+NA
 
-Serial.print("MAC address: ");
+------
 
-Serial.print(mac[0], HEX);
+.. method:: WiFiClass::BSSID
 
-Serial.print(":");
 
-Serial.print(mac[1], HEX);
+**Description**
 
-Serial.print(":");
+Return the current BSSID associated with the network
 
-Serial.print(mac[2], HEX);
+**Syntax**
 
-Serial.print(":");
+.. code:: cpp
 
-Serial.print(mac[3], HEX);
+  uint8_t* WiFiClass::BSSID(uint8_t* bssid)
 
-Serial.print(":");
+**Parameters**
 
-Serial.print(mac[4], HEX);
+``bssid`` : an array to store bssid
 
-Serial.print(":");
+**Returns**
 
-Serial.println(mac[5], HEX);
+pointer to uint8_t array with length WL_MAC_ADDR_LENGTH
 
-// print your subnet mask:
+**Example Code**
 
-IPAddress subnet = WiFi.subnetMask();
+Example: ConnectWithWPA
 
-Serial.print("NetMask: ");
+This example demos how to connect to an unencrypted WiFi network, and
+prints the MAC address of the Wifi shield, the IP address obtained,
+and other network details. The details of the code can be found in the
+previous section of WiFiClass:: firmwareVersion.
 
-Serial.println(subnet);
+**Notes and Warnings**
 
-// print your gateway address:
+NA
 
-IPAddress gateway = WiFi.gatewayIP();
+------
 
-Serial.print("Gateway: ");
+.. method:: WiFiClass::RSSI
 
-Serial.println(gateway);
 
-}
+**Description**
 
-**void** printCurrentNet() {
+Return the current RSSI (Received Signal Strength in dBm) associated
+with the network
 
-// print the SSID of the network you're attached to:
+**Syntax**
 
-Serial.print("SSID: ");
+.. code:: cpp
 
-Serial.println(WiFi.SSID());
+  int32_t WiFiClass::RSSI()
 
-// print the MAC address of the router you're attached to:
+**Parameters**
 
-byte bssid[6];
+The function requires no input parameter.
 
-WiFi.BSSID(bssid);
+**Returns**
 
-Serial.print("BSSID: ");
+The function returns a signed-value signal strength
 
-Serial.print(bssid[5], HEX);
+**Example Code**
 
-Serial.print(":");
+Example: ConnectWithWPA
 
-Serial.print(bssid[4], HEX);
+This example demos how to connect to an unencrypted WiFi network, and
+prints the MAC address of the Wifi shield, the IP address obtained,
+and other network details. The details of the code can be found in the
+previous section of WiFiClass:: firmwareVersion.
 
-Serial.print(":");
+**Notes and Warnings**
 
-Serial.print(bssid[3], HEX);
+NA
 
-Serial.print(":");
+------
 
-Serial.print(bssid[2], HEX);
+.. method:: WiFiClass::encryptionType
 
-Serial.print(":");
 
-Serial.print(bssid[1], HEX);
+**Description**
 
-Serial.print(":");
+Return the Encryption Type associated with the network
 
-Serial.println(bssid[0], HEX);
+**Syntax**
 
-// print the received signal strength:
+.. code:: cpp
 
-**long** rssi = WiFi.RSSI();
+  uint8_t WiFiClass::encryptionType()
 
-Serial.print("signal strength (RSSI):");
+**Parameters**
 
-Serial.println(rssi);
+The function requires no input parameter.
 
-// print the encryption type:
+**Returns**
 
-byte encryption = WiFi.encryptionType();
+The function returns one unsigned integer value of wl_enc_type enum.
 
-Serial.print("Encryption Type:");
+**Example Code**
 
-Serial.println(encryption, HEX);
+Example: ConnectWithWPA
 
-}
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
+NA
 
-**WiFiClass::gatewayIP**
+------
 
-| **Description**
-| Get the gateway IP address
+.. method:: WiFiClass::scanNetworks
 
-| **Syntax**
-| IPAddress WiFiClass::gatewayIP()
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns the value of the gateway IP address.
+Start scan WiFi networks available
 
-| **Example Code**
-| Example: ConnectNoEncryption
-| This example demonstrates how to connect to an unencrypted WiFi
-  network and prints the MAC address of the WiFi shield, the IP address
-  obtained, and other network details. Details of the code can be found
-  in the section of WiFiClass:: subnetMask.
+**Syntax**
 
-| **Notes and Warnings**
-| NA
+.. code:: cpp
 
-**WiFiClass::SSID**
+  int8_t WiFiClass::scanNetworks()
 
-| **Description**
-| Return the current SSID associated with the network
+**Parameters**
 
-| **Syntax**
-| char\* WiFiClass::SSID()
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| The function returns current SSID associate with the network.
+The function returns the number of discovered networks as an integer.
 
-| **Example Code**
-| Example: ConnectWithWPA
-| This example demos how to connect to an unencrypted WiFi network, and
-  prints the MAC address of the Wifi shield, the IP address obtained,
-  and other network details. The details of the code can be found in the
-  previous section of WiFiClass:: firmwareVersion.
+**Example Code**
 
-| **Notes and Warnings**
-| NA
+Example: ScanNetworks
 
-**WiFiClass::BSSID**
+This example prints the Wifi shield’s MAC address, and scans for
+available Wifi networks using the Wifi shield. Every ten seconds, it
+scans again. It doesn’t connect to any network, so no encryption
+scheme is specified.
 
-| **Description**
-| Return the current BSSID associated with the network
+.. code:: cpp
+  
+  #include "WiFi.h"    
+  
+  void setup() {  
+    //Initialize serial and wait for port to open:  
+    Serial.begin(9600);  
+    while (!Serial) {  
+      ; // wait for serial port to connect. Needed for native USB port only  
+    }  
 
-| **Syntax**
-| uint8_t\* WiFiClass::BSSID(uint8_t\* bssid)
+    // check for the presence of the shield:  
+    if (WiFi.status() == WL_NO_SHIELD) {  
+      Serial.println("WiFi shield not present");  
+      // don't continue:  
+      while (true);  
+    }  
 
-| **Parameters**
-| bssid: an array to store bssid
+    String fv = WiFi.firmwareVersion();  
+    if (fv != "1.1.0") {  
+      Serial.println("Please upgrade the firmware");  
+    }  
 
-| **Returns**
-| pointer to uint8_t array with length WL_MAC_ADDR_LENGTH
+    // Print WiFi MAC address:  
+    printMacAddress();  
+  }  
 
-| **Example Code**
-| Example: ConnectWithWPA
-| This example demos how to connect to an unencrypted WiFi network, and
-  prints the MAC address of the Wifi shield, the IP address obtained,
-  and other network details. The details of the code can be found in the
-  previous section of WiFiClass:: firmwareVersion.
+  void loop() {  
+    // scan for existing networks:  
+    Serial.println("Scanning available networks...");  
+    listNetworks();  
+    delay(10000);  
+  }  
 
-| **Notes and Warnings**
-| NA
+  void printMacAddress() {  
+    // the MAC address of your Wifi shield  
+    byte mac[6];  
 
-**WiFiClass::RSSI**
+    // print your MAC address:  
+    WiFi.macAddress(mac);  
+    Serial.print("MAC: ");  
+    Serial.print(mac[0], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[1], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[2], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[3], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[4], HEX);  
+    Serial.print(":");  
+    Serial.println(mac[5], HEX);  
+  }  
 
-| **Description**
-| Return the current RSSI (Received Signal Strength in dBm) associated
-  with the network
+  void listNetworks() {  
+    // scan for nearby networks:  
+    Serial.println("** Scan Networks **");  
+    int numSsid = WiFi.scanNetworks();  
+    if (numSsid == -1) {  
+      Serial.println("Couldn't get a wifi connection");  
+      while (true);  
+    }  
 
-| **Syntax**
-| int32_t WiFiClass::RSSI()
+    // print the list of networks seen:  
+    Serial.print("number of available networks:");  
+    Serial.println(numSsid);  
 
-| **Parameters**
-| The function requires no input parameter.
+    // print the network number and name for each network found:  
+    for (int thisNet = 0; thisNet < numSsid; thisNet++) {  
+      Serial.print(thisNet);  
+      Serial.print(") ");  
+      Serial.print(WiFi.SSID(thisNet));  
+      Serial.print("\tSignal: ");  
+      Serial.print(WiFi.RSSI(thisNet));  
+      Serial.print(" dBm");  
+      Serial.print("\tEncryptionRaw: ");  
+      printEncryptionTypeEx(WiFi.encryptionTypeEx(thisNet));  
+      Serial.print("\tEncryption: ");  
+      printEncryptionType(WiFi.encryptionType(thisNet));  
+    }  
+  }  
 
-| **Returns**
-| The function returns a signed-value signal strength
+  void printEncryptionTypeEx(uint32_t thisType) {  
+    /*  Arduino wifi api use encryption type to mapping to security type. 
+     *  This function demonstrate how to get more richful information of security type. 
+     */  
+    switch (thisType) {  
+      case SECURITY_OPEN:  
+        Serial.print("Open");  
+        break;  
+      case SECURITY_WEP_PSK:  
+        Serial.print("WEP");  
+        break;  
+      case SECURITY_WPA_TKIP_PSK:  
+        Serial.print("WPA TKIP");  
+        break;  
+      case SECURITY_WPA_AES_PSK:  
+        Serial.print("WPA AES");  
+        break;  
+      case SECURITY_WPA2_AES_PSK:  
+        Serial.print("WPA2 AES");  
+        break;  
+      case SECURITY_WPA2_TKIP_PSK:  
+        Serial.print("WPA2 TKIP");  
+        break;  
+      case SECURITY_WPA2_MIXED_PSK:  
+        Serial.print("WPA2 Mixed");  
+        break;  
+      case SECURITY_WPA_WPA2_MIXED:  
+        Serial.print("WPA/WPA2 AES");  
+        break;  
+    }  
+  }  
 
-| **Example Code**
-| Example: ConnectWithWPA
-| This example demos how to connect to an unencrypted WiFi network, and
-  prints the MAC address of the Wifi shield, the IP address obtained,
-  and other network details. The details of the code can be found in the
-  previous section of WiFiClass:: firmwareVersion.
+  void printEncryptionType(int thisType) {  
+    // read the encryption type and print out the name:  
+    switch (thisType) {  
+      case ENC_TYPE_WEP:  
+        Serial.println("WEP");  
+        break;  
+      case ENC_TYPE_TKIP:  
+        Serial.println("WPA");  
+        break;  
+      case ENC_TYPE_CCMP:  
+        Serial.println("WPA2");  
+        break;  
+      case ENC_TYPE_NONE:  
+        Serial.println("None");  
+        break;  
+      case ENC_TYPE_AUTO:  
+        Serial.println("Auto");  
+        break;  
+    }  
+  } 
 
-| **Notes and Warnings**
-| NA
 
-**WiFiClass::encryptionType**
+**Notes and Warnings**
 
-| **Description**
-| Return the Encryption Type associated with the network
+NA
 
-| **Syntax**
-| uint8_t WiFiClass::encryptionType()
+-----
 
-| **Parameters**
-| The function requires no input parameter.
+.. method:: WiFiClass::SSID
 
-| **Returns**
-| The function returns one unsigned integer value of wl_enc_type enum.
 
-| **Example Code**
-| Example: ConnectWithWPA
+**Description**
 
-| **Notes and Warnings**
-| NA
+Return the SSID discovered during the network scan
 
-**WiFiClass::scanNetworks**
+**Syntax**
 
-| **Description**
-| Start scan WiFi networks available
+.. code:: cpp
 
-| **Syntax**
-| int8_t WiFiClass::scanNetworks()
+  char* WiFiClass::SSID(uint8_t networkItem)
 
-| **Parameters**
-| The function requires no input parameter.
+**Parameters**
 
-| **Returns**
-| The function returns the number of discovered networks as an integer.
+``networkItem``: specify from which network item want to get the
+information
 
-| **Example Code**
-| Example: ScanNetworks
-| This example prints the Wifi shield’s MAC address, and scans for
-  available Wifi networks using the Wifi shield. Every ten seconds, it
-  scans again. It doesn’t connect to any network, so no encryption
-  scheme is specified.
+**Returns**
 
-**#include <WiFi.h>**
+The function returns ssid string of the specified item on the networks
+scanned a list.
 
-**void** setup() {
+**Example Code**
 
-//Initialize serial and wait for port to open:
+Example: ScanNetworks
 
-Serial.begin(9600);
+This example prints the Wifi shield’s MAC address, and scans fo
+available Wifi networks using the Wifi shield. Every ten seconds, it
+scans again. It doesn’t connect to any network, so no encryption
+scheme is specified. The details of the code can be found in the
+previous section of WiFiClass:: scanNetworks.
 
-**while** (!Serial) {
+**Notes and Warnings**
 
-; // wait for serial port to connect. Needed for native USB port only
+NA
 
-}
+------
 
-// check for the presence of the shield:
+.. method:: WiFiClass::encryptionType
 
-**if** (WiFi.status() == WL_NO_SHIELD) {
 
-Serial.println("WiFi shield not present");
+**Description**
 
-// don't continue:
+Return the encryption type of the networks discovered during the
+scanNetworks
 
-**while** (**true**);
+**Syntax**
 
-}
+.. code:: cpp
 
-String fv = WiFi.firmwareVersion();
+  uint8_t WiFiClass::encryptionType(uint8_t networkItem)
 
-**if** (fv != "1.1.0") {
+**Parameters**
 
-Serial.println("Please upgrade the firmware");
+``networkItem`` : specify from which network item want to get the
+information
 
-}
+**Returns**
 
-// Print WiFi MAC address:
+encryption type (enum wl_enc_type) of the specified item on the
+networks scanned a list
 
-printMacAddress();
+**Example Code**
 
-}
+Example: ScanNetworks
 
-**void** loop() {
+This example prints the Wifi shield’s MAC address, and scans for
+available Wifi networks using the Wifi shield. Every ten seconds, it
+scans again. It doesn’t connect to any network, so no encryption
+scheme is specified. The details of the code can be found in the
+previous section of WiFiClass:: scanNetworks.
 
-// scan for existing networks:
+**Notes and Warnings**
 
-Serial.println("Scanning available networks...");
+NA
 
-listNetworks();
+-----
 
-delay(10000);
+.. method:: WiFiClass::encryptionTypeEx
 
-}
 
-**void** printMacAddress() {
+**Description**
 
-// the MAC address of your Wifi shield
+Return the security type and encryption type of the networks
+discovered during the scanNetworks
 
-byte mac[6];
+**Syntax**
 
-// print your MAC address:
+.. code:: cpp
 
-WiFi.macAddress(mac);
+  uint32_t WiFiClass::encryptionTypeEx(uint8_t networkItem)
 
-Serial.print("MAC: ");
+**Parameters**
 
-Serial.print(mac[0], HEX);
+``networkItem`` : specify from which network item want to get th
+information
 
-Serial.print(":");
+**Returns**
 
-Serial.print(mac[1], HEX);
+security and encryption type of the specified item on the networks
+scanned a list
 
-Serial.print(":");
+**Example Code**
 
-Serial.print(mac[2], HEX);
+Example: ScanNetworks
 
-Serial.print(":");
+This example prints the Wifi shield’s MAC address, and scans for
+available Wifi networks using the Wifi shield. Every ten seconds, it
+scans again. It doesn’t connect to any network, so no encryption
+scheme is specified. The details of the code can be found in the
+previous section of WiFiClass:: scanNetworks.
 
-Serial.print(mac[3], HEX);
+**Notes and Warnings**
 
-Serial.print(":");
+NA
 
-Serial.print(mac[4], HEX);
+-----
 
-Serial.print(":");
+.. method:: WiFiClass::RSSI
 
-Serial.println(mac[5], HEX);
 
-}
+**Description**
 
-**void** listNetworks() {
+Return the RSSI of the networks discovered during the scanNetworks
 
-// scan for nearby networks:
+**Syntax**
 
-Serial.println("*\* Scan Networks \**");
+.. code:: cpp
 
-**int** numSsid = WiFi.scanNetworks();
+  int32_t WiFiClass::RSSI(uint8_t networkItem)
 
-**if** (numSsid == -1) {
+**Parameters**
 
-Serial.println("Couldn't get a wifi connection");
+``networkItem`` : specify from which network item want to get the
+information
 
-**while** (**true**);
+**Returns**
 
-}
+signed value of RSSI of the specified item on the networks scanned a
+list
 
-// print the list of networks seen:
+**Example Code**
 
-Serial.print("number of available networks:");
+Example: ScanNetworks
 
-Serial.println(numSsid);
+This example prints the Wifi shield’s MAC address, and scans for
+available Wifi networks using the Wifi shield. Every ten seconds, it
+scans again. It doesn’t connect to any network, so no encryption
+scheme is specified. The details of the code can be found in the
+previous section of WiFiClass:: scanNetworks.
 
-// print the network number and name for each network found:
+**Notes and Warnings**
 
-**for** (**int** thisNet = 0; thisNet < numSsid; thisNet++) {
+NA
 
-Serial.print(thisNet);
+-----
 
-Serial.print(") ");
+.. method:: WiFiClass::status
 
-Serial.print(WiFi.SSID(thisNet));
 
-Serial.print("\tSignal: ");
+**Description**
 
-Serial.print(WiFi.RSSI(thisNet));
+Return Connection status
 
-Serial.print(" dBm");
+**Syntax**
 
-Serial.print("\tEncryptionRaw: ");
+.. code:: cpp
 
-printEncryptionTypeEx(WiFi.encryptionTypeEx(thisNet));
+  uint8_t WiFiClass::status()
 
-Serial.print("\tEncryption: ");
+**Parameters**
 
-printEncryptionType(WiFi.encryptionType(thisNet));
+The function requires no input parameter.
 
-}
+**Returns**
 
-}
+The function returns one of the values defined in wl_status_t as an
+unsigned integer.
 
-**void** printEncryptionTypeEx(**uint32_t** thisType) {
+**Example Code**
 
-/\* Arduino wifi api use encryption type to mapping to security type.
+Example: ConnectWithWPA
 
-\* This function demonstrate how to get more richful information of
-security type.
+This example demos how to connect to an unencrypted WiFi network, and
+prints the MAC address of the Wifi shield, the IP address obtained,
+and other network details. The details of the code can be found in the
+previous section of WiFiClass:: firmwareVersion.
 
-\*/
+**Notes and Warnings**
 
-**switch** (thisType) {
+NA
 
-**case** SECURITY_OPEN:
+----
 
-Serial.print("Open");
+.. method:: WiFiClass::hostByName
 
-**break**;
+**Description**
 
-**case** SECURITY_WEP_PSK:
+Resolve the given hostname to an IP address
 
-Serial.print("WEP");
+**Syntax**
 
-**break**;
+.. code:: cpp
 
-**case** SECURITY_WPA_TKIP_PSK:
+  int WiFiClass::hostByName(const char* aHostname, IPAddress& aResult)
 
-Serial.print("WPA TKIP");
+**Parameters**
 
-**break**;
+``aHostname`` : Name to be resolved
 
-**case** SECURITY_WPA_AES_PSK:
+``aResult`` : IPAddress structure to store the returned IP address
 
-Serial.print("WPA AES");
+**Returns**
 
-**break**;
+The function returns “1” if aIPAddrString was successfully converted
+to an IP address,else otherwise, it will return as an error code.
 
-**case** SECURITY_WPA2_AES_PSK:
+**Example Code**
 
-Serial.print("WPA2 AES");
+NA
 
-**break**;
+**Notes and Warnings**
 
-**case** SECURITY_WPA2_TKIP_PSK:
+NA
 
-Serial.print("WPA2 TKIP");
+-----
 
-**break**;
+.. method:: WiFiClass::apbegin
 
-**case** SECURITY_WPA2_MIXED_PSK:
 
-Serial.print("WPA2 Mixed");
+**Description**
 
-**break**;
+Start AP mode
 
-**case** SECURITY_WPA_WPA2_MIXED:
+**Syntax**
 
-Serial.print("WPA/WPA2 AES");
+.. code:: cpp
 
-**break**;
+  int WiFiClass::apbegin(char* ssid, char* channel)
 
-}
+.. code:: cpp
 
-}
+  int WiFiClass::apbegin(char* ssid, char* password, char* channel)
 
-**void** printEncryptionType(**int** thisType) {
+**Parameters**
 
-// read the encryption type and print out the name:
+``ssid`` : SSID of the AP network
 
-**switch** (thisType) {
+``channel``: AP’s channel, default 1
 
-**case** ENC_TYPE_WEP:
+``password`` : AP’s password
 
-Serial.println("WEP");
+**Returns**
 
-**break**;
+The function will return the WiFi status.
 
-**case** ENC_TYPE_TKIP:
+**Example Code**
 
-Serial.println("WPA");
+Example: WiFiAPMode
 
-**break**;
+.. code:: cpp
 
-**case** ENC_TYPE_CCMP:
+  #include "WiFi.h"    
+  char ssid[] = "yourNetwork";  //Set the AP's SSID  
+  char pass[] = "Password";     //Set the AP's password  
+  char channel[] = "1";         //Set the AP's channel  
+  int status = WL_IDLE_STATUS;     // the Wifi radio's status  
 
-Serial.println("WPA2");
+  void setup() {  
+    //Initialize serial and wait for port to open:  
+    Serial.begin(9600);  
+    while (!Serial) {  
+      ; // wait for serial port to connect. Needed for native USB port only  
+    }  
+    // check for the presence of the shield:  
+    if (WiFi.status() == WL_NO_SHIELD) {  
+      Serial.println("WiFi shield not present");  
+      while (true);  
+    }  
+    String fv = WiFi.firmwareVersion();  
+    if (fv != "1.1.0") {  
+      Serial.println("Please upgrade the firmware");  
+    }  
 
-**break**;
+    // attempt to start AP:  
+    while (status != WL_CONNECTED) {  
+      Serial.print("Attempting to start AP with SSID: ");  
+      Serial.println(ssid);  
+      status = WiFi.apbegin(ssid, pass, channel);  
+      delay(10000);  
+    }  
 
-**case** ENC_TYPE_NONE:
+    //AP MODE already started:  
+    Serial.println("AP mode already started");  
+    Serial.println();  
+    printWifiData();  
+    printCurrentNet();  
+  }  
 
-Serial.println("None");
+  void loop() {  
+    // check the network connection once every 10 seconds:  
+    delay(10000);  
+    printCurrentNet();  
+  }  
 
-**break**;
+  void printWifiData() {  
+    // print your WiFi shield's IP address:  
+    IPAddress ip = WiFi.localIP();  
+    Serial.print("IP Address: ");  
+    Serial.println(ip);  
 
-**case** ENC_TYPE_AUTO:
+    // print your subnet mask:  
+    IPAddress subnet = WiFi.subnetMask();  
+    Serial.print("NetMask: ");  
+    Serial.println(subnet);  
 
-Serial.println("Auto");
+    // print your gateway address:  
+    IPAddress gateway = WiFi.gatewayIP();  
+    Serial.print("Gateway: ");  
+    Serial.println(gateway);  
+    Serial.println();  
+  }  
 
-**break**;
+  void printCurrentNet() {  
+    // print the SSID of the AP:  
+    Serial.print("SSID: ");  
+    Serial.println(WiFi.SSID());  
 
-}
+    // print the MAC address of AP:  
+    byte bssid[6];  
+    WiFi.BSSID(bssid);  
+    Serial.print("BSSID: ");  
+    Serial.print(bssid[0], HEX);  
+    Serial.print(":");  
+    Serial.print(bssid[1], HEX);  
+    Serial.print(":");  
+    Serial.print(bssid[2], HEX);  
+    Serial.print(":");  
+    Serial.print(bssid[3], HEX);  
+    Serial.print(":");  
+    Serial.print(bssid[4], HEX);  
+    Serial.print(":");  
+    Serial.println(bssid[5], HEX);  
+    // print the encryption type:  
+    byte encryption = WiFi.encryptionType();  
+    Serial.print("Encryption Type:");  
+    Serial.println(encryption, HEX);  
+    Serial.println();  
+  }  
 
-}
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
+NA
 
-**WiFiClass::SSID**
+------
 
-| **Description**
-| Return the SSID discovered during the network scan
+.. method:: WiFiClass::disablePowerSave
 
-| **Syntax**
-| char\* WiFiClass::SSID(uint8_t networkItem)
 
-| **Parameters**
-| networkItem: specify from which network item want to get the
-  information
+**Description**
 
-| **Returns**
-| The function returns ssid string of the specified item on the networks
-  scanned a list.
+Disable power-saving mode
 
-| **Example Code**
-| Example: ScanNetworks
-| This example prints the Wifi shield’s MAC address, and scans for
-  available Wifi networks using the Wifi shield. Every ten seconds, it
-  scans again. It doesn’t connect to any network, so no encryption
-  scheme is specified. The details of the code can be found in the
-  previous section of WiFiClass:: scanNetworks.
+**Syntax**
 
-| **Notes and Warnings**
-| NA
+.. code:: cpp
 
-**WiFiClass::encryptionType**
+  int WiFiClass::disablePowerSave()
 
-| **Description**
-| Return the encryption type of the networks discovered during the
-  scanNetworks
+**Parameters**
 
-| **Syntax**
-| uint8_t WiFiClass::encryptionType(uint8_t networkItem)
+The function requires no input parameter.
 
-| **Parameters**
-| networkItem: specify from which network item want to get the
-  information
+**Returns**
 
-| **Returns**
-| encryption type (enum wl_enc_type) of the specified item on the
-  networks scanned a list
+1 if disable success, 0 if failed
 
-| **Example Code**
-| Example: ScanNetworks
-| This example prints the Wifi shield’s MAC address, and scans for
-  available Wifi networks using the Wifi shield. Every ten seconds, it
-  scans again. It doesn’t connect to any network, so no encryption
-  scheme is specified. The details of the code can be found in the
-  previous section of WiFiClass:: scanNetworks.
+**Example Code**
 
-| **Notes and Warnings**
-| NA
+NA
 
-**WiFiClass::encryptionTypeEx**
+**Notes and Warnings**
 
-| **Description**
-| Return the security type and encryption type of the networks
-  discovered during the scanNetworks
-
-| **Syntax**
-| uint32_t WiFiClass::encryptionTypeEx(uint8_t networkItem)
-
-| **Parameters**
-| networkItem: specify from which network item want to get the
-  information
-
-| **Returns**
-| security and encryption type of the specified item on the networks
-  scanned a list
-
-| **Example Code**
-| Example: ScanNetworks
-| This example prints the Wifi shield’s MAC address, and scans for
-  available Wifi networks using the Wifi shield. Every ten seconds, it
-  scans again. It doesn’t connect to any network, so no encryption
-  scheme is specified. The details of the code can be found in the
-  previous section of WiFiClass:: scanNetworks.
-
-| **Notes and Warnings**
-| NA
-
-**WiFiClass::RSSI**
-
-| **Description**
-| Return the RSSI of the networks discovered during the scanNetworks
-
-| **Syntax**
-| int32_t WiFiClass::RSSI(uint8_t networkItem)
-
-| **Parameters**
-| networkItem: specify from which network item want to get the
-  information
-
-| **Returns**
-| signed value of RSSI of the specified item on the networks scanned a
-  list
-
-| **Example Code**
-| Example: ScanNetworks
-| This example prints the Wifi shield’s MAC address, and scans for
-  available Wifi networks using the Wifi shield. Every ten seconds, it
-  scans again. It doesn’t connect to any network, so no encryption
-  scheme is specified. The details of the code can be found in the
-  previous section of WiFiClass:: scanNetworks.
-
-| **Notes and Warnings**
-| NA
-
-**WiFiClass::status**
-
-| **Description**
-| Return Connection status
-
-| **Syntax**
-| uint8_t WiFiClass::status()
-
-| **Parameters**
-| The function requires no input parameter.
-
-| **Returns**
-| The function returns one of the values defined in wl_status_t as an
-  unsigned integer.
-
-| **Example Code**
-| Example: ConnectWithWPA
-| This example demos how to connect to an unencrypted WiFi network, and
-  prints the MAC address of the Wifi shield, the IP address obtained,
-  and other network details. The details of the code can be found in the
-  previous section of WiFiClass:: firmwareVersion.
-
-| **Notes and Warnings**
-| NA
-
-**WiFiClass::hostByName**
-
-| **Description**
-| Resolve the given hostname to an IP address
-
-| **Syntax**
-| int WiFiClass::hostByName(const char\* aHostname, IPAddress& aResult)
-
-| **Parameters**
-| aHostname: Name to be resolved
-| aResult: IPAddress structure to store the returned IP address
-
-| **Returns**
-| The function returns “1” if aIPAddrString was successfully converted
-  to an IP address,else otherwise, it will return as an error code.
-
-| **Example Code**
-| NA
-
-| **Notes and Warnings**
-| NA
-
-**WiFiClass::apbegin**
-
-| **Description**
-| Start AP mode
-
-| **Syntax**
-| int WiFiClass::apbegin(char\* ssid, char\* channel)
-| int WiFiClass::apbegin(char\* ssid, char\* password, char\* channel)
-
-| **Parameters**
-| ssid: SSID of the AP network
-| channel: AP’s channel, default 1
-| password: AP’s password
-
-| **Returns**
-| The function will return the WiFi status.
-
-| **Example Code**
-| Example: WiFiAPMode
-
-**#include**
-
-**char** ssid[] = "yourNetwork"; //Set the AP's SSID
-
-**char** pass[] = "Password"; //Set the AP's password
-
-**char** channel[] = "1"; //Set the AP's channel
-
-**int** status = WL_IDLE_STATUS; // the Wifi radio's status
-
-**void** setup() {
-
-//Initialize serial and wait for port to open:
-
-Serial.begin(9600);
-
-**while** (!Serial) {
-
-; // wait for serial port to connect. Needed for native USB port only
-
-}
-
-// check for the presence of the shield:
-
-**if** (WiFi.status() == WL_NO_SHIELD) {
-
-Serial.println("WiFi shield not present");
-
-**while** (**true**);
-
-}
-
-String fv = WiFi.firmwareVersion();
-
-**if** (fv != "1.1.0") {
-
-Serial.println("Please upgrade the firmware");
-
-}
-
-// attempt to start AP:
-
-**while** (status != WL_CONNECTED) {
-
-Serial.print("Attempting to start AP with SSID: ");
-
-Serial.println(ssid);
-
-status = WiFi.apbegin(ssid, pass, channel);
-
-delay(10000);
-
-}
-
-//AP MODE already started:
-
-Serial.println("AP mode already started");
-
-Serial.println();
-
-printWifiData();
-
-printCurrentNet();
-
-}
-
-**void** loop() {
-
-// check the network connection once every 10 seconds:
-
-delay(10000);
-
-printCurrentNet();
-
-}
-
-**void** printWifiData() {
-
-// print your WiFi shield's IP address:
-
-IPAddress ip = WiFi.localIP();
-
-Serial.print("IP Address: ");
-
-Serial.println(ip);
-
-// print your subnet mask:
-
-IPAddress subnet = WiFi.subnetMask();
-
-Serial.print("NetMask: ");
-
-Serial.println(subnet);
-
-// print your gateway address:
-
-IPAddress gateway = WiFi.gatewayIP();
-
-Serial.print("Gateway: ");
-
-Serial.println(gateway);
-
-Serial.println();
-
-}
-
-**void** printCurrentNet() {
-
-// print the SSID of the AP:
-
-Serial.print("SSID: ");
-
-Serial.println(WiFi.SSID());
-
-// print the MAC address of AP:
-
-byte bssid[6];
-
-WiFi.BSSID(bssid);
-
-Serial.print("BSSID: ");
-
-Serial.print(bssid[0], HEX);
-
-Serial.print(":");
-
-Serial.print(bssid[1], HEX);
-
-Serial.print(":");
-
-Serial.print(bssid[2], HEX);
-
-Serial.print(":");
-
-Serial.print(bssid[3], HEX);
-
-Serial.print(":");
-
-Serial.print(bssid[4], HEX);
-
-Serial.print(":");
-
-Serial.println(bssid[5], HEX);
-
-// print the encryption type:
-
-byte encryption = WiFi.encryptionType();
-
-Serial.print("Encryption Type:");
-
-Serial.println(encryption, HEX);
-
-Serial.println();
-
-}
-
-| **Notes and Warnings**
-| NA
-
-**WiFiClass::disablePowerSave**
-
-| **Description**
-| Disable power-saving mode
-
-| **Syntax**
-| int WiFiClass::disablePowerSave()
-
-| **Parameters**
-| The function requires no input parameter.
-
-| **Returns**
-| 1 if disable success, 0 if failed
-
-| **Example Code**
-| NA
-
-| **Notes and Warnings**
-| NA
+NA

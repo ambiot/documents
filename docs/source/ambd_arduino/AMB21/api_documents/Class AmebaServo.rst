@@ -1,8 +1,6 @@
 ################
 Class AmebaServo
 ################
-
-.. class:: AmebaServo()
     
 **Description**
 

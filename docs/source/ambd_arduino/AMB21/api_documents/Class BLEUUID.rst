@@ -1,12 +1,17 @@
+####################
 Class BLEUUID
-=================
-**BLEUUID Class**
+####################
 
-| **Description**
-| A class used for creating and managing UUIDs.
 
-| **Syntax**
-| class BLEUUID
+**Description**
+
+A class used for creating and managing UUIDs.
+
+**Syntax**
+
+.. code:: cpp
+
+  class BLEUUID
 
 **Members**
 
@@ -14,97 +19,151 @@ Class BLEUUID
 **Public Constructors** 
 ======================= ===============================================
 BLEUUID::BLEUUID        Create a UUID object
+======================= ===============================================
+
+======================= ===============================================
 **Public Methods**       
 BLEUUID::str            Get the character string representation of UUID
 BLEUUID::data           Get the binary representation of UUID
 BLEUUID::length         Get the length of UUID
 ======================= ===============================================
 
-**BLEUUID::BLEUUID**
+-----
 
-| **Description**
-| Create a UUID object from a UUID character string
+.. method:: BLEUUID::BLEUUID
 
-| **Syntax**
-| BLEUUID();
-| BLEUUID(const char\* str);
-| BLEUUID(uint8_t\* data, uint8_t length);
 
-| **Parameters**
-| str: UUID character string used to created object
-| data: pointer to byte array containing the desired UUID
-| length: number of bytes in array containing the desired UUID. Valid
-  values of 2, 4 or 16
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Create a UUID object from a UUID character string
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-|  
+.. code:: cpp
 
-**BLEUUID::str**
+  BLEUUID();
 
-| **Description**
-| Get the character string representation of UUID
+.. code:: cpp
 
-| **Syntax**
-| const char\* str(void);
+  BLEUUID(const char* str);
 
-| **Parameters**
-| The function requires no input parameter.
+.. code:: cpp
 
-| **Returns**
-| Pointer to a character string representation of the UUID
+  BLEUUID(uint8_t* data, uint8_t length);
 
-| **Example Code**
-| NA
+**Parameters**
 
-| **Notes and Warnings**
-|  
+``str``: UUID character string used to created object
 
-**BLEUUID::data**
+``data`` : pointer to byte array containing the desired UUID
 
-| **Description**
-| Get the binary representation of UUID
+``length`` : number of bytes in array containing the desired UUID. Valid
+values of 2, 4 or 16
 
-| **Syntax**
-| const uint8_t\* data(void);
+**Returns**
 
-| **Parameters**
-| The function requires no input parameter.
+The function returns nothing.
 
-| **Returns**
-| Pointer to an unsigned 8-bit integer array containing the UUID
-  expressed in binary form
+**Example Code**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| Returned pointer is of const uint8_t\* type and will not allow
-  changing of the data.
-|  
+**Notes and Warnings**
 
-**BLEUUID::length**
+NA
 
-| **Description**
-| Get the length of UUID
+-----
 
-| **Syntax**
-| uint8_t length(void);
+.. method:: BLEUUID::str
 
-| **Parameters**
-| The function requires no input parameter.
 
-| **Returns**
-| Length of the UUID, in terms of bytes
+**Description**
 
-| **Example Code**
-| NA
+Get the character string representation of UUID
 
-| **Notes and Warnings**
-| A 4-character UUID will be 16 bits / 2 bytes long.
-| A 32-character UUID will be 128 bits / 16 bytes long.
+**Syntax**
+
+.. code:: cpp
+
+  const char* str(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+Pointer to a character string representation of the UUID
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLEUUID::data
+
+
+**Description**
+
+Get the binary representation of UUID
+
+**Syntax**
+
+.. code:: cpp
+
+  const uint8_t* data(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+Pointer to an unsigned 8-bit integer array containing the UUID
+expressed in binary form
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Returned pointer is of const uint8_t\* type and will not allow
+changing of the data.
+
+----
+
+.. method:: BLEUUID::length
+
+
+**Description**
+
+Get the length of UUID
+
+**Syntax**
+
+.. code:: cpp
+
+  uint8_t length(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+Length of the UUID, in terms of bytes
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+A 4-character UUID will be 16 bits / 2 bytes long.
+A 32-character UUID will be 128 bits / 16 bytes long.

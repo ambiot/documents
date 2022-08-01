@@ -2,9 +2,6 @@
 Class BLEAdvertData
 ###################
 
-.. class:: BLEAdvertData
-
-
 **Description**
 
 A class used for managing BLE advertising data.

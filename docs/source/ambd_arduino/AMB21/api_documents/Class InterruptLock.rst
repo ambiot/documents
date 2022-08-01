@@ -1,8 +1,6 @@
+####################
 Class InterruptLock
-========================
-
-.. class:: InterruptLock
-
+####################
 
 **Description**
 

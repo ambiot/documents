@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-10 10:15+0100\n"
+"POT-Creation-Date: 2022-07-27 10:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,26 +17,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.1\n"
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLERemoteService.rst:2
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLERemoteService.rst:3
 msgid "Class BLERemoteService"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLERemoteService.rst:7
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLERemoteService.rst:5
 #: BLERemoteService.rst:38 BLERemoteService.rst:69
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLERemoteService.rst:9
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLERemoteService.rst:7
 msgid "A class used for managing BLE GATT services on connected remote devices."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLERemoteService.rst:11
+#: ../../source/ambd_arduino/AMB21/api_documents/Class BLERemoteService.rst:9
 #: BLERemoteService.rst:42 BLERemoteService.rst:73
 msgid "**Syntax**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class BLERemoteService.rst:13
-msgid "class BLERemoteService"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class BLERemoteService.rst:15
@@ -153,5 +149,8 @@ msgstr ""
 #~ "uuid: the desired characteristic UUID, "
 #~ "expressed as a character array or "
 #~ "a BLEUUID object."
+#~ msgstr ""
+
+#~ msgid "class BLERemoteService"
 #~ msgstr ""
 

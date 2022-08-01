@@ -1,13 +1,18 @@
+##############################
 Class BLERemoteCharacteristic
-==============================
-**BLERemoteCharacteristic Class**
+##############################
 
-| **Description**
-| A class used for managing BLE GATT characteristics on connected remote
-  devices.
 
-| **Syntax**
-| class BLERemoteCharacteristic
+**Description**
+
+A class used for managing BLE GATT characteristics on connected remote
+devices.
+
+**Syntax**
+
+.. code:: cpp
+
+  class BLERemoteCharacteristic
 
 **Members**
 
@@ -93,503 +98,728 @@ Class BLERemoteCharacteristic
 | haracteristic::setNotifyCallback | notification callback            |
 +----------------------------------+----------------------------------+
 
-**BLERemoteCharacteristic::getDescriptor**
+-----
 
-| **Description**
-| Get a descriptor with the specified UUID on the remote device.
+.. method:: BLERemoteCharacteristic::getDescriptor
 
-| **Syntax**
-| BLERemoteDescriptor\* getDescriptor(const char\* uuid);
-| BLERemoteDescriptor\* getDescriptor(BLEUUID uuid);
+**Description**
 
-| **Parameters**
-| uuid: the desired descriptor UUID, expressed as a character array or a
-  BLEUUID object
+Get a descriptor with the specified UUID on the remote device.
 
-| **Returns**
-| The function returns the found descriptor as a BLERemoteDescriptor
-  object pointer, otherwise nullptr is returned if a descriptor with the
-  UUID is not found.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
-|  
+  BLERemoteDescriptor* getDescriptor(const char* uuid);
 
-**BLERemoteCharacteristic::getUUID**
+.. code:: cpp
 
-| **Description**
-| Get the characteristic UUID.
+  BLERemoteDescriptor* getDescriptor(BLEUUID uuid);
 
-| **Syntax**
-| BLEUUID getUUID();
+**Parameters**
 
-| **Parameters**
-| The function requires no input parameter.
+``uuid`` : the desired descriptor UUID, expressed as a character array or a BLEUUID object
 
-| **Returns**
-| The function returns the characteristic UUID as a BLEUUID class
-  object.
+**Returns**
 
-| **Example Code**
-| NA
+The function returns the found descriptor as a BLERemoteDescriptor
+object pointer, otherwise nullptr is returned if a descriptor with the
+UUID is not found.
 
-| **Notes and Warnings**
-| NA
-|  
+**Example Code**
 
-**BLERemoteCharacteristic::setBufferLen**
+NA
 
-| **Description**
-| Set the size of the internal data buffer of the characteristic.
+**Notes and Warnings**
 
-| **Syntax**
-| void setBufferLen(uint16_t max_len);
+NA
 
-| **Parameters**
-| max_len: number of bytes to resize the internal buffer to.
+-----
 
-| **Returns**
-| The function returns nothing.
 
-| **Example Code**
-| Example: BLEUartClient
+.. method:: BLERemoteCharacteristic::getUUID
 
-| **Notes and Warnings**
-| Characteristic data buffer has a default size of 20 bytes and can be
-  increased up to 230 bytes.
-|  
+**Description**
 
-**BLERemoteCharacteristic::getBufferLen**
+Get the characteristic UUID.
 
-| **Description**
-| Get the size of the characteristic internal buffer.
+**Syntax**
 
-| **Syntax**
-| uint16_t getBufferLen();
+.. code:: cpp
 
-| **Parameters**
-| The function requires no input parameter.
+  BLEUUID getUUID();
 
-| **Returns**
-| The function returns the currently set internal buffer size.
+**Parameters**
 
-| **Example Code**
-| NA
+The function requires no input parameter.
 
-| **Notes and Warnings**
-| NA
-|  
+**Returns**
 
-**BLERemoteCharacteristic::canRead**
+The function returns the characteristic UUID as a BLEUUID class
+object.
 
-| **Description**
-| Determine if characteristic has read property enabled.
+**Example Code**
 
-| **Syntax**
-| bool canRead();
+NA
 
-| **Parameters**
-| The function requires no input parameter.
+**Notes and Warnings**
 
-| **Returns**
-| The function returns TRUE if the read property for the characteristic
-  is enabled.
+NA
 
-| **Example Code**
-| NA
+-----
 
-| **Notes and Warnings**
-| NA
-|  
+.. method:: BLERemoteCharacteristic::setBufferLen
 
-**BLERemoteCharacteristic::canWrite**
 
-| **Description**
-| Determine if characteristic has write property enabled.
+**Description**
 
-| **Syntax**
-| bool canWrite();
+Set the size of the internal data buffer of the characteristic.
 
-| **Parameters**
-| The function requires no input parameter.
+**Syntax**
 
-| **Returns**
-| The function returns TRUE if the write property for the characteristic
-  is enabled.
+.. code:: cpp
 
-| **Example Code**
-| NA
+  void setBufferLen(uint16_t max_len);
 
-| **Notes and Warnings**
-| NA
-|  
+**Parameters**
 
-**BLERemoteCharacteristic::canNotify**
+``max_len`` : number of bytes to resize the internal buffer to.
 
-| **Description**
-| Determine if characteristic has notify property enabled.
+**Returns**
 
-| **Syntax**
-| bool canNotify();
+The function returns nothing.
 
-| **Parameters**
-| The function requires no input parameter.
+**Example Code**
 
-| **Returns**
-| The function returns TRUE if the notify property for the
-  characteristic is enabled.
+Example: BLEUartClient
 
-| **Example Code**
-| NA
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
-|  
+Characteristic data buffer has a default size of 20 bytes and can be
+increased up to 230 bytes.
 
-**BLERemoteCharacteristic::canIndicate**
+-----
 
-| **Description**
-| Determine if characteristic has indicate property enabled.
+.. method:: BLERemoteCharacteristic::getBufferLen
 
-| **Syntax**
-| bool canIndicate();
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+Get the size of the characteristic internal buffer.
 
-| **Returns**
-| The function returns TRUE if the indicate property for the
-  characteristic is enabled.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
-|  
+  uint16_t getBufferLen();
 
-**BLERemoteCharacteristic::getProperties**
+**Parameters**
 
-| **Description**
-| Get the characteristic properties.
+The function requires no input parameter.
 
-| **Syntax**
-| uint16_t getProperties();
+**Returns**
 
-| **Parameters**
-| The function requires no input parameter.
+The function returns the currently set internal buffer size.
 
-| **Returns**
-| The function returns the characteristic properties.
+**Example Code**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| NA
-|  
+**Notes and Warnings**
 
-**BLERemoteCharacteristic::readString**
+NA
 
-| **Description**
-| Request for characteristic data from the remote device and read the
-  data in the buffer, expressed as a String class object.
+-----
 
-| **Syntax**
-| String readString();
+.. method:: BLERemoteCharacteristic::canRead
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns the data in the characteristic buffer expressed
-  as a String class object.
+Determine if characteristic has read property enabled.
 
-| **Example Code**
-| Example: BLEUartClient
+**Syntax**
 
-| **Notes and Warnings**
-| NA
-|  
+.. code:: cpp
 
-**BLERemoteCharacteristic::readData8**
+  bool canRead();
 
-| **Description**
-| Request for characteristic data from the remote device and read the
-  data in the buffer, expressed as an unsigned 8-bit integer.
+**Parameters**
 
-| **Syntax**
-| uint8_t readData8();
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| The function returns the data in the characteristic buffer expressed
-  as a uint8_t value.
+The function returns TRUE if the read property for the characteristic
+is enabled.
 
-| **Example Code**
-| Example: BLEBatteryClient
+**Example Code**
 
-| **Notes and Warnings**
-| NA
-|  
+NA
 
-**BLERemoteCharacteristic::readData16**
+**Notes and Warnings**
 
-| **Description**
-| Request for characteristic data from the remote device and read the
-  data in the buffer, expressed as an unsigned 16-bit integer.
+NA
 
-| **Syntax**
-| uint16_t readData16();
+-----
 
-| **Parameters**
-| The function requires no input parameter.
 
-| **Returns**
-| The function returns the data in the characteristic buffer expressed
-  as a uint16_t value.
+.. method:: BLERemoteCharacteristic::canWrite
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| NA
-|  
+Determine if characteristic has write property enabled.
 
-**BLERemoteCharacteristic::readData32**
+**Syntax**
 
-| **Description**
-| Request for characteristic data from the remote device and read the
-  data in the buffer, expressed as an unsigned 32-bit integer.
+.. code:: cpp
 
-| **Syntax**
-| uint32_t readData32();
+  bool canWrite();
 
-| **Parameters**
-| The function requires no input parameter.
+**Parameters**
 
-| **Returns**
-| The function returns the data in the characteristic buffer expressed
-  as a uint32_t value.
+The function requires no input parameter.
 
-| **Example Code**
-| NA
+**Returns**
 
-| **Notes and Warnings**
-| NA
-|  
+The function returns TRUE if the write property for the characteristic
+is enabled.
 
-**BLERemoteCharacteristic::writeString**
+**Example Code**
 
-| **Description**
-| Write data to the remote device characteristic as a String object or
-  character array.
+NA
 
-| **Syntax**
-| bool writeString(String str);
-| bool writeString(const char\* str);
+**Notes and Warnings**
 
-| **Parameters**
-| str: the data to write to the remote characteristic, expressed as a
-  String class object or a char array.
+NA
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+-----
 
-| **Example Code**
-| NA
 
-| **Notes and Warnings**
-| NA
-|  
+.. method:: BLERemoteCharacteristic::canNotify
+
+**Description**
+
+Determine if characteristic has notify property enabled.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool canNotify();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns TRUE if the notify property for the
+
+characteristic is enabled.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteCharacteristic::canIndicate
+
+
+**Description**
+
+Determine if characteristic has indicate property enabled.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool canIndicate();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns TRUE if the indicate property for the
+characteristic is enabled.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+
+.. method:: BLERemoteCharacteristic::getProperties
+
+**Description**
+
+Get the characteristic properties.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint16_t getProperties();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the characteristic properties.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+------
+
+
+.. method:: BLERemoteCharacteristic::readString
+
+**Description**
+
+Request for characteristic data from the remote device and read the
+data in the buffer, expressed as a String class object.
+
+**Syntax**
+
+.. code:: cpp
+
+  String readString();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the data in the characteristic buffer expressed
+as a String class object.
+
+**Example Code**
+
+Example: BLEUartClient
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteCharacteristic::readData8
+
+
+**Description**
+
+Request for characteristic data from the remote device and read the
+data in the buffer, expressed as an unsigned 8-bit integer.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint8_t readData8();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the data in the characteristic buffer expressed
+as a uint8_t value.
+
+**Example Code**
+
+Example: BLEBatteryClient
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+BLERemoteCharacteristic::readData16
+
+**Description**
+
+Request for characteristic data from the remote device and read the
+data in the buffer, expressed as an unsigned 16-bit integer.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint16_t readData16();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the data in the characteristic buffer expressed
+as a uint16_t value.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+
+.. method:: BLERemoteCharacteristic::readData32
+
+**Description**
+
+Request for characteristic data from the remote device and read the
+data in the buffer, expressed as an unsigned 32-bit integer.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint32_t readData32();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the data in the characteristic buffer expressed
+as a uint32_t value.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteCharacteristic::writeString
+
+**Description**
+
+Write data to the remote device characteristic as a String object or
+character array.
+
+**Syntax**
+
+.. code:: cpp
+
+  bool writeString(String str);
+
+.. code:: cpp
+
+  bool writeString(const char* str);
+
+**Parameters**
+
+``str`` : the data to write to the remote characteristic, expressed as a
+String class object or a char array.
+
+**Returns**
+
+The function returns TRUE if write data is successful.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+----
 
 **BLERemoteCharacteristic::writeData8**
 
-| **Description**
-| Write data to the remote device characteristic as an unsigned 8-bit
-  integer.
 
-| **Syntax**
-| bool writeData8(uint8_t num);
+**Description**
 
-| **Parameters**
-| num: the data to write to the characteristic buffer expressed as an
-  unsigned 8-bit integer.
+Write data to the remote device characteristic as an unsigned 8-bit
+integer.
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
-|  
+  bool writeData8(uint8_t num);
 
-**BLERemoteCharacteristic::writeData16**
+**Parameters**
 
-| **Description**
-| Write data to the remote device characteristic as an unsigned 16-bit
-  integer.
+``num`` : the data to write to the characteristic buffer expressed as an
+unsigned 8-bit integer.
 
-| **Syntax**
-| bool writeData16(uint16_t num);
+**Returns**
 
-| **Parameters**
-| num: the data to write to the characteristic buffer expressed as an
-  unsigned 16-bit integer.
+The function returns TRUE if write data is successful.
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+**Example Code**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| NA
-|  
+**Notes and Warnings**
 
-**BLERemoteCharacteristic::writeData32**
+NA
 
-| **Description**
-| Write data to the remote device characteristic as a 32-bit integer.
+-----
 
-| **Syntax**
-| bool writeData32(uint32_t num);
-| bool writeData32(int num);
+.. method:: BLERemoteCharacteristic::writeData16
 
-| **Parameters**
-| num: the data to write to the characteristic buffer expressed as a
-  32-bit integer.
+**Description**
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+Write data to the remote device characteristic as an unsigned 16-bit
+integer.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
-|  
+.. code:: cpp
 
-**BLERemoteCharacteristic::setData**
+  bool writeData16(uint16_t num);
 
-| **Description**
-| Write data to the remote device characteristic.
+**Parameters**
 
-| **Syntax**
-| bool setData(uint8_t\* data, uint16_t datalen);
+``num`` : the data to write to the characteristic buffer expressed as an
+unsigned 16-bit integer.
 
-| **Parameters**
-| data: pointer to byte array containing desired data
-| datalen: number of bytes of data to write
+**Returns**
 
-| **Returns**
-| The function returns TRUE if write data is successful.
+The function returns TRUE if write data is successful.
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| NA
-|  
+NA
 
-**BLERemoteCharacteristic::getData**
+**Notes and Warnings**
 
-| **Description**
-| Request for characteristic data from the remote device and read the
-  data in the buffer.
+NA
 
-| **Syntax**
-| uint16_t getData(uint8_t\* data, uint16_t datalen);
+-----
 
-| **Parameters**
-| data: pointer to byte array to save data read from buffer
-| datalen: number of bytes of data to read
+.. method:: BLERemoteCharacteristic::writeData32
 
-| **Returns**
-| The function returns the number of bytes read.
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| If the data buffer contains less data than requested, it will only
-  read the available number of bytes of data.
-|  
+Write data to the remote device characteristic as a 32-bit integer.
 
-**BLERemoteCharacteristic::enableNotifyIndicate**
+**Syntax**
 
-| **Description**
-| Enable the remote device to send notifications or indications for the
-  characteristic.
+.. code:: cpp
 
-| **Syntax**
-| void enableNotifyIndicate(bool notify = 1);
+  bool writeData32(uint32_t num);
 
-| **Parameters**
-| notify: TRUE to enable notifications, FALSE to enable indications.
+.. code:: cpp
 
-| **Returns**
-| The function returns nothing.
+  bool writeData32(int num);
 
-| **Example Code**
-| Example: BLEUartClient
+**Parameters**
 
-| **Notes and Warnings**
-| NA
-|  
+``num`` : the data to write to the characteristic buffer expressed as a
+32-bit integer.
 
-**BLERemoteCharacteristic::disableNotifyIndicate**
+**Returns**
 
-| **Description**
-| Disable receiving notifications and indications for the characteristic
-  from the remote device.
+The function returns TRUE if write data is successful.
 
-| **Syntax**
-| void disableNotifyIndicate();
+**Example Code**
 
-| **Parameters**
-| The function requires no input parameter.
+NA
 
-| **Returns**
-| The function returns nothing.
+**Notes and Warnings**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| NA
-|  
+-----
 
-**BLERemoteCharacteristic::setNotifyCallback**
+.. method:: BLERemoteCharacteristic::setData
 
-| **Description**
-| Set a user function to be called when the characteristic receives a
-  notification from the remote device.
+**Description**
 
-| **Syntax**
-| void setNotifyCallback(void (\*fCallback) (BLERemoteCharacteristic\*
-  chr, uint8_t\* data, uint16_t length));
+Write data to the remote device characteristic.
 
-| **Parameters**
-| fCallback: A user callback function that returns void and takes three
-  arguments.
-| chr: pointer to BLERemoteCharacteristic object associated with
-  notification.
-| data: pointer to byte array containing notification data.
-| length: number of bytes of notification data in array.
+**Syntax**
 
-| **Returns**
-| The function returns nothing.
+.. code:: cpp
 
-| **Example Code**
-| Example: BLEUartClient
+  bool setData(uint8_t* data, uint16_t datalen);
 
-| **Notes and Warnings**
-| NA
+**Parameters**
+
+``data`` : pointer to byte array containing desired data
+
+``datalen`` : number of bytes of data to write
+
+**Returns**
+
+The function returns TRUE if write data is successful.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteCharacteristic::getData
+
+**Description**
+
+Request for characteristic data from the remote device and read the
+data in the buffer.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint16_t getData(uint8_t* data, uint16_t datalen);
+
+**Parameters**
+
+``data``: pointer to byte array to save data read from buffer
+
+``datalen`` : number of bytes of data to read
+
+**Returns**
+
+The function returns the number of bytes read.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+If the data buffer contains less data than requested, it will only
+read the available number of bytes of data.
+
+-----
+
+.. method:: BLERemoteCharacteristic::enableNotifyIndicate
+
+
+**Description**
+
+Enable the remote device to send notifications or indications for the
+characteristic.
+
+**Syntax**
+
+.. code:: cpp
+
+  void enableNotifyIndicate(bool notify = 1);
+
+**Parameters**
+
+``notify`` : TRUE to enable notifications, FALSE to enable indications.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEUartClient
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteCharacteristic::disableNotifyIndicate
+
+
+**Description**
+
+Disable receiving notifications and indications for the characteristic
+from the remote device.
+
+**Syntax**
+
+.. code:: cpp
+
+  void disableNotifyIndicate();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLERemoteCharacteristic::setNotifyCallback
+
+**Description**
+
+Set a user function to be called when the characteristic receives a
+notification from the remote device.
+
+**Syntax**
+
+.. code:: cpp
+  
+  void setNotifyCallback(void (*fCallback) (BLERemoteCharacteristic* chr, uint8_t* data, uint16_t length));
+
+**Parameters**
+
+``fCallback`` : A user callback function that returns void and takes three
+arguments.
+
+``chr``: pointer to BLERemoteCharacteristic object associated with
+notification.
+
+``data``: pointer to byte array containing notification data.
+
+``length``: number of bytes of notification data in array.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEUartClient
+
+**Notes and Warnings**
+
+NA

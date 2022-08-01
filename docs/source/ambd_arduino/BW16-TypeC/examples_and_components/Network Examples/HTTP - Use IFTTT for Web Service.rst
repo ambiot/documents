@@ -1,0 +1,1 @@
+.. include:: ../../../examples/network/HTTP - Use IFTTT for Web Service.rst

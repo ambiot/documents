@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-14 03:55+0100\n"
+"POT-Creation-Date: 2022-07-22 08:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,607 +22,636 @@ msgid "Release History"
 msgstr "版本記錄"
 
 #: ../../source/ambd_arduino/release_history.rst:5
-msgid "**Version 3.1.2 - 2021/12/28**"
+msgid "**Version 3.1.3 - 2022/06/29**"
 msgstr ""
 
 #: ../../source/ambd_arduino/release_history.rst:7
-#: ../../source/ambd_arduino/release_history.rst:26
-#: ../../source/ambd_arduino/release_history.rst:65
-#: ../../source/ambd_arduino/release_history.rst:109
-#: ../../source/ambd_arduino/release_history.rst:125
-#: ../../source/ambd_arduino/release_history.rst:151
-#: ../../source/ambd_arduino/release_history.rst:174
-#: ../../source/ambd_arduino/release_history.rst:185
-#: ../../source/ambd_arduino/release_history.rst:200
-#: ../../source/ambd_arduino/release_history.rst:214
-#: ../../source/ambd_arduino/release_history.rst:223
-#: ../../source/ambd_arduino/release_history.rst:232
-#: ../../source/ambd_arduino/release_history.rst:241
-#: ../../source/ambd_arduino/release_history.rst:251
+#: ../../source/ambd_arduino/release_history.rst:24
+#: ../../source/ambd_arduino/release_history.rst:43
+#: ../../source/ambd_arduino/release_history.rst:82
+#: ../../source/ambd_arduino/release_history.rst:126
+#: ../../source/ambd_arduino/release_history.rst:142
+#: ../../source/ambd_arduino/release_history.rst:168
+#: ../../source/ambd_arduino/release_history.rst:191
+#: ../../source/ambd_arduino/release_history.rst:202
+#: ../../source/ambd_arduino/release_history.rst:217
+#: ../../source/ambd_arduino/release_history.rst:231
+#: ../../source/ambd_arduino/release_history.rst:240
+#: ../../source/ambd_arduino/release_history.rst:249
+#: ../../source/ambd_arduino/release_history.rst:258
+#: ../../source/ambd_arduino/release_history.rst:268
 msgid "Feature:"
 msgstr "新特性："
 
 #: ../../source/ambd_arduino/release_history.rst:9
+msgid ""
+"Add WS2812B Library and examples - Add examples (WS2812B_Basics and "
+"WS2812B_Patterns)"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:11
+msgid ""
+"Add USBD Features and examples - Support for USB CDC ACM device - Support"
+" for USB HID device - Add examples (USBCDCSerial, USBHIDKeyboard, "
+"USBHIDMouse and USBHIDGamepad)"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:15
+msgid ""
+"Fix for Iphone hotspot SSIDs - Add in examples for using UTF-8 encoding "
+"to connect to Iphone hotspots using non-ASCII SSIDs - Update examples "
+"(ConnectNoEncryption, ConnectWithWE, ConnectWithWPA and WiFiAPMode.ino)"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:18
+msgid "Remove example IBM_Watson"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:22
+msgid "**Version 3.1.2 - 2021/12/28**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:26
 msgid "Update SimpleWebServerWiFi example"
 msgstr "更新示例 SimpleWebServerWiFi"
 
-#: ../../source/ambd_arduino/release_history.rst:10
+#: ../../source/ambd_arduino/release_history.rst:27
 msgid "Support BW16"
 msgstr "支援 BW16 開發板"
 
-#: ../../source/ambd_arduino/release_history.rst:12
-#: ../../source/ambd_arduino/release_history.rst:34
-#: ../../source/ambd_arduino/release_history.rst:76
-#: ../../source/ambd_arduino/release_history.rst:113
-#: ../../source/ambd_arduino/release_history.rst:129
-#: ../../source/ambd_arduino/release_history.rst:141
-#: ../../source/ambd_arduino/release_history.rst:161
+#: ../../source/ambd_arduino/release_history.rst:29
+#: ../../source/ambd_arduino/release_history.rst:51
+#: ../../source/ambd_arduino/release_history.rst:93
+#: ../../source/ambd_arduino/release_history.rst:130
+#: ../../source/ambd_arduino/release_history.rst:146
+#: ../../source/ambd_arduino/release_history.rst:158
+#: ../../source/ambd_arduino/release_history.rst:178
 msgid "API Updates:"
 msgstr "API 更新:"
 
-#: ../../source/ambd_arduino/release_history.rst:14
+#: ../../source/ambd_arduino/release_history.rst:31
 #, fuzzy
 msgid "Update Wlan related naming from \"AmebaWiFi\" become \"WiFi\""
 msgstr "更新 WLAN 名稱，從 “AmebaWiFi” 變成 “WiFi”"
 
-#: ../../source/ambd_arduino/release_history.rst:15
+#: ../../source/ambd_arduino/release_history.rst:32
 msgid "Update RTC library for minor bug fix"
 msgstr "更新 RTC 庫，少量bug修復"
 
-#: ../../source/ambd_arduino/release_history.rst:17
-#: ../../source/ambd_arduino/release_history.rst:55
+#: ../../source/ambd_arduino/release_history.rst:34
+#: ../../source/ambd_arduino/release_history.rst:72
 msgid "Misc:"
 msgstr "其他:："
 
-#: ../../source/ambd_arduino/release_history.rst:19
+#: ../../source/ambd_arduino/release_history.rst:36
 msgid "Update all Fritzing files for new name updates"
 msgstr "更新 Fritzing 文件適用新名稱"
 
-#: ../../source/ambd_arduino/release_history.rst:20
+#: ../../source/ambd_arduino/release_history.rst:37
 msgid "AMB21, AMB22, AMB23, and BW16"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:24
+#: ../../source/ambd_arduino/release_history.rst:41
 msgid "**Version 3.1.1 - 2021/12/25**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:28
+#: ../../source/ambd_arduino/release_history.rst:45
 msgid "Add BLE HID and examples"
 msgstr "添加 BLE HID 示例"
 
-#: ../../source/ambd_arduino/release_history.rst:29
+#: ../../source/ambd_arduino/release_history.rst:46
 msgid "BLEHIDGamepad, BLEHIDKeyboard, and BLEHIDMouse"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:30
+#: ../../source/ambd_arduino/release_history.rst:47
 msgid "Update PowerSave examples"
 msgstr "更新 PowerSave"
 
-#: ../../source/ambd_arduino/release_history.rst:31
+#: ../../source/ambd_arduino/release_history.rst:48
 msgid "Support RTL8722DM MINI and RTL8720DN/BW16"
 msgstr "支援 RTL8722DM MINI 和 RTL8720DN/BW16"
 
-#: ../../source/ambd_arduino/release_history.rst:32
+#: ../../source/ambd_arduino/release_history.rst:49
 msgid "Enable LwIP hostname edit"
 msgstr "支援對 LwIP 的 hostname 做更改"
 
-#: ../../source/ambd_arduino/release_history.rst:36
+#: ../../source/ambd_arduino/release_history.rst:53
 msgid "Update API for PowerSave"
 msgstr "PowerSave API 更新:"
 
-#: ../../source/ambd_arduino/release_history.rst:37
+#: ../../source/ambd_arduino/release_history.rst:54
 msgid "Update ameba_d_tools 1.0.7 for all 3 platforms"
 msgstr "更新 ameba_d_tools 1.0.7 適用與 3 平臺"
 
-#: ../../source/ambd_arduino/release_history.rst:38
+#: ../../source/ambd_arduino/release_history.rst:55
 msgid "Support RTL8720DN/BW16 and RTL8722DM MINI"
 msgstr "支援 RTL8720DN/BW16 and RTL8722DM MINI"
 
-#: ../../source/ambd_arduino/release_history.rst:39
+#: ../../source/ambd_arduino/release_history.rst:56
 msgid "Add more Aon wake up pins"
 msgstr "添加更多 Aon wake up pin"
 
-#: ../../source/ambd_arduino/release_history.rst:40
+#: ../../source/ambd_arduino/release_history.rst:57
 msgid "Update API for IR"
 msgstr "更新 IR"
 
-#: ../../source/ambd_arduino/release_history.rst:41
+#: ../../source/ambd_arduino/release_history.rst:58
 msgid "Removed requirement to define both IR TX and RX pins in IRDevice::begin"
 msgstr "IRDevice：：begin 裡面刪除對與 TX 和 RX 的要求。 "
 
-#: ../../source/ambd_arduino/release_history.rst:42
+#: ../../source/ambd_arduino/release_history.rst:59
 msgid ""
 "Removed previous limit on number of time durations IRDevice::send can "
 "accept"
 msgstr "IRDevice：：send 刪除對與時間的限制"
 
-#: ../../source/ambd_arduino/release_history.rst:43
+#: ../../source/ambd_arduino/release_history.rst:60
 msgid "Update GPIO Int"
 msgstr "更新 GPIO Int"
 
-#: ../../source/ambd_arduino/release_history.rst:44
+#: ../../source/ambd_arduino/release_history.rst:61
 msgid "Enable INPUT_IRQ_CHANGE"
 msgstr "支援 INPUT_IRQ_CHANGE"
 
-#: ../../source/ambd_arduino/release_history.rst:45
+#: ../../source/ambd_arduino/release_history.rst:62
 msgid ""
 "Add definition inside wiring_constants.h and wiring_digital.c, also "
 "complete the TODO part for attachInterrupt() as well"
 msgstr "添加說明和支援 attachInterrupt（）"
 
-#: ../../source/ambd_arduino/release_history.rst:46
+#: ../../source/ambd_arduino/release_history.rst:63
 msgid "Update UART, for RTL8720DN/BW16 not showing log issue"
 msgstr "更新 UART，修復 RTL8720DN/BW16 看不到 log 的問題"
 
-#: ../../source/ambd_arduino/release_history.rst:47
+#: ../../source/ambd_arduino/release_history.rst:64
 msgid ""
 "Fix wrong attribute permissions for characteristic CCCD descriptor. "
 "Remove unused variable warnings"
 msgstr "修復對於 characteristic CCCD descriptor 錯誤的權限"
 
-#: ../../source/ambd_arduino/release_history.rst:48
+#: ../../source/ambd_arduino/release_history.rst:65
 msgid "Update GTimer, for the internal timer ID validation test"
 msgstr "更新 GTimer，適用與timer ID的調試"
 
-#: ../../source/ambd_arduino/release_history.rst:49
+#: ../../source/ambd_arduino/release_history.rst:66
 msgid "Updated SPI connection for RTL8720DN/BW16"
 msgstr "更新SPI，適配 RTL8720DN/BW16"
 
-#: ../../source/ambd_arduino/release_history.rst:50
+#: ../../source/ambd_arduino/release_history.rst:67
 msgid "Update Google_Cloud_IoT example with new Google TLS cert"
 msgstr "更新示例 Google_Cloud_IoT 裡面的 Google TLS cert"
 
-#: ../../source/ambd_arduino/release_history.rst:51
+#: ../../source/ambd_arduino/release_history.rst:68
 msgid "Update Analog Pin remove A0 and A1"
 msgstr "更新 Analog Pin， 刪除 A0 和 A1"
 
-#: ../../source/ambd_arduino/release_history.rst:52
+#: ../../source/ambd_arduino/release_history.rst:69
 msgid ""
 "Update Platform.txt for Windows OS with User Name having a space in "
 "between"
 msgstr "更新 Platform.txt 適用於在 Windows OS 上 使用者名中間有空格"
 
-#: ../../source/ambd_arduino/release_history.rst:53
+#: ../../source/ambd_arduino/release_history.rst:70
 msgid "Update all libs"
 msgstr "更新全部的庫"
 
-#: ../../source/ambd_arduino/release_history.rst:57
+#: ../../source/ambd_arduino/release_history.rst:74
 msgid "Update AmebaEink.zip, SPI connection for RTL8720DN/BW16"
 msgstr "更新 AmebaEink.zip， 裡面 RTL8720DN/BW16 的 SPI 鏈接"
 
-#: ../../source/ambd_arduino/release_history.rst:58
+#: ../../source/ambd_arduino/release_history.rst:75
 msgid "Add Autoflash_patch folder"
 msgstr "添加 Autoflash_patch 檔"
 
-#: ../../source/ambd_arduino/release_history.rst:59
+#: ../../source/ambd_arduino/release_history.rst:76
 msgid "Update the Fritzing of RTL8720DN/BW16, remove A0 and A1"
 msgstr "更新 RTL8720DN/BW16 的 Fritzing 檔， 刪除 A0 和 A1"
 
-#: ../../source/ambd_arduino/release_history.rst:63
+#: ../../source/ambd_arduino/release_history.rst:80
 msgid "**Version 3.1.0 - 2021/11/05**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:67
+#: ../../source/ambd_arduino/release_history.rst:84
 msgid "Support board RTL8720DN(BW16)"
 msgstr "支援 RTL8720DN（BW16）"
 
-#: ../../source/ambd_arduino/release_history.rst:68
+#: ../../source/ambd_arduino/release_history.rst:85
 msgid "Add WiFiControlCar example"
 msgstr "添加示例 WiFiControlCar"
 
-#: ../../source/ambd_arduino/release_history.rst:69
+#: ../../source/ambd_arduino/release_history.rst:86
 msgid "Add Arduboy zip library"
 msgstr "添加 Arduboy zip 庫"
 
-#: ../../source/ambd_arduino/release_history.rst:70
+#: ../../source/ambd_arduino/release_history.rst:87
 msgid "Add WPA3 support"
 msgstr "支援 WPA3"
 
-#: ../../source/ambd_arduino/release_history.rst:71
+#: ../../source/ambd_arduino/release_history.rst:88
 msgid "Add Amebad_HMI_MQTT zip library"
 msgstr "添加 Amebad_HMI_MQTT zip 庫"
 
-#: ../../source/ambd_arduino/release_history.rst:72
+#: ../../source/ambd_arduino/release_history.rst:89
 msgid "Add support for IPV6 wiht 4 examples"
 msgstr "支援 IPV6 和 4 個示例"
 
-#: ../../source/ambd_arduino/release_history.rst:73
+#: ../../source/ambd_arduino/release_history.rst:90
 msgid "WLAN lib update"
 msgstr "更新 WLAN 庫"
 
-#: ../../source/ambd_arduino/release_history.rst:74
+#: ../../source/ambd_arduino/release_history.rst:91
 msgid "Minor bug fix"
 msgstr "少量bug修復"
 
-#: ../../source/ambd_arduino/release_history.rst:78
+#: ../../source/ambd_arduino/release_history.rst:95
 msgid "Support Microsoft Azure IoT cloud"
 msgstr "支援 Microsoft Azure IoT cloud"
 
-#: ../../source/ambd_arduino/release_history.rst:79
+#: ../../source/ambd_arduino/release_history.rst:96
 msgid "Enable “strnlen” from rom"
 msgstr "支援 “strnlen”。"
 
-#: ../../source/ambd_arduino/release_history.rst:80
+#: ../../source/ambd_arduino/release_history.rst:97
 msgid "Add “#define yield” for compilation"
 msgstr "添加 “#define yield” 用於編譯"
 
-#: ../../source/ambd_arduino/release_history.rst:81
+#: ../../source/ambd_arduino/release_history.rst:98
 msgid "Update PubSubClient lib"
 msgstr "更新 PubSubClient 庫"
 
-#: ../../source/ambd_arduino/release_history.rst:82
+#: ../../source/ambd_arduino/release_history.rst:99
 msgid "Update APIs for RTL8720DN(BW16) (SPI, I2C, Fatfs, Audiocodec and UART"
 msgstr "更新 RTL8720DN（BW16）的兼容性 （SPI， I2C， Fatfs， Audiocodec and UART）"
 
-#: ../../source/ambd_arduino/release_history.rst:83
+#: ../../source/ambd_arduino/release_history.rst:100
 msgid "Update jtag enable functions"
 msgstr "更新 jtag 相關的程式"
 
-#: ../../source/ambd_arduino/release_history.rst:84
+#: ../../source/ambd_arduino/release_history.rst:101
 msgid "Update wifi security option"
 msgstr "更新 Wi-Fi security 選項"
 
-#: ../../source/ambd_arduino/release_history.rst:85
+#: ../../source/ambd_arduino/release_history.rst:102
 msgid "Remove the unused libs lib_wifi_fw.a lib_wifi_ucps_fw.a"
 msgstr "拿掉未使用的庫 libs lib_wifi_fw.a 和 lib_wifi_ucps_fw.a"
 
-#: ../../source/ambd_arduino/release_history.rst:86
+#: ../../source/ambd_arduino/release_history.rst:103
 msgid "Update watchdog"
 msgstr "更新 watchdog"
 
-#: ../../source/ambd_arduino/release_history.rst:87
+#: ../../source/ambd_arduino/release_history.rst:104
 msgid "Update AudioCodec"
 msgstr "更新 AudioCodec"
 
-#: ../../source/ambd_arduino/release_history.rst:88
-#: ../../source/ambd_arduino/release_history.rst:143
+#: ../../source/ambd_arduino/release_history.rst:105
+#: ../../source/ambd_arduino/release_history.rst:160
 msgid "Pin mapping updates"
 msgstr "更新 Pin mapping 的一些錯誤"
 
-#: ../../source/ambd_arduino/release_history.rst:89
-#: ../../source/ambd_arduino/release_history.rst:132
-#: ../../source/ambd_arduino/release_history.rst:144
+#: ../../source/ambd_arduino/release_history.rst:106
+#: ../../source/ambd_arduino/release_history.rst:149
+#: ../../source/ambd_arduino/release_history.rst:161
 msgid "Remove unused marcos"
 msgstr "拿掉未使用的 marcos"
 
-#: ../../source/ambd_arduino/release_history.rst:90
+#: ../../source/ambd_arduino/release_history.rst:107
 msgid "RTL8720DN(BW16) related naming update for all examples"
 msgstr "更新RTL8720DN（BW16） 的digital pin 命名方式"
 
-#: ../../source/ambd_arduino/release_history.rst:91
+#: ../../source/ambd_arduino/release_history.rst:108
 msgid "Update PowerSave"
 msgstr "更新 PowerSave"
 
-#: ../../source/ambd_arduino/release_history.rst:93
-#: ../../source/ambd_arduino/release_history.rst:117
+#: ../../source/ambd_arduino/release_history.rst:110
+#: ../../source/ambd_arduino/release_history.rst:134
 msgid "Misc"
 msgstr "其他:"
 
-#: ../../source/ambd_arduino/release_history.rst:95
+#: ../../source/ambd_arduino/release_history.rst:112
 msgid "Add RTL8720DN_BW16 frizting folder"
 msgstr "添加文件 RTL8720DN_BW16 frizting"
 
-#: ../../source/ambd_arduino/release_history.rst:96
+#: ../../source/ambd_arduino/release_history.rst:113
 msgid "Move RTL8720DN_BW16 frizting files to correct folder"
 msgstr "調整文件結構 RTL8720DN_BW16 frizting"
 
-#: ../../source/ambd_arduino/release_history.rst:97
+#: ../../source/ambd_arduino/release_history.rst:114
 msgid "Rename folder name to short the length of path"
 msgstr "更新文件名稱， 縮短文件名稱"
 
-#: ../../source/ambd_arduino/release_history.rst:98
+#: ../../source/ambd_arduino/release_history.rst:115
 msgid "Add Offline_SDK_installation_tool (Windows, Linux and MacOS)"
 msgstr "添加離線SDK工具， 適配三系統 Offline_SDK_installation_tool （Windows， Linux and MacOS）"
 
-#: ../../source/ambd_arduino/release_history.rst:99
+#: ../../source/ambd_arduino/release_history.rst:116
 msgid "Update linux tools for compatibility issue"
 msgstr " 針對兼容性問題更新 linux 工具，"
 
-#: ../../source/ambd_arduino/release_history.rst:100
+#: ../../source/ambd_arduino/release_history.rst:117
 msgid "Update RTL8722DM MINI and RTL8720DN(BW16) Fritzing and Pinmux"
 msgstr "更新 Fritzing and Pinmux 文件， RTL8722DM MINI 和 RTL8720DN（BW16）"
 
-#: ../../source/ambd_arduino/release_history.rst:101
+#: ../../source/ambd_arduino/release_history.rst:118
 msgid "Update ameba_d_tools V1.0.6"
 msgstr "添加 ameba_d_tools V1.0.6"
 
-#: ../../source/ambd_arduino/release_history.rst:102
+#: ../../source/ambd_arduino/release_history.rst:119
 msgid "Add Image_Releated folder"
 msgstr "添加文檔 Image_Releated folder"
 
-#: ../../source/ambd_arduino/release_history.rst:103
+#: ../../source/ambd_arduino/release_history.rst:120
 msgid "Correct the core from Cortex-M4 to Cortex-M33"
 msgstr "改正核心命名錯誤， Cortex-M4 改爲 Cortex-M33"
 
-#: ../../source/ambd_arduino/release_history.rst:107
+#: ../../source/ambd_arduino/release_history.rst:124
 msgid "**Version 3.0.11 - 2021/10/26**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:111
+#: ../../source/ambd_arduino/release_history.rst:128
 msgid "Add example, FatfsSDIO - Read and open HTML file from SD card"
 msgstr "增加示例， 通過SD卡來讀取html文檔. FatfsSDIO – Read and open HTML file from SD card"
 
-#: ../../source/ambd_arduino/release_history.rst:115
+#: ../../source/ambd_arduino/release_history.rst:132
 msgid "RTL8720DN/BW16 related compatibility update for all examples"
 msgstr "RTL8720DN/BW16 針對所有示例相關的兼容性升級"
 
-#: ../../source/ambd_arduino/release_history.rst:119
+#: ../../source/ambd_arduino/release_history.rst:136
 msgid "Update RTL8722DM MINI and RTL8720DN Fritzing and Pinmux"
 msgstr "RTL8722DM_MINI 和 RTL8720DN/BW16 Fritzing 文件和pinmap更新"
 
-#: ../../source/ambd_arduino/release_history.rst:123
+#: ../../source/ambd_arduino/release_history.rst:140
 msgid "**Version 3.0.10 - 2021/09/22**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:127
+#: ../../source/ambd_arduino/release_history.rst:144
 msgid "Add AudioCodec wav examples"
 msgstr "增加 AudioCodec - 播放與錄製 wav 檔案 範例"
 
-#: ../../source/ambd_arduino/release_history.rst:131
+#: ../../source/ambd_arduino/release_history.rst:148
 msgid "Pin mapping updates for RTL8722DM MINI"
 msgstr "更新 RTL8722DM MINI 的引腳圖"
 
-#: ../../source/ambd_arduino/release_history.rst:133
+#: ../../source/ambd_arduino/release_history.rst:150
 msgid "Update platform.txt for bin files process"
 msgstr "更新 platform.txt"
 
-#: ../../source/ambd_arduino/release_history.rst:134
+#: ../../source/ambd_arduino/release_history.rst:151
 msgid "rollback for “wifi.h” update"
 msgstr "“wifi.h” 退回舊版本"
 
-#: ../../source/ambd_arduino/release_history.rst:135
+#: ../../source/ambd_arduino/release_history.rst:152
 msgid "Minor bug fix patch"
 msgstr "少量bug修復"
 
-#: ../../source/ambd_arduino/release_history.rst:139
+#: ../../source/ambd_arduino/release_history.rst:156
 msgid "**Version 3.0.9 - 2021/09/13**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:145
+#: ../../source/ambd_arduino/release_history.rst:162
 msgid "“wifi.h” related files change to “Amebawifi.h”"
 msgstr "更新 WLAN 名稱，從 “Amebawifi.h” 變爲 “wifi.h”"
 
-#: ../../source/ambd_arduino/release_history.rst:149
+#: ../../source/ambd_arduino/release_history.rst:166
 msgid "**Version 3.0.8 - 2021/05/06**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:153
+#: ../../source/ambd_arduino/release_history.rst:170
 msgid "Add RTL8722DM_mini board"
 msgstr "支援 RTL8722DM_mini 開發板"
 
-#: ../../source/ambd_arduino/release_history.rst:154
+#: ../../source/ambd_arduino/release_history.rst:171
 msgid "Add fatfs for SD card"
 msgstr "添加 fatfs 示例"
 
-#: ../../source/ambd_arduino/release_history.rst:155
+#: ../../source/ambd_arduino/release_history.rst:172
 msgid "Add AudioCodec"
 msgstr "添加 AudioCodec 範例"
 
-#: ../../source/ambd_arduino/release_history.rst:156
+#: ../../source/ambd_arduino/release_history.rst:173
 msgid "Add TensorFlow lite support with examples"
 msgstr "添加 TensorFlow lite 示例"
 
-#: ../../source/ambd_arduino/release_history.rst:157
+#: ../../source/ambd_arduino/release_history.rst:174
 msgid "Add zip libraries for TensorFlow lite support"
 msgstr "添加 TensorFlow lite zip 庫"
 
-#: ../../source/ambd_arduino/release_history.rst:158
+#: ../../source/ambd_arduino/release_history.rst:175
 msgid "Update SDK for supporting Arduino IDE 2.0"
 msgstr "更新 SDK 以支援 Arduino IDE 2.0"
 
-#: ../../source/ambd_arduino/release_history.rst:159
+#: ../../source/ambd_arduino/release_history.rst:176
 #, fuzzy
 msgid "Update wlan lib"
 msgstr "更新全部的庫"
 
-#: ../../source/ambd_arduino/release_history.rst:163
+#: ../../source/ambd_arduino/release_history.rst:180
 msgid "Update zip libraries of Eink"
 msgstr "更新 Eink zip 庫"
 
-#: ../../source/ambd_arduino/release_history.rst:164
+#: ../../source/ambd_arduino/release_history.rst:181
 msgid ""
 "ADC updates, Change calculation method to use EFUSE calibration "
 "parameters and SDK formula to improve accuracy"
 msgstr "ADC 更新， 改變計算方法，使用 EFUSE 校準參數和SDK公式來提高精度"
 
-#: ../../source/ambd_arduino/release_history.rst:165
+#: ../../source/ambd_arduino/release_history.rst:182
 msgid "writing_analog updates, minor bug fix and support for mini board"
 msgstr "writing_analog 更新，少量bug修復， 對 RTL8722DM MINI 的支援"
 
-#: ../../source/ambd_arduino/release_history.rst:166
+#: ../../source/ambd_arduino/release_history.rst:183
 msgid "SPI updates, minor bug fix and support for mini board"
 msgstr "SPI 更新，少量bug修復，對 RTL8722DM MINI 的支援"
 
-#: ../../source/ambd_arduino/release_history.rst:167
+#: ../../source/ambd_arduino/release_history.rst:184
 msgid "I2S updates, minor bug fix and support for mini board"
 msgstr "I2S 更新， 少量bug修復，對 RTL8722DM MINI 的支援"
 
-#: ../../source/ambd_arduino/release_history.rst:168
+#: ../../source/ambd_arduino/release_history.rst:185
 msgid "IRDevice updates, minor bug fix"
 msgstr "IRDevice 更新，少量bug修復"
 
-#: ../../source/ambd_arduino/release_history.rst:172
+#: ../../source/ambd_arduino/release_history.rst:189
 msgid "**Version 3.0.7 - 2020/11/19**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:176
+#: ../../source/ambd_arduino/release_history.rst:193
 msgid "Add AmebaIRDevice example IRSendSONY"
 msgstr "添加 AmebaIRDevice - IRSendSONY 實例"
 
-#: ../../source/ambd_arduino/release_history.rst:177
+#: ../../source/ambd_arduino/release_history.rst:194
 msgid "Update Ameba Arduino IRDevice API"
 msgstr "更新 Ameba Arduino IRDevice API"
 
-#: ../../source/ambd_arduino/release_history.rst:178
+#: ../../source/ambd_arduino/release_history.rst:195
 msgid "Update Ameba Arduino SSL related API"
 msgstr "更新 Ameba Arduino 的 SSL 相關 API"
 
-#: ../../source/ambd_arduino/release_history.rst:179
+#: ../../source/ambd_arduino/release_history.rst:196
 #, fuzzy
 msgid "Update Ameba Arduino Wlan API to support static IP function"
 msgstr "更新 Ameba Arduino WLAN API 以支援靜態IP功能"
 
-#: ../../source/ambd_arduino/release_history.rst:183
+#: ../../source/ambd_arduino/release_history.rst:200
 msgid "**Version 3.0.6 - 2020/10/28**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:187
+#: ../../source/ambd_arduino/release_history.rst:204
 msgid "Add Ameba RTC support"
 msgstr "添加 Ameba RTC"
 
-#: ../../source/ambd_arduino/release_history.rst:188
+#: ../../source/ambd_arduino/release_history.rst:205
 msgid "Add AmebaRTC example RTC and RTCAlarm"
 msgstr "添加 AmebaRTC - RTC 和 AmebaRTC - RTCAlarm 示例"
 
-#: ../../source/ambd_arduino/release_history.rst:189
+#: ../../source/ambd_arduino/release_history.rst:206
 msgid "Add Ameba Watchdog support"
 msgstr "添加 Ameba Watchdog"
 
-#: ../../source/ambd_arduino/release_history.rst:190
+#: ../../source/ambd_arduino/release_history.rst:207
 msgid "Add AmebaWatchdog example WatchdogTimer"
 msgstr "添加 AmebaWatchdog - WatchdogTimer 示例"
 
-#: ../../source/ambd_arduino/release_history.rst:191
+#: ../../source/ambd_arduino/release_history.rst:208
 msgid "Update Ameba BLE support"
 msgstr "更新對 Ameba BLE 的支持"
 
-#: ../../source/ambd_arduino/release_history.rst:192
+#: ../../source/ambd_arduino/release_history.rst:209
 msgid "Add AmebaBLE example BLEUartService, DHT_over_BLEUart"
 msgstr "更新對 Ameba BLE BLEUart服務 和 Uart DHT 功能"
 
-#: ../../source/ambd_arduino/release_history.rst:193
+#: ../../source/ambd_arduino/release_history.rst:210
 #, fuzzy
 msgid "Update Ameba Wlan library"
 msgstr "更新 Ameba WLAN 庫"
 
-#: ../../source/ambd_arduino/release_history.rst:194
+#: ../../source/ambd_arduino/release_history.rst:211
 #, fuzzy
 msgid "Update Ameba Wlan SDK structure, add AP mode hidden SSID support"
 msgstr "更新 Ameba WLAN SDK 結構， 新增 AP 模式隱藏SSID"
 
-#: ../../source/ambd_arduino/release_history.rst:198
+#: ../../source/ambd_arduino/release_history.rst:215
 msgid "**Version 3.0.5 - 2020/09/09**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:202
+#: ../../source/ambd_arduino/release_history.rst:219
 msgid "Build in tool updates V1.0.4"
 msgstr "內置工具版本更新至 V1.0.4"
 
-#: ../../source/ambd_arduino/release_history.rst:203
+#: ../../source/ambd_arduino/release_history.rst:220
 msgid "Add zip lib AmebaEink"
 msgstr "添加 AmebaEink 庫"
 
-#: ../../source/ambd_arduino/release_history.rst:204
+#: ../../source/ambd_arduino/release_history.rst:221
 msgid "Add AmebaEink example EinkDisplayImage, EinkDisplayQR, and EinkDisplayText"
 msgstr "添加 AmebaEink 顯示圖片，顯示QR碼 和 顯示文字 的範例"
 
-#: ../../source/ambd_arduino/release_history.rst:205
+#: ../../source/ambd_arduino/release_history.rst:222
 msgid "Add google cloud examples"
 msgstr "添加 Google cloud 示例"
 
-#: ../../source/ambd_arduino/release_history.rst:206
+#: ../../source/ambd_arduino/release_history.rst:223
 msgid "Update Amazon AWS related examples"
 msgstr "更新 亞馬遜 AWS 相關的例子"
 
-#: ../../source/ambd_arduino/release_history.rst:207
+#: ../../source/ambd_arduino/release_history.rst:224
 msgid "Add power save support"
 msgstr "添加 PowerSave"
 
-#: ../../source/ambd_arduino/release_history.rst:208
+#: ../../source/ambd_arduino/release_history.rst:225
 msgid ""
 "Add AmebaPowerSave example TicklessMode, DeepSleepMode, "
 "DeepSleep_DHT_LCD_Example, and DeepSleep_DHT_Eink_Example"
 msgstr "添加 PowerSave （省電深度睡眠模式，Tickless 模式，DHT和Epaper的深度睡眠， DHT和LCD 的深度睡眠 例子)"
 
-#: ../../source/ambd_arduino/release_history.rst:212
+#: ../../source/ambd_arduino/release_history.rst:229
 msgid "**Version 3.0.4 - 2020/07/27**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:216
+#: ../../source/ambd_arduino/release_history.rst:233
 msgid "Update BLE library. Add example BLEBatteryClient and BLEWIfiConfig"
 msgstr "更新 BLE庫。 添加 BLEBattery Client 和 BLEWifiConfig 的例子"
 
-#: ../../source/ambd_arduino/release_history.rst:217
+#: ../../source/ambd_arduino/release_history.rst:234
 msgid "Update from polarssl to mbedtls 2.4.0"
 msgstr "從 polarssl 版本更新至 mbedtls 2.4.0"
 
-#: ../../source/ambd_arduino/release_history.rst:221
+#: ../../source/ambd_arduino/release_history.rst:238
 msgid "**Version 3.0.3 - 2020/07/03**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:225
+#: ../../source/ambd_arduino/release_history.rst:242
 msgid "Build in Image tool updates V1.0.3"
 msgstr "上傳工具版本更新至 V1.0.3"
 
-#: ../../source/ambd_arduino/release_history.rst:226
+#: ../../source/ambd_arduino/release_history.rst:243
 msgid "Upload log clean up"
 msgstr "上傳日志簡化"
 
-#: ../../source/ambd_arduino/release_history.rst:230
+#: ../../source/ambd_arduino/release_history.rst:247
 msgid "**Version 3.0.2 - 2020/06/30**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:234
+#: ../../source/ambd_arduino/release_history.rst:251
 msgid "Windows, Linux and macOS X support"
 msgstr "支援 Windows，Linux 和 macOS X"
 
-#: ../../source/ambd_arduino/release_history.rst:235
+#: ../../source/ambd_arduino/release_history.rst:252
 msgid "Build in Image tool updates"
 msgstr "上傳工具更新"
 
-#: ../../source/ambd_arduino/release_history.rst:239
+#: ../../source/ambd_arduino/release_history.rst:256
 msgid "**Version 3.0.1 - 2020/05/15**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:243
+#: ../../source/ambd_arduino/release_history.rst:260
 msgid "Official release of AmebaD Arduino SDK"
 msgstr "AmebaD Arduino SDK 的正式發布"
 
-#: ../../source/ambd_arduino/release_history.rst:244
+#: ../../source/ambd_arduino/release_history.rst:261
 msgid "warning cleaning"
 msgstr "簡化編譯警告"
 
-#: ../../source/ambd_arduino/release_history.rst:245
+#: ../../source/ambd_arduino/release_history.rst:262
 msgid "I2C lib updates"
 msgstr "I2C庫更新"
 
-#: ../../source/ambd_arduino/release_history.rst:249
+#: ../../source/ambd_arduino/release_history.rst:266
 msgid "**Version 3.0.0 - 2020/05/01**"
 msgstr ""
 
-#: ../../source/ambd_arduino/release_history.rst:253
+#: ../../source/ambd_arduino/release_history.rst:270
 msgid "Support Boards Manager and Arduino IDE development"
 msgstr "支援 Boards Manager 和 Arduino IDE 開發"
 
-#: ../../source/ambd_arduino/release_history.rst:254
+#: ../../source/ambd_arduino/release_history.rst:271
 msgid "WiFi scan AP, connect to AP, TCP Server/Client, including 5G"
 msgstr "WiFi 掃描 AP， 連接到 AP， TCP 伺服器、用戶端， 包括 5G"
 
-#: ../../source/ambd_arduino/release_history.rst:255
+#: ../../source/ambd_arduino/release_history.rst:272
 msgid "Bluetooth, BLE"
 msgstr "藍牙，BLE （藍牙低功耗）"
 
-#: ../../source/ambd_arduino/release_history.rst:256
+#: ../../source/ambd_arduino/release_history.rst:273
 msgid "GPIO digital in/out and interrupt"
 msgstr "GPIO 數位訊號輸入輸出和中斷功能"
 
-#: ../../source/ambd_arduino/release_history.rst:257
+#: ../../source/ambd_arduino/release_history.rst:274
 msgid "ADC analog in/out (0 ~ 3.3V)"
 msgstr "ADC 模擬信號輸入輸出 (0 ~ 3.3V)"
 
-#: ../../source/ambd_arduino/release_history.rst:258
+#: ../../source/ambd_arduino/release_history.rst:275
 msgid "PWM getting analog results with digital means"
 msgstr "脈動寬度調變 （PWM） 功能"
 
-#: ../../source/ambd_arduino/release_history.rst:259
+#: ../../source/ambd_arduino/release_history.rst:276
 msgid "SPI master and slave mode"
 msgstr "SPI 主機和從機模式"
 
-#: ../../source/ambd_arduino/release_history.rst:260
+#: ../../source/ambd_arduino/release_history.rst:277
 msgid "UART 1 for log, 2 for customize usage"
 msgstr "UART 功能"
 
-#: ../../source/ambd_arduino/release_history.rst:261
+#: ../../source/ambd_arduino/release_history.rst:278
 msgid "I2C master mode"
 msgstr "I2C主機模式"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-10 10:15+0100\n"
+"POT-Creation-Date: 2022-08-01 09:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,401 +17,397 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.1\n"
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:2
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:3
 msgid "Class SdFatFs"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:6
-#: SdFatFs.rst:61 SdFatFs.rst:92 SdFatFs.rst:123 SdFatFs.rst:155
-#: SdFatFs.rst:191 SdFatFs.rst:222 SdFatFs.rst:253 SdFatFs.rst:284
-#: SdFatFs.rst:315 SdFatFs.rst:360 SdFatFs.rst:404 SdFatFs.rst:435
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:7
+#: SdFatFs.rst:64 SdFatFs.rst:95 SdFatFs.rst:126 SdFatFs.rst:158
+#: SdFatFs.rst:194 SdFatFs.rst:225 SdFatFs.rst:256 SdFatFs.rst:287
+#: SdFatFs.rst:318 SdFatFs.rst:363 SdFatFs.rst:407 SdFatFs.rst:438
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:8
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:9
 msgid "Defines a class of SD FAT File system."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:10
-#: SdFatFs.rst:65 SdFatFs.rst:96 SdFatFs.rst:128 SdFatFs.rst:161
-#: SdFatFs.rst:195 SdFatFs.rst:226 SdFatFs.rst:257 SdFatFs.rst:288
-#: SdFatFs.rst:319 SdFatFs.rst:364 SdFatFs.rst:408 SdFatFs.rst:439
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:11
+#: SdFatFs.rst:68 SdFatFs.rst:99 SdFatFs.rst:131 SdFatFs.rst:164
+#: SdFatFs.rst:198 SdFatFs.rst:229 SdFatFs.rst:260 SdFatFs.rst:291
+#: SdFatFs.rst:322 SdFatFs.rst:367 SdFatFs.rst:411 SdFatFs.rst:442
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:12
-msgid "class SdFatFs"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:14
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:17
 msgid "**Members**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:16
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:19
 msgid "**Public Constructors**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:19
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:22
 msgid "SdFatFs::SdFatFs"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:19
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:22
 msgid "Constructs a SdFatFs object"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:21
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:24
 msgid "SdFatFs::~SdFatFs"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:21
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:24
 msgid "Destructs a SdFatFs object"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:25
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:28
 msgid "**Public Methods**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:28
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:31
 msgid "SdFatFs::begin"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:28
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:31
 msgid "Initialize SD FAT File System"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:30
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:33
 msgid "SdFatFs::end"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:30
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:33
 msgid "Deinitialize SD FAT File System"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:32
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:35
 msgid "SdFatFs::\\*getRootPath"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:32
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:35
 msgid "Get the root path of the SD FAT File System"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:35
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:38
 msgid "SdFatFs::readDir"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:35
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:38
 msgid "List items under a specific folder"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:37
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:40
 msgid "SdFatFs::mkdir"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:37
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:40
 msgid "Create folder"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:39
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:42
 msgid "SdFatFs::rm"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:39
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:42
 msgid "Remove folder or file"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:41
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:44
 msgid "SdFatFs::isDir"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:41
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:44
 msgid "Check if a specific path is a directory"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:43
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:46
 msgid "SdFatFs::isFile"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:43
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:46
 msgid "Check if a specific path is a file"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:45
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:48
 msgid "SdFatFs::getLastModTime"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:45
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:48
 msgid "Get the last modified time for a file or directory"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:48
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:51
 msgid "SdFatFs::setLastModTime"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:48
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:51
 msgid "Set the last modified time for a file or directory"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:51
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:54
 msgid "SdFatFs::status"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:51
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:54
 msgid "Return the current status of SD"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:53
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:56
 msgid "SdFatFs::open"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:53
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:56
 msgid "Open a file"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:63
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:66
 msgid "Initialize SD FAT File System."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:71
-#: SdFatFs.rst:102 SdFatFs.rst:134 SdFatFs.rst:167 SdFatFs.rst:201
-#: SdFatFs.rst:232 SdFatFs.rst:263 SdFatFs.rst:294 SdFatFs.rst:325
-#: SdFatFs.rst:370 SdFatFs.rst:414 SdFatFs.rst:445
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:74
+#: SdFatFs.rst:105 SdFatFs.rst:137 SdFatFs.rst:170 SdFatFs.rst:204
+#: SdFatFs.rst:235 SdFatFs.rst:266 SdFatFs.rst:297 SdFatFs.rst:328
+#: SdFatFs.rst:373 SdFatFs.rst:417 SdFatFs.rst:448
 msgid "**Parameters**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:73
-#: SdFatFs.rst:104 SdFatFs.rst:136 SdFatFs.rst:447
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:76
+#: SdFatFs.rst:107 SdFatFs.rst:139 SdFatFs.rst:450
 msgid "The function requires no input parameter."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:75
-#: SdFatFs.rst:106 SdFatFs.rst:138 SdFatFs.rst:175 SdFatFs.rst:205
-#: SdFatFs.rst:236 SdFatFs.rst:267 SdFatFs.rst:298 SdFatFs.rst:341
-#: SdFatFs.rst:386 SdFatFs.rst:418 SdFatFs.rst:449
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:78
+#: SdFatFs.rst:109 SdFatFs.rst:141 SdFatFs.rst:178 SdFatFs.rst:208
+#: SdFatFs.rst:239 SdFatFs.rst:270 SdFatFs.rst:301 SdFatFs.rst:344
+#: SdFatFs.rst:389 SdFatFs.rst:421 SdFatFs.rst:452
 msgid "**Returns**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:77
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:80
 msgid "Returns **0** if success, else returns a negative value."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:79
-#: SdFatFs.rst:110 SdFatFs.rst:142 SdFatFs.rst:179 SdFatFs.rst:209
-#: SdFatFs.rst:240 SdFatFs.rst:271 SdFatFs.rst:302 SdFatFs.rst:347
-#: SdFatFs.rst:391 SdFatFs.rst:422 SdFatFs.rst:454
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:82
+#: SdFatFs.rst:113 SdFatFs.rst:145 SdFatFs.rst:182 SdFatFs.rst:212
+#: SdFatFs.rst:243 SdFatFs.rst:274 SdFatFs.rst:305 SdFatFs.rst:350
+#: SdFatFs.rst:394 SdFatFs.rst:425 SdFatFs.rst:457
 msgid "**Example Code**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:81
-#: SdFatFs.rst:112 SdFatFs.rst:144 SdFatFs.rst:424
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:84
+#: SdFatFs.rst:115 SdFatFs.rst:147 SdFatFs.rst:427
 msgid ""
 "Example: create_folder; file_read_write; get_file_attribute; "
 "last_modified_time; list_root_files."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:83
-#: SdFatFs.rst:114 SdFatFs.rst:146 SdFatFs.rst:183 SdFatFs.rst:213
-#: SdFatFs.rst:244 SdFatFs.rst:275 SdFatFs.rst:306 SdFatFs.rst:351
-#: SdFatFs.rst:395 SdFatFs.rst:426 SdFatFs.rst:458
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:86
+#: SdFatFs.rst:117 SdFatFs.rst:149 SdFatFs.rst:186 SdFatFs.rst:216
+#: SdFatFs.rst:247 SdFatFs.rst:278 SdFatFs.rst:309 SdFatFs.rst:354
+#: SdFatFs.rst:398 SdFatFs.rst:429 SdFatFs.rst:461
 msgid "**Notes and Warnings**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:85
-#: SdFatFs.rst:116 SdFatFs.rst:148 SdFatFs.rst:185 SdFatFs.rst:215
-#: SdFatFs.rst:246 SdFatFs.rst:277 SdFatFs.rst:308 SdFatFs.rst:353
-#: SdFatFs.rst:397 SdFatFs.rst:428 SdFatFs.rst:460
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:88
+#: SdFatFs.rst:119 SdFatFs.rst:151 SdFatFs.rst:188 SdFatFs.rst:218
+#: SdFatFs.rst:249 SdFatFs.rst:280 SdFatFs.rst:311 SdFatFs.rst:356
+#: SdFatFs.rst:400 SdFatFs.rst:431 SdFatFs.rst:463
 msgid "Include “SdFatFs.h” to use the class function."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:94
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:97
 msgid "De-initialize SD FAT File System."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:108
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:111
 msgid "Returns “0” if success, else returns a negative value."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:125
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:128
 msgid ""
 "Get the root path of the SD FAT File System. The logical volume character"
 " is starting from ‘0’, so the root path would like “0:/”."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:140
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:143
 msgid "The function returns the root path."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:157
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:160
 msgid ""
 "List items under a specific folder. List items under a specific folder "
 "and store the result in the buffer that user specified. Each item is "
 "separated by ‘\\0’."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:169
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:172
 msgid "``path``: The absolute directory path to be listed."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:171
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:174
 msgid "``result_buf`` : The buffer to be stored results."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:173
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:176
 msgid ""
 "``bufsize`` : The size of result_buf. If results exceed this size, then "
 "the results larger than this size would be discarded."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:177
-#: SdFatFs.rst:207 SdFatFs.rst:238
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:180
+#: SdFatFs.rst:210 SdFatFs.rst:241
 msgid "Returns ``0`` if success, else returns a negative value."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:181
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:184
 msgid "Example: get_file_attribute; list_root_files"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:193
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:196
 msgid "Create folder."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:203
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:206
 msgid "``absolute_path`` : The absolute directory path to be created"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:211
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:214
 msgid "Example: create_folder"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:224
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:227
 msgid "Remove folder or file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:234
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:237
 msgid "``absolute_path`` : The absolute directory or file path to be deleted"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:242
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:245
 msgid "NA"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:255
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:258
 msgid "Check if a specific path is a directory."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:265
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:268
 msgid "``absolute_path``: The absolute path to be queried"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:269
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:272
 msgid "The function returns ``1`` if it is a directory, else returns ``0``."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:273
-#: SdFatFs.rst:304
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:276
+#: SdFatFs.rst:307
 msgid "Example: get_file_attribute"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:286
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:289
 msgid "Check if a specific path is a file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:296
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:299
 msgid "``absolute_path`` : The absolute path to be queried"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:300
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:303
 msgid "The function returns “1” if it is a directory, else returns “0”."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:317
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:320
 msgid "Get the last modified time for a file or directory."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:327
-#: SdFatFs.rst:372
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:330
+#: SdFatFs.rst:375
 msgid "``absolute_path``: The absolute path to be queried."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:329
-#: SdFatFs.rst:374
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:332
+#: SdFatFs.rst:377
 msgid "``year``: The value of the year."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:331
-#: SdFatFs.rst:376
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:334
+#: SdFatFs.rst:379
 msgid "``month``: The value of the month."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:333
-#: SdFatFs.rst:378
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:336
+#: SdFatFs.rst:381
 msgid "``date``: The value of the date."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:335
-#: SdFatFs.rst:380
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:338
+#: SdFatFs.rst:383
 msgid "``hour``: The value of an hour."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:337
-#: SdFatFs.rst:382
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:340
+#: SdFatFs.rst:385
 msgid "``minute``: The value of a minute."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:339
-#: SdFatFs.rst:384
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:342
+#: SdFatFs.rst:387
 msgid ""
 "``second``: field “second” contains no valid information in the current "
 "version."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:343
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:346
 msgid "The function returns “0” if success, otherwise returns a negative"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:345
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:348
 msgid "value for failure."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:349
-#: SdFatFs.rst:393
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:352
+#: SdFatFs.rst:396
 msgid "Example: last_modified_time"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:362
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:365
 msgid ""
 "Set the last modified time for a file or directory. Ameba doesn’t have "
 "built-in RTC. So we manually change file/directory last modified time."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:388
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:391
 msgid ""
 "The function returns “0” if success, otherwise returns a negative value "
 "for failure."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:406
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:409
 msgid "Open a file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:416
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:419
 msgid "``absolute_path``: The path to a file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:420
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:423
 msgid "The file object is an instance of SdFatFile."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:437
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:440
 msgid "Return the current status of SD."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:451
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:454
 msgid ""
 "Function returns “1” if ready to use, else return “0” if the status is "
 "inactivating or abnormal."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:456
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFs.rst:459
 msgid "NA."
 msgstr ""
 
@@ -549,5 +545,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "int SdFatFs::status(void);"
+#~ msgstr ""
+
+#~ msgid "class SdFatFs"
 #~ msgstr ""
 

@@ -1,12 +1,17 @@
-Class HttpClient
-==================
-**PMS3003 Class**
+####################
+Class PMS3003
+####################
 
-| **Description**
-| Defines a class to work with PMS3003 air quality sensor on Ameba.
 
-| **Syntax**
-| class PMS3003
+**Description**
+
+Defines a class to work with PMS3003 air quality sensor on Ameba.
+
+**Syntax**
+
+.. code:: cpp
+
+  class PMS3003
 
 **Members**
 
@@ -38,260 +43,370 @@ Class HttpClient
 | PMS3003::pms3003_handle_interrupt | Set up the serial event handler         |
 +-----------------------------------+-----------------------------------------+
 
-**PMS3003::PMS3003**
+---------------------------------------------------------------------------------------
 
-| **Description**
-| Constructs a PMS3003 object and initialize the pin mapping.
+.. method:: PMS3003::PMS3003
 
-| **Syntax**
-| PMS3003::PMS3003(int \_rx, int \_tx, int \_set, int \_reset)
 
-| **Parameters**
-| \_rx: RX pin of UART
-| \_tx: TX pin of UART
-| \_set: Set pin
-| \_reset: Reset pin
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Constructs a PMS3003 object and initialize the pin mapping.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
-|  
+.. code:: cpp
 
-**PMS3003::begin**
+  PMS3003::PMS3003(int _rx, int _tx, int _set, int _reset)
 
-| **Description**
-| Initialize hardware UART and allocate space for serial buffer
+**Parameters**
 
-| **Syntax**
-| void PMS3003::begin(void)
+``_rx`` : RX pin of UART
 
-| **Parameters**
-| The function requires no input parameter.
+``_tx`` : TX pin of UART
 
-| **Returns**
-| The function returns nothing.
+``_set`` : Set pin
 
-| **Example Code**
-| NA
+``_reset`` : Reset pin
 
-| **Notes and Warnings**
-| NA
-|  
+**Returns**
 
-**PMS3003::end**
+The function returns nothing.
 
-| **Description**
-| Free serial buffer space and stop UART
+**Example Code**
 
-| **Syntax**
-| void PMS3003::end(void)
+NA
 
-| **Parameters**
-| The function requires no input parameter.
+**Notes and Warnings**
 
-| **Returns**
-| The function returns nothing.
+NA
 
-| **Example Code**
-| NA
+-----------------------------------------------------------------------------------
 
-| **Notes and Warnings**
-| NA
-|  
+.. method:: PMS3003::begin
 
-**PMS3003::get_pm1p0_cf1**
 
-| **Description**
-| Get PM1.0 under correction factor = 1
+**Description**
 
-| **Syntax**
-| int PMS3003::get_pm1p0_cf1(void)
+Initialize hardware UART and allocate space for serial buffer
 
-| **Parameters**
-| The function requires no input parameter.
+**Syntax**
 
-| **Returns**
-| The function returns the value “pm1p0_cf1” as an integer.
+.. code:: cpp
 
-| **Example Code**
-| NA
+  void PMS3003::begin(void)
 
-| **Notes and Warnings**
-| NA
-|  
+**Parameters**
 
-**PMS3003::get_pm2p5_cf1**
+The function requires no input parameter.
 
-| **Description**
-| Get PM2.5 under correction factor = 1
+**Returns**
 
-| **Syntax**
-| int PMS3003::get_pm2p5_cf1(void)
+The function returns nothing.
 
-| **Parameters**
-| The function requires no input parameter.
+**Example Code**
 
-| **Returns**
-| The function returns the value of “pm2p5_cf1” as an integer.
+NA
 
-| **Example Code**
-| NA
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
-|  
+NA
 
-**PMS3003::get_pm10_cf1**
+-----------------------------------------------------------------------------------
 
-| **Description**
-| Get PM10 under correction factor = 1
+.. method:: PMS3003::end
 
-| **Syntax**
-| int PMS3003::get_pm10_cf1(void)
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns the value of “pm10_cf1” as an integer.
+Free serial buffer space and stop UART
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
-|  
+.. code:: cpp
 
-**PMS3003::get_pm1p0_air**
+  void PMS3003::end(void)
 
-| **Description**
-| Get PM1.0 air quality
+**Parameters**
 
-| **Syntax**
-| int PMS3003::get_pm1p0_air(void)
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| The function returns the value of “pm1p0_air” as an integer.
+The function returns nothing.
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| NA
-|  
+NA
 
-**PMS3003::get_pm2p5_air**
+**Notes and Warnings**
 
-| **Description**
-| Get PM2.5 air quality
+NA
 
-| **Syntax**
-| int PMS3003::get_pm2p5_air(void)
+----------------------------------------------------------------------------------
 
-| **Parameters**
-| The function requires no input parameter.
+.. method:: PMS3003::get_pm1p0_cf1
 
-| **Returns**
-| The function returns the value of “pm2p5_air” as an integer.
+**Description**
 
-| **Example Code**
-| NA
+Get PM1.0 under correction factor = 1
 
-| **Notes and Warnings**
-| NA
-|  
+**Syntax**
 
-**PMS3003::get_pm10_air**
+.. code:: cpp
 
-| **Description**
-| Get PM10 air quality
+  int PMS3003::get_pm1p0_cf1(void)
 
-| **Syntax**
-| int PMS3003::get_pm10_air(void)
+**Parameters**
 
-| **Parameters**
-| The function requires no input parameter.
+The function requires no input parameter.
 
-| **Returns**
-| The function returns the value of “pm10_air” as an integer.
+**Returns**
 
-| **Example Code**
-| NA
+The function returns the value “pm1p0_cf1” as an integer.
 
-| **Notes and Warnings**
-| NA
-|  
+**Example Code**
 
-**PMS3003::pms3003_handle_interrupt**
+NA
 
-| **Description**
-| Set up the serial event handler
+**Notes and Warnings**
 
-| **Syntax**
-| void pms3003_handle_interrupt(uint32_t id, uint32_t event)
+NA
 
-| **Parameters**
-| id: device identifier
-| event: Serial event for handling incoming data
+--------------------------------------------------------------------------------
 
-| **Returns**
-| The function returns nothing.
+.. method:: PMS3003::get_pm2p5_cf1
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| NA
-|  
+Get PM2.5 under correction factor = 1
 
-**PMS3003::update_cache**
+**Syntax**
 
-| **Description**
-| Serves the function of updating cache memory. One package has 32
-  bytes. Illustrate the formate by using below raw data: 42 4d 00 1c 00
-  1b 00 21 00 29 00 1a 00 21 00 29 2b fb 04 be 00 6b 00 10 00 04 00 04
-  67 00 04 46
-| 42 4d : header signature
-| 00 1c : frame length, 0x001c = 28 bytes (not include header and this
-  field)
-| 00 1b : PM1.0 under CF=1
-| 00 21 : PM2.5 under CF=1
-| 00 29 : PM10 under CF=1
-| 00 1a : PM1.0 under air
-| 00 21 : PM2.5 under air
-| 00 29 : PM10 under air
-| 2b fb : number of pariticle, diameter size 0.3 um in 0.1 liter air
-| 04 be : number of pariticle, diameter size 0.5 um in 0.1 liter air
-| 00 6b : number of pariticle, diameter size 1.0 um in 0.1 liter air
-| 00 10 : number of pariticle, diameter size 2.5 um in 0.1 liter air
-| 00 04 : number of pariticle, diameter size 5.0 um in 0.1 liter air
-| 00 04 : number of pariticle, diameter size 10 um in 0.1 liter air
-| 67 : serial number
-| 00 : error code
-| 04 46 :
-  checksum,0x42+0x4d+0x00+0x1c+0x00+0x1b+0x00+0x21+0x00+0x29+0x00+0x1a+0x00+0x21+0x00+0x29+
-  0x2b+0xfb+0x04+0xbe+0x00+0x6b+0x00+0x10+0x00+0x04+0x00+0x04+0x67+0x00
-  = 0x0446
+.. code:: cpp
 
-| **Syntax**
-| void PMS3003::update_cache(void)
+  int PMS3003::get_pm2p5_cf1(void)
 
-| **Parameters**
-| The function requires no input parameters.
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+The function requires no input parameter.
 
-| **Example Code**
-| NA
+**Returns**
 
-| **Notes and Warnings**
-| NA
+The function returns the value of “pm2p5_cf1” as an integer.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+------------------------------------------------------------------------------
+
+.. method:: PMS3003::get_pm10_cf1
+
+**Description**
+
+Get PM10 under correction factor = 1
+
+**Syntax**
+
+.. code:: cpp
+  
+  int PMS3003::get_pm10_cf1(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the value of “pm10_cf1” as an integer.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+
+
+------------------------------------------------------------------------------
+
+.. method:: PMS3003::get_pm1p0_air
+
+**Description**
+
+Get PM1.0 air quality
+
+**Syntax**
+
+.. code:: cpp
+
+  int PMS3003::get_pm1p0_air(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the value of “pm1p0_air” as an integer.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----------------------------------------------------------------------------
+
+.. method:: PMS3003::get_pm2p5_air
+
+
+**Description**
+
+Get PM2.5 air quality
+
+**Syntax**
+
+.. code:: cpp
+
+  int PMS3003::get_pm2p5_air(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the value of “pm2p5_air” as an integer.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+------------------------------------------------------------------------------
+
+
+.. method:: PMS3003::get_pm10_air
+
+**Description**
+
+Get PM10 air quality
+
+**Syntax**
+
+.. code:: cpp
+
+  int PMS3003::get_pm10_air(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns the value of “pm10_air” as an integer.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+------------------------------------------------------------------------------
+
+.. method:: PMS3003::pms3003_handle_interrupt
+
+**Description**
+
+Set up the serial event handler
+
+**Syntax**
+
+.. code:: cpp
+
+  void pms3003_handle_interrupt(uint32_t id, uint32_t event)
+
+**Parameters**
+
+``id`` : device identifier
+
+``event`` : Serial event for handling incoming data
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+------------------------------------------------------------------------
+
+.. method:: PMS3003::update_cache
+
+
+**Description**
+
+Serves the function of updating cache memory. One package has 32
+bytes. Illustrate the formate by using below raw data: 42 4d 00 1c 00
+1b 00 21 00 29 00 1a 00 21 00 29 2b fb 04 be 00 6b 00 10 00 04 00 04
+67 00 04 46
+42 4d : header signature
+00 1c : frame length, 0x001c = 28 bytes (not include header and this
+field)
+00 1b : PM1.0 under CF=1
+00 21 : PM2.5 under CF=1
+00 29 : PM10 under CF=1
+00 1a : PM1.0 under air
+00 21 : PM2.5 under air
+00 29 : PM10 under air
+2b fb : number of pariticle, diameter size 0.3 um in 0.1 liter air
+04 be : number of pariticle, diameter size 0.5 um in 0.1 liter air
+00 6b : number of pariticle, diameter size 1.0 um in 0.1 liter air
+00 10 : number of pariticle, diameter size 2.5 um in 0.1 liter air
+00 04 : number of pariticle, diameter size 5.0 um in 0.1 liter air
+00 04 : number of pariticle, diameter size 10 um in 0.1 liter air
+67 : serial number
+00 : error code
+04 46 :
+checksum,0x42+0x4d+0x00+0x1c+0x00+0x1b+0x00+0x21+0x00+0x29+0x00+0x1a+0x00+0x21+0x00+0x29+
+0x2b+0xfb+0x04+0xbe+0x00+0x6b+0x00+0x10+0x00+0x04+0x00+0x04+0x67+0x00
+= 0x0446
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMS3003::update_cache(void)
+
+**Parameters**
+
+The function requires no input parameters.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA

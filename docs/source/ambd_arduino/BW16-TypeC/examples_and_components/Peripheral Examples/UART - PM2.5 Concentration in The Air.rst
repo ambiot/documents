@@ -1,0 +1,1 @@
+.. include:: ../../../examples/peripheral/UART - PM2.5 Concentration in The Air.rst

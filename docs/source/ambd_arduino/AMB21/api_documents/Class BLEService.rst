@@ -1,7 +1,6 @@
+####################
 Class BLEService
-==================
-.. class:: BLEService
-
+####################
 
 **Description**
 

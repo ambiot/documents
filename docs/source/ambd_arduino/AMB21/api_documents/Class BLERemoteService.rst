@@ -1,8 +1,6 @@
+########################
 Class BLERemoteService
-========================
-
-.. class:: BLERemoteService
-
+########################
 
 **Description**
 
@@ -10,7 +8,9 @@ A class used for managing BLE GATT services on connected remote devices.
 
 **Syntax**
 
-class BLERemoteService
+.. code:: cpp
+
+  class BLERemoteService
 
 **Members**
 

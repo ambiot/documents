@@ -1,9 +1,6 @@
 Class BLEClient
 ===================
 
-.. class:: BLEClient 
-
-
 **Description**
 
 A class used for discovering and accessing BLE GATT services on a connected remote device.

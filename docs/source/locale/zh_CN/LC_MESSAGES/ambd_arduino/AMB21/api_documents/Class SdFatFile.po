@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-10 10:15+0100\n"
+"POT-Creation-Date: 2022-08-01 09:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,503 +17,495 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.1\n"
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:2
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:3
 msgid "Class SdFatFile"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:7
-#: SdFatFile.rst:38 SdFatFile.rst:77 SdFatFile.rst:284 SdFatFile.rst:314
-#: SdFatFile.rst:345 SdFatFile.rst:377 SdFatFile.rst:408
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:8
+#: SdFatFile.rst:40 SdFatFile.rst:79 SdFatFile.rst:286 SdFatFile.rst:316
+#: SdFatFile.rst:347 SdFatFile.rst:379 SdFatFile.rst:410
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:9
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:10
 msgid "Defines a class of SD FAT File."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:11
-msgid "**Syntax** .. code:: cpp"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:14
-msgid "class SdFatFile"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:16
-msgid "**Members**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:19
-msgid "**Public Constructors**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:21
-msgid "SdFatFile::SdFatFile"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:21
-msgid "Constructs a SdFatFile object"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:22
-msgid "SdFatFile::~SdFatFile"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:22
-msgid "Destructs a SdFatFile object"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:23
-msgid "**Public Methods**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:24
-msgid "SdFatFile::write"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:24
-msgid "Write 1 byte/bytes to file"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:25
-msgid "SdFatFile::read"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:25
-msgid "Read 1 byte/bytes from the file"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:26
-msgid "SdFatFile::peek"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:26
-msgid "Read 1 byte from file without move curser"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:27
-msgid "SdFatFile::available"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:27
-msgid "Check if the cursor is at EOF (End-Of-File)"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:28
-msgid "SdFatFile::bool"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:28
-msgid "Check if file is opened"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:29
-msgid "SdFatFile::seek"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:29
-msgid "Change cursor to a specific position"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:30
-msgid "SdFatFile::close"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:30
-msgid "Close file"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:40
-msgid "Write 1 byte or bytes to the file."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:42
-#: SdFatFile.rst:81 SdFatFile.rst:288 SdFatFile.rst:318 SdFatFile.rst:350
-#: SdFatFile.rst:381 SdFatFile.rst:412
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:12
+#: SdFatFile.rst:44 SdFatFile.rst:83 SdFatFile.rst:290 SdFatFile.rst:320
+#: SdFatFile.rst:352 SdFatFile.rst:383 SdFatFile.rst:414
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:52
-#: SdFatFile.rst:91 SdFatFile.rst:294 SdFatFile.rst:324 SdFatFile.rst:356
-#: SdFatFile.rst:387 SdFatFile.rst:418
-msgid "**Parameters**"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:18
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:21
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:23
+msgid "SdFatFile::SdFatFile"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:23
+msgid "Constructs a SdFatFile object"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:24
+msgid "SdFatFile::~SdFatFile"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:24
+msgid "Destructs a SdFatFile object"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:25
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:26
+msgid "SdFatFile::write"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:26
+msgid "Write 1 byte/bytes to file"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:27
+msgid "SdFatFile::read"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:27
+msgid "Read 1 byte/bytes from the file"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:28
+msgid "SdFatFile::peek"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:28
+msgid "Read 1 byte from file without move curser"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:29
+msgid "SdFatFile::available"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:29
+msgid "Check if the cursor is at EOF (End-Of-File)"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:30
+msgid "SdFatFile::bool"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:30
+msgid "Check if file is opened"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:31
+msgid "SdFatFile::seek"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:31
+msgid "Change cursor to a specific position"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:32
+msgid "SdFatFile::close"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:32
+msgid "Close file"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:42
+msgid "Write 1 byte or bytes to the file."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:54
-msgid "``c`` : The character to be written."
+#: SdFatFile.rst:93 SdFatFile.rst:296 SdFatFile.rst:326 SdFatFile.rst:358
+#: SdFatFile.rst:389 SdFatFile.rst:420
+msgid "**Parameters**"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:56
-msgid "``buf`` : The buffer to be written."
+msgid "``c`` : The character to be written."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:58
-msgid "``size`` : The length of buffer to be written."
+msgid "``buf`` : The buffer to be written."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:60
-#: SdFatFile.rst:97 SdFatFile.rst:298 SdFatFile.rst:328 SdFatFile.rst:360
-#: SdFatFile.rst:391 SdFatFile.rst:422
-msgid "**Returns**"
+msgid "``size`` : The length of buffer to be written."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:62
+#: SdFatFile.rst:99 SdFatFile.rst:300 SdFatFile.rst:330 SdFatFile.rst:362
+#: SdFatFile.rst:393 SdFatFile.rst:424
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:64
 msgid ""
 "The function returns the number of byte count that has been successfully "
 "written to the file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:65
-#: SdFatFile.rst:101 SdFatFile.rst:302 SdFatFile.rst:332 SdFatFile.rst:364
-#: SdFatFile.rst:395 SdFatFile.rst:427
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:67
+#: SdFatFile.rst:103 SdFatFile.rst:304 SdFatFile.rst:334 SdFatFile.rst:366
+#: SdFatFile.rst:397 SdFatFile.rst:429
 msgid "**Example Code**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:67
-msgid "NA."
-msgstr ""
-
 #: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:69
-#: SdFatFile.rst:275 SdFatFile.rst:306 SdFatFile.rst:336 SdFatFile.rst:368
-#: SdFatFile.rst:399 SdFatFile.rst:519
-msgid "**Notes and Warnings**"
+msgid "NA."
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:71
 #: SdFatFile.rst:277 SdFatFile.rst:308 SdFatFile.rst:338 SdFatFile.rst:370
+#: SdFatFile.rst:401 SdFatFile.rst:521
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:73
+#: SdFatFile.rst:279 SdFatFile.rst:310 SdFatFile.rst:340 SdFatFile.rst:372
 msgid "Include “SdFatFile.h” to use the class function."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:79
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:81
 msgid "Read 1 byte or bytes from the file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:93
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:95
 msgid "``buf``: The buffer to store the content."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:95
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:97
 msgid ""
 "``nbyte``: The buffer size. (Or can be regarded as the desired length to "
 "read)."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:99
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:101
 msgid "The function returns a read character or the read size of the buffer."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:103
-#: SdFatFile.rst:191
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:105
+#: SdFatFile.rst:193
 msgid "#include \"FatFs_SD.h\""
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:107
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:109
 msgid "char dirname[] = \"testdir\";"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:109
-#: SdFatFile.rst:195 SdFatFile.rst:453
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:111
+#: SdFatFile.rst:197 SdFatFile.rst:455
 msgid "char filename[] = \"test.txt\";"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:111
-#: SdFatFile.rst:197
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:113
+#: SdFatFile.rst:199
 msgid "char write_content[] = \"hello world!\";"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:115
-#: SdFatFile.rst:201 SdFatFile.rst:449
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:117
+#: SdFatFile.rst:203 SdFatFile.rst:451
 msgid "FatFsSD fs;"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:119
-#: SdFatFile.rst:205 SdFatFile.rst:457
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:121
+#: SdFatFile.rst:207 SdFatFile.rst:459
 msgid "void setup() {"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:121
-#: SdFatFile.rst:207
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:123
+#: SdFatFile.rst:209
 msgid "char buf[128];"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:123
-#: SdFatFile.rst:209 SdFatFile.rst:459
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:125
+#: SdFatFile.rst:211 SdFatFile.rst:461
 msgid "char absolute_filename[128];"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:127
-#: SdFatFile.rst:213 SdFatFile.rst:477
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:129
+#: SdFatFile.rst:215 SdFatFile.rst:479
 msgid "fs.begin();"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:131
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:133
 #, python-format
 msgid "sprintf(absolute_filename, \"%s%s\", fs.getRootPath(), dirname);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:133
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:135
 msgid "fs.mkdir(absolute_filename);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:135
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:137
 #, python-format
 msgid "printf(\"create dir at \\\\\"%s\\\"\\r\\n\", absolute_filename);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:139
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:141
 #, python-format
 msgid ""
 "sprintf(absolute_filename, \"%s%s/%s\", fs.getRootPath(), dirname, "
 "filename);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:142
-#: SdFatFile.rst:221 SdFatFile.rst:483
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:144
+#: SdFatFile.rst:223 SdFatFile.rst:485
 msgid "SdFatFile file = fs.open(absolute_filename);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:144
-#: SdFatFile.rst:225
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:146
+#: SdFatFile.rst:227
 msgid "file.println(write_content);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:146
-#: SdFatFile.rst:164 SdFatFile.rst:229 SdFatFile.rst:247 SdFatFile.rst:485
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:148
+#: SdFatFile.rst:166 SdFatFile.rst:231 SdFatFile.rst:249 SdFatFile.rst:487
 msgid "file.close();"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:148
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:150
 #, python-format
 msgid "printf(\"create file at \\\\\"%s\\\"\\r\\n\", absolute_filename);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:152
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:154
 #, python-format
 msgid "printf(\"read back from \\\\\"%s\\\"\\r\\n\", absolute_filename);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:154
-#: SdFatFile.rst:237
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:156
+#: SdFatFile.rst:239
 msgid "file = fs.open(absolute_filename);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:158
-#: SdFatFile.rst:241
-msgid "memset(buf, 0, sizeof(buf));"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:160
 #: SdFatFile.rst:243
-msgid "file.read(buf, sizeof(buf));"
+msgid "memset(buf, 0, sizeof(buf));"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:166
-#: SdFatFile.rst:249
-msgid "printf(\"==== content ====\\r\\n\");"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:162
+#: SdFatFile.rst:245
+msgid "file.read(buf, sizeof(buf));"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:168
 #: SdFatFile.rst:251
-#, python-format
-msgid "printf(\"%s\", buf);"
+msgid "printf(\"==== content ====\\r\\n\");"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:170
 #: SdFatFile.rst:253
+#, python-format
+msgid "printf(\"%s\", buf);"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:172
+#: SdFatFile.rst:255
 msgid "printf(\"==== end ====\\r\\n\");"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:174
-#: SdFatFile.rst:257 SdFatFile.rst:504
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:176
+#: SdFatFile.rst:259 SdFatFile.rst:506
 msgid "fs.end();"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:176
-#: SdFatFile.rst:184 SdFatFile.rst:259 SdFatFile.rst:267 SdFatFile.rst:506
-#: SdFatFile.rst:514
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:178
+#: SdFatFile.rst:186 SdFatFile.rst:261 SdFatFile.rst:269 SdFatFile.rst:508
+#: SdFatFile.rst:516
 msgid "}"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:180
-#: SdFatFile.rst:263 SdFatFile.rst:510
-msgid "void loop() {"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:182
 #: SdFatFile.rst:265 SdFatFile.rst:512
+msgid "void loop() {"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:184
+#: SdFatFile.rst:267 SdFatFile.rst:514
 msgid "delay(1000);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:188
-#: SdFatFile.rst:433
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:190
+#: SdFatFile.rst:435
 msgid "Example: create_folder;"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:189
-#: SdFatFile.rst:435
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:191
+#: SdFatFile.rst:437
 msgid "This example shows how to create a folder and open a file under it."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:217
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:219
 #, python-format
 msgid "printf(\"write something to \\\\\"%s\\\"\\r\\n\", filename);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:219
-#: SdFatFile.rst:481
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:221
+#: SdFatFile.rst:483
 #, python-format
 msgid "sprintf(absolute_filename, \"%s%s\", fs.getRootPath(), filename);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:231
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:233
 msgid "printf(\"write finish\\r\\n\\r\\n\");"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:235
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:237
 #, python-format
 msgid "printf(\"read back from \\\\\"%s\\\"\\r\\n\", filename);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:271
-#: SdFatFile.rst:439
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:273
+#: SdFatFile.rst:441
 msgid "Example: file_read_write;"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:273
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:275
 msgid "This example shows how to open/close files and perform read/write to it."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:286
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:288
 msgid "Read one byte from the file without moving the curser."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:296
-#: SdFatFile.rst:326 SdFatFile.rst:358 SdFatFile.rst:420
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:298
+#: SdFatFile.rst:328 SdFatFile.rst:360 SdFatFile.rst:422
 msgid "The function requires no input parameter."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:300
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:302
 msgid "The function returns the read character as an integer number."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:304
-#: SdFatFile.rst:334 SdFatFile.rst:366 SdFatFile.rst:397
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:306
+#: SdFatFile.rst:336 SdFatFile.rst:368 SdFatFile.rst:399
 msgid "NA"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:316
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:318
 msgid "Check if the cursor is at EOF."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:330
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:332
 msgid "The function returns ``0`` if the cursor is at EOF, else returns “1”."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:347
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:349
 msgid ""
 "It is a nop. This is an inherited function from class Stream. And it does"
 " not affect SD File."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:362
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:364
 msgid "The function returns nothing."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:379
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:381
 msgid "Change cursor to a specific position."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:389
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:391
 msgid "pos: The desired position."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:393
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:395
 msgid "The function returns 0 if success otherwise returns a negative value."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:401
-#: SdFatFile.rst:521
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:403
+#: SdFatFile.rst:523
 msgid "Include “SdFatFile.h” in order to use the class function."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:410
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:412
 msgid "Close file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:424
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:426
 msgid ""
 "The function returns 0 if runs successfully otherwise it returns a "
 "negative value."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:429
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:431
 msgid "Example: last_modified_time;"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:431
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:433
 msgid "The example shows how to get and set last modified time of a file."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:437
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:439
 msgid "the details of the code can be found in the section of SdFatFile::read."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:441
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:443
 msgid "This example shows how to open/close files and perform read/write to"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:443
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:445
 msgid ""
 "it. The details of the code can be found in the section of "
 "SdFatFile::read."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:445
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:447
 msgid "#include <FatFs_SD.h>"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:463
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:465
 msgid "uint16_t year = 2021;"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:465
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:467
 msgid "uint16_t month = 4;"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:467
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:469
 msgid "uint16_t date = 4;"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:469
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:471
 msgid "uint16_t hour = 12;"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:471
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:473
 msgid "uint16_t minute = 12;"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:473
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:475
 msgid "uint16_t second = 12;"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:489
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:491
 msgid ""
 "fs.setLastModTime(absolute_filename, year, month, date, hour, minute, "
 "second);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:494
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:496
 msgid ""
 "fs.getLastModTime(absolute_filename, &year, &month, &date, &hour, "
 "&minute, &second);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:497
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:499
 #, python-format
 msgid "printf(\"filename:\\\"%s\\\"\\r\\n\", absolute_filename);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:499
+#: ../../source/ambd_arduino/AMB21/api_documents/Class SdFatFile.rst:501
 #, python-format
 msgid ""
 "printf(\"time mod:%04d/%02d/%02d %02d:%02d:%02d\\r\\n\", year, month, "
@@ -603,5 +595,11 @@ msgstr ""
 #~ "The details of the code can be "
 #~ "found in the section of SdFatFile:: "
 #~ "read."
+#~ msgstr ""
+
+#~ msgid "**Syntax** .. code:: cpp"
+#~ msgstr ""
+
+#~ msgid "class SdFatFile"
 #~ msgstr ""
 

@@ -1,13 +1,18 @@
+############################
 Class BLEWifiConfigService
-==============================
-**BLEWifiConfigService Class**
+############################
 
-| **Description**
-| A class used for managing a BLE WiFi configuration service running on
-  the device.
 
-| **Syntax**
-| class BLEWifiConfigService
+**Description**
+
+A class used for managing a BLE WiFi configuration service running on
+the device.
+
+**Syntax**
+
+.. code:: cpp
+
+  class BLEWifiConfigService
 
 **Members**
 
@@ -36,112 +41,163 @@ Class BLEWifiConfigService
 |                                  | service                          |
 +----------------------------------+----------------------------------+
 
-**BLEWifiConfigService::BLEWifiConfigService**
+------
 
-| **Description**
-| Create an instance of the BLEWifiConfigService object.
+BLEWifiConfigService::BLEWifiConfigService
 
-| **Syntax**
-| void BLEWifiConfigService ();
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Create an instance of the BLEWifiConfigService object.
 
-| **Example Code**
-| Example: BLEWifiConfig
+**Syntax**
 
-| **Notes and Warnings**
-| Only one instance of this class / service should be created.
-|  
+.. code:: cpp
 
-**BLEWifiConfigService::begin**
+  void BLEWifiConfigService ();
 
-| **Description**
-| Start background thread to process WiFi configuration commands.
+**Parameters**
 
-| **Syntax**
-| void begin();
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| The function returns nothing.
+The function returns nothing.
 
-| **Example Code**
-| Example: BLEWifiConfig
+**Example Code**
 
-| **Notes and Warnings**
-| NA
-|  
+Example: BLEWifiConfig
 
-**BLEWifiConfigService::end**
+**Notes and Warnings**
 
-| **Description**
-| Stop background thread processing WiFi configuration commands.
+Only one instance of this class / service should be created.
 
-| **Syntax**
-| void end();
+-----
 
-| **Parameters**
-| The function requires no input parameter.
+.. method:: BLEWifiConfigService::begin
 
-| **Returns**
-| The function returns nothing.
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| NA
-|  
+Start background thread to process WiFi configuration commands.
 
-**BLEWifiConfigService::addService**
+**Syntax**
 
-| **Description**
-| Add the WiFi configuration service to the BLE stack.
+.. code:: cpp
 
-| **Syntax**
-| void addService();
+  void begin();
 
-| **Parameters**
-| The function requires no input parameter.
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+The function requires no input parameter.
 
-| **Example Code**
-| Example: BLEWifiConfig
+**Returns**
 
-| **Notes and Warnings**
-| NA
-|  
+The function returns nothing.
 
-**BLEWifiConfigService::advData**
+**Example Code**
 
-| **Description**
-| Get advertising data correctly formatted for WiFi configuration
-  service.
+Example: BLEWifiConfig
 
-| **Syntax**
-| BLEAdvertData advData();
+**Notes and Warnings**
 
-| **Parameters**
-| The function requires no input parameter.
+NA
 
-| **Returns**
-| The function returns a BLEAdvertData object that contains the required
-  advertising data fields for the WiFi configuration service to work.
+-----
 
-| **Example Code**
-| Example: BLEWifiConfig
+.. method:: BLEWifiConfigService::end
 
-| **Notes and Warnings**
-| The advertisement data needs to be correctly formatted for the
-  corresponding smartphone app to recognise the device. WiFi
-  configuration service advertisement data requires the local BT
-  address, and should be called only after peripheral mode is started
-  and may also require stopping and restarting the advertising process.
+
+**Description**
+
+Stop background thread processing WiFi configuration commands.
+
+**Syntax**
+
+.. code:: cpp
+
+  void end();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLEWifiConfigService::addService
+
+
+**Description**
+
+Add the WiFi configuration service to the BLE stack.
+
+**Syntax**
+
+.. code:: cpp
+
+  void addService();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: BLEWifiConfig
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: BLEWifiConfigService::advData
+
+
+**Description**
+
+Get advertising data correctly formatted for WiFi configuration
+service.
+
+**Syntax**
+
+.. code:: cpp
+
+  BLEAdvertData advData();
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns a BLEAdvertData object that contains the required
+advertising data fields for the WiFi configuration service to work.
+
+**Example Code**
+
+Example: BLEWifiConfig
+
+**Notes and Warnings**
+
+The advertisement data needs to be correctly formatted for the
+corresponding smartphone app to recognise the device. WiFi
+configuration service advertisement data requires the local BT
+address, and should be called only after peripheral mode is started
+and may also require stopping and restarting the advertising process.
