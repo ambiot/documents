@@ -1,13 +1,18 @@
+####################
 Class WiFiSSLClient
-========================
-**WiFiSSLClient Class**
+####################
 
-| **Description**
-| Defines a class of WiFi Secure Socket Layer Client implementation for
-  Ameba.
 
-| **Syntax**
-| class WiFiSSLClient
+**Description**
+
+Defines a class of WiFi Secure Socket Layer Client implementation for
+Ameba.
+
+**Syntax**
+
+.. code:: cpp
+
+  class WiFiSSLClient
 
 **Members**
 
@@ -19,8 +24,10 @@ Class WiFiSSLClient
 |                                  | SSL to the specified IP address  |
 |                                  | and port                         |
 +----------------------------------+----------------------------------+
-| **Public Methods**               |                                  |
+
 +----------------------------------+----------------------------------+
+| **Public Methods**               |                                  |
++==================================+==================================+
 | WiFiSSLClient::connect           | Connect to the IP address and    |
 |                                  | port                             |
 +----------------------------------+----------------------------------+
@@ -57,490 +64,586 @@ Class WiFiSSLClient
 |                                  | use for authentication           |
 +----------------------------------+----------------------------------+
 
-**WiFiSSLClient::WiFiSSLClient**
+-----
+
+.. method:: WiFiSSLClient::WiFiSSLClient
+
+**Description**
+
+Constructs a WiFiSSLClient instance that always connects in SSL to the
+specified IP address and port.
+
+**Syntax**
+
+.. code:: cpp
+
+  WiFiSSLClient::WiFiSSLClient(void)
+
+.. code:: cpp
+
+  WiFiSSLClient::WiFiSSLClient(uint8_t sock)
+
+**Parameters**
+
+``sock`` : socket state, default -1
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: WiFiSSLClient
+
+.. code:: cpp
+
+  #include "WiFi.h"    
+  
+  char ssid[] = "yourNetwork"; //  your network SSID (name)  
+  char pass[] = "secretPassword";// your network password (use for WPA, or WEP)
+  int keyIndex = 0;            // your network key Index number (needed only for WEP)
+    
+  int status = WL_IDLE_STATUS;  
+    
+  char server[] = "www.google.com";         // name address for Google (using DNS)  
+  //unsigned char test_client_key[] = "";   //For the usage of verifying client  
+  //unsigned char test_client_cert[] = "";  //For the usage of verifying client  
+  //unsigned char test_ca_cert[] = "";      //For the usage of verifying server  
+    
+  WiFiSSLClient client;  
+    
+  void setup() {  
+    //Initialize serial and wait for port to open:  
+    Serial.begin(9600);  
+    while (!Serial) {  
+      ; // wait for serial port to connect. Needed for native USB port only  
+    }  
+    
+    // check for the presence of the shield:  
+    if (WiFi.status() == WL_NO_SHIELD) {  
+      Serial.println("WiFi shield not present");  
+      // don't continue:  
+      while (true);  
+    }  
+    
+    // attempt to connect to Wifi network:  
+    while (status != WL_CONNECTED) {  
+      Serial.print("Attempting to connect to SSID: ");  
+      Serial.println(ssid);  
+      // Connect to WPA/WPA2 network. Change this line if using open or WEP network:  
+      status = WiFi.begin(ssid,pass);  
+    
+      // wait 10 seconds for connection:  
+      delay(10000);  
+    }  
+    Serial.println("Connected to wifi");  
+    printWifiStatus();  
+    
+    Serial.println("\nStarting connection to server...");  
+    // if you get a connection, report back via serial:  
+    if (client.connect(server, 443)) { //client.connect(server, 443, test_ca_cert, test_client_cert, test_client_key)  
+      Serial.println("connected to server");  
+      // Make a HTTP request:  
+      client.println("GET /search?q=realtek HTTP/1.0");  
+      client.println("Host: www.google.com");  
+      client.println("Connection: close");  
+      client.println();  
+    }  
+    else  
+    Serial.println("connected to server failed");  
+  }  
+    
+  void loop() {  
+    // if there are incoming bytes available  
+    // from the server, read them and print them:  
+    while (client.available()) {  
+      char c = client.read();  
+      Serial.write(c);  
+    }  
+    
+    // if the server's disconnected, stop the client:  
+    if (!client.connected()) {  
+      Serial.println();  
+      Serial.println("disconnecting from server.");  
+      client.stop();  
+    
+      // do nothing forevermore:  
+      while (true);  
+    }  
+  }  
+    
+  void printWifiStatus() {  
+    // print the SSID of the network you're attached to:  
+    Serial.print("SSID: ");  
+    Serial.println(WiFi.SSID());  
+    
+    // print your WiFi shield's IP address:  
+    IPAddress ip = WiFi.localIP();  
+    Serial.print("IP Address: ");  
+    Serial.println(ip);  
+    
+    // print your MAC address:  
+    byte mac[6];  
+    WiFi.macAddress(mac);  
+    Serial.print("MAC address: ");  
+    Serial.print(mac[0], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[1], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[2], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[3], HEX);  
+    Serial.print(":");  
+    Serial.print(mac[4], HEX);  
+    Serial.print(":");  
+    Serial.println(mac[5], HEX);  
+        
+    // print the received signal strength:  
+    long rssi = WiFi.RSSI();  
+    Serial.print("signal strength (RSSI):");  
+    Serial.print(rssi);  
+    Serial.println(" dBm");  
+  }  
+  
 
-| **Description**
-| Constructs a WiFiSSLClient instance that always connects in SSL to the
-  specified IP address and port.
+**Notes and Warnings**
 
-| **Syntax**
-| WiFiSSLClient::WiFiSSLClient(void)
-| WiFiSSLClient::WiFiSSLClient(uint8_t sock)
+NA
 
-| **Parameters**
-| sock: socket state, default -1
+-----
 
-| **Returns**
-| The function returns nothing.
+.. method:: WiFiSSLClient::connect
 
-| **Example Code**
-| Example: WiFiSSLClient
 
-**#include**
+**Description**
 
-**char** ssid[] = "yourNetwork"; // your network SSID (name)
+Connect to the IP address and port.
 
-**char** pass[] = "secretPassword";// your network password (use for
-WPA, or WEP)
+**Syntax**
 
-**int** keyIndex = 0; // your network key Index number (needed only for
-WEP)
+.. code:: cpp
 
-**int** status = WL_IDLE_STATUS;
+  int WiFiSSLClient::connect(IPAddress ip, uint16_t port)
 
-**char** server[] = "www.google.com"; // name address for Google (using
-DNS)
+.. code:: cpp
 
-//unsigned char test_client_key[] = ""; //For the usage of verifying
-client
+  int WiFiSSLClient::connect(const char *host, uint16_t port)
 
-//unsigned char test_client_cert[] = ""; //For the usage of verifying
-client
+.. code:: cpp
 
-//unsigned char test_ca_cert[] = ""; //For the usage of verifying server
+  int WiFiSSLClient::connect(const char* host, uint16_t port, unsigned char* rootCABuff, unsigned char* cli_cert, unsigned char* cli_key)
 
-WiFiSSLClient client;
+.. code:: cpp
 
-**void** setup() {
+  int WiFiSSLClient::connect(IPAddress ip, uint16_t port, unsigned char* rootCABuff, unsigned char* cli_cert, unsigned char* cli_key)
 
-//Initialize serial and wait for port to open:
+**Parameters**
 
-Serial.begin(9600);
+``ip`` : IP address
 
-**while** (!Serial) {
+``host`` : Host name
 
-; // wait for serial port to connect. Needed for native USB port only
+``port``: the port to listen on
 
-}
+``rootCABuff``: buffer that store root CA
 
-// check for the presence of the shield:
+``cli_cert``: buffer that store client certificate cli_key buffer that store client key pair
 
-**if** (WiFi.status() == WL_NO_SHIELD) {
+**Returns**
 
-Serial.println("WiFi shield not present");
+1: if successful
 
-// don't continue:
+0: if failed
 
-**while** (**true**);
+**Example Code**
 
-}
+Example: WiFiSSLClient
 
-// attempt to connect to Wifi network:
+Details of the code can be found in the previous section of
 
-**while** (status != WL_CONNECTED) {
+WiFiSSLClient:: WiFiSSLClient.
 
-Serial.print("Attempting to connect to SSID: ");
+**Notes and Warnings**
 
-Serial.println(ssid);
+NA
 
-// Connect to WPA/WPA2 network. Change this line if using open or WEP
-network:
+------
 
-status = WiFi.begin(ssid,pass);
+.. method:: WiFiSSLClient::write
 
-// wait 10 seconds for connection:
 
-delay(10000);
+**Description**
 
-}
+Write a single byte into the packet
 
-Serial.println("Connected to wifi");
+**Syntax**
 
-printWifiStatus();
+.. code:: cpp
 
-Serial.println("\nStarting connection to server...");
+  size_t WiFiSSLClient::write(uint8_t byte)
 
-// if you get a connection, report back via serial:
+.. code:: cpp
 
-**if** (client.connect(server, 443)) { //client.connect(server, 443,
-test_ca_cert, test_client_cert, test_client_key)
+  size_t WiFiSSLClient::write(const uint8_t *buf, size_t size)
 
-Serial.println("connected to server");
+**Parameters**
 
-// Make a HTTP request:
+``byte`` : the outgoing byte
 
-client.println("GET /search?q=realtek HTTP/1.0");
+``buf`` : the outgoing message
 
-client.println("Host: www.google.com");
+``size`` : the size of the buffer
 
-client.println("Connection: close");
+**Returns**
 
-client.println();
+The function returns single -byte into the packet or turns bytes size
+from the buffer into the packet.
 
-}
+**Example Code**
 
-**else**
+NA
 
-Serial.println("connected to server failed");
+**Notes and Warnings**
 
-}
+NA
 
-**void** loop() {
+-----
 
-// if there are incoming bytes available
+.. method:: WiFiSSLClient::available
 
-// from the server, read them and print them:
 
-**while** (client.available()) {
+**Description**
 
-**char** c = client.read();
+Number of bytes remaining in the current packet
 
-Serial.write(c);
+**Syntax**
 
-}
+.. code:: cpp
 
-// if the server's disconnected, stop the client:
+  int WiFiSSLClient::available(void)
 
-**if** (!client.connected()) {
+**Parameters**
 
-Serial.println();
+The function requires no input parameter.
 
-Serial.println("disconnecting from server.");
+**Returns**
 
-client.stop();
+The function returns the number of bytes available in the current
+packet; else return “0:” if no data available.
 
-// do nothing forevermore:
+**Example Code**
 
-**while** (**true**);
+Example: WiFiSSLClient
 
-}
+Details of the code can be found in the previous section of
+WiFiSSLClient:: WiFiSSLClient.
 
-}
+**Notes and Warnings**
 
-**void** printWifiStatus() {
+NA
 
-// print the SSID of the network you're attached to:
+-----
 
-Serial.print("SSID: ");
+.. method:: WiFiSSLClient::read
 
-Serial.println(WiFi.SSID());
 
-// print your WiFi shield's IP address:
+**Description**
 
-IPAddress ip = WiFi.localIP();
+Read a single byte from the current packet
 
-Serial.print("IP Address: ");
+**Syntax**
 
-Serial.println(ip);
+.. code:: cpp
 
-// print your MAC address:
+  int WiFiSSLClient::read()
 
-byte mac[6];
+.. code:: cpp
 
-WiFi.macAddress(mac);
+  int WiFiSSLClient::read(unsigned char* buf, size_t size)
 
-Serial.print("MAC address: ");
+**Parameters**
 
-Serial.print(mac[0], HEX);
+``buf`` : buffer to hold incoming packets (char*)
 
-Serial.print(":");
+``size`` : maximum size of the buffer (int)
 
-Serial.print(mac[1], HEX);
+**Returns**
 
-Serial.print(":");
+``size`` : the size of the buffer
 
-Serial.print(mac[2], HEX);
+``-1`` : if no buffer is available
 
-Serial.print(":");
+**Example Code**
 
-Serial.print(mac[3], HEX);
+Example: WiFiSSLClient
 
-Serial.print(":");
+Details of the code can be found in the previous section of
+WiFiSSLClient:: WiFiSSLClient.
 
-Serial.print(mac[4], HEX);
+**Notes and Warnings**
 
-Serial.print(":");
+NA
 
-Serial.println(mac[5], HEX);
+-----
 
-// print the received signal strength:
+.. method:: WiFiSSLClient::peek
 
-**long** rssi = WiFi.RSSI();
 
-Serial.print("signal strength (RSSI):");
+**Description**
 
-Serial.print(rssi);
+Return the next byte from the current packet without moving on to the
+next byte.
 
-Serial.println(" dBm");
+**Syntax**
 
-}
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
+  int WiFiSSLClient::peek(void)
 
-**WiFiSSLClient::connect**
+**Parameters**
 
-| **Description**
-| Connect to the IP address and port.
+The function requires no input parameter.
 
-| **Syntax**
-| int WiFiSSLClient::connect(IPAddress ip, uint16_t port)
-| int WiFiSSLClient::connect(const char \*host, uint16_t port)
-| int WiFiSSLClient::connect(const char\* host, uint16_t port, unsigned
-  char\* rootCABuff, unsigned char\* cli_cert, unsigned char\* cli_key)
-| int WiFiSSLClient::connect(IPAddress ip, uint16_t port, unsigned
-  char\* rootCABuff, unsigned char\* cli_cert, unsigned char\* cli_key)
+**Returns**
 
-| **Parameters**
-| ip: IP address
-| host: Host name
-| port: the port to listen on
-| rootCABuff: buffer that store root CA
-| cli_cert: buffer that store client certificate
-| cli_key buffer that store client key pair
+``b`` : the next byte or character
 
-| **Returns**
-| 1: if successful
-| 0: if failed
+``-1`` : if none is available
 
-| **Example Code**
-| Example: WiFiSSLClient
-| Details of the code can be found in the previous section of
-  WiFiSSLClient:: WiFiSSLClient.
+**Example Code**
 
-| **Notes and Warnings**
-| NA
+NA
 
-**WiFiSSLClient::write**
+**Notes and Warnings**
 
-| **Description**
-| Write a single byte into the packet
+NA
 
-| **Syntax**
-| size_t WiFiSSLClient::write(uint8_t byte)
-| size_t WiFiSSLClient::write(const uint8_t \*buf, size_t size)
+-----
 
-| **Parameters**
-| byte: the outgoing byte
-| buf: the outgoing message
-| size: the size of the buffer
+.. method:: WiFiSSLClient::flush
 
-| **Returns**
-| The function returns single -byte into the packet or turns bytes size
-  from the buffer into the packet.
 
-| **Example Code**
-| NA
+**Description**
 
-| **Notes and Warnings**
-| NA
+Finish reading the current packet
 
-**WiFiSSLClient::available**
+**Syntax**
 
-| **Description**
-| Number of bytes remaining in the current packet
+.. code:: cpp
 
-| **Syntax**
-| int WiFiSSLClient::available(void)
+  void WiFiSSLClient::flush(void)
 
-| **Parameters**
-| The function requires no input parameter.
+**Parameters**
 
-| **Returns**
-| The function returns the number of bytes available in the current
-  packet; else return “0:” if no data available.
+The function requires no input parameter.
 
-| **Example Code**
-| Example: WiFiSSLClient
-| Details of the code can be found in the previous section of
-  WiFiSSLClient:: WiFiSSLClient.
+**Returns**
 
-| **Notes and Warnings**
-| NA
+The function returns nothing.
 
-**WiFiSSLClient::read**
+**Example Code**
 
-| **Description**
-| Read a single byte from the current packet
+NA
 
-| **Syntax**
-| int WiFiSSLClient::read()
-| int WiFiSSLClient::read(unsigned char\* buf, size_t size)
+**Notes and Warnings**
 
-| **Parameters**
-| buf: buffer to hold incoming packets (char*)
-| size: maximum size of the buffer (int)
+NA
 
-| **Returns**
-| size: the size of the buffer
-| -1: if no buffer is available
+-----
 
-| **Example Code**
-| Example: WiFiSSLClient
-| Details of the code can be found in the previous section of
-  WiFiSSLClient:: WiFiSSLClient.
+.. method:: WiFiSSLClient::stop
 
-| **Notes and Warnings**
-| NA
 
-**WiFiSSLClient::peek**
+**Description**
 
-| **Description**
-| Return the next byte from the current packet without moving on to the
-  next byte.
+Disconnect from the server. Stop SSL client connection
 
-| **Syntax**
-| int WiFiSSLClient::peek(void)
+**Syntax**
 
-| **Parameters**
-| The function requires no input parameter.
+.. code:: cpp
 
-| **Returns**
-| b: the next byte or character
-| -1: if none is available
+  void WiFiSSLClient::stop(void)
 
-| **Example Code**
-| NA
+**Parameters**
 
-| **Notes and Warnings**
-| NA
+The function requires no input parameter.
 
-**WiFiSSLClient::flush**
+**Returns**
 
-| **Description**
-| Finish reading the current packet
+The function returns nothing.
 
-| **Syntax**
-| void WiFiSSLClient::flush(void)
+**Example Code**
 
-| **Parameters**
-| The function requires no input parameter.
+Example: WiFiSSLClient
 
-| **Returns**
-| The function returns nothing.
+Details of the code can be found in the previous section of
+WiFiSSLClient:: WiFiSSLClient.
 
-| **Example Code**
-| NA
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
+NA
 
-**WiFiSSLClient::stop**
+-----
 
-| **Description**
-| Disconnect from the server. Stop SSL client connection
+.. method:: WiFiSSLClient::connected
 
-| **Syntax**
-| void WiFiSSLClient::stop(void)
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Check if SSL client is connected, return 1 if connected, 0 if not.
 
-| **Example Code**
-| Example: WiFiSSLClient
-| Details of the code can be found in the previous section of
-  WiFiSSLClient:: WiFiSSLClient.
+**Syntax**
 
-| **Notes and Warnings**
-| NA
+.. code:: cpp
 
-**WiFiSSLClient::connected**
+  uint8_t WiFiSSLClient::connected(void)
 
-| **Description**
-| Check if SSL client is connected, return 1 if connected, 0 if not.
+**Parameters**
 
-| **Syntax**
-| uint8_t WiFiSSLClient::connected(void)
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| The function returns “1” if connected, returns “0” if not connected.
+The function returns “1” if connected, returns “0” if not connected.
 
-| **Example Code**
-| Example: WiFiSSLClient
-| Details of the code can be found in the previous section of
-  WiFiSSLClient:: WiFiSSLClient.
+**Example Code**
 
-| **Notes and Warnings**
-| NA
+Example: WiFiSSLClient
 
-**WiFiSSLClient::setRootCA**
+Details of the code can be found in the previous section of
+WiFiSSLClient:: WiFiSSLClient.
 
-| **Description**
-| Set Root CA for authentication
+**Notes and Warnings**
 
-| **Syntax**
-| void WiFiSSLClient::setRootCA(unsigned char \*rootCA)
+NA
 
-| **Parameters**
-| rootCA: a string of rootCA
+-----
 
-| **Returns**
-| The function returns nothing.
+.. method:: WiFiSSLClient::setRootCA
 
-| **Example Code**
-| NA
 
-| **Notes and Warnings**
-| NA
+**Description**
 
-**WiFiSSLClient::setClientCertificate**
+Set Root CA for authentication
 
-| **Description**
-| Set certificate of client
+**Syntax**
 
-| **Syntax**
-| void WiFiSSLClient::setClientCertificate(unsigned char \*client_ca,
-  unsigned char \*private_key)
+.. code:: cpp
 
-| **Parameters**
-| client_ca: Client certificate
-| private_key: client’s private key pair
+  void WiFiSSLClient::setRootCA(unsigned char *rootCA)
 
-| **Returns**
-| The function returns nothing.
+**Parameters**
 
-| **Example Code**
-| NA
+``rootCA`` : a string of rootCA
 
-| **Notes and Warnings**
-| NA
+**Returns**
 
-**WiFiSSLClient::setRecvTimeout**
+The function returns nothing.
 
-| **Description**
-| Set receiving timeout
+**Example Code**
 
-| **Syntax**
-| int WiFiSSLClient::setRecvTimeout(int timeout)
+NA
 
-| **Parameters**
-| timeout: timeout in seconds
+**Notes and Warnings**
 
-| **Returns**
-| The function returns “0”.
+NA
 
-| **Example Code**
-| NA
+-----
 
-| **Notes and Warnings**
-| NA
+.. method:: WiFiSSLClient::setClientCertificate
 
-**WiFiSSLClient::setPreSharedKey**
 
-| **Description**
-| Set the pre shared key (PSK) to use for authentication
 
-| **Syntax**
-| void WiFiSSLClient::setPreSharedKey(unsigned char \*pskIdent, unsigned
-  char \*psKey)
+**Description**
 
-| **Parameters**
-| pskIdent: identity for PSK
-| psKey: Pre shared key
+Set certificate of client
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| Do not set a root CA and client certificate if PSK should be used for
-  authentication. If root CA, client certificate and PSK are all set,
-  certificate based authentication will be used.
+  void WiFiSSLClient::setClientCertificate(unsigned char *client_ca, unsigned char *private_key)
+
+**Parameters**
+
+``client_ca`` : Client certificate
+
+``private_key`` : client’s private key pair
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: WiFiSSLClient::setRecvTimeout
+
+
+**Description**
+
+Set receiving timeout
+
+**Syntax**
+
+.. code:: cpp
+
+  int WiFiSSLClient::setRecvTimeout(int timeout)
+
+**Parameters**
+
+timeout: timeout in seconds
+
+**Returns**
+
+The function returns “0”.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: WiFiSSLClient::setPreSharedKey
+
+
+**Description**
+
+Set the pre shared key (PSK) to use for authentication
+
+**Syntax**
+
+.. code:: cpp
+
+  void WiFiSSLClient::setPreSharedKey(unsigned char *pskIdent, unsigned char *psKey)
+
+**Parameters**
+
+``pskIdent``: identity for PSK
+
+``psKey`` : Pre shared key
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Do not set a root CA and client certificate if PSK should be used for
+authentication. If root CA, client certificate and PSK are all set,
+certificate based authentication will be used.

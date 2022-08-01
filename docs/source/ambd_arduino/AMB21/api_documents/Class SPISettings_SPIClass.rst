@@ -1,12 +1,16 @@
+###########################
 Class SPISettings_SPIClass
-===============================
-**SPISettings Class**
+###########################
 
-| **Description**
-| Defines a class to set SPI parameters.
+**Description**
 
-| **Syntax**
-| class SPISettings
+Defines a class to set SPI parameters.
+
+**Syntax**
+
+.. code:: cpp
+
+  class SPISettings
 
 **Members**
 
@@ -17,40 +21,56 @@ Class SPISettings_SPIClass
 |                          | clock speed, bit order and data mode     |
 +--------------------------+------------------------------------------+
 
-**SPISettings::SPISettings**
+-----
 
-| **Description**
-| Construct an object and configure SPI parameters — clock speed, bit
-  order and data model to the preferred default value.
+.. method:: SPISettings::SPISettings
 
-| **Syntax**
-| SPISettings YourObject(uint32_t clock, BitOrder bitOrder, uint8_t
-  dataMode);
 
-| **Parameters**
-| clock: SPI clock speed, default is 4000000
-| bitOrder: order of bit stream, MSB first or LSB first, default is
-  MSBFIRST
-| dataMode: There are 4 modes -> SPI_MODE0~3, default is SPI_MODE0
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Construct an object and configure SPI parameters — clock speed, bit
+order and data model to the preferred default value.
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| This class seldom used alone, it is always used with
-  beginTransaction() as a parameter in SPIClass.
-|  
+SPISettings YourObject(uint32_t clock, BitOrder bitOrder, uint8_t
+dataMode);
 
-**SPIClass Class**
+**Parameters**
 
-| **Description**
-| Defines a class of SPI implementation for Ameba.
+``clock`` : SPI clock speed, default is 4000000
 
-| **Syntax**
-| class SPIClass
+``bitOrder`` : order of bit stream, MSB first or LSB first, default is
+MSBFIRST
+
+``dataMode`` : There are 4 modes -> SPI_MODE0~3, default is SPI_MODE0
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+This class seldom used alone, it is always used with
+beginTransaction() as a parameter in SPIClass.
+
+-----
+
+.. method:: SPIClass Class
+
+**Description**
+
+Defines a class of SPI implementation for Ameba.
+
+**Syntax**
+
+.. code:: cpp
+
+  class SPIClass
 
 **Members**
 
@@ -59,8 +79,10 @@ Class SPISettings_SPIClass
 +===============================+=====================================+
 | SPIClass::SPIClass            | Constructs an SPI object            |
 +-------------------------------+-------------------------------------+
-| **Public Methods**            |                                     |
+
 +-------------------------------+-------------------------------------+
+| **Public Methods**            |                                     |
++===============================+=====================================+
 | SPIClass::transfer            | Transfer data through SPI           |
 +-------------------------------+-------------------------------------+
 | SPIClass::transfer16          | Transfer a 16-bits data through SPI |
@@ -85,271 +107,425 @@ Class SPISettings_SPIClass
 | SPIClass::setDefaultFrequency | Set default SPI frequency           |
 +-------------------------------+-------------------------------------+
 
-**SPIClass::SPIClass**
+-----
 
-| **Description**
-| Construct an SPI object, create a pointer to the object, and attach
-  “MOSI, MISO, CLK, and SS” to each pin on Ameba.
+.. method:: SPIClass::SPIClass
 
-| **Syntax**
-| SPIClass(void \*pSpiObj, int mosi, int miso, int clk, int ss);
 
-| **Parameters**
-| pSpiObj: SPI pointer to the object
-| mosi: master out slave in
-| miso: master in slave out
-| clk: clock
-| ss: slave select
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Construct an SPI object, create a pointer to the object, and attach
+“MOSI, MISO, CLK, and SS” to each pin on Ameba.
 
-| **Example Code**
-| SPIClass SPI((void \*)(&spi_obj0), 11, 12, 13, 10);
+**Syntax**
 
-| **Notes and Warnings**
-| 2 SPI objects are created in the library for 2 different hardware SPI
-  on Ameba (if applicable), use “SPI” for first hardware SPI and “SPI1”
-  for the second.
-|  
+.. code:: cpp
 
-**SPIClass::transfer**
+  SPIClass(void *pSpiObj, int mosi, int miso, int clk, int ss);
 
-| **Description**
-| Calling HAL API to send data in the buffer to the slave
+**Parameters**
 
-| **Syntax**
-| byte SPIClass::transfer (byte \_pin, uint8_t \_data, SPITransferMode
-  \_mode);
-| byte SPIClass::transfer (uint8_t \_data, SPITransferMode \_mode);
-| void SPIClass::transfer (byte \_pin, void \*_buf, size_t \_count,
-  SPITransferMode \_mode);
-| void SPIClass::transfer (void \*_buf, size_t \_count, SPITransferMode
-  \_mode);
+``pSpiObj`` : SPI pointer to the object
 
-| **Parameters**
-| \_pin: Slave select pin
-| \_data: Actual data being sent over
-| \_mode: SPI transfer mode
-| \_count: number of bytes of data
-| \_buf: data buffer
+``mosi`` : master out slave in
 
-| **Returns**
-| Void or “0” in case of error, “d” in case success
+``miso`` : master in slave out
 
-| **Example Code**
-| NA
+``clk`` : clock
 
-| **Notes and Warnings**
-| NA
-|  
+``ss``: slave select
 
-**SPIClass::transfer16**
+**Returns**
 
-| **Description**
-| Same as “transfer” method above except data being of 16-bits.
+The function returns nothing.
 
-| **Syntax**
-| uint16_t SPIClass::transfer16(byte \_pin, uint16_t \_data,
-  SPITransferMode \_mode)
-| uint16_t SPIClass::transfer16(uint16_t \_data, SPITransferMode \_mode)
+**Example Code**
 
-| **Parameters**
-| \_pin: Slave select pin
-| \_data: Actual data being sent over
-| \_mode: SPI transfer mode
+.. code:: cpp
 
-| **Returns**
-| The data being transferred
+  SPIClass SPI((void*)(&spi_obj0), 11, 12, 13, 10);
 
-| **Example Code**
-| NA
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
-|  
+2 SPI objects are created in the library for 2 different hardware SPI
+on Ameba (if applicable), use “SPI” for first hardware SPI and “SPI1”
+for the second.
 
-**SPIClass::beginTransaction**
+-----
 
-| **Description**
-| Set slave select pin and initialize SPI with default settings using
-  SPISettings class.
+.. method:: SPIClass::transfer
 
-| **Syntax**
-| void SPIClass::beginTransaction(uint8_t pin, SPISettings settings)
-| void SPIClass::beginTransaction(SPISettings settings)
 
-| **Parameters**
-| pin: slave select pin
-| settings: an object of SPISettings class
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Calling HAL API to send data in the buffer to the slave
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| Refer to SPISettings class for details of the initial settings.
-|  
+.. code:: cpp
 
-**SPIClass::endTransaction**
+  byte SPIClass::transfer (byte _pin, uint8_t _data, SPITransferMode _mode);
 
-| **Description**
-| Set slave select pin to 1 and stop SPI transaction.
+.. code:: cpp
 
-| **Syntax**
-| void SPIClass::endTransaction(void);
+  byte SPIClass::transfer (uint8_t _data, SPITransferMode _mode);
 
-| **Parameters**
-| The function requires no input parameter.
+.. code:: cpp
 
-| **Returns**
-| The function returns nothing.
+  void SPIClass::transfer (byte _pin, void*_buf, size_t _count, SPITransferMode _mode);
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
-|  
+  void SPIClass::transfer (void *_buf, size_t _count, SPITransferMode _mode);
 
-**SPIClass::begin**
+**Parameters**
 
-| **Description**
-| Calling HAL APIs to initialize SPI pins to physical Ameba pins and set
-  SPI format and frequency
+``_pin`` : Slave select pin
 
-| **Syntax**
-| void SPIClass::begin(void)
-| void SPIClass::begin(int ss)
+``_data`` : Actual data being sent over
 
-| **Parameters**
-| void or ss: slave select
+``_mode`` : SPI transfer mode
 
-| **Returns**
-| The function returns nothing.
+``_count`` : number of bytes of data
 
-| **Example Code**
-| NA
+``_buf`` : data buffer
 
-| **Notes and Warnings**
-| This is a required method to use SPI on Ameba.
-|  
+**Returns**
 
-**SPIClass::end**
+Void or “0” in case of error, “d” in case success
 
-| **Description**
-| Free hardware SPI from any activity.
+**Example Code**
 
-| **Syntax**
-| void SPIClass::end(void);
+NA
 
-| **Parameters**
-| The function requires no input parameter.
+**Notes and Warnings**
 
-| **Returns**
-| The function returns nothing.
+NA
 
-| **Example Code**
-| NA
+-----
 
-| **Notes and Warnings**
-| NA
-|  
+.. method:: SPIClass::transfer16
 
-**SPIClass::setBitOrder**
 
-| **Description**
-| A specific method to set bit order to either MSB first or LSB first
-  and set slave select pin.
+**Description**
 
-| **Syntax**
-| void SPIClass::setBitOrder(uint8_t \_pin, BitOrder \_bitOrder)
-| void SPIClass::setBitOrder(BitOrder \_order)
+Same as “transfer” method above except data being of 16-bits.
 
-| **Parameters**
-| \_pin: slave select
-| \_bitOrder: bit order -> either MSB first or LSB first
-| \_order: same as above
+**Syntax**
 
-| **Returns**
-| The function returns nothing.
+.. code:: cpp
 
-| **Example Code**
-| NA
+  uint16_t SPIClass::transfer16(byte _pin, uint16_t _data, SPITransferMode _mode)
 
-| **Notes and Warnings**
-| NA
-|  
+.. code:: cpp
 
-**SPIClass::setDataMode**
+  uint16_t SPIClass::transfer16(uint16_t _data, SPITransferMode _mode)
 
-| **Description**
-| A specific method to set data mode to one of the 4 modes (default:
-  SPI_MODE0) and set slave lave select pin.
+**Parameters**
 
-| **Syntax**
-| void SPIClass::setDataMode(uint8_t \_pin, uint8_t \_mode)
-| void SPIClass::setDataMode(uint8_t \_mode)
+``_pin`` : Slave select pin
 
-| **Parameters**
-| \_pin: slave select
-| \_mode: one of the 4 modes (default: SPI_MODE0)
+``_data`` : Actual data being sent over
 
-| **Returns**
-| The function returns nothing.
+``_mode`` : SPI transfer mode
 
-| **Example Code**
-| NA
+**Returns**
 
-| **Notes and Warnings**
-| NA
-|  
+The data being transferred
 
-**SPIClass::setClockDivider**
+**Example Code**
 
-| **Description**
-| A specific method to set to divider in order to get correct clock
-  speed
+NA
 
-| **Syntax**
-| void SPIClass::setClockDivider(uint8_t \_pin, uint8_t \_divider)
-| void SPIClass::setClockDivider(uint8_t \_div)
+**Notes and Warnings**
 
-| **Parameters**
-| \_pin: slave select
-| \_divider: clock divider
-| \_div: same as above
+NA
 
-| **Returns**
-| The function returns nothing.
+-----
 
-| **Example Code**
-| NA
+.. method:: SPIClass::beginTransaction
 
-| **Notes and Warnings**
-| This function does not affect the Ameba board.
-|  
 
-**SPIClass::setDefaultFrequency**
+**Description**
 
-| **Description**
-| A specific method to set default SPI frequency
+Set slave select pin and initialize SPI with default settings using
+SPISettings class.
 
-| **Syntax**
-| void SPIClass::setDefaultFrequency(int \_frequency)
+**Syntax**
 
-| **Parameters**
-| \_frequency: the default SPI frequency
+.. code:: cpp
 
-| **Returns**
-| The function returns nothing.
+  void SPIClass::beginTransaction(uint8_t pin, SPISettings settings)
 
-| **Example Code**
-| Example: PM25_on_ILI9341_TFT_LCD
-| Details of the code are given in the previous section of
-  AmebaILI9341:: AmebaILI9341.
+.. code:: cpp
 
-| **Notes and Warnings**
-| Take note that defaultFrequency = \_frequency.
+  void SPIClass::beginTransaction(SPISettings settings)
+
+**Parameters**
+
+``pin``: slave select pin
+
+``settings``: an object of SPISettings class
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+Refer to SPISettings class for details of the initial settings.
+
+-----
+
+.. method:: SPIClass::endTransaction
+
+
+**Description**
+
+Set slave select pin to 1 and stop SPI transaction.
+
+**Syntax**
+
+.. code:: cpp
+
+  void SPIClass::endTransaction(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: SPIClass::begin
+
+
+**Description**
+
+Calling HAL APIs to initialize SPI pins to physical Ameba pins and set
+SPI format and frequency
+
+**Syntax**
+
+.. code:: cpp
+
+  void SPIClass::begin(void)
+
+.. code:: cpp
+
+  void SPIClass::begin(int ss)
+
+**Parameters**
+
+``void`` or ``ss``: slave select
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+This is a required method to use SPI on Ameba.
+
+----
+
+.. method:: SPIClass::end
+
+
+**Description**
+
+Free hardware SPI from any activity.
+
+**Syntax**
+
+.. code:: cpp
+
+  void SPIClass::end(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: SPIClass::setBitOrder
+
+
+**Description**
+
+A specific method to set bit order to either MSB first or LSB first
+
+and set slave select pin.
+
+**Syntax**
+
+.. code:: cpp
+
+  void SPIClass::setBitOrder(uint8_t _pin, BitOrder _bitOrder)
+
+.. code:: cpp
+
+  void SPIClass::setBitOrder(BitOrder _order)
+
+**Parameters**
+
+``_pin`` : slave select
+
+``_bitOrder`` : bit order -> either MSB first or LSB first
+
+``_order``: same as above
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: SPIClass::setDataMode
+
+
+**Description**
+
+A specific method to set data mode to one of the 4 modes (default:
+SPI_MODE0) and set slave lave select pin.
+
+**Syntax**
+
+.. code:: cpp
+
+  void SPIClass::setDataMode(uint8_t _pin, uint8_t _mode)
+
+.. code:: cpp
+
+  void SPIClass::setDataMode(uint8_t _mode)
+
+**Parameters**
+
+``_pin``: slave select
+
+``_mode``: one of the 4 modes (default: SPI_MODE0)
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+------
+
+.. method:: SPIClass::setClockDivider
+
+
+**Description**
+
+A specific method to set to divider in order to get correct clock
+speed
+
+**Syntax**
+
+.. code:: cpp
+
+  void SPIClass::setClockDivider(uint8_t _pin, uint8_t _divider)
+
+.. code:: cpp
+
+  void SPIClass::setClockDivider(uint8_t _div)
+
+**Parameters**
+
+``_pin`` : slave select
+
+``_divider`` : clock divider
+
+``_div`` : same as above
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+This function does not affect the Ameba board.
+
+-----
+
+.. method:: SPIClass::setDefaultFrequency
+
+
+**Description**
+
+A specific method to set default SPI frequency
+
+**Syntax**
+
+.. code:: cpp
+
+  void SPIClass::setDefaultFrequency(int _frequency)
+
+**Parameters**
+
+``_frequency``: the default SPI frequency
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: PM25_on_ILI9341_TFT_LCD
+
+Details of the code are given in the previous section of
+AmebaILI9341:: AmebaILI9341.
+
+**Notes and Warnings**
+
+Take note that defaultFrequency = \_frequency.

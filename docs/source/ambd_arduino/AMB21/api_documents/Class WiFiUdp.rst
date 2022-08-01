@@ -1,12 +1,17 @@
+##############
 Class WiFiUdp
-===============
-**WiFiUDP Class**
+##############
 
-| **Description**
-| Defines a class of WiFi UDP implementation for Ameba.
 
-| **Syntax**
-| class WiFiUDP
+**Description**
+
+Defines a class of WiFi UDP implementation for Ameba.
+
+**Syntax**
+
+.. code:: cpp
+
+  class WiFiUDP
 
 **Members**
 
@@ -16,6 +21,8 @@ Class WiFiUdp
 | WiFiUDP::WiFiUDP           | Constructs a WiFiUDP instance of the   |
 |                            | WiFi UDP class that can send and       |
 |                            | receive UDP messages                   |
++----------------------------+----------------------------------------+
+
 +----------------------------+----------------------------------------+
 | **Public Methods**         |                                        |
 +----------------------------+----------------------------------------+
@@ -61,540 +68,657 @@ Class WiFiUdp
 | WiFiUDP:: setRecvTimeout   | Set receiving timeout                  |
 +----------------------------+----------------------------------------+
 
-**WiFiUDP::WiFiUDP**
+-----
 
-| **Description**
-| Constructs a WiFiUDP instance of the WiFi UDP class that can send and
-  receive UDP messages.
+.. method:: WiFiUDP::WiFiUDP
 
-| **Syntax**
-| WiFiUDP::WiFiUDP(void)
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Constructs a WiFiUDP instance of the WiFi UDP class that can send and
+receive UDP messages.
 
-| **Example Code**
-| Example: WiFiUdpSendReceiveString
-| This example demonstrates WiFi UDP send and receive string. This
-  sketch waits for a UDP packet on a local port using a WiFi shield.
-  When a packet is received an Acknowledge packet is sent to the client
-  on port remotePort.
+**Syntax**
 
-**#include <WiFi.h>**
+.. code:: cpp
 
-**#include <WiFiUdp.h>**
+  WiFiUDP::WiFiUDP(void)
 
-**int** status = WL_IDLE_STATUS;
+**Parameters**
 
-**char** ssid[] = "yourNetwork"; // your network SSID (name)
+The function requires no input parameter.
 
-**char** pass[] = "secretPassword"; // your network password (use for
-WPA, or use as key for WEP)
+**Returns**
 
-**int** keyIndex = 0; // your network key Index number (needed only for
-WEP)
+The function returns nothing.
 
-unsigned **int** localPort = 2390; // local port to listen on
+**Example Code**
 
-**char** packetBuffer[255]; //buffer to hold incoming packet
+Example: WiFiUdpSendReceiveString
 
-**char** ReplyBuffer[] = "acknowledged"; // a string to send back
+This example demonstrates WiFi UDP send and receive string. This
+sketch waits for a UDP packet on a local port using a WiFi shield.
+When a packet is received an Acknowledge packet is sent to the client
+on port remotePort.
 
-WiFiUDP Udp;
+.. code:: cpp
 
-**void** setup() {
+  #include "WiFi.h"    
+  #include "WiFiUdp.h"    
 
-//Initialize serial and wait for port to open:
+  int status = WL_IDLE_STATUS;  
+  char ssid[] = "yourNetwork"; //  your network SSID (name)  
+  char pass[] = "secretPassword";    // your network password (use for WPA, or use as key for WEP)  
+  int keyIndex = 0;            // your network key Index number (needed only for WEP)  
 
-Serial.begin(9600);
+  unsigned int localPort = 2390;      // local port to listen on  
 
-**while** (!Serial) {
+  char packetBuffer[255]; //buffer to hold incoming packet  
+  char  ReplyBuffer[] = "acknowledged";       // a string to send back  
 
-; // wait for serial port to connect. Needed for native USB port only
+  WiFiUDP Udp;  
 
-}
+  void setup() {  
+    //Initialize serial and wait for port to open:  
+    Serial.begin(9600);  
+    while (!Serial) {  
+      ; // wait for serial port to connect. Needed for native USB port only  
+    }  
 
-// check for the presence of the shield:
+    // check for the presence of the shield:  
+    if (WiFi.status() == WL_NO_SHIELD) {  
+      Serial.println("WiFi shield not present");  
+      // don't continue:  
+      while (true);  
+    }  
 
-**if** (WiFi.status() == WL_NO_SHIELD) {
+    String fv = WiFi.firmwareVersion();  
+    if (fv != "1.1.0") {  
+      Serial.println("Please upgrade the firmware");  
+    }  
 
-Serial.println("WiFi shield not present");
+    // attempt to connect to Wifi network:  
+    while (status != WL_CONNECTED) {  
+      Serial.print("Attempting to connect to SSID: ");  
+      Serial.println(ssid);  
+      // Connect to WPA/WPA2 network. Change this line if using open or WEP network:  
+      status = WiFi.begin(ssid,pass);  
 
-// don't continue:
+      // wait 10 seconds for connection:  
+      delay(10000);  
+    }  
+    Serial.println("Connected to wifi");  
+    printWifiStatus();  
 
-**while** (**true**);
+    Serial.println("\nStarting connection to server...");  
+    // if you get a connection, report back via serial:  
+    Udp.begin(localPort);  
+  }  
 
-}
+  void loop() {  
 
-String fv = WiFi.firmwareVersion();
+    // if there's data available, read a packet  
+    int packetSize = Udp.parsePacket();  
+    if (packetSize) {  
+      Serial.print("Received packet of size ");  
+      Serial.println(packetSize);  
+      Serial.print("From ");  
+      IPAddress remoteIp = Udp.remoteIP();  
+      Serial.print(remoteIp);  
+      Serial.print(", port ");  
+      Serial.println(Udp.remotePort());  
 
-**if** (fv != "1.1.0") {
+      // read the packet into packetBufffer  
+      int len = Udp.read(packetBuffer, 255);  
+      if (len > 0) {  
+        packetBuffer[len] = 0;  
+      }  
+      Serial.println("Contents:");  
+      Serial.println(packetBuffer);  
 
-Serial.println("Please upgrade the firmware");
+      // send a reply, to the IP address and port that sent us the packet we received  
+      Udp.beginPacket(Udp.remoteIP(), Udp.remotePort());  
+      Udp.write(ReplyBuffer);  
+      Udp.endPacket();  
+    }  
+  }  
+  
+  void printWifiStatus() {  
+    // print the SSID of the network you're attached to:  
+    Serial.print("SSID: ");  
+    Serial.println(WiFi.SSID());  
 
-}
+    // print your WiFi shield's IP address:  
+    IPAddress ip = WiFi.localIP();  
+    Serial.print("IP Address: ");  
+    Serial.println(ip);  
 
-// attempt to connect to Wifi network:
+    // print the received signal strength:  
+    long rssi = WiFi.RSSI();  
+    Serial.print("signal strength (RSSI):");  
+    Serial.print(rssi);  
+    Serial.println(" dBm");  
+  }  
 
-**while** (status != WL_CONNECTED) {
 
-Serial.print("Attempting to connect to SSID: ");
+**Notes and Warnings**
 
-Serial.println(ssid);
+This constructor does not take in any parameter, thus use another
+method to set up the IP address and port number.
 
-// Connect to WPA/WPA2 network. Change this line if using open or WEP
-network:
+-----
 
-status = WiFi.begin(ssid,pass);
+.. method:: WiFiUDP::begin**
 
-// wait 10 seconds for connection:
 
-delay(10000);
+**Description**
 
-}
+Initialize, start listening on the specified port. Returns 1 if
+successful, 0 if there are no sockets available to use.
 
-Serial.println("Connected to wifi");
+**Syntax**
 
-printWifiStatus();
+.. code:: cpp
 
-Serial.println("\nStarting connection to server...");
+  uint8_t WiFiUDP::begin(uint16_t port)
 
-// if you get a connection, report back via serial:
+**Parameters**
 
-Udp.begin(localPort);
+``port`` : the local port to listen on
 
-}
+**Returns**
 
-**void** loop() {
+1: if successful
 
-// if there's data available, read a packet
+0: if there are no sockets available to use
 
-**int** packetSize = Udp.parsePacket();
+**Example Code**
 
-**if** (packetSize) {
+Example: WiFiUdpSendReceiveString
 
-Serial.print("Received packet of size ");
+This example demonstrates WiFi UDP send and receive string. This
+sketch waits for a UDP packet on a local port using a WiFi shield.
+When a packet is received an Acknowledge packet is sent to the client
+on port remotePort. The detail of the code can be found in WiFiUDP::
+WiFiUDP.
 
-Serial.println(packetSize);
+**Notes and Warnings**
 
-Serial.print("From ");
+NA
 
-IPAddress remoteIp = Udp.remoteIP();
+-----
 
-Serial.print(remoteIp);
+.. method:: WiFiUDP::stop
 
-Serial.print(", port ");
+**Description**
 
-Serial.println(Udp.remotePort());
+Disconnect from the server. Release any resource being used during the
+UDP session.
 
-// read the packet into packetBufffer
+**Syntax**
 
-**int** len = Udp.read(packetBuffer, 255);
+.. code:: cpp
 
-**if** (len > 0) {
+  void WiFiUDP::stop(void)
 
-packetBuffer[len] = 0;
+**Parameters**
 
-}
+The function requires no input parameter.
 
-Serial.println("Contents:");
+**Returns**
 
-Serial.println(packetBuffer);
+The function returns nothing.
 
-// send a reply, to the IP address and port that sent us the packet we
-received
+**Example Code**
 
-Udp.beginPacket(Udp.remoteIP(), Udp.remotePort());
+NA
 
-Udp.write(ReplyBuffer);
+**Notes and Warnings**
 
-Udp.endPacket();
+NA
 
-}
+-----
 
-}
+.. method:: WiFiUDP::beginPacket
 
-**void** printWifiStatus() {
 
-// print the SSID of the network you're attached to:
+**Description**
 
-Serial.print("SSID: ");
+Start building up a packet to send to the remote host-specific in IP
+and port.
 
-Serial.println(WiFi.SSID());
+**Syntax**
 
-// print your WiFi shield's IP address:
+.. code:: cpp
 
-IPAddress ip = WiFi.localIP();
+  int WiFiUDP::beginPacket(const char *host, uint16_t port)
 
-Serial.print("IP Address: ");
+.. code:: cpp
 
-Serial.println(ip);
+  int WiFiUDP::beginPacket(IPAddress ip, uint16_t port)
 
-// print the received signal strength:
+**Parameters**
 
-**long** rssi = WiFi.RSSI();
+``host`` : hostname
 
-Serial.print("signal strength (RSSI):");
+``port`` : port number
 
-Serial.print(rssi);
+``ip`` : IP address
 
-Serial.println(" dBm");
+**Returns**
 
-}
+1: if successful
 
-| **Notes and Warnings**
-| This constructor does not take in any parameter, thus use another
-  method to set up the IP address and port number.
-|  
+0: if there was a problem with the supplied IP address or port
 
-**WiFiUDP::begin**
+**Example Code**
 
-| **Description**
-| Initialize, start listening on the specified port. Returns 1 if
-  successful, 0 if there are no sockets available to use.
+Example: WiFiUdpSendReceiveString
 
-| **Syntax**
-| uint8_t WiFiUDP::begin(uint16_t port)
+This example demonstrates WiFi UDP send and receive string. This
+sketch waits for a UDP packet on a local port using a WiFi shield.
+When a packet is received an Acknowledge packet is sent to the client
+on port remotePort. The detail of the code can be found in WiFiUDP::
+WiFiUDP.
 
-| **Parameters**
-| port: the local port to listen on
+**Notes and Warnings**
 
-| **Returns**
-| 1: if successful
-| 0: if there are no sockets available to use
+NA
 
-| **Example Code**
-| Example: WiFiUdpSendReceiveString
-| This example demonstrates WiFi UDP send and receive string. This
-  sketch waits for a UDP packet on a local port using a WiFi shield.
-  When a packet is received an Acknowledge packet is sent to the client
-  on port remotePort. The detail of the code can be found in WiFiUDP::
-  WiFiUDP.
+-----
 
-| **Notes and Warnings**
-| NA
-|  
+.. method:: WiFiUDP::endPacket
 
-**WiFiUDP::stop**
 
-| **Description**
-| Disconnect from the server. Release any resource being used during the
-  UDP session.
+**Description**
 
-| **Syntax**
-| void WiFiUDP::stop(void)
+Finish off this packet and send it
 
-| **Parameters**
-| The function requires no input parameter.
+**Syntax**
 
-| **Returns**
-| The function returns nothing.
+.. code:: cpp
 
-| **Example Code**
-| NA
+  int WiFiUDP::endPacket(void)
 
-| **Notes and Warnings**
-| NA
-|  
+**Parameters**
 
-**WiFiUDP::beginPacket**
+The function requires no input parameter.
 
-| **Description**
-| Start building up a packet to send to the remote host-specific in IP
-  and port.
+**Returns**
 
-| **Syntax**
-| int WiFiUDP::beginPacket(const char \*host, uint16_t port)
-| int WiFiUDP::beginPacket(IPAddress ip, uint16_t port)
+1: if the packet was sent successfully
 
-| **Parameters**
-| host: hostname
-| port: port number
-| ip: IP address
+0: if there was an error
 
-| **Returns**
-| 1: if successful
-| 0: if there was a problem with the supplied IP address or port
+**Example Code**
 
-| **Example Code**
-| Example: WiFiUdpSendReceiveString
-| This example demonstrates WiFi UDP send and receive string. This
-  sketch waits for a UDP packet on a local port using a WiFi shield.
-  When a packet is received an Acknowledge packet is sent to the client
-  on port remotePort. The detail of the code can be found in WiFiUDP::
-  WiFiUDP.
+Example: WiFiUdpSendReceiveString
 
-| **Notes and Warnings**
-| NA
-|  
+This example demonstrates WiFi UDP send and receive string. This
+sketch waits for a UDP packet on a local port using a WiFi shield.
+When a packet is received an Acknowledge packet is sent to the client
+on port remotePort. The detail of the code can be found in WiFiUDP::
+WiFiUDP.
 
-**WiFiUDP::endPacket**
+**Notes and Warnings**
 
-| **Description**
-| Finish off this packet and send it
+NA
 
-| **Syntax**
-| int WiFiUDP::endPacket(void)
+-----
 
-| **Parameters**
-| The function requires no input parameter.
+.. method:: WiFiUDP::write
 
-| **Returns**
-| 1: if the packet was sent successfully
-| 0: if there was an error
 
-| **Example Code**
-| Example: WiFiUdpSendReceiveString
-| This example demonstrates WiFi UDP send and receive string. This
-  sketch waits for a UDP packet on a local port using a WiFi shield.
-  When a packet is received an Acknowledge packet is sent to the client
-  on port remotePort. The detail of the code can be found in WiFiUDP::
-  WiFiUDP.
+**Description**
 
-| **Notes and Warnings**
-| NA
-|  
+Write a single byte into the packet.
 
-**WiFiUDP::write**
+**Syntax**
 
-| **Description**
-| Write a single byte into the packet.
+.. code:: cpp
 
-| **Syntax**
-| size_t WiFiUDP::write(uint8_t byte)
-| size_t WiFiUDP::write(const uint8_t \*buffer, size_t size)
+  size_t WiFiUDP::write(uint8_t byte)
 
-| **Parameters**
-| byte: the outgoing byte
-| buffer: the outgoing message
-| size: the size of the buffer
+.. code:: cpp
 
-| **Returns**
-| single-byte into the packet
-| bytes size from the buffer into the packet
+  size_t WiFiUDP::write(const uint8_t *buffer, size_t size)
 
-| **Example Code**
-| Example: WiFiUdpSendReceiveString
-| This example demonstrates WiFi UDP send and receive string. This
-  sketch waits for a UDP packet on a local port using a WiFi shield.
-  When a packet is received an Acknowledge packet is sent to the client
-  on port remotePort. The detail of the code can be found in WiFiUDP::
-  WiFiUDP.
+**Parameters**
 
-| **Notes and Warnings**
-| NA
-|  
+``byte`` : the outgoing byte
 
-**WiFiUDP::writeImmediately**
+``buffer``: the outgoing message
 
-| **Description**
-| Send packet immediately from the buffer
+``size`` : the size of the buffer
 
-| **Syntax**
-| size_t WiFiUDP::writeImmediately(const uint8_t \*buffer, size_t size)
+**Returns**
 
-| **Parameters**
-| buffer: the outgoing message
-| size: the size of the buffer
+single-byte into the packet
 
-| **Returns**
-| single-byte into the packet
-| bytes size from the buffer into the packet
+bytes size from the buffer into the packet
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| NA
-|  
+Example: WiFiUdpSendReceiveString
 
-**WiFiUDP::parsePacket**
+This example demonstrates WiFi UDP send and receive string. This
+sketch waits for a UDP packet on a local port using a WiFi shield.
+When a packet is received an Acknowledge packet is sent to the client
+on port remotePort. The detail of the code can be found in WiFiUDP::
+WiFiUDP.
 
-| **Description**
-| Start processing the next available incoming packet
+**Notes and Warnings**
 
-| **Syntax**
-| int WiFiUDP::parsePacket(void)
+NA
 
-| **Parameters**
-| The function requires no input parameter.
+-----
 
-| **Returns**
-| The function returns the size of the packet in bytes or returns “0:”
-  if no packets are available.
+.. method:: WiFiUDP::writeImmediately
 
-| **Example Code**
-| Example: WiFiUdpSendReceiveString
 
-| **Notes and Warnings**
-| NA
-|  
+**Description**
 
-**WiFiUDP::available**
+Send packet immediately from the buffer
 
-| **Description**
-| Number of bytes remaining in the current packet.
+**Syntax**
 
-| **Syntax**
-| int WiFiUDP::available(void)
+.. code:: cpp
 
-| **Parameters**
-| The function requires no input parameter.
+  size_t WiFiUDP::writeImmediately(const uint8_t *buffer, size_t size)
 
-| **Returns**
-| the number of bytes available in the current packet
-| 0: if parsePacket hasn’t been called yet
+**Parameters**
 
-| **Example Code**
-| NA
+``buffer`` : the outgoing message
 
-| **Notes and Warnings**
-| NA
-|  
+``size`` : the size of the buffer
 
-**WiFiUDP::read**
+**Returns**
 
-| **Description**
-| Read a single byte from the current packet
+single-byte into the packet
 
-| **Syntax**
-| int WiFiUDP::read()
-| int WiFiUDP::read(unsigned char\* buffer, size_t len)
+bytes size from the buffer into the packet
 
-| **Parameters**
-| buffer: buffer to hold incoming packets (char*)
-| len: maximum size of the buffer (int)
+**Example Code**
 
-| **Returns**
-| size: the size of the buffer
-| -1: if no buffer is available
+NA
 
-| **Example Code**
-| Example: WiFiUdpSendReceiveString
-| his example demonstrates WiFi UDP send and receive string. This sketch
-  waits for a UDP packet on a local port using a WiFi shield. When a
-  packet is received an Acknowledge packet is sent to the client on port
-  remotePort. The detail of the code can be found in WiFiUDP:: WiFiUDP.
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
-|  
+NA
 
-**WiFiUDP::peek**
+-----
 
-| **Description**
-| Return the next byte from the current packet without moving on to the
-  next byte
+.. method:: WiFiUDP::parsePacket
 
-| **Syntax**
-| int WiFiUDP::peek(void)
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| b: the next byte or character
-| -1: if none is available
+Start processing the next available incoming packet
 
-| **Example Code**
-| NA
+**Syntax**
 
-| **Notes and Warnings**
-| NA
-|  
+.. code:: cpp
 
-**WiFiUDP::flush**
+  int WiFiUDP::parsePacket(void)
 
-| **Description**
-| Finish reading the current packet
+**Parameters**
 
-| **Syntax**
-| void WiFiUDP::flush(void)
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| The function returns nothing.
+The function returns the size of the packet in bytes or returns “0:”
+if no packets are available.
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| NA
-|  
+Example: WiFiUdpSendReceiveString
 
-**WiFiUDP::remoteIP**
+**Notes and Warnings**
 
-| **Description**
-| Return the IP address of the host who sent the current incoming packet
+NA
 
-| **Syntax**
-| IPAddress WiFiUDP::remoteIP(void)
+-----
 
-| **Parameters**
-| The function requires no input parameter.
+.. method:: WiFiUDP::available
 
-| **Returns**
-| IP address connecting to
+**Description**
 
-| **Example Code**
-| Example: WiFiUdpSendReceiveString
-| This example demonstrates WiFi UDP send and receive string. This
-  sketch waits for a UDP packet on a local port using a WiFi shield.
-  When a packet is received an Acknowledge packet is sent to the client
-  on port remotePort. The detail of the code can be found in WiFiUDP::
-  WiFiUDP.
+Number of bytes remaining in the current packet.
 
-| **Notes and Warnings**
-| NA
-|  
+**Syntax**
 
-**WiFiUDP::remotePort**
+.. code:: cpp
 
-| **Description**
-| Return the port of the host who sent the current incoming packet
+  int WiFiUDP::available(void)
 
-| **Syntax**
-| uint16_t WiFiUDP::remotePort(void)
+**Parameters**
 
-| **Parameters**
-| The function requires no input parameter.
+The function requires no input parameter.
 
-| **Returns**
-| The remote port connecting to
+**Returns**
 
-| **Example Code**
-| Example: WiFiUdpSendReceiveString
-| This example demonstrates WiFi UDP send and receive string. This
-  sketch waits for a UDP packet on a local port using a WiFi shield.
-  When a packet is received an Acknowledge packet is sent to the client
-  on port remotePort. The detail of the code can be found in WiFiUDP::
-  WiFiUDP.
+the number of bytes available in the current packet
+0: if parsePacket hasn’t been called yet
 
-| **Notes and Warnings**
-| NA
-|  
+**Example Code**
 
-**WiFiUDP::setRecvTimeout**
+NA
 
-| **Description**
-| Set receiving timeout
+**Notes and Warnings**
 
-| **Syntax**
-| void WiFiUDP::setRecvTimeout(int timeout)
+NA
 
-| **Parameters**
-| timeout in seconds
+-----
 
-| **Returns**
-| The function returns nothing.
+.. method:: WiFiUDP::read
 
-| **Example Code**
-| NA
 
-| **Notes and Warnings**
-| NA
+**Description**
+
+Read a single byte from the current packet
+
+**Syntax**
+
+.. code:: cpp
+
+  int WiFiUDP::read()
+
+.. code:: cpp
+
+  int WiFiUDP::read(unsigned char* buffer, size_t len)
+
+**Parameters**
+
+``buffer`` : buffer to hold incoming packets (char*)
+
+``len`` : maximum size of the buffer (int)
+
+**Returns**
+
+``size`` : the size of the buffer
+
+``-1`` : if no buffer is available
+
+**Example Code**
+
+Example: WiFiUdpSendReceiveString
+
+This example demonstrates WiFi UDP send and receive string. This sketch
+waits for a UDP packet on a local port using a WiFi shield. When a
+packet is received an Acknowledge packet is sent to the client on port
+remotePort. The detail of the code can be found in WiFiUDP:: WiFiUDP.
+
+**Notes and Warnings**
+
+NA
+
+------
+
+.. method:: WiFiUDP::peek
+
+
+**Description**
+
+Return the next byte from the current packet without moving on to the
+next byte
+
+**Syntax**
+
+.. code:: cpp
+
+  int WiFiUDP::peek(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+``b`` : the next byte or character
+
+``-1`` : if none is available
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: WiFiUDP::flush
+
+
+**Description**
+
+Finish reading the current packet
+
+**Syntax**
+
+.. code:: cpp
+
+  void WiFiUDP::flush(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: WiFiUDP::remoteIP
+
+
+**Description**
+
+Return the IP address of the host who sent the current incoming packet
+
+**Syntax**
+
+.. code:: cpp
+
+  IPAddress WiFiUDP::remoteIP(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+IP address connecting to
+
+**Example Code**
+
+Example: WiFiUdpSendReceiveString
+
+This example demonstrates WiFi UDP send and receive string. This
+sketch waits for a UDP packet on a local port using a WiFi shield.
+When a packet is received an Acknowledge packet is sent to the client
+on port remotePort. The detail of the code can be found in WiFiUDP::
+WiFiUDP.
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: WiFiUDP::remotePort
+
+
+**Description**
+
+Return the port of the host who sent the current incoming packet
+
+**Syntax**
+
+.. code:: cpp
+
+  uint16_t WiFiUDP::remotePort(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The remote port connecting to
+
+**Example Code**
+
+Example: WiFiUdpSendReceiveString
+
+This example demonstrates WiFi UDP send and receive string. This
+sketch waits for a UDP packet on a local port using a WiFi shield.
+When a packet is received an Acknowledge packet is sent to the client
+on port remotePort. The detail of the code can be found in WiFiUDP::
+WiFiUDP.
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: WiFiUDP::setRecvTimeout
+
+
+**Description**
+
+Set receiving timeout
+
+**Syntax**
+
+.. code:: cpp
+
+  void WiFiUDP::setRecvTimeout(int timeout)
+
+**Parameters**
+
+timeout in seconds
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA

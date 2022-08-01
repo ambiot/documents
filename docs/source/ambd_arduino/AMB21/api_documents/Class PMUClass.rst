@@ -1,13 +1,18 @@
+################
 Class PMUClass
-==============
+################
 
-**PMUClass Class**
 
-| **Description**
-| Defines a class of using Power Save API
+**Description**
 
-| **Syntax**
-| class PMUClass
+Defines a class of using Power Save API
+
+**Syntax**
+
+.. code:: cpp
+
+  class PMUClass
+
 
 **Members**
 
@@ -16,8 +21,10 @@ Class PMUClass
 +==================================+===================================+
 | PMUClass::PMUClass               | Constructs a PMUClass object      |
 +----------------------------------+-----------------------------------+
-| **Public Methods**               |                                   |
+
 +----------------------------------+-----------------------------------+
+| **Public Methods**               |                                   |
++==================================+===================================+
 | PMUCLASS::begin                  | Initialize the PMUCLASS and       |
 |                                  | select sleep mode                 |
 +----------------------------------+-----------------------------------+
@@ -89,642 +96,908 @@ Class PMUClass
 | LASS::AON_WAKEPIN_WAKEUP_GPIOA26 |                                   |
 +----------------------------------+-----------------------------------+
 
-**PMUCLASS::PMUCLASS**
-~~~~~~~~~~~~~~~~~~~~~~
+-----
 
-| **Description**
-| Constructs a PMUCLASS object.
+.. method:: PMUCLASS::PMUCLASS
 
-| **Syntax**
-| PMUCLASS::PMUCLASS(void);
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+Constructs a PMUCLASS object.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+.. code:: cpp
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+  PMUCLASS::PMUCLASS(void);
 
-**PMUCLASS::begin**
-~~~~~~~~~~~~~~~~~~~
+**Parameters**
 
-| **Description**
-| Initialize the PMUCLASS and select sleep mode.
+The function requires no input parameter.
 
-| **Syntax**
-| void PMUClass::begin(uint32_t sleep_mode);
+**Returns**
 
-| **Parameters**
-| sleep_mode: Selection value, “11” enters the DeepSleep Mode, “22”
-  enters the Tickless Mode
+The function returns nothing.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Notes and Warnings**
 
-**PMUCLASS::AONTimerDuration**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Include “PMUCLASS.h” in order to use the class function.
 
-| **Description**
-| Set the duration of AON Timer
+-----
 
-| **Syntax**
-| void PMUClass::AONTimerDuration(uint32_t duration_ms);
+.. method:: PMUCLASS::begin
 
-| **Parameters**
-| duration_ms: Timer duration between 0 to 32760000ms.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Initialize the PMUCLASS and select sleep mode.
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+**Syntax**
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+.. code:: cpp
 
-**PMUCLASS::AONTimerCmd**
-~~~~~~~~~~~~~~~~~~~~~~~~~
+  void PMUClass::begin(uint32_t sleep_mode);
 
-| **Description**
-| Disable the AON timer for power save usage.
+**Parameters**
 
-| **Syntax**
-| void PMUClass::AONTimerCmd(void);
+``sleep_mode`` : Selection value, “11” enters the DeepSleep Mode, “22”
+enters the Tickless Mode
 
-| **Parameters**
-| c: The value in Celcius.
+**Returns**
 
-| **Returns**
-| The function returns nothing.
+The function returns nothing.
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+**Example Code**
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
 
-**PMUCLASS::RTCWakeSetup**
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Notes and Warnings**
 
-| **Description**
-| Set up the RTC timer for power save usage.
+Include “PMUCLASS.h” in order to use the class function.
 
-| **Syntax**
-| void PMUClass::RTCWakeSetu(uint32_t duration_d, unit32_t duration_h,
-  uint32_t duration_m, uint32_t duration_s);
+-----
 
-| **Parameters**
-| duration_d: Set alarm for number of days from 0.
-| duration_h: Set alarm for number of hours from 0.
-| duration_m: Set alarm for number of minutes from 0.
-| duration_s: Set alarm for number of seconds from0.
+.. method:: PMUCLASS::AONTimerDuration
 
-| **Returns**
-| The function returns nothing.
+**Description**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+Set the duration of AON Timer
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Syntax**
 
-**PMUCLASS::enable**
-~~~~~~~~~~~~~~~~~~~~
+.. code:: cpp
 
-| **Description**
-| Enable power save deep sleep mode
+  void PMUClass::AONTimerDuration(uint32_t duration_ms);
 
-| **Syntax**
-| void PMUClass::enable(void);
+**Parameters**
 
-| **Parameters**
-| The function requires no input parameter.
+``duration_ms`` : Timer duration between 0 to 32760000ms.
 
-| **Returns**
-| The function returns nothing.
+**Returns**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+The function returns nothing.
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Example Code**
 
-**PMUCLASS::AONWakeReason**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
 
-| **Description**
-| Check the AON wakeup source
+**Notes and Warnings**
 
-| **Syntax**
-| uint32_t PMUClass::AONWakeReason(void);
+Include “PMUCLASS.h” in order to use the class function.
 
-| **Parameters**
-| The function requires no input parameter.
+-----
 
-| **Returns**
-| Returns the value of wakeup deepsleep source. “11” for AON pin, “22”
-  for AON timer, “33” for RTC timer and “0” for none.
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+.. method:: PMUCLASS::AONTimerCmd
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Description**
 
-**PMUCLASS::WakePinCheck**
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Disable the AON timer for power save usage.
 
-| **Description**
-| Check which AON GPIO pins are the wakeup source
+**Syntax**
 
-| **Syntax**
-| int PMUClass::WakePinCheck(void);
+.. code:: cpp
 
-| **Parameters**
-| The function requires no input parameter.
+  void PMUClass::AONTimerCmd(void);
 
-| **Returns**
-| Return the pin number for indicating Arduino pin names.
+**Parameters**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+``c`` : The value in Celcius.
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Returns**
 
-**PMUCLASS::AONWakeClear**
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+The function returns nothing.
 
-| **Description**
-| Clear all AON Wakeup source.
+**Example Code**
 
-| **Syntax**
-| void PMUClass::AONWakeClear(void);
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
 
-| **Parameters**
-| The function requires no input parameter.
+**Notes and Warnings**
 
-| **Returns**
-| The function returns nothing.
+Include “PMUCLASS.h” in order to use the class function.
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+-----
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
 
-**PMUCLASS::DsleepWakeStatusGet**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. method:: PMUCLASS::RTCWakeSetup
 
-| **Description**
-| Check if deepsleep mode is set.
+**Description**
 
-| **Syntax**
-| bool PMUClass::DsleepWakeStatusGet(void);
+Set up the RTC timer for power save usage.
 
-| **Parameters**
-| The function requires no input parameter.
+**Syntax**
 
-| **Returns**
-| Return TRUE when enter DeepSleep Mode or FALSE for negative.
+.. code:: cpp
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+  void PMUClass::RTCWakeSetu(uint32_t duration_d, unit32_t duration_h, uint32_t duration_m, uint32_t duration_s);
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Parameters**
 
-**PMUCLASS::TL_sysactive_time**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``duration_d`` : Set alarm for number of days from 0.
 
-| **Description**
-| Tickless mode system active time.
+``duration_h`` : Set alarm for number of hours from 0.
 
-| **Syntax**
-| void PMUClass::TL_sysactive_time(uint32_t duration_ms);
+``duration_m`` : Set alarm for number of minutes from 0.
 
-| **Parameters**
-| duration_ms: Set the duration of system active time. The unit is in
-  milliseconds.
+``duration_s`` : Set alarm for number of seconds from0.
 
-| **Returns**
-| The function returns nothing.
+**Returns**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+The function returns nothing.
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Example Code**
 
-**PMUCLASS::TL_wakelock**
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
 
-| **Description**
-| Tickless mode wake lock, select acquire or release.
+**Notes and Warnings**
 
-| **Syntax**
-| void PMUClass::TL_wakelock(uint32_t select_lock);
+Include “PMUCLASS.h” in order to use the class function.
 
-| **Parameters**
-| select_lock: Wake lock selection value, “1” for acquire or “0” for
-  release.
+-----
 
-| **Returns**
-| The function returns nothing.
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+.. method:: PMUCLASS::enable
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Description**
 
-**PMUCLASS::DS_AON_TIMER_WAKEUP**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Enable power save deep sleep mode
 
-| **Description**
-| Return the Wakeup source for DeepSleep Mode.
+**Syntax**
 
-| **Syntax**
-| void PMUClass::DS_AON_TIMER_WAKEUP(void);
+.. code:: cpp
 
-| **Parameters**
-| The function requires no input parameter.
+  void PMUClass::enable(void);
 
-| **Returns**
-| This function returns AON Timer as the wakeup source and output it on
-  the Serial monitor.
+**Parameters**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+The function requires no input parameter.
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Returns**
 
-**PMUCLASS::DS_RTC_WAKEUP**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The function returns nothing.
 
-| **Description**
-| Return the Wakeup source for DeepSleep Mode.
+**Example Code**
 
-| **Syntax**
-| void PMUClass::DS_RTC_WAKEUP(void);
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
 
-| **Parameters**
-| The function requires no input parameter.
+**Notes and Warnings**
 
-| **Returns**
-| This function returns RTC as the wakeup source and output it on the
-  Serial monitor.
+Include “PMUCLASS.h” in order to use the class function.
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+-----
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
 
-**PMUCLASS::TL_UART_WAKEUP**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. method:: PMUCLASS::AONWakeReason
 
-| **Description**
-| Return the Wakeup source for Tickless Mode.
+**Description**
 
-| **Syntax**
-| void PMUClass::TL_UART_WAKEUP(void);
+Check the AON wakeup source
 
-| **Parameters**
-| The function requires no input parameter.
+**Syntax**
 
-| **Returns**
-| This function returns LOGUART as the wakeup source and output it on
-  the Serial monitor.
+.. code:: cpp
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+  uint32_t PMUClass::AONWakeReason(void);
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Parameters**
 
-**PMUCLASS::TL_RTC_WAKEUP**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The function requires no input parameter.
 
-| **Description**
-| Return the Wakeup source for Tickless Mode.
+**Returns**
 
-| **Syntax**
-| void PMUClass::TL_RTC_WAKEUP(void);
+Returns the value of wakeup deepsleep source. “11” for AON pin, “22”
+for AON timer, “33” for RTC timer and “0” for none.
 
-| **Parameters**
-| The function requires no input parameter.
+**Example Code**
 
-| **Returns**
-| This function returns RTC as the wakeup source and output it on the
-  Serial monitor.
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+Include “PMUCLASS.h” in order to use the class function.
 
-**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA12**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----
 
-| **Description**
-| Return the Wakeup source.
+.. method:: PMUCLASS::WakePinCheck
 
-| **Syntax**
-| void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA12(void);
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+Check which AON GPIO pins are the wakeup source
 
-| **Returns**
-| This function returns AON GPIOA12 pin as the wakeup source and output
-  it on the Serial monitor.
+**Syntax**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+.. code:: cpp
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+  int PMUClass::WakePinCheck(void);
 
-**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA13**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Parameters**
 
-| **Description**
-| Return the Wakeup source.
+The function requires no input parameter.
 
-| **Syntax**
-| void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA13(void);
+**Returns**
 
-| **Parameters**
-| The function requires no input parameter.
+Return the pin number for indicating Arduino pin names.
 
-| **Returns**
-| This function returns AON GPIOA13 pin as the wakeup source and output
-  it on the Serial monitor.
+**Example Code**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Notes and Warnings**
 
-**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA14**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Include “PMUCLASS.h” in order to use the class function.
 
-| **Description**
-| Return the Wakeup source.
+-----
 
-| **Syntax**
-| void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA14(void);
+.. method:: PMUCLASS::AONWakeClear
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| This function returns AON GPIOA14 pin as the wakeup source and output
-  it on the Serial monitor.
+Clear all AON Wakeup source.
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+**Syntax**
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+.. code:: cpp
 
-**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA15**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  void PMUClass::AONWakeClear(void);
 
-| **Description**
-| Return the Wakeup source.
+**Parameters**
 
-| **Syntax**
-| void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA15(void);
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| This function returns AON GPIOA15 pin as the wakeup source and output
-  it on the Serial monitor.
+The function returns nothing.
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+**Example Code**
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
 
-**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA16**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Notes and Warnings**
 
-| **Description**
-| Return the Wakeup source.
+Include “PMUCLASS.h” in order to use the class function.
 
-| **Syntax**
-| void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA16(void);
+-----
 
-| **Parameters**
-| The function requires no input parameter.
+.. method:: PMUCLASS::DsleepWakeStatusGet
 
-| **Returns**
-| This function returns AON GPIOA16 pin as the wakeup source and output
-  it on the Serial monitor.
+**Description**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+Check if deepsleep mode is set.
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Syntax**
+.. code:: cpp
 
-**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA17**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  bool PMUClass::DsleepWakeStatusGet(void);
 
-| **Description**
-| Return the Wakeup source.
+**Parameters**
 
-| **Syntax**
-| void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA17(void);
+The function requires no input parameter.
 
-| **Parameters**
-| The function requires no input parameter.
+**Returns**
 
-| **Returns**
-| This function returns AON GPIOA17 pin as the wakeup source and output
-  it on the Serial monitor.
+Return TRUE when enter DeepSleep Mode or FALSE for negative.
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+**Example Code**
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
 
-**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA18**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Notes and Warnings**
 
-| **Description**
-| Return the Wakeup source.
+Include “PMUCLASS.h” in order to use the class function.
 
-| **Syntax**
-| void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA18(void);
+-----
 
-| **Parameters**
-| The function requires no input parameter.
+.. method:: PMUCLASS::TL_sysactive_time
 
-| **Returns**
-| This function returns AON GPIOA18 pin as the wakeup source and output
-  it on the Serial monitor.
+**Description**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+Tickless mode system active time.
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Syntax**
 
-**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA19**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. code:: cpp
 
-| **Description**
-| Return the Wakeup source.
+  void PMUClass::TL_sysactive_time(uint32_t duration_ms);
 
-| **Syntax**
-| void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA19(void);
+**Parameters**
 
-| **Parameters**
-| The function requires no input parameter.
+``duration_ms`` : Set the duration of system active time. The unit is in
+milliseconds.
 
-| **Returns**
-| This function returns AON GPIOA19 pin as the wakeup source and output
-  it on the Serial monitor.
+**Returns**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+The function returns nothing.
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Example Code**
 
-**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA20**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
 
-| **Description**
-| Return the Wakeup source.
+**Notes and Warnings**
 
-| **Syntax**
-| void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA20(void);
+Include “PMUCLASS.h” in order to use the class function.
 
-| **Parameters**
-| The function requires no input parameter.
+-----
 
-| **Returns**
-| This function returns AON GPIOA20 pin as the wakeup source and output
-  it on the Serial monitor.
+.. method:: PMUCLASS::TL_wakelock
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Description**
 
-**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA21**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tickless mode wake lock, select acquire or release.
 
-| **Description**
-| Return the Wakeup source.
+**Syntax**
 
-| **Syntax**
-| void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA21(void);
+.. code:: cpp
 
-| **Parameters**
-| The function requires no input parameter.
+  void PMUClass::TL_wakelock(uint32_t select_lock);
 
-| **Returns**
-| This function returns AON GPIOA21 pin as the wakeup source and output
-  it on the Serial monitor.
+**Parameters**
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+``select_lock`` : Wake lock selection value, “1” for acquire or “0” for
+release.
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+**Returns**
 
-**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA25**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The function returns nothing.
 
-| **Description**
-| Return the Wakeup source.
+**Example Code**
 
-| **Syntax**
-| void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA25(void);
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
 
-| **Parameters**
-| The function requires no input parameter.
+**Notes and Warnings**
 
-| **Returns**
-| This function returns AON GPIOA25 pin as the wakeup source and output
-  it on the Serial monitor.
+Include “PMUCLASS.h” in order to use the class function.
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+------
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+.. method:: PMUCLASS::DS_AON_TIMER_WAKEUP
 
-**PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA26**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Description**
 
-| **Description**
-| Return the Wakeup source.
+Return the Wakeup source for DeepSleep Mode.
 
-| **Syntax**
-| void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA26(void);
+**Syntax**
 
-| **Parameters**
-| The function requires no input parameter.
+.. code:: cpp
 
-| **Returns**
-| This function returns AON GPIOA26 pin as the wakeup source and output
-  it on the Serial monitor.
+  void PMUClass::DS_AON_TIMER_WAKEUP(void);
 
-| **Example Code**
-| Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
-  DeepSleepMode; TicklessMode;
+**Parameters**
 
-| **Notes and Warnings**
-| Include “PMUCLASS.h” in order to use the class function.
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON Timer as the wakeup source and output it on
+the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+
+.. method:: PMUCLASS::DS_RTC_WAKEUP
+
+**Description**
+
+Return the Wakeup source for DeepSleep Mode.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::DS_RTC_WAKEUP(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns RTC as the wakeup source and output it on the
+Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+.. method:: PMUCLASS::TL_UART_WAKEUP
+
+**Description**
+
+Return the Wakeup source for Tickless Mode.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::TL_UART_WAKEUP(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns LOGUART as the wakeup source and output it on
+the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+
+.. method:: PMUCLASS::TL_RTC_WAKEUP
+
+**Description**
+
+Return the Wakeup source for Tickless Mode.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::TL_RTC_WAKEUP(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns RTC as the wakeup source and output it on the
+Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+.. method:: PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA12
+
+
+**Description**
+
+Return the Wakeup source.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA12(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON GPIOA12 pin as the wakeup source and output
+it on the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+.. method:: PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA13
+
+
+**Description**
+
+Return the Wakeup source.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA13(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON GPIOA13 pin as the wakeup source and output
+it on the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+.. method:: PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA14
+
+**Description**
+
+Return the Wakeup source.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA14(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON GPIOA14 pin as the wakeup source and output
+it on the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+
+.. method:: PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA15
+
+**Description**
+
+Return the Wakeup source.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA15(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON GPIOA15 pin as the wakeup source and output
+it on the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+
+.. method:: PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA16
+
+**Description**
+
+Return the Wakeup source.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA16(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON GPIOA16 pin as the wakeup source and output
+it on the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+.. method:: PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA17
+
+**Description**
+
+Return the Wakeup source.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA17(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON GPIOA17 pin as the wakeup source and output
+it on the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+.. method:: PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA18
+
+**Description**
+
+Return the Wakeup source.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA18(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON GPIOA18 pin as the wakeup source and output
+it on the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+------
+
+.. method:: PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA19
+
+**Description**
+
+Return the Wakeup source.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA19(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON GPIOA19 pin as the wakeup source and output
+it on the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+.. method:: PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA20
+
+**Description**
+
+Return the Wakeup source.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA20(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON GPIOA20 pin as the wakeup source and output
+it on the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+.. method:: PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA21
+
+**Description**
+
+Return the Wakeup source.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA21(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON GPIOA21 pin as the wakeup source and output
+it on the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+
+.. method:: PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA25
+
+**Description**
+
+Return the Wakeup source.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA25(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON GPIOA25 pin as the wakeup source and output
+it on the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.
+
+-----
+
+
+.. method:: PMUCLASS::AON_WAKEPIN_WAKEUP_GPIOA26
+
+**Description**
+
+Return the Wakeup source.
+
+**Syntax**
+
+.. code:: cpp
+
+  void PMUClass::AON_WAKEPIN_WAKEUP_GPIOA26(void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+This function returns AON GPIOA26 pin as the wakeup source and output
+it on the Serial monitor.
+
+**Example Code**
+
+Example: DeepSleep_DHT_Eink_Example; DeepSleep_DHT_LCD_Example;
+DeepSleepMode; TicklessMode;
+
+**Notes and Warnings**
+
+Include “PMUCLASS.h” in order to use the class function.

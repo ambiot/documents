@@ -1,12 +1,16 @@
+############
 Class DHT
-===========
-**DHT Class**
+############
 
-| **Description**
-| Defines a class of using DHT temperature & humidity sensors
+**Description**
 
-| **Syntax**
-| class DHT
+Defines a class of using DHT temperature & humidity sensors
+
+**Syntax**
+
+.. code:: cpp
+
+  class DHT
 
 **Members**
 
@@ -37,332 +41,377 @@ Class DHT
 | DHT::read               | Check if the sensor is readable           |
 +-------------------------+-------------------------------------------+
 
-**DHT::DHT**
+-----
 
-| **Description**
-| Constructs a DHT object.
+.. method:: DHT::DHT
 
-| **Syntax**
-| DHT::DHT(uint8_t pin, uint8_t type, uint8_t count)
+**Description**
 
-| **Parameters**
-| pin: The Arduino digital PIN connected
-| type: The DHT sensor type(DHT11, DHT22, or DHT21)
-| count: The count is now ignored as the DHT reading algorithm adjusts
-  itself based on the speed of the processor
+Constructs a DHT object.
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| Example:DHTTester
-| The code demos basic testing for various DHT humidity & temperature
-  sensors.
+.. code:: cpp
 
-| **Notes and Warnings**
-| Every time must include the header file “DHT.h” in front of the
-  project to use the class function.
+  DHT::DHT(uint8_t pin, uint8_t type, uint8_t count)
+
+**Parameters**
+
+``pin``: The Arduino digital PIN connected
+
+``type``: The DHT sensor type(DHT11, DHT22, or DHT21)
+
+``count``: The count is now ignored as the DHT reading algorithm adjusts
+itself based on the speed of the processor
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example:DHTTester
+
+The code demos basic testing for various DHT humidity & temperature
+sensors.
+
+**Notes and Warnings**
+
+Every time must include the header file “DHT.h” in front of the
+
+project to use the class function.
 
 // Example testing sketch for various DHT humidity/temperature sensors
 
 // Written by ladyada, public domain
 
-**#include "DHT.h"**
+.. code:: cpp
 
-// The digital pin we're connected to.
+  // Example testing sketch for various DHT humidity/temperature sensors  
+  // Written by ladyada, public domain  
 
-**#define DHTPIN 8**
+  #include "DHT.h"  
 
-// Uncomment whatever type you're using!
+  // The digital pin we're connected to.  
+  #define DHTPIN 8  
 
-**#define DHTTYPE DHT11 // DHT 11**
+  // Uncomment whatever type you're using!  
+  #define DHTTYPE DHT11   // DHT 11  
+  //#define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321  
+  //#define DHTTYPE DHT21   // DHT 21 (AM2301)  
 
-//#define DHTTYPE DHT22 // DHT 22 (AM2302), AM2321
+  // Connect pin 1 (on the left) of the sensor to +5V  
+  // NOTE: If using a board with 3.3V logic like an Arduino Due connect pin 1  
+  // to 3.3V instead of 5V!  
+  // Connect pin 2 of the sensor to whatever your DHTPIN is  
+  // Connect pin 4 (on the right) of the sensor to GROUND  
+  // Connect a 10K resistor from pin 2 (data) to pin 1 (power) of the sensor  
 
-//#define DHTTYPE DHT21 // DHT 21 (AM2301)
+  // Initialize DHT sensor.  
+  // Note that older versions of this library took an optional third parameter to  
+  // tweak the timings for faster processors.  This parameter is no longer needed  
+  // as the current DHT reading algorithm adjusts itself to work on faster procs.  
+  DHT dht(DHTPIN, DHTTYPE);  
 
-// Connect pin 1 (on the left) of the sensor to +5V
+  void setup() {  
+      Serial.begin(115200);  
+      Serial.println("DHTxx test!");  
+      dht.begin();  
+  }  
 
-// NOTE: If using a board with 3.3V logic like an Arduino Due connect
-pin 1
+  void loop() {  
+      // Wait a few seconds between measurements.  
+      delay(2000);  
 
-// to 3.3V instead of 5V!
+      // Reading temperature or humidity takes about 250 milliseconds!  
+      // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)  
+      float h = dht.readHumidity();  
+      // Read temperature as Celsius (the default)  
+      float t = dht.readTemperature();  
+      // Read temperature as Fahrenheit (isFahrenheit = true)  
+      float f = dht.readTemperature(true);  
 
-// Connect pin 2 of the sensor to whatever your DHTPIN is
+      // Check if any reads failed and exit early (to try again).  
+      if (isnan(h) || isnan(t) || isnan(f)) {  
+          Serial.println("Failed to read from DHT sensor!");  
+          return;  
+      }  
 
-// Connect pin 4 (on the right) of the sensor to GROUND
+      // Compute heat index in Fahrenheit (the default)  
+      float hif = dht.computeHeatIndex(f, h);  
+      // Compute heat index in Celsius (isFahreheit = false)  
+      float hic = dht.computeHeatIndex(t, h, false);  
 
-// Connect a 10K resistor from pin 2 (data) to pin 1 (power) of the
-sensor
+      Serial.print("Humidity: ");  
+      Serial.print(h);  
+      Serial.print(" %\t");  
+      Serial.print("Temperature: ");  
+      Serial.print(t);  
+      Serial.print(" *C ");  
+      Serial.print(f);  
+      Serial.print(" *F\t");  
+      Serial.print("Heat index: ");  
+      Serial.print(hic);  
+      Serial.print(" *C ");  
+      Serial.print(hif);  
+      Serial.println(" *F");  
+  } 
 
-// Initialize DHT sensor.
 
-// Note that older versions of this library took an optional third
-parameter to
 
-// tweak the timings for faster processors. This parameter is no longer
-needed
+------------------------------------------------------
 
-// as the current DHT reading algorithm adjusts itself to work on faster
-procs.
+.. method:: DHT::begin
 
-DHT dht(DHTPIN, DHTTYPE);
+**Description**
 
-**void** setup() {
+Initialize the DHT sensor.
 
-Serial.begin(115200);
+**Syntax**
 
-Serial.println("DHTxx test!");
+.. code:: cpp
 
-dht.begin();
+  void DHT::begin(void);
 
-}
+**Parameters**
 
-**void** loop() {
+The function requires no input parameter.
 
-// Wait a few seconds between measurements.
+**Returns**
 
-delay(2000);
+The function returns nothing.
 
-// Reading temperature or humidity takes about 250 milliseconds!
+**Example Code**
 
-// Sensor readings may also be up to 2 seconds 'old' (its a very slow
-sensor)
+Example: DHTTester
 
-**float** h = dht.readHumidity();
+The code demos basic testing for various DHT humidity & temperature
+sensors. Please refer to code in the “DHT: DHT” section.
 
-// Read temperature as Celsius (the default)
+**Notes and Warnings**
 
-**float** t = dht.readTemperature();
+Every time must include the header file “DHT.h” in front of the
+project to use the class function.
 
-// Read temperature as Fahrenheit (isFahrenheit = true)
+----------------------------------------------------------------------------
 
-**float** f = dht.readTemperature(**true**);
+DHT::readTemperature
 
-// Check if any reads failed and exit early (to try again).
 
-**if** (isnan(h) \|\| isnan(t) \|\| isnan(f)) {
+**Description**
 
-Serial.println("Failed to read from DHT sensor!");
+Read temperature(Fahrenheit or Celcius) from the DHT sensor.
 
-**return**;
+**Syntax**
 
-}
+.. code:: cpp
 
-// Compute heat index in Fahrenheit (the default)
+  float DHT::readTemperature(bool S, bool force);
 
-**float** hif = dht.computeHeatIndex(f, h);
+**Parameters**
 
-// Compute heat index in Celsius (isFahreheit = false)
+``S``: Temperature scale, True is Fahrenheit and False is Celcius
 
-**float** hic = dht.computeHeatIndex(t, h, **false**);
+``force``: Index of checking sensor readability, default is False
 
-Serial.print("Humidity: ");
+**Returns**
 
-Serial.print(h);
+The function returns the current temperature as a float value.
 
-Serial.print(" %\t");
+**Example Code**
 
-Serial.print("Temperature: ");
+Example: DHTTester
 
-Serial.print(t);
+The code demos basic testing for various DHT humidity & temperature
+sensors. Please refer to code in the “DHT: DHT” section.
 
-Serial.print(" \*C ");
+**Notes and Warnings**
 
-Serial.print(f);
+Every time must include the header file “DHT.h” in front of the
+project to use the class function.
 
-Serial.print(" \*F\t");
+-------------------------------------------------------------------------
 
-Serial.print("Heat index: ");
+.. method:: DHT::convertCtoF
 
-Serial.print(hic);
 
-Serial.print(" \*C ");
+**Description**
 
-Serial.print(hif);
+Convert a value from Celcius to Fahrenheit.
 
-Serial.println(" \*F");
+**Syntax**
 
-}
+.. code:: cpp
 
- 
+  float DHT::convertCtoF(float c);
 
-**DHT::begin**
+**Parameters**
 
-| **Description**
-| Initialize the DHT sensor.
+``c``: The value in Celcius
 
-| **Syntax**
-| void DHT::begin(void);
+**Returns**
 
-| **Parameters**
-| The function requires no input parameter.
+The function returns the temperature in Fahrenheit as a float number.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| Example: DHTTester
-| The code demos basic testing for various DHT humidity & temperature
-  sensors. Please refer to code in the “DHT: DHT” section.
+Example: DHTTester
 
-| **Notes and Warnings**
-| Every time must include the header file “DHT.h” in front of the
-  project to use the class function.
-|  
+The code demos basic testing for various DHT humidity & temperature
+sensors. Please refer to code in the “DHT: DHT” section.
 
-**DHT::readTemperature**
+**Notes and Warnings**
 
-| **Description**
-| Read temperature(Fahrenheit or Celcius) from the DHT sensor.
+Every time must include the header file “DHT.h” in front of the
+project to use the class function.
 
-| **Syntax**
-| float DHT::readTemperature(bool S, bool force);
+------------------------------------------------------------------------
 
-| **Parameters**
-| S: Temperature scale, True is Fahrenheit and False is Celcius
-| force: Index of checking sensor readability, default is False
+.. method:: DHT::convertFtoC
 
-| **Returns**
-| The function returns the current temperature as a float value.
+**Description**
 
-| **Example Code**
-| Example: DHTTester
-| The code demos basic testing for various DHT humidity & temperature
-  sensors. Please refer to code in the “DHT: DHT” section.
+Convert a value from Fahrenheit to Celcius.
 
-| **Notes and Warnings**
-| Every time must include the header file “DHT.h” in front of the
-  project to use the class function.
-|  
+**Syntax**
 
-**DHT::convertCtoF**
+.. code:: cpp
 
-| **Description**
-| Convert a value from Celcius to Fahrenheit.
+  float DHT::convertFtoC(float f);
 
-| **Syntax**
-| float DHT::convertCtoF(float c);
+**Parameters**
 
-| **Parameters**
-| c: The value in Celcius
+``f``: The value in Fahrenheit
 
-| **Returns**
-| The function returns the temperature in Fahrenheit as a float number.
+**Returns**
 
-| **Example Code**
-| Example: DHTTester
-| The code demos basic testing for various DHT humidity & temperature
-  sensors. Please refer to code in the “DHT: DHT” section.
+The function returns the temperature in Celcius as a float number.
 
-| **Notes and Warnings**
-| Every time must include the header file “DHT.h” in front of the
-  project to use the class function.
-|  
+**Example Code**
 
-**DHT::convertFtoC**
+Example: DHTTester
 
-| **Description**
-| Convert a value from Fahrenheit to Celcius.
+The code demos basic testing for various DHT humidity & temperature
+sensors. Please refer to code in the “DHT: DHT” section.
 
-| **Syntax**
-| float DHT::convertFtoC(float f);
+**Notes and Warnings**
 
-| **Parameters**
-| f: The value in Fahrenheit
+Every time must include the header file “DHT.h” in front of the
+project to use the class function.
 
-| **Returns**
-| The function returns the temperature in Celcius as a float number.
+-------------------------------------------------------------------------
 
-| **Example Code**
-| Example: DHTTester
-| The code demos basic testing for various DHT humidity & temperature
-  sensors. Please refer to code in the “DHT: DHT” section.
+.. method:: DHT::computeHeatIndex
 
-| **Notes and Warnings**
-| Every time must include the header file “DHT.h” in front of the
-  project to use the class function.
-|  
 
-**DHT::computeHeatIndex**
+**Description**
 
-| **Description**
-| Compute the HeatIndex from the readings (Using both Rothfusz and
-  Steadman’s equations). More details refer
-  to `http://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml  <http://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml>`__.
+Compute the HeatIndex from the readings (Using both Rothfusz and
+Steadman’s equations). More details refer
+to `http://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml  <http://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml>`__.
 
-| **Syntax**
-| float DHT::computeHeatIndex(float temperature, float percentHumidity,
-  bool isFahrenheit);
+**Syntax**
 
-| **Parameters**
-| temperature: The temperature value
-| percentHumidity: The humidity percent value
-| isFahrenheit: True, temperature value in Fahrenheit (Default); False,
-  temperature value in Celcius
+.. code:: cpp
 
-| **Returns**
-| The function returns the heat index in Fahrenheit or Celsius as a
-  float value.
+  float DHT::computeHeatIndex(float temperature, float percentHumidity,bool isFahrenheit);
 
-| **Example Code**
-| Example: DHTTester
-| The code demos basic testing for various DHT humidity & temperature
-  sensors. Please refer to code in the “DHT: DHT” section.
+**Parameters**
 
-| **Notes and Warnings**
-| Every time must include the header file “DHT.h” in front of the
-  project to use the class function.
-|  
+``temperature``: The temperature value
 
-**DHT::readHumidity**
+``percentHumidity``: The humidity percent value
 
-| **Description**
-| Reading temperature or humidity from the DHT sensor and return as a
-  float value(%).
+``isFahrenheit``: True, temperature value in Fahrenheit (Default); False,
+temperature value in Celcius
 
-| **Syntax**
-| float DHT::readHumidity(bool force);
+**Returns**
 
-| **Parameters**
-| force: Ignored.
+The function returns the heat index in Fahrenheit or Celsius as a
+float value.
 
-| **Returns**
-| The function returns current humidity in a float number (in %).
+**Example Code**
 
-| **Example Code**
-| Example: DHTTester
-| The code demos basic testing for various DHT humidity & temperature
-  sensors. Please refer to code in the “DHT: DHT” section.
+Example: DHTTester
 
-| **Notes and Warnings**
-| Every time must include the header file “DHT.h” in front of the
-  project to use the class function. Reading temperature or humidity
-  takes about 250 milliseconds! Sensor readings may also be up to 2
-  seconds.
-|  
+The code demos basic testing for various DHT humidity & temperature
+sensors. Please refer to code in the “DHT: DHT” section.
 
-**DHT::read**
+**Notes and Warnings**
 
-| **Description**
-| Check if the sensor is readable.
+Every time must include the header file “DHT.h” in front of the
+project to use the class function.
 
-| **Syntax**
-| boolean DHT::read(bool force);
+--------------------------------------------------------------------------------
 
-| **Parameters**
-| force: Index of whether checking the sensor was read less than two
-  seconds ago or not. False, checking; True, not checking.
+.. method:: DHT::readHumidity
 
-| **Returns**
-| Return the last correct measurement of the sensor. False, low means
-  not readable; True, high means readable.
 
-| **Example Code**
-| Example: DHTTester
-| The code demos basic testing for various DHT humidity & temperature
-  sensors. Please refer to code in the “DHT: DHT” section.
+**Description**
 
-| **Notes and Warnings**
-| Every time must include the header file “DHT.h” in front of the
-  project to use the class function.
+Reading temperature or humidity from the DHT sensor and return as a
+float value(%).
+
+**Syntax**
+
+.. code:: cpp
+
+  float DHT::readHumidity(bool force);
+
+**Parameters**
+
+``force``: Ignored.
+
+**Returns**
+
+The function returns current humidity in a float number (in %).
+
+**Example Code**
+
+Example: DHTTester
+
+The code demos basic testing for various DHT humidity & temperature
+sensors. Please refer to code in the “DHT: DHT” section.
+
+**Notes and Warnings**
+
+Every time must include the header file “DHT.h” in front of the
+project to use the class function. Reading temperature or humidity
+takes about 250 milliseconds! Sensor readings may also be up to 2
+seconds.
+
+-----------------------------------------------------------------------------
+
+.. method:: DHT::read
+
+**Description**
+
+Check if the sensor is readable.
+
+**Syntax**
+
+.. code:: cpp
+
+  boolean DHT::read(bool force);
+
+**Parameters**
+
+``force``: Index of whether checking the sensor was read less than two
+seconds ago or not. False, checking; True, not checking.
+
+**Returns**
+
+Return the last correct measurement of the sensor. False, low means
+not readable; True, high means readable.
+
+**Example Code**
+
+Example: DHTTester
+
+The code demos basic testing for various DHT humidity & temperature
+sensors. Please refer to code in the “DHT: DHT” section.
+
+**Notes and Warnings**
+
+Every time must include the header file “DHT.h” in front of the
+project to use the class function.

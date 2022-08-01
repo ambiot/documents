@@ -1,9 +1,6 @@
 Class BLEConnect
 =================
 
-.. class:: BLEConnect
-
-
 **Description**
 
 A class used for managing BLE connection settings.

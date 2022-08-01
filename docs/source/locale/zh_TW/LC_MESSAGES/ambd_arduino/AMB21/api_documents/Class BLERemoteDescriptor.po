@@ -8,23 +8,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 05:15+0000\n"
+"POT-Creation-Date: 2022-07-27 10:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class
-#: BLERemoteDescriptor.rst:2
-msgid "Class BLERemoteDescriptor"
-msgstr ""
+"Generated-By: Babel 2.10.1\n"
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
 #: BLERemoteDescriptor.rst:3
-msgid "**BLERemoteDescriptor Class**"
+msgid "Class BLERemoteDescriptor"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class
@@ -614,4 +609,7 @@ msgid ""
 "If the data buffer contains less data than requested, it will only read "
 "the available number of bytes of data."
 msgstr ""
+
+#~ msgid "**BLERemoteDescriptor Class**"
+#~ msgstr ""
 

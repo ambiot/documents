@@ -2,8 +2,6 @@
 Class BLEAddr
 #################
 
-.. class:: BLEAddr
-
 **Description**
 
 A class used for managing Bluetooth addresses.

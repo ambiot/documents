@@ -1,8 +1,6 @@
+#################
 Class BLEBeacon
-======================
-
-.. class:: iBeacon
-
+#################
 
 **Description**
 

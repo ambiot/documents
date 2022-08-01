@@ -10,7 +10,9 @@ A class used for control and playback of .wav file format audio data.
 
 **Syntax**
 
-class PlaybackWav
+.. code:: cpp
+
+  class PlaybackWav
 
 **Members**
 

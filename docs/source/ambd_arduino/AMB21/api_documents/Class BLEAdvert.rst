@@ -1,9 +1,6 @@
-
 #################
 Class BLEAdvert
 #################
-
-.. class:: BLEAdvert
 
 **Description**
 

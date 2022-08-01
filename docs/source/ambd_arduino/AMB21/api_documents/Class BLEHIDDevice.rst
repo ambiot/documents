@@ -1,15 +1,16 @@
 Class BLEHIDDevice
 ====================
 
-**BLEHIDDevice Class**
-
 **Description**
 
 A class used for creating and managing HID over GATT Profile (HOGP)
 services.
 
-| **Syntax**
-| class BLEHIDDevice
+**Syntax**
+
+.. code:: cpp
+
+  class BLEHIDDevice
 
 **Members**
 

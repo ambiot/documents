@@ -22,14 +22,14 @@ There are 2 BW16 boards, BW16 and BW16 Type C. BW16 Type C board uses USB Type C
 
 **BW16 Type C board**
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image1.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image1.png
    :align: center
 
 The size of the board is 50.4*25.4(±0.2) mm. It uses Type C USB to supply power, which is common in many smart devices.
 Please refer to the following figure and table for the pin diagram and functions.
 
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image2.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image2.png
    :align: center
 
 
@@ -87,13 +87,13 @@ And paste the following URL into the “Additional Boards Manager URLs” field:
 Next, go to “Tools” -> “Board” -> “Boards Manager”:
 
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image3.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image3.png
    :align: center
 
 The “Boards Manager” requires several seconds to refresh all hardware files (if the network is in bad condition, it may take longer). Search “Realtek” 
 then find “Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)” in the list, click “Install”, then the Arduino IDE starts to download required files for AmebaD family includes BW16.
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image4.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image4.png
    :align: center
 
 If there is downloading issue (Bad internet or GitHub access), please refer to the following link at “Download/Software Development Kit”. There are 3 sections.
@@ -108,7 +108,7 @@ According to your system, please run the installation tool in the “Offline_SDK
 
 After the installation, select AmebaD as current connected board in “Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” BW16(RTL8720DN)”:
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image5.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image5.png
    :align: center
 
 Step 2. Set up Arduino IDE
@@ -118,28 +118,28 @@ First, connect the board to computer via Type C USB:
 
 **BW16 Type C board**
    
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image6.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image6.png
    :align: center
 
 
 After connected, the USB driver will be automatically installed. If there is any driver issue of connecting board, 
 please go to http://www.wch-ic.com/downloads/CH341SER_ZIP.html for USB driver. Check the COM Port number in Device Manager for Windows OS user: 
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image7.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image7.png
    :align: center
 
 Go to “Tools” -> “Port” and select the correct COM port.  
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image8.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image8.png
    :align: center
 
 Go to “Tools” -> “Serial Monitor”, set the baud rate as “115200”, and press the RST button to check the serial port connection.  
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image9.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image9.png
    :align: center
 
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image10.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image10.png
    :align: center
 
 
@@ -149,7 +149,7 @@ Erase flash before the first use
 
 Depending on the batch of manufacturing, some boards might have built-in the default B&T firmware, the firmware information is shown below: 
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image11.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image11.png
    :align: center
   
 The firmware is at the OTA section. All new compiled firmware will be replaced automatically by the OTA section firmware. 
@@ -160,7 +160,7 @@ Method 1: “Erase Flash Enable” by Arduino SDK after V3.1.3
 
 Select “Tools” -> “Erase Flash” -> “Enable”
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image12.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image12.png
    :align: center
 
 Then enter the enter the upload mode.
@@ -171,15 +171,15 @@ Then enter the enter the upload mode.
 
 Next, Select “Sketch” -> “Upload”. “Erase flash done.” will show up.  
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image13.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image13.png
    :align: center
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image14.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image14.png
    :align: center
 
 Check the serial monitor and reset board by press RST button. If only “#” shows that means erase flash success. Remember to select “Tools” -> “Erase Flash” -> “Disable”. 
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image15.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image15.png
    :align: center
 
 
@@ -194,10 +194,10 @@ Arduino IDE provides many built-in examples, which can be compiled, uploaded, an
 
 Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image16.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image16.png
    :align: center
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image17.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image17.png
    :align: center
 
 .. tip::
@@ -216,7 +216,7 @@ Then if there is no compile error, followed by “Sketch” -> “Upload”.
 
 Successful upload will show “All images are sent successfully!”
 
-.. image:: /media/ambd_arduino/bw16_typec_getting_started/image18.png
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image18.png
    :align: center
 
 Step 2. Run the Blink example

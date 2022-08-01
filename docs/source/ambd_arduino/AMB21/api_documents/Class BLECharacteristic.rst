@@ -1,8 +1,6 @@
 Class BLECharacteristic
 ===========================
 
-.. class:: BLECharacteristic
-
 **Description**
 
 A class used for creating and managing BLE GATT characteristics.

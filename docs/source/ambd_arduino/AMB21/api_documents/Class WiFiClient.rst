@@ -1,12 +1,17 @@
+#################
 Class WiFiClient
-==================
-**WiFiClient Class**
+#################
 
-| **Description**
-| Defines a class of WiFi Client implementation for Ameba.
 
-| **Syntax**
-| class WiFiClient
+**Description**
+
+Defines a class of WiFi Client implementation for Ameba.
+
+**Syntax**
+
+.. code:: cpp
+
+  class WiFiClient
 
 **Members**
 
@@ -17,8 +22,11 @@ Class WiFiClient
 |                            | connects to the specified IP address   |
 |                            | and port.                              |
 +----------------------------+----------------------------------------+
-| **Public Methods**         |                                        |
+
+
 +----------------------------+----------------------------------------+
+| **Public Methods**         |                                        |
++============================+========================================+
 | WiFiClient::connect        | Connect to the IP address and port     |
 +----------------------------+----------------------------------------+
 | WiFiClient::write          | Write a single byte into the packet    |
@@ -43,394 +51,458 @@ Class WiFiClient
 | WiFiClient::setRecvTimeout | Set receiving timeout                  |
 +----------------------------+----------------------------------------+
 
-**WiFiClient::WiFiClient**
+------
+
+.. method:: WiFiClient::WiFiClient
+
+
+**Description**
+
+Constructs a WiFiClient instance that connects to the specified IP
+address and port.
+
+**Syntax**
+
+.. code:: cpp
+
+  WiFiClient::WiFiClient()
+
+.. code:: cpp
+
+  WiFiClient::WiFiClient(uint8_t sock)
+
+**Parameters**
+
+``sock`` : socket state, default -1.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: WiFiWebClient
 
-| **Description**
-| Constructs a WiFiClient instance that connects to the specified IP
-  address and port.
+.. code:: cpp
 
-| **Syntax**
-| WiFiClient::WiFiClient()
-| WiFiClient::WiFiClient(uint8_t sock)
+  #include "WiFi.h"    
+  char ssid[] = "yourNetwork"; //  your network SSID (name)  
+  char pass[] = "password";    // your network password (use for WPA, or use as key for WEP)  
+  int keyIndex = 0;            // your network key Index number (needed only for WEP) 
 
-| **Parameters**
-| sock: socket state, default -1.
+  int status = WL_IDLE_STATUS;  
+  //IPAddress server(64,233,189,94);  // numeric IP for Google (no DNS)  
+  char server[] = "www.google.com";    // name address for Google (using DNS)  
 
-| **Returns**
-| The function returns nothing.
+  WiFiClient client;  
+  void setup() {  
+    //Initialize serial and wait for port to open:  
+    Serial.begin(9600);  
+    while (!Serial) {  
+      ;  
+    }  
+    // check for the presence of the shield:  
+    if (WiFi.status() == WL_NO_SHIELD) {  
+      Serial.println("WiFi shield not present");  
+      // don't continue:  
+      while (true);  
+    }  
+    String fv = WiFi.firmwareVersion();  
+    if (fv != "1.1.0") {  
+      Serial.println("Please upgrade the firmware");  
+    }  
+    // attempt to connect to Wifi network:  
+    while (status != WL_CONNECTED) {  
+      Serial.print("Attempting to connect to SSID: ");  
+      Serial.println(ssid);  
+      // Connect to WPA/WPA2 network. Change this line if using open or WEP network:  
+      status = WiFi.begin(ssid, pass);  
 
-| **Example Code**
-| Example: WiFiWebClient
+      // wait 10 seconds for connection:  
+      delay(10000);  
+    }  
+    Serial.println("Connected to wifi");  
+    printWifiStatus();  
 
-**#include <WiFi.h>**
+    Serial.println("\nStarting connection to server...");  
+    // if you get a connection, report back via serial:  
+    if (client.connect(server, 80)) {  
+      Serial.println("connected to server");  
+      // Make a HTTP request:  
+      client.println("GET /search?q=ameba HTTP/1.1");  
+      client.println("Host: www.google.com");  
+      client.println("Connection: close");  
+      client.println();  
+    }  
+  }  
 
-**char** ssid[] = "yourNetwork"; // your network SSID (name)
+  void loop() {  
+    // if there are incoming bytes available  
+    // from the server, read them and print them:  
+    while (client.available()) {  
+      char c = client.read();  
+      Serial.write(c);  
+    }  
 
-**char** pass[] = "password"; // your network password (use for WPA, or
-use as key for WEP)
+    // if the server's disconnected, stop the client:  
+    if (!client.connected()) {  
+      Serial.println();  
+      Serial.println("disconnecting from server.");  
+      client.stop();  
 
-**int** keyIndex = 0; // your network key Index number (needed only for
-WEP)
+      // do nothing forevermore:  
+      while (true);  
+    }  
+  }  
 
-**int** status = WL_IDLE_STATUS;
+  void printWifiStatus() {  
+    // print the SSID of the network you're attached to:  
+    Serial.print("SSID: ");  
+    Serial.println(WiFi.SSID());  
 
-//IPAddress server(64,233,189,94); // numeric IP for Google (no DNS)
+    // print your WiFi shield's IP address:  
+    IPAddress ip = WiFi.localIP();  
+    Serial.print("IP Address: ");  
+    Serial.println(ip);  
 
-**char** server[] = "www.google.com"; // name address for Google (using
-DNS)
+    // print the received signal strength:  
+    long rssi = WiFi.RSSI();  
+    Serial.print("signal strength (RSSI):");  
+    Serial.print(rssi);  
+    Serial.println(" dBm");  
+  } 
 
-WiFiClient client;
+**Notes and Warnings**
 
-**void** setup() {
+NA
 
-//Initialize serial and wait for port to open:
+-----
 
-Serial.begin(9600);
+.. method:: WiFiClient::connect
 
-**while** (!Serial) {
 
-;
+**Description**
 
-}
+Connect to the IP address and port
 
-// check for the presence of the shield:
+**Syntax**
 
-**if** (WiFi.status() == WL_NO_SHIELD) {
+.. code:: cpp
 
-Serial.println("WiFi shield not present");
+  int WiFiClient::connect(IPAddress ip, uint16_t port)
 
-// don't continue:
+.. code:: cpp
 
-**while** (**true**);
+  int WiFiClient::connect(const char *host, uint16_t port)
 
-}
+**Parameters**
 
-String fv = WiFi.firmwareVersion();
+``ip`` : IP address
 
-**if** (fv != "1.1.0") {
+``host`` : Host name
 
-Serial.println("Please upgrade the firmware");
+``port`` : the port to listen on
 
-}
+**Returns**
 
-// attempt to connect to Wifi network:
+Returns “1”: if successful
 
-**while** (status != WL_CONNECTED) {
+Returns “0”: if failed
 
-Serial.print("Attempting to connect to SSID: ");
+**Example Code**
 
-Serial.println(ssid);
+Example: WiFiWebClient
 
-// Connect to WPA/WPA2 network. Change this line if using open or WEP
-network:
+The details of the example are explained in the previous section of
 
-status = WiFi.begin(ssid, pass);
+WiFiClient:: WiFiClient.
 
-// wait 10 seconds for connection:
+**Notes and Warnings**
 
-delay(10000);
+NA
 
-}
+------
 
-Serial.println("Connected to wifi");
+.. method:: WiFiClient::write
 
-printWifiStatus();
 
-Serial.println("\nStarting connection to server...");
+**Description**
 
-// if you get a connection, report back via serial:
+Write a single byte into the packet
 
-**if** (client.connect(server, 80)) {
+**Syntax**
 
-Serial.println("connected to server");
+.. code:: cpp
 
-// Make a HTTP request:
+  size_t WiFiClient::write(uint8_t byte)
 
-client.println("GET /search?q=ameba HTTP/1.1");
+.. code:: cpp
 
-client.println("Host: www.google.com");
+  size_t WiFiClient::write(const uint8_t *buf, size_t size)
 
-client.println("Connection: close");
+**Parameters**
 
-client.println();
+``byte`` : the outgoing byte
 
-}
+``buf`` : the outgoing message
 
-}
+``size`` : the size of the buffer
 
-**void** loop() {
+**Returns**
 
-// if there are incoming bytes available
+The function returns single byte into the packet or returns bytes size
+from buffer into the packet.
 
-// from the server, read them and print them:
+**Example Code**
 
-**while** (client.available()) {
+NA
 
-**char** c = client.read();
+**Notes and Warnings**
 
-Serial.write(c);
+NA
 
-}
+-----
 
-// if the server's disconnected, stop the client:
+.. method:: WiFiClient::available
 
-**if** (!client.connected()) {
 
-Serial.println();
+**Description**
 
-Serial.println("disconnecting from server.");
+Number of bytes remaining in the current packet
 
-client.stop();
+**Syntax**
 
-// do nothing forevermore:
+.. code:: cpp
 
-**while** (**true**);
+  int WiFiClient::available(void)
 
-}
+**Parameters**
 
-}
+The function requires no input parameter.
 
-**void** printWifiStatus() {
+**Returns**
 
-// print the SSID of the network you're attached to:
+Function returns the number of bytes available in the current packet
 
-Serial.print("SSID: ");
+Function returns 0: if no data available
 
-Serial.println(WiFi.SSID());
+**Example Code**
 
-// print your WiFi shield's IP address:
+Example: WiFiWebClient
 
-IPAddress ip = WiFi.localIP();
+The details of the example are explained in the previous section of
+WiFiClient:: WiFiClient.
 
-Serial.print("IP Address: ");
+**Notes and Warnings**
 
-Serial.println(ip);
+NA
 
-// print the received signal strength:
+------
 
-**long** rssi = WiFi.RSSI();
+.. method:: WiFiClient::read
 
-Serial.print("signal strength (RSSI):");
 
-Serial.print(rssi);
+**Description**
 
-Serial.println(" dBm");
+Read a single byte from the current packet
 
-}
+**Syntax**
 
-| **Notes and Warnings**
-| NA
-|  
+.. code:: cpp
 
-**WiFiClient::connect**
+  int WiFiClient::read()
 
-| **Description**
-| Connect to the IP address and port
+.. code:: cpp
 
-| **Syntax**
-| int WiFiClient::connect(IPAddress ip, uint16_t port)
-| int WiFiClient::connect(const char \*host, uint16_t port)
+  int WiFiClient::read(unsigned char* buf, size_t size)
 
-| **Parameters**
-| ip: IP address
-| host: Host name
-| port: the port to listen on
+.. code:: cpp
 
-| **Returns**
-| Returns “1”: if successful
-| Returns “0”: if failed
+  int WiFiClient::read(char *buf, size_t size)
 
-| **Example Code**
-| Example: WiFiWebClient
-| The details of the example are explained in the previous section of
-  WiFiClient:: WiFiClient.
+**Parameters**
 
-| **Notes and Warnings**
-| NA
-|  
+``buf`` : buffer to hold incoming packets (char*)
 
-**WiFiClient::write**
+``size`` : maximum size of the buffer (int)
 
-| **Description**
-| Write a single byte into the packet
+**Returns**
 
-| **Syntax**
-| size_t WiFiClient::write(uint8_t byte)
-| size_t WiFiClient::write(const uint8_t \*buf, size_t size)
+``size`` : the size of the buffer
 
-| **Parameters**
-| byte: the outgoing byte
-| buf: the outgoing message
-| size: the size of the buffer
+``-1`` : if no buffer is available
 
-| **Returns**
-| The function returns single byte into the packet or returns bytes size
-  from buffer into the packet.
+**Example Code**
 
-| **Example Code**
-| NA
+Example: WiFiWebClient
 
-| **Notes and Warnings**
-| NA
-|  
+The details of the example are explained in the previous section of
+WiFiClient:: WiFiClient.
 
-**WiFiClient::available**
+**Notes and Warnings**
 
-| **Description**
-| Number of bytes remaining in the current packet
+NA
 
-| **Syntax**
-| int WiFiClient::available(void)
+-----
 
-| **Parameters**
-| The function requires no input parameter.
+.. method:: WiFiClient::peek
 
-| **Returns**
-| • Function returns the number of bytes available in the current packet
-| Function returns 0: if no data available
 
-| **Example Code**
-| Example: WiFiWebClient
-| The details of the example are explained in the previous section of
-  WiFiClient:: WiFiClient.
+**Description**
 
-| **Notes and Warnings**
-| NA
-|  
+Return the next byte from the current packet without moving on to the
+next byte
 
-**WiFiClient::read**
+**Syntax**
 
-| **Description**
-| Read a single byte from the current packet
+.. code:: cpp
 
-| **Syntax**
-| int WiFiClient::read()
-| int WiFiClient::read(unsigned char\* buf, size_t size)
-| int WiFiClient::read(char \*buf, size_t size)
+  int WiFiClient::peek(void)
 
-| **Parameters**
-| buf: buffer to hold incoming packets (char*)
-| size: maximum size of the buffer (int)
+**Parameters**
 
-| **Returns**
-| size: the size of the buffer
-| -1: if no buffer is available
+The function requires no input parameter.
 
-| **Example Code**
-| Example: WiFiWebClient
-| The details of the example are explained in the previous section of
-  WiFiClient:: WiFiClient.
+**Returns**
 
-| **Notes and Warnings**
-| NA
-|  
+``b`` : the next byte or character
 
-**WiFiClient::peek**
+``-1`` : if none is available
 
-| **Description**
-| Return the next byte from the current packet without moving on to the
-  next byte
+**Example Code**
 
-| **Syntax**
-| int WiFiClient::peek(void)
+NA
 
-| **Parameters**
-| The function requires no input parameter.
+**Notes and Warnings**
 
-| **Returns**
-| b: the next byte or character
-| -1: if none is available
+NA
 
-| **Example Code**
-| NA
+-----
 
-| **Notes and Warnings**
-| NA
-|  
+.. method:: WiFiClient::flush
 
-**WiFiClient::flush**
 
-| **Description**
-| Finish reading the current packet
+**Description**
 
-| **Syntax**
-| void WiFiClient::flush(void)
+Finish reading the current packet
 
-| **Parameters**
-| The function requires no input parameter.
+**Syntax**
 
-| **Returns**
-| The function returns nothing.
+.. code:: cpp
 
-| **Example Code**
-| NA
+  void WiFiClient::flush(void)
 
-| **Notes and Warnings**
-| NA
-|  
+**Parameters**
 
-**WiFiClient::stop**
+The function requires no input parameter.
 
-| **Description**
-| Disconnect from the server. Stop client connection
+**Returns**
 
-| **Syntax**
-| void WiFiClient::stop(void)
+The function returns nothing.
 
-| **Parameters**
-| The function requires no input parameter.
+**Example Code**
 
-| **Returns**
-| The function returns nothing.
+NA
 
-| **Example Code**
-| Example: WiFiWebClient
-| The details of the example are explained in the previous section of
-  WiFiClient:: WiFiClient.
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| NA
-|  
+NA
 
-**WiFiClient::connected**
+-----
 
-| **Description**
-| Check if client is connected, return 1 if connected, 0 if not.
+.. method:: WiFiClient::stop
 
-| **Syntax**
-| uint8_t WiFiClient::connected(void)
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns “1” if connected, returns “0” if not connected.
+Disconnect from the server. Stop client connection
 
-| **Example Code**
-| Example: WiFiWebClient
-| The details of the example are explained in the previous section of
-  WiFiClient:: WiFiClient.
+**Syntax**
 
-| **Notes and Warnings**
-| NA
-|  
+.. code:: cpp
 
-**WiFiClient::setRecvTimeout**
+  void WiFiClient::stop(void)
 
-| **Description**
-| Set receiving timeout
+**Parameters**
 
-| **Syntax**
-| int WiFiClient::setRecvTimeout(int timeout)
+The function requires no input parameter.
 
-| **Parameters**
-| timeout: timeout in seconds
+**Returns**
 
-| **Returns**
-| 0
+The function returns nothing.
 
-| **Example Code**
-| NA
+**Example Code**
 
-| **Notes and Warnings**
-| NA
+Example: WiFiWebClient
+
+The details of the example are explained in the previous section of
+WiFiClient:: WiFiClient.
+
+**Notes and Warnings**
+
+NA
+
+------
+
+.. method:: WiFiClient::connected
+
+
+**Description**
+
+Check if client is connected, return 1 if connected, 0 if not.
+
+**Syntax**
+
+.. code:: cpp
+
+  uint8_t WiFiClient::connected(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns “1” if connected, returns “0” if not connected.
+
+**Example Code**
+
+Example: WiFiWebClient
+
+The details of the example are explained in the previous section of
+WiFiClient:: WiFiClient.
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: WiFiClient::setRecvTimeout
+
+
+**Description**
+
+Set receiving timeout
+
+**Syntax**
+
+.. code:: cpp
+
+  int WiFiClient::setRecvTimeout(int timeout)
+
+**Parameters**
+
+timeout: timeout in seconds
+
+**Returns**
+
+0
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA

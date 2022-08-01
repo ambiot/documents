@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 08:01+0100\n"
+"POT-Creation-Date: 2022-07-27 10:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,303 +21,303 @@ msgstr ""
 msgid "Class AudioCodec"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:7
-#: AudioCodec.rst:94 AudioCodec.rst:126 AudioCodec.rst:156 AudioCodec.rst:191
-#: AudioCodec.rst:225 AudioCodec.rst:259 AudioCodec.rst:291 AudioCodec.rst:329
-#: AudioCodec.rst:376 AudioCodec.rst:418 AudioCodec.rst:461 AudioCodec.rst:506
-#: AudioCodec.rst:538 AudioCodec.rst:573 AudioCodec.rst:605 AudioCodec.rst:636
-#: AudioCodec.rst:674 AudioCodec.rst:705 AudioCodec.rst:743 AudioCodec.rst:777
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:5
+#: AudioCodec.rst:92 AudioCodec.rst:124 AudioCodec.rst:154 AudioCodec.rst:189
+#: AudioCodec.rst:223 AudioCodec.rst:257 AudioCodec.rst:289 AudioCodec.rst:327
+#: AudioCodec.rst:374 AudioCodec.rst:416 AudioCodec.rst:459 AudioCodec.rst:504
+#: AudioCodec.rst:536 AudioCodec.rst:571 AudioCodec.rst:603 AudioCodec.rst:634
+#: AudioCodec.rst:672 AudioCodec.rst:703 AudioCodec.rst:741 AudioCodec.rst:775
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:10
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:8
 msgid ""
 "A class used for general control and management of the hardware audio "
 "codec functions."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:13
-#: AudioCodec.rst:98 AudioCodec.rst:130 AudioCodec.rst:160 AudioCodec.rst:195
-#: AudioCodec.rst:230 AudioCodec.rst:263 AudioCodec.rst:295 AudioCodec.rst:333
-#: AudioCodec.rst:380 AudioCodec.rst:422 AudioCodec.rst:465 AudioCodec.rst:510
-#: AudioCodec.rst:542 AudioCodec.rst:577 AudioCodec.rst:609 AudioCodec.rst:640
-#: AudioCodec.rst:678 AudioCodec.rst:709 AudioCodec.rst:748 AudioCodec.rst:782
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:11
+#: AudioCodec.rst:96 AudioCodec.rst:128 AudioCodec.rst:158 AudioCodec.rst:193
+#: AudioCodec.rst:228 AudioCodec.rst:261 AudioCodec.rst:293 AudioCodec.rst:331
+#: AudioCodec.rst:378 AudioCodec.rst:420 AudioCodec.rst:463 AudioCodec.rst:508
+#: AudioCodec.rst:540 AudioCodec.rst:575 AudioCodec.rst:607 AudioCodec.rst:638
+#: AudioCodec.rst:676 AudioCodec.rst:707 AudioCodec.rst:746 AudioCodec.rst:780
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:19
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:17
 msgid "**Members**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:21
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:19
 msgid "**Public Constructors**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:23
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:21
 msgid ""
 "The public constructor should not be used as this class is intended to be"
 " a singleton class. Access member functions using the object instance "
 "named Codec."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:27
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:25
 msgid "**Public Methods**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:30
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:28
 msgid "AudioCodec::begin"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:30
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:28
 msgid "Configure and start the audio codec for transmit and receive operation"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:33
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:31
 msgid "AudioCodec::end"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:33
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:31
 msgid "Stop all audio codec operation"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:35
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:33
 msgid "AudioCodec::getBufferPageSize"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:35
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:33
 msgid "Get the byte size of a single page of the audio codec buffer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:38
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:36
 msgid "AudioCodec::setSampleRate"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:38
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:36
 msgid "Configure the audio codec transmit and receive sampling rate"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:41
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:39
 msgid "AudioCodec::setBitDepth"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:41
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:39
 msgid "Configure the audio codec transmit and receive bit depth (bits per sample)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:45
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:43
 msgid "AudioCodec::setChannelCount"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:45
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:43
 msgid "Configure the audio codec transmit and receive channel count"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:48
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:46
 msgid "AudioCodec::setInputMicType"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:48
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:46
 msgid "Configure for analog or digital input microphone type"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:51
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:49
 msgid "AudioCodec::setInputLRMux"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:51
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:49
 msgid "Configure input left right channel multiplexing"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:54
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:52
 msgid "AudioCodec::setDMicBoost"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:54
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:52
 msgid "Configure boost gain for digital microphone input"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:57
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:55
 msgid "AudioCodec::setAMicBoost"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:57
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:55
 msgid "Configure boost gain for analog microphone input"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:60
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:58
 msgid "AudioCodec::setADCGain"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:60
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:58
 msgid "Configure gain of ADC used to acquire analog input"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:63
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:61
 msgid "AudioCodec::muteInput"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:63
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:61
 msgid "Mute input audio data stream"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:65
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:63
 msgid "AudioCodec::setOutputVolume"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:65
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:63
 msgid "Configure output audio volume"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:67
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:65
 msgid "AudioCodec::muteOutput"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:67
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:65
 msgid "Mute output audio"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:69
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:67
 msgid "AudioCodec::writeAvaliable"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:69
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:67
 msgid "Check for free buffer page available for data write"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:72
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:70
 msgid "AudioCodec::writeDataPage"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:72
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:70
 msgid "Write audio data to an available buffer page"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:75
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:73
 msgid "AudioCodec::readAvaliable"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:75
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:73
 msgid "Check for buffer page with new data available for read"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:78
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:76
 msgid "AudioCodec::readDataPage"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:78
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:76
 msgid "Read audio data from a ready buffer page"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:81
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:79
 msgid "AudioCodec::setWriteCallback"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:81
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:79
 msgid ""
 "Set a callback function to be notified when a free buffer page is "
 "available for write"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:85
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:83
 msgid "AudioCodec::setReadCallback"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:85
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:83
 msgid ""
 "Set a callback function to be notified when a buffer page with new data "
 "is available for read"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:96
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:94
 msgid "Configure and start the audio codec for transmit and receive operation."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:104
-#: AudioCodec.rst:136 AudioCodec.rst:166 AudioCodec.rst:201 AudioCodec.rst:236
-#: AudioCodec.rst:269 AudioCodec.rst:301 AudioCodec.rst:339 AudioCodec.rst:386
-#: AudioCodec.rst:428 AudioCodec.rst:471 AudioCodec.rst:516 AudioCodec.rst:548
-#: AudioCodec.rst:583 AudioCodec.rst:615 AudioCodec.rst:651 AudioCodec.rst:684
-#: AudioCodec.rst:720 AudioCodec.rst:754 AudioCodec.rst:788
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:102
+#: AudioCodec.rst:134 AudioCodec.rst:164 AudioCodec.rst:199 AudioCodec.rst:234
+#: AudioCodec.rst:267 AudioCodec.rst:299 AudioCodec.rst:337 AudioCodec.rst:384
+#: AudioCodec.rst:426 AudioCodec.rst:469 AudioCodec.rst:514 AudioCodec.rst:546
+#: AudioCodec.rst:581 AudioCodec.rst:613 AudioCodec.rst:649 AudioCodec.rst:682
+#: AudioCodec.rst:718 AudioCodec.rst:752 AudioCodec.rst:786
 msgid "**Parameters**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:106
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:104
 msgid "``input`` : enable audio codec data input"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:108
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:106
 msgid "``output``: enable audio codec data output"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:110
-#: AudioCodec.rst:140 AudioCodec.rst:170 AudioCodec.rst:206 AudioCodec.rst:241
-#: AudioCodec.rst:274 AudioCodec.rst:309 AudioCodec.rst:352 AudioCodec.rst:402
-#: AudioCodec.rst:444 AudioCodec.rst:490 AudioCodec.rst:522 AudioCodec.rst:557
-#: AudioCodec.rst:589 AudioCodec.rst:619 AudioCodec.rst:657 AudioCodec.rst:688
-#: AudioCodec.rst:726 AudioCodec.rst:759 AudioCodec.rst:793
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:108
+#: AudioCodec.rst:138 AudioCodec.rst:168 AudioCodec.rst:204 AudioCodec.rst:239
+#: AudioCodec.rst:272 AudioCodec.rst:307 AudioCodec.rst:350 AudioCodec.rst:400
+#: AudioCodec.rst:442 AudioCodec.rst:488 AudioCodec.rst:520 AudioCodec.rst:555
+#: AudioCodec.rst:587 AudioCodec.rst:617 AudioCodec.rst:655 AudioCodec.rst:686
+#: AudioCodec.rst:724 AudioCodec.rst:757 AudioCodec.rst:791
 msgid "**Returns**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:112
-#: AudioCodec.rst:142 AudioCodec.rst:208 AudioCodec.rst:243 AudioCodec.rst:276
-#: AudioCodec.rst:311 AudioCodec.rst:354 AudioCodec.rst:404 AudioCodec.rst:446
-#: AudioCodec.rst:492 AudioCodec.rst:524 AudioCodec.rst:559 AudioCodec.rst:591
-#: AudioCodec.rst:761 AudioCodec.rst:795
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:110
+#: AudioCodec.rst:140 AudioCodec.rst:206 AudioCodec.rst:241 AudioCodec.rst:274
+#: AudioCodec.rst:309 AudioCodec.rst:352 AudioCodec.rst:402 AudioCodec.rst:444
+#: AudioCodec.rst:490 AudioCodec.rst:522 AudioCodec.rst:557 AudioCodec.rst:589
+#: AudioCodec.rst:759 AudioCodec.rst:793
 msgid "The function returns nothing."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:114
-#: AudioCodec.rst:144 AudioCodec.rst:174 AudioCodec.rst:210 AudioCodec.rst:245
-#: AudioCodec.rst:278 AudioCodec.rst:313 AudioCodec.rst:356 AudioCodec.rst:406
-#: AudioCodec.rst:448 AudioCodec.rst:494 AudioCodec.rst:526 AudioCodec.rst:561
-#: AudioCodec.rst:593 AudioCodec.rst:624 AudioCodec.rst:662 AudioCodec.rst:693
-#: AudioCodec.rst:731 AudioCodec.rst:763 AudioCodec.rst:797
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:112
+#: AudioCodec.rst:142 AudioCodec.rst:172 AudioCodec.rst:208 AudioCodec.rst:243
+#: AudioCodec.rst:276 AudioCodec.rst:311 AudioCodec.rst:354 AudioCodec.rst:404
+#: AudioCodec.rst:446 AudioCodec.rst:492 AudioCodec.rst:524 AudioCodec.rst:559
+#: AudioCodec.rst:591 AudioCodec.rst:622 AudioCodec.rst:660 AudioCodec.rst:691
+#: AudioCodec.rst:729 AudioCodec.rst:761 AudioCodec.rst:795
 msgid "**Example Code**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:116
-#: AudioCodec.rst:212 AudioCodec.rst:280 AudioCodec.rst:563 AudioCodec.rst:626
-#: AudioCodec.rst:664 AudioCodec.rst:695 AudioCodec.rst:733
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:114
+#: AudioCodec.rst:210 AudioCodec.rst:278 AudioCodec.rst:561 AudioCodec.rst:624
+#: AudioCodec.rst:662 AudioCodec.rst:693 AudioCodec.rst:731
 msgid "Example: BasicInputOutput"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:118
-#: AudioCodec.rst:148 AudioCodec.rst:178 AudioCodec.rst:214 AudioCodec.rst:249
-#: AudioCodec.rst:282 AudioCodec.rst:317 AudioCodec.rst:360 AudioCodec.rst:410
-#: AudioCodec.rst:452 AudioCodec.rst:498 AudioCodec.rst:530 AudioCodec.rst:565
-#: AudioCodec.rst:597 AudioCodec.rst:628 AudioCodec.rst:666 AudioCodec.rst:697
-#: AudioCodec.rst:735 AudioCodec.rst:767 AudioCodec.rst:801
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:116
+#: AudioCodec.rst:146 AudioCodec.rst:176 AudioCodec.rst:212 AudioCodec.rst:247
+#: AudioCodec.rst:280 AudioCodec.rst:315 AudioCodec.rst:358 AudioCodec.rst:408
+#: AudioCodec.rst:450 AudioCodec.rst:496 AudioCodec.rst:528 AudioCodec.rst:563
+#: AudioCodec.rst:595 AudioCodec.rst:626 AudioCodec.rst:664 AudioCodec.rst:695
+#: AudioCodec.rst:733 AudioCodec.rst:765 AudioCodec.rst:799
 msgid "**Notes and Warnings**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:120
-#: AudioCodec.rst:146 AudioCodec.rst:150 AudioCodec.rst:176 AudioCodec.rst:247
-#: AudioCodec.rst:284 AudioCodec.rst:315 AudioCodec.rst:358 AudioCodec.rst:408
-#: AudioCodec.rst:412 AudioCodec.rst:450 AudioCodec.rst:496 AudioCodec.rst:500
-#: AudioCodec.rst:528 AudioCodec.rst:532 AudioCodec.rst:567 AudioCodec.rst:595
-#: AudioCodec.rst:599 AudioCodec.rst:630 AudioCodec.rst:668 AudioCodec.rst:699
-#: AudioCodec.rst:737 AudioCodec.rst:765 AudioCodec.rst:799
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:118
+#: AudioCodec.rst:144 AudioCodec.rst:148 AudioCodec.rst:174 AudioCodec.rst:245
+#: AudioCodec.rst:282 AudioCodec.rst:313 AudioCodec.rst:356 AudioCodec.rst:406
+#: AudioCodec.rst:410 AudioCodec.rst:448 AudioCodec.rst:494 AudioCodec.rst:498
+#: AudioCodec.rst:526 AudioCodec.rst:530 AudioCodec.rst:565 AudioCodec.rst:593
+#: AudioCodec.rst:597 AudioCodec.rst:628 AudioCodec.rst:666 AudioCodec.rst:697
+#: AudioCodec.rst:735 AudioCodec.rst:763 AudioCodec.rst:797
 msgid "NA"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:128
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:126
 msgid "Stop all audio codec operation."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:138
-#: AudioCodec.rst:168 AudioCodec.rst:617 AudioCodec.rst:686
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:136
+#: AudioCodec.rst:166 AudioCodec.rst:615 AudioCodec.rst:684
 msgid "The function requires no input parameter."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:158
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:156
 msgid "Get the byte size of a single page of the audio codec buffer."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:172
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:170
 msgid "The size of a audio codec buffer page, in number of bytes."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:180
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:178
 msgid ""
 "The AudioCodec class includes a transmit and receive buffer to store "
 "audio sample data while transferring to and from the DAC output and ADC "
@@ -327,18 +327,18 @@ msgid ""
 "contain a different number of audio samples."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:193
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:191
 msgid "Configure the audio codec transmit and receive sampling rate."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:203
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:201
 msgid ""
 "``sampleRate`` : desired audio codec sampling rate in Hz. Default value "
-"of 48000. Supported values: 8000, 16000, 32000, 44100, 48000, 88200, "
+"of 1.     Supported values: 8000, 16000, 32000, 44100, 48000, 88200, "
 "96000."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:216
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:214
 msgid ""
 "High sample rates above 48000Hz will require frequent buffer reads and "
 "writes to keep up with the large amount of data input and output. If "
@@ -346,92 +346,92 @@ msgid ""
 "quality will be degraded."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:227
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:225
 msgid ""
 "Configure the audio codec transmit and receive bit depth (bits per "
 "sample)."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:238
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:236
 msgid ""
 "``bitDepth`` : desired number of bits per sample. Default value of 16. "
 "Supported values: 8, 16, 24."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:251
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:249
 msgid ""
 "Setting a bit depth of 24 bits per sample will require 32 bits (4 bytes) "
 "of buffer space for storing each sample, with the most significant byte "
 "ignored."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:261
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:259
 msgid "Configure the audio codec transmit and receive channel count."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:271
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:269
 msgid ""
 "``monoStereo`` : number of channels. Default value of 1. Supported "
 "values: 1, 2."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:293
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:291
 msgid "Configure for analog or digital input microphone type."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:303
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:301
 msgid ""
 "``micType`` : Input microphone type. Default value ANALOGMIC. Valid "
 "values:"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:305
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:303
 msgid "ANALOGMIC – microphone with an analog output"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:307
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:305
 msgid "PDMMIC – digital microphone with a PDM output"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:319
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:317
 msgid ""
 "For analog single-ended output, connect to PA_4 for the left channel and "
 "PA_2 for the right channel."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:322
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:320
 msgid ""
 "For digital PDM output, connect the PDM clock to PB_1 and PDM data to "
 "PB_2."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:331
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:329
 msgid "Configure input left right channel multiplexing."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:341
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:339
 msgid ""
 "``mux`` : desired left right audio channel multiplexing setting. Default "
 "value RX_CH_LR. Valid values:"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:344
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:342
 msgid "RX_CH_LR"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:346
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:344
 msgid "RX_CH_RL"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:348
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:346
 msgid "RX_CH_LL"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:350
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:348
 msgid "RX_CH_RR"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:362
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:360
 msgid ""
 "In mono channel mode, both RX_CH_LR and RX_CH_LL will result in the audio"
 " codec sampling input data from the left channel microphone. Similarly, "
@@ -439,7 +439,7 @@ msgid ""
 "data from the right channel microphone."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:367
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:365
 msgid ""
 "In stereo channel mode, RX_CH_RL will switch the positions of input data "
 "sampled from the microphones. RX_CH_RR and RX_CH_LL will result in "
@@ -447,240 +447,240 @@ msgid ""
 " **"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:378
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:376
 msgid "Configure boost gain for digital microphone input."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:388
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:386
 msgid "``leftBoost`` : boost gain for left channel digital microphone input"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:390
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:388
 msgid "``rightBoost``: boost gain for right channel digital microphone input"
+msgstr ""
+
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:390
+#: AudioCodec.rst:432
+msgid "Valid boost gain values:"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:392
 #: AudioCodec.rst:434
-msgid "Valid boost gain values:"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:394
-#: AudioCodec.rst:436
 msgid "0 : 0dB"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:396
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:394
 msgid "1 : 12dB"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:398
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:396
 msgid "2 : 24dB"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:400
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:398
 msgid "3 : 36dB"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:420
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:418
 msgid "Configure boost gain for analog microphone input."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:430
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:428
 msgid "``leftBoost`` : boost gain for left channel analog microphone input"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:432
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:430
 msgid "``rightBoost`` : boost gain for right channel analog microphone input"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:438
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:436
 msgid "1 : 20dB"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:440
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:438
 msgid "2 : 30dB"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:442
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:440
 msgid "3 : 40dB"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:454
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:452
 msgid ""
 "Only use this function if additional gain is required after using "
 "setADCGain function."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:463
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:461
 msgid "Configure gain of ADC used to acquire analog input."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:473
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:471
 msgid "``leftGain`` : Gain for left channel ADC"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:475
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:473
 msgid "``rightGain`` : Gain for right channel ADC"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:477
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:475
 msgid ""
 "Valid value range is from 0x00 to 0x7f. Gain increases by 0.375dB for "
 "every increment in value:"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:480
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:478
 msgid "0x00 : -17.625dB"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:482
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:480
 msgid "0x01 : -17.25dB"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:484
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:482
 msgid "0x2f : 0dB"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:486
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:484
 msgid "0x30 : 0.375dB"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:488
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:486
 msgid "0x7f : 30dB"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:508
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:506
 msgid "Mute input audio data stream."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:518
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:516
 msgid "``leftMute`` : 1 to mute left channel input, 0 to unmute"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:520
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:518
 msgid "``rightMute`` : 1 to mute right channel input, 0 to unmute"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:540
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:538
 msgid "Configure output audio volume."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:550
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:548
 msgid "``leftVol`` : left channel output volume"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:552
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:550
 msgid "``rightVol`` : right channel output volume"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:554
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:552
 msgid ""
 "Valid value ranges from 0 to 100, corresponding to a volume of -65.625dB "
 "to 0dB."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:575
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:573
 msgid "Mute output audio."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:585
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:583
 msgid "``leftMute`` : 1 to mute left channel output, 0 to unmute"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:587
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:585
 msgid "``rightMute`` : 1 to mute right channel output, 0 to unmute"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:607
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:605
 msgid "Check for free buffer page available for data write."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:621
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:619
 msgid ""
 "Returns true if there is a buffer page that is available for writing data"
 " into. Returns false if all buffer pages are full."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:638
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:636
 msgid "Write audio data to an available buffer page."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:653
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:651
 msgid ""
 "``src`` : pointer to array containing audio samples to write to audio "
 "codec."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:655
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:653
 msgid "``len`` : number of audio samples in array."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:659
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:657
 msgid ""
 "The function returns the number of audio samples written to the audio "
 "codec."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:676
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:674
 msgid "Check for buffer page with new data available for read."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:690
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:688
 msgid ""
 "Returns true if there is a buffer page with new data that is ready for "
 "reading data from. Returns false if all buffer pages are empty."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:707
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:705
 msgid "Read audio data from a ready buffer page."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:722
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:720
 msgid "``dst`` : pointer to array to contain audio samples read from audio codec."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:724
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:722
 msgid "``len`` : number of audio samples to read."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:728
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:726
 msgid ""
 "The function returns the number of audio samples read from the audio "
 "codec."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:745
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:743
 msgid ""
 "Set a callback function to be notified when a free buffer page is "
 "available for write."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:756
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:754
 msgid ""
 "``writeCB``: function to be called when a buffer page becomes available "
 "for data write. Takes no arguments and returns nothing"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:769
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:767
 msgid ""
 "After starting the audio codec with AudioCodec::begin(), the callback "
 "function will be called each time the audio codec finishes outputting the"
 " data in a buffer page."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:779
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:777
 msgid ""
 "Set a callback function to be notified when a buffer page with new data "
 "is available for read."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:790
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:788
 msgid ""
 "readCB: function to be called when a buffer page with new data becomes "
 "available for data read. Takes no arguments and returns nothing"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:803
+#: ../../source/ambd_arduino/AMB21/api_documents/Class AudioCodec.rst:801
 msgid ""
 "After starting the audio codec with AudioCodec::begin(), the callback "
 "function will be called each time the audio codec fills up a buffer page "
@@ -903,5 +903,12 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "uint32_t readDataPage(int16_t\\* dst, uint32_t len);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``sampleRate`` : desired audio codec "
+#~ "sampling rate in Hz. Default value "
+#~ "of 48000. Supported values: 8000, 16000,"
+#~ " 32000, 44100, 48000, 88200, 96000."
 #~ msgstr ""
 

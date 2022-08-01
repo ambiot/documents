@@ -1,12 +1,17 @@
+###############
 Class TwoWire
-===============
-**TwoWire Class**
+###############
 
-| **Description**
-| Defines a class of I2C API
 
-| **Syntax**
-| class TwoWire
+**Description**
+
+Defines a class of I2C API
+
+**Syntax**
+
+.. code:: cpp
+
+  class TwoWire
 
 **Members**
 
@@ -15,8 +20,11 @@ Class TwoWire
 +============================+========================================+
 | TwoWire::TwoWire           | Constructs a TwoWire object            |
 +----------------------------+----------------------------------------+
-| **Public Methods**         |                                        |
+
+
 +----------------------------+----------------------------------------+
+| **Public Methods**         |                                        |
++============================+========================================+
 | TwoWire::begin             | Initialize I2C master/slave            |
 +----------------------------+----------------------------------------+
 | TwoWire::setClock          | Set I2C frequency                      |
@@ -43,381 +51,539 @@ Class TwoWire
 | TwoWire::onRequest         | Callback function when I2C on request  |
 +----------------------------+----------------------------------------+
 
-**TwoWire::TwoWire**
+-----
 
-| **Description**
-| Constructs a TwoWire object.
+.. method:: TwoWire::TwoWire
 
-| **Syntax**
-| TwoWire::TwoWire (uint32_t dwSDAPin, uint32_t dwSCLPin);
 
-| **Parameters**
-| dwSDAPin: The Arduino PIN to be set as an SDA pin.
-| dwSCLPin: The Arduino PIN to be set as an SCL pin.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Constructs a TwoWire object.
 
-| **Example Code**
-| Example: MasterWriter
-| This example demonstrates the use of the wire library writes to an
-  I2C/TWI slave device.
+**Syntax**
 
-**#include <Wire.h>**
+.. code:: cpp
 
-**void** setup() {
+  TwoWire::TwoWire (uint32_t dwSDAPin, uint32_t dwSCLPin);
 
-Wire.begin(); // join i2c bus (address optional for master)
+**Parameters**
 
-}
+``dwSDAPin`` : The Arduino PIN to be set as an SDA pin.
 
-byte x = 0;
+``dwSCLPin`` : The Arduino PIN to be set as an SCL pin.
 
-**void** loop() {
+**Returns**
 
-Wire.beginTransmission(8); // transmit to device #8
+The function returns nothing.
 
-Wire.write("x is "); // sends five bytes
+**Example Code**
 
-Wire.write(x); // sends one byte
+Example: MasterWriter
 
-Wire.endTransmission(); // stop transmitting
+This example demonstrates the use of the wire library writes to an
+I2C/TWI slave device.
 
-x++;
+.. code:: cpp
 
-delay(500);
+  #include “Wire.h”    
+  
+  void setup() {  
+    Wire.begin(); // join i2c bus (address optional for master)  
+  }  
 
-}
+  byte x = 0;  
+
+  void loop() {  
+    Wire.beginTransmission(8); // transmit to device #8  
+    Wire.write("x is ");        // sends five bytes  
+    Wire.write(x);              // sends one byte  
+    Wire.endTransmission();    // stop transmitting  
+
+    x++;  
+    delay(500);  
+  } 
 
 Example: MasterReader
 
-**#include <Wire.h>**
+.. code:: cpp
 
-**void** setup() {
+  #include “Wire.h”  
+  
+  void setup() {  
+    Wire.begin();        // join i2c bus (address optional for master)  
+    Serial.begin(9600);  // start serial for output  
+  }  
 
-Wire.begin(); // join i2c bus (address optional for master)
+  void loop() {  
+    Wire.requestFrom(8, 6);    // request 6 bytes from slave device #8  
 
-Serial.begin(9600); // start serial for output
+    while (Wire.available()) { // slave may send less than requested  
+      char c = Wire.read(); // receive a byte as character  
+      Serial.print(c);         // print the character  
+    }  
 
-}
-
-**void** loop() {
-
-Wire.requestFrom(8, 6); // request 6 bytes from slave device #8
-
-**while** (Wire.available()) { // slave may send less than requested
-
-**char** c = Wire.read(); // receive a byte as character
-
-Serial.print(c); // print the character
-
-}
-
-delay(500);
-
-}
+    delay(500);  
+  } 
 
 This example demonstrates the use of the wire library reads data from an
 I2C/TWI slave device.
 
-| **Notes and Warnings**
-| Include “Wire.h” to use the class function.
-|  
+**Notes and Warnings**
+Include “Wire.h” to use the class function.
 
-**TwoWire::begin**
+-----
 
-| **Description**
-| Initialize I2C master/slave.
+.. method:: TwoWire::begin
 
-| **Syntax**
-| void TwoWire::begin (void);
-| void TwoWire::begin (uint8_t address = 0);
-| void TwoWire::begin (int address);
 
-| **Parameters**
-| void: Set the I2C master mode.
-| address: Set the I2C master mode with slave address value.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Initialize I2C master/slave.
 
-| **Example Code**
-| Example: MasterReader; MasterWriter
-| The details of the code can be found in the previous section of
-  TwoWire:: TwoWire.
+**Syntax**
 
-| **Notes and Warnings**
-| Include “Wire.h” to use the class function.
-|  
+.. code:: cpp
 
-**TwoWire::setClock**
+  void TwoWire::begin (void);
 
-| **Description**
-| Set I2C frequency.
+.. code:: cpp
 
-| **Syntax**
-| void TwoWire::setClock(uint32_t frequency);
+  void TwoWire::begin (uint8_t address = 0);
 
-| **Parameters**
-| frequency: The frequency values.
+.. code:: cpp
 
-| **Returns**
-| The function returns nothing.
+  void TwoWire::begin (int address);
 
-| **Example Code**
-| Example: MasterReader; MasterWriter
-| The details of the code can be found in the previous section of
-  TwoWire:: TwoWire.
+**Parameters**
 
-| **Notes and Warnings**
-| Include “Wire.h” to use the class function.
-|  
+``void`` : Set the I2C master mode.
 
-**TwoWire::beginTransmission**
+``address``: Set the I2C master mode with slave address value.
 
-| **Description**
-| Begin I2C transmission.
+**Returns**
 
-| **Syntax**
-| void TwoWire::beginTransmission (uint8_t address);
-| void TwoWire::beginTransmission (int address);
+The function returns nothing.
 
-| **Parameters**
-| address: The transmission address.
+**Example Code**
 
-| **Returns**
-| The function returns nothing.
+Example: MasterReader; MasterWriter
 
-| **Example Code**
-| Example: MasterReader; MasterWriter
-| The details of the code can be found in the previous section of
-  TwoWire:: TwoWire.
+The details of the code can be found in the previous section of
+TwoWire:: TwoWire.
 
-| **Notes and Warnings**
-| Include “Wire.h” to use the class function.
-|  
+**Notes and Warnings**
 
-**TwoWire::endTransmission**
+Include “Wire.h” to use the class function.
 
-| **Description**
-| End I2C transmission. Originally, ‘endTransmission’ was an f(void)
-  function. It has been modified to take one parameter indicating
-  whether or not a STOP should be performed on the bus. Calling
-  endTransmission(false) allows a sketch to perform a repeated start.
+-----
 
-WARNING: Nothing in the library keeps track of whether the bus tenure
-has been properly ended with a STOP. It is very possible to leave the
-bus in a hung state if no call to endTransmission(true) is made. Some
-I2C devices will behave oddly if they do not see a STOP.
+.. method:: TwoWire::setClock
+
+
+**Description**
+
+Set I2C frequency.
+
+**Syntax**
+
+.. code:: cpp
+
+  void TwoWire::setClock(uint32_t frequency);
+
+**Parameters**
+
+``frequency`` : The frequency values.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: MasterReader; MasterWriter
+
+The details of the code can be found in the previous section of
+TwoWire:: TwoWire.
+
+**Notes and Warnings**
+
+Include “Wire.h” to use the class function.
+
+-----
+
+.. method:: TwoWire::beginTransmission
+
+
+**Description**
+
+Begin I2C transmission.
+
+**Syntax**
+
+.. code:: cpp
+
+  void TwoWire::beginTransmission (uint8_t address);
+
+.. code:: cpp
+
+  void TwoWire::beginTransmission (int address);
+
+**Parameters**
+
+``address`` : The transmission address.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: MasterReader; MasterWriter
+
+The details of the code can be found in the previous section of
+TwoWire:: TwoWire.
+
+**Notes and Warnings**
+
+Include “Wire.h” to use the class function.
+
+-----
+
+.. method:: TwoWire::endTransmission
+
+**Description**
+End I2C transmission. Originally, ‘endTransmission’ was an f(void)
+function. It has been modified to take one parameter indicating
+whether or not a STOP should be performed on the bus. Calling
+endTransmission(false) allows a sketch to perform a repeated start.
+
+.. warning::
+
+   Nothing in the library keeps track of whether the bus tenure
+   has been properly ended with a STOP. It is very possible to leave the
+   bus in a hung state if no call to endTransmission(true) is made. Some
+   I2C devices will behave oddly if they do not see a STOP.
 
 If the input parameter is void, this provides backward compatibility
 with the original definition, and expected behavior, of endTransmission.
 
-| **Syntax**
-| uint8_t TwoWire::endTransmission (uint8_t sendStop);
-| uint8_t TwoWire::endTransmission (void);
 
-| **Parameters**
-| sendStop: True to end the transmission
+**Syntax**
 
-| **Returns**
-| Return 0 if successful, else error.
+.. code:: cpp
 
-| **Example Code**
-| Example: MasterReader; MasterWriter
-| The details of the code can be found in the previous section of
-  TwoWire:: TwoWire.
+  uint8_t TwoWire::endTransmission (uint8_t sendStop);
 
-| **Notes and Warnings**
-| Include “Wire.h” to use the class function.
-|  
+.. code:: cpp
 
-**TwoWire::requestFrom**
+  uint8_t TwoWire::endTransmission (void);
 
-| **Description**
-| Set I2C requestFrom.
+**Parameters**
 
-| **Syntax**
-| uint8_t TwoWire::requestFrom (uint8_t address, uint8_t quantity,
-  uint8_t sendStop);
-| uint8_t TwoWire::requestFrom (uint8_t address, uint8_t quantity);
-| uint8_t TwoWire::requestFrom(int address, int quantity);
-| uint8_t TwoWire::requestFrom (int address, int quantity, int
-  sendStop);
+``sendStop`` : True to end the transmission
 
-| **Parameters**
-| address: I2C read address.
-| quantity: I2C read quantity.
-| sendStop: True to end the transmission.
+**Returns**
 
-| **Returns**
-| Return 0 if successful, else error.
+Return 0 if successful, else error.
 
-| **Example Code**
-| Example: MasterReader; MasterWriter
-| The details of the code can be found in the previous section of
-  TwoWire:: TwoWire.
+**Example Code**
 
-| **Notes and Warnings**
-| Include “Wire.h” to use the class function.
-|  
+Example: MasterReader; MasterWriter
 
-**TwoWire::write**
+The details of the code can be found in the previous section of
+TwoWire:: TwoWire.
 
-| **Description**
-| Write data to I2C.
+**Notes and Warnings**
 
-| **Syntax**
-| size_t TwoWire::write (uint8_t data);
-| size_t TwoWire::write (const uint8_t \*data, size_t quantity);
+Include “Wire.h” to use the class function.
 
-| **Parameters**
-| data: The data to be transmitted.
-| quantity: The quantity of data.
+-----
 
-| **Returns**
-| Return 0 if successful, else error.
+.. method:: TwoWire::requestFrom
 
-| **Example Code**
-| Example: MasterReader; MasterWriter
-| The details of the code can be found in the previous section of
-  TwoWire:: TwoWire.
 
-| **Notes and Warnings**
-| Include “Wire.h” to use the class function.
-|  
+**Description**
 
-**TwoWire::available**
+Set I2C requestFrom.
 
-| **Description**
-| Check if I2C is available.
+**Syntax**
 
-| **Syntax**
-| int TwoWire::available (void);
+.. code:: cpp
 
-| **Parameters**
-| The function requires no input parameter.
+  uint8_t TwoWire::requestFrom (uint8_t address, uint8_t quantity, uint8_t sendStop);
 
-| **Returns**
-| Return 0 if successful, else error.
+.. code:: cpp
 
-| **Example Code**
-| Example: MasterReader; MasterWriter
-| The details of the code can be found in the previous section of
-  TwoWire:: TwoWire.
+  uint8_t TwoWire::requestFrom (uint8_t address, uint8_t quantity);
 
-| **Notes and Warnings**
-| Include “Wire.h” to use the class function.
-|  
+.. code:: cpp
 
-**TwoWire::read**
+  uint8_t TwoWire::requestFrom(int address, int quantity);
 
-| **Description**
-| Read data from I2C
+.. code:: cpp
 
-| **Syntax**
-| int TwoWire::read (void);
+  uint8_t TwoWire::requestFrom (int address, int quantity, int sendStop);
 
-| **Parameters**
-| The function requires no input parameter.
+**Parameters**
 
-| **Returns**
-| The read data from the receive buffer.
+``address`` : I2C read address.
 
-| **Example Code**
-| Example: MasterReader; MasterWriter
-| The details of the code can be found in the previous section of
-  TwoWire:: TwoWire.
+``quantity`` : I2C read quantity.
 
-| **Notes and Warnings**
-| Include “Wire.h” to use the class function.
-|  
+``sendStop`` : True to end the transmission.
 
-**TwoWire::peek**
+**Returns**
 
-| **Description**
-| Read peek from I2C.
+Return 0 if successful, else error.
 
-| **Syntax**
-| int TwoWire::peek (void);
+**Example Code**
 
-| **Parameters**
-| The function requires no input parameter.
+Example: MasterReader; MasterWriter
 
-| **Returns**
-| The peek data read from the receive buffer.
+The details of the code can be found in the previous section of
+TwoWire:: TwoWire.
 
-| **Example Code**
-| Example: MasterReader; MasterWriter
-| The details of the code can be found in the previous section of
-  TwoWire:: TwoWire.
+**Notes and Warnings**
 
-| **Notes and Warnings**
-| Include “Wire.h” to use the class function.
-|  
+Include “Wire.h” to use the class function.
 
-**TwoWire::flush**
+-----
 
-| **Description**
-| Do nothing, use endTransmission(..) to force data transfer.
+.. method:: TwoWire::write
 
-| **Syntax**
-| void TwoWire::flush (void);
 
-| **Parameters**
-| The function requires no input parameter.
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Write data to I2C.
 
-| **Example Code**
-| Example: MasterReader; MasterWriter
+**Syntax**
 
-| **Notes and Warnings**
-| Include “Wire.h” in order to use the class function.
-|  
+.. code:: cpp
 
-**TwoWire::onReceive**
+  size_t TwoWire::write (uint8_t data);
 
-| **Description**
-| Callback function when I2C on receive.
+.. code:: cpp
 
-| **Syntax**
-| void TwoWire::onReceive (void(\*function)(int));
+  size_t TwoWire::write (const uint8_t *data, size_t quantity);
 
-| **Parameters**
-| function: The callback function.
+**Parameters**
 
-| **Returns**
-| The function returns nothing.
+``data``: The data to be transmitted.
 
-| **Example Code**
-| Example: MasterReader; MasterWriter
-| The details of the code can be found in the previous section of
-  TwoWire:: TwoWire.
+``quantity`` : The quantity of data.
 
-| **Notes and Warnings**
-| Include “Wire.h” to use the class function.
-|  
+**Returns**
 
-**TwoWire::onRequest**
+Return 0 if successful, else error.
 
-| **Description**
-| Callback function when I2C on request.
+**Example Code**
 
-| **Syntax**
-| void TwoWire::onRequest (void(\*function)(void));
+Example: MasterReader; MasterWriter
 
-| **Parameters**
-| function: The callback function
+The details of the code can be found in the previous section of
+TwoWire:: TwoWire.
 
-| **Returns**
-| The function returns nothing.
+**Notes and Warnings**
 
-| **Example Code**
-| Example: MasterReader; MasterWriter
-| The details of the code can be found in the previous section of
-  TwoWire:: TwoWire.
+Include “Wire.h” to use the class function.
 
-| **Notes and Warnings**
-| Include “Wire.h” to use the class function.
+-----
+
+.. method:: TwoWire::available
+
+
+**Description**
+
+Check if I2C is available.
+
+**Syntax**
+
+.. code:: cpp
+
+  int TwoWire::available (void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+Return 0 if successful, else error.
+
+**Example Code**
+
+Example: MasterReader; MasterWriter
+
+The details of the code can be found in the previous section of
+TwoWire:: TwoWire.
+
+**Notes and Warnings**
+
+Include “Wire.h” to use the class function.
+
+-----
+
+.. method:: TwoWire::read
+
+
+**Description**
+
+Read data from I2C
+
+**Syntax**
+
+.. code:: cpp
+
+  int TwoWire::read (void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The read data from the receive buffer.
+
+**Example Code**
+
+Example: MasterReader; MasterWriter
+
+The details of the code can be found in the previous section of
+TwoWire:: TwoWire.
+
+**Notes and Warnings**
+
+Include “Wire.h” to use the class function.
+
+-----
+
+.. method:: TwoWire::peek
+
+
+**Description**
+
+Read peek from I2C.
+
+**Syntax**
+
+.. code:: cpp
+
+  int TwoWire::peek (void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The peek data read from the receive buffer.
+
+**Example Code**
+
+Example: MasterReader; MasterWriter
+
+The details of the code can be found in the previous section of
+TwoWire:: TwoWire.
+
+**Notes and Warnings**
+
+Include “Wire.h” to use the class function.
+
+-----
+
+.. method:: TwoWire::flush
+
+
+**Description**
+
+Do nothing, use endTransmission(..) to force data transfer.
+
+**Syntax**
+
+.. code:: cpp
+
+  void TwoWire::flush (void);
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: MasterReader; MasterWriter
+
+**Notes and Warnings**
+
+Include “Wire.h” in order to use the class function.
+
+-----
+
+.. method:: TwoWire::onReceive
+
+
+**Description**
+
+Callback function when I2C on receive.
+
+**Syntax**
+
+.. code:: cpp
+
+  void TwoWire::onReceive (void(*function)(int));
+
+**Parameters**
+
+``function``: The callback function.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: MasterReader; MasterWriter
+
+The details of the code can be found in the previous section of
+TwoWire:: TwoWire.
+
+**Notes and Warnings**
+
+Include “Wire.h” to use the class function.
+
+-----
+
+.. method:: TwoWire::onRequest
+
+
+**Description**
+
+Callback function when I2C on request.
+
+**Syntax**
+
+.. code:: cpp
+
+  void TwoWire::onRequest (void(*function)(void));
+
+**Parameters**
+
+``function``: The callback function
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: MasterReader; MasterWriter
+
+The details of the code can be found in the previous section of
+TwoWire:: TwoWire.
+
+**Notes and Warnings**
+
+Include “Wire.h” to use the class function.

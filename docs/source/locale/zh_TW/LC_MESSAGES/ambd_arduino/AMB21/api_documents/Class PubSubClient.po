@@ -8,1006 +8,1005 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 05:15+0000\n"
+"POT-Creation-Date: 2022-07-27 10:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:2
 msgid "Class PMUClass"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:3
-msgid "**PubSubClient Class**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:5
-#: PubSubClient.rst:50 PubSubClient.rst:230 PubSubClient.rst:255
-#: PubSubClient.rst:277 PubSubClient.rst:297 PubSubClient.rst:317
-#: PubSubClient.rst:352 PubSubClient.rst:372 PubSubClient.rst:405
-#: PubSubClient.rst:432 PubSubClient.rst:456 PubSubClient.rst:478
-#: PubSubClient.rst:500 PubSubClient.rst:521
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:4
+#: PubSubClient.rst:49 PubSubClient.rst:229 PubSubClient.rst:254
+#: PubSubClient.rst:276 PubSubClient.rst:296 PubSubClient.rst:316
+#: PubSubClient.rst:351 PubSubClient.rst:371 PubSubClient.rst:404
+#: PubSubClient.rst:431 PubSubClient.rst:455 PubSubClient.rst:477
+#: PubSubClient.rst:499 PubSubClient.rst:520
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:6
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:5
 msgid "Defines a class of MQTT implementation for Ameba."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:8
-#: PubSubClient.rst:54 PubSubClient.rst:233 PubSubClient.rst:258
-#: PubSubClient.rst:280 PubSubClient.rst:300 PubSubClient.rst:320
-#: PubSubClient.rst:355 PubSubClient.rst:375 PubSubClient.rst:408
-#: PubSubClient.rst:435 PubSubClient.rst:459 PubSubClient.rst:482
-#: PubSubClient.rst:503 PubSubClient.rst:527
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:7
+#: PubSubClient.rst:53 PubSubClient.rst:232 PubSubClient.rst:257
+#: PubSubClient.rst:279 PubSubClient.rst:299 PubSubClient.rst:319
+#: PubSubClient.rst:354 PubSubClient.rst:374 PubSubClient.rst:407
+#: PubSubClient.rst:434 PubSubClient.rst:458 PubSubClient.rst:481
+#: PubSubClient.rst:502 PubSubClient.rst:526
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:9
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:8
 msgid "class PubSubClient"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:11
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:10
 msgid "**Members**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:14
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:13
 msgid "**Public Constructors**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:16
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:15
 msgid "PubSubClient::PubSubClient"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:16
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:15
 msgid "Constructs a PubSubClient object"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:18
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:17
 msgid "**Public Methods**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:20
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:19
 msgid "PubSubClient::setServer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:20
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:19
 msgid "Set MQTT server address and port"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:22
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:21
 msgid "PubSubClient::setCallback"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:22
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:21
 msgid "Set callback function"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:24
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:23
 msgid "PubSubClient::setClient"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:24
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:23
 msgid "Set WiFi client"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:26
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:25
 msgid "PubSubClient::setStream"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:26
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:25
 msgid "Set data stream"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:28
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:27
 msgid "PubSubClient::connect"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:28
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:27
 msgid "Attempt to connect to server"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:30
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:29
 msgid "PubSubClient::disconnect"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:30
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:29
 msgid "Disconnect from current session"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:32
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:31
 msgid "PubSubClient::publish"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:32
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:31
 msgid "Publish a message to server"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:34
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:33
 msgid "PubSubClient::publish_P"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:34
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:33
 msgid "Same as above"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:36
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:35
 msgid "PubSubClient::subscribe"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:36
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:35
 msgid "Subscribe to a topic"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:38
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:37
 msgid "PubSubClient::unsubscribe"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:38
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:37
 msgid "Unsubscribe to a topic"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:40
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:39
 msgid "PubSubClient::loop"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:40
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:39
 msgid "Keep MQTT session alive and process any queuing tasks"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:43
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:42
 msgid "PubSubClient::connected"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:43
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:42
 msgid "Check if client still connected"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:45
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:44
 msgid "PubSubClient::state"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:45
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:44
 msgid "Return connection state"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:48
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:47
 msgid "**PubSubClient::PubSubClient**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:52
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:51
 msgid ""
 "Constructs a PubSubClient object and, if applicable, sets server address,"
 " port, callback function, data stream and wifi client."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:55
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:54
 msgid "PubSubClient::PubSubClient();"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:56
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:55
 msgid "PubSubClient::PubSubClient(Client& client);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:57
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:56
 msgid "PubSubClient::PubSubClient(IPAddress, uint16_t, Client& client);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:59
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:58
 msgid "PubSubClient::PubSubClient(IPAddress, uint16_t, Client& client, Stream&);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:61
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:60
 msgid ""
 "PubSubClient::PubSubClient(IPAddress, uint16_t, MQTT_CALLBACK_SIGNATURE, "
 "Client& client);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:63
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:62
 msgid ""
 "PubSubClient::PubSubClient(IPAddress, uint16_t, MQTT_CALLBACK_SIGNATURE, "
 "Client& client, Stream&);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:64
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:63
 msgid "PubSubClient::PubSubClient(uint8_t \\*, uint16_t, Client& client);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:66
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:65
 msgid ""
 "PubSubClient::PubSubClient(uint8_t \\*, uint16_t, Client& client, "
 "Stream&);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:68
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:67
 msgid ""
 "PubSubClient::PubSubClient(uint8_t \\*, uint16_t, "
 "MQTT_CALLBACK_SIGNATURE, Client& client);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:70
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:69
 msgid ""
 "PubSubClient::PubSubClient(uint8_t \\*, uint16_t, "
 "MQTT_CALLBACK_SIGNATURE, Client& client, Stream&);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:71
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:70
 msgid "PubSubClient::PubSubClient(const char*, uint16_t, Client& client);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:73
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:72
 msgid ""
 "PubSubClient::PubSubClient(const char*, uint16_t, Client& client, "
 "Stream&);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:75
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:74
 msgid ""
 "PubSubClient::PubSubClient(const char*, uint16_t, "
 "MQTT_CALLBACK_SIGNATURE, Client& client);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:77
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:76
 msgid ""
 "PubSubClient::PubSubClient(const char*, uint16_t, "
 "MQTT_CALLBACK_SIGNATURE, Client& client, Stream&);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:79
-#: PubSubClient.rst:239 PubSubClient.rst:261 PubSubClient.rst:283
-#: PubSubClient.rst:303 PubSubClient.rst:330 PubSubClient.rst:358
-#: PubSubClient.rst:385 PubSubClient.rst:412 PubSubClient.rst:439
-#: PubSubClient.rst:462 PubSubClient.rst:485 PubSubClient.rst:506
-#: PubSubClient.rst:530
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:78
+#: PubSubClient.rst:238 PubSubClient.rst:260 PubSubClient.rst:282
+#: PubSubClient.rst:302 PubSubClient.rst:329 PubSubClient.rst:357
+#: PubSubClient.rst:384 PubSubClient.rst:411 PubSubClient.rst:438
+#: PubSubClient.rst:461 PubSubClient.rst:484 PubSubClient.rst:505
+#: PubSubClient.rst:529
 msgid "**Parameters**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:80
-#: PubSubClient.rst:284
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:79
+#: PubSubClient.rst:283
 msgid "client: the network client to use, for example WiFiClient"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:81
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:80
 msgid "IPAddress: MQTT server address"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:82
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:81
 msgid "port: port for MQTT, usually 1883 for unencrypted connection"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:83
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:82
 msgid "MQTT_CALLBACK_SIGNATURE: callback function for MQTT"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:84
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:83
 msgid "Stream: a stream to write received messages to"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:86
-#: PubSubClient.rst:244 PubSubClient.rst:266 PubSubClient.rst:286
-#: PubSubClient.rst:306 PubSubClient.rst:339 PubSubClient.rst:361
-#: PubSubClient.rst:393 PubSubClient.rst:420 PubSubClient.rst:443
-#: PubSubClient.rst:465 PubSubClient.rst:488 PubSubClient.rst:509
-#: PubSubClient.rst:533
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:85
+#: PubSubClient.rst:243 PubSubClient.rst:265 PubSubClient.rst:285
+#: PubSubClient.rst:305 PubSubClient.rst:338 PubSubClient.rst:360
+#: PubSubClient.rst:392 PubSubClient.rst:419 PubSubClient.rst:442
+#: PubSubClient.rst:464 PubSubClient.rst:487 PubSubClient.rst:508
+#: PubSubClient.rst:532
 msgid "**Returns**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:87
-#: PubSubClient.rst:362
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:86
+#: PubSubClient.rst:361
 msgid "The function returns nothing."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:89
-#: PubSubClient.rst:247 PubSubClient.rst:269 PubSubClient.rst:289
-#: PubSubClient.rst:309 PubSubClient.rst:343 PubSubClient.rst:364
-#: PubSubClient.rst:397 PubSubClient.rst:424 PubSubClient.rst:448
-#: PubSubClient.rst:470 PubSubClient.rst:492 PubSubClient.rst:513
-#: PubSubClient.rst:550
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:88
+#: PubSubClient.rst:246 PubSubClient.rst:268 PubSubClient.rst:288
+#: PubSubClient.rst:308 PubSubClient.rst:342 PubSubClient.rst:363
+#: PubSubClient.rst:396 PubSubClient.rst:423 PubSubClient.rst:447
+#: PubSubClient.rst:469 PubSubClient.rst:491 PubSubClient.rst:512
+#: PubSubClient.rst:549
 msgid "**Example Code**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:90
-#: PubSubClient.rst:248 PubSubClient.rst:270 PubSubClient.rst:344
-#: PubSubClient.rst:398 PubSubClient.rst:449 PubSubClient.rst:493
-#: PubSubClient.rst:514 PubSubClient.rst:551
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:89
+#: PubSubClient.rst:247 PubSubClient.rst:269 PubSubClient.rst:343
+#: PubSubClient.rst:397 PubSubClient.rst:448 PubSubClient.rst:492
+#: PubSubClient.rst:513 PubSubClient.rst:550
 msgid "Example: MQTT_Basic"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:92
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:91
 msgid "**#include <WiFi.h>**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:94
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:93
 msgid "**#include <PubSubClient.h>**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:96
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:95
 msgid "// Update these with values suitable for your network."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:98
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:97
 msgid "**char** ssid[] = \"yourNetwork\"; // your network SSID (name)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:100
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:99
 msgid "**char** pass[] = \"secretPassword\"; // your network password"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:102
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:101
 msgid "**int** status = WL_IDLE_STATUS; // the Wifi radio's status"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:104
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:103
 msgid "**char** mqttServer[] = \"test.mosquitto.org\";"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:106
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:105
 msgid "**char** clientId[] = \"amebaClient\";"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:108
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:107
 msgid "**char** publishTopic[] = \"outTopic\";"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:110
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:109
 msgid "**char** publishPayload[] = \"hello world\";"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:112
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:111
 msgid "**char** subscribeTopic[] = \"inTopic\";"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:114
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:113
 msgid ""
 "**void** callback(**char**\\ \\* topic, byte\\* payload, unsigned **int**"
 " length) {"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:117
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:116
 msgid "Serial.print(\"Message arrived [\");"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:119
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:118
 msgid "Serial.print(topic);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:121
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:120
 msgid "Serial.print(\"] \");"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:123
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:122
 msgid "**for** (**int** i=0;i<length;i++) {"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:125
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:124
 msgid "Serial.print((**char**)payload[i]);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:127
-#: PubSubClient.rst:131 PubSubClient.rst:171 PubSubClient.rst:173
-#: PubSubClient.rst:175 PubSubClient.rst:198 PubSubClient.rst:208
-#: PubSubClient.rst:218 PubSubClient.rst:222
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:126
+#: PubSubClient.rst:130 PubSubClient.rst:170 PubSubClient.rst:172
+#: PubSubClient.rst:174 PubSubClient.rst:197 PubSubClient.rst:207
+#: PubSubClient.rst:217 PubSubClient.rst:221
 msgid "}"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:129
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:128
 msgid "Serial.println();"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:133
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:132
 msgid "WiFiClient wifiClient;"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:135
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:134
 msgid "PubSubClient client(wifiClient);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:137
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:136
 msgid "**void** reconnect() {"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:139
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:138
 msgid "// Loop until we're reconnected"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:141
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:140
 msgid "**while** (!client.connected()) {"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:143
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:142
 msgid "Serial.print(\"Attempting MQTT connection...\");"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:145
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:144
 msgid "// Attempt to connect"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:147
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:146
 msgid "**if** (client.connect(clientId)) {"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:149
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:148
 msgid "Serial.println(\"connected\");"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:151
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:150
 msgid "// Once connected, publish an announcement..."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:153
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:152
 msgid "client.publish(publishTopic, publishPayload);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:155
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:154
 msgid "// ... and resubscribe"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:157
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:156
 msgid "client.subscribe(subscribeTopic);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:159
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:158
 msgid "} **else** {"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:161
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:160
 msgid "Serial.print(\"failed, rc=\");"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:163
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:162
 msgid "Serial.print(client.state());"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:165
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:164
 msgid "Serial.println(\" try again in 5 seconds\");"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:167
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:166
 msgid "// Wait 5 seconds before retrying"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:169
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:168
 msgid "delay(5000);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:177
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:176
 msgid "**void** setup()"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:179
-#: PubSubClient.rst:212
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:178
+#: PubSubClient.rst:211
 msgid "{"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:181
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:180
 msgid "Serial.begin(38400);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:183
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:182
 msgid "**while** (status != WL_CONNECTED) {"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:185
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:184
 msgid "Serial.print(\"Attempting to connect to SSID: \");"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:187
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:186
 msgid "Serial.println(ssid);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:189
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:188
 msgid ""
 "// Connect to WPA/WPA2 network. Change this line if using open or WEP "
 "network:"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:192
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:191
 msgid "status = WiFi.begin(ssid, pass);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:194
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:193
 msgid "// wait 10 seconds for connection:"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:196
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:195
 msgid "delay(10000);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:200
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:199
 msgid "client.setServer(mqttServer, 1883);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:202
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:201
 msgid "client.setCallback(callback);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:204
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:203
 msgid "// Allow the hardware to sort itself out"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:206
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:205
 msgid "delay(1500);"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:210
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:209
 msgid "**void** loop()"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:214
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:213
 msgid "**if** (!client.connected()) {"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:216
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:215
 msgid "reconnect();"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:220
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:219
 msgid "client.loop();"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:224
-#: PubSubClient.rst:250 PubSubClient.rst:272 PubSubClient.rst:292
-#: PubSubClient.rst:312 PubSubClient.rst:346 PubSubClient.rst:367
-#: PubSubClient.rst:400 PubSubClient.rst:427 PubSubClient.rst:451
-#: PubSubClient.rst:473 PubSubClient.rst:495 PubSubClient.rst:516
-#: PubSubClient.rst:553
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:223
+#: PubSubClient.rst:249 PubSubClient.rst:271 PubSubClient.rst:291
+#: PubSubClient.rst:311 PubSubClient.rst:345 PubSubClient.rst:366
+#: PubSubClient.rst:399 PubSubClient.rst:426 PubSubClient.rst:450
+#: PubSubClient.rst:472 PubSubClient.rst:494 PubSubClient.rst:515
+#: PubSubClient.rst:552
 msgid "**Notes and Warnings**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:226
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:225
 msgid ""
 "PubSubClient::PubSubClient(Client& client) would suffice for normal MQTT "
 "connection"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:228
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:227
 msgid "**PubSubClient::setServer**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:231
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:230
 msgid "Sets the server details."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:234
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:233
 msgid "PubSubClient& PubSubClient::setServer(uint8_t \\* ip, uint16_t port)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:235
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:234
 msgid "PubSubClient& PubSubClient::setServer(IPAddress ip, uint16_t port)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:237
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:236
 msgid ""
 "PubSubClient& PubSubClient::setServer(const char \\* domain, uint16_t "
 "port)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:240
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:239
 msgid "ip: the address of the server"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:241
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:240
 msgid "port: the port to connect to, default 1883"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:242
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:241
 msgid "domain: the address of the server"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:245
-#: PubSubClient.rst:287
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:244
+#: PubSubClient.rst:286
 msgid "The client instance, allowing the function to be chained"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:251
-#: PubSubClient.rst:273 PubSubClient.rst:290 PubSubClient.rst:293
-#: PubSubClient.rst:310 PubSubClient.rst:313 PubSubClient.rst:365
-#: PubSubClient.rst:368 PubSubClient.rst:425 PubSubClient.rst:428
-#: PubSubClient.rst:452 PubSubClient.rst:471 PubSubClient.rst:474
-#: PubSubClient.rst:517 PubSubClient.rst:554
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:250
+#: PubSubClient.rst:272 PubSubClient.rst:289 PubSubClient.rst:292
+#: PubSubClient.rst:309 PubSubClient.rst:312 PubSubClient.rst:364
+#: PubSubClient.rst:367 PubSubClient.rst:424 PubSubClient.rst:427
+#: PubSubClient.rst:451 PubSubClient.rst:470 PubSubClient.rst:473
+#: PubSubClient.rst:516 PubSubClient.rst:553
 msgid "NA"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:253
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:252
 msgid "**PubSubClient::setCallback**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:256
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:255
 msgid "Sets the message callback function."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:259
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:258
 msgid "PubSubClient& PubSubClient::setCallback(MQTT_CALLBACK_SIGNATURE)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:264
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:263
 msgid ""
 "MQTT_CALLBACK_SIGNATURE: a pointer to a message callback function called "
 "when a message arrives for a subscription created by this client."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:267
-#: PubSubClient.rst:307
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:266
+#: PubSubClient.rst:306
 msgid "The client instance, allowing the function to be chained."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:275
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:274
 msgid "**PubSubClient::setClient**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:278
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:277
 msgid "Sets the network client instance to use."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:281
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:280
 msgid "PubSubClient& PubSubClient::setClient(Client& client)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:295
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:294
 msgid "**PubSubClient::setStream**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:298
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:297
 msgid "Sets the stream to write received messages to."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:301
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:300
 msgid "PubSubClient& PubSubClient::setStream(Stream& stream)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:304
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:303
 msgid "stream: a stream to write received messages to"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:315
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:314
 msgid "**PubSubClient::connect**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:318
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:317
 msgid "Connects the client to the server."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:321
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:320
 msgid "boolean PubSubClient::connect(const char \\*id)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:323
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:322
 msgid ""
 "boolean PubSubClient::connect(const char \\*id, const char \\*user, const"
 " char \\*pass)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:325
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:324
 msgid ""
 "boolean PubSubClient::connect(const char \\*id, const char\\* willTopic, "
 "uint8_t willQos, boolean willRetain, const char\\* willMessage)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:328
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:327
 msgid ""
 "boolean PubSubClient::connect(const char \\*id, const char \\*user, const"
 " char \\*pass, const char\\* willTopic, uint8_t willQos, boolean "
 "willRetain, const char\\* willMessage)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:331
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:330
 msgid "id: Client ID, a unique string identifier"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:332
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:331
 msgid "user: Username for authentication, default NULL"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:333
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:332
 msgid "pass: Password for authentication, default NULL"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:334
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:333
 msgid "willTopic: the topic to be used by the will message"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:335
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:334
 msgid "willQoS: the quality of service to be used by the will message"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:336
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:335
 msgid "willRetain: whether the will should be published with the retain flag"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:337
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:336
 msgid "willMessage: the payload of the will message"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:340
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:339
 msgid "True – connection succeeded"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:341
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:340
 msgid "False – connection failed"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:348
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:347
 msgid ""
 "Client ID is required and should always be unique else connection might "
 "be rejected by the server."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:350
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:349
 msgid "**PubSubClient::disconnect**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:353
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:352
 msgid "Disconnect the client"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:356
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:355
 msgid "void PubSubClient::disconnect(void)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:359
-#: PubSubClient.rst:486 PubSubClient.rst:507 PubSubClient.rst:531
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:358
+#: PubSubClient.rst:485 PubSubClient.rst:506 PubSubClient.rst:530
 msgid "The function requires no input parameter."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:370
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:369
 msgid "**PubSubClient::publish**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:373
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:372
 msgid "Publishes a message to the specified topic."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:377
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:376
 msgid "boolean PubSubClient::publish(const char\\* topic, const char\\* payload)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:379
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:378
 msgid ""
 "boolean PubSubClient::publish(const char\\* topic, const char\\* payload,"
 " boolean retained)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:381
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:380
 msgid ""
 "boolean PubSubClient::publish(const char\\* topic, const uint8_t\\* "
 "payload, unsigned int plength)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:383
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:382
 msgid ""
 "boolean PubSubClient::publish(const char\\* topic, const uint8_t\\* "
 "payload, unsigned int plength, boolean retained)"
 msgstr ""
 
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:385
+#: PubSubClient.rst:412
+msgid "topic: the topic to publish to"
+msgstr ""
+
 #: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:386
 #: PubSubClient.rst:413
-msgid "topic: the topic to publish to"
+msgid "payload: the message to publish"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:387
 #: PubSubClient.rst:414
-msgid "payload: the message to publish"
+msgid "plength: the length of the payload. Required if payload is a byte[]"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:388
 #: PubSubClient.rst:415
-msgid "plength: the length of the payload. Required if payload is a byte[]"
+msgid "retained: whether the message should be retained"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:389
 #: PubSubClient.rst:416
-msgid "retained: whether the message should be retained"
+msgid "– false – not retained"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:390
 #: PubSubClient.rst:417
-msgid "– false – not retained"
+msgid "– true – retained"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:391
-#: PubSubClient.rst:418
-msgid "– true – retained"
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:393
+#: PubSubClient.rst:420
+msgid "False – publish failed, either connection lost or message too large"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:394
 #: PubSubClient.rst:421
-msgid "False – publish failed, either connection lost or message too large"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:395
-#: PubSubClient.rst:422
 msgid "True – publish succeeded"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:401
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:400
 msgid "Default max packet size is 128 bytes."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:403
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:402
 msgid "**PubSubClient::publish_P**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:406
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:405
 msgid "Publishes a message stored in PROGMEM to the specified topic."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:410
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:409
 msgid ""
 "boolean PubSubClient::publish_P(const char\\* topic, const uint8_t\\* "
 "payload, unsigned int plength, boolean retained)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:430
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:429
 msgid "**PubSubClient::subscribe**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:433
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:432
 msgid "Subscribes to messages published to the specified topic."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:436
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:435
 msgid "boolean PubSubClient::subscribe(const char\\* topic)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:437
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:436
 msgid "boolean PubSubClient::subscribe(const char\\* topic, uint8_t qos)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:440
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:439
 msgid "topic: the topic to subscribe to"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:441
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:440
 msgid "qos: the qos to subscribe at"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:445
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:444
 msgid ""
 "False – sending the subscribe failed, either connection lost or message "
 "too large"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:446
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:445
 msgid "True – sending the subscribe succeeded"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:454
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:453
 msgid "**PubSubClient::unsubscribe**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:457
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:456
 msgid "Unsubscribes from the specified topic."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:460
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:459
 msgid "boolean PubSubClient::unsubscribe(const char\\* topic)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:463
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:462
 msgid "topic: the topic to unsubscribe to"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:467
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:466
 msgid ""
 "False – sending the unsubscribe failed, either connection lost or message"
 " too large"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:468
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:467
 msgid "True – sending the unsubscribe succeeded"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:476
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:475
 msgid "**PubSubClient::loop**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:480
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:479
 msgid ""
 "A must method called regularly to allow the client to process incoming "
 "messages and maintain its connection to the server."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:483
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:482
 msgid "boolean PubSubClient::loop(void)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:489
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:488
 msgid "False – the client is no longer connected"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:490
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:489
 msgid "True – the client is still connected"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:496
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:495
 msgid "A required method that should not be blocked for too long."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:498
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:497
 msgid "**PubSubClient::connected**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:501
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:500
 msgid "Checks whether the client is connected to the server."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:504
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:503
 msgid "boolean PubSubClient::connected(void)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:510
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:509
 msgid "False – the client is not connected"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:511
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:510
 msgid "True – the client is connected"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:519
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:518
 msgid "**PubSubClient::state**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:523
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:522
 msgid ""
 "Returns the current state of the client. If a connection attempt fails, "
 "this can be used to get more information about the failure."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:525
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:524
 msgid "All of the values have corresponding constants defined in PubSubClient.h."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:528
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:527
 msgid "int PubSubClient::state(void)"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:535
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:534
 msgid ""
 "-4 : MQTT_CONNECTION_TIMEOUT – the server didn’t respond within the "
 "keepalive time"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:536
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:535
 msgid "-3 : MQTT_CONNECTION_LOST – the network connection was broken"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:537
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:536
 msgid "-2 : MQTT_CONNECT_FAILED – the network connection failed"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:538
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:537
 msgid "-1 : MQTT_DISCONNECTED – the client is disconnected cleanly"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:539
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:538
 msgid "0 : MQTT_CONNECTED – the client is connected"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:541
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:540
 msgid ""
 "1 : MQTT_CONNECT_BAD_PROTOCOL – the server doesn’t support the requested "
 "version of MQTT"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:543
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:542
 msgid "2 : MQTT_CONNECT_BAD_CLIENT_ID – the server rejected the client identifier"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:545
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:544
 msgid ""
 "3 : MQTT_CONNECT_UNAVAILABLE – the server was unable to accept the "
 "connection"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:546
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:545
 msgid "4 : MQTT_CONNECT_BAD_CREDENTIALS – the username/password were rejected"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:548
+#: ../../source/ambd_arduino/AMB21/api_documents/Class PubSubClient.rst:547
 msgid "5 : MQTT_CONNECT_UNAUTHORIZED – the client was not authorized to connect"
 msgstr ""
+
+#~ msgid "**PubSubClient Class**"
+#~ msgstr ""
 

@@ -1,12 +1,16 @@
+##################
 Class WiFiServer
-====================
-**WiFiServer Class**
+##################
 
-| **Description**
-| Defines a class of WiFi server implementation for Ameba.
+**Description**
 
-| **Syntax**
-| class WiFiServer
+Defines a class of WiFi server implementation for Ameba.
+
+**Syntax**
+
+.. code:: cpp
+
+  class WiFiServer
 
 **Members**
 
@@ -17,6 +21,9 @@ Class WiFiServer
 |                         | creates a server that listens for         |
 |                         | incoming connections on the specified     |
 |                         | port                                      |
++-------------------------+-------------------------------------------+
+
+
 +-------------------------+-------------------------------------------+
 | **Public Methods**      |                                           |
 +-------------------------+-------------------------------------------+
@@ -34,219 +41,225 @@ Class WiFiServer
 |                         | to a server                               |
 +-------------------------+-------------------------------------------+
 
-**WiFiServer::WiFiServer**
+-----
+
+.. method:: WiFiServer::WiFiServer
+
+
+**Description**
+
+Constructs a WiFiServer object and creates a server that listens for
+incoming connections on the specified port.
+
+**Syntax**
+
+.. code:: cpp
+
+  WiFiServer::WiFiServer(uint16_t port)
+
+**Parameters**
+
+``port`` : The port number being connected to.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: SimpleServerWiFi
+
+.. code:: cpp
+
+  #include "WiFi.h"    
+  
+  char ssid[] = "yourNetwork";      //  your network SSID (name)  
+  char pass[] = "secretPassword";   // your network password  
+  int keyIndex = 0;                 // your network key Index number (needed only for WEP)  
+    
+  int status = WL_IDLE_STATUS;  
+  WiFiServer server(5000);  
+    
+  void setup() {  
+    Serial.begin(9600);      // initialize serial communication  
+    pinMode(9, OUTPUT);      // set the LED pin mode  
+    
+    // check for the presence of the shield:  
+    if (WiFi.status() == WL_NO_SHIELD) {  
+      Serial.println("WiFi shield not present");  
+      while (true);       // don't continue  
+    }  
+    
+    String fv = WiFi.firmwareVersion();  
+    if ( fv != "1.1.0" )  
+      Serial.println("Please upgrade the firmware");  
+    
+    // attempt to connect to Wifi network:  
+    while ( status != WL_CONNECTED) {  
+      Serial.print("Attempting to connect to Network named: ");  
+      Serial.println(ssid);                   // print the network name (SSID);  
+    
+      // Connect to WPA/WPA2 network. Change this line if using open or WEP network:
+      status = WiFi.begin(ssid, pass);  
+      // wait 10 seconds for connection:  
+      delay(10000);  
+    }  
+    server.begin();                           // start the tcp server on port 5000  
+    printWifiStatus();                        // you're connected now, so print out the status  
+  }  
+    
+  char buffer[256];  
+  void loop() {  
+    WiFiClient client = server.available();  
+      
+    while (client.connected()) {  
+      memset(buffer, 0, 256);  
+      int n = client.read((uint8_t*)(&buffer[0]), sizeof(buffer));  
+      if (n > 0) {  
+        for (int i=0; i<n; i++) {  
+          Serial.print(buffer[i]);  
+        }  
+        n = client.write(buffer, n);  
+        if (n <= 0) break;  
+      }  
+    }  
+    
+    client.stop();  
+  }  
+    
+  void printWifiStatus() {  
+    // print the SSID of the network you're attached to:  
+    Serial.print("SSID: ");  
+    Serial.println(WiFi.SSID());  
+    
+    // print your WiFi shield's IP address:  
+    IPAddress ip = WiFi.localIP();  
+    Serial.print("IP Address: ");  
+    Serial.println(ip);  
+    
+    // print the received signal strength:  
+    long rssi = WiFi.RSSI();  
+    Serial.print("signal strength (RSSI):");  
+    Serial.print(rssi);  
+    Serial.println(" dBm");  
+  }
+  
 
-| **Description**
-| Constructs a WiFiServer object and creates a server that listens for
-  incoming connections on the specified port.
+**Notes and Warnings**
 
-| **Syntax**
-| WiFiServer::WiFiServer(uint16_t port)
+NA
 
-| **Parameters**
-| port: The port number being connected to.
+-----
 
-| **Returns**
-| The function returns nothing.
+.. method:: WiFiServer::available
 
-| **Example Code**
-| Example: SimpleServerWiFi
 
-**#include <WiFi.h>**
+**Description**
 
-**char** ssid[] = "yourNetwork"; // your network SSID (name)
+Gets a client that is connected to the server and has data available
+for reading. The connection persists when the returned client object
+goes out of scope; you can close it by calling the client.stop().
 
-**char** pass[] = "secretPassword"; // your network password
+**Syntax**
 
-**int** keyIndex = 0; // your network key Index number (needed only for
-WEP)
+.. code:: cpp
 
-**int** status = WL_IDLE_STATUS;
+  WiFiClient WiFiServer::available(uint8_t* status)
 
-WiFiServer server(5000);
+**Parameters**
 
-**void** setup() {
+``status`` : WiFi availability status
 
-Serial.begin(9600); // initialize serial communication
+**Returns**
 
-pinMode(9, OUTPUT); // set the LED pin mode
+A Client object; if no Client has data available for reading, this
+object will evaluate to false in an if-statement
 
-// check for the presence of the shield:
+**Example Code**
 
-**if** (WiFi.status() == WL_NO_SHIELD) {
+Example: SimpleServerWiFi
 
-Serial.println("WiFi shield not present");
+Details of the code can be found in the previous section of
+WiFiServer:: WiFiServer.
 
-**while** (**true**); // don't continue
+**Notes and Warnings**
 
-}
+NA
 
-String fv = WiFi.firmwareVersion();
+-----
 
-**if** ( fv != "1.1.0" )
+.. method:: WiFiServer::begin
 
-Serial.println("Please upgrade the firmware");
 
-// attempt to connect to Wifi network:
+**Description**
 
-**while** ( status != WL_CONNECTED) {
+Tells the server to begin listening for incoming connections
 
-Serial.print("Attempting to connect to Network named: ");
+**Syntax**
 
-Serial.println(ssid); // print the network name (SSID);
+.. code:: cpp
 
-// Connect to WPA/WPA2 network. Change this line if using open or WEP
-network:
+  void WiFiServer::begin(void)
 
-status = WiFi.begin(ssid, pass);
+**Parameters**
 
-// wait 10 seconds for connection:
+The function requires no input parameter.
 
-delay(10000);
+**Returns**
 
-}
+The function returns nothing.
 
-server.begin(); // start the tcp server on port 5000
+**Example Code**
 
-printWifiStatus(); // you're connected now, so print out the status
+Example: SimpleServerWiFi
 
-}
+Details of the code can be found in the previous section of
+WiFiServer:: WiFiServer.
 
-**char** buffer[256];
+**Notes and Warnings**
 
-**void** loop() {
+NA
 
-WiFiClient client = server.available();
+-----
 
-**while** (client.connected()) {
+.. method:: WiFiServer::write
 
-memset(buffer, 0, 256);
 
-**int** n = client.read((**uint8_t**\ \*)(&buffer[0]), sizeof(buffer));
+**Description**
 
-**if** (n > 0) {
+Write data to all the clients connected to a server
 
-**for** (**int** i=0; i<n; i++) {
+**Syntax**
 
-Serial.print(buffer[i]);
+.. code:: cpp
 
-}
+  size_t WiFiServer::write(uint8_t b)
 
-n = client.write(buffer, n);
+.. code:: cpp
 
-**if** (n <= 0) **break**;
+  size_t WiFiServer::write(const uint8_t *buf, size_t size)
 
-}
+**Parameters**
 
-}
+``b``: byte to be written
 
-client.stop();
+``buf`` : data buffer
 
-}
+``size`` : Size of the data in the buffer
 
-**void** printWifiStatus() {
+**Returns**
 
-// print the SSID of the network you're attached to:
+The function returns the number of bytes written. It is not necessary
+to read this.
 
-Serial.print("SSID: ");
+**Example Code**
 
-Serial.println(WiFi.SSID());
+Example: SimpleServerWiFi
 
-// print your WiFi shield's IP address:
+Details of the code can be found in the previous section of
 
-IPAddress ip = WiFi.localIP();
+WiFiServer:: WiFiServer.
 
-Serial.print("IP Address: ");
+**Notes and Warnings**
 
-Serial.println(ip);
-
-// print the received signal strength:
-
-**long** rssi = WiFi.RSSI();
-
-Serial.print("signal strength (RSSI):");
-
-Serial.print(rssi);
-
-Serial.println(" dBm");
-
-}
-
-| **Notes and Warnings**
-| NA
-|  
-
-**WiFiServer::available**
-
-| **Description**
-| Gets a client that is connected to the server and has data available
-  for reading. The connection persists when the returned client object
-  goes out of scope; you can close it by calling the client.stop().
-
-| **Syntax**
-| WiFiClient WiFiServer::available(uint8_t\* status)
-
-| **Parameters**
-| status: WiFi availability status
-
-| **Returns**
-| A Client object; if no Client has data available for reading, this
-  object will evaluate to false in an if-statement
-
-| **Example Code**
-| Example: SimpleServerWiFi
-| Details of the code can be found in the previous section of
-  WiFiServer:: WiFiServer.
-
-| **Notes and Warnings**
-| NA
-|  
-
-**WiFiServer::begin**
-
-| **Description**
-| Tells the server to begin listening for incoming connections
-
-| **Syntax**
-| void WiFiServer::begin(void)
-
-| **Parameters**
-| The function requires no input parameter.
-
-| **Returns**
-| The function returns nothing.
-
-| **Example Code**
-| Example: SimpleServerWiFi
-| Details of the code can be found in the previous section of
-  WiFiServer:: WiFiServer.
-
-| **Notes and Warnings**
-| NA
-|  
-
-**WiFiServer::write**
-
-| **Description**
-| Write data to all the clients connected to a server
-
-| **Syntax**
-| size_t WiFiServer::write(uint8_t b)
-| size_t WiFiServer::write(const uint8_t \*buf, size_t size)
-
-| **Parameters**
-| b: byte to be written
-| buf: data buffer
-| size: Size of the data in the buffer
-
-| **Returns**
-| The function returns the number of bytes written. It is not necessary
-  to read this.
-
-| **Example Code**
-| Example: SimpleServerWiFi
-| Details of the code can be found in the previous section of
-  WiFiServer:: WiFiServer.
-
-| **Notes and Warnings**
-| NA
+NA

@@ -1,7 +1,6 @@
+####################
 Class FlashMemory 
-====================
-
-.. class:: FlashMemory
+####################
 
 **Description**
 

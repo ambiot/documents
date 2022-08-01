@@ -1,14 +1,19 @@
+#####################
 Class SoftwareSerial
-=====================
-**SoftwareSerial Class**
+#####################
 
-| **Description**
-| Defines a class of software serial implementation for Ameba.
 
-| **Syntax**
-| class SoftwareSerial
+**Description**
 
-**Members**
+Defines a class of software serial implementation for Ameba.
+
+**Syntax**
+
+.. code:: cpp
+
+  class SoftwareSerial
+
+*Members**
 
 +----------------------------------+----------------------------------+
 | **Public Constructors**          |                                  |
@@ -16,8 +21,10 @@ Class SoftwareSerial
 | SoftwareSerial::SoftwareSerial   | Constructs a SoftwareSerial      |
 |                                  | object                           |
 +----------------------------------+----------------------------------+
-| **Public Methods**               |                                  |
+
 +----------------------------------+----------------------------------+
+| **Public Methods**               |                                  |
++==================================+==================================+
 | SoftwareSerial::begin            | Sets the speed (baud rate) for   |
 |                                  | the serial communication         |
 +----------------------------------+----------------------------------+
@@ -56,485 +63,591 @@ Class SoftwareSerial
 |                                  | interrupt                        |
 +----------------------------------+----------------------------------+
 
-**SoftwareSerial::SoftwareSerial**
+-----
 
-| **Description**
-| Constructs a SoftwareSerial object and sets RX and TX pin, and inverse
-  logic.
+.. method:: SoftwareSerial::SoftwareSerial
 
-| **Syntax**
-| SoftwareSerial::SoftwareSerial(uint8_t receivePin, uint8_t
-  transmitPin, bool inverse_logic /\* = false \*/)
 
-| **Parameters**
-| receivePin: the pin on which to receive serial data
-| transmitPin: the pin on which to transmit serial data
-| inverse_logic: is used to invert the sense of incoming bits
+**Description**
 
-| **Returns**
-| The function returns nothing.
+Constructs a SoftwareSerial object and sets RX and TX pin, and inverse
+logic.
 
-| **Example Code**
-| Example: SoftwareSerialExample
-| The example demonstrates a software serial test, it receives from
-  serial RX and sends it to serial TX.
+**Syntax**
 
-/\*
+.. code:: cpp
 
-The circuit: (BOARD RTL8195A)
+  SoftwareSerial::SoftwareSerial(uint8_t receivePin, uint8_t transmitPin, bool inverse_logic /* = false */)
 
-\* RX is digital pin 0 (connect to TX of other devices)
+**Parameters**
 
-\* TX is digital pin 1 (connect to RX of other devices)
+``receivePin`` : the pin on which to receive serial data
 
-\*/
+``transmitPin`` : the pin on which to transmit serial data
 
-**#include <SoftwareSerial.h>**
+``inverse_logic``: is used to invert the sense of incoming bits
 
-**#if defined(BOARD_RTL8195A)**
+**Returns**
 
-SoftwareSerial mySerial(0, 1); // RX, TX
+The function returns nothing.
 
-**#elif defined(BOARD_RTL8710)**
+**Example Code**
 
-SoftwareSerial mySerial(17, 5); // RX, TX
+Example: SoftwareSerialExample
 
-**#else**
+The example demonstrates a software serial test, it receives from
+serial RX and sends it to serial TX.
 
-SoftwareSerial mySerial(0, 1); // RX, TX
+.. code:: cpp
 
-**#endif**
+    /* 
+   The circuit: (BOARD RTL8195A) 
+   * RX is digital pin 0 (connect to TX of other devices) 
+   * TX is digital pin 1 (connect to RX of other devices) 
+   */  
+  #include "SoftwareSerial.h"   
 
-**void** setup() {
+  #if defined(BOARD_RTL8195A)  
+  SoftwareSerial mySerial(0, 1); // RX, TX  
+  #elif defined(BOARD_RTL8710)  
+  SoftwareSerial mySerial(17, 5); // RX, TX  
+  #else  
+  SoftwareSerial mySerial(0, 1); // RX, TX  
+  #endif  
 
-// Open serial communications and wait for port to open:
+  void setup() {  
+    // Open serial communications and wait for port to open:  
+    Serial.begin(57600);  
+    while (!Serial) {  
+      ; // wait for serial port to connect. Needed for native USB port only  
+    }  
 
-Serial.begin(57600);
 
-**while** (!Serial) {
+    Serial.println("Goodnight moon!");  
 
-; // wait for serial port to connect. Needed for native USB port only
+    // set the data rate for the SoftwareSerial port  
+    mySerial.begin(4800);  
+    mySerial.println("Hello, world?");  
+  }  
 
-}
+  void loop() { // run over and over  
+    if (mySerial.available()) {  
+      mySerial.write(mySerial.read());  
+    }  
+  }
 
-Serial.println("Goodnight moon!");
 
-// set the data rate for the SoftwareSerial port
+**Notes and Warnings**
 
-mySerial.begin(4800);
+Software Serial is using hardware serial thus DO NOT change the
+default pins
 
-mySerial.println("Hello, world?");
+-----
 
-}
+.. method:: SoftwareSerial::begin
 
-**void** loop() { // run over and over
 
-**if** (mySerial.available()) {
+**Description**
 
-mySerial.write(mySerial.read());
+Sets the speed (baud rate) for the serial communication
 
-}
+**Syntax**
 
-}
+.. code:: cpp
 
-| **Notes and Warnings**
-| Software Serial is using hardware serial thus DO NOT change the
-  default pins
-|  
+  void SoftwareSerial::begin(long speed)
 
-**SoftwareSerial::begin**
+.. code:: cpp
 
-| **Description**
-| Sets the speed (baud rate) for the serial communication
+  void SoftwareSerial::begin(long speed, int data_bits, int parity, int stop_bits)
 
-| **Syntax**
-| void SoftwareSerial::begin(long speed)
-| void SoftwareSerial::begin(long speed, int data_bits, int parity, int
-  stop_bits)
-| void SoftwareSerial::begin(long speed, int data_bits, int parity, int
-  stop_bits, int flowctrl, int rtsPin, int ctsPin)
+.. code:: cpp
 
-| **Parameters**
-| speed: the baud rate
-| data_bits: number of data bits, 8 bits(default) or 7 bits
-| stop_bits: number of stop bits, 1 bit(default), 1.5 bits or 2 bits
-| flowctrl: flow control pin
-| rtsPin: request to send pin
-| ctsPin: clear to send pin
+  void SoftwareSerial::begin(long speed, int data_bits, int parity, int stop_bits, int flowctrl, int rtsPin, int ctsPin)
 
-| **Returns**
-| The function returns nothing.
+**Parameters**
 
-| **Example Code**
-| Example: SoftwareSerialExample
-| The example demonstrates a software serial test, it receives from
-  serial RX and sends it to serial TX. Details of the code can be found
-  in the previous section of SoftwareSerial_Basic:: SoftwareSerial.
+``speed`` : the baud rate
 
-| **Notes and Warnings**
-| NA
-|  
+``data_bits`` : number of data bits, 8 bits(default) or 7 bits
 
-**SoftwareSerial::listen**
+``stop_bits`` : number of stop bits, 1 bit(default), 1.5 bits or 2 bits
 
-| **Description**
-| Enables the selected software serial port to listen
+``flowctrl`` : flow control pin
 
-| **Syntax**
-| bool SoftwareSerial::listen(void)
+``rtsPin`` : request to send pin
 
-| **Parameters**
-| The function requires no input parameter.
+``ctsPin`` : clear to send pin
 
-| **Returns**
-| Returns true if it replaces another
+**Returns**
 
-| **Example Code**
-| NA
+The function returns nothing.
 
-| **Notes and Warnings**
-| NA
-|  
+**Example Code**
 
-**SoftwareSerial::end**
+Example: SoftwareSerialExample
 
-| **Description**
-| Same as stopListening
+The example demonstrates a software serial test, it receives from
+serial RX and sends it to serial TX. Details of the code can be found
+in the previous section of SoftwareSerial_Basic:: SoftwareSerial.
 
-| **Syntax**
-| void SoftwareSerial::end(void)
+**Notes and Warnings**
 
-| **Parameters**
-| The function requires no input parameter.
+NA
 
-| **Returns**
-| The function returns nothing.
+-----
 
-| **Example Code**
-| NA
+.. method:: SoftwareSerial::listen
 
-| **Notes and Warnings**
-| NA
-|  
+**Description**
+
+Enables the selected software serial port to listen
+
+**Syntax**
+
+.. code:: cpp
+
+  bool SoftwareSerial::listen(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+Returns true if it replaces another
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: SoftwareSerial::end
+
+
+**Description**
+
+Same as stopListening
+
+**Syntax**
+
+.. code:: cpp
+
+  void SoftwareSerial::end(void)
+
+**Parameters**
+
+The function requires no input parameter.
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
 
 **SoftwareSerial::isListening**
 
-| **Description**
-| Tests to see if requested software serial port is actively listening
 
-| **Syntax**
-| bool SoftwareSerial::isListening(void)
+**Description**
 
-| **Parameters**
-| The function requires no input parameter.
+Tests to see if requested software serial port is actively listening
 
-| **Returns**
-| The function returns “True” if the port is listening.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
-|  
+  bool SoftwareSerial::isListening(void)
 
-**SoftwareSerial::stopListening**
+**Parameters**
 
-| **Description**
-| Stop listening on the port
+The function requires no input parameter.
 
-| **Syntax**
-| bool SoftwareSerial::stopListening(void)
+**Returns**
 
-| **Parameters**
-| The function requires no input parameter.
+The function returns “True” if the port is listening.
 
-| **Returns**
-| The function returns “True” if listening on the port is stopped.
+**Example Code**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| NA
-|  
+**Notes and Warnings**
 
-**SoftwareSerial::peek**
+NA
 
-| **Description**
-| Return a character that was received on the RX pin of the software
-  serial port
+-----
 
-| **Syntax**
-| int SoftwareSerial::peek(void)
+.. method:: SoftwareSerial::stopListening
 
-| **Parameters**
-| The function requires no input parameter.
 
-| **Returns**
-| The function returns the character read, or returns “-1” if none is
-  available.
+**Description**
 
-| **Example Code**
-| NA
+Stop listening on the port
 
-| **Notes and Warnings**
-| NA
-|  
+**Syntax**
 
-**SoftwareSerial::write**
+.. code:: cpp
 
-| **Description**
-| Prints data to the transmit pin of the software serial port as raw
-  bytes
+  bool SoftwareSerial::stopListening(void)
 
-| **Syntax**
-| size_t SoftwareSerial::write(uint8_t b)
+**Parameters**
 
-| **Parameters**
-| b: byte to be written
+The function requires no input parameter.
 
-| **Returns**
-| The function returns the number of bytes written.
+**Returns**
 
-| **Example Code**
-| Example: SoftwareSerialExample
-| The example demonstrates a software serial test, it receives from
-  serial RX and sends it to serial TX. Details of the code can be found
-  in the previous section of SoftwareSerial:: SoftwareSerial.
+The function returns “True” if listening on the port is stopped.
 
-| **Notes and Warnings**
-| NA
-|  
+**Example Code**
 
-**SoftwareSerial::read**
+NA
 
-| **Description**
-| Return a character that was received on the RX pin of the software
-  serial port
+**Notes and Warnings**
 
-| **Syntax**
-| int SoftwareSerial::read(void)
+NA
 
-| **Parameters**
-| The function requires no input parameter.
+-----
 
-| **Returns**
-| The function returns the character read, or -1 if none is available.
+.. method:: SoftwareSerial::peek
 
-| **Example Code**
-| Example: SoftwareSerialExample
-| The example demonstrates a software serial test, it receives from
-  serial RX and sends it to serial TX. Details of the code can be found
-  in the previous section of SoftwareSerial:: SoftwareSerial.
 
-| **Notes and Warnings**
-| NA
-|  
+**Description**
 
-**SoftwareSerial::available**
+Return a character that was received on the RX pin of the software
+serial port
 
-| **Description**
-| Get the number of bytes available for reading from a software serial
-  port
+**Syntax**
 
-| **Syntax**
-| int SoftwareSerial::available(void)
+.. code:: cpp
 
-| **Parameters**
-| The function requires no input parameter.
+  int SoftwareSerial::peek(void)
 
-| **Returns**
-| The function returns the number of bytes available to read.
+**Parameters**
 
-| **Example Code**
-| Example: SoftwareSerialExample
-| The example demonstrates a software serial test, it receives from
-  serial RX and sends it to serial TX. Details of the code can be found
-  in the previous section of SoftwareSerial:: SoftwareSerial.
+The function requires no input parameter.
 
-| **Notes and Warnings**
-| NA
-|  
+**Returns**
 
-**SoftwareSerial::flush**
+The function returns the character read, or returns “-1” if none is
 
-| **Description**
-| Flush the received buffer
+available.
 
-| **Syntax**
-| void SoftwareSerial::flush(void)
+**Example Code**
 
-| **Parameters**
-| The function requires no input parameter.
+NA
 
-| **Returns**
-| The function returns nothing.
+**Notes and Warnings**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| NA
-|  
+-----
 
-**SoftwareSerial::setBufferSize**
+.. method:: SoftwareSerial::write
 
-| **Description**
-| Set buffer size
 
-| **Syntax**
-| void SoftwareSerial::setBufferSize(uint32_t buffer_size)
+**Description**
 
-| **Parameters**
-| buffer_size: the size of the serial buffer
+Prints data to the transmit pin of the software serial port as raw
+bytes
 
-| **Returns**
-| The function returns nothing.
+**Syntax**
 
-| **Example Code**
-| NA
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
-|  
+  size_t SoftwareSerial::write(uint8_t b)
 
-**SoftwareSerial::setAvailableCallback**
+**Parameters**
 
-| **Description**
-| Set available callback
+``b`` : byte to be written
 
-| **Syntax**
-| void SoftwareSerial::setAvailableCallback(void (\*callback)(char c))
+**Returns**
 
-| **Parameters**
-| \*callback: user-defined serial callback function
+The function returns the number of bytes written.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| Example: SoftwareSerialIrqCallback
-| This example demonstrates the software serial testing using IRQ
-  callback and semaphore. Set callback function “mySerialCalback” to
-  software serial. Whenever there is data comes in, “mySerialCallback”
-  is invoked. In this sketch, it does nothing until the end of the line.
-  And then it sends a semaphore. The loop() uses a non-busy loop to wait
-  for the semaphore. To test this sketch, you need to type something on
-  software serial and then press Enter.
+Example: SoftwareSerialExample
 
-/\*
+The example demonstrates a software serial test, it receives from
+serial RX and sends it to serial TX. Details of the code can be found
+in the previous section of SoftwareSerial:: SoftwareSerial.
 
-The circuit: (BOARD RTL8195A)
+**Notes and Warnings**
 
-RX is digital pin 0 (connect to TX of other devices)
+NA
 
-TX is digital pin 1 (connect to RX of other devices)
+------
 
-\*/
+.. method:: SoftwareSerial::read
 
-**#include <SoftwareSerial.h>**
 
-**#if defined(BOARD_RTL8195A)**
+**Description**
 
-SoftwareSerial mySerial(0, 1); // RX, TX
+Return a character that was received on the RX pin of the software
+serial port
 
-**#elif defined(BOARD_RTL8710)**
+**Syntax**
 
-SoftwareSerial mySerial(17, 5); // RX, TX
+.. code:: cpp
 
-**#else**
+  int SoftwareSerial::read(void)
 
-SoftwareSerial mySerial(0, 1); // RX, TX
+**Parameters**
 
-**#endif**
+The function requires no input parameter.
 
-**uint32_t** semaID;
+**Returns**
 
-// The callback is hooking at UART IRQ handler and please don't do heavy
-task here.
+The function returns the character read, or -1 if none is available.
 
-**void** mySerialCallback(**char** c)
+**Example Code**
 
-{
+Example: SoftwareSerialExample
 
-/\* The parameter c is only for peeking. The actual data is
+The example demonstrates a software serial test, it receives from
+serial RX and sends it to serial TX. Details of the code can be found
+in the previous section of SoftwareSerial:: SoftwareSerial.
 
-\* still in the buffer of SoftwareSerial.
+**Notes and Warnings**
 
-\*/
+NA
 
-**if** (c == '\r' \|\| c == '\n') {
+-----
 
-os_semaphore_release(semaID);
+.. method:: SoftwareSerial::available
 
-}
 
-}
+**Description**
 
-**void** setup() {
+Get the number of bytes available for reading from a software serial
 
-// use 1 count for binary semaphore
+port
 
-semaID = os_semaphore_create(1);
+**Syntax**
 
-// There is a token in the semaphore, clear it.
+.. code:: cpp
 
-os_semaphore_wait(semaID, *0xFFFFFFFF*);
+  int SoftwareSerial::available(void)
 
-// set the data rate for the SoftwareSerial port
+**Parameters**
 
-mySerial.begin(38400);
+The function requires no input parameter.
 
-mySerial.setAvailableCallback(mySerialCallback);
+**Returns**
 
-}
+The function returns the number of bytes available to read.
 
-**void** loop() { // run over and over
+**Example Code**
 
-// wait semaphore for 5s timeout
+Example: SoftwareSerialExample
 
-**if** (os_semaphore_wait(semaID, 5 \* 1000)) {
+The example demonstrates a software serial test, it receives from
+serial RX and sends it to serial TX. Details of the code can be found
+in the previous section of SoftwareSerial:: SoftwareSerial.
 
-// we got data before timeout
+**Notes and Warnings**
 
-**while**\ (mySerial.available()) {
+NA
 
-mySerial.print((**char**)mySerial.read());
+-----
 
-}
+.. method:: SoftwareSerial::flush
 
-mySerial.println();
 
-} **else** {
+**Description**
 
-mySerial.println("No data comes in.");
+Flush the received buffer
 
-}
+**Syntax**
 
-}
+.. code:: cpp
 
-| **Notes and Warnings**
-| NA
-|  
+  void SoftwareSerial::flush(void)
 
-**SoftwareSerial::handle_interrupt**
+**Parameters**
 
-| **Description**
-| A private method handles the interrupt
+The function requires no input parameter.
 
-| **Syntax**
-| void handle_interrupt(uint32_t id, uint32_t event)
+**Returns**
 
-| **Parameters**
-| id: the interupt id
-| event: interrupt event
+The function returns nothing.
 
-| **Returns**
-| The function returns nothing.
+**Example Code**
 
-| **Example Code**
-| NA
+NA
 
-| **Notes and Warnings**
-| NA
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: SoftwareSerial::setBufferSize
+
+
+**Description**
+
+Set buffer size
+
+**Syntax**
+
+.. code:: cpp
+
+  void SoftwareSerial::setBufferSize(uint32_t buffer_size)
+
+**Parameters**
+
+``buffer_size`` : the size of the serial buffer
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: SoftwareSerial::setAvailableCallback
+
+
+**Description**
+
+Set available callback
+
+**Syntax**
+
+.. code:: cpp
+
+  void SoftwareSerial::setAvailableCallback(void (*callback)(char c))
+
+**Parameters**
+
+``*callback``: user-defined serial callback function
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+Example: SoftwareSerialIrqCallback
+
+This example demonstrates the software serial testing using IRQ
+callback and semaphore. Set callback function “mySerialCalback” to
+software serial. Whenever there is data comes in, “mySerialCallback”
+is invoked. In this sketch, it does nothing until the end of the line.
+And then it sends a semaphore. The loop() uses a non-busy loop to wait
+for the semaphore. To test this sketch, you need to type something on
+software serial and then press Enter.
+
+.. code:: cpp
+
+
+  /* 
+ The circuit: (BOARD RTL8195A) 
+ RX is digital pin 0 (connect to TX of other devices) 
+ TX is digital pin 1 (connect to RX of other devices) 
+ */  
+ #include "SoftwareSerial.h"    
+  
+ #if defined(BOARD_RTL8195A)  
+ SoftwareSerial mySerial(0, 1); // RX, TX  
+ #elif defined(BOARD_RTL8710)  
+ SoftwareSerial mySerial(17, 5); // RX, TX  
+ #else  
+ SoftwareSerial mySerial(0, 1); // RX, TX  
+ #endif  
+   
+ uint32_t semaID;  
+   
+ // The callback is hooking at UART IRQ handler and please don't do heavy task here.
+ void mySerialCallback(char c)  
+ {  
+   /*  The parameter c is only for peeking. The actual data is 
+    *  still in the buffer of SoftwareSerial. 
+    */  
+   if (c == '\r' || c == '\n') {  
+     os_semaphore_release(semaID);  
+   }  
+ }  
+   
+ void setup() {  
+   // use 1 count for binary semaphore  
+   semaID = os_semaphore_create(1);  
+   
+   // There is a token in the semaphore, clear it.  
+   os_semaphore_wait(semaID, 0xFFFFFFFF);  
+   
+   // set the data rate for the SoftwareSerial port  
+   mySerial.begin(38400);  
+   mySerial.setAvailableCallback(mySerialCallback);  
+ }  
+   
+ void loop() { // run over and over  
+   // wait semaphore for 5s timeout  
+   if (os_semaphore_wait(semaID, 5 * 1000)) {  
+     // we got data before timeout  
+     while(mySerial.available()) {  
+       mySerial.print((char)mySerial.read());  
+     }  
+     mySerial.println();  
+   } else {  
+     mySerial.println("No data comes in.");  
+   }  
+ } 
+
+
+**Notes and Warnings**
+
+NA
+
+-----
+
+.. method:: SoftwareSerial::handle_interrupt
+
+
+**Description**
+
+A private method handles the interrupt
+
+**Syntax**
+
+.. code:: cpp
+
+  void handle_interrupt(uint32_t id, uint32_t event)
+
+**Parameters**
+
+``id`` : the interupt id
+
+``event`` : interrupt event
+
+**Returns**
+
+The function returns nothing.
+
+**Example Code**
+
+NA
+
+**Notes and Warnings**
+
+NA

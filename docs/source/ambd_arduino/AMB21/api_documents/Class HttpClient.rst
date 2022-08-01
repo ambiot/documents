@@ -1,7 +1,6 @@
+###################
 Class HttpClient
-===================
-.. class:: HttpClient
-
+###################
 
 **Description**
 
