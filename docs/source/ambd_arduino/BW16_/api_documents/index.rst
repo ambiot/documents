@@ -7,7 +7,7 @@
 API Documents
 #############
 
-**RTL8722DM ARDUINO Online API Documents**
+**BW16 ARDUINO Online API Documents**
 
 *********************
 Analog
@@ -48,7 +48,7 @@ BLE
    Class BLEDevice
    Class BLEHIDDevice
    Class BLEHIDGamepad
-   Class BLEHIDKeybaord
+   Class BLEHIDKeyboard
    Class BLEHIDMouse   
    Class BLERemoteCharacteristic
    Class BLERemoteDescriptor
@@ -260,7 +260,9 @@ Wire
 WS2812B
 *********************
 
-.. toctree::
+.. toctree:: 
    :maxdepth: 1
 
    Class WS2812B
+
+---

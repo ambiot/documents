@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,1728 +17,1322 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.1\n"
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:3
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:3
 msgid "Class AmebaILI9341"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:4
-msgid "**AmebaILI9341 Class**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:6
-#: AmebaILI9341.rst:69 AmebaILI9341.rst:531 AmebaILI9341.rst:563
-#: AmebaILI9341.rst:593 AmebaILI9341.rst:621 AmebaILI9341.rst:649
-#: AmebaILI9341.rst:681 AmebaILI9341.rst:709 AmebaILI9341.rst:740
-#: AmebaILI9341.rst:773 AmebaILI9341.rst:802 AmebaILI9341.rst:835
-#: AmebaILI9341.rst:867 AmebaILI9341.rst:898 AmebaILI9341.rst:929
-#: AmebaILI9341.rst:957 AmebaILI9341.rst:985 AmebaILI9341.rst:1013
-#: AmebaILI9341.rst:1044 AmebaILI9341.rst:1075 AmebaILI9341.rst:1106
-#: AmebaILI9341.rst:1137
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:5
+#: AmebaILI9341.rst:72 AmebaILI9341.rst:366 AmebaILI9341.rst:400
+#: AmebaILI9341.rst:431 AmebaILI9341.rst:461 AmebaILI9341.rst:491
+#: AmebaILI9341.rst:527 AmebaILI9341.rst:557 AmebaILI9341.rst:590
+#: AmebaILI9341.rst:627 AmebaILI9341.rst:659 AmebaILI9341.rst:697
+#: AmebaILI9341.rst:733 AmebaILI9341.rst:769 AmebaILI9341.rst:804
+#: AmebaILI9341.rst:834 AmebaILI9341.rst:864 AmebaILI9341.rst:894
+#: AmebaILI9341.rst:928 AmebaILI9341.rst:961 AmebaILI9341.rst:994
+#: AmebaILI9341.rst:1027
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:8
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:7
 msgid "Defines a class to use ILI9341 TFT SPI display for Ameba."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:10
-#: AmebaILI9341.rst:73 AmebaILI9341.rst:535 AmebaILI9341.rst:567
-#: AmebaILI9341.rst:597 AmebaILI9341.rst:625 AmebaILI9341.rst:654
-#: AmebaILI9341.rst:685 AmebaILI9341.rst:713 AmebaILI9341.rst:744
-#: AmebaILI9341.rst:777 AmebaILI9341.rst:806 AmebaILI9341.rst:839
-#: AmebaILI9341.rst:871 AmebaILI9341.rst:902 AmebaILI9341.rst:933
-#: AmebaILI9341.rst:961 AmebaILI9341.rst:989 AmebaILI9341.rst:1017
-#: AmebaILI9341.rst:1048 AmebaILI9341.rst:1079 AmebaILI9341.rst:1110
-#: AmebaILI9341.rst:1141
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:9
+#: AmebaILI9341.rst:76 AmebaILI9341.rst:370 AmebaILI9341.rst:404
+#: AmebaILI9341.rst:435 AmebaILI9341.rst:465 AmebaILI9341.rst:496
+#: AmebaILI9341.rst:531 AmebaILI9341.rst:561 AmebaILI9341.rst:594
+#: AmebaILI9341.rst:631 AmebaILI9341.rst:663 AmebaILI9341.rst:701
+#: AmebaILI9341.rst:737 AmebaILI9341.rst:773 AmebaILI9341.rst:808
+#: AmebaILI9341.rst:838 AmebaILI9341.rst:868 AmebaILI9341.rst:898
+#: AmebaILI9341.rst:932 AmebaILI9341.rst:965 AmebaILI9341.rst:998
+#: AmebaILI9341.rst:1031
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:12
-msgid "class AmebaILI9341"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:14
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:15
 msgid "**Members**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:17
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:18
 msgid "**Public Constructors**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:19
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:20
 msgid "AmebaILI9341::AmebaILI9341"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:19
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:20
 msgid "Constructs an AmebaILI9341 object"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:21
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:22
 msgid "**Public Methods**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:23
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:24
 msgid "AmebaILI9341::begin"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:23
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:24
 msgid "Initialize SPI, pin mapping and screen configuration"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:26
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:27
 msgid "AmebaILI9341::setAddress"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:26
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:27
 msgid "Initialize image size and position"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:28
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:29
 msgid "AmebaILI9341::writecommand"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:28
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:29
 msgid "SPI transfer a command"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:30
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:31
 msgid "AmebaILI9341::writedata"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:30
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:31
 msgid "SPI transfer a piece of data"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:32
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:33
 msgid "AmebaILI9341::setRotation"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:32
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:33
 msgid "Set screen orientation"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:34
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:35
 msgid "AmebaILI9341::fillScreen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:34
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:35
 msgid "Fill the screen with a color"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:36
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:37
 msgid "AmebaILI9341::clr"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:36
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:37
 msgid "Clear screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:38
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:39
 msgid "AmebaILI9341::fillRectangle"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:38
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:39
 msgid "Fill a rectangular space with a color"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:40
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:41
 msgid "AmebaILI9341::drawPixel"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:40
-#: AmebaILI9341.rst:775
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:41
+#: AmebaILI9341.rst:629
 msgid "Turn on a pixel on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:42
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:43
 msgid "AmebaILI9341::drawChar"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:42
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:43
 msgid "To print a character on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:44
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:45
 msgid "AmebaILI9341::drawLine"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:44
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:45
 msgid "Draw line on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:46
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:47
 msgid "AmebaILI9341::drawRectangle"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:46
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:47
 msgid "Draw a rectangle on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:48
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:49
 msgid "AmebaILI9341::drawCircle"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:48
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:49
 msgid "Draw a circle on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:50
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:51
 msgid "AmebaILI9341::write"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:50
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:51
 msgid "Same as drawChar"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:52
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:53
 msgid "AmebaILI9341::getWidth"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:52
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:53
 msgid "Return the width 240"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:54
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:55
 msgid "AmebaILI9341::getHeight"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:54
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:55
 msgid "Return the height 320"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:56
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:57
 msgid "AmebaILI9341::setCursor"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:56
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:57
 msgid "Set cursor to the desired position"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:58
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:59
 msgid "AmebaILI9341::setForeground"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:58
-#: AmebaILI9341.rst:1046
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:59
+#: AmebaILI9341.rst:930
 msgid "Set foreground color"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:60
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:61
 msgid "AmebaILI9341::setBackground"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:60
-#: AmebaILI9341.rst:1077
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:61
+#: AmebaILI9341.rst:963
 msgid "Set background color"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:62
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:63
 msgid "AmebaILI9341::setFontSize"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:62
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:63
 msgid "Set character font size"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:64
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:65
 msgid "AmebaILI9341::reset"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:64
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:65
 msgid "Reset pin to High or Low"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:67
-msgid "**AmebaILI9341::AmebaILI9341**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:71
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:74
 msgid "Constructs an AmebaILI9341 object and set CS, DC and RESET pins ."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:75
-msgid "AmebaILI9341::AmebaILI9341(int csPin, int dcPin, int resetPin)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:77
-#: AmebaILI9341.rst:539 AmebaILI9341.rst:572 AmebaILI9341.rst:601
-#: AmebaILI9341.rst:629 AmebaILI9341.rst:689 AmebaILI9341.rst:717
-#: AmebaILI9341.rst:749 AmebaILI9341.rst:781 AmebaILI9341.rst:812
-#: AmebaILI9341.rst:845 AmebaILI9341.rst:877 AmebaILI9341.rst:908
-#: AmebaILI9341.rst:937 AmebaILI9341.rst:965 AmebaILI9341.rst:993
-#: AmebaILI9341.rst:1021 AmebaILI9341.rst:1052 AmebaILI9341.rst:1083
-#: AmebaILI9341.rst:1114 AmebaILI9341.rst:1145
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:82
+#: AmebaILI9341.rst:376 AmebaILI9341.rst:410 AmebaILI9341.rst:441
+#: AmebaILI9341.rst:471 AmebaILI9341.rst:502 AmebaILI9341.rst:537
+#: AmebaILI9341.rst:567 AmebaILI9341.rst:600 AmebaILI9341.rst:637
+#: AmebaILI9341.rst:671 AmebaILI9341.rst:709 AmebaILI9341.rst:745
+#: AmebaILI9341.rst:781 AmebaILI9341.rst:814 AmebaILI9341.rst:844
+#: AmebaILI9341.rst:874 AmebaILI9341.rst:904 AmebaILI9341.rst:938
+#: AmebaILI9341.rst:971 AmebaILI9341.rst:1004 AmebaILI9341.rst:1037
 msgid "**Parameters**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:79
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:84
 msgid ""
-"csPin: pin for Chip Select dcPin: pin for Data/Command resetPin: pin for "
-"Reset"
+"``csPin`` : pin for Chip Select ``dcPin`` : pin for Data/Command "
+"``resetPin`` : pin for Reset"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:82
-#: AmebaILI9341.rst:543 AmebaILI9341.rst:577 AmebaILI9341.rst:605
-#: AmebaILI9341.rst:633 AmebaILI9341.rst:661 AmebaILI9341.rst:693
-#: AmebaILI9341.rst:721 AmebaILI9341.rst:754 AmebaILI9341.rst:786
-#: AmebaILI9341.rst:818 AmebaILI9341.rst:851 AmebaILI9341.rst:882
-#: AmebaILI9341.rst:913 AmebaILI9341.rst:941 AmebaILI9341.rst:969
-#: AmebaILI9341.rst:997 AmebaILI9341.rst:1025 AmebaILI9341.rst:1056
-#: AmebaILI9341.rst:1087 AmebaILI9341.rst:1118 AmebaILI9341.rst:1149
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:88
+#: AmebaILI9341.rst:380 AmebaILI9341.rst:415 AmebaILI9341.rst:445
+#: AmebaILI9341.rst:475 AmebaILI9341.rst:507 AmebaILI9341.rst:541
+#: AmebaILI9341.rst:571 AmebaILI9341.rst:608 AmebaILI9341.rst:643
+#: AmebaILI9341.rst:680 AmebaILI9341.rst:717 AmebaILI9341.rst:753
+#: AmebaILI9341.rst:788 AmebaILI9341.rst:818 AmebaILI9341.rst:848
+#: AmebaILI9341.rst:878 AmebaILI9341.rst:909 AmebaILI9341.rst:942
+#: AmebaILI9341.rst:975 AmebaILI9341.rst:1008 AmebaILI9341.rst:1041
 msgid "**Returns**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:84
-#: AmebaILI9341.rst:545 AmebaILI9341.rst:579 AmebaILI9341.rst:607
-#: AmebaILI9341.rst:635 AmebaILI9341.rst:663 AmebaILI9341.rst:695
-#: AmebaILI9341.rst:723 AmebaILI9341.rst:756 AmebaILI9341.rst:788
-#: AmebaILI9341.rst:820 AmebaILI9341.rst:853 AmebaILI9341.rst:884
-#: AmebaILI9341.rst:915 AmebaILI9341.rst:1027 AmebaILI9341.rst:1058
-#: AmebaILI9341.rst:1089 AmebaILI9341.rst:1120 AmebaILI9341.rst:1151
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:90
+#: AmebaILI9341.rst:382 AmebaILI9341.rst:417 AmebaILI9341.rst:447
+#: AmebaILI9341.rst:477 AmebaILI9341.rst:509 AmebaILI9341.rst:543
+#: AmebaILI9341.rst:573 AmebaILI9341.rst:610 AmebaILI9341.rst:645
+#: AmebaILI9341.rst:682 AmebaILI9341.rst:719 AmebaILI9341.rst:755
+#: AmebaILI9341.rst:790 AmebaILI9341.rst:911 AmebaILI9341.rst:944
+#: AmebaILI9341.rst:977 AmebaILI9341.rst:1010 AmebaILI9341.rst:1043
 msgid "The function returns nothing."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:86
-#: AmebaILI9341.rst:547 AmebaILI9341.rst:581 AmebaILI9341.rst:609
-#: AmebaILI9341.rst:637 AmebaILI9341.rst:665 AmebaILI9341.rst:697
-#: AmebaILI9341.rst:725 AmebaILI9341.rst:758 AmebaILI9341.rst:790
-#: AmebaILI9341.rst:822 AmebaILI9341.rst:855 AmebaILI9341.rst:886
-#: AmebaILI9341.rst:917 AmebaILI9341.rst:945 AmebaILI9341.rst:973
-#: AmebaILI9341.rst:1001 AmebaILI9341.rst:1029 AmebaILI9341.rst:1060
-#: AmebaILI9341.rst:1091 AmebaILI9341.rst:1122 AmebaILI9341.rst:1153
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:92
+#: AmebaILI9341.rst:384 AmebaILI9341.rst:419 AmebaILI9341.rst:449
+#: AmebaILI9341.rst:479 AmebaILI9341.rst:511 AmebaILI9341.rst:545
+#: AmebaILI9341.rst:575 AmebaILI9341.rst:612 AmebaILI9341.rst:647
+#: AmebaILI9341.rst:684 AmebaILI9341.rst:721 AmebaILI9341.rst:757
+#: AmebaILI9341.rst:792 AmebaILI9341.rst:822 AmebaILI9341.rst:852
+#: AmebaILI9341.rst:882 AmebaILI9341.rst:913 AmebaILI9341.rst:946
+#: AmebaILI9341.rst:979 AmebaILI9341.rst:1012 AmebaILI9341.rst:1045
 msgid "**Example Code**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:88
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:94
 msgid "Example: : PM25_ON_ILI9341_TFT_LCD"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:90
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:96
 msgid ""
 "This example demonstrates how to read pm2.5 value on PMS 3003 air-"
 "condition sensor and display it on ILI9341 TFT LCD."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:93
-msgid "/\\*"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:95
-msgid "PMS 3003 pin map is as follow:"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:97
-msgid "PIN1 :VCC, connect to 5V"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class AmebaILI9341.rst:99
-msgid "PIN2 :GND"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:101
-msgid "PIN3 :SET, 0:Standby mode, 1:operating mode"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:103
-msgid "PIN4 :RXD :Serial RX"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:105
-msgid "PIN5 :TXD :Serial TX"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:107
-msgid "PIN6 :RESET"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:109
-msgid "PIN7 :NC"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:111
-msgid "PIN8 :NC"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:113
-msgid "In this example, we only use Serial to get PM 2.5 value."
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:115
-msgid "The circuit:"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:117
-msgid "\\* RX is digital pin 0 (connect to TX of PMS 3003)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:119
-msgid "\\* TX is digital pin 1 (connect to RX of PMS 3003)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:121
-msgid "For RTL8195A ILI9341 TFT LCD with SPI interface has these pins:"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:123
-msgid "D/C : connect to pin 9"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:125
-msgid "CS : connect to pin 10"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:127
-msgid "MOSI : connect to pin 11"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:129
-msgid "MISO : connect to pin 12"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:131
-msgid "CLK : connect to pin 13"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:133
-msgid "VCC : connect to 3V3"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:135
-msgid "GND : connect to GND"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:137
-msgid "\\*/"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:139
-msgid "**#include \"SoftwareSerial.h\"**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:141
-msgid "**#include \"SPI.h\"**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:143
-msgid "**#include \"AmebaILI9341.h\"**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:145
-msgid "**#if defined(BOARD_RTL8195A)**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:147
-msgid "SoftwareSerial mySerial(0, 1); // RX, TX"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:149
-msgid "**#define TFT_RESET 8**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:151
-msgid "**#define TFT_DC 9**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:153 AmebaILI9341.rst:165
-msgid "**#define TFT_CS 10**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:155
-msgid "**#elif defined(BOARD_RTL8710)**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:157
-msgid "SoftwareSerial mySerial(17, 5); // RX, TX"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:159
-msgid "// IMPORTANT: Due to limit pin, we do not connect TFT_RESET pin."
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:161
-msgid "**#define TFT_RESET 0xFFFFFFFF**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:163
-msgid "**#define TFT_DC 2**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:167
-msgid "**#endif**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:169
-msgid "AmebaILI9341 tft = AmebaILI9341(TFT_CS, TFT_DC, TFT_RESET);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:171
-msgid "**#define ILI9341_SPI_FREQUENCY 20000000**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:173
-msgid "**#define pmsDataLen 32**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:175
-msgid "**uint8_t** buf[pmsDataLen];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:177
-msgid "**int** idx = 0;"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:179
-msgid "**int** pm10 = 0;"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:181
-msgid "**int** last_pm25 = 0;"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:183
-msgid "**int** pm25 = 0;"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:185
-msgid "**int** pm100 = 0;"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:187
-msgid "**uint16_t** pm25color[] = {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:189
-msgid "*0x9FF3*,"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:191
-msgid "*0x37E0*,"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:193
-msgid "*0x3660*,"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:195
-msgid "*0xFFE0*,"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:197
-msgid "*0xFE60*,"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:199
-msgid "*0xFCC0*,"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:201
-msgid "*0xFB2C*,"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:203
-msgid "*0xF800*,"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:205
-msgid "*0x9800*,"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:207
-msgid "*0xC99F*"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:209
-msgid "};"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:211
-msgid "**void** setup() {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:213
-msgid "Serial.begin(57600);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:215
-msgid "mySerial.begin(9600); // PMS 3003 UART has baud rate 9600"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:217
-msgid "SPI.setDefaultFrequency(ILI9341_SPI_FREQUENCY);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:219
-msgid "tft.begin();"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:221
-msgid "drawPictureFrames();"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:223 AmebaILI9341.rst:241 AmebaILI9341.rst:257
-#: AmebaILI9341.rst:259 AmebaILI9341.rst:267 AmebaILI9341.rst:279
-#: AmebaILI9341.rst:397 AmebaILI9341.rst:415 AmebaILI9341.rst:431
-#: AmebaILI9341.rst:445 AmebaILI9341.rst:461 AmebaILI9341.rst:471
-#: AmebaILI9341.rst:475 AmebaILI9341.rst:519 AmebaILI9341.rst:521
-msgid "}"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:225
-msgid "**void** loop() { // run over and over"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:227
-msgid "**uint8_t** c;"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:229
-msgid "idx = 0;"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:231
-msgid "memset(buf, 0, pmsDataLen);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:233
-msgid "**while** (**true**) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:235
-msgid "**while** (c != *0x42*) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:237 AmebaILI9341.rst:243
-msgid "**while** (!mySerial.available());"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:239 AmebaILI9341.rst:245
-msgid "c = mySerial.read();"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:247
-msgid "**if** (c == *0x4d*) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:249
-msgid "// now we got a correct header)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:251
-msgid "buf[idx++] = *0x42*;"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:253
-msgid "buf[idx++] = *0x4d*;"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:255
-msgid "**break**;"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:261
-msgid "**while** (idx != pmsDataLen) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:263
-msgid "**while**\\ (!mySerial.available());"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:265
-msgid "buf[idx++] = mySerial.read();"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:269
-msgid "pm10 = ( buf[10] << 8 ) \\| buf[11];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:271
-msgid "last_pm25 = pm25;"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:273
-msgid "pm25 = ( buf[12] << 8 ) \\| buf[13];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:275
-msgid "pm100 = ( buf[14] << 8 ) \\| buf[15];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:277 AmebaILI9341.rst:395
-msgid "updateValueToTftScreen();"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:281
-msgid "**void** drawPictureFrames() {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:283
-msgid "tft.setRotation(1);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:285
-msgid "tft.clr();"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:287 AmebaILI9341.rst:291 AmebaILI9341.rst:303
-#: AmebaILI9341.rst:309 AmebaILI9341.rst:319 AmebaILI9341.rst:325
-#: AmebaILI9341.rst:335 AmebaILI9341.rst:341 AmebaILI9341.rst:371
-#: AmebaILI9341.rst:391 AmebaILI9341.rst:449
-msgid "tft.setFontSize(1);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:289
-msgid "// Upper title"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:293
-msgid "tft.setCursor(20,20);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:295
-msgid "tft.print(\"PM2.5 DETECTOR\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:297
-msgid "// PM 2.5 Circle Frame"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:299
-msgid "tft.drawCircle(100,130,60, ILI9341_BLUE);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:301
-msgid "tft.drawCircle(100,130,61, ILI9341_BLUE);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:305
-msgid "tft.setCursor(90,85);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:307
-msgid "tft.print(\"PM2.5\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:311
-msgid "tft.setCursor(90,170);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:313 AmebaILI9341.rst:329 AmebaILI9341.rst:345
-msgid "tft.print(\"um/m3\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:315
-msgid "// PM 10 Circle Frame"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:317
-msgid "tft.drawCircle(220,70,40, ILI9341_BLUE);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:321
-msgid "tft.setCursor(210,40);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:323
-msgid "tft.print(\"PM10\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:327
-msgid "tft.setCursor(205,95);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:331
-msgid "// PM 1.0 Circle Frame"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:333
-msgid "tft.drawCircle(220,170,40, ILI9341_BLUE);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:337
-msgid "tft.setCursor(205,140);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:339
-msgid "tft.print(\"PM1.0\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:343
-msgid "tft.setCursor(205,195);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:347
-msgid "// right side bar, referenced from: http://taqm.epa.gov.tw/taqm/tw/"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:349
-msgid "tft.fillRectangle(290, 30+ 0*2, 10, 12*2, pm25color[0]); // 0~11"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:351
-msgid "tft.fillRectangle(290, 30+12*2, 10, 12*2, pm25color[1]); // 12-23"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:353
-msgid "tft.fillRectangle(290, 30+24*2, 10, 12*2, pm25color[2]); // 24-35"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:355
-msgid "tft.fillRectangle(290, 30+36*2, 10, 6*2, pm25color[3]); // 36-41"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:357
-msgid "tft.fillRectangle(290, 30+42*2, 10, 6*2, pm25color[4]); // 42-47"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:359
-msgid "tft.fillRectangle(290, 30+48*2, 10, 6*2, pm25color[5]); // 48-53"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:361
-msgid "tft.fillRectangle(290, 30+54*2, 10, 6*2, pm25color[6]); // 54-58"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:363
-msgid "tft.fillRectangle(290, 30+59*2, 10, 6*2, pm25color[7]); // 59-64"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:365
-msgid "tft.fillRectangle(290, 30+65*2, 10, 6*2, pm25color[8]); // 65-70"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:367
-msgid "tft.fillRectangle(290, 30+71*2, 10, 10*2, pm25color[9]); // >=71"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:369
-msgid "tft.setCursor(302, 30);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:373
-msgid "tft.print(\"0\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:375
-msgid "tft.setCursor(302, 30+36*2);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:377
-msgid "tft.print(\"36\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:379
-msgid "tft.setCursor(302, 30+54*2);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:381
-msgid "tft.print(\"54\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:383
-msgid "tft.setCursor(302, 30+71*2);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:385
-msgid "tft.print(\"71\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:387
-msgid "// bottom right text"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:389
-msgid "tft.setCursor(210,230);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:393
-msgid "tft.print(\"Powered by Realtek\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:399
-msgid "**void** updateValueToTftScreen() {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:401
-msgid "tft.setCursor(60, 111);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:403
-msgid "tft.setFontSize(5);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:405
-msgid "tft.setForeground( getPm25Color(pm25) );"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:407
-msgid "**if** (pm25 < 10) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:409 AmebaILI9341.rst:413 AmebaILI9341.rst:425
-#: AmebaILI9341.rst:429 AmebaILI9341.rst:439 AmebaILI9341.rst:443
-msgid "tft.print(\" \");"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:411
-msgid "} **else** **if** (pm25 < 100) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:417
-msgid "tft.print(pm25);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:419
-msgid "tft.setCursor(195,60);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:421
-msgid "tft.setFontSize(3);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:423
-msgid "**if** (pm100 < 10) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:427
-msgid "} **else** **if** (pm100 < 100) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:433
-msgid "tft.print(pm100);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:435
-msgid "tft.setCursor(198,160);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:437
-msgid "**if** (pm10 < 10) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:441
-msgid "} **else** **if** (pm10 < 100) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:447
-msgid "tft.print(pm10);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:451
-msgid "tft.setForeground(ILI9341_WHITE);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:453
-msgid "**if** (last_pm25 > 80) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:455
-msgid "tft.fillRectangle(275, 80*2+30-3, 12, 8, ILI9341_BLACK);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:457 AmebaILI9341.rst:467 AmebaILI9341.rst:515
-msgid "} **else** {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:459
-msgid "tft.fillRectangle(275, last_pm25*2+30-3, 12, 8, ILI9341_BLACK);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:463
-msgid "**if** (pm25 > 80) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:465
-msgid "tft.setCursor(275, 80*2+30-3);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:469
-msgid "tft.setCursor(275, pm25*2+30-3);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:473
-msgid "tft.print(\"=>\");"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:477
-msgid "**uint16_t** getPm25Color(**int** v) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:479
-msgid "**if** (v < 12) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:481
-msgid "**return** pm25color[0];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:483
-msgid "} **else** **if** (v < 24) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:485
-msgid "**return** pm25color[1];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:487
-msgid "} **else** **if** (v < 36) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:489
-msgid "**return** pm25color[2];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:491
-msgid "} **else** **if** (v < 42) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:493
-msgid "**return** pm25color[3];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:495
-msgid "} **else** **if** (v < 48) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:497
-msgid "**return** pm25color[4];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:499
-msgid "} **else** **if** (v < 54) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:501
-msgid "**return** pm25color[5];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:503
-msgid "} **else** **if** (v < 59) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:505
-msgid "**return** pm25color[6];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:507
-msgid "} **else** **if** (v < 65) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:509
-msgid "**return** pm25color[7];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:511
-msgid "} **else** **if** (v < 71) {"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:513
-msgid "**return** pm25color[8];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:517
-msgid "**return** pm25color[9];"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:523 AmebaILI9341.rst:554 AmebaILI9341.rst:585
-#: AmebaILI9341.rst:613 AmebaILI9341.rst:641 AmebaILI9341.rst:672
-#: AmebaILI9341.rst:701 AmebaILI9341.rst:732 AmebaILI9341.rst:765
-#: AmebaILI9341.rst:794 AmebaILI9341.rst:826 AmebaILI9341.rst:859
-#: AmebaILI9341.rst:890 AmebaILI9341.rst:921 AmebaILI9341.rst:949
-#: AmebaILI9341.rst:977 AmebaILI9341.rst:1005 AmebaILI9341.rst:1036
-#: AmebaILI9341.rst:1067 AmebaILI9341.rst:1098 AmebaILI9341.rst:1129
-#: AmebaILI9341.rst:1157
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:358
+#: AmebaILI9341.rst:391 AmebaILI9341.rst:423 AmebaILI9341.rst:453
+#: AmebaILI9341.rst:483 AmebaILI9341.rst:518 AmebaILI9341.rst:549
+#: AmebaILI9341.rst:582 AmebaILI9341.rst:619 AmebaILI9341.rst:651
+#: AmebaILI9341.rst:688 AmebaILI9341.rst:725 AmebaILI9341.rst:761
+#: AmebaILI9341.rst:796 AmebaILI9341.rst:826 AmebaILI9341.rst:856
+#: AmebaILI9341.rst:886 AmebaILI9341.rst:920 AmebaILI9341.rst:953
+#: AmebaILI9341.rst:986 AmebaILI9341.rst:1019 AmebaILI9341.rst:1049
 msgid "**Notes and Warnings**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:525 AmebaILI9341.rst:583 AmebaILI9341.rst:611
-#: AmebaILI9341.rst:615 AmebaILI9341.rst:639 AmebaILI9341.rst:699
-#: AmebaILI9341.rst:767 AmebaILI9341.rst:792 AmebaILI9341.rst:796
-#: AmebaILI9341.rst:824 AmebaILI9341.rst:857 AmebaILI9341.rst:861
-#: AmebaILI9341.rst:888 AmebaILI9341.rst:892 AmebaILI9341.rst:919
-#: AmebaILI9341.rst:947 AmebaILI9341.rst:975 AmebaILI9341.rst:979
-#: AmebaILI9341.rst:1003 AmebaILI9341.rst:1007 AmebaILI9341.rst:1038
-#: AmebaILI9341.rst:1069 AmebaILI9341.rst:1100 AmebaILI9341.rst:1131
-#: AmebaILI9341.rst:1155 AmebaILI9341.rst:1159
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:360
+#: AmebaILI9341.rst:421 AmebaILI9341.rst:451 AmebaILI9341.rst:455
+#: AmebaILI9341.rst:481 AmebaILI9341.rst:547 AmebaILI9341.rst:621
+#: AmebaILI9341.rst:649 AmebaILI9341.rst:653 AmebaILI9341.rst:686
+#: AmebaILI9341.rst:723 AmebaILI9341.rst:727 AmebaILI9341.rst:759
+#: AmebaILI9341.rst:763 AmebaILI9341.rst:794 AmebaILI9341.rst:824
+#: AmebaILI9341.rst:854 AmebaILI9341.rst:858 AmebaILI9341.rst:884
+#: AmebaILI9341.rst:888 AmebaILI9341.rst:922 AmebaILI9341.rst:955
+#: AmebaILI9341.rst:988 AmebaILI9341.rst:1021 AmebaILI9341.rst:1047
+#: AmebaILI9341.rst:1051
 msgid "NA"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:529
-msgid "**AmebaILI9341::begin**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:533
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:368
 msgid "Initialize hardware SPI, pin mapping and screen configuration"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:537
-msgid "void AmebaILI9341::begin(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:541 AmebaILI9341.rst:719 AmebaILI9341.rst:967
-#: AmebaILI9341.rst:995 AmebaILI9341.rst:1147
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:378
+#: AmebaILI9341.rst:569 AmebaILI9341.rst:846 AmebaILI9341.rst:876
+#: AmebaILI9341.rst:1039
 msgid "The function requires no input parameter."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:549 AmebaILI9341.rst:667 AmebaILI9341.rst:727
-#: AmebaILI9341.rst:760 AmebaILI9341.rst:1031 AmebaILI9341.rst:1062
-#: AmebaILI9341.rst:1093 AmebaILI9341.rst:1124
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:386
+#: AmebaILI9341.rst:513 AmebaILI9341.rst:577 AmebaILI9341.rst:614
+#: AmebaILI9341.rst:915 AmebaILI9341.rst:948 AmebaILI9341.rst:981
+#: AmebaILI9341.rst:1014
 msgid "Example: PM25_ON_ILI9341_TFT_LCD"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:551 AmebaILI9341.rst:669 AmebaILI9341.rst:762
-#: AmebaILI9341.rst:1033 AmebaILI9341.rst:1064 AmebaILI9341.rst:1095
-#: AmebaILI9341.rst:1126
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:388
+#: AmebaILI9341.rst:515 AmebaILI9341.rst:616 AmebaILI9341.rst:917
+#: AmebaILI9341.rst:950 AmebaILI9341.rst:983 AmebaILI9341.rst:1016
 msgid ""
 "Details of the code are given in the previous section of AmebaILI9341:: "
 "AmebaILI9341."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:556
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:393
 msgid ""
 "This method is required to run first before other operations on the "
 "display."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:561
-msgid "**AmebaILI9341::setAddress**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:565
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:402
 msgid "Initialize image size and positioning on the display"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:569
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:412
 msgid ""
-"void AmebaILI9341::setAddress(uint16_t x0, uint16_t y0, uint16_t x1, "
-"uint16_t y1)"
+"``x0`` : leftmost coordinate of the image y0: top coordinate of the image"
+" x1: rightmost coordinate of the image y1: bottom coordinate of the image"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:574
-msgid ""
-"x0: leftmost coordinate of the image y0: top coordinate of the image x1: "
-"rightmost coordinate of the image y1: bottom coordinate of the image"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:587
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:425
 msgid "Do not use this to set the cursor, use the “setCursor” method instead."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:591
-msgid "**AmebaILI9341::writecommand**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:595
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:433
 msgid "Write a single-byte command to display"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:599
-msgid "void AmebaILI9341::writecommand(uint8_t command)"
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:443
+msgid "``command`` : a single byte command"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:603
-msgid "command: a single byte command"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:619
-msgid "**AmebaILI9341::writedata**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:623
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:463
 msgid "Write 1 byte of data to display"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:627
-msgid "void AmebaILI9341::writedata(uint8_t data)"
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:473
+msgid "``data`` : 1 byte data"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:631
-msgid "data: 1 byte data"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:643
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:485
 msgid "Only use this method to write 1 byte at a time."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:647
-msgid "**AmebaILI9341::setRotation**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:651
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:493
 msgid ""
 "Setting screen orientation, “0” for no rotation, “1” for 90 degrees "
 "rotation and so on so forth."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:656
-msgid "void AmebaILI9341::setRotation(uint8_t m)/span> **Parameters**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:658
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:504
 msgid ""
-"m: one of the 4 rotation modes -> “0” for no rotation, “1” for 90⁰, “2” "
-"for 180⁰, “3” for 270⁰"
+"``m`` : one of the 4 rotation modes -> “0” for no rotation, “1” for 90⁰, "
+"“2” for 180⁰, “3” for 270⁰"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:674
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:520
 msgid ""
 "if m=4, it’s equivalent to mode 0, and m=5 for mode 1, m=6 for mode 2 so "
 "on so forth."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:679
-msgid "**AmebaILI9341::fillScreen**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:683
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:529
 msgid "Fill the entire screen with one color"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:687
-msgid "void AmebaILI9341::fillScreen(uint16_t color)"
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:539
+msgid "``color`` : a 16-bit color reference defined in AmebaILI9341.h"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:691
-msgid "color: a 16-bit color reference defined in AmebaILI9341.h"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:703
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:551
 msgid "Refer to AmebaILI9341.h for available colors."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:707
-msgid "**AmebaILI9341::clr**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:711
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:559
 msgid "Fill the entire screen with a certain background-color"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:715
-msgid "void AmebaILI9341::clr(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:729
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:579
 msgid ""
 "Details of the code are given in the previous section of AmebaILI9341:: "
 "AmebaILI9341"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:734
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:584
 msgid "background-color can be set by calling setBackground method."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:738
-msgid "**AmebaILI9341::fillRectangle**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:742
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:592
 msgid "Fill a rectangular space with a color on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:746
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:602
+#: AmebaILI9341.rst:747
 msgid ""
-"void AmebaILI9341::fillRectangle(int16_t x, int16_t y, int16_t w, int16_t"
-" h, uint16_t color)"
+"``x`` : leftmost coordinate of the image ``y`` : top coordinate of the "
+"image ``w`` : width of the image ``h`` : height of the image ``color`` : "
+"the color of the image"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:751 AmebaILI9341.rst:879
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:639
 msgid ""
-"x: leftmost coordinate of the image y: top coordinate of the image w: "
-"width of the image h: height of the image color: the color of the image"
+"``x`` : leftmost coordinate of the image ``y`` : top coordinate of the "
+"image ``color`` : the color of the image"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:771
-msgid "**AmebaILI9341::drawPixel**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:779
-msgid "void AmebaILI9341::drawPixel(int16_t x, int16_t y, uint16_t color)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:783
-msgid ""
-"x: leftmost coordinate of the image y: top coordinate of the image color:"
-" the color of the image"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:800
-msgid "**AmebaILI9341::drawChar**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:804
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:661
 msgid "Draw character on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:808
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:673
 msgid ""
-"void AmebaILI9341::drawChar(unsigned char c) void "
-"AmebaILI9341::drawChar(int16_t x, int16_t y, unsigned char c, uint16_t "
-"\\_fontcolor, uint16_t \\_background, uint8_t \\_fontsize)"
+"``x`` : leftmost coordinate of the image ``y`` : top coordinate of the "
+"image ``c`` : a character ``_fontcolor`` : font color ``_background`` : "
+"background color ``_fontsize`` : font size"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:814
-msgid ""
-"x: leftmost coordinate of the image y: top coordinate of the image c: a "
-"character \\_fontcolor: font color \\_background: background color "
-"\\_fontsize: font size"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:828
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:690
 msgid ""
 "In the actual example, the Print method is used to print a string of "
 "character on the screen instead of using this method."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:833
-msgid "**AmebaILI9341::drawLine**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:837
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:699
 msgid "Draw a straight line on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:841
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:711
 msgid ""
-"void AmebaILI9341::drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t "
-"y1) void AmebaILI9341::drawLine(int16_t x0, int16_t y0, int16_t x1, "
-"int16_t y1, uint16_t color)"
+"``x0`` : leftmost coordinate of the image ``y0`` : top coordinate of the "
+"image ``x1`` : leftmost coordinate of the image ``y1`` : top coordinate "
+"of the image ``color`` : the color of the image"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:847
-msgid ""
-"x0: leftmost coordinate of the image y0: top coordinate of the image x1: "
-"leftmost coordinate of the image y1: top coordinate of the image color: "
-"the color of the image"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:865
-msgid "**AmebaILI9341::drawRectangle**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:869
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:735
 msgid "Draw a rectangular shape on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:873
-msgid ""
-"void AmebaILI9341::drawRectangle(int16_t x, int16_t y, int16_t w, int16_t"
-" h) void AmebaILI9341::drawRectangle(int16_t x, int16_t y, int16_t w, "
-"int16_t h, uint16_t color)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:896
-msgid "**AmebaILI9341::drawCircle**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:900
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:771
 msgid "Draw a circular shape on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:904
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:783
 msgid ""
-"void AmebaILI9341::drawCircle(int16_t x0, int16_t y0, int16_t r) void "
-"AmebaILI9341::drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t "
-"color)"
+"``x0`` : leftmost coordinate of the image ``y0`` : top coordinate of the "
+"image ``r`` : radius of the image ``color`` : the color of the image"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:910
-msgid ""
-"x0: leftmost coordinate of the image y0: top coordinate of the image r: "
-"radius of the image color: the color of the image"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:923
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:798
 msgid "Include “AmebaServo.h” to use the class function."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:927
-msgid "**AmebaILI9341::write**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:931
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:806
 msgid "Same as drawChar, write a character on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:935
-msgid "size_t AmebaILI9341::write(uint8_t c)"
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:816
+msgid "``c`` : a character to be written on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:939
-msgid "c: a character to be written on the screen"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:943
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:820
 msgid "Number of bytes written"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:951
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:828
 msgid "This an inherited method from Print class and is seldom used."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:955
-msgid "**AmebaILI9341::getWidth**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:959
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:836
 msgid "Get the width of the image"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:963
-msgid "int16_t AmebaILI9341::getWidth(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:971
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:850
 msgid "Width of the image"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:983
-msgid "**AmebaILI9341::getHeight**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:987
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:866
 msgid "Get the height of the image"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:991
-msgid "int16_t AmebaILI9341::getHeight(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:999
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:880
 msgid "Height of the image"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1011
-msgid "**AmebaILI9341::setCursor**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1015
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:896
 msgid "Set the cursor to a specific position on the screen"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1019
-msgid "void AmebaILI9341::setCursor(int16_t x, int16_t y)"
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:906
+msgid "``x`` : coordinate on the x-axis ``y`` : coordinate on the y-axis"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1023
-msgid "x: coordinate on the x-axis y: coordinate on the y-axis"
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:940
+msgid "``color`` : one of the colors available in AmebaILI9341.h"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1042
-msgid "**AmebaILI9341::setForeground**"
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:973
+msgid "``_background`` : one of the colors available in AmebaILI9341.h"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1050
-msgid "void AmebaILI9341::setForeground(uint16_t color)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1054
-msgid "color: one of the colors available in AmebaILI9341.h"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1073
-msgid "**AmebaILI9341::setBackground**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1081
-msgid "void AmebaILI9341::setBackground(uint16_t \\_background)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1085
-msgid "\\_background: one of the colors available in AmebaILI9341.h"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1104
-msgid "**AmebaILI9341::setFontSize**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1108
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:996
 msgid "Set the font size of the characters printed on the screen."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1112
-msgid "void AmebaILI9341::setFontSize(uint8_t size)"
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:1006
+msgid "``size``: font size default 1 for smallest, 5 for largest font size"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1116
-msgid "size: font size, default 1 for smallest, 5 for largest font size"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1135
-msgid "**AmebaILI9341::reset**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1139
+#: ../../source/ambd_arduino/api_class/Class AmebaILI9341.rst:1029
 msgid "Reset the pin to High or Low"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/api_documents/Class
-#: AmebaILI9341.rst:1143
-msgid "void AmebaILI9341::reset(void)"
-msgstr ""
+#~ msgid "**AmebaILI9341 Class**"
+#~ msgstr ""
+
+#~ msgid "class AmebaILI9341"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::AmebaILI9341**"
+#~ msgstr ""
+
+#~ msgid "AmebaILI9341::AmebaILI9341(int csPin, int dcPin, int resetPin)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "csPin: pin for Chip Select dcPin: "
+#~ "pin for Data/Command resetPin: pin for"
+#~ " Reset"
+#~ msgstr ""
+
+#~ msgid "/\\*"
+#~ msgstr ""
+
+#~ msgid "PMS 3003 pin map is as follow:"
+#~ msgstr ""
+
+#~ msgid "PIN1 :VCC, connect to 5V"
+#~ msgstr ""
+
+#~ msgid "PIN2 :GND"
+#~ msgstr ""
+
+#~ msgid "PIN3 :SET, 0:Standby mode, 1:operating mode"
+#~ msgstr ""
+
+#~ msgid "PIN4 :RXD :Serial RX"
+#~ msgstr ""
+
+#~ msgid "PIN5 :TXD :Serial TX"
+#~ msgstr ""
+
+#~ msgid "PIN6 :RESET"
+#~ msgstr ""
+
+#~ msgid "PIN7 :NC"
+#~ msgstr ""
+
+#~ msgid "PIN8 :NC"
+#~ msgstr ""
+
+#~ msgid "In this example, we only use Serial to get PM 2.5 value."
+#~ msgstr ""
+
+#~ msgid "The circuit:"
+#~ msgstr ""
+
+#~ msgid "\\* RX is digital pin 0 (connect to TX of PMS 3003)"
+#~ msgstr ""
+
+#~ msgid "\\* TX is digital pin 1 (connect to RX of PMS 3003)"
+#~ msgstr ""
+
+#~ msgid "For RTL8195A ILI9341 TFT LCD with SPI interface has these pins:"
+#~ msgstr ""
+
+#~ msgid "D/C : connect to pin 9"
+#~ msgstr ""
+
+#~ msgid "CS : connect to pin 10"
+#~ msgstr ""
+
+#~ msgid "MOSI : connect to pin 11"
+#~ msgstr ""
+
+#~ msgid "MISO : connect to pin 12"
+#~ msgstr ""
+
+#~ msgid "CLK : connect to pin 13"
+#~ msgstr ""
+
+#~ msgid "VCC : connect to 3V3"
+#~ msgstr ""
+
+#~ msgid "GND : connect to GND"
+#~ msgstr ""
+
+#~ msgid "\\*/"
+#~ msgstr ""
+
+#~ msgid "**#include \"SoftwareSerial.h\"**"
+#~ msgstr ""
+
+#~ msgid "**#include \"SPI.h\"**"
+#~ msgstr ""
+
+#~ msgid "**#include \"AmebaILI9341.h\"**"
+#~ msgstr ""
+
+#~ msgid "**#if defined(BOARD_RTL8195A)**"
+#~ msgstr ""
+
+#~ msgid "SoftwareSerial mySerial(0, 1); // RX, TX"
+#~ msgstr ""
+
+#~ msgid "**#define TFT_RESET 8**"
+#~ msgstr ""
+
+#~ msgid "**#define TFT_DC 9**"
+#~ msgstr ""
+
+#~ msgid "**#define TFT_CS 10**"
+#~ msgstr ""
+
+#~ msgid "**#elif defined(BOARD_RTL8710)**"
+#~ msgstr ""
+
+#~ msgid "SoftwareSerial mySerial(17, 5); // RX, TX"
+#~ msgstr ""
+
+#~ msgid "// IMPORTANT: Due to limit pin, we do not connect TFT_RESET pin."
+#~ msgstr ""
+
+#~ msgid "**#define TFT_RESET 0xFFFFFFFF**"
+#~ msgstr ""
+
+#~ msgid "**#define TFT_DC 2**"
+#~ msgstr ""
+
+#~ msgid "**#endif**"
+#~ msgstr ""
+
+#~ msgid "AmebaILI9341 tft = AmebaILI9341(TFT_CS, TFT_DC, TFT_RESET);"
+#~ msgstr ""
+
+#~ msgid "**#define ILI9341_SPI_FREQUENCY 20000000**"
+#~ msgstr ""
+
+#~ msgid "**#define pmsDataLen 32**"
+#~ msgstr ""
+
+#~ msgid "**uint8_t** buf[pmsDataLen];"
+#~ msgstr ""
+
+#~ msgid "**int** idx = 0;"
+#~ msgstr ""
+
+#~ msgid "**int** pm10 = 0;"
+#~ msgstr ""
+
+#~ msgid "**int** last_pm25 = 0;"
+#~ msgstr ""
+
+#~ msgid "**int** pm25 = 0;"
+#~ msgstr ""
+
+#~ msgid "**int** pm100 = 0;"
+#~ msgstr ""
+
+#~ msgid "**uint16_t** pm25color[] = {"
+#~ msgstr ""
+
+#~ msgid "*0x9FF3*,"
+#~ msgstr ""
+
+#~ msgid "*0x37E0*,"
+#~ msgstr ""
+
+#~ msgid "*0x3660*,"
+#~ msgstr ""
+
+#~ msgid "*0xFFE0*,"
+#~ msgstr ""
+
+#~ msgid "*0xFE60*,"
+#~ msgstr ""
+
+#~ msgid "*0xFCC0*,"
+#~ msgstr ""
+
+#~ msgid "*0xFB2C*,"
+#~ msgstr ""
+
+#~ msgid "*0xF800*,"
+#~ msgstr ""
+
+#~ msgid "*0x9800*,"
+#~ msgstr ""
+
+#~ msgid "*0xC99F*"
+#~ msgstr ""
+
+#~ msgid "};"
+#~ msgstr ""
+
+#~ msgid "**void** setup() {"
+#~ msgstr ""
+
+#~ msgid "Serial.begin(57600);"
+#~ msgstr ""
+
+#~ msgid "mySerial.begin(9600); // PMS 3003 UART has baud rate 9600"
+#~ msgstr ""
+
+#~ msgid "SPI.setDefaultFrequency(ILI9341_SPI_FREQUENCY);"
+#~ msgstr ""
+
+#~ msgid "tft.begin();"
+#~ msgstr ""
+
+#~ msgid "drawPictureFrames();"
+#~ msgstr ""
+
+#~ msgid "}"
+#~ msgstr ""
+
+#~ msgid "**void** loop() { // run over and over"
+#~ msgstr ""
+
+#~ msgid "**uint8_t** c;"
+#~ msgstr ""
+
+#~ msgid "idx = 0;"
+#~ msgstr ""
+
+#~ msgid "memset(buf, 0, pmsDataLen);"
+#~ msgstr ""
+
+#~ msgid "**while** (**true**) {"
+#~ msgstr ""
+
+#~ msgid "**while** (c != *0x42*) {"
+#~ msgstr ""
+
+#~ msgid "**while** (!mySerial.available());"
+#~ msgstr ""
+
+#~ msgid "c = mySerial.read();"
+#~ msgstr ""
+
+#~ msgid "**if** (c == *0x4d*) {"
+#~ msgstr ""
+
+#~ msgid "// now we got a correct header)"
+#~ msgstr ""
+
+#~ msgid "buf[idx++] = *0x42*;"
+#~ msgstr ""
+
+#~ msgid "buf[idx++] = *0x4d*;"
+#~ msgstr ""
+
+#~ msgid "**break**;"
+#~ msgstr ""
+
+#~ msgid "**while** (idx != pmsDataLen) {"
+#~ msgstr ""
+
+#~ msgid "**while**\\ (!mySerial.available());"
+#~ msgstr ""
+
+#~ msgid "buf[idx++] = mySerial.read();"
+#~ msgstr ""
+
+#~ msgid "pm10 = ( buf[10] << 8 ) \\| buf[11];"
+#~ msgstr ""
+
+#~ msgid "last_pm25 = pm25;"
+#~ msgstr ""
+
+#~ msgid "pm25 = ( buf[12] << 8 ) \\| buf[13];"
+#~ msgstr ""
+
+#~ msgid "pm100 = ( buf[14] << 8 ) \\| buf[15];"
+#~ msgstr ""
+
+#~ msgid "updateValueToTftScreen();"
+#~ msgstr ""
+
+#~ msgid "**void** drawPictureFrames() {"
+#~ msgstr ""
+
+#~ msgid "tft.setRotation(1);"
+#~ msgstr ""
+
+#~ msgid "tft.clr();"
+#~ msgstr ""
+
+#~ msgid "tft.setFontSize(1);"
+#~ msgstr ""
+
+#~ msgid "// Upper title"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(20,20);"
+#~ msgstr ""
+
+#~ msgid "tft.print(\"PM2.5 DETECTOR\");"
+#~ msgstr ""
+
+#~ msgid "// PM 2.5 Circle Frame"
+#~ msgstr ""
+
+#~ msgid "tft.drawCircle(100,130,60, ILI9341_BLUE);"
+#~ msgstr ""
+
+#~ msgid "tft.drawCircle(100,130,61, ILI9341_BLUE);"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(90,85);"
+#~ msgstr ""
+
+#~ msgid "tft.print(\"PM2.5\");"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(90,170);"
+#~ msgstr ""
+
+#~ msgid "tft.print(\"um/m3\");"
+#~ msgstr ""
+
+#~ msgid "// PM 10 Circle Frame"
+#~ msgstr ""
+
+#~ msgid "tft.drawCircle(220,70,40, ILI9341_BLUE);"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(210,40);"
+#~ msgstr ""
+
+#~ msgid "tft.print(\"PM10\");"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(205,95);"
+#~ msgstr ""
+
+#~ msgid "// PM 1.0 Circle Frame"
+#~ msgstr ""
+
+#~ msgid "tft.drawCircle(220,170,40, ILI9341_BLUE);"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(205,140);"
+#~ msgstr ""
+
+#~ msgid "tft.print(\"PM1.0\");"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(205,195);"
+#~ msgstr ""
+
+#~ msgid "// right side bar, referenced from: http://taqm.epa.gov.tw/taqm/tw/"
+#~ msgstr ""
+
+#~ msgid "tft.fillRectangle(290, 30+ 0*2, 10, 12*2, pm25color[0]); // 0~11"
+#~ msgstr ""
+
+#~ msgid "tft.fillRectangle(290, 30+12*2, 10, 12*2, pm25color[1]); // 12-23"
+#~ msgstr ""
+
+#~ msgid "tft.fillRectangle(290, 30+24*2, 10, 12*2, pm25color[2]); // 24-35"
+#~ msgstr ""
+
+#~ msgid "tft.fillRectangle(290, 30+36*2, 10, 6*2, pm25color[3]); // 36-41"
+#~ msgstr ""
+
+#~ msgid "tft.fillRectangle(290, 30+42*2, 10, 6*2, pm25color[4]); // 42-47"
+#~ msgstr ""
+
+#~ msgid "tft.fillRectangle(290, 30+48*2, 10, 6*2, pm25color[5]); // 48-53"
+#~ msgstr ""
+
+#~ msgid "tft.fillRectangle(290, 30+54*2, 10, 6*2, pm25color[6]); // 54-58"
+#~ msgstr ""
+
+#~ msgid "tft.fillRectangle(290, 30+59*2, 10, 6*2, pm25color[7]); // 59-64"
+#~ msgstr ""
+
+#~ msgid "tft.fillRectangle(290, 30+65*2, 10, 6*2, pm25color[8]); // 65-70"
+#~ msgstr ""
+
+#~ msgid "tft.fillRectangle(290, 30+71*2, 10, 10*2, pm25color[9]); // >=71"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(302, 30);"
+#~ msgstr ""
+
+#~ msgid "tft.print(\"0\");"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(302, 30+36*2);"
+#~ msgstr ""
+
+#~ msgid "tft.print(\"36\");"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(302, 30+54*2);"
+#~ msgstr ""
+
+#~ msgid "tft.print(\"54\");"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(302, 30+71*2);"
+#~ msgstr ""
+
+#~ msgid "tft.print(\"71\");"
+#~ msgstr ""
+
+#~ msgid "// bottom right text"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(210,230);"
+#~ msgstr ""
+
+#~ msgid "tft.print(\"Powered by Realtek\");"
+#~ msgstr ""
+
+#~ msgid "**void** updateValueToTftScreen() {"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(60, 111);"
+#~ msgstr ""
+
+#~ msgid "tft.setFontSize(5);"
+#~ msgstr ""
+
+#~ msgid "tft.setForeground( getPm25Color(pm25) );"
+#~ msgstr ""
+
+#~ msgid "**if** (pm25 < 10) {"
+#~ msgstr ""
+
+#~ msgid "tft.print(\" \");"
+#~ msgstr ""
+
+#~ msgid "} **else** **if** (pm25 < 100) {"
+#~ msgstr ""
+
+#~ msgid "tft.print(pm25);"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(195,60);"
+#~ msgstr ""
+
+#~ msgid "tft.setFontSize(3);"
+#~ msgstr ""
+
+#~ msgid "**if** (pm100 < 10) {"
+#~ msgstr ""
+
+#~ msgid "} **else** **if** (pm100 < 100) {"
+#~ msgstr ""
+
+#~ msgid "tft.print(pm100);"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(198,160);"
+#~ msgstr ""
+
+#~ msgid "**if** (pm10 < 10) {"
+#~ msgstr ""
+
+#~ msgid "} **else** **if** (pm10 < 100) {"
+#~ msgstr ""
+
+#~ msgid "tft.print(pm10);"
+#~ msgstr ""
+
+#~ msgid "tft.setForeground(ILI9341_WHITE);"
+#~ msgstr ""
+
+#~ msgid "**if** (last_pm25 > 80) {"
+#~ msgstr ""
+
+#~ msgid "tft.fillRectangle(275, 80*2+30-3, 12, 8, ILI9341_BLACK);"
+#~ msgstr ""
+
+#~ msgid "} **else** {"
+#~ msgstr ""
+
+#~ msgid "tft.fillRectangle(275, last_pm25*2+30-3, 12, 8, ILI9341_BLACK);"
+#~ msgstr ""
+
+#~ msgid "**if** (pm25 > 80) {"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(275, 80*2+30-3);"
+#~ msgstr ""
+
+#~ msgid "tft.setCursor(275, pm25*2+30-3);"
+#~ msgstr ""
+
+#~ msgid "tft.print(\"=>\");"
+#~ msgstr ""
+
+#~ msgid "**uint16_t** getPm25Color(**int** v) {"
+#~ msgstr ""
+
+#~ msgid "**if** (v < 12) {"
+#~ msgstr ""
+
+#~ msgid "**return** pm25color[0];"
+#~ msgstr ""
+
+#~ msgid "} **else** **if** (v < 24) {"
+#~ msgstr ""
+
+#~ msgid "**return** pm25color[1];"
+#~ msgstr ""
+
+#~ msgid "} **else** **if** (v < 36) {"
+#~ msgstr ""
+
+#~ msgid "**return** pm25color[2];"
+#~ msgstr ""
+
+#~ msgid "} **else** **if** (v < 42) {"
+#~ msgstr ""
+
+#~ msgid "**return** pm25color[3];"
+#~ msgstr ""
+
+#~ msgid "} **else** **if** (v < 48) {"
+#~ msgstr ""
+
+#~ msgid "**return** pm25color[4];"
+#~ msgstr ""
+
+#~ msgid "} **else** **if** (v < 54) {"
+#~ msgstr ""
+
+#~ msgid "**return** pm25color[5];"
+#~ msgstr ""
+
+#~ msgid "} **else** **if** (v < 59) {"
+#~ msgstr ""
+
+#~ msgid "**return** pm25color[6];"
+#~ msgstr ""
+
+#~ msgid "} **else** **if** (v < 65) {"
+#~ msgstr ""
+
+#~ msgid "**return** pm25color[7];"
+#~ msgstr ""
+
+#~ msgid "} **else** **if** (v < 71) {"
+#~ msgstr ""
+
+#~ msgid "**return** pm25color[8];"
+#~ msgstr ""
+
+#~ msgid "**return** pm25color[9];"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::begin**"
+#~ msgstr ""
+
+#~ msgid "void AmebaILI9341::begin(void)"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::setAddress**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void AmebaILI9341::setAddress(uint16_t x0, uint16_t"
+#~ " y0, uint16_t x1, uint16_t y1)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "x0: leftmost coordinate of the image "
+#~ "y0: top coordinate of the image "
+#~ "x1: rightmost coordinate of the image"
+#~ " y1: bottom coordinate of the image"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::writecommand**"
+#~ msgstr ""
+
+#~ msgid "void AmebaILI9341::writecommand(uint8_t command)"
+#~ msgstr ""
+
+#~ msgid "command: a single byte command"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::writedata**"
+#~ msgstr ""
+
+#~ msgid "void AmebaILI9341::writedata(uint8_t data)"
+#~ msgstr ""
+
+#~ msgid "data: 1 byte data"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::setRotation**"
+#~ msgstr ""
+
+#~ msgid "void AmebaILI9341::setRotation(uint8_t m)/span> **Parameters**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "m: one of the 4 rotation modes "
+#~ "-> “0” for no rotation, “1” for"
+#~ " 90⁰, “2” for 180⁰, “3” for "
+#~ "270⁰"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::fillScreen**"
+#~ msgstr ""
+
+#~ msgid "void AmebaILI9341::fillScreen(uint16_t color)"
+#~ msgstr ""
+
+#~ msgid "color: a 16-bit color reference defined in AmebaILI9341.h"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::clr**"
+#~ msgstr ""
+
+#~ msgid "void AmebaILI9341::clr(void)"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::fillRectangle**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void AmebaILI9341::fillRectangle(int16_t x, int16_t"
+#~ " y, int16_t w, int16_t h, uint16_t"
+#~ " color)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "x: leftmost coordinate of the image "
+#~ "y: top coordinate of the image w:"
+#~ " width of the image h: height "
+#~ "of the image color: the color of"
+#~ " the image"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::drawPixel**"
+#~ msgstr ""
+
+#~ msgid "void AmebaILI9341::drawPixel(int16_t x, int16_t y, uint16_t color)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "x: leftmost coordinate of the image "
+#~ "y: top coordinate of the image "
+#~ "color: the color of the image"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::drawChar**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void AmebaILI9341::drawChar(unsigned char c) "
+#~ "void AmebaILI9341::drawChar(int16_t x, int16_t "
+#~ "y, unsigned char c, uint16_t "
+#~ "\\_fontcolor, uint16_t \\_background, uint8_t "
+#~ "\\_fontsize)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "x: leftmost coordinate of the image "
+#~ "y: top coordinate of the image c:"
+#~ " a character \\_fontcolor: font color "
+#~ "\\_background: background color \\_fontsize: "
+#~ "font size"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::drawLine**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void AmebaILI9341::drawLine(int16_t x0, int16_t "
+#~ "y0, int16_t x1, int16_t y1) void "
+#~ "AmebaILI9341::drawLine(int16_t x0, int16_t y0, "
+#~ "int16_t x1, int16_t y1, uint16_t color)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "x0: leftmost coordinate of the image "
+#~ "y0: top coordinate of the image "
+#~ "x1: leftmost coordinate of the image "
+#~ "y1: top coordinate of the image "
+#~ "color: the color of the image"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::drawRectangle**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void AmebaILI9341::drawRectangle(int16_t x, int16_t"
+#~ " y, int16_t w, int16_t h) void "
+#~ "AmebaILI9341::drawRectangle(int16_t x, int16_t y,"
+#~ " int16_t w, int16_t h, uint16_t "
+#~ "color)"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::drawCircle**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void AmebaILI9341::drawCircle(int16_t x0, int16_t"
+#~ " y0, int16_t r) void "
+#~ "AmebaILI9341::drawCircle(int16_t x0, int16_t y0, "
+#~ "int16_t r, uint16_t color)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "x0: leftmost coordinate of the image "
+#~ "y0: top coordinate of the image r:"
+#~ " radius of the image color: the "
+#~ "color of the image"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::write**"
+#~ msgstr ""
+
+#~ msgid "size_t AmebaILI9341::write(uint8_t c)"
+#~ msgstr ""
+
+#~ msgid "c: a character to be written on the screen"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::getWidth**"
+#~ msgstr ""
+
+#~ msgid "int16_t AmebaILI9341::getWidth(void)"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::getHeight**"
+#~ msgstr ""
+
+#~ msgid "int16_t AmebaILI9341::getHeight(void)"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::setCursor**"
+#~ msgstr ""
+
+#~ msgid "void AmebaILI9341::setCursor(int16_t x, int16_t y)"
+#~ msgstr ""
+
+#~ msgid "x: coordinate on the x-axis y: coordinate on the y-axis"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::setForeground**"
+#~ msgstr ""
+
+#~ msgid "void AmebaILI9341::setForeground(uint16_t color)"
+#~ msgstr ""
+
+#~ msgid "color: one of the colors available in AmebaILI9341.h"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::setBackground**"
+#~ msgstr ""
+
+#~ msgid "void AmebaILI9341::setBackground(uint16_t \\_background)"
+#~ msgstr ""
+
+#~ msgid "\\_background: one of the colors available in AmebaILI9341.h"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::setFontSize**"
+#~ msgstr ""
+
+#~ msgid "void AmebaILI9341::setFontSize(uint8_t size)"
+#~ msgstr ""
+
+#~ msgid "size: font size, default 1 for smallest, 5 for largest font size"
+#~ msgstr ""
+
+#~ msgid "**AmebaILI9341::reset**"
+#~ msgstr ""
+
+#~ msgid "void AmebaILI9341::reset(void)"
+#~ msgstr ""
 

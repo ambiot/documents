@@ -1,0 +1,244 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:3
+msgid "Class USBHIDMouse"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:6
+#: USBHIDMouse.rst:53 USBHIDMouse.rst:83 USBHIDMouse.rst:114
+#: USBHIDMouse.rst:158 USBHIDMouse.rst:188 USBHIDMouse.rst:218
+#: USBHIDMouse.rst:248 USBHIDMouse.rst:280
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:8
+msgid "A class used for creating and managing a USB HID Mouse."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:10
+#: USBHIDMouse.rst:57 USBHIDMouse.rst:87 USBHIDMouse.rst:118
+#: USBHIDMouse.rst:162 USBHIDMouse.rst:192 USBHIDMouse.rst:222
+#: USBHIDMouse.rst:252 USBHIDMouse.rst:284
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:16
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:18
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:21
+msgid "USBHIDMouse::USBHIDMouse"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:21
+msgid "Constructs a USBHIDMouse object"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:24
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:27
+msgid "USBHIDMouse::setReportID"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:27
+msgid "Set HID report ID for the HID Mouse"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:30
+msgid "USBHIDMouse::mouseReport"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:30
+msgid "Send a HID Mouse report"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:32
+msgid "USBHIDMouse::mousePress"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:32
+msgid "Send a HID Mouse report indicating buttons pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:35
+msgid "USBHIDMouse::mouseRelease"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:35
+msgid "Send a HID Mouse report indicating buttons released"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:38
+msgid "USBHIDMouse::mouseReleaseAll"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:38
+msgid "Send a HID Mouse report indicating no buttons pressed"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:41
+msgid "USBHIDMouse::mouseMove"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:41
+msgid "Send a HID Mouse report indicating mouse movement"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:44
+msgid "USBHIDMouse::mouseScroll"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:44
+msgid "Send a HID Mouse report indicating mouse scroll wheel movement"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:55
+msgid "Constructs a USBHIDMouse object."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:63
+#: USBHIDMouse.rst:93 USBHIDMouse.rst:128 USBHIDMouse.rst:168
+#: USBHIDMouse.rst:198 USBHIDMouse.rst:228 USBHIDMouse.rst:258
+#: USBHIDMouse.rst:290
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:65
+#: USBHIDMouse.rst:230
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:67
+#: USBHIDMouse.rst:98 USBHIDMouse.rst:142 USBHIDMouse.rst:172
+#: USBHIDMouse.rst:202 USBHIDMouse.rst:232 USBHIDMouse.rst:264
+#: USBHIDMouse.rst:294
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:69
+#: USBHIDMouse.rst:100 USBHIDMouse.rst:144 USBHIDMouse.rst:174
+#: USBHIDMouse.rst:204 USBHIDMouse.rst:234 USBHIDMouse.rst:266
+#: USBHIDMouse.rst:296
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:71
+#: USBHIDMouse.rst:102 USBHIDMouse.rst:146 USBHIDMouse.rst:176
+#: USBHIDMouse.rst:206 USBHIDMouse.rst:236 USBHIDMouse.rst:268
+#: USBHIDMouse.rst:298
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:73
+#: USBHIDMouse.rst:178 USBHIDMouse.rst:208 USBHIDMouse.rst:270
+#: USBHIDMouse.rst:300
+msgid "Example: USBHIDMouse"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:75
+#: USBHIDMouse.rst:106 USBHIDMouse.rst:150 USBHIDMouse.rst:180
+#: USBHIDMouse.rst:210 USBHIDMouse.rst:240 USBHIDMouse.rst:272
+#: USBHIDMouse.rst:302
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:77
+#: USBHIDMouse.rst:104 USBHIDMouse.rst:108 USBHIDMouse.rst:148
+#: USBHIDMouse.rst:152 USBHIDMouse.rst:182 USBHIDMouse.rst:212
+#: USBHIDMouse.rst:238 USBHIDMouse.rst:242 USBHIDMouse.rst:274
+#: USBHIDMouse.rst:304
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:85
+msgid "Set HID report ID for the HID Mouse."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:95
+msgid ""
+"``reportID`` : The report ID for the HID mouse device, corresponding to "
+"the HID report descriptor."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:116
+msgid "Send a HID Mouse report."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:130
+msgid ""
+"``report`` : pointer to mouse report structure containing data on mouse "
+"inputs"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:133
+msgid ""
+"``buttons`` : bitmap indicating state of each button. 1 = pressed, 0 = "
+"released."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:136
+#: USBHIDMouse.rst:260
+msgid "``x`` : mouse x-axis movement. Integer value from -127 to 127."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:138
+#: USBHIDMouse.rst:262
+msgid "``y`` : mouse y-axis movement. Integer value from -127 to 127."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:140
+#: USBHIDMouse.rst:292
+msgid "``scroll`` : mouse scroll wheel movement. Integer value from -127 to 127."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:160
+msgid "Send a HID Mouse report indicating buttons pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:170
+msgid "``buttons`` : bitmap indicating buttons pressed. 1 = pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:190
+msgid "Send a HID Mouse report indicating buttons released."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:200
+msgid "``buttons`` : bitmap indicating buttons released. 1 = released."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:220
+msgid "Send a HID Mouse report indicating no buttons pressed."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:250
+msgid "Send a HID Mouse report indicating mouse movement."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class USBHIDMouse.rst:282
+msgid "Send a HID Mouse report indicating mouse scroll wheel movement."
+msgstr ""
+

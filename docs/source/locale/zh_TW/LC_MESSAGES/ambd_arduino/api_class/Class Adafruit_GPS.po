@@ -1,0 +1,376 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:3
+msgid "Class Adafruit_GPS"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:5
+#: Adafruit_GPS.rst:67 Adafruit_GPS.rst:219 Adafruit_GPS.rst:252
+#: Adafruit_GPS.rst:285 Adafruit_GPS.rst:317 Adafruit_GPS.rst:347
+#: Adafruit_GPS.rst:380 Adafruit_GPS.rst:410 Adafruit_GPS.rst:440
+#: Adafruit_GPS.rst:473 Adafruit_GPS.rst:503 Adafruit_GPS.rst:533
+#: Adafruit_GPS.rst:563 Adafruit_GPS.rst:594 Adafruit_GPS.rst:624
+#: Adafruit_GPS.rst:654
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:7
+msgid "Defines a class to use GPS module on Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:9
+#: Adafruit_GPS.rst:72 Adafruit_GPS.rst:223 Adafruit_GPS.rst:256
+#: Adafruit_GPS.rst:289 Adafruit_GPS.rst:321 Adafruit_GPS.rst:351
+#: Adafruit_GPS.rst:384 Adafruit_GPS.rst:414 Adafruit_GPS.rst:444
+#: Adafruit_GPS.rst:477 Adafruit_GPS.rst:507 Adafruit_GPS.rst:537
+#: Adafruit_GPS.rst:567 Adafruit_GPS.rst:598 Adafruit_GPS.rst:628
+#: Adafruit_GPS.rst:658
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:15
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:18
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:20
+msgid "Adafruit_GPS::Adafruit_GPS"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:20
+msgid "Constructs an Adafruit_GPS object"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:24
+msgid "Adafruit_GPS::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:24
+#: Adafruit_GPS.rst:221
+msgid "Initialize serial communication"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:26
+msgid "\\*Adafruit_GPS:: lastNMEA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:26
+#: Adafruit_GPS.rst:254
+msgid "Returns the last NMEA line received and unsets the received flag"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:30
+msgid "Adafruit_GPS:: newNMEAreceived"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:30
+#: Adafruit_GPS.rst:287
+msgid "Check to see if a new NMEA line has been received"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:33
+msgid "Adafruit_GPS:: common_init"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:33
+#: Adafruit_GPS.rst:319
+msgid "Initialization code used by all constructor types"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:36
+msgid "Adafruit_GPS:: sendCommand"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:36
+#: Adafruit_GPS.rst:349
+msgid "Send a command to the GPS device"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:38
+msgid "Adafruit_GPS:: pause"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:38
+#: Adafruit_GPS.rst:382
+msgid "Pause/unpause receiving new data"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:40
+msgid "Adafruit_GPS:: parseHex"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:40
+#: Adafruit_GPS.rst:412
+msgid "Read a Hex value and return the decimal equivalent"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:43
+msgid "Adafruit_GPS:: read"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:43
+#: Adafruit_GPS.rst:442
+msgid "Read one character from the GPS device"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:46
+msgid "Adafruit_GPS:: parse"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:46
+#: Adafruit_GPS.rst:475
+msgid "Parse an NMEA string"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:48
+msgid "Adafruit_GPS:: wakeup"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:48
+#: Adafruit_GPS.rst:505
+msgid "Wake the sensor up"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:50
+msgid "Adafruit_GPS:: standby"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:50
+#: Adafruit_GPS.rst:535
+msgid "Standby Mode Switches"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:52
+msgid "Adafruit_GPS::waitForSentence"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:52
+#: Adafruit_GPS.rst:565
+msgid "Wait for a specified sentence from the device"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:55
+msgid "Adafruit_GPS::LOCUS_StartLogger"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:55
+#: Adafruit_GPS.rst:596
+msgid "Start the LOCUS logger"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:57
+msgid "Adafruit_GPS::LOCUS_StopLogger"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:57
+#: Adafruit_GPS.rst:626
+msgid "Stop the LOCUS logger"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:59
+msgid "Adafruit_GPS::LOCUS_ReadStatus"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:59
+#: Adafruit_GPS.rst:656
+msgid "Read the logger status"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:69
+msgid ""
+"Constructs an Adafruit_GPS object and initialize serial using a "
+"SoftSerial object."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:82
+#: Adafruit_GPS.rst:229 Adafruit_GPS.rst:262 Adafruit_GPS.rst:295
+#: Adafruit_GPS.rst:327 Adafruit_GPS.rst:357 Adafruit_GPS.rst:390
+#: Adafruit_GPS.rst:420 Adafruit_GPS.rst:450 Adafruit_GPS.rst:483
+#: Adafruit_GPS.rst:513 Adafruit_GPS.rst:543 Adafruit_GPS.rst:573
+#: Adafruit_GPS.rst:604 Adafruit_GPS.rst:634 Adafruit_GPS.rst:664
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:84
+msgid "``ser`` : a Serial instance"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:86
+#: Adafruit_GPS.rst:233 Adafruit_GPS.rst:266 Adafruit_GPS.rst:299
+#: Adafruit_GPS.rst:331 Adafruit_GPS.rst:361 Adafruit_GPS.rst:394
+#: Adafruit_GPS.rst:424 Adafruit_GPS.rst:454 Adafruit_GPS.rst:487
+#: Adafruit_GPS.rst:517 Adafruit_GPS.rst:547 Adafruit_GPS.rst:578
+#: Adafruit_GPS.rst:608 Adafruit_GPS.rst:638 Adafruit_GPS.rst:668
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:88
+#: Adafruit_GPS.rst:235 Adafruit_GPS.rst:333 Adafruit_GPS.rst:363
+#: Adafruit_GPS.rst:396
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:90
+#: Adafruit_GPS.rst:237 Adafruit_GPS.rst:270 Adafruit_GPS.rst:303
+#: Adafruit_GPS.rst:335 Adafruit_GPS.rst:365 Adafruit_GPS.rst:398
+#: Adafruit_GPS.rst:428 Adafruit_GPS.rst:458 Adafruit_GPS.rst:491
+#: Adafruit_GPS.rst:521 Adafruit_GPS.rst:551 Adafruit_GPS.rst:582
+#: Adafruit_GPS.rst:612 Adafruit_GPS.rst:642 Adafruit_GPS.rst:672
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:92
+msgid ""
+"This example code from Adafruit demonstrates GPS modules using "
+"MTK3329/MTK3339 driver. This code shows how to listen to the GPS module "
+"in an interrupt which allows the program to have more ‘freedom’ – just "
+"parse when a new NMEA sentence is available! Then access data when "
+"desired."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:98
+msgid "Adafruit_GPS_parsing.ino"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:210
+#: Adafruit_GPS.rst:244 Adafruit_GPS.rst:277 Adafruit_GPS.rst:309
+#: Adafruit_GPS.rst:339 Adafruit_GPS.rst:372 Adafruit_GPS.rst:402
+#: Adafruit_GPS.rst:432 Adafruit_GPS.rst:465 Adafruit_GPS.rst:495
+#: Adafruit_GPS.rst:525 Adafruit_GPS.rst:555 Adafruit_GPS.rst:586
+#: Adafruit_GPS.rst:616 Adafruit_GPS.rst:646 Adafruit_GPS.rst:676
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:213
+msgid "SoftSerial is using hardware serial so pin mapping cannot be altered."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:231
+msgid "``baud`` : serial baud rate"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:239
+#: Adafruit_GPS.rst:272 Adafruit_GPS.rst:367 Adafruit_GPS.rst:460
+#: Adafruit_GPS.rst:493
+msgid "Example: Adafruit_GPS_parsing"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:241
+#: Adafruit_GPS.rst:274 Adafruit_GPS.rst:369 Adafruit_GPS.rst:462
+msgid ""
+"The details of the code can be found in the previous section of "
+"Adafruit_GPS:: Adafruit_GPS."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:246
+#: Adafruit_GPS.rst:279 Adafruit_GPS.rst:311 Adafruit_GPS.rst:337
+#: Adafruit_GPS.rst:341 Adafruit_GPS.rst:374 Adafruit_GPS.rst:400
+#: Adafruit_GPS.rst:404 Adafruit_GPS.rst:430 Adafruit_GPS.rst:434
+#: Adafruit_GPS.rst:467 Adafruit_GPS.rst:497 Adafruit_GPS.rst:523
+#: Adafruit_GPS.rst:527 Adafruit_GPS.rst:553 Adafruit_GPS.rst:557
+#: Adafruit_GPS.rst:584 Adafruit_GPS.rst:588 Adafruit_GPS.rst:614
+#: Adafruit_GPS.rst:618 Adafruit_GPS.rst:644 Adafruit_GPS.rst:648
+#: Adafruit_GPS.rst:674 Adafruit_GPS.rst:678
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:264
+#: Adafruit_GPS.rst:297 Adafruit_GPS.rst:329 Adafruit_GPS.rst:452
+#: Adafruit_GPS.rst:515 Adafruit_GPS.rst:545 Adafruit_GPS.rst:606
+#: Adafruit_GPS.rst:636 Adafruit_GPS.rst:666
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:268
+msgid "Pointer to the last line string"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:301
+msgid "True if received, false if not"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:305
+msgid ""
+"Example: Adafruit_GPS_parsing The details of the code can be found in the"
+" previous section of Adafruit_GPS:: Adafruit_GPS."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:359
+msgid "``str`` : Pointer to a string holding the command to send"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:392
+msgid "``p`` : True = pause, false = unpause"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:422
+msgid "``c`` : Hex value"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:426
+msgid "The decimal equivalent of the Hex value"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:456
+msgid "The character that we received, or 0 if nothing was available"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:485
+msgid "``nmea`` : an NMEA string"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:489
+msgid "True if we parsed it, false if it has invalid data"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:519
+msgid "True if woken up, false if not in standby or failed to wake"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:549
+msgid "False if already in standby, true if it entered standby"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:575
+msgid ""
+"wait4me: Pointer to a string holding the desired response max: How long "
+"to wait, default is MAXWAITSENTENCE"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:580
+msgid "True if we got what we wanted, false otherwise"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:610
+#: Adafruit_GPS.rst:640
+msgid "True on success, false if it failed"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class Adafruit_GPS.rst:670
+msgid "True if we read the data, false if there was no response"
+msgstr ""
+

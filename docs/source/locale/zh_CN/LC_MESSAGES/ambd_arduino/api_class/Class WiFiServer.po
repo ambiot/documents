@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:3
+msgid "Class WiFiServer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:5 WiFiServer.rst:49
+#: WiFiServer.rst:157 WiFiServer.rst:194 WiFiServer.rst:228
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:7
+msgid "Defines a class of WiFi server implementation for Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:9 WiFiServer.rst:54
+#: WiFiServer.rst:163 WiFiServer.rst:198 WiFiServer.rst:232
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:15
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:18
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:20
+msgid "WiFiServer::WiFiServer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:20
+msgid ""
+"Constructs a WiFiServer object and creates a server that listens for "
+"incoming connections on the specified port"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:28
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:30
+msgid "WiFiServer::available"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:30
+msgid ""
+"Gets a client that is connected to the server and has data available for "
+"reading. The connection persists when the returned client object goes out"
+" of scope; you can close it by calling the client.stop()"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:37
+msgid "WiFiServer::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:37
+#: WiFiServer.rst:196
+msgid "Tells the server to begin listening for incoming connections"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:40
+msgid "WiFiServer::write"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:40
+#: WiFiServer.rst:230
+msgid "Write data to all the clients connected to a server"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:51
+msgid ""
+"Constructs a WiFiServer object and creates a server that listens for "
+"incoming connections on the specified port."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:60
+#: WiFiServer.rst:169 WiFiServer.rst:204 WiFiServer.rst:242
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:62
+msgid "``port`` : The port number being connected to."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:64
+#: WiFiServer.rst:173 WiFiServer.rst:208 WiFiServer.rst:250
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:66
+#: WiFiServer.rst:210
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:68
+#: WiFiServer.rst:178 WiFiServer.rst:212 WiFiServer.rst:255
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:70
+#: WiFiServer.rst:180 WiFiServer.rst:214 WiFiServer.rst:257
+msgid "Example: SimpleServerWiFi"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:148
+#: WiFiServer.rst:185 WiFiServer.rst:219 WiFiServer.rst:263
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:150
+#: WiFiServer.rst:187 WiFiServer.rst:221 WiFiServer.rst:265
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:159
+msgid ""
+"Gets a client that is connected to the server and has data available for "
+"reading. The connection persists when the returned client object goes out"
+" of scope; you can close it by calling the client.stop()."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:171
+msgid "``status`` : WiFi availability status"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:175
+msgid ""
+"A Client object; if no Client has data available for reading, this object"
+" will evaluate to false in an if-statement"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:182
+#: WiFiServer.rst:216
+msgid ""
+"Details of the code can be found in the previous section of WiFiServer:: "
+"WiFiServer."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:206
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:244
+msgid "``b``: byte to be written"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:246
+msgid "``buf`` : data buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:248
+msgid "``size`` : Size of the data in the buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:252
+msgid ""
+"The function returns the number of bytes written. It is not necessary to "
+"read this."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:259
+msgid "Details of the code can be found in the previous section of"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiServer.rst:261
+msgid "WiFiServer:: WiFiServer."
+msgstr ""
+

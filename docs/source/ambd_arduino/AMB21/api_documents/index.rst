@@ -7,7 +7,7 @@
 API Documents
 #############
 
-**RTL8722DM ARDUINO Online API Documents**
+**AMB21/AMB22 ARDUINO Online API Documents**
 
 *********************
 Analog

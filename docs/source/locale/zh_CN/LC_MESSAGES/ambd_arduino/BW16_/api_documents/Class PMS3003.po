@@ -8,430 +8,429 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:2
-msgid "Class HttpClient"
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:3
+msgid "Class PMS3003"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:3
-msgid "**PMS3003 Class**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:5
-#: PMS3003.rst:43 PMS3003.rst:67 PMS3003.rst:88 PMS3003.rst:109 PMS3003.rst:130
-#: PMS3003.rst:151 PMS3003.rst:172 PMS3003.rst:193 PMS3003.rst:214
-#: PMS3003.rst:235 PMS3003.rst:257
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:6 PMS3003.rst:51
+#: PMS3003.rst:88 PMS3003.rst:119 PMS3003.rst:149 PMS3003.rst:179
+#: PMS3003.rst:209 PMS3003.rst:239 PMS3003.rst:270 PMS3003.rst:301
+#: PMS3003.rst:331 PMS3003.rst:364
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:6
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:8
 msgid "Defines a class to work with PMS3003 air quality sensor on Ameba."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:8
-#: PMS3003.rst:46 PMS3003.rst:70 PMS3003.rst:91 PMS3003.rst:112 PMS3003.rst:133
-#: PMS3003.rst:154 PMS3003.rst:175 PMS3003.rst:196 PMS3003.rst:217
-#: PMS3003.rst:238 PMS3003.rst:284
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:10 PMS3003.rst:55
+#: PMS3003.rst:92 PMS3003.rst:123 PMS3003.rst:153 PMS3003.rst:183
+#: PMS3003.rst:213 PMS3003.rst:243 PMS3003.rst:274 PMS3003.rst:305
+#: PMS3003.rst:335 PMS3003.rst:392
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:9
-msgid "class PMS3003"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:11
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:16
 msgid "**Members**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:14
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:19
 msgid "**Public Constructors**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:16
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:21
 msgid "PMS3003::PMS3003"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:16
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:21
 msgid "Constructs a PMS3003 object"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:18
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:23
 msgid "**Public Methods**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:20
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:25
 msgid "PMS3003::begin"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:20
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:25
 msgid "Initialize hardware UART"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:22
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:27
 msgid "PMS3003::end"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:22
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:27
 msgid "Free allocated space thus stopping UART"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:24
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:29
 msgid "PMS3003::get_pm1p0_cf1"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:24
-#: PMS3003.rst:110
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:29 PMS3003.rst:151
 msgid "Get PM1.0 under correction factor = 1"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:26
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:31
 msgid "PMS3003:: get_pm2p5_cf1"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:26
-#: PMS3003.rst:131
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:31 PMS3003.rst:181
 msgid "Get PM2.5 under correction factor = 1"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:28
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:33
 msgid "PMS3003:: get_pm10_cf1"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:28
-#: PMS3003.rst:152
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:33 PMS3003.rst:211
 msgid "Get PM10 under correction factor = 1"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:30
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:35
 msgid "PMS3003:: get_pm1p0_air"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:30
-#: PMS3003.rst:173
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:35 PMS3003.rst:241
 msgid "Get PM1.0 air quality"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:32
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:37
 msgid "PMS3003:: get_pm2p5_air"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:32
-#: PMS3003.rst:194
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:37 PMS3003.rst:272
 msgid "Get PM2.5 air quality"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:34
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:39
 msgid "PMS3003:: get_pm10_air"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:34
-#: PMS3003.rst:215
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:39 PMS3003.rst:303
 msgid "Get PM10 air quality"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:36
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:41
 msgid "PMS3003:update_cache"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:36
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:41
 msgid "Updates the cache memory"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:38
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:43
 msgid "PMS3003::pms3003_handle_interrupt"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:38
-#: PMS3003.rst:236
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:43 PMS3003.rst:333
 msgid "Set up the serial event handler"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:41
-msgid "**PMS3003::PMS3003**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:44
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:53
 msgid "Constructs a PMS3003 object and initialize the pin mapping."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:47
-msgid "PMS3003::PMS3003(int \\_rx, int \\_tx, int \\_set, int \\_reset)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:49
-#: PMS3003.rst:73 PMS3003.rst:94 PMS3003.rst:115 PMS3003.rst:136
-#: PMS3003.rst:157 PMS3003.rst:178 PMS3003.rst:199 PMS3003.rst:220
-#: PMS3003.rst:241 PMS3003.rst:287
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:61 PMS3003.rst:98
+#: PMS3003.rst:129 PMS3003.rst:159 PMS3003.rst:189 PMS3003.rst:219
+#: PMS3003.rst:249 PMS3003.rst:280 PMS3003.rst:311 PMS3003.rst:341
+#: PMS3003.rst:398
 msgid "**Parameters**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:50
-msgid "\\_rx: RX pin of UART"
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:63
+msgid "``_rx`` : RX pin of UART"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:51
-msgid "\\_tx: TX pin of UART"
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:65
+msgid "``_tx`` : TX pin of UART"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:52
-msgid "\\_set: Set pin"
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:67
+msgid "``_set`` : Set pin"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:53
-msgid "\\_reset: Reset pin"
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:69
+msgid "``_reset`` : Reset pin"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:55
-#: PMS3003.rst:76 PMS3003.rst:97 PMS3003.rst:118 PMS3003.rst:139
-#: PMS3003.rst:160 PMS3003.rst:181 PMS3003.rst:202 PMS3003.rst:223
-#: PMS3003.rst:245 PMS3003.rst:290
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:71 PMS3003.rst:102
+#: PMS3003.rst:133 PMS3003.rst:163 PMS3003.rst:193 PMS3003.rst:223
+#: PMS3003.rst:253 PMS3003.rst:284 PMS3003.rst:315 PMS3003.rst:347
+#: PMS3003.rst:402
 msgid "**Returns**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:56
-#: PMS3003.rst:77 PMS3003.rst:98 PMS3003.rst:246 PMS3003.rst:291
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:73 PMS3003.rst:104
+#: PMS3003.rst:135 PMS3003.rst:349 PMS3003.rst:404
 msgid "The function returns nothing."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:58
-#: PMS3003.rst:79 PMS3003.rst:100 PMS3003.rst:121 PMS3003.rst:142
-#: PMS3003.rst:163 PMS3003.rst:184 PMS3003.rst:205 PMS3003.rst:226
-#: PMS3003.rst:248 PMS3003.rst:293
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:75 PMS3003.rst:106
+#: PMS3003.rst:137 PMS3003.rst:167 PMS3003.rst:197 PMS3003.rst:227
+#: PMS3003.rst:257 PMS3003.rst:288 PMS3003.rst:319 PMS3003.rst:351
+#: PMS3003.rst:406
 msgid "**Example Code**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:59
-#: PMS3003.rst:62 PMS3003.rst:80 PMS3003.rst:83 PMS3003.rst:101 PMS3003.rst:104
-#: PMS3003.rst:122 PMS3003.rst:125 PMS3003.rst:143 PMS3003.rst:146
-#: PMS3003.rst:164 PMS3003.rst:167 PMS3003.rst:185 PMS3003.rst:188
-#: PMS3003.rst:206 PMS3003.rst:209 PMS3003.rst:227 PMS3003.rst:230
-#: PMS3003.rst:249 PMS3003.rst:252 PMS3003.rst:294 PMS3003.rst:297
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:77 PMS3003.rst:81
+#: PMS3003.rst:108 PMS3003.rst:112 PMS3003.rst:139 PMS3003.rst:143
+#: PMS3003.rst:169 PMS3003.rst:173 PMS3003.rst:199 PMS3003.rst:203
+#: PMS3003.rst:229 PMS3003.rst:259 PMS3003.rst:263 PMS3003.rst:290
+#: PMS3003.rst:294 PMS3003.rst:321 PMS3003.rst:325 PMS3003.rst:353
+#: PMS3003.rst:357 PMS3003.rst:408 PMS3003.rst:412
 msgid "NA"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:61
-#: PMS3003.rst:82 PMS3003.rst:103 PMS3003.rst:124 PMS3003.rst:145
-#: PMS3003.rst:166 PMS3003.rst:187 PMS3003.rst:208 PMS3003.rst:229
-#: PMS3003.rst:251 PMS3003.rst:296
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:79 PMS3003.rst:110
+#: PMS3003.rst:141 PMS3003.rst:171 PMS3003.rst:201 PMS3003.rst:231
+#: PMS3003.rst:261 PMS3003.rst:292 PMS3003.rst:323 PMS3003.rst:355
+#: PMS3003.rst:410
 msgid "**Notes and Warnings**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:65
-msgid "**PMS3003::begin**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:68
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:90
 msgid "Initialize hardware UART and allocate space for serial buffer"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:71
-msgid "void PMS3003::begin(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:74
-#: PMS3003.rst:95 PMS3003.rst:116 PMS3003.rst:137 PMS3003.rst:158
-#: PMS3003.rst:179 PMS3003.rst:200 PMS3003.rst:221
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:100 PMS3003.rst:131
+#: PMS3003.rst:161 PMS3003.rst:191 PMS3003.rst:221 PMS3003.rst:251
+#: PMS3003.rst:282 PMS3003.rst:313
 msgid "The function requires no input parameter."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:86
-msgid "**PMS3003::end**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:89
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:121
 msgid "Free serial buffer space and stop UART"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:92
-msgid "void PMS3003::end(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:107
-msgid "**PMS3003::get_pm1p0_cf1**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:113
-msgid "int PMS3003::get_pm1p0_cf1(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:119
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:165
 msgid "The function returns the value “pm1p0_cf1” as an integer."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:128
-msgid "**PMS3003::get_pm2p5_cf1**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:134
-msgid "int PMS3003::get_pm2p5_cf1(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:140
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:195
 msgid "The function returns the value of “pm2p5_cf1” as an integer."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:149
-msgid "**PMS3003::get_pm10_cf1**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:155
-msgid "int PMS3003::get_pm10_cf1(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:161
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:225
 msgid "The function returns the value of “pm10_cf1” as an integer."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:170
-msgid "**PMS3003::get_pm1p0_air**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:176
-msgid "int PMS3003::get_pm1p0_air(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:182
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:255
 msgid "The function returns the value of “pm1p0_air” as an integer."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:191
-msgid "**PMS3003::get_pm2p5_air**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:197
-msgid "int PMS3003::get_pm2p5_air(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:203
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:286
 msgid "The function returns the value of “pm2p5_air” as an integer."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:212
-msgid "**PMS3003::get_pm10_air**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:218
-msgid "int PMS3003::get_pm10_air(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:224
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:317
 msgid "The function returns the value of “pm10_air” as an integer."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:233
-msgid "**PMS3003::pms3003_handle_interrupt**"
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:343
+msgid "``id`` : device identifier"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:239
-msgid "void pms3003_handle_interrupt(uint32_t id, uint32_t event)"
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:345
+msgid "``event`` : Serial event for handling incoming data"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:242
-msgid "id: device identifier"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:243
-msgid "event: Serial event for handling incoming data"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:255
-msgid "**PMS3003::update_cache**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:261
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:366
 msgid ""
 "Serves the function of updating cache memory. One package has 32 bytes. "
 "Illustrate the formate by using below raw data: 42 4d 00 1c 00 1b 00 21 "
-"00 29 00 1a 00 21 00 29 2b fb 04 be 00 6b 00 10 00 04 00 04 67 00 04 46"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:262
-msgid "42 4d : header signature"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:264
-msgid ""
-"00 1c : frame length, 0x001c = 28 bytes (not include header and this "
-"field)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:265
-msgid "00 1b : PM1.0 under CF=1"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:266
-msgid "00 21 : PM2.5 under CF=1"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:267
-msgid "00 29 : PM10 under CF=1"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:268
-msgid "00 1a : PM1.0 under air"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:269
-msgid "00 21 : PM2.5 under air"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:270
-msgid "00 29 : PM10 under air"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:271
-msgid "2b fb : number of pariticle, diameter size 0.3 um in 0.1 liter air"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:272
-msgid "04 be : number of pariticle, diameter size 0.5 um in 0.1 liter air"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:273
-msgid "00 6b : number of pariticle, diameter size 1.0 um in 0.1 liter air"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:274
-msgid "00 10 : number of pariticle, diameter size 2.5 um in 0.1 liter air"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:275
-msgid "00 04 : number of pariticle, diameter size 5.0 um in 0.1 liter air"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:276
-msgid "00 04 : number of pariticle, diameter size 10 um in 0.1 liter air"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:277
-msgid "67 : serial number"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:278
-msgid "00 : error code"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:282
-msgid ""
-"04 46 : "
+"00 29 00 1a 00 21 00 29 2b fb 04 be 00 6b 00 10 00 04 00 04 67 00 04 46 "
+"42 4d : header signature 00 1c : frame length, 0x001c = 28 bytes (not "
+"include header and this field) 00 1b : PM1.0 under CF=1 00 21 : PM2.5 "
+"under CF=1 00 29 : PM10 under CF=1 00 1a : PM1.0 under air 00 21 : PM2.5 "
+"under air 00 29 : PM10 under air 2b fb : number of pariticle, diameter "
+"size 0.3 um in 0.1 liter air 04 be : number of pariticle, diameter size "
+"0.5 um in 0.1 liter air 00 6b : number of pariticle, diameter size 1.0 um"
+" in 0.1 liter air 00 10 : number of pariticle, diameter size 2.5 um in "
+"0.1 liter air 00 04 : number of pariticle, diameter size 5.0 um in 0.1 "
+"liter air 00 04 : number of pariticle, diameter size 10 um in 0.1 liter "
+"air 67 : serial number 00 : error code 04 46 : "
 "checksum,0x42+0x4d+0x00+0x1c+0x00+0x1b+0x00+0x21+0x00+0x29+0x00+0x1a+0x00+0x21+0x00+0x29+"
 " 0x2b+0xfb+0x04+0xbe+0x00+0x6b+0x00+0x10+0x00+0x04+0x00+0x04+0x67+0x00 = "
 "0x0446"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:285
-msgid "void PMS3003::update_cache(void)"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class PMS3003.rst:288
+#: ../../source/ambd_arduino/api_class/Class PMS3003.rst:400
 msgid "The function requires no input parameters."
 msgstr ""
+
+#~ msgid "Class HttpClient"
+#~ msgstr ""
+
+#~ msgid "**PMS3003 Class**"
+#~ msgstr ""
+
+#~ msgid "class PMS3003"
+#~ msgstr ""
+
+#~ msgid "**PMS3003::PMS3003**"
+#~ msgstr ""
+
+#~ msgid "PMS3003::PMS3003(int \\_rx, int \\_tx, int \\_set, int \\_reset)"
+#~ msgstr ""
+
+#~ msgid "\\_rx: RX pin of UART"
+#~ msgstr ""
+
+#~ msgid "\\_tx: TX pin of UART"
+#~ msgstr ""
+
+#~ msgid "\\_set: Set pin"
+#~ msgstr ""
+
+#~ msgid "\\_reset: Reset pin"
+#~ msgstr ""
+
+#~ msgid "**PMS3003::begin**"
+#~ msgstr ""
+
+#~ msgid "void PMS3003::begin(void)"
+#~ msgstr ""
+
+#~ msgid "**PMS3003::end**"
+#~ msgstr ""
+
+#~ msgid "void PMS3003::end(void)"
+#~ msgstr ""
+
+#~ msgid "**PMS3003::get_pm1p0_cf1**"
+#~ msgstr ""
+
+#~ msgid "int PMS3003::get_pm1p0_cf1(void)"
+#~ msgstr ""
+
+#~ msgid "**PMS3003::get_pm2p5_cf1**"
+#~ msgstr ""
+
+#~ msgid "int PMS3003::get_pm2p5_cf1(void)"
+#~ msgstr ""
+
+#~ msgid "**PMS3003::get_pm10_cf1**"
+#~ msgstr ""
+
+#~ msgid "int PMS3003::get_pm10_cf1(void)"
+#~ msgstr ""
+
+#~ msgid "**PMS3003::get_pm1p0_air**"
+#~ msgstr ""
+
+#~ msgid "int PMS3003::get_pm1p0_air(void)"
+#~ msgstr ""
+
+#~ msgid "**PMS3003::get_pm2p5_air**"
+#~ msgstr ""
+
+#~ msgid "int PMS3003::get_pm2p5_air(void)"
+#~ msgstr ""
+
+#~ msgid "**PMS3003::get_pm10_air**"
+#~ msgstr ""
+
+#~ msgid "int PMS3003::get_pm10_air(void)"
+#~ msgstr ""
+
+#~ msgid "**PMS3003::pms3003_handle_interrupt**"
+#~ msgstr ""
+
+#~ msgid "void pms3003_handle_interrupt(uint32_t id, uint32_t event)"
+#~ msgstr ""
+
+#~ msgid "id: device identifier"
+#~ msgstr ""
+
+#~ msgid "event: Serial event for handling incoming data"
+#~ msgstr ""
+
+#~ msgid "**PMS3003::update_cache**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Serves the function of updating cache"
+#~ " memory. One package has 32 bytes."
+#~ " Illustrate the formate by using "
+#~ "below raw data: 42 4d 00 1c "
+#~ "00 1b 00 21 00 29 00 1a "
+#~ "00 21 00 29 2b fb 04 be "
+#~ "00 6b 00 10 00 04 00 04 "
+#~ "67 00 04 46"
+#~ msgstr ""
+
+#~ msgid "42 4d : header signature"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "00 1c : frame length, 0x001c = "
+#~ "28 bytes (not include header and "
+#~ "this field)"
+#~ msgstr ""
+
+#~ msgid "00 1b : PM1.0 under CF=1"
+#~ msgstr ""
+
+#~ msgid "00 21 : PM2.5 under CF=1"
+#~ msgstr ""
+
+#~ msgid "00 29 : PM10 under CF=1"
+#~ msgstr ""
+
+#~ msgid "00 1a : PM1.0 under air"
+#~ msgstr ""
+
+#~ msgid "00 21 : PM2.5 under air"
+#~ msgstr ""
+
+#~ msgid "00 29 : PM10 under air"
+#~ msgstr ""
+
+#~ msgid "2b fb : number of pariticle, diameter size 0.3 um in 0.1 liter air"
+#~ msgstr ""
+
+#~ msgid "04 be : number of pariticle, diameter size 0.5 um in 0.1 liter air"
+#~ msgstr ""
+
+#~ msgid "00 6b : number of pariticle, diameter size 1.0 um in 0.1 liter air"
+#~ msgstr ""
+
+#~ msgid "00 10 : number of pariticle, diameter size 2.5 um in 0.1 liter air"
+#~ msgstr ""
+
+#~ msgid "00 04 : number of pariticle, diameter size 5.0 um in 0.1 liter air"
+#~ msgstr ""
+
+#~ msgid "00 04 : number of pariticle, diameter size 10 um in 0.1 liter air"
+#~ msgstr ""
+
+#~ msgid "67 : serial number"
+#~ msgstr ""
+
+#~ msgid "00 : error code"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "04 46 : "
+#~ "checksum,0x42+0x4d+0x00+0x1c+0x00+0x1b+0x00+0x21+0x00+0x29+0x00+0x1a+0x00+0x21+0x00+0x29+"
+#~ " "
+#~ "0x2b+0xfb+0x04+0xbe+0x00+0x6b+0x00+0x10+0x00+0x04+0x00+0x04+0x67+0x00"
+#~ " = 0x0446"
+#~ msgstr ""
+
+#~ msgid "void PMS3003::update_cache(void)"
+#~ msgstr ""
 

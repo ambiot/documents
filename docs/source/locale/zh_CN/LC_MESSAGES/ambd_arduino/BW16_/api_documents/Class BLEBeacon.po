@@ -8,472 +8,367 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:2
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:3
 msgid "Class BLEBeacon"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:3
-msgid "**iBeacon Class**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:5
-#: BLEBeacon.rst:47 BLEBeacon.rst:94 BLEBeacon.rst:115 BLEBeacon.rst:138
-#: BLEBeacon.rst:163 BLEBeacon.rst:189 BLEBeacon.rst:215 BLEBeacon.rst:241
-#: BLEBeacon.rst:267 BLEBeacon.rst:292 BLEBeacon.rst:320 BLEBeacon.rst:346
-#: BLEBeacon.rst:372 BLEBeacon.rst:398 BLEBeacon.rst:422 BLEBeacon.rst:445
-#: BLEBeacon.rst:469
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:5 BLEBeacon.rst:57
+#: BLEBeacon.rst:110 BLEBeacon.rst:141 BLEBeacon.rst:174 BLEBeacon.rst:209
+#: BLEBeacon.rst:245 BLEBeacon.rst:281 BLEBeacon.rst:317 BLEBeacon.rst:353
+#: BLEBeacon.rst:388 BLEBeacon.rst:430 BLEBeacon.rst:466 BLEBeacon.rst:502
+#: BLEBeacon.rst:538 BLEBeacon.rst:572 BLEBeacon.rst:605 BLEBeacon.rst:639
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:6
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:7
 msgid "A class used for managing iBeacon BLE advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:8
-#: BLEBeacon.rst:50 BLEBeacon.rst:97 BLEBeacon.rst:118 BLEBeacon.rst:141
-#: BLEBeacon.rst:166 BLEBeacon.rst:192 BLEBeacon.rst:218 BLEBeacon.rst:244
-#: BLEBeacon.rst:270 BLEBeacon.rst:295 BLEBeacon.rst:323 BLEBeacon.rst:349
-#: BLEBeacon.rst:375 BLEBeacon.rst:401 BLEBeacon.rst:425 BLEBeacon.rst:448
-#: BLEBeacon.rst:472
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:9 BLEBeacon.rst:61
+#: BLEBeacon.rst:114 BLEBeacon.rst:145 BLEBeacon.rst:178 BLEBeacon.rst:213
+#: BLEBeacon.rst:249 BLEBeacon.rst:285 BLEBeacon.rst:321 BLEBeacon.rst:357
+#: BLEBeacon.rst:392 BLEBeacon.rst:434 BLEBeacon.rst:470 BLEBeacon.rst:506
+#: BLEBeacon.rst:542 BLEBeacon.rst:576 BLEBeacon.rst:609 BLEBeacon.rst:643
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:9
-msgid "class iBeacon"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:11
-#: BLEBeacon.rst:53
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:15 BLEBeacon.rst:67
 msgid "**Members**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:14
-#: BLEBeacon.rst:56
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:18 BLEBeacon.rst:70
 msgid "**Public Constructors**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:16
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:20
 msgid "iBeacon::iBeacon"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:16
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:20
 msgid "Create an instance of iBeacon advertising data"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:18
-#: BLEBeacon.rst:61
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:24 BLEBeacon.rst:75
 msgid "**Public Methods**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:20
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:26
 msgid "iBeacon::getManufacturerId"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:20
-#: BLEBeacon.rst:63
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:26 BLEBeacon.rst:77
 msgid "Get current manufacturer ID value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:22
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:28
 msgid "iBeacon::getUUID"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:22
-#: BLEBeacon.rst:65
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:28 BLEBeacon.rst:79
 msgid "Get current UUID value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:24
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:30
 msgid "iBeacon::getMajor"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:24
-#: BLEBeacon.rst:67
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:30 BLEBeacon.rst:81
 msgid "Get current Major value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:26
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:32
 msgid "iBeacon::getMinor"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:26
-#: BLEBeacon.rst:69
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:32 BLEBeacon.rst:83
 msgid "Get current Minor value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:28
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:34
 msgid "iBeacon::getRSSI"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:28
-#: BLEBeacon.rst:71
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:34 BLEBeacon.rst:85
 msgid "Get current RSSI value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:30
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:36
 msgid "iBeacon::setManufacturerId"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:30
-#: BLEBeacon.rst:75
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:36 BLEBeacon.rst:89
 msgid "Set manufacturer ID value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:32
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:38
 msgid "iBeacon::setUUID"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:32
-#: BLEBeacon.rst:77
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:38 BLEBeacon.rst:91
 msgid "Set UUID value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:34
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:40
 msgid "iBeacon::setMajor"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:34
-#: BLEBeacon.rst:79
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:40 BLEBeacon.rst:93
 msgid "Set Major value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:36
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:42
 msgid "iBeacon::setMinor"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:36
-#: BLEBeacon.rst:81
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:42 BLEBeacon.rst:95
 msgid "Set Minor value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:38
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:44
 msgid "iBeacon::setRSSI"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:38
-#: BLEBeacon.rst:83
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:44 BLEBeacon.rst:97
 msgid "Set RSSI value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:40
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:46
 msgid "iBeacon::getAdvData"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:40
-#: BLEBeacon.rst:87
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:46 BLEBeacon.rst:101
 msgid "Get current advertising data"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:42
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:48
 msgid "iBeacon::getScanRsp"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:42
-#: BLEBeacon.rst:89
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:48 BLEBeacon.rst:103
 msgid "Get current scan response data"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:45
-msgid "**altBeacon Class**"
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:55
+msgid "altBeacon Class"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:48
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:59
 msgid "A class used for managing altBeacon BLE advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:51
-msgid "class altBeacon"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:58
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:72
 msgid "altBeacon::altBeacon"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:58
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:72
 msgid "Create an instance of altBeacon advertising data"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:63
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:77
 msgid "altBeacon::getManufacturerId"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:65
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:79
 msgid "altBeacon::getUUID"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:67
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:81
 msgid "altBeacon::getMajor"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:69
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:83
 msgid "altBeacon::getMinor"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:71
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:85
 msgid "altBeacon::getRSSI"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:73
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:87
 msgid "altBeacon::getRSVD"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:73
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:87
 msgid "Get current Reserved value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:75
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:89
 msgid "altBeacon::setManufacturerId"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:77
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:91
 msgid "altBeacon::setUUID"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:79
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:93
 msgid "altBeacon::setMajor"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:81
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:95
 msgid "altBeacon::setMinor"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:83
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:97
 msgid "altBeacon::setRSSI"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:85
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:99
 msgid "altBeacon::setRSVD"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:85
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:99
 msgid "Set Reserved value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:87
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:101
 msgid "altBeacon::getAdvData"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:89
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:103
 msgid "altBeacon::getScanRsp"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:92
-msgid "**iBeacon::iBeacon**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:95
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:112
 msgid "Create an iBeacon object."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:98
-msgid "void iBeacon(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:100
-#: BLEBeacon.rst:121 BLEBeacon.rst:144 BLEBeacon.rst:169 BLEBeacon.rst:195
-#: BLEBeacon.rst:221 BLEBeacon.rst:247 BLEBeacon.rst:273 BLEBeacon.rst:299
-#: BLEBeacon.rst:326 BLEBeacon.rst:352 BLEBeacon.rst:378 BLEBeacon.rst:404
-#: BLEBeacon.rst:428 BLEBeacon.rst:451 BLEBeacon.rst:475
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:120
+#: BLEBeacon.rst:151 BLEBeacon.rst:184 BLEBeacon.rst:219 BLEBeacon.rst:255
+#: BLEBeacon.rst:291 BLEBeacon.rst:327 BLEBeacon.rst:363 BLEBeacon.rst:402
+#: BLEBeacon.rst:440 BLEBeacon.rst:476 BLEBeacon.rst:512 BLEBeacon.rst:548
+#: BLEBeacon.rst:582 BLEBeacon.rst:615 BLEBeacon.rst:649
 msgid "**Parameters**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:101
-#: BLEBeacon.rst:122 BLEBeacon.rst:145 BLEBeacon.rst:196 BLEBeacon.rst:222
-#: BLEBeacon.rst:248 BLEBeacon.rst:405 BLEBeacon.rst:429 BLEBeacon.rst:452
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:122
+#: BLEBeacon.rst:153 BLEBeacon.rst:186 BLEBeacon.rst:257 BLEBeacon.rst:293
+#: BLEBeacon.rst:329 BLEBeacon.rst:550 BLEBeacon.rst:584 BLEBeacon.rst:617
 msgid "The function requires no input parameter."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:103
-#: BLEBeacon.rst:124 BLEBeacon.rst:147 BLEBeacon.rst:173 BLEBeacon.rst:198
-#: BLEBeacon.rst:224 BLEBeacon.rst:250 BLEBeacon.rst:276 BLEBeacon.rst:304
-#: BLEBeacon.rst:329 BLEBeacon.rst:355 BLEBeacon.rst:381 BLEBeacon.rst:407
-#: BLEBeacon.rst:431 BLEBeacon.rst:454 BLEBeacon.rst:478
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:124
+#: BLEBeacon.rst:155 BLEBeacon.rst:188 BLEBeacon.rst:224 BLEBeacon.rst:259
+#: BLEBeacon.rst:295 BLEBeacon.rst:331 BLEBeacon.rst:367 BLEBeacon.rst:409
+#: BLEBeacon.rst:444 BLEBeacon.rst:480 BLEBeacon.rst:516 BLEBeacon.rst:552
+#: BLEBeacon.rst:586 BLEBeacon.rst:619 BLEBeacon.rst:653
 msgid "**Returns**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:104
-#: BLEBeacon.rst:125 BLEBeacon.rst:174 BLEBeacon.rst:277 BLEBeacon.rst:305
-#: BLEBeacon.rst:330 BLEBeacon.rst:356 BLEBeacon.rst:382 BLEBeacon.rst:479
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:126
+#: BLEBeacon.rst:157 BLEBeacon.rst:226 BLEBeacon.rst:369 BLEBeacon.rst:411
+#: BLEBeacon.rst:446 BLEBeacon.rst:482 BLEBeacon.rst:518 BLEBeacon.rst:655
 msgid "The function returns nothing."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:106
-#: BLEBeacon.rst:127 BLEBeacon.rst:150 BLEBeacon.rst:176 BLEBeacon.rst:201
-#: BLEBeacon.rst:227 BLEBeacon.rst:253 BLEBeacon.rst:279 BLEBeacon.rst:307
-#: BLEBeacon.rst:332 BLEBeacon.rst:358 BLEBeacon.rst:384 BLEBeacon.rst:410
-#: BLEBeacon.rst:435 BLEBeacon.rst:457 BLEBeacon.rst:481
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:128
+#: BLEBeacon.rst:159 BLEBeacon.rst:192 BLEBeacon.rst:228 BLEBeacon.rst:263
+#: BLEBeacon.rst:299 BLEBeacon.rst:335 BLEBeacon.rst:371 BLEBeacon.rst:413
+#: BLEBeacon.rst:448 BLEBeacon.rst:484 BLEBeacon.rst:520 BLEBeacon.rst:556
+#: BLEBeacon.rst:591 BLEBeacon.rst:623 BLEBeacon.rst:657
 msgid "**Example Code**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:107
-#: BLEBeacon.rst:128 BLEBeacon.rst:151 BLEBeacon.rst:177 BLEBeacon.rst:202
-#: BLEBeacon.rst:228 BLEBeacon.rst:254 BLEBeacon.rst:411 BLEBeacon.rst:436
-#: BLEBeacon.rst:458 BLEBeacon.rst:482
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:130
+#: BLEBeacon.rst:161 BLEBeacon.rst:194 BLEBeacon.rst:230 BLEBeacon.rst:265
+#: BLEBeacon.rst:301 BLEBeacon.rst:337 BLEBeacon.rst:558 BLEBeacon.rst:593
+#: BLEBeacon.rst:625 BLEBeacon.rst:659
 msgid "NA"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:109
-#: BLEBeacon.rst:130 BLEBeacon.rst:153 BLEBeacon.rst:179 BLEBeacon.rst:204
-#: BLEBeacon.rst:230 BLEBeacon.rst:256 BLEBeacon.rst:282 BLEBeacon.rst:310
-#: BLEBeacon.rst:335 BLEBeacon.rst:361 BLEBeacon.rst:387 BLEBeacon.rst:413
-#: BLEBeacon.rst:438 BLEBeacon.rst:460 BLEBeacon.rst:484
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:132
+#: BLEBeacon.rst:163 BLEBeacon.rst:196 BLEBeacon.rst:232 BLEBeacon.rst:267
+#: BLEBeacon.rst:303 BLEBeacon.rst:339 BLEBeacon.rst:375 BLEBeacon.rst:417
+#: BLEBeacon.rst:452 BLEBeacon.rst:488 BLEBeacon.rst:524 BLEBeacon.rst:560
+#: BLEBeacon.rst:595 BLEBeacon.rst:627 BLEBeacon.rst:661
 msgid "**Notes and Warnings**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:110
-#: BLEBeacon.rst:131
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:134
+#: BLEBeacon.rst:165
 msgid "Include “BLEBeacon.h” to use this class function."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:113
-msgid "**altBeacon::altBeacon**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:116
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:143
 msgid "Create an altBeacon object."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:119
-msgid "void altBeacon(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:134
-msgid "**iBeacon::getManufacturerId**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:136
-msgid "**altBeacon::getManufacturerId**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:139
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:176
 msgid "Get current Manufacturer ID value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:142
-msgid "uint16_t getManufacturerId(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:148
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:190
 msgid "A 16-bit unsigned integer containing the current Company ID."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:156
-#: BLEBeacon.rst:285
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:198
+#: BLEBeacon.rst:377
 msgid ""
 "Refer to https://www.bluetooth.com/specifications/assigned-numbers"
 "/company-identifiers/ for the full list of assigned Bluetooth company "
 "identifiers."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:159
-msgid "**iBeacon::getUUID**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:161
-msgid "**altBeacon::getUUID**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:164
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:211
 msgid "Get the current UUID value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:167
-msgid "void getUUID(uint8_t\\* UUID);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:171
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:221
 msgid ""
 "UUID: pointer to a 16 element uint8_t array, current UUID will be copied "
 "into the array."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:182
-#: BLEBeacon.rst:313
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:234
+#: BLEBeacon.rst:419
 msgid ""
 "UUID is a 128-bit number used to uniquely identify a beacon. It is "
 "commonly expressed as a 32-character hexadecimal string. UUIDs can be "
 "generated at https://www.uuidgenerator.net/."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:185
-msgid "**iBeacon::getMajor**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:187
-msgid "**altBeacon::getMajor**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:190
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:247
 msgid "Get current Major value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:193
-msgid "uint16_t getMajor(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:199
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:261
 msgid "A 16-bit unsigned integer containing the current Major value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:208
-#: BLEBeacon.rst:234 BLEBeacon.rst:339 BLEBeacon.rst:365
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:269
+#: BLEBeacon.rst:305 BLEBeacon.rst:454 BLEBeacon.rst:490
 msgid ""
 "Major and Minor are values used for customizing beacons. These can be set"
 " to any value. Refer to https://developer.apple.com/ibeacon/ or "
 "https://altbeacon.org/ for more information."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:211
-msgid "**iBeacon::getMinor**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:213
-msgid "**altBeacon::getMinor**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:216
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:283
 msgid "Get current Minor value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:219
-msgid "uint16_t getMinor(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:225
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:297
 msgid "A 16-bit unsigned integer containing the current Minor value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:237
-msgid "**iBeacon::getRSSI**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:239
-msgid "**altBeacon::getRSSI**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:242
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:319
 msgid "Get the current RSSI value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:245
-msgid "int8_t getRSSI(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:251
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:333
 msgid "An 8-bit signed integer containing the currently set RSSI value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:260
-#: BLEBeacon.rst:391
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:341
+#: BLEBeacon.rst:526
 msgid ""
 "The beacon RSSI value is the received signal strength at 1 meter. This "
 "can be used to estimate the distance to the beacon. Refer to "
@@ -481,188 +376,92 @@ msgid ""
 "information."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:263
-msgid "**iBeacon::setManufacturerId**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:265
-msgid "**altBeacon::setManufacturerId**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:268
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:355
 msgid "Set Manufacturer ID value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:271
-msgid "void setManufacturerId(uint16_t id);"
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:365
+msgid "``id`` : desired Manufacturer ID"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:274
-msgid "id: desired Manufacturer ID"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:280
-#: BLEBeacon.rst:308 BLEBeacon.rst:333 BLEBeacon.rst:359 BLEBeacon.rst:385
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:373
+#: BLEBeacon.rst:415 BLEBeacon.rst:450 BLEBeacon.rst:486 BLEBeacon.rst:522
 msgid "Example: BLEBeacon"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:288
-msgid "**iBeacon::setUUID**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:290
-msgid "**altBeacon::setUUID**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:293
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:390
 msgid "Set UUID value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:296
-msgid "void setUUID(uint8_t\\* UUID);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:297
-msgid "void setUUID(const char\\* UUID);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:301
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:404
 msgid ""
-"uint8_t\\* UUID: pointer to a 16 element uint8_t array containing the "
+"``uint8_t* UUID`` : pointer to a 16 element uint8_t array containing the "
 "desired UUID"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:302
-msgid "const char\\* UUID: desired UUID expressed as a character string"
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:407
+msgid "``const char UUID`` : desired UUID expressed as a character string"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:316
-msgid "**iBeacon::setMajor**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:318
-msgid "**altBeacon::setMajor**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:321
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:432
 msgid "Set Major value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:324
-msgid "void setMajor(uint16_t major);"
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:442
+msgid "``major`` : desired Major value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:327
-msgid "major: desired Major value"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:342
-msgid "**iBeacon::setMinor**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:344
-msgid "**altBeacon::setMinor**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:347
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:468
 msgid "Set Minor value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:350
-msgid "void setMinor(uint16_t minor);"
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:478
+msgid "``minor`` : desired Minor value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:353
-msgid "minor: desired Minor value"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:368
-msgid "**iBeacon::setRSSI**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:370
-msgid "**altBeacon::setRSSI**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:373
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:504
 msgid "Set RSSI value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:376
-msgid "void setRSSI(int8_t RSSI);"
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:514
+msgid "``RSSI`` : desired RSSI value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:379
-msgid "RSSI: desired RSSI value"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:394
-msgid "**iBeacon::getAdvData**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:396
-msgid "**altBeacon::getAdvData**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:399
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:540
 msgid "Get current beacon advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:402
-msgid "uint8_t\\* getAdvData(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:408
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:554
 msgid "A uint8_t pointer to the structure containing beacon advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:415
-#: BLEBeacon.rst:440
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:562
+#: BLEBeacon.rst:597
 msgid ""
 "Avoid changing the beacon data through the returned pointer, use the "
 "member functions instead."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:418
-msgid "**iBeacon::getScanRsp**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:420
-msgid "**altBeacon::getScanRsp**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:423
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:574
 msgid "Get current beacon advertising scan response data."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:426
-msgid "uint8_t\\* getScanRsp(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:433
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:588
 msgid ""
 "A uint8_t pointer to the structure containing beacon advertising scan "
 "response data."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:443
-msgid "**altBeacon::getRSVD**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:446
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:607
 msgid "Get current Reserved value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:449
-msgid "uint8_t getRSVD(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:455
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:621
 msgid "An 8-bit unsigned integer containing the current Reserved value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:464
-#: BLEBeacon.rst:488
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:629
+#: BLEBeacon.rst:663
 msgid ""
 "Reserved for use by the manufacturer to implement special features. The "
 "interpretation of this value is to be defined by the manufacturer and is "
@@ -670,19 +469,182 @@ msgid ""
 "https://altbeacon.org/ for more information."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:467
-msgid "**altBeacon::setRSVD**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:470
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:641
 msgid "Set Reserved value."
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:473
-msgid "void setRSVD(uint8_t rsvd);"
+#: ../../source/ambd_arduino/api_class/Class BLEBeacon.rst:651
+msgid "``rsvd`` : desired Reserved value"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class BLEBeacon.rst:476
-msgid "rsvd: desired Reserved value"
-msgstr ""
+#~ msgid "**iBeacon Class**"
+#~ msgstr ""
+
+#~ msgid "class iBeacon"
+#~ msgstr ""
+
+#~ msgid "**altBeacon Class**"
+#~ msgstr ""
+
+#~ msgid "class altBeacon"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::iBeacon**"
+#~ msgstr ""
+
+#~ msgid "void iBeacon(void);"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::altBeacon**"
+#~ msgstr ""
+
+#~ msgid "void altBeacon(void);"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::getManufacturerId**"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::getManufacturerId**"
+#~ msgstr ""
+
+#~ msgid "uint16_t getManufacturerId(void);"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::getUUID**"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::getUUID**"
+#~ msgstr ""
+
+#~ msgid "void getUUID(uint8_t\\* UUID);"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::getMajor**"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::getMajor**"
+#~ msgstr ""
+
+#~ msgid "uint16_t getMajor(void);"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::getMinor**"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::getMinor**"
+#~ msgstr ""
+
+#~ msgid "uint16_t getMinor(void);"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::getRSSI**"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::getRSSI**"
+#~ msgstr ""
+
+#~ msgid "int8_t getRSSI(void);"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::setManufacturerId**"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::setManufacturerId**"
+#~ msgstr ""
+
+#~ msgid "void setManufacturerId(uint16_t id);"
+#~ msgstr ""
+
+#~ msgid "id: desired Manufacturer ID"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::setUUID**"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::setUUID**"
+#~ msgstr ""
+
+#~ msgid "void setUUID(uint8_t\\* UUID);"
+#~ msgstr ""
+
+#~ msgid "void setUUID(const char\\* UUID);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "uint8_t\\* UUID: pointer to a 16 "
+#~ "element uint8_t array containing the "
+#~ "desired UUID"
+#~ msgstr ""
+
+#~ msgid "const char\\* UUID: desired UUID expressed as a character string"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::setMajor**"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::setMajor**"
+#~ msgstr ""
+
+#~ msgid "void setMajor(uint16_t major);"
+#~ msgstr ""
+
+#~ msgid "major: desired Major value"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::setMinor**"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::setMinor**"
+#~ msgstr ""
+
+#~ msgid "void setMinor(uint16_t minor);"
+#~ msgstr ""
+
+#~ msgid "minor: desired Minor value"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::setRSSI**"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::setRSSI**"
+#~ msgstr ""
+
+#~ msgid "void setRSSI(int8_t RSSI);"
+#~ msgstr ""
+
+#~ msgid "RSSI: desired RSSI value"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::getAdvData**"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::getAdvData**"
+#~ msgstr ""
+
+#~ msgid "uint8_t\\* getAdvData(void);"
+#~ msgstr ""
+
+#~ msgid "**iBeacon::getScanRsp**"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::getScanRsp**"
+#~ msgstr ""
+
+#~ msgid "uint8_t\\* getScanRsp(void);"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::getRSVD**"
+#~ msgstr ""
+
+#~ msgid "uint8_t getRSVD(void);"
+#~ msgstr ""
+
+#~ msgid "**altBeacon::setRSVD**"
+#~ msgstr ""
+
+#~ msgid "void setRSVD(uint8_t rsvd);"
+#~ msgstr ""
+
+#~ msgid "rsvd: desired Reserved value"
+#~ msgstr ""
 

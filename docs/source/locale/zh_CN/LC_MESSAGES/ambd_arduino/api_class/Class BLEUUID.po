@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:3
+msgid "Class BLEUUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:6 BLEUUID.rst:36
+#: BLEUUID.rst:80 BLEUUID.rst:111 BLEUUID.rst:144
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:8
+msgid "A class used for creating and managing UUIDs."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:10 BLEUUID.rst:40
+#: BLEUUID.rst:84 BLEUUID.rst:115 BLEUUID.rst:148
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:16
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:19
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:21
+msgid "BLEUUID::BLEUUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:21
+msgid "Create a UUID object"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:25
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:26
+msgid "BLEUUID::str"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:26 BLEUUID.rst:82
+msgid "Get the character string representation of UUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:27
+msgid "BLEUUID::data"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:27 BLEUUID.rst:113
+msgid "Get the binary representation of UUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:28
+msgid "BLEUUID::length"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:28 BLEUUID.rst:146
+msgid "Get the length of UUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:38
+msgid "Create a UUID object from a UUID character string"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:54 BLEUUID.rst:90
+#: BLEUUID.rst:121 BLEUUID.rst:154
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:56
+msgid "``str``: UUID character string used to created object"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:58
+msgid "``data`` : pointer to byte array containing the desired UUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:60
+msgid ""
+"``length`` : number of bytes in array containing the desired UUID. Valid "
+"values of 2, 4 or 16"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:63 BLEUUID.rst:94
+#: BLEUUID.rst:125 BLEUUID.rst:158
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:65
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:67 BLEUUID.rst:98
+#: BLEUUID.rst:130 BLEUUID.rst:162
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:69 BLEUUID.rst:73
+#: BLEUUID.rst:100 BLEUUID.rst:104 BLEUUID.rst:132 BLEUUID.rst:164
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:71 BLEUUID.rst:102
+#: BLEUUID.rst:134 BLEUUID.rst:166
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:92 BLEUUID.rst:123
+#: BLEUUID.rst:156
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:96
+msgid "Pointer to a character string representation of the UUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:127
+msgid ""
+"Pointer to an unsigned 8-bit integer array containing the UUID expressed "
+"in binary form"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:136
+msgid ""
+"Returned pointer is of const uint8_t\\* type and will not allow changing "
+"of the data."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:160
+msgid "Length of the UUID, in terms of bytes"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEUUID.rst:168
+msgid ""
+"A 4-character UUID will be 16 bits / 2 bytes long. A 32-character UUID "
+"will be 128 bits / 16 bytes long."
+msgstr ""
+
