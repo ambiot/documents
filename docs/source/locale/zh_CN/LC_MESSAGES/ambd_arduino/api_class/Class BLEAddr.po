@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:3
+msgid "Class BLEAddr"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:5 BLEAddr.rst:35
+#: BLEAddr.rst:82 BLEAddr.rst:115
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:7
+msgid "A class used for managing Bluetooth addresses."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:9 BLEAddr.rst:39
+#: BLEAddr.rst:86 BLEAddr.rst:119
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:15
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:18
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:20
+msgid "BLEAddr::BLEAddr"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:20
+msgid "Constructs a BLEAddr object"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:24
+msgid "BLEAddr::str"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:24
+msgid "Get the Bluetooth address represented as a formatted string"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:27
+msgid "BLEAddr::data"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:27
+msgid "Get the Bluetooth address represented as an integer array"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:37
+msgid "Constructs a BLEAddr object."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:58 BLEAddr.rst:92
+#: BLEAddr.rst:125
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:60
+msgid "``addr`` : An array of 6 bytes containing the desired Bluetooth address."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:62
+msgid "``str``: A character string representing the desired Bluetooth address."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:64 BLEAddr.rst:96
+#: BLEAddr.rst:129
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:66
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:68 BLEAddr.rst:101
+#: BLEAddr.rst:134
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:70 BLEAddr.rst:136
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:72 BLEAddr.rst:105
+#: BLEAddr.rst:138
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:74
+msgid ""
+"When expressed as a string, the Bluetooth address should be written as 6 "
+"bytes in hexadecimal format, using a colon “:” to separate the bytes is "
+"acceptable (example – 00:11:22:33:EE:FF)."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:84
+msgid "Get the Bluetooth address represented as a formatted string."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:94 BLEAddr.rst:127
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:98
+msgid ""
+"The function returns a pointer to a character string containing the "
+"hexadecimal representation of the Bluetooth address."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:103
+msgid "Example: BLEScan"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:107
+msgid ""
+"The Bluetooth address expressed as a string will be written as 6 bytes in"
+" hexadecimal format, with a colon “:” separating the bytes (example – "
+"00:11:22:33:EE:FF)."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:117
+msgid "Get the Bluetooth address represented as an integer array."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:131
+msgid ""
+"The function returns a pointer to a 6 byte array containing the Bluetooth"
+" address."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAddr.rst:140
+msgid "The Bluetooth address is stored with MSB at array index [5]."
+msgstr ""
+

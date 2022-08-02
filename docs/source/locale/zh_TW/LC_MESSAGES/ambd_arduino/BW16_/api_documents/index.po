@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-14 10:49+0100\n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "API Documents"
 msgstr "API文件"
 
 #: ../../source/ambd_arduino/BW16_/api_documents/index.rst:10
-msgid "**RTL8722DM ARDUINO Online API Documents**"
+msgid "**BW16 ARDUINO Online API Documents**"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16_/api_documents/index.rst:14
@@ -112,4 +112,11 @@ msgstr ""
 #: ../../source/ambd_arduino/BW16_/api_documents/index.rst:261
 msgid "WS2812B"
 msgstr ""
+
+#: ../../source/ambd_arduino/BW16_/api_documents/index.rst:268
+msgid "---"
+msgstr ""
+
+#~ msgid "**RTL8722DM ARDUINO Online API Documents**"
+#~ msgstr ""
 

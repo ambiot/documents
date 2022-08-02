@@ -1,0 +1,536 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:3
+msgid "Class HttpClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:5 HttpClient.rst:70
+#: HttpClient.rst:226 HttpClient.rst:262 HttpClient.rst:298 HttpClient.rst:357
+#: HttpClient.rst:417 HttpClient.rst:473 HttpClient.rst:522 HttpClient.rst:574
+#: HttpClient.rst:613 HttpClient.rst:648 HttpClient.rst:684 HttpClient.rst:724
+#: HttpClient.rst:763 HttpClient.rst:798 HttpClient.rst:834
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:7
+msgid "Defines a class of using HttpClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:9 HttpClient.rst:74
+#: HttpClient.rst:231 HttpClient.rst:267 HttpClient.rst:304 HttpClient.rst:365
+#: HttpClient.rst:423 HttpClient.rst:477 HttpClient.rst:532 HttpClient.rst:580
+#: HttpClient.rst:617 HttpClient.rst:653 HttpClient.rst:693 HttpClient.rst:732
+#: HttpClient.rst:767 HttpClient.rst:803 HttpClient.rst:838
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:15
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:18
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:20
+msgid "HttpClient::HttpClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:20
+msgid "Constructs a HttpClient object"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:22
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:24
+msgid "HttpClient::beginRequest"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:24
+msgid "Start a more complex request"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:26
+msgid "HttpClient::endRequest"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:26
+msgid "End a more complex request"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:28
+msgid "HttpClient::get"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:28
+msgid "Connect to the server and start to send a GET request"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:31
+msgid "HttpClient::post"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:31
+msgid "Connect to the server and start to send a POST request"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:34
+msgid "HttpClient::put"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:34
+msgid "Connect to the server and start to send a PUT request"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:37
+msgid "HttpClient::startRequest"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:37
+msgid "Connect to the server and start to send the request"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:40
+msgid "HttpClient::sendHeader"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:40
+msgid "Send an additional header line"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:42
+msgid "HttpClient::sendBasicAuth"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:42
+msgid "Send a basic authentication header"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:45
+msgid "HttpClient::finishRequest"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:45
+msgid "Finish sending the HTTP request"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:47
+msgid "HttpClient::responseStatusCode"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:47
+msgid "Get the HTTP status code contained in the response"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:50
+msgid "HttpClient::readHeader"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:50
+msgid "Read the next character of the response headers"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:53
+msgid "HttpClient::skipResponseHeaders"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:53
+msgid "Skip any response headers to get to the body"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:56
+msgid "HttpClient::endOfHeadersReached"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:56
+msgid "Test whether all of the response headers have been consumed"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:59
+msgid "HttpClient::endOfBodyReached"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:59
+msgid "Test whether the end of the body has been reached"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:62
+msgid "HttpClient::contentLength"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:62
+msgid "Return the length of the body"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:72
+msgid ""
+"Constructs a HttpClient object. If Marco “PROXY_ENABLED” is "
+"defined,currently disabled as introduces a dependency on DNS.h in "
+"Ethernet."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:84
+#: HttpClient.rst:237 HttpClient.rst:273 HttpClient.rst:322 HttpClient.rst:384
+#: HttpClient.rst:441 HttpClient.rst:487 HttpClient.rst:546 HttpClient.rst:586
+#: HttpClient.rst:623 HttpClient.rst:659 HttpClient.rst:699 HttpClient.rst:738
+#: HttpClient.rst:773 HttpClient.rst:809 HttpClient.rst:844
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:86
+msgid "``aClient``: The object of class WiFiClient."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:88
+msgid "``aProxy``: The proxy name. The default proxy name is “NULL”."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:90
+msgid ""
+"``aProxyPort`` : The proxy port. The default value for the proxy port is "
+"0."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:92
+#: HttpClient.rst:241 HttpClient.rst:277 HttpClient.rst:336 HttpClient.rst:396
+#: HttpClient.rst:453 HttpClient.rst:501 HttpClient.rst:554 HttpClient.rst:592
+#: HttpClient.rst:627 HttpClient.rst:663 HttpClient.rst:703 HttpClient.rst:742
+#: HttpClient.rst:777 HttpClient.rst:813 HttpClient.rst:848
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:94
+#: HttpClient.rst:243 HttpClient.rst:279 HttpClient.rst:556 HttpClient.rst:594
+#: HttpClient.rst:629
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:96
+#: HttpClient.rst:245 HttpClient.rst:281 HttpClient.rst:340 HttpClient.rst:400
+#: HttpClient.rst:457 HttpClient.rst:505 HttpClient.rst:558 HttpClient.rst:596
+#: HttpClient.rst:631 HttpClient.rst:667 HttpClient.rst:707 HttpClient.rst:746
+#: HttpClient.rst:781 HttpClient.rst:817 HttpClient.rst:852
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:98
+msgid ""
+"The example demonstrate how to download the content from URL indicated in"
+" kHostname[]."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:100
+msgid "SimpleHttpExample"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:217
+#: HttpClient.rst:253 HttpClient.rst:289 HttpClient.rst:348 HttpClient.rst:408
+#: HttpClient.rst:465 HttpClient.rst:513 HttpClient.rst:565 HttpClient.rst:604
+#: HttpClient.rst:639 HttpClient.rst:675 HttpClient.rst:715 HttpClient.rst:754
+#: HttpClient.rst:789 HttpClient.rst:825 HttpClient.rst:860
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:219
+#: HttpClient.rst:255 HttpClient.rst:291 HttpClient.rst:350 HttpClient.rst:410
+#: HttpClient.rst:467 HttpClient.rst:515 HttpClient.rst:567 HttpClient.rst:606
+#: HttpClient.rst:641 HttpClient.rst:677 HttpClient.rst:717 HttpClient.rst:756
+#: HttpClient.rst:791 HttpClient.rst:827 HttpClient.rst:862
+msgid "Include “HttpClient.h” to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:228
+msgid ""
+"Start a more complex request. Use this when you need to send additional "
+"headers in the request, but you will also need to call endRequest() when "
+"you are finished."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:239
+#: HttpClient.rst:275 HttpClient.rst:625 HttpClient.rst:661 HttpClient.rst:701
+#: HttpClient.rst:740 HttpClient.rst:775 HttpClient.rst:811 HttpClient.rst:846
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:247
+#: HttpClient.rst:283 HttpClient.rst:342 HttpClient.rst:402 HttpClient.rst:459
+#: HttpClient.rst:507 HttpClient.rst:560 HttpClient.rst:598 HttpClient.rst:633
+#: HttpClient.rst:669 HttpClient.rst:709 HttpClient.rst:748 HttpClient.rst:783
+#: HttpClient.rst:819 HttpClient.rst:854
+msgid "Example: SimpleHttpExample"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:249
+#: HttpClient.rst:285 HttpClient.rst:600 HttpClient.rst:856
+msgid ""
+"The example demonstrates how to download the content from the URL "
+"indicated in kHostname[]. Details of the code can be found in the "
+"previous section of HttpClient:: HttpClient."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:264
+msgid ""
+"End a more complex request. Use this when you need to have sent "
+"additional headers in the request, but you will also need to call "
+"beginRequest() at the start."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:300
+msgid ""
+"Connect to the server and start to send a ``GET`` request. If the input "
+"parameter contains ``aServerAddress``, the connection will not perform a "
+"DNS lookup and just purely connect to the given IP address."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:324
+msgid ""
+"``aServerName``: The name of the server being connected to. If "
+"aServerName is “NULL”, the “Host” header line will not be sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:327
+msgid "``aServerPort``: The port on which server connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:329
+msgid "``aURLPath``: The URL to request."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:331
+#: HttpClient.rst:449
+msgid ""
+"``aUserAgent``: User-Agent string to be sent. If aUserAgent indicated as "
+"“NULL”, the default user-agent kUserAgent will be sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:334
+#: HttpClient.rst:489
+msgid "``aServerAddress``: IP address of the server to connect to."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:338
+#: HttpClient.rst:398 HttpClient.rst:455
+msgid "Return 0 if successful, otherwise indicates an error occurs."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:344
+#: HttpClient.rst:404 HttpClient.rst:461 HttpClient.rst:509 HttpClient.rst:635
+#: HttpClient.rst:671 HttpClient.rst:711 HttpClient.rst:750 HttpClient.rst:785
+#: HttpClient.rst:821
+msgid ""
+"The example demonstrates how to download the content from the URL "
+"indicated in kHostname[]. Details of the code can be found in the "
+"previous section of ``HttpClient:: HttpClient``."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:359
+msgid "Connect to the server and start to send a “POST” request. If the input"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:361
+msgid "parameter has “aServerAddress”, connects doesn’t perform a DNS lookup"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:363
+msgid "and just connects to the given IP address."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:386
+msgid ""
+"``aServerName`` : Name of the server being connected to. If NULL, the "
+"``Host`` header line won’t be sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:388
+msgid "``aServerPort`` : Port to connect to on the server."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:390
+msgid "``aURLPath`` : Url to request."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:392
+msgid ""
+"``aUserAgent`` : User-Agent string to be sent. If aUserAgent indicated as"
+" ``NULL``, the default user-agent kUserAgent will be sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:394
+#: HttpClient.rst:451
+msgid "``aServerAddress`` : IP address of the server to connect to."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:419
+msgid ""
+"Connect to the server and start to send a PUT request. If the input "
+"parameter has “aServerAddress”, connects doesn’t perform a DNS lookup and"
+" just connects to the given IP address."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:443
+#: HttpClient.rst:491
+msgid ""
+"``aServerName``: Name of the server being connected to. If NULL, the "
+"``Host`` header line won’t be sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:445
+#: HttpClient.rst:493
+msgid "``aServerPort``: Port to connect to on the server."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:447
+#: HttpClient.rst:495
+msgid "``aURLPath``: Url to request."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:475
+msgid "Connect to the server and start to send the request."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:497
+msgid "``aHttpMethod``: Type of HTTP request to make, e.g. “GET”, “POST”, etc."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:499
+msgid ""
+"``aUserAgent``: User-Agent string to send. If NULL the default user-agent"
+" kUserAgent will be sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:503
+#: HttpClient.rst:665 HttpClient.rst:744
+msgid "Return 0 if successful, else error."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:524
+msgid ""
+"The function sends an additional header line.The function void "
+"HttpClient:: sendHeader(const char\\* aHeader);can only be called in "
+"between the calls to startRequest and finishRequest.The other 2 functions"
+" void HttpClient::sendHeader(const char\\* aHeaderName, const char\\* "
+"aHeaderValue); and void HttpClient::sendHeader(const char\\* aHeaderName,"
+" const int aHeaderValue); are alternate form the previous one, which "
+"takes the header name and content as separately (as strings or integer). "
+"For example, to send an XXXXXX header, user might call "
+"sendHeader(“XXXXX”, “Something”) or sendHeader(“XXXXX”, 123).And the call"
+" will add the “: ” in the log to separate different header in the case of"
+" multiple headers."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:548
+msgid ""
+"``aHeader`` : Header line to send, in its entirety (but without the "
+"trailing CRLF. E.g. “Authorization: Basic YQDDCAIGES”."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:550
+msgid "``aHeaderName`` : Type of header being sent."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:552
+msgid "``aHeaderValue`` : Value for that header."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:562
+msgid ""
+"The example demonstrates how to download the content from the "
+"URLindicated in kHostname[]. Details of the code can be found in the "
+"previous section of HttpClient:: HttpClient."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:576
+msgid ""
+"The function sends a basic authentication header which will encode the "
+"given username and password, and send them in a suitable header line for "
+"doing Basic Authentication."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:588
+msgid "``aUser``: Username for the authorization."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:590
+msgid "``aPassword`` : Password for the user aUser."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:615
+msgid ""
+"Finish sending the HTTP request. The function sends a blank line to "
+"signify the end of the request."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:650
+msgid ""
+"Get the HTTP status code contained in the response. For example, “200” "
+"for successful requests, “404” for file not found, etc."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:686
+msgid ""
+"The function reads the next character of the response headers. This "
+"functions the same as read() but to be used when reading through the "
+"headers which are slightly less efficient. The user might check whether "
+"the end of the headers has been reached by calling endOfHeadersReached(),"
+" although after that point this will still return data as read() would."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:705
+msgid "Return the next character of the response headers."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:726
+msgid ""
+"Skip any response headers to get to the body. Use this if you don’t want "
+"to do any special processing of the headers returned in the response. You"
+" can also use it after you’ve found all of the headers you’re interested "
+"in, and just want to get on with processing the body."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:765
+msgid "Test whether all of the response headers have been consumed."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:779
+msgid "Return true if we are now processing the response body, else false."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:800
+msgid ""
+"Test whether the end of the body has been reached. It only works if the "
+"Content-Length header was returned by the server."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:815
+msgid "Return true if we are now at the end of the body, else false."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:836
+msgid "The function returns the length of the body."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class HttpClient.rst:850
+msgid ""
+"Return Length of the body, in bytes, or kNoContentLengthHeader if no "
+"Content-Length header was returned by the server."
+msgstr ""
+

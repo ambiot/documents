@@ -8,60 +8,61 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 10:32+0100\n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class InterruptLock.rst:2
-msgid "Class HttpClient"
+#: ../../source/ambd_arduino/api_class/Class InterruptLock.rst:3
+msgid "Class InterruptLock"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class InterruptLock.rst:3
-msgid "**InterruptLock Class**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class InterruptLock.rst:5
+#: ../../source/ambd_arduino/api_class/Class InterruptLock.rst:5
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class InterruptLock.rst:6
+#: ../../source/ambd_arduino/api_class/Class InterruptLock.rst:7
 msgid "Defines a class of turning off/on interrupts temporarily"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class InterruptLock.rst:8
+#: ../../source/ambd_arduino/api_class/Class InterruptLock.rst:9
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class InterruptLock.rst:9
-msgid "class InterruptLock"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16_/api_documents/Class InterruptLock.rst:11
+#: ../../source/ambd_arduino/api_class/Class InterruptLock.rst:15
 msgid "**Members**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class InterruptLock.rst:14
+#: ../../source/ambd_arduino/api_class/Class InterruptLock.rst:18
 msgid "**Public Constructors**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class InterruptLock.rst:16
+#: ../../source/ambd_arduino/api_class/Class InterruptLock.rst:20
 msgid "InterruptLock::InterruptLock"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class InterruptLock.rst:16
+#: ../../source/ambd_arduino/api_class/Class InterruptLock.rst:20
 msgid "Constructs a InterruptLock object"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class InterruptLock.rst:17
+#: ../../source/ambd_arduino/api_class/Class InterruptLock.rst:21
 msgid "InterruptLock::~ InterruptLock"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16_/api_documents/Class InterruptLock.rst:17
+#: ../../source/ambd_arduino/api_class/Class InterruptLock.rst:21
 msgid "Deconstructs a InterruptLock object"
 msgstr ""
+
+#~ msgid "Class HttpClient"
+#~ msgstr ""
+
+#~ msgid "**InterruptLock Class**"
+#~ msgstr ""
+
+#~ msgid "class InterruptLock"
+#~ msgstr ""
 

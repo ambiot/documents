@@ -7,7 +7,7 @@
 API Documents
 #############
 
-**RTL8722DM ARDUINO Online API Documents**
+**BW16-TypeC ARDUINO Online API Documents**
 
 *********************
 Analog
@@ -260,7 +260,9 @@ Wire
 WS2812B
 *********************
 
-.. toctree::
+.. toctree:: 
    :maxdepth: 1
 
    Class WS2812B
+
+---

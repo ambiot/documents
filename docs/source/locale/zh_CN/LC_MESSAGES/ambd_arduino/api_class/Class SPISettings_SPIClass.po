@@ -1,0 +1,448 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:3
+msgid "Class SPISettings_SPIClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:5
+#: SPISettings_SPIClass.rst:29 SPISettings_SPIClass.rst:65
+#: SPISettings_SPIClass.rst:115 SPISettings_SPIClass.rst:159
+#: SPISettings_SPIClass.rst:210 SPISettings_SPIClass.rst:249
+#: SPISettings_SPIClass.rst:287 SPISettings_SPIClass.rst:318
+#: SPISettings_SPIClass.rst:354 SPISettings_SPIClass.rst:385
+#: SPISettings_SPIClass.rst:426 SPISettings_SPIClass.rst:464
+#: SPISettings_SPIClass.rst:504
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:7
+msgid "Defines a class to set SPI parameters."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:9
+#: SPISettings_SPIClass.rst:34 SPISettings_SPIClass.rst:69
+#: SPISettings_SPIClass.rst:120 SPISettings_SPIClass.rst:163
+#: SPISettings_SPIClass.rst:214 SPISettings_SPIClass.rst:254
+#: SPISettings_SPIClass.rst:291 SPISettings_SPIClass.rst:323
+#: SPISettings_SPIClass.rst:358 SPISettings_SPIClass.rst:391
+#: SPISettings_SPIClass.rst:431 SPISettings_SPIClass.rst:469
+#: SPISettings_SPIClass.rst:508
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:15
+#: SPISettings_SPIClass.rst:75
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:18
+#: SPISettings_SPIClass.rst:78
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:20
+msgid "SPISettings::SPISettings"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:20
+msgid ""
+"Create a SPISettings object and set SPI clock speed, bit order and data "
+"mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:31
+msgid ""
+"Construct an object and configure SPI parameters — clock speed, bit order"
+" and data model to the preferred default value."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:36
+msgid ""
+"SPISettings YourObject(uint32_t clock, BitOrder bitOrder, uint8_t "
+"dataMode);"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:39
+#: SPISettings_SPIClass.rst:126 SPISettings_SPIClass.rst:181
+#: SPISettings_SPIClass.rst:224 SPISettings_SPIClass.rst:264
+#: SPISettings_SPIClass.rst:297 SPISettings_SPIClass.rst:333
+#: SPISettings_SPIClass.rst:364 SPISettings_SPIClass.rst:401
+#: SPISettings_SPIClass.rst:441 SPISettings_SPIClass.rst:479
+#: SPISettings_SPIClass.rst:514
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:41
+msgid "``clock`` : SPI clock speed, default is 4000000"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:43
+msgid ""
+"``bitOrder`` : order of bit stream, MSB first or LSB first, default is "
+"MSBFIRST"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:46
+msgid "``dataMode`` : There are 4 modes -> SPI_MODE0~3, default is SPI_MODE0"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:48
+#: SPISettings_SPIClass.rst:138 SPISettings_SPIClass.rst:193
+#: SPISettings_SPIClass.rst:232 SPISettings_SPIClass.rst:270
+#: SPISettings_SPIClass.rst:301 SPISettings_SPIClass.rst:337
+#: SPISettings_SPIClass.rst:368 SPISettings_SPIClass.rst:409
+#: SPISettings_SPIClass.rst:447 SPISettings_SPIClass.rst:487
+#: SPISettings_SPIClass.rst:518
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:50
+#: SPISettings_SPIClass.rst:140 SPISettings_SPIClass.rst:272
+#: SPISettings_SPIClass.rst:303 SPISettings_SPIClass.rst:339
+#: SPISettings_SPIClass.rst:370 SPISettings_SPIClass.rst:411
+#: SPISettings_SPIClass.rst:449 SPISettings_SPIClass.rst:489
+#: SPISettings_SPIClass.rst:520
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:52
+#: SPISettings_SPIClass.rst:142 SPISettings_SPIClass.rst:197
+#: SPISettings_SPIClass.rst:236 SPISettings_SPIClass.rst:274
+#: SPISettings_SPIClass.rst:305 SPISettings_SPIClass.rst:341
+#: SPISettings_SPIClass.rst:372 SPISettings_SPIClass.rst:413
+#: SPISettings_SPIClass.rst:451 SPISettings_SPIClass.rst:491
+#: SPISettings_SPIClass.rst:522
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:54
+#: SPISettings_SPIClass.rst:199 SPISettings_SPIClass.rst:203
+#: SPISettings_SPIClass.rst:238 SPISettings_SPIClass.rst:242
+#: SPISettings_SPIClass.rst:276 SPISettings_SPIClass.rst:307
+#: SPISettings_SPIClass.rst:311 SPISettings_SPIClass.rst:343
+#: SPISettings_SPIClass.rst:374 SPISettings_SPIClass.rst:378
+#: SPISettings_SPIClass.rst:415 SPISettings_SPIClass.rst:419
+#: SPISettings_SPIClass.rst:453 SPISettings_SPIClass.rst:457
+#: SPISettings_SPIClass.rst:493
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:56
+#: SPISettings_SPIClass.rst:148 SPISettings_SPIClass.rst:201
+#: SPISettings_SPIClass.rst:240 SPISettings_SPIClass.rst:278
+#: SPISettings_SPIClass.rst:309 SPISettings_SPIClass.rst:345
+#: SPISettings_SPIClass.rst:376 SPISettings_SPIClass.rst:417
+#: SPISettings_SPIClass.rst:455 SPISettings_SPIClass.rst:495
+#: SPISettings_SPIClass.rst:529
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:58
+msgid ""
+"This class seldom used alone, it is always used with beginTransaction() "
+"as a parameter in SPIClass."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:67
+msgid "Defines a class of SPI implementation for Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:80
+msgid "SPIClass::SPIClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:80
+msgid "Constructs an SPI object"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:84
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:86
+msgid "SPIClass::transfer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:86
+msgid "Transfer data through SPI"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:88
+msgid "SPIClass::transfer16"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:88
+msgid "Transfer a 16-bits data through SPI"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:90
+msgid "SPIClass::beginTransaction"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:90
+msgid "Set slave select pin and SPI initial settings"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:93
+msgid "SPIClass::endTransaction"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:93
+msgid "Stop SPI transaction"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:95
+msgid "SPIClass::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:95
+msgid "Associate each SPI pin to Ameba pin using ameba HAL APIs"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:98
+msgid "SPIClass::end"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:98
+msgid "Stop SPI master mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:100
+msgid "SPIClass::setBitOrder"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:100
+msgid "Set MSB first or LSB first"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:102
+msgid "SPIClass::setDataMode"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:102
+msgid "Set to one of the four data modes"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:104
+msgid "SPIClass::setClockDivider"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:104
+msgid "Set to correct clock speed (no effect on Ameba)"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:107
+msgid "SPIClass::setDefaultFrequency"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:107
+msgid "Set default SPI frequency"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:117
+msgid ""
+"Construct an SPI object, create a pointer to the object, and attach "
+"“MOSI, MISO, CLK, and SS” to each pin on Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:128
+msgid "``pSpiObj`` : SPI pointer to the object"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:130
+msgid "``mosi`` : master out slave in"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:132
+msgid "``miso`` : master in slave out"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:134
+msgid "``clk`` : clock"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:136
+msgid "``ss``: slave select"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:150
+msgid ""
+"2 SPI objects are created in the library for 2 different hardware SPI on "
+"Ameba (if applicable), use “SPI” for first hardware SPI and “SPI1” for "
+"the second."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:161
+msgid "Calling HAL API to send data in the buffer to the slave"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:183
+#: SPISettings_SPIClass.rst:226
+msgid "``_pin`` : Slave select pin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:185
+#: SPISettings_SPIClass.rst:228
+msgid "``_data`` : Actual data being sent over"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:187
+#: SPISettings_SPIClass.rst:230
+msgid "``_mode`` : SPI transfer mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:189
+msgid "``_count`` : number of bytes of data"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:191
+msgid "``_buf`` : data buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:195
+msgid "Void or “0” in case of error, “d” in case success"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:212
+msgid "Same as “transfer” method above except data being of 16-bits."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:234
+msgid "The data being transferred"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:251
+msgid ""
+"Set slave select pin and initialize SPI with default settings using "
+"SPISettings class."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:266
+msgid "``pin``: slave select pin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:268
+msgid "``settings``: an object of SPISettings class"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:280
+msgid "Refer to SPISettings class for details of the initial settings."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:289
+msgid "Set slave select pin to 1 and stop SPI transaction."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:299
+#: SPISettings_SPIClass.rst:366
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:320
+msgid ""
+"Calling HAL APIs to initialize SPI pins to physical Ameba pins and set "
+"SPI format and frequency"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:335
+msgid "``void`` or ``ss``: slave select"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:347
+msgid "This is a required method to use SPI on Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:356
+msgid "Free hardware SPI from any activity."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:387
+msgid "A specific method to set bit order to either MSB first or LSB first"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:389
+msgid "and set slave select pin."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:403
+#: SPISettings_SPIClass.rst:481
+msgid "``_pin`` : slave select"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:405
+msgid "``_bitOrder`` : bit order -> either MSB first or LSB first"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:407
+msgid "``_order``: same as above"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:428
+msgid ""
+"A specific method to set data mode to one of the 4 modes (default: "
+"SPI_MODE0) and set slave lave select pin."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:443
+msgid "``_pin``: slave select"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:445
+msgid "``_mode``: one of the 4 modes (default: SPI_MODE0)"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:466
+msgid "A specific method to set to divider in order to get correct clock speed"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:483
+msgid "``_divider`` : clock divider"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:485
+msgid "``_div`` : same as above"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:497
+msgid "This function does not affect the Ameba board."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:506
+msgid "A specific method to set default SPI frequency"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:516
+msgid "``_frequency``: the default SPI frequency"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:524
+msgid "Example: PM25_on_ILI9341_TFT_LCD"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:526
+msgid ""
+"Details of the code are given in the previous section of AmebaILI9341:: "
+"AmebaILI9341."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SPISettings_SPIClass.rst:531
+msgid "Take note that defaultFrequency = \\_frequency."
+msgstr ""
+

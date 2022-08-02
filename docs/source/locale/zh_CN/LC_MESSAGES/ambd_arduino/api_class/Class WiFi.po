@@ -1,0 +1,578 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:3
+msgid "Class WiFi"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:5 WiFi.rst:93
+#: WiFi.rst:126 WiFi.rst:272 WiFi.rst:323 WiFi.rst:371 WiFi.rst:408
+#: WiFi.rst:439 WiFi.rst:476 WiFi.rst:512 WiFi.rst:658 WiFi.rst:694
+#: WiFi.rst:730 WiFi.rst:766 WiFi.rst:803 WiFi.rst:834 WiFi.rst:1006
+#: WiFi.rst:1045 WiFi.rst:1085 WiFi.rst:1125 WiFi.rst:1164 WiFi.rst:1200
+#: WiFi.rst:1234 WiFi.rst:1363
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:7
+msgid "Defines a class of WiFi and network implementation for Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:9 WiFi.rst:98
+#: WiFi.rst:130 WiFi.rst:276 WiFi.rst:327 WiFi.rst:375 WiFi.rst:412
+#: WiFi.rst:443 WiFi.rst:480 WiFi.rst:516 WiFi.rst:662 WiFi.rst:698
+#: WiFi.rst:734 WiFi.rst:771 WiFi.rst:807 WiFi.rst:838 WiFi.rst:1010
+#: WiFi.rst:1050 WiFi.rst:1090 WiFi.rst:1129 WiFi.rst:1168 WiFi.rst:1204
+#: WiFi.rst:1238 WiFi.rst:1367
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:15
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:18
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:20
+msgid "WiFiClass::WiFiClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:20
+msgid ""
+"Constructs a WiFiClass object and initializes the WiFi libraries and "
+"network settings"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:27
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:29
+msgid "WiFiClass::firmwareVersion"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:29 WiFi.rst:128
+msgid "Get firmware version"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:31
+msgid "WiFiClass:: begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:31 WiFi.rst:274
+msgid "Start Wifi connection for OPEN networks"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:34
+msgid "WiFiClass:: config"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:34
+msgid "Configure network IP settings"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:36
+msgid "WiFiClass:: setDNS"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:36
+msgid "Set the DNS server IP address to use"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:38
+msgid "WiFiClass:: disconnect"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:38 WiFi.rst:410
+msgid "Disconnect from the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:40
+msgid "WiFiClass:: macAddress"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:40 WiFi.rst:441
+msgid "Get the interface MAC address"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:42
+msgid "WiFiClass:: localIP"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:42 WiFi.rst:478
+msgid "Get the interface IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:44
+msgid "WiFiClass:: subnetMask"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:44 WiFi.rst:514
+msgid "Get the interface subnet mask address"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:47
+msgid "WiFiClass:: gatewayIP"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:47 WiFi.rst:660
+msgid "Get the gateway IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:49 WiFi.rst:64
+msgid "WiFiClass:: SSID"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:49 WiFi.rst:696
+msgid "Return the current SSID associated with the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:52
+msgid "WiFiClass:: BSSID"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:52 WiFi.rst:732
+msgid "Return the current BSSID associated with the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:55 WiFi.rst:75
+msgid "WiFiClass:: RSSI"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:55 WiFi.rst:768
+msgid ""
+"Return the current RSSI (Received Signal Strength in dBm) associated with"
+" the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:59 WiFi.rst:67
+msgid "WiFiClass:: encryptionType"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:59 WiFi.rst:805
+msgid "Return the Encryption Type associated with the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:62
+msgid "WiFiClass:: scanNetworks"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:62 WiFi.rst:836
+msgid "Start scan WiFi networks available"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:64 WiFi.rst:1008
+msgid "Return the SSID discovered during the network scan"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:67 WiFi.rst:1047
+msgid ""
+"Return the encryption type of the networks discovered during the "
+"scanNetworks"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:71
+msgid "WiFiClass:: encryptionTypeEx"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:71 WiFi.rst:1087
+msgid ""
+"Return the security type and encryption type of the networks discovered "
+"during the scanNetworks"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:75 WiFi.rst:1127
+msgid "Return the RSSI of the networks discovered during the scanNetworks"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:78
+msgid "WiFiClass:: status"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:78 WiFi.rst:1166
+msgid "Return Connection status"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:80
+msgid "WiFiClass:: hostByName"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:80 WiFi.rst:1202
+msgid "Resolve the given hostname to an IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:83
+msgid "WiFiClass:: apbegin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:83 WiFi.rst:1236
+msgid "Start AP mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:85
+msgid "WiFiClass:: disablePowerSave"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:85 WiFi.rst:1365
+msgid "Disable power-saving mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:95
+msgid ""
+"Constructs a WiFiClass object and initializes the WiFi libraries and "
+"network settings."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:104 WiFi.rst:136
+#: WiFi.rst:290 WiFi.rst:341 WiFi.rst:385 WiFi.rst:418 WiFi.rst:449
+#: WiFi.rst:486 WiFi.rst:522 WiFi.rst:668 WiFi.rst:704 WiFi.rst:740
+#: WiFi.rst:777 WiFi.rst:813 WiFi.rst:844 WiFi.rst:1016 WiFi.rst:1056
+#: WiFi.rst:1096 WiFi.rst:1135 WiFi.rst:1174 WiFi.rst:1210 WiFi.rst:1248
+#: WiFi.rst:1373
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:106 WiFi.rst:138
+#: WiFi.rst:420 WiFi.rst:488 WiFi.rst:524 WiFi.rst:670 WiFi.rst:706
+#: WiFi.rst:779 WiFi.rst:815 WiFi.rst:846 WiFi.rst:1176 WiFi.rst:1375
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:108 WiFi.rst:140
+#: WiFi.rst:301 WiFi.rst:351 WiFi.rst:391 WiFi.rst:422 WiFi.rst:453
+#: WiFi.rst:490 WiFi.rst:526 WiFi.rst:672 WiFi.rst:708 WiFi.rst:744
+#: WiFi.rst:781 WiFi.rst:817 WiFi.rst:848 WiFi.rst:1021 WiFi.rst:1061
+#: WiFi.rst:1101 WiFi.rst:1140 WiFi.rst:1178 WiFi.rst:1216 WiFi.rst:1256
+#: WiFi.rst:1377
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:110 WiFi.rst:353
+#: WiFi.rst:393
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:112 WiFi.rst:144
+#: WiFi.rst:305 WiFi.rst:355 WiFi.rst:395 WiFi.rst:426 WiFi.rst:458
+#: WiFi.rst:494 WiFi.rst:530 WiFi.rst:676 WiFi.rst:712 WiFi.rst:748
+#: WiFi.rst:785 WiFi.rst:821 WiFi.rst:852 WiFi.rst:1026 WiFi.rst:1066
+#: WiFi.rst:1106 WiFi.rst:1145 WiFi.rst:1183 WiFi.rst:1221 WiFi.rst:1260
+#: WiFi.rst:1381
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:114 WiFi.rst:265
+#: WiFi.rst:316 WiFi.rst:357 WiFi.rst:397 WiFi.rst:401 WiFi.rst:428
+#: WiFi.rst:432 WiFi.rst:469 WiFi.rst:505 WiFi.rst:651 WiFi.rst:687
+#: WiFi.rst:723 WiFi.rst:759 WiFi.rst:796 WiFi.rst:827 WiFi.rst:999
+#: WiFi.rst:1038 WiFi.rst:1078 WiFi.rst:1118 WiFi.rst:1157 WiFi.rst:1194
+#: WiFi.rst:1223 WiFi.rst:1227 WiFi.rst:1356 WiFi.rst:1383 WiFi.rst:1387
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:116 WiFi.rst:263
+#: WiFi.rst:314 WiFi.rst:359 WiFi.rst:399 WiFi.rst:430 WiFi.rst:467
+#: WiFi.rst:503 WiFi.rst:649 WiFi.rst:685 WiFi.rst:721 WiFi.rst:757
+#: WiFi.rst:794 WiFi.rst:825 WiFi.rst:997 WiFi.rst:1036 WiFi.rst:1076
+#: WiFi.rst:1116 WiFi.rst:1155 WiFi.rst:1192 WiFi.rst:1225 WiFi.rst:1354
+#: WiFi.rst:1385
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:118
+msgid ""
+"An instance of WiFiClass is created as WiFi inside WiFi.h and is extern "
+"for direct use."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:142
+msgid "WiFi firmware version"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:146 WiFi.rst:307
+#: WiFi.rst:460 WiFi.rst:496 WiFi.rst:714 WiFi.rst:750 WiFi.rst:787
+#: WiFi.rst:823 WiFi.rst:1185
+msgid "Example: ConnectWithWPA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:148
+msgid ""
+"This example demos how to connect to an unencrypted WiFI network, and "
+"prints the MAC address of the Wifi shield, the IP address obtained, and "
+"other network details."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:292
+msgid "``ssid`` : Pointer to the SSID string"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:294
+msgid "``key_idx`` : The key index to set. Valid values are 0-3."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:296
+msgid "``key`` : Key input buffer."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:298
+msgid ""
+"``passphrase``: Passphrase. Valid characters in a passphrase must be "
+"between ASCII 32-126 (decimal)."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:303
+msgid "WiFi status"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:309 WiFi.rst:462
+#: WiFi.rst:498 WiFi.rst:716 WiFi.rst:752 WiFi.rst:789 WiFi.rst:1187
+msgid ""
+"This example demos how to connect to an unencrypted WiFi network, and "
+"prints the MAC address of the Wifi shield, the IP address obtained, and "
+"other network details. The details of the code can be found in the "
+"previous section of WiFiClass:: firmwareVersion."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:325
+msgid "Configure network settings for the WiFi network"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:343
+msgid "``local_ip`` : Local device IP address to use on the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:345
+msgid "``dns_server`` : IP address of the DNS server to use"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:347
+msgid "``gateway`` : IP address of the gateway device on the network"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:349
+msgid "``subnet`` : Subnet mask for the network, expressed as a IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:361
+msgid ""
+"This will disable the DHCP client when connecting to a network, and will "
+"require the network accepts a static IP. The configured IP addresses will"
+" also apply to AP mode, but the DHCP server will not be disabled in AP "
+"mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:373
+msgid "Configure the IP address of the DNS server to use"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:387
+msgid "``dns_server1``: IP address of DNS server to use"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:389
+msgid "``dns_server2`` : IP address of DNS server to use"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:424
+msgid "The function returns one value of wl_status_t enum as an integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:451
+msgid "``mac`` : an array to store MAC address"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:455
+msgid ""
+"The function returns a pointer to uint8_t array with length "
+"WL_MAC_ADDR_LENGTH."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:492
+msgid "Ip address value"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:528
+msgid "subnet mask address value"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:532 WiFi.rst:678
+msgid "Example: ConnectNoEncryption"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:534
+msgid ""
+"This example demonstrates how to connect to an unencrypted WiFi network "
+"and prints the MAC address of the WiFi shield, the IP address obtained, "
+"and other network details."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:674
+msgid "The function returns the value of the gateway IP address."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:680
+msgid ""
+"This example demonstrates how to connect to an unencrypted WiFi network "
+"and prints the MAC address of the WiFi shield, the IP address obtained, "
+"and other network details. Details of the code can be found in the "
+"section of WiFiClass:: subnetMask."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:710
+msgid "The function returns current SSID associate with the network."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:742
+msgid "``bssid`` : an array to store bssid"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:746
+msgid "pointer to uint8_t array with length WL_MAC_ADDR_LENGTH"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:783
+msgid "The function returns a signed-value signal strength"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:819
+msgid "The function returns one unsigned integer value of wl_enc_type enum."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:850
+msgid "The function returns the number of discovered networks as an integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:854 WiFi.rst:1028
+#: WiFi.rst:1068 WiFi.rst:1108 WiFi.rst:1147
+msgid "Example: ScanNetworks"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:856
+msgid ""
+"This example prints the Wifi shield’s MAC address, and scans for "
+"available Wifi networks using the Wifi shield. Every ten seconds, it "
+"scans again. It doesn’t connect to any network, so no encryption scheme "
+"is specified."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1018
+msgid ""
+"``networkItem``: specify from which network item want to get the "
+"information"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1023
+msgid ""
+"The function returns ssid string of the specified item on the networks "
+"scanned a list."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1030
+msgid ""
+"This example prints the Wifi shield’s MAC address, and scans fo available"
+" Wifi networks using the Wifi shield. Every ten seconds, it scans again. "
+"It doesn’t connect to any network, so no encryption scheme is specified. "
+"The details of the code can be found in the previous section of "
+"WiFiClass:: scanNetworks."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1058 WiFi.rst:1137
+msgid ""
+"``networkItem`` : specify from which network item want to get the "
+"information"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1063
+msgid ""
+"encryption type (enum wl_enc_type) of the specified item on the networks "
+"scanned a list"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1070 WiFi.rst:1110
+#: WiFi.rst:1149
+msgid ""
+"This example prints the Wifi shield’s MAC address, and scans for "
+"available Wifi networks using the Wifi shield. Every ten seconds, it "
+"scans again. It doesn’t connect to any network, so no encryption scheme "
+"is specified. The details of the code can be found in the previous "
+"section of WiFiClass:: scanNetworks."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1098
+msgid ""
+"``networkItem`` : specify from which network item want to get th "
+"information"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1103
+msgid ""
+"security and encryption type of the specified item on the networks "
+"scanned a list"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1142
+msgid "signed value of RSSI of the specified item on the networks scanned a list"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1180
+msgid ""
+"The function returns one of the values defined in wl_status_t as an "
+"unsigned integer."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1212
+msgid "``aHostname`` : Name to be resolved"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1214
+msgid "``aResult`` : IPAddress structure to store the returned IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1218
+msgid ""
+"The function returns “1” if aIPAddrString was successfully converted to "
+"an IP address,else otherwise, it will return as an error code."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1250
+msgid "``ssid`` : SSID of the AP network"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1252
+msgid "``channel``: AP’s channel, default 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1254
+msgid "``password`` : AP’s password"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1258
+msgid "The function will return the WiFi status."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1262
+msgid "Example: WiFiAPMode"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFi.rst:1379
+msgid "1 if disable success, 0 if failed"
+msgstr ""
+

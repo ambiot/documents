@@ -1,0 +1,395 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:3
+msgid "Class WiFiSSLClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:6
+#: WiFiSSLClient.rst:71 WiFiSSLClient.rst:218 WiFiSSLClient.rst:275
+#: WiFiSSLClient.rst:315 WiFiSSLClient.rst:350 WiFiSSLClient.rst:392
+#: WiFiSSLClient.rst:426 WiFiSSLClient.rst:457 WiFiSSLClient.rst:491
+#: WiFiSSLClient.rst:525 WiFiSSLClient.rst:557 WiFiSSLClient.rst:590
+#: WiFiSSLClient.rst:621
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:8
+msgid ""
+"Defines a class of WiFi Secure Socket Layer Client implementation for "
+"Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:11
+#: WiFiSSLClient.rst:76 WiFiSSLClient.rst:222 WiFiSSLClient.rst:279
+#: WiFiSSLClient.rst:319 WiFiSSLClient.rst:354 WiFiSSLClient.rst:397
+#: WiFiSSLClient.rst:430 WiFiSSLClient.rst:461 WiFiSSLClient.rst:495
+#: WiFiSSLClient.rst:529 WiFiSSLClient.rst:561 WiFiSSLClient.rst:594
+#: WiFiSSLClient.rst:625
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:17
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:20
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:22
+msgid "WiFiSSLClient::WiFiSSLClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:22
+msgid ""
+"Constructs a WiFiSSLClient instance that always connects in SSL to the "
+"specified IP address and port"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:29
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:31
+msgid "WiFiSSLClient::connect"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:31
+msgid "Connect to the IP address and port"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:34
+msgid "WiFiSSLClient::write"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:34
+#: WiFiSSLClient.rst:277
+msgid "Write a single byte into the packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:37
+msgid "WiFiSSLClient::available"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:37
+#: WiFiSSLClient.rst:317
+msgid "Number of bytes remaining in the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:40
+msgid "WiFiSSLClient::read"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:40
+#: WiFiSSLClient.rst:352
+msgid "Read a single byte from the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:43
+msgid "WiFiSSLClient:: peek"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:43
+msgid ""
+"Return the next byte from the current packet without moving on to the "
+"next byte"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:47
+msgid "WiFiSSLClient:: flush"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:47
+#: WiFiSSLClient.rst:428
+msgid "Finish reading the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:50
+msgid "WiFiSSLClient::stop"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:50
+msgid "Stop SSL client connection"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:52
+msgid "WiFiSSLClient::connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:52
+msgid "Check if SSL client is connected, return 1 if connected, 0 if not"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:56
+msgid "WiFiSSLClient:: setRootCA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:56
+#: WiFiSSLClient.rst:527
+msgid "Set Root CA for authentication"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:58
+msgid "WiFiSSLClient:: setClientCertificate"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:58
+msgid "Set certificate of the client"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:61
+msgid "WiFiSSLClient::setRecvTimeout"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:61
+#: WiFiSSLClient.rst:592
+msgid "Set receiving timeout"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:63
+msgid "WiFiSSLClient::setPreSharedKey"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:63
+#: WiFiSSLClient.rst:623
+msgid "Set the pre shared key (PSK) to use for authentication"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:73
+msgid ""
+"Constructs a WiFiSSLClient instance that always connects in SSL to the "
+"specified IP address and port."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:86
+#: WiFiSSLClient.rst:240 WiFiSSLClient.rst:289 WiFiSSLClient.rst:325
+#: WiFiSSLClient.rst:364 WiFiSSLClient.rst:403 WiFiSSLClient.rst:436
+#: WiFiSSLClient.rst:467 WiFiSSLClient.rst:501 WiFiSSLClient.rst:535
+#: WiFiSSLClient.rst:567 WiFiSSLClient.rst:600 WiFiSSLClient.rst:631
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:88
+msgid "``sock`` : socket state, default -1"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:90
+#: WiFiSSLClient.rst:252 WiFiSSLClient.rst:297 WiFiSSLClient.rst:329
+#: WiFiSSLClient.rst:370 WiFiSSLClient.rst:407 WiFiSSLClient.rst:440
+#: WiFiSSLClient.rst:471 WiFiSSLClient.rst:505 WiFiSSLClient.rst:539
+#: WiFiSSLClient.rst:573 WiFiSSLClient.rst:604 WiFiSSLClient.rst:637
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:92
+#: WiFiSSLClient.rst:442 WiFiSSLClient.rst:473 WiFiSSLClient.rst:541
+#: WiFiSSLClient.rst:575 WiFiSSLClient.rst:639
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:94
+#: WiFiSSLClient.rst:258 WiFiSSLClient.rst:302 WiFiSSLClient.rst:334
+#: WiFiSSLClient.rst:376 WiFiSSLClient.rst:413 WiFiSSLClient.rst:444
+#: WiFiSSLClient.rst:475 WiFiSSLClient.rst:509 WiFiSSLClient.rst:543
+#: WiFiSSLClient.rst:577 WiFiSSLClient.rst:608 WiFiSSLClient.rst:641
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:96
+#: WiFiSSLClient.rst:260 WiFiSSLClient.rst:336 WiFiSSLClient.rst:378
+#: WiFiSSLClient.rst:477 WiFiSSLClient.rst:511
+msgid "Example: WiFiSSLClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:209
+#: WiFiSSLClient.rst:266 WiFiSSLClient.rst:306 WiFiSSLClient.rst:341
+#: WiFiSSLClient.rst:383 WiFiSSLClient.rst:417 WiFiSSLClient.rst:448
+#: WiFiSSLClient.rst:482 WiFiSSLClient.rst:516 WiFiSSLClient.rst:547
+#: WiFiSSLClient.rst:581 WiFiSSLClient.rst:612 WiFiSSLClient.rst:645
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:211
+#: WiFiSSLClient.rst:268 WiFiSSLClient.rst:304 WiFiSSLClient.rst:308
+#: WiFiSSLClient.rst:343 WiFiSSLClient.rst:385 WiFiSSLClient.rst:415
+#: WiFiSSLClient.rst:419 WiFiSSLClient.rst:446 WiFiSSLClient.rst:450
+#: WiFiSSLClient.rst:484 WiFiSSLClient.rst:518 WiFiSSLClient.rst:545
+#: WiFiSSLClient.rst:549 WiFiSSLClient.rst:579 WiFiSSLClient.rst:583
+#: WiFiSSLClient.rst:610 WiFiSSLClient.rst:614 WiFiSSLClient.rst:643
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:220
+msgid "Connect to the IP address and port."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:242
+msgid "``ip`` : IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:244
+msgid "``host`` : Host name"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:246
+msgid "``port``: the port to listen on"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:248
+msgid "``rootCABuff``: buffer that store root CA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:250
+msgid ""
+"``cli_cert``: buffer that store client certificate cli_key buffer that "
+"store client key pair"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:254
+msgid "1: if successful"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:256
+msgid "0: if failed"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:262
+msgid "Details of the code can be found in the previous section of"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:264
+msgid "WiFiSSLClient:: WiFiSSLClient."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:291
+msgid "``byte`` : the outgoing byte"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:293
+msgid "``buf`` : the outgoing message"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:295
+#: WiFiSSLClient.rst:372
+msgid "``size`` : the size of the buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:299
+msgid ""
+"The function returns single -byte into the packet or turns bytes size "
+"from the buffer into the packet."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:327
+#: WiFiSSLClient.rst:405 WiFiSSLClient.rst:438 WiFiSSLClient.rst:469
+#: WiFiSSLClient.rst:503
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:331
+msgid ""
+"The function returns the number of bytes available in the current packet;"
+" else return “0:” if no data available."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:338
+#: WiFiSSLClient.rst:380 WiFiSSLClient.rst:479 WiFiSSLClient.rst:513
+msgid ""
+"Details of the code can be found in the previous section of "
+"WiFiSSLClient:: WiFiSSLClient."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:366
+msgid "``buf`` : buffer to hold incoming packets (char*)"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:368
+msgid "``size`` : maximum size of the buffer (int)"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:374
+msgid "``-1`` : if no buffer is available"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:394
+msgid ""
+"Return the next byte from the current packet without moving on to the "
+"next byte."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:409
+msgid "``b`` : the next byte or character"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:411
+msgid "``-1`` : if none is available"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:459
+msgid "Disconnect from the server. Stop SSL client connection"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:493
+msgid "Check if SSL client is connected, return 1 if connected, 0 if not."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:507
+msgid "The function returns “1” if connected, returns “0” if not connected."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:537
+msgid "``rootCA`` : a string of rootCA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:559
+msgid "Set certificate of client"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:569
+msgid "``client_ca`` : Client certificate"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:571
+msgid "``private_key`` : client’s private key pair"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:602
+msgid "timeout: timeout in seconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:606
+msgid "The function returns “0”."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:633
+msgid "``pskIdent``: identity for PSK"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:635
+msgid "``psKey`` : Pre shared key"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiSSLClient.rst:647
+msgid ""
+"Do not set a root CA and client certificate if PSK should be used for "
+"authentication. If root CA, client certificate and PSK are all set, "
+"certificate based authentication will be used."
+msgstr ""
+

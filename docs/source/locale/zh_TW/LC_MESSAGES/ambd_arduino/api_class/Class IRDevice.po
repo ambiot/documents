@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:3
+msgid "Class IRDevice"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:6 IRDevice.rst:51
+#: IRDevice.rst:81 IRDevice.rst:120 IRDevice.rst:150 IRDevice.rst:215
+#: IRDevice.rst:281
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:8
+msgid "A class used for managing, sending, and receiving data using IR."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:10 IRDevice.rst:55
+#: IRDevice.rst:85 IRDevice.rst:124 IRDevice.rst:154 IRDevice.rst:219
+#: IRDevice.rst:285
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:16
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:19
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:21
+msgid ""
+"A public constructor should not be used as this class is intended to be a"
+" singleton class. Access member functions using the object instance named"
+" IR."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:27
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:29
+msgid "IRDevice::getFreq"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:29
+msgid "Get the current IR modulation frequency"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:31
+msgid "IRDevice::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:31
+msgid "Allocate resources and start the IR device with a custom frequency"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:34
+msgid "IRDevice::end"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:34
+msgid "Stop the IR device operations and free up resources"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:37
+msgid "IRDevice::send"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:37
+msgid "Send IR raw data"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:39
+msgid "IRDevice::beginNEC"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:39
+msgid ""
+"Allocate resources and start the IR device with a frequency suitable for "
+"the NEC protocol"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:42
+msgid "IRDevice::sendNEC"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:42
+msgid "Send data using the NEC protocol"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:44
+msgid "IRDevice::recvNEC"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:44
+msgid "Receive data using the NEC protocol"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:53
+msgid "Get the current IR modulation frequency."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:61 IRDevice.rst:91
+#: IRDevice.rst:130 IRDevice.rst:160 IRDevice.rst:225 IRDevice.rst:291
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:63 IRDevice.rst:132
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:65 IRDevice.rst:103
+#: IRDevice.rst:134 IRDevice.rst:166 IRDevice.rst:231 IRDevice.rst:299
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:67
+msgid "Currently set IR modulation frequency in Hertz."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:69 IRDevice.rst:107
+#: IRDevice.rst:138 IRDevice.rst:170 IRDevice.rst:235 IRDevice.rst:304
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:71 IRDevice.rst:75
+#: IRDevice.rst:109 IRDevice.rst:140 IRDevice.rst:144
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:73 IRDevice.rst:111
+#: IRDevice.rst:142 IRDevice.rst:204 IRDevice.rst:269 IRDevice.rst:311
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:83
+msgid "Allocate resources and start the IR device with a custom frequency."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:93
+msgid ""
+"``receivePin`` : pin on which IR sensor is connected. Hardware IR "
+"receiver is available at pins 3, 8, 17."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:96
+msgid ""
+"``transmitPin`` : pin on which IR LED is connected. Hardware IR "
+"transmitter is available at pins 6, 9, 16."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:99
+msgid "``irMode``: transmit or receive mode. Valid values: IR_MODE_TX, IR_MODE_RX"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:101
+msgid "``freq`` : IR modulation frequency in Hertz"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:105 IRDevice.rst:136
+#: IRDevice.rst:168 IRDevice.rst:233
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:113
+msgid "IR device can only operate in either transmit or receive mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:122
+msgid "Stop the IR device operations and free up resources."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:152
+msgid "Send IR raw data."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:162
+msgid "``buf[ ]`` : IR raw signals (in us) in an array form."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:164
+msgid "``len`` : total length of the IR raw signal array."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:206 IRDevice.rst:271
+msgid ""
+"IR device can only operate in either transmit or receive mode. Refer to "
+"https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol"
+" for the NEC protocol."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:217
+msgid "Send data using the NEC protocol."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:227
+msgid "``adr`` : 8-bit address to transmit"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:229
+msgid "``cmd`` : 8-bit command to transmit"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:237
+msgid "Example: IRSendNEC"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:283
+msgid "Receive data using the NEC protocol."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:293
+msgid "``adr`` : variable to store received NEC address"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:295
+msgid "``cmd`` : variable to store received NEC command"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:297
+msgid "``timeout`` : time duration to wait for an incoming transmission"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:301
+msgid ""
+"The function returns “1” if data has been received, returns “0” if no "
+"data has been received."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:306
+msgid "Example: IRRecvNEC"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:308
+msgid ""
+"Details of the code can be found in the previous section of "
+"IRDevice::beginNEC."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class IRDevice.rst:313
+msgid ""
+"IR device can only operate in either transmit or receive mode. Refer to "
+"https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol"
+"  for the NEC protocol."
+msgstr ""
+

@@ -8,594 +8,601 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 05:15+0000\n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:2
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:3
 msgid "Class TwoWire"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:3
-msgid "**TwoWire Class**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:5
-#: TwoWire.rst:48 TwoWire.rst:129 TwoWire.rst:155 TwoWire.rst:178
-#: TwoWire.rst:202 TwoWire.rst:237 TwoWire.rst:267 TwoWire.rst:292
-#: TwoWire.rst:315 TwoWire.rst:338 TwoWire.rst:361 TwoWire.rst:382
-#: TwoWire.rst:405
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:6 TwoWire.rst:59
+#: TwoWire.rst:139 TwoWire.rst:183 TwoWire.rst:217 TwoWire.rst:305
+#: TwoWire.rst:355 TwoWire.rst:395 TwoWire.rst:429 TwoWire.rst:463
+#: TwoWire.rst:497 TwoWire.rst:528 TwoWire.rst:562
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:6
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:8
 msgid "Defines a class of I2C API"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:8
-#: TwoWire.rst:51 TwoWire.rst:132 TwoWire.rst:158 TwoWire.rst:181
-#: TwoWire.rst:216 TwoWire.rst:240 TwoWire.rst:270 TwoWire.rst:295
-#: TwoWire.rst:318 TwoWire.rst:341 TwoWire.rst:364 TwoWire.rst:385
-#: TwoWire.rst:408
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:10 TwoWire.rst:63
+#: TwoWire.rst:143 TwoWire.rst:187 TwoWire.rst:221 TwoWire.rst:271
+#: TwoWire.rst:309 TwoWire.rst:359 TwoWire.rst:399 TwoWire.rst:433
+#: TwoWire.rst:467 TwoWire.rst:501 TwoWire.rst:532 TwoWire.rst:566
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:9
-msgid "class TwoWire"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:11
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:16
 msgid "**Members**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:14
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:19
 msgid "**Public Constructors**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:16
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:21
 msgid "TwoWire::TwoWire"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:16
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:21
 msgid "Constructs a TwoWire object"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:18
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:26
 msgid "**Public Methods**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:20
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:28
 msgid "TwoWire::begin"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:20
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:28
 msgid "Initialize I2C master/slave"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:22
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:30
 msgid "TwoWire::setClock"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:22
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:30
 msgid "Set I2C frequency"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:24
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:32
 msgid "TwoWire::beginTransmission"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:24
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:32
 msgid "Begin I2C transmission"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:26
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:34
 msgid "TwoWire::endTransmission"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:26
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:34
 msgid "End I2C transmission"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:28
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:36
 msgid "TwoWire::requestFrom"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:28
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:36
 msgid "Set I2C requestFrom"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:30
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:38
 msgid "TwoWire::write"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:30
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:38
 msgid "Write data to I2C"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:32
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:40
 msgid "TwoWire::available"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:32
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:40
 msgid "Check if I2C is available"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:34
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:42
 msgid "TwoWire::read"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:34
-#: TwoWire.rst:316
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:42 TwoWire.rst:431
 msgid "Read data from I2C"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:36
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:44
 msgid "TwoWire::peek"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:36
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:44
 msgid "Read peek from I2C"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:38
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:46
 msgid "TwoWire::flush"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:38
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:46
 msgid "Do nothing, use, and transmission(..) to force data transfer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:41
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:49
 msgid "TwoWire::onReceive"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:41
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:49
 msgid "Callback function when I2C on receive"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:43
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:51
 msgid "TwoWire::onRequest"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:43
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:51
 msgid "Callback function when I2C on request"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:46
-msgid "**TwoWire::TwoWire**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:49
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:61
 msgid "Constructs a TwoWire object."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:52
-msgid "TwoWire::TwoWire (uint32_t dwSDAPin, uint32_t dwSCLPin);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:54
-#: TwoWire.rst:137 TwoWire.rst:161 TwoWire.rst:185 TwoWire.rst:220
-#: TwoWire.rst:248 TwoWire.rst:274 TwoWire.rst:298 TwoWire.rst:321
-#: TwoWire.rst:344 TwoWire.rst:367 TwoWire.rst:388 TwoWire.rst:411
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:69 TwoWire.rst:157
+#: TwoWire.rst:193 TwoWire.rst:231 TwoWire.rst:281 TwoWire.rst:327
+#: TwoWire.rst:369 TwoWire.rst:405 TwoWire.rst:439 TwoWire.rst:473
+#: TwoWire.rst:507 TwoWire.rst:538 TwoWire.rst:572
 msgid "**Parameters**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:55
-msgid "dwSDAPin: The Arduino PIN to be set as an SDA pin."
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:71
+msgid "``dwSDAPin`` : The Arduino PIN to be set as an SDA pin."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:56
-msgid "dwSCLPin: The Arduino PIN to be set as an SCL pin."
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:73
+msgid "``dwSCLPin`` : The Arduino PIN to be set as an SCL pin."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:58
-#: TwoWire.rst:141 TwoWire.rst:164 TwoWire.rst:188 TwoWire.rst:223
-#: TwoWire.rst:253 TwoWire.rst:278 TwoWire.rst:301 TwoWire.rst:324
-#: TwoWire.rst:347 TwoWire.rst:370 TwoWire.rst:391 TwoWire.rst:414
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:75 TwoWire.rst:163
+#: TwoWire.rst:197 TwoWire.rst:235 TwoWire.rst:285 TwoWire.rst:335
+#: TwoWire.rst:375 TwoWire.rst:409 TwoWire.rst:443 TwoWire.rst:477
+#: TwoWire.rst:511 TwoWire.rst:542 TwoWire.rst:576
 msgid "**Returns**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:59
-#: TwoWire.rst:142 TwoWire.rst:165 TwoWire.rst:189 TwoWire.rst:371
-#: TwoWire.rst:392 TwoWire.rst:415
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:77 TwoWire.rst:165
+#: TwoWire.rst:199 TwoWire.rst:237 TwoWire.rst:513 TwoWire.rst:544
+#: TwoWire.rst:578
 msgid "The function returns nothing."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:61
-#: TwoWire.rst:144 TwoWire.rst:167 TwoWire.rst:191 TwoWire.rst:226
-#: TwoWire.rst:256 TwoWire.rst:281 TwoWire.rst:304 TwoWire.rst:327
-#: TwoWire.rst:350 TwoWire.rst:373 TwoWire.rst:394 TwoWire.rst:417
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:79 TwoWire.rst:167
+#: TwoWire.rst:201 TwoWire.rst:239 TwoWire.rst:289 TwoWire.rst:339
+#: TwoWire.rst:379 TwoWire.rst:413 TwoWire.rst:447 TwoWire.rst:481
+#: TwoWire.rst:515 TwoWire.rst:546 TwoWire.rst:580
 msgid "**Example Code**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:62
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:81
 msgid "Example: MasterWriter"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:64
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:83
 msgid ""
 "This example demonstrates the use of the wire library writes to an "
 "I2C/TWI slave device."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:66
-#: TwoWire.rst:94
-msgid "**#include <Wire.h>**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:68
-#: TwoWire.rst:96
-msgid "**void** setup() {"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:70
-#: TwoWire.rst:98
-msgid "Wire.begin(); // join i2c bus (address optional for master)"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:72
-#: TwoWire.rst:90 TwoWire.rst:102 TwoWire.rst:114 TwoWire.rst:118
-msgid "}"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:74
-msgid "byte x = 0;"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:76
-#: TwoWire.rst:104
-msgid "**void** loop() {"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:78
-msgid "Wire.beginTransmission(8); // transmit to device #8"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:80
-msgid "Wire.write(\"x is \"); // sends five bytes"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:82
-msgid "Wire.write(x); // sends one byte"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:84
-msgid "Wire.endTransmission(); // stop transmitting"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:86
-msgid "x++;"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:88
-#: TwoWire.rst:116
-msgid "delay(500);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:92
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:106
 msgid "Example: MasterReader"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:100
-msgid "Serial.begin(9600); // start serial for output"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:106
-msgid "Wire.requestFrom(8, 6); // request 6 bytes from slave device #8"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:108
-msgid "**while** (Wire.available()) { // slave may send less than requested"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:110
-msgid "**char** c = Wire.read(); // receive a byte as character"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:112
-msgid "Serial.print(c); // print the character"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:120
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:128
 msgid ""
 "This example demonstrates the use of the wire library reads data from an "
 "I2C/TWI slave device."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:123
-#: TwoWire.rst:149 TwoWire.rst:172 TwoWire.rst:196 TwoWire.rst:231
-#: TwoWire.rst:261 TwoWire.rst:286 TwoWire.rst:309 TwoWire.rst:332
-#: TwoWire.rst:355 TwoWire.rst:376 TwoWire.rst:399 TwoWire.rst:422
-msgid "**Notes and Warnings**"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:131
+msgid "**Notes and Warnings** Include “Wire.h” to use the class function."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:124
-#: TwoWire.rst:150 TwoWire.rst:173 TwoWire.rst:197 TwoWire.rst:232
-#: TwoWire.rst:262 TwoWire.rst:287 TwoWire.rst:310 TwoWire.rst:333
-#: TwoWire.rst:356 TwoWire.rst:400 TwoWire.rst:423
-msgid "Include “Wire.h” to use the class function."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:127
-msgid "**TwoWire::begin**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:130
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:141
 msgid "Initialize I2C master/slave."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:133
-msgid "void TwoWire::begin (void);"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:159
+msgid "``void`` : Set the I2C master mode."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:134
-msgid "void TwoWire::begin (uint8_t address = 0);"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:161
+msgid "``address``: Set the I2C master mode with slave address value."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:135
-msgid "void TwoWire::begin (int address);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:138
-msgid "void: Set the I2C master mode."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:139
-msgid "address: Set the I2C master mode with slave address value."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:145
-#: TwoWire.rst:168 TwoWire.rst:192 TwoWire.rst:227 TwoWire.rst:257
-#: TwoWire.rst:282 TwoWire.rst:305 TwoWire.rst:328 TwoWire.rst:351
-#: TwoWire.rst:374 TwoWire.rst:395 TwoWire.rst:418
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:169 TwoWire.rst:203
+#: TwoWire.rst:241 TwoWire.rst:291 TwoWire.rst:341 TwoWire.rst:381
+#: TwoWire.rst:415 TwoWire.rst:449 TwoWire.rst:483 TwoWire.rst:517
+#: TwoWire.rst:548 TwoWire.rst:582
 msgid "Example: MasterReader; MasterWriter"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:147
-#: TwoWire.rst:170 TwoWire.rst:194 TwoWire.rst:229 TwoWire.rst:259
-#: TwoWire.rst:284 TwoWire.rst:307 TwoWire.rst:330 TwoWire.rst:353
-#: TwoWire.rst:397 TwoWire.rst:420
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:171 TwoWire.rst:205
+#: TwoWire.rst:243 TwoWire.rst:293 TwoWire.rst:343 TwoWire.rst:383
+#: TwoWire.rst:417 TwoWire.rst:451 TwoWire.rst:485 TwoWire.rst:550
+#: TwoWire.rst:584
 msgid ""
 "The details of the code can be found in the previous section of TwoWire::"
 " TwoWire."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:153
-msgid "**TwoWire::setClock**"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:174 TwoWire.rst:208
+#: TwoWire.rst:246 TwoWire.rst:296 TwoWire.rst:346 TwoWire.rst:386
+#: TwoWire.rst:420 TwoWire.rst:454 TwoWire.rst:488 TwoWire.rst:519
+#: TwoWire.rst:553 TwoWire.rst:587
+msgid "**Notes and Warnings**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:156
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:176 TwoWire.rst:210
+#: TwoWire.rst:248 TwoWire.rst:298 TwoWire.rst:348 TwoWire.rst:388
+#: TwoWire.rst:422 TwoWire.rst:456 TwoWire.rst:490 TwoWire.rst:555
+#: TwoWire.rst:589
+msgid "Include “Wire.h” to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:185
 msgid "Set I2C frequency."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:159
-msgid "void TwoWire::setClock(uint32_t frequency);"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:195
+msgid "``frequency`` : The frequency values."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:162
-msgid "frequency: The frequency values."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:176
-msgid "**TwoWire::beginTransmission**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:179
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:219
 msgid "Begin I2C transmission."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:182
-msgid "void TwoWire::beginTransmission (uint8_t address);"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:233
+msgid "``address`` : The transmission address."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:183
-msgid "void TwoWire::beginTransmission (int address);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:186
-msgid "address: The transmission address."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:200
-msgid "**TwoWire::endTransmission**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:206
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:254
 msgid ""
-"End I2C transmission. Originally, ‘endTransmission’ was an f(void) "
-"function. It has been modified to take one parameter indicating whether "
-"or not a STOP should be performed on the bus. Calling "
+"**Description** End I2C transmission. Originally, ‘endTransmission’ was "
+"an f(void) function. It has been modified to take one parameter "
+"indicating whether or not a STOP should be performed on the bus. Calling "
 "endTransmission(false) allows a sketch to perform a repeated start."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:208
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:262
 msgid ""
-"WARNING: Nothing in the library keeps track of whether the bus tenure has"
-" been properly ended with a STOP. It is very possible to leave the bus in"
-" a hung state if no call to endTransmission(true) is made. Some I2C "
-"devices will behave oddly if they do not see a STOP."
+"Nothing in the library keeps track of whether the bus tenure has been "
+"properly ended with a STOP. It is very possible to leave the bus in a "
+"hung state if no call to endTransmission(true) is made. Some I2C devices "
+"will behave oddly if they do not see a STOP."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:213
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:267
 msgid ""
 "If the input parameter is void, this provides backward compatibility with"
 " the original definition, and expected behavior, of endTransmission."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:217
-msgid "uint8_t TwoWire::endTransmission (uint8_t sendStop);"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:283
+msgid "``sendStop`` : True to end the transmission"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:218
-msgid "uint8_t TwoWire::endTransmission (void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:221
-msgid "sendStop: True to end the transmission"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:224
-#: TwoWire.rst:254 TwoWire.rst:279 TwoWire.rst:302
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:287 TwoWire.rst:337
+#: TwoWire.rst:377 TwoWire.rst:411
 msgid "Return 0 if successful, else error."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:235
-msgid "**TwoWire::requestFrom**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:238
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:307
 msgid "Set I2C requestFrom."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:242
-msgid ""
-"uint8_t TwoWire::requestFrom (uint8_t address, uint8_t quantity, uint8_t "
-"sendStop);"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:329
+msgid "``address`` : I2C read address."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:243
-msgid "uint8_t TwoWire::requestFrom (uint8_t address, uint8_t quantity);"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:331
+msgid "``quantity`` : I2C read quantity."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:244
-msgid "uint8_t TwoWire::requestFrom(int address, int quantity);"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:333
+msgid "``sendStop`` : True to end the transmission."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:246
-msgid "uint8_t TwoWire::requestFrom (int address, int quantity, int sendStop);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:249
-msgid "address: I2C read address."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:250
-msgid "quantity: I2C read quantity."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:251
-msgid "sendStop: True to end the transmission."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:265
-msgid "**TwoWire::write**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:268
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:357
 msgid "Write data to I2C."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:271
-msgid "size_t TwoWire::write (uint8_t data);"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:371
+msgid "``data``: The data to be transmitted."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:272
-msgid "size_t TwoWire::write (const uint8_t \\*data, size_t quantity);"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:373
+msgid "``quantity`` : The quantity of data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:275
-msgid "data: The data to be transmitted."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:276
-msgid "quantity: The quantity of data."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:290
-msgid "**TwoWire::available**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:293
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:397
 msgid "Check if I2C is available."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:296
-msgid "int TwoWire::available (void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:299
-#: TwoWire.rst:322 TwoWire.rst:345 TwoWire.rst:368
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:407 TwoWire.rst:441
+#: TwoWire.rst:475 TwoWire.rst:509
 msgid "The function requires no input parameter."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:313
-msgid "**TwoWire::read**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:319
-msgid "int TwoWire::read (void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:325
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:445
 msgid "The read data from the receive buffer."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:336
-msgid "**TwoWire::peek**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:339
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:465
 msgid "Read peek from I2C."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:342
-msgid "int TwoWire::peek (void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:348
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:479
 msgid "The peek data read from the receive buffer."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:359
-msgid "**TwoWire::flush**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:362
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:499
 msgid "Do nothing, use endTransmission(..) to force data transfer."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:365
-msgid "void TwoWire::flush (void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:377
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:521
 msgid "Include “Wire.h” in order to use the class function."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:380
-msgid "**TwoWire::onReceive**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:383
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:530
 msgid "Callback function when I2C on receive."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:386
-msgid "void TwoWire::onReceive (void(\\*function)(int));"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:540
+msgid "``function``: The callback function."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:389
-msgid "function: The callback function."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:403
-msgid "**TwoWire::onRequest**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:406
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:564
 msgid "Callback function when I2C on request."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:409
-msgid "void TwoWire::onRequest (void(\\*function)(void));"
+#: ../../source/ambd_arduino/api_class/Class TwoWire.rst:574
+msgid "``function``: The callback function"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class TwoWire.rst:412
-msgid "function: The callback function"
-msgstr ""
+#~ msgid "**TwoWire Class**"
+#~ msgstr ""
+
+#~ msgid "class TwoWire"
+#~ msgstr ""
+
+#~ msgid "**TwoWire::TwoWire**"
+#~ msgstr ""
+
+#~ msgid "TwoWire::TwoWire (uint32_t dwSDAPin, uint32_t dwSCLPin);"
+#~ msgstr ""
+
+#~ msgid "dwSDAPin: The Arduino PIN to be set as an SDA pin."
+#~ msgstr ""
+
+#~ msgid "dwSCLPin: The Arduino PIN to be set as an SCL pin."
+#~ msgstr ""
+
+#~ msgid "**#include <Wire.h>**"
+#~ msgstr ""
+
+#~ msgid "**void** setup() {"
+#~ msgstr ""
+
+#~ msgid "Wire.begin(); // join i2c bus (address optional for master)"
+#~ msgstr ""
+
+#~ msgid "}"
+#~ msgstr ""
+
+#~ msgid "byte x = 0;"
+#~ msgstr ""
+
+#~ msgid "**void** loop() {"
+#~ msgstr ""
+
+#~ msgid "Wire.beginTransmission(8); // transmit to device #8"
+#~ msgstr ""
+
+#~ msgid "Wire.write(\"x is \"); // sends five bytes"
+#~ msgstr ""
+
+#~ msgid "Wire.write(x); // sends one byte"
+#~ msgstr ""
+
+#~ msgid "Wire.endTransmission(); // stop transmitting"
+#~ msgstr ""
+
+#~ msgid "x++;"
+#~ msgstr ""
+
+#~ msgid "delay(500);"
+#~ msgstr ""
+
+#~ msgid "Serial.begin(9600); // start serial for output"
+#~ msgstr ""
+
+#~ msgid "Wire.requestFrom(8, 6); // request 6 bytes from slave device #8"
+#~ msgstr ""
+
+#~ msgid "**while** (Wire.available()) { // slave may send less than requested"
+#~ msgstr ""
+
+#~ msgid "**char** c = Wire.read(); // receive a byte as character"
+#~ msgstr ""
+
+#~ msgid "Serial.print(c); // print the character"
+#~ msgstr ""
+
+#~ msgid "**TwoWire::begin**"
+#~ msgstr ""
+
+#~ msgid "void TwoWire::begin (void);"
+#~ msgstr ""
+
+#~ msgid "void TwoWire::begin (uint8_t address = 0);"
+#~ msgstr ""
+
+#~ msgid "void TwoWire::begin (int address);"
+#~ msgstr ""
+
+#~ msgid "void: Set the I2C master mode."
+#~ msgstr ""
+
+#~ msgid "address: Set the I2C master mode with slave address value."
+#~ msgstr ""
+
+#~ msgid "**TwoWire::setClock**"
+#~ msgstr ""
+
+#~ msgid "void TwoWire::setClock(uint32_t frequency);"
+#~ msgstr ""
+
+#~ msgid "frequency: The frequency values."
+#~ msgstr ""
+
+#~ msgid "**TwoWire::beginTransmission**"
+#~ msgstr ""
+
+#~ msgid "void TwoWire::beginTransmission (uint8_t address);"
+#~ msgstr ""
+
+#~ msgid "void TwoWire::beginTransmission (int address);"
+#~ msgstr ""
+
+#~ msgid "address: The transmission address."
+#~ msgstr ""
+
+#~ msgid "**TwoWire::endTransmission**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "End I2C transmission. Originally, "
+#~ "‘endTransmission’ was an f(void) function. "
+#~ "It has been modified to take one"
+#~ " parameter indicating whether or not "
+#~ "a STOP should be performed on the"
+#~ " bus. Calling endTransmission(false) allows "
+#~ "a sketch to perform a repeated "
+#~ "start."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "WARNING: Nothing in the library keeps"
+#~ " track of whether the bus tenure "
+#~ "has been properly ended with a "
+#~ "STOP. It is very possible to leave"
+#~ " the bus in a hung state if "
+#~ "no call to endTransmission(true) is "
+#~ "made. Some I2C devices will behave "
+#~ "oddly if they do not see a "
+#~ "STOP."
+#~ msgstr ""
+
+#~ msgid "uint8_t TwoWire::endTransmission (uint8_t sendStop);"
+#~ msgstr ""
+
+#~ msgid "uint8_t TwoWire::endTransmission (void);"
+#~ msgstr ""
+
+#~ msgid "sendStop: True to end the transmission"
+#~ msgstr ""
+
+#~ msgid "**TwoWire::requestFrom**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "uint8_t TwoWire::requestFrom (uint8_t address, "
+#~ "uint8_t quantity, uint8_t sendStop);"
+#~ msgstr ""
+
+#~ msgid "uint8_t TwoWire::requestFrom (uint8_t address, uint8_t quantity);"
+#~ msgstr ""
+
+#~ msgid "uint8_t TwoWire::requestFrom(int address, int quantity);"
+#~ msgstr ""
+
+#~ msgid "uint8_t TwoWire::requestFrom (int address, int quantity, int sendStop);"
+#~ msgstr ""
+
+#~ msgid "address: I2C read address."
+#~ msgstr ""
+
+#~ msgid "quantity: I2C read quantity."
+#~ msgstr ""
+
+#~ msgid "sendStop: True to end the transmission."
+#~ msgstr ""
+
+#~ msgid "**TwoWire::write**"
+#~ msgstr ""
+
+#~ msgid "size_t TwoWire::write (uint8_t data);"
+#~ msgstr ""
+
+#~ msgid "size_t TwoWire::write (const uint8_t \\*data, size_t quantity);"
+#~ msgstr ""
+
+#~ msgid "data: The data to be transmitted."
+#~ msgstr ""
+
+#~ msgid "quantity: The quantity of data."
+#~ msgstr ""
+
+#~ msgid "**TwoWire::available**"
+#~ msgstr ""
+
+#~ msgid "int TwoWire::available (void);"
+#~ msgstr ""
+
+#~ msgid "**TwoWire::read**"
+#~ msgstr ""
+
+#~ msgid "int TwoWire::read (void);"
+#~ msgstr ""
+
+#~ msgid "**TwoWire::peek**"
+#~ msgstr ""
+
+#~ msgid "int TwoWire::peek (void);"
+#~ msgstr ""
+
+#~ msgid "**TwoWire::flush**"
+#~ msgstr ""
+
+#~ msgid "void TwoWire::flush (void);"
+#~ msgstr ""
+
+#~ msgid "**TwoWire::onReceive**"
+#~ msgstr ""
+
+#~ msgid "void TwoWire::onReceive (void(\\*function)(int));"
+#~ msgstr ""
+
+#~ msgid "function: The callback function."
+#~ msgstr ""
+
+#~ msgid "**TwoWire::onRequest**"
+#~ msgstr ""
+
+#~ msgid "void TwoWire::onRequest (void(\\*function)(void));"
+#~ msgstr ""
+
+#~ msgid "function: The callback function"
+#~ msgstr ""
 

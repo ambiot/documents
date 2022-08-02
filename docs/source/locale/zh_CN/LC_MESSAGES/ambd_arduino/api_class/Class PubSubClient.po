@@ -1,0 +1,539 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:3
+msgid "Class PubSubClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:6
+#: PubSubClient.rst:61 PubSubClient.rst:153 PubSubClient.rst:198
+#: PubSubClient.rst:231 PubSubClient.rst:262 PubSubClient.rst:293
+#: PubSubClient.rst:350 PubSubClient.rst:380 PubSubClient.rst:435
+#: PubSubClient.rst:478 PubSubClient.rst:518 PubSubClient.rst:552
+#: PubSubClient.rst:586 PubSubClient.rst:619
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:8
+msgid "Defines a class of MQTT implementation for Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:10
+#: PubSubClient.rst:66 PubSubClient.rst:157 PubSubClient.rst:202
+#: PubSubClient.rst:235 PubSubClient.rst:266 PubSubClient.rst:297
+#: PubSubClient.rst:354 PubSubClient.rst:384 PubSubClient.rst:439
+#: PubSubClient.rst:482 PubSubClient.rst:522 PubSubClient.rst:557
+#: PubSubClient.rst:590 PubSubClient.rst:626
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:16
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:19
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:21
+msgid "PubSubClient::PubSubClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:21
+msgid "Constructs a PubSubClient object"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:26
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:28
+msgid "PubSubClient::setServer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:28
+msgid "Set MQTT server address and port"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:30
+msgid "PubSubClient::setCallback"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:30
+msgid "Set callback function"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:32
+msgid "PubSubClient::setClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:32
+msgid "Set WiFi client"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:34
+msgid "PubSubClient::setStream"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:34
+msgid "Set data stream"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:36
+msgid "PubSubClient::connect"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:36
+msgid "Attempt to connect to server"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:38
+msgid "PubSubClient::disconnect"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:38
+msgid "Disconnect from current session"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:40
+msgid "PubSubClient::publish"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:40
+msgid "Publish a message to server"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:42
+msgid "PubSubClient::publish_P"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:42
+msgid "Same as above"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:44
+msgid "PubSubClient::subscribe"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:44
+msgid "Subscribe to a topic"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:46
+msgid "PubSubClient::unsubscribe"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:46
+msgid "Unsubscribe to a topic"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:48
+msgid "PubSubClient::loop"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:48
+msgid "Keep MQTT session alive and process any queuing tasks"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:51
+msgid "PubSubClient::connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:51
+msgid "Check if client still connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:53
+msgid "PubSubClient::state"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:53
+msgid "Return connection state"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:63
+msgid ""
+"Constructs a PubSubClient object and, if applicable, sets server address,"
+" port, callback function, data stream and wifi client."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:124
+#: PubSubClient.rst:173 PubSubClient.rst:208 PubSubClient.rst:241
+#: PubSubClient.rst:272 PubSubClient.rst:315 PubSubClient.rst:360
+#: PubSubClient.rst:402 PubSubClient.rst:445 PubSubClient.rst:492
+#: PubSubClient.rst:528 PubSubClient.rst:563 PubSubClient.rst:596
+#: PubSubClient.rst:632
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:126
+#: PubSubClient.rst:243
+msgid "``client`` : the network client to use, for example WiFiClient"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:128
+msgid "``IPAddress`` : MQTT server address"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:130
+msgid "``port`` : port for MQTT, usually 1883 for unencrypted connection"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:132
+msgid "``MQTT_CALLBACK_SIGNATURE`` : callback function for MQTT"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:134
+msgid "``Stream`` : a stream to write received messages to"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:136
+#: PubSubClient.rst:181 PubSubClient.rst:214 PubSubClient.rst:245
+#: PubSubClient.rst:276 PubSubClient.rst:331 PubSubClient.rst:364
+#: PubSubClient.rst:416 PubSubClient.rst:459 PubSubClient.rst:498
+#: PubSubClient.rst:532 PubSubClient.rst:567 PubSubClient.rst:600
+#: PubSubClient.rst:636
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:138
+#: PubSubClient.rst:366
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:140
+#: PubSubClient.rst:185 PubSubClient.rst:218 PubSubClient.rst:249
+#: PubSubClient.rst:280 PubSubClient.rst:337 PubSubClient.rst:368
+#: PubSubClient.rst:422 PubSubClient.rst:465 PubSubClient.rst:505
+#: PubSubClient.rst:539 PubSubClient.rst:573 PubSubClient.rst:606
+#: PubSubClient.rst:664
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:142
+#: PubSubClient.rst:187 PubSubClient.rst:220 PubSubClient.rst:339
+#: PubSubClient.rst:424 PubSubClient.rst:507 PubSubClient.rst:575
+#: PubSubClient.rst:608 PubSubClient.rst:666
+msgid "Example: MQTT_Basic"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:144
+#: PubSubClient.rst:189 PubSubClient.rst:222 PubSubClient.rst:253
+#: PubSubClient.rst:284 PubSubClient.rst:341 PubSubClient.rst:372
+#: PubSubClient.rst:426 PubSubClient.rst:469 PubSubClient.rst:509
+#: PubSubClient.rst:543 PubSubClient.rst:577 PubSubClient.rst:610
+#: PubSubClient.rst:668
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:146
+msgid ""
+"PubSubClient::PubSubClient(Client& client) would suffice for normal MQTT "
+"connection"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:155
+msgid "Sets the server details."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:175
+msgid "``ip`` : the address of the server"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:177
+msgid "``port`` : the port to connect to, default 1883"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:179
+msgid "``domain`` : the address of the server"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:183
+#: PubSubClient.rst:247
+msgid "The client instance, allowing the function to be chained"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:191
+#: PubSubClient.rst:224 PubSubClient.rst:251 PubSubClient.rst:255
+#: PubSubClient.rst:282 PubSubClient.rst:286 PubSubClient.rst:370
+#: PubSubClient.rst:374 PubSubClient.rst:467 PubSubClient.rst:471
+#: PubSubClient.rst:511 PubSubClient.rst:541 PubSubClient.rst:545
+#: PubSubClient.rst:612 PubSubClient.rst:670
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:200
+msgid "Sets the message callback function."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:210
+msgid ""
+"``MQTT_CALLBACK_SIGNATURE`` : a pointer to a message callback function "
+"called when a message arrives for a subscription created by this client."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:216
+#: PubSubClient.rst:278
+msgid "The client instance, allowing the function to be chained."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:233
+msgid "Sets the network client instance to use."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:264
+msgid "Sets the stream to write received messages to."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:274
+msgid "``stream`` : a stream to write received messages to"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:295
+msgid "Connects the client to the server."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:317
+msgid "``id`` : Client ID, a unique string identifier"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:319
+msgid "``user``: Username for authentication, default NULL"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:321
+msgid "``pass`` : Password for authentication, default NULL"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:323
+msgid "``willTopic`` : the topic to be used by the will message"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:325
+msgid "``willQoS`` : the quality of service to be used by the will message"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:327
+msgid "``willRetain`` : whether the will should be published with the retain flag"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:329
+msgid "``willMessage`` : the payload of the will message"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:333
+msgid "True – connection succeeded"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:335
+msgid "False – connection failed"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:343
+msgid ""
+"Client ID is required and should always be unique else connection might "
+"be rejected by the server."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:352
+msgid "Disconnect the client"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:362
+#: PubSubClient.rst:565 PubSubClient.rst:598 PubSubClient.rst:634
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:382
+msgid "Publishes a message to the specified topic."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:404
+#: PubSubClient.rst:447
+msgid "``topic`` : the topic to publish to"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:406
+#: PubSubClient.rst:449
+msgid "``payload`` : the message to publish"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:408
+#: PubSubClient.rst:451
+msgid "``plength`` : the length of the payload. Required if payload is a byte[]"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:410
+#: PubSubClient.rst:453
+msgid "``retained`` : whether the message should be retained"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:412
+#: PubSubClient.rst:455
+msgid "– false – not retained"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:414
+#: PubSubClient.rst:457
+msgid "– true – retained"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:418
+#: PubSubClient.rst:461
+msgid "False – publish failed, either connection lost or message too large"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:420
+#: PubSubClient.rst:463
+msgid "True – publish succeeded"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:428
+msgid "Default max packet size is 128 bytes."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:437
+msgid "Publishes a message stored in PROGMEM to the specified topic."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:480
+msgid "Subscribes to messages published to the specified topic."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:494
+msgid "``topic`` : the topic to subscribe to"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:496
+msgid "``qos`` : the qos to subscribe at"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:500
+msgid ""
+"False – sending the subscribe failed, either connection lost or message "
+"too large"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:503
+msgid "True – sending the subscribe succeeded"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:520
+msgid "Unsubscribes from the specified topic."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:530
+msgid "``topic`` : the topic to unsubscribe to"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:534
+msgid ""
+"False – sending the unsubscribe failed, either connection lost or message"
+" too large"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:537
+msgid "True – sending the unsubscribe succeeded"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:554
+msgid ""
+"A must method called regularly to allow the client to process incoming "
+"messages and maintain its connection to the server."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:569
+msgid "False – the client is no longer connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:571
+msgid "True – the client is still connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:579
+msgid "A required method that should not be blocked for too long."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:588
+msgid "Checks whether the client is connected to the server."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:602
+msgid "False – the client is not connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:604
+msgid "True – the client is connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:621
+msgid ""
+"Returns the current state of the client. If a connection attempt fails, "
+"this can be used to get more information about the failure. All of the "
+"values have corresponding constants defined in PubSubClient.h."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:638
+msgid "-4 : MQTT_CONNECTION_TIMEOUT – the server didn’t respond within the"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:640
+msgid "keepalive time"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:642
+msgid "-3 : MQTT_CONNECTION_LOST – the network connection was broken"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:644
+msgid "-2 : MQTT_CONNECT_FAILED – the network connection failed"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:646
+msgid "-1 : MQTT_DISCONNECTED – the client is disconnected cleanly"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:648
+msgid "0 : MQTT_CONNECTED – the client is connected"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:650
+msgid ""
+"1 : MQTT_CONNECT_BAD_PROTOCOL – the server doesn’t support the requested "
+"version of MQTT"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:653
+msgid "2 : MQTT_CONNECT_BAD_CLIENT_ID – the server rejected the client identifier"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:656
+msgid ""
+"3 : MQTT_CONNECT_UNAVAILABLE – the server was unable to accept the "
+"connection"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:659
+msgid "4 : MQTT_CONNECT_BAD_CREDENTIALS – the username/password were rejected"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class PubSubClient.rst:661
+msgid "5 : MQTT_CONNECT_UNAUTHORIZED – the client was not authorized to connect"
+msgstr ""
+

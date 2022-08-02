@@ -1,0 +1,402 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:3
+msgid "Class WiFiUdp"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:6 WiFiUdp.rst:76
+#: WiFiUdp.rst:214 WiFiUdp.rst:253 WiFiUdp.rst:285 WiFiUdp.rst:333
+#: WiFiUdp.rst:372 WiFiUdp.rst:419 WiFiUdp.rst:454 WiFiUdp.rst:485
+#: WiFiUdp.rst:517 WiFiUdp.rst:561 WiFiUdp.rst:595 WiFiUdp.rst:626
+#: WiFiUdp.rst:663 WiFiUdp.rst:700
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:8
+msgid "Defines a class of WiFi UDP implementation for Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:10 WiFiUdp.rst:81
+#: WiFiUdp.rst:219 WiFiUdp.rst:258 WiFiUdp.rst:290 WiFiUdp.rst:337
+#: WiFiUdp.rst:376 WiFiUdp.rst:423 WiFiUdp.rst:458 WiFiUdp.rst:489
+#: WiFiUdp.rst:521 WiFiUdp.rst:566 WiFiUdp.rst:599 WiFiUdp.rst:630
+#: WiFiUdp.rst:667 WiFiUdp.rst:704
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:16
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:19
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:21
+msgid "WiFiUDP::WiFiUDP"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:21
+msgid ""
+"Constructs a WiFiUDP instance of the WiFi UDP class that can send and "
+"receive UDP messages"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:27
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:29
+msgid "WiFiUDP:: begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:29
+msgid ""
+"initialize, start listening on the specified port. Returns 1 if "
+"successful, 0 if there are no sockets available to use"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:34
+msgid "WiFiUDP:: stop"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:34
+msgid "Finish with the UDP socket"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:36
+msgid "WiFiUDP:: beginPacket"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:36
+msgid ""
+"Start building up a packet to send to the remote host-specific in IP and "
+"port"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:40
+msgid "WiFiUDP:: endPacket"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:40 WiFiUdp.rst:335
+msgid "Finish off this packet and send it"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:42
+msgid "WiFiUDP:: write"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:42
+msgid "Write a single byte into the packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:44
+msgid "WiFiUDP:: writeImmediately"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:44 WiFiUdp.rst:421
+msgid "Send packet immediately from the buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:47
+msgid "WiFiUDP:: parsePacket"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:47 WiFiUdp.rst:456
+msgid "Start processing the next available incoming packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:50
+msgid "WiFiUDP::available"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:50
+msgid "Number of bytes remaining in the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:53
+msgid "WiFiUDP::read"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:53 WiFiUdp.rst:519
+msgid "Read a single byte from the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:56
+msgid "WiFiUDP:: peek"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:56 WiFiUdp.rst:563
+msgid ""
+"Return the next byte from the current packet without moving on to the "
+"next byte"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:60
+msgid "WiFiUDP:: flush"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:60 WiFiUdp.rst:597
+msgid "Finish reading the current packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:62
+msgid "WiFiUDP:: remoteIP"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:62 WiFiUdp.rst:628
+msgid "Return the IP address of the host who sent the current incoming packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:65
+msgid "WiFiUDP:: remotePort"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:65 WiFiUdp.rst:665
+msgid "Return the port of the host who sent the current incoming packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:68
+msgid "WiFiUDP:: setRecvTimeout"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:68 WiFiUdp.rst:702
+msgid "Set receiving timeout"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:78
+msgid ""
+"Constructs a WiFiUDP instance of the WiFi UDP class that can send and "
+"receive UDP messages."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:87 WiFiUdp.rst:225
+#: WiFiUdp.rst:264 WiFiUdp.rst:300 WiFiUdp.rst:343 WiFiUdp.rst:386
+#: WiFiUdp.rst:429 WiFiUdp.rst:464 WiFiUdp.rst:495 WiFiUdp.rst:531
+#: WiFiUdp.rst:572 WiFiUdp.rst:605 WiFiUdp.rst:636 WiFiUdp.rst:673
+#: WiFiUdp.rst:710
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:89 WiFiUdp.rst:266
+#: WiFiUdp.rst:345 WiFiUdp.rst:466 WiFiUdp.rst:497 WiFiUdp.rst:574
+#: WiFiUdp.rst:607 WiFiUdp.rst:638 WiFiUdp.rst:675
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:91 WiFiUdp.rst:229
+#: WiFiUdp.rst:268 WiFiUdp.rst:308 WiFiUdp.rst:347 WiFiUdp.rst:394
+#: WiFiUdp.rst:435 WiFiUdp.rst:468 WiFiUdp.rst:499 WiFiUdp.rst:537
+#: WiFiUdp.rst:576 WiFiUdp.rst:609 WiFiUdp.rst:640 WiFiUdp.rst:677
+#: WiFiUdp.rst:714
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:93 WiFiUdp.rst:270
+#: WiFiUdp.rst:611 WiFiUdp.rst:716
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:95 WiFiUdp.rst:235
+#: WiFiUdp.rst:272 WiFiUdp.rst:314 WiFiUdp.rst:353 WiFiUdp.rst:400
+#: WiFiUdp.rst:441 WiFiUdp.rst:473 WiFiUdp.rst:504 WiFiUdp.rst:543
+#: WiFiUdp.rst:582 WiFiUdp.rst:613 WiFiUdp.rst:644 WiFiUdp.rst:681
+#: WiFiUdp.rst:718
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:97 WiFiUdp.rst:237
+#: WiFiUdp.rst:316 WiFiUdp.rst:355 WiFiUdp.rst:402 WiFiUdp.rst:475
+#: WiFiUdp.rst:545 WiFiUdp.rst:646 WiFiUdp.rst:683
+msgid "Example: WiFiUdpSendReceiveString"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:99
+msgid ""
+"This example demonstrates WiFi UDP send and receive string. This sketch "
+"waits for a UDP packet on a local port using a WiFi shield. When a packet"
+" is received an Acknowledge packet is sent to the client on port "
+"remotePort."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:204 WiFiUdp.rst:245
+#: WiFiUdp.rst:276 WiFiUdp.rst:324 WiFiUdp.rst:363 WiFiUdp.rst:410
+#: WiFiUdp.rst:445 WiFiUdp.rst:477 WiFiUdp.rst:508 WiFiUdp.rst:552
+#: WiFiUdp.rst:586 WiFiUdp.rst:617 WiFiUdp.rst:654 WiFiUdp.rst:691
+#: WiFiUdp.rst:722
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:206
+msgid ""
+"This constructor does not take in any parameter, thus use another method "
+"to set up the IP address and port number."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:216
+msgid ""
+"Initialize, start listening on the specified port. Returns 1 if "
+"successful, 0 if there are no sockets available to use."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:227
+msgid "``port`` : the local port to listen on"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:231 WiFiUdp.rst:310
+msgid "1: if successful"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:233
+msgid "0: if there are no sockets available to use"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:239 WiFiUdp.rst:318
+#: WiFiUdp.rst:357 WiFiUdp.rst:404 WiFiUdp.rst:547 WiFiUdp.rst:648
+#: WiFiUdp.rst:685
+msgid ""
+"This example demonstrates WiFi UDP send and receive string. This sketch "
+"waits for a UDP packet on a local port using a WiFi shield. When a packet"
+" is received an Acknowledge packet is sent to the client on port "
+"remotePort. The detail of the code can be found in WiFiUDP:: WiFiUDP."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:247 WiFiUdp.rst:274
+#: WiFiUdp.rst:278 WiFiUdp.rst:326 WiFiUdp.rst:365 WiFiUdp.rst:412
+#: WiFiUdp.rst:443 WiFiUdp.rst:447 WiFiUdp.rst:479 WiFiUdp.rst:506
+#: WiFiUdp.rst:510 WiFiUdp.rst:554 WiFiUdp.rst:584 WiFiUdp.rst:588
+#: WiFiUdp.rst:615 WiFiUdp.rst:619 WiFiUdp.rst:656 WiFiUdp.rst:693
+#: WiFiUdp.rst:720 WiFiUdp.rst:724
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:255
+msgid ""
+"Disconnect from the server. Release any resource being used during the "
+"UDP session."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:287
+msgid ""
+"Start building up a packet to send to the remote host-specific in IP and "
+"port."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:302
+msgid "``host`` : hostname"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:304
+msgid "``port`` : port number"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:306
+msgid "``ip`` : IP address"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:312
+msgid "0: if there was a problem with the supplied IP address or port"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:349
+msgid "1: if the packet was sent successfully"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:351
+msgid "0: if there was an error"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:374
+msgid "Write a single byte into the packet."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:388
+msgid "``byte`` : the outgoing byte"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:390
+msgid "``buffer``: the outgoing message"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:392 WiFiUdp.rst:433
+#: WiFiUdp.rst:539
+msgid "``size`` : the size of the buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:396 WiFiUdp.rst:437
+msgid "single-byte into the packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:398 WiFiUdp.rst:439
+msgid "bytes size from the buffer into the packet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:431
+msgid "``buffer`` : the outgoing message"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:470
+msgid ""
+"The function returns the size of the packet in bytes or returns “0:” if "
+"no packets are available."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:487
+msgid "Number of bytes remaining in the current packet."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:501
+msgid ""
+"the number of bytes available in the current packet 0: if parsePacket "
+"hasn’t been called yet"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:533
+msgid "``buffer`` : buffer to hold incoming packets (char*)"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:535
+msgid "``len`` : maximum size of the buffer (int)"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:541
+msgid "``-1`` : if no buffer is available"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:578
+msgid "``b`` : the next byte or character"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:580
+msgid "``-1`` : if none is available"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:642
+msgid "IP address connecting to"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:679
+msgid "The remote port connecting to"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class WiFiUdp.rst:712
+msgid "timeout in seconds"
+msgstr ""
+

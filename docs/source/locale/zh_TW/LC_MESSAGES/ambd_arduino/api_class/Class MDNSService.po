@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:3
+msgid "Class MDNSService"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:5
+#: MDNSService.rst:33 MDNSService.rst:72
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:7
+msgid "A class used for creating MDNS service records."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:9
+#: MDNSService.rst:37 MDNSService.rst:76
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:15
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:18
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:20
+msgid "MDNSService::MDNSService"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:20
+msgid "Create a MDNS service record"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:24
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:25
+msgid "MDNSService::addTxtRecord"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:25
+msgid "Add text to MDNS service record"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:35
+msgid "Create a MDNS service record."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:43
+#: MDNSService.rst:82
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:45
+msgid "``name``: device name"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:47
+msgid "``service_type``: MDNS service type"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:49
+msgid "``domain``: host domain"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:51
+msgid "``port``: network port"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:53
+msgid "``bufsize`` : size of buffer for MDNS text record"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:55
+#: MDNSService.rst:90
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:57
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:59
+#: MDNSService.rst:94
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:61
+#: MDNSService.rst:96
+msgid "Example: mDNS_On_Arduino_IDE"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:63
+#: MDNSService.rst:98
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:65
+#: MDNSService.rst:100
+msgid "Include “AmebaMDNS.h” to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:74
+msgid "Add text to MDNS service record."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:84
+msgid "``key`` : record type expressed as character string"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:86
+msgid "``value_len`` : length of value string"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:88
+msgid "``value`` : record value expressed as character string"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSService.rst:92
+msgid "0 if add record successful"
+msgstr ""
+

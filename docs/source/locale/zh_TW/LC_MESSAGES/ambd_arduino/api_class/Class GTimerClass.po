@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:3
+msgid "Class GTimer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:5
+#: GTimerClass.rst:37 GTimerClass.rst:150 GTimerClass.rst:181
+#: GTimerClass.rst:215
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:7
+msgid ""
+"GTimer is a hardware timer and this class is to operate it. The GTimer "
+"occupy same resource as PWM. Please make sure the timer is not conflict "
+"with you PWM index."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:10
+#: GTimerClass.rst:41 GTimerClass.rst:154 GTimerClass.rst:186
+#: GTimerClass.rst:219
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:16
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:19
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:21
+msgid "GTimerClass::GTimerClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:21
+msgid "Constructs a GTimerClass object"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:25
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:26
+msgid "GTimerClass::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:26
+msgid "Initialize a timer and start it immediately"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:27
+msgid "GTimerClass::stop"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:27
+#: GTimerClass.rst:152
+msgid "Stop a specific timer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:28
+msgid "GTimerClass::reload"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:28
+msgid "Reload a specific timer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:29
+msgid "GTimerClass::read_us"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:29
+msgid "Read current countdown value"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:39
+msgid "Initialize a timer and start it immediately."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:47
+#: GTimerClass.rst:160 GTimerClass.rst:192 GTimerClass.rst:225
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:49
+msgid "``timerid``: There are 5 valid GTimer with timer id 0~4."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:51
+msgid ""
+"``duration_us``: The duration of the timer. The time unit is microsecond "
+"and the precision is 32768Hz."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:53
+msgid ""
+"``periodical``: By default, the timer would keep periodically countdown "
+"and reload which means the handler would periodically be invoked."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:55
+msgid "``userdate`` : The user data brings to the handler."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:57
+#: GTimerClass.rst:164 GTimerClass.rst:198 GTimerClass.rst:229
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:59
+#: GTimerClass.rst:166 GTimerClass.rst:200
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:61
+#: GTimerClass.rst:168 GTimerClass.rst:202 GTimerClass.rst:233
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:63
+msgid "Example: TimerOneshot"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:65
+msgid ""
+"This sketch shows how to use several hardware timers in invoke handler "
+"only once for each timer."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:68
+#: GTimerClass.rst:109
+msgid "TimerOneshot"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:102
+msgid "Example: TimerPeriodical"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:106
+msgid ""
+"This sketch shows how to use hardware timer and invoke interrupt handler "
+"periodically"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:142
+#: GTimerClass.rst:172 GTimerClass.rst:206 GTimerClass.rst:237
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:144
+#: GTimerClass.rst:174 GTimerClass.rst:208 GTimerClass.rst:239
+msgid "Include “GTimer.h” to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:162
+msgid "``timerid`` : Stop the timer with this timer id"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:170
+msgid ""
+"Example: TimerPeriodical, please refer to GTimerClass:: begin for more "
+"details."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:183
+msgid ""
+"Reload a specific timer. The GTimer is a countdown timer. Reload it would"
+" make it discard the current countdown value and restart countdown based "
+"on the duration."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:194
+msgid "``timerid``: The timer to be modified"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:196
+msgid "``duration_us``: The updated duration in unit of microseconds"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:204
+#: GTimerClass.rst:235
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:217
+msgid "Read the current countdown value"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:227
+msgid "``timerid`` : The timer to be read"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class GTimerClass.rst:231
+msgid "The function returns the current countdown value."
+msgstr ""
+

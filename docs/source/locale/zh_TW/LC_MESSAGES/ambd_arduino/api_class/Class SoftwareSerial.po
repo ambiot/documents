@@ -1,0 +1,392 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:3
+msgid "Class SoftwareSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:6
+#: SoftwareSerial.rst:71 SoftwareSerial.rst:150 SoftwareSerial.rst:202
+#: SoftwareSerial.rst:233 SoftwareSerial.rst:264 SoftwareSerial.rst:295
+#: SoftwareSerial.rst:326 SoftwareSerial.rst:360 SoftwareSerial.rst:396
+#: SoftwareSerial.rst:432 SoftwareSerial.rst:469 SoftwareSerial.rst:500
+#: SoftwareSerial.rst:531 SoftwareSerial.rst:627
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:8
+msgid "Defines a class of software serial implementation for Ameba."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:10
+#: SoftwareSerial.rst:76 SoftwareSerial.rst:154 SoftwareSerial.rst:206
+#: SoftwareSerial.rst:237 SoftwareSerial.rst:268 SoftwareSerial.rst:299
+#: SoftwareSerial.rst:331 SoftwareSerial.rst:365 SoftwareSerial.rst:401
+#: SoftwareSerial.rst:438 SoftwareSerial.rst:473 SoftwareSerial.rst:504
+#: SoftwareSerial.rst:535 SoftwareSerial.rst:631
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:16
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:19
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:21
+msgid "SoftwareSerial::SoftwareSerial"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:21
+msgid "Constructs a SoftwareSerial object"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:26
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:28
+msgid "SoftwareSerial::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:28
+#: SoftwareSerial.rst:152
+msgid "Sets the speed (baud rate) for the serial communication"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:31
+msgid "SoftwareSerial::listen"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:31
+#: SoftwareSerial.rst:204
+msgid "Enables the selected software serial port to listen"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:34
+msgid "SoftwareSerial::end"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:34
+#: SoftwareSerial.rst:235
+msgid "Same as stopListening"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:36
+msgid "SoftwareSerial::stopListening"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:36
+#: SoftwareSerial.rst:297
+msgid "Stop listening on the port"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:38
+msgid "SoftwareSerial::peek"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:38
+#: SoftwareSerial.rst:46 SoftwareSerial.rst:328 SoftwareSerial.rst:398
+msgid ""
+"Return a character that was received on the RX pin of the software serial"
+" port"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:42
+msgid "SoftwareSerial::write"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:42
+#: SoftwareSerial.rst:362
+msgid "Prints data to the transmit pin of the software serial port as raw bytes"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:46
+msgid "SoftwareSerial::read"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:50
+msgid "SoftwareSerial::available"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:50
+msgid ""
+"Get the number of bytes (characters) available for reading from a "
+"software serial port"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:55
+msgid "SoftwareSerial::flush"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:55
+#: SoftwareSerial.rst:471
+msgid "Flush the received buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:57
+msgid "SoftwareSerial::setBufferSize"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:57
+#: SoftwareSerial.rst:502
+msgid "Set buffer size"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:59
+msgid "Soft wareSerial::setAvailableCallback"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:59
+#: SoftwareSerial.rst:533
+msgid "Set available callback"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:62
+msgid "SoftwareSerial::handle_interrupt"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:62
+msgid "Private methods handles interrupt"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:73
+msgid ""
+"Constructs a SoftwareSerial object and sets RX and TX pin, and inverse "
+"logic."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:82
+#: SoftwareSerial.rst:168 SoftwareSerial.rst:212 SoftwareSerial.rst:243
+#: SoftwareSerial.rst:274 SoftwareSerial.rst:305 SoftwareSerial.rst:337
+#: SoftwareSerial.rst:371 SoftwareSerial.rst:407 SoftwareSerial.rst:444
+#: SoftwareSerial.rst:479 SoftwareSerial.rst:510 SoftwareSerial.rst:541
+#: SoftwareSerial.rst:637
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:84
+msgid "``receivePin`` : the pin on which to receive serial data"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:86
+msgid "``transmitPin`` : the pin on which to transmit serial data"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:88
+msgid "``inverse_logic``: is used to invert the sense of incoming bits"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:90
+#: SoftwareSerial.rst:182 SoftwareSerial.rst:216 SoftwareSerial.rst:247
+#: SoftwareSerial.rst:278 SoftwareSerial.rst:309 SoftwareSerial.rst:341
+#: SoftwareSerial.rst:375 SoftwareSerial.rst:411 SoftwareSerial.rst:448
+#: SoftwareSerial.rst:483 SoftwareSerial.rst:514 SoftwareSerial.rst:545
+#: SoftwareSerial.rst:643
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:92
+#: SoftwareSerial.rst:184 SoftwareSerial.rst:249 SoftwareSerial.rst:485
+#: SoftwareSerial.rst:516 SoftwareSerial.rst:547 SoftwareSerial.rst:645
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:94
+#: SoftwareSerial.rst:186 SoftwareSerial.rst:220 SoftwareSerial.rst:251
+#: SoftwareSerial.rst:282 SoftwareSerial.rst:313 SoftwareSerial.rst:347
+#: SoftwareSerial.rst:379 SoftwareSerial.rst:415 SoftwareSerial.rst:452
+#: SoftwareSerial.rst:487 SoftwareSerial.rst:518 SoftwareSerial.rst:549
+#: SoftwareSerial.rst:647
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:96
+#: SoftwareSerial.rst:188 SoftwareSerial.rst:381 SoftwareSerial.rst:417
+#: SoftwareSerial.rst:454
+msgid "Example: SoftwareSerialExample"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:98
+msgid ""
+"The example demonstrates a software serial test, it receives from serial "
+"RX and sends it to serial TX."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:140
+#: SoftwareSerial.rst:194 SoftwareSerial.rst:224 SoftwareSerial.rst:255
+#: SoftwareSerial.rst:286 SoftwareSerial.rst:317 SoftwareSerial.rst:351
+#: SoftwareSerial.rst:387 SoftwareSerial.rst:423 SoftwareSerial.rst:460
+#: SoftwareSerial.rst:491 SoftwareSerial.rst:522 SoftwareSerial.rst:618
+#: SoftwareSerial.rst:651
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:142
+msgid ""
+"Software Serial is using hardware serial thus DO NOT change the default "
+"pins"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:170
+msgid "``speed`` : the baud rate"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:172
+msgid "``data_bits`` : number of data bits, 8 bits(default) or 7 bits"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:174
+msgid "``stop_bits`` : number of stop bits, 1 bit(default), 1.5 bits or 2 bits"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:176
+msgid "``flowctrl`` : flow control pin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:178
+msgid "``rtsPin`` : request to send pin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:180
+msgid "``ctsPin`` : clear to send pin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:190
+msgid ""
+"The example demonstrates a software serial test, it receives from serial "
+"RX and sends it to serial TX. Details of the code can be found in the "
+"previous section of SoftwareSerial_Basic:: SoftwareSerial."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:196
+#: SoftwareSerial.rst:222 SoftwareSerial.rst:226 SoftwareSerial.rst:253
+#: SoftwareSerial.rst:257 SoftwareSerial.rst:284 SoftwareSerial.rst:288
+#: SoftwareSerial.rst:315 SoftwareSerial.rst:319 SoftwareSerial.rst:349
+#: SoftwareSerial.rst:353 SoftwareSerial.rst:389 SoftwareSerial.rst:425
+#: SoftwareSerial.rst:462 SoftwareSerial.rst:489 SoftwareSerial.rst:493
+#: SoftwareSerial.rst:520 SoftwareSerial.rst:524 SoftwareSerial.rst:620
+#: SoftwareSerial.rst:649 SoftwareSerial.rst:653
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:214
+#: SoftwareSerial.rst:245 SoftwareSerial.rst:276 SoftwareSerial.rst:307
+#: SoftwareSerial.rst:339 SoftwareSerial.rst:409 SoftwareSerial.rst:446
+#: SoftwareSerial.rst:481
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:218
+msgid "Returns true if it replaces another"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:261
+msgid "**SoftwareSerial::isListening**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:266
+msgid "Tests to see if requested software serial port is actively listening"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:280
+msgid "The function returns “True” if the port is listening."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:311
+msgid "The function returns “True” if listening on the port is stopped."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:343
+msgid "The function returns the character read, or returns “-1” if none is"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:345
+msgid "available."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:373
+msgid "``b`` : byte to be written"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:377
+msgid "The function returns the number of bytes written."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:383
+#: SoftwareSerial.rst:419 SoftwareSerial.rst:456
+msgid ""
+"The example demonstrates a software serial test, it receives from serial "
+"RX and sends it to serial TX. Details of the code can be found in the "
+"previous section of SoftwareSerial:: SoftwareSerial."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:413
+msgid "The function returns the character read, or -1 if none is available."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:434
+msgid "Get the number of bytes available for reading from a software serial"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:436
+msgid "port"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:450
+msgid "The function returns the number of bytes available to read."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:512
+msgid "``buffer_size`` : the size of the serial buffer"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:543
+msgid "``*callback``: user-defined serial callback function"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:551
+msgid "Example: SoftwareSerialIrqCallback"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:553
+msgid ""
+"This example demonstrates the software serial testing using IRQ callback "
+"and semaphore. Set callback function “mySerialCalback” to software "
+"serial. Whenever there is data comes in, “mySerialCallback” is invoked. "
+"In this sketch, it does nothing until the end of the line. And then it "
+"sends a semaphore. The loop() uses a non-busy loop to wait for the "
+"semaphore. To test this sketch, you need to type something on software "
+"serial and then press Enter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:629
+msgid "A private method handles the interrupt"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:639
+msgid "``id`` : the interupt id"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class SoftwareSerial.rst:641
+msgid "``event`` : interrupt event"
+msgstr ""
+

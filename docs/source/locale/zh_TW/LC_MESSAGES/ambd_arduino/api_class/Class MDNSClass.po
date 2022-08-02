@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:3
+msgid "Class MDNS"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:5 MDNSClass.rst:40
+#: MDNSClass.rst:111 MDNSClass.rst:142 MDNSClass.rst:174 MDNSClass.rst:208
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:7
+msgid "A class used for registering and removing MDNS service records."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:9 MDNSClass.rst:44
+#: MDNSClass.rst:115 MDNSClass.rst:146 MDNSClass.rst:178 MDNSClass.rst:212
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:15
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:18
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:20
+msgid ""
+"The public constructor should not be used as this class is intended to be"
+" a singleton class. Access member functions using the object instance "
+"named MDNS."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:26
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:28
+msgid "MDNSClass::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:28
+msgid "Start MDNS operations"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:29
+msgid "MDNSClass::end"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:29
+msgid "Stop MDNS operations"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:30
+msgid "MDNSClass::registerService"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:30
+msgid "Add a service record"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:31
+msgid "MDNSClass::deregisterService"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:31
+msgid "Remove service record"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:32
+msgid "MDNSClass::updateService"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:32
+msgid "Update service record"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:42
+msgid "Start MDNS operations to begin responding to MDNS queries."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:50 MDNSClass.rst:121
+#: MDNSClass.rst:152 MDNSClass.rst:184 MDNSClass.rst:218
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:52 MDNSClass.rst:123
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:54 MDNSClass.rst:125
+#: MDNSClass.rst:156 MDNSClass.rst:188 MDNSClass.rst:224
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:56 MDNSClass.rst:127
+#: MDNSClass.rst:158 MDNSClass.rst:190 MDNSClass.rst:226
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:58 MDNSClass.rst:129
+#: MDNSClass.rst:160 MDNSClass.rst:192 MDNSClass.rst:228
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:60 MDNSClass.rst:162
+#: MDNSClass.rst:194
+msgid "Example: mDNS_On_Arduino_IDE"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:62
+msgid "This example shows how to register Ameba as a service that can be"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:64
+msgid ""
+"recognized by Arduino IDE. If both of the PC runs Arduino IDE and the "
+"Ameba board are connecting to the same local network. Then you can find "
+"Ameba in “Tools” -> “Port” -> “Arduino at 192.168.1.238 (Ameba RTL8195A),"
+" which means the Arduino IDE find Ameba via mDNS."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:69
+msgid "mDNS_On_Arduino_IDE"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:113
+msgid "Stop MDNS operations and stop responding to MDNS queries."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:131
+#: MDNSClass.rst:230
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:133
+#: MDNSClass.rst:166 MDNSClass.rst:198 MDNSClass.rst:232
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:135
+#: MDNSClass.rst:168 MDNSClass.rst:200 MDNSClass.rst:234
+msgid "Include “AmebaMDNS.h” to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:144
+msgid "Add a service record to be included in MDNS responses."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:154
+msgid "``service`` : MDNSService class object with required MDNS service data"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:164
+#: MDNSClass.rst:196
+msgid ""
+"Details of the code can be found in the previous section of ``MDNSClass::"
+" begin``."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:176
+msgid "Remove a service record from MDNS responses."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:186
+msgid "``service`` : MDNSService class object to be removed"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:210
+msgid "Update a service record."
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:220
+msgid "``service``: MDNSService class object to be updated"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class MDNSClass.rst:222
+msgid "``ttl`` : time-to-live(TTL) for service"
+msgstr ""
+

@@ -8,381 +8,363 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 05:15+0000\n"
+"POT-Creation-Date: 2022-08-02 06:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:3
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:3
 msgid "Class BLEAdvertData"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:5
-msgid "**BLEAdvertData Class**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:7
-#: BLEAdvertData.rst:101 BLEAdvertData.rst:125 BLEAdvertData.rst:146
-#: BLEAdvertData.rst:171 BLEAdvertData.rst:197 BLEAdvertData.rst:218
-#: BLEAdvertData.rst:244 BLEAdvertData.rst:266 BLEAdvertData.rst:287
-#: BLEAdvertData.rst:308 BLEAdvertData.rst:330 BLEAdvertData.rst:351
-#: BLEAdvertData.rst:372 BLEAdvertData.rst:393 BLEAdvertData.rst:415
-#: BLEAdvertData.rst:441 BLEAdvertData.rst:464 BLEAdvertData.rst:485
-#: BLEAdvertData.rst:507 BLEAdvertData.rst:528 BLEAdvertData.rst:549
-#: BLEAdvertData.rst:570 BLEAdvertData.rst:591 BLEAdvertData.rst:613
-#: BLEAdvertData.rst:634 BLEAdvertData.rst:656
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:5
+#: BLEAdvertData.rst:106 BLEAdvertData.rst:139 BLEAdvertData.rst:169
+#: BLEAdvertData.rst:205 BLEAdvertData.rst:241 BLEAdvertData.rst:273
+#: BLEAdvertData.rst:312 BLEAdvertData.rst:343 BLEAdvertData.rst:373
+#: BLEAdvertData.rst:403 BLEAdvertData.rst:434 BLEAdvertData.rst:464
+#: BLEAdvertData.rst:495 BLEAdvertData.rst:525 BLEAdvertData.rst:556
+#: BLEAdvertData.rst:591 BLEAdvertData.rst:625 BLEAdvertData.rst:656
+#: BLEAdvertData.rst:687 BLEAdvertData.rst:718 BLEAdvertData.rst:749
+#: BLEAdvertData.rst:780 BLEAdvertData.rst:811 BLEAdvertData.rst:843
+#: BLEAdvertData.rst:874 BLEAdvertData.rst:906
 msgid "**Description**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:8
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:7
 msgid "A class used for managing BLE advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:10
-#: BLEAdvertData.rst:104 BLEAdvertData.rst:128 BLEAdvertData.rst:149
-#: BLEAdvertData.rst:174 BLEAdvertData.rst:200 BLEAdvertData.rst:221
-#: BLEAdvertData.rst:247 BLEAdvertData.rst:269 BLEAdvertData.rst:290
-#: BLEAdvertData.rst:311 BLEAdvertData.rst:333 BLEAdvertData.rst:354
-#: BLEAdvertData.rst:375 BLEAdvertData.rst:396 BLEAdvertData.rst:418
-#: BLEAdvertData.rst:444 BLEAdvertData.rst:467 BLEAdvertData.rst:488
-#: BLEAdvertData.rst:510 BLEAdvertData.rst:531 BLEAdvertData.rst:552
-#: BLEAdvertData.rst:573 BLEAdvertData.rst:594 BLEAdvertData.rst:616
-#: BLEAdvertData.rst:637 BLEAdvertData.rst:659
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:9
+#: BLEAdvertData.rst:110 BLEAdvertData.rst:143 BLEAdvertData.rst:173
+#: BLEAdvertData.rst:209 BLEAdvertData.rst:245 BLEAdvertData.rst:277
+#: BLEAdvertData.rst:316 BLEAdvertData.rst:347 BLEAdvertData.rst:377
+#: BLEAdvertData.rst:407 BLEAdvertData.rst:438 BLEAdvertData.rst:468
+#: BLEAdvertData.rst:499 BLEAdvertData.rst:529 BLEAdvertData.rst:560
+#: BLEAdvertData.rst:595 BLEAdvertData.rst:629 BLEAdvertData.rst:660
+#: BLEAdvertData.rst:691 BLEAdvertData.rst:722 BLEAdvertData.rst:753
+#: BLEAdvertData.rst:784 BLEAdvertData.rst:815 BLEAdvertData.rst:847
+#: BLEAdvertData.rst:878 BLEAdvertData.rst:910
 msgid "**Syntax**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:11
-msgid "class BLEAdvertData"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:13
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:16
 msgid "**Members**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:16
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:19
 msgid "**Public Constructors**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:18
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:21
 msgid "BLEAdvertData::BLEAdvertData"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:18
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:21
 msgid "Constructs a BLEAdvertData object"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:22
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:25
 msgid "**Public Methods**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:24
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:27
 msgid "BLEAdvertData::clear"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:24
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:27
 msgid "Clear all advertising data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:26
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:29
 msgid "BLEAdvertData::addData"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:26
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:29
 msgid "Add binary advertising data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:28
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:31
 msgid "BLEAdvertData::addFlags"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:28
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:31
 msgid "Add flags to advertising data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:30
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:33
 msgid "B LEAdvertData::addPartialServices"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:30
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:33
 msgid "Add partial services to advertising data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:33
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:36
 msgid "BL EAdvertData::addCompleteServices"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:33
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:36
 msgid "Add complete services to advertising data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:36
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:39
 msgid "BLEAdvertData::addAppearance"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:36
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:39
 msgid "Add device appearance to advertising data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:39
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:42
 msgid "BLEAdvertData::addShortName"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:39
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:42
 msgid "Add short device name to advertising data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:42
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:45
 msgid "BLEAdvertData::addCompleteName"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:42
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:45
 msgid "Add complete device name to advertising data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:45
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:48
 msgid "BLEAdvertData::parseScanInfo"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:45
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:48
 msgid "Parse advertising data received from a scan"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:48
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:51
 msgid "BLEAdvertData::hasFlags"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:48
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:51
 msgid "Check if received data includes advertising flags"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:51
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:54
 msgid "BLEAdvertData::hasUUID"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:51
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:54
 msgid "Check if received data includes UUIDs"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:54
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:57
 msgid "BLEAdvertData::hasName"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:54
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:57
 msgid "Check if received data includes device name"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:57
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:60
 msgid "BLEAdvertData::hasManufacturer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:57
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:60
 msgid "Check if received data includes manufacturer data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:60
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:63
 msgid "BLEAdvertData::getAdvType"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:60
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:63
 msgid "Get advertising type of received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:63
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:66
 msgid "BLEAdvertData::getAddrType"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:63
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:66
 msgid "Get Bluetooth address type of received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:66
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:69
 msgid "BLEAdvertData::getAddr"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:66
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:69
 msgid "Get Bluetooth address of received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:69
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:72
 msgid "BLEAdvertData::getRSSI"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:69
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:72
 msgid "Get RSSI of received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:71
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:74
 msgid "BLEAdvertData::getFlags"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:71
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:74
 msgid "Get advertising flags of received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:74
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:77
 msgid "BLEAdvertData::getServiceCount"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:74
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:77
 msgid "Get number of advertised services in received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:77
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:80
 msgid "BLEAdvertData::getServiceList"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:77
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:80
 msgid "Get array of advertised services in received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:80
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:83
 msgid "BLEAdvertData::getName"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:80
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:83
 msgid "Get advertised device name in received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:83
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:86
 msgid "BLEAdvertData::getTxPower"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:83
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:86
 msgid "Get advertised transmission power in received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:86
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:89
 msgid "BLEAdvertData::getAppearance"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:86
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:89
 msgid "Get advertised device appearance in received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:89
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:92
 msgid "BLEAdvertData::getManufacturer"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:89
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:92
 msgid "Get advertised manufacturer in received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:92
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:95
 msgid "BLEAdver tData::getManufacturerDataLength"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:92
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:95
 msgid "Get length of manufacturer data in received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:95
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:98
 msgid "BL EAdvertData::getManufacturerData"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:95
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:98
 msgid "Get advertised manufacturer data in received data"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:99
-msgid "**BLEAdvertData::BLEAdvertData**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:102
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:108
 msgid "Constructs a BLEAdvertData object."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:105
-msgid "BLEAdvertData::BLEAdvertData(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:107
-#: BLEAdvertData.rst:131 BLEAdvertData.rst:152 BLEAdvertData.rst:177
-#: BLEAdvertData.rst:203 BLEAdvertData.rst:225 BLEAdvertData.rst:250
-#: BLEAdvertData.rst:272 BLEAdvertData.rst:293 BLEAdvertData.rst:314
-#: BLEAdvertData.rst:336 BLEAdvertData.rst:357 BLEAdvertData.rst:378
-#: BLEAdvertData.rst:399 BLEAdvertData.rst:421 BLEAdvertData.rst:447
-#: BLEAdvertData.rst:470 BLEAdvertData.rst:491 BLEAdvertData.rst:513
-#: BLEAdvertData.rst:534 BLEAdvertData.rst:555 BLEAdvertData.rst:576
-#: BLEAdvertData.rst:597 BLEAdvertData.rst:619 BLEAdvertData.rst:640
-#: BLEAdvertData.rst:662
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:116
+#: BLEAdvertData.rst:149 BLEAdvertData.rst:179 BLEAdvertData.rst:216
+#: BLEAdvertData.rst:252 BLEAdvertData.rst:287 BLEAdvertData.rst:322
+#: BLEAdvertData.rst:353 BLEAdvertData.rst:383 BLEAdvertData.rst:413
+#: BLEAdvertData.rst:444 BLEAdvertData.rst:474 BLEAdvertData.rst:505
+#: BLEAdvertData.rst:535 BLEAdvertData.rst:566 BLEAdvertData.rst:601
+#: BLEAdvertData.rst:635 BLEAdvertData.rst:666 BLEAdvertData.rst:697
+#: BLEAdvertData.rst:728 BLEAdvertData.rst:759 BLEAdvertData.rst:790
+#: BLEAdvertData.rst:821 BLEAdvertData.rst:853 BLEAdvertData.rst:884
+#: BLEAdvertData.rst:916
 msgid "**Parameters**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:108
-#: BLEAdvertData.rst:132 BLEAdvertData.rst:337 BLEAdvertData.rst:358
-#: BLEAdvertData.rst:379 BLEAdvertData.rst:400 BLEAdvertData.rst:422
-#: BLEAdvertData.rst:448 BLEAdvertData.rst:471 BLEAdvertData.rst:492
-#: BLEAdvertData.rst:514 BLEAdvertData.rst:535 BLEAdvertData.rst:556
-#: BLEAdvertData.rst:577 BLEAdvertData.rst:598 BLEAdvertData.rst:620
-#: BLEAdvertData.rst:641 BLEAdvertData.rst:663
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:118
+#: BLEAdvertData.rst:151 BLEAdvertData.rst:446 BLEAdvertData.rst:476
+#: BLEAdvertData.rst:507 BLEAdvertData.rst:537 BLEAdvertData.rst:568
+#: BLEAdvertData.rst:603 BLEAdvertData.rst:637 BLEAdvertData.rst:668
+#: BLEAdvertData.rst:699 BLEAdvertData.rst:730 BLEAdvertData.rst:761
+#: BLEAdvertData.rst:792 BLEAdvertData.rst:823 BLEAdvertData.rst:855
+#: BLEAdvertData.rst:886 BLEAdvertData.rst:918
 msgid "The function requires no input parameter."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:110
-#: BLEAdvertData.rst:134 BLEAdvertData.rst:156 BLEAdvertData.rst:185
-#: BLEAdvertData.rst:206 BLEAdvertData.rst:230 BLEAdvertData.rst:253
-#: BLEAdvertData.rst:275 BLEAdvertData.rst:296 BLEAdvertData.rst:317
-#: BLEAdvertData.rst:339 BLEAdvertData.rst:360 BLEAdvertData.rst:381
-#: BLEAdvertData.rst:402 BLEAdvertData.rst:424 BLEAdvertData.rst:450
-#: BLEAdvertData.rst:473 BLEAdvertData.rst:494 BLEAdvertData.rst:516
-#: BLEAdvertData.rst:537 BLEAdvertData.rst:558 BLEAdvertData.rst:579
-#: BLEAdvertData.rst:600 BLEAdvertData.rst:622 BLEAdvertData.rst:643
-#: BLEAdvertData.rst:665
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:120
+#: BLEAdvertData.rst:153 BLEAdvertData.rst:185 BLEAdvertData.rst:225
+#: BLEAdvertData.rst:256 BLEAdvertData.rst:294 BLEAdvertData.rst:326
+#: BLEAdvertData.rst:357 BLEAdvertData.rst:387 BLEAdvertData.rst:417
+#: BLEAdvertData.rst:448 BLEAdvertData.rst:478 BLEAdvertData.rst:509
+#: BLEAdvertData.rst:539 BLEAdvertData.rst:570 BLEAdvertData.rst:605
+#: BLEAdvertData.rst:639 BLEAdvertData.rst:670 BLEAdvertData.rst:701
+#: BLEAdvertData.rst:732 BLEAdvertData.rst:763 BLEAdvertData.rst:794
+#: BLEAdvertData.rst:825 BLEAdvertData.rst:857 BLEAdvertData.rst:888
+#: BLEAdvertData.rst:920
 msgid "**Returns**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:111
-#: BLEAdvertData.rst:135 BLEAdvertData.rst:157 BLEAdvertData.rst:318
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:122
+#: BLEAdvertData.rst:155 BLEAdvertData.rst:187 BLEAdvertData.rst:419
 msgid "The function returns nothing."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:113
-#: BLEAdvertData.rst:137 BLEAdvertData.rst:159 BLEAdvertData.rst:188
-#: BLEAdvertData.rst:209 BLEAdvertData.rst:233 BLEAdvertData.rst:256
-#: BLEAdvertData.rst:278 BLEAdvertData.rst:299 BLEAdvertData.rst:320
-#: BLEAdvertData.rst:342 BLEAdvertData.rst:363 BLEAdvertData.rst:384
-#: BLEAdvertData.rst:406 BLEAdvertData.rst:427 BLEAdvertData.rst:453
-#: BLEAdvertData.rst:476 BLEAdvertData.rst:498 BLEAdvertData.rst:519
-#: BLEAdvertData.rst:540 BLEAdvertData.rst:561 BLEAdvertData.rst:582
-#: BLEAdvertData.rst:603 BLEAdvertData.rst:625 BLEAdvertData.rst:647
-#: BLEAdvertData.rst:668
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:124
+#: BLEAdvertData.rst:157 BLEAdvertData.rst:189 BLEAdvertData.rst:229
+#: BLEAdvertData.rst:260 BLEAdvertData.rst:298 BLEAdvertData.rst:330
+#: BLEAdvertData.rst:361 BLEAdvertData.rst:391 BLEAdvertData.rst:421
+#: BLEAdvertData.rst:452 BLEAdvertData.rst:482 BLEAdvertData.rst:513
+#: BLEAdvertData.rst:544 BLEAdvertData.rst:574 BLEAdvertData.rst:609
+#: BLEAdvertData.rst:643 BLEAdvertData.rst:675 BLEAdvertData.rst:705
+#: BLEAdvertData.rst:736 BLEAdvertData.rst:767 BLEAdvertData.rst:798
+#: BLEAdvertData.rst:829 BLEAdvertData.rst:861 BLEAdvertData.rst:893
+#: BLEAdvertData.rst:924
 msgid "**Example Code**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:114
-#: BLEAdvertData.rst:138 BLEAdvertData.rst:141 BLEAdvertData.rst:160
-#: BLEAdvertData.rst:192 BLEAdvertData.rst:210 BLEAdvertData.rst:213
-#: BLEAdvertData.rst:257 BLEAdvertData.rst:279 BLEAdvertData.rst:282
-#: BLEAdvertData.rst:303 BLEAdvertData.rst:343 BLEAdvertData.rst:346
-#: BLEAdvertData.rst:364 BLEAdvertData.rst:367 BLEAdvertData.rst:388
-#: BLEAdvertData.rst:407 BLEAdvertData.rst:410 BLEAdvertData.rst:428
-#: BLEAdvertData.rst:454 BLEAdvertData.rst:477 BLEAdvertData.rst:480
-#: BLEAdvertData.rst:499 BLEAdvertData.rst:502 BLEAdvertData.rst:523
-#: BLEAdvertData.rst:544 BLEAdvertData.rst:565 BLEAdvertData.rst:583
-#: BLEAdvertData.rst:586 BLEAdvertData.rst:604 BLEAdvertData.rst:626
-#: BLEAdvertData.rst:648 BLEAdvertData.rst:651 BLEAdvertData.rst:669
-#: BLEAdvertData.rst:672
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:126
+#: BLEAdvertData.rst:159 BLEAdvertData.rst:163 BLEAdvertData.rst:191
+#: BLEAdvertData.rst:235 BLEAdvertData.rst:262 BLEAdvertData.rst:266
+#: BLEAdvertData.rst:332 BLEAdvertData.rst:363 BLEAdvertData.rst:367
+#: BLEAdvertData.rst:397 BLEAdvertData.rst:454 BLEAdvertData.rst:458
+#: BLEAdvertData.rst:484 BLEAdvertData.rst:488 BLEAdvertData.rst:546
+#: BLEAdvertData.rst:550 BLEAdvertData.rst:576 BLEAdvertData.rst:611
+#: BLEAdvertData.rst:645 BLEAdvertData.rst:649 BLEAdvertData.rst:677
+#: BLEAdvertData.rst:681 BLEAdvertData.rst:711 BLEAdvertData.rst:742
+#: BLEAdvertData.rst:773 BLEAdvertData.rst:800 BLEAdvertData.rst:804
+#: BLEAdvertData.rst:831 BLEAdvertData.rst:863 BLEAdvertData.rst:895
+#: BLEAdvertData.rst:899 BLEAdvertData.rst:926 BLEAdvertData.rst:930
 msgid "NA"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:116
-#: BLEAdvertData.rst:140 BLEAdvertData.rst:162 BLEAdvertData.rst:191
-#: BLEAdvertData.rst:212 BLEAdvertData.rst:236 BLEAdvertData.rst:259
-#: BLEAdvertData.rst:281 BLEAdvertData.rst:302 BLEAdvertData.rst:323
-#: BLEAdvertData.rst:345 BLEAdvertData.rst:366 BLEAdvertData.rst:387
-#: BLEAdvertData.rst:409 BLEAdvertData.rst:430 BLEAdvertData.rst:456
-#: BLEAdvertData.rst:479 BLEAdvertData.rst:501 BLEAdvertData.rst:522
-#: BLEAdvertData.rst:543 BLEAdvertData.rst:564 BLEAdvertData.rst:585
-#: BLEAdvertData.rst:606 BLEAdvertData.rst:628 BLEAdvertData.rst:650
-#: BLEAdvertData.rst:671
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:128
+#: BLEAdvertData.rst:161 BLEAdvertData.rst:193 BLEAdvertData.rst:233
+#: BLEAdvertData.rst:264 BLEAdvertData.rst:302 BLEAdvertData.rst:334
+#: BLEAdvertData.rst:365 BLEAdvertData.rst:395 BLEAdvertData.rst:425
+#: BLEAdvertData.rst:456 BLEAdvertData.rst:486 BLEAdvertData.rst:548
+#: BLEAdvertData.rst:578 BLEAdvertData.rst:613 BLEAdvertData.rst:647
+#: BLEAdvertData.rst:679 BLEAdvertData.rst:709 BLEAdvertData.rst:740
+#: BLEAdvertData.rst:771 BLEAdvertData.rst:802 BLEAdvertData.rst:833
+#: BLEAdvertData.rst:865 BLEAdvertData.rst:897 BLEAdvertData.rst:928
 msgid "**Notes and Warnings**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:120
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:130
 msgid ""
 "This class is used for managing BLE advertising data for two primary "
 "uses. First is to assemble advertising data for broadcasting as "
@@ -390,517 +372,512 @@ msgid ""
 "data received from a scan into separate types."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:123
-msgid "**BLEAdvertData::clear**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:126
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:141
 msgid "Clear all advertising data currently saved in class object."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:129
-msgid "void clear(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:144
-msgid "**BLEAdvertData::addData**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:147
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:171
 msgid "Add binary advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:150
-msgid "void addData(const uint8_t\\* data, uint8_t size);"
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:181
+msgid "``data`` : pointer to array containing desired advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:153
-msgid "data: pointer to array containing desired advertising data."
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:183
+msgid "``size`` : number of bytes in array."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:154
-msgid "size: number of bytes in array."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:166
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:195
 msgid ""
 "This function is provided for flexibility in adding BLE advertising data."
 " Other functions should be used for adding advertising data if possible, "
 "as this function does not perform any checks on the validity of the data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:169
-msgid "**BLEAdvertData::addFlags**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:172
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:207
 msgid "Add flags to advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:175
-msgid "uint8_t addFlags(uint8_t flags);"
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:218
+msgid ""
+"flags: desired flags to add to advertising data. Valid values: – "
+"GAP_ADTYPE_FLAGS_LIMITED – GAP_ADTYPE_FLAGS_GENERAL – "
+"GAP_ADTYPE_FLAGS_BREDR_NOT_SUPPORTED – "
+"GAP_ADTYPE_FLAGS_SIMULTANEOUS_LE_BREDR_CONTROLLER – "
+"GAP_ADTYPE_FLAGS_SIMULTANEOUS_LE_BREDR_HOST"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:178
-msgid "flags: desired flags to add to advertising data. Valid values:"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:179
-msgid "– GAP_ADTYPE_FLAGS_LIMITED"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:180
-msgid "– GAP_ADTYPE_FLAGS_GENERAL"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:181
-msgid "– GAP_ADTYPE_FLAGS_BREDR_NOT_SUPPORTED"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:182
-msgid "– GAP_ADTYPE_FLAGS_SIMULTANEOUS_LE_BREDR_CONTROLLER"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:183
-msgid "– GAP_ADTYPE_FLAGS_SIMULTANEOUS_LE_BREDR_HOST"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:186
-#: BLEAdvertData.rst:207 BLEAdvertData.rst:231 BLEAdvertData.rst:254
-#: BLEAdvertData.rst:276 BLEAdvertData.rst:297
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:227
+#: BLEAdvertData.rst:258 BLEAdvertData.rst:296 BLEAdvertData.rst:328
+#: BLEAdvertData.rst:359 BLEAdvertData.rst:389
 msgid "Current total size of advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:189
-#: BLEAdvertData.rst:234 BLEAdvertData.rst:300
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:231
+#: BLEAdvertData.rst:300 BLEAdvertData.rst:393
 msgid "Example: BLEBatteryService"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:195
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:239
 msgid "**BLEAdvertData::addPartialServices**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:198
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:243
 msgid "Add partial list of service UUIDs to advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:201
-msgid "uint8_t addPartialServices(BLEUUID uuid);"
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:254
+#: BLEAdvertData.rst:289
+msgid "``uuid`` : the desired UUID contained in BLEUUID class object."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:204
-#: BLEAdvertData.rst:226
-msgid "uuid: the desired UUID contained in BLEUUID class object."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:216
-msgid "**BLEAdvertData::addCompleteServices**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:219
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:275
 msgid "Add complete list of service UUIDs to advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:222
-msgid "uint8_t addCompleteServices(BLEUUID uuid);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:223
-msgid "uint8_t addCompleteServices(uint8_t uuidBitLength);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:228
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:291
 msgid ""
-"uuidBitLength: UUID bit length for which a blank entry is to be added. "
-"Valid values: 16, 32, 128."
+"``uuidBitLength`` : UUID bit length for which a blank entry is to be "
+"added. Valid values: 16, 32, 128."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:239
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:304
 msgid ""
 "uuidBitLength is used when it is desired to add a blank entry to the "
 "advertisement data, used to indicate that no services with UUIDs of a "
 "certain length are available."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:242
-msgid "**BLEAdvertData::addAppearance**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:245
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:314
 msgid "Add device appearance to advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:248
-msgid "uint8_t addAppearance(uint16_t appearance);"
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:324
+msgid "``appearance`` : the desired device appearance."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:251
-msgid "appearance: the desired device appearance."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:261
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:336
 msgid ""
 "Refer to Bluetooth specifications for a full list of device appearance "
 "values."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:264
-msgid "**BLEAdvertData::addShortName**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:267
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:345
 msgid "Add shortened device name to advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:270
-msgid "uint8_t addShortName(const char\\* str);"
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:355
+#: BLEAdvertData.rst:385
+msgid "``str`` : character string containing desired device name."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:273
-#: BLEAdvertData.rst:294
-msgid "str: character string containing desired device name."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:285
-msgid "**BLEAdvertData::addCompleteName**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:288
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:375
 msgid "Add complete device name to advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:291
-msgid "uint8_t addCompleteName(const char\\* str);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:306
-msgid "**BLEAdvertData::parseScanInfo**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:309
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:405
 msgid "Parse advertising data received from a scan."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:312
-msgid "void parseScanInfo(T_LE_CB_DATA \\*p_data);"
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:415
+msgid "``p_data`` : pointer to advertising data received from a Bluetooth scan."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:315
-msgid "p_data: pointer to advertising data received from a Bluetooth scan."
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:321
-#: BLEAdvertData.rst:385 BLEAdvertData.rst:520 BLEAdvertData.rst:541
-#: BLEAdvertData.rst:562
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:423
+#: BLEAdvertData.rst:515 BLEAdvertData.rst:707 BLEAdvertData.rst:738
+#: BLEAdvertData.rst:769
 msgid "Example: BLEBatteryClient"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:325
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:427
 msgid ""
 "Advertising data fields of parsed receive data can be access using member"
 " functions starting with “has” and “get”."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:328
-msgid "**BLEAdvertData::hasFlags**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:331
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:436
 msgid "Check if received data includes advertising flags."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:334
-msgid "bool hasFlags(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:340
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:450
 msgid "True if flags are present in received advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:349
-msgid "**BLEAdvertData::hasUUID**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:352
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:466
 msgid "Check if received data includes service UUIDs."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:355
-msgid "bool hasUUID(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:361
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:480
 msgid "True if service UUIDs are present in received advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:370
-msgid "**BLEAdvertData::hasName**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:373
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:497
 msgid "Check if received data includes device name."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:376
-msgid "bool hasName(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:382
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:511
 msgid "True if device name is present in received advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:391
-msgid "**BLEAdvertData::hasManufacturer**"
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:517
+msgid "**Notes and Warnings** NA"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:394
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:527
 msgid "Check if received data includes manufacturer specific data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:397
-msgid "bool hasManufacturer(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:404
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:541
 msgid ""
 "True if manufacturer specific data is present in received advertising "
 "data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:413
-msgid "**BLEAdvertData::getAdvType**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:416
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:558
 msgid "Get advertising type of received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:419
-msgid "T_GAP_ADV_EVT_TYPE getAdvType(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:425
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:572
 msgid "Advertising type of received advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:431
-#: BLEAdvertData.rst:457
-msgid "Possible types:"
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:580
+msgid ""
+"Possible types: – GAP_ADV_EVT_TYPE_UNDIRECTED – GAP_ADV_EVT_TYPE_DIRECTED"
+" – GAP_ADV_EVT_TYPE_SCANNABLE – GAP_ADV_EVT_TYPE_NON_CONNECTABEL – "
+"GAP_ADV_EVT_TYPE_SCAN_RSP"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:432
-msgid "– GAP_ADV_EVT_TYPE_UNDIRECTED"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:433
-msgid "– GAP_ADV_EVT_TYPE_DIRECTED"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:434
-msgid "– GAP_ADV_EVT_TYPE_SCANNABLE"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:435
-msgid "– GAP_ADV_EVT_TYPE_NON_CONNECTABEL"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:436
-msgid "– GAP_ADV_EVT_TYPE_SCAN_RSP"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:439
-msgid "**BLEAdvertData::getAddrType**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:442
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:593
 msgid "Get Bluetooth address type of received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:445
-msgid "T_GAP_REMOTE_ADDR_TYPE getAddrType(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:451
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:607
 msgid "Bluetooth address type of received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:458
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:615
+msgid "Possible types:"
+msgstr ""
+
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:617
 msgid "– GAP_REMOTE_ADDR_LE_PUBLIC"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:459
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:619
 msgid "– GAP_REMOTE_ADDR_LE_RANDOM"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:462
-msgid "**BLEAdvertData::getRSSI**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:465
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:627
 msgid "Get received signal strength indicator (RSSI) of received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:468
-msgid "Int8_t getRSSI(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:474
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:641
 msgid "Received signal strength."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:483
-msgid "**BLEAdvertData::getFlags**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:486
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:658
 msgid "Get advertising flags of received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:489
-msgid "uint8_t getFlags(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:496
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:672
 msgid ""
 "Advertising flags present in received advertising data, expressed as a "
 "single byte."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:505
-msgid "**BLEAdvertData::getServiceCount**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:508
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:689
 msgid "Get number of advertised services in received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:511
-msgid "uint8_t getServiceCount(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:517
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:703
 msgid "Number of advertised service UUIDs in received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:526
-msgid "**BLEAdvertData::getServiceList**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:529
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:720
 msgid "Get list of advertised service UUIDs in received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:532
-msgid "BLEUUID\\* getServiceList(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:538
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:734
 msgid "Pointer to a BLEUUID array containing all advertised service UUIDs."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:547
-msgid "**BLEAdvertData::getName**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:550
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:751
 msgid "Get advertised device name in received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:553
-msgid "String getName(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:559
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:765
 msgid "Advertised device name contained in a String class object."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:568
-msgid "**BLEAdvertData::getTxPower**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:571
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:782
 msgid "Get advertised transmission power in received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:574
-msgid "int8_t getTxPower(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:580
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:796
 msgid "Advertised transmission power."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:589
-msgid "**BLEAdvertData::getAppearance**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:592
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:813
 msgid "Get advertised device appearance in received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:595
-msgid "uint16_t getAppearance(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:601
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:827
 msgid "Advertised device appearance."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:608
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:835
 msgid ""
 "Refer to Bluetooth specifications for full list of device appearance "
 "values."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:611
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:840
 msgid "**BLEAdvertData::getManufacturer**"
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:614
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:845
 msgid "Get advertised manufacturer in received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:617
-msgid "uint16_t getManufacturer(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:623
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:859
 msgid "Advertised manufacturer."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:629
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:867
 msgid "Refer to Bluetooth specifications for full list of manufacturer codes."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:632
-msgid "**BLEAdvertData::getManufacturerDataLength**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:635
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:876
 msgid "Get length of manufacturer data in received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:638
-msgid "uint8_t getManufacturerDataLength(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:645
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:890
 msgid "Number of bytes of manufacturer data present in received advertising data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:654
-msgid "**BLEAdvertData::getManufacturerData**"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:657
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:908
 msgid "Get manufacturer data in received data."
 msgstr ""
 
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:660
-msgid "uint8_t\\* getManufacturerData(void);"
-msgstr ""
-
-#: ../../source/ambd_arduino/AMB23/api_documents/Class BLEAdvertData.rst:666
+#: ../../source/ambd_arduino/api_class/Class BLEAdvertData.rst:922
 msgid "Pointer to array containing manufacturer data."
 msgstr ""
+
+#~ msgid "**BLEAdvertData Class**"
+#~ msgstr ""
+
+#~ msgid "class BLEAdvertData"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::BLEAdvertData**"
+#~ msgstr ""
+
+#~ msgid "BLEAdvertData::BLEAdvertData(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::clear**"
+#~ msgstr ""
+
+#~ msgid "void clear(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::addData**"
+#~ msgstr ""
+
+#~ msgid "void addData(const uint8_t\\* data, uint8_t size);"
+#~ msgstr ""
+
+#~ msgid "data: pointer to array containing desired advertising data."
+#~ msgstr ""
+
+#~ msgid "size: number of bytes in array."
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::addFlags**"
+#~ msgstr ""
+
+#~ msgid "uint8_t addFlags(uint8_t flags);"
+#~ msgstr ""
+
+#~ msgid "flags: desired flags to add to advertising data. Valid values:"
+#~ msgstr ""
+
+#~ msgid "– GAP_ADTYPE_FLAGS_LIMITED"
+#~ msgstr ""
+
+#~ msgid "– GAP_ADTYPE_FLAGS_GENERAL"
+#~ msgstr ""
+
+#~ msgid "– GAP_ADTYPE_FLAGS_BREDR_NOT_SUPPORTED"
+#~ msgstr ""
+
+#~ msgid "– GAP_ADTYPE_FLAGS_SIMULTANEOUS_LE_BREDR_CONTROLLER"
+#~ msgstr ""
+
+#~ msgid "– GAP_ADTYPE_FLAGS_SIMULTANEOUS_LE_BREDR_HOST"
+#~ msgstr ""
+
+#~ msgid "uint8_t addPartialServices(BLEUUID uuid);"
+#~ msgstr ""
+
+#~ msgid "uuid: the desired UUID contained in BLEUUID class object."
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::addCompleteServices**"
+#~ msgstr ""
+
+#~ msgid "uint8_t addCompleteServices(BLEUUID uuid);"
+#~ msgstr ""
+
+#~ msgid "uint8_t addCompleteServices(uint8_t uuidBitLength);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "uuidBitLength: UUID bit length for which"
+#~ " a blank entry is to be added."
+#~ " Valid values: 16, 32, 128."
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::addAppearance**"
+#~ msgstr ""
+
+#~ msgid "uint8_t addAppearance(uint16_t appearance);"
+#~ msgstr ""
+
+#~ msgid "appearance: the desired device appearance."
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::addShortName**"
+#~ msgstr ""
+
+#~ msgid "uint8_t addShortName(const char\\* str);"
+#~ msgstr ""
+
+#~ msgid "str: character string containing desired device name."
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::addCompleteName**"
+#~ msgstr ""
+
+#~ msgid "uint8_t addCompleteName(const char\\* str);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::parseScanInfo**"
+#~ msgstr ""
+
+#~ msgid "void parseScanInfo(T_LE_CB_DATA \\*p_data);"
+#~ msgstr ""
+
+#~ msgid "p_data: pointer to advertising data received from a Bluetooth scan."
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::hasFlags**"
+#~ msgstr ""
+
+#~ msgid "bool hasFlags(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::hasUUID**"
+#~ msgstr ""
+
+#~ msgid "bool hasUUID(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::hasName**"
+#~ msgstr ""
+
+#~ msgid "bool hasName(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::hasManufacturer**"
+#~ msgstr ""
+
+#~ msgid "bool hasManufacturer(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::getAdvType**"
+#~ msgstr ""
+
+#~ msgid "T_GAP_ADV_EVT_TYPE getAdvType(void);"
+#~ msgstr ""
+
+#~ msgid "– GAP_ADV_EVT_TYPE_UNDIRECTED"
+#~ msgstr ""
+
+#~ msgid "– GAP_ADV_EVT_TYPE_DIRECTED"
+#~ msgstr ""
+
+#~ msgid "– GAP_ADV_EVT_TYPE_SCANNABLE"
+#~ msgstr ""
+
+#~ msgid "– GAP_ADV_EVT_TYPE_NON_CONNECTABEL"
+#~ msgstr ""
+
+#~ msgid "– GAP_ADV_EVT_TYPE_SCAN_RSP"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::getAddrType**"
+#~ msgstr ""
+
+#~ msgid "T_GAP_REMOTE_ADDR_TYPE getAddrType(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::getRSSI**"
+#~ msgstr ""
+
+#~ msgid "Int8_t getRSSI(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::getFlags**"
+#~ msgstr ""
+
+#~ msgid "uint8_t getFlags(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::getServiceCount**"
+#~ msgstr ""
+
+#~ msgid "uint8_t getServiceCount(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::getServiceList**"
+#~ msgstr ""
+
+#~ msgid "BLEUUID\\* getServiceList(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::getName**"
+#~ msgstr ""
+
+#~ msgid "String getName(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::getTxPower**"
+#~ msgstr ""
+
+#~ msgid "int8_t getTxPower(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::getAppearance**"
+#~ msgstr ""
+
+#~ msgid "uint16_t getAppearance(void);"
+#~ msgstr ""
+
+#~ msgid "uint16_t getManufacturer(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::getManufacturerDataLength**"
+#~ msgstr ""
+
+#~ msgid "uint8_t getManufacturerDataLength(void);"
+#~ msgstr ""
+
+#~ msgid "**BLEAdvertData::getManufacturerData**"
+#~ msgstr ""
+
+#~ msgid "uint8_t\\* getManufacturerData(void);"
+#~ msgstr ""
 
