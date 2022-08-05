@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 03:55+0100\n"
+"POT-Creation-Date: 2022-08-04 10:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,23 +26,10 @@ msgid "Ameba ARDUINO: Getting Started with BW16 Type C"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:10
-msgid "Software Environment Requirements"
-msgstr "使用环境配置"
+msgid "Introduction"
+msgstr ""
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:12
-msgid ""
-"BW16 Type C board (RTL8720DN Dual-Band Wi-Fi board) currently supports "
-"Windows XP/7/8/10/11 32-bits and 64-bits operating systems. In this "
-"documentation, please use the latest version of Arduino IDE."
-msgstr ""
-"BW16 Type C开发板（RTL8720DN双频Wi-Fi开发板）目前支援Windows XP/7/8/10/11 "
-"32位和64位作业系统。在本文档中，请使用最新版本的 Arduino IDE。"
-
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:16
-msgid "Introduction to BW16"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:18
 msgid ""
 "Realtek RTL8720DN is a Wi-Fi and Bluetooth IC that supports 2.4GHz and "
 "5GHz dual bands for Wi-Fi communication, and Bluetooth Low Energy (BLE) "
@@ -59,12 +46,12 @@ msgstr ""
 "Fi和蓝牙模块，可以看作是典型SBC的Wi-Fi和蓝牙应用的SoC。BW16 Type C 是与模块集成的开发板。 "
 "BW16开发板有2块，BW16和BW6-TypeC。 BW16-TypeC 使用 USB TypeC 连接器，与 BW16 相比具有自动上传电路。"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:23
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:119
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:17
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:120
 msgid "**BW16 Type C board**"
 msgstr "**BW16-TypeC 开发板**"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:28
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:22
 msgid ""
 "The size of the board is 50.4*25.4(±0.2) mm. It uses Type C USB to supply"
 " power, which is common in many smart devices. Please refer to the "
@@ -73,58 +60,64 @@ msgstr ""
 "开发板的尺寸为 50.4*25.4(±0.2) mm。它使用TypeC USB供电，这在很多智能设备中都很常见。BW16 "
 "的引脚图和功能请参考下图和下表。"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:31
 msgid "#"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:31
 msgid "GPIO Pin"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:31
 msgid "GPIO INT"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:31
 msgid "ADC"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:31
 msgid "PWM"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:31
 msgid "UART"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:31
 msgid "SPI"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:31
 msgid "I2C"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:31
 msgid "IR"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:31
 msgid "RGB LED"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:31
 msgid "SWD"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:39
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:33
 msgid "0"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:39
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:33
 msgid "PA7"
 msgstr ""
 
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:33
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:34
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:35
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:36
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:38
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:39
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:40
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:41
@@ -132,235 +125,240 @@ msgstr ""
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:43
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:44
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:45
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:46
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:47
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:48
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:49
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:50
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:51
 msgid "✓"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:39
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:33
 msgid "LOG_TX"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:40
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:34
 msgid "1"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:40
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:34
 msgid "PA8"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:40
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:34
 msgid "LOG_RX"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:41
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:35
 msgid "2"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:41
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:35
 msgid "PA27"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:41
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:35
 msgid "SWD_DATA"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:42
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:36
 msgid "3"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:42
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:36
 msgid "PA30"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:43
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
 msgid "4"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:43
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
 msgid "PB1"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:43
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:37
 msgid "SERIAL1_TX"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:44
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:38
 msgid "5"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:44
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:38
 msgid "PB2"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:44
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:38
 msgid "SERIAL1_RX"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:45
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:39
 msgid "6"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:45
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:39
 msgid "PB3"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:45
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:39
 msgid "A2"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:45
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:39
 msgid "SWD_CLK"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:46
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:40
 msgid "7"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:46
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:40
 msgid "PA25"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:46
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:40
 msgid "I2C_SCL"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:46
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:40
 msgid "IR_TX"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:47
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:41
 msgid "8"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:47
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:41
 msgid "PA26"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:47
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:41
 msgid "I2C_SDA"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:47
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:41
 msgid "IR_RX"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:48
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:42
 msgid "9"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:48
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:42
 msgid "PA15"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:48
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:42
 msgid "SPI_SS"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:49
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:43
 msgid "10"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:49
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:43
 msgid "PA14"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:49
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:43
 msgid "SPI_SCLK"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:49
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:43
 msgid "LED_G"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:50
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:44
 msgid "11"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:50
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:44
 msgid "PA13"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:50
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:44
 msgid "SPI_MISO"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:50
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:44
 msgid "LED_B"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:51
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:45
 msgid "12"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:51
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:45
 msgid "PA12"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:51
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:45
 msgid "SPI_MOSI"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:51
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:45
 msgid "LED_R"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:54
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:48
 msgid ""
 "There are 2 buttons besides USB connector. “RST” button is on the left "
 "and “Burn” button is on the right as shown on above figures. Refer the "
 "following table for the functions of the buttons."
 msgstr "除了 USB 连接器外，还有 2 个按钮。如上图所示，左侧为“RST”按钮，右侧为“Burn”按钮。有关按钮的功能，请参阅下表。"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:59
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:53
 msgid "**Button Functions**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:59
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:53
 msgid "**Button Process**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:61
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:55
 msgid "**Reset board**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:61
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:65
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:55
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:59
 msgid "Press then release \"RST\""
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:63
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:57
 msgid "**Enter upload mode**"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:63
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:57
 msgid "Press and hold \"Burn\""
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:67
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:61
 msgid "Release \"Burn\""
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:70
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:64
 msgid ""
 "The Upload Mode is required by board when erase flash or upload firmware."
 " BW16 Type C has Auto Upload circuit. It can skip manually enter the "
 "Upload Mode."
 msgstr "清除flash或上传固件时，开发板需要上传模式。 BW16-TypeC 有自动上传电路。它不需要手动进入上传模式。"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:74
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:68
 msgid "Set up Development Environment"
 msgstr "设置开发环境"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:77
-msgid "Step 1. Set up Arduino IDE"
-msgstr "Step 1. 设定 Arduino IDE"
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:71
+msgid "Step 1. OS Environment"
+msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:79
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:73
+msgid ""
+"BW16 Type C (RTL8720DN) board currently supports Windows OS 32-bits or "
+"64-bits, Linux OS (Ubuntu) and macOS. To have the best experiences, "
+"please use the latest version of OS."
+msgstr ""
+
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:78
+msgid "Step 2. Set up Arduino IDE"
+msgstr "Step 2. 安装串行端口"
+
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:80
 msgid ""
 "From version 1.6.5, Arduino IDE supports third-party hardware. Arduino "
 "IDE is used to develop applications on the board, and the Arduino basic "
@@ -369,19 +367,19 @@ msgstr ""
 "从 1.6.5 版本开始，Arduino IDE 支持第三方硬件。 Arduino "
 "IDE用于在开发板上开发应用程序，以及Arduino基本范例(refer to the basic example link)。"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:81
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:82
 msgid ""
 "Arduino IDE can be downloaded in the Arduino website: "
 "https://www.arduino.cc/en/Main/Software"
 msgstr "Arduino IDE 可以在 Arduino 网站下载：https://www.arduino.cc/en/Main/Software"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:83
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:84
 msgid ""
 "When the installation is finished, open Arduino IDE. Go to “File” -> "
 "“Preferences”."
 msgstr "安装完成后，打开Arduino IDE。请打开 “File” -> “Preferences”."
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:85
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:86
 msgid ""
 "And paste the following URL into the “Additional Boards Manager URLs” "
 "field: "
@@ -390,11 +388,11 @@ msgstr ""
 "并将以下 URL 复制到 “Additional Boards Manager URLs” "
 "栏位:https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:87
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:88
 msgid "Next, go to “Tools” -> “Board” -> “Boards Manager”:"
 msgstr "接下来，打开 “Tools” -> “Board” -> “Boards Manager”:"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:93
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:94
 msgid ""
 "The “Boards Manager” requires several seconds to refresh all hardware "
 "files (if the network is in bad condition, it may take longer). Search "
@@ -406,7 +404,7 @@ msgstr ""
 " Boards (32-bits ARM Cortex-M33 @200MHz)”，点击“Install”，Arduino "
 "IDE会自动开始下载AmebaD包含BW16所需的文件。"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:99
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:100
 msgid ""
 "If there is downloading issue (Bad internet or GitHub access), please "
 "refer to the following link at “Download/Software Development Kit”. There"
@@ -422,11 +420,11 @@ msgstr ""
 "“AmebaD_Arduino_patch2_Tools”，请根据您的作业系统进行选择。有 Windows、Linux 和 MacOS。3. "
 "“AmebaD_Arduino_Source_Code”，此部分为可选下载，用来参考最新原始码。"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:104
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:105
 msgid "https://www.amebaiot.com.cn/en/ameba-arduino-summary/"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:106
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:107
 msgid ""
 "Download the files selected, then unzip (patch1 and patch2 are "
 "compulsory). There are “Install.doc”/“Install.pdf” for you to refer to "
@@ -436,7 +434,7 @@ msgstr ""
 "下载选择的文件，然后解压（patch1 和patch2 "
 "是必须的）。有“Install.doc”/“Install.pdf”供您参考安装步骤。根据您的系统，请运行“Offline_SDK_installation_tool”文件夹中的安装工具。"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:109
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:110
 msgid ""
 "After the installation, select AmebaD as current connected board in "
 "“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” ->” BW16(RTL8720DN)”:"
@@ -444,15 +442,15 @@ msgstr ""
 "安装运行成功后，您可以打开Arduino IDE并选择 “Tools” -> “Board” -> “Ameba ARM (32-bits) "
 "Boards” ->” BW16(RTL8720DN)” 来选择AmebaD作为当前连接的开发板。"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:115
-msgid "Step 2. Set up Arduino IDE"
-msgstr "Step 2. 安装串行端口"
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:116
+msgid "Step 3. Install the Serial Port"
+msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:117
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:118
 msgid "First, connect the board to computer via Type C USB:"
 msgstr "首先，通过 TypeC USB 将开发板连接到电脑："
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:125
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:126
 msgid ""
 "After connected, the USB driver will be automatically installed. If there"
 " is any driver issue of connecting board, please go to http://www.wch-"
@@ -463,19 +461,19 @@ msgstr ""
 "ic.com/downloads/CH341SER_ZIP.html 参考 USB 驱动程序。在 Windows 作业系统的装置管理员中检查 "
 "COM 端口号："
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:131
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:132
 msgid "Go to “Tools” -> “Port” and select the correct COM port."
 msgstr "到“Tools”->“Port”并选择正确的 COM 端口。"
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:136
+#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:137
 msgid ""
 "Go to “Tools” -> “Serial Monitor”, set the baud rate as “115200”, and "
 "press the RST button to check the serial port connection."
 msgstr "进入“Tools”->“Serial Monitor”，将baud rate设置为“115200”，然后按RST按钮检查串口连接。"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:148
-msgid "Erase flash before the first use"
-msgstr "首次使用前清除 flash"
+msgid "Step 4. Erase flash"
+msgstr ""
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:150
 msgid ""
@@ -555,7 +553,9 @@ msgid ""
 "There is an onboard RGB LED, the default ``LED_BUILTIN`` is green color. "
 "Change ``LED_BUILTIN`` to ``LED_R``, ``LED_G``, or ``LED_B`` for red, "
 "green, or blue colors."
-msgstr "板载 RGB LED，预设“LED_BUILTIN”为绿色。将“LED_BUILTIN”更改为“LED_R”、“LED_G”或“LED_B”以获得红色、绿色或蓝色。"
+msgstr ""
+"板载 RGB "
+"LED，预设“LED_BUILTIN”为绿色。将“LED_BUILTIN”更改为“LED_R”、“LED_G”或“LED_B”以获得红色、绿色或蓝色。"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:208
 msgid ""
@@ -581,7 +581,9 @@ msgstr "进入上传模式。手动或自动。选择 “Tools” -> “Auto Upl
 msgid ""
 "“Verify/Compile” then “Upload”. (“Verify/Compile” can be skipped the "
 "“Upload” includes it.)"
-msgstr "“Verify/Compile” 和 “Upload”. “Upload” 包括 “Verify/Compile”, “Verify/Compile” 可以跳过。"
+msgstr ""
+"“Verify/Compile” 和 “Upload”. “Upload” 包括 “Verify/Compile”, "
+"“Verify/Compile” 可以跳过。"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:217
 msgid "Successful upload will show “All images are sent successfully!”"
@@ -604,8 +606,10 @@ msgid ""
 "technical details, …etc. These examples can be directly used on the "
 "board. Refer to detailed information of the Blink example in the link "
 "below: https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink"
-msgstr "在每个范例中，Arduino 不仅提供了范例代码，还提供了详细的文档，包括接线图、范例代码说明、技术细节等。这些范例可以直接在 BW16 上使用。请参阅以下连结中的 Blink 详细信息："
-"https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink"
+msgstr ""
+"在每个范例中，Arduino 不仅提供了范例代码，还提供了详细的文档，包括接线图、范例代码说明、技术细节等。这些范例可以直接在 BW16 "
+"上使用。请参阅以下连结中的 Blink "
+"详细信息：https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:234
 msgid "References"
@@ -637,16 +641,39 @@ msgid ""
 "content/uploads/2021/02/CDM21228_Setup.zip"
 msgstr ""
 
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:245
-msgid "**(End)**"
-msgstr ""
-
-#: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:250
-msgid ""
-"If you face any issue, please refer to the FAQ and Trouble shooting "
-"sections on :doc:`../support/index` page."
-msgstr ""
-
 #~ msgid "Arduino IDE opens a new window with the complete sample code."
+#~ msgstr ""
+
+#~ msgid "Software Environment Requirements"
+#~ msgstr "使用环境配置"
+
+#~ msgid ""
+#~ "BW16 Type C board (RTL8720DN Dual-"
+#~ "Band Wi-Fi board) currently supports "
+#~ "Windows XP/7/8/10/11 32-bits and 64-bits "
+#~ "operating systems. In this documentation, "
+#~ "please use the latest version of "
+#~ "Arduino IDE."
+#~ msgstr ""
+#~ "BW16 Type C开发板（RTL8720DN双频Wi-Fi开发板）目前支援Windows "
+#~ "XP/7/8/10/11 32位和64位作业系统。在本文档中，请使用最新版本的 Arduino IDE。"
+
+#~ msgid "Introduction to BW16"
+#~ msgstr ""
+
+#~ msgid "Step 1. Set up Arduino IDE"
+#~ msgstr "Step 1. 设定 Arduino IDE"
+
+#~ msgid "Erase flash before the first use"
+#~ msgstr "首次使用前清除 flash"
+
+#~ msgid "**(End)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you face any issue, please "
+#~ "refer to the FAQ and Trouble "
+#~ "shooting sections on :doc:`../support/index` "
+#~ "page."
 #~ msgstr ""
 

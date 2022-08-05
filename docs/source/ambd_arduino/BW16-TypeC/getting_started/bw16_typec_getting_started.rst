@@ -6,14 +6,8 @@ Getting Started
 Ameba ARDUINO: Getting Started with BW16 Type C
 ************************************************
 
-Software Environment Requirements
-==================================
-
-BW16 Type C board (RTL8720DN Dual-Band Wi-Fi board) currently supports Windows XP/7/8/10/11 32-bits and 64-bits 
-operating systems. In this documentation, please use the latest version of Arduino IDE.
-
-Introduction to BW16
-======================
+Introduction 
+==============
 
 Realtek RTL8720DN is a Wi-Fi and Bluetooth IC that supports 2.4GHz and 5GHz dual bands for Wi-Fi communication, and Bluetooth Low Energy (BLE) 5.0. 
 BW16 module is manufactured by B&T, this module is a highly integrated Wi-Fi and Bluetooth module with the RTL8720DN as the main SoC (System on Chip),
@@ -73,7 +67,14 @@ The Upload Mode is required by board when erase flash or upload firmware. BW16 T
 Set up Development Environment
 **********************************
 
-Step 1. Set up Arduino IDE
+Step 1. OS Environment
+=======================
+
+BW16 Type C (RTL8720DN) board currently supports Windows OS 32-bits or 64-bits, 
+Linux OS (Ubuntu) and macOS. To have the best experiences, please use the latest version of OS.
+
+
+Step 2. Set up Arduino IDE
 ===========================
 
 From version 1.6.5, Arduino IDE supports third-party hardware. Arduino IDE is used to develop applications on the board, and the Arduino basic examples (refer to the basic example link).
@@ -111,8 +112,8 @@ After the installation, select AmebaD as current connected board in “Tools” 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image5.png
    :align: center
 
-Step 2. Set up Arduino IDE
-==========================
+Step 3. Install the Serial Port
+================================
 
 First, connect the board to computer via Type C USB:
 
@@ -143,9 +144,8 @@ Go to “Tools” -> “Serial Monitor”, set the baud rate as “115200”, an
    :align: center
 
 
-*********************************
-Erase flash before the first use
-*********************************
+Step 4. Erase flash
+====================
 
 Depending on the batch of manufacturing, some boards might have built-in the default B&T firmware, the firmware information is shown below: 
 
@@ -242,9 +242,3 @@ References
 #. FTDI Driver Download from here:
    https://ftdichip.com/wp-content/uploads/2021/02/CDM21228_Setup.zip
 
-**(End)**
-
------------------------------------------------------------------------------------
-
-.. note:: 
-   If you face any issue, please refer to the FAQ and Trouble shooting sections on :doc:`../support/index` page.  

@@ -6,14 +6,8 @@ Getting Started
 Ameba ARDUINO: Getting Started with BW16
 *******************************************
 
-Software Environment Requirements
-==================================
-
-BW16 board (RTL8720DN Dual-Band Wi-Fi board) currently supports Windows XP/7/8/10/11 32-bits and 64-bits operating systems. 
-In this documentation, please use the latest version of Arduino IDE.
-
-Introduction to BW16
-======================
+Introduction 
+=============
 
 Realtek RTL8720DN is a Wi-Fi and Bluetooth IC that supports 2.4GHz and 5GHz dual bands for Wi-Fi communication, 
 and Bluetooth Low Energy (BLE) 5.0. BW16 module is manufactured by B&T, this module is a highly integrated Wi-Fi and Bluetooth module with the RTL8720DN as the main SoC (System on Chip), 
@@ -24,6 +18,9 @@ There are 2 BW16 boards, BW16 and BW6-TypeC. BW16 board uses Micro USB connector
 
 .. image:: /media/ambd_arduino/BW16_getting_started/image1.png
    :align: center
+   :width: 737
+   :height: 601
+   :scale: 80 %
 
 
 The size of the board is 50.4*25.4(±0.2) mm. It uses Type C USB to supply power, which is common in many smart devices.
@@ -32,6 +29,9 @@ Please refer to the following figure and table for the pin diagram and functions
 
 .. image:: /media/ambd_arduino/BW16_getting_started/image2.png
    :align: center
+   :width: 2502
+   :height: 1210
+   :scale: 49 %
 
 
 
@@ -74,8 +74,14 @@ The Upload Mode is required by board when erase flash or upload firmware.
 Set up Developing Environment
 **********************************
 
-Step 1. Set up Arduino IDE
-=============================
+Step 1. OS Environment
+========================
+
+BW16 (RTL8720DN) board currently supports Windows OS 32-bits or 64-bits, Linux OS (Ubuntu) and macOS. 
+To have the best experiences, please use the latest version of OS.
+
+Step 2. Set up Arduino IDE
+===========================
 
 From version 1.6.5, Arduino IDE supports third-party hardware. Arduino IDE is used to develop applications on BW16, and the Arduino basic examples (refer to the basic example link).
 
@@ -90,6 +96,9 @@ Next, go to “Tools” -> “Board” -> “Boards Manager”:
 
 .. image:: /media/ambd_arduino/BW16_getting_started/image3.png
    :align: center
+   :width: 712
+   :height: 886
+   :scale: 70 %
 
 
 The “Boards Manager” requires several seconds to refresh all hardware files (if the network is in bad condition, it may take longer). Search “Realtek” 
@@ -97,6 +106,8 @@ then find “Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)” in the lis
 
 .. image:: /media/ambd_arduino/BW16_getting_started/image4.png
    :align: center
+   :width: 602
+   :height: 337
 
 If there is downloading issue (Bad internet or GitHub access), please refer to the following link at “Download/Software Development Kit”. There are 3 sections.
 1. “AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There are 5 latest released SDK options.
@@ -112,8 +123,11 @@ After the installation, select AmebaD as current connected board in “Tools” 
 
 .. image:: /media/ambd_arduino/BW16_getting_started/image5.png
    :align: center
+   :width: 863
+   :height: 888
+   :scale: 67 %
 
-Step 2. Install the serial port
+Step 3. Install the serial port
 ================================
 
 First, connect the baord to computer via Micro USB:
@@ -122,6 +136,9 @@ First, connect the baord to computer via Micro USB:
 
 .. image:: /media/ambd_arduino/BW16_getting_started/image6.png
    :align: center
+   :width: 527
+   :height: 1027
+   :scale: 58 %
 
 Refer to the pinmap and table above, D0 and D1 pins are used for program uploading. 
 However, onboard USB-to-UART module is connected to D4 and D5 which is not able to be directly used for program upload. 
@@ -164,9 +181,8 @@ Go to “Tools” -> “Serial Monitor”, set the baud rate as “115200”, an
    :align: center
 
 
-*********************************
-Eraase flash before first use
-*********************************
+Step 4. Erase flash
+====================
 
 Depending on the batch of manufacturing, some boards might have built-in the default B&T firmware, the firmware information is shown below: 
 
@@ -261,10 +277,4 @@ References
    `RTL8720DN(BW16) IMG2 SIGN Invalid Solution <https://forum.amebaiot.com/t/rtl8720dn-bw16-img2-sign-invalid-solution/669>`_
 #. FTDI Driver Download from here:
    https://ftdichip.com/wp-content/uploads/2021/02/CDM21228_Setup.zip
-
-**(End)**
-
------------------------------------------------------------------------------------
-
-.. note:: 
-   If you face any issue, please refer to the FAQ and Trouble shooting sections on :doc:`../support/index` page.  
+ 
