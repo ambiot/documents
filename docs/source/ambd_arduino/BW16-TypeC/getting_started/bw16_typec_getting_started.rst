@@ -6,14 +6,8 @@ Getting Started
 Ameba ARDUINO: Getting Started with BW16 Type C
 ************************************************
 
-Software Environment Requirements
-==================================
-
-BW16 Type C board (RTL8720DN Dual-Band Wi-Fi board) currently supports Windows XP/7/8/10/11 32-bits and 64-bits 
-operating systems. In this documentation, please use the latest version of Arduino IDE.
-
-Introduction to BW16
-======================
+Introduction 
+==============
 
 Realtek RTL8720DN is a Wi-Fi and Bluetooth IC that supports 2.4GHz and 5GHz dual bands for Wi-Fi communication, and Bluetooth Low Energy (BLE) 5.0. 
 BW16 module is manufactured by B&T, this module is a highly integrated Wi-Fi and Bluetooth module with the RTL8720DN as the main SoC (System on Chip),
@@ -24,6 +18,8 @@ There are 2 BW16 boards, BW16 and BW16 Type C. BW16 Type C board uses USB Type C
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image1.png
    :align: center
+   :width: 500
+   :height: 300
 
 The size of the board is 50.4*25.4(±0.2) mm. It uses Type C USB to supply power, which is common in many smart devices.
 Please refer to the following figure and table for the pin diagram and functions.
@@ -31,6 +27,9 @@ Please refer to the following figure and table for the pin diagram and functions
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image2.png
    :align: center
+   :width: 2410
+   :height: 1393
+   :scale: 43 %
 
 
 ==== ========= ========== ===== ====== ============== ============== ============ ======= ============ =============
@@ -73,7 +72,14 @@ The Upload Mode is required by board when erase flash or upload firmware. BW16 T
 Set up Development Environment
 **********************************
 
-Step 1. Set up Arduino IDE
+Step 1. OS Environment
+=======================
+
+BW16 Type C (RTL8720DN) board currently supports Windows OS 32-bits or 64-bits, 
+Linux OS (Ubuntu) and macOS. To have the best experiences, please use the latest version of OS.
+
+
+Step 2. Set up Arduino IDE
 ===========================
 
 From version 1.6.5, Arduino IDE supports third-party hardware. Arduino IDE is used to develop applications on the board, and the Arduino basic examples (refer to the basic example link).
@@ -89,12 +95,17 @@ Next, go to “Tools” -> “Board” -> “Boards Manager”:
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image3.png
    :align: center
+   :width: 712
+   :height: 886
+   :scale: 67 %
 
 The “Boards Manager” requires several seconds to refresh all hardware files (if the network is in bad condition, it may take longer). Search “Realtek” 
 then find “Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)” in the list, click “Install”, then the Arduino IDE starts to download required files for AmebaD family includes BW16.
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image4.png
    :align: center
+   :width: 602
+   :height: 337
 
 If there is downloading issue (Bad internet or GitHub access), please refer to the following link at “Download/Software Development Kit”. There are 3 sections.
 1. “AmebaD_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There are 5 latest released SDK options.
@@ -110,9 +121,12 @@ After the installation, select AmebaD as current connected board in “Tools” 
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image5.png
    :align: center
+   :width: 863
+   :height: 888
+   :scale: 67 %
 
-Step 2. Set up Arduino IDE
-==========================
+Step 3. Install the Serial Port
+================================
 
 First, connect the board to computer via Type C USB:
 
@@ -120,38 +134,53 @@ First, connect the board to computer via Type C USB:
    
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image6.png
    :align: center
-
+   :width: 527
+   :height: 1027
+   :scale: 58 %
 
 After connected, the USB driver will be automatically installed. If there is any driver issue of connecting board, 
 please go to http://www.wch-ic.com/downloads/CH341SER_ZIP.html for USB driver. Check the COM Port number in Device Manager for Windows OS user: 
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image7.png
    :align: center
+   :width: 307
+   :height: 484
+
 
 Go to “Tools” -> “Port” and select the correct COM port.  
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image8.png
    :align: center
+   :width: 1279
+   :height: 967
+   :scale: 62 %
+
 
 Go to “Tools” -> “Serial Monitor”, set the baud rate as “115200”, and press the RST button to check the serial port connection.  
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image9.png
    :align: center
-
+   :width: 1278
+   :height: 979
+   :scale: 61 %
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image10.png
    :align: center
+   :width: 817
+   :height: 430
 
-
-*********************************
-Erase flash before the first use
-*********************************
+Step 4. Erase flash
+====================
 
 Depending on the batch of manufacturing, some boards might have built-in the default B&T firmware, the firmware information is shown below: 
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image11.png
    :align: center
-  
+   :width: 481
+   :height: 351
+
+
+
 The firmware is at the OTA section. All new compiled firmware will be replaced automatically by the OTA section firmware. 
 Therefore, OTA section firmware needs to be erased first to make use of compiled firmware. 
 
@@ -162,6 +191,9 @@ Select “Tools” -> “Erase Flash” -> “Enable”
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image12.png
    :align: center
+   :width: 1279
+   :height: 978
+   :scale: 61 %
 
 Then enter the enter the upload mode.
 
@@ -173,15 +205,22 @@ Next, Select “Sketch” -> “Upload”. “Erase flash done.” will show up.
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image13.png
    :align: center
+   :width: 863
+   :height: 887
+   :scale: 67 %
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image14.png
    :align: center
+   :width: 864
+   :height: 887
+   :scale: 67 %
 
 Check the serial monitor and reset board by press RST button. If only “#” shows that means erase flash success. Remember to select “Tools” -> “Erase Flash” -> “Disable”. 
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image15.png
    :align: center
-
+   :width: 818
+   :height: 435
 
 *********************************
 Try the First Example
@@ -196,9 +235,15 @@ Open :guilabel:`“File” -> “Examples” -> “01.Basics” -> “Blink”`:
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image16.png
    :align: center
+   :width: 1278
+   :height: 981
+   :scale: 61 %
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image17.png
    :align: center
+   :width: 770
+   :height: 816
+   :scale: 73 %
 
 .. tip::
    There is an onboard RGB LED, the default ``LED_BUILTIN`` is green color. 
@@ -218,6 +263,10 @@ Successful upload will show “All images are sent successfully!”
 
 .. image:: /media/ambd_arduino/BW16_typec_getting_started/image18.png
    :align: center
+   :width: 770
+   :height: 815
+   :scale: 73 %
+
 
 Step 2. Run the Blink example
 ===============================
@@ -242,9 +291,3 @@ References
 #. FTDI Driver Download from here:
    https://ftdichip.com/wp-content/uploads/2021/02/CDM21228_Setup.zip
 
-**(End)**
-
------------------------------------------------------------------------------------
-
-.. note:: 
-   If you face any issue, please refer to the FAQ and Trouble shooting sections on :doc:`../support/index` page.  

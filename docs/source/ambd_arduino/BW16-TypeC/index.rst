@@ -9,6 +9,11 @@ BW16-TypeC (RTL8720DN)
 
 Welcome to BW16-TypeC Arduino online documentation.
 
+.. image:: /media/ambd_arduino/BW16_typec_getting_started/image1.png
+   :width: 500
+   :height: 300
+   :scale: 70 %
+
 .. toctree::
    :maxdepth: 1
    :caption: Table of Contents
