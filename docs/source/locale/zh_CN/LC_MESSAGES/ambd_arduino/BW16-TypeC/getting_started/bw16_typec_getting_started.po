@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:10
 msgid "Introduction"
-msgstr ""
+msgstr "介绍"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:12
 msgid ""
@@ -345,18 +345,18 @@ msgstr "设置开发环境"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:71
 msgid "Step 1. OS Environment"
-msgstr ""
+msgstr "步骤一、 环境配置"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:73
 msgid ""
 "BW16 Type C (RTL8720DN) board currently supports Windows OS 32-bits or "
 "64-bits, Linux OS (Ubuntu) and macOS. To have the best experiences, "
 "please use the latest version of OS."
-msgstr ""
+msgstr "BW16 (RTL8720DN) 开发板目前支持 Windows OS 32 位元或 64 位元、Linux OS (Ubuntu) 和 macOS。为了获得最佳体验，请使用最新版本的作业系统。"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:78
 msgid "Step 2. Set up Arduino IDE"
-msgstr "Step 2. 安装串行端口"
+msgstr "步骤二、 设定 Arduino IDE"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:80
 msgid ""

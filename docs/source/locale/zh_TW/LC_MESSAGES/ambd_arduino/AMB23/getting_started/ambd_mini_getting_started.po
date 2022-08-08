@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-04 10:10+0100\n"
+"POT-Creation-Date: 2022-08-08 03:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:10
 msgid "Introduction"
-msgstr ""
+msgstr "介紹"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:12
 msgid ""
@@ -47,12 +47,11 @@ msgid ""
 msgstr "Ameba所收集的數據可以通過WiFi無線上傳，並被智能設備上的應用程序使用，實現物聯網的應用。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:26
-#, fuzzy
 msgid ""
 "AMB23 uses Micro USB to supply power, which is common in many smart "
 "devices. Please refer to the following figure and table for the pin "
 "diagram and function."
-msgstr "AMB23 的引腳圖和功能請參考下圖和表格。"
+msgstr "AMB23使用Micro USB來供電，這在許多智能設備中很常見。AMB23的引腳圖和功能請參考下圖和表格。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:36
 msgid "#"
@@ -444,10 +443,9 @@ msgstr "設置開發環境"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:73
 msgid "Step 1. OS Environment"
-msgstr ""
+msgstr "步驟1: 環境配置"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:75
-#, fuzzy
 msgid ""
 "AMB23 (RTL8722DM MINI) board currently supports Windows OS 32-bits or "
 "64-bits, Linux OS (Ubuntu) and macOS. To have the best experiences, "
@@ -458,36 +456,32 @@ msgstr ""
 "作業系統。請使用最新的作業系統版本以獲得最佳體驗。在本文檔中，請使用最新版本的 Arduino IDE (至少 1.8.12版)。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:79
-msgid "Step 1. Installing the Driver"
-msgstr "步驟1：安裝驅動程序"
+msgid "Step 2. Installing the Driver"
+msgstr "步驟2: 安裝驅動程序"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:81
-#, fuzzy
 msgid "First, connect AMB23 to the computer via Micro USB:"
 msgstr "首先，通過 Micro USB 將 AMB23 連接到電腦:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:89
-#, fuzzy
 msgid ""
 "If this is the first time connects AMB23 to computer, the USB driver for "
 "AMB23 will be automatically installed."
-msgstr "如果這是您第一次將RTL8722DM MINI連接到您的電腦，那麼 AMB23 的USB驅動程序將自動安裝。"
+msgstr "如果這是您第一次將AMB23連接到您的電腦，那麼 AMB23 的USB驅動程序將自動安裝。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:91
-#, fuzzy
 msgid ""
 "If you have driver issue of connect board to computer please go to "
 "https://ftdichip.com/drivers/ for USB driver."
 msgstr "如果遇到開發板連接到電腦的驅動程序問題，請參考下列USB 驅動程序 https://ftdichip.com/drivers/。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:93
-#, fuzzy
 msgid "Check the COM port number in Device Manager of computer:"
 msgstr "你可以在你電腦的 :guilabel:`裝置管理員` 中檢查 :guilabel:`COM` 端口號:"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:102
-msgid "Step 2. Set up Arduino IDE"
-msgstr "步驟2: 設置Arduino IDE"
+msgid "Step 3. Set up Arduino IDE"
+msgstr "步驟3: 設置Arduino IDE"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:104
 msgid ""
@@ -505,16 +499,15 @@ msgid ""
 "Arduino IDE can be downloaded in the Arduino website:  "
 "https://www.arduino.cc/en/Main/Software"
 msgstr ""
+"Arduino IDE可以在Arduino網站下載: "
+"https://www.arduino.cc/en/Main/Software安裝完成後"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:112
-#, fuzzy
 msgid ""
 "When the installation is finished, open Arduino IDE. To set up AMB23 "
 "correctly in Arduino IDE, go to :guilabel:`“File” -> “Preferences”`."
 msgstr ""
-"Arduino IDE可以在Arduino網站下載: "
-"https://www.arduino.cc/en/Main/Software安裝完成後，打開Arduino IDE。為了在Arduino "
-"IDE中正常使用RTL8722DM MINI，請打開“File”—>“Preferences”。"
+"安裝完成後，打開Arduino IDE。為了在Arduino IDE中正常使用RTL8722DM MINI，請打開“File”—>“Preferences”。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:120
 msgid ""
@@ -531,33 +524,32 @@ msgid ""
 "The “Boards Manager” requires about 10~20 seconds to refresh all hardware"
 " files (if the network is in bad condition, it may take longer). Every "
 "time the new hardware is connected, we need to reopen the Board Manager. "
-"Find **Realtek Ameba Boards** in the list, click “Install”, then the "
-"Arduino IDE starts to download required files."
-msgstr ""
+"So, we close the Boards Manager, and then open it again. Find **Realtek "
+"Ameba Boards** in the list, click “Install”, then the Arduino IDE starts "
+"to download required files."
+msgstr "“Boards Manager”大約需要10~20秒來刷新所有硬件文件(如果網絡狀況不好，可能需要更長的時間)。"
+"每次連接新硬件時，我們都需要重新打開Boards Manager。"
+"在列表中找到“Realtek Ameba Boards (32-bits ARM Cortex-M33 @200MHz)”，點擊“Install”，Arduino IDE會自動開始下載所需的文件。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:143
-#, fuzzy
 msgid ""
 "If there is GitHub downloading issue, please refer to the following link "
 "at “Download/Software Development Kit”. There are 3 sections."
 msgstr "如果您遇到 GitHub 下載問題，請參考以下“下載/軟體開發套件”中的鏈接。有3個部分。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:145
-#, fuzzy
 msgid ""
 "“AMB23_Arduino_patch1_SDK”, please select at least 1 of the SDKs. There "
 "are 5 latest released SDK options."
 msgstr "“AmebaD_Arduino_patch1_SDK”，請至少選擇 1 個 SDK。目前有 5 個最新發布的 SDK 選項。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:146
-#, fuzzy
 msgid ""
 "“AMB23_Arduino_patch2_Tools”, please select according to your operation "
 "system. There are Windows, Linux and MacOS."
 msgstr "“AmebaD_Arduino_patch2_Tools”，請根據您的作業系統進行選擇。有 Windows、Linux 和 MacOS。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:147
-#, fuzzy
 msgid ""
 "“AMB23_Arduino_Source_Code”, this section is optional download only wants"
 " to refer the latest source code."
@@ -578,7 +570,6 @@ msgstr ""
 "是必須的）。有“Install_中文.doc”/“Install_中文.pdf”供您參考安裝步驟。根據您的系統，請運行“Offline_SDK_installation_tool”文件夾中的安裝工具。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:155
-#, fuzzy
 msgid ""
 "After the installation tool running successfully, you may open Arduino "
 "IDE and proceed to :guilabel:`“Tools” -> “Board“ -> “Boards Manager…”`. "
@@ -591,7 +582,6 @@ msgstr ""
 "@200MHz)”，點擊“Install”，Arduino IDE開始下載AmebaD所需的文件。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:161
-#, fuzzy
 msgid ""
 "Finally, we select AmebaD as current connected board in "
 ":guilabel:`“Tools” -> “Board” -> “Ameba ARM (32-bits) Boards” -> “AMB23 "
@@ -625,17 +615,19 @@ msgid ""
 "onboard LED of AMB23, the default “LED_BUILTIN” is blue onboard LED. "
 "Change “LED_BUILTIN” to “LED_B” or “LED_G” for different colours (blue "
 "and green)."
-msgstr ""
+msgstr "Arduino IDE打開一個帶有完整示例代碼的新視窗。"
+"開發板上有RTL8722DM MINI的LED，默認“LED_BUILTIN”是藍色的LED"
+"將“LED_BUILTIN”更改為“LED_B”或“LED_G”以使用不同的顏色。"
+"板載LED選項LED_B和LED_G。 （藍色和綠色）,接下來，我們直接編譯示例代碼，點擊“Sketch”->“Verify/Compile”"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:197
-#, fuzzy
+
 msgid ""
 "Next, we compile the sample code directly; click “Sketch” -> "
 "“Verify/Compile”"
 msgstr "接下來，我們直接編譯示例代碼，點擊“Sketch”->“Verify/Compile”"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:205
-#, fuzzy
 msgid ""
 "Arduino IDE prints the compiling messages in the bottom area of the IDE "
 "window. When the compilation is finished, you will get the message as "
@@ -651,7 +643,9 @@ msgid ""
 "the UART_DOWNLOAD button, then press and release the RESET button, lastly"
 " release the UART_DOWNLOAD button. There is a 5-seconds count down set as"
 " a reminder to enter the upload mode."
-msgstr ""
+msgstr "之後，我們將把編譯後的代碼上傳到開發板。請確保開發板已連接到您的電腦，然後單擊“Sketch” -> “Upload”。"
+"Arduino IDE將先編譯，然後上傳。用戶需要將開發板調至上傳模式。要進入上傳模式，首先按住 UART_DOWNLOAD 按鈕，"
+"然後按下並鬆開 RESET 按鈕，最後鬆開 UART_DOWNLOAD 按鈕。 設置了 5 秒倒計時提醒進入上傳模式。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:232
 msgid ""
@@ -662,7 +656,6 @@ msgstr ""
 "請注意，某些串口終端可能會顯示如下圖所示的未知字符是正常的。"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:237
-#, fuzzy
 msgid "it is normal that some serial terminals may show characters as following."
 msgstr "請注意，某些串口終端可能會顯示如下圖所示的未知字符是正常的。"
 
@@ -678,7 +671,6 @@ msgid "Step 2.Run the Blink example"
 msgstr "步驟2：運行Blink示例"
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:251
-#, fuzzy
 msgid ""
 "In each example, Arduino not only provides sample code, but also detailed"
 " documentation, including wiring diagram, sample code explanation, "
@@ -692,7 +684,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:256
-#, fuzzy
 msgid ""
 "In short, the example can be run on both onboard LEDs (green or blue) or "
 "external LED (use any GPIO pins for signal output). Finally, press the "
@@ -701,7 +692,7 @@ msgstr "簡而言之，對於 AMB23，該示例可以在板上LED（綠色或藍
 
 #: ../../source/ambd_arduino/AMB23/getting_started/ambd_mini_getting_started.rst:260
 msgid "If you encounter any problem, please refer to Q&A."
-msgstr ""
+msgstr "如果您遇到任何問題，請參考Q&A。"
 
 #~ msgid ""
 #~ "If you face any issue, please "
@@ -1126,4 +1117,17 @@ msgstr ""
 #~ "shooting sections on  "
 #~ ":doc:`/ambd_arduino/AMB23/support/index` page."
 #~ msgstr "如果您遇到任何問題，請參考故障排除 :doc:`/ambd_arduino/AMB23/support/index` 的頁面 "
+
+#~ msgid ""
+#~ "The “Boards Manager” requires about "
+#~ "10~20 seconds to refresh all hardware"
+#~ " files (if the network is in "
+#~ "bad condition, it may take longer). "
+#~ "Every time the new hardware is "
+#~ "connected, we need to reopen the "
+#~ "Board Manager. Find **Realtek Ameba "
+#~ "Boards** in the list, click “Install”,"
+#~ " then the Arduino IDE starts to "
+#~ "download required files."
+#~ msgstr ""
 

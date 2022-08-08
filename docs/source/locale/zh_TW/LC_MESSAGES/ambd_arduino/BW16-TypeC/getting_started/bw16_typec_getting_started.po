@@ -26,9 +26,8 @@ msgid "Ameba ARDUINO: Getting Started with BW16 Type C"
 msgstr ""
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:10
-#, fuzzy
 msgid "Introduction"
-msgstr "BW16 介紹"
+msgstr "介紹"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:12
 msgid ""
@@ -346,18 +345,18 @@ msgstr "設置開發環境"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:71
 msgid "Step 1. OS Environment"
-msgstr ""
+msgstr "步驟一、 環境配置"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:73
 msgid ""
 "BW16 Type C (RTL8720DN) board currently supports Windows OS 32-bits or "
 "64-bits, Linux OS (Ubuntu) and macOS. To have the best experiences, "
 "please use the latest version of OS."
-msgstr ""
+msgstr "BW16 (RTL8720DN) 開發板目前支持 Windows OS 32 位元或 64 位元、Linux OS (Ubuntu) 和 macOS。 為了獲得最佳體驗，請使用最新版本的作業系統。"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:78
 msgid "Step 2. Set up Arduino IDE"
-msgstr "Step 2. 安裝串行端口"
+msgstr "步驟二、 設定 Arduino IDE"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:80
 msgid ""
@@ -445,7 +444,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:116
 msgid "Step 3. Install the Serial Port"
-msgstr ""
+msgstr "步驟三、 安裝串行端口"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:118
 msgid "First, connect the board to computer via Type C USB:"
@@ -474,7 +473,7 @@ msgstr "進入“Tools”->“Serial Monitor”，將baud rate設置為“115200
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:148
 msgid "Step 4. Erase flash"
-msgstr ""
+msgstr "步驟四、 清除 flash"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:150
 msgid ""

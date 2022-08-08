@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:10
 msgid "Introduction"
-msgstr ""
+msgstr "介绍"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:12
 msgid ""
@@ -37,6 +37,8 @@ msgid ""
 "interfaces, AMB21/AMB22 can connect with electronic components such as "
 "LED, switches, manometer, hygrometer, PM2.5 dust sensors, …etc."
 msgstr ""
+"Ameba是一个易于编程的微控制器平台，可用于开发各种物联网应用程序。"
+"AMB21/AMB22有各种外围接口，包括WiFi, GPIO INT, I2C, UART, SPI, PWM, ADC。通过这些接口，AMB21/AMB22可以连接LED、开关、压力计、湿度计、PM2.5粉尘传感器等电子元件。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:16
 msgid ""
@@ -51,7 +53,9 @@ msgid ""
 "AMB21/AMB22 uses Micro USB to supply power, which is common in many smart"
 " devices. Please refer to the following figure and table for the pin "
 "diagram and functions."
-msgstr ""
+msgstr "AMB21/AMB22和Arduino Uno的尺寸类似，如上图所示，并且AMB21/AMB22上的引脚与Arduino Uno兼容。"
+"AMB21/AMB22使用Micro USB来供电，这在许多智能设备中很常见。"
+"引脚图和功能请参考下图和表格。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:38
 msgid "#"
@@ -534,25 +538,23 @@ msgid "PA19"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:74
-#, fuzzy
 msgid "Set up Developing environment"
 msgstr "设置开发环境"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:77
 msgid "Step 1. OS environment"
-msgstr ""
+msgstr "步骤1. 环境配置"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:79
 msgid ""
 "AMB21/AMB22 (RTL8722CSM/RTL8722DM) board currently supports Windows OS "
 "32-bits or 64-bits, Linux OS (Ubuntu) and macOS. To have the best "
 "experiences, please use the latest version of OS."
-msgstr ""
+msgstr "AMB21/AMB22 (RTL8722CSM/RTL8722DM) 开发板目前支持 Windows OS 32 位元或 64 位元、Linux OS (Ubuntu) 和 macOS。为了获得最佳体验，请使用最新版本的作业系统。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:83
-#, fuzzy
 msgid "Step 2. Installing the driver"
-msgstr "步骤1：安装驱动程序"
+msgstr "步骤2: 安装驱动程序"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:85
 msgid "First, connect AMB21/AMB22 to the computer via Micro USB:"
@@ -566,35 +568,37 @@ msgid ""
 "https://ftdichip.com/drivers/ for USB driver. Check the COM port number "
 "in Device Manager of computer:"
 msgstr ""
+"如果这是您第一次将AMB21/AMB22连接到您的电脑，那么AMB21/AMB22的USB驱动程序将自动安装。"
+"如果遇到开发板连接到电脑的驱动程序问题，请参考下列USB 驱动程序https:// ftdichip.com/drivers /。"
+"在你的电脑的设备管理器中检查COM端口号:"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:104
-#, fuzzy
 msgid "Step 3. Set up Arduino IDE"
-msgstr "步骤2： 设置 Arduino IDE"
+msgstr "步骤3: 设置Arduino IDE"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:106
-#, fuzzy
 msgid ""
 "From version 1.6.5, Arduino IDE supports third-party hardware. Therefore,"
 " we can use Arduino IDE to develop applications, and the Arduino basic "
 "examples can run on AMB21/AMB22 too."
 msgstr ""
 "从1.6.5版本开始，Arduino IDE支持第三方硬件。因此，我们可以使用Arduino "
-"IDE在AmebaD上开发应用程序，Arduino的示例也可以在AmebaD上运行。Arduino "
-"IDE可以在Arduino网站下载:https://www.arduino.cc/en/Main/Software 。"
+"IDE在AmebaD上开发应用程序，Arduino的示例也可以在AmebaD上运行."
+
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:109
 msgid ""
 "Arduino IDE can be downloaded in the Arduino website: "
 "https://www.arduino.cc/en/Main/Software"
 msgstr ""
+"Arduino IDE可以在Arduino网站下载:https://www.arduino.cc/en/Main/Software 。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:111
 msgid ""
 "When the installation is finished, open Arduino IDE. To set up "
 "AMB21/AMB22 correctly in Arduino IDE, go to :guilabel:`“File” -> "
 "“Preferences”`."
-msgstr "安装完成后，打开Arduino IDE。为了在Arduino IDE中正常使用AmebaD，请打开“File”—>“Preferences”。"
+msgstr "安装完成后，打开Arduino IDE。为了在Arduino IDE中正常使用AMB21/AMB22，请打开 :guilabel:`“File”—>“Preferences”`。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:119
 msgid ""
@@ -617,39 +621,34 @@ msgid ""
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:143
-#, fuzzy
 msgid ""
 "If there is GitHub downloading issue, please refer to the following link "
 "at “Download/Software Development Kit”. There are 3 sections."
-msgstr "如果您遇到 GitHub 下载问题，请参考以下 `Download/Software Development Kit`_ 中的链接。 有3个部分。"
+msgstr "如果您遇到 GitHub 下载问题，请参考以下“下载/软体开发套件”中的链接。有3个部分。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:145
-#, fuzzy
 msgid ""
 "“AMB21/AMB22_Arduino_patch1_SDK”, please select at least 1 of the SDKs. "
 "There are 5 latest released SDK options."
-msgstr "“AmebaD_Arduino_patch1_SDK”，请至少选择 1 个 SDK。 目前有 5 个最新发布的 SDK 选项。"
+msgstr "“AMB21/AMB22_Arduino_patch1_SDK”，请至少选择 1 个 SDK。目前有 5 个最新发布的 SDK 选项。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:146
-#, fuzzy
 msgid ""
 "“AMB21/AMB22_Arduino_patch2_Tools”, please select according to your "
 "operation system. There are Windows, Linux and MacOS."
-msgstr "“AmebaD_Arduino_patch2_Tools”，请根据您的作业系统进行选择。 有 Windows、Linux 和 MacOS。"
+msgstr "“AMB21/AMB22_Arduino_patch2_Tools”，请根据您的作业系统进行选择。有 Windows、Linux 和 MacOS。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:147
-#, fuzzy
 msgid ""
 "“AMB21/AMB22_Arduino_Source_Code”, this section is optional download only"
 " wants to refer the latest source code."
-msgstr "“AmebaD_Arduino_Source_Code”，此部分为可选下载，用來参考最新原始码。"
+msgstr "“AMB21/AMB22_Arduino_Source_Code”，此部分为可选下载，用来参考最新原始码。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:149
 msgid "https://www.amebaiot.com.cn/en/ameba-arduino-summary/"
 msgstr ""
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:151
-#, fuzzy
 msgid ""
 "Download the files selected, then unzip (patch1 and patch2 are "
 "compulsory). There are “Install.doc”/“Install.pdf” for you to refer "
@@ -668,9 +667,10 @@ msgid ""
 ":guilabel:`“Install”`, then the Arduino IDE starts to download required "
 "files for AMB21/AMB22."
 msgstr ""
+"安装工具运行成功后，您可以打开Arduino IDE并选择 “tools” -> “Board“ -> “Boards Manager…”。"
+"尝试在列表中找到“Realtek Ameba Boards”，点击“Install”，Arduino IDE开始下载AMB21/AMB22所需的文件。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:162
-#, fuzzy
 msgid ""
 "Finally, we select board in “tools” -> “Board” -> “Ameba ARM (32-bits) "
 "Boards” -> “AMB21/AMB22 (RTL8722DM/CSM)”"
@@ -703,7 +703,6 @@ msgid ""
 msgstr "接下来，我们直接编译示例代码，点击“Sketch”->“Verify/Compile”"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:197
-#, fuzzy
 msgid ""
 "Arduino IDE prints the compiling messages in the bottom area of the IDE "
 "window. When the compilation is finished, you will get the message as "
@@ -712,10 +711,9 @@ msgstr "Arduino IDE在IDE窗口的底部区域打印编译消息。编译完成�
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:205
 msgid "Afterwards, we will upload the compiled code to board."
-msgstr ""
+msgstr "之后，我们将把编译后的代码上传到开发板。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:207
-#, fuzzy
 msgid ""
 "Please make sure board is connected to computer, then click “Sketch” -> "
 "“Upload”."
@@ -729,9 +727,11 @@ msgid ""
 "lastly release the UART_DOWNLOAD button. There is a 5-seconds count down "
 "set as a reminder to enter the upload mode."
 msgstr ""
+"Arduino IDE将首先编译，然后上传。用户需要将开发板调至上传模式。"
+"要进入上传模式，首先按住 UART_DOWNLOAD 按钮，然后按下并松开 RESET 按钮，最后松开 UART_DOWNLOAD 按钮。"
+"设置了 5 秒倒计时提醒进入上传模式。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:225
-#, fuzzy
 msgid ""
 "It is optional for users to check if the board entered the upload mode. "
 "Open serial monitor/terminal and look for **Flash Download Start**."
@@ -743,7 +743,7 @@ msgstr ""
 msgid ""
 "it is normal that some serial terminals may show unknown characters as "
 "following picture."
-msgstr ""
+msgstr "某些串口终端可能会显示如下图所示的未知字符是正常的。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:238
 msgid ""
@@ -768,7 +768,6 @@ msgstr ""
 "AMB21/AMB22。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:252
-#, fuzzy
 msgid ""
 "In short, this example makes LED blinks, and it uses GPIO pin 08 (refer "
 "to the pin diagram ``D08``). Then we connect the LED and resistance as "
@@ -777,13 +776,12 @@ msgid ""
 msgstr "简而言之，这个示例会使LED不停地闪烁。它使用的是GPIO引脚08(参考引脚图D08)。我们把LED和电阻连接起来，如下图所示:"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:263
-#, fuzzy
 msgid "Finally, press the RESET button, and you can see the LED blinking."
 msgstr "最后，按RESET按钮，你就会看到LED开始闪烁。"
 
 #: ../../source/ambd_arduino/AMB21/getting_started/ambd_getting_started.rst:267
 msgid "If you encounter any problem, please refer to Q&A."
-msgstr ""
+msgstr "如果您遇到任何问题，请参考Q&A。"
 
 #~ msgid "Ameba ARDUINO: Getting Started with AMB21"
 #~ msgstr ""

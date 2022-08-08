@@ -75,7 +75,7 @@ Step 1. OS Environment
 AMB23 (RTL8722DM MINI) board currently supports Windows OS 32-bits or 64-bits, 
 Linux OS (Ubuntu) and macOS. To have the best experiences, please use the latest version of OS.
 
-Step 1. Installing the Driver
+Step 2. Installing the Driver
 ===============================
 
 First, connect AMB23 to the computer via Micro USB:
@@ -98,7 +98,7 @@ Check the COM port number in Device Manager of computer:
    :height: 628
    :scale: 95 %
 
-Step 2. Set up Arduino IDE
+Step 3. Set up Arduino IDE
 ============================
 
 From version 1.6.5, Arduino IDE supports third-party hardware.
@@ -131,7 +131,7 @@ Next, go to :guilabel:`“Tools” -> “Board” -> “Boards Manager”`:
    :scale: 68 %
 
 The “Boards Manager” requires about 10~20 seconds to refresh all hardware files (if the network is in bad condition, it may take longer). 
-Every time the new hardware is connected, we need to reopen the Board Manager. 
+Every time the new hardware is connected, we need to reopen the Board Manager. So, we close the Boards Manager, and then open it again. 
 Find **Realtek Ameba Boards** in the list, click “Install”, then the Arduino IDE starts to download required files.
 
 
