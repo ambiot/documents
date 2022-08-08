@@ -444,7 +444,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:116
 msgid "Step 3. Install the Serial Port"
-msgstr ""
+msgstr "步骤三、 安装串行端口"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:118
 msgid "First, connect the board to computer via Type C USB:"
@@ -473,7 +473,7 @@ msgstr "进入“Tools”->“Serial Monitor”，将baud rate设置为“115200
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:148
 msgid "Step 4. Erase flash"
-msgstr ""
+msgstr "步骤四、 清除 flash"
 
 #: ../../source/ambd_arduino/BW16-TypeC/getting_started/bw16_typec_getting_started.rst:150
 msgid ""

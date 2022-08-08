@@ -447,7 +447,6 @@ msgid "Step 3. Install the serial port"
 msgstr "步骤三、 安装串行端口"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:133
-#, fuzzy
 msgid "First, connect the board to computer via Micro USB:"
 msgstr "首先，通过 Micro USB 将开发板连接到电脑："
 
@@ -492,7 +491,7 @@ msgstr "进入“Tools”->“Serial Monitor”，将baud rate设置为“115200
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:198
 msgid "Step 4. Erase flash"
-msgstr ""
+msgstr "步骤四、 清除 flash"
 
 #: ../../source/ambd_arduino/BW16_/getting_started/ambd_getting_started.rst:200
 msgid ""
