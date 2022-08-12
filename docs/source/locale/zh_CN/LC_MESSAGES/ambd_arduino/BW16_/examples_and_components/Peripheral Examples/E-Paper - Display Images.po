@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 02:53+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display Images.rst:3
 msgid "E-Paper - Display Images"
@@ -26,8 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:12
@@ -49,7 +49,7 @@ msgstr ""
 "html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:22
+#: Images.rst:19
 msgid ""
 "In this example, we use the Ameba RTL8722 module connects to a Waveshare "
 "2.9inch e-Paper module to display a few QR codes. The display uses the "
@@ -58,167 +58,96 @@ msgid ""
 msgstr "在此范例中，我们使用Ameba RTL8722模块连接到Waveshare 2.9英寸e-Paper来显示一些QR码。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:26
+#: Images.rst:24
 msgid ""
 "The 2.9” active area contains 296×128 pixels and has 1-bit white/black "
 "full display capabilities. An integrated circuit contains gate buffer, "
 "source buffer, interface, timing control logic, oscillator, etc… are "
 "supplied with each panel."
 msgstr ""
-"2.9英寸有效区域包含296×128像素，并具有白色/黑色全显示功能。"
-"每个面板都提供了一个包含gate buffer, source buffer, interface, timing control logic, oscillator等的集成电路。"
+"2.9英寸有效区域包含296×128像素，并具有白色/黑色全显示功能。每个面板都提供了一个包含gate buffer, source "
+"buffer, interface, timing control logic, oscillator等的集成电路。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:30
+#: Images.rst:29
 msgid ""
 "You may refer to the official `2.9inch e-Paper HAT (D) datasheet "
 "<https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
 "Paper_(D)_Specification.pdf>`__ to know more information about this "
 "module."
-msgstr "您可以参考官方的 2.9 inch e-Paper HAT(D) datasheet <https://www.waveshare.net/w/upload/b/b5/2.9inch_e-Paper_(D)_Specification.pdf>`__  ，"
-"以了解有关此模块的更多信息。"
+msgstr ""
+"您可以参考官方的 2.9 inch e-Paper HAT(D) datasheet "
+"<https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
+"Paper_(D)_Specification.pdf>`__  ，以了解有关此模块的更多信息。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:32
+#: Images.rst:34
 msgid "Front view of the e-Paper Module:"
 msgstr "e-Paper模块:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:34
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:96
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:36
+#: Images.rst:42
 msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr "**AMB21 / AMB22** 接线图:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:38
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:100
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:40
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:104
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:42
+#: Images.rst:55
 msgid "**AMB23** Wiring Diagram:"
 msgstr "**AMB23** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:44
-msgid "|2-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:108
-msgid "2-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:46
-msgid "|3-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:112
-msgid "3-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:48
+#: Images.rst:67
 msgid "**BW16** Wiring Diagram:"
 msgstr "**BW16** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:50
-msgid "|2-2|"
-msgstr ""
+#: Images.rst:79
+#, fuzzy
+msgid "**BW16-TypeC** Wiring Diagram:"
+msgstr "**BW16** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:116
-msgid "2-2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:52
-msgid "|3-2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:120
-msgid "3-2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:54
+#: Images.rst:87
 msgid ""
 "Firstly, you need to prepare a picture/photo in the format of 296×128 "
 "pixels. We can easily find a photo resizing tool online, for example, the"
 " `Online Image Resizer <https://resizeimage.net/>`__."
-msgstr "首先，您需要准备296×128像素格式的图片/照片。我们可以轻松地在线找到照片尺寸调整工具，例如，`Online Image Resizer <https://resizeimage.net/>`__.。"
+msgstr ""
+"首先，您需要准备296×128像素格式的图片/照片。我们可以轻松地在线找到照片尺寸调整工具，例如，`Online Image Resizer "
+"<https://resizeimage.net/>`__.。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:59
+#: Images.rst:92
 msgid ""
 "Following the instructions on the website, then download the generated "
 "image in JPG format."
 msgstr "按照网站上的说明，然后以JPG格式下载生成的图像。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:62
+#: Images.rst:95
 msgid ""
 "Secondly, we use the `Image2LCD "
 "<http://www.waveshare.net/w/upload/3/36/Image2Lcd.7z>`__ tool to transfer"
 " the downloaded 296×128 image into hexadecimal codes. You can visit this "
 "`YouTube <https://www.youtube.com/watch?v=kAmnU5Y96MA&t=363s>`__ link to "
 "get detailed instructions."
-msgstr "其次，我们使用 `Image2LCD <http://www.waveshare.net/w/upload/3/36/Image2Lcd.7z>`__  工具来将传输下载的296×128图片转换成十六进制代码。您可以参考此 `YouTube <https://www.youtube.com/watch?v=kAmnU5Y96MA&t=363s>`__ 连结以获取详细说明。"
+msgstr ""
+"其次，我们使用 `Image2LCD "
+"<http://www.waveshare.net/w/upload/3/36/Image2Lcd.7z>`__  "
+"工具来将传输下载的296×128图片转换成十六进制代码。您可以参考此 `YouTube "
+"<https://www.youtube.com/watch?v=kAmnU5Y96MA&t=363s>`__ 连结以获取详细说明。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:70
+#: Images.rst:102
 msgid ""
 "Download the Eink zip library, AmebaEink.zip, at "
-"https://github.com/ambiot /tree/master/Arduino_zip_libraries"
-msgstr "在 https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries 下载 Eink 库 AmebaEink.zip。"
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:72
-msgid ""
-"Then install the AmebaEink.zip. Open the “DisplayQR” example in ``“File” "
-"→ “Examples” → “AmebaEink” → “EinkDisplayImage”``:"
-msgstr "接着安装 AmebaEink.zip。打开 “DisplayQR” 范例 “File” → “Examples” → “AmebaEink” → “EinkDisplayImage”:"
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:74
-msgid "|4|"
+"https://github.com/ambiot /tree/master/Arduino_zip_libraries Then install"
+" the AmebaEink.zip. Open the “DisplayQR” example in ``“File” → “Examples”"
+" → “AmebaEink” → “EinkDisplayImage”``:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:124
-msgid "4"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:81
+#: Images.rst:113
 msgid ""
 "Press the reset button after uploading the sample code, you will need to "
 "wait for around 1-2 seconds for the e-Paper module to fresh its screen. "
@@ -227,46 +156,39 @@ msgid ""
 "screenshot below, you may scan the QR codes and find out more information"
 " if you wish to). Lastly, a gif which comes in form of 3 frames will be "
 "displayed for a few seconds."
-msgstr "上传范例代码后按重置按钮，您需要等待大约 1-2 秒，e-Paper模块才能刷新屏幕。"
-"然后屏幕会先开始显示图像 5 秒，然后每 5 秒会显示 3 个不同的二维码（如下图所示，您可以扫描二维码了解更多信息）。最后，以 3 帧形式出现的 gif 将显示几秒钟。"
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:83
-msgid "|5|"
 msgstr ""
+"上传范例代码后按重置按钮，您需要等待大约 1-2 秒，e-Paper模块才能刷新屏幕。然后屏幕会先开始显示图像 5 秒，然后每 5 秒会显示 3 "
+"个不同的二维码（如下图所示，您可以扫描二维码了解更多信息）。最后，以 3 帧形式出现的 gif 将显示几秒钟。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:128
-msgid "5"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:85
+#: Images.rst:126
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:91
+#: Images.rst:130
 msgid ""
 "We use Good Display GDEH029A1 2.9 Inch / 296×128 Resolution / Partial "
 "Refresh Arduino Sample Code to get the e-Paper successfully Display: "
 "http://www.good-display.com/product/201.html"
-msgstr "[1] 我们使用Good Display GDEH029A1 2.9英寸/ 296×128解析度/部分刷新Arduino范例代码来成功获取e-Paper显示： "
-"http://www.good-display.com/product/201.html"
+msgstr ""
+"[1] 我们使用Good Display GDEH029A1 2.9英寸/ 296×128解析度/部分刷新Arduino范例代码来成功获取e-"
+"Paper显示： http://www.good-display.com/product/201.html"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
-#: Images.rst:94
+#: Images.rst:134
 msgid ""
 "The link on how to generate a QR code on the E-paper module: "
 "https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-"
 "arduino.html"
-msgstr "[2] 提供有关如何在e-Paper模块上生成QR码的连结："
-"https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-"
-"arduino.html"
+msgstr ""
+"[2] 提供有关如何在e-"
+"Paper模块上生成QR码的连结：https://eugeniopace.org/qrcode/arduino/eink/2019/07/01"
+"/qrcode-on-arduino.html"
 
 #~ msgid ""
 #~ "Download the Eink zip library, "
@@ -288,5 +210,78 @@ msgstr "[2] 提供有关如何在e-Paper模块上生成QR码的连结："
 #~ " module: "
 #~ "https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-"
 #~ "on-arduino.html"
+#~ msgstr ""
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|2-1|"
+#~ msgstr ""
+
+#~ msgid "2-1"
+#~ msgstr ""
+
+#~ msgid "|3-1|"
+#~ msgstr ""
+
+#~ msgid "3-1"
+#~ msgstr ""
+
+#~ msgid "|2-2|"
+#~ msgstr ""
+
+#~ msgid "2-2"
+#~ msgstr ""
+
+#~ msgid "|3-2|"
+#~ msgstr ""
+
+#~ msgid "3-2"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the Eink zip library, "
+#~ "AmebaEink.zip, at https://github.com/ambiot "
+#~ "/tree/master/Arduino_zip_libraries"
+#~ msgstr ""
+#~ "在 "
+#~ "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries"
+#~ " 下载 Eink 库 AmebaEink.zip。"
+
+#~ msgid ""
+#~ "Then install the AmebaEink.zip. Open the"
+#~ " “DisplayQR” example in ``“File” → "
+#~ "“Examples” → “AmebaEink” → "
+#~ "“EinkDisplayImage”``:"
+#~ msgstr ""
+#~ "接着安装 AmebaEink.zip。打开 “DisplayQR” 范例 “File”"
+#~ " → “Examples” → “AmebaEink” → "
+#~ "“EinkDisplayImage”:"
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
 #~ msgstr ""
 

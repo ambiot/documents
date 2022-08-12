@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,13 +58,13 @@ msgstr ""
 #: surrounding the
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
-"Arduino IDE: ``“Tools” -> “Board”``"
+"Arduino IDE: ``“Tools” → “Board”``"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:25
 #: surrounding the
 msgid ""
-"Open the “ScanNetworks” example in ``“File” -> “Examples” -> “WiFi” -> "
+"Open the “ScanNetworks” example in ``“File” → “Examples” → “WiFi” → "
 "“ScanNetworks”``:"
 msgstr ""
 
@@ -171,5 +171,17 @@ msgstr ""
 #~ "Open the “ScanNetworks” example in "
 #~ "``“File” -> “Examples” -> “AmebaWiFi” ->"
 #~ " “ScanNetworks”``:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "First, make sure the correct Ameba "
+#~ "development board is selected in Arduino"
+#~ " IDE: ``“Tools” -> “Board”``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the “ScanNetworks” example in "
+#~ "``“File” -> “Examples” -> “WiFi” -> "
+#~ "“ScanNetworks”``:"
 #~ msgstr ""
 

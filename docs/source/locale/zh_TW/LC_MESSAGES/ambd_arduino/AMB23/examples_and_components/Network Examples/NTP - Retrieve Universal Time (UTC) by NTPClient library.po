@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:3
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:12
@@ -47,12 +47,14 @@ msgstr ""
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:19
+#, fuzzy
 msgid ""
 "In this example, we use an NTP client to sync with NTP servers using UDP "
-"and keep track of time locally. Open the example. ``“File” -> "
-"“Examples”-> “NTPClient” -> “Advanced”``"
-msgstr "在此範例中，我們使用NTP客戶端與使用UDP的NTP服務器同步，並追蹤本地時間。"
-"打開範例 “File” -> “Examples” -> “NTPClient” -> “Advanced”"
+"and keep track of time locally. Open the example. ``“File” → “Examples”→ "
+"“NTPClient” → “Advanced”``"
+msgstr ""
+"在此範例中，我們使用NTP客戶端與使用UDP的NTP服務器同步，並追蹤本地時間。打開範例 “File” -> “Examples” -> "
+"“NTPClient” -> “Advanced”"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:24
@@ -87,7 +89,9 @@ msgid ""
 "Compile the code and upload it to Ameba. After pressing the Reset button,"
 " Ameba connects to WiFi, gets the UTC time from the NTP server, and "
 "prints out the current time with time zone offset to the serial monitor."
-msgstr "編譯代碼並將其上傳到Ameba。 按下“重置”按鈕後，Ameba連接到WiFi，從NTP服務器獲取UTC時間，並以時區偏移量輸出當前時間到serial monitor。"
+msgstr ""
+"編譯代碼並將其上傳到Ameba。 "
+"按下“重置”按鈕後，Ameba連接到WiFi，從NTP服務器獲取UTC時間，並以時區偏移量輸出當前時間到serial monitor。"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:34
@@ -105,8 +109,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:40
@@ -115,16 +119,17 @@ msgstr "配置NTP客戶端："
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:46
+#, fuzzy
 msgid ""
 "The NTPClient needs to use a UDP client for communications. A WiFiUDP "
 "client is declared and passed to the NTPClient constructor, along with an"
 " NTP server address, time zone offset in seconds, and update interval in "
 "milliseconds. If detailed configuration is not needed, just passing in "
-"the UDP client is also sufficient, refer to the “NTPClient” -> “Basic” "
+"the UDP client is also sufficient, refer to the “NTPClient” → “Basic” "
 "example."
 msgstr ""
-"NTPClient需要使用UDP客戶端進行通信。 WiFiUDP客戶端並將其與NTP服務器地址，"
-"時區偏移量（以秒為單位）和更新間隔（以毫秒為單位）一起傳遞給NTPClient。 "
+"NTPClient需要使用UDP客戶端進行通信。 "
+"WiFiUDP客戶端並將其與NTP服務器地址，時區偏移量（以秒為單位）和更新間隔（以毫秒為單位）一起傳遞給NTPClient。 "
 "如果不需要詳細的配置，只需傳入UDP客戶端就足夠了，請參考“ NTPClient”->“ Basic”範例。"
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
@@ -151,6 +156,5 @@ msgid ""
 "``getFormattedTime()`` is used to format the received UTC time into the "
 "local time zone. ``update()`` is called every loop so that the NTPClient "
 "will sync with the NTP server once every update interval."
-msgstr "getFormattedTime（）用於將接收到的UTC時間格式化為本地時區。"
-"每個循環呼叫update（），以便NTPClient將在每個更新間隔與NTP服務器同步一次。"
+msgstr "getFormattedTime（）用於將接收到的UTC時間格式化為本地時區。每個循環呼叫update（），以便NTPClient將在每個更新間隔與NTP服務器同步一次。"
 

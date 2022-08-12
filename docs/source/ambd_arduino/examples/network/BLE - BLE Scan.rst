@@ -24,16 +24,24 @@ out the results to the serial monitor.
 
 **Procedure**
 
-Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> “BLEScan”``
+Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEScan”``
 
-  |1|
+.. image:: /media/ambd_arduino/BLE_Scan/image1.png
+   :align: center
+   :width: 711
+   :height: 1006
+   :scale: 79 %
 
-| Upload the code and press the reset button on Ameba once the upload is
-  finished.
-| Open the Arduino serial monitor, and you should see the scan results
-  of nearby Bluetooth devices formatted and printed out.
+Upload the code and press the reset button on Ameba once the upload is
+finished.
+Open the Arduino serial monitor, and you should see the scan results
+of nearby Bluetooth devices formatted and printed out.
 
-  |2|
+.. image:: /media/ambd_arduino/BLE_Scan/image2.png
+   :align: center
+   :width: 757
+   :height: 907
+   :scale: 88 %
 
 If you have the Bluetooth app nRF Connect installed, you can also use it
 to send out Bluetooth advertisements for the Ameba to pick up.
@@ -69,11 +77,3 @@ duration of 5000 milliseconds. The scan will repeat according to the set
 scan interval and scan window values. After 5000 milliseconds, the scan
 process will stop, and will be ready to be started again.
 
-.. |1| image:: /media/ambd_arduino/BLE_Scan/image1.png
-   :width: 711
-   :height: 1006
-   :scale: 70 %
-.. |2| image:: /media/ambd_arduino/BLE_Scan/image2.png
-   :width: 757
-   :height: 907
-   :scale: 80 %

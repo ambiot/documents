@@ -26,7 +26,7 @@ USB.
 Procedure
 ---------
 
-Open the example, ``"Files" -> "Examples" -> “AmebaUSB” -> “USBHIDMouse”``.
+Open the example, ``"Files" → "Examples" → “AmebaUSB” → “USBHIDMouse”``.
 
 |1|
 

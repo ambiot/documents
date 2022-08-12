@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:3 PC Serial USB over to with
@@ -71,14 +71,10 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
 #: Module.rst:36 PC Serial USB over to with
-msgid "In this example, we use UART to connect USB to TTL adapter to Ameba."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:38 PC Serial USB over to with
 msgid ""
-"USB to TTL adapter sends data to Ameba, the data would be returned by "
-"Ameba, and showed on the screen."
+"In this example, we use UART to connect USB to TTL adapter to Ameba. USB "
+"to TTL adapter sends data to Ameba, the data would be returned by Ameba, "
+"and showed on the screen."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
@@ -87,57 +83,32 @@ msgid "**Install USB to TTL Adapter**"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:47 PC Serial USB over to with
+#: Module.rst:42 PC Serial USB over to with
 msgid ""
 "USB to TTL adapter converts USB to serial interface. Normally, there are "
 "at least 4 pins on the adapter, that is 3V3 (or 5V), GND, TX and RX. "
 "Generally, installing the driver for the USB to TTL adapter would be "
 "required before using it. If the adapter uses the chip of FTDI, Windows "
 "will search and install the driver automatically, otherwise, you may need"
-" to install corresponding driver yourself."
+" to install corresponding driver yourself. Afterwards, open device "
+"manager. You can find corresponding serial port number of the USB to TTL "
+"adapter:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:49 PC Serial USB over to with
+#: Module.rst:57 PC Serial USB over to with
+msgid "**Executing the Example**"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
+#: Module.rst:59 PC Serial USB over to with
 msgid ""
-"Afterwards, open device manager. You can find corresponding serial port "
-"number of the USB to TTL adapter:"
+"Open the “SoftwareSerialExample” example in ``“File” → “Examples” → "
+"“AmebaSoftwareSerial” → “SoftwareSerial_Basic”``:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:51 PC Serial USB over to with
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:115 PC Serial USB over to with
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:53 PC Serial USB over to with
-msgid "Executing the Example"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:56 PC Serial USB over to with
-msgid ""
-"Open the “SoftwareSerialExample” example in ``“File” -> “Examples” -> "
-"“AmebaSoftwareSerial” -> “SoftwareSerial_Basic”``:"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:58 PC Serial USB over to with
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:119 PC Serial USB over to with
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:62 PC Serial USB over to with
+#: Module.rst:68 PC Serial USB over to with
 msgid ""
 "Connect the wire as the following diagrams show. The TX pin of USB to TTL"
 " adapter is connected to the RX of Ameba, and the RX pin of USB to TTL "
@@ -145,52 +116,27 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:64 PC Serial USB over to with
+#: Module.rst:72 PC Serial USB over to with
 msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:66 PC Serial USB over to with
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:123 PC Serial USB over to with
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:68 PC Serial USB over to with
+#: Module.rst:81 PC Serial USB over to with
 msgid "**AMB23** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:70 PC Serial USB over to with
-msgid "|3-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:127 PC Serial USB over to with
-msgid "3-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:72 PC Serial USB over to with
+#: Module.rst:90 PC Serial USB over to with
 msgid "**BW16** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:74 PC Serial USB over to with
-msgid "|3-3|"
+#: Module.rst:97 PC Serial USB over to with
+msgid "**BW16-TypeC** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:131 PC Serial USB over to with
-msgid "3-3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:76 PC Serial USB over to with
+#: Module.rst:104 PC Serial USB over to with
 msgid ""
 "Next, open a serial port terminal, such as Putty or Tera Term. (Putty is "
 "used in this example). Open the Putty window, choose “Serial” in "
@@ -201,34 +147,14 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:83 PC Serial USB over to with
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:135 PC Serial USB over to with
-msgid "4"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:85 PC Serial USB over to with
+#: Module.rst:116 PC Serial USB over to with
 msgid ""
 "Next, select “Serial” on the left side. Set data bits to 8, stop bits to "
 "1, parity to none, and flow control to none."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:88 PC Serial USB over to with
-msgid "|5|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:139 PC Serial USB over to with
-msgid "5"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:90 PC Serial USB over to with
+#: Module.rst:124 PC Serial USB over to with
 msgid ""
 "Then click Open and press the reset button on Ameba. You can see the "
 "“Hello, world?” message appears in Putty. If characters are typed into "
@@ -240,49 +166,137 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:98 PC Serial USB over to with
-msgid "|6|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:143 PC Serial USB over to with
-msgid "6"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:100 PC Serial USB over to with
+#: Module.rst:138 PC Serial USB over to with
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:105 PC Serial USB over to with
+#: Module.rst:142 PC Serial USB over to with
 msgid ""
 "First, use ``SoftwareSerial:begin(speed)`` to set the baud rate for the "
-"serial communication:"
+"serial communication: "
+"https://www.arduino.cc/en/Reference/SoftwareSerialBegin"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:106 PC Serial USB over to with
-msgid "https://www.arduino.cc/en/Reference/SoftwareSerialBegin"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:109 PC Serial USB over to with
+#: Module.rst:146 PC Serial USB over to with
 msgid ""
 "Use ``write()`` to send data, and use ``SoftwareSerial:available()`` to "
 "get the number of bytes available for reading from a software serial "
-"port:"
+"port: https://www.arduino.cc/en/Reference/SoftwareSerialAvailable"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:111 PC Serial USB over to with
-msgid "https://www.arduino.cc/en/Reference/SoftwareSerialAvailable"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Communicate
-#: Module.rst:113 PC Serial USB over to with
+#: Module.rst:150 PC Serial USB over to with
 msgid "If there are data available to read, use read() to read from serial port."
 msgstr ""
+
+#~ msgid "In this example, we use UART to connect USB to TTL adapter to Ameba."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "USB to TTL adapter sends data to"
+#~ " Ameba, the data would be returned"
+#~ " by Ameba, and showed on the "
+#~ "screen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "USB to TTL adapter converts USB to"
+#~ " serial interface. Normally, there are "
+#~ "at least 4 pins on the adapter,"
+#~ " that is 3V3 (or 5V), GND, TX"
+#~ " and RX. Generally, installing the "
+#~ "driver for the USB to TTL adapter"
+#~ " would be required before using it."
+#~ " If the adapter uses the chip "
+#~ "of FTDI, Windows will search and "
+#~ "install the driver automatically, otherwise,"
+#~ " you may need to install "
+#~ "corresponding driver yourself."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Afterwards, open device manager. You can"
+#~ " find corresponding serial port number "
+#~ "of the USB to TTL adapter:"
+#~ msgstr ""
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "Executing the Example"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the “SoftwareSerialExample” example in"
+#~ " ``“File” -> “Examples” -> "
+#~ "“AmebaSoftwareSerial” -> “SoftwareSerial_Basic”``:"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|3-1|"
+#~ msgstr ""
+
+#~ msgid "3-1"
+#~ msgstr ""
+
+#~ msgid "|3-3|"
+#~ msgstr ""
+
+#~ msgid "3-3"
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
+#~ msgstr ""
+
+#~ msgid "|6|"
+#~ msgstr ""
+
+#~ msgid "6"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "First, use ``SoftwareSerial:begin(speed)`` to "
+#~ "set the baud rate for the serial"
+#~ " communication:"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/SoftwareSerialBegin"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use ``write()`` to send data, and "
+#~ "use ``SoftwareSerial:available()`` to get the"
+#~ " number of bytes available for "
+#~ "reading from a software serial port:"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/SoftwareSerialAvailable"
+#~ msgstr ""
 

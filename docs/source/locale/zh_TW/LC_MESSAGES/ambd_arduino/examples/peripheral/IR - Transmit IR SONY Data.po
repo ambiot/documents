@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 03:14+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,22 +55,12 @@ msgid ""
 "oscilloscope/logic analyser to view the waveform and decode accordingly."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:25 IR SONY
-#: Transmit
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:126 IR SONY
-#: Transmit
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:27 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:30 IR SONY
 #: Transmit
 msgid "Figure 1: Grove – Infrared Transmitter"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:29 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:32 IR SONY
 #: Transmit
 msgid ""
 "On the transmission side, the transmitter will send IR SONY data. For "
@@ -80,37 +70,37 @@ msgid ""
 "use Sony as the transmission protocol."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:35 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:38 IR SONY
 #: Transmit
 msgid "**Sony Features**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:37 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:40 IR SONY
 #: Transmit
 msgid "12-bit version, 7 command bits, 5 address bits."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:39 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:42 IR SONY
 #: Transmit
 msgid "Pulse width modulation."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:41 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:44 IR SONY
 #: Transmit
 msgid "Carrier frequency of 40kHz."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:43 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:46 IR SONY
 #: Transmit
 msgid "Bit time of 1.2ms or 0.6ms."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:45 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:48 IR SONY
 #: Transmit
 msgid "**Sony SIRC Modulation**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:47 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:50 IR SONY
 #: Transmit
 msgid ""
 "The SIRC protocol uses pulse width encoding of the bits. The pulse "
@@ -119,42 +109,22 @@ msgid ""
 "separated by a 600us long space interval as shown in Figure 2 below."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:52 IR SONY
-#: Transmit
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:131 IR SONY
-#: Transmit
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:54 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:60 IR SONY
 #: Transmit
 msgid "Figure 2: Sony SIRC Modulation"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:56 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:62 IR SONY
 #: Transmit
 msgid "**Protocol**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:58 IR SONY
-#: Transmit
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:136 IR SONY
-#: Transmit
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:60 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:69 IR SONY
 #: Transmit
 msgid "Figure 3: 12-bit Sony SIRC protocol"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:62 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:71 IR SONY
 #: Transmit
 msgid ""
 "The Figure 3 above shows a typical pulse train of the 12-bit SIRC "
@@ -166,46 +136,31 @@ msgid ""
 " and Command 19 is transmitted."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:70 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:79 IR SONY
 #: Transmit
 msgid ""
 "Commands are repeated every 45ms (measured from start to start) for as "
 "long as the key on the remote control is held down."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:73 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:82 IR SONY
 #: Transmit
 msgid ""
 "Figure 4 shows the pin configuration of IR Emitter with AMB21 / AMB22 "
 "board."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:76 IR SONY
-#: Transmit
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:141 IR SONY
-#: Transmit
-msgid "4"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:78 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:90 IR SONY
 #: Transmit
 msgid "Figure 5: Pin configuration of the IR Emitter and BW16"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:80 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:98 IR SONY
 #: Transmit
-msgid "|5|"
+msgid "Figure 6: Pin configuration of the IR Emitter and BW16-TypeC"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:146 IR SONY
-#: Transmit
-msgid "5"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:83 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:107 IR SONY
 #: Transmit
 msgid ""
 "After the connection is being set up correctly, we will move to the "
@@ -213,7 +168,7 @@ msgid ""
 "development board is selected in Arduino IDE: “Tools” -> “Board”."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:87 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:111 IR SONY
 #: Transmit
 msgid ""
 "Open the “IRSendSONY” example in “File” -> “Examples” -> “AmebaIRDevice” "
@@ -221,22 +176,12 @@ msgid ""
 "Emitter:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:91 IR SONY
-#: Transmit
-msgid "|6|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:151 IR SONY
-#: Transmit
-msgid "6"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:93 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:120 IR SONY
 #: Transmit
 msgid "Figure 6: Example Location of IRSendSONY"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:95 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:122 IR SONY
 #: Transmit
 msgid ""
 "After successfully upload the sample code for IRSendSONY, you could use "
@@ -245,66 +190,56 @@ msgid ""
 "below:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:100 IR SONY
-#: Transmit
-msgid "|7|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:156 IR SONY
-#: Transmit
-msgid "7"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:102 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:132 IR SONY
 #: Transmit
 msgid "Figure 7: Waveform of IRSendSONY “0xA90”"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:104 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:134 IR SONY
 #: Transmit
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:108 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:138 IR SONY
 #: Transmit
 msgid "[1] Seed Official website for Grove – Infrared Emitter"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:110 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:140 IR SONY
 #: Transmit
 msgid "https://wiki.seeedstudio.com/Grove-Infrared_Emitter/"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:112 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:142 IR SONY
 #: Transmit
 msgid ""
 "[2] Ken SHirriff’s blog on A Multi-Protocol Infrared Remote Library for "
 "the Arduino"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:115 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:145 IR SONY
 #: Transmit
 msgid "http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:117 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:147 IR SONY
 #: Transmit
 msgid "[3] SB-Projects: IR Remote Control Project"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:119 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:149 IR SONY
 #: Transmit
 msgid "https://www.sbprojects.net/knowledge/ir/index.php"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:121 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:151 IR SONY
 #: Transmit
 msgid "[4] SONY SIRC Protocol"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:123 IR SONY
+#: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:153 IR SONY
 #: Transmit
 msgid "https://www.sbprojects.net/knowledge/ir/sirc.php"
 msgstr ""
@@ -313,5 +248,47 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Figure 6 shows the pin configuration of IR Emitter with BW16."
+#~ msgstr ""
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
+#~ msgstr ""
+
+#~ msgid "|6|"
+#~ msgstr ""
+
+#~ msgid "6"
+#~ msgstr ""
+
+#~ msgid "|7|"
+#~ msgstr ""
+
+#~ msgid "7"
 #~ msgstr ""
 

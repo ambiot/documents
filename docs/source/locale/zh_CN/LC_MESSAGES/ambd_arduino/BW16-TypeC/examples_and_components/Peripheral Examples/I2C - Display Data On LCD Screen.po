@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,22 +47,12 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:20
+#: Screen.rst:19
 msgid "Normally there are many pins on an LCD display, as shown in below figure."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:21
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:81
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:24
+#: Screen.rst:29
 msgid ""
 "An LCD display can be equipped with an additional processing chip to "
 "process the data. The processing chip can connect to a microcontroller "
@@ -70,122 +60,67 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:26
+#: Screen.rst:33
 msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:28
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:85 Screen.rst:90 Screen.rst:95
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:30
+#: Screen.rst:41
 msgid "**AMB23** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:32
-msgid "|2-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:34
+#: Screen.rst:49
 msgid "**BW16** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:36
-msgid "|2-3|"
+#: Screen.rst:56
+msgid "**BW16-TypeC** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:38
+#: Screen.rst:63
 msgid ""
-"Open the example in ``“File” -> “Examples” -> “AmebaWire” -> "
-"“LCD_HelloWorld”``."
+"Open the example in ``“File” → “Examples” → “AmebaWire” → "
+"“LCD_HelloWorld”``. Compile and upload to Ameba, then press the reset "
+"button. Then you can see “Hello World” in the first line, and “Ameba” in "
+"the second line displayed on the LCD screen."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:39
-msgid "Compile and upload to Ameba, then press the reset button."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:41
-msgid ""
-"Then you can see “Hello World” in the first line, and “Ameba” in the "
-"second line displayed on the LCD screen."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:43
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:100
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:45
+#: Screen.rst:74
 msgid ""
 "After 8 seconds, you can input to the Serial Monitor the string you would"
 " like to display on the LCD."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:48
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:105
-msgid "4"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:50
+#: Screen.rst:83
 msgid "For example, we enter “123456789” and press “Send”:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:52
-msgid "|5|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:110
-msgid "5"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:54
+#: Screen.rst:91
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:58
+#: Screen.rst:95
 msgid ""
 "The required settings of each model of LCD might be different, the "
 "constructor we use in this example is:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:67
+#: Screen.rst:104
 msgid "And the setting parameters are as follows:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:73
+#: Screen.rst:110
 msgid ""
 "The first parameter 0x27 is the address of I2C. Each of the following 8 "
 "parameters represents the meaning of each bit in a byte, i.e., En is bit "
@@ -193,19 +128,74 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:77
-msgid "Call ``backlight()`` to light the screen,"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:78
-msgid "Call ``setCursor(0, 0)`` to set the position of the cursor."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:79
+#: Screen.rst:114
 msgid ""
-"LCD inherits the Print class, so we can use ``lcd.print()`` to output "
-"string on the screen."
+"Call ``backlight()`` to light the screen, Call ``setCursor(0, 0)`` to set"
+" the position of the cursor. LCD inherits the Print class, so we can use "
+"``lcd.print()`` to output string on the screen."
 msgstr ""
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|2-1|"
+#~ msgstr ""
+
+#~ msgid "|2-3|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the example in ``“File” -> "
+#~ "“Examples” -> “AmebaWire” -> "
+#~ "“LCD_HelloWorld”``."
+#~ msgstr ""
+
+#~ msgid "Compile and upload to Ameba, then press the reset button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Then you can see “Hello World” in"
+#~ " the first line, and “Ameba” in "
+#~ "the second line displayed on the "
+#~ "LCD screen."
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
+#~ msgstr ""
+
+#~ msgid "Call ``backlight()`` to light the screen,"
+#~ msgstr ""
+
+#~ msgid "Call ``setCursor(0, 0)`` to set the position of the cursor."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "LCD inherits the Print class, so "
+#~ "we can use ``lcd.print()`` to output "
+#~ "string on the screen."
+#~ msgstr ""
 

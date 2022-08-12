@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:3
 #: File From HTML Open Read SD
@@ -75,7 +75,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:24
 #: File From HTML Open Read SD
 msgid ""
-"Open the example, ``“Files” -> “Examples” -> “AmebaFatfsSDIO” -> "
+"Open the example, ``“Files” → “Examples” → “AmebaFatfsSDIO” → "
 "“read_html_from_SD_card”``"
 msgstr ""
 
@@ -124,5 +124,11 @@ msgid ""
 msgstr ""
 
 #~ msgid "AmebaD [RTL8722DM MINI] x 1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``“Files” -> "
+#~ "“Examples” -> “AmebaFatfsSDIO” -> "
+#~ "“read_html_from_SD_card”``"
 #~ msgstr ""
 

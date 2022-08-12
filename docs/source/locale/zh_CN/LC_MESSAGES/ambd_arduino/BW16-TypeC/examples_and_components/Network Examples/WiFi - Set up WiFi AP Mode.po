@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,9 +50,7 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:24 Set WiFi up
-msgid ""
-"Open the WiFi AP example, ``“File” -> “Examples” -> “WiFi” -> "
-"“WiFiAPMode”``"
+msgid "Open the WiFi AP example, ``“File” → “Examples” → “WiFi” → “WiFiAPMode”``"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:26 Set WiFi up
@@ -118,4 +116,10 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:68 Set WiFi up
 msgid "4"
 msgstr ""
+
+#~ msgid ""
+#~ "Open the WiFi AP example, ``“File” "
+#~ "-> “Examples” -> “WiFi” -> "
+#~ "“WiFiAPMode”``"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,12 +52,12 @@ msgstr ""
 #: Information.rst:21 Retrieve Search Set to up
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
-"“Tools” -> “Board”"
+"“Tools” → “Board”"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:23 Retrieve Search Set to up
-msgid "Then open ``“File” -> “Examples” -> “WiFi” -> “WiFiWebClient”``"
+msgid "Then open ``“File” → “Examples” → “WiFi” → “WiFiWebClient”``"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
@@ -217,4 +217,13 @@ msgstr ""
 #: Information.rst:66 Retrieve Search Set to up
 msgid "https://www.arduino.cc/en/Reference/WiFIClientStop"
 msgstr ""
+
+#~ msgid ""
+#~ "First, make sure the correct Ameba "
+#~ "development board is selected in “Tools”"
+#~ " -> “Board”"
+#~ msgstr ""
+
+#~ msgid "Then open ``“File” -> “Examples” -> “WiFi” -> “WiFiWebClient”``"
+#~ msgstr ""
 

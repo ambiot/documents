@@ -23,20 +23,39 @@ release the button again, and the LED lights.Note that in the Arduino
 example “Button and LED”, LED only lights when the button is pressed and
 hold, when we release the button, the LED dims.
 
-Open the example, ``“Files” -> “Examples” -> “AmebaGPIO” ->
+Open the example, ``“Files” → “Examples” → “AmebaGPIO” →
 “LED_InterruptCtrl”``
 
 **AMB21 / AMB22** Wiring Diagram: 
-  
-  |1|
+
+.. image:: /media/ambd_arduino/GPIO_Use_GPIO_Interrupt_To_Control_LED/image1.png
+   :align: center
+   :width: 1335
+   :height: 934
+   :scale: 74 %
 
 **AMB23** Wiring Diagram:
   
-  |2|
+.. image:: /media/ambd_arduino/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2.png
+   :align: center
+   :width: 831
+   :height: 797
+   :scale: 87 %
 
 **BW16** Wiring Diagram:
   
-  |2-2|
+.. image:: /media/ambd_arduino/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2-2.png
+   :align: center
+   :width: 763
+   :height: 777
+   :scale: 90 %
+
+**BW16-TypeC** Wiring Diagram:
+
+.. image:: /media/ambd_arduino/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2-3.png
+   :align: center
+   :width: 668
+   :height: 665
 
 | Compile and upload the program, press reset.
 | The LED lights at first. Press and release the button, then the LED
@@ -91,15 +110,3 @@ The second parameter is a function pointer, with prototype:
 In this handler, every time we press and release the button, we trigger
 an interrupt, and change the status of the LED.
 
-.. |1| image:: /media/ambd_arduino/GPIO_Use_GPIO_Interrupt_To_Control_LED/image1.png
-   :width: 1335
-   :height: 934
-   :scale: 40 %
-.. |2| image:: /media/ambd_arduino/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2.png
-   :width: 831
-   :height: 797
-   :scale: 60 %
-.. |2-2| image:: /media/ambd_arduino/GPIO_Use_GPIO_Interrupt_To_Control_LED/image2-2.png
-   :width: 763
-   :height: 777
-   :scale: 70 %

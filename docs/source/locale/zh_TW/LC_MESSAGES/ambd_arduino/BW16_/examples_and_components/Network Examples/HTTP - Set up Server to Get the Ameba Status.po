@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgstr "這個範例裡，我們使用Ameba連上WiFi，作為服務器端，將
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
 #: Status.rst:20 the to up
 #, fuzzy
-msgid "First, open ``“File” -> “Examples” -> “WiFi” -> “WiFiWebServer”``"
+msgid "First, open ``“File” → “Examples” → “WiFi” → “WiFiWebServer”``"
 msgstr ""
 "首先打開 WiFi Web Server的範例 “File” -> “Examples” -> “AmebaWiFi” -> "
 "“WiFiWebServer”"

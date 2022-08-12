@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 09:55+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:3 UART
 msgid "BLE – BLE UART Service"
@@ -45,17 +45,17 @@ msgstr ""
 msgid "**Introduction**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:27 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:21 UART
 msgid ""
 "With BLE, application data is sent and received using the GATT system. "
 "GATT uses services, characteristics, and attributes to organise data and "
 "control how the data can be read from and written to. The Bluetooth SIG "
 "specification for BLE includes several predefined services for common "
 "applications, but users are free to implement custom services and "
-"characteristics to best fit their data structure and application needs"
+"characteristics to best fit their data structure and application needs."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:31 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:29 UART
 msgid ""
 "In this example, the BLEService and BLECharacteristic classes are used to"
 " implement a custom service for transmitting ASCII characters similar to "
@@ -63,7 +63,7 @@ msgid ""
 "supported in several smartphone apps."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:33 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:34 UART
 msgid "**Procedure**"
 msgstr ""
 
@@ -73,136 +73,205 @@ msgid ""
 " is available at:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:37 UART
-msgid "– Google Play Store:"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:38 UART
-msgid "https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect"
-msgstr ""
-
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:39 UART
-msgid "https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:41 UART
-msgid "– Apple App Store:"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:42 UART
-msgid "https://apps.apple.com/us/app/bluefruit-connect/id830125974"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:44 UART
 msgid ""
-"Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
+"– Google Play Store: "
+"https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect"
+" "
+"https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:43 UART
+msgid ""
+"– Apple App Store: https://apps.apple.com/us/app/bluefruit-"
+"connect/id830125974"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:46 UART
+msgid ""
+"Open the example, ``“Files” → “Examples” → “AmebaBLE” → "
 "“BLEUartService”``."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:47 UART
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:90 UART
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:50 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:55 UART
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
-"finished."
+"finished. Open the app on your smartphone, scan and connect to the Ameba "
+"board shown as “AMEBA_BLE_DEV” and choose the UART function in the app. "
+"Note that the BLE UART service on the Ameba board will only work with the"
+" UART and Plotter functions in the Bluefruit Connect app, other functions"
+" (Pin I/O, Image Transfer) require other BLE services that are not "
+"included in this example."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:56 UART
-msgid ""
-"Open the app on your smartphone, scan and connect to the Ameba board "
-"shown as “AMEBA_BLE_DEV” and choose the UART function in the app. Note "
-"that the BLE UART service on the Ameba board will only work with the UART"
-" and Plotter functions in the Bluefruit Connect app, other functions (Pin"
-" I/O, Image Transfer) require other BLE services that are not included in"
-" this example."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:58 UART
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:95 UART
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:60 UART
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:100 UART
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:63 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:76 UART
 msgid ""
 "In the UART terminal section of the app, enter a message and click send. "
-"You should see the message appear in the Arduino serial monitor."
+"You should see the message appear in the Arduino serial monitor. In the "
+"Arduino serial monitor, enter a message and click send. The message will "
+"appear in the smartphone app."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:65 UART
-msgid ""
-"In the Arduino serial monitor, enter a message and click send. The "
-"message will appear in the smartphone app."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:67 UART
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:105 UART
-msgid "4"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:69 UART
-msgid "|5|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:110 UART
-msgid "5"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:71 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:92 UART
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:77 UART
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:96 UART
 msgid ""
 "The BLECharacteristic class is used to create two characteristics, one "
 "for receive (Rx) and one for transmit (Tx), and added to a service "
-"created with the BLEService class."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:82 UART
-msgid ""
-"The required read/write/notify properties are set for each characteristic"
-" using the ``set__Property()`` methods, and callback functions are "
-"registered using the ``set__Callback()`` methods. The required buffer "
-"size is also set for each characteristic so that it has enough memory to "
-"store a complete string."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:85 UART
-msgid ""
-"When data is written to the receive characteristic, the registered "
-"callback function is called, which prints out the received data as a "
-"string to the serial monitor."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Service.rst:88 UART
-msgid ""
-"When data is received on the serial port, it is copied into the transmit "
-"characteristic buffer, and the ``notify()`` method is used to inform the "
-"connected device of the new data."
+"created with the BLEService class. The required read/write/notify "
+"properties are set for each characteristic using the ``set__Property()`` "
+"methods, and callback functions are registered using the "
+"``set__Callback()`` methods. The required buffer size is also set for "
+"each characteristic so that it has enough memory to store a complete "
+"string. When data is written to the receive characteristic, the "
+"registered callback function is called, which prints out the received "
+"data as a string to the serial monitor. When data is received on the "
+"serial port, it is copied into the transmit characteristic buffer, and "
+"the ``notify()`` method is used to inform the connected device of the new"
+" data."
 msgstr ""
 
 #~ msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "With BLE, application data is sent "
+#~ "and received using the GATT system. "
+#~ "GATT uses services, characteristics, and "
+#~ "attributes to organise data and control"
+#~ " how the data can be read from"
+#~ " and written to. The Bluetooth SIG"
+#~ " specification for BLE includes several "
+#~ "predefined services for common applications,"
+#~ " but users are free to implement "
+#~ "custom services and characteristics to "
+#~ "best fit their data structure and "
+#~ "application needs"
+#~ msgstr ""
+
+#~ msgid "– Google Play Store:"
+#~ msgstr ""
+
+#~ msgid "https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect"
+#~ msgstr ""
+
+#~ msgid "https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal"
+#~ msgstr ""
+
+#~ msgid "– Apple App Store:"
+#~ msgstr ""
+
+#~ msgid "https://apps.apple.com/us/app/bluefruit-connect/id830125974"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``“Files” -> "
+#~ "“Examples” -> “AmebaBLE” -> "
+#~ "“BLEUartService”``."
+#~ msgstr ""
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Upload the code and press the "
+#~ "reset button on Ameba once the "
+#~ "upload is finished."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the app on your smartphone, "
+#~ "scan and connect to the Ameba "
+#~ "board shown as “AMEBA_BLE_DEV” and "
+#~ "choose the UART function in the "
+#~ "app. Note that the BLE UART "
+#~ "service on the Ameba board will "
+#~ "only work with the UART and "
+#~ "Plotter functions in the Bluefruit "
+#~ "Connect app, other functions (Pin I/O,"
+#~ " Image Transfer) require other BLE "
+#~ "services that are not included in "
+#~ "this example."
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the UART terminal section of "
+#~ "the app, enter a message and click"
+#~ " send. You should see the message "
+#~ "appear in the Arduino serial monitor."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Arduino serial monitor, enter "
+#~ "a message and click send. The "
+#~ "message will appear in the smartphone"
+#~ " app."
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The BLECharacteristic class is used to"
+#~ " create two characteristics, one for "
+#~ "receive (Rx) and one for transmit "
+#~ "(Tx), and added to a service "
+#~ "created with the BLEService class."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The required read/write/notify properties are"
+#~ " set for each characteristic using "
+#~ "the ``set__Property()`` methods, and callback"
+#~ " functions are registered using the "
+#~ "``set__Callback()`` methods. The required "
+#~ "buffer size is also set for each"
+#~ " characteristic so that it has enough"
+#~ " memory to store a complete string."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When data is written to the "
+#~ "receive characteristic, the registered "
+#~ "callback function is called, which "
+#~ "prints out the received data as a"
+#~ " string to the serial monitor."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When data is received on the "
+#~ "serial port, it is copied into the"
+#~ " transmit characteristic buffer, and the"
+#~ " ``notify()`` method is used to "
+#~ "inform the connected device of the "
+#~ "new data."
 #~ msgstr ""
 

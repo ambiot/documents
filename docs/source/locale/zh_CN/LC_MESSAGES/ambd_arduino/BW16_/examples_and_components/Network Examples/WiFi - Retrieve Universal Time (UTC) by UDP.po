@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgstr ""
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:23 Universal by
 #, fuzzy
-msgid "Open the example: ``“File” -> “Examples” -> “WiFi” -> “WiFiUdpNtpClient”``"
+msgid "Open the example: ``“File” → “Examples” → “WiFi” → “WiFiUdpNtpClient”``"
 msgstr ""
 "首先打开 WiFi Web Server的范例, “File” -> “Examples” -> “AmebaWiFi” -> "
 "“WiFiUdpNtpClient”"

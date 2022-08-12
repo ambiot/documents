@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,8 +77,8 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
 #: World.rst:32
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
-"-> “hello_world”``."
+"Open the example, ``\"Files\" → \"Examples\" → “TensorFlowLite_Ameba” → "
+"“hello_world”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
@@ -135,4 +135,10 @@ msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
 " https://www.tensorflow.org/lite/microcontrollers"
 msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``\"Files\" -> "
+#~ "\"Examples\" -> “TensorFlowLite_Ameba” -> "
+#~ "“hello_world”``."
+#~ msgstr ""
 

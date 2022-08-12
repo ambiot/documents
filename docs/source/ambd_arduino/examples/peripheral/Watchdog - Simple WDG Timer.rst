@@ -56,8 +56,8 @@ with this situation.
   you will only need the RTL8722CSM/RTL8722DM/RTL8722DM MINI Board itself.
 
 | Firstly, make sure the correct Ameba development board is selected in
-  Arduino IDE: ``“Tools” -> “Board” -> “RTL8722CSM/RTL8722DM” (or “RTL8722DM MINI”)``. 
-  Then open the “Watchdog Timer” example in ``“File” -> “Examples” -> “AmebaWatchdog” ->
+  Arduino IDE: ``“Tools” → “Board” → “RTL8722CSM/RTL8722DM” (or “RTL8722DM MINI”)``. 
+  Then open the “Watchdog Timer” example in ``“File” → “Examples” → “AmebaWatchdog” →
   “Watchdog Timer”``:
 
   |2|

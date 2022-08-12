@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,7 +88,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:37
 #: Set mDNS on up
 msgid ""
-"Open the example, ``“File” -> “Examples” -> “AmebaMDNS” -> "
+"Open the example, ``“File” → “Examples” → “AmebaMDNS” → "
 "“mdns_on_arduino_ide”``"
 msgstr ""
 
@@ -120,9 +120,9 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:45
 #: Set mDNS on up
 msgid ""
-"Next, go to (“Tools” -> “Port”), and you can find out at least one Serial"
-" Port. This port is simulated by Ameba board via USB. Choose this port "
-"and upload the compiled code to Ameba."
+"Next, go to (“Tools” → “Port”), and you can find out at least one Serial "
+"Port. This port is simulated by Ameba board via USB. Choose this port and"
+" upload the compiled code to Ameba."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:50
@@ -239,4 +239,18 @@ msgstr ""
 #: Set mDNS on up
 msgid "and register to the mDNS service."
 msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``“File” -> “Examples”"
+#~ " -> “AmebaMDNS” -> “mdns_on_arduino_ide”``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next, go to (“Tools” -> “Port”), "
+#~ "and you can find out at least "
+#~ "one Serial Port. This port is "
+#~ "simulated by Ameba board via USB. "
+#~ "Choose this port and upload the "
+#~ "compiled code to Ameba."
+#~ msgstr ""
 

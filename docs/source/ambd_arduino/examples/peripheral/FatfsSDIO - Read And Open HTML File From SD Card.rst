@@ -21,7 +21,7 @@ Insert the MicroSD card into your computer and copy the HTML file to your SD car
 |image1|
 
 | Then insert the MicroSD card into the onboard SD card reader of RTL8722DM MINI board.
-| Open the example, ``“Files” -> “Examples” -> “AmebaFatfsSDIO” -> “read_html_from_SD_card”``
+| Open the example, ``“Files” → “Examples” → “AmebaFatfsSDIO” → “read_html_from_SD_card”``
 | Upload the code and press the reset button on Ameba once the upload is finished. When the connection is established, you should be able to see the message “To see this page in action, open a browser to http://xxx.xxx.xxx.xxx” in the serial monitor as shown in the figure:
 
 |image2|

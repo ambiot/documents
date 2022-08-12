@@ -30,20 +30,38 @@ difference of the length of two consecutive pulse for the servo to work.
 
 **AMB21 / AMB22** Wiring Diagram:
 
-  |1|
+.. image:: /media/ambd_arduino/PWM_Servo_Control/image1.png
+   :align: center
+   :width: 1249
+   :height: 974
+   :scale: 61 %
 
 **AMB23** Wiring Diagram:
 
-  |2|
+.. image:: /media/ambd_arduino/PWM_Servo_Control/image2.png
+   :align: center
+   :width: 800
+   :height: 633
 
 **BW16** Wiring Diagram:
 
-  |2-1|
+.. image:: /media/ambd_arduino/PWM_Servo_Control/image2-1.png
+   :align: center
+   :width: 809
+   :height: 598
 
-| Open the example, ``“File” -> “Examples” -> “AmebaAnalog” ->
-  “ServoSweep”``
-| This example makes the servo to rotate from degree 0 to 180, and then
-  rotate back to degree 0.
+**BW16-TypeC** Wiring Diagram:
+
+.. image:: /media/ambd_arduino/PWM_Servo_Control/image2-2.png
+   :align: center
+   :width: 837
+   :height: 620
+
+Open the example, ``“File” → “Examples” → “AmebaAnalog” →
+“ServoSweep”``
+
+This example makes the servo to rotate from degree 0 to 180, and then
+rotate back to degree 0.
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Code Reference**
@@ -66,18 +84,3 @@ Next, rotate the axis to desired position:
 
   myservo.write(pos);
 
-.. |1| image:: /media/ambd_arduino/PWM_Servo_Control/image1.png
-   :alt: 1
-   :width: 1249
-   :height: 974
-   :scale: 40 %
-.. |2| image:: /media/ambd_arduino/PWM_Servo_Control/image2.png
-   :alt: 1
-   :width: 800
-   :height: 633
-   :scale: 50 %
-.. |2-1| image:: /media/ambd_arduino/PWM_Servo_Control/image2-1.png
-   :alt: 1
-   :width: 809
-   :height: 598
-   :scale: 60 %

@@ -24,7 +24,7 @@ Flash Memory - Store data in FlashEEProm
   Every time Ameba reboots, it reads the boot times from flash,
   increases the value by 1, and writes it back to flash memory.
 
-| First open the example, ``“File” -> “Example” -> “AmebaFlashMemory” ->
+| First open the example, ``“File” → “Example” → “AmebaFlashMemory” →
   “FlashMemoryBasic”``
 | |1|
 

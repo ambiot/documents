@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,7 +62,7 @@ msgstr ""
 #: networks.rst:27 to
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
-"“Tools” -> “Board”."
+"“Tools” → “Board”."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
@@ -73,8 +73,8 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:32 to
 msgid ""
-"Open the “ConnectNoEncryption” example in ``“File” -> “Examples” -> "
-"“WiFi” -> “ConnectWithWiFi” -> “ConnectNoEncryption”`` |1| \\"
+"Open the “ConnectNoEncryption” example in ``“File” → “Examples” → “WiFi” "
+"→ “ConnectWithWiFi” → “ConnectNoEncryption”`` |1| \\"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
@@ -116,8 +116,8 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:47 to
 msgid ""
-"Open the “ConnectWithWPA” example in ``“File” -> “Examples” -> “WiFi” -> "
-"“ConnectWithWiFi” -> “ConnectWithWPA”`` |3|\\"
+"Open the “ConnectWithWPA” example in ``“File” → “Examples” → “WiFi” → "
+"“ConnectWithWiFi” → “ConnectWithWPA”`` |3|\\"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
@@ -140,8 +140,8 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:60 to
 msgid ""
-"Open the “ConnectWithWEP” example in ``“File” -> “Examples” -> “WiFi” -> "
-"“ConnectWithWiFi” -> “ConnectWithWEP”`` |4|\\"
+"Open the “ConnectWithWEP” example in ``“File” → “Examples” → “WiFi” → "
+"“ConnectWithWiFi” → “ConnectWithWEP”`` |4|\\"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
@@ -292,4 +292,29 @@ msgid ""
 "However, Ameba is already equipped with WiFi module. Therefore, "
 "``#include`` is not needed."
 msgstr ""
+
+#~ msgid ""
+#~ "First, make sure the correct Ameba "
+#~ "development board is selected in “Tools”"
+#~ " -> “Board”."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the “ConnectNoEncryption” example in "
+#~ "``“File” -> “Examples” -> “WiFi” -> "
+#~ "“ConnectWithWiFi” -> “ConnectNoEncryption”`` |1| "
+#~ "\\"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the “ConnectWithWPA” example in "
+#~ "``“File” -> “Examples” -> “WiFi” -> "
+#~ "“ConnectWithWiFi” -> “ConnectWithWPA”`` |3|\\"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the “ConnectWithWEP” example in "
+#~ "``“File” -> “Examples” -> “WiFi” -> "
+#~ "“ConnectWithWiFi” -> “ConnectWithWEP”`` |4|\\"
+#~ msgstr ""
 

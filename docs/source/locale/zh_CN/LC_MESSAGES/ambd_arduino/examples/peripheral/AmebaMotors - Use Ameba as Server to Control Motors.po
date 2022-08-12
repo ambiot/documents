@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:36 Server Use as to
-msgid "Open the example, ``“Files” -> “Examples” -> “WiFi” -> “WiFiControlCar”``."
+msgid "Open the example, ``“Files” → “Examples” → “WiFi” → “WiFiControlCar”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
@@ -426,5 +426,10 @@ msgstr ""
 #~ "Open the example, ``“Files” -> "
 #~ "“Examples” -> “AmebaWiFi” -> "
 #~ "“WiFiControlCar”``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``“Files” -> "
+#~ "“Examples” -> “WiFi” -> “WiFiControlCar”``."
 #~ msgstr ""
 

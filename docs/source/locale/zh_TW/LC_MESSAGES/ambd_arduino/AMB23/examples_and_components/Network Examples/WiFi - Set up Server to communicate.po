@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,17 +61,18 @@ msgstr "這個範例裡，我們使用 Ameba 連上WiFi，作為服務器，與�
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:23 to up
+#, fuzzy
 msgid ""
 "First, we make sure the correct Ameba development board is set in “Tools”"
-" -> “Board”"
+" → “Board”"
 msgstr "確保在 “Tools” -> “Board” 中選擇了正確的Ameba開發板。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:26 to up
 #, fuzzy
 msgid ""
-"Then, open the Simple WiFi Server example in ``“File” -> “Examples” -> "
-"“WiFi” -> “SimpleServerWiFi”``"
+"Then, open the Simple WiFi Server example in ``“File” → “Examples” → "
+"“WiFi” → “SimpleServerWiFi”``"
 msgstr ""
 "然後打開 Simple Web Server的範例, “File” -> “Examples” -> “AmebaWiFi” -> "
 "“SimpleServerWiFi”"

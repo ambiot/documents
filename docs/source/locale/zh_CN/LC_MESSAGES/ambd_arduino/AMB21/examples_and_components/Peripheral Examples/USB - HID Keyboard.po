@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-17 08:18+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,8 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:12
 msgid "Ameba D [ AMB21 / AMB22 / AMB23 ] x 1"
@@ -60,8 +60,9 @@ msgid "Procedure"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/USB HID Keyboard.rst:30
+#, fuzzy
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaUSB” -> "
+"Open the example, ``\"Files\" → \"Examples\" → “AmebaUSB” → "
 "“USBHIDKeyboard”``."
 msgstr "打开范例， “Files” -> “Examples” -> “AmebaUSB” -> “USBHIDKeyboard”。"
 

@@ -17,58 +17,105 @@ GPIO - Measure Distance By Ultrasound Module
 **Example**
 :raw-html:`</p>`
 
-| HC-SR04 is a module that uses ultrasound to measure the distance. It
-  looks like a pair of eyes in its appearance, therefore it’s often
-  installed onto robot-vehicle or mechanical bugs to be their eyes. 
-| The way it works is that first we “toggle high” the TRIG pin (that is to
-  pull high then pull low). The HC-SR04 would send eight 40kHz sound wave
-  signal and pull high the ECHO pin. When the sound wave returns back, it
-  pull low the ECHO pin. 
+HC-SR04 is a module that uses ultrasound to measure the distance. It
+looks like a pair of eyes in its appearance, therefore it’s often
+installed onto robot-vehicle or mechanical bugs to be their eyes. 
+The way it works is that first we “toggle high” the TRIG pin (that is to
+pull high then pull low). The HC-SR04 would send eight 40kHz sound wave
+signal and pull high the ECHO pin. When the sound wave returns back, it
+pull low the ECHO pin. 
  
-|1|  
-
-| Assume the velocity of sound is 340 m/s, the time it takes for the sound to advance 1 cm in the air is 340*100*10^-6 = 29 us.
-| The sound wave actually travels twice the distance between HC-SR04 and the object, therefore the distance can be calculated by (time/29) / 2 = time / 58.
-| The working voltage of HC-SR04 is 5V. When we pull high the ECHO pin to 5V, the voltage might cause
-  damage to the GPIO pin of Ameba. To avoid this situation, we need to
-  drop the voltage as follows:
-
-**AMB21 / AMB22** Wiring Diagram:
-  
-  |2|
-
-**AMB23** Wiring Diagram:
-
-  |2-1|
-
-**BW16** Wiring Diagram:
-
-  |2-3|
-
-| We pick the resistors with resistance 1:2, in the example we use 10kΩ and 20kΩ. 
-| If you do not have resistors in hand, you can use level converter instead.The TXB0108 8 channel level 
-  converter is a suitable example:
+.. image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image1.png
+   :align: center
+   :width: 1103
+   :height: 679
+ 
+Assume the velocity of sound is 340 m/s, the time it takes for the sound to advance 1 cm in the air is 340*100*10^-6 = 29 us.
+The sound wave actually travels twice the distance between HC-SR04 and the object, therefore the distance can be calculated by (time/29) / 2 = time / 58.
+The working voltage of HC-SR04 is 5V. When we pull high the ECHO pin to 5V, the voltage might cause
+damage to the GPIO pin of Ameba. To avoid this situation, we need to
+drop the voltage as follows:
 
 **AMB21 / AMB22** Wiring Diagram:
   
-  |3|
+.. image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image2.png
+   :align: center
+   :width: 1103
+   :height: 679
 
 **AMB23** Wiring Diagram:
 
-  |3-1|
+.. image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image2-1.png
+   :align: center
+   :width: 1019
+   :height: 768
+   :scale: 91 %
 
 **BW16** Wiring Diagram:
 
-  |3-3|
+.. image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image2-3.png
+   :align: center
+   :width: 939
+   :height: 747
+   :scale: 93 %
 
-Next, open the sample code in ``“File” -> “Examples” -> “AmebaGPIO” -> “HCSR04_Ultrasonic”``
+**BW16-TypeC** Wiring Diagram:
 
-  |4|
+.. image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image2-4.png
+   :align: center
+   :width: 995
+   :height: 762
+   :scale: 91 %
+
+We pick the resistors with resistance 1:2, in the example we use 10kΩ and 20kΩ. 
+If you do not have resistors in hand, you can use level converter instead.The TXB0108 8 channel level 
+converter is a suitable example:
+
+**AMB21 / AMB22** Wiring Diagram:
+  
+.. image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image3.png
+   :align: center
+   :width: 1501
+   :height: 1083
+   :scale: 64 %
+
+**AMB23** Wiring Diagram:
+
+.. image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image3-1.png
+   :align: center
+   :width: 989
+   :height: 700
+
+**BW16** Wiring Diagram:
+
+.. image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image3-3.png
+   :align: center
+   :width: 1140
+   :height: 757
+   :scale: 92 %
+
+**BW16-TypeC** Wiring Diagram:
+
+.. image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image3-4.png
+   :align: center
+   :width: 1137
+   :height: 696
+
+Next, open the sample code in ``“File” → “Examples” → “AmebaGPIO” → “HCSR04_Ultrasonic”``
+
+.. image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image4.png
+   :align: center
+   :width: 599
+   :height: 1006
   
 Compile and upload to Ameba, then press the reset button. Open the Serial Monitor, the calculated result is
 output to serial monitor every 2 seconds.
   
-  |5|
+.. image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image5.png
+   :align: center
+   :width: 649
+   :height: 372
+
 
 Note that the HCSR04 module uses the reflection of sound wave to calculate the distance, thus
 the result can be affected by the surface material of the object (e.g.,
@@ -101,39 +148,3 @@ Finally, use the formula to calculate the distance.
 
    distance = duration / 58;
 
-.. |1| image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image1.png
-   :width: 1103
-   :height: 679
-   :scale: 50 %
-.. |2| image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image2.png
-   :width: 1740
-   :height: 1008
-   :scale: 35 %
-.. |2-1| image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image2-1.png
-   :width: 1019
-   :height: 768
-   :scale: 50 %
-.. |2-3| image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image2-3.png
-   :width: 939
-   :height: 747
-   :scale: 50 %
-.. |3| image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image3.png
-   :width: 1501
-   :height: 1083
-   :scale: 35 %
-.. |3-1| image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image3-1.png
-   :width: 989
-   :height: 700
-   :scale: 45 %   
-.. |3-3| image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image3-3.png
-   :width: 1140
-   :height: 757
-   :scale: 45 %     
-.. |4| image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image4.png
-   :width: 599
-   :height: 1006
-   :scale: 55 %
-.. |5| image:: /media/ambd_arduino/GPIO_Measure_Distance_By_Ultrasound_Module/image5.png
-   :width: 649
-   :height: 372
-   :scale: 100 %

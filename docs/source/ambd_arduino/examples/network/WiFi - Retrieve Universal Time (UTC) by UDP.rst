@@ -20,7 +20,7 @@ WiFi - Retrieve Universal Time (UTC) by UDP
   NTP request, the NTP server replies current UTC (Coordinated Universal
   Time) packet. We will parse the UTC packet to show current UTC time in
   the serial monitor.
-| Open the example: ``“File” -> “Examples” -> “WiFi” -> “WiFiUdpNtpClient”``
+| Open the example: ``“File” → “Examples” → “WiFi” → “WiFiUdpNtpClient”``
 | |1|
 | Modify the highlighted code section (ssid, password, keyindex) to connect 
   to your WiFi network.

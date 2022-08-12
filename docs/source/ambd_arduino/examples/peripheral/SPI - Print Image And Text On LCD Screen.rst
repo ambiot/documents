@@ -46,46 +46,86 @@ Common pins in ILI9341 TFT LCD with SPI interface:
 
 **AMB21/ AMB22 and QVGA TFT LCD** Wiring Diagram:
  
-  |1|
+.. image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image1.png
+   :align: center
+   :width: 1640
+   :height: 1018
+   :scale: 68 %
 
 **AMB23 and QVGA TFT LCD** Wiring Diagram:
 
-  |1-1|
+.. image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image1-1.png
+   :align: center
+   :width: 1043
+   :height: 695
 
 **BW16 and QVGA TFT LCD** Wiring Diagram:
 
-  |1-2|
+.. image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image1-3.png
+   :align: center
+   :width: 1093
+   :height: 699
 
-| Wiring example of Adafruit 2.8” TFT LCD touch shield:
-| Please note that this shield model enables the backlight by default
-  and pin 8 is not for backlight, and the VCC should be connected to 5V.
+**BW16-TypeC and QVGA TFT LCD** Wiring Diagram:
+
+.. image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image1-4.png
+   :align: center
+   :width: 518
+   :height: 339
+
+Wiring example of Adafruit 2.8” TFT LCD touch shield:
+
+.. note:: 
+   
+   this shield model enables the backlight by default
+   and pin 8 is not for backlight, and the VCC should be connected to 5V.
 
 **AMB21 / AMB22 and Adafruit 2.8'' TFT LCD touch shield** Wiring Diagram:
-
-| Please note that this shield model enables the backlight by default
-  and pin 8 is not for backlight, and the VCC should be connected to 5V.
   
-  |2|
+.. image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image2.png
+   :align: center
+   :width: 1426
+   :height: 1006
+   :scale: 69 %
 
 **AMB23 and Adafruit 2.8'' TFT LCD touch shield**  Wiring Diagram:
 
-  |2-1|
+.. image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image2-1.png
+   :align: center
+   :width: 1045
+   :height: 664
 
 **BW16 and Adafruit 2.8'' TFT LCD touch shield**  Wiring Diagram:
 
-  |2-3|
+.. image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image2-3.png
+   :align: center
+   :width: 971
+   :height: 638
+
+**BW16-TypeC and Adafruit 2.8'' TFT LCD touch shield**  Wiring Diagram:
+
+.. image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image2-4.png
+   :align: center
+   :width: 533
+   :height: 343
 
 
-Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI9341_TFT_LCD_basic”``
+Open the example, ``“Files” → “Examples” → “AmebaSPI” → “ILI9341_TFT_LCD_basic”``
 
-  |3|
+.. image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image3.png
+   :align: center
+   :width: 960
+   :height: 1029
 
-| Compile and upload to Ameba, then press the reset button.
-| Then you can see some display tests appear on the LCD screen, such as
-  displaying different colors, drawing vertical and horizontal lines,
-  drawing circles, etc.…
+Compile and upload to Ameba, then press the reset button.
+Then you can see some display tests appear on the LCD screen, such as
+displaying different colors, drawing vertical and horizontal lines,
+drawing circles, etc.…
 
-  |4|
+.. image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image4.png
+   :align: center
+   :width: 938
+   :height: 300
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Code Reference**
@@ -128,7 +168,10 @@ Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI934
       separate from next character. For example, the character
       “A”:
       
-      |5|
+   .. image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image5.png
+      :align: center
+      :width: 193
+      :height: 258
       
    -  The font size represents the dot size. For example, if the font
       size is 2, each dot in the character is a 2×2 rectangle
@@ -140,41 +183,3 @@ Open the example, ``“Files” -> “Examples” -> “AmebaSPI” -> “ILI934
       screen rotates 90 degrees, the width becomes 320 and the height
       becomes 240.
 
-.. |1| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image1.png
-   :width: 1640
-   :height: 1018
-   :scale: 40 %
-.. |1-1| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image1-1.png
-   :width: 1043
-   :height: 695
-   :scale: 60 %
-.. |1-2| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image1-3.png
-   :width: 1237
-   :height: 698
-   :scale: 50 %
-.. |2| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image2.png
-   :width: 1426
-   :height: 1006
-   :scale: 40 %
-.. |2-1| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image2-1.png
-   :width: 1045
-   :height: 664
-   :scale: 60 %
-.. |2-3| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image2-3.png
-   :width: 971
-   :height: 638
-   :scale: 60 %
-.. |3| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image3.png
-   :alt: 2
-   :width: 960
-   :height: 1029
-   :scale: 70 %
-.. |4| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image4.png
-   :alt: 4
-   :width: 938
-   :height: 300
-   :scale: 60 %
-.. |5| image:: /media/ambd_arduino/SPI_Print_Image_And_Text_On_LCD_Screen/image5.png
-   :width: 193
-   :height: 258
-   :scale: 100 %

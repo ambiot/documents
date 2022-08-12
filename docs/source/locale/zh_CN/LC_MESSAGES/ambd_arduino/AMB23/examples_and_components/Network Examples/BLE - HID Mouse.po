@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:3
 msgid "BLE - HID Mouse"
@@ -26,8 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:12
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -60,88 +60,102 @@ msgid "**Procedure**"
 msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:25
-msgid ""
-"Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
-"“BLEHIDMouse”``."
+#, fuzzy
+msgid "Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEHIDMouse”``."
 msgstr "打开范例，”Files” -> “Examples” -> “AmebaBLE” -> “BLEHIDMouse”。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:27
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:53
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:56
 msgid "1"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:29
-msgid "Upload the code and press the reset button once the upload is finished."
-msgstr "上传代码并在上传完成后按重置按钮。"
-
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:31
 msgid ""
+"Upload the code and press the reset button once the upload is finished. "
 "Immediately after reset, the board will begin BLE advertising as "
 "“AMEBA_BLE_HID”. On your host device, go to the Bluetooth settings menu, "
-"scan, and connect to the board."
-msgstr "重置完毕后，开发板将开始蓝牙广播“AMEBA_BLE_HID”。此时可以在有支援 BLE 的设备上，扫描并连接到开发板。"
+"scan, and connect to the board. You should ensure that the connection "
+"process is completed before proceeding. On Windows, ensure that any "
+"driver installation is finished, and the board shows up in the Bluetooth "
+"menu under the “Mouse, keyboard & pen” category."
+msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:32
-msgid ""
-"You should ensure that the connection process is completed before "
-"proceeding."
-msgstr "在继续之前，您应该确保连接过程已完成。"
-
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:34
-msgid ""
-"On Windows, ensure that any driver installation is finished, and the "
-"board shows up in the Bluetooth menu under the “Mouse, keyboard & pen” "
-"category."
-msgstr "在 Windows 上，确保任何驱动程序已完成安装，并且在蓝牙选单中的“Mouse, keyboard & pen”类别中找到已连接的开发板。"
-
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:35
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:36
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:57
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:60
 msgid "2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:37
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:38
 msgid "On Android, ensure that “Input device” is enabled for the board."
 msgstr "在 Android 上，确保为开发板启用“Input device”。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:38
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:40
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:61
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:64
 msgid "3"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:41
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:42
+#, fuzzy
 msgid ""
 "After the Bluetooth connection process is completed, the board is ready "
 "to send mouse input to the host device. Connect digital pin 8 to 3.3V to "
-"start sending input, and connect to GND to stop."
+"start sending input, and connect to GND to stop. You should see the mouse"
+" cursor move around four points in a square, performing right and left "
+"clicks, and scrolling up and down."
 msgstr "蓝牙连接过程完成后，开发板准备将滑鼠讯号发送到设备。将引脚 8 连接到 3.3V 开始发送，连接到 GND 来停止。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:43
-msgid ""
-"You should see the mouse cursor move around four points in a square, "
-"performing right and left clicks, and scrolling up and down."
-msgstr "您应该会看到鼠标在一个正方形的四个点附近移动，执行左右单击以及上下滚动。"
-
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:45
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:48
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:49
+#: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:52
 msgid ""
 "How the mouse input is interpreted is dependent on the host system. Some "
 "systems, such as mobile operating systems, may not support all mouse "
 "button input functions."
 msgstr "如何定义鼠标输入取决于主机设备。某些系统（例如Android）可能不支持所有鼠标按钮输入功能。"
+
+#~ msgid "Upload the code and press the reset button once the upload is finished."
+#~ msgstr "上传代码并在上传完成后按重置按钮。"
+
+#~ msgid ""
+#~ "Immediately after reset, the board will"
+#~ " begin BLE advertising as “AMEBA_BLE_HID”."
+#~ " On your host device, go to the"
+#~ " Bluetooth settings menu, scan, and "
+#~ "connect to the board."
+#~ msgstr "重置完毕后，开发板将开始蓝牙广播“AMEBA_BLE_HID”。此时可以在有支援 BLE 的设备上，扫描并连接到开发板。"
+
+#~ msgid ""
+#~ "You should ensure that the connection"
+#~ " process is completed before proceeding."
+#~ msgstr "在继续之前，您应该确保连接过程已完成。"
+
+#~ msgid ""
+#~ "On Windows, ensure that any driver "
+#~ "installation is finished, and the board"
+#~ " shows up in the Bluetooth menu "
+#~ "under the “Mouse, keyboard & pen” "
+#~ "category."
+#~ msgstr "在 Windows 上，确保任何驱动程序已完成安装，并且在蓝牙选单中的“Mouse, keyboard & pen”类别中找到已连接的开发板。"
+
+#~ msgid ""
+#~ "You should see the mouse cursor "
+#~ "move around four points in a "
+#~ "square, performing right and left "
+#~ "clicks, and scrolling up and down."
+#~ msgstr "您应该会看到鼠标在一个正方形的四个点附近移动，执行左右单击以及上下滚动。"
 

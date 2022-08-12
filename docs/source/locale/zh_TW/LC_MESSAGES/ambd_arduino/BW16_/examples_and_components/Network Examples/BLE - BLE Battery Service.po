@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:3
 msgid "BLE - BLE Battery Service"
@@ -26,8 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:12
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -58,9 +58,7 @@ msgid ""
 "services, with each service containing a some set of data. Clients can "
 "send requests to read or write some data and can also subscribe to "
 "notifications so that the server can send data updates to a client."
-msgstr "BLE使用的是服務器–客戶端模型。服務器我們感興趣的數據，而客戶端連接到服務器來讀取數據。"
-"通常，藍牙外圍設備充當服務器，而藍牙中心設備充當客戶端。服務器可以包含許多服務，"
-"每個服務包含一組數據。客戶端可以發送讀取或寫入數據的請求，還可以訂閱通知，以便服務器可以向客戶端發送數據更新。"
+msgstr "BLE使用的是服務器–客戶端模型。服務器我們感興趣的數據，而客戶端連接到服務器來讀取數據。通常，藍牙外圍設備充當服務器，而藍牙中心設備充當客戶端。服務器可以包含許多服務，每個服務包含一組數據。客戶端可以發送讀取或寫入數據的請求，還可以訂閱通知，以便服務器可以向客戶端發送數據更新。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:29
 msgid ""
@@ -78,9 +76,7 @@ msgid ""
 "Ensure that the following Bluetooth apps are installed on your mobile "
 "phone. These apps will show you the raw data sent by Ameba and allow you "
 "to interact with the data."
-msgstr ""
-"請確保在您的手機上安裝了以下藍牙應用程序。這些應用程序將向您顯示由Ameba發送的原始數據，並允許您與數據進行交互。"
-
+msgstr "請確保在您的手機上安裝了以下藍牙應用程序。這些應用程序將向您顯示由Ameba發送的原始數據，並允許您與數據進行交互。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:39
 msgid ""
@@ -115,41 +111,22 @@ msgid "iOS : https://apps.apple.com/us/app/lightblue/id557428110"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:51
+#, fuzzy
 msgid ""
-"Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
+"Open the example, ``“Files” → “Examples” → “AmebaBLE” → "
 "“BLEBatteryService”``"
 msgstr "打開Arduino的範例，”Files” -> “Examples” -> “AmebaBLE” -> “BLEBatteryService”"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:54
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:104
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:57
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:60
+#, fuzzy
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
-"finished."
-msgstr "上傳代碼並在上傳完成後按下Ameba上的reset按鈕。"
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:60
-msgid ""
-"On your mobile phone, open the Bluetooth app and scan for the Bluetooth "
-"signal broadcast by Ameba, it should appear as a device named "
+"finished. On your mobile phone, open the Bluetooth app and scan for the "
+"Bluetooth signal broadcast by Ameba, it should appear as a device named "
 "“AMEBA_BLE_DEV”."
 msgstr "在您的手機上，打開藍牙app，掃描Ameba廣播的藍牙信號，會出現一個名為“AMEBA_BLE_DEV”的設備。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:62
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:108
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:64
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:72
 msgid ""
 "Connect to the Ameba Bluetooth device, and a list of available services "
 "should appear. Click on the battery service to expand it, and you can see"
@@ -157,82 +134,93 @@ msgid ""
 "right are used to read data and subscribe to notifications. Click on the "
 "single arrow to read the battery level value, and a 90% value will "
 "appear."
-msgstr ""
-"連接到Ameba藍牙設備，應該會出現可用服務的列表。單擊battery服務展開，可以看到電池電量數據值。"
-"方框右邊高亮的箭頭用於讀取數據和訂閱通知。點擊單個箭頭讀取電池電量值，90%的電量值就會顯示出來。"
+msgstr "連接到Ameba藍牙設備，應該會出現可用服務的列表。單擊battery服務展開，可以看到電池電量數據值。方框右邊高亮的箭頭用於讀取數據和訂閱通知。點擊單個箭頭讀取電池電量值，90%的電量值就會顯示出來。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:71
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:112
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:73
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:85
 msgid ""
 "Click on the triple arrow to subscribe to updates on the battery level "
 "value, and the battery value will start updating by itself."
 msgstr "單擊三重箭頭訂閱電池電量值的更新，電池值將自動開始更新。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:76
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:116
-msgid "4"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:78
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:94
 msgid ""
 "The serial monitor will show the sketch increasing the battery level "
 "every second. When you click on either of the arrows, the sketch running "
 "on the Ameba will be notified, and will print out the action taken."
 msgstr "串行監視器將顯示每秒鐘電池電量的增加。當您單擊其中一個箭頭時，運行在Ameba上的程序將得到通知，並打印顯示出所採取的操作。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:82
-msgid "|5|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:120
-msgid "5"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:84
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:103
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:88
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:107
 msgid ""
 "BLEService and BLECharacteristic classes are used to create and define "
 "the battery service to run on the Bluetooth device."
 msgstr "BLEService和 BLECharacteristic用於創建在藍牙設備上運行的電池服務實例。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:91
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:110
+#, fuzzy
 msgid ""
-"``BLE.configAdvert()->setAdvType(GAP_ADTYPE_ADV_IND)`` is used to set the"
-" advertisement type to a general undirected advertisement that allows for"
-" connections."
+"``BLE.configAdvert() → setAdvType(GAP_ADTYPE_ADV_IND)`` is used to set "
+"the advertisement type to a general undirected advertisement that allows "
+"for connections."
 msgstr "BLE.configadvert ()->setAdvType(GAP_ADTYPE_ADV_IND)用於將廣告類型設置為允許連接的通用無定向廣告。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:95
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:114
 msgid ""
 "``setReadCallback()`` and ``setCCCDCallback()`` is used to register "
 "functions that will be called when the battery level data is read, or "
 "notification is enabled by the user."
 msgstr "setReadCallback() 和setCCCDCallback()用於註冊將在讀取電池電量數據或用戶啟用通知時調用的函數。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:99
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:118
 msgid ""
 "``BLE.configServer(1)`` is used to tell the Bluetooth stack that there "
 "will be one service running."
 msgstr "BLE.configserver(1) 用於告訴藍牙堆棧有一個服務將會運行。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:102
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:121
 msgid "``addService()`` registers the battery service to the Bluetooth stack."
 msgstr "addService()將電池服務註冊到藍牙堆棧。"
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Upload the code and press the "
+#~ "reset button on Ameba once the "
+#~ "upload is finished."
+#~ msgstr "上傳代碼並在上傳完成後按下Ameba上的reset按鈕。"
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
+#~ msgstr ""
 

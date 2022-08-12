@@ -30,7 +30,7 @@ Audio Codec – Basic Input Output
 
    |1-1|
 
-Open the example, ``"Files" -> "Examples" -> “AmebaAudioCodec” ->
+Open the example, ``"Files" → "Examples" → “AmebaAudioCodec” →
 “Basic_Input_Output”``.
 
    |2|

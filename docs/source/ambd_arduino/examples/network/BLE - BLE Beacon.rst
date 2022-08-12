@@ -35,28 +35,31 @@ supports the iBeacon and AltBeacon protocols.
 
 **Procedure**
 
-| First, you need to install some Bluetooth apps on your mobile phone.
-  These apps will show you the raw data sent by Ameba and allow you to
-  interact with the data.
-| The recommended application is nRF connect, and is available at the
-  links below:
+First, you need to install some Bluetooth apps on your mobile phone.
+These apps will show you the raw data sent by Ameba and allow you to
+interact with the data.
 
--  Android
-      : https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp
+The recommended application is nRF connect, and is available at the
+links below:
+
+-  Android: https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp
 
 -  iOS :https://apps.apple.com/us/app/nrf-connect/id1054362403
 
 LightBlue is an alternative application that can also be used, but has
 less features:
 
--  Android
-      : https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer
+-  Android: https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer
 
 -  iOS :https://apps.apple.com/us/app/lightblue/id557428110
 
-Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> “BLEBeacon”``
+Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEBeacon”``
  
- |1|
+.. image:: /media/ambd_arduino/BLE_Beacon/image1.png
+   :align: center
+   :width: 722
+   :height: 1006
+   :scale:  69 %
 
 
 Upload the code and press the reset button on Ameba once the upload is
@@ -65,7 +68,11 @@ finished.
 On your mobile phone, open the Bluetooth app and scan for the beacon
 signal broadcast by Ameba.
 
- |2|
+.. image:: /media/ambd_arduino/BLE_Beacon/image2.png
+   :align: center
+   :width: 1440
+   :height: 2880
+   :scale:  24 %
 
 If you happen to be in an environment with multiple BLE beacons, you can
 tap the entries to expand them, and verify that the beacon data is
@@ -103,12 +110,3 @@ non-connectable.
 
 ``BLE.beginPeripheral()`` starts Ameba in Bluetooth peripheral mode, after
 which it will begin to advertise with the beacon data provided.
-
-.. |1| image:: /media/ambd_arduino/BLE_Beacon/image1.png
-   :width: 722
-   :height: 1006
-   :scale: 80 %
-.. |2| image:: /media/ambd_arduino/BLE_Beacon/image2.png
-   :width: 1440
-   :height: 2880
-   :scale: 30 %

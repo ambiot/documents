@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,8 +61,8 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
 #: Timeout.rst:24 UDP
 msgid ""
-"Open the “CalculateUdpReceiveTimeout” example in ``“File” -> “Examples” "
-"-> “WiFi” -> ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”``."
+"Open the “CalculateUdpReceiveTimeout” example in ``“File” → “Examples” → "
+"“WiFi” → ” UDP_Calculation ” → “CalculateUdpReceiveTimeout”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Receive
@@ -180,4 +180,11 @@ msgid ""
 "packet and increases the timeout value. Open the serial monitor and "
 "observe the timeout value converge to a minimum value."
 msgstr ""
+
+#~ msgid ""
+#~ "Open the “CalculateUdpReceiveTimeout” example "
+#~ "in ``“File” -> “Examples” -> “WiFi” "
+#~ "-> ” UDP_Calculation ” -> "
+#~ "“CalculateUdpReceiveTimeout”``."
+#~ msgstr ""
 

@@ -22,7 +22,7 @@ Insert a MicroSD card into the onboard SD card reader of RTL8722DM MINI board.
 
 **Example 01 create_folder**
 
-Open the example, ``"Files" -> "Examples" -> “AmebaFatfsSDIO” -> “create_folder”``.
+Open the example, ``"Files" → "Examples" → “AmebaFatfsSDIO” → “create_folder”``.
 
   |1|
 
@@ -40,7 +40,7 @@ succeeded.
 
 **Example 02 file_read_write**
 
-| Open the example, ``"Files" -> "Examples" -> “AmebaFatfsSDIO” ->
+| Open the example, ``"Files" → "Examples" → “AmebaFatfsSDIO” →
   “file_read_write”``.
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
@@ -56,7 +56,7 @@ succeeded.
 
 **Example 03 get_file_attribute**
 
-| Open the example, ``"Files" -> "Examples" -> “AmebaFatfsSDIO” ->
+| Open the example, ``"Files" → "Examples" → “AmebaFatfsSDIO” →
   “get_file_attribute”``.
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
@@ -71,7 +71,7 @@ succeeded.
 
 **Example 04 last_modified_time**
 
-| Open the example, ``"Files" -> "Examples" -> “AmebaFatfsSDIO” ->
+| Open the example, ``"Files" → "Examples" → “AmebaFatfsSDIO” →
   “last_modified_time”``.
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
@@ -87,7 +87,7 @@ succeeded.
 
 **Example 05 list_root_files**
 
-| Open the example, ``"Files" -> "Examples" -> “AmebaFatfsSDIO” ->
+| Open the example, ``"Files" → "Examples" → “AmebaFatfsSDIO” →
   “list_root_files”``.
 | Upload the code and press the reset button on Ameba once the upload is
   finished.

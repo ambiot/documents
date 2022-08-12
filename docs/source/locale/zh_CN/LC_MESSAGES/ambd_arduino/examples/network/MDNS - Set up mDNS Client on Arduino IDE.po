@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-23 07:12+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:3
 #: Set mDNS on up
@@ -88,7 +88,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:37
 #: Set mDNS on up
 msgid ""
-"Open the example, ``“File” -> “Examples” -> “AmebaMDNS” -> "
+"Open the example, ``“File” → “Examples” → “AmebaMDNS” → "
 "“mdns_on_arduino_ide”``"
 msgstr ""
 
@@ -120,9 +120,9 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:45
 #: Set mDNS on up
 msgid ""
-"Next, go to (“Tools” -> “Port”), and you can find out at least one Serial"
-" Port. This port is simulated by Ameba board via USB. Choose this port "
-"and upload the compiled code to Ameba."
+"Next, go to (“Tools” → “Port”), and you can find out at least one Serial "
+"Port. This port is simulated by Ameba board via USB. Choose this port and"
+" upload the compiled code to Ameba."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:50
@@ -256,5 +256,19 @@ msgstr ""
 #~ "activate the mDNS service after a "
 #~ "while. You can see the Log at "
 #~ "the bottom of the Serial Monitor."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``“File” -> “Examples”"
+#~ " -> “AmebaMDNS” -> “mdns_on_arduino_ide”``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next, go to (“Tools” -> “Port”), "
+#~ "and you can find out at least "
+#~ "one Serial Port. This port is "
+#~ "simulated by Ameba board via USB. "
+#~ "Choose this port and upload the "
+#~ "compiled code to Ameba."
 #~ msgstr ""
 

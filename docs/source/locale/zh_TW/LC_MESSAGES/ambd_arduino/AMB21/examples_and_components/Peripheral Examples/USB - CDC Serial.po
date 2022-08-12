@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-17 08:18+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,8 +131,9 @@ msgid "Procedure"
 msgstr "步驟"
 
 #: - ../../source/ambd_arduino/examples/peripheral/USB CDC Serial.rst:59
+#, fuzzy
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaUSB” -> "
+"Open the example, ``\"Files\" → \"Examples\" → “AmebaUSB” → "
 "“USBCDCSerial”``."
 msgstr "打開範例， ``“Files” -> “Examples” -> “AmebaUSB” -> “USBCDCSerial”``。"
 

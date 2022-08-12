@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,118 +69,133 @@ msgstr ""
 msgid "**AMB21 / AMB22:**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:33 over
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:67 over
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:35 over
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:39 over
 msgid "**AMB23:**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:37 over
-msgid "|1-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:71 over
-msgid "1-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:39 over
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:47 over
 msgid "**BW16:**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:41 over
-msgid "|1-2|"
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:55 over
+msgid "**BW16-TypeC:**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:75 over
-msgid "1-2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:44 over
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:64 over
 msgid ""
 "Ensure that a compatible BLE UART app is installed on your smartphone, it"
 " is available at:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:45 over
-msgid "- Google Play Store:"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:47 over
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:67 over
 msgid ""
-"`https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connecta>"
-" "
-"<https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect>`__\\"
+"– Google Play Store: "
+"https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect"
 " "
 "https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:49 over
-msgid "- Apple App Store:"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:50 over
-msgid "https://apps.apple.com/us/app/bluefruit-connect/id830125974"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:53 over
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:71 over
 msgid ""
-"Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> "
+"– Apple App Store: https://apps.apple.com/us/app/bluefruit-"
+"connect/id830125974"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:75 over
+msgid ""
+"Open the example, ``“Files” → “Examples” → “AmebaBLE” → "
 "“DHT_over_BLEUart”``."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:55 over
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:79 over
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:58 over
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:84 over
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
-"finished."
+"finished. Open the app on your smartphone, scan and connect to the Ameba "
+"board shown as “AMEBA_BLE_DEV” and choose the UART function in the app."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:60 over
-msgid ""
-"Open the app on your smartphone, scan and connect to the Ameba board "
-"shown as “AMEBA_BLE_DEV” and choose the UART function in the app."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:61 over
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:83 over
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:62 over
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:87 over
-msgid "4"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:64 over
+#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:101 over
 msgid ""
 "After starting the UART function, notifications should be received every "
 "5 seconds containing the measured temperature and humidity."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:65 over
-msgid "|5|"
-msgstr ""
+#~ msgid "|1|"
+#~ msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:91 over
-msgid "5"
-msgstr ""
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|1-1|"
+#~ msgstr ""
+
+#~ msgid "1-1"
+#~ msgstr ""
+
+#~ msgid "|1-2|"
+#~ msgstr ""
+
+#~ msgid "1-2"
+#~ msgstr ""
+
+#~ msgid "- Google Play Store:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connecta>"
+#~ " "
+#~ "<https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect>`__\\"
+#~ " "
+#~ "https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal"
+#~ msgstr ""
+
+#~ msgid "- Apple App Store:"
+#~ msgstr ""
+
+#~ msgid "https://apps.apple.com/us/app/bluefruit-connect/id830125974"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``“Files” -> "
+#~ "“Examples” -> “AmebaBLE” -> "
+#~ "“DHT_over_BLEUart”``."
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Upload the code and press the "
+#~ "reset button on Ameba once the "
+#~ "upload is finished."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the app on your smartphone, "
+#~ "scan and connect to the Ameba "
+#~ "board shown as “AMEBA_BLE_DEV” and "
+#~ "choose the UART function in the "
+#~ "app."
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
+#~ msgstr ""
 

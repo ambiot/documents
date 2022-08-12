@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,15 +60,17 @@ msgstr "这个范例里，我们使用Ameba来检测周围的WiFi讯号，并将
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:23
 #: surrounding the
+#, fuzzy
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
-"Arduino IDE: ``“Tools” -> “Board”``"
+"Arduino IDE: ``“Tools” → “Board”``"
 msgstr "首先先确定天线已经接上，确保在 “Tools” -> “Board” 中选择了正确的Ameba开发板。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:25
 #: surrounding the
+#, fuzzy
 msgid ""
-"Open the “ScanNetworks” example in ``“File” -> “Examples” -> “WiFi” -> "
+"Open the “ScanNetworks” example in ``“File” → “Examples” → “WiFi” → "
 "“ScanNetworks”``:"
 msgstr ""
 "然后打开 Scan Networks 的范例, “File” -> “Examples” -> “AmebaWiFi” -> "

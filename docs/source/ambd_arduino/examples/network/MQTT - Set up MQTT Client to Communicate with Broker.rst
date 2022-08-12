@@ -45,7 +45,7 @@ In the operation of MQTT, there are several roles:
 
 | In this example, we connect Ameba to MQTT-Broker. Then send messages as
   publisher and receive messages from MQTT-Broker as subscriber.
-| Open the MQTT example ``“File” -> “Examples” -> “AmebaMQTTClient” ->
+| Open the MQTT example ``“File” → “Examples” → “AmebaMQTTClient” →
   “MQTT_Basic”``
 
   |2|

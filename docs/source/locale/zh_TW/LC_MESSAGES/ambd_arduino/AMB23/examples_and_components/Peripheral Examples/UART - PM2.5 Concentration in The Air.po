@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-07 03:42+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,39 +70,20 @@ msgstr "它可以讀出PM 1.0, PM 2.5, PM 10的數據。以PM2.5為例子, 表�
 
 #: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:27
 #: Concentration PM2.5 The in
+#, fuzzy
 msgid ""
-"Open the example in ``“File” -> “Examples” -> “AmebaSoftwareSerial” -> "
+"Open the example in ``“File” → “Examples” → “AmebaSoftwareSerial” → "
 "“PMS3003_AirQuality”``"
 msgstr ""
 "這個範例在 “File” -> “Examples” -> “AmebaSoftwareSerial” -> "
 "“PMS3003_AirQuality”"
 
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:29
-#: Concentration PM2.5 The in
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:67
-#: Concentration PM2.5 The in
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:31
+#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:34
 #: Concentration PM2.5 The in
 msgid "There are 8 pins in PMS3003:"
 msgstr "接線的部份，PMS3003一共有8根pin："
 
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:33
-#: Concentration PM2.5 The in
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:71
-#: Concentration PM2.5 The in
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:35
+#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:41
 #: Concentration PM2.5 The in
 msgid ""
 "PMS3003 requires 5V power, but the working voltage of its IC is 3.3C. "
@@ -114,7 +95,7 @@ msgstr ""
 "Set的工作電壓都是3.3V,Set這根pin如果對它pull high, 可以讓PMS3003處於工作模式, 如果對它pull low, "
 "則讓它處於standby mode"
 
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:40
+#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:46
 #: Concentration PM2.5 The in
 msgid ""
 "TX/RX pins are for UART connection. Under operating mode, PMS3003 output "
@@ -122,80 +103,82 @@ msgid ""
 "the following article for detailed data format information:"
 msgstr "TX/RX這兩根pin是UART的pin，PMS3003在工作模式下，會不停地輸出讀到的數據，每筆數據的長度是32 byte，資料格式可以參考："
 
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:45
+#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:51
 #: Concentration PM2.5 The in
 msgid "https://www.dfrobot.com/wiki/index.php?title=PM2.5_laser_dust_sensor_SKU:SEN0177"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:47
+#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:53
 #: Concentration PM2.5 The in
 msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr "**AMB21 / AMB22** 接線的方式如下"
 
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:49
-#: Concentration PM2.5 The in
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:75
-#: Concentration PM2.5 The in
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:51
+#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:60
 #: Concentration PM2.5 The in
 msgid "**AMB23** Wiring Diagram:"
 msgstr "**AMB23** 接線的方式如下:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:53
-#: Concentration PM2.5 The in
-msgid "|3-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:79
-#: Concentration PM2.5 The in
-msgid "3-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:55
+#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:67
 #: Concentration PM2.5 The in
 msgid "**BW16** Wiring Diagram:"
 msgstr "**BW16** 接線的方式如下:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:57
+#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:74
 #: Concentration PM2.5 The in
-msgid "|3-3|"
-msgstr ""
+#, fuzzy
+msgid "**BW16-TypeC** Wiring Diagram:"
+msgstr "**BW16** 接線的方式如下:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:83
-#: Concentration PM2.5 The in
-msgid "3-3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:59
+#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:81
 #: Concentration PM2.5 The in
 msgid "In this example, we do not use the “Set” and “Reset” pins."
 msgstr "這個例子裡並沒有接Set與Reset這兩根pin"
 
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:61
+#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:83
 #: Concentration PM2.5 The in
 msgid ""
 "Compile the code and upload it to Ameba. After pressing the Reset button,"
 " Ameba starts to output the PM 2.5 data to serial monitor."
 msgstr "上傳程式碼之後，按下Ameba的Reset按鈕，並且開啟Serial Monitor，就可以看到讀到的PM 2.5數據"
 
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:65
-#: Concentration PM2.5 The in
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/UART Air.rst:87
-#: Concentration PM2.5 The in
-msgid "4"
-msgstr ""
-
 #~ msgid ""
 #~ "https://www.dfrobot.com/wiki/index.php?title=PM2.5_laser_dust_sensor_SKU:SEN0177"
 #~ " RTL8722"
+#~ msgstr ""
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|3-1|"
+#~ msgstr ""
+
+#~ msgid "3-1"
+#~ msgstr ""
+
+#~ msgid "|3-3|"
+#~ msgstr ""
+
+#~ msgid "3-3"
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
 #~ msgstr ""
 

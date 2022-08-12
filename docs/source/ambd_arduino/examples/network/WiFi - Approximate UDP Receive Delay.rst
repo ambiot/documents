@@ -22,7 +22,7 @@ calculates the UDP receive delay. 
 **Ameba Preparation** 
 
 Open the “CalculateUdpReceiveDelay” example in 
-``“File” -> “Examples” -> “WiFi” -> “UDP_Calculation” -> “CalculateUdpReceiveDelay”``.
+``“File” → “Examples” → “WiFi” → “UDP_Calculation” → “CalculateUdpReceiveDelay”``.
 
 |1|
 

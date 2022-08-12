@@ -27,7 +27,7 @@ using USB.
 Procedure
 ---------
 
-Open the example, ``"Files" -> "Examples" -> “AmebaUSB” ->
+Open the example, ``"Files" → "Examples" → “AmebaUSB” →
 “USBHIDKeyboard”``.
 
 |1|

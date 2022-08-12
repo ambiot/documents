@@ -20,9 +20,9 @@ WiFi - Scan the surrounding WiFi networks
   surroundings, and prints the SSID, encryption type, signal strength
   information of each detected hotspot.
 | First, make sure the correct Ameba development board is selected in
-  Arduino IDE: ``“Tools” -> “Board”``
+  Arduino IDE: ``“Tools” → “Board”``
 | Open the “ScanNetworks” example in 
-  ``“File” -> “Examples” -> “WiFi” -> “ScanNetworks”``:
+  ``“File” → “Examples” → “WiFi” → “ScanNetworks”``:
 
   |image1|
 

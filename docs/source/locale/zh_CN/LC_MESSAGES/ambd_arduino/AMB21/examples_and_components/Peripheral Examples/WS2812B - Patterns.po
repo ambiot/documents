@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-17 08:18+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,8 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:12
 msgid "AmebaD [ AMB21 / AMB22 / AMB23 / BW16 ] x1"
@@ -76,127 +76,115 @@ msgstr "首先，将 WS2812B 连接到 Ameba 开发板，如下图所示。"
 msgid "**AMB21/AMB22 Wiring Diagram:**"
 msgstr "**AMB21/AMB22 接线图:**"
 
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:38
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:83
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:40
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:44
 msgid "**AMB23 Wiring Diagram:**"
 msgstr "**AMB23 接线图:**"
 
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:42
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:88
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:44
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:52
 msgid "**BW16 Wiring Diagram:**"
 msgstr "**BW16 接线图：**"
 
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:46
-msgid "|3|"
-msgstr ""
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:59
+#, fuzzy
+msgid "**BW16-TypeC Wiring Diagram:**"
+msgstr "**BW16 接线图：**"
 
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:93
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:48
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:66
 msgid ""
 "To create different light patterns with many different colors, use "
 "**WS2812B_Patterns**."
 msgstr "要创建具有多种不同颜色的不同灯光图案，请使用 **WS2812B_Patterns范例**。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:51
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:69
 msgid ""
 "Open the example in ``“File” → “Example” → “AmebaWS2812B” → "
 "“WS2812B_Patterns”``"
 msgstr "在 ``“File” → “Example” → “AmebaWS2812B” → “WS2812B_Patterns”`` 中打开范例。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:54
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:98
-msgid "4"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:56
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:77
+#, fuzzy
 msgid ""
-"In the sample code, modify ``NUM_OF_LEDS`` to be the number of LEDs that "
+"In the sample code, modify **NUM_OF_LEDS** to be the number of LEDs that "
 "you have connected."
 msgstr "在代码中，将 **NUM_OF_LEDS** 修改为您已连接的 LED 数量。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:59
-msgid "|5|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:103
-msgid "5"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:61
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:87
 msgid ""
 "Next compile and upload to Ameba, then press the reset button. You will "
 "see the WS2812B displaying a color wipe, theater chase, rainbow, and "
 "theater chase rainbow light patterns in loop."
 msgstr "接下来编译并上传到 Ameba，然后按重置按钮。您将看到 WS2812B 循环显示多种不同的光图案造型。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:65
-msgid "|6|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:108
-msgid "6"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:67
-msgid "|7|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:113
-msgid "7"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:69
-msgid "|8|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:118
-msgid "8"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:71
-msgid "|9|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:123
-msgid "9"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:74
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:115
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:78
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:119
 msgid "[1] WS2812B Datasheet:"
 msgstr "【1】WS2812B 文件："
 
-#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:80
+#: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:121
 msgid "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 msgstr ""
 
 #~ msgid "WS2812B Patterns"
+#~ msgstr ""
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
+#~ msgstr ""
+
+#~ msgid "|6|"
+#~ msgstr ""
+
+#~ msgid "6"
+#~ msgstr ""
+
+#~ msgid "|7|"
+#~ msgstr ""
+
+#~ msgid "7"
+#~ msgstr ""
+
+#~ msgid "|8|"
+#~ msgstr ""
+
+#~ msgid "8"
+#~ msgstr ""
+
+#~ msgid "|9|"
+#~ msgstr ""
+
+#~ msgid "9"
 #~ msgstr ""
 

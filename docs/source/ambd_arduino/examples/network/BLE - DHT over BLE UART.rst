@@ -30,65 +30,80 @@ Connect the DHT sensor to the Ameba board following the diagram.
 
 **AMB21 / AMB22:**
 
-   |1|
+.. image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image1.png
+   :align: center
+   :width: 1077
+   :height: 930
+   :scale: 64 %
 
 **AMB23:**
 
-   |1-1|
+.. image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image1-1.png
+   :align: center
+   :width: 863
+   :height: 789
+   :scale: 75 %
 
 **BW16:**
 
-   |1-2|
-
-| Ensure that a compatible BLE UART app is installed on your smartphone,
-  it is available at:
-| - Google Play Store:
-| `https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connecta>
-   <https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect>`__\ https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal
-
-| - Apple App Store:
-| https://apps.apple.com/us/app/bluefruit-connect/id830125974
-
-| Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->  
-  “DHT_over_BLEUart”``.
-
-   |2|
-
-| Upload the code and press the reset button on Ameba once the upload is
-  finished.
-| Open the app on your smartphone, scan and connect to the Ameba board
-  shown as “AMEBA_BLE_DEV” and choose the UART function in the app.
-| |3|
-| |4|
-| After starting the UART function, notifications should be received every
-  5 seconds containing the measured temperature and humidity.
-| |5|
-
-.. |1| image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image1.png
-   :width: 1077
-   :height: 930
-   :scale: 50 %
-.. |1-1| image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image1-1.png
-   :width: 863
-   :height: 789
-   :scale: 50 %
-.. |1-2| image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image1-2.png
+.. image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image1-2.png
+   :align: center
    :width: 869
    :height: 1179
-   :scale: 40 %
-.. |2| image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image2.png
+   :scale: 50 %
+
+**BW16-TypeC:**
+
+.. image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image1-3.png
+   :align: center
+   :width: 683
+   :height: 772
+   :scale: 77 %
+
+
+Ensure that a compatible BLE UART app is installed on your smartphone,
+it is available at:
+
+– Google Play Store:
+https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect
+https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal
+
+– Apple App Store:
+https://apps.apple.com/us/app/bluefruit-connect/id830125974
+
+
+Open the example, ``“Files” → “Examples” → “AmebaBLE” →  
+“DHT_over_BLEUart”``.
+
+.. image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image2.png
+   :align: center
    :width: 750
    :height: 1044
-   :scale: 60 %
-.. |3| image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image3.png
+   :scale: 86 %
+
+Upload the code and press the reset button on Ameba once the upload is
+finished.
+Open the app on your smartphone, scan and connect to the Ameba board
+shown as “AMEBA_BLE_DEV” and choose the UART function in the app.
+
+.. image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image3.png
+   :align: center
    :width: 1440
    :height: 2880
-   :scale: 30 %
-.. |4| image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image4.png
+   :scale: 34 %
+
+.. image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image4.png
+   :align: center
    :width: 1440
    :height: 2880
-   :scale: 30 %
-.. |5| image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image5.png
+   :scale: 34 %
+
+After starting the UART function, notifications should be received every
+5 seconds containing the measured temperature and humidity.
+
+.. image:: /media/ambd_arduino/BLE_DHT_over_BLE_UART/image5.png
+   :align: center
    :width: 1440
    :height: 2880
-   :scale: 30 %
+   :scale: 34 %
+

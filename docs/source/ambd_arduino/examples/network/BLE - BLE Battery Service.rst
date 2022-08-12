@@ -48,18 +48,26 @@ less features:
    - Android: https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer
    - iOS : https://apps.apple.com/us/app/lightblue/id557428110
 
-Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->
+Open the example, ``“Files” → “Examples” → “AmebaBLE” →
 “BLEBatteryService”``
 
-   |1|
+.. image:: /media/ambd_arduino/BLE_Battery_Service/image1.png
+   :align: center
+   :width: 1058
+   :height: 972
+   :scale: 72 %
 
-| Upload the code and press the reset button on Ameba once the upload is
-  finished.
-| On your mobile phone, open the Bluetooth app and scan for the
-  Bluetooth signal broadcast by Ameba, it should appear as a device
-  named “AMEBA_BLE_DEV”.
+Upload the code and press the reset button on Ameba once the upload is
+finished.
+On your mobile phone, open the Bluetooth app and scan for the
+Bluetooth signal broadcast by Ameba, it should appear as a device
+named “AMEBA_BLE_DEV”.
 
-  |2|
+.. image:: /media/ambd_arduino/BLE_Battery_Service/image2.png
+   :align: center
+   :width: 1148
+   :height: 2880
+   :scale: 34 %
 
 Connect to the Ameba Bluetooth device, and a list of available services
 should appear. Click on the battery service to expand it, and you can
@@ -68,18 +76,29 @@ the right are used to read data and subscribe to notifications. Click on
 the single arrow to read the battery level value, and a 90% value will
 appear.
 
-   |3|
+.. image:: /media/ambd_arduino/BLE_Battery_Service/image3.png
+   :align: center
+   :width: 1148
+   :height: 2880
+   :scale: 34 %
 
 Click on the triple arrow to subscribe to updates on the battery level
 value, and the battery value will start updating by itself.
 
-  |4|
+.. image:: /media/ambd_arduino/BLE_Battery_Service/image4.png
+   :align: center
+   :width: 1148
+   :height: 2880
+   :scale: 34 %
 
 The serial monitor will show the sketch increasing the battery level
 every second. When you click on either of the arrows, the sketch running
 on the Ameba will be notified, and will print out the action taken.
 
-   |5|
+.. image:: /media/ambd_arduino/BLE_Battery_Service/image5.png
+   :align: center
+   :width: 749
+   :height: 509
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Code Reference**
@@ -88,7 +107,7 @@ on the Ameba will be notified, and will print out the action taken.
 BLEService and BLECharacteristic classes are used to create and define
 the battery service to run on the Bluetooth device.
 
-``BLE.configAdvert()->setAdvType(GAP_ADTYPE_ADV_IND)`` is used to set the
+``BLE.configAdvert() → setAdvType(GAP_ADTYPE_ADV_IND)`` is used to set the
 advertisement type to a general undirected advertisement that allows for
 connections.
 
@@ -101,23 +120,3 @@ be one service running.
 
 ``addService()`` registers the battery service to the Bluetooth stack.
 
-.. |1| image:: /media/ambd_arduino/BLE_Battery_Service/image1.png
-   :width: 1058
-   :height: 972
-   :scale: 50 %
-.. |2| image:: /media/ambd_arduino/BLE_Battery_Service/image2.png
-   :width: 1148
-   :height: 2880
-   :scale: 30 %
-.. |3| image:: /media/ambd_arduino/BLE_Battery_Service/image3.png
-   :width: 1148
-   :height: 2880
-   :scale: 30 %
-.. |4| image:: /media/ambd_arduino/BLE_Battery_Service/image4.png
-   :width: 1148
-   :height: 2880
-   :scale: 30 %
-.. |5| image:: /media/ambd_arduino/BLE_Battery_Service/image5.png
-   :width: 749
-   :height: 509
-   :scale: 100 %

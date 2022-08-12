@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -272,8 +272,9 @@ msgstr "一旦Applet在IFTTT仪表板中准备就绪, 范例程式即可烧录�
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:90 Use
 #: Web for
+#, fuzzy
 msgid ""
-"Open the example code in ``“File” -> “Examples” -> “WiFi” -> "
+"Open the example code in ``“File” → “Examples” → “WiFi” → "
 "“HTTP_IFTTT_Post”``"
 msgstr "打开范例 “File” -> “Examples” -> “AmebaWiFi” -> “HTTP_IFTTT_Post”"
 

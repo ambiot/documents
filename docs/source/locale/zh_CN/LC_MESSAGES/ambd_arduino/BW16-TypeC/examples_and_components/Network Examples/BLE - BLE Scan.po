@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,50 +57,29 @@ msgid "**Procedure**"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:27
-msgid "Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> “BLEScan”``"
+msgid "Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEScan”``"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:29
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:72
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:32
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:35
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
-"finished."
+"finished. Open the Arduino serial monitor, and you should see the scan "
+"results of nearby Bluetooth devices formatted and printed out."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:34
-msgid ""
-"Open the Arduino serial monitor, and you should see the scan results of "
-"nearby Bluetooth devices formatted and printed out."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:36
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:76
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:38
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:46
 msgid ""
 "If you have the Bluetooth app nRF Connect installed, you can also use it "
 "to send out Bluetooth advertisements for the Ameba to pick up."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:41
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:49
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:45
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:53
 msgid ""
 "``setScanMode(GAP_SCAN_MODE_ACTIVE)`` is used to set the scan mode. "
 "Active scanning will request for an additional scan response data packet "
@@ -108,7 +87,7 @@ msgid ""
 "advertisement data, and not request for additional data."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:50
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:58
 msgid ""
 "``setScanInterval()`` and ``setScanWindow()`` are used to set the "
 "frequency and duration of scans in milliseconds. A scan will start every "
@@ -118,7 +97,7 @@ msgid ""
 "conserve power."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:57
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:65
 msgid ""
 "``setScanCallback(scanFunction)`` is used to register a function to be "
 "called when scan results are received. This can be used to set a user "
@@ -127,18 +106,46 @@ msgid ""
 "formatted and printed to the serial monitor by default."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:63
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:71
 msgid ""
 "``beginCentral(0)`` is used to start the Bluetooth stack in Central mode."
 " The argument 0 is used to indicate that no clients will be operating in "
 "central mode."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:67
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:75
 msgid ""
 "``startScan(5000)`` is used to start the scanning process for a specified"
 " duration of 5000 milliseconds. The scan will repeat according to the set"
 " scan interval and scan window values. After 5000 milliseconds, the scan "
 "process will stop, and will be ready to be started again."
 msgstr ""
+
+#~ msgid "Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> “BLEScan”``"
+#~ msgstr ""
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Upload the code and press the "
+#~ "reset button on Ameba once the "
+#~ "upload is finished."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the Arduino serial monitor, and "
+#~ "you should see the scan results of"
+#~ " nearby Bluetooth devices formatted and "
+#~ "printed out."
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
 

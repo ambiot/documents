@@ -34,7 +34,7 @@ service follows the format: **{Instance Name}.{Protocol Name}.{Domain}**
   naming example, “MyAmeba” can identify the Ameba device name and the
   name “MyAmeba” is changeable. “_arduino._tcp” is the protocol that
   Arduino IDE adopts, and the Domain is set as local in common. 
-| Open the example, ``“File” -> “Examples” -> “AmebaMDNS” -> “mdns_on_arduino_ide”``
+| Open the example, ``“File” → “Examples” → “AmebaMDNS” → “mdns_on_arduino_ide”``
 | You need to input ssid and password of the AP because the example will
   use WiFi connection.  
 | And you can find out the naming of the service at
@@ -42,7 +42,7 @@ service follows the format: **{Instance Name}.{Protocol Name}.{Domain}**
   name “MyAmeba” and the name is changeable. 
 | |1|
 
-Next, go to (“Tools” ->
+Next, go to (“Tools” →
 “Port”), and you can find out at least one Serial Port. This port is
 simulated by Ameba board via USB. Choose this port and upload the
 compiled code to Ameba.

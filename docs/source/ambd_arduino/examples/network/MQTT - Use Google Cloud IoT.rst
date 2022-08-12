@@ -134,7 +134,7 @@ MQTT - Use Google Cloud IoT
 **Example**
 :raw-html:`</p>`
 
-| Open the example in ``“File” -> “Examples” -> “AmebaMQTTClient” ->
+| Open the example in ``“File” → “Examples” → “AmebaMQTTClient” →
   “Google_Cloud_IoT”``.
 
   |image20|

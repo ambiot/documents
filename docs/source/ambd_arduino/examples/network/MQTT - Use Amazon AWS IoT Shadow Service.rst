@@ -36,7 +36,7 @@ MQTT - Use Amazon AWS IoT Shadow Service
 | **AWS Management Console**
 
 | First, create an account and sign up for AWS IoT service:https://aws.amazon.com/
-| Afterwards, log in to the Amazon Management Console and click “IoT Core” found under services -> 
+| Afterwards, log in to the Amazon Management Console and click “IoT Core” found under services → 
   Internet of Things.
 
   |2|
@@ -135,7 +135,7 @@ MQTT - Use Amazon AWS IoT Shadow Service
 
 **Ameba setting**
 
-| Open ``“File” -> “Examples” -> “AmebaMQTTClient” -> “Amazon_AWS_IoT_Basic”``
+| Open ``“File” → “Examples” → “AmebaMQTTClient” → “Amazon_AWS_IoT_Basic”``
 | In the sample code, modify the highlighted snippet to reflect your WiFi 
   network settings.
 
