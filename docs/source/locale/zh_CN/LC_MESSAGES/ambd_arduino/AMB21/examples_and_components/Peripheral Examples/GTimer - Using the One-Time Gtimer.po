@@ -54,7 +54,6 @@ msgstr "在这个例子中，我们将使用 4 个 One-Time GTimer，并将用�
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer Gtimer.rst:20
 #: One-Time Using the
-#, fuzzy
 msgid ""
 "Open the example ``“File” → “Examples” → “AmebaGTimer” → "
 "“TimerOneshot”``. Compile and upload to Ameba, and press reset. Then you "

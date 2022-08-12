@@ -60,7 +60,6 @@ msgid "**Procedure**"
 msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:25
-#, fuzzy
 msgid "Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEHIDMouse”``."
 msgstr "打开范例，”Files” -> “Examples” -> “AmebaBLE” -> “BLEHIDMouse”。"
 
@@ -104,7 +103,6 @@ msgid "3"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE HID Mouse.rst:42
-#, fuzzy
 msgid ""
 "After the Bluetooth connection process is completed, the board is ready "
 "to send mouse input to the host device. Connect digital pin 8 to 3.3V to "

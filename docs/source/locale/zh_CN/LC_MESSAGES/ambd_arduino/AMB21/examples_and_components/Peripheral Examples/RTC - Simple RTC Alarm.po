@@ -53,14 +53,12 @@ msgstr ""
 " Match”信息将打印在串行监视器上。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:23 RTC Simple
-#, fuzzy
 msgid ""
 "First, select the correct Ameba development board from the Arduino IDE: "
 "“Tools” → “Board”."
 msgstr "首先，从Arduino IDE中选择正确的Ameba开发板：“Tools”->“Board”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:26 RTC Simple
-#, fuzzy
 msgid ""
 "Then open the \"RTCAlarm\" example from: ``“File” → “Examples” → “RTC” → "
 "“RTCAlarm”``:"

@@ -113,7 +113,6 @@ msgid "https://apps.apple.com/us/app/bluefruit-connect/id830125974"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:74 over
-#, fuzzy
 msgid ""
 "Open the example, ``“Files” → “Examples” → “AmebaBLE” → "
 "“PWM_over_BLEUart”``."
@@ -126,7 +125,6 @@ msgid ""
 msgstr "上传代码并在上传完成后按Ameba上的重置按钮。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE PWM UART.rst:88 over
-#, fuzzy
 msgid ""
 "Open the app on your smartphone, scan and connect to the board shown as "
 "“AMEBA_BLE_DEV” and choose the controller → color picker function in the "

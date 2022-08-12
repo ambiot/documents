@@ -57,7 +57,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:20 Ultrasound
-#, fuzzy
 msgid ""
 "HC-SR04 is a module that uses ultrasound to measure the distance. It "
 "looks like a pair of eyes in its appearance, therefore it’s often "
@@ -100,7 +99,6 @@ msgstr "**BW16** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:62 Module.rst:97 Ultrasound
-#, fuzzy
 msgid "**BW16-TypeC** Wiring Diagram:"
 msgstr "**BW16** 接线图："
 
@@ -114,7 +112,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO By Distance Measure
 #: Module.rst:104 Ultrasound
-#, fuzzy
 msgid ""
 "Next, open the sample code in ``“File” → “Examples” → “AmebaGPIO” → "
 "“HCSR04_Ultrasonic”``"

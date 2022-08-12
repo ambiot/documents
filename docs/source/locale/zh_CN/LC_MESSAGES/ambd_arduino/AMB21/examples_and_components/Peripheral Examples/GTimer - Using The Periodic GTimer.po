@@ -61,7 +61,6 @@ msgstr "定时器可以设置为周期性或一次性使用。周期性计时器
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:21
 #: Periodic The Using
-#, fuzzy
 msgid ""
 "Open the example, ``“File” → “Examples” → “AmebaGTimer” → "
 "“TimerPeriodical”``. Compile and upload to Ameba, and press reset."

@@ -67,7 +67,6 @@ msgstr "**准备Arduino Uno为 I2C Slave**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
 #: UNO.rst:27 from
-#, fuzzy
 msgid ""
 "First, select Arduino in the Arduino IDE in ``“Tools” → “Board” → "
 "“Arduino Uno”``: Open ``“Examples” → “Wire” → “slave_sender”``"
@@ -77,7 +76,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
 #: UNO.rst:36 from
-#, fuzzy
 msgid ""
 "Then click “Sketch” → “Upload” to compile and upload the example to "
 "Arduino Uno."
@@ -90,7 +88,6 @@ msgstr "**准备Ameba 为 I2C Master**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
 #: UNO.rst:41 from
-#, fuzzy
 msgid ""
 "Next, open another window of Arduino IDE, make sure to choose your Ameba "
 "development board in the IDE: “Tools” → “Board” Open ``“File” → "
@@ -99,7 +96,6 @@ msgstr "我们额外再开一个Arduino IDE，确定板子是 Ameba, “Tools”
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
 #: UNO.rst:50 from
-#, fuzzy
 msgid "Click “Sketch” → “Upload” to compile and upload the example to Ameba."
 msgstr "然后点选 “Sketch” -> “Upload” 将程式编译并上传到 Ameba。"
 
@@ -110,7 +106,6 @@ msgstr "**接线**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
 #: UNO.rst:54 from
-#, fuzzy
 msgid ""
 "The Arduino example uses A4 as the I2C SDA and A5 as the I2C SCL. Another"
 " important thing is that the GND pins of Arduino and Ameba should be "
@@ -134,13 +129,11 @@ msgstr "**BW16** 的接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
 #: UNO.rst:80 from
-#, fuzzy
 msgid "**BW16-TypeC** Wiring Diagram:"
 msgstr "**BW16** 的接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
 #: UNO.rst:87 from
-#, fuzzy
 msgid ""
 "Next, we will observe the data receive by Ameba in the Serial Monitor. "
 "(Note: If you do not know which port the Ameba development board is "
@@ -177,7 +170,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
 #: UNO.rst:119 from
-#, fuzzy
 msgid ""
 "You can find detailed information of this example in the documentation of"
 " Arduino: https://www.arduino.cc/en/Tutorial/MasterReader"
@@ -185,7 +177,6 @@ msgstr "Ameba使用同样的Arduino范例，Arduino官方网站的范例说明�
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
 #: UNO.rst:123 from
-#, fuzzy
 msgid ""
 "First use ``Wire.begin()`` / ``Wire.begin(address)`` to join the I2C bus "
 "as a master or slave, in the Master case the address is not required. "
@@ -194,7 +185,6 @@ msgstr "首先Wire.begin()会先设定address, 如果是Master可以不用设定
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Receive
 #: UNO.rst:127 from
-#, fuzzy
 msgid ""
 "Next, the Master uses ``Wire.requestFrom()`` to specify from which Slave "
 "to request data. https://www.arduino.cc/en/Reference/WireRequestFrom"

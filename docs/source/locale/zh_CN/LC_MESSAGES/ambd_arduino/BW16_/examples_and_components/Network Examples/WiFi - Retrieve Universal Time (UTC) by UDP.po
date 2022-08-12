@@ -60,7 +60,6 @@ msgstr ""
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/WiFi Retrieve Time
 #: UDP.rst:23 Universal by
-#, fuzzy
 msgid "Open the example: ``“File” → “Examples” → “WiFi” → “WiFiUdpNtpClient”``"
 msgstr ""
 "首先打开 WiFi Web Server的范例, “File” -> “Examples” -> “AmebaWiFi” -> "

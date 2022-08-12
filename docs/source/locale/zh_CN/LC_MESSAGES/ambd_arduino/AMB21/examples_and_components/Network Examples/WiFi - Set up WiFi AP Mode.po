@@ -58,7 +58,6 @@ msgstr ""
 "security mode）。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi AP Mode.rst:24 Set WiFi up
-#, fuzzy
 msgid "Open the WiFi AP example, ``“File” → “Examples” → “WiFi” → “WiFiAPMode”``"
 msgstr "打开 WiFi AP 的范例, “File” -> “Examples” -> “AmebaWiFi” -> “WiFiAPMode”"
 

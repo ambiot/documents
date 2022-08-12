@@ -61,7 +61,6 @@ msgid "**Procedure**"
 msgstr "**步驟**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Scan.rst:27
-#, fuzzy
 msgid "Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEScan”``"
 msgstr "打開Arduino的範例, “Files” -> “Examples” -> “AmebaBLE” -> “BLEScan”"
 

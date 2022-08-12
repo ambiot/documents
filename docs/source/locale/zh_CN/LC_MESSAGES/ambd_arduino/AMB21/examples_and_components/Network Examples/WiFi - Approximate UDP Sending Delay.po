@@ -64,7 +64,6 @@ msgstr "**Ameba准备**"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Approximate Delay.rst:24
 #: Sending UDP
-#, fuzzy
 msgid ""
 "Open the “CalculateUdpSendDelay” example in ``“File” → “Examples” → "
 "“WiFi” → ” UDP_Calculation ” → “CalculateUdpSendDelay”``."

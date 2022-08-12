@@ -47,7 +47,6 @@ msgstr ""
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:19
-#, fuzzy
 msgid ""
 "In this example, we use an NTP client to sync with NTP servers using UDP "
 "and keep track of time locally. Open the example. ``“File” → “Examples”→ "
@@ -119,7 +118,6 @@ msgstr "配置NTP客户端："
 
 #: (UTC) - ../../source/ambd_arduino/examples/network/NTP NTPClient Retrieve
 #: Time Universal by library.rst:46
-#, fuzzy
 msgid ""
 "The NTPClient needs to use a UDP client for communications. A WiFiUDP "
 "client is declared and passed to the NTPClient constructor, along with an"

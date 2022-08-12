@@ -120,7 +120,6 @@ msgstr "首先，创建一个帐户并注册AWS IoT服务:https://aws.amazon.com
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
 #: Service.rst:40 Shadow Use
-#, fuzzy
 msgid ""
 "Afterwards, log in to the Amazon Management Console and click “IoT Core” "
 "found under services → Internet of Things."
@@ -471,7 +470,6 @@ msgstr "**Ameba 设定**"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
 #: Service.rst:138 Shadow Use
-#, fuzzy
 msgid "Open ``“File” → “Examples” → “AmebaMQTTClient” → “Amazon_AWS_IoT_Basic”``"
 msgstr "打开 “File” -> “Examples” -> “AmebaMQTTClient” -> “Amazon_AWS_IoT_Basic”"
 

@@ -82,7 +82,6 @@ msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:33
 #: Save Sleep and for
-#, fuzzy
 msgid ""
 "Open ``“File” → “Examples” → “AmebaPowerSave” → "
 "“DeepSleep_DHT_LCD_Example”``"

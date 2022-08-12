@@ -47,7 +47,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Client MQTT Set TLS.rst:21
 #: over up
-#, fuzzy
 msgid ""
 "In this example, we connect Ameba to a MQTT broker using TLS "
 "authentication. Then send messages as a publisher and receive messages "

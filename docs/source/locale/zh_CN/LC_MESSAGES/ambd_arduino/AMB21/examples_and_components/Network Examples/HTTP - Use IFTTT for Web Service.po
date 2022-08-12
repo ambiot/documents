@@ -272,7 +272,6 @@ msgstr "一旦Applet在IFTTT仪表板中准备就绪, 范例程式即可烧录�
 
 #: - ../../source/ambd_arduino/examples/network/HTTP IFTTT Service.rst:90 Use
 #: Web for
-#, fuzzy
 msgid ""
 "Open the example code in ``“File” → “Examples” → “WiFi” → "
 "“HTTP_IFTTT_Post”``"

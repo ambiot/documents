@@ -69,7 +69,6 @@ msgstr "这个范例里，我们使用Ameba连上WiFi，作为服务器端，用
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:24 Server
 #: Set to up
-#, fuzzy
 msgid ""
 "First, connect Ameba with the LED. In a LED, the longer pin is the "
 "positive pole, and the shorter pin is the negative pole. So, we connect "
@@ -105,13 +104,11 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:59 Server
 #: Set to up
-#, fuzzy
 msgid "**BW16-TypeC** Wiring Diagram:"
-msgstr "**BW16** 接线图："
+msgstr "**BW16-TypeC** 接线图："
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:67 Server
 #: Set to up
-#, fuzzy
 msgid "Then open ``“File” → “Examples” → “WiFi” → “SimpleWebServerWiFi”``"
 msgstr ""
 "然后打开Simple Web Server WiFi的范例, “File” -> “Examples” -> “AmebaWiFi” -> "
@@ -161,7 +158,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:112 Server
 #: Set to up
-#, fuzzy
 msgid ""
 "Use ``WiFi.begin()`` to establish WiFi connection. "
 "https://www.arduino.cc/en/Reference/WiFiBegin"
@@ -177,7 +173,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:119 Server
 #: Set to up
-#, fuzzy
 msgid ""
 "Use WiFi.RSSI() to get the signal strength of the connection. "
 "https://www.arduino.cc/en/Reference/WiFiRSSI"
@@ -192,7 +187,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:125 Server
 #: Set to up
-#, fuzzy
 msgid ""
 "Use ``WiFiServer server()`` to create a server that listens on the "
 "specified port. https://www.arduino.cc/en/Reference/WiFiServer"
@@ -200,7 +194,6 @@ msgstr "设定服务器的端口号 ``WiFiServer server()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:129 Server
 #: Set to up
-#, fuzzy
 msgid ""
 "Use ``server.begin()`` to tell the server to begin listening for incoming"
 " connections. https://www.arduino.cc/en/Reference/WiFiServerBegin"
@@ -208,7 +201,6 @@ msgstr "开始服务器的监听 ``server.begin()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:133 Server
 #: Set to up
-#, fuzzy
 msgid ""
 "Use ``server.available()`` to get a client that is connected to the "
 "server and has data available for reading. "
@@ -217,7 +209,6 @@ msgstr "判断是否有客户端连线 ``server.available()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:137 Server
 #: Set to up
-#, fuzzy
 msgid ""
 "Use ``client.connected()`` to get whether or not the client is connected."
 " https://www.arduino.cc/en/Reference/WiFiClientConnected"
@@ -225,7 +216,6 @@ msgstr "判断客户端是否处于连线状态 ``client.connected()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:140 Server
 #: Set to up
-#, fuzzy
 msgid ""
 "Use ``client.println()`` to print data followed by a carriage return and "
 "newline. https://www.arduino.cc/en/Reference/WiFiClientPrintln"
@@ -233,7 +223,6 @@ msgstr "向服务器发送数据并开启新的一行 ``client.println()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:144 Server
 #: Set to up
-#, fuzzy
 msgid ""
 "Use ``client.print()`` to print data to the server that a client is "
 "connected to. https://www.arduino.cc/en/Reference/WiFiClientPrint"
@@ -241,7 +230,6 @@ msgstr "向服务器发送数据 ``client.print()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:148 Server
 #: Set to up
-#, fuzzy
 msgid ""
 "Use ``client.available()`` to return the number of bytes available for "
 "reading. https://www.arduino.cc/en/Reference/WiFiClientAvailable"
@@ -249,7 +237,6 @@ msgstr "判断是否有数据从服务器端发送过来 ``client.available()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:152 Server
 #: Set to up
-#, fuzzy
 msgid ""
 "Use ``client.read()`` to read the next byte received from the server the "
 "client is connected to. "
@@ -258,7 +245,6 @@ msgstr "客户端读取数据 ``client.read()``"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:156 Server
 #: Set to up
-#, fuzzy
 msgid ""
 "Use ``client.stop()`` to disconnect from the server the client is "
 "connected to. https://www.arduino.cc/en/Reference/WiFIClientStop"

@@ -146,7 +146,6 @@ msgstr "Bit Time为1.125ms或2.25ms。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:67 IR
 #: NEC Raw Transmit
-#, fuzzy
 msgid ""
 "**Modulation** NEC protocol uses Pulse Distance Encoding of the bits for "
 "data communication (Figure 4). A logical “1” is represented by total "
@@ -220,13 +219,11 @@ msgstr "图十一: 红外发射器和BW16的引脚配置"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:140
 #: IR NEC Raw Transmit
-#, fuzzy
 msgid "Figure 10: Pin configuration of IR Receiver and BW16-TypeC"
 msgstr "图十二: 红外接收器和BW16的引脚配置"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:142
 #: IR NEC Raw Transmit
-#, fuzzy
 msgid ""
 "Figure 11 and Figure 12 shows the pin configuration of IR Emitter and "
 "Receiver with BW16-TypeC."
@@ -234,19 +231,16 @@ msgstr "图七和图八显示了AMB21 / AMB22板的红外发射器和接收器�
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:152
 #: IR NEC Raw Transmit
-#, fuzzy
 msgid "Figure 11: Pin configuration of IR Emitter and BW16-TypeC"
 msgstr "图十一: 红外发射器和BW16的引脚配置"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:160
 #: IR NEC Raw Transmit
-#, fuzzy
 msgid "Figure 12: Pin configuration of IR Receiver and BW16-TypeC"
 msgstr "图十二: 红外接收器和BW16的引脚配置"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:162
 #: IR NEC Raw Transmit
-#, fuzzy
 msgid ""
 "After the connection is being set up correctly, we will move to the "
 "coding part for this example. First, make sure the correct Ameba "
@@ -255,7 +249,6 @@ msgstr "正确设置连接后，我们将介绍此范例的编码部分。首先
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:166
 #: IR NEC Raw Transmit
-#, fuzzy
 msgid ""
 "Open the “IRSendRAW” example in ``“File” → “Examples” → “AmebaIRDevice” →"
 " “IRSendRAW”`` (Figure 13) and upload to 1st board connected with IR "
@@ -266,13 +259,11 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:175
 #: IR NEC Raw Transmit
-#, fuzzy
 msgid "Figure 13: Example Location of IRSendRaw and IRRecvNEC"
 msgstr "图十一: IRSendRaw 与 IRRecvNEC 的范例位置"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:177
 #: IR NEC Raw Transmit
-#, fuzzy
 msgid ""
 "After successfully upload the sample code for IRSendRaw, you might need "
 "to upload the IRRecvNEC example for the 2nd board connected with IR "
@@ -283,7 +274,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:181
 #: IR NEC Raw Transmit
-#, fuzzy
 msgid ""
 "After opening the serial monitor on the IR Receiver side and press the "
 "reset buttons on two boards, the data “48” will be received every 3 "
@@ -298,7 +288,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR And Data Decode.rst:193
 #: IR NEC Raw Transmit
-#, fuzzy
 msgid "Figure 14: Pulse View results from sending and receiving pin"
 msgstr "图十二: 发送和接收引脚的脉冲视图结果"
 

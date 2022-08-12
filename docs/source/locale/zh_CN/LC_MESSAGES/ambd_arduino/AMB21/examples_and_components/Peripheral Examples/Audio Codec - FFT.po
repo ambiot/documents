@@ -57,7 +57,6 @@ msgid "**Procedure**"
 msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:24
-#, fuzzy
 msgid ""
 "Open the example, ``\"Files\" → \"Examples\" → “AmebaAudioCodec” → "
 "“FFT”``."

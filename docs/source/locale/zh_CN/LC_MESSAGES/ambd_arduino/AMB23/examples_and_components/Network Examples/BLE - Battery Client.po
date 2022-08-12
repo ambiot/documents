@@ -74,7 +74,6 @@ msgid ""
 msgstr "上传BLEBatteryService范例程式码至第一个Ameba板并执行。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Battery Client.rst:37
-#, fuzzy
 msgid ""
 "For the second Ameba board, open the example ``“Files” → “Examples” → "
 "“AmebaBLE” → “BLEBatteryClient”``."

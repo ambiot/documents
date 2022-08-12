@@ -120,7 +120,6 @@ msgid "iOS :https://apps.apple.com/us/app/lightblue/id557428110"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:56
-#, fuzzy
 msgid "Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEBeacon”``"
 msgstr "打開Arduino的範例，”Files” -> “Examples” -> “AmebaBLE” -> “BLEBeacon”"
 

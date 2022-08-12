@@ -104,7 +104,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
 #: Output.rst:33
-#, fuzzy
 msgid ""
 "Open the example, ``\"Files\" → \"Examples\" → “AmebaAudioCodec” → "
 "“Basic_Input_Output”``."

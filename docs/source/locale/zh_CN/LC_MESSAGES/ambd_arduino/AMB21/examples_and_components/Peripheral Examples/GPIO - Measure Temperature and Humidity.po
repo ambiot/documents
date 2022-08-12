@@ -130,13 +130,11 @@ msgstr "**BW16** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:86 Measure
 #: Temperature and
-#, fuzzy
 msgid "**BW16-TypeC** Wiring Diagram:"
-msgstr "**BW16** 接线图："
+msgstr "**BW16-TypeC** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:94 Measure
 #: Temperature and
-#, fuzzy
 msgid ""
 "Open the sample code in ``“Files” → “Examples” → “AmebaGPIO” → "
 "“DHT_Tester”``. Compile and upload to Ameba, then press the reset button."

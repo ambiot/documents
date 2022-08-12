@@ -380,7 +380,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Cloud Google IoT.rst:138
 #: Use
-#, fuzzy
 msgid ""
 "Open the example in ``“File” → “Examples” → “AmebaMQTTClient” → "
 "“Google_Cloud_IoT”``."

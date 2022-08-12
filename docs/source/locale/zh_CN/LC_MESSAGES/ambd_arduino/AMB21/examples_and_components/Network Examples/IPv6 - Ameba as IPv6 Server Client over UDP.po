@@ -106,7 +106,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:35 as over
-#, fuzzy
 msgid ""
 "Step 2. IPv6UDPClient Now take the second Ameba D and open another "
 "example, ``“Files” → “Examples” → “WiFi” → “IPv6UDPClient”``."

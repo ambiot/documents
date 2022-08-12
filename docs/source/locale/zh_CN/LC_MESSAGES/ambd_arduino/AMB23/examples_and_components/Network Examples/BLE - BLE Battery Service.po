@@ -111,14 +111,12 @@ msgid "iOS : https://apps.apple.com/us/app/lightblue/id557428110"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:51
-#, fuzzy
 msgid ""
 "Open the example, ``“Files” → “Examples” → “AmebaBLE” → "
 "“BLEBatteryService”``"
 msgstr "打开Arduino的范例，”Files” -> “Examples” -> “AmebaBLE” -> “BLEBatteryService”"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:60
-#, fuzzy
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished. On your mobile phone, open the Bluetooth app and scan for the "
@@ -164,7 +162,6 @@ msgid ""
 msgstr "BLEService和 BLECharacteristic用于创建在蓝牙设备上运行的电池服务实例。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Battery Service.rst:110
-#, fuzzy
 msgid ""
 "``BLE.configAdvert() → setAdvType(GAP_ADTYPE_ADV_IND)`` is used to set "
 "the advertisement type to a general undirected advertisement that allows "

@@ -104,7 +104,6 @@ msgstr "**BW16** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:76 Display
 #: QR User-generated
-#, fuzzy
 msgid "**BW16-TypeC** Wiring Diagram:"
 msgstr "**BW16** 接线图："
 

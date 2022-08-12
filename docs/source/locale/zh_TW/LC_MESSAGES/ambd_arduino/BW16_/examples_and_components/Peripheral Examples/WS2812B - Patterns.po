@@ -18,9 +18,8 @@ msgstr ""
 "Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:3
-#, fuzzy
 msgid "WS2812B - Patterns"
-msgstr "WS2812B Patterns 範例"
+msgstr "WS2812B - Patterns 範例"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:8
 msgid ""
@@ -86,9 +85,9 @@ msgid "**BW16 Wiring Diagram:**"
 msgstr "**BW16 接線圖:**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:59
-#, fuzzy
+
 msgid "**BW16-TypeC Wiring Diagram:**"
-msgstr "**BW16 接線圖:**"
+msgstr "**BW16-TypeC 接線圖:**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:66
 msgid ""
@@ -103,7 +102,6 @@ msgid ""
 msgstr "在 ``“File” → “Example” → “AmebaWS2812B” → “WS2812B_Patterns”`` 中打開範例。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Patterns.rst:77
-#, fuzzy
 msgid ""
 "In the sample code, modify **NUM_OF_LEDS** to be the number of LEDs that "
 "you have connected."

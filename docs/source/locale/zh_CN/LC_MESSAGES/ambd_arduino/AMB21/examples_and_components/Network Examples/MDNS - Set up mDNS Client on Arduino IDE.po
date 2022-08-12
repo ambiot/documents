@@ -98,7 +98,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:37
 #: Set mDNS on up
-#, fuzzy
 msgid ""
 "Open the example, ``“File” → “Examples” → “AmebaMDNS” → "
 "“mdns_on_arduino_ide”``"
@@ -131,7 +130,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MDNS Arduino Client IDE.rst:45
 #: Set mDNS on up
-#, fuzzy
 msgid ""
 "Next, go to (“Tools” → “Port”), and you can find out at least one Serial "
 "Port. This port is simulated by Ameba board via USB. Choose this port and"

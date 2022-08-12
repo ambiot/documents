@@ -82,12 +82,10 @@ msgid "**BW16** Wiring Diagram:"
 msgstr "**BW16** 接线图如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:53 Servo
-#, fuzzy
 msgid "**BW16-TypeC** Wiring Diagram:"
-msgstr "**BW16** 接线图如下:"
+msgstr "**BW16-TypeC** 接线图如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:60 Servo
-#, fuzzy
 msgid "Open the example, ``“File” → “Examples” → “AmebaAnalog” → “ServoSweep”``"
 msgstr "然后打开范例程式 “File” -> “Examples” -> “AmebaAnalog” -> “ServoSweep”"
 

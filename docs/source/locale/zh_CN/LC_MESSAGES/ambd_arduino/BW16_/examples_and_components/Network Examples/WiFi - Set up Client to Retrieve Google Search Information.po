@@ -54,7 +54,6 @@ msgstr "这个范例里，我们使用Ameba连上WiFi，作为客户端，从Goo
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:21 Retrieve Search Set to up
-#, fuzzy
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
 "“Tools” → “Board”"
@@ -62,7 +61,6 @@ msgstr "首先确定板子是 Ameba, “Tools” -> “Board” -> “Arduino Am
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:23 Retrieve Search Set to up
-#, fuzzy
 msgid "Then open ``“File” → “Examples” → “WiFi” → “WiFiWebClient”``"
 msgstr ""
 "然后打开 WiFi Web Client的范例, “File” -> “Examples” -> “AmebaWiFi” -> "

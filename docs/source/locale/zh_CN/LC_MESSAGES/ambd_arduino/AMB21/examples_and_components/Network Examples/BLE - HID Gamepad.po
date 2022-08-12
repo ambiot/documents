@@ -60,7 +60,6 @@ msgid "**Procedure**"
 msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:25 HID
-#, fuzzy
 msgid "Open the example, ``“Files” → “Examples” → “AmebaBLE” → BLEHIDGamepad``."
 msgstr "打开范例，”Files” -> “Examples” -> “AmebaBLE” -> “BLEHIDGamepad”。"
 
@@ -80,7 +79,6 @@ msgid "On Android, ensure that “Input device” is enabled for the board."
 msgstr "在 Android 上，确保为开发板启用“Input device”。"
 
 #: - ../../source/ambd_arduino/examples/network/BLE Gamepad.rst:55 HID
-#, fuzzy
 msgid ""
 "After the Bluetooth connection process is completed, the board is ready "
 "to send gamepad input to the host device. Connect digital pin 8 to 3.3V "

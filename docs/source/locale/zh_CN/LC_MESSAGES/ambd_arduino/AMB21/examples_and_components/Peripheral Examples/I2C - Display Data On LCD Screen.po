@@ -138,7 +138,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
 #: Screen.rst:114
-#, fuzzy
 msgid ""
 "Call ``backlight()`` to light the screen, Call ``setCursor(0, 0)`` to set"
 " the position of the cursor. LCD inherits the Print class, so we can use "

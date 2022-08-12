@@ -98,13 +98,11 @@ msgstr "**BW16** 的接线图如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:61 Music Play
 #: by
-#, fuzzy
 msgid "**BW16-TypeC** Wiring Diagram:"
 msgstr "**BW16** 的接线图如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:68 Music Play
 #: by
-#, fuzzy
 msgid ""
 "Open the example code in ``“Examples” → “AmebaAnalog” → "
 "“TonePlayMelody”`` Compile and upload to Ameba, press the reset button. "

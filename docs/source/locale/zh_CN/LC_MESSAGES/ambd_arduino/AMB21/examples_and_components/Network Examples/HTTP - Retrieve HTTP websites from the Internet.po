@@ -111,7 +111,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:42
 #: Retrieve from the websites
-#, fuzzy
 msgid ""
 "Use ``WiFi.begin()`` to establish WiFi connection: "
 "https://www.arduino.cc/en/Reference/WiFiBegin"
@@ -127,7 +126,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:49
 #: Retrieve from the websites
-#, fuzzy
 msgid ""
 "Use ``WiFi.RSSI()`` to get the signal strength of the connection. "
 "https://www.arduino.cc/en/Reference/WiFiRSSI"
@@ -142,7 +140,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:55
 #: Retrieve from the websites
-#, fuzzy
 msgid ""
 "Use WiFiClient to create a client to handle the WiFi connection. "
 "https://www.arduino.cc/en/Reference/WiFiClient"

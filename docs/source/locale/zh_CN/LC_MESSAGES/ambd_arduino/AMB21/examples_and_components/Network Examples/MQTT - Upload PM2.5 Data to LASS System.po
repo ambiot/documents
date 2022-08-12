@@ -108,7 +108,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
 #: System.rst:47 Upload to
-#, fuzzy
 msgid ""
 "Open the example. ``“File” → “Examples” → “AmebaMQTTClient” → "
 "“lass_basic”``"
@@ -116,7 +115,6 @@ msgstr "我们打开这个范例，它在 “File” -> “Examples” -> “Ame
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
 #: System.rst:55 Upload to
-#, fuzzy
 msgid ""
 "This example requires internet connection, so make sure you fill in SSID "
 "and PASS into AP information that you wish to connect. Also, LASS "
@@ -173,7 +171,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
 #: System.rst:121 Upload to
-#, fuzzy
 msgid ""
 "We can also use MQTTlens to verify if the data is properly uploaded. "
 "Enter “gpssensor.ddns.net” as the MQTT-Broker server and "

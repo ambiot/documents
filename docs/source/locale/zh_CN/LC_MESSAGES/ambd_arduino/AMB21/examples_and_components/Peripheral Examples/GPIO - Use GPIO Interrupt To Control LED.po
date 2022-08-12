@@ -69,7 +69,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:26 To Use
-#, fuzzy
 msgid ""
 "Open the example, ``“Files” → “Examples” → “AmebaGPIO” → "
 "“LED_InterruptCtrl”``"
@@ -92,7 +91,6 @@ msgstr "**BW16** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Control GPIO Interrupt
 #: LED.rst:53 To Use
-#, fuzzy
 msgid "**BW16-TypeC** Wiring Diagram:"
 msgstr "**BW16** 接线图："
 

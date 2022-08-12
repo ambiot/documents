@@ -59,7 +59,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client
 #: Communication.rst:24 HTTPS SSL Set for up
-#, fuzzy
 msgid ""
 "Open the “WiFiSSLClient” example in ``“File” → “Examples” → “WiFi” → "
 "“WiFiSSLClient”``."

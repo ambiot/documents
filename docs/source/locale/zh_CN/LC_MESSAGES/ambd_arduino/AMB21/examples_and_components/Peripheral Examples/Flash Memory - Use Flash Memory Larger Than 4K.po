@@ -57,7 +57,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:23 Flash Larger
 #: Memory Than Use
-#, fuzzy
 msgid ""
 "First, open the sample code in ``“File” → “Examples” → “AmebaFlashMemory”"
 " → “ReadWriteOneWord”``"

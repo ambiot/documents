@@ -69,13 +69,11 @@ msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:27 Save
 #: Sleep
-#, fuzzy
 msgid "Open ``“File” → “Examples” → “AmebaPowerSave” → “DeepSleepMode”``"
 msgstr "打开 “File” -> “Examples” -> “AmebaPowerSave” -> “DeepSleepMode”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:34 Save
 #: Sleep
-#, fuzzy
 msgid ""
 "Set condition values as picture below. “DS_WAKEUP_SOURCE” is used to set "
 "the wake-up source, user can chose 3 wake up sources now,"
@@ -118,7 +116,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Deep Mode.rst:68 Save
 #: Sleep
-#, fuzzy
 msgid ""
 "For BW16 and BW16-TypeC, there is only 6 pins that can be set as AON pin "
 "and active high for wakeup, GPIOA_25 (D7), GPIOA_26 (D8), GPIOA_15 (D9), "

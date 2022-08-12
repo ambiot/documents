@@ -54,7 +54,6 @@ msgstr "这个范例里，我们使用Ameba连上WiFi，作为服务器端，将
 
 #: - ../../source/ambd_arduino/examples/network/HTTP Ameba Get Server Set
 #: Status.rst:20 the to up
-#, fuzzy
 msgid "First, open ``“File” → “Examples” → “WiFi” → “WiFiWebServer”``"
 msgstr ""
 "首先打开 WiFi Web Server的范例 “File” -> “Examples” -> “AmebaWiFi” -> "

@@ -18,9 +18,8 @@ msgstr ""
 "Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:3
-#, fuzzy
 msgid "WS2812B - Basics"
-msgstr "WS2812B 基本範例"
+msgstr "WS2812B - 基本範例"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:8
 msgid ""
@@ -86,9 +85,8 @@ msgid "**BW16 Wiring Diagram:**"
 msgstr "**BW16 接線圖：**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:60
-#, fuzzy
 msgid "**BW16-TypeC Wiring Diagram:**"
-msgstr "**BW16 接線圖：**"
+msgstr "**BW16-TypeC 接線圖：**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:68
 msgid ""
@@ -118,7 +116,6 @@ msgstr ""
 "都將顯示一種顏色。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/WS2812B Basics.rst:104
-#, fuzzy
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"

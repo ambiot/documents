@@ -68,13 +68,11 @@ msgstr "**流程**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:27 Save
 #: Tickless
-#, fuzzy
 msgid "Open ``“File” → “Examples” → “AmebaPowerSave” → “TicklessMode”``"
 msgstr "打开 “File” -> “Examples” -> “AmebaPowerSave” -> “TicklessMode”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:35 Save
 #: Tickless
-#, fuzzy
 msgid ""
 "Set condition values as picture below. “TL_WAKEUP_SOURCE” is used to set "
 "the wake-up source, user can chose 3 wake up sources now,"
@@ -137,7 +135,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:85 Save
 #: Tickless
-#, fuzzy
 msgid ""
 "For BW16 and BW16-TypeC, there is only 6 pins that can be set as AON pin "
 "and active high for wakeup, GPIOA_25 (D7), GPIOA_26 (D8), GPIOA_15 (D9), "

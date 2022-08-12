@@ -60,7 +60,6 @@ msgstr "这个范例里，我们使用Ameba来检测周围的WiFi讯号，并将
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:23
 #: surrounding the
-#, fuzzy
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
 "Arduino IDE: ``“Tools” → “Board”``"
@@ -68,7 +67,6 @@ msgstr "首先先确定天线已经接上，确保在 “Tools” -> “Board”
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Scan WiFi networks.rst:25
 #: surrounding the
-#, fuzzy
 msgid ""
 "Open the “ScanNetworks” example in ``“File” → “Examples” → “WiFi” → "
 "“ScanNetworks”``:"

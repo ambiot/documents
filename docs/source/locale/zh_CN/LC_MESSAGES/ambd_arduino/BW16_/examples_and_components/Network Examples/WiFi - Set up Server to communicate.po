@@ -61,7 +61,6 @@ msgstr "这个范例里，我们使用 Ameba 连上WiFi，作为服务器，与�
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:23 to up
-#, fuzzy
 msgid ""
 "First, we make sure the correct Ameba development board is set in “Tools”"
 " → “Board”"
@@ -69,7 +68,6 @@ msgstr "确保在 “Tools” -> “Board” 中选择了正确的Ameba开发板
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Server Set
 #: communicate.rst:26 to up
-#, fuzzy
 msgid ""
 "Then, open the Simple WiFi Server example in ``“File” → “Examples” → "
 "“WiFi” → “SimpleServerWiFi”``"

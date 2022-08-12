@@ -108,14 +108,12 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:75 over
-#, fuzzy
 msgid ""
 "Open the example, ``“Files” → “Examples” → “AmebaBLE” → "
 "“DHT_over_BLEUart”``."
 msgstr "打开范例, “Files” -> “Examples” -> “AmebaBLE” -> “DHT_over_BLEUart”."
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE DHT UART.rst:84 over
-#, fuzzy
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished. Open the app on your smartphone, scan and connect to the Ameba "

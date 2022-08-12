@@ -170,7 +170,6 @@ msgstr "图五: BW16 的红外发射器引脚配置"
 
 #: - ../../source/ambd_arduino/examples/peripheral/IR Data.rst:98 IR SONY
 #: Transmit
-#, fuzzy
 msgid "Figure 6: Pin configuration of the IR Emitter and BW16-TypeC"
 msgstr "图五: BW16 的红外发射器引脚配置"
 

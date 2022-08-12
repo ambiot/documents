@@ -92,7 +92,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:35 Save Sleep and for
-#, fuzzy
 msgid ""
 "Open ``“File” → “Examples” → “AmebaPowerSave” → "
 "“DeepSleep_For_DHT_Epaper_Example”``"

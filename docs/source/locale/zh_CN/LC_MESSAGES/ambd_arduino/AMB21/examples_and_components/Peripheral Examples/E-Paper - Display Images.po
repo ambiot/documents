@@ -102,7 +102,6 @@ msgstr "**BW16** 接线图："
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Display
 #: Images.rst:79
-#, fuzzy
 msgid "**BW16-TypeC** Wiring Diagram:"
 msgstr "**BW16** 接线图："
 

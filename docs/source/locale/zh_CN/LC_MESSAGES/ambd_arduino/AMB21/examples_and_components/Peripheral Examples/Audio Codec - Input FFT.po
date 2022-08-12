@@ -86,7 +86,6 @@ msgid ""
 msgstr "由于 AMB23 板上有一个内建麦克风，因此不需要任何外部麦克风"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec FFT.rst:34 Input
-#, fuzzy
 msgid ""
 "Next, open the example, ``\"Files\" → \"Examples\" → “AmebaAudioCodec” → "
 "“InputFFT”``."

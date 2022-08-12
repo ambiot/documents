@@ -106,7 +106,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/AmebaMotors Ameba Control
 #: Motors.rst:36 Server Use as to
-#, fuzzy
 msgid "Open the example, ``“Files” → “Examples” → “WiFi” → “WiFiControlCar”``."
 msgstr "打开范例，“Files” -> “Examples” -> “AmebaWiFi” -> “WiFiControlCar”。"
 

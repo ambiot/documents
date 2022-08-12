@@ -67,7 +67,6 @@ msgstr "这个范例里将开机的次数存到flash里面，重开机之后将�
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:28
 #: Memory Store data in
-#, fuzzy
 msgid ""
 "First open the example, ``“File” → “Example” → “AmebaFlashMemory” → "
 "“FlashMemoryBasic”``"

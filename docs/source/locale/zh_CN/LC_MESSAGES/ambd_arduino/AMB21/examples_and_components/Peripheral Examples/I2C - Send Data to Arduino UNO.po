@@ -78,7 +78,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:32 to
-#, fuzzy
 msgid ""
 "In this example, we use Ameba as the I2C master writer, and use Arduino "
 "as the I2C slave receiver. When the I2C slave receives string sent from "
@@ -87,7 +86,6 @@ msgstr "这个范例里，我们将Ameba当作I2C Master Writer, 而Arduino为I2
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:37 to
-#, fuzzy
 msgid "**Setting up Arduino Uno to be I2C Slave**"
 msgstr "准备 Arduino Uno 为 I2C Slave"
 
@@ -101,7 +99,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:47 to
-#, fuzzy
 msgid ""
 "Then click ``“Sketch” → “Upload”`` to compile and upload the example to "
 "Arduino Uno."
@@ -109,7 +106,6 @@ msgstr "然后点选 “Sketch” -> “Upload” 将程式编译并上传到 Ar
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:49 to
-#, fuzzy
 msgid "**Setting up Ameba to be I2C Master**"
 msgstr "准备Ameba 为 I2C Master"
 
@@ -129,7 +125,6 @@ msgstr "接线"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:64 to
-#, fuzzy
 msgid ""
 "The Arduino example uses A4 as the I2C SDA and A5 as the I2C SCL. Another"
 " important thing is that the GND pins of Arduino and Ameba should be "
@@ -153,7 +148,6 @@ msgstr "**BW16** 的接线图如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:91 to
-#, fuzzy
 msgid "**BW16-TypeC** Wiring Diagram:"
 msgstr "**BW16** 的接线图如下:"
 
@@ -180,7 +174,6 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:117 to
-#, fuzzy
 msgid ""
 "You can find detailed information of this example in the documentation of"
 " Arduino: https://www.arduino.cc/en/Tutorial/MasterWriter"
@@ -188,7 +181,6 @@ msgstr "Ameba使用同样的Arduino范例，Arduino官方网站的范例说明�
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:121 to
-#, fuzzy
 msgid ""
 "First use Wire.begin()/Wire.begin(address) to join the I2C bus as a "
 "master or slave, in the Master case the address is not required. "
@@ -197,7 +189,6 @@ msgstr "首先Wire.begin()会先设定address, 如果是Master可以不用设定
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:125 to
-#, fuzzy
 msgid ""
 "Next, the Master uses Wire.beginTransmission(address) to begin a "
 "transmission to the I2C slave with the given address: "
@@ -206,7 +197,6 @@ msgstr "接着Master使用Wire.beginTransmission()来设定要传到哪一个Sla
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Arduino Data Send
 #: UNO.rst:129 to
-#, fuzzy
 msgid ""
 "Uses Wire.write() to send data, and finally use Wire.endTransmission() to"
 " end a transmission to a Slave and transmits the bytes that were queued: "
