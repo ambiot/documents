@@ -21,7 +21,7 @@ Audio Codec - FFT
   signal.
 
 | **Procedure**
-| Open the example, ``"Files" -> "Examples" -> “AmebaAudioCodec” -> “FFT”``.
+| Open the example, ``"Files" → "Examples" → “AmebaAudioCodec” → “FFT”``.
    
    |1|
 

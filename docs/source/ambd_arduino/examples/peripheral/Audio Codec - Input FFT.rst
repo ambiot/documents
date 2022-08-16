@@ -31,7 +31,7 @@ Audio Codec - Input FFT
 | As AMB23 have a built in microphone on the board, there 
   is no need for any external microphone.
 
-Next, open the example, ``"Files" -> "Examples" -> “AmebaAudioCodec” ->
+Next, open the example, ``"Files" → "Examples" → “AmebaAudioCodec” →
 “InputFFT”``.
 
    |2|

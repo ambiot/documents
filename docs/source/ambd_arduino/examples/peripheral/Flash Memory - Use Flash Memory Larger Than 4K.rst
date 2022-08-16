@@ -19,8 +19,8 @@ Flash Memory - Use Flash Memory Larger Than 4K
   for most application. However, larger memory can be provided by
   specifying a specific memory address and required size.
 
-| First, open the sample code in ``“File” -> “Examples” ->
-  “AmebaFlashMemory” -> “ReadWriteOneWord”``
+| First, open the sample code in ``“File” → “Examples” →
+  “AmebaFlashMemory” → “ReadWriteOneWord”``
 
 | In this example, we specify the starting address of flash memory is
   0xFC000 and size is 0x4000 (The default starting address is 0xFF000

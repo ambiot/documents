@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:3 Servo
 msgid "PWM - Servo Control"
@@ -26,8 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:12 Servo
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -52,8 +52,10 @@ msgid ""
 "use PWM signal to control the rotation angle of the axis of the servo. "
 "The frequency of the signal is 50Hz, that is length 20ms. Each servo "
 "defines its pulse bandwidth, which is usually 1ms~2ms."
-msgstr "伺服马达会依照指示命令动作, 它上面有轴柄, 通常可以转0~180度。一般的Servo会有三条线，红色是电源线，黑色或棕色是GND，以及讯号线。"
-"我们传送PWM讯号到讯号线上来控制轴柄的角度。讯号的频率是50Hz，即每个讯号长度为20ms。每个Servo会定义pulse bandwidth, 通常是1ms~2ms。"
+msgstr ""
+"伺服马达会依照指示命令动作, 它上面有轴柄, "
+"通常可以转0~180度。一般的Servo会有三条线，红色是电源线，黑色或棕色是GND，以及讯号线。我们传送PWM讯号到讯号线上来控制轴柄的角度。讯号的频率是50Hz，即每个讯号长度为20ms。每个Servo会定义pulse"
+" bandwidth, 通常是1ms~2ms。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:25 Servo
 msgid ""
@@ -62,51 +64,38 @@ msgid ""
 "and 2 ms pulse rotates the axis to 180 degrees. Furthermore, a servo "
 "defines the “dead bandwidth”, which stands for the required minimum "
 "difference of the length of two consecutive pulse for the servo to work."
-msgstr "举例来说, 如果pulse长度是1ms, 轴柄转到0度, 那么1.5ms的pulse长度会让轴柄转到90度, 2ms的pulse长度会让轴柄转到180度。"
-"另外Servo也会定义dead bandwidth, 代表这一次的pulse长度与上一次的差异至少要大于dead bandwidth, Servo才会动作。"
+msgstr ""
+"举例来说, 如果pulse长度是1ms, 轴柄转到0度, 那么1.5ms的pulse长度会让轴柄转到90度, "
+"2ms的pulse长度会让轴柄转到180度。另外Servo也会定义dead bandwidth, "
+"代表这一次的pulse长度与上一次的差异至少要大于dead bandwidth, Servo才会动作。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:31 Servo
 msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr "**AMB21 / AMB22** 接线图如下:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:33 Servo
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:69
-#: Control.rst:74 Control.rst:79 Servo
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:35 Servo
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:39 Servo
 msgid "**AMB23** Wiring Diagram:"
 msgstr "**AMB23** 接线图如下:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:37 Servo
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:39 Servo
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:46 Servo
 msgid "**BW16** Wiring Diagram:"
 msgstr "**BW16** 接线图如下:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:41 Servo
-msgid "|2-1|"
-msgstr ""
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:53 Servo
+msgid "**BW16-TypeC** Wiring Diagram:"
+msgstr "**BW16-TypeC** 接线图如下:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:44 Servo
-msgid ""
-"Open the example, ``“File” -> “Examples” -> “AmebaAnalog” -> "
-"“ServoSweep”``"
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:60 Servo
+msgid "Open the example, ``“File” → “Examples” → “AmebaAnalog” → “ServoSweep”``"
 msgstr "然后打开范例程式 “File” -> “Examples” -> “AmebaAnalog” -> “ServoSweep”"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:46 Servo
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:63 Servo
 msgid ""
 "This example makes the servo to rotate from degree 0 to 180, and then "
 "rotate back to degree 0."
 msgstr "这个范例会让Servo从0度转到180度, 再从180度转回0度。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:48 Servo
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:66 Servo
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
@@ -114,21 +103,36 @@ msgstr ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:52 Servo
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:70 Servo
 msgid ""
 "The Servo API of Ameba is similar to the API of Arduino. To distinguish "
 "from the original API of Arduino, we name the header file “AmebaServo.h” "
 "and the Class “AmebaServo”, the usage is identical to the Arduino API."
-msgstr "Ameba的Servo API仿照Arduino的API, 但是Arduino已经有原生的Servo API, "
+msgstr ""
+"Ameba的Servo API仿照Arduino的API, 但是Arduino已经有原生的Servo API, "
 "所以header档我们改成“AmebaServo.h”, Class的名称也改成AmebaServo , 除此之外使用方式跟Arduino一样。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:56 Servo
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:74 Servo
 msgid ""
 "The default pulse bandwidth of Arduino Servo is 0.5ms~2.4ms, which is the"
 " same as Tower Pro SG90. Therefore, we set the attached pin directly:"
-msgstr "Arduino Servo预设的pulse bandwidth为0.5ms~2.4ms, 刚好与Power Pro SG90一样，所以attach的部份直接设定要接的pin:"
+msgstr ""
+"Arduino Servo预设的pulse bandwidth为0.5ms~2.4ms, 刚好与Power Pro "
+"SG90一样，所以attach的部份直接设定要接的pin:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:63 Servo
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Control.rst:81 Servo
 msgid "Next, rotate the axis to desired position:"
 msgstr "接着让轴柄转至设定的角度, 其中write里面填的是角度"
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "|2-1|"
+#~ msgstr ""
 

@@ -34,10 +34,14 @@ corresponding BLE battery service to read the battery level data.
 On the first Ameba board, upload the BLEBatteryService example code and
 let it run.
 
-For the second Ameba board, open the example ``“Files” -> “Examples” ->
-“AmebaBLE” -> “BLEBatteryClient”``.
+For the second Ameba board, open the example ``“Files” → “Examples” →
+“AmebaBLE” → “BLEBatteryClient”``.
 
-   |1|
+.. image:: /media/ambd_arduino/BLE_Battery_Client/image1.png
+   :align: center
+   :width: 832
+   :height: 1006 
+   :scale: 70 %
    
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -46,7 +50,10 @@ Open the serial monitor and observe the log messages as the Ameba board
 with the battery client scans, connects, and reads data from the Ameba
 board with the battery service.
 
-   |2|
+.. image:: /media/ambd_arduino/BLE_Battery_Client/image2.png
+   :align: center
+   :width: 741
+   :height: 588 
 
 Highlighted in yellow, the Ameba board with the battery client first
 scans for advertising BLE devices with the advertised device name
@@ -74,12 +81,3 @@ characteristics on the connected device.
    operation.
  - ``addClient(connID)`` creates a new BLEClient object that corresponds to the
    connected device.
-
-.. |1| image:: /media/ambd_arduino/BLE_Battery_Client/image1.png
-   :width: 832
-   :height: 1006
-   :scale: 60 %
-.. |2| image:: /media/ambd_arduino/BLE_Battery_Client/image2.png
-   :width: 741
-   :height: 588
-   :scale: 60 %

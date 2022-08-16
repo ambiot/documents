@@ -20,9 +20,9 @@ function describes how to use the RTC API. The RTC function is
 implemented by an independent BCD timer/counter.
 
 | Select the correct Ameba development board from the Arduino IDE:
-  "Tools" -> "Board". 
+  "Tools" → "Board". 
 | Then open the “RTC” example from:
-| ``"File" -> "Examples" -> "AmebaRTC" -> "RTC"``:
+| ``"File" → "Examples" → "AmebaRTC" → "RTC"``:
 
   |1|
 

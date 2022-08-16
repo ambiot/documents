@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
 #: Screen.rst:3
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
 #: Screen.rst:12
@@ -51,22 +51,12 @@ msgstr ""
 "html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:20
+#: Screen.rst:19
 msgid "Normally there are many pins on an LCD display, as shown in below figure."
 msgstr "一般LCD有許多pin腳, 以手上這片LCD為例有16個pin"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:21
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:81
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:24
+#: Screen.rst:29
 msgid ""
 "An LCD display can be equipped with an additional processing chip to "
 "process the data. The processing chip can connect to a microcontroller "
@@ -74,148 +64,141 @@ msgid ""
 msgstr "直接控制LCD的話會用掉許多pin, 在資料處理上也很麻煩, 所以一般LCD會有額外的控制晶片幫忙處理, 並且使用I2C介面控制這塊控制晶片。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:26
+#: Screen.rst:33
 msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:28
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:85 Screen.rst:90 Screen.rst:95
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:30
+#: Screen.rst:41
 msgid "**AMB23** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:32
-msgid "|2-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:34
+#: Screen.rst:49
 msgid "**BW16** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:36
-msgid "|2-3|"
+#: Screen.rst:56
+msgid "**BW16-TypeC** Wiring Diagram:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:38
+#: Screen.rst:63
 msgid ""
-"Open the example in ``“File” -> “Examples” -> “AmebaWire” -> "
-"“LCD_HelloWorld”``."
-msgstr "打開範例, “File” -> “Examples” -> “AmebaWire” -> “LCD_HelloWorld”。"
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:39
-msgid "Compile and upload to Ameba, then press the reset button."
-msgstr "編譯並上傳到Ameba, 完成後按Reset按鈕。"
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:41
-msgid ""
-"Then you can see “Hello World” in the first line, and “Ameba” in the "
-"second line displayed on the LCD screen."
-msgstr "範例裡, LCD第一行出現“Hello World”, 第二行出現“Ameba”:"
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:43
-msgid "|3|"
+"Open the example in ``“File” → “Examples” → “AmebaWire” → "
+"“LCD_HelloWorld”``. Compile and upload to Ameba, then press the reset "
+"button. Then you can see “Hello World” in the first line, and “Ameba” in "
+"the second line displayed on the LCD screen."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:100
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:45
+#: Screen.rst:74
 msgid ""
 "After 8 seconds, you can input to the Serial Monitor the string you would"
 " like to display on the LCD."
 msgstr "等8秒之後出現提示可以從Serial Monitor輸入要顯示的字串:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:48
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:105
-msgid "4"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:50
+#: Screen.rst:83
 msgid "For example, we enter “123456789” and press “Send”:"
 msgstr "在Serial Monitor 輸入“123456789” 之後按下“Send”, 顯示在LCD上:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:52
-msgid "|5|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:110
-msgid "5"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:54
+#: Screen.rst:91
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
-"説明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:58
+#: Screen.rst:95
 msgid ""
 "The required settings of each model of LCD might be different, the "
 "constructor we use in this example is:"
 msgstr "每款LCD的I2C控制板需要設定的內容都不一樣,範例裡使用的constructor:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:67
+#: Screen.rst:104
 msgid "And the setting parameters are as follows:"
 msgstr "設定的內容如下:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:73
+#: Screen.rst:110
 msgid ""
 "The first parameter 0x27 is the address of I2C. Each of the following 8 "
 "parameters represents the meaning of each bit in a byte, i.e., En is bit "
 "2, Rw is bit 1, Rs is bit 0, d4 is bit 4, and so forth."
 msgstr ""
-"其中I2C的address是0x27, 後面八個參數代表1個byte裡, 每個bit代表的意義,"
-"其中En為Bit 2, Rw為Bit 1, Rs為Bit 0, d4為bit 4, 以此類推
-每款LCD需要設定的內容可能不一樣, 要參考datasheet做設定。"
-
+"其中I2C的address是0x27, 後面八個參數代表1個byte裡, 每個bit代表的意義,其中En為Bit 2, Rw為Bit 1, "
+"Rs為Bit 0, d4為bit 4, 以此類"
 
 #: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:77
-msgid "Call ``backlight()`` to light the screen,"
-msgstr "呼叫 backlight() 打開背光使螢幕亮起"
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:78
-msgid "Call ``setCursor(0, 0)`` to set the position of the cursor."
-msgstr "呼叫 setCursor(0, 0) 指定游標的位置, 第一個參數是行, 第二個參數是列"
-
-#: - ../../source/ambd_arduino/examples/peripheral/I2C Data Display LCD On
-#: Screen.rst:79
+#: Screen.rst:114
+#, fuzzy
 msgid ""
-"LCD inherits the Print class, so we can use ``lcd.print()`` to output "
-"string on the screen."
+"Call ``backlight()`` to light the screen, Call ``setCursor(0, 0)`` to set"
+" the position of the cursor. LCD inherits the Print class, so we can use "
+"``lcd.print()`` to output string on the screen."
 msgstr "LCD 繼承了Print class, 所以可以使用 lcd.print() 來輸出要顯示的字串"
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|2-1|"
+#~ msgstr ""
+
+#~ msgid "|2-3|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the example in ``“File” -> "
+#~ "“Examples” -> “AmebaWire” -> "
+#~ "“LCD_HelloWorld”``."
+#~ msgstr "打開範例, “File” -> “Examples” -> “AmebaWire” -> “LCD_HelloWorld”。"
+
+#~ msgid "Compile and upload to Ameba, then press the reset button."
+#~ msgstr "編譯並上傳到Ameba, 完成後按Reset按鈕。"
+
+#~ msgid ""
+#~ "Then you can see “Hello World” in"
+#~ " the first line, and “Ameba” in "
+#~ "the second line displayed on the "
+#~ "LCD screen."
+#~ msgstr "範例裡, LCD第一行出現“Hello World”, 第二行出現“Ameba”:"
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
+#~ msgstr ""
+
+#~ msgid "Call ``backlight()`` to light the screen,"
+#~ msgstr "呼叫 backlight() 打開背光使螢幕亮起"
+
+#~ msgid "Call ``setCursor(0, 0)`` to set the position of the cursor."
+#~ msgstr "呼叫 setCursor(0, 0) 指定游標的位置, 第一個參數是行, 第二個參數是列"
 

@@ -21,10 +21,10 @@ set at 16:00:00 and an alarm at 16:00:10. When the time matches, “Alarm Match�
 information will be printed on the serial monitor.
 
 First, select the correct Ameba development board from the Arduino IDE: 
-“Tools” -> “Board”.
+“Tools” → “Board”.
 
 Then open the "RTCAlarm" example from: 
-``“File” -> “Examples” -> “RTC” -> “RTCAlarm”``:
+``“File” → “Examples” → “RTC” → “RTCAlarm”``:
 
   |1|
 

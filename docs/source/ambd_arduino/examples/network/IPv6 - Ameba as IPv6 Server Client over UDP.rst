@@ -33,7 +33,7 @@ Open Serial Monitor and copy the IPv6 address of the Server (the highlighted are
     |3|
 
 Step 2. IPv6UDPClient
-Now take the second Ameba D and open another example, ``“Files” -> “Examples” -> “WiFi” -> “IPv6UDPClient”``.
+Now take the second Ameba D and open another example, ``“Files” → “Examples” → “WiFi” → “IPv6UDPClient”``.
     
     |4| 
 

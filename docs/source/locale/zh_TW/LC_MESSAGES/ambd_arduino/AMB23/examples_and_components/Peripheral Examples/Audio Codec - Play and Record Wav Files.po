@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 02:53+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:3 Play
 #: Record Wav and
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:12
 #: Play Record Wav and
@@ -63,7 +63,8 @@ msgid ""
 " demo. (In this example, the sample name is "
 "“Test_Audio_48khz_16bit_stereo.wav”. ) Then insert the MicroSD card into "
 "the adapter at the back of the board."
-msgstr "由於 AMB23 板上有一個內建麥克風，因此不需要任何外部麥克風。 將範例 wav 文件複製到 MicroSD 卡中進行示範。 "
+msgstr ""
+"由於 AMB23 板上有一個內建麥克風，因此不需要任何外部麥克風。 將範例 wav 文件複製到 MicroSD 卡中進行示範。 "
 "（在此範例中，範例名稱為“Test_Audio_48khz_16bit_stereo.wav”。）然後將 MicroSD 卡插入板子背面的插槽中。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:23
@@ -83,8 +84,9 @@ msgstr "**範例 01 PlaybackWavFile**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:27
 #: Play Record Wav and
+#, fuzzy
 msgid ""
-"Open the example, ``“Files” -> “Examples” -> “AmebaAudioCodec” -> "
+"Open the example, ``“Files” → “Examples” → “AmebaAudioCodec” → "
 "“PlaybackWavFile”``."
 msgstr "打開範例，“Files” -> “Examples” -> “AmebaAudioCodec” -> “PlaybackWavFile”。"
 
@@ -113,8 +115,9 @@ msgstr "**範例 02 RecordWavFile**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:36
 #: Play Record Wav and
+#, fuzzy
 msgid ""
-"Open the example, ``“Files” -> “Examples” -> “AmebaAudioCodec” -> "
+"Open the example, ``“Files” → “Examples” → “AmebaAudioCodec” → "
 "“RecordWavFile”``."
 msgstr "打開範例，“Files” -> “Examples” -> “AmebaAudioCodec” -> “RecordWavFile”。"
 
@@ -134,8 +137,9 @@ msgid ""
 "Define a GPIO/button(Input high to active) for ``RECORDBTN``. Define the "
 "``filename[]`` for name of the storge wav file. In this example the name "
 "is “Test_Recording_48khz_16bit_mono.wav”."
-msgstr "為“RECORDBTN”定義一個GPIO/按鈕（高準位觸發）。 定義“filename[]”作為儲存 wav 文件的名稱。"
-"在此範例中，名稱為“Test_Recording_48khz_16bit_mono.wav”。"
+msgstr ""
+"為“RECORDBTN”定義一個GPIO/按鈕（高準位觸發）。 定義“filename[]”作為儲存 wav "
+"文件的名稱。在此範例中，名稱為“Test_Recording_48khz_16bit_mono.wav”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:41
 #: Files.rst:55 Play Record Wav and
@@ -150,8 +154,9 @@ msgid ""
 "Input high to ``RECORDBTN``, then record voice by on board mic. When "
 "input is low the record stops. The recorded voice will be stored in "
 "“Test_Recording_48khz_16bit_mono.wav” that located at MicroSD card."
-msgstr "高準位觸發“RECORDBTN”，然後通過板載麥克風錄製語音。 低準位觸發來停止錄製。"
-"錄製完的語音將儲存在 MicroSD 卡上的“Test_Recording_48khz_16bit_mono.wav”中。"
+msgstr ""
+"高準位觸發“RECORDBTN”，然後通過板載麥克風錄製語音。 低準位觸發來停止錄製。錄製完的語音將儲存在 MicroSD "
+"卡上的“Test_Recording_48khz_16bit_mono.wav”中。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:44
 #: Play Record Wav and
@@ -160,8 +165,9 @@ msgstr "**範例 03 RecordPlaybackWav**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:46
 #: Play Record Wav and
+#, fuzzy
 msgid ""
-"Open the example, ``“Files” -> “Examples” -> “AmebaAudioCodec” -> "
+"Open the example, ``“Files” → “Examples” → “AmebaAudioCodec” → "
 "“RecordPlaybackWav”``."
 msgstr "打開範例，“Files” -> “Examples” -> “AmebaAudioCodec” -> “RecordPlaybackWav”。"
 
@@ -181,7 +187,9 @@ msgid ""
 "This example is a combination of **Example01** and **Example02**. You can"
 " record by **Example02** then play it by jack as the method of "
 "**Example01**."
-msgstr "此範例是 Example01 和 Example02 的組合。 您可以按 **Example02** 錄製，然後按 **Example01** 的方法通過插孔播放聲音。"
+msgstr ""
+"此範例是 Example01 和 Example02 的組合。 您可以按 **Example02** 錄製，然後按 **Example01** "
+"的方法通過插孔播放聲音。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:52
 #: Play Record Wav and
@@ -189,8 +197,7 @@ msgid ""
 "Define a GPIO/button(Input high to active) for ``RECORDBTN``. Define the "
 "``filename[]`` for name of the storge wav file. In this example the name "
 "is"
-msgstr "為“RECORDBTN”定義一個GPIO/按鈕（高準位觸發）。 定義“filename[]”作為儲存 wav 文件的名稱。" 
-"在此範例中，名稱為 "
+msgstr "為“RECORDBTN”定義一個GPIO/按鈕（高準位觸發）。 定義“filename[]”作為儲存 wav 文件的名稱。在此範例中，名稱為 "
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Files.rst:53
 #: Play Record Wav and

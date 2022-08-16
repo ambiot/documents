@@ -21,8 +21,8 @@ cryptographic protocol designed to provide communications security over
 a computer network, by encrypting the messages passed between server and
 client.
 
-Open the “WiFiSSLClient” example in ``“File” -> “Examples” -> “WiFi”
--> “WiFiSSLClient”``.
+Open the “WiFiSSLClient” example in ``“File” → “Examples” → “WiFi”
+→ “WiFiSSLClient”``.
 
    |1|
 

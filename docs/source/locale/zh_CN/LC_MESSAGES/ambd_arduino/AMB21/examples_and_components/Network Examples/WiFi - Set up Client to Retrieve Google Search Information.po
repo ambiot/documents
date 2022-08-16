@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,12 +56,12 @@ msgstr "这个范例里，我们使用Ameba连上WiFi，作为客户端，从Goo
 #: Information.rst:21 Retrieve Search Set to up
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
-"“Tools” -> “Board”"
+"“Tools” → “Board”"
 msgstr "首先确定板子是 Ameba, “Tools” -> “Board” -> “Arduino Ameba”"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Client Google
 #: Information.rst:23 Retrieve Search Set to up
-msgid "Then open ``“File” -> “Examples” -> “WiFi” -> “WiFiWebClient”``"
+msgid "Then open ``“File” → “Examples” → “WiFi” → “WiFiWebClient”``"
 msgstr ""
 "然后打开 WiFi Web Client的范例, “File” -> “Examples” -> “AmebaWiFi” -> "
 "“WiFiWebClient”"

@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 02:53+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
 #: Output.rst:3
@@ -101,7 +101,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Basic Codec Input
 #: Output.rst:33
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaAudioCodec” -> "
+"Open the example, ``\"Files\" → \"Examples\" → “AmebaAudioCodec” → "
 "“Basic_Input_Output”``."
 msgstr ""
 
@@ -146,5 +146,11 @@ msgstr ""
 #~ "Open the example, ``\"Files\" -> "
 #~ "\"Examples\" -> “AmebaAudioCodec” -> "
 #~ "“BasicInputOutput”``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``\"Files\" -> "
+#~ "\"Examples\" -> “AmebaAudioCodec” -> "
+#~ "“Basic_Input_Output”``."
 #~ msgstr ""
 

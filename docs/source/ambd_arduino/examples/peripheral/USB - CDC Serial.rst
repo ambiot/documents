@@ -56,7 +56,7 @@ Connect the USB pins as shown.
 Procedure
 ---------
 
-Open the example, ``"Files" -> "Examples" -> “AmebaUSB” -> “USBCDCSerial”``.
+Open the example, ``"Files" → "Examples" → “AmebaUSB” → “USBCDCSerial”``.
 
 |5|
 

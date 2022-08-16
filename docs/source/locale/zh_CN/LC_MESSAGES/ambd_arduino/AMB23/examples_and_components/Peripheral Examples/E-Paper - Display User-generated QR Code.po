@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 02:53+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:3 Display
 #: QR User-generated
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:12 Display
 #: QR User-generated
@@ -66,7 +66,9 @@ msgid ""
 "full display capabilities. An integrated circuit contains gate buffer, "
 "source buffer, interface, timing control logic, oscillator, etc… are "
 "supplied with each panel."
-msgstr "2.9英寸有效区域包含296×128像素，并具有白色/黑色全显示功能。每个面板都提供了一个包含gate buffer, source buffer, interface, timing control logic, oscillator等的集成电路。"
+msgstr ""
+"2.9英寸有效区域包含296×128像素，并具有白色/黑色全显示功能。每个面板都提供了一个包含gate buffer, source "
+"buffer, interface, timing control logic, oscillator等的集成电路。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:30 Display
 #: QR User-generated
@@ -75,7 +77,9 @@ msgid ""
 "<https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
 "Paper_(D)_Specification.pdf>`__ to know more information about this "
 "module."
-msgstr "您可以参考官方的 `2.9 inch e-Paper HAT(D) datasheet <https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
+msgstr ""
+"您可以参考官方的 `2.9 inch e-Paper HAT(D) datasheet "
+"<https://www.waveshare.net/w/upload/b/b5/2.9inch_e-"
 "Paper_(D)_Specification.pdf>`__ ，以了解有关此模块的更多信息。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:32 Display
@@ -83,111 +87,37 @@ msgstr "您可以参考官方的 `2.9 inch e-Paper HAT(D) datasheet <https://www
 msgid "Front view of the e-Paper Module:"
 msgstr "e-Paper模块:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:34 Display
-#: QR User-generated
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:83 Display
-#: QR User-generated
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:36 Display
+#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:39 Display
 #: QR User-generated
 msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr "**AMB21 / AMB22** 接线图："
 
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:38 Display
-#: QR User-generated
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:87 Display
-#: QR User-generated
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:40 Display
-#: QR User-generated
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:91 Display
-#: QR User-generated
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:42 Display
+#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:52 Display
 #: QR User-generated
 msgid "**AMB23** Wiring Diagram:"
 msgstr "**AMB23** 接线图："
 
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:44 Display
-#: QR User-generated
-msgid "|2-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:95 Display
-#: QR User-generated
-msgid "2-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:46 Display
-#: QR User-generated
-msgid "|3-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:99 Display
-#: QR User-generated
-msgid "3-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:48 Display
+#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:64 Display
 #: QR User-generated
 msgid "**BW16** Wiring Diagram:"
 msgstr "**BW16** 接线图："
 
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:50 Display
+#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:76 Display
 #: QR User-generated
-msgid "|2-2|"
-msgstr ""
+#, fuzzy
+msgid "**BW16-TypeC** Wiring Diagram:"
+msgstr "**BW16** 接线图："
 
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:103 Display
-#: QR User-generated
-msgid "2-2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:52 Display
-#: QR User-generated
-msgid "|3-2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:107 Display
-#: QR User-generated
-msgid "3-2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:55 Display
+#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:83 Display
 #: QR User-generated
 msgid ""
 "Download the Eink zip library, AmebaEink.zip, at "
-"https://github.com/ambiot/tree/master/Arduino_zip_libraries"
-msgstr "在 https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries 下载 Eink 库 AmebaEink.zip。"
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:58 Display
-#: QR User-generated
-msgid ""
-"Then install the AmebaEink.zip. Open the “DisplayQR” example in ``“File” "
-"→ “Examples” → “AmebaEink” → “DisplayQR”``: |4|"
-msgstr "接着安装 AmebaEink.zip。打开 “DisplayQR” 范例 “File” → “Examples” → “AmebaEink” → “DisplayQR”:"
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:111 Display
-#: QR User-generated
-msgid "4"
+"https://github.com/ambiot/tree/master/Arduino_zip_libraries Then install "
+"the AmebaEink.zip. Open the “DisplayQR” example in ``“File” → “Examples” "
+"→ “AmebaEink” → “DisplayQR”``:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:60 Display
+#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:93 Display
 #: QR User-generated
 msgid ""
 "Modify the URL in the loop() section as your wish, after that, verify and"
@@ -196,59 +126,124 @@ msgid ""
 "your input will be shown on the E-Paper module. The QR code showing below"
 " leads to our Ameba IoT official website: `Ameba ARDUINO "
 "<https://www.amebaiot.com/ameba-arduino-summary>`__"
-msgstr "根据需要修改 loop() 部分中的 URL，然后验证代码并将其上传到 Ameba 板。上传范例代码后，"
-"按重置按钮，根据您输入的 URL 生成的二维码将显示在e-Paper模块上。下面显示的二维码可以连结至我们的 `Ameba IoT <https://www.amebaiot.com/ameba-arduino-summary>`__ 网站."
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:68 Display
-#: QR User-generated
-msgid "|5|"
 msgstr ""
+"根据需要修改 loop() 部分中的 URL，然后验证代码并将其上传到 Ameba 板。上传范例代码后，按重置按钮，根据您输入的 URL "
+"生成的二维码将显示在e-Paper模块上。下面显示的二维码可以连结至我们的 `Ameba IoT "
+"<https://www.amebaiot.com/ameba-arduino-summary>`__ 网站."
 
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:115 Display
-#: QR User-generated
-msgid "5"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:70 Display
+#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:107 Display
 #: QR User-generated
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:76 Display
+#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:111 Display
 #: QR User-generated
 msgid ""
 "[1] We use Good Display GDEH029A1 2.9 Inch / 296×128 Resolution / Partial"
 " Refresh Arduino Sample Code to get the e-Paper successfully Display: "
 "http://www.good-display.com/product/201.html"
-msgstr "[1] 我们使用Good Display GDEH029A1 2.9英寸/ 296×128解析度/部分刷新Arduino范例代码来成功获取e-Paper显示："
-"http://www.good-display.com/product/201.html"
+msgstr ""
+"[1] 我们使用Good Display GDEH029A1 2.9英寸/ 296×128解析度/部分刷新Arduino范例代码来成功获取e-"
+"Paper显示：http://www.good-display.com/product/201.html"
 
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:78 Display
+#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:115 Display
 #: QR User-generated
 msgid ""
 "[2] Provide the link to how to generate a QR code on the E-paper module: "
 "https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-"
 "arduino.html"
-msgstr "[2] 提供如何在e-Paper模块上生成二维码的链接："
-"https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-arduino.html"
+msgstr ""
+"[2] 提供如何在e-"
+"Paper模块上生成二维码的链接：https://eugeniopace.org/qrcode/arduino/eink/2019/07/01"
+"/qrcode-on-arduino.html"
 
-#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:81 Display
+#: - ../../source/ambd_arduino/examples/peripheral/E-Paper Code.rst:118 Display
 #: QR User-generated
 msgid ""
 "[3] A simple library for generating QR codes in C, optimized for "
 "processing and memory-constrained systems: "
 "https://github.com/ricmoo/QRCode#data-capacities"
-msgstr "[3] 用于在 C 中生成 QR 码的库，针对处理和内存受限系统进行了优化："
-"https://github.com/ricmoo/QRCode#data-capacities"
-
+msgstr ""
+"[3] 用于在 C 中生成 QR 码的库，针对处理和内存受限系统进行了优化：https://github.com/ricmoo/QRCode"
+"#data-capacities"
 
 #~ msgid ""
 #~ "Download the Eink zip library, "
 #~ "AmebaEink.zip, at "
 #~ "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries"
+#~ msgstr ""
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|2-1|"
+#~ msgstr ""
+
+#~ msgid "2-1"
+#~ msgstr ""
+
+#~ msgid "|3-1|"
+#~ msgstr ""
+
+#~ msgid "3-1"
+#~ msgstr ""
+
+#~ msgid "|2-2|"
+#~ msgstr ""
+
+#~ msgid "2-2"
+#~ msgstr ""
+
+#~ msgid "|3-2|"
+#~ msgstr ""
+
+#~ msgid "3-2"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the Eink zip library, "
+#~ "AmebaEink.zip, at "
+#~ "https://github.com/ambiot/tree/master/Arduino_zip_libraries"
+#~ msgstr ""
+#~ "在 "
+#~ "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries"
+#~ " 下载 Eink 库 AmebaEink.zip。"
+
+#~ msgid ""
+#~ "Then install the AmebaEink.zip. Open the"
+#~ " “DisplayQR” example in ``“File” → "
+#~ "“Examples” → “AmebaEink” → “DisplayQR”``: "
+#~ "|4|"
+#~ msgstr ""
+#~ "接着安装 AmebaEink.zip。打开 “DisplayQR” 范例 “File”"
+#~ " → “Examples” → “AmebaEink” → "
+#~ "“DisplayQR”:"
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
 #~ msgstr ""
 

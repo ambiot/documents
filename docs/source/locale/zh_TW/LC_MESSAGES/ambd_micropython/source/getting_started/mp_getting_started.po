@@ -590,7 +590,6 @@ msgid "Note::"
 msgstr ""
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst
-#, fuzzy
 msgid ""
 "Not all sets of peripherals shown on the picture/table above are "
 "available on MicroPython, please refer to "
@@ -849,7 +848,6 @@ msgid "Step 1. Navigate to “Release” folder"
 msgstr "步驟1: 找到 “Release” 文件夾"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:231
-#, fuzzy
 msgid ""
 "After downloading the MicroPython repository from `GitHub "
 "<https://github.com/ambiot/ambd_micropython>`_, you will notice a "
@@ -1011,7 +1009,6 @@ msgid "note::"
 msgstr ""
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:321
-#, fuzzy
 msgid ""
 "If you face any issue, please refer to the "
 ":doc:`../../source/support/FAQ` and :doc:`../../source/support/Trouble "

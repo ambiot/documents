@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:3 Measure
 #: Temperature and
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:12 Measure
 #: Temperature and
@@ -50,78 +50,56 @@ msgstr ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例説明** :raw-"
 "html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:22 Measure
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:19 Measure
 #: Temperature and
 msgid ""
 "DHT11 is a temperature and humidity sensor which operates at voltage "
 "3.3V~5V. At room temperature, the measurable range of the humidity is 20%"
 " ~ 90%RH with ±5%RH precision, the measurable range of the temperature is"
 " 0 ~ 50℃ with ±2℃ precision."
-msgstr "DHT11結合溫度與濕度的傳感器，工作電壓在3.3V~5V，在常溫下可量測濕度20% ~ 90%RH，精準度±5%RH，溫度可量測0 ~ 50℃，精準度±2 ℃。"
+msgstr ""
+"DHT11結合溫度與濕度的傳感器，工作電壓在3.3V~5V，在常溫下可量測濕度20% ~ 90%RH，精準度±5%RH，溫度可量測0 ~ "
+"50℃，精準度±2 ℃。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:26 Measure
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:24 Measure
 #: Temperature and
+#, fuzzy
 msgid ""
 "Another choice of temperature and humidity sensor is DHT22 sensor, which "
 "has better precision. Its measurable range of the humidity is 0%~100%RH "
 "with ±5%RH precision, the measurable range of the temperature is -40~125 "
-"℃ with ±0.2℃ precision."
+"℃ with ±0.2℃ precision. There are 4 pins on the sensor:"
 msgstr "DHT22則精準度較高, 濕度可量測0%~100%RH，精準度±5%RH，溫度可量測-40 ~ 125 ℃，精準度±0.2℃。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:27 Measure
-#: Temperature and
-msgid "There are 4 pins on the sensor:"
-msgstr "兩者的pin腳都是一樣的，總共有4隻腳:"
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:29 Measure
-#: Temperature and
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:84 Measure
-#: Temperature and
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:31 Measure
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:35 Measure
 #: Temperature and
 msgid ""
 "Since one of the 4 pins has no function, there are temperature/humidity "
 "sensors with only 3 pins on the market:"
 msgstr "其中有一隻腳目前沒有作用，所以市面上也看的到重新包裝成3隻腳的版本:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:34 Measure
-#: Temperature and
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:89 Measure
-#: Temperature and
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:36 Measure
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:43 Measure
 #: Temperature and
 msgid ""
 "DHT is normally in the sleeping mode. To get the temperature/humidity "
 "data, please follow the steps:"
 msgstr "上電之後，平常DHT都處於睡眠模式，要從DHT取得溫濕度，需要以下步驟："
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:39 Measure
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:46 Measure
 #: Temperature and
 msgid ""
 "Awake DHT: Ameba toggles low its DATA pin of GPIO. Now the DATA pin of "
 "GPIO serves as digital out to Ameba."
 msgstr "喚醒DHT：Ameba將DATA pin 這根GPIO toggle low，此時DATA GPIO對AMEBA來說是digital out"
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:42 Measure
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:49 Measure
 #: Temperature and
 msgid ""
 "DHT response: DHT also toggle low its DATA pin of GPIO. Now the DATA pin "
 "of GPIO serves as digital in for Ameba."
 msgstr "等待DHT回應：DHT也將DATA pin這根GPIO toggle low，此時DATA GPIO對AMEBA來說是digital in"
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:45 Measure
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:52 Measure
 #: Temperature and
 msgid ""
 "DHT sends data: DHT sends out the temperature/humidity data (which has "
@@ -130,105 +108,109 @@ msgid ""
 "duration of high is smaller than low, it stands for bit 0. Otherwise it "
 "stands for bit 1."
 msgstr ""
-"DHT將溫濕度資料送出：DHT將5 bytes的溫濕度資料送出，此時DATA GPIO對AMEBA來說是digital in。"
-" DHT會將5 bytes = 40 bits，以每個bit的方式送出，每個bit的表示方式是，"
-"DHT會先將DATA GPIO pull low 一段時間，再pull high，如果pull high的時間小於pull low的時間就是bit 0, 如果pull high的時間大於pull high的時間就是bi​​t 1"
+"DHT將溫濕度資料送出：DHT將5 bytes的溫濕度資料送出，此時DATA GPIO對AMEBA來說是digital in。 DHT會將5 "
+"bytes = 40 bits，以每個bit的方式送出，每個bit的表示方式是，DHT會先將DATA GPIO pull low "
+"一段時間，再pull high，如果pull high的時間小於pull low的時間就是bit 0, 如果pull high的時間大於pull "
+"high的時間就是bi​​t 1"
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:51 Measure
-#: Temperature and
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:94 Measure
-#: Temperature and
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:53 Measure
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:63 Measure
 #: Temperature and
 msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:55 Measure
-#: Temperature and
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:99 Measure
-#: Temperature and
-msgid "4"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:57 Measure
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:71 Measure
 #: Temperature and
 msgid "**AMB23** Wiring Diagram:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:59 Measure
-#: Temperature and
-msgid "|4-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:103
-#: Measure Temperature and
-msgid "4-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:61 Measure
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:79 Measure
 #: Temperature and
 msgid "**BW16** Wiring Diagram:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:63 Measure
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:86 Measure
 #: Temperature and
-msgid "|4-3|"
+msgid "**BW16-TypeC** Wiring Diagram:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:107
-#: Measure Temperature and
-msgid "4-3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:66 Measure
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:94 Measure
 #: Temperature and
+#, fuzzy
 msgid ""
-"Open the sample code in ``“Files” -> “Examples” -> “AmebaGPIO” -> "
+"Open the sample code in ``“Files” → “Examples” → “AmebaGPIO” → "
 "“DHT_Tester”``. Compile and upload to Ameba, then press the reset button."
 " The result would be shown on the Serial Monitor."
-msgstr "打開範例程式， “Files” -> “Examples” -> “AmebaGPIO” -> “DHT_Tester”，編譯並上傳到Ameba，完成之後按Reset按鈕。測量結果會顯示在Serial Monitor上"
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:70 Measure
-#: Temperature and
-msgid "|5|"
 msgstr ""
+"打開範例程式， “Files” -> “Examples” -> “AmebaGPIO” -> "
+"“DHT_Tester”，編譯並上傳到Ameba，完成之後按Reset按鈕。測量結果會顯示在Serial Monitor上"
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:111
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:104
 #: Measure Temperature and
-msgid "5"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:72 Measure
-#: Temperature and
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
-"説明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:76 Measure
-#: Temperature and
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:108
+#: Measure Temperature and
 msgid ""
 "Use ``dht.readHumidity()`` read the humidity value, and use "
 "``dht.readTemperature()`` to read the temperature value."
 msgstr "dht.readHumidity() 可以讀取濕度，dht.readTemperature()可以讀取溫度。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:79 Measure
-#: Temperature and
+#: - ../../source/ambd_arduino/examples/peripheral/GPIO Humidity.rst:111
+#: Measure Temperature and
 msgid ""
 "Every time we read the temperature/humidity data, Ameba uses the buffered"
 " temperature/humidity data unless it found the data has expired (i.e., "
 "has not been updated for over 2 seconds). If the data is expired, Ameba "
 "issues a request to DHT to read the latest data."
 msgstr "每次讀值的時候，都直接拿現有的數據使用。如果發現暫存的溫濕度數據已經兩秒沒更新，才會主動向DHT要數據。"
+
+#~ msgid "There are 4 pins on the sensor:"
+#~ msgstr "兩者的pin腳都是一樣的，總共有4隻腳:"
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|4-1|"
+#~ msgstr ""
+
+#~ msgid "4-1"
+#~ msgstr ""
+
+#~ msgid "|4-3|"
+#~ msgstr ""
+
+#~ msgid "4-3"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
+#~ msgstr ""
 

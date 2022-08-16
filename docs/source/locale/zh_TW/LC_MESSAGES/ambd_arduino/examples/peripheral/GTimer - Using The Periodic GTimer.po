@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 02:20+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:3 Periodic
 #: The Using
@@ -58,7 +58,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:21
 #: Periodic The Using
 msgid ""
-"Open the example, ``“File” -> “Examples” -> “AmebaGTimer” -> "
+"Open the example, ``“File” → “Examples” → “AmebaGTimer” → "
 "“TimerPeriodical”``. Compile and upload to Ameba, and press reset."
 msgstr ""
 
@@ -102,4 +102,11 @@ msgid ""
 "The GTimer is periodic by default, therefore “myhandler” function is "
 "called every second. When we want to stop the GTimer, use ``stop()``:"
 msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``“File” -> “Examples”"
+#~ " -> “AmebaGTimer” -> “TimerPeriodical”``. "
+#~ "Compile and upload to Ameba, and "
+#~ "press reset."
+#~ msgstr ""
 

@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:3 Simple
 msgid "RTC - Simple RTC"
@@ -26,8 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:12 Simple
 msgid "AmebaD [AMB21 / AMB22 / AMB23 / BW16] x 1"
@@ -49,9 +49,10 @@ msgid ""
 msgstr "本范例说明如何使用RTC库方法。此函数描述如何使用RTC API。 RTC功能由独立的BCD timer/counter实现。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:23 Simple
+#, fuzzy
 msgid ""
 "Select the correct Ameba development board from the Arduino IDE: "
-"\"Tools\" -> \"Board\"."
+"\"Tools\" → \"Board\"."
 msgstr "从Arduino IDE中选择正确的Ameba开发板：“Tools”->“Board”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:24 Simple
@@ -59,7 +60,7 @@ msgid "Then open the “RTC” example from:"
 msgstr "接着打开 “RTC” 范例:"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:25 Simple
-msgid "``\"File\" -> \"Examples\" -> \"AmebaRTC\" -> \"RTC\"``:"
+msgid "``\"File\" → \"Examples\" → \"AmebaRTC\" → \"RTC\"``:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:27 Simple
@@ -90,8 +91,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:39 Simple
 msgid "[1] Simple RTC example from Arduino Tutorials:"
@@ -100,4 +101,7 @@ msgstr "[1] Arduino教学中的RTC范例:"
 #: - ../../source/ambd_arduino/examples/peripheral/RTC RTC.rst:40 Simple
 msgid "https://www.arduino.cc/en/Tutorial/SimpleRTC"
 msgstr ""
+
+#~ msgid "``\"File\" -> \"Examples\" -> \"AmebaRTC\" -> \"RTC\"``:"
+#~ msgstr ""
 

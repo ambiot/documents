@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:3
 #: Save Sleep and for
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:12
 #: Save Sleep and for
@@ -72,9 +72,9 @@ msgid ""
 "enter DeepSleep Mode for power save. System will wake up by wakeup "
 "source.( Aon timer, Aon Pins or RTC timer)."
 msgstr ""
-"Ameba-D支持低功耗模式，即深度睡眠模式。 深度睡眠模式會關閉大多數系統power domain。"
-"DeepSleep模式下核心模塊的功耗約為7uA至8uA，而正常狀態下約為22mA。 這個範例演示了系統在“工作”和“睡眠”之間的切換（省電）。"
-"當系統處於喚醒狀態時，使用DHT傳感器讀取數據並在LCD屏幕上顯示。 "
+"Ameba-D支持低功耗模式，即深度睡眠模式。 深度睡眠模式會關閉大多數系統power "
+"domain。DeepSleep模式下核心模塊的功耗約為7uA至8uA，而正常狀態下約為22mA。 "
+"這個範例演示了系統在“工作”和“睡眠”之間的切換（省電）。當系統處於喚醒狀態時，使用DHT傳感器讀取數據並在LCD屏幕上顯示。 "
 "5秒鐘後，系統自動進入DeepSleep模式以節電。 系統將通過喚醒源（Aon計時器，Aon引腳或RTC計時器）喚醒。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:31
@@ -84,8 +84,9 @@ msgstr "**步驟**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:33
 #: Save Sleep and for
+#, fuzzy
 msgid ""
-"Open ``“File” -> “Examples” -> “AmebaPowerSave” -> "
+"Open ``“File” → “Examples” → “AmebaPowerSave” → "
 "“DeepSleep_DHT_LCD_Example”``"
 msgstr "打開 “File” -> “Examples” -> “AmebaPowerSave” -> “DeepSleep_DHT_LCD_Example”"
 
@@ -94,7 +95,7 @@ msgstr "打開 “File” -> “Examples” -> “AmebaPowerSave” -> “DeepSl
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:91
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:92
 #: Save Sleep and for
 msgid "1"
 msgstr ""
@@ -142,7 +143,9 @@ msgid ""
 "For AMB23, there are 8 pins that can be set as AON pins and active high "
 "for wakeup, GPIOA12(D9), GPIOA13(D10), GPIOA14(D11), GPIOA15(D12), "
 "GPIOA16(D13), GPIOA18(D15), GPIOA19(D16), GPIOA21(D18)."
-msgstr "對於AMB23，有8個引腳可以設置為AON引腳和上緣觸發，GPIOA12(D9), GPIOA13(D10), GPIOA14(D11), GPIOA15(D12), GPIOA16(D13), GPIOA18(D15), GPIOA19(D16)、GPIOA21(D18)。"
+msgstr ""
+"對於AMB23，有8個引腳可以設置為AON引腳和上緣觸發，GPIOA12(D9), GPIOA13(D10), GPIOA14(D11), "
+"GPIOA15(D12), GPIOA16(D13), GPIOA18(D15), GPIOA19(D16)、GPIOA21(D18)。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:62
 #: Save Sleep and for
@@ -150,7 +153,9 @@ msgid ""
 "For BW16, there is only 6 pins that can be set as AON pin and active high"
 " for wakeup, GPIOA_25 (D7), GPIOA_26 (D8), GPIOA_15 (D9), GPIOA_14 (D10),"
 " GPIOA_13 (D11), GPIOA_12 (D12)."
-msgstr "對於 BW16，有6個引腳可以設置為AON引腳和上緣觸發，GPIOA_25(D7)、GPIOA_26(D8)、GPIOA_15(D9)、GPIOA_14(D10)、GPIOA_13(D11)、GPIOA_12(D12)。"
+msgstr ""
+"對於 "
+"BW16，有6個引腳可以設置為AON引腳和上緣觸發，GPIOA_25(D7)、GPIOA_26(D8)、GPIOA_15(D9)、GPIOA_14(D10)、GPIOA_13(D11)、GPIOA_12(D12)。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:64
 #: Save Sleep and for
@@ -159,75 +164,78 @@ msgid ""
 " pin that you want to use as shown in the picture below."
 msgstr "這些 AON 引腳可以使用 SET_AON_GPIO_WAKEUP_GPIOA25 或您想使用的引腳進行設置，如下圖所示。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:65
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:66
 #: Save Sleep and for
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:95
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:96
 #: Save Sleep and for
 msgid "2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:67
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:68
 #: Save Sleep and for
 msgid "**Using RTC Timer as wakeup source**"
 msgstr "**使用 RTC 定時器作為喚醒源**"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:70
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:71
 #: Save Sleep and for
 msgid ""
 "RTC timer wakeup system is by setting alarm. The alarm has 4 values, day,"
 " hour, min and sec. All 4 values can be set by ``DS_RTC_ALARM_DAY``, "
 "``DS_RTC_ALARM_HOUR``, ``DS_RTC_ALARM_MIN``, and ``DS_RTC_ALARM_SEC``"
-msgstr "RTC定時器通過設置鬧鐘喚醒系統。 鬧鐘具有4個值，日，時，分和秒。 可以通過DS_RTC_ALARM_DAY，DS_RTC_ALARM_HOUR，DS_RTC_ALARM_MIN和DS_RTC_ALARM_SEC設置所有4個值。"
+msgstr ""
+"RTC定時器通過設置鬧鐘喚醒系統。 鬧鐘具有4個值，日，時，分和秒。 "
+"可以通過DS_RTC_ALARM_DAY，DS_RTC_ALARM_HOUR，DS_RTC_ALARM_MIN和DS_RTC_ALARM_SEC設置所有4個值。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:73
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:74
 #: Save Sleep and for
 msgid ""
 "``DHTPIN`` is used to set DHT sensor data pin. User can choose any GPIO "
 "pins."
 msgstr "DHTPIN用於設置DHT傳感器數據引腳。 用戶可以選擇任何GPIO引腳。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:74
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:75
 #: Save Sleep and for
 msgid "``DHTTYPE`` is used to set DHT sensor type. (DHT11, DHT22 and DHT33)"
 msgstr "DHTTYPE用於設置DHT傳感器類型。 （DHT11，DHT22和DHT33）"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:76
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:77
 #: Save Sleep and for
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:99
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:100
 #: Save Sleep and for
 msgid "3"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:78
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:79
 #: Save Sleep and for
 msgid ""
 "When finished the condition values setting, system will run and switch "
 "between normal working mode and deepsleep mode controlled by wakeup "
 "source. LCD screen will display the temperature and humidity data "
 "measured from DHT sensor when system is awake."
-msgstr "當完成設置后，系統將會運行在正常模式和深睡眠模式之間切換。在正常模式和深睡眠模式之間，由喚醒源控制。"
-"液晶屏幕會在系統和處於喚醒狀態時，顯示從DHT傳感器測得的溫度和濕度數據。"
+msgstr "當完成設置后，系統將會運行在正常模式和深睡眠模式之間切換。在正常模式和深睡眠模式之間，由喚醒源控制。液晶屏幕會在系統和處於喚醒狀態時，顯示從DHT傳感器測得的溫度和濕度數據。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:83
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:84
 #: Save Sleep and for
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
-"説明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:87
+#: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep LCD.rst:88
 #: Save Sleep and for
 msgid ""
 "Please refer to the `API Documents <https://www.amebaiot.com/rtl8722dm-"
 "arduino-online-api-documents/>`__ PowerSave section for detail "
 "description of all API."
-msgstr "請參考 `API 文件 <https://www.amebaiot.com/rtl8722dm-arduino-online-api-documents/>`__ 相關的說明。"
+msgstr ""
+"請參考 `API 文件 <https://www.amebaiot.com/rtl8722dm-arduino-online-api-"
+"documents/>`__ 相關的說明。"
 

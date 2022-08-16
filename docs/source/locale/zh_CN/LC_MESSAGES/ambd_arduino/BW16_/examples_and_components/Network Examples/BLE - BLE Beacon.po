@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-07 07:08+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,7 +80,7 @@ msgstr "在比较常见的BLE信标协议中，Ameba BLEBeacon库支持iBeacon�
 msgid "**Procedure**"
 msgstr "**流程**"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:40
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:38
 msgid ""
 "First, you need to install some Bluetooth apps on your mobile phone. "
 "These apps will show you the raw data sent by Ameba and allow you to "
@@ -94,12 +94,9 @@ msgid ""
 msgstr "这里推荐的应用程序是nRF connect，可在下面的链接中找到:"
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:45
-#: Beacon.rst:53
-msgid "Android"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:45
-msgid ": https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp"
+msgid ""
+"Android: "
+"https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:47
@@ -112,110 +109,126 @@ msgid ""
 "less features:"
 msgstr "LightBlue是另一种也可以使用的应用程序，但是它的特性比较少:"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:53
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:52
 msgid ""
-": "
+"Android: "
 "https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:55
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:54
 msgid "iOS :https://apps.apple.com/us/app/lightblue/id557428110"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:57
-msgid "Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> “BLEBeacon”``"
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:56
+#, fuzzy
+msgid "Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEBeacon”``"
 msgstr "打开Arduino的范例，”Files” -> “Examples” -> “AmebaBLE” -> “BLEBeacon”"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:59
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:107
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:62
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:65
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
 msgstr "上传代码并在上传完成后按下Ameba上的reset按钮。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:65
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:68
 msgid ""
 "On your mobile phone, open the Bluetooth app and scan for the beacon "
 "signal broadcast by Ameba."
 msgstr "在您的手机上，打开蓝牙app，扫描Ameba广播的信标信号。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:68
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:111
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:70
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:77
 msgid ""
 "If you happen to be in an environment with multiple BLE beacons, you can "
 "tap the entries to expand them, and verify that the beacon data is "
 "identical to the data in the sketch."
 msgstr "如果您碰巧处在一个BLE信标多而繁杂的环境中，您可以点击条目来展开它们，并验证信标数据是否与程序中的数据相同。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:74
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:81
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:78
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:85
 msgid ""
 "``setRssi()`` is used to set the received signal strength indicator "
 "(rssi) data field for a beacon. The specification states that this should"
 " be the received signal strength from the beacon at a 1 meter distance. "
 "With no method to measure this, it is set to -65dBm as an estimate."
-msgstr "``setRssi()`` 用于设置信标的接收信号强度指示器(rssi)数据字段。规范规定这应该是1米距离内从信标收到的信号强度。由于没有测量方法，因此将估计值设置为-65dBm。"
+msgstr ""
+"``setRssi()`` "
+"用于设置信标的接收信号强度指示器(rssi)数据字段。规范规定这应该是1米距离内从信标收到的信号强度。由于没有测量方法，因此将估计值设置为-65dBm。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:83
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:90
 msgid ""
 "``setMajor()`` and ``setMinor()`` are used to set the two data fields. "
 "The purpose of these data are left for the manufacturer of the beacon to "
 "define, and can be used in any way."
 msgstr "``setMajor()`` 和 ``setMinor()`` 用于设置两个数据字段。这些数据的用途留给信标的制造商来定义，并且可以任意使用。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:87
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:94
 msgid ""
 "``setUUID()`` is used to give the beacon a universally unique identifier "
 "(UUID). This is a 128-bit number usually expressed as a hexadecimal "
 "string. It is used to identify each unique beacon, and can be randomly "
 "generated for free online."
-msgstr "``setUUID()`` 用于给信标一个全局唯一标识符(UUID)。这是一个128位的数字，通常用十六进制字符串表示。它用于识别每个唯一的信标，并且可以免费地在线随机生成。"
+msgstr ""
+"``setUUID()`` "
+"用于给信标一个全局唯一标识符(UUID)。这是一个128位的数字，通常用十六进制字符串表示。它用于识别每个唯一的信标，并且可以免费地在线随机生成。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:92
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:99
 msgid ""
 "The BLEBeacon library includes both iBeacon and AltBeacon classes, "
 "replace line 6 iBeacon with altBeacon to create an AltBeacon instead. The"
 " data fields are mostly the same, with only minor changes, please look at"
 " the header files for more details."
-msgstr "BLEBeacon 库包括iBeacon和AltBeacon类，如果第6行iBeacon替换为AltBeacon，就能创建一个AltBeacon。数据字段基本相同，只有一些小的变化，请查看头文件了解更多细节。"
+msgstr ""
+"BLEBeacon "
+"库包括iBeacon和AltBeacon类，如果第6行iBeacon替换为AltBeacon，就能创建一个AltBeacon。数据字段基本相同，只有一些小的变化，请查看头文件了解更多细节。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:97
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:104
 msgid ""
 "``BLE.init()`` is used to allocate memory and prepare Ameba for starting "
 "the Bluetooth stack."
 msgstr "``BLE.init()`` 用于分配内存并预备Ameba启动蓝牙堆栈。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:100
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:107
 msgid ""
 "``BLE.configAdvert()`` is used to configure the Bluetooth advertisement "
 "settings, to which we pass the beacon data and set the device as non-"
 "connectable."
 msgstr "``BLE.configAdvert()`` 用于配置蓝牙广告设置，我们将信标数据传递给它，并将设备设置为不可连接。"
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:104
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:111
 msgid ""
 "``BLE.beginPeripheral()`` starts Ameba in Bluetooth peripheral mode, "
 "after which it will begin to advertise with the beacon data provided."
 msgstr "``BLE.beginPeripheral()`` 在蓝牙外设模式下启动Ameba，之后它将开始使用提供的信标数据进行广告。"
+
+#~ msgid "Android"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ": "
+#~ "https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ": "
+#~ "https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer"
+#~ msgstr ""
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
 

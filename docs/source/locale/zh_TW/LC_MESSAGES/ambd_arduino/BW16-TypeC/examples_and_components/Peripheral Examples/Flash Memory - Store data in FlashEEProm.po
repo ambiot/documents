@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:28
 #: Memory Store data in
 msgid ""
-"First open the example, ``“File” -> “Example” -> “AmebaFlashMemory” -> "
+"First open the example, ``“File” → “Example” → “AmebaFlashMemory” → "
 "“FlashMemoryBasic”``"
 msgstr ""
 
@@ -135,4 +135,10 @@ msgstr ""
 #: Memory Store data in
 msgid "Use ``FlashMemory.update();`` to update the data in buf to Flash Memory."
 msgstr ""
+
+#~ msgid ""
+#~ "First open the example, ``“File” -> "
+#~ "“Example” -> “AmebaFlashMemory” -> "
+#~ "“FlashMemoryBasic”``"
+#~ msgstr ""
 

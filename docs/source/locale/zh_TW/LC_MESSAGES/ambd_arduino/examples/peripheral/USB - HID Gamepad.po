@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-17 08:18+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:30 HID
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaUSB” -> "
+"Open the example, ``\"Files\" → \"Examples\" → “AmebaUSB” → "
 "“USBHIDGamepad”``."
 msgstr ""
 
@@ -106,8 +106,8 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:53 HID
 msgid ""
-"**“Control Panel”-> “Devices and Printers” -> “Realtek USB HID” -> “Game "
-"Controller Settings” -> “Properties”**"
+"**“Control Panel”→ “Devices and Printers” → “Realtek USB HID” → “Game "
+"Controller Settings” → “Properties”**"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:56 HID
@@ -146,5 +146,17 @@ msgid ""
 msgstr ""
 
 #~ msgid "USB HID Gamepad"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``\"Files\" -> "
+#~ "\"Examples\" -> “AmebaUSB” -> "
+#~ "“USBHIDGamepad”``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**“Control Panel”-> “Devices and Printers” "
+#~ "-> “Realtek USB HID” -> “Game "
+#~ "Controller Settings” -> “Properties”**"
 #~ msgstr ""
 

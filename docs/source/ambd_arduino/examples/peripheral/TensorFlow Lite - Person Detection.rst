@@ -19,18 +19,36 @@ TensorFlow Lite - Person Detection
 
 **Procedure**
 
-| **AMB21 / AMB22** Wiring Diagram: 
-| Connect the camera and LEDs to the RTL8722 board following the diagram.
+**AMB21 / AMB22** Wiring Diagram: 
+Connect the camera and LEDs to the RTL8722 board following the diagram.
   
-  |1|
+.. image:: /media/ambd_arduino/TFL_PersonDetection/image1.png
+   :align: center
+   :width: 777
+   :height: 467
 
-| **AMB23** Wiring Diagram:
+
+**AMB23** Wiring Diagram:
   
-  |1-1|
+.. image:: /media/ambd_arduino/TFL_PersonDetection/image1-1.png
+   :align: center
+   :width: 1067
+   :height: 590
 
-| **BW16** Wiring Diagram:
+**BW16** Wiring Diagram:
 
-  |1-2|
+.. image:: /media/ambd_arduino/TFL_PersonDetection/image1-2.png
+   :align: center
+   :width: 967
+   :height: 557
+
+**BW16-TypeC** Wiring Diagram:
+
+.. image:: /media/ambd_arduino/TFL_PersonDetection/image1-3.png
+   :align: center
+   :width: 1360
+   :height: 770
+
 
 Download the Ameba customized version of TensorFlow Lite for
 Microcontrollers library at
@@ -64,24 +82,33 @@ Open the following file:
    //#define LOAD_SD_LIBRARY // Default SD Card library
    //#define LOAD_SDFAT_LIBRARY // Use SdFat library instead, so SD Card SPI can be bit bashed
 
-Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
+Open the example, ``"Files" → "Examples" → “TensorFlowLite_Ameba” →
 “person_detection”``.
 
-  |2|
+.. image:: /media/ambd_arduino/TFL_PersonDetection/image2.png
+   :align: center
+   :width: 556
+   :height: 830
+   :scale: 70 %
 
-| User can define the LED pins by using any GPIO pins on the boards.  
+User can define the LED pins by using any GPIO pins on the boards.  
+Upload the code and press the reset button on Ameba once the upload is
+finished.
 
-| Upload the code and press the reset button on Ameba once the upload is
-  finished.
-| Once it is running, you should see the blue LED flashing once every few
-  seconds, indicating that it has finished processing an image. The red
-  LED will light up if it determines that there is no person in the
-  previous image captured, and the green LED will light up if it
-  determines that there is a person.
-| The inference results are also output to the Arduino serial monitor,
-  which appear as follows:
+Once it is running, you should see the blue LED flashing once every few
+seconds, indicating that it has finished processing an image. The red
+LED will light up if it determines that there is no person in the
+previous image captured, and the green LED will light up if it
+determines that there is a person.
+
+The inference results are also output to the Arduino serial monitor,
+which appear as follows:
   
-  |3|
+.. image:: /media/ambd_arduino/TFL_PersonDetection/image3.png
+   :align: center
+   :width: 639
+   :height: 477
+
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Code Reference**
@@ -90,23 +117,3 @@ Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
 More information on TensorFlow Lite for Microcontrollers can be found
 at: https://www.tensorflow.org/lite/microcontrollers
 
-.. |1| image:: /media/ambd_arduino/TFL_PersonDetection/image1.png
-   :width: 777
-   :height: 467
-   :scale: 80 %
-.. |1-1| image:: /media/ambd_arduino/TFL_PersonDetection/image1-1.png
-   :width: 1067
-   :height: 590
-   :scale: 60 %
-.. |1-2| image:: /media/ambd_arduino/TFL_PersonDetection/image1-2.png
-   :width: 967
-   :height: 557
-   :scale: 60 %
-.. |2| image:: /media/ambd_arduino/TFL_PersonDetection/image2.png
-   :width: 556
-   :height: 830
-   :scale: 70 %
-.. |3| image:: /media/ambd_arduino/TFL_PersonDetection/image3.png
-   :width: 639
-   :height: 477
-   :scale: 80 %

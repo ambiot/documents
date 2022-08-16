@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,9 +64,10 @@ msgstr "下面我們將分別介紹這三種加密方式的 WiFi 連線方法"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:27 to
+#, fuzzy
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
-"“Tools” -> “Board”."
+"“Tools” → “Board”."
 msgstr "確保在 “Tools” -> “Board” 中選擇了正確的Ameba開發板。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
@@ -78,8 +79,8 @@ msgstr "Open （即無密碼的 WiFi 連線）"
 #: networks.rst:32 to
 #, fuzzy
 msgid ""
-"Open the “ConnectNoEncryption” example in ``“File” -> “Examples” -> "
-"“WiFi” -> “ConnectWithWiFi” -> “ConnectNoEncryption”`` |1| \\"
+"Open the “ConnectNoEncryption” example in ``“File” → “Examples” → “WiFi” "
+"→ “ConnectWithWiFi” → “ConnectNoEncryption”`` |1| \\"
 msgstr ""
 "打開 “ConnectNoEncryption” 的範例，``“File” -> “Examples” -> “AmebaWiFi” -> "
 "“ConnectWithWiFi” -> “ConnectNoEncryption”``"
@@ -126,8 +127,8 @@ msgstr "WPA 加密模式的 WiFi 連線"
 #: networks.rst:47 to
 #, fuzzy
 msgid ""
-"Open the “ConnectWithWPA” example in ``“File” -> “Examples” -> “WiFi” -> "
-"“ConnectWithWiFi” -> “ConnectWithWPA”`` |3|\\"
+"Open the “ConnectWithWPA” example in ``“File” → “Examples” → “WiFi” → "
+"“ConnectWithWiFi” → “ConnectWithWPA”`` |3|\\"
 msgstr ""
 "打開 “ConnectNoEncryption” 的範例，``“File” -> “Examples” -> “AmebaWiFi” -> "
 "“ConnectWithWiFi” -> “ConnectNoEncryption”``"
@@ -153,8 +154,8 @@ msgstr ""
 #: networks.rst:60 to
 #, fuzzy
 msgid ""
-"Open the “ConnectWithWEP” example in ``“File” -> “Examples” -> “WiFi” -> "
-"“ConnectWithWiFi” -> “ConnectWithWEP”`` |4|\\"
+"Open the “ConnectWithWEP” example in ``“File” → “Examples” → “WiFi” → "
+"“ConnectWithWiFi” → “ConnectWithWEP”`` |4|\\"
 msgstr ""
 "打開 “ConnectNoEncryption” 的範例，``“File” -> “Examples” -> “AmebaWiFi” -> "
 "“ConnectWithWiFi” -> “ConnectNoEncryption”``"

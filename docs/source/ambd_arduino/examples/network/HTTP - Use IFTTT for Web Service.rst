@@ -87,7 +87,7 @@ Pinterest etc.
 
 | Once the Applet is ready in the IFTTT dashboard, the example program can be flashed 
   onto the Ameba board to post the HTTP request.
-| Open the example code in ``“File” -> “Examples” -> “WiFi” -> “HTTP_IFTTT_Post”``
+| Open the example code in ``“File” → “Examples” → “WiFi” → “HTTP_IFTTT_Post”``
 | In the example program, edit the following 3 items inside the code to make the 
   program work.
    

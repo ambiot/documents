@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -111,7 +111,7 @@ msgstr ""
 #: Service.rst:40 Shadow Use
 msgid ""
 "Afterwards, log in to the Amazon Management Console and click “IoT Core” "
-"found under services -> Internet of Things."
+"found under services → Internet of Things."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
@@ -447,9 +447,7 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
 #: Service.rst:138 Shadow Use
-msgid ""
-"Open ``“File” -> “Examples” -> “AmebaMQTTClient” -> "
-"“Amazon_AWS_IoT_Basic”``"
+msgid "Open ``“File” → “Examples” → “AmebaMQTTClient” → “Amazon_AWS_IoT_Basic”``"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
@@ -743,4 +741,16 @@ msgid ""
 "If there is, the message is from the control side. If the attribute state"
 " in the message is different from current state, publish the new state."
 msgstr ""
+
+#~ msgid ""
+#~ "Afterwards, log in to the Amazon "
+#~ "Management Console and click “IoT Core”"
+#~ " found under services -> Internet of"
+#~ " Things."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open ``“File” -> “Examples” -> "
+#~ "“AmebaMQTTClient” -> “Amazon_AWS_IoT_Basic”``"
+#~ msgstr ""
 

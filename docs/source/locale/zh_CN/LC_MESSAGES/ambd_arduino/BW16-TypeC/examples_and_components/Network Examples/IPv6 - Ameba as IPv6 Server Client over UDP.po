@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,7 +104,7 @@ msgstr ""
 #: UDP.rst:35 as over
 msgid ""
 "Step 2. IPv6UDPClient Now take the second Ameba D and open another "
-"example, ``“Files” -> “Examples” -> “WiFi” -> “IPv6UDPClient”``."
+"example, ``“Files” → “Examples” → “WiFi” → “IPv6UDPClient”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
@@ -179,4 +179,11 @@ msgstr ""
 #: UDP.rst:85 as over
 msgid "8"
 msgstr ""
+
+#~ msgid ""
+#~ "Step 2. IPv6UDPClient Now take the "
+#~ "second Ameba D and open another "
+#~ "example, ``“Files” -> “Examples” -> "
+#~ "“WiFi” -> “IPv6UDPClient”``."
+#~ msgstr ""
 

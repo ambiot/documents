@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:3
 #: Memory Store data in
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:12
 #: Memory Store data in
@@ -53,8 +53,9 @@ msgid ""
 "To avoid the memory space overlapped with the program on Ameba, the Flash"
 " API uses the tail part of the address space, with sector size 4K."
 msgstr ""
-"Ameba提供Flash Memory供儲存永久性的資料，讓Ameba斷電之後這些資料可以保存。"
-"這些資料包括編譯好的程式。為了避免覆蓋到程式，Flash Api使用位址較後面的區段，大小為一個sector = 4K。"
+"Ameba提供Flash "
+"Memory供儲存永久性的資料，讓Ameba斷電之後這些資料可以保存。這些資料包括編譯好的程式。為了避免覆蓋到程式，Flash "
+"Api使用位址較後面的區段，大小為一個sector = 4K。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:25
 #: Memory Store data in
@@ -66,8 +67,9 @@ msgstr "這個範例裡將開機的次數存到flash裡面，重開機之後將�
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:28
 #: Memory Store data in
+#, fuzzy
 msgid ""
-"First open the example, ``“File” -> “Example” -> “AmebaFlashMemory” -> "
+"First open the example, ``“File” → “Example” → “AmebaFlashMemory” → "
 "“FlashMemoryBasic”``"
 msgstr "首先打開範例, “File” -> “Examples” -> “AmebaFlashMemory” -> “FlashMemoryBasic”"
 
@@ -91,7 +93,9 @@ msgstr "將程式碼編繹並上傳到Ameba，結束之後按Reset按鈕"
 msgid ""
 "Open the Serial Monitor, press the reset button for a few times. Then you"
 " can see the boot times value increases."
-msgstr "接著打開Serial Monitor，按個幾次Reset按鈕，會看到Boot count隨著開機次數而增加，表示開機次數成功地寫入到Flash Memory裡面。"
+msgstr ""
+"接著打開Serial Monitor，按個幾次Reset按鈕，會看到Boot count隨著開機次數而增加，表示開機次數成功地寫入到Flash "
+"Memory裡面。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:34
 #: Memory Store data in
@@ -109,8 +113,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
-"説明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:40
 #: Memory Store data in
@@ -128,9 +132,9 @@ msgid ""
 "uses a 4K SRAM to record the user modification and do the erase/write "
 "task together."
 msgstr ""
-"Flash Memory在讀的時候可以直接讀，但寫入時則有限制，如果前一次該位址已被寫入，則這次寫入會有問題。"
-"要正確的寫入，需要先erase sector，但會一次清除4K大小的Flash memory。"
-"所以Flash API裡面使用4K大小的SRAM，記錄使用者要做的修改，最後再一併erase/write"
+"Flash Memory在讀的時候可以直接讀，但寫入時則有限制，如果前一次該位址已被寫入，則這次寫入會有問題。要正確的寫入，需要先erase "
+"sector，但會一次清除4K大小的Flash memory。所以Flash "
+"API裡面使用4K大小的SRAM，記錄使用者要做的修改，最後再一併erase/write"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash FlashEEProm.rst:49
 #: Memory Store data in

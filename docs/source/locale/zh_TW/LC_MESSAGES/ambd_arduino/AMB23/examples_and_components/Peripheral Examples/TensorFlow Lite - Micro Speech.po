@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-12 10:15+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:12
@@ -109,8 +109,9 @@ msgid ""
 "Download the Ameba customized version of TensorFlow Lite for "
 "Microcontrollers library at "
 "https://github.com/ambiot/tree/master/Arduino_zip_libraries."
-msgstr "從以下網址下載TensorFlow Lite for Microcontrollers的Ameba版本"
-"https://github.com/ambiot/tree/master/Arduino_zip_libraries."
+msgstr ""
+"從以下網址下載TensorFlow Lite for "
+"Microcontrollers的Ameba版本https://github.com/ambiot/tree/master/Arduino_zip_libraries."
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:39
@@ -125,14 +126,14 @@ msgstr ""
 msgid ""
 "Ensure that the patch files found at "
 "https://github.com/ambiot/tree/master/Ameba_misc/ are also installed."
-msgstr "請按照以下說明進行安裝操作"
-"https://github.com/ambiot/tree/master/Ameba_misc/"
+msgstr "請按照以下說明進行安裝操作https://github.com/ambiot/tree/master/Ameba_misc/"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:46
+#, fuzzy
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
-"-> “micro_speech”``."
+"Open the example, ``\"Files\" → \"Examples\" → “TensorFlowLite_Ameba” → "
+"“micro_speech”``."
 msgstr "打開範例， “Files” -> “Examples” -> “TensorFlowLite_Ameba” -> “micro_speech”."
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
@@ -216,15 +217,17 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
-"説明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:77
 msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
 " https://www.tensorflow.org/lite/microcontrollers"
-msgstr "有關TensorFlow Lite for Microcontrollers的更多信息，請參考以下網址: https://www.tensorflow.org/lite/microcontrollers"
+msgstr ""
+"有關TensorFlow Lite for Microcontrollers的更多信息，請參考以下網址: "
+"https://www.tensorflow.org/lite/microcontrollers"
 
 #~ msgid "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
 #~ msgstr ""

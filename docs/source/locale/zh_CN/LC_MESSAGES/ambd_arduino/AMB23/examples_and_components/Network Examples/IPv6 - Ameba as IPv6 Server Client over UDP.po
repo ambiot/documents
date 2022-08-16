@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,9 +106,10 @@ msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: UDP.rst:35 as over
+#, fuzzy
 msgid ""
 "Step 2. IPv6UDPClient Now take the second Ameba D and open another "
-"example, ``“Files” -> “Examples” -> “WiFi” -> “IPv6UDPClient”``."
+"example, ``“Files” → “Examples” → “WiFi” → “IPv6UDPClient”``."
 msgstr ""
 "Step 2. IPv6UDPClient现在以第二个 Ameba D 为例，打开另一个范例，”Files” -> “Examples” -> "
 "“AmebaWiFi” -> “IPv6UDPClient”，"

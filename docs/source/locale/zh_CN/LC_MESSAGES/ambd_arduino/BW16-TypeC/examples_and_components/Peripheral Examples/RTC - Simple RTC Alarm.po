@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,13 +49,13 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:23 RTC Simple
 msgid ""
 "First, select the correct Ameba development board from the Arduino IDE: "
-"“Tools” -> “Board”."
+"“Tools” → “Board”."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:26 RTC Simple
 msgid ""
-"Then open the \"RTCAlarm\" example from: ``“File” -> “Examples” -> “RTC” "
-"-> “RTCAlarm”``:"
+"Then open the \"RTCAlarm\" example from: ``“File” → “Examples” → “RTC” → "
+"“RTCAlarm”``:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:29 RTC Simple
@@ -82,4 +82,16 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/peripheral/RTC Alarm.rst:42 RTC Simple
 msgid "2"
 msgstr ""
+
+#~ msgid ""
+#~ "First, select the correct Ameba "
+#~ "development board from the Arduino IDE:"
+#~ " “Tools” -> “Board”."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Then open the \"RTCAlarm\" example from:"
+#~ " ``“File” -> “Examples” -> “RTC” ->"
+#~ " “RTCAlarm”``:"
+#~ msgstr ""
 

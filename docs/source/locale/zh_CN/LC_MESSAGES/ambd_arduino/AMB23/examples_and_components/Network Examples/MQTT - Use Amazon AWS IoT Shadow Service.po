@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
 #: Service.rst:3 Shadow Use
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
 #: Service.rst:12 Shadow Use
@@ -62,8 +62,9 @@ msgid ""
 "Services and other devices, secure data and interactions, process and act"
 " upon device data, and enable applications to interact with devices even "
 "when they are offline. (https://aws.amazon.com/iot/how-it-works/)"
-msgstr "AWS IoT是一个平台使您可以将设备连接到AWS Services和其他设备，"
-"保护数据，处理设备数据并对其进行操作，并使应用程序即使在离线状态下也可以与设备进行互动。"
+msgstr ""
+"AWS IoT是一个平台使您可以将设备连接到AWS "
+"Services和其他设备，保护数据，处理设备数据并对其进行操作，并使应用程序即使在离线状态下也可以与设备进行互动。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
 #: Service.rst:24 Shadow Use
@@ -76,7 +77,7 @@ msgid "|1|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:256 Shadow Use
+#: Service.rst:280 Shadow Use
 msgid "1"
 msgstr ""
 
@@ -99,8 +100,11 @@ msgid ""
 "“Rules Engine” allows you to place restrictions to the behavior of Things"
 " or to connect Things to other services of Amazon."
 msgstr ""
-"在该结构中，Ameba属于左上角的“Things”。将在“Things”和MQTT Message Broker之间建立一个TLS安全通道。接着，“Things”和“Message Broker”通过此安全通道使用MQTT协议进行通信。在“Message Broker”后面，“Thing Shadows”"
-"在Ameba离线时暂时保留消息，并在下次连接时将控制消息发送给Ameba。通过“Rules Engine”，您可以限制事物的行为或将事物连接到Amazon的其他服务。"
+"在该结构中，Ameba属于左上角的“Things”。将在“Things”和MQTT Message "
+"Broker之间建立一个TLS安全通道。接着，“Things”和“Message "
+"Broker”通过此安全通道使用MQTT协议进行通信。在“Message Broker”后面，“Thing "
+"Shadows”在Ameba离线时暂时保留消息，并在下次连接时将控制消息发送给Ameba。通过“Rules "
+"Engine”，您可以限制事物的行为或将事物连接到Amazon的其他服务。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
 #: Service.rst:36 Shadow Use
@@ -116,23 +120,24 @@ msgstr "首先，创建一个帐户并注册AWS IoT服务:https://aws.amazon.com
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
 #: Service.rst:40 Shadow Use
+#, fuzzy
 msgid ""
 "Afterwards, log in to the Amazon Management Console and click “IoT Core” "
-"found under services -> Internet of Things."
+"found under services → Internet of Things."
 msgstr "然后，登录到Amazon 管理控制台，然后单击services -> Internet of Things下的 “IoT Core”。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:41 Shadow Use
+#: Service.rst:42 Shadow Use
 msgid "|2|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:260 Shadow Use
+#: Service.rst:284 Shadow Use
 msgid "2"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:44 Shadow Use
+#: Service.rst:45 Shadow Use
 msgid ""
 "Then you will enter the home page of AWS IoT. To offer the best service "
 "quality, Amazon offers servers in different regions for users to choose "
@@ -140,101 +145,101 @@ msgid ""
 msgstr "然后，您将进入AWS IoT的主页。为了提供最佳服务，Amazon在不同地区提供服务器供用户选择。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:45 Shadow Use
+#: Service.rst:46 Shadow Use
 msgid "Click the region dropdown menu at the upper-right:"
 msgstr "点击右上角的区域下拉菜单："
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:46 Shadow Use
+#: Service.rst:48 Shadow Use
 msgid "|3|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:264 Shadow Use
+#: Service.rst:288 Shadow Use
 msgid "3"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:48 Shadow Use
+#: Service.rst:50 Shadow Use
 msgid "Choose a nearby region."
 msgstr "选择附近的区域。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:49 Shadow Use
+#: Service.rst:52 Shadow Use
 msgid "|4|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:268 Shadow Use
+#: Service.rst:292 Shadow Use
 msgid "4"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:51 Shadow Use
+#: Service.rst:54 Shadow Use
 msgid "Then from Services, go to Onboard then Get Started."
 msgstr "在Services页面中，选择Onboard。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:52 Shadow Use
+#: Service.rst:56 Shadow Use
 msgid "|6|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:276 Shadow Use
+#: Service.rst:300 Shadow Use
 msgid "6"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:54 Shadow Use
+#: Service.rst:58 Shadow Use
 msgid ""
 "Enter the main page of AWS IoT. Under the Onboard a device, click Get "
 "started."
 msgstr "进入AWS IoT的主页并且点击“Get started”"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:55 Shadow Use
+#: Service.rst:60 Shadow Use
 msgid "|5|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:272 Shadow Use
+#: Service.rst:296 Shadow Use
 msgid "5"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:57 Shadow Use
+#: Service.rst:62 Shadow Use
 msgid "Click Create single thing"
 msgstr "点击“Create single thing”。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:58 Shadow Use
+#: Service.rst:64 Shadow Use
 msgid "|7|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:280 Shadow Use
+#: Service.rst:304 Shadow Use
 msgid "7"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:60 Shadow Use
+#: Service.rst:66 Shadow Use
 msgid ""
 "Fill in “ameba” on the name field. Attributes represent the status of "
 "Ameba."
 msgstr "我们在名称栏位中填写“ameba”。属性代表ameba的状态。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:61 Shadow Use
+#: Service.rst:68 Shadow Use
 msgid "|8|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:284 Shadow Use
+#: Service.rst:308 Shadow Use
 msgid "8"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:65 Shadow Use
+#: Service.rst:72 Shadow Use
 msgid ""
 "Under the searchable thing attributes. The value of the attributes can be"
 " updated directly by Ameba or by the control side and control side can "
@@ -242,51 +247,52 @@ msgid ""
 msgstr "属性的值可以直接由ameba或由控制端更新，并且控制端可以请求ameba将属性设置为所需值。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:66 Shadow Use
+#: Service.rst:73 Shadow Use
 msgid "Here we add an attribute named “led” with value “0” and click “Next”."
 msgstr "在这里，我们添加一个名为“led”的属性，其值为 0”，然后单击“Next”。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:67 Shadow Use
+#: Service.rst:75 Shadow Use
 msgid "|9|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:288 Shadow Use
+#: Service.rst:312 Shadow Use
 msgid "9"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:69 Shadow Use
+#: Service.rst:77 Shadow Use
 msgid "Click Skip creating a certificate at this time and then Create thing"
 msgstr "点击“Skip creating a certificate at this time”，接着点击“Create thing”。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:70 Shadow Use
+#: Service.rst:79 Shadow Use
 msgid "|10|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:292 Shadow Use
+#: Service.rst:316 Shadow Use
 msgid "10"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:74 Shadow Use
+#: Service.rst:83 Shadow Use
 msgid ""
 "Next, click Policy¸ and create a policy. Policy is used to restrict the "
 "functions that a “thing” can do, it can limit the MQTT actions or "
 "specific topic that can be performed. Learn more about policy:"
-msgstr "点击“Policies”，然后选择“Create a policy”"
-"策略用于限制“thing”可以执行的功能，它可以限制MQTT操作或可以执行的特定主题。详细了解政策："
+msgstr ""
+"点击“Policies”，然后选择“Create a "
+"policy”策略用于限制“thing”可以执行的功能，它可以限制MQTT操作或可以执行的特定主题。详细了解政策："
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:75 Shadow Use
+#: Service.rst:84 Shadow Use
 msgid "http://docs.aws.amazon.com/iot/latest/developerguide/authorization.html"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:78 Shadow Use
+#: Service.rst:87 Shadow Use
 msgid ""
 "Here we do not place policy on Ameba. Fill in “amebaPolicy” in the Name "
 "field, “iot:*” in Action field and “*” in resources field. Then “Allow”. "
@@ -294,17 +300,17 @@ msgid ""
 msgstr "在这里，我们不对ameba设置政策。在名称栏位中填写“amebaPolicy”，在操作栏位中填写“iot：*”，在资源栏位中填写“*”。然后检查“Allow”。最后单击“Create”。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:79 Shadow Use
+#: Service.rst:89 Shadow Use
 msgid "|11|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:296 Shadow Use
+#: Service.rst:320 Shadow Use
 msgid "11"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:83 Shadow Use
+#: Service.rst:93 Shadow Use
 msgid ""
 "Next, we have to setup the TLS certificate. You can choose to user-"
 "defined or generate a certificate by AWS IoT. In this example we click "
@@ -312,65 +318,67 @@ msgid ""
 msgstr "接下来，我们必须设置TLS凭证。可以选择自定义或是AWS IoT产出的凭证。点击“Create Certificate”来生成TLS凭证。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:84 Shadow Use
+#: Service.rst:95 Shadow Use
 msgid "|12|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:300 Shadow Use
+#: Service.rst:324 Shadow Use
 msgid "12"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:87 Shadow Use
+#: Service.rst:99 Shadow Use
 msgid ""
 "You can see 4 Links. Please download each of the link, “public key”, "
 "“private key”, “Certificate” and “rootCA”. After downloading the 4 files,"
 " click Done and go back to the certificate main page."
-msgstr "然后，您可以看到4个链接。请单击4个链接中的每个链接，以下载“public key”，“private key”，“certificate”和“ rootCA”。"
+msgstr ""
+"然后，您可以看到4个链接。请单击4个链接中的每个链接，以下载“public key”，“private key”，“certificate”和“ "
+"rootCA”。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:88 Shadow Use
+#: Service.rst:101 Shadow Use
 msgid "|13|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:304 Shadow Use
+#: Service.rst:328 Shadow Use
 msgid "13"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:90 Shadow Use
+#: Service.rst:103 Shadow Use
 msgid "Click Attach a policy in the Actions dropdown menu."
 msgstr "下载完4个文件后，单击“Done”，然后返回到凭证主页。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:91 Shadow Use
+#: Service.rst:105 Shadow Use
 msgid "|14|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:308 Shadow Use
+#: Service.rst:332 Shadow Use
 msgid "14"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:93 Shadow Use
+#: Service.rst:107 Shadow Use
 msgid "Choose amebaPolicy and click attach."
 msgstr "在“Actions”下拉菜单中单击“Attach a policy”。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:94 Shadow Use
+#: Service.rst:109 Shadow Use
 msgid "|15|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:312 Shadow Use
+#: Service.rst:336 Shadow Use
 msgid "15"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:99 Shadow Use
+#: Service.rst:114 Shadow Use
 msgid ""
 "Then go back to the “Actions” drop-down menu at the top right of the "
 "certificates homepage, click on “Attach thing”, select the thing “ameba” "
@@ -378,378 +386,388 @@ msgid ""
 msgstr "选择“ AmebaPolicy”，然后点击“Attach”"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:100 Shadow Use
+#: Service.rst:116 Shadow Use
 msgid "|16|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:316 Shadow Use
+#: Service.rst:340 Shadow Use
 msgid "16"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:103 Shadow Use
+#: Service.rst:119 Shadow Use
 msgid ""
 "Go back to certificate main page and click Certificate and click Activate"
 " in the Actions drop down menu."
-msgstr "然后返回到凭证首页右上方的“Actions”下拉菜单，单击“Attach thing”，选择出现在下面的窗口时刚创建的内容“ameba”，然后单击“Attach”"
+msgstr ""
+"然后返回到凭证首页右上方的“Actions”下拉菜单，单击“Attach "
+"thing”，选择出现在下面的窗口时刚创建的内容“ameba”，然后单击“Attach”"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:104 Shadow Use
+#: Service.rst:121 Shadow Use
 msgid "|17|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:320 Shadow Use
+#: Service.rst:344 Shadow Use
 msgid "17"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:106 Shadow Use
+#: Service.rst:123 Shadow Use
 msgid ""
 "Next, click Manage, and click Things, then click “ameba” the thing we "
 "created just now."
 msgstr "返回到左侧的文件，选择“Manage”->“Things”，然后单击我们创建的ameba项目。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:107 Shadow Use
+#: Service.rst:124 Shadow Use
 msgid "Click on Interact and View settings."
 msgstr "进入ameba页面，在左侧选择“Interact”。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:108 Shadow Use
+#: Service.rst:126 Shadow Use
 msgid "|18|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:324 Shadow Use
+#: Service.rst:348 Shadow Use
 msgid "18"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:110 Shadow Use
+#: Service.rst:128 Shadow Use
 msgid "Find out the information of Rest API Endpoint to set Amazon Alexa:"
 msgstr "查找用于设置Amazon Alexa的Rest API端点的信息："
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:112 Shadow Use
+#: Service.rst:130 Shadow Use
 msgid ""
 "REST API endpoint: In the value “https://a1a7oo4baosgyy.iot.us-"
 "east-1.amazonaws.com/things/ameba/shadow”, the part “a1a7oo4baosgyy.iot"
 ".us-east-1.amazonaws.com” is the MQTT Broker server address."
-msgstr "REST API endpoint: “https://a1a7oo4baosgyy.iot.us-east-1.amazonaws.com/things/ameba/shadow”, “a1a7oo4baosgyy.iot.us-east-1.amazonaws.com” 为 MQTT Broker 服务器的地址。"
+msgstr ""
+"REST API endpoint: “https://a1a7oo4baosgyy.iot.us-"
+"east-1.amazonaws.com/things/ameba/shadow”, “a1a7oo4baosgyy.iot.us-"
+"east-1.amazonaws.com” 为 MQTT Broker 服务器的地址。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:114 Shadow Use
+#: Service.rst:132 Shadow Use
 msgid ""
 "MQTT topic：The value “$aws/things/ameba/shadow/update” represents the "
 "MQTT topic we will use in the AWS IoT Shadow service (if we use MQTT "
 "only, without AWS IoT Shadow service, then we can specify other topic "
 "name). It is recommended to use “$aws/things/ameba/shadow/update” here."
-msgstr "MQTT topic：”$aws/things/ameba/shadow/update” 表示我们将在AWS IoT Shadow服务中使用的MQTT主题（如果仅使用MQTT，而没有AWS IoT Shadow服务，则可以指定其他主题名称）。建议使用”$aws/things/ameba/shadow/update”"
+msgstr ""
+"MQTT topic：”$aws/things/ameba/shadow/update” 表示我们将在AWS IoT "
+"Shadow服务中使用的MQTT主题（如果仅使用MQTT，而没有AWS IoT "
+"Shadow服务，则可以指定其他主题名称）。建议使用”$aws/things/ameba/shadow/update”"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:118 Shadow Use
+#: Service.rst:136 Shadow Use
 msgid "**Ameba setting**"
 msgstr "**Ameba 设定**"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:120 Shadow Use
-msgid ""
-"Open ``“File” -> “Examples” -> “AmebaMQTTClient” -> "
-"“Amazon_AWS_IoT_Basic”``"
+#: Service.rst:138 Shadow Use
+#, fuzzy
+msgid "Open ``“File” → “Examples” → “AmebaMQTTClient” → “Amazon_AWS_IoT_Basic”``"
 msgstr "打开 “File” -> “Examples” -> “AmebaMQTTClient” -> “Amazon_AWS_IoT_Basic”"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:122 Shadow Use
+#: Service.rst:140 Shadow Use
 msgid ""
 "In the sample code, modify the highlighted snippet to reflect your WiFi "
 "network settings."
 msgstr "在范例代码中，修改黄色的程式码部分以符合您的WiFi网路设置。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:123 Shadow Use
+#: Service.rst:142 Shadow Use
 msgid "|19|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:328 Shadow Use
+#: Service.rst:352 Shadow Use
 msgid "19"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:125 Shadow Use
+#: Service.rst:144 Shadow Use
 msgid "Then fill in the “thing” name “ameba”."
 msgstr "填入”thing”名称为”ameba”"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:126 Shadow Use
+#: Service.rst:146 Shadow Use
 msgid "|20|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:332 Shadow Use
+#: Service.rst:356 Shadow Use
 msgid "20"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:128 Shadow Use
+#: Service.rst:148 Shadow Use
 msgid "And the MQTT Broker server address we found earlier in AWS IoT."
 msgstr "以及我们先前在AWS IoT中找到的MQTT Broker服务器地址。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:129 Shadow Use
+#: Service.rst:150 Shadow Use
 msgid "|21|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:336 Shadow Use
+#: Service.rst:360 Shadow Use
 msgid "21"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:133 Shadow Use
+#: Service.rst:154 Shadow Use
 msgid ""
 "Next, fill in the root CA used in TLS. Download and make sure the "
 "downloaded root CA contents conforms to the root CA used in the sketch."
 msgstr "接下来，填写TLS中使用的root CA。下载并确保root CA内容正确。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:134 Shadow Use
+#: Service.rst:156 Shadow Use
 msgid "|22|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:340 Shadow Use
+#: Service.rst:364 Shadow Use
 msgid "22"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:140 Shadow Use
+#: Service.rst:162 Shadow Use
 msgid ""
 "Next, fill in the certificate we created in the AWS IoT Console (i.e., "
 "client certificate), usually its file name ends with "
 "“-certificate.pem.crt” (e.g., “efae24a533-certificate.pem.crt”). Open the"
 " certificate with a text editor, and adjust its format as follows to use "
 "in the sketch:"
-msgstr "接着填写我们在AWS IoT控制台中创建的凭证（即客户端凭证），通常其文件名会以“ -certificate.pem.crt”（例如“ efae24a533-certificate.pem.crt”）结尾。使用文字编辑器打开凭证，并如下调整其格式："
+msgstr ""
+"接着填写我们在AWS IoT控制台中创建的凭证（即客户端凭证），通常其文件名会以“ -certificate.pem.crt”（例如“ "
+"efae24a533-certificate.pem.crt”）结尾。使用文字编辑器打开凭证，并如下调整其格式："
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:141 Shadow Use
+#: Service.rst:163 Shadow Use
 msgid "– Add the new line character “\\n” at the end of each line."
 msgstr "– 在每行末尾添加新的行字元 “\\\\n” 。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:142 Shadow Use
+#: Service.rst:164 Shadow Use
 msgid "– Add double-quote at the beginning and the end of each line."
 msgstr "– 在每行的开头和结尾处添加双引号。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:144 Shadow Use
+#: Service.rst:166 Shadow Use
 msgid "– To concatenate each line as a string, add “\\” at the end of each line."
-msgstr "– 要将每行连接为字串，请在每行末尾添加 “\\\”。"
+msgstr "– 要将每行连接为字串，请在每行末尾添加 “\\\\”。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:145 Shadow Use
+#: Service.rst:167 Shadow Use
 msgid "– The last line ends with semicolon."
 msgstr "– 最后一行以分号结尾。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:147 Shadow Use
+#: Service.rst:169 Shadow Use
 msgid ""
 "Adjust the format of the private key in the same way and add it to "
 "privateKeyBuff."
 msgstr "以相同的方式调整私钥的格式，并将其添加到privateKeyBuff。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:148 Shadow Use
+#: Service.rst:171 Shadow Use
 msgid "|23|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:344 Shadow Use
+#: Service.rst:368 Shadow Use
 msgid "23"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:150 Shadow Use
+#: Service.rst:173 Shadow Use
 msgid "**Compile and run**"
 msgstr "**编译并执行**"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:153 Shadow Use
+#: Service.rst:176 Shadow Use
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
 msgstr "上传程式码并在上传完成后按Ameba上的重置按钮。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:156 Shadow Use
+#: Service.rst:179 Shadow Use
 msgid ""
 "Open the serial monitor in the Arduino IDE and observe as Ameba connects "
 "to the AWS IoT server and sends updates on the LED state variable."
 msgstr "在Arduino IDE中打开串行端口，观察Ameba连接到AWS IoT服务器的情况。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:157 Shadow Use
+#: Service.rst:181 Shadow Use
 msgid "|24|"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:348 Shadow Use
+#: Service.rst:372 Shadow Use
 msgid "24"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:159 Shadow Use
+#: Service.rst:183 Shadow Use
 msgid "**Alternatives**"
 msgstr "**备择方案**"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:161 Shadow Use
+#: Service.rst:185 Shadow Use
 msgid ""
 "Ameba can also retrieve the current LED status variable from the AWS "
 "shadow. This is done by sending a message to the “shadow/get” topic. "
 "Refer to the Amazon_AWS_IoT_with_ACK example code for more information."
-msgstr "Ameba还可以从AWS shadow中检索当前的LED状态。通过向“shadow/get”主题发送消息来完成此操作。"
-"有关更多信息，请参阅Amazon_AWS_IoT_with_ACK范例代码。"
+msgstr ""
+"Ameba还可以从AWS "
+"shadow中检索当前的LED状态。通过向“shadow/get”主题发送消息来完成此操作。有关更多信息，请参阅Amazon_AWS_IoT_with_ACK范例代码。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:165 Shadow Use
+#: Service.rst:189 Shadow Use
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:169 Shadow Use
+#: Service.rst:193 Shadow Use
 msgid "Change led state:"
 msgstr "更改led状态："
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:171 Shadow Use
+#: Service.rst:195 Shadow Use
 msgid ""
 "In this example, we use GPIO interface to control the led. We set led_pin"
 " to 10 and led_state to 1 by default in the sample code."
 msgstr "在这个例子中，我们使用GPIO接口来控制led。在范例代码中，我们默认将led_pin设置为10，将led_state设置为1。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:178 Shadow Use
+#: Service.rst:202 Shadow Use
 msgid "Set up certificate:"
 msgstr "设置凭证："
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:179 Shadow Use
+#: Service.rst:203 Shadow Use
 msgid "Note that we use the WiFiSSLClient type of wifiClient."
 msgstr "注意我们是使用wifiClient的WiFiSSLClient类型。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:186 Shadow Use
+#: Service.rst:210 Shadow Use
 msgid ""
 "WiFiSSLClient inherits Client, so it can be passed as the parameter of "
 "PubSubClient constructor."
 msgstr "WiFiSSLClient继承Client，因此可以将其作为PubSubClient构造函数的参数进行传递。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:187 Shadow Use
+#: Service.rst:211 Shadow Use
 msgid "Next, set up TLS certificate required in connection."
 msgstr "接下来，设置连接所需的TLS凭证。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:194 Shadow Use
+#: Service.rst:218 Shadow Use
 msgid "Configure MQTT Broker server"
 msgstr "配置MQTT Broker服务器"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:195 Shadow Use
+#: Service.rst:219 Shadow Use
 msgid "Then MQTT PubClient set MQTT Broker server to connect"
 msgstr "然后，MQTT PubClient将MQTT Broker服务器设置成连接"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:202 Shadow Use
+#: Service.rst:226 Shadow Use
 msgid "Connect to MQTT Broker server:"
 msgstr "连接到MQTT Broker服务器："
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:204 Shadow Use
+#: Service.rst:228 Shadow Use
 msgid ""
 "In ``loop()``, call ``reconnect()`` function and try to connect to MQTT "
 "Broker server and do the certificate verification."
 msgstr "在loop（）中，调用reconnect（）函数并尝试连接到MQTT Broker服务器并进行凭证验证。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:210 Shadow Use
+#: Service.rst:234 Shadow Use
 msgid "Subscribe & Publish"
 msgstr "订阅并发布"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:211 Shadow Use
+#: Service.rst:235 Shadow Use
 msgid "Next, subscribe to topics."
 msgstr "接下来，订阅主题。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:219 Shadow Use
+#: Service.rst:243 Shadow Use
 msgid "There are some common topics:"
 msgstr "有一些共同的主题："
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:220 Shadow Use
+#: Service.rst:244 Shadow Use
 msgid "“$aws/things/ameba/shadow/update/accepted”,"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:221 Shadow Use
+#: Service.rst:245 Shadow Use
 msgid "“$aws/things/ameba/shadow/update/rejected”,"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:222 Shadow Use
+#: Service.rst:246 Shadow Use
 msgid "“$aws/things/ameba/shadow/update/delta”,"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:223 Shadow Use
+#: Service.rst:247 Shadow Use
 msgid "“$aws/things/ameba/shadow/get/accepted”,"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:224 Shadow Use
+#: Service.rst:248 Shadow Use
 msgid "“$aws/things/ameba/shadow/get/rejected”"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:225 Shadow Use
+#: Service.rst:249 Shadow Use
 msgid "Related documentation:"
 msgstr "相关文件:"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:226 Shadow Use
+#: Service.rst:250 Shadow Use
 msgid ""
 "http://docs.aws.amazon.com/iot/latest/developerguide/thing-shadow-data-"
 "flow.html"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:228 Shadow Use
+#: Service.rst:252 Shadow Use
 msgid "Then publish current status::"
 msgstr "然后发布当前状态："
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:240 Shadow Use
+#: Service.rst:264 Shadow Use
 msgid "Listen to topic and make response:"
 msgstr "检查主题并做出回应："
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:242 Shadow Use
+#: Service.rst:266 Shadow Use
 msgid ""
 "In the callback function, we listen to the 5 subscribed topics and check "
 "if there are messages of “/shadow/get/accepted”:"
 msgstr "在回调函数中，我们检查5个订阅的主题，并检查是否有“/shadow/get/accepted”消息："
 
 #: - ../../source/ambd_arduino/examples/network/MQTT AWS Amazon IoT
-#: Service.rst:248 Shadow Use
+#: Service.rst:272 Shadow Use
 msgid ""
 "If there is, the message is from the control side. If the attribute state"
 " in the message is different from current state, publish the new state."

@@ -21,10 +21,10 @@ In this example, we first connect Ameba to WiFi, then we use Ameba as
 server to communicate with client.
 
 First, we make sure the correct Ameba development board is set in
-“Tools” -> “Board”
+“Tools” → “Board”
 
-Then, open the Simple WiFi Server example in ``“File” -> “Examples” ->
-“WiFi” -> “SimpleServerWiFi”`` 
+Then, open the Simple WiFi Server example in ``“File” → “Examples” →
+“WiFi” → “SimpleServerWiFi”`` 
 
   |1|
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,40 +60,24 @@ msgstr ""
 msgid "**Procedure**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:26 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:27 Save
 #: Tickless
-msgid "Open ``“File” -> “Examples” -> “AmebaPowerSave” -> “TicklessMode”``"
+msgid "Open ``“File” → “Examples” → “AmebaPowerSave” → “TicklessMode”``"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:28 Save
-#: Tickless
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:101
-#: Mode.rst:106 Mode.rst:111 Mode.rst:116 Mode.rst:121 Mode.rst:126
-#: Mode.rst:131 Mode.rst:136 Mode.rst:141 Save Tickless
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:31 Save
-#: Tickless
-msgid "Set condition values as picture below."
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:33 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:35 Save
 #: Tickless
 msgid ""
-"“TL_WAKEUP_SOURCE” is used to set the wake-up source, user can chose 3 "
-"wake up sources now,"
+"Set condition values as picture below. “TL_WAKEUP_SOURCE” is used to set "
+"the wake-up source, user can chose 3 wake up sources now,"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:41 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:45 Save
 #: Tickless
 msgid "**Using LOGUART as wakeup source**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:44 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:47 Save
 #: Tickless
 msgid ""
 "When the LOGUART is selected as the wakeup source, the "
@@ -101,12 +85,12 @@ msgid ""
 "for 13s then enter sleep mode. To wakeup, press enter."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:46 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:51 Save
 #: Tickless
 msgid "**Using RTC Timer as wakeup source**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:50 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:53 Save
 #: Tickless
 msgid ""
 "RTC Timer wakeup system is by setting alarm. The alarm has 4 values to be"
@@ -115,17 +99,12 @@ msgid ""
 "DS_RTC_ALARM_SEC."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:52 Save
-#: Tickless
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:54 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:63 Save
 #: Tickless
 msgid "**Using AON GPIO pins as wakeup source**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:57 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:65 Save
 #: Tickless
 msgid ""
 "For AMB21, there are 5 pins that can be set as AON pins and active high "
@@ -133,12 +112,7 @@ msgid ""
 "GPIOA(D28)."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:59 Save
-#: Tickless
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:63 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:74 Save
 #: Tickless
 msgid ""
 "For AMB23, there are 8 pins that can be set as AON pins and active high "
@@ -146,78 +120,99 @@ msgid ""
 "GPIOA16(D13), GPIOA18(D15), GPIOA19(D16), GPIOA21(D18)."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:65 Save
-#: Tickless
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:69 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:85 Save
 #: Tickless
 msgid ""
-"For BW16, there is only 6 pins that can be set as AON pin and active high"
-" for wakeup, GPIOA_25 (D7), GPIOA_26 (D8), GPIOA_15 (D9), GPIOA_14 (D10),"
-" GPIOA_13 (D11), GPIOA_12 (D12)."
+"For BW16 and BW16-TypeC, there is only 6 pins that can be set as AON pin "
+"and active high for wakeup, GPIOA_25 (D7), GPIOA_26 (D8), GPIOA_15 (D9), "
+"GPIOA_14 (D10), GPIOA_13 (D11), GPIOA_12 (D12)."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:71 Save
-#: Tickless
-msgid "|5|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:74 Save
-#: Tickless
-msgid "|6|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:77 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:110 Save
 #: Tickless
 msgid ""
 "TL_SYSACTIVE_TIME is for setting time duration of the system to keep "
 "alive. (Unit ms)"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:79 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:113 Save
 #: Tickless
 msgid "**LOGUART**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:81 Save
-#: Tickless
-msgid "|7|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:84 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:121 Save
 #: Tickless
 msgid "**RTC Timer**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:86 Save
-#: Tickless
-msgid "|8|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:89 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:129 Save
 #: Tickless
 msgid "**AON GPIO Pins**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:91 Save
-#: Tickless
-msgid "|9|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:93 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:137 Save
 #: Tickless
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:97 Save
+#: - ../../source/ambd_arduino/examples/peripheral/Power Mode.rst:141 Save
 #: Tickless
 msgid ""
 "Please refer to the `API Documents <https://www.amebaiot.com/rtl8722dm-"
 "arduino-online-api-documents/>`__ PowerSave section for detail "
 "description of all API."
 msgstr ""
+
+#~ msgid "Open ``“File” -> “Examples” -> “AmebaPowerSave” -> “TicklessMode”``"
+#~ msgstr ""
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "Set condition values as picture below."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "“TL_WAKEUP_SOURCE” is used to set the"
+#~ " wake-up source, user can chose "
+#~ "3 wake up sources now,"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For BW16, there is only 6 pins "
+#~ "that can be set as AON pin "
+#~ "and active high for wakeup, GPIOA_25 "
+#~ "(D7), GPIOA_26 (D8), GPIOA_15 (D9), "
+#~ "GPIOA_14 (D10), GPIOA_13 (D11), GPIOA_12 "
+#~ "(D12)."
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "|6|"
+#~ msgstr ""
+
+#~ msgid "|7|"
+#~ msgstr ""
+
+#~ msgid "|8|"
+#~ msgstr ""
+
+#~ msgid "|9|"
+#~ msgstr ""
 

@@ -24,13 +24,19 @@ The PMS3003 (or PMS5003) sensor detects the concentration value of PM 1.0, PM 2.
 Take PM 2.5 for example, it stands for the fine particles with a diameter of 2.5
 micrometers or less. 
 
-Open the example in ``“File” -> “Examples” -> “AmebaSoftwareSerial” -> “PMS3003_AirQuality”`` 
+Open the example in ``“File” → “Examples” → “AmebaSoftwareSerial” → “PMS3003_AirQuality”`` 
 
-  |1|
+.. image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image1.png
+   :align: center
+   :width: 777
+   :height: 1006
 
 There are 8 pins in PMS3003:
 
-  |2|
+.. image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image2.png
+   :align: center
+   :width: 981
+   :height: 869
 
 PMS3003 requires 5V power, but the working voltage of its IC is 3.3C.
 Therefore, the working voltage of Reset, TX, RX, Set are 3.3 as well. If
@@ -46,15 +52,31 @@ https://www.dfrobot.com/wiki/index.php?title=PM2.5_laser_dust_sensor_SKU:SEN0177
 
 **AMB21 / AMB22** Wiring Diagram:
   
-  |3|
+.. image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image3.png
+   :align: center
+   :width: 602
+   :height: 440
 
 **AMB23** Wiring Diagram:
 
-  |3-1|
+.. image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image3-1.png
+   :align: center
+   :width: 602
+   :height: 567
 
 **BW16** Wiring Diagram:
 
-  |3-3|
+.. image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image3-2.png
+   :align: center
+   :width: 602
+   :height: 520
+
+**BW16-TypeC** Wiring Diagram:
+
+.. image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image3-3.png
+   :align: center
+   :width: 602
+   :height: 562
 
 In this example, we do not use the “Set” and “Reset” pins. 
 
@@ -62,29 +84,7 @@ Compile the code and upload it to Ameba. After pressing
 the Reset button, Ameba starts to output the PM 2.5 data to serial
 monitor.
   
-  |4|
-
-.. |1| image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image1.png
-   :width: 777
-   :height: 1006
-   :scale: 60 %
-.. |2| image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image2.png
-   :width: 981
-   :height: 869
-   :scale: 40 %
-.. |3| image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image3.png
-   :width: 928
-   :height: 481
-   :scale: 70 %
-.. |3-1| image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image3-1.png
-   :width: 714
-   :height: 642
-   :scale: 60 %
-.. |3-3| image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image3-3.png
-   :width: 938
-   :height: 638
-   :scale: 60 %
-.. |4| image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image4.png
+.. image:: /media/ambd_arduino/UART_PM2.5_Concentration_in_the_Air/image4.png
+   :align: center
    :width: 649
    :height: 410
-   :scale: 100 %

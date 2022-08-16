@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:3 Periodic
 #: The Using
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:12
 #: Periodic The Using
@@ -61,10 +61,13 @@ msgstr "定时器可以设置为周期性或一次性使用。周期性计时器
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:21
 #: Periodic The Using
+#, fuzzy
 msgid ""
-"Open the example, ``“File” -> “Examples” -> “AmebaGTimer” -> "
+"Open the example, ``“File” → “Examples” → “AmebaGTimer” → "
 "“TimerPeriodical”``. Compile and upload to Ameba, and press reset."
-msgstr "打开范例， “File” -> “Examples” -> “AmebaGTimer” -> “TimerPeriodical”。编译并且上传到Ameba，按下reset。"
+msgstr ""
+"打开范例， “File” -> “Examples” -> “AmebaGTimer” -> "
+"“TimerPeriodical”。编译并且上传到Ameba，按下reset。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:22
 #: Periodic The Using
@@ -79,8 +82,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/GTimer GTimer.rst:28
 #: Periodic The Using
@@ -107,6 +110,5 @@ msgstr "第三个参数指定时间到时要调用的函数。在范例中，我
 msgid ""
 "The GTimer is periodic by default, therefore “myhandler” function is "
 "called every second. When we want to stop the GTimer, use ``stop()``:"
-msgstr "GTimer 默认是周期性的，因此“myhandler”函数每秒被调用一次。"
-"当我们想停止 GTimer 时，使用 ``stop()``："
+msgstr "GTimer 默认是周期性的，因此“myhandler”函数每秒被调用一次。当我们想停止 GTimer 时，使用 ``stop()``："
 

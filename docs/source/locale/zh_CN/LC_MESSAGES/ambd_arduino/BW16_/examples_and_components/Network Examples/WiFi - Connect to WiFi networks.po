@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,7 +68,7 @@ msgstr "下面我们将分别介绍这三种加密方式的WiFi连线方法。"
 #: networks.rst:27 to
 msgid ""
 "First, make sure the correct Ameba development board is selected in "
-"“Tools” -> “Board”."
+"“Tools” → “Board”."
 msgstr "确保在 “Tools” -> “Board” 中选择了正确的Ameba开发板。"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
@@ -78,10 +78,9 @@ msgstr "Open (即无密码的WiFi连线)"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:32 to
-#, fuzzy
 msgid ""
-"Open the “ConnectNoEncryption” example in ``“File” -> “Examples” -> "
-"“WiFi” -> “ConnectWithWiFi” -> “ConnectNoEncryption”`` |1| \\"
+"Open the “ConnectNoEncryption” example in ``“File” → “Examples” → “WiFi” "
+"→ “ConnectWithWiFi” → “ConnectNoEncryption”`` |1| \\"
 msgstr ""
 "打开 Connect No Encryption 的范例, “File” -> “Examples” -> “AmebaWiFi” -> "
 "“ConnectNoEncryption”"
@@ -126,10 +125,9 @@ msgstr "WPA加密模式的WiFi连线"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:47 to
-#, fuzzy
 msgid ""
-"Open the “ConnectWithWPA” example in ``“File” -> “Examples” -> “WiFi” -> "
-"“ConnectWithWiFi” -> “ConnectWithWPA”`` |3|\\"
+"Open the “ConnectWithWPA” example in ``“File” → “Examples” → “WiFi” → "
+"“ConnectWithWiFi” → “ConnectWithWPA”`` |3|\\"
 msgstr ""
 "打开 Connect With WPA 的范例, “File” -> “Examples” -> “AmebaWiFi” -> "
 "“ConnectWithWPA”"
@@ -153,10 +151,9 @@ msgstr "WEP加密模式的WiFi连线"
 
 #: - ../../source/ambd_arduino/examples/network/WiFi Connect WiFi
 #: networks.rst:60 to
-#, fuzzy
 msgid ""
-"Open the “ConnectWithWEP” example in ``“File” -> “Examples” -> “WiFi” -> "
-"“ConnectWithWiFi” -> “ConnectWithWEP”`` |4|\\"
+"Open the “ConnectWithWEP” example in ``“File” → “Examples” → “WiFi” → "
+"“ConnectWithWiFi” → “ConnectWithWEP”`` |4|\\"
 msgstr ""
 "打开 Connect With WEP 的范例, “File” -> “Examples” -> “AmebaWiFi” -> "
 "“ConnectWithWEP”"

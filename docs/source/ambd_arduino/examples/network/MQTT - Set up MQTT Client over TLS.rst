@@ -17,8 +17,8 @@ MQTT - Set up MQTT Client over TLS
 
 | In this example, we connect Ameba to a MQTT broker using TLS
   authentication. Then send messages as a publisher and receive messages
-  from as a subscriber. Open the MQTT example ``“File” -> “Examples” ->
-  “AmebaMQTTClient” -> “MQTT_TLS”`` 
+  from as a subscriber. Open the MQTT example ``“File” → “Examples” →
+  “AmebaMQTTClient” → “MQTT_TLS”`` 
 
   |1|
 

@@ -31,7 +31,7 @@ Power Save - Deep Sleep for DHT and E-paper
 | Download the Eink zip library, AmebaEink.zip, at 
   https://github.com/ambiot/tree/master/Arduino_zip_libraries. 
   Then install the AmebaEink.zip.
-| Open ``“File” -> “Examples” -> “AmebaPowerSave” ->
+| Open ``“File” → “Examples” → “AmebaPowerSave” →
   “DeepSleep_For_DHT_Epaper_Example”``
 
   |1|

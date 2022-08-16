@@ -18,9 +18,9 @@ WiFi - Set up Client to Retrieve Google Search Informations
 | In this example, we use Ameba to be a web client to retrieve
   Informations from the Internet.
 | First, make sure the correct Ameba development board is selected in
-  “Tools” -> “Board”
+  “Tools” → “Board”
 
-| Then open ``“File” -> “Examples” -> “WiFi” -> “WiFiWebClient”``
+| Then open ``“File” → “Examples” → “WiFi” → “WiFiWebClient”``
 
   |1|
 

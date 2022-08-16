@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Output Sine
 #: Wave.rst:3
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Output Sine
 #: Wave.rst:12
@@ -90,7 +90,7 @@ msgstr "由于 AMB23 板上有一个内建麦克风，因此不需要任何外�
 #: - ../../source/ambd_arduino/examples/peripheral/Audio Codec Output Sine
 #: Wave.rst:30
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaAudioCodec” -> "
+"Open the example, ``\"Files\" → \"Examples\" → “AmebaAudioCodec” → "
 "“OutputSineWave”``."
 msgstr "打开范例，”Files” -> “Examples” -> “AmebaAudioCodec” -> “OutputSineWave”."
 

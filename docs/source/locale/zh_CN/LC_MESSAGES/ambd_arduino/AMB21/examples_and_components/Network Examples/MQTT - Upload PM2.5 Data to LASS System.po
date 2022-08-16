@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
 #: System.rst:3 Upload to
@@ -28,31 +28,20 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Intro to LASS**"
 " :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **LASS简介**"
-" :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **LASS简介** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:15 Upload to
+#: System.rst:12 Upload to
 msgid ""
 "The LASS stands for “Location Aware Sensor System”. It is an open project"
 " and was started only for the interest of public welfare. Find detailed "
-"introduction `here <http://makerpro.cc/2015/09/projectplus-lass/>`__."
-msgstr "LASS是一套「环境感测器网路系统」，在 `MakerPro <http://makerpro.cc/2015/09/projectplus-lass/>`__ 上面有它的 简介."
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:18 Upload to
-msgid ""
+"introduction `here <http://makerpro.cc/2015/09/projectplus-lass/>`__. "
 "Practically, LASS is based on MQTT protocol to collect all kinds of "
 "uploaded data, and for those who need these data can subscribe top as "
-"well."
-msgstr "在实作上，它是基于MQTT的系统，收集各方上传的资料，而需要这些资料的人也可以subscribe top来使用"
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:19 Upload to
-msgid ""
-"Find more LASS information at their `official hackpad "
+"well. Find more LASS information at their `official hackpad "
 "<https://lass.hackpad.com/>`__."
-msgstr "而它目前的 `官方网站 <https://lass.hackpad.com/>`__ 是共笔系统，可以在这边找到更多资讯"
+msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
 #: System.rst:21 Upload to
@@ -60,8 +49,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
 #: System.rst:25 Upload to
@@ -95,8 +84,11 @@ msgid ""
 "the four last digits of Ameba’s Wi-Fi MAC, and the outTopic is "
 "“LASS/Test/Pm25Ameba/**clientID**\\ “, where clientID is the actual "
 "Ameba’s MQTT client ID."
-msgstr "`MQTT <https://www.amebaiot.com/amebad-arduino-mqtt-upload-listen/>`__: 用来连上LASS的MQTT-Broker，其中Client为“FT1_0XXXX”, 后面四位数为Ameba的Wifi Mac后4码，outTopic则是“LASS/Test/Pm25Ameba/clientID ”"
-"后面的clientID为实际上Ameba的MQTT client ID"
+msgstr ""
+"`MQTT <https://www.amebaiot.com/amebad-arduino-mqtt-upload-listen/>`__: "
+"用来连上LASS的MQTT-Broker，其中Client为“FT1_0XXXX”, 后面四位数为Ameba的Wifi "
+"Mac后4码，outTopic则是“LASS/Test/Pm25Ameba/clientID ”后面的clientID为实际上Ameba的MQTT"
+" client ID"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
 #: System.rst:41 Upload to
@@ -110,164 +102,170 @@ msgstr "`NTP <https://www.amebaiot.com/amebad-arduino-utc-time/>`__: 上传的�
 msgid ""
 "`PM2.5 <https://www.amebaiot.com/amebad-arduino-pm25/>`__: uploaded data "
 "includes PM2.5 information"
-msgstr "`PM2.5 <https://www.amebaiot.com/amebad-arduino-pm25/>`__: 上传的资料里带有PM2.5的资讯"
+msgstr ""
+"`PM2.5 <https://www.amebaiot.com/amebad-arduino-pm25/>`__: "
+"上传的资料里带有PM2.5的资讯"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:48 Upload to
+#: System.rst:47 Upload to
 msgid ""
-"Open the example. ``“File” -> “Examples” -> “AmebaMQTTClient” -> "
+"Open the example. ``“File” → “Examples” → “AmebaMQTTClient” → "
 "“lass_basic”``"
 msgstr "我们打开这个范例，它在 “File” -> “Examples” -> “AmebaMQTTClient” -> “lass_basic”"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:49 Upload to
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:86 Upload to
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:51 Upload to
+#: System.rst:55 Upload to
 msgid ""
 "This example requires internet connection, so make sure you fill in SSID "
-"and PASS into AP information that you wish to connect."
-msgstr "这个范例需要使用到网路, 所以要将ssid, pass填入要连上的AP资讯, 并修改连线的方式。"
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:57 Upload to
-msgid ""
-"Also, LASS requires GPS information. There is no GPS sensor included in "
-"this example, so you must manually provide GPS information. Use Google "
-"Map to find the coordinates you plan to place your Ameba. You can see in "
-"this example that the latitude is 24.7814033, and the longitude is "
-"120.9933676"
-msgstr "另外，LASS还需要填入GPS资讯。这个范例里没有加上GPS sensor，所以需要手动填入GPS资讯。我们可以利用google map找到GPS资讯，首先找到要放置Ameba的地方，"
-"此时google map的网址列就会出现GPS的经纬度，以图中的例子，可以看到GPS的latitude为24.7814033, longitude为120.9933676。"
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:58 Upload to
-msgid "|2|"
+"and PASS into AP information that you wish to connect. Also, LASS "
+"requires GPS information. There is no GPS sensor included in this "
+"example, so you must manually provide GPS information. Use Google Map to "
+"find the coordinates you plan to place your Ameba. You can see in this "
+"example that the latitude is 24.7814033, and the longitude is 120.9933676"
 msgstr ""
+"另外，LASS还需要填入GPS资讯。这个范例里没有加上GPS sensor，所以需要手动填入GPS资讯。我们可以利用google "
+"map找到GPS资讯，首先找到要放置Ameba的地方，此时google "
+"map的网址列就会出现GPS的经纬度，以图中的例子，可以看到GPS的latitude为24.7814033, "
+"longitude为120.9933676。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:90 Upload to
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:59 Upload to
+#: System.rst:68 Upload to
 msgid "Fill in GPS info at ``gps_lat`` and ``gps_lon``."
 msgstr "我们将GPS的资讯填入gps_lat与gps_lon里"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:60 Upload to
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:94 Upload to
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:62 Upload to
+#: System.rst:76 Upload to
 msgid "Then connect sensors according to UART-PlanTower PMS3003 wiring example."
 msgstr "接着按照UART – PlanTower PMS3003的范例接线方式将sensor接上"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:63 Upload to
+#: System.rst:78 Upload to
 msgid "**AMB21 / AMB22**:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:64 Upload to
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:98 Upload to
-msgid "4"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:65 Upload to
+#: System.rst:86 Upload to
 msgid "**AMB23**:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:66 Upload to
-msgid "|4-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:102 Upload to
-msgid "4-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:67 Upload to
+#: System.rst:94 Upload to
 msgid "**BW16**:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:68 Upload to
-msgid "|4-2|"
+#: System.rst:102 Upload to
+msgid "**BW16-TypeC**:"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:106 Upload to
-msgid "4-2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:73 Upload to
+#: System.rst:110 Upload to
 msgid ""
 "Compile the code and upload it to Ameba. After pressing the Reset button,"
 " Ameba will attempt to read PM2.5 data every minute and upload it to LASS"
 " MQTT-Broker. Open Serial Monitor to see the uploaded data, including "
 "client id, topic, and current PM2.5 status."
-msgstr "接着编译程式码并上传到Ameba, 按下Reset按钮之后, Ameba就会每一分钟尝试读取PM2.5的资料, 并上传到LASS MQTT-Broker。打开Serial Monitor，可以看到上传的资讯，包括client id, topic, 目前的pm2.5数值。"
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:74 Upload to
-msgid "|5|"
 msgstr ""
+"接着编译程式码并上传到Ameba, 按下Reset按钮之后, Ameba就会每一分钟尝试读取PM2.5的资料, 并上传到LASS MQTT-"
+"Broker。打开Serial Monitor，可以看到上传的资讯，包括client id, topic, 目前的pm2.5数值。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:110 Upload to
-msgid "5"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:76 Upload to
-msgid "We can also use MQTTlens to verify if the data is properly uploaded."
-msgstr "我们也可以使用MQTTlens来看看是否能接收到Ameba上传的资讯，"
-
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:79 Upload to
+#: System.rst:121 Upload to
 msgid ""
+"We can also use MQTTlens to verify if the data is properly uploaded. "
 "Enter “gpssensor.ddns.net” as the MQTT-Broker server and "
 "“LASS/Test/PM25/live” as the subscribe topic to receive data."
-msgstr "我们将MQTT-Broker server位置填“gpssensor.ddns.net”，Subscribe的Topic填Serial Monitor看到的“LASS/Test/PM25/live”, 就可以接收资讯了。"
+msgstr ""
+"我们将MQTT-Broker server位置填“gpssensor.ddns.net”，Subscribe的Topic填Serial "
+"Monitor看到的“LASS/Test/PM25/live”, 就可以接收资讯了。"
 
 #: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:83 Upload to
+#: System.rst:125 Upload to
 msgid ""
 "The time uses UTC format, and the PM2.5 data stores in s-d0. In the "
 "figure, s_d0 = 9 represents that the PM2.5 is 9, meaning that the entire "
 "publish/subscribe process is working successfully."
 msgstr "里面的资讯里，时间使用UTC格式，而PM2.5的资料放在s_d0的地方，在图中可以看到s_d0=9代表PM2.5的数值是9，代表整个publish/subscribe的流程都成功运作。"
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:84 Upload to
-msgid "|6|"
-msgstr ""
+#~ msgid ""
+#~ "The LASS stands for “Location Aware "
+#~ "Sensor System”. It is an open "
+#~ "project and was started only for "
+#~ "the interest of public welfare. Find "
+#~ "detailed introduction `here "
+#~ "<http://makerpro.cc/2015/09/projectplus-lass/>`__."
+#~ msgstr ""
+#~ "LASS是一套「环境感测器网路系统」，在 `MakerPro <http://makerpro.cc/2015/09"
+#~ "/projectplus-lass/>`__ 上面有它的 简介."
 
-#: - ../../source/ambd_arduino/examples/network/MQTT Data LASS PM2.5
-#: System.rst:114 Upload to
-msgid "6"
-msgstr ""
+#~ msgid ""
+#~ "Practically, LASS is based on MQTT "
+#~ "protocol to collect all kinds of "
+#~ "uploaded data, and for those who "
+#~ "need these data can subscribe top "
+#~ "as well."
+#~ msgstr "在实作上，它是基于MQTT的系统，收集各方上传的资料，而需要这些资料的人也可以subscribe top来使用"
+
+#~ msgid ""
+#~ "Find more LASS information at their "
+#~ "`official hackpad <https://lass.hackpad.com/>`__."
+#~ msgstr "而它目前的 `官方网站 <https://lass.hackpad.com/>`__ 是共笔系统，可以在这边找到更多资讯"
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This example requires internet connection, "
+#~ "so make sure you fill in SSID "
+#~ "and PASS into AP information that "
+#~ "you wish to connect."
+#~ msgstr "这个范例需要使用到网路, 所以要将ssid, pass填入要连上的AP资讯, 并修改连线的方式。"
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|4-1|"
+#~ msgstr ""
+
+#~ msgid "4-1"
+#~ msgstr ""
+
+#~ msgid "|4-2|"
+#~ msgstr ""
+
+#~ msgid "4-2"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
+#~ msgstr ""
+
+#~ msgid "We can also use MQTTlens to verify if the data is properly uploaded."
+#~ msgstr "我们也可以使用MQTTlens来看看是否能接收到Ameba上传的资讯，"
+
+#~ msgid "|6|"
+#~ msgstr ""
+
+#~ msgid "6"
+#~ msgstr ""
 

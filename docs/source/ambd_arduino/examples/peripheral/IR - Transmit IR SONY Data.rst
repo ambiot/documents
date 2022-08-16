@@ -22,7 +22,10 @@ an infrared (IR) Emitter to transmit and receive IR SONY data “0xA90”
 (Sony TV power code). For the receiver side, you can either use an
 oscilloscope/logic analyser to view the waveform and decode accordingly.
 
-|1|
+.. image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image1.png
+   :align: center
+   :width: 150
+   :height: 150
 
 Figure 1: Grove – Infrared Transmitter
 
@@ -49,13 +52,19 @@ representing a logical "1" is a 1200us long burst of the 40kHz carrier,
 while the burst width for a logical "0" is 600us long. All bursts are
 separated by a 600us long space interval as shown in Figure 2 below.
 
-|2|
+.. image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image2.png
+   :align: center
+   :width: 338
+   :height: 94
 
 Figure 2: Sony SIRC Modulation
 
 **Protocol**
 
-|3|
+.. image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image3.png
+   :align: center
+   :width: 332
+   :height: 83
 
 Figure 3: 12-bit Sony SIRC protocol
 
@@ -73,11 +82,26 @@ long as the key on the remote control is held down.
 Figure 4 shows the pin configuration of IR Emitter with AMB21 / AMB22
 board.
 
-|4|
+.. image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image4.png
+   :align: center
+   :width: 419
+   :height: 301
 
 Figure 5: Pin configuration of the IR Emitter and BW16
 
-|5|
+.. image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image5.png
+   :align: center
+   :width: 757
+   :height: 710
+   :scale: 84 %
+
+Figure 6: Pin configuration of the IR Emitter and BW16-TypeC
+
+.. image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image6.png
+   :align: center
+   :width: 856
+   :height: 777
+   :scale: 77 %
 
 
 After the connection is being set up correctly, we will move to the
@@ -88,7 +112,10 @@ Open the “IRSendSONY” example in “File” -> “Examples” -> “AmebaIRD
 -> “IRSendSONY” (Figure 6) and upload to the board connected with IR
 Emitter:
 
-|6|
+.. image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image7.png
+   :align: center
+   :width: 440
+   :height: 394
 
 Figure 6: Example Location of IRSendSONY
 
@@ -97,7 +124,10 @@ oscilloscope or Pulse View software to find out the waveform of the
 signal transmitted from the IR Emitter is “0xA90” as shown in Figure
 below:
 
-|7|
+.. image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image8.png
+   :align: center
+   :width: 602
+   :height: 325
 
 Figure 7: Waveform of IRSendSONY “0xA90”
 
@@ -122,38 +152,3 @@ https://www.sbprojects.net/knowledge/ir/index.php
 
 https://www.sbprojects.net/knowledge/ir/sirc.php
 
-
-.. |1| image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image1.png
-   :width: 150
-   :height: 150
-   :scale: 100 %
-
-.. |2| image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image2.png
-   :width: 338
-   :height: 94
-   :scale: 100 %
-
-.. |3| image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image3.png
-   :width: 332
-   :height: 83
-   :scale: 100 %
-
-.. |4| image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image4.png
-   :width: 419
-   :height: 301
-   :scale: 100 %
-
-.. |5| image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image5.png
-   :width: 757
-   :height: 710
-   :scale: 50 %
-
-.. |6| image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image6.png
-   :width: 440
-   :height: 394
-   :scale: 100 %
-
-.. |7| image:: /media/ambd_arduino/IR_Transmit_IR_SONY_Data/image7.png
-   :width: 602
-   :height: 325
-   :scale: 100 %

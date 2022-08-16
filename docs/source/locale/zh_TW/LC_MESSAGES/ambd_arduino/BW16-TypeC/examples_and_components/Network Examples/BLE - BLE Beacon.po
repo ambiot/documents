@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 11:01+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,7 +76,7 @@ msgstr ""
 msgid "**Procedure**"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:40
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:38
 msgid ""
 "First, you need to install some Bluetooth apps on your mobile phone. "
 "These apps will show you the raw data sent by Ameba and allow you to "
@@ -90,12 +90,9 @@ msgid ""
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:45
-#: Beacon.rst:53
-msgid "Android"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:45
-msgid ": https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp"
+msgid ""
+"Android: "
+"https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:47
@@ -108,62 +105,46 @@ msgid ""
 "less features:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:53
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:52
 msgid ""
-": "
+"Android: "
 "https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:55
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:54
 msgid "iOS :https://apps.apple.com/us/app/lightblue/id557428110"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:57
-msgid "Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> “BLEBeacon”``"
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:56
+msgid "Open the example, ``“Files” → “Examples” → “AmebaBLE” → “BLEBeacon”``"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:59
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:107
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:62
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:65
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
 "finished."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:65
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:68
 msgid ""
 "On your mobile phone, open the Bluetooth app and scan for the beacon "
 "signal broadcast by Ameba."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:68
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:111
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:70
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:77
 msgid ""
 "If you happen to be in an environment with multiple BLE beacons, you can "
 "tap the entries to expand them, and verify that the beacon data is "
 "identical to the data in the sketch."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:74
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:81
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:78
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:85
 msgid ""
 "``setRssi()`` is used to set the received signal strength indicator "
 "(rssi) data field for a beacon. The specification states that this should"
@@ -171,14 +152,14 @@ msgid ""
 "With no method to measure this, it is set to -65dBm as an estimate."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:83
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:90
 msgid ""
 "``setMajor()`` and ``setMinor()`` are used to set the two data fields. "
 "The purpose of these data are left for the manufacturer of the beacon to "
 "define, and can be used in any way."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:87
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:94
 msgid ""
 "``setUUID()`` is used to give the beacon a universally unique identifier "
 "(UUID). This is a 128-bit number usually expressed as a hexadecimal "
@@ -186,7 +167,7 @@ msgid ""
 "generated for free online."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:92
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:99
 msgid ""
 "The BLEBeacon library includes both iBeacon and AltBeacon classes, "
 "replace line 6 iBeacon with altBeacon to create an AltBeacon instead. The"
@@ -194,22 +175,52 @@ msgid ""
 " the header files for more details."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:97
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:104
 msgid ""
 "``BLE.init()`` is used to allocate memory and prepare Ameba for starting "
 "the Bluetooth stack."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:100
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:107
 msgid ""
 "``BLE.configAdvert()`` is used to configure the Bluetooth advertisement "
 "settings, to which we pass the beacon data and set the device as non-"
 "connectable."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:104
+#: - ../../source/ambd_arduino/examples/network/BLE BLE Beacon.rst:111
 msgid ""
 "``BLE.beginPeripheral()`` starts Ameba in Bluetooth peripheral mode, "
 "after which it will begin to advertise with the beacon data provided."
 msgstr ""
+
+#~ msgid "Android"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ": "
+#~ "https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ": "
+#~ "https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the example, ``“Files” -> "
+#~ "“Examples” -> “AmebaBLE” -> “BLEBeacon”``"
+#~ msgstr ""
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
 

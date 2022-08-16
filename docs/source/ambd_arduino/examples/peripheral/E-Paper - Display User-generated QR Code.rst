@@ -31,31 +31,64 @@ E-Paper - Display User-generated QR Code
 
 Front view of the e-Paper Module:
   
-  |1| 
+.. image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image1.png
+   :align: center
+   :width: 653
+   :height: 291
 
 **AMB21 / AMB22** Wiring Diagram:
 
-  |2| 
+.. image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image2.png
+   :align: center
+   :width: 2310
+   :height: 913
+   :scale: 50 %
 
-  |3| 
+.. image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image3.png
+   :align: center
+   :width: 884
+   :height: 524
 
 **AMB23** Wiring Diagram:
 
-  |2-1| 
+.. image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image2-1.png
+   :align: center
+   :width: 1159
+   :height: 457
 
-  |3-1| 
+.. image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image3-1.png
+   :align: center
+   :width: 1631
+   :height: 583
 
 **BW16** Wiring Diagram:
 
-  |2-2| 
+.. image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image2-2.png
+   :align: center
+   :width: 1159
+   :height: 457 
 
-  |3-2| 
+.. image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image3-2.png
+   :align: center
+   :width: 1361
+   :height: 583 
 
-| Download the Eink zip library, AmebaEink.zip, at 
-  https://github.com/ambiot/tree/master/Arduino_zip_libraries
-| Then install the AmebaEink.zip. Open the “DisplayQR” example in 
-  ``“File” → “Examples” → “AmebaEink” → “DisplayQR”``:
-  |4|
+**BW16-TypeC** Wiring Diagram:
+
+.. image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image3-3.png
+   :align: center
+   :width: 1363
+   :height: 645
+
+Download the Eink zip library, AmebaEink.zip, at 
+https://github.com/ambiot/tree/master/Arduino_zip_libraries
+Then install the AmebaEink.zip. Open the “DisplayQR” example in 
+``“File” → “Examples” → “AmebaEink” → “DisplayQR”``:
+
+.. image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image4.png
+   :align: center
+   :width: 727
+   :height: 640
   
 Modify the URL in the loop() section as
 your wish, after that, verify and upload the code to the Ameba board.
@@ -65,54 +98,24 @@ E-Paper module. The QR code showing below leads to our Ameba IoT
 official website: `Ameba
 ARDUINO <https://www.amebaiot.com/ameba-arduino-summary>`__ 
 
-  |5|
+.. image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image5.jpeg
+   :align: center
+   :width: 1328
+   :height: 1027
+   :scale: 68 %
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Code Reference**
 :raw-html:`</p>`
 
-| [1] We use Good Display GDEH029A1 2.9 Inch / 296×128 Resolution /
-  Partial Refresh Arduino Sample Code to get the e-Paper successfully
-  Display: http://www.good-display.com/product/201.html
-| [2] Provide the link to how to generate a QR code on the E-paper
-  module: https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-arduino.html
-| [3] A simple library for generating QR codes in C, optimized for
-  processing and memory-constrained
-  systems: https://github.com/ricmoo/QRCode#data-capacities
+[1] We use Good Display GDEH029A1 2.9 Inch / 296×128 Resolution /
+Partial Refresh Arduino Sample Code to get the e-Paper successfully
+Display: http://www.good-display.com/product/201.html
 
-.. |1| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image1.png
-   :width: 653
-   :height: 291
-   :scale: 50 %
-.. |2| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image2.png
-   :width: 2310
-   :height: 913
-   :scale: 20 %
-.. |3| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image3.png
-   :width: 884
-   :height: 524
-   :scale: 70 %
-.. |2-1| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image2-1.png
-   :width: 1159
-   :height: 457
-   :scale: 40 %
-.. |3-1| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image3-1.png
-   :width: 1361
-   :height: 583
-   :scale: 50 %
-.. |2-2| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image2-2.png
-   :width: 1159
-   :height: 457
-   :scale: 50 %
-.. |3-2| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image3-2.png
-   :width: 1361
-   :height: 583
-   :scale: 50 %
-.. |4| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image4.png
-   :width: 727
-   :height: 640
-   :scale: 60 %
-.. |5| image:: /media/ambd_arduino/Epaper_Display_user_generated_QR_code/image5.jpeg
-   :width: 1328
-   :height: 1027
-   :scale: 50 %
+[2] Provide the link to how to generate a QR code on the E-paper
+module: https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-arduino.html
+
+[3] A simple library for generating QR codes in C, optimized for
+processing and memory-constrained
+systems: https://github.com/ricmoo/QRCode#data-capacities
+

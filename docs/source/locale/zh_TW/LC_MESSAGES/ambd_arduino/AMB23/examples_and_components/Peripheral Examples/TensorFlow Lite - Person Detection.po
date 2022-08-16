@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-12 10:15+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:12
 #: Lite Person
@@ -62,96 +62,72 @@ msgstr "**步驟**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:22
 #: Lite Person
-msgid "**AMB21 / AMB22** Wiring Diagram:"
-msgstr "**AMB21/AMB22** 接線圖"
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:23
-#: Lite Person
-msgid "Connect the camera and LEDs to the RTL8722 board following the diagram."
+#, fuzzy
+msgid ""
+"**AMB21 / AMB22** Wiring Diagram: Connect the camera and LEDs to the "
+"RTL8722 board following the diagram."
 msgstr "如下圖所示，將攝像機和LED連接到 AMB21 / AMB22 開發板上。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:25
-#: Lite Person
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:93
-#: Lite Person
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:27
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:31
 #: Lite Person
 msgid "**AMB23** Wiring Diagram:"
 msgstr "**AMB23** 接線圖:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:29
-#: Lite Person
-msgid "|1-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:97
-#: Lite Person
-msgid "1-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:31
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:38
 #: Lite Person
 msgid "**BW16** Wiring Diagram:"
 msgstr "**BW16** 接線圖:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:33
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:45
 #: Lite Person
-msgid "|1-2|"
-msgstr ""
+#, fuzzy
+msgid "**BW16-TypeC** Wiring Diagram:"
+msgstr "**BW16** 接線圖:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:101
-#: Lite Person
-msgid "1-2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:35
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:53
 #: Lite Person
 msgid ""
 "Download the Ameba customized version of TensorFlow Lite for "
 "Microcontrollers library at "
 "https://github.com/ambiot/tree/master/Arduino_zip_libraries."
-msgstr "從以下網址下載TensorFlow Lite for Microcontrollers的Ameba版本"
-"https://github.com/ambiot/tree/master/Arduino_zip_libraries."
+msgstr ""
+"從以下網址下載TensorFlow Lite for "
+"Microcontrollers的Ameba版本https://github.com/ambiot/tree/master/Arduino_zip_libraries."
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:39
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:57
 #: Lite Person
 msgid ""
 "Follow the instructions at "
 "https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to"
 " install it."
-msgstr "請按照以下說明進行安裝操作"
-"https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries。"
+msgstr ""
+"請按照以下說明進行安裝操作https://docs.arduino.cc/software/ide-v1/tutorials"
+"/installing-libraries。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:42
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:60
 #: Lite Person
 msgid ""
 "Ensure that the patch files found at "
 "https://github.com/ambiot/tree/master/Ameba_misc/ are also installed."
-msgstr "確保在以下位置找到patch文件並安裝"
-"https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/。"
+msgstr "確保在以下位置找到patch文件並安裝https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:45
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:63
 #: Lite Person
 msgid ""
 "You will also need to install the Ameba_ArduCAM library, found together "
 "with the TensorFlow Lite library."
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:48
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:66
 #: Lite Person
 msgid ""
 "In the Arduino IDE library manager, install the JPEGDecoder library. This"
 " example has been tested with version 1.8.0 of the JPEGDecoder library."
-msgstr "還需要安裝TensorFlow Lite庫與Ameba_ArduCAM庫。"
-"在Arduino IDE中，安裝JPEGDecoder庫。 此範例已經通過測試1.8.0版的JPEGDecoder庫。"
+msgstr ""
+"還需要安裝TensorFlow Lite庫與Ameba_ArduCAM庫。在Arduino IDE中，安裝JPEGDecoder庫。 "
+"此範例已經通過測試1.8.0版的JPEGDecoder庫。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:52
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:70
 #: Lite Person
 msgid ""
 "Once the library has installed, you will need to configure it to disable "
@@ -159,12 +135,12 @@ msgid ""
 " the following file:"
 msgstr "安裝庫後，您需要對其進行配置，以禁用一些與AMB23不兼容的可選組件。 打開以下文件："
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:56
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:74
 #: Lite Person
 msgid "``Arduino/libraries/JPEGDecoder/src/User_Config.h``"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:60
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:78
 #: Lite Person
 msgid ""
 "Make sure that both ``#define LOAD_SD_LIBRARY`` and ``#define "
@@ -172,36 +148,26 @@ msgid ""
 " file:"
 msgstr "確保將#define LOAD_SD_LIBRARY和#define LOAD_SDFAT_LIBRARY都註釋掉，如該文件摘錄所示："
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:67
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:85
 #: Lite Person
+#, fuzzy
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
-"-> “person_detection”``."
-msgstr "打開範例，”Files” -> “Examples” -> “TensorFlowLite_Ameba” -> “person_detection”。"
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:70
-#: Lite Person
-msgid "|2|"
+"Open the example, ``\"Files\" → \"Examples\" → “TensorFlowLite_Ameba” → "
+"“person_detection”``."
 msgstr ""
+"打開範例，”Files” -> “Examples” -> “TensorFlowLite_Ameba” -> "
+"“person_detection”。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:105
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:94
 #: Lite Person
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:72
-#: Lite Person
-msgid "User can define the LED pins by using any GPIO pins on the boards."
-msgstr "用戶可以使用板上的任何 GPIO 引腳來定義 LED 引腳。"
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:75
-#: Lite Person
+#, fuzzy
 msgid ""
-"Upload the code and press the reset button on Ameba once the upload is "
+"User can define the LED pins by using any GPIO pins on the boards. Upload"
+" the code and press the reset button on Ameba once the upload is "
 "finished."
 msgstr "上傳代碼並在上傳完成後按Ameba上的重置按鈕。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:80
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:98
 #: Lite Person
 msgid ""
 "Once it is running, you should see the blue LED flashing once every few "
@@ -209,40 +175,34 @@ msgid ""
 " will light up if it determines that there is no person in the previous "
 "image captured, and the green LED will light up if it determines that "
 "there is a person."
-msgstr "一旦運行，您應該會看到藍色LED每隔幾秒鐘閃爍一次，表明它已完成圖像處理。 如果確定在先前拍攝的圖像中沒有人，則紅色LED會亮起，如果確定有人，則綠色LED會亮起。"
+msgstr ""
+"一旦運行，您應該會看到藍色LED每隔幾秒鐘閃爍一次，表明它已完成圖像處理。 "
+"如果確定在先前拍攝的圖像中沒有人，則紅色LED會亮起，如果確定有人，則綠色LED會亮起。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:82
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:104
 #: Lite Person
 msgid ""
 "The inference results are also output to the Arduino serial monitor, "
 "which appear as follows:"
 msgstr "推理結果也將輸出到Arduino串行監視器，其顯示如下："
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:84
-#: Lite Person
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:109
-#: Lite Person
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:86
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:113
 #: Lite Person
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
-"説明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:90
+#: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Detection.rst:117
 #: Lite Person
 msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
 " https://www.tensorflow.org/lite/microcontrollers"
-msgstr "有關TensorFlow Lite for Microcontrollers的更多信息，請參考以下網址: https://www.tensorflow.org/lite/microcontrollers"
+msgstr ""
+"有關TensorFlow Lite for Microcontrollers的更多信息，請參考以下網址: "
+"https://www.tensorflow.org/lite/microcontrollers"
 
 #~ msgid "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
 #~ msgstr ""
@@ -274,5 +234,41 @@ msgstr "有關TensorFlow Lite for Microcontrollers的更多信息，請參考以
 #~ "it. Ensure that the patch files "
 #~ "found at https://github.com/ambiot/tree/master/Ameba_misc/"
 #~ " are also installed."
+#~ msgstr ""
+
+#~ msgid "**AMB21 / AMB22** Wiring Diagram:"
+#~ msgstr "**AMB21/AMB22** 接線圖"
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|1-1|"
+#~ msgstr ""
+
+#~ msgid "1-1"
+#~ msgstr ""
+
+#~ msgid "|1-2|"
+#~ msgstr ""
+
+#~ msgid "1-2"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "User can define the LED pins by using any GPIO pins on the boards."
+#~ msgstr "用戶可以使用板上的任何 GPIO 引腳來定義 LED 引腳。"
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
 #~ msgstr ""
 

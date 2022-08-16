@@ -29,7 +29,7 @@ enter DeepSleep Mode for power save. System will wake up by wakeup
 source.( Aon timer, Aon Pins or RTC timer).
 
 | **Procedure**
-| Open ``“File” -> “Examples” -> “AmebaPowerSave” ->
+| Open ``“File” → “Examples” → “AmebaPowerSave” →
   “DeepSleep_DHT_LCD_Example”``
   
   |1|

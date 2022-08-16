@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,8 +63,8 @@ msgstr ""
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
 #: TCP.rst:25 as over
 msgid ""
-"Step 1. IPv6TCPServer Open the example, ``“Files” -> “Examples” -> “WiFi”"
-" -> “IPv6TCPServer”``."
+"Step 1. IPv6TCPServer Open the example, ``“Files” → “Examples” → “WiFi” →"
+" “IPv6TCPServer”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
@@ -116,7 +116,7 @@ msgstr ""
 #: TCP.rst:40 as over
 msgid ""
 "Step 2. IPv6TCPClient Now take the second Ameba D and open another "
-"example, ``“Files” -> “Examples” -> “WiFi” -> “IPv6TCPClient”``."
+"example, ``“Files” → “Examples” → “WiFi” → “IPv6TCPClient”``."
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/IPv6 Ameba Client IPv6 Server
@@ -206,5 +206,18 @@ msgstr ""
 #~ "second Ameba D and open another "
 #~ "example, ``“Files” -> “Examples” -> "
 #~ "“AmebaWiFi” -> “IPv6TCPClient”``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Step 1. IPv6TCPServer Open the example,"
+#~ " ``“Files” -> “Examples” -> “WiFi” ->"
+#~ " “IPv6TCPServer”``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Step 2. IPv6TCPClient Now take the "
+#~ "second Ameba D and open another "
+#~ "example, ``“Files” -> “Examples” -> "
+#~ "“WiFi” -> “IPv6TCPClient”``."
 #~ msgstr ""
 

@@ -19,8 +19,8 @@ WiFi - Set up UDP Server to Communicate
   server. When Ameba receives a message from UDP client, it replies
   “acknowledged” message to client.
 
-| Open the WiFi Web Server example. ``“File” -> “Examples” -> “WiFi”
-  -> “WiFiUdpSendReceiveString”``
+| Open the WiFi Web Server example. ``“File” → “Examples” → “WiFi”
+  → “WiFiUdpSendReceiveString”``
 | |1|
 | Modify the highlighted code section (ssid, password, keyindex) to
   connect to your WiFi network.

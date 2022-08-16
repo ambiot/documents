@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:3 Music Play
 #: by
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:12 Music Play
 #: by
@@ -65,119 +65,115 @@ msgid ""
 "desired tone. As PWM outputs square wave, if we wish to emit tone C4 "
 "(frequency=262Hz), we have to make PWM to output square wave with "
 "wavelength 1/262 = 3.8ms:"
-msgstr "这个范例里我们使用PWM控制蜂鸣器发出想要的音调。 PWM输出的是方波，当我们想要发出中央C(C4)的声音时，C4的频率是262Hz，每个波的长度是 1/262 = 3.8ms，所以波形如下:"
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:28 Music Play
-#: by
-msgid "|1|"
 msgstr ""
+"这个范例里我们使用PWM控制蜂鸣器发出想要的音调。 "
+"PWM输出的是方波，当我们想要发出中央C(C4)的声音时，C4的频率是262Hz，每个波的长度是 1/262 = 3.8ms，所以波形如下:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:64 Music Play
-#: by
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:31 Music Play
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:33 Music Play
 #: by
 msgid ""
 "We use PWM to output sound wave with different frequency, so as to play "
 "music by the buzzer."
 msgstr "所以我们只要让PWM送出不同的频率，就可以让蜂鸣器发出音乐"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:33 Music Play
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:36 Music Play
 #: by
 msgid "Connect the buzzer to the PWM output pin shown in the following diagrams."
 msgstr "接着我们将蜂鸣器接上要发出讯号的PWM pin脚:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:35 Music Play
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:39 Music Play
 #: by
 msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr "**AMB21 / AMB22** 的接线图如下:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:37 Music Play
-#: by
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:68 Music Play
-#: by
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:39 Music Play
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:47 Music Play
 #: by
 msgid "**AMB23** Wiring Diagram:"
 msgstr "**AMB23** 的接线图如下:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:41 Music Play
-#: by
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:72 Music Play
-#: by
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:43 Music Play
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:54 Music Play
 #: by
 msgid "**BW16** Wiring Diagram:"
 msgstr "**BW16** 的接线图如下:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:45 Music Play
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:61 Music Play
 #: by
-msgid "|3-1|"
-msgstr ""
+#, fuzzy
+msgid "**BW16-TypeC** Wiring Diagram:"
+msgstr "**BW16** 的接线图如下:"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:76 Music Play
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:68 Music Play
 #: by
-msgid "3-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:47 Music Play
-#: by
+#, fuzzy
 msgid ""
-"Open the example code in ``“Examples” -> “AmebaAnalog” -> "
-"“TonePlayMelody”``"
-msgstr "打开 “Examples” -> “AmebaAnalog” -> “TonePlayMelody”"
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:49 Music Play
-#: by
-msgid ""
-"Compile and upload to Ameba, press the reset button. Then you can hear "
-"the buzzer playing music."
+"Open the example code in ``“Examples” → “AmebaAnalog” → "
+"“TonePlayMelody”`` Compile and upload to Ameba, press the reset button. "
+"Then you can hear the buzzer playing music."
 msgstr "编译并上传完成之后, 按下Reset按钮, Ameba就会播出 ”妹妹背着洋娃娃” 的音乐。"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:51 Music Play
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:72 Music Play
 #: by
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
-msgstr ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:55 Music Play
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:76 Music Play
 #: by
-msgid "Ameba implement the tone() and noTone() API of Arduino:"
-msgstr "Ameba实作了跟 Arduino一样的tone()与noTone() API:"
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:56 Music Play
-#: by
-msgid "https://www.arduino.cc/en/Reference/Tone"
+msgid ""
+"Ameba implement the tone() and noTone() API of Arduino: "
+"https://www.arduino.cc/en/Reference/Tone "
+"https://www.arduino.cc/en/Reference/NoTone"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:57 Music Play
-#: by
-msgid "https://www.arduino.cc/en/Reference/NoTone"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:59 Music Play
+#: - ../../source/ambd_arduino/examples/peripheral/PWM Buzzer.rst:80 Music Play
 #: by
 msgid ""
 "In the sample code, we initiate a melody array, which stores the tones to"
 " make. Another array, noteDurations, contains the length of each tone, 4 "
 "represents quarter note (equals to 3000ms/4 = 750ms, and plus an extra "
 "30% time pause), 8 represents eighth note."
-msgstr "程式码里我们宣告melody的阵列, 里面摆要发出的音调, 另外宣告noteDurations的阵列, "
-"里面放每个音调的长度, 4代表4分音符, 8代表8分音符，4分音符的长度是3000ms/ 4 = 750ms, 另外加上30%的停顿时间。"
+msgstr ""
+"程式码里我们宣告melody的阵列, 里面摆要发出的音调, 另外宣告noteDurations的阵列, 里面放每个音调的长度, 4代表4分音符, "
+"8代表8分音符，4分音符的长度是3000ms/ 4 = 750ms, 另外加上30%的停顿时间。"
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|3-1|"
+#~ msgstr ""
+
+#~ msgid "3-1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the example code in ``“Examples”"
+#~ " -> “AmebaAnalog” -> “TonePlayMelody”``"
+#~ msgstr "打开 “Examples” -> “AmebaAnalog” -> “TonePlayMelody”"
+
+#~ msgid "Ameba implement the tone() and noTone() API of Arduino:"
+#~ msgstr "Ameba实作了跟 Arduino一样的tone()与noTone() API:"
+
+#~ msgid "https://www.arduino.cc/en/Reference/Tone"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/NoTone"
+#~ msgstr ""
 

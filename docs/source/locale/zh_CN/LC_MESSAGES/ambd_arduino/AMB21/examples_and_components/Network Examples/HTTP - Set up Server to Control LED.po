@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 07:45+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,79 +60,39 @@ msgstr ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **流程** :raw-"
 "html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:22 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:21 Server
 #: Set to up
 msgid ""
 "In this example, we connect Ameba to WiFi and use Ameba as server, the "
 "user can control the LED on/off through a webpage."
 msgstr "这个范例里，我们使用Ameba连上WiFi，作为服务器端，用户可通过网页来控制LED的开关。"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:23 Server
-#: Set to up
-msgid "First, connect Ameba with the LED."
-msgstr "首先将Ameba与LED进行连线"
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:28 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:24 Server
 #: Set to up
 msgid ""
-"In a LED, the longer pin is the positive pole, and the shorter pin is the"
-" negative pole. So, we connect the shorter pin to GND and connect the "
-"longer pin to D13. Additionally, to avoid the electric current exceeds "
-"the tolerance of the LED and causes damage, we connect a resistance on "
-"the positive pole."
+"First, connect Ameba with the LED. In a LED, the longer pin is the "
+"positive pole, and the shorter pin is the negative pole. So, we connect "
+"the shorter pin to GND and connect the longer pin to D13. Additionally, "
+"to avoid the electric current exceeds the tolerance of the LED and causes"
+" damage, we connect a resistance on the positive pole."
 msgstr "LED灯泡的接线里，LED比较长的脚为正极，比较短的脚为负极，所以我们要将短脚接到GND的地方(电压为0)，并将长脚接到D13的地方。为了避免LED因为电流太大而烧坏，通常会在正极的前面加上电阻。现在很多LED其实都做的很好，不加电阻也不会烧坏，但保险起见还是加上电阻。"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:30 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:31 Server
 #: Set to up
 msgid "**AMB21 / AMB22** Wiring Diagram:"
 msgstr "**AMB21 / AMB22** 接线图："
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:32 Server
-#: Set to up
-msgid "|1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:113 Server
-#: Set to up
-msgid "1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:34 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:39 Server
 #: Set to up
 msgid "**AMB23** Wiring Diagram:"
 msgstr "**AMB23** 接线图："
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:36 Server
-#: Set to up
-msgid "|1-1|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:117 Server
-#: Set to up
-msgid "1-1"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:38 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:47 Server
 #: Set to up
 msgid "**BW16** Wiring Diagram:"
 msgstr "**BW16** 接线图："
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:40 Server
-#: Set to up
-msgid "|1-2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:121 Server
-#: Set to up
-msgid "1-2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:42 Server
-#: Set to up
-msgid "**Note**:"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:43 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:57 Server
 #: Set to up
 msgid ""
 "For BW16 board, you may consider to re-define \"LED_PIN\" macro to **10**"
@@ -142,41 +102,26 @@ msgstr ""
 "对于 BW16 ，您可以考虑将“LED_PIN”重新定义为 10 用于内置绿色 LED，或 11 用于蓝色内置 LED，或 12 用于红色内置 "
 "LED，以避免使用额外的组件。"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:46 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:59 Server
 #: Set to up
-msgid "Then open ``“File” -> “Examples” -> “WiFi” -> “SimpleWebServerWiFi”``"
+msgid "**BW16-TypeC** Wiring Diagram:"
+msgstr "**BW16-TypeC** 接线图："
+
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:67 Server
+#: Set to up
+msgid "Then open ``“File” → “Examples” → “WiFi” → “SimpleWebServerWiFi”``"
 msgstr ""
 "然后打开Simple Web Server WiFi的范例, “File” -> “Examples” -> “AmebaWiFi” -> "
 "“SimpleWebServerWiFi”"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:48 Server
-#: Set to up
-msgid "|2|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:125 Server
-#: Set to up
-msgid "2"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:51 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:76 Server
 #: Set to up
 msgid ""
 "In the sample code, modify the highlighted snippet to corresponding "
 "information."
 msgstr "将WiFi连线的相关讯息，如下图中黄色标注的地方进行对应的修改。"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:53 Server
-#: Set to up
-msgid "|3|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:129 Server
-#: Set to up
-msgid "3"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:57 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:84 Server
 #: Set to up
 msgid ""
 "Upload the code and press the reset button on Ameba. When the connection "
@@ -185,44 +130,24 @@ msgstr ""
 "上传程式码之后，按下Ameba的Reset按钮, 在WiFi连线成功后，会提示”To see this page in action, open "
 "a browser to http://xxx.xxx.xxx.xxx”。如下图黄色标注："
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:62 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:89 Server
 #: Set to up
 msgid "in the Arduino IDE as shown in the figure:"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:64 Server
-#: Set to up
-msgid "|4|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:133 Server
-#: Set to up
-msgid "4"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:66 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:96 Server
 #: Set to up
 msgid ""
 "Next, open the browser of a computer or a cell phone under the same WiFi "
 "domain, enter the address in the message."
 msgstr "在连接在同一WiFi环境下的电脑或手机上，打开浏览器，输入提示的地址"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:69 Server
-#: Set to up
-msgid "|5|"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:137 Server
-#: Set to up
-msgid "5"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:71 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:106 Server
 #: Set to up
 msgid "In the webpage, you can turn on/off the LED."
 msgstr "点击网页中的“here”即可完成LED灯泡的点亮与关闭操作。在连线以及点击时，Ameba会有相关的信息显示。"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:73 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:108 Server
 #: Set to up
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
@@ -231,154 +156,193 @@ msgstr ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
 "html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:77 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:112 Server
 #: Set to up
-msgid "Use ``WiFi.begin()`` to establish WiFi connection."
+msgid ""
+"Use ``WiFi.begin()`` to establish WiFi connection. "
+"https://www.arduino.cc/en/Reference/WiFiBegin"
 msgstr "在连线WiFi时会使用到 ``WiFi.begin()``;"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:78 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:115 Server
 #: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFiBegin"
+msgid ""
+"To get the information of a WiFi connection: Use ``WiFi.SSID()`` to get "
+"SSID of the current connected network. "
+"https://www.arduino.cc/en/Reference/WiFiSSID"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:79 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:119 Server
 #: Set to up
-msgid "To get the information of a WiFi connection:"
-msgstr "连线成功后会读取WiFi的信息："
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:80 Server
-#: Set to up
-msgid "Use ``WiFi.SSID()`` to get SSID of the current connected network."
-msgstr "显示WiFi的名称 ``WiFi.SSID()``"
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:81 Server
-#: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFiSSID"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:82 Server
-#: Set to up
-msgid "Use WiFi.RSSI() to get the signal strength of the connection."
+msgid ""
+"Use WiFi.RSSI() to get the signal strength of the connection. "
+"https://www.arduino.cc/en/Reference/WiFiRSSI"
 msgstr "显示WiFi的讯号强度 ``WiFi.RSSI()``"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:83 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:122 Server
 #: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFiRSSI"
+msgid ""
+"Use ``WiFi.localIP()`` to get the IP address of Ameba. "
+"https://www.arduino.cc/en/Reference/WiFiLocalIP"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:84 Server
-#: Set to up
-msgid "Use ``WiFi.localIP()`` to get the IP address of Ameba."
-msgstr "显示Ameba的IP信息 ``WiFi.localIP()``"
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:85 Server
-#: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFiLocalIP"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:87 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:125 Server
 #: Set to up
 msgid ""
 "Use ``WiFiServer server()`` to create a server that listens on the "
-"specified port."
+"specified port. https://www.arduino.cc/en/Reference/WiFiServer"
 msgstr "设定服务器的端口号 ``WiFiServer server()``"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:88 Server
-#: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFiServer"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:90 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:129 Server
 #: Set to up
 msgid ""
 "Use ``server.begin()`` to tell the server to begin listening for incoming"
-" connections."
+" connections. https://www.arduino.cc/en/Reference/WiFiServerBegin"
 msgstr "开始服务器的监听 ``server.begin()``"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:91 Server
-#: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFiServerBegin"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:93 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:133 Server
 #: Set to up
 msgid ""
 "Use ``server.available()`` to get a client that is connected to the "
-"server and has data available for reading."
+"server and has data available for reading. "
+"https://www.arduino.cc/en/Reference/WiFiServerAvailable"
 msgstr "判断是否有客户端连线 ``server.available()``"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:94 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:137 Server
 #: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFiServerAvailable"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:95 Server
-#: Set to up
-msgid "Use ``client.connected()`` to get whether or not the client is connected."
+msgid ""
+"Use ``client.connected()`` to get whether or not the client is connected."
+" https://www.arduino.cc/en/Reference/WiFiClientConnected"
 msgstr "判断客户端是否处于连线状态 ``client.connected()``"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:96 Server
-#: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFiClientConnected"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:98 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:140 Server
 #: Set to up
 msgid ""
 "Use ``client.println()`` to print data followed by a carriage return and "
-"newline."
+"newline. https://www.arduino.cc/en/Reference/WiFiClientPrintln"
 msgstr "向服务器发送数据并开启新的一行 ``client.println()``"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:99 Server
-#: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFiClientPrintln"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:101 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:144 Server
 #: Set to up
 msgid ""
 "Use ``client.print()`` to print data to the server that a client is "
-"connected to."
+"connected to. https://www.arduino.cc/en/Reference/WiFiClientPrint"
 msgstr "向服务器发送数据 ``client.print()``"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:102 Server
-#: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFiClientPrint"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:104 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:148 Server
 #: Set to up
 msgid ""
 "Use ``client.available()`` to return the number of bytes available for "
-"reading."
+"reading. https://www.arduino.cc/en/Reference/WiFiClientAvailable"
 msgstr "判断是否有数据从服务器端发送过来 ``client.available()``"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:105 Server
-#: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFiClientAvailable"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:107 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:152 Server
 #: Set to up
 msgid ""
 "Use ``client.read()`` to read the next byte received from the server the "
-"client is connected to."
+"client is connected to. "
+"https://www.arduino.cc/en/Reference/WiFiClientRead"
 msgstr "客户端读取数据 ``client.read()``"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:108 Server
-#: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFiClientRead"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:110 Server
+#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:156 Server
 #: Set to up
 msgid ""
 "Use ``client.stop()`` to disconnect from the server the client is "
-"connected to."
+"connected to. https://www.arduino.cc/en/Reference/WiFIClientStop"
 msgstr "客户端断开与服务器的连线 ``client.stop()``;"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP Control LED.rst:111 Server
-#: Set to up
-msgid "https://www.arduino.cc/en/Reference/WiFIClientStop"
-msgstr ""
+#~ msgid "First, connect Ameba with the LED."
+#~ msgstr "首先将Ameba与LED进行连线"
+
+#~ msgid "|1|"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "|1-1|"
+#~ msgstr ""
+
+#~ msgid "1-1"
+#~ msgstr ""
+
+#~ msgid "|1-2|"
+#~ msgstr ""
+
+#~ msgid "1-2"
+#~ msgstr ""
+
+#~ msgid "**Note**:"
+#~ msgstr ""
+
+#~ msgid "|2|"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "|3|"
+#~ msgstr ""
+
+#~ msgid "3"
+#~ msgstr ""
+
+#~ msgid "|4|"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "|5|"
+#~ msgstr ""
+
+#~ msgid "5"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiBegin"
+#~ msgstr ""
+
+#~ msgid "To get the information of a WiFi connection:"
+#~ msgstr "连线成功后会读取WiFi的信息："
+
+#~ msgid "Use ``WiFi.SSID()`` to get SSID of the current connected network."
+#~ msgstr "显示WiFi的名称 ``WiFi.SSID()``"
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiSSID"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiRSSI"
+#~ msgstr ""
+
+#~ msgid "Use ``WiFi.localIP()`` to get the IP address of Ameba."
+#~ msgstr "显示Ameba的IP信息 ``WiFi.localIP()``"
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiLocalIP"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiServer"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiServerBegin"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiServerAvailable"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiClientConnected"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiClientPrintln"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiClientPrint"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiClientAvailable"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiClientRead"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFIClientStop"
+#~ msgstr ""
 

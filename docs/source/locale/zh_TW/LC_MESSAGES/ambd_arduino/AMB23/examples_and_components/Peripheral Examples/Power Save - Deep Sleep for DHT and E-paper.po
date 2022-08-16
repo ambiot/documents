@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 02:53+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep E-paper.rst:3
 #: Save Sleep and for
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:12 Save Sleep and for
@@ -72,11 +72,9 @@ msgid ""
 "enter DeepSleep Mode for power save. System will wake up by wakeup "
 "source.( Aon timer, Aon Pins or RTC timer)."
 msgstr ""
-"Ameba-D支持低功耗模式，即深度睡眠模式。 深度睡眠模式會關閉大多數系統power domain。"
-"DeepSleep模式下核心模塊的功耗約為7uA至8uA，而正常狀態下約為22mA。"
-"該範例演示了系統在“工作”和“睡眠”（省電）之間進行切換。當系統處於喚醒狀態時，使用DHT傳感器讀取數據並在Eink屏幕上顯示。"
+"Ameba-D支持低功耗模式，即深度睡眠模式。 深度睡眠模式會關閉大多數系統power "
+"domain。DeepSleep模式下核心模塊的功耗約為7uA至8uA，而正常狀態下約為22mA。該範例演示了系統在“工作”和“睡眠”（省電）之間進行切換。當系統處於喚醒狀態時，使用DHT傳感器讀取數據並在Eink屏幕上顯示。"
 " 5秒鐘後，系統自動進入DeepSleep模式以節電。 系統將通過喚醒源（Aon計時器，Aon引腳或RTC計時器）喚醒。"
-
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:30 Save Sleep and for
@@ -89,14 +87,20 @@ msgid ""
 "Download the Eink zip library, AmebaEink.zip, at "
 "https://github.com/ambiot/tree/master/Arduino_zip_libraries. Then install"
 " the AmebaEink.zip."
-msgstr "在 https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries 下載 Eink 庫 AmebaEink.zip。 然後安裝 AmebaEink.zip。"
+msgstr ""
+"在 "
+"https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries "
+"下載 Eink 庫 AmebaEink.zip。 然後安裝 AmebaEink.zip。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:35 Save Sleep and for
+#, fuzzy
 msgid ""
-"Open ``“File” -> “Examples” -> “AmebaPowerSave” -> "
+"Open ``“File” → “Examples” → “AmebaPowerSave” → "
 "“DeepSleep_For_DHT_Epaper_Example”``"
-msgstr "打開 “File” -> “Examples” -> “AmebaPowerSave” -> “DeepSleep_DHT_Eink_Example”"
+msgstr ""
+"打開 “File” -> “Examples” -> “AmebaPowerSave” -> "
+"“DeepSleep_DHT_Eink_Example”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:37 Save Sleep and for
@@ -143,7 +147,9 @@ msgid ""
 "For AMB21, there are 5 pins that can be set as AON pins and active high "
 "for wakeup, GPIOA25(D16), GPIOA26(D17), GPIOA21(D26), GPIOA20(D27), "
 "GPIOA(D28)."
-msgstr "對於 AMB21，有5個引腳可以設置為AON引腳和上緣觸發，GPIOA25(D16)、GPIOA26(D17)、GPIOA21(D26)、GPIOA20(D27)、GPIOA(D28)。"
+msgstr ""
+"對於 "
+"AMB21，有5個引腳可以設置為AON引腳和上緣觸發，GPIOA25(D16)、GPIOA26(D17)、GPIOA21(D26)、GPIOA20(D27)、GPIOA(D28)。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:59 Save Sleep and for
@@ -151,7 +157,9 @@ msgid ""
 "For AMB23, there are 8 pins that can be set as AON pins and active high "
 "for wakeup, GPIOA12(D9), GPIOA13(D10), GPIOA14(D11), GPIOA15(D12), "
 "GPIOA16(D13), GPIOA18(D15), GPIOA19(D16), GPIOA21(D18)."
-msgstr "對於 AMB23，有8個引腳可以設置為AON引腳和上緣觸發，GPIOA12(D9), GPIOA13(D10), GPIOA14(D11), GPIOA15(D12), GPIOA16(D13), GPIOA18(D15), GPIOA19(D16)、GPIOA21(D18)。"
+msgstr ""
+"對於 AMB23，有8個引腳可以設置為AON引腳和上緣觸發，GPIOA12(D9), GPIOA13(D10), GPIOA14(D11), "
+"GPIOA15(D12), GPIOA16(D13), GPIOA18(D15), GPIOA19(D16)、GPIOA21(D18)。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:63 Save Sleep and for
@@ -159,7 +167,10 @@ msgid ""
 "For BW16, there is only 6 pins that can be set as AON pin and active high"
 " for wakeup, GPIOA_25 (D7), GPIOA_26 (D8), GPIOA_15 (D9), GPIOA_14 (D10),"
 " GPIOA_13 (D11), GPIOA_12 (D12)."
-msgstr "對於 BW16，有5個引腳可以設置為AON引腳和上緣觸發，GPIOA_25(D7)、GPIOA_26(D8)、GPIOA_15(D9)、GPIOA_14(D10)、GPIOA_13(D11)、GPIOA_12 (D12)."
+msgstr ""
+"對於 "
+"BW16，有5個引腳可以設置為AON引腳和上緣觸發，GPIOA_25(D7)、GPIOA_26(D8)、GPIOA_15(D9)、GPIOA_14(D10)、GPIOA_13(D11)、GPIOA_12"
+" (D12)."
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:65 Save Sleep and for
@@ -189,7 +200,9 @@ msgid ""
 "RTC timer wakeup system is by setting alarm. The alarm has 4 values, day,"
 " hour, min and sec. All 4 values can be set by ``DS_RTC_ALARM_DAY``, "
 "``DS_RTC_ALARM_HOUR``, ``DS_RTC_ALARM_MIN``, and ``DS_RTC_ALARM_SEC``"
-msgstr "RTC定時器通過設置鬧鐘喚醒系統。 鬧鐘具有4個值，日，時，分和秒。 可以通過DS_RTC_ALARM_DAY，DS_RTC_ALARM_HOUR，DS_RTC_ALARM_MIN和DS_RTC_ALARM_SEC設置所有4個值。"
+msgstr ""
+"RTC定時器通過設置鬧鐘喚醒系統。 鬧鐘具有4個值，日，時，分和秒。 "
+"可以通過DS_RTC_ALARM_DAY，DS_RTC_ALARM_HOUR，DS_RTC_ALARM_MIN和DS_RTC_ALARM_SEC設置所有4個值。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:75 Save Sleep and for
@@ -228,8 +241,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
-"說明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼說明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Power DHT Deep
 #: E-paper.rst:89 Save Sleep and for
@@ -237,7 +250,9 @@ msgid ""
 "Please refer to the `API Documents <https://www.amebaiot.com/rtl8722dm-"
 "arduino-online-api-documents/>`__ PowerSave section for detail "
 "description of all API."
-msgstr "請參考 `API Documents <https://www.amebaiot.com/rtl8722dm-arduino-online-api-documents/>`__ 相關的說明。"
+msgstr ""
+"請參考 `API Documents <https://www.amebaiot.com/rtl8722dm-arduino-online-"
+"api-documents/>`__ 相關的說明。"
 
 #~ msgid ""
 #~ "Download the Eink zip library, "

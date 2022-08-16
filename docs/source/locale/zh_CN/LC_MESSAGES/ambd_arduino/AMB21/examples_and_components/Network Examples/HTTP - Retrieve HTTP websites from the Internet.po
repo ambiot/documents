@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:3
 #: Retrieve from the websites
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:12
 #: Retrieve from the websites
@@ -45,36 +45,26 @@ msgstr ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
 "html:`</p>`"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:19
+#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:18
 #: Retrieve from the websites
 msgid ""
 "In this example, the HttpClient library is used to retrieve a webpage "
-"using the HTTP protocol."
-msgstr "在本例中，我们使用HttpClient库来检索一个HTTP协议的网页。"
-
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:21
-#: Retrieve from the websites
-msgid ""
-"First, make sure that the correct Ameba development board is selected in "
-"“Tools” -> “Board”"
-msgstr "首先，请确保已经选择了正确的Ameba开发板”Tools” -> “Board”"
-
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:22
-#: Retrieve from the websites
-msgid "Then open ``“File” -> “Examples” -> “AmebaHttp” -> “SimpleHttpExample”``"
-msgstr "然后打开示例： “File” -> “Examples” -> “AmebaHttp” -> “SimpleHttpExample”"
+"using the HTTP protocol. First, make sure that the correct Ameba "
+"development board is selected in “Tools” → “Board” Then open ``“File” → "
+"“Examples” → “AmebaHttp” → “SimpleHttpExample”``"
+msgstr ""
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:24
 #: Retrieve from the websites
 msgid "|1|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:56
+#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:62
 #: Retrieve from the websites
 msgid "1"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:27
+#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:26
 #: Retrieve from the websites
 msgid ""
 "In the sample code, modify the highlighted section to enter the "
@@ -87,12 +77,12 @@ msgstr "在示例代码中，修改高亮的部分，输入连接WiFi网络所�
 msgid "|2|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:60
+#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:66
 #: Retrieve from the websites
 msgid "2"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:33
+#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:31
 #: Retrieve from the websites
 msgid ""
 "Upload the code and press the reset button on Ameba once the upload is "
@@ -100,87 +90,109 @@ msgid ""
 "information retrieved from the website."
 msgstr "上传代码并在上传完成后按下Ameba上的reset按钮。在Arduino IDE中打开串行监视器，我们可以看到从网站检索到的信息。"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:35
+#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:36
 #: Retrieve from the websites
 msgid "|3|"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:64
+#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:70
 #: Retrieve from the websites
 msgid "3"
 msgstr ""
 
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:37
+#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:38
 #: Retrieve from the websites
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
-
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:41
-#: Retrieve from the websites
-msgid "Use ``WiFi.begin()`` to establish WiFi connection:"
-msgstr "使用 ``WiFi.begin()`` 建立WiFi连接:"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:42
 #: Retrieve from the websites
-msgid "https://www.arduino.cc/en/Reference/WiFiBegin"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:43
-#: Retrieve from the websites
-msgid "To get the information of a WiFi connection:"
-msgstr "获取WiFi连接信息:"
-
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:44
-#: Retrieve from the websites
-msgid "Use ``WiFi.SSID()`` to get SSID of the current connected network."
-msgstr "使用 ``WiFi.SSID()`` 获取当前已连接网络的SSID。"
+msgid ""
+"Use ``WiFi.begin()`` to establish WiFi connection: "
+"https://www.arduino.cc/en/Reference/WiFiBegin"
+msgstr "使用 ``WiFi.begin()`` 建立WiFi连接:"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:45
 #: Retrieve from the websites
-msgid "https://www.arduino.cc/en/Reference/WiFiSSID"
+msgid ""
+"To get the information of a WiFi connection: Use ``WiFi.SSID()`` to get "
+"SSID of the current connected network. "
+"https://www.arduino.cc/en/Reference/WiFiSSID"
 msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:46
-#: Retrieve from the websites
-msgid "Use ``WiFi.RSSI()`` to get the signal strength of the connection."
-msgstr "使用 ``WiFi.RSSI()`` 获得连接的信号强度。"
-
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:47
-#: Retrieve from the websites
-msgid "https://www.arduino.cc/en/Reference/WiFiRSSI"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:48
-#: Retrieve from the websites
-msgid "Use ``WiFi.localIP()`` to get the IP address of Ameba."
-msgstr "使用 ``WiFi.localIP()`` 获取Ameba的IP地址。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:49
 #: Retrieve from the websites
-msgid "https://www.arduino.cc/en/Reference/WiFiLocalIP"
-msgstr ""
-
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:50
-#: Retrieve from the websites
-msgid "Use WiFiClient to create a client to handle the WiFi connection."
-msgstr "使用WiFiClient创建一个客户端来处理WiFi连接"
-
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:51
-#: Retrieve from the websites
-msgid "https://www.arduino.cc/en/Reference/WiFiClient"
-msgstr ""
+msgid ""
+"Use ``WiFi.RSSI()`` to get the signal strength of the connection. "
+"https://www.arduino.cc/en/Reference/WiFiRSSI"
+msgstr "使用 ``WiFi.RSSI()`` 获得连接的信号强度。"
 
 #: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:52
+#: Retrieve from the websites
+msgid ""
+"Use ``WiFi.localIP()`` to get the IP address of Ameba. "
+"https://www.arduino.cc/en/Reference/WiFiLocalIP"
+msgstr ""
+
+#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:55
+#: Retrieve from the websites
+msgid ""
+"Use WiFiClient to create a client to handle the WiFi connection. "
+"https://www.arduino.cc/en/Reference/WiFiClient"
+msgstr "使用WiFiClient创建一个客户端来处理WiFi连接"
+
+#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:58
 #: Retrieve from the websites
 msgid "Use HTTPClient to create a client to handle the HTTP connection."
 msgstr "使用HTTPClient创建一个客户端来处理HTTP连接"
 
-#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:54
+#: - ../../source/ambd_arduino/examples/network/HTTP HTTP Internet.rst:60
 #: Retrieve from the websites
 msgid "Use ``http.get()`` to send a GET request to the website."
 msgstr "使用 ``http.get()`` 向网站发送GET请求"
+
+#~ msgid ""
+#~ "In this example, the HttpClient library"
+#~ " is used to retrieve a webpage "
+#~ "using the HTTP protocol."
+#~ msgstr "在本例中，我们使用HttpClient库来检索一个HTTP协议的网页。"
+
+#~ msgid ""
+#~ "First, make sure that the correct "
+#~ "Ameba development board is selected in"
+#~ " “Tools” -> “Board”"
+#~ msgstr "首先，请确保已经选择了正确的Ameba开发板”Tools” -> “Board”"
+
+#~ msgid ""
+#~ "Then open ``“File” -> “Examples” -> "
+#~ "“AmebaHttp” -> “SimpleHttpExample”``"
+#~ msgstr "然后打开示例： “File” -> “Examples” -> “AmebaHttp” -> “SimpleHttpExample”"
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiBegin"
+#~ msgstr ""
+
+#~ msgid "To get the information of a WiFi connection:"
+#~ msgstr "获取WiFi连接信息:"
+
+#~ msgid "Use ``WiFi.SSID()`` to get SSID of the current connected network."
+#~ msgstr "使用 ``WiFi.SSID()`` 获取当前已连接网络的SSID。"
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiSSID"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiRSSI"
+#~ msgstr ""
+
+#~ msgid "Use ``WiFi.localIP()`` to get the IP address of Ameba."
+#~ msgstr "使用 ``WiFi.localIP()`` 获取Ameba的IP地址。"
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiLocalIP"
+#~ msgstr ""
+
+#~ msgid "https://www.arduino.cc/en/Reference/WiFiClient"
+#~ msgstr ""
 

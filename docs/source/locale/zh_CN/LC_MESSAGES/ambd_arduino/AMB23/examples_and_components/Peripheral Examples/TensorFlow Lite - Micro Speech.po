@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-12 10:15+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:12
@@ -109,7 +109,9 @@ msgid ""
 "Download the Ameba customized version of TensorFlow Lite for "
 "Microcontrollers library at "
 "https://github.com/ambiot/tree/master/Arduino_zip_libraries."
-msgstr "从以下网址下载TensorFlow Lite for Microcontrollers的Ameba版本 https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries。"
+msgstr ""
+"从以下网址下载TensorFlow Lite for Microcontrollers的Ameba版本 "
+"https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:39
@@ -117,20 +119,25 @@ msgid ""
 "Follow the instructions at "
 "https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries to"
 " install it."
-msgstr "请按照以下说明进行安装操作 https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries。"
+msgstr ""
+"请按照以下说明进行安装操作 https://docs.arduino.cc/software/ide-v1/tutorials"
+"/installing-libraries。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:42
 msgid ""
 "Ensure that the patch files found at "
 "https://github.com/ambiot/tree/master/Ameba_misc/ are also installed."
-msgstr "确保在以下位置找到patch文件并安装 https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/。"
+msgstr ""
+"确保在以下位置找到patch文件并安装 "
+"https://github.com/ambiot/ambd_arduino/tree/master/Ameba_misc/。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:46
+#, fuzzy
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
-"-> “micro_speech”``."
+"Open the example, ``\"Files\" → \"Examples\" → “TensorFlowLite_Ameba” → "
+"“micro_speech”``."
 msgstr "打开范例， “Files” -> “Examples” -> “TensorFlowLite_Ameba” -> “micro_speech”."
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
@@ -214,15 +221,17 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Lite Micro
 #: Speech.rst:77
 msgid ""
 "More information on TensorFlow Lite for Microcontrollers can be found at:"
 " https://www.tensorflow.org/lite/microcontrollers"
-msgstr "有关TensorFlow Lite for Microcontrollers的更多信息，请参考以下网址: https://www.tensorflow.org/lite/microcontrollers"
+msgstr ""
+"有关TensorFlow Lite for Microcontrollers的更多信息，请参考以下网址: "
+"https://www.tensorflow.org/lite/microcontrollers"
 
 #~ msgid "https://github.com/ambiot/ambd_arduino/tree/master/Arduino_zip_libraries."
 #~ msgstr ""

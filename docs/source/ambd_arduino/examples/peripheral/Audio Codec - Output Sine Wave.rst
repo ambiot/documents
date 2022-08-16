@@ -27,7 +27,7 @@ Audio Codec – Output Sine Wave
 | As AMB23 have a built in microphone on the board, there 
   is no need for any external microphone.
 
-Open the example, ``"Files" -> "Examples" -> “AmebaAudioCodec” ->
+Open the example, ``"Files" → "Examples" → “AmebaAudioCodec” →
 “OutputSineWave”``.
 
    |2|

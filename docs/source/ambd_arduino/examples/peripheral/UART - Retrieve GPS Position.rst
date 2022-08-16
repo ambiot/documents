@@ -21,9 +21,19 @@ In this example, we use Adafruit Ultimate GPS Breakout. Its data format
 is pure text, so we can connect it to USB to TTL Adapter and observe the
 output.
 
-|1|
+.. image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image1.png
+   :align: center
+   :width: 1252
+   :height: 294
+   :scale: 50 %
 
-|2| 
+
+
+.. image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image2.png
+   :align: center
+   :width: 649
+   :height: 372
+
 
 It follows the NMEA sentence format (refer to http://aprs.gids.nl/nmea/)
 The GPS signal is weak in indoor environment. 
@@ -31,12 +41,15 @@ The status that the GPS signal is not received is called “not fix”.
 Bring the GPS module outdoors, when the GPS signal is “fix”,
 you would get message similar to the figure below.
 
-|3|
+.. image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image3.png
+   :align: center
+   :width: 777
+   :height: 425
 
-| In this example we are only interested in the “$GPRMC (Global Positioning Recommended
-  Minimum Coordinates)”: 
-| **$GPRMC,032122.000,A,2446.8181,N,12059.7251,E,0.39,78.89,270116,,,A*53** 
-| Each field is separated by a comma.
+In this example we are only interested in the “$GPRMC (Global Positioning Recommended
+Minimum Coordinates)”: 
+**$GPRMC,032122.000,A,2446.8181,N,12059.7251,E,0.39,78.89,270116,,,A*53** 
+Each field is separated by a comma.
 
    -  First field is the GMT time (Greenwich Mean Time), that is 032122.000
       in this example. The time format is HH:MM:SS.SSS, i.e.,
@@ -57,7 +70,10 @@ longitude.
 We can search **+24 46.8181’, +120 59.7251’** in Google map
 to check whether the position is correct.
 
-|4|
+   .. image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image4.png
+      :align: center
+      :width: 1028
+      :height: 651
 
    -  The seventh field is relative speed(knot). 1 knot = 1.852km/hr, in
       this example the relative speed is 0.39 knot.
@@ -69,59 +85,50 @@ to check whether the position is correct.
 
 **AMB21 / AMB22** Wiring Diagram: 
   
-  |5|
-
-**AMB23** Wiring Diagram: 
-  
-  |5-1|
-
-**AMB23** Wiring Diagram: 
-  
-  |5-3|
-
-Open the example in ``“Files” -> “Examples” ->
-“AmebaSoftwareSerial” -> “Adafruit_GPS_parsing”``. 
-
-| Compile and upload to Ameba, then press the reset button. 
-| The result will be output to Serial Monitor: 
-
-  |6| 
-
-  |7|
-
-.. |1| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image1.png
-   :width: 1252
-   :height: 294
-   :scale: 50 %
-.. |2| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image2.png
-   :width: 649
-   :height: 372
-   :scale: 100 %
-.. |3| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image3.png
-   :width: 777
-   :height: 425
-   :scale: 100 %
-.. |4| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image4.png
-   :width: 1028
-   :height: 651
-   :scale: 60 %
-.. |5| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5.png
+.. image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5.png
+   :align: center
    :width: 1295
    :height: 1049
-   :scale: 40 %
-.. |5-1| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5-1.png
+   :scale: 57 %
+
+**AMB23** Wiring Diagram: 
+  
+.. image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5-1.png
+   :align: center
    :width: 1100
    :height: 809
-   :scale: 40 %
-.. |5-3| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5-3.png
+   :scale: 74 %
+
+**BW16** Wiring Diagram: 
+  
+.. image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5-3.png
+   :align: center
    :width: 842
    :height: 590
-   :scale: 60 %
-.. |6| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image6.png
+
+**BW16-TypeC** Wiring Diagram: 
+  
+.. image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image5-4.png
+   :align: center
+   :width: 602
+   :height: 476
+
+Open the example in ``“Files” → “Examples” →
+“AmebaSoftwareSerial” → “Adafruit_GPS_parsing”``. 
+
+Compile and upload to Ameba, then press the reset button. 
+The result will be output to Serial Monitor: 
+
+.. image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image6.png
+   :align: center
    :width: 649
    :height: 410
-   :scale: 100 %
-.. |7| image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image7.png
+
+
+.. image:: /media/ambd_arduino/UART_Retrieve_GPS_Position/image7.png
+   :align: center
    :width: 649
    :height: 410
-   :scale: 100 %
+
+
+

@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:3
 #: WDG
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:12
 #: WDG
@@ -52,8 +52,7 @@ msgid ""
 "the Ameba RTL8722 module to illustrate how to use the watchdog API. "
 "Before we get into the details of the example, let’s briefly go through "
 "the definition of Watchdog as well as it’s working principles."
-msgstr "在此範例中，我們將使用在AmebaD AMB21/AMB22/AMB23 上運行的Watchdog計時器範例來說明如何使用Watchdog API。
- 在詳細介紹範例之前，我們先簡要介紹一下“Watchdog”的定義及其工作原理。"
+msgstr "在此範例中，我們將使用在AmebaD AMB21/AMB22/AMB23 上運行的Watchdog計時器範例來說明如何使用Watchdog API"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:23
 #: WDG
@@ -78,8 +77,9 @@ msgid ""
 "it practically impossible to do press on the button all time, therefore, "
 "the watchdog timer that embedded inside the micro-controller would help "
 "with this situation."
-msgstr "一般來說，想像一下您的微控制器陷入無限循環的混亂情況，或者像微控制器在執行某些任務時卡住的任何情況。" 
-"正常的故障排除方法是按下重置按鈕並跳出無限循環。 但是，實際上不可能一直都按下按鈕，因此，嵌入在微控制器內的Watchdog定時器將有助於解決這種情況。"
+msgstr ""
+"一般來說，想像一下您的微控制器陷入無限循環的混亂情況，或者像微控制器在執行某些任務時卡住的任何情況。正常的故障排除方法是按下重置按鈕並跳出無限循環。"
+" 但是，實際上不可能一直都按下按鈕，因此，嵌入在微控制器內的Watchdog定時器將有助於解決這種情況。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:37
 #: WDG
@@ -112,8 +112,9 @@ msgid ""
 "“Big_Task”. We are enabling the watchdog timer is loaded with an initial "
 "value (5 seconds) greater than the total delay in the “Small_Task”, but "
 "shorter than the “Big_Task”."
-msgstr "在我們的範例中，我們創建了2個任務，其中包含一次又一次重複運行的循環，一個稱為Small_Task任務，"
-"另一個稱為Big_Task任務。 我們使Watchdog定時器的初始值（5秒）大於Small_Task任務的總延遲，但比Big_Task任務的延遲短。"
+msgstr ""
+"在我們的範例中，我們創建了2個任務，其中包含一次又一次重複運行的循環，一個稱為Small_Task任務，另一個稱為Big_Task任務。 "
+"我們使Watchdog定時器的初始值（5秒）大於Small_Task任務的總延遲，但比Big_Task任務的延遲短。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:53
 #: WDG
@@ -124,8 +125,9 @@ msgid ""
 "watchdog (dog barks), an interrupt is generated to reset the processor. "
 "Likewise, the watchdog timer protects the micro-controller from the "
 "hanging case."
-msgstr "對於Small_Task任務的情況，Watchdog將在5秒內刷新/餵食，但是，對於Big_Task任務的情況，循環正在處理中，"
-"並且Watchdog在5秒後仍不刷新，這會觸發Watchdog 以重置處理器。 同樣，Watchdog定時器可以保護微控制器免受卡住情況的影響。"
+msgstr ""
+"對於Small_Task任務的情況，Watchdog將在5秒內刷新/餵食，但是，對於Big_Task任務的情況，循環正在處理中，並且Watchdog在5秒後仍不刷新，這會觸發Watchdog"
+" 以重置處理器。 同樣，Watchdog定時器可以保護微控制器免受卡住情況的影響。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:56
 #: WDG
@@ -136,13 +138,17 @@ msgstr "然後我們開始說明本範例的編碼部分，對於本範例，您
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:61
 #: WDG
+#, fuzzy
 msgid ""
 "Firstly, make sure the correct Ameba development board is selected in "
-"Arduino IDE: ``“Tools” -> “Board” -> “RTL8722CSM/RTL8722DM” (or "
-"“RTL8722DM MINI”)``. Then open the “Watchdog Timer” example in ``“File” "
-"-> “Examples” -> “AmebaWatchdog” -> “Watchdog Timer”``:"
-msgstr "首先，確保在Arduino IDE中選擇了正確的Ameba開發板：“Tools”->“Board”->“RTL8722CSM/RTL8722DM”(或 “RTL8722DM MINI”)。"
-"然後在“File”->“Examples”->“AmebaWatchdog”->“Watchdog Timer”中打開“Watchdog Timer”範例："
+"Arduino IDE: ``“Tools” → “Board” → “RTL8722CSM/RTL8722DM” (or “RTL8722DM "
+"MINI”)``. Then open the “Watchdog Timer” example in ``“File” → “Examples”"
+" → “AmebaWatchdog” → “Watchdog Timer”``:"
+msgstr ""
+"首先，確保在Arduino "
+"IDE中選擇了正確的Ameba開發板：“Tools”->“Board”->“RTL8722CSM/RTL8722DM”(或 “RTL8722DM "
+"MINI”)。然後在“File”->“Examples”->“AmebaWatchdog”->“Watchdog "
+"Timer”中打開“Watchdog Timer”範例："
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:63
 #: WDG
@@ -162,8 +168,9 @@ msgid ""
 "the watchdog within the 5 seconds (initialized in the watchdog timer). "
 "However, the “Big_Task” will not be able to refresh the watchdog within 5"
 " seconds, which the watchdog “barks” then the microcontroller reset."
-msgstr "成功上傳範例代碼後，打開串行監視器，然後按重置按鈕。"
-"您會發現Small_Task任務可以在5秒內刷新Watchdog（初始化Watchdog定時器）。 但是，Big_Task任務將無法在5秒內刷新Watchdog，這將導致微控制器重置。"
+msgstr ""
+"成功上傳範例代碼後，打開串行監視器，然後按重置按鈕。您會發現Small_Task任務可以在5秒內刷新Watchdog（初始化Watchdog定時器）。"
+" 但是，Big_Task任務將無法在5秒內刷新Watchdog，這將導致微控制器重置。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Watchdog Simple Timer.rst:71
 #: WDG

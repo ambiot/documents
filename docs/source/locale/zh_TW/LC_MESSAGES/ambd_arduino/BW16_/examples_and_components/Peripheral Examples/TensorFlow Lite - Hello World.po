@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-23 09:37+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,9 +87,10 @@ msgstr "確保在以下位置找到patch文件並安裝https://github.com/ambiot
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite
 #: World.rst:32
+#, fuzzy
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “TensorFlowLite_Ameba” "
-"-> “hello_world”``."
+"Open the example, ``\"Files\" → \"Examples\" → “TensorFlowLite_Ameba” → "
+"“hello_world”``."
 msgstr "打開範例，”Files” -> “Examples” -> “TensorFlowLite_Ameba” -> “hello_world”."
 
 #: - ../../source/ambd_arduino/examples/peripheral/TensorFlow Hello Lite

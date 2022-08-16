@@ -27,7 +27,7 @@ using USB.
 Procedure
 ---------
 
-Open the example, ``"Files" -> "Examples" -> “AmebaUSB” ->
+Open the example, ``"Files" → "Examples" → “AmebaUSB” →
 “USBHIDGamepad”``.
 
 |1|
@@ -50,8 +50,8 @@ here, and some of the buttons and axes should show changing values.
 
 On Windows, gamepad input can also be viewed by going to 
 
-**“Control Panel”-> “Devices and Printers” -> “Realtek USB HID” -> “Game Controller
-Settings” -> “Properties”**
+**“Control Panel”→ “Devices and Printers” → “Realtek USB HID” → “Game Controller
+Settings” → “Properties”**
 
 The buttons and axes should also show
 changing values here.

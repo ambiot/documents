@@ -19,7 +19,7 @@ NTP - Retrieve Universal Time (UTC) by NTPClient library
 In this example, we use an NTP client to sync with NTP 
 servers using UDP and keep track of time locally. 
 Open the example. 
-``“File” -> “Examples”-> “NTPClient” -> “Advanced”``
+``“File” → “Examples”→ “NTPClient” → “Advanced”``
 
   |image1|
 
@@ -43,7 +43,7 @@ Open the example.
   constructor, along with an NTP server address, time zone offset in
   seconds, and update interval in milliseconds. If detailed configuration
   is not needed, just passing in the UDP client is also sufficient, refer
-  to the “NTPClient” -> “Basic” example.
+  to the “NTPClient” → “Basic” example.
 
 .. code-block:: c
 

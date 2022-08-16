@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:3
 #: File From HTML Open Read SD
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:12
 #: File From HTML Open Read SD
@@ -55,8 +55,9 @@ msgid ""
 " SD card (Note: put the file at outside and do not put it inside of any "
 "folder in the SD card). Here is a HTML sample for testing, "
 "“Web_test.html”."
-msgstr "將 MicroSD 卡插入電腦，將 HTML 文件複製到 SD 卡中（注意：不要將文件放在 SD 卡的任何資料夾內）。 "
-"這是用於測試的 HTML 範例，“Web_test.html”。"
+msgstr ""
+"將 MicroSD 卡插入電腦，將 HTML 文件複製到 SD 卡中（注意：不要將文件放在 SD 卡的任何資料夾內）。 這是用於測試的 HTML "
+"範例，“Web_test.html”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:21
 #: File From HTML Open Read SD
@@ -77,8 +78,9 @@ msgstr "然後將 MicroSD 卡插入 RTL8722DM MINI 板的 SD 讀卡器。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:24
 #: File From HTML Open Read SD
+#, fuzzy
 msgid ""
-"Open the example, ``“Files” -> “Examples” -> “AmebaFatfsSDIO” -> "
+"Open the example, ``“Files” → “Examples” → “AmebaFatfsSDIO” → "
 "“read_html_from_SD_card”``"
 msgstr "打開範例，“Files”->“Examples”->“AmebaFatfsSDIO”->“read_html_from_SD_card”"
 
@@ -89,8 +91,9 @@ msgid ""
 "finished. When the connection is established, you should be able to see "
 "the message “To see this page in action, open a browser to "
 "http://xxx.xxx.xxx.xxx” in the serial monitor as shown in the figure:"
-msgstr "上傳代碼並在上傳完成後按 Ameba 上的重置按鈕。 建立連接後，您應該能夠在串口監視器中看到消息"
-"“To see this page in action, open a browser to http://xxx.xxx.xxx.xxx”，如下圖："
+msgstr ""
+"上傳代碼並在上傳完成後按 Ameba 上的重置按鈕。 建立連接後，您應該能夠在串口監視器中看到消息“To see this page in "
+"action, open a browser to http://xxx.xxx.xxx.xxx”，如下圖："
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO And Card.rst:27
 #: File From HTML Open Read SD

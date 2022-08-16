@@ -29,7 +29,7 @@ Ensure that the patch files found at
 https://github.com/ambiot/tree/master/Ameba_misc/ are also
 installed.
 
-Open the example, ``"Files" -> "Examples" -> “TensorFlowLite_Ameba” ->
+Open the example, ``"Files" → "Examples" → “TensorFlowLite_Ameba” →
 “hello_world”``.
 
   |1|

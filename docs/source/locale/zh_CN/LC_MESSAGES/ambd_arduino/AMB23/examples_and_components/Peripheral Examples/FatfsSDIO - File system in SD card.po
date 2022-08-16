@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD card.rst:3
 #: in system
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
 #: card.rst:12 in system
@@ -69,8 +69,9 @@ msgstr "**范例 01 create_folder**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
 #: card.rst:25 in system
+#, fuzzy
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaFatfsSDIO” -> "
+"Open the example, ``\"Files\" → \"Examples\" → “AmebaFatfsSDIO” → "
 "“create_folder”``."
 msgstr "打开范例，”Files” -> “Examples” -> “AmebaFatfsSDIO” -> “create_folder”."
 
@@ -97,7 +98,9 @@ msgid ""
 "In the sample code, we first create a folder “testdir”, then text file "
 "“test.txt” with content “hello world!”. Read the file and print content "
 "to serial monitor."
-msgstr "在示例代码中，我们首先创建一个资料夹 “testdir”，然后创建内容为 “hello world！” 的文件 “test.txt”。读取文件并将内容打印到串行监视器。"
+msgstr ""
+"在示例代码中，我们首先创建一个资料夹 “testdir”，然后创建内容为 “hello world！” 的文件 "
+"“test.txt”。读取文件并将内容打印到串行监视器。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
 #: card.rst:34 in system
@@ -133,8 +136,9 @@ msgstr "**范例 02 file_read_write**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
 #: card.rst:44 in system
+#, fuzzy
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaFatfsSDIO” -> "
+"Open the example, ``\"Files\" → \"Examples\" → “AmebaFatfsSDIO” → "
 "“file_read_write”``."
 msgstr "打开范例， “Files” -> “Examples” -> “AmebaFatfsSDIO” -> “file_read_write”."
 
@@ -143,7 +147,9 @@ msgstr "打开范例， “Files” -> “Examples” -> “AmebaFatfsSDIO” ->
 msgid ""
 "In the sample code, we create text file “test.txt” with content “hello "
 "world!”. Read the file and print content to serial monitor."
-msgstr "上传代码并在上传完成后按Ameba上的重置按钮。在示例代码中，我们创建内容为 “hello world！”的文件 “test.txt”。读取文件并将内容打印到串行监视器。"
+msgstr ""
+"上传代码并在上传完成后按Ameba上的重置按钮。在示例代码中，我们创建内容为 “hello world！”的文件 "
+"“test.txt”。读取文件并将内容打印到串行监视器。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
 #: card.rst:50 in system
@@ -172,8 +178,9 @@ msgstr "**范例 03 get_file_attribute**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
 #: card.rst:60 in system
+#, fuzzy
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaFatfsSDIO” -> "
+"Open the example, ``\"Files\" → \"Examples\" → “AmebaFatfsSDIO” → "
 "“get_file_attribute”``."
 msgstr "打开范例，”Files” -> “Examples” -> “AmebaFatfsSDIO” -> “get_file_attribute”."
 
@@ -200,7 +207,9 @@ msgid ""
 "Next, insert SD card into card reader, and check whether the operations "
 "succeeded. In this case, we already know the attribute should be folder "
 "“testdir” and text file “test.txt”by refer the above pictures."
-msgstr "接下来，将SD卡插入读卡器，并检查操作是否成功。在这种情况下，通过参考上面的图片，我们已经知道属性应为文件夹 “testdir” 和文件 “test.txt”。"
+msgstr ""
+"接下来，将SD卡插入读卡器，并检查操作是否成功。在这种情况下，通过参考上面的图片，我们已经知道属性应为文件夹 “testdir” 和文件 "
+"“test.txt”。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
 #: card.rst:72 in system
@@ -209,8 +218,9 @@ msgstr "**范例 04 last_modified_time**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
 #: card.rst:75 in system
+#, fuzzy
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaFatfsSDIO” -> "
+"Open the example, ``\"Files\" → \"Examples\" → “AmebaFatfsSDIO” → "
 "“last_modified_time”``."
 msgstr "打开范例， “Files” -> “Examples” -> “AmebaFatfsSDIO” -> “last_modified_time”."
 
@@ -248,8 +258,9 @@ msgstr "**范例 05 list_root_files**"
 
 #: - ../../source/ambd_arduino/examples/peripheral/FatfsSDIO File SD
 #: card.rst:91 in system
+#, fuzzy
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaFatfsSDIO” -> "
+"Open the example, ``\"Files\" → \"Examples\" → “AmebaFatfsSDIO” → "
 "“list_root_files”``."
 msgstr "打开范例，”Files” -> “Examples” -> “AmebaFatfsSDIO” -> “list_root_files”."
 
@@ -274,5 +285,7 @@ msgid ""
 "Next, insert SD card into card reader, and check whether the operations "
 "succeeded. In this case, we already know the root files folder “testdir” "
 "and text file “test.txt”by refer the above pictures."
-msgstr "接下来，将SD卡插入读卡器，并检查操作是否成功。在这种情况下，通过参考上面的图片，我们可以知道根目录文件夹 “testdir” 和文件 “test.txt”。"
+msgstr ""
+"接下来，将SD卡插入读卡器，并检查操作是否成功。在这种情况下，通过参考上面的图片，我们可以知道根目录文件夹 “testdir” 和文件 "
+"“test.txt”。"
 

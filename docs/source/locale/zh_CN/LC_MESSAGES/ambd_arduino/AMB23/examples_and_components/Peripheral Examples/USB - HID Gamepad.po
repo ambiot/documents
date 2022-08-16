@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-17 08:18+0100\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,8 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:13 HID
 msgid "AmebaD [ AMB21 / AMB22 / AMB23 ] x 1"
@@ -60,8 +60,9 @@ msgid "Procedure"
 msgstr "步骤"
 
 #: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:30 HID
+#, fuzzy
 msgid ""
-"Open the example, ``\"Files\" -> \"Examples\" -> “AmebaUSB” -> "
+"Open the example, ``\"Files\" → \"Examples\" → “AmebaUSB” → "
 "“USBHIDGamepad”``."
 msgstr "打开范例， ``“Files” -> “Examples” -> “AmebaUSB” -> “USBHIDGamepad”``。"
 
@@ -94,7 +95,9 @@ msgid ""
 "To view the input, open a browser window and go to https://gamepad-"
 "tester.com/. The connected gamepad device should show up here, and some "
 "of the buttons and axes should show changing values."
-msgstr "要查看输入，请打开浏览器并存取 https://gamepad-tester.com/。连接的游戏控制器应显示在此处，并且一些按钮和轴应显示变化的值。"
+msgstr ""
+"要查看输入，请打开浏览器并存取 https://gamepad-"
+"tester.com/。连接的游戏控制器应显示在此处，并且一些按钮和轴应显示变化的值。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:49 HID
 msgid "|2|"
@@ -110,8 +113,8 @@ msgstr "在 Windows 上，也可以通过"
 
 #: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:53 HID
 msgid ""
-"**“Control Panel”-> “Devices and Printers” -> “Realtek USB HID” -> “Game "
-"Controller Settings” -> “Properties”**"
+"**“Control Panel”→ “Devices and Printers” → “Realtek USB HID” → “Game "
+"Controller Settings” → “Properties”**"
 msgstr ""
 
 #: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:56 HID
@@ -139,8 +142,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码"
-"说明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式码说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/USB Gamepad.rst:67 HID
 msgid ""
@@ -149,9 +152,16 @@ msgid ""
 "dependent on the host device, and the button ordering may differ between "
 "devices. Also, some axes or buttons may be disabled or missing on certain"
 " host devices."
-msgstr "默认情况下，该开发板模拟一个带有 8 个方向开关 (d-pad)、6 个模拟轴和 16 个按钮的游戏控制器。"
-"输入的解释方式取决于主机设备，并且按钮顺序可能因设备而异。此外，某些主机设备上的某些轴或按钮可能被禁用。"
+msgstr ""
+"默认情况下，该开发板模拟一个带有 8 个方向开关 (d-pad)、6 个模拟轴和 16 "
+"个按钮的游戏控制器。输入的解释方式取决于主机设备，并且按钮顺序可能因设备而异。此外，某些主机设备上的某些轴或按钮可能被禁用。"
 
 #~ msgid "USB HID Gamepad"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**“Control Panel”-> “Devices and Printers” "
+#~ "-> “Realtek USB HID” -> “Game "
+#~ "Controller Settings” -> “Properties”**"
 #~ msgstr ""
 

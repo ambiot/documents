@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 03:07+0000\n"
+"POT-Creation-Date: 2022-08-12 04:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:3 Flash Larger
 #: Memory Than Use
@@ -28,8 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
-":raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:12 Flash Larger
 #: Memory Than Use
@@ -51,13 +51,16 @@ msgid ""
 "Flash Memory API uses memory of 4K bytes, which is normally sufficient "
 "for most application. However, larger memory can be provided by "
 "specifying a specific memory address and required size."
-msgstr "Flash Memory API預設使用4K大小的memory，對大部份的應用應該已經足夠，但如果遇到需要用到超過4K的情況，可以指定特定的位置與大小來使用。"
+msgstr ""
+"Flash Memory "
+"API預設使用4K大小的memory，對大部份的應用應該已經足夠，但如果遇到需要用到超過4K的情況，可以指定特定的位置與大小來使用。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:23 Flash Larger
 #: Memory Than Use
+#, fuzzy
 msgid ""
-"First, open the sample code in ``“File” -> “Examples” -> "
-"“AmebaFlashMemory” -> “ReadWriteOneWord”``"
+"First, open the sample code in ``“File” → “Examples” → “AmebaFlashMemory”"
+" → “ReadWriteOneWord”``"
 msgstr "首先打開範例 “File” -> “Examples” -> “AmebaFlashMemory” -> “ReadWriteOneWord”"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:27 Flash Larger
@@ -75,8 +78,9 @@ msgid ""
 "perform read/write operation. In the sample code we use offset 0x3F00, "
 "that is, 0xFC000 + 0x3F00 = 0xFFF00 in flash. We set the value to 0 at "
 "first, then increase by 1 every time Ameba reboots."
-msgstr "然後根據offset對特定位置做讀寫。範例裡使用offset 0x3F00，"
-"即Flash位置0xFC000 + 0x3F00 = 0xFFF00。第一次讀出來將值設定成0，之後每次開機都加1。"
+msgstr ""
+"然後根據offset對特定位置做讀寫。範例裡使用offset 0x3F00，即Flash位置0xFC000 + 0x3F00 = "
+"0xFFF00。第一次讀出來將值設定成0，之後每次開機都加1。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:33 Flash Larger
 #: Memory Than Use
@@ -94,8 +98,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code "
 "Reference** :raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼"
-"説明** :raw-html:`</p>`"
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **程式碼説明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:39 Flash Larger
 #: Memory Than Use
@@ -103,8 +107,9 @@ msgid ""
 "We can use the flash api we used in previous flash memory example, but we"
 " need to use ``begin()`` function to specify the desired starting address"
 " and memory size."
-msgstr "之前的Flash API可以直接使用，但預設起始位置為0xFF000，大小為0x1000，"
-"如果要使用別的設定，則要呼叫begin()，範例裡第一個參數是起始位置，第二個參數是大小。"
+msgstr ""
+"之前的Flash "
+"API可以直接使用，但預設起始位置為0xFF000，大小為0x1000，如果要使用別的設定，則要呼叫begin()，範例裡第一個參數是起始位置，第二個參數是大小。"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:47 Flash Larger
 #: Memory Than Use
@@ -113,8 +118,9 @@ msgid ""
 "example, we read the value stored in memory offset 0x3F00, that is "
 "0xFC000 + 0x3F00 = 0xFFF00. ``readWord()`` function reads a 32-bit value "
 "and returns it."
-msgstr "要讀出這個區塊的值，使用readWord()，範例裡讀出offset 0x3F00的地方，"
-"也就是0xFC000 + 0x3F00 = 0xFFF00的位置，讀出來的大小為32-bit，放在回傳值裡"
+msgstr ""
+"要讀出這個區塊的值，使用readWord()，範例裡讀出offset 0x3F00的地方，也就是0xFC000 + 0x3F00 = "
+"0xFFF00的位置，讀出來的大小為32-bit，放在回傳值裡"
 
 #: - ../../source/ambd_arduino/examples/peripheral/Flash 4K.rst:56 Flash Larger
 #: Memory Than Use

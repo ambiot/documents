@@ -24,7 +24,7 @@ As AMB23 have a built in microphone on the board, there is no need for any exter
 
 **Example 01 - PlaybackWavFile**
 
-| Open the example, ``“Files” -> “Examples” -> “AmebaAudioCodec” -> “PlaybackWavFile”``.
+| Open the example, ``“Files” → “Examples” → “AmebaAudioCodec” → “PlaybackWavFile”``.
 
   |image2|
 
@@ -33,7 +33,7 @@ Insert earphone/speaker into the onboard jack for playing the sample sound.
 
 **Example 02 - RecordWavFile**
 
-| Open the example, ``“Files” -> “Examples” -> “AmebaAudioCodec” -> “RecordWavFile”``.
+| Open the example, ``“Files” → “Examples” → “AmebaAudioCodec” → “RecordWavFile”``.
 
   |image3|
 
@@ -43,7 +43,7 @@ Insert earphone/speaker into the onboard jack for playing the sample sound.
 
 **Example 03 - RecordPlaybackWav**
 
-| Open the example, ``“Files” -> “Examples” -> “AmebaAudioCodec” -> “RecordPlaybackWav”``.
+| Open the example, ``“Files” → “Examples” → “AmebaAudioCodec” → “RecordPlaybackWav”``.
 
   |image4|
 
