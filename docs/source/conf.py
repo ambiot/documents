@@ -13,6 +13,13 @@
 #import os
 #import sys
 #sys.path.insert(0, os.path.abspath('.'))
+
+try:
+    from typing import Union
+except ImportError:
+    from types import Union  # fallback, unlikely needed
+
+
 import sphinx_rtd_theme
 # import sphinxemoji
 
