@@ -3,6 +3,34 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+Thanks for visit our page!
+==========================
+
+ |image-wam|
+
+Please refer to our new page
+============================
+`The new page <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/>`_
+
+You may continue to access the old page for now. Please scroll down to view the content.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ########################################################
 Welcome to Ameba IoT Family Online SDK Documentation!
 ########################################################
@@ -38,3 +66,5 @@ Welcome to Ameba IoT Family Online SDK Documentation!
    :width: 1720
    :height: 706
    :scale: 40 %
+
+.. |image-wam| image:: /media/wam.jpg
