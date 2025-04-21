@@ -14,13 +14,6 @@ build:
     # nodejs: "19"
     # rust: "1.64"
     # golang: "1.19"
-  commands:
-    - echo "Installing requirements..."
-    - pip install -r docs/source/requirements.txt
-    - echo "Checking Sphinx version..."
-    - sphinx-build --version  # Check if sphinx-build is available
-    - echo "Building Sphinx documentation..."
-    - sphinx-build -b html docs/source/ $READTHEDOCS_OUTPUT/html
 
 # Optional but recommended, declare the Python requirements required
 # to build your documentation
