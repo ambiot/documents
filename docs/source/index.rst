@@ -8,28 +8,30 @@ Thanks for visit our page!
 
  |image-wam|
 
-Please refer to our new page
-============================
-`The new page <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/>`_
+Please refer to our `new page <https://ameba-doc-arduino-sdk.readthedocs-hosted.com/en/latest/>`_
+=================================================================================================
 
 You may continue to access the old page for now. Please scroll down to view the content.
+========================================================================================
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+.. raw:: html
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
 
 ########################################################
 Welcome to Ameba IoT Family Online SDK Documentation!
@@ -68,3 +70,4 @@ Welcome to Ameba IoT Family Online SDK Documentation!
    :scale: 40 %
 
 .. |image-wam| image:: /media/wam.jpg
+   :scale: 80 %
